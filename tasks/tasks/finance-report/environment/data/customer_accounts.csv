@@ -1,0 +1,62 @@
+customer_id,customer_name,plan,region,q2_end_mrr_usd,q3_end_mrr_usd,q3_status,include_in_report
+C001,Juniper Freight,Enterprise,NA,45000,50000,Expanded,yes
+C002,Mosaic Healthworks,Enterprise,EMEA,44000,44000,Renewed,yes
+C003,Vector Forge,Enterprise,APAC,38000,42000,In renewal,yes
+C004,Harbor & Pine,Enterprise,NA,33000,33500,At risk,yes
+C005,Lumen Foods,Enterprise,EMEA,30000,31500,Renewed,yes
+C006,Quarry Labs,Enterprise,APAC,17350,18950,Expanded,yes
+C007,Copperline Retail,Scale,NA,17430,16730,Stable,yes
+C008,Bright Hollow,Scale,EMEA,17510,17510,Stable,yes
+C009,Northstar Bio,Enterprise,APAC,17590,18040,Expanded,yes
+C010,Tidewell Energy,Enterprise,NA,17670,18570,Expanded,yes
+C011,Redwood Signal,Scale,EMEA,16200,17450,Expanded,yes
+C012,Nimbus Works,Scale,APAC,16280,17880,Expanded,yes
+C013,Lantern Grove,Scale,NA,16360,15660,Stable,yes
+C014,Kindred Supply,Scale,EMEA,16440,16440,Stable,yes
+C015,Cedar Metric,Scale,APAC,16520,16970,Expanded,yes
+C016,Stonecrop Media,Scale,NA,15050,15950,Expanded,yes
+C017,Blue Finch,Scale,EMEA,15130,16380,Expanded,yes
+C018,Summit Parcel,Scale,APAC,15210,16810,At risk,yes
+C019,Orbit & Field,Scale,NA,15290,14590,Stable,yes
+C020,Crownleaf Studio,Scale,EMEA,15370,15370,Stable,yes
+C021,Amber Analytics,Scale,APAC,13900,14350,Expanded,yes
+C022,Clear Health,Scale,NA,13980,14880,Expanded,yes
+C023,Drift Partners,Scale,EMEA,14060,15310,Expanded,yes
+C024,Ever Ventures,Scale,APAC,14140,15740,Expanded,yes
+C025,Fable Dynamics,Scale,NA,14220,13520,Stable,yes
+C026,Green Networks,Scale,EMEA,12750,12750,Stable,yes
+C027,Highland Systems,Scale,APAC,12830,13280,Expanded,yes
+C028,Iris Commerce,Scale,NA,12910,13810,Expanded,yes
+C029,Keystone Logistics,Scale,EMEA,12990,14240,Expanded,yes
+C030,Lake Robotics,Scale,APAC,13070,14670,Expanded,yes
+C031,Meridian Analytics,Scale,NA,11600,10900,Stable,yes
+C032,Novel Health,Scale,EMEA,11680,11680,Stable,yes
+C033,Oak Partners,Scale,APAC,11760,12210,Expanded,yes
+C034,Prairie Ventures,Scale,NA,11840,12740,Expanded,yes
+C035,Quiet Dynamics,Scale,EMEA,11920,13170,Expanded,yes
+C036,Ridge Networks,Scale,APAC,10450,12050,Expanded,yes
+C037,Silver Systems,Scale,NA,10530,9830,Stable,yes
+C038,True Commerce,Scale,EMEA,10610,10610,Stable,yes
+C039,Union Logistics,Scale,APAC,10690,11140,Expanded,yes
+C040,West Robotics,Scale,NA,10770,11670,Expanded,yes
+C041,Amber Analytics,Scale,EMEA,9300,10550,Expanded,yes
+C042,Clear Health,Scale,APAC,9380,10980,At risk,yes
+C043,Drift Partners,Growth,NA,9460,8760,Stable,yes
+C044,Ever Ventures,Scale,EMEA,9540,9540,Stable,yes
+C045,Fable Dynamics,Scale,APAC,9620,10070,Expanded,yes
+C046,Green Networks,Scale,NA,8150,9050,Expanded,yes
+C047,Highland Systems,Scale,EMEA,8230,9480,Expanded,yes
+C048,Iris Commerce,Scale,APAC,8310,9910,Expanded,yes
+C049,Keystone Logistics,Growth,NA,8390,7690,Stable,yes
+C050,Lake Robotics,Growth,EMEA,8470,8470,Stable,yes
+C051,Meridian Analytics,Growth,APAC,7000,7450,Expanded,yes
+C052,Novel Health,Growth,NA,7080,7980,Expanded,yes
+C053,Oak Partners,Growth,EMEA,7160,8410,Expanded,yes
+C054,Prairie Ventures,Growth,APAC,7240,8840,Expanded,yes
+C055,Quiet Dynamics,Growth,NA,7320,6620,Stable,yes
+C056,Ridge Networks,Growth,EMEA,5850,5850,Stable,yes
+C057,Silver Systems,Growth,APAC,5930,6380,Expanded,yes
+C058,True Commerce,Growth,NA,6010,6910,Expanded,yes
+C059,Union Logistics,Growth,EMEA,6090,7340,Expanded,yes
+C060,West Robotics,Enterprise,APAC,-21630,20870,Expanded,yes
+C999,Internal Demo Tenant,Enterprise,NA,99000,125000,Internal,no

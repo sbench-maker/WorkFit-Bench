@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__benchmark_measurements",
+      "title": "Benchmark measurements and comparisons",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Per-benchmark checkpoint and reference means and uncertainty are correctly aggregated from compatible seeds, and checkpoint deltas versus the external baseline are correct across the required suite.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_measurement_coverage_and_values",
+        "test_external_baseline_comparisons"
+      ]
+    },
+    {
+      "id": "completion__comparability_handling",
+      "title": "Comparability and failed-run handling",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Failed or protocol-incompatible runs are identified with useful reasons and excluded from the affected aggregate counts without excluding valid runs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_comparability_exclusions",
+        "test_affected_valid_seed_counts"
+      ]
+    },
+    {
+      "id": "completion__release_decision",
+      "title": "Release decision consistency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report recommends the highest-step checkpoint that passes every supplied release gate and explicitly holds the newer checkpoint that fails policy.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_release_decision"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__benchmark_measurements",
+        "title": "Benchmark measurements and comparisons",
+        "required_score": 10
+      },
+      {
+        "id": "completion__comparability_handling",
+        "title": "Comparability and failed-run handling",
+        "required_score": 10
+      },
+      {
+        "id": "completion__release_decision",
+        "title": "Release decision consistency",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

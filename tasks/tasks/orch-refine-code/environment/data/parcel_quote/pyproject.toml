@@ -1,0 +1,13 @@
+[build-system]
+requires = []
+build-backend = ""
+
+[project]
+name = "parcel-quote-fixture"
+version = "1.4.2"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

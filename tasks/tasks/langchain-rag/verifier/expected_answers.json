@@ -1,0 +1,935 @@
+{
+  "Q01-1": {
+    "directive": "Open a Sentinel case, verify two factors, and route the reset to the duty manager; never restore access directly from chat.",
+    "required_groups": [
+      [
+        "sentinel"
+      ],
+      [
+        "two factors",
+        "2 factors",
+        "two-factor"
+      ],
+      [
+        "duty manager"
+      ],
+      [
+        "never",
+        "do not"
+      ]
+    ],
+    "source_id": "ORB-54-EU-AGE-ACT#account-recovery",
+    "status": "answered"
+  },
+  "Q01-2": {
+    "directive": "At 72% queue pressure sustained for 6 minutes, enable drain mode and page Team Cobalt.",
+    "required_groups": [
+      [
+        "72"
+      ],
+      [
+        "6"
+      ],
+      [
+        "drain"
+      ],
+      [
+        "Cobalt"
+      ]
+    ],
+    "source_id": "ORB-54-EU-AGE-ACT#queue-pressure",
+    "status": "answered"
+  },
+  "Q01-3": {
+    "directive": "Obtain duty manager approval under ticket category CHG-ORB-210 before changing production settings.",
+    "required_groups": [
+      [
+        "duty manager"
+      ],
+      [
+        "CHG-ORB-210"
+      ],
+      [
+        "before"
+      ]
+    ],
+    "source_id": "ORB-54-EU-AGE-ACT#change-approval",
+    "status": "answered"
+  },
+  "Q01-4": {
+    "directive": "Acknowledge severity-two incidents within 11 minutes and post updates every 25 minutes.",
+    "required_groups": [
+      [
+        "11"
+      ],
+      [
+        "25"
+      ],
+      [
+        "minutes"
+      ],
+      [
+        "update"
+      ]
+    ],
+    "source_id": "ORB-54-EU-AGE-ACT#severity-two",
+    "status": "answered"
+  },
+  "Q02-1": {
+    "directive": "Retain audit bundles for 120 days, then purge them in the next signed disposal cycle.",
+    "required_groups": [
+      [
+        "120"
+      ],
+      [
+        "days"
+      ],
+      [
+        "purge",
+        "disposal"
+      ]
+    ],
+    "source_id": "ORB-54-US-AGE-ACT#audit-retention",
+    "status": "answered"
+  },
+  "Q02-2": {
+    "directive": "Use the Wednesday 02:00-04:00 local maintenance window and announce the start 30 minutes ahead.",
+    "required_groups": [
+      [
+        "Wednesday"
+      ],
+      [
+        "02:00"
+      ],
+      [
+        "04:00"
+      ],
+      [
+        "30"
+      ]
+    ],
+    "source_id": "ORB-54-US-AGE-ACT#maintenance-window",
+    "status": "answered"
+  },
+  "Q02-3": {
+    "directive": "Protect exported support bundles with envelope-B and rotate the wrapping key after each completed job.",
+    "required_groups": [
+      [
+        "envelope-B"
+      ],
+      [
+        "rotate"
+      ],
+      [
+        "each",
+        "every"
+      ]
+    ],
+    "source_id": "ORB-54-US-AGE-ACT#encryption-mode",
+    "status": "answered"
+  },
+  "Q02-4": {
+    "directive": "Record actor, tenant, before-state hash, after-state hash, and marker trace-orb-42 for every privileged change.",
+    "required_groups": [
+      [
+        "actor"
+      ],
+      [
+        "tenant"
+      ],
+      [
+        "before-state",
+        "before state"
+      ],
+      [
+        "after-state",
+        "after state"
+      ],
+      [
+        "trace-orb-42"
+      ]
+    ],
+    "source_id": "ORB-54-US-AGE-ACT#audit-fields",
+    "status": "answered"
+  },
+  "Q03-1": {
+    "directive": "Acknowledge severity-two incidents within 13 minutes and post updates every 29 minutes.",
+    "required_groups": [
+      [
+        "13"
+      ],
+      [
+        "29"
+      ],
+      [
+        "minutes"
+      ],
+      [
+        "update"
+      ]
+    ],
+    "source_id": "ORB-55-GLOBAL-ADM-ACT#severity-two",
+    "status": "answered"
+  },
+  "Q03-2": {
+    "directive": "Freeze writes, restore signed snapshot S33, run the checksum gate, and only then reopen traffic.",
+    "required_groups": [
+      [
+        "freeze writes"
+      ],
+      [
+        "S33"
+      ],
+      [
+        "checksum"
+      ],
+      [
+        "reopen traffic"
+      ]
+    ],
+    "source_id": "ORB-55-GLOBAL-ADM-ACT#rollback-sequence",
+    "status": "answered"
+  },
+  "Q03-3": {
+    "directive": "Open a Sentinel case, verify two factors, and route the reset to the platform owner; never restore access directly from chat.",
+    "required_groups": [
+      [
+        "sentinel"
+      ],
+      [
+        "two factors",
+        "2 factors",
+        "two-factor"
+      ],
+      [
+        "platform owner"
+      ],
+      [
+        "never",
+        "do not"
+      ]
+    ],
+    "source_id": "ORB-55-GLOBAL-ADM-ACT#account-recovery",
+    "status": "answered"
+  },
+  "Q03-4": {
+    "directive": "At 78% queue pressure sustained for 10 minutes, enable drain mode and page Team Kestrel.",
+    "required_groups": [
+      [
+        "78"
+      ],
+      [
+        "10"
+      ],
+      [
+        "drain"
+      ],
+      [
+        "Kestrel"
+      ]
+    ],
+    "source_id": "ORB-55-GLOBAL-ADM-ACT#queue-pressure",
+    "status": "answered"
+  },
+  "Q04-1": {
+    "directive": "Record actor, tenant, before-state hash, after-state hash, and marker trace-orb-44 for every privileged change.",
+    "required_groups": [
+      [
+        "actor"
+      ],
+      [
+        "tenant"
+      ],
+      [
+        "before-state",
+        "before state"
+      ],
+      [
+        "after-state",
+        "after state"
+      ],
+      [
+        "trace-orb-44"
+      ]
+    ],
+    "source_id": "ORB-55-EU-MAN-ACT#audit-fields",
+    "status": "answered"
+  },
+  "Q04-2": {
+    "directive": "Cap each export at 29,250 records and split larger approved jobs into numbered parts.",
+    "required_groups": [
+      [
+        "29250"
+      ],
+      [
+        "records"
+      ],
+      [
+        "split",
+        "numbered parts"
+      ]
+    ],
+    "source_id": "ORB-55-EU-MAN-ACT#export-ceiling",
+    "status": "answered"
+  },
+  "Q04-3": {
+    "directive": "Retain audit bundles for 150 days, then purge them in the next signed disposal cycle.",
+    "required_groups": [
+      [
+        "150"
+      ],
+      [
+        "days"
+      ],
+      [
+        "purge",
+        "disposal"
+      ]
+    ],
+    "source_id": "ORB-55-EU-MAN-ACT#audit-retention",
+    "status": "answered"
+  },
+  "Q04-4": {
+    "directive": "Use the Saturday 04:00-06:00 local maintenance window and announce the start 30 minutes ahead.",
+    "required_groups": [
+      [
+        "Saturday"
+      ],
+      [
+        "04:00"
+      ],
+      [
+        "06:00"
+      ],
+      [
+        "30"
+      ]
+    ],
+    "source_id": "ORB-55-EU-MAN-ACT#maintenance-window",
+    "status": "answered"
+  },
+  "Q05-1": {
+    "directive": "At 84% queue pressure sustained for 6 minutes, enable drain mode and page Team Cobalt.",
+    "required_groups": [
+      [
+        "84"
+      ],
+      [
+        "6"
+      ],
+      [
+        "drain"
+      ],
+      [
+        "Cobalt"
+      ]
+    ],
+    "source_id": "LED-32-EU-ANA-ACT#queue-pressure",
+    "status": "answered"
+  },
+  "Q05-2": {
+    "directive": "Obtain duty manager approval under ticket category CHG-LED-214 before changing production settings.",
+    "required_groups": [
+      [
+        "duty manager"
+      ],
+      [
+        "CHG-LED-214"
+      ],
+      [
+        "before"
+      ]
+    ],
+    "source_id": "LED-32-EU-ANA-ACT#change-approval",
+    "status": "answered"
+  },
+  "Q05-3": {
+    "directive": "Acknowledge severity-two incidents within 15 minutes and post updates every 33 minutes.",
+    "required_groups": [
+      [
+        "15"
+      ],
+      [
+        "33"
+      ],
+      [
+        "minutes"
+      ],
+      [
+        "update"
+      ]
+    ],
+    "source_id": "LED-32-EU-ANA-ACT#severity-two",
+    "status": "answered"
+  },
+  "Q05-4": {
+    "directive": "Freeze writes, restore signed snapshot S35, run the checksum gate, and only then reopen traffic.",
+    "required_groups": [
+      [
+        "freeze writes"
+      ],
+      [
+        "S35"
+      ],
+      [
+        "checksum"
+      ],
+      [
+        "reopen traffic"
+      ]
+    ],
+    "source_id": "LED-32-EU-ANA-ACT#rollback-sequence",
+    "status": "answered"
+  },
+  "Q06-1": {
+    "directive": "Use the Wednesday 02:00-04:00 local maintenance window and announce the start 30 minutes ahead.",
+    "required_groups": [
+      [
+        "Wednesday"
+      ],
+      [
+        "02:00"
+      ],
+      [
+        "04:00"
+      ],
+      [
+        "30"
+      ]
+    ],
+    "source_id": "LED-32-US-ANA-ACT#maintenance-window",
+    "status": "answered"
+  },
+  "Q06-2": {
+    "directive": "Protect exported support bundles with envelope-B and rotate the wrapping key after each completed job.",
+    "required_groups": [
+      [
+        "envelope-B"
+      ],
+      [
+        "rotate"
+      ],
+      [
+        "each",
+        "every"
+      ]
+    ],
+    "source_id": "LED-32-US-ANA-ACT#encryption-mode",
+    "status": "answered"
+  },
+  "Q06-3": {
+    "directive": "Record actor, tenant, before-state hash, after-state hash, and marker trace-led-46 for every privileged change.",
+    "required_groups": [
+      [
+        "actor"
+      ],
+      [
+        "tenant"
+      ],
+      [
+        "before-state",
+        "before state"
+      ],
+      [
+        "after-state",
+        "after state"
+      ],
+      [
+        "trace-led-46"
+      ]
+    ],
+    "source_id": "LED-32-US-ANA-ACT#audit-fields",
+    "status": "answered"
+  },
+  "Q06-4": {
+    "directive": "Cap each export at 32,750 records and split larger approved jobs into numbered parts.",
+    "required_groups": [
+      [
+        "32750"
+      ],
+      [
+        "records"
+      ],
+      [
+        "split",
+        "numbered parts"
+      ]
+    ],
+    "source_id": "LED-32-US-ANA-ACT#export-ceiling",
+    "status": "answered"
+  },
+  "Q07-1": {
+    "directive": "Freeze writes, restore signed snapshot S37, run the checksum gate, and only then reopen traffic.",
+    "required_groups": [
+      [
+        "freeze writes"
+      ],
+      [
+        "S37"
+      ],
+      [
+        "checksum"
+      ],
+      [
+        "reopen traffic"
+      ]
+    ],
+    "source_id": "LED-33-GLOBAL-ADM-ACT#rollback-sequence",
+    "status": "answered"
+  },
+  "Q07-2": {
+    "directive": "Open a Sentinel case, verify two factors, and route the reset to the platform owner; never restore access directly from chat.",
+    "required_groups": [
+      [
+        "sentinel"
+      ],
+      [
+        "two factors",
+        "2 factors",
+        "two-factor"
+      ],
+      [
+        "platform owner"
+      ],
+      [
+        "never",
+        "do not"
+      ]
+    ],
+    "source_id": "LED-33-GLOBAL-ADM-ACT#account-recovery",
+    "status": "answered"
+  },
+  "Q07-3": {
+    "directive": "At 72% queue pressure sustained for 10 minutes, enable drain mode and page Team Kestrel.",
+    "required_groups": [
+      [
+        "72"
+      ],
+      [
+        "10"
+      ],
+      [
+        "drain"
+      ],
+      [
+        "Kestrel"
+      ]
+    ],
+    "source_id": "LED-33-GLOBAL-ADM-ACT#queue-pressure",
+    "status": "answered"
+  },
+  "Q07-4": {
+    "directive": "Obtain platform owner approval under ticket category CHG-LED-216 before changing production settings.",
+    "required_groups": [
+      [
+        "platform owner"
+      ],
+      [
+        "CHG-LED-216"
+      ],
+      [
+        "before"
+      ]
+    ],
+    "source_id": "LED-33-GLOBAL-ADM-ACT#change-approval",
+    "status": "answered"
+  },
+  "Q08-1": {
+    "directive": "Cap each export at 36,250 records and split larger approved jobs into numbered parts.",
+    "required_groups": [
+      [
+        "36250"
+      ],
+      [
+        "records"
+      ],
+      [
+        "split",
+        "numbered parts"
+      ]
+    ],
+    "source_id": "LED-33-EU-MAN-ACT#export-ceiling",
+    "status": "answered"
+  },
+  "Q08-2": {
+    "directive": "Retain audit bundles for 210 days, then purge them in the next signed disposal cycle.",
+    "required_groups": [
+      [
+        "210"
+      ],
+      [
+        "days"
+      ],
+      [
+        "purge",
+        "disposal"
+      ]
+    ],
+    "source_id": "LED-33-EU-MAN-ACT#audit-retention",
+    "status": "answered"
+  },
+  "Q08-3": {
+    "directive": "Use the Saturday 04:00-06:00 local maintenance window and announce the start 30 minutes ahead.",
+    "required_groups": [
+      [
+        "Saturday"
+      ],
+      [
+        "04:00"
+      ],
+      [
+        "06:00"
+      ],
+      [
+        "30"
+      ]
+    ],
+    "source_id": "LED-33-EU-MAN-ACT#maintenance-window",
+    "status": "answered"
+  },
+  "Q08-4": {
+    "directive": "Protect exported support bundles with vault-wrap and rotate the wrapping key after each completed job.",
+    "required_groups": [
+      [
+        "vault-wrap"
+      ],
+      [
+        "rotate"
+      ],
+      [
+        "each",
+        "every"
+      ]
+    ],
+    "source_id": "LED-33-EU-MAN-ACT#encryption-mode",
+    "status": "answered"
+  },
+  "Q09-1": {
+    "directive": "Obtain duty manager approval under ticket category CHG-SIG-218 before changing production settings.",
+    "required_groups": [
+      [
+        "duty manager"
+      ],
+      [
+        "CHG-SIG-218"
+      ],
+      [
+        "before"
+      ]
+    ],
+    "source_id": "SIG-81-EU-OPE-ACT#change-approval",
+    "status": "answered"
+  },
+  "Q09-2": {
+    "directive": "Acknowledge severity-two incidents within 19 minutes and post updates every 41 minutes.",
+    "required_groups": [
+      [
+        "19"
+      ],
+      [
+        "41"
+      ],
+      [
+        "minutes"
+      ],
+      [
+        "update"
+      ]
+    ],
+    "source_id": "SIG-81-EU-OPE-ACT#severity-two",
+    "status": "answered"
+  },
+  "Q09-3": {
+    "directive": "Freeze writes, restore signed snapshot S39, run the checksum gate, and only then reopen traffic.",
+    "required_groups": [
+      [
+        "freeze writes"
+      ],
+      [
+        "S39"
+      ],
+      [
+        "checksum"
+      ],
+      [
+        "reopen traffic"
+      ]
+    ],
+    "source_id": "SIG-81-EU-OPE-ACT#rollback-sequence",
+    "status": "answered"
+  },
+  "Q09-4": {
+    "directive": "Open a Sentinel case, verify two factors, and route the reset to the duty manager; never restore access directly from chat.",
+    "required_groups": [
+      [
+        "sentinel"
+      ],
+      [
+        "two factors",
+        "2 factors",
+        "two-factor"
+      ],
+      [
+        "duty manager"
+      ],
+      [
+        "never",
+        "do not"
+      ]
+    ],
+    "source_id": "SIG-81-EU-OPE-ACT#account-recovery",
+    "status": "answered"
+  },
+  "Q10-1": {
+    "directive": "Protect exported support bundles with envelope-B and rotate the wrapping key after each completed job.",
+    "required_groups": [
+      [
+        "envelope-B"
+      ],
+      [
+        "rotate"
+      ],
+      [
+        "each",
+        "every"
+      ]
+    ],
+    "source_id": "SIG-81-US-OPE-ACT#encryption-mode",
+    "status": "answered"
+  },
+  "Q10-2": {
+    "directive": "Record actor, tenant, before-state hash, after-state hash, and marker trace-sig-50 for every privileged change.",
+    "required_groups": [
+      [
+        "actor"
+      ],
+      [
+        "tenant"
+      ],
+      [
+        "before-state",
+        "before state"
+      ],
+      [
+        "after-state",
+        "after state"
+      ],
+      [
+        "trace-sig-50"
+      ]
+    ],
+    "source_id": "SIG-81-US-OPE-ACT#audit-fields",
+    "status": "answered"
+  },
+  "Q10-3": {
+    "directive": "Cap each export at 39,750 records and split larger approved jobs into numbered parts.",
+    "required_groups": [
+      [
+        "39750"
+      ],
+      [
+        "records"
+      ],
+      [
+        "split",
+        "numbered parts"
+      ]
+    ],
+    "source_id": "SIG-81-US-OPE-ACT#export-ceiling",
+    "status": "answered"
+  },
+  "Q10-4": {
+    "directive": "Retain audit bundles for 240 days, then purge them in the next signed disposal cycle.",
+    "required_groups": [
+      [
+        "240"
+      ],
+      [
+        "days"
+      ],
+      [
+        "purge",
+        "disposal"
+      ]
+    ],
+    "source_id": "SIG-81-US-OPE-ACT#audit-retention",
+    "status": "answered"
+  },
+  "Q11-1": {
+    "directive": "Open a Sentinel case, verify two factors, and route the reset to the platform owner; never restore access directly from chat.",
+    "required_groups": [
+      [
+        "sentinel"
+      ],
+      [
+        "two factors",
+        "2 factors",
+        "two-factor"
+      ],
+      [
+        "platform owner"
+      ],
+      [
+        "never",
+        "do not"
+      ]
+    ],
+    "source_id": "SIG-82-GLOBAL-ADM-ACT#account-recovery",
+    "status": "answered"
+  },
+  "Q11-2": {
+    "directive": "At 84% queue pressure sustained for 10 minutes, enable drain mode and page Team Kestrel.",
+    "required_groups": [
+      [
+        "84"
+      ],
+      [
+        "10"
+      ],
+      [
+        "drain"
+      ],
+      [
+        "Kestrel"
+      ]
+    ],
+    "source_id": "SIG-82-GLOBAL-ADM-ACT#queue-pressure",
+    "status": "answered"
+  },
+  "Q11-3": {
+    "directive": "Obtain platform owner approval under ticket category CHG-SIG-220 before changing production settings.",
+    "required_groups": [
+      [
+        "platform owner"
+      ],
+      [
+        "CHG-SIG-220"
+      ],
+      [
+        "before"
+      ]
+    ],
+    "source_id": "SIG-82-GLOBAL-ADM-ACT#change-approval",
+    "status": "answered"
+  },
+  "Q11-4": {
+    "directive": "Acknowledge severity-two incidents within 21 minutes and post updates every 45 minutes.",
+    "required_groups": [
+      [
+        "21"
+      ],
+      [
+        "45"
+      ],
+      [
+        "minutes"
+      ],
+      [
+        "update"
+      ]
+    ],
+    "source_id": "SIG-82-GLOBAL-ADM-ACT#severity-two",
+    "status": "answered"
+  },
+  "Q12-1": {
+    "directive": "Retain audit bundles for 270 days, then purge them in the next signed disposal cycle.",
+    "required_groups": [
+      [
+        "270"
+      ],
+      [
+        "days"
+      ],
+      [
+        "purge",
+        "disposal"
+      ]
+    ],
+    "source_id": "SIG-82-EU-MAN-ACT#audit-retention",
+    "status": "answered"
+  },
+  "Q12-2": {
+    "directive": "Use the Saturday 04:00-06:00 local maintenance window and announce the start 30 minutes ahead.",
+    "required_groups": [
+      [
+        "Saturday"
+      ],
+      [
+        "04:00"
+      ],
+      [
+        "06:00"
+      ],
+      [
+        "30"
+      ]
+    ],
+    "source_id": "SIG-82-EU-MAN-ACT#maintenance-window",
+    "status": "answered"
+  },
+  "Q12-3": {
+    "directive": "Protect exported support bundles with vault-wrap and rotate the wrapping key after each completed job.",
+    "required_groups": [
+      [
+        "vault-wrap"
+      ],
+      [
+        "rotate"
+      ],
+      [
+        "each",
+        "every"
+      ]
+    ],
+    "source_id": "SIG-82-EU-MAN-ACT#encryption-mode",
+    "status": "answered"
+  },
+  "Q12-4": {
+    "directive": "Record actor, tenant, before-state hash, after-state hash, and marker trace-sig-52 for every privileged change.",
+    "required_groups": [
+      [
+        "actor"
+      ],
+      [
+        "tenant"
+      ],
+      [
+        "before-state",
+        "before state"
+      ],
+      [
+        "after-state",
+        "after state"
+      ],
+      [
+        "trace-sig-52"
+      ]
+    ],
+    "source_id": "SIG-82-EU-MAN-ACT#audit-fields",
+    "status": "answered"
+  },
+  "QX-01": {
+    "directive": null,
+    "required_groups": [],
+    "source_id": null,
+    "status": "insufficient"
+  },
+  "QX-02": {
+    "directive": null,
+    "required_groups": [],
+    "source_id": null,
+    "status": "insufficient"
+  },
+  "QX-03": {
+    "directive": null,
+    "required_groups": [],
+    "source_id": null,
+    "status": "insufficient"
+  },
+  "QX-04": {
+    "directive": null,
+    "required_groups": [],
+    "source_id": null,
+    "status": "insufficient"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "campaign_id": "HL-SDK-4.6",
+  "snapshot_id": "snap-hl46-20260818T1800Z",
+  "last_generation": 42,
+  "last_persisted_at": "2026-08-18T17:53:00Z",
+  "loop_status": "running",
+  "active_sessions": [
+    {
+      "session_id": "SES-01",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-021"
+    },
+    {
+      "session_id": "SES-02",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-022"
+    },
+    {
+      "session_id": "SES-03",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-023"
+    },
+    {
+      "session_id": "SES-04",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-024"
+    },
+    {
+      "session_id": "SES-05",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-025"
+    },
+    {
+      "session_id": "SES-06",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-026"
+    },
+    {
+      "session_id": "SES-07",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-027"
+    },
+    {
+      "session_id": "SES-08",
+      "status": "idle_after_gate",
+      "last_work_item_id": "HL-028"
+    }
+  ]
+}

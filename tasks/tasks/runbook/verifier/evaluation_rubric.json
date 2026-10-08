@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Readable, in-scope runbook",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown exists, is readable, and clearly addresses RelayForge's production WebhookQueueAgeHigh response in both production regions.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__procedure_accuracy",
+      "title": "Approved diagnostic and mitigation procedure",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The procedure gathers the required evidence before mutation and maps every observed failure mode to the approved command, limit, and decision boundary in the supplied operational evidence.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_diagnostic_sequence",
+        "test_approved_mitigation_commands_and_boundaries"
+      ]
+    },
+    {
+      "id": "completion__safety_and_exit_paths",
+      "title": "Verification, reversal, and escalation guardrails",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The runbook uses the frozen recovery gates, provides safe reversal instructions, routes material escalation conditions correctly, and rejects superseded destructive guidance.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__diagnostic_reasoning",
+      "title": "Operationally sound diagnostic branching",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The decision flow distinguishes overlapping symptoms, explains why each branch is selected, handles ambiguous or unreliable evidence safely, and connects observed results to the next action without encouraging stacked mitigations.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Readable, in-scope runbook",
+        "required_score": 10
+      },
+      {
+        "id": "completion__procedure_accuracy",
+        "title": "Approved diagnostic and mitigation procedure",
+        "required_score": 10
+      },
+      {
+        "id": "completion__safety_and_exit_paths",
+        "title": "Verification, reversal, and escalation guardrails",
+        "required_score": 10
+      },
+      {
+        "id": "completion__diagnostic_reasoning",
+        "title": "Operationally sound diagnostic branching",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

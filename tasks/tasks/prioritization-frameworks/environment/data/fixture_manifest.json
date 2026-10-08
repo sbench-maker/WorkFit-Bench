@@ -1,0 +1,16 @@
+{
+  "construction": "deterministic fictional fixture",
+  "seed": 7813,
+  "cutoff": "2026-08-31T23:59:59",
+  "files": {
+    "problem_catalog.csv": 10,
+    "segment_weights.csv": 3,
+    "survey_responses.csv": 997,
+    "initiative_catalog.csv": 14,
+    "initiative_problem_reach.csv": 20
+  },
+  "notes": [
+    "The survey contains valid later submissions plus later invalid, incomplete, inactive, and post-cutoff rows.",
+    "One withdrawn high-looking idea, dependencies, and an exclusive alternative group exercise planning edge cases."
+  ]
+}

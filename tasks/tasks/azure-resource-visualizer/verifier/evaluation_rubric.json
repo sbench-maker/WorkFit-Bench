@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__resource_scope",
+      "title": "Complete and correctly bounded resource scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All 40 current in-group resources are accounted for in the document and topology, while the three cross-group resources appear as clearly external context rather than being folded into the inventory.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_resource_scope"
+      ]
+    },
+    {
+      "id": "completion__topology_correctness",
+      "title": "Accurate relationship topology",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The Mermaid topology maps the verified runtime, network, hosting, identity, observability, and external relationships, labels their meaning, deduplicates corroborating observations, and does not assert candidate or inactive links as current fact.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__configuration_accuracy",
+      "title": "Architecture-relevant configuration accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Resource SKU, region, and material architecture settings agree with the snapshot, remain associated with the correct resource, and the document does not fabricate credential values.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_configuration_accuracy"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__resource_scope",
+        "title": "Complete and correctly bounded resource scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__topology_correctness",
+        "title": "Accurate relationship topology",
+        "required_score": 10
+      },
+      {
+        "id": "completion__configuration_accuracy",
+        "title": "Architecture-relevant configuration accuracy",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

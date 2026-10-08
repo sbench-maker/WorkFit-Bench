@@ -1,0 +1,4 @@
+note_id,applies_to,severity,detail
+dq_001,activation_rate|2026-08-17|starter_emea,medium,Activation numerator is an estimated backfill after partial event loss. Include it in the monthly rollup but treat exact attribution and week-level movement cautiously.
+dq_002,paid_conversion_rate|2026-08-24|growth_emea,high,"The billing feed arrived after this snapshot, so the observation is absent. The monthly rollup uses available weeks and must be disclosed as incomplete."
+dq_003,d30_retention_rate|2026-08,low,D30 retention uses matured signup cohorts; it is a lagging indicator and should not be attributed directly to events in the same week.

@@ -1,0 +1,105 @@
+:root {
+  --ink: #162235;
+  --muted: #607089;
+  --surface: #f3f6fb;
+  --panel: #ffffff;
+  --accent: #5368e7;
+  --danger: #b73d54;
+  --motion-fast: 160ms;
+  --motion-normal: 280ms;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--surface);
+  font: 16px/1.45 system-ui, sans-serif;
+}
+
+.state-gallery {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 28px 0 64px;
+}
+
+.gallery-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.brand-mark {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 750;
+  transition: transform var(--motion-fast) ease, opacity var(--motion-fast) ease;
+}
+
+.brand-mark:hover {
+  opacity: 0.86;
+  transform: translateY(-2px) scale(1.02);
+}
+
+.safe-button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 16px;
+  color: white;
+  background: var(--accent);
+  cursor: pointer;
+  transition: transform var(--motion-fast) ease, opacity var(--motion-fast) ease, background-color var(--motion-fast) ease;
+}
+
+.safe-button:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.safe-button:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.specimen {
+  position: relative;
+  margin-top: 20px;
+  border: 1px solid #dfe5ef;
+  border-radius: 16px;
+  padding: 20px;
+  background: var(--panel);
+}
+
+.specimen h2 {
+  margin: 0 0 14px;
+  font-size: 15px;
+}
+
+.stage {
+  position: relative;
+  min-height: 118px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #edf1f8;
+}
+
+@media (max-width: 680px) {
+  .state-gallery {
+    width: min(100% - 24px, 1080px);
+    padding-top: 16px;
+  }
+
+  .specimen {
+    padding: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-mark,
+  .safe-button {
+    transition-duration: 1ms;
+  }
+}

@@ -1,0 +1,3266 @@
+[
+  {
+    "activity_id": "ACT-9001",
+    "deal_id": "DEAL-0042",
+    "contact_ids": [
+      "CONTACT-0002"
+    ],
+    "activity_type": "CALL",
+    "title": "Northwind renewal scope review",
+    "body": "Reviewed current renewal scope before revising pricing.",
+    "timestamp": "2026-08-19T16:30:00-07:00",
+    "source_ref": "CAL-8990"
+  },
+  {
+    "activity_id": "ACT-9002",
+    "deal_id": "DEAL-0042",
+    "contact_ids": [
+      "CONTACT-0001"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Renewal evaluation restart",
+    "body": "Priya confirmed the renewal evaluation had restarted.",
+    "timestamp": "2026-08-05T10:15:00-07:00",
+    "source_ref": "EMAIL-ARCHIVE-551"
+  },
+  {
+    "activity_id": "ACT-0001-1",
+    "deal_id": "DEAL-0001",
+    "contact_ids": [
+      "CONTACT-0011"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-03T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0001-2",
+    "deal_id": "DEAL-0001",
+    "contact_ids": [
+      "CONTACT-0024"
+    ],
+    "activity_type": "CALL",
+    "title": "Driftline Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-23T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0001-3",
+    "deal_id": "DEAL-0001",
+    "contact_ids": [
+      "CONTACT-0037"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-12T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0001-4",
+    "deal_id": "DEAL-0001",
+    "contact_ids": [
+      "CONTACT-0011"
+    ],
+    "activity_type": "CALL",
+    "title": "Driftline Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-01T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0001-5",
+    "deal_id": "DEAL-0001",
+    "contact_ids": [
+      "CONTACT-0024"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-21T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0002-1",
+    "deal_id": "DEAL-0002",
+    "contact_ids": [
+      "CONTACT-0018"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Granite Loop Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-31T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0002-2",
+    "deal_id": "DEAL-0002",
+    "contact_ids": [
+      "CONTACT-0031"
+    ],
+    "activity_type": "CALL",
+    "title": "Granite Loop Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-20T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0002-3",
+    "deal_id": "DEAL-0002",
+    "contact_ids": [
+      "CONTACT-0044"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Granite Loop Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-09T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0002-4",
+    "deal_id": "DEAL-0002",
+    "contact_ids": [
+      "CONTACT-0057"
+    ],
+    "activity_type": "CALL",
+    "title": "Granite Loop Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-29T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0002-5",
+    "deal_id": "DEAL-0002",
+    "contact_ids": [
+      "CONTACT-0018"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Granite Loop Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-18T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0003-1",
+    "deal_id": "DEAL-0003",
+    "contact_ids": [
+      "CONTACT-0025"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-28T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0003-2",
+    "deal_id": "DEAL-0003",
+    "contact_ids": [
+      "CONTACT-0038"
+    ],
+    "activity_type": "CALL",
+    "title": "Juniper Arc Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-17T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0003-3",
+    "deal_id": "DEAL-0003",
+    "contact_ids": [
+      "CONTACT-0025"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-06T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0003-4",
+    "deal_id": "DEAL-0003",
+    "contact_ids": [
+      "CONTACT-0038"
+    ],
+    "activity_type": "CALL",
+    "title": "Juniper Arc Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-26T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0003-5",
+    "deal_id": "DEAL-0003",
+    "contact_ids": [
+      "CONTACT-0025"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-15T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0004-1",
+    "deal_id": "DEAL-0004",
+    "contact_ids": [
+      "CONTACT-0032"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-25T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0004-2",
+    "deal_id": "DEAL-0004",
+    "contact_ids": [
+      "CONTACT-0045"
+    ],
+    "activity_type": "CALL",
+    "title": "Marble Kite Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-14T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0004-3",
+    "deal_id": "DEAL-0004",
+    "contact_ids": [
+      "CONTACT-0058"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-03T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0004-4",
+    "deal_id": "DEAL-0004",
+    "contact_ids": [
+      "CONTACT-0032"
+    ],
+    "activity_type": "CALL",
+    "title": "Marble Kite Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-23T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0004-5",
+    "deal_id": "DEAL-0004",
+    "contact_ids": [
+      "CONTACT-0045"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-12T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0005-1",
+    "deal_id": "DEAL-0005",
+    "contact_ids": [
+      "CONTACT-0039"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-22T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0005-2",
+    "deal_id": "DEAL-0005",
+    "contact_ids": [
+      "CONTACT-0052"
+    ],
+    "activity_type": "CALL",
+    "title": "Pinewell Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-11T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0005-3",
+    "deal_id": "DEAL-0005",
+    "contact_ids": [
+      "CONTACT-0065"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-31T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0005-4",
+    "deal_id": "DEAL-0005",
+    "contact_ids": [
+      "CONTACT-0078"
+    ],
+    "activity_type": "CALL",
+    "title": "Pinewell Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-20T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0005-5",
+    "deal_id": "DEAL-0005",
+    "contact_ids": [
+      "CONTACT-0039"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-09T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0006-1",
+    "deal_id": "DEAL-0006",
+    "contact_ids": [
+      "CONTACT-0046"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-19T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0006-2",
+    "deal_id": "DEAL-0006",
+    "contact_ids": [
+      "CONTACT-0059"
+    ],
+    "activity_type": "CALL",
+    "title": "Silverline Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-08T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0006-3",
+    "deal_id": "DEAL-0006",
+    "contact_ids": [
+      "CONTACT-0046"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-28T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0006-4",
+    "deal_id": "DEAL-0006",
+    "contact_ids": [
+      "CONTACT-0059"
+    ],
+    "activity_type": "CALL",
+    "title": "Silverline Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-17T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0006-5",
+    "deal_id": "DEAL-0006",
+    "contact_ids": [
+      "CONTACT-0046"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-06T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0007-1",
+    "deal_id": "DEAL-0007",
+    "contact_ids": [
+      "CONTACT-0053"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-16T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0007-2",
+    "deal_id": "DEAL-0007",
+    "contact_ids": [
+      "CONTACT-0066"
+    ],
+    "activity_type": "CALL",
+    "title": "Beacon Ridge Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-05T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0007-3",
+    "deal_id": "DEAL-0007",
+    "contact_ids": [
+      "CONTACT-0079"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-25T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0007-4",
+    "deal_id": "DEAL-0007",
+    "contact_ids": [
+      "CONTACT-0053"
+    ],
+    "activity_type": "CALL",
+    "title": "Beacon Ridge Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-14T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0007-5",
+    "deal_id": "DEAL-0007",
+    "contact_ids": [
+      "CONTACT-0066"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-03T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0008-1",
+    "deal_id": "DEAL-0008",
+    "contact_ids": [
+      "CONTACT-0060"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-13T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0008-2",
+    "deal_id": "DEAL-0008",
+    "contact_ids": [
+      "CONTACT-0073"
+    ],
+    "activity_type": "CALL",
+    "title": "Everfield Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-02T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0008-3",
+    "deal_id": "DEAL-0008",
+    "contact_ids": [
+      "CONTACT-0086"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-22T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0008-4",
+    "deal_id": "DEAL-0008",
+    "contact_ids": [
+      "CONTACT-0099"
+    ],
+    "activity_type": "CALL",
+    "title": "Everfield Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-11T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0008-5",
+    "deal_id": "DEAL-0008",
+    "contact_ids": [
+      "CONTACT-0060"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-30T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0009-1",
+    "deal_id": "DEAL-0009",
+    "contact_ids": [
+      "CONTACT-0067"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-10T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0009-2",
+    "deal_id": "DEAL-0009",
+    "contact_ids": [
+      "CONTACT-0080"
+    ],
+    "activity_type": "CALL",
+    "title": "Harborstone Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-30T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0009-3",
+    "deal_id": "DEAL-0009",
+    "contact_ids": [
+      "CONTACT-0067"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-19T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0009-4",
+    "deal_id": "DEAL-0009",
+    "contact_ids": [
+      "CONTACT-0080"
+    ],
+    "activity_type": "CALL",
+    "title": "Harborstone Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-08T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0009-5",
+    "deal_id": "DEAL-0009",
+    "contact_ids": [
+      "CONTACT-0067"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-27T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0010-1",
+    "deal_id": "DEAL-0010",
+    "contact_ids": [
+      "CONTACT-0074"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-07T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0010-2",
+    "deal_id": "DEAL-0010",
+    "contact_ids": [
+      "CONTACT-0087"
+    ],
+    "activity_type": "CALL",
+    "title": "Keystone North Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-27T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0010-3",
+    "deal_id": "DEAL-0010",
+    "contact_ids": [
+      "CONTACT-0100"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-16T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0010-4",
+    "deal_id": "DEAL-0010",
+    "contact_ids": [
+      "CONTACT-0074"
+    ],
+    "activity_type": "CALL",
+    "title": "Keystone North Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-05T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0010-5",
+    "deal_id": "DEAL-0010",
+    "contact_ids": [
+      "CONTACT-0087"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-24T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0011-1",
+    "deal_id": "DEAL-0011",
+    "contact_ids": [
+      "CONTACT-0003"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Northwind Labs APAC Expansion email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-04T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0011-2",
+    "deal_id": "DEAL-0011",
+    "contact_ids": [
+      "CONTACT-0003"
+    ],
+    "activity_type": "CALL",
+    "title": "Northwind Labs APAC Expansion call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-24T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0011-3",
+    "deal_id": "DEAL-0011",
+    "contact_ids": [
+      "CONTACT-0003"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Northwind Labs APAC Expansion email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-13T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0011-4",
+    "deal_id": "DEAL-0011",
+    "contact_ids": [
+      "CONTACT-0003"
+    ],
+    "activity_type": "CALL",
+    "title": "Northwind Labs APAC Expansion call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-02T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0011-5",
+    "deal_id": "DEAL-0011",
+    "contact_ids": [
+      "CONTACT-0003"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Northwind Labs APAC Expansion email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-21T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0012-1",
+    "deal_id": "DEAL-0012",
+    "contact_ids": [
+      "CONTACT-0088"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-01T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0012-2",
+    "deal_id": "DEAL-0012",
+    "contact_ids": [
+      "CONTACT-0101"
+    ],
+    "activity_type": "CALL",
+    "title": "Quartz River Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-21T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0012-3",
+    "deal_id": "DEAL-0012",
+    "contact_ids": [
+      "CONTACT-0088"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-10T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0012-4",
+    "deal_id": "DEAL-0012",
+    "contact_ids": [
+      "CONTACT-0101"
+    ],
+    "activity_type": "CALL",
+    "title": "Quartz River Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-29T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0012-5",
+    "deal_id": "DEAL-0012",
+    "contact_ids": [
+      "CONTACT-0088"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-18T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0013-1",
+    "deal_id": "DEAL-0013",
+    "contact_ids": [
+      "CONTACT-0095"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-29T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0013-2",
+    "deal_id": "DEAL-0013",
+    "contact_ids": [
+      "CONTACT-0108"
+    ],
+    "activity_type": "CALL",
+    "title": "Tandem Forge Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-18T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0013-3",
+    "deal_id": "DEAL-0013",
+    "contact_ids": [
+      "CONTACT-0121"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-07T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0013-4",
+    "deal_id": "DEAL-0013",
+    "contact_ids": [
+      "CONTACT-0095"
+    ],
+    "activity_type": "CALL",
+    "title": "Tandem Forge Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-26T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0013-5",
+    "deal_id": "DEAL-0013",
+    "contact_ids": [
+      "CONTACT-0108"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-15T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0014-1",
+    "deal_id": "DEAL-0014",
+    "contact_ids": [
+      "CONTACT-0102"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-26T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0014-2",
+    "deal_id": "DEAL-0014",
+    "contact_ids": [
+      "CONTACT-0115"
+    ],
+    "activity_type": "CALL",
+    "title": "Cobalt Harbor Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-15T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0014-3",
+    "deal_id": "DEAL-0014",
+    "contact_ids": [
+      "CONTACT-0128"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-04T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0014-4",
+    "deal_id": "DEAL-0014",
+    "contact_ids": [
+      "CONTACT-0141"
+    ],
+    "activity_type": "CALL",
+    "title": "Cobalt Harbor Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-23T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0014-5",
+    "deal_id": "DEAL-0014",
+    "contact_ids": [
+      "CONTACT-0102"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-12T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0015-1",
+    "deal_id": "DEAL-0015",
+    "contact_ids": [
+      "CONTACT-0109"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-23T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0015-2",
+    "deal_id": "DEAL-0015",
+    "contact_ids": [
+      "CONTACT-0122"
+    ],
+    "activity_type": "CALL",
+    "title": "Fable Systems Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-12T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0015-3",
+    "deal_id": "DEAL-0015",
+    "contact_ids": [
+      "CONTACT-0109"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-01T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0015-4",
+    "deal_id": "DEAL-0015",
+    "contact_ids": [
+      "CONTACT-0122"
+    ],
+    "activity_type": "CALL",
+    "title": "Fable Systems Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-20T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0015-5",
+    "deal_id": "DEAL-0015",
+    "contact_ids": [
+      "CONTACT-0109"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-09T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0016-1",
+    "deal_id": "DEAL-0016",
+    "contact_ids": [
+      "CONTACT-0116"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ivory Peak Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-20T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0016-2",
+    "deal_id": "DEAL-0016",
+    "contact_ids": [
+      "CONTACT-0129"
+    ],
+    "activity_type": "CALL",
+    "title": "Ivory Peak Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-09T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0016-3",
+    "deal_id": "DEAL-0016",
+    "contact_ids": [
+      "CONTACT-0142"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ivory Peak Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-28T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0016-4",
+    "deal_id": "DEAL-0016",
+    "contact_ids": [
+      "CONTACT-0116"
+    ],
+    "activity_type": "CALL",
+    "title": "Ivory Peak Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-17T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0016-5",
+    "deal_id": "DEAL-0016",
+    "contact_ids": [
+      "CONTACT-0129"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ivory Peak Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-06T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0017-1",
+    "deal_id": "DEAL-0017",
+    "contact_ids": [
+      "CONTACT-0123"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Lumen Grove Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-17T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0017-2",
+    "deal_id": "DEAL-0017",
+    "contact_ids": [
+      "CONTACT-0136"
+    ],
+    "activity_type": "CALL",
+    "title": "Lumen Grove Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-06T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0017-3",
+    "deal_id": "DEAL-0017",
+    "contact_ids": [
+      "CONTACT-0149"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Lumen Grove Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-25T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0017-4",
+    "deal_id": "DEAL-0017",
+    "contact_ids": [
+      "CONTACT-0005"
+    ],
+    "activity_type": "CALL",
+    "title": "Lumen Grove Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-14T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0017-5",
+    "deal_id": "DEAL-0017",
+    "contact_ids": [
+      "CONTACT-0123"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Lumen Grove Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-03T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0018-1",
+    "deal_id": "DEAL-0018",
+    "contact_ids": [
+      "CONTACT-0130"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Oakframe Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-14T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0018-2",
+    "deal_id": "DEAL-0018",
+    "contact_ids": [
+      "CONTACT-0143"
+    ],
+    "activity_type": "CALL",
+    "title": "Oakframe Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-03T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0018-3",
+    "deal_id": "DEAL-0018",
+    "contact_ids": [
+      "CONTACT-0130"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Oakframe Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-22T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0018-4",
+    "deal_id": "DEAL-0018",
+    "contact_ids": [
+      "CONTACT-0143"
+    ],
+    "activity_type": "CALL",
+    "title": "Oakframe Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-11T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0018-5",
+    "deal_id": "DEAL-0018",
+    "contact_ids": [
+      "CONTACT-0130"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Oakframe Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-31T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0019-1",
+    "deal_id": "DEAL-0019",
+    "contact_ids": [
+      "CONTACT-0137"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ravenhill Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-11T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0019-2",
+    "deal_id": "DEAL-0019",
+    "contact_ids": [
+      "CONTACT-0150"
+    ],
+    "activity_type": "CALL",
+    "title": "Ravenhill Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-30T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0019-3",
+    "deal_id": "DEAL-0019",
+    "contact_ids": [
+      "CONTACT-0006"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ravenhill Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-19T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0019-4",
+    "deal_id": "DEAL-0019",
+    "contact_ids": [
+      "CONTACT-0137"
+    ],
+    "activity_type": "CALL",
+    "title": "Ravenhill Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-08T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0019-5",
+    "deal_id": "DEAL-0019",
+    "contact_ids": [
+      "CONTACT-0150"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ravenhill Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-28T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0020-1",
+    "deal_id": "DEAL-0020",
+    "contact_ids": [
+      "CONTACT-0144"
+    ],
+    "activity_type": "EMAIL",
+    "title": "AlderWorks Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-08T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0020-2",
+    "deal_id": "DEAL-0020",
+    "contact_ids": [
+      "CONTACT-0157"
+    ],
+    "activity_type": "CALL",
+    "title": "AlderWorks Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-27T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0020-3",
+    "deal_id": "DEAL-0020",
+    "contact_ids": [
+      "CONTACT-0013"
+    ],
+    "activity_type": "EMAIL",
+    "title": "AlderWorks Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-16T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0020-4",
+    "deal_id": "DEAL-0020",
+    "contact_ids": [
+      "CONTACT-0026"
+    ],
+    "activity_type": "CALL",
+    "title": "AlderWorks Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-05T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0020-5",
+    "deal_id": "DEAL-0020",
+    "contact_ids": [
+      "CONTACT-0144"
+    ],
+    "activity_type": "EMAIL",
+    "title": "AlderWorks Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-25T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0021-1",
+    "deal_id": "DEAL-0021",
+    "contact_ids": [
+      "CONTACT-0151"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-05T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0021-2",
+    "deal_id": "DEAL-0021",
+    "contact_ids": [
+      "CONTACT-0007"
+    ],
+    "activity_type": "CALL",
+    "title": "Driftline Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-24T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0021-3",
+    "deal_id": "DEAL-0021",
+    "contact_ids": [
+      "CONTACT-0151"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-13T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0021-4",
+    "deal_id": "DEAL-0021",
+    "contact_ids": [
+      "CONTACT-0007"
+    ],
+    "activity_type": "CALL",
+    "title": "Driftline Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-02T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0021-5",
+    "deal_id": "DEAL-0021",
+    "contact_ids": [
+      "CONTACT-0151"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-22T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0022-1",
+    "deal_id": "DEAL-0022",
+    "contact_ids": [
+      "CONTACT-0158"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Granite Loop Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-02T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0022-2",
+    "deal_id": "DEAL-0022",
+    "contact_ids": [
+      "CONTACT-0014"
+    ],
+    "activity_type": "CALL",
+    "title": "Granite Loop Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-21T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0022-3",
+    "deal_id": "DEAL-0022",
+    "contact_ids": [
+      "CONTACT-0027"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Granite Loop Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-10T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0022-4",
+    "deal_id": "DEAL-0022",
+    "contact_ids": [
+      "CONTACT-0158"
+    ],
+    "activity_type": "CALL",
+    "title": "Granite Loop Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-30T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0022-5",
+    "deal_id": "DEAL-0022",
+    "contact_ids": [
+      "CONTACT-0014"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Granite Loop Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-19T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0023-1",
+    "deal_id": "DEAL-0023",
+    "contact_ids": [
+      "CONTACT-0008"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-29T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0023-2",
+    "deal_id": "DEAL-0023",
+    "contact_ids": [
+      "CONTACT-0021"
+    ],
+    "activity_type": "CALL",
+    "title": "Juniper Arc Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-18T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0023-3",
+    "deal_id": "DEAL-0023",
+    "contact_ids": [
+      "CONTACT-0034"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-07T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0023-4",
+    "deal_id": "DEAL-0023",
+    "contact_ids": [
+      "CONTACT-0047"
+    ],
+    "activity_type": "CALL",
+    "title": "Juniper Arc Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-27T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0023-5",
+    "deal_id": "DEAL-0023",
+    "contact_ids": [
+      "CONTACT-0008"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-16T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0024-1",
+    "deal_id": "DEAL-0024",
+    "contact_ids": [
+      "CONTACT-0015"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-26T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0024-2",
+    "deal_id": "DEAL-0024",
+    "contact_ids": [
+      "CONTACT-0028"
+    ],
+    "activity_type": "CALL",
+    "title": "Marble Kite Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-15T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0024-3",
+    "deal_id": "DEAL-0024",
+    "contact_ids": [
+      "CONTACT-0015"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-04T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0024-4",
+    "deal_id": "DEAL-0024",
+    "contact_ids": [
+      "CONTACT-0028"
+    ],
+    "activity_type": "CALL",
+    "title": "Marble Kite Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-24T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0024-5",
+    "deal_id": "DEAL-0024",
+    "contact_ids": [
+      "CONTACT-0015"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-13T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0025-1",
+    "deal_id": "DEAL-0025",
+    "contact_ids": [
+      "CONTACT-0022"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-23T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0025-2",
+    "deal_id": "DEAL-0025",
+    "contact_ids": [
+      "CONTACT-0035"
+    ],
+    "activity_type": "CALL",
+    "title": "Pinewell Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-12T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0025-3",
+    "deal_id": "DEAL-0025",
+    "contact_ids": [
+      "CONTACT-0048"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-01T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0025-4",
+    "deal_id": "DEAL-0025",
+    "contact_ids": [
+      "CONTACT-0022"
+    ],
+    "activity_type": "CALL",
+    "title": "Pinewell Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-21T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0025-5",
+    "deal_id": "DEAL-0025",
+    "contact_ids": [
+      "CONTACT-0035"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-10T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0026-1",
+    "deal_id": "DEAL-0026",
+    "contact_ids": [
+      "CONTACT-0029"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-20T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0026-2",
+    "deal_id": "DEAL-0026",
+    "contact_ids": [
+      "CONTACT-0042"
+    ],
+    "activity_type": "CALL",
+    "title": "Silverline Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-09T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0026-3",
+    "deal_id": "DEAL-0026",
+    "contact_ids": [
+      "CONTACT-0055"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-29T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0026-4",
+    "deal_id": "DEAL-0026",
+    "contact_ids": [
+      "CONTACT-0068"
+    ],
+    "activity_type": "CALL",
+    "title": "Silverline Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-18T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0026-5",
+    "deal_id": "DEAL-0026",
+    "contact_ids": [
+      "CONTACT-0029"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-07T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0027-1",
+    "deal_id": "DEAL-0027",
+    "contact_ids": [
+      "CONTACT-0036"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-17T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0027-2",
+    "deal_id": "DEAL-0027",
+    "contact_ids": [
+      "CONTACT-0049"
+    ],
+    "activity_type": "CALL",
+    "title": "Beacon Ridge Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-06T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0027-3",
+    "deal_id": "DEAL-0027",
+    "contact_ids": [
+      "CONTACT-0036"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-26T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0027-4",
+    "deal_id": "DEAL-0027",
+    "contact_ids": [
+      "CONTACT-0049"
+    ],
+    "activity_type": "CALL",
+    "title": "Beacon Ridge Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-15T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0027-5",
+    "deal_id": "DEAL-0027",
+    "contact_ids": [
+      "CONTACT-0036"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-04T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0028-1",
+    "deal_id": "DEAL-0028",
+    "contact_ids": [
+      "CONTACT-0043"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-14T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0028-2",
+    "deal_id": "DEAL-0028",
+    "contact_ids": [
+      "CONTACT-0056"
+    ],
+    "activity_type": "CALL",
+    "title": "Everfield Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-03T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0028-3",
+    "deal_id": "DEAL-0028",
+    "contact_ids": [
+      "CONTACT-0069"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-23T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0028-4",
+    "deal_id": "DEAL-0028",
+    "contact_ids": [
+      "CONTACT-0043"
+    ],
+    "activity_type": "CALL",
+    "title": "Everfield Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-12T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0028-5",
+    "deal_id": "DEAL-0028",
+    "contact_ids": [
+      "CONTACT-0056"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-01T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0029-1",
+    "deal_id": "DEAL-0029",
+    "contact_ids": [
+      "CONTACT-0050"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-11T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0029-2",
+    "deal_id": "DEAL-0029",
+    "contact_ids": [
+      "CONTACT-0063"
+    ],
+    "activity_type": "CALL",
+    "title": "Harborstone Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-31T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0029-3",
+    "deal_id": "DEAL-0029",
+    "contact_ids": [
+      "CONTACT-0076"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-20T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0029-4",
+    "deal_id": "DEAL-0029",
+    "contact_ids": [
+      "CONTACT-0089"
+    ],
+    "activity_type": "CALL",
+    "title": "Harborstone Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-09T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0029-5",
+    "deal_id": "DEAL-0029",
+    "contact_ids": [
+      "CONTACT-0050"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-28T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0030-1",
+    "deal_id": "DEAL-0030",
+    "contact_ids": [
+      "CONTACT-0057"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-08T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0030-2",
+    "deal_id": "DEAL-0030",
+    "contact_ids": [
+      "CONTACT-0070"
+    ],
+    "activity_type": "CALL",
+    "title": "Keystone North Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-28T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0030-3",
+    "deal_id": "DEAL-0030",
+    "contact_ids": [
+      "CONTACT-0057"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-17T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0030-4",
+    "deal_id": "DEAL-0030",
+    "contact_ids": [
+      "CONTACT-0070"
+    ],
+    "activity_type": "CALL",
+    "title": "Keystone North Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-06T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0030-5",
+    "deal_id": "DEAL-0030",
+    "contact_ids": [
+      "CONTACT-0057"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-25T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0031-1",
+    "deal_id": "DEAL-0031",
+    "contact_ids": [
+      "CONTACT-0064"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Noble Current Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-05T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0031-2",
+    "deal_id": "DEAL-0031",
+    "contact_ids": [
+      "CONTACT-0077"
+    ],
+    "activity_type": "CALL",
+    "title": "Noble Current Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-25T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0031-3",
+    "deal_id": "DEAL-0031",
+    "contact_ids": [
+      "CONTACT-0090"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Noble Current Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-14T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0031-4",
+    "deal_id": "DEAL-0031",
+    "contact_ids": [
+      "CONTACT-0064"
+    ],
+    "activity_type": "CALL",
+    "title": "Noble Current Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-03T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0031-5",
+    "deal_id": "DEAL-0031",
+    "contact_ids": [
+      "CONTACT-0077"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Noble Current Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-22T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0032-1",
+    "deal_id": "DEAL-0032",
+    "contact_ids": [
+      "CONTACT-0071"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-06-02T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0032-2",
+    "deal_id": "DEAL-0032",
+    "contact_ids": [
+      "CONTACT-0084"
+    ],
+    "activity_type": "CALL",
+    "title": "Quartz River Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-22T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0032-3",
+    "deal_id": "DEAL-0032",
+    "contact_ids": [
+      "CONTACT-0097"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-11T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0032-4",
+    "deal_id": "DEAL-0032",
+    "contact_ids": [
+      "CONTACT-0110"
+    ],
+    "activity_type": "CALL",
+    "title": "Quartz River Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-30T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0032-5",
+    "deal_id": "DEAL-0032",
+    "contact_ids": [
+      "CONTACT-0071"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-19T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0033-1",
+    "deal_id": "DEAL-0033",
+    "contact_ids": [
+      "CONTACT-0078"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-30T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0033-2",
+    "deal_id": "DEAL-0033",
+    "contact_ids": [
+      "CONTACT-0091"
+    ],
+    "activity_type": "CALL",
+    "title": "Tandem Forge Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-19T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0033-3",
+    "deal_id": "DEAL-0033",
+    "contact_ids": [
+      "CONTACT-0078"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-08T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0033-4",
+    "deal_id": "DEAL-0033",
+    "contact_ids": [
+      "CONTACT-0091"
+    ],
+    "activity_type": "CALL",
+    "title": "Tandem Forge Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-27T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0033-5",
+    "deal_id": "DEAL-0033",
+    "contact_ids": [
+      "CONTACT-0078"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-16T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0034-1",
+    "deal_id": "DEAL-0034",
+    "contact_ids": [
+      "CONTACT-0085"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-27T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0034-2",
+    "deal_id": "DEAL-0034",
+    "contact_ids": [
+      "CONTACT-0098"
+    ],
+    "activity_type": "CALL",
+    "title": "Cobalt Harbor Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-16T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0034-3",
+    "deal_id": "DEAL-0034",
+    "contact_ids": [
+      "CONTACT-0111"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-05T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0034-4",
+    "deal_id": "DEAL-0034",
+    "contact_ids": [
+      "CONTACT-0085"
+    ],
+    "activity_type": "CALL",
+    "title": "Cobalt Harbor Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-24T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0034-5",
+    "deal_id": "DEAL-0034",
+    "contact_ids": [
+      "CONTACT-0098"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-13T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0035-1",
+    "deal_id": "DEAL-0035",
+    "contact_ids": [
+      "CONTACT-0092"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-24T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0035-2",
+    "deal_id": "DEAL-0035",
+    "contact_ids": [
+      "CONTACT-0105"
+    ],
+    "activity_type": "CALL",
+    "title": "Fable Systems Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-13T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0035-3",
+    "deal_id": "DEAL-0035",
+    "contact_ids": [
+      "CONTACT-0118"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-02T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0035-4",
+    "deal_id": "DEAL-0035",
+    "contact_ids": [
+      "CONTACT-0131"
+    ],
+    "activity_type": "CALL",
+    "title": "Fable Systems Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-21T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0035-5",
+    "deal_id": "DEAL-0035",
+    "contact_ids": [
+      "CONTACT-0092"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-10T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0036-1",
+    "deal_id": "DEAL-0036",
+    "contact_ids": [
+      "CONTACT-0099"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ivory Peak Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-21T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0036-2",
+    "deal_id": "DEAL-0036",
+    "contact_ids": [
+      "CONTACT-0112"
+    ],
+    "activity_type": "CALL",
+    "title": "Ivory Peak Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-10T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0036-3",
+    "deal_id": "DEAL-0036",
+    "contact_ids": [
+      "CONTACT-0099"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ivory Peak Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-29T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0036-4",
+    "deal_id": "DEAL-0036",
+    "contact_ids": [
+      "CONTACT-0112"
+    ],
+    "activity_type": "CALL",
+    "title": "Ivory Peak Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-18T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0036-5",
+    "deal_id": "DEAL-0036",
+    "contact_ids": [
+      "CONTACT-0099"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ivory Peak Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-04T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0037-1",
+    "deal_id": "DEAL-0037",
+    "contact_ids": [
+      "CONTACT-0106"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Lumen Grove Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-18T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0037-2",
+    "deal_id": "DEAL-0037",
+    "contact_ids": [
+      "CONTACT-0119"
+    ],
+    "activity_type": "CALL",
+    "title": "Lumen Grove Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-07T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0037-3",
+    "deal_id": "DEAL-0037",
+    "contact_ids": [
+      "CONTACT-0132"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Lumen Grove Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-26T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0037-4",
+    "deal_id": "DEAL-0037",
+    "contact_ids": [
+      "CONTACT-0106"
+    ],
+    "activity_type": "CALL",
+    "title": "Lumen Grove Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-15T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0037-5",
+    "deal_id": "DEAL-0037",
+    "contact_ids": [
+      "CONTACT-0119"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Lumen Grove Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-01T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0038-1",
+    "deal_id": "DEAL-0038",
+    "contact_ids": [
+      "CONTACT-0113"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Oakframe Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-15T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0038-2",
+    "deal_id": "DEAL-0038",
+    "contact_ids": [
+      "CONTACT-0126"
+    ],
+    "activity_type": "CALL",
+    "title": "Oakframe Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-04T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0038-3",
+    "deal_id": "DEAL-0038",
+    "contact_ids": [
+      "CONTACT-0139"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Oakframe Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-23T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0038-4",
+    "deal_id": "DEAL-0038",
+    "contact_ids": [
+      "CONTACT-0152"
+    ],
+    "activity_type": "CALL",
+    "title": "Oakframe Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-12T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0038-5",
+    "deal_id": "DEAL-0038",
+    "contact_ids": [
+      "CONTACT-0113"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Oakframe Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-29T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0039-1",
+    "deal_id": "DEAL-0039",
+    "contact_ids": [
+      "CONTACT-0120"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ravenhill Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-12T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0039-2",
+    "deal_id": "DEAL-0039",
+    "contact_ids": [
+      "CONTACT-0133"
+    ],
+    "activity_type": "CALL",
+    "title": "Ravenhill Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-01T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0039-3",
+    "deal_id": "DEAL-0039",
+    "contact_ids": [
+      "CONTACT-0120"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ravenhill Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-20T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0039-4",
+    "deal_id": "DEAL-0039",
+    "contact_ids": [
+      "CONTACT-0133"
+    ],
+    "activity_type": "CALL",
+    "title": "Ravenhill Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-06T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0039-5",
+    "deal_id": "DEAL-0039",
+    "contact_ids": [
+      "CONTACT-0120"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Ravenhill Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-26T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0040-1",
+    "deal_id": "DEAL-0040",
+    "contact_ids": [
+      "CONTACT-0127"
+    ],
+    "activity_type": "EMAIL",
+    "title": "AlderWorks Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-09T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0040-2",
+    "deal_id": "DEAL-0040",
+    "contact_ids": [
+      "CONTACT-0140"
+    ],
+    "activity_type": "CALL",
+    "title": "AlderWorks Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-28T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0040-3",
+    "deal_id": "DEAL-0040",
+    "contact_ids": [
+      "CONTACT-0153"
+    ],
+    "activity_type": "EMAIL",
+    "title": "AlderWorks Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-17T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0040-4",
+    "deal_id": "DEAL-0040",
+    "contact_ids": [
+      "CONTACT-0127"
+    ],
+    "activity_type": "CALL",
+    "title": "AlderWorks Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-03T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0040-5",
+    "deal_id": "DEAL-0040",
+    "contact_ids": [
+      "CONTACT-0140"
+    ],
+    "activity_type": "EMAIL",
+    "title": "AlderWorks Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-23T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0041-1",
+    "deal_id": "DEAL-0041",
+    "contact_ids": [
+      "CONTACT-0134"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-05-06T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0041-2",
+    "deal_id": "DEAL-0041",
+    "contact_ids": [
+      "CONTACT-0147"
+    ],
+    "activity_type": "CALL",
+    "title": "Driftline Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-25T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0041-3",
+    "deal_id": "DEAL-0041",
+    "contact_ids": [
+      "CONTACT-0160"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-14T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0041-4",
+    "deal_id": "DEAL-0041",
+    "contact_ids": [
+      "CONTACT-0016"
+    ],
+    "activity_type": "CALL",
+    "title": "Driftline Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-31T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0041-5",
+    "deal_id": "DEAL-0041",
+    "contact_ids": [
+      "CONTACT-0134"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Driftline Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-20T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0043-1",
+    "deal_id": "DEAL-0043",
+    "contact_ids": [
+      "CONTACT-0148"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-30T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0043-2",
+    "deal_id": "DEAL-0043",
+    "contact_ids": [
+      "CONTACT-0004"
+    ],
+    "activity_type": "CALL",
+    "title": "Juniper Arc Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-19T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0043-3",
+    "deal_id": "DEAL-0043",
+    "contact_ids": [
+      "CONTACT-0017"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-05T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0043-4",
+    "deal_id": "DEAL-0043",
+    "contact_ids": [
+      "CONTACT-0148"
+    ],
+    "activity_type": "CALL",
+    "title": "Juniper Arc Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-25T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0043-5",
+    "deal_id": "DEAL-0043",
+    "contact_ids": [
+      "CONTACT-0004"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Juniper Arc Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-14T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0044-1",
+    "deal_id": "DEAL-0044",
+    "contact_ids": [
+      "CONTACT-0155"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-27T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0044-2",
+    "deal_id": "DEAL-0044",
+    "contact_ids": [
+      "CONTACT-0011"
+    ],
+    "activity_type": "CALL",
+    "title": "Marble Kite Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-16T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0044-3",
+    "deal_id": "DEAL-0044",
+    "contact_ids": [
+      "CONTACT-0024"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-02T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0044-4",
+    "deal_id": "DEAL-0044",
+    "contact_ids": [
+      "CONTACT-0037"
+    ],
+    "activity_type": "CALL",
+    "title": "Marble Kite Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-22T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0044-5",
+    "deal_id": "DEAL-0044",
+    "contact_ids": [
+      "CONTACT-0155"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Marble Kite Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-11T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0045-1",
+    "deal_id": "DEAL-0045",
+    "contact_ids": [
+      "CONTACT-0005"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-24T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0045-2",
+    "deal_id": "DEAL-0045",
+    "contact_ids": [
+      "CONTACT-0018"
+    ],
+    "activity_type": "CALL",
+    "title": "Pinewell Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-13T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0045-3",
+    "deal_id": "DEAL-0045",
+    "contact_ids": [
+      "CONTACT-0005"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-30T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0045-4",
+    "deal_id": "DEAL-0045",
+    "contact_ids": [
+      "CONTACT-0018"
+    ],
+    "activity_type": "CALL",
+    "title": "Pinewell Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-19T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0045-5",
+    "deal_id": "DEAL-0045",
+    "contact_ids": [
+      "CONTACT-0005"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Pinewell Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-08T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0046-1",
+    "deal_id": "DEAL-0046",
+    "contact_ids": [
+      "CONTACT-0012"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-21T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0046-2",
+    "deal_id": "DEAL-0046",
+    "contact_ids": [
+      "CONTACT-0025"
+    ],
+    "activity_type": "CALL",
+    "title": "Silverline Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-10T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0046-3",
+    "deal_id": "DEAL-0046",
+    "contact_ids": [
+      "CONTACT-0038"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-27T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0046-4",
+    "deal_id": "DEAL-0046",
+    "contact_ids": [
+      "CONTACT-0012"
+    ],
+    "activity_type": "CALL",
+    "title": "Silverline Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-16T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0046-5",
+    "deal_id": "DEAL-0046",
+    "contact_ids": [
+      "CONTACT-0025"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Silverline Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-05T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0047-1",
+    "deal_id": "DEAL-0047",
+    "contact_ids": [
+      "CONTACT-0019"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-18T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0047-2",
+    "deal_id": "DEAL-0047",
+    "contact_ids": [
+      "CONTACT-0032"
+    ],
+    "activity_type": "CALL",
+    "title": "Beacon Ridge Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-04T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0047-3",
+    "deal_id": "DEAL-0047",
+    "contact_ids": [
+      "CONTACT-0045"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-24T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0047-4",
+    "deal_id": "DEAL-0047",
+    "contact_ids": [
+      "CONTACT-0058"
+    ],
+    "activity_type": "CALL",
+    "title": "Beacon Ridge Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-13T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0047-5",
+    "deal_id": "DEAL-0047",
+    "contact_ids": [
+      "CONTACT-0019"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Beacon Ridge Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-02T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0048-1",
+    "deal_id": "DEAL-0048",
+    "contact_ids": [
+      "CONTACT-0026"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-15T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0048-2",
+    "deal_id": "DEAL-0048",
+    "contact_ids": [
+      "CONTACT-0039"
+    ],
+    "activity_type": "CALL",
+    "title": "Everfield Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-01T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0048-3",
+    "deal_id": "DEAL-0048",
+    "contact_ids": [
+      "CONTACT-0026"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-21T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0048-4",
+    "deal_id": "DEAL-0048",
+    "contact_ids": [
+      "CONTACT-0039"
+    ],
+    "activity_type": "CALL",
+    "title": "Everfield Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-10T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0048-5",
+    "deal_id": "DEAL-0048",
+    "contact_ids": [
+      "CONTACT-0026"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Everfield Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-30T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0049-1",
+    "deal_id": "DEAL-0049",
+    "contact_ids": [
+      "CONTACT-0033"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-04-12T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0049-2",
+    "deal_id": "DEAL-0049",
+    "contact_ids": [
+      "CONTACT-0046"
+    ],
+    "activity_type": "CALL",
+    "title": "Harborstone Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-29T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0049-3",
+    "deal_id": "DEAL-0049",
+    "contact_ids": [
+      "CONTACT-0059"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-18T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0049-4",
+    "deal_id": "DEAL-0049",
+    "contact_ids": [
+      "CONTACT-0033"
+    ],
+    "activity_type": "CALL",
+    "title": "Harborstone Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-07T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0049-5",
+    "deal_id": "DEAL-0049",
+    "contact_ids": [
+      "CONTACT-0046"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Harborstone Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-27T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0050-1",
+    "deal_id": "DEAL-0050",
+    "contact_ids": [
+      "CONTACT-0040"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-06T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0050-2",
+    "deal_id": "DEAL-0050",
+    "contact_ids": [
+      "CONTACT-0053"
+    ],
+    "activity_type": "CALL",
+    "title": "Keystone North Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-26T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0050-3",
+    "deal_id": "DEAL-0050",
+    "contact_ids": [
+      "CONTACT-0066"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-15T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0050-4",
+    "deal_id": "DEAL-0050",
+    "contact_ids": [
+      "CONTACT-0079"
+    ],
+    "activity_type": "CALL",
+    "title": "Keystone North Renewal 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-04T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0050-5",
+    "deal_id": "DEAL-0050",
+    "contact_ids": [
+      "CONTACT-0040"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Keystone North Renewal 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-24T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0051-1",
+    "deal_id": "DEAL-0051",
+    "contact_ids": [
+      "CONTACT-0047"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Noble Current Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-09-03T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0051-2",
+    "deal_id": "DEAL-0051",
+    "contact_ids": [
+      "CONTACT-0060"
+    ],
+    "activity_type": "CALL",
+    "title": "Noble Current Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-23T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0051-3",
+    "deal_id": "DEAL-0051",
+    "contact_ids": [
+      "CONTACT-0047"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Noble Current Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-12T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0051-4",
+    "deal_id": "DEAL-0051",
+    "contact_ids": [
+      "CONTACT-0060"
+    ],
+    "activity_type": "CALL",
+    "title": "Noble Current Pilot 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-01T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0051-5",
+    "deal_id": "DEAL-0051",
+    "contact_ids": [
+      "CONTACT-0047"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Noble Current Pilot 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-21T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0052-1",
+    "deal_id": "DEAL-0052",
+    "contact_ids": [
+      "CONTACT-0054"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-31T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0052-2",
+    "deal_id": "DEAL-0052",
+    "contact_ids": [
+      "CONTACT-0067"
+    ],
+    "activity_type": "CALL",
+    "title": "Quartz River Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-20T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0052-3",
+    "deal_id": "DEAL-0052",
+    "contact_ids": [
+      "CONTACT-0080"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-09T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0052-4",
+    "deal_id": "DEAL-0052",
+    "contact_ids": [
+      "CONTACT-0054"
+    ],
+    "activity_type": "CALL",
+    "title": "Quartz River Expansion 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-29T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0052-5",
+    "deal_id": "DEAL-0052",
+    "contact_ids": [
+      "CONTACT-0067"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Quartz River Expansion 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-18T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0053-1",
+    "deal_id": "DEAL-0053",
+    "contact_ids": [
+      "CONTACT-0061"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-28T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0053-2",
+    "deal_id": "DEAL-0053",
+    "contact_ids": [
+      "CONTACT-0074"
+    ],
+    "activity_type": "CALL",
+    "title": "Tandem Forge Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-17T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0053-3",
+    "deal_id": "DEAL-0053",
+    "contact_ids": [
+      "CONTACT-0087"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-06T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0053-4",
+    "deal_id": "DEAL-0053",
+    "contact_ids": [
+      "CONTACT-0100"
+    ],
+    "activity_type": "CALL",
+    "title": "Tandem Forge Renewal 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-26T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0053-5",
+    "deal_id": "DEAL-0053",
+    "contact_ids": [
+      "CONTACT-0061"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Tandem Forge Renewal 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-15T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0054-1",
+    "deal_id": "DEAL-0054",
+    "contact_ids": [
+      "CONTACT-0068"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-25T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0054-2",
+    "deal_id": "DEAL-0054",
+    "contact_ids": [
+      "CONTACT-0081"
+    ],
+    "activity_type": "CALL",
+    "title": "Cobalt Harbor Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-14T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0054-3",
+    "deal_id": "DEAL-0054",
+    "contact_ids": [
+      "CONTACT-0068"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-03T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0054-4",
+    "deal_id": "DEAL-0054",
+    "contact_ids": [
+      "CONTACT-0081"
+    ],
+    "activity_type": "CALL",
+    "title": "Cobalt Harbor Pilot 2026 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-23T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0054-5",
+    "deal_id": "DEAL-0054",
+    "contact_ids": [
+      "CONTACT-0068"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Cobalt Harbor Pilot 2026 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-12T14:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0055-1",
+    "deal_id": "DEAL-0055",
+    "contact_ids": [
+      "CONTACT-0075"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-22T18:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0055-2",
+    "deal_id": "DEAL-0055",
+    "contact_ids": [
+      "CONTACT-0088"
+    ],
+    "activity_type": "CALL",
+    "title": "Fable Systems Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-08-11T17:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0055-3",
+    "deal_id": "DEAL-0055",
+    "contact_ids": [
+      "CONTACT-0101"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-31T16:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0055-4",
+    "deal_id": "DEAL-0055",
+    "contact_ids": [
+      "CONTACT-0075"
+    ],
+    "activity_type": "CALL",
+    "title": "Fable Systems Expansion 2027 call update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-20T15:00:00-07:00",
+    "source_ref": null
+  },
+  {
+    "activity_id": "ACT-0055-5",
+    "deal_id": "DEAL-0055",
+    "contact_ids": [
+      "CONTACT-0088"
+    ],
+    "activity_type": "EMAIL",
+    "title": "Fable Systems Expansion 2027 email update",
+    "body": "Recorded routine customer follow-up and next checkpoint.",
+    "timestamp": "2026-07-09T14:00:00-07:00",
+    "source_ref": null
+  }
+]

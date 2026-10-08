@@ -1,0 +1,2701 @@
+{
+  "export_type": "offline_google_calendar_snapshot",
+  "calendar": {
+    "id": "primary",
+    "name": "Northstar Studio \u2014 Primary"
+  },
+  "timezone": "America/New_York",
+  "exported_at": "2026-10-02T18:00:00-04:00",
+  "events": [
+    {
+      "id": "bg-0001",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-07-01T10:00:00-04:00",
+      "end": "2026-07-01T10:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0002",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-07-01T14:00:00-04:00",
+      "end": "2026-07-01T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0003",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-07-02T12:30:00-04:00",
+      "end": "2026-07-02T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0004",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-07-02T14:15:00-04:00",
+      "end": "2026-07-02T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0005",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-07-03T10:00:00-04:00",
+      "end": "2026-07-03T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0006",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-07-03T14:00:00-04:00",
+      "end": "2026-07-03T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0007",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-07-06T12:00:00-04:00",
+      "end": "2026-07-06T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0008",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-07-06T14:15:00-04:00",
+      "end": "2026-07-06T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0009",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-07-07T10:30:00-04:00",
+      "end": "2026-07-07T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0010",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-07-07T14:00:00-04:00",
+      "end": "2026-07-07T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0011",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-07-08T12:00:00-04:00",
+      "end": "2026-07-08T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0012",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-07-08T14:15:00-04:00",
+      "end": "2026-07-08T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0013",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-07-09T10:00:00-04:00",
+      "end": "2026-07-09T10:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0014",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-07-09T14:00:00-04:00",
+      "end": "2026-07-09T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0017",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-07-10",
+      "end": "2026-07-11",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "bg-0015",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-07-10T12:30:00-04:00",
+      "end": "2026-07-10T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0016",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-07-10T14:15:00-04:00",
+      "end": "2026-07-10T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0018",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-07-13T11:30:00-04:00",
+      "end": "2026-07-13T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0019",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-07-13T15:00:00-04:00",
+      "end": "2026-07-13T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0020",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-07-14T09:00:00-04:00",
+      "end": "2026-07-14T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0021",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-07-14T15:00:00-04:00",
+      "end": "2026-07-14T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0022",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-07-15T11:00:00-04:00",
+      "end": "2026-07-15T11:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0023",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-07-15T15:00:00-04:00",
+      "end": "2026-07-15T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0024",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-07-16T09:30:00-04:00",
+      "end": "2026-07-16T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0025",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-07-16T15:00:00-04:00",
+      "end": "2026-07-16T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0026",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-07-17T11:00:00-04:00",
+      "end": "2026-07-17T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0027",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-07-17T15:00:00-04:00",
+      "end": "2026-07-17T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0028",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-07-20T09:00:00-04:00",
+      "end": "2026-07-20T09:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0029",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-07-20T15:00:00-04:00",
+      "end": "2026-07-20T15:45:00-04:00",
+      "status": "cancelled",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0030",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-07-21T11:30:00-04:00",
+      "end": "2026-07-21T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0031",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-07-21T15:00:00-04:00",
+      "end": "2026-07-21T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0034",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-07-22",
+      "end": "2026-07-23",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "bg-0032",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-07-22T09:00:00-04:00",
+      "end": "2026-07-22T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0033",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-07-22T15:00:00-04:00",
+      "end": "2026-07-22T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0035",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-07-23T12:00:00-04:00",
+      "end": "2026-07-23T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0036",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-07-23T14:15:00-04:00",
+      "end": "2026-07-23T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0037",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-07-24T10:00:00-04:00",
+      "end": "2026-07-24T10:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0038",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-07-24T14:00:00-04:00",
+      "end": "2026-07-24T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0039",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-07-27T12:30:00-04:00",
+      "end": "2026-07-27T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0040",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-07-27T14:15:00-04:00",
+      "end": "2026-07-27T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0041",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-07-28T10:00:00-04:00",
+      "end": "2026-07-28T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0042",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-07-28T14:00:00-04:00",
+      "end": "2026-07-28T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0043",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-07-29T12:00:00-04:00",
+      "end": "2026-07-29T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0044",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-07-29T14:15:00-04:00",
+      "end": "2026-07-29T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0045",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-07-30T10:30:00-04:00",
+      "end": "2026-07-30T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0046",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-07-30T14:00:00-04:00",
+      "end": "2026-07-30T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0047",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-07-31T12:00:00-04:00",
+      "end": "2026-07-31T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0048",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-07-31T14:15:00-04:00",
+      "end": "2026-07-31T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0051",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-08-03",
+      "end": "2026-08-04",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "bg-0049",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-08-03T10:00:00-04:00",
+      "end": "2026-08-03T10:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0050",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-08-03T14:00:00-04:00",
+      "end": "2026-08-03T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0052",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-08-04T09:00:00-04:00",
+      "end": "2026-08-04T09:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0053",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-08-04T15:00:00-04:00",
+      "end": "2026-08-04T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0054",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-08-05T11:30:00-04:00",
+      "end": "2026-08-05T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0055",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-08-05T15:00:00-04:00",
+      "end": "2026-08-05T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0056",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-08-06T09:00:00-04:00",
+      "end": "2026-08-06T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0057",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-08-06T15:00:00-04:00",
+      "end": "2026-08-06T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0058",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-08-07T11:00:00-04:00",
+      "end": "2026-08-07T11:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0059",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-08-07T15:00:00-04:00",
+      "end": "2026-08-07T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0060",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-08-10T09:30:00-04:00",
+      "end": "2026-08-10T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0061",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-08-10T15:00:00-04:00",
+      "end": "2026-08-10T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0062",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-08-11T11:00:00-04:00",
+      "end": "2026-08-11T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0063",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-08-11T15:00:00-04:00",
+      "end": "2026-08-11T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0064",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-08-12T09:00:00-04:00",
+      "end": "2026-08-12T09:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0065",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-08-12T15:00:00-04:00",
+      "end": "2026-08-12T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0068",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-08-13",
+      "end": "2026-08-14",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "bg-0066",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-08-13T11:30:00-04:00",
+      "end": "2026-08-13T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0067",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-08-13T15:00:00-04:00",
+      "end": "2026-08-13T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0069",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-08-14T10:30:00-04:00",
+      "end": "2026-08-14T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": false
+    },
+    {
+      "id": "bg-0070",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-08-14T14:00:00-04:00",
+      "end": "2026-08-14T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0071",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-08-17T12:00:00-04:00",
+      "end": "2026-08-17T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0072",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-08-17T14:15:00-04:00",
+      "end": "2026-08-17T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0073",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-08-18T10:00:00-04:00",
+      "end": "2026-08-18T10:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0074",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-08-18T14:00:00-04:00",
+      "end": "2026-08-18T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0075",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-08-19T12:30:00-04:00",
+      "end": "2026-08-19T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0076",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-08-19T14:15:00-04:00",
+      "end": "2026-08-19T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0077",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-08-20T10:00:00-04:00",
+      "end": "2026-08-20T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0078",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-08-20T14:00:00-04:00",
+      "end": "2026-08-20T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0079",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-08-21T12:00:00-04:00",
+      "end": "2026-08-21T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0080",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-08-21T14:15:00-04:00",
+      "end": "2026-08-21T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0081",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-08-24T10:30:00-04:00",
+      "end": "2026-08-24T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0082",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-08-24T14:00:00-04:00",
+      "end": "2026-08-24T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0085",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-08-25",
+      "end": "2026-08-26",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "bg-0083",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-08-25T12:00:00-04:00",
+      "end": "2026-08-25T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0084",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-08-25T14:15:00-04:00",
+      "end": "2026-08-25T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0086",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-08-26T11:00:00-04:00",
+      "end": "2026-08-26T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0087",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-08-26T15:00:00-04:00",
+      "end": "2026-08-26T15:45:00-04:00",
+      "status": "cancelled",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0088",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-08-27T09:00:00-04:00",
+      "end": "2026-08-27T09:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0089",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-08-27T15:00:00-04:00",
+      "end": "2026-08-27T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0090",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-08-28T11:30:00-04:00",
+      "end": "2026-08-28T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0091",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-08-28T15:00:00-04:00",
+      "end": "2026-08-28T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0092",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-08-31T09:00:00-04:00",
+      "end": "2026-08-31T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": false
+    },
+    {
+      "id": "bg-0093",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-08-31T15:00:00-04:00",
+      "end": "2026-08-31T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0094",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-09-01T11:00:00-04:00",
+      "end": "2026-09-01T11:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0095",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-09-01T15:00:00-04:00",
+      "end": "2026-09-01T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0096",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-09-02T09:30:00-04:00",
+      "end": "2026-09-02T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0097",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-09-02T15:00:00-04:00",
+      "end": "2026-09-02T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0098",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-09-03T11:00:00-04:00",
+      "end": "2026-09-03T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0099",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-09-03T15:00:00-04:00",
+      "end": "2026-09-03T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0102",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-09-04",
+      "end": "2026-09-05",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "bg-0100",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-09-04T09:00:00-04:00",
+      "end": "2026-09-04T09:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0101",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-09-04T15:00:00-04:00",
+      "end": "2026-09-04T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0103",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-09-07T12:00:00-04:00",
+      "end": "2026-09-07T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0104",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-09-07T14:15:00-04:00",
+      "end": "2026-09-07T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0105",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-09-08T10:30:00-04:00",
+      "end": "2026-09-08T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0106",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-09-08T14:00:00-04:00",
+      "end": "2026-09-08T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0107",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-09-09T12:00:00-04:00",
+      "end": "2026-09-09T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0108",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-09-09T14:15:00-04:00",
+      "end": "2026-09-09T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0109",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-09-10T10:00:00-04:00",
+      "end": "2026-09-10T10:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0110",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-09-10T14:00:00-04:00",
+      "end": "2026-09-10T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0111",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-09-11T12:30:00-04:00",
+      "end": "2026-09-11T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0112",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-09-11T14:15:00-04:00",
+      "end": "2026-09-11T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0113",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-09-14T10:00:00-04:00",
+      "end": "2026-09-14T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0114",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-09-14T14:00:00-04:00",
+      "end": "2026-09-14T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0115",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-09-15T12:00:00-04:00",
+      "end": "2026-09-15T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": false
+    },
+    {
+      "id": "bg-0116",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-09-15T14:15:00-04:00",
+      "end": "2026-09-15T15:00:00-04:00",
+      "status": "cancelled",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0119",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-09-16",
+      "end": "2026-09-17",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "bg-0117",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-09-16T10:30:00-04:00",
+      "end": "2026-09-16T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0118",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-09-16T14:00:00-04:00",
+      "end": "2026-09-16T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0120",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-09-17T09:30:00-04:00",
+      "end": "2026-09-17T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0121",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-09-17T15:00:00-04:00",
+      "end": "2026-09-17T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0122",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-09-18T11:00:00-04:00",
+      "end": "2026-09-18T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0123",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-09-18T15:00:00-04:00",
+      "end": "2026-09-18T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0124",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-09-21T09:00:00-04:00",
+      "end": "2026-09-21T09:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0125",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-09-21T15:00:00-04:00",
+      "end": "2026-09-21T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0126",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-09-22T11:30:00-04:00",
+      "end": "2026-09-22T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0127",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-09-22T15:00:00-04:00",
+      "end": "2026-09-22T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0128",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-09-23T09:00:00-04:00",
+      "end": "2026-09-23T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0129",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-09-23T15:00:00-04:00",
+      "end": "2026-09-23T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0130",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-09-24T11:00:00-04:00",
+      "end": "2026-09-24T11:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0131",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-09-24T15:00:00-04:00",
+      "end": "2026-09-24T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0132",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-09-25T09:30:00-04:00",
+      "end": "2026-09-25T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0133",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-09-25T15:00:00-04:00",
+      "end": "2026-09-25T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0136",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "bg-0134",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-09-28T11:00:00-04:00",
+      "end": "2026-09-28T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0135",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-09-28T15:00:00-04:00",
+      "end": "2026-09-28T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0137",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-09-29T10:00:00-04:00",
+      "end": "2026-09-29T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0138",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-09-29T14:00:00-04:00",
+      "end": "2026-09-29T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0139",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-09-30T12:00:00-04:00",
+      "end": "2026-09-30T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0140",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-09-30T14:15:00-04:00",
+      "end": "2026-09-30T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0141",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-10-01T10:30:00-04:00",
+      "end": "2026-10-01T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0142",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-10-01T14:00:00-04:00",
+      "end": "2026-10-01T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0143",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-10-02T12:00:00-04:00",
+      "end": "2026-10-02T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0144",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-10-02T14:15:00-04:00",
+      "end": "2026-10-02T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-001",
+      "calendar_id": "primary",
+      "summary": "Release watch",
+      "start": "2026-10-04T23:00:00-04:00",
+      "end": "2026-10-05T09:15:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-002",
+      "calendar_id": "primary",
+      "summary": "Weekly triage",
+      "start": "2026-10-05T09:00:00-04:00",
+      "end": "2026-10-05T09:30:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-003",
+      "calendar_id": "primary",
+      "summary": "Roadmap check-in",
+      "start": "2026-10-05T10:45:00-04:00",
+      "end": "2026-10-05T11:30:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-004",
+      "calendar_id": "primary",
+      "summary": "Design review",
+      "start": "2026-10-05T13:15:00-04:00",
+      "end": "2026-10-05T14:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-005",
+      "calendar_id": "primary",
+      "summary": "Launch readiness",
+      "start": "2026-10-05T15:45:00-04:00",
+      "end": "2026-10-05T16:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-006",
+      "calendar_id": "primary",
+      "summary": "Support rotation",
+      "start": "2026-10-06T08:30:00-04:00",
+      "end": "2026-10-06T09:30:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-009",
+      "calendar_id": "primary",
+      "summary": "Old focus placeholder",
+      "start": "2026-10-06T09:30:00-04:00",
+      "end": "2026-10-06T10:45:00-04:00",
+      "status": "cancelled",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-007",
+      "calendar_id": "primary",
+      "summary": "Partner call",
+      "start": "2026-10-06T10:45:00-04:00",
+      "end": "2026-10-06T11:15:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-008",
+      "calendar_id": "primary",
+      "summary": "Billing review",
+      "start": "2026-10-06T14:30:00-04:00",
+      "end": "2026-10-06T15:15:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-010",
+      "calendar_id": "primary",
+      "summary": "Recorded enablement webinar",
+      "start": "2026-10-06T15:30:00-04:00",
+      "end": "2026-10-06T16:30:00-04:00",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": false
+    },
+    {
+      "id": "wk-012",
+      "calendar_id": "primary",
+      "summary": "Legal review",
+      "start": "2026-10-07T13:30:00-04:00",
+      "end": "2026-10-07T14:30:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-011",
+      "calendar_id": "primary",
+      "summary": "Engineering sync",
+      "start": "2026-10-07T14:00:00+00:00",
+      "end": "2026-10-07T14:30:00+00:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-013",
+      "calendar_id": "primary",
+      "summary": "Customer office hours",
+      "start": "2026-10-07T16:00:00-04:00",
+      "end": "2026-10-07T17:30:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-014",
+      "calendar_id": "primary",
+      "summary": "Out of office",
+      "start": "2026-10-08",
+      "end": "2026-10-09",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "wk-015",
+      "calendar_id": "primary",
+      "summary": "Department meeting",
+      "start": "2026-10-08T10:00:00-04:00",
+      "end": "2026-10-08T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-016",
+      "calendar_id": "primary",
+      "summary": "Quarterly planning hold",
+      "start": "2026-10-08T14:00:00-04:00",
+      "end": "2026-10-08T15:00:00-04:00",
+      "status": "tentative",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-019",
+      "calendar_id": "primary",
+      "summary": "Team birthday",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "wk-017",
+      "calendar_id": "primary",
+      "summary": "Weekly metrics",
+      "start": "2026-10-09T09:45:00-04:00",
+      "end": "2026-10-09T10:15:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "wk-018",
+      "calendar_id": "primary",
+      "summary": "Demo review",
+      "start": "2026-10-09T13:45:00-04:00",
+      "end": "2026-10-09T14:30:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0145",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-10-12T10:00:00-04:00",
+      "end": "2026-10-12T10:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0146",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-10-12T14:00:00-04:00",
+      "end": "2026-10-12T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0147",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-10-13T12:30:00-04:00",
+      "end": "2026-10-13T13:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0148",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-10-13T14:15:00-04:00",
+      "end": "2026-10-13T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0149",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-10-14T10:00:00-04:00",
+      "end": "2026-10-14T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0150",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-10-14T14:00:00-04:00",
+      "end": "2026-10-14T14:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0153",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-10-15",
+      "end": "2026-10-16",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "bg-0151",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-10-15T12:00:00-04:00",
+      "end": "2026-10-15T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0152",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-10-15T14:15:00-04:00",
+      "end": "2026-10-15T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0154",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-10-16T11:00:00-04:00",
+      "end": "2026-10-16T11:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0155",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-10-16T15:00:00-04:00",
+      "end": "2026-10-16T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0156",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-10-19T09:30:00-04:00",
+      "end": "2026-10-19T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0157",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-10-19T15:00:00-04:00",
+      "end": "2026-10-19T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0158",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-10-20T11:00:00-04:00",
+      "end": "2026-10-20T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0159",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-10-20T15:00:00-04:00",
+      "end": "2026-10-20T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0160",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-10-21T09:00:00-04:00",
+      "end": "2026-10-21T09:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0161",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-10-21T15:00:00-04:00",
+      "end": "2026-10-21T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0162",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-10-22T11:30:00-04:00",
+      "end": "2026-10-22T12:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0163",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-10-22T15:00:00-04:00",
+      "end": "2026-10-22T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0164",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-10-23T09:00:00-04:00",
+      "end": "2026-10-23T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0165",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-10-23T15:00:00-04:00",
+      "end": "2026-10-23T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0166",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-10-26T11:00:00-04:00",
+      "end": "2026-10-26T11:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0167",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-10-26T15:00:00-04:00",
+      "end": "2026-10-26T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0170",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-10-27",
+      "end": "2026-10-28",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "bg-0168",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-10-27T09:30:00-04:00",
+      "end": "2026-10-27T10:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0169",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-10-27T15:00:00-04:00",
+      "end": "2026-10-27T15:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0171",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-10-28T12:30:00-04:00",
+      "end": "2026-10-28T13:00:00-04:00",
+      "status": "tentative",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0172",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-10-28T14:15:00-04:00",
+      "end": "2026-10-28T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0173",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-10-29T10:00:00-04:00",
+      "end": "2026-10-29T11:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0174",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-10-29T14:00:00-04:00",
+      "end": "2026-10-29T14:45:00-04:00",
+      "status": "cancelled",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0175",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-10-30T12:00:00-04:00",
+      "end": "2026-10-30T12:45:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0176",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-10-30T14:15:00-04:00",
+      "end": "2026-10-30T15:00:00-04:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0177",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-11-02T10:30:00-05:00",
+      "end": "2026-11-02T11:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0178",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-11-02T14:00:00-05:00",
+      "end": "2026-11-02T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0179",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T13:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0180",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-11-03T14:15:00-05:00",
+      "end": "2026-11-03T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0181",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-11-04T10:00:00-05:00",
+      "end": "2026-11-04T10:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0182",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-11-04T14:00:00-05:00",
+      "end": "2026-11-04T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0183",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-11-05T12:30:00-05:00",
+      "end": "2026-11-05T13:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0184",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-11-05T14:15:00-05:00",
+      "end": "2026-11-05T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0187",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-11-06",
+      "end": "2026-11-07",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "bg-0185",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-11-06T10:00:00-05:00",
+      "end": "2026-11-06T11:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0186",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-11-06T14:00:00-05:00",
+      "end": "2026-11-06T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0188",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-11-09T09:00:00-05:00",
+      "end": "2026-11-09T10:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0189",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-11-09T15:00:00-05:00",
+      "end": "2026-11-09T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0190",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-11-10T11:00:00-05:00",
+      "end": "2026-11-10T11:45:00-05:00",
+      "status": "tentative",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0191",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-11-10T15:00:00-05:00",
+      "end": "2026-11-10T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0192",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-11-11T09:30:00-05:00",
+      "end": "2026-11-11T10:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0193",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-11-11T15:00:00-05:00",
+      "end": "2026-11-11T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0194",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-11-12T11:00:00-05:00",
+      "end": "2026-11-12T12:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0195",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-11-12T15:00:00-05:00",
+      "end": "2026-11-12T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0196",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-11-13T09:00:00-05:00",
+      "end": "2026-11-13T09:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0197",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-11-13T15:00:00-05:00",
+      "end": "2026-11-13T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0198",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-11-16T11:30:00-05:00",
+      "end": "2026-11-16T12:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0199",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-11-16T15:00:00-05:00",
+      "end": "2026-11-16T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0200",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-11-17T09:00:00-05:00",
+      "end": "2026-11-17T10:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0201",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-11-17T15:00:00-05:00",
+      "end": "2026-11-17T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0204",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-11-18",
+      "end": "2026-11-19",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "bg-0202",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-11-18T11:00:00-05:00",
+      "end": "2026-11-18T11:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0203",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-11-18T15:00:00-05:00",
+      "end": "2026-11-18T15:45:00-05:00",
+      "status": "cancelled",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0205",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-11-19T10:00:00-05:00",
+      "end": "2026-11-19T10:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0206",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-11-19T14:00:00-05:00",
+      "end": "2026-11-19T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0207",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-11-20T12:30:00-05:00",
+      "end": "2026-11-20T13:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": false
+    },
+    {
+      "id": "bg-0208",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-11-20T14:15:00-05:00",
+      "end": "2026-11-20T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0209",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-11-23T10:00:00-05:00",
+      "end": "2026-11-23T11:00:00-05:00",
+      "status": "tentative",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0210",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-11-23T14:00:00-05:00",
+      "end": "2026-11-23T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0211",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-11-24T12:00:00-05:00",
+      "end": "2026-11-24T12:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0212",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-11-24T14:15:00-05:00",
+      "end": "2026-11-24T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0213",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-11-25T10:30:00-05:00",
+      "end": "2026-11-25T11:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0214",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-11-25T14:00:00-05:00",
+      "end": "2026-11-25T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0215",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-11-26T12:00:00-05:00",
+      "end": "2026-11-26T13:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0216",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-11-26T14:15:00-05:00",
+      "end": "2026-11-26T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0217",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-11-27T10:00:00-05:00",
+      "end": "2026-11-27T10:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0218",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-11-27T14:00:00-05:00",
+      "end": "2026-11-27T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0221",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-11-30",
+      "end": "2026-12-01",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": true
+    },
+    {
+      "id": "bg-0219",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-11-30T12:30:00-05:00",
+      "end": "2026-11-30T13:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0220",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-11-30T14:15:00-05:00",
+      "end": "2026-11-30T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0222",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-12-01T11:30:00-05:00",
+      "end": "2026-12-01T12:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0223",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-12-01T15:00:00-05:00",
+      "end": "2026-12-01T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0224",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-12-02T09:00:00-05:00",
+      "end": "2026-12-02T10:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0225",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-12-02T15:00:00-05:00",
+      "end": "2026-12-02T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0226",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-12-03T11:00:00-05:00",
+      "end": "2026-12-03T11:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0227",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-12-03T15:00:00-05:00",
+      "end": "2026-12-03T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0228",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-12-04T09:30:00-05:00",
+      "end": "2026-12-04T10:00:00-05:00",
+      "status": "tentative",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0229",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-12-04T15:00:00-05:00",
+      "end": "2026-12-04T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0230",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-12-07T11:00:00-05:00",
+      "end": "2026-12-07T12:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": false
+    },
+    {
+      "id": "bg-0231",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-12-07T15:00:00-05:00",
+      "end": "2026-12-07T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0232",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-12-08T09:00:00-05:00",
+      "end": "2026-12-08T09:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0233",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-12-08T15:00:00-05:00",
+      "end": "2026-12-08T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0234",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-12-09T11:30:00-05:00",
+      "end": "2026-12-09T12:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0235",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-12-09T15:00:00-05:00",
+      "end": "2026-12-09T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0238",
+      "calendar_id": "primary",
+      "summary": "Travel day",
+      "start": "2026-12-10",
+      "end": "2026-12-11",
+      "status": "confirmed",
+      "transparency": "transparent",
+      "all_day": true
+    },
+    {
+      "id": "bg-0236",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-12-10T09:00:00-05:00",
+      "end": "2026-12-10T10:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0237",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-12-10T15:00:00-05:00",
+      "end": "2026-12-10T15:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0239",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-12-11T12:00:00-05:00",
+      "end": "2026-12-11T13:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0240",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-12-11T14:15:00-05:00",
+      "end": "2026-12-11T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0241",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-12-14T10:00:00-05:00",
+      "end": "2026-12-14T10:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0242",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-12-14T14:00:00-05:00",
+      "end": "2026-12-14T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0243",
+      "calendar_id": "primary",
+      "summary": "Design critique",
+      "start": "2026-12-15T12:30:00-05:00",
+      "end": "2026-12-15T13:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0244",
+      "calendar_id": "primary",
+      "summary": "Planning huddle",
+      "start": "2026-12-15T14:15:00-05:00",
+      "end": "2026-12-15T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0245",
+      "calendar_id": "primary",
+      "summary": "Partner update",
+      "start": "2026-12-16T10:00:00-05:00",
+      "end": "2026-12-16T11:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0246",
+      "calendar_id": "primary",
+      "summary": "Research review",
+      "start": "2026-12-16T14:00:00-05:00",
+      "end": "2026-12-16T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0247",
+      "calendar_id": "primary",
+      "summary": "Budget checkpoint",
+      "start": "2026-12-17T12:00:00-05:00",
+      "end": "2026-12-17T12:45:00-05:00",
+      "status": "tentative",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0248",
+      "calendar_id": "primary",
+      "summary": "Project check-in",
+      "start": "2026-12-17T14:15:00-05:00",
+      "end": "2026-12-17T15:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0249",
+      "calendar_id": "primary",
+      "summary": "Customer follow-up",
+      "start": "2026-12-18T10:30:00-05:00",
+      "end": "2026-12-18T11:00:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    },
+    {
+      "id": "bg-0250",
+      "calendar_id": "primary",
+      "summary": "Operations sync",
+      "start": "2026-12-18T14:00:00-05:00",
+      "end": "2026-12-18T14:45:00-05:00",
+      "status": "confirmed",
+      "transparency": "opaque",
+      "all_day": false
+    }
+  ]
+}

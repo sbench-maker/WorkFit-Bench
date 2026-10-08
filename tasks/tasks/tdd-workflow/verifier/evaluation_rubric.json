@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Completed repository usability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested repository and evidence report exist, the repository is readable, and the delivered Git worktree is complete and clean.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__pricing_correctness",
+      "title": "Checkout pricing correctness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Library quotes follow the plan's gift-card eligibility, per-line half-up rounding, tax, subtotal, and total rules across representative mixed carts.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_quote_business_rules"
+      ]
+    },
+    {
+      "id": "completion__interface_consistency",
+      "title": "HTTP and validation contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Valid HTTP quotes match the library, and invalid library and live-HTTP requests produce the specified errors without partial totals.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_library_and_adapter_validation_contract",
+        "test_live_http_route_contract"
+      ]
+    },
+    {
+      "id": "completion__regression_protection",
+      "title": "Passing coverage and regression protection",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The submitted suite passes at 80% or higher line coverage and its added tests fail against the original defective implementation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_suite_coverage_and_regression_protection"
+      ]
+    },
+    {
+      "id": "completion__tdd_checkpoints",
+      "title": "Reproducible RED and GREEN checkpoints",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Reachable Git history contains a tests-first RED checkpoint that fails before production changes and a later separate GREEN checkpoint that passes.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_red_green_git_checkpoints"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Completed repository usability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__pricing_correctness",
+        "title": "Checkout pricing correctness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__interface_consistency",
+        "title": "HTTP and validation contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__regression_protection",
+        "title": "Passing coverage and regression protection",
+        "required_score": 10
+      },
+      {
+        "id": "completion__tdd_checkpoints",
+        "title": "Reproducible RED and GREEN checkpoints",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "record_count": 240,
+  "relationships": [
+    "documents.id and documents.url identify search and scrape objects"
+  ],
+  "intentional_conditions": [
+    "current authoritative pages",
+    "a superseded draft with a misleading snippet",
+    "an archived checklist conflict",
+    "a partial scrape whose snippet overstates an exception",
+    "blocked synthetic X and Reddit URLs"
+  ]
+}

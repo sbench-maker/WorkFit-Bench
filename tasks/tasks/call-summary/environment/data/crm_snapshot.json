@@ -1,0 +1,45 @@
+{
+  "snapshot_as_of": "2026-08-18T12:30:00-04:00",
+  "account": {
+    "account_id": "ACC-ACD-204",
+    "name": "Acadia Lodging Group",
+    "industry": "Hospitality",
+    "headquarters": "Boston, MA",
+    "property_count": 12
+  },
+  "opportunity": {
+    "opportunity_id": "OPP-ACD-1047",
+    "name": "Acadia guest operations workspace",
+    "stage_before_call": "Technical validation",
+    "pre_call_estimated_agents": 75,
+    "estimate_status": "Unverified pre-call estimate; replace with the customer's final call correction",
+    "currency": "USD",
+    "owner": "Maya Chen"
+  },
+  "seller": {
+    "name": "Maya Chen",
+    "title": "Account Executive",
+    "email": "maya.chen@example.invalid",
+    "company": "RelayDesk"
+  },
+  "customer_contacts": [
+    {
+      "name": "Elena Brooks",
+      "title": "VP, Guest Operations"
+    },
+    {
+      "name": "Theo Martins",
+      "title": "Director of IT"
+    },
+    {
+      "name": "Samir Patel",
+      "title": "Strategic Procurement Manager"
+    }
+  ],
+  "meeting": {
+    "date": "2026-08-18",
+    "timezone": "America/New_York",
+    "scheduled_minutes": 60,
+    "type": "Pilot scoping and commercial follow-up"
+  }
+}

@@ -1,0 +1,33 @@
+initiative_id,name,description,theme,owner,status,current_horizon,current_rank,hard_deadline,moscow,reach_accounts_h2,impact,confidence,remaining_effort_points,rice_score
+RM-001,Billing ledger reconciliation,Reconcile invoice and credit events into one auditable ledger.,Trust,Priya Nair,On Track,Now,1,,Must,5800,2.0,0.9,25,417.6
+RM-002,Workspace role cleanup,Remove legacy workspace roles and simplify permission mapping.,Enterprise readiness,Marco Li,On Track,Now,2,,Should,7200,1.0,0.9,22,294.5
+RM-003,Regional tax receipt compliance,Issue tax-compliant receipts before the regional enforcement date.,Trust,Elena Park,At Risk,Now,3,2026-10-02,Must,3100,3.0,1.0,28,332.1
+RM-004,Search relevance tuning,Improve ranking for multi-term workspace search.,Core experience,Jon Bell,On Track,Now,4,,Should,18800,1.0,0.8,24,626.7
+RM-005,Mobile offline queue,Queue edits safely while mobile clients are offline.,Core experience,Amina Yusuf,On Track,Now,5,,Should,9400,1.0,0.8,27,278.5
+RM-006,Usage event backfill,Restore missing historical usage events for reporting.,Data foundations,Victor Chen,Completed,Now,6,,Must,25000,1.0,1.0,0,25000.0
+RM-007,Webhook retry controls,Give admins visibility and controls for webhook retries.,Platform resilience,Sofia Marin,At Risk,Now,7,,Should,4300,2.0,0.8,25,275.2
+RM-008,Trial conversion prompts,Guide qualified trials toward their first paid workflow.,Growth,Caleb Ross,On Track,Now,8,,Could,15000,0.5,0.8,26,230.8
+RM-009,Design token migration,Move product surfaces to the consolidated token set.,Developer velocity,Nora Singh,Completed,Now,9,,Should,12000,0.5,1.0,0,6000.0
+RM-010,Support console deep links,Open relevant customer records directly from support cases.,Operations,Leo Duarte,Not Started,Now,10,,Could,1800,1.0,0.8,14,102.9
+RM-011,SCIM group sync,Provision groups from enterprise identity directories.,Enterprise readiness,Marco Li,Not Started,Next,1,2026-11-30,Must,4200,3.0,0.9,32,354.4
+RM-012,Passwordless login rollout,Roll out vendor-backed passwordless authentication.,Enterprise readiness,Priya Nair,Not Started,Next,2,,Should,11000,2.0,0.8,29,606.9
+RM-013,Invoice approval workflow,Route invoices through configurable approval chains.,Enterprise readiness,Elena Park,Not Started,Next,3,,Should,3800,2.0,0.8,23,264.3
+RM-014,Mobile admin approvals,Approve admin requests securely from mobile devices.,Core experience,Amina Yusuf,Not Started,Next,4,,Should,7600,1.0,0.8,30,202.7
+RM-015,Data residency controls,Pin tenant data processing to contracted regions.,Trust,Victor Chen,Not Started,Next,5,2026-11-27,Must,2400,3.0,0.9,30,216.0
+RM-016,Adaptive access policies,Apply risk-based policies after passwordless identity checks.,Enterprise readiness,Sofia Marin,Not Started,Next,6,,Should,5200,2.0,0.7,26,280.0
+RM-017,Template marketplace beta,Let selected partners publish workflow templates.,Extensibility,Jon Bell,Not Started,Next,7,,Could,8900,1.0,0.7,29,214.8
+RM-018,Renewal health dashboard,Surface renewal risks and account-health drivers.,Growth,Caleb Ross,Not Started,Next,8,2026-11-25,Must,1800,3.0,0.9,31,156.8
+RM-019,Public API usage explorer,Explain API consumption and rate-limit headroom.,Extensibility,Sofia Marin,Not Started,Next,9,,Should,6100,1.0,0.8,25,195.2
+RM-020,Bulk workspace transfer,Transfer many workspaces between enterprise tenants.,Operations,Leo Duarte,Not Started,Next,10,,Could,1700,1.0,0.8,20,68.0
+RM-021,AI cohort insights,Generate suggested retention cohorts from behavioral data.,Growth,Victor Chen,Not Started,Next,11,,Could,950,1.0,0.5,29,16.4
+RM-022,Comment mention digest,Bundle low-urgency comment mentions into a digest.,Core experience,Nora Singh,Not Started,Next,12,,Could,12500,0.5,0.9,26,216.3
+RM-023,Partner sandbox,Provide isolated test tenants for integration partners.,Extensibility,Sofia Marin,Not Started,Later,1,,Should,3300,2.0,0.7,32,144.4
+RM-024,Mobile home widgets,Expose priority work through mobile home-screen widgets.,Core experience,Amina Yusuf,Not Started,Later,2,,Could,8400,0.5,0.7,28,105.0
+RM-025,Customer-managed keys,Encrypt selected tenant data with customer-owned keys.,Trust,Priya Nair,Not Started,Later,3,,Should,1200,3.0,0.6,29,74.5
+RM-026,Cross-workspace analytics,Compare engagement patterns across related workspaces.,Data foundations,Victor Chen,Not Started,Later,4,,Should,6100,2.0,0.6,37,197.8
+RM-027,Workflow branching,Support conditional branches in automated workflows.,Core experience,Jon Bell,Not Started,Later,5,,Should,9900,1.0,0.7,33,210.0
+RM-028,Reseller billing portal,Give resellers a branded billing and seat-management view.,Growth,Caleb Ross,Not Started,Later,6,,Could,1400,2.0,0.6,29,57.9
+RM-029,Record retention policies,Apply configurable retention and deletion rules to records.,Trust,Elena Park,Not Started,Later,7,2027-01-15,Must,2800,3.0,0.8,30,224.0
+RM-030,Localization authoring,Let localization teams author translations in context.,Core experience,Nora Singh,Not Started,Later,8,,Could,5600,1.0,0.6,30,112.0
+RM-031,Rules engine observability,Trace decisions and latency inside the rules engine.,Platform resilience,Sofia Marin,Not Started,Later,9,,Should,2100,2.0,0.7,24,122.5
+RM-032,Community template sharing,Let community members share reusable templates.,Growth,Caleb Ross,Not Started,Later,10,,Could,7300,0.5,0.5,26,70.2

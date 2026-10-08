@@ -1,0 +1,51 @@
+customer_id,customer_name,segment,region,industry,start_date,status_as_of_2026_06_30,churn_date,health_score,last_success_touch
+C001,Aster Peak Logistics,Strategic,North America,Retail,2023-06-04,active,,79,2026-06-26
+C002,Beaconridge Health,Strategic,Europe,Professional Services,2024-11-07,active,,86,2026-06-22
+C003,Cinderline Foods,Strategic,Asia Pacific,Logistics,2025-04-10,active,,93,2026-06-18
+C004,Dovetail Robotics,Strategic,North America,Retail,2022-09-13,active,,77,2026-06-14
+C005,Evertrail Learning,Strategic,Europe,Professional Services,2023-02-16,active,,38,2026-06-10
+C006,Fable Grove Retail,Strategic,Asia Pacific,Logistics,2024-07-19,active,,42,2026-06-06
+C007,Granite Finch Energy,Strategic,North America,Retail,2025-12-02,active,,45,2026-06-02
+C008,Harborlight Media,Strategic,Europe,Professional Services,2022-05-05,active,,82,2026-05-29
+C009,Ironwood Analytics,Mid-market,Asia Pacific,Logistics,2023-10-08,active,,89,2026-05-25
+C010,Juniper Vale Travel,Mid-market,North America,Retail,2024-03-11,active,,73,2026-05-21
+C011,Keystone Parcel,Mid-market,Europe,Professional Services,2025-08-14,active,,80,2026-05-17
+C012,Lumen Harbor Labs,Mid-market,Asia Pacific,Logistics,2022-01-17,active,,87,2026-05-13
+C013,Morrow Field Services,Mid-market,North America,Retail,2023-06-20,active,,94,2026-05-09
+C014,Northwind Artisan,Mid-market,Europe,Professional Services,2024-11-03,active,,78,2026-05-05
+C015,Oak & Ember Commerce,Mid-market,Asia Pacific,Logistics,2025-04-06,active,,85,2026-05-01
+C016,Pinecrest Mobility,Mid-market,North America,Retail,2022-09-09,active,,92,2026-04-27
+C017,Quartz River Design,Mid-market,Europe,Professional Services,2023-02-12,active,,76,2026-06-29
+C018,Redwood Signal,Mid-market,Asia Pacific,Logistics,2024-07-15,active,,83,2026-06-25
+C019,Silver Birch Care,Mid-market,North America,Retail,2025-12-18,active,,90,2026-06-21
+C020,Ternworks Manufacturing,Mid-market,Europe,Professional Services,2022-05-01,active,,74,2026-06-17
+C021,Umber Sky Studios,Mid-market,Asia Pacific,Logistics,2023-10-04,active,,81,2026-06-13
+C022,Violet Span Security,Mid-market,North America,Retail,2024-03-07,active,,88,2026-06-09
+C023,Willowforge Systems,Mid-market,Europe,Professional Services,2025-08-10,active,,72,2026-06-05
+C024,Xenon Trail Bio,Mid-market,Asia Pacific,Logistics,2022-01-13,active,,79,2026-06-01
+C025,Yellowleaf Markets,Mid-market,North America,Retail,2023-06-16,active,,86,2026-05-28
+C026,Zephyr Dock Software,Mid-market,Europe,Professional Services,2024-11-19,active,,93,2026-05-24
+C027,Alderpath Consulting,Mid-market,Asia Pacific,Logistics,2025-04-02,active,,77,2026-05-20
+C028,Brightmere Dental,Mid-market,North America,Retail,2022-09-05,active,,84,2026-05-16
+C029,Copper Fox Finance,Mid-market,Europe,Professional Services,2023-02-08,active,,91,2026-05-12
+C030,Driftwood Civic,Mid-market,Asia Pacific,Logistics,2024-07-11,active,,75,2026-05-08
+C031,Elmstone Sports,SMB,North America,Retail,2025-12-14,active,,82,2026-05-04
+C032,Foxglove Home,SMB,Europe,Professional Services,2022-05-17,active,,89,2026-04-30
+C033,Glenhaven Legal,SMB,Asia Pacific,Logistics,2023-10-20,active,,73,2026-04-26
+C034,Highpoint Pets,SMB,North America,Retail,2024-03-03,active,,80,2026-06-28
+C035,Ivory Kite Events,SMB,Europe,Professional Services,2025-08-06,active,,87,2026-06-24
+C036,Jadebrook Wellness,SMB,Asia Pacific,Logistics,2022-01-09,active,,94,2026-06-20
+C037,Kindred Loom,SMB,North America,Retail,2023-06-12,active,,78,2026-06-16
+C038,Lakehouse Freight,SMB,Europe,Professional Services,2024-11-15,active,,85,2026-06-12
+C039,Moonrise Kitchens,SMB,Asia Pacific,Logistics,2025-04-18,active,,92,2026-06-08
+C040,Noble Fern Apparel,SMB,North America,Retail,2022-09-01,active,,76,2026-06-04
+C041,Opal Ridge Farms,SMB,Europe,Professional Services,2023-02-04,active,,83,2026-05-31
+C042,Prairie Bell Telecom,SMB,Asia Pacific,Logistics,2024-07-07,active,,90,2026-05-27
+C043,Quillstone Publishing,SMB,North America,Retail,2025-12-10,active,,74,2026-05-23
+C044,Raven Hollow Auto,SMB,Europe,Professional Services,2022-05-13,active,,81,2026-05-19
+C045,Sunward Marine,SMB,Asia Pacific,Logistics,2023-10-16,active,,88,2026-05-15
+C046,Thistle & Frame,SMB,North America,Retail,2024-03-19,churned,2026-06-06,25,2026-05-11
+C047,Union Crest Storage,SMB,Europe,Professional Services,2025-08-02,churned,2026-06-11,28,2026-05-07
+C048,Verdant Axis,SMB,Asia Pacific,Logistics,2022-01-05,churned,2026-06-16,31,2026-05-03
+C049,Westfall Clinic,SMB,North America,Retail,2023-06-08,churned,2026-06-21,34,2026-04-29
+C050,Yarrow Street Goods,SMB,Europe,Professional Services,2024-11-11,churned,2026-06-26,37,2026-04-25

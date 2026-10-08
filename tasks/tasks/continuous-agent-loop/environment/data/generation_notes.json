@@ -1,0 +1,16 @@
+{
+  "method": "deterministic fictional snapshot generated locally",
+  "as_of": "2026-08-18T18:00:00Z",
+  "row_counts": {
+    "work_items": 30,
+    "attempts": 43,
+    "eval_results": 258,
+    "merge_queue": 30
+  },
+  "intentional_conditions": [
+    "a protected pull-request queue with no merge inside the configured progress window",
+    "repeated failure signatures on several units",
+    "attempt-limit exhaustion and downstream dependency holds",
+    "passing queue entries that must not be recomputed"
+  ]
+}

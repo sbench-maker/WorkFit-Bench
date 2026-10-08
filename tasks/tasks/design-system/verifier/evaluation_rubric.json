@@ -1,0 +1,127 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "System-wide scope and inventory summary",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The Markdown audit is readable, covers every catalogued component, and reports category-level counts that reconcile with the complete frozen snapshot.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__token_audit",
+      "title": "Hardcoded visual value audit",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every unauthorized visual literal is tied to its component file and mapped to the exact approved token when one exists; no-match values are surfaced for design review and registered exceptions are not misclassified.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_hardcoded_visual_value_findings",
+        "test_registered_literal_exception_is_not_a_violation"
+      ]
+    },
+    {
+      "id": "completion__public_naming",
+      "title": "Public naming consistency and migration safety",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All nonconforming public variant and size names are evidenced, mapped to approved aliases, and paired with the supplied nonbreaking deprecation window.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_public_name_drift_and_safe_replacement"
+      ]
+    },
+    {
+      "id": "completion__component_completeness",
+      "title": "Required behavior and documentation completeness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The audit identifies each missing required state or accessibility behavior and each public contract item present in source but omitted from its documentation, with file-level evidence.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_required_state_and_accessibility_gaps",
+        "test_documentation_contract_gaps"
+      ]
+    },
+    {
+      "id": "completion__risk_prioritization",
+      "title": "Risk-ranked remediation plan",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The remediation plan ranks component changes using user impact, reach, and release risk, distinguishes mechanical fixes from design decisions, and sequences public API changes.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "System-wide scope and inventory summary",
+        "required_score": 10
+      },
+      {
+        "id": "completion__token_audit",
+        "title": "Hardcoded visual value audit",
+        "required_score": 10
+      },
+      {
+        "id": "completion__public_naming",
+        "title": "Public naming consistency and migration safety",
+        "required_score": 10
+      },
+      {
+        "id": "completion__component_completeness",
+        "title": "Required behavior and documentation completeness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_prioritization",
+        "title": "Risk-ranked remediation plan",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

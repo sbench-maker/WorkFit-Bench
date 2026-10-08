@@ -1,0 +1,41 @@
+requirement_id,capability,priority,vendor_id,status
+REQ-01,Invoice capture,must,V-ATLAS,supported
+REQ-01,Invoice capture,must,V-BEACON,supported
+REQ-02,Three-way match,must,V-ATLAS,supported
+REQ-02,Three-way match,must,V-BEACON,supported
+REQ-03,Duplicate detection,must,V-ATLAS,supported
+REQ-03,Duplicate detection,must,V-BEACON,supported
+REQ-04,Northstar LegacyERP connector,must,V-ATLAS,native
+REQ-04,Northstar LegacyERP connector,must,V-BEACON,custom_connector
+REQ-05,SAP S/4 connector,must,V-ATLAS,native
+REQ-05,SAP S/4 connector,must,V-BEACON,native
+REQ-06,NetSuite connector,should,V-ATLAS,native
+REQ-06,NetSuite connector,should,V-BEACON,native
+REQ-07,SSO with SAML,must,V-ATLAS,supported
+REQ-07,SSO with SAML,must,V-BEACON,supported
+REQ-08,SCIM provisioning,should,V-ATLAS,supported
+REQ-08,SCIM provisioning,should,V-BEACON,supported
+REQ-09,US data residency,must,V-ATLAS,supported
+REQ-09,US data residency,must,V-BEACON,supported
+REQ-10,Configurable retention,must,V-ATLAS,supported
+REQ-10,Configurable retention,must,V-BEACON,supported
+REQ-11,Standard-format bulk export,must,V-ATLAS,paid_service
+REQ-11,Standard-format bulk export,must,V-BEACON,included
+REQ-12,Real-time budget validation,should,V-ATLAS,roadmap_2027_q3
+REQ-12,Real-time budget validation,should,V-BEACON,supported
+REQ-13,Mobile approvals,should,V-ATLAS,supported
+REQ-13,Mobile approvals,should,V-BEACON,supported
+REQ-14,Custom approval chains,must,V-ATLAS,supported
+REQ-14,Custom approval chains,must,V-BEACON,supported
+REQ-15,Sandbox environment,must,V-ATLAS,supported
+REQ-15,Sandbox environment,must,V-BEACON,supported
+REQ-16,Audit log API,must,V-ATLAS,supported
+REQ-16,Audit log API,must,V-BEACON,supported
+REQ-17,Supplier portal,should,V-ATLAS,supported
+REQ-17,Supplier portal,should,V-BEACON,supported
+REQ-18,Invoice exception analytics,should,V-ATLAS,basic
+REQ-18,Invoice exception analytics,should,V-BEACON,advanced
+REQ-19,Quarterly release notes,should,V-ATLAS,supported
+REQ-19,Quarterly release notes,should,V-BEACON,supported
+REQ-20,Dedicated escalation manager,must,V-ATLAS,included
+REQ-20,Dedicated escalation manager,must,V-BEACON,included

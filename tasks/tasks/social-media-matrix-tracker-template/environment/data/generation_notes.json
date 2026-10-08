@@ -1,0 +1,15 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "daily_platform_metrics.csv": 244,
+    "content_posts.csv": 124,
+    "hourly_engagement.csv": 48,
+    "weekly_operations.csv": 7,
+    "geo_conversions.csv": 5
+  },
+  "intentional_edge_cases": [
+    "one unavailable YouTube activity day",
+    "one missing Xiaohongshu follower snapshot with otherwise valid activity",
+    "two excluded spam posts per platform"
+  ]
+}

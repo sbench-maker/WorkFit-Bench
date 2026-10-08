@@ -1,0 +1,11 @@
+{
+  "fixture": "fictional deterministic project snapshot",
+  "project_root": "/root/data/project",
+  "agent": "Codex CLI",
+  "captured_remote_object": {
+    "directory": "/root/data/figma_mcp",
+    "tool": "create_design_system_rules",
+    "complete": true
+  },
+  "relevant_inputs_complete": true
+}

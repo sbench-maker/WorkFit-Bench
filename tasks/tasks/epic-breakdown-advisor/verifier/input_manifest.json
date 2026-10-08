@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "submission": {
+    "expected_path": "/root/results/epic_breakdown.md",
+    "copied_complete": true
+  },
+  "task_inputs": [
+    {"path": "/root/data/README.md", "complete": true},
+    {"path": "/root/data/epic.json", "complete": true},
+    {"path": "/root/data/workflow.json", "complete": true},
+    {"path": "/root/data/business_rules.json", "complete": true},
+    {"path": "/root/data/team_constraints.json", "complete": true},
+    {"path": "/root/data/discovery_observations.csv", "complete": true, "data_rows": 240},
+    {"path": "/root/data/generation_notes.json", "complete": true}
+  ],
+  "truncated": false
+}

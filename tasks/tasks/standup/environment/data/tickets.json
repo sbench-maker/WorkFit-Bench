@@ -1,0 +1,821 @@
+[
+  {
+    "ticket_id": "OPS-482",
+    "title": "Bounded retries for webhook delivery",
+    "description": "Protect partner endpoints with capped exponential backoff and jitter.",
+    "assignee_id": "u_mchen",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "APP-771",
+    "title": "Role permission audit panel",
+    "description": "Show administrators a before/after view of permission changes.",
+    "assignee_id": "u_mchen",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-205",
+    "title": "Reproduce replay schema drift",
+    "description": "Reproduce a field-shape mismatch from a redacted event replay.",
+    "assignee_id": "u_mchen",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Blocked"
+  },
+  {
+    "ticket_id": "AUTH-90",
+    "title": "Refresh sandbox signing certificate",
+    "description": "Rotate the fictional sandbox certificate used by integration tests.",
+    "assignee_id": "u_mchen",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "MOB-640",
+    "title": "Normalize mobile cache keys",
+    "description": "Remove device-specific cache-key divergence.",
+    "assignee_id": "u_theo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "APP-755",
+    "title": "Clean up legacy audit filter",
+    "description": "Remove a legacy filter after its replacement shipped.",
+    "assignee_id": "u_mchen",
+    "priority": "Low",
+    "sprint": "DF-26.17",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1000",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 00 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "APP-1001",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 01 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-1002",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 02 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "MOB-1003",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 03 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "QA-1004",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 04 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Medium",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "DOC-1005",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 05 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "OPS-1006",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 06 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "APP-1007",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 07 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "DATA-1008",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 08 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "High",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "MOB-1009",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 09 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "QA-1010",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 10 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "DOC-1011",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 11 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1012",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 12 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "APP-1013",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 13 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-1014",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 14 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "MOB-1015",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 15 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "QA-1016",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 16 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Medium",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "DOC-1017",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 17 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "OPS-1018",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 18 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "APP-1019",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 19 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "DATA-1020",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 20 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "High",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "MOB-1021",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 21 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "QA-1022",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 22 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "DOC-1023",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 23 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1024",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 24 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "APP-1025",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 25 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-1026",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 26 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "MOB-1027",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 27 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "QA-1028",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 28 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Medium",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "DOC-1029",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 29 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "OPS-1030",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 30 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "APP-1031",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 31 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "DATA-1032",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 32 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "High",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "MOB-1033",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 33 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "QA-1034",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 34 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "DOC-1035",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 35 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1036",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 36 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "APP-1037",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 37 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-1038",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 38 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "MOB-1039",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 39 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "QA-1040",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 40 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Medium",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "DOC-1041",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 41 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "OPS-1042",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 42 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "APP-1043",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 43 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "DATA-1044",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 44 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "High",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "MOB-1045",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 45 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "QA-1046",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 46 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "DOC-1047",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 47 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1048",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 48 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "APP-1049",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 49 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-1050",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 50 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "MOB-1051",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 51 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "QA-1052",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 52 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Medium",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "DOC-1053",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 53 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "OPS-1054",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 54 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "APP-1055",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 55 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "DATA-1056",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 56 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "High",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "MOB-1057",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 57 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "QA-1058",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 58 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "DOC-1059",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 59 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1060",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 60 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "APP-1061",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 61 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-1062",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 62 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "MOB-1063",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 63 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "QA-1064",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 64 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Medium",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "DOC-1065",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 65 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "OPS-1066",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 66 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "APP-1067",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 67 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "DATA-1068",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 68 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "High",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "MOB-1069",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 69 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "QA-1070",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 70 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "DOC-1071",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 71 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1072",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 72 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "APP-1073",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 73 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "DATA-1074",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 74 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "MOB-1075",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 75 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "QA-1076",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 76 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Medium",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "DOC-1077",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 77 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "OPS-1078",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 78 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "APP-1079",
+    "title": "Refine audit export behavior",
+    "description": "Routine team work item 79 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "DATA-1080",
+    "title": "Refine queue metric behavior",
+    "description": "Routine team work item 80 for the fictional activity snapshot.",
+    "assignee_id": "u_theo",
+    "priority": "High",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  },
+  {
+    "ticket_id": "MOB-1081",
+    "title": "Refine cache warmer behavior",
+    "description": "Routine team work item 81 for the fictional activity snapshot.",
+    "assignee_id": "u_nia",
+    "priority": "Low",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Progress"
+  },
+  {
+    "ticket_id": "QA-1082",
+    "title": "Refine schema guard behavior",
+    "description": "Routine team work item 82 for the fictional activity snapshot.",
+    "assignee_id": "u_priya",
+    "priority": "Medium",
+    "sprint": "DF-26.18",
+    "status_at_export": "In Review"
+  },
+  {
+    "ticket_id": "DOC-1083",
+    "title": "Refine test shard behavior",
+    "description": "Routine team work item 83 for the fictional activity snapshot.",
+    "assignee_id": "u_jun",
+    "priority": "High",
+    "sprint": "DF-26.18",
+    "status_at_export": "Done"
+  },
+  {
+    "ticket_id": "OPS-1084",
+    "title": "Refine batch cursor behavior",
+    "description": "Routine team work item 84 for the fictional activity snapshot.",
+    "assignee_id": "u_leo",
+    "priority": "Low",
+    "sprint": "DF-26.19",
+    "status_at_export": "To Do"
+  }
+]

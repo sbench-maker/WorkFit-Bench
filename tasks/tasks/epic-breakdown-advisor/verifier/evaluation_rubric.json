@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__usable_story_set",
+      "title": "Usable, testable, sprint-sized story set",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown plan is readable and substantive, contains a meaningful set of user stories with persona/action/outcome and Given/When/Then acceptance criteria, and gives each story an estimate no higher than the frozen five-point ceiling.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__scope_and_policy_fidelity",
+      "title": "Epic scope and business-rule fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan accounts for the complete frozen epic scope, including items it recommends deferring, and preserves the material value, regulated, international, bulk, carrier, SLA, and performance rules in the proposed behavior.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_material_scope_is_accounted_for",
+        "test_policy_rules_are_preserved"
+      ]
+    },
+    {
+      "id": "completion__vertical_splitting_quality",
+      "title": "Vertical slicing and pattern reasoning",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The selected split patterns fit the epic, the first slice traverses the complete requester-visible return journey in a genuinely simple case, later slices add coherent user-valued variations, and no story is merely a technical layer or isolated workflow stage.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__usable_story_set",
+        "title": "Usable, testable, sprint-sized story set",
+        "required_score": 10
+      },
+      {
+        "id": "completion__scope_and_policy_fidelity",
+        "title": "Epic scope and business-rule fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__vertical_splitting_quality",
+        "title": "Vertical slicing and pattern reasoning",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

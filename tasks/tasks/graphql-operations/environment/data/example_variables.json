@@ -1,0 +1,45 @@
+{
+  "workspace_initial": {
+    "projectId": "project_orbit_17",
+    "first": 24,
+    "after": null,
+    "filter": {
+      "statuses": ["READY_FOR_REVIEW", "CHANGES_REQUESTED"],
+      "kinds": ["IMAGE", "VIDEO"],
+      "sort": {"field": "UPDATED_AT", "direction": "DESC"}
+    },
+    "includeInternalNotes": false
+  },
+  "workspace_next_page": {
+    "projectId": "project_orbit_17",
+    "first": 24,
+    "after": "cursor_asset_024",
+    "filter": {
+      "statuses": ["READY_FOR_REVIEW", "CHANGES_REQUESTED"],
+      "kinds": ["IMAGE", "VIDEO"],
+      "sort": {"field": "UPDATED_AT", "direction": "DESC"}
+    },
+    "includeInternalNotes": true
+  },
+  "decision_approve": {
+    "input": {
+      "assetId": "asset_orbit_031",
+      "decision": "APPROVE",
+      "expectedVersion": 7,
+      "comment": null,
+      "clientMutationId": "review-session-88:asset-031:v7"
+    }
+  },
+  "decision_request_changes": {
+    "input": {
+      "assetId": "asset_orbit_044",
+      "decision": "REQUEST_CHANGES",
+      "expectedVersion": 3,
+      "comment": "Replace the end card with the approved lockup.",
+      "clientMutationId": "review-session-88:asset-044:v3"
+    }
+  },
+  "live_update": {
+    "projectId": "project_orbit_17"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "authority": "Use these values when the draft conflicts or contains placeholders.",
+  "release": {
+    "product": "Orion",
+    "release_id": "RLS-4821",
+    "version": "4.8.0",
+    "change_ticket": "CHG-2048",
+    "environment": "Production",
+    "deployment_window_utc": "2026-09-18 22:00-23:30 UTC",
+    "change_freeze_cutoff_utc": "2026-09-18 18:00 UTC",
+    "artifact_digest": "sha256:9f7d2c68a4b183e5d901c74ea6b23fd0f41aa68cbe9502d7e13b40a6c8e52f19"
+  },
+  "components": [
+    {
+      "service": "api-gateway",
+      "version": "4.8.0",
+      "region": "eu-west-1"
+    },
+    {
+      "service": "billing-worker",
+      "version": "2.14.3",
+      "region": "eu-west-1"
+    },
+    {
+      "service": "portal-web",
+      "version": "7.6.1",
+      "region": "global"
+    }
+  ],
+  "monitoring": {
+    "readiness_endpoint": "/health?mode=readiness&scope=all",
+    "rollback_triggers": [
+      "p95 latency exceeds 420 ms for 10 consecutive minutes",
+      "HTTP 5xx error rate exceeds 2.0% for 5 consecutive minutes"
+    ],
+    "observation_period": "30 minutes after traffic reaches 100%"
+  },
+  "approvals": [
+    {
+      "role": "Release Manager",
+      "name": "Mira Chen",
+      "status": "Approved",
+      "decision_date": "2026-09-08"
+    },
+    {
+      "role": "Site Reliability Engineering",
+      "name": "Jonah Patel",
+      "status": "Pending",
+      "decision_date": ""
+    },
+    {
+      "role": "Security",
+      "name": "Asha Bell",
+      "status": "Approved",
+      "decision_date": "2026-09-09"
+    }
+  ]
+}

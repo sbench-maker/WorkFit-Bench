@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__runnable_plan_suite",
+      "title": "Runnable, pull-request-safe suite",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested test file is readable, contains Terraform run scenarios, keeps every run in plan mode, and passes against the supplied offline module.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_suite_is_runnable_and_plan_only"
+      ]
+    },
+    {
+      "id": "completion__topology_regression_strength",
+      "title": "Topology regression strength",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The suite detects material changes to the default subnet count, deterministic CIDR allocation, and round-robin zone placement.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_topology_contract_is_protected"
+      ]
+    },
+    {
+      "id": "completion__conditional_and_tag_regression_strength",
+      "title": "Conditional resources and tag precedence",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The suite detects endpoint fan-out regressions in both flag states and prevents caller tags from overriding protected module tags.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_conditional_endpoints_and_tags_are_protected"
+      ]
+    },
+    {
+      "id": "completion__validation_regression_strength",
+      "title": "Validation and production safety boundaries",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The suite rejects the unsafe two-subnet production case and detects weakened environment and subnet-count validation boundaries.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_validation_and_production_boundaries_are_protected"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__runnable_plan_suite",
+        "title": "Runnable, pull-request-safe suite",
+        "required_score": 10
+      },
+      {
+        "id": "completion__topology_regression_strength",
+        "title": "Topology regression strength",
+        "required_score": 10
+      },
+      {
+        "id": "completion__conditional_and_tag_regression_strength",
+        "title": "Conditional resources and tag precedence",
+        "required_score": 10
+      },
+      {
+        "id": "completion__validation_regression_strength",
+        "title": "Validation and production safety boundaries",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

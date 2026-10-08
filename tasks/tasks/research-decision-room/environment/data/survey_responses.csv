@@ -1,0 +1,73 @@
+response_id,account_size,role,preferred_improvement,approval_clarity_1_to_5,weekly_approval_volume,open_comment,submitted_at
+S-001,small,hiring_manager,automatic_reminders,4,5,A second email would help when the first gets buried.,2026-08-11
+S-002,small,finance_approver,automatic_reminders,2,12,"Remind the approver after a day, but let us control frequency.",2026-08-12
+S-003,small,hiring_manager,automatic_reminders,5,24,"For our simple flow, reminders would solve most delays.",2026-08-13
+S-004,small,finance_approver,automatic_reminders,3,45,A second email would help when the first gets buried.,2026-08-14
+S-005,small,hiring_manager,automatic_reminders,1,80,,2026-08-15
+S-006,small,finance_approver,automatic_reminders,4,2,"For our simple flow, reminders would solve most delays.",2026-08-16
+S-007,small,hiring_manager,automatic_reminders,2,5,A second email would help when the first gets buried.,2026-08-17
+S-008,small,finance_approver,automatic_reminders,5,12,"Remind the approver after a day, but let us control frequency.",2026-08-18
+S-009,small,hiring_manager,automatic_reminders,3,24,"For our simple flow, reminders would solve most delays.",2026-08-19
+S-010,small,finance_approver,automatic_reminders,1,45,,2026-08-20
+S-011,small,hiring_manager,automatic_reminders,4,80,"Remind the approver after a day, but let us control frequency.",2026-08-21
+S-012,small,finance_approver,shared_status_timeline,2,2,We need a single place to see what happened before escalating.,2026-08-10
+S-013,small,hiring_manager,shared_status_timeline,5,5,Show me the current stage and who is holding it.,2026-08-11
+S-014,small,finance_approver,shared_status_timeline,3,12,A history would stop our team from chasing updates in chat.,2026-08-12
+S-015,small,hiring_manager,shared_status_timeline,1,24,,2026-08-13
+S-016,small,finance_approver,owner_and_due_date,4,45,Escalation only works when responsibility is explicit.,2026-08-14
+S-017,small,hiring_manager,owner_and_due_date,2,80,The request needs one named owner and a due date.,2026-08-15
+S-018,small,finance_approver,other,5,2,Improve the mobile approval page first.,2026-08-16
+S-019,mid_market,finance_approver,shared_status_timeline,3,5,Show me the current stage and who is holding it.,2026-08-17
+S-020,mid_market,hiring_manager,shared_status_timeline,1,12,,2026-08-18
+S-021,mid_market,finance_approver,shared_status_timeline,4,24,We need a single place to see what happened before escalating.,2026-08-19
+S-022,mid_market,hiring_manager,shared_status_timeline,2,45,Show me the current stage and who is holding it.,2026-08-20
+S-023,mid_market,finance_approver,shared_status_timeline,5,80,A history would stop our team from chasing updates in chat.,2026-08-21
+S-024,mid_market,hiring_manager,shared_status_timeline,3,2,We need a single place to see what happened before escalating.,2026-08-10
+S-025,mid_market,finance_approver,shared_status_timeline,1,5,,2026-08-11
+S-026,mid_market,hiring_manager,shared_status_timeline,4,12,A history would stop our team from chasing updates in chat.,2026-08-12
+S-027,mid_market,finance_approver,shared_status_timeline,2,24,We need a single place to see what happened before escalating.,2026-08-13
+S-028,mid_market,hiring_manager,shared_status_timeline,5,45,Show me the current stage and who is holding it.,2026-08-14
+S-029,mid_market,finance_approver,shared_status_timeline,3,80,A history would stop our team from chasing updates in chat.,2026-08-15
+S-030,mid_market,hiring_manager,shared_status_timeline,1,2,,2026-08-16
+S-031,mid_market,finance_approver,shared_status_timeline,4,5,Show me the current stage and who is holding it.,2026-08-17
+S-032,mid_market,hiring_manager,shared_status_timeline,2,12,A history would stop our team from chasing updates in chat.,2026-08-18
+S-033,mid_market,finance_approver,shared_status_timeline,5,24,We need a single place to see what happened before escalating.,2026-08-19
+S-034,mid_market,hiring_manager,shared_status_timeline,3,45,Show me the current stage and who is holding it.,2026-08-20
+S-035,mid_market,finance_approver,automatic_reminders,1,80,,2026-08-21
+S-036,mid_market,hiring_manager,automatic_reminders,4,2,"For our simple flow, reminders would solve most delays.",2026-08-10
+S-037,mid_market,finance_approver,automatic_reminders,2,5,A second email would help when the first gets buried.,2026-08-11
+S-038,mid_market,hiring_manager,automatic_reminders,5,12,"Remind the approver after a day, but let us control frequency.",2026-08-12
+S-039,mid_market,finance_approver,automatic_reminders,3,24,"For our simple flow, reminders would solve most delays.",2026-08-13
+S-040,mid_market,hiring_manager,owner_and_due_date,1,45,,2026-08-14
+S-041,mid_market,finance_approver,owner_and_due_date,4,80,The request needs one named owner and a due date.,2026-08-15
+S-042,mid_market,hiring_manager,owner_and_due_date,2,2,Escalation only works when responsibility is explicit.,2026-08-16
+S-043,mid_market,finance_approver,owner_and_due_date,5,5,The request needs one named owner and a due date.,2026-08-17
+S-044,mid_market,hiring_manager,owner_and_due_date,3,12,Escalation only works when responsibility is explicit.,2026-08-18
+S-045,mid_market,finance_approver,owner_and_due_date,1,24,,2026-08-19
+S-046,mid_market,hiring_manager,owner_and_due_date,4,45,Escalation only works when responsibility is explicit.,2026-08-20
+S-047,mid_market,finance_approver,other,2,80,Delegation during leave matters more than another screen.,2026-08-21
+S-048,mid_market,hiring_manager,other,5,2,Improve the mobile approval page first.,2026-08-10
+S-049,enterprise,hiring_manager,shared_status_timeline,3,5,Show me the current stage and who is holding it.,2026-08-11
+S-050,enterprise,finance_approver,shared_status_timeline,1,12,,2026-08-12
+S-051,enterprise,hiring_manager,shared_status_timeline,4,24,We need a single place to see what happened before escalating.,2026-08-13
+S-052,enterprise,finance_approver,shared_status_timeline,2,45,Show me the current stage and who is holding it.,2026-08-14
+S-053,enterprise,hiring_manager,shared_status_timeline,5,80,A history would stop our team from chasing updates in chat.,2026-08-15
+S-054,enterprise,finance_approver,shared_status_timeline,3,2,We need a single place to see what happened before escalating.,2026-08-16
+S-055,enterprise,hiring_manager,shared_status_timeline,1,5,,2026-08-17
+S-056,enterprise,finance_approver,shared_status_timeline,4,12,A history would stop our team from chasing updates in chat.,2026-08-18
+S-057,enterprise,hiring_manager,shared_status_timeline,2,24,We need a single place to see what happened before escalating.,2026-08-19
+S-058,enterprise,finance_approver,shared_status_timeline,5,45,Show me the current stage and who is holding it.,2026-08-20
+S-059,enterprise,hiring_manager,shared_status_timeline,3,80,A history would stop our team from chasing updates in chat.,2026-08-21
+S-060,enterprise,finance_approver,shared_status_timeline,1,2,,2026-08-10
+S-061,enterprise,hiring_manager,shared_status_timeline,4,5,Show me the current stage and who is holding it.,2026-08-11
+S-062,enterprise,finance_approver,shared_status_timeline,2,12,A history would stop our team from chasing updates in chat.,2026-08-12
+S-063,enterprise,hiring_manager,automatic_reminders,5,24,"For our simple flow, reminders would solve most delays.",2026-08-13
+S-064,enterprise,finance_approver,automatic_reminders,3,45,A second email would help when the first gets buried.,2026-08-14
+S-065,enterprise,hiring_manager,automatic_reminders,1,80,,2026-08-15
+S-066,enterprise,finance_approver,owner_and_due_date,4,2,Escalation only works when responsibility is explicit.,2026-08-16
+S-067,enterprise,hiring_manager,owner_and_due_date,2,5,The request needs one named owner and a due date.,2026-08-17
+S-068,enterprise,finance_approver,owner_and_due_date,5,12,Escalation only works when responsibility is explicit.,2026-08-18
+S-069,enterprise,hiring_manager,owner_and_due_date,3,24,The request needs one named owner and a due date.,2026-08-19
+S-070,enterprise,finance_approver,owner_and_due_date,1,45,,2026-08-20
+S-071,enterprise,hiring_manager,other,4,80,Delegation during leave matters more than another screen.,2026-08-21
+S-072,enterprise,finance_approver,other,2,2,Improve the mobile approval page first.,2026-08-10

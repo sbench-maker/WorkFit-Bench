@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__dag_safety",
+      "title": "Dependency- and collision-safe parallel orchestration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every RFC work unit is represented once; parallel waves respect dependencies, agent capacity, and shared-file exclusions; isolated ownership boundaries and integration order are safe.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_dag_coverage_parallel_safety_and_merge_order"
+      ]
+    },
+    {
+      "id": "completion__risk_adaptation",
+      "title": "Risk-proportionate quality stages and human gates",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each unit receives the policy tier and ordered quality stages appropriate to its complexity, while large, critical, and irreversible changes receive the required human approvals at the correct control point.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_risk_tiers_quality_stages_and_human_gates"
+      ]
+    },
+    {
+      "id": "completion__bounded_recovery",
+      "title": "Bounded recovery with durable cross-iteration context",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan persists the required run and unit state and gives each listed failure a bounded action, evidence capture set, retry limit, and resume point, including non-retryable exhaustion events.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_persistent_state_and_failure_recovery"
+      ]
+    },
+    {
+      "id": "completion__termination_and_merge_controls",
+      "title": "Merge evidence and deterministic termination controls",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Merge eligibility uses all required evidence, and success, consecutive completion signaling, cost, duration, pass, run-count, and operator-abort conditions prevent premature completion or unbounded execution.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_merge_evidence_and_termination_controls"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__dag_safety",
+        "title": "Dependency- and collision-safe parallel orchestration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_adaptation",
+        "title": "Risk-proportionate quality stages and human gates",
+        "required_score": 10
+      },
+      {
+        "id": "completion__bounded_recovery",
+        "title": "Bounded recovery with durable cross-iteration context",
+        "required_score": 10
+      },
+      {
+        "id": "completion__termination_and_merge_controls",
+        "title": "Merge evidence and deterministic termination controls",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

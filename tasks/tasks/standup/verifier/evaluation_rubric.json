@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__yesterday_accuracy",
+      "title": "September 8 work accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Yesterday accurately covers the subject's completed webhook work, active audit-panel work, and code review, with useful ticket and PR traceability and no prior-day boundary leak.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_yesterday_activity_coverage"
+      ]
+    },
+    {
+      "id": "completion__today_fidelity",
+      "title": "Today plan fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Today carries forward the explicit component-test and review-response plan plus the scheduled rollout-metrics pairing.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_today_plan_fidelity"
+      ]
+    },
+    {
+      "id": "completion__blocker_handling",
+      "title": "Active blocker handling",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The blocker section identifies the still-blocked replay issue, what is needed, and who can help, without presenting resolved ticket or CI failures as active blockers.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_blocker_handling"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__yesterday_accuracy",
+        "title": "September 8 work accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__today_fidelity",
+        "title": "Today plan fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__blocker_handling",
+        "title": "Active blocker handling",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

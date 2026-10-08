@@ -1,0 +1,9 @@
+{
+  "fixture": "Deterministic fictional export of frozen fiat API request/response snapshots; it is not live service data.",
+  "selection_rule": "Match the client's endpoint parameters, ignore snapshots after as_of, and use the latest successful response (success=true and code=000000) for each matching endpoint/query. Later failed retries do not replace the latest successful response.",
+  "units": "A BUY quotation and bestPrice are fiat currency per one unit of crypto. Fiat cost equals requested crypto amount multiplied by quotation.",
+  "limits": "Fiat and crypto minimum/maximum limits are inclusive. A method must satisfy both sets of limits and must not be suspended.",
+  "wallet": "The listed fiat wallet balance is available only for AUD_WALLET. If it is short, evaluate the shortfall against current DEPOSIT method fiat limits.",
+  "economics": "Snapshots do not include fees, deposit timing, or slippage. Quotations and bestPrice are indicative rather than guaranteed execution prices.",
+  "record_count": 226
+}

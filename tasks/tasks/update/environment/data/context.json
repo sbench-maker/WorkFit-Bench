@@ -1,0 +1,16 @@
+{
+  "fixture_kind": "fictional deterministic offline workspace snapshot",
+  "as_of_date": "2026-08-17",
+  "mode": "comprehensive",
+  "current_user": {
+    "name": "Maya Chen",
+    "email": "maya.chen@northstar.example",
+    "tracker_user_id": "USR-MAYA"
+  },
+  "review_state": "All decisions in review_decisions.csv were confirmed by Maya after the proposed diff was reviewed.",
+  "input_completeness": {
+    "project_tracker.csv": "complete export for the fictional workspace",
+    "recent_activity.jsonl": "complete recent-activity window from 2026-08-03 through 2026-08-14",
+    "workspace/": "complete current task and memory workspace"
+  }
+}

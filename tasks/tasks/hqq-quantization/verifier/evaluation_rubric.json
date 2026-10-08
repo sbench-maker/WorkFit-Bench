@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Readable complete bundle",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested manifest and referenced non-empty weights artifact are readable and identify the supplied checkpoint.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__deployment_configuration",
+      "title": "Target-compatible HQQ configuration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The package uses calibration-free HQQ on the requested axis, selects the preferred optimized T4 backend, covers every layer, preserves the vocabulary endpoints, and uses only permitted precisions and group sizes.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_deployment_configuration"
+      ]
+    },
+    {
+      "id": "completion__quantized_payload_integrity",
+      "title": "Quantized weight payload integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every source row is represented exactly once; protected weights remain intact; and all HQQ groups, codes, scales, zero points, including partial tail groups, are the deterministic result of the selected configuration.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_quantized_payload_integrity"
+      ]
+    },
+    {
+      "id": "completion__quality_and_optimality",
+      "title": "Quality limits and minimum package",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Reconstruction from the submitted payload satisfies every per-layer RMSE limit and byte ceiling, and the selected mixed-precision plan minimizes packed bytes with the stated RMSE tie-break.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_quality_limits_and_minimum_size"
+      ]
+    },
+    {
+      "id": "completion__manifest_consistency",
+      "title": "Manifest-to-payload consistency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Reported layer and overall RMSE, source and packed sizes, per-layer bytes, and reduction percentage reconcile to the submitted weights artifact.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_manifest_metrics_consistent"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Readable complete bundle",
+        "required_score": 10
+      },
+      {
+        "id": "completion__deployment_configuration",
+        "title": "Target-compatible HQQ configuration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__quantized_payload_integrity",
+        "title": "Quantized weight payload integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__quality_and_optimality",
+        "title": "Quality limits and minimum package",
+        "required_score": 10
+      },
+      {
+        "id": "completion__manifest_consistency",
+        "title": "Manifest-to-payload consistency",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

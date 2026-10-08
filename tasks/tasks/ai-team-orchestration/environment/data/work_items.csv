@@ -1,0 +1,221 @@
+item_id,title,area,type,priority,effort_points,suggested_owner,status,target_sprint,depends_on,acceptance_notes
+PF-001,Scaffold npm workspace and Compose skeleton,platform,chore,critical,2,Dash,committed,1,,Workspace commands run and four local services have health checks.
+PF-002,Create metadata schema and migrations,backend,feature,critical,3,Sage,committed,1,PF-001,"Dataset versions, runs, and audit events persist in PostgreSQL."
+PF-003,Enforce OIDC roles on API routes,security,feature,critical,5,Sage,committed,1,PF-002,Release owners can mutate; reviewers are read-only; denials are audited.
+PF-004,Validate and version JSONL uploads,backend,feature,critical,5,Sage,committed,1,PF-002,"Reject invalid UTF-8, oversize files, bad rows, and duplicate case IDs atomically."
+PF-005,Create run API and state transitions,backend,feature,critical,5,Sage,committed,1,PF-002;PF-004,Run snapshots dataset version and follows the accepted state model.
+PF-006,Execute runs with deterministic mock adapter,backend,feature,critical,3,Sage,committed,1,PF-005,A fixed adapter configuration yields repeatable outcome and latency fixtures.
+PF-007,Write redacted audit event pipeline,security,feature,high,3,Sage,committed,1,PF-002;PF-003,"Required metadata is captured without dataset rows, tokens, or secret values."
+PF-008,Build authenticated application shell,frontend,feature,critical,3,Nova,committed,1,PF-001;PF-003,Routes expose role-aware navigation and accessible loading/error states.
+PF-009,Build dataset upload experience,frontend,feature,critical,3,Nova,committed,1,PF-004;PF-008,Client shows server validation results without logging row content.
+PF-010,Build run launch experience,frontend,feature,critical,3,Nova,committed,1,PF-005;PF-008;PF-009,Release owner can select a version and launch the mock run once.
+PF-011,Build run status and score summary,frontend,feature,critical,3,Nova,committed,1,PF-005;PF-008,Queued-to-terminal status and four Sprint 1 summary metrics are readable.
+PF-012,Cover core API and security contracts,qa,test,critical,3,Ivy,committed,1,PF-003;PF-004;PF-005;PF-006;PF-007,"Tests cover roles, validation atomicity, transitions, determinism, and redaction."
+PF-013,Automate core-flow browser smoke test,qa,test,critical,3,Ivy,committed,1,PF-009;PF-010;PF-011,"Playwright covers upload, launch, poll, and summary in the local stack."
+PF-014,Add pull-request quality gates,platform,chore,high,3,Dash,committed,1,PF-001,"CI runs lint, typecheck, API tests, and browser smoke before merge."
+PF-015,Specify keyboard and failure-state behavior,product,design,high,2,Kira,committed,1,PF-008,Upload and run flows have keyboard order plus actionable empty/error copy.
+PF-016,Connect to a live external model provider,integration,feature,critical,8,Sage,blocked,3,PF-006,Blocked pending Sprint 3 security review; no live credentials in Sprint 1.
+PF-017,Deploy managed cloud production environment,platform,feature,high,13,Dash,deferred,4,PF-014,Cloud deployment follows local product validation.
+PF-018,Add locally managed password authentication,security,feature,medium,8,Sage,rejected,,PF-002,Rejected by accepted OIDC decision.
+PF-019,Export raw dataset rows in audit log,security,feature,medium,5,Sage,rejected,,PF-007,Rejected because audit logs must not retain dataset content.
+PF-020,Add cost analysis dashboard,frontend,feature,high,5,Nova,deferred,2,PF-011,Explicitly outside the Sprint 1 score summary.
+PF-021,Roadmap localization pass improvement 1,integration,feature,medium,2,Sage,candidate,3,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-022,Roadmap retention control improvement 2,security,feature,medium,3,Sage,candidate,4,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-023,Roadmap performance budget improvement 3,product,design,high,5,Kira,candidate,5,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-024,Roadmap review comment improvement 4,frontend,feature,low,8,Nova,candidate,6,PF-010,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-025,Roadmap failure retry improvement 5,platform,feature,medium,1,Dash,candidate,2,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-026,Roadmap dataset tag improvement 6,analytics,feature,medium,2,Sage,candidate,3,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-027,Roadmap export format improvement 7,backend,feature,high,3,Sage,deferred,later,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-028,Roadmap run comparison improvement 8,qa,test,low,5,Ivy,candidate,5,PF-014,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-029,Roadmap audit search improvement 9,integration,feature,medium,8,Sage,candidate,6,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-030,Roadmap saved filter improvement 10,security,feature,medium,1,Sage,candidate,2,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-031,Roadmap notification rule improvement 11,product,design,high,2,Kira,candidate,3,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-032,Roadmap review queue improvement 12,frontend,feature,low,3,Nova,candidate,4,PF-003,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-033,Roadmap batch action improvement 13,platform,feature,medium,5,Dash,candidate,5,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-034,Roadmap operator metric improvement 14,analytics,feature,medium,8,Sage,candidate,6,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-035,Roadmap accessibility polish improvement 15,backend,feature,high,1,Sage,candidate,2,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-036,Roadmap localization pass improvement 16,qa,test,low,2,Ivy,deferred,later,PF-007,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-037,Roadmap retention control improvement 17,integration,feature,medium,3,Sage,candidate,4,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-038,Roadmap performance budget improvement 18,security,feature,medium,5,Sage,candidate,5,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-039,Roadmap review comment improvement 19,product,design,high,8,Kira,candidate,6,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-040,Roadmap failure retry improvement 20,frontend,feature,low,1,Nova,candidate,2,PF-011,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-041,Roadmap dataset tag improvement 21,platform,feature,medium,2,Dash,candidate,3,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-042,Roadmap export format improvement 22,analytics,feature,medium,3,Sage,candidate,4,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-043,Roadmap run comparison improvement 23,backend,feature,high,5,Sage,candidate,5,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-044,Roadmap audit search improvement 24,qa,test,low,8,Ivy,candidate,6,PF-015,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-045,Roadmap saved filter improvement 25,integration,feature,medium,1,Sage,deferred,later,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-046,Roadmap notification rule improvement 26,security,feature,medium,2,Sage,candidate,3,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-047,Roadmap review queue improvement 27,product,design,high,3,Kira,candidate,4,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-048,Roadmap batch action improvement 28,frontend,feature,low,5,Nova,candidate,5,PF-004,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-049,Roadmap operator metric improvement 29,platform,feature,medium,8,Dash,candidate,6,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-050,Roadmap accessibility polish improvement 30,analytics,feature,medium,1,Sage,candidate,2,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-051,Roadmap localization pass improvement 31,backend,feature,high,2,Sage,candidate,3,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-052,Roadmap retention control improvement 32,qa,test,low,3,Ivy,candidate,4,PF-008,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-053,Roadmap performance budget improvement 33,integration,feature,medium,5,Sage,candidate,5,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-054,Roadmap review comment improvement 34,security,feature,medium,8,Sage,deferred,later,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-055,Roadmap failure retry improvement 35,product,design,high,1,Kira,candidate,2,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-056,Roadmap dataset tag improvement 36,frontend,feature,low,2,Nova,candidate,3,PF-012,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-057,Roadmap export format improvement 37,platform,feature,medium,3,Dash,candidate,4,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-058,Roadmap run comparison improvement 38,analytics,feature,medium,5,Sage,candidate,5,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-059,Roadmap audit search improvement 39,backend,feature,high,8,Sage,candidate,6,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-060,Roadmap saved filter improvement 40,qa,test,low,1,Ivy,candidate,2,PF-001,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-061,Roadmap notification rule improvement 41,integration,feature,medium,2,Sage,candidate,3,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-062,Roadmap review queue improvement 42,security,feature,medium,3,Sage,candidate,4,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-063,Roadmap batch action improvement 43,product,design,high,5,Kira,deferred,later,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-064,Roadmap operator metric improvement 44,frontend,feature,low,8,Nova,candidate,6,PF-005,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-065,Roadmap accessibility polish improvement 45,platform,feature,medium,1,Dash,candidate,2,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-066,Roadmap localization pass improvement 46,analytics,feature,medium,2,Sage,candidate,3,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-067,Roadmap retention control improvement 47,backend,feature,high,3,Sage,candidate,4,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-068,Roadmap performance budget improvement 48,qa,test,low,5,Ivy,candidate,5,PF-009,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-069,Roadmap review comment improvement 49,integration,feature,medium,8,Sage,candidate,6,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-070,Roadmap failure retry improvement 50,security,feature,medium,1,Sage,candidate,2,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-071,Roadmap dataset tag improvement 51,product,design,high,2,Kira,candidate,3,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-072,Roadmap export format improvement 52,frontend,feature,low,3,Nova,deferred,later,PF-013,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-073,Roadmap run comparison improvement 53,platform,feature,medium,5,Dash,candidate,5,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-074,Roadmap audit search improvement 54,analytics,feature,medium,8,Sage,candidate,6,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-075,Roadmap saved filter improvement 55,backend,feature,high,1,Sage,candidate,2,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-076,Roadmap notification rule improvement 56,qa,test,low,2,Ivy,candidate,3,PF-002,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-077,Roadmap review queue improvement 57,integration,feature,medium,3,Sage,candidate,4,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-078,Roadmap batch action improvement 58,security,feature,medium,5,Sage,candidate,5,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-079,Roadmap operator metric improvement 59,product,design,high,8,Kira,candidate,6,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-080,Roadmap accessibility polish improvement 60,frontend,feature,low,1,Nova,candidate,2,PF-006,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-081,Roadmap localization pass improvement 61,platform,feature,medium,2,Dash,deferred,later,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-082,Roadmap retention control improvement 62,analytics,feature,medium,3,Sage,candidate,4,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-083,Roadmap performance budget improvement 63,backend,feature,high,5,Sage,candidate,5,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-084,Roadmap review comment improvement 64,qa,test,low,8,Ivy,candidate,6,PF-010,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-085,Roadmap failure retry improvement 65,integration,feature,medium,1,Sage,candidate,2,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-086,Roadmap dataset tag improvement 66,security,feature,medium,2,Sage,candidate,3,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-087,Roadmap export format improvement 67,product,design,high,3,Kira,candidate,4,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-088,Roadmap run comparison improvement 68,frontend,feature,low,5,Nova,candidate,5,PF-014,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-089,Roadmap audit search improvement 69,platform,feature,medium,8,Dash,candidate,6,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-090,Roadmap saved filter improvement 70,analytics,feature,medium,1,Sage,deferred,later,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-091,Roadmap notification rule improvement 71,backend,feature,high,2,Sage,candidate,3,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-092,Roadmap review queue improvement 72,qa,test,low,3,Ivy,candidate,4,PF-003,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-093,Roadmap batch action improvement 73,integration,feature,medium,5,Sage,candidate,5,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-094,Roadmap operator metric improvement 74,security,feature,medium,8,Sage,candidate,6,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-095,Roadmap accessibility polish improvement 75,product,design,high,1,Kira,candidate,2,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-096,Roadmap localization pass improvement 76,frontend,feature,low,2,Nova,candidate,3,PF-007,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-097,Roadmap retention control improvement 77,platform,feature,medium,3,Dash,candidate,4,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-098,Roadmap performance budget improvement 78,analytics,feature,medium,5,Sage,candidate,5,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-099,Roadmap review comment improvement 79,backend,feature,high,8,Sage,deferred,later,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-100,Roadmap failure retry improvement 80,qa,test,low,1,Ivy,candidate,2,PF-011,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-101,Roadmap dataset tag improvement 81,integration,feature,medium,2,Sage,candidate,3,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-102,Roadmap export format improvement 82,security,feature,medium,3,Sage,candidate,4,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-103,Roadmap run comparison improvement 83,product,design,high,5,Kira,candidate,5,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-104,Roadmap audit search improvement 84,frontend,feature,low,8,Nova,candidate,6,PF-015,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-105,Roadmap saved filter improvement 85,platform,feature,medium,1,Dash,candidate,2,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-106,Roadmap notification rule improvement 86,analytics,feature,medium,2,Sage,candidate,3,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-107,Roadmap review queue improvement 87,backend,feature,high,3,Sage,candidate,4,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-108,Roadmap batch action improvement 88,qa,test,low,5,Ivy,deferred,later,PF-004,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-109,Roadmap operator metric improvement 89,integration,feature,medium,8,Sage,candidate,6,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-110,Roadmap accessibility polish improvement 90,security,feature,medium,1,Sage,candidate,2,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-111,Roadmap localization pass improvement 91,product,design,high,2,Kira,candidate,3,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-112,Roadmap retention control improvement 92,frontend,feature,low,3,Nova,candidate,4,PF-008,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-113,Roadmap performance budget improvement 93,platform,feature,medium,5,Dash,candidate,5,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-114,Roadmap review comment improvement 94,analytics,feature,medium,8,Sage,candidate,6,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-115,Roadmap failure retry improvement 95,backend,feature,high,1,Sage,candidate,2,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-116,Roadmap dataset tag improvement 96,qa,test,low,2,Ivy,candidate,3,PF-012,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-117,Roadmap export format improvement 97,integration,feature,medium,3,Sage,deferred,later,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-118,Roadmap run comparison improvement 98,security,feature,medium,5,Sage,candidate,5,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-119,Roadmap audit search improvement 99,product,design,high,8,Kira,candidate,6,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-120,Roadmap saved filter improvement 100,frontend,feature,low,1,Nova,candidate,2,PF-001,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-121,Roadmap notification rule improvement 101,platform,feature,medium,2,Dash,candidate,3,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-122,Roadmap review queue improvement 102,analytics,feature,medium,3,Sage,candidate,4,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-123,Roadmap batch action improvement 103,backend,feature,high,5,Sage,candidate,5,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-124,Roadmap operator metric improvement 104,qa,test,low,8,Ivy,candidate,6,PF-005,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-125,Roadmap accessibility polish improvement 105,integration,feature,medium,1,Sage,candidate,2,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-126,Roadmap localization pass improvement 106,security,feature,medium,2,Sage,deferred,later,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-127,Roadmap retention control improvement 107,product,design,high,3,Kira,candidate,4,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-128,Roadmap performance budget improvement 108,frontend,feature,low,5,Nova,candidate,5,PF-009,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-129,Roadmap review comment improvement 109,platform,feature,medium,8,Dash,candidate,6,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-130,Roadmap failure retry improvement 110,analytics,feature,medium,1,Sage,candidate,2,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-131,Roadmap dataset tag improvement 111,backend,feature,high,2,Sage,candidate,3,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-132,Roadmap export format improvement 112,qa,test,low,3,Ivy,candidate,4,PF-013,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-133,Roadmap run comparison improvement 113,integration,feature,medium,5,Sage,candidate,5,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-134,Roadmap audit search improvement 114,security,feature,medium,8,Sage,candidate,6,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-135,Roadmap saved filter improvement 115,product,design,high,1,Kira,deferred,later,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-136,Roadmap notification rule improvement 116,frontend,feature,low,2,Nova,candidate,3,PF-002,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-137,Roadmap review queue improvement 117,platform,feature,medium,3,Dash,candidate,4,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-138,Roadmap batch action improvement 118,analytics,feature,medium,5,Sage,candidate,5,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-139,Roadmap operator metric improvement 119,backend,feature,high,8,Sage,candidate,6,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-140,Roadmap accessibility polish improvement 120,qa,test,low,1,Ivy,candidate,2,PF-006,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-141,Roadmap localization pass improvement 121,integration,feature,medium,2,Sage,candidate,3,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-142,Roadmap retention control improvement 122,security,feature,medium,3,Sage,candidate,4,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-143,Roadmap performance budget improvement 123,product,design,high,5,Kira,candidate,5,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-144,Roadmap review comment improvement 124,frontend,feature,low,8,Nova,deferred,later,PF-010,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-145,Roadmap failure retry improvement 125,platform,feature,medium,1,Dash,candidate,2,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-146,Roadmap dataset tag improvement 126,analytics,feature,medium,2,Sage,candidate,3,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-147,Roadmap export format improvement 127,backend,feature,high,3,Sage,candidate,4,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-148,Roadmap run comparison improvement 128,qa,test,low,5,Ivy,candidate,5,PF-014,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-149,Roadmap audit search improvement 129,integration,feature,medium,8,Sage,candidate,6,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-150,Roadmap saved filter improvement 130,security,feature,medium,1,Sage,candidate,2,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-151,Roadmap notification rule improvement 131,product,design,high,2,Kira,candidate,3,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-152,Roadmap review queue improvement 132,frontend,feature,low,3,Nova,candidate,4,PF-003,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-153,Roadmap batch action improvement 133,platform,feature,medium,5,Dash,deferred,later,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-154,Roadmap operator metric improvement 134,analytics,feature,medium,8,Sage,candidate,6,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-155,Roadmap accessibility polish improvement 135,backend,feature,high,1,Sage,candidate,2,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-156,Roadmap localization pass improvement 136,qa,test,low,2,Ivy,candidate,3,PF-007,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-157,Roadmap retention control improvement 137,integration,feature,medium,3,Sage,candidate,4,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-158,Roadmap performance budget improvement 138,security,feature,medium,5,Sage,candidate,5,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-159,Roadmap review comment improvement 139,product,design,high,8,Kira,candidate,6,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-160,Roadmap failure retry improvement 140,frontend,feature,low,1,Nova,candidate,2,PF-011,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-161,Roadmap dataset tag improvement 141,platform,feature,medium,2,Dash,candidate,3,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-162,Roadmap export format improvement 142,analytics,feature,medium,3,Sage,deferred,later,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-163,Roadmap run comparison improvement 143,backend,feature,high,5,Sage,candidate,5,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-164,Roadmap audit search improvement 144,qa,test,low,8,Ivy,candidate,6,PF-015,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-165,Roadmap saved filter improvement 145,integration,feature,medium,1,Sage,candidate,2,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-166,Roadmap notification rule improvement 146,security,feature,medium,2,Sage,candidate,3,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-167,Roadmap review queue improvement 147,product,design,high,3,Kira,candidate,4,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-168,Roadmap batch action improvement 148,frontend,feature,low,5,Nova,candidate,5,PF-004,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-169,Roadmap operator metric improvement 149,platform,feature,medium,8,Dash,candidate,6,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-170,Roadmap accessibility polish improvement 150,analytics,feature,medium,1,Sage,candidate,2,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-171,Roadmap localization pass improvement 151,backend,feature,high,2,Sage,deferred,later,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-172,Roadmap retention control improvement 152,qa,test,low,3,Ivy,candidate,4,PF-008,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-173,Roadmap performance budget improvement 153,integration,feature,medium,5,Sage,candidate,5,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-174,Roadmap review comment improvement 154,security,feature,medium,8,Sage,candidate,6,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-175,Roadmap failure retry improvement 155,product,design,high,1,Kira,candidate,2,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-176,Roadmap dataset tag improvement 156,frontend,feature,low,2,Nova,candidate,3,PF-012,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-177,Roadmap export format improvement 157,platform,feature,medium,3,Dash,candidate,4,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-178,Roadmap run comparison improvement 158,analytics,feature,medium,5,Sage,candidate,5,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-179,Roadmap audit search improvement 159,backend,feature,high,8,Sage,candidate,6,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-180,Roadmap saved filter improvement 160,qa,test,low,1,Ivy,deferred,later,PF-001,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-181,Roadmap notification rule improvement 161,integration,feature,medium,2,Sage,candidate,3,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-182,Roadmap review queue improvement 162,security,feature,medium,3,Sage,candidate,4,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-183,Roadmap batch action improvement 163,product,design,high,5,Kira,candidate,5,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-184,Roadmap operator metric improvement 164,frontend,feature,low,8,Nova,candidate,6,PF-005,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-185,Roadmap accessibility polish improvement 165,platform,feature,medium,1,Dash,candidate,2,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-186,Roadmap localization pass improvement 166,analytics,feature,medium,2,Sage,candidate,3,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-187,Roadmap retention control improvement 167,backend,feature,high,3,Sage,candidate,4,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-188,Roadmap performance budget improvement 168,qa,test,low,5,Ivy,candidate,5,PF-009,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-189,Roadmap review comment improvement 169,integration,feature,medium,8,Sage,deferred,later,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-190,Roadmap failure retry improvement 170,security,feature,medium,1,Sage,candidate,2,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-191,Roadmap dataset tag improvement 171,product,design,high,2,Kira,candidate,3,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-192,Roadmap export format improvement 172,frontend,feature,low,3,Nova,candidate,4,PF-013,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-193,Roadmap run comparison improvement 173,platform,feature,medium,5,Dash,candidate,5,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-194,Roadmap audit search improvement 174,analytics,feature,medium,8,Sage,candidate,6,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-195,Roadmap saved filter improvement 175,backend,feature,high,1,Sage,candidate,2,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-196,Roadmap notification rule improvement 176,qa,test,low,2,Ivy,candidate,3,PF-002,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-197,Roadmap review queue improvement 177,integration,feature,medium,3,Sage,candidate,4,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-198,Roadmap batch action improvement 178,security,feature,medium,5,Sage,deferred,later,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-199,Roadmap operator metric improvement 179,product,design,high,8,Kira,candidate,6,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-200,Roadmap accessibility polish improvement 180,frontend,feature,low,1,Nova,candidate,2,PF-006,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-201,Roadmap localization pass improvement 181,platform,feature,medium,2,Dash,candidate,3,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-202,Roadmap retention control improvement 182,analytics,feature,medium,3,Sage,candidate,4,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-203,Roadmap performance budget improvement 183,backend,feature,high,5,Sage,candidate,5,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-204,Roadmap review comment improvement 184,qa,test,low,8,Ivy,candidate,6,PF-010,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-205,Roadmap failure retry improvement 185,integration,feature,medium,1,Sage,candidate,2,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-206,Roadmap dataset tag improvement 186,security,feature,medium,2,Sage,candidate,3,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-207,Roadmap export format improvement 187,product,design,high,3,Kira,deferred,later,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-208,Roadmap run comparison improvement 188,frontend,feature,low,5,Nova,candidate,5,PF-014,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-209,Roadmap audit search improvement 189,platform,feature,medium,8,Dash,candidate,6,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-210,Roadmap saved filter improvement 190,analytics,feature,medium,1,Sage,candidate,2,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-211,Roadmap notification rule improvement 191,backend,feature,high,2,Sage,candidate,3,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-212,Roadmap review queue improvement 192,qa,test,low,3,Ivy,candidate,4,PF-003,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.
+PF-213,Roadmap batch action improvement 193,integration,feature,medium,5,Sage,candidate,5,,Candidate integration outcome for a later roadmap review; not committed to Sprint 1.
+PF-214,Roadmap operator metric improvement 194,security,feature,medium,8,Sage,candidate,6,,Candidate security outcome for a later roadmap review; not committed to Sprint 1.
+PF-215,Roadmap accessibility polish improvement 195,product,design,high,1,Kira,candidate,2,,Candidate product outcome for a later roadmap review; not committed to Sprint 1.
+PF-216,Roadmap localization pass improvement 196,frontend,feature,low,2,Nova,deferred,later,PF-007,Candidate frontend outcome for a later roadmap review; not committed to Sprint 1.
+PF-217,Roadmap retention control improvement 197,platform,feature,medium,3,Dash,candidate,4,,Candidate platform outcome for a later roadmap review; not committed to Sprint 1.
+PF-218,Roadmap performance budget improvement 198,analytics,feature,medium,5,Sage,candidate,5,,Candidate analytics outcome for a later roadmap review; not committed to Sprint 1.
+PF-219,Roadmap review comment improvement 199,backend,feature,high,8,Sage,candidate,6,,Candidate backend outcome for a later roadmap review; not committed to Sprint 1.
+PF-220,Roadmap failure retry improvement 200,qa,test,low,1,Ivy,candidate,2,PF-011,Candidate qa outcome for a later roadmap review; not committed to Sprint 1.

@@ -1,0 +1,14 @@
+account_number,account_name,account_type,ending_balance_usd
+1000,Operating Checking,Asset,84230.00
+1100,Accounts Receivable,Asset,18400.00
+1200,Inventory,Asset,32800.00
+1300,Prepaid Expenses,Asset,4500.00
+1500,Equipment,Asset,68000.00
+1590,Accumulated Depreciation,Contra Asset,-22500.00
+2000,Accounts Payable,Liability,-17200.00
+2100,Credit Card Payable,Liability,-6140.00
+2200,Sales Tax Payable,Liability,-4730.00
+2500,Term Loan,Liability,-45000.00
+3000,Owner Capital,Equity,-70000.00
+3200,Retained Earnings,Equity,-30022.60
+3300,Current Period Earnings,Equity,-12337.40

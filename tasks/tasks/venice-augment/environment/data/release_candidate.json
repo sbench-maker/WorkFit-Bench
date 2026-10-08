@@ -1,0 +1,17 @@
+{
+  "fixture_notice": "Fictional frozen release candidate for offline evaluation.",
+  "candidate": "orbit-ci:2026.09-rc2",
+  "evaluation_date": "2026-09-05",
+  "deployment_target": "production",
+  "controller_version": "3.9.1",
+  "runner_version": "5.4.1",
+  "linux_kernel": "6.1.74",
+  "node_version": "20.17.0",
+  "build_backend": "docker_socket",
+  "action_ref_policy": "mutable_tags",
+  "cache_protocol": "v2",
+  "oidc_audience": "ci-prod-v1",
+  "artifact_host_allowlist": [
+    "artifacts.orbit.invalid"
+  ]
+}

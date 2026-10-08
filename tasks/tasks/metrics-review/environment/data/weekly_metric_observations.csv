@@ -1,0 +1,480 @@
+week_start,segment_id,plan,region,metric_id,numerator,denominator,value,quality_flag
+2026-06-08,starter_na,Starter,North America,weekly_value_teams,1120,1,1120.000000,ok
+2026-06-08,starter_na,Starter,North America,activation_rate,432,830,0.520482,ok
+2026-06-08,starter_na,Starter,North America,d30_retention_rate,279,681,0.409692,ok
+2026-06-08,starter_na,Starter,North America,core_actions_per_active_team,12137,1556,7.800129,ok
+2026-06-08,starter_na,Starter,North America,paid_conversion_rate,27,581,0.046472,ok
+2026-06-08,starter_na,Starter,North America,error_rate,140,23340,0.005998,ok
+2026-06-08,starter_na,Starter,North America,automation_adoption_rate,187,1556,0.120180,ok
+2026-06-08,starter_na,Starter,North America,support_tickets_per_100_active_teams,121,1556,7.776350,ok
+2026-06-08,starter_emea,Starter,EMEA,weekly_value_teams,900,1,900.000000,ok
+2026-06-08,starter_emea,Starter,EMEA,activation_rate,325,650,0.500000,ok
+2026-06-08,starter_emea,Starter,EMEA,d30_retention_rate,213,533,0.399625,ok
+2026-06-08,starter_emea,Starter,EMEA,core_actions_per_active_team,9250,1250,7.400000,ok
+2026-06-08,starter_emea,Starter,EMEA,paid_conversion_rate,20,455,0.043956,ok
+2026-06-08,starter_emea,Starter,EMEA,error_rate,122,18750,0.006507,ok
+2026-06-08,starter_emea,Starter,EMEA,automation_adoption_rate,138,1250,0.110400,ok
+2026-06-08,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,102,1250,8.160000,ok
+2026-06-08,growth_na,Growth,North America,weekly_value_teams,690,1,690.000000,ok
+2026-06-08,growth_na,Growth,North America,activation_rate,252,420,0.600000,ok
+2026-06-08,growth_na,Growth,North America,d30_retention_rate,189,344,0.549419,ok
+2026-06-08,growth_na,Growth,North America,core_actions_per_active_team,9558,885,10.800000,ok
+2026-06-08,growth_na,Growth,North America,paid_conversion_rate,31,294,0.105442,ok
+2026-06-08,growth_na,Growth,North America,error_rate,88,15930,0.005524,ok
+2026-06-08,growth_na,Growth,North America,automation_adoption_rate,177,885,0.200000,ok
+2026-06-08,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,885,5.762712,ok
+2026-06-08,growth_emea,Growth,EMEA,weekly_value_teams,530,1,530.000000,ok
+2026-06-08,growth_emea,Growth,EMEA,activation_rate,186,320,0.581250,ok
+2026-06-08,growth_emea,Growth,EMEA,d30_retention_rate,139,262,0.530534,ok
+2026-06-08,growth_emea,Growth,EMEA,core_actions_per_active_team,7062,679,10.400589,ok
+2026-06-08,growth_emea,Growth,EMEA,paid_conversion_rate,22,224,0.098214,ok
+2026-06-08,growth_emea,Growth,EMEA,error_rate,71,12222,0.005809,ok
+2026-06-08,growth_emea,Growth,EMEA,automation_adoption_rate,129,679,0.189985,ok
+2026-06-08,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,41,679,6.038292,ok
+2026-06-08,enterprise_global,Enterprise,Global,weekly_value_teams,470,1,470.000000,ok
+2026-06-08,enterprise_global,Enterprise,Global,activation_rate,83,120,0.691667,ok
+2026-06-08,enterprise_global,Enterprise,Global,d30_retention_rate,86,120,0.716667,ok
+2026-06-08,enterprise_global,Enterprise,Global,core_actions_per_active_team,7960,603,13.200663,ok
+2026-06-08,enterprise_global,Enterprise,Global,paid_conversion_rate,24,100,0.240000,ok
+2026-06-08,enterprise_global,Enterprise,Global,error_rate,49,10854,0.004514,ok
+2026-06-08,enterprise_global,Enterprise,Global,automation_adoption_rate,169,603,0.280265,ok
+2026-06-08,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,27,603,4.477612,ok
+2026-06-15,starter_na,Starter,North America,weekly_value_teams,1140,1,1140.000000,ok
+2026-06-15,starter_na,Starter,North America,activation_rate,444,845,0.525444,ok
+2026-06-15,starter_na,Starter,North America,d30_retention_rate,286,693,0.412698,ok
+2026-06-15,starter_na,Starter,North America,core_actions_per_active_team,12506,1583,7.900190,ok
+2026-06-15,starter_na,Starter,North America,paid_conversion_rate,28,592,0.047297,ok
+2026-06-15,starter_na,Starter,North America,error_rate,142,23745,0.005980,ok
+2026-06-15,starter_na,Starter,North America,automation_adoption_rate,190,1583,0.120025,ok
+2026-06-15,starter_na,Starter,North America,support_tickets_per_100_active_teams,122,1583,7.706886,ok
+2026-06-15,starter_emea,Starter,EMEA,weekly_value_teams,910,1,910.000000,ok
+2026-06-15,starter_emea,Starter,EMEA,activation_rate,333,660,0.504545,ok
+2026-06-15,starter_emea,Starter,EMEA,d30_retention_rate,217,541,0.401109,ok
+2026-06-15,starter_emea,Starter,EMEA,core_actions_per_active_team,9480,1264,7.500000,ok
+2026-06-15,starter_emea,Starter,EMEA,paid_conversion_rate,21,462,0.045455,ok
+2026-06-15,starter_emea,Starter,EMEA,error_rate,121,18960,0.006382,ok
+2026-06-15,starter_emea,Starter,EMEA,automation_adoption_rate,139,1264,0.109968,ok
+2026-06-15,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,102,1264,8.069620,ok
+2026-06-15,growth_na,Growth,North America,weekly_value_teams,700,1,700.000000,ok
+2026-06-15,growth_na,Growth,North America,activation_rate,256,425,0.602353,ok
+2026-06-15,growth_na,Growth,North America,d30_retention_rate,192,348,0.551724,ok
+2026-06-15,growth_na,Growth,North America,core_actions_per_active_team,9777,897,10.899666,ok
+2026-06-15,growth_na,Growth,North America,paid_conversion_rate,32,298,0.107383,ok
+2026-06-15,growth_na,Growth,North America,error_rate,87,16146,0.005388,ok
+2026-06-15,growth_na,Growth,North America,automation_adoption_rate,188,897,0.209588,ok
+2026-06-15,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,897,5.685619,ok
+2026-06-15,growth_emea,Growth,EMEA,weekly_value_teams,535,1,535.000000,ok
+2026-06-15,growth_emea,Growth,EMEA,activation_rate,189,325,0.581538,ok
+2026-06-15,growth_emea,Growth,EMEA,d30_retention_rate,142,266,0.533835,ok
+2026-06-15,growth_emea,Growth,EMEA,core_actions_per_active_team,7203,686,10.500000,ok
+2026-06-15,growth_emea,Growth,EMEA,paid_conversion_rate,22,227,0.096916,ok
+2026-06-15,growth_emea,Growth,EMEA,error_rate,70,12348,0.005669,ok
+2026-06-15,growth_emea,Growth,EMEA,automation_adoption_rate,137,686,0.199708,ok
+2026-06-15,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,686,5.830904,ok
+2026-06-15,enterprise_global,Enterprise,Global,weekly_value_teams,475,1,475.000000,ok
+2026-06-15,enterprise_global,Enterprise,Global,activation_rate,84,122,0.688525,ok
+2026-06-15,enterprise_global,Enterprise,Global,d30_retention_rate,87,120,0.725000,ok
+2026-06-15,enterprise_global,Enterprise,Global,core_actions_per_active_team,8100,609,13.300493,ok
+2026-06-15,enterprise_global,Enterprise,Global,paid_conversion_rate,24,100,0.240000,ok
+2026-06-15,enterprise_global,Enterprise,Global,error_rate,49,10962,0.004470,ok
+2026-06-15,enterprise_global,Enterprise,Global,automation_adoption_rate,177,609,0.290640,ok
+2026-06-15,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,27,609,4.433498,ok
+2026-06-22,starter_na,Starter,North America,weekly_value_teams,1160,1,1160.000000,ok
+2026-06-22,starter_na,Starter,North America,activation_rate,450,850,0.529412,ok
+2026-06-22,starter_na,Starter,North America,d30_retention_rate,289,697,0.414634,ok
+2026-06-22,starter_na,Starter,North America,core_actions_per_active_team,12888,1611,8.000000,ok
+2026-06-22,starter_na,Starter,North America,paid_conversion_rate,29,595,0.048739,ok
+2026-06-22,starter_na,Starter,North America,error_rate,143,24165,0.005918,ok
+2026-06-22,starter_na,Starter,North America,automation_adoption_rate,209,1611,0.129733,ok
+2026-06-22,starter_na,Starter,North America,support_tickets_per_100_active_teams,122,1611,7.572936,ok
+2026-06-22,starter_emea,Starter,EMEA,weekly_value_teams,920,1,920.000000,ok
+2026-06-22,starter_emea,Starter,EMEA,activation_rate,339,665,0.509774,ok
+2026-06-22,starter_emea,Starter,EMEA,d30_retention_rate,220,545,0.403670,ok
+2026-06-22,starter_emea,Starter,EMEA,core_actions_per_active_team,9585,1278,7.500000,ok
+2026-06-22,starter_emea,Starter,EMEA,paid_conversion_rate,21,465,0.045161,ok
+2026-06-22,starter_emea,Starter,EMEA,error_rate,121,19170,0.006312,ok
+2026-06-22,starter_emea,Starter,EMEA,automation_adoption_rate,153,1278,0.119718,ok
+2026-06-22,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,102,1278,7.981221,ok
+2026-06-22,growth_na,Growth,North America,weekly_value_teams,710,1,710.000000,ok
+2026-06-22,growth_na,Growth,North America,activation_rate,260,430,0.604651,ok
+2026-06-22,growth_na,Growth,North America,d30_retention_rate,196,353,0.555241,ok
+2026-06-22,growth_na,Growth,North America,core_actions_per_active_team,10010,910,11.000000,ok
+2026-06-22,growth_na,Growth,North America,paid_conversion_rate,32,301,0.106312,ok
+2026-06-22,growth_na,Growth,North America,error_rate,87,16380,0.005311,ok
+2026-06-22,growth_na,Growth,North America,automation_adoption_rate,200,910,0.219780,ok
+2026-06-22,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,910,5.604396,ok
+2026-06-22,growth_emea,Growth,EMEA,weekly_value_teams,540,1,540.000000,ok
+2026-06-22,growth_emea,Growth,EMEA,activation_rate,193,330,0.584848,ok
+2026-06-22,growth_emea,Growth,EMEA,d30_retention_rate,145,271,0.535055,ok
+2026-06-22,growth_emea,Growth,EMEA,core_actions_per_active_team,7335,692,10.599711,ok
+2026-06-22,growth_emea,Growth,EMEA,paid_conversion_rate,23,231,0.099567,ok
+2026-06-22,growth_emea,Growth,EMEA,error_rate,70,12456,0.005620,ok
+2026-06-22,growth_emea,Growth,EMEA,automation_adoption_rate,145,692,0.209538,ok
+2026-06-22,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,692,5.780347,ok
+2026-06-22,enterprise_global,Enterprise,Global,weekly_value_teams,480,1,480.000000,ok
+2026-06-22,enterprise_global,Enterprise,Global,activation_rate,86,124,0.693548,ok
+2026-06-22,enterprise_global,Enterprise,Global,d30_retention_rate,87,120,0.725000,ok
+2026-06-22,enterprise_global,Enterprise,Global,core_actions_per_active_team,8241,615,13.400000,ok
+2026-06-22,enterprise_global,Enterprise,Global,paid_conversion_rate,24,100,0.240000,ok
+2026-06-22,enterprise_global,Enterprise,Global,error_rate,49,11070,0.004426,ok
+2026-06-22,enterprise_global,Enterprise,Global,automation_adoption_rate,184,615,0.299187,ok
+2026-06-22,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,27,615,4.390244,ok
+2026-06-29,starter_na,Starter,North America,weekly_value_teams,1180,1,1180.000000,ok
+2026-06-29,starter_na,Starter,North America,activation_rate,460,860,0.534884,ok
+2026-06-29,starter_na,Starter,North America,d30_retention_rate,293,705,0.415603,ok
+2026-06-29,starter_na,Starter,North America,core_actions_per_active_team,13276,1639,8.100061,ok
+2026-06-29,starter_na,Starter,North America,paid_conversion_rate,29,602,0.048173,ok
+2026-06-29,starter_na,Starter,North America,error_rate,143,24585,0.005817,ok
+2026-06-29,starter_na,Starter,North America,automation_adoption_rate,213,1639,0.129957,ok
+2026-06-29,starter_na,Starter,North America,support_tickets_per_100_active_teams,123,1639,7.504576,ok
+2026-06-29,starter_emea,Starter,EMEA,weekly_value_teams,930,1,930.000000,ok
+2026-06-29,starter_emea,Starter,EMEA,activation_rate,345,670,0.514925,ok
+2026-06-29,starter_emea,Starter,EMEA,d30_retention_rate,223,549,0.406193,ok
+2026-06-29,starter_emea,Starter,EMEA,core_actions_per_active_team,9819,1292,7.599845,ok
+2026-06-29,starter_emea,Starter,EMEA,paid_conversion_rate,22,469,0.046908,ok
+2026-06-29,starter_emea,Starter,EMEA,error_rate,120,19380,0.006192,ok
+2026-06-29,starter_emea,Starter,EMEA,automation_adoption_rate,155,1292,0.119969,ok
+2026-06-29,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,102,1292,7.894737,ok
+2026-06-29,growth_na,Growth,North America,weekly_value_teams,720,1,720.000000,ok
+2026-06-29,growth_na,Growth,North America,activation_rate,264,435,0.606897,ok
+2026-06-29,growth_na,Growth,North America,d30_retention_rate,198,357,0.554622,ok
+2026-06-29,growth_na,Growth,North America,core_actions_per_active_team,10245,923,11.099675,ok
+2026-06-29,growth_na,Growth,North America,paid_conversion_rate,33,304,0.108553,ok
+2026-06-29,growth_na,Growth,North America,error_rate,86,16614,0.005176,ok
+2026-06-29,growth_na,Growth,North America,automation_adoption_rate,212,923,0.229686,ok
+2026-06-29,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,923,5.525460,ok
+2026-06-29,growth_emea,Growth,EMEA,weekly_value_teams,550,1,550.000000,ok
+2026-06-29,growth_emea,Growth,EMEA,activation_rate,197,335,0.588060,ok
+2026-06-29,growth_emea,Growth,EMEA,d30_retention_rate,147,275,0.534545,ok
+2026-06-29,growth_emea,Growth,EMEA,core_actions_per_active_team,7543,705,10.699291,ok
+2026-06-29,growth_emea,Growth,EMEA,paid_conversion_rate,24,234,0.102564,ok
+2026-06-29,growth_emea,Growth,EMEA,error_rate,70,12690,0.005516,ok
+2026-06-29,growth_emea,Growth,EMEA,automation_adoption_rate,155,705,0.219858,ok
+2026-06-29,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,705,5.673759,ok
+2026-06-29,enterprise_global,Enterprise,Global,weekly_value_teams,485,1,485.000000,ok
+2026-06-29,enterprise_global,Enterprise,Global,activation_rate,88,126,0.698413,ok
+2026-06-29,enterprise_global,Enterprise,Global,d30_retention_rate,87,120,0.725000,ok
+2026-06-29,enterprise_global,Enterprise,Global,core_actions_per_active_team,8397,622,13.500000,ok
+2026-06-29,enterprise_global,Enterprise,Global,paid_conversion_rate,24,100,0.240000,ok
+2026-06-29,enterprise_global,Enterprise,Global,error_rate,49,11196,0.004377,ok
+2026-06-29,enterprise_global,Enterprise,Global,automation_adoption_rate,193,622,0.310289,ok
+2026-06-29,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,27,622,4.340836,ok
+2026-07-06,starter_na,Starter,North America,weekly_value_teams,1190,1,1190.000000,ok
+2026-07-06,starter_na,Starter,North America,activation_rate,470,870,0.540230,ok
+2026-07-06,starter_na,Starter,North America,d30_retention_rate,298,713,0.417952,ok
+2026-07-06,starter_na,Starter,North America,core_actions_per_active_team,13389,1653,8.099819,ok
+2026-07-06,starter_na,Starter,North America,paid_conversion_rate,30,609,0.049261,ok
+2026-07-06,starter_na,Starter,North America,error_rate,144,24795,0.005808,ok
+2026-07-06,starter_na,Starter,North America,automation_adoption_rate,231,1653,0.139746,ok
+2026-07-06,starter_na,Starter,North America,support_tickets_per_100_active_teams,122,1653,7.380520,ok
+2026-07-06,starter_emea,Starter,EMEA,weekly_value_teams,940,1,940.000000,ok
+2026-07-06,starter_emea,Starter,EMEA,activation_rate,354,680,0.520588,ok
+2026-07-06,starter_emea,Starter,EMEA,d30_retention_rate,228,558,0.408602,ok
+2026-07-06,starter_emea,Starter,EMEA,core_actions_per_active_team,9926,1306,7.600306,ok
+2026-07-06,starter_emea,Starter,EMEA,paid_conversion_rate,23,476,0.048319,ok
+2026-07-06,starter_emea,Starter,EMEA,error_rate,119,19590,0.006075,ok
+2026-07-06,starter_emea,Starter,EMEA,automation_adoption_rate,170,1306,0.130168,ok
+2026-07-06,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,102,1306,7.810107,ok
+2026-07-06,growth_na,Growth,North America,weekly_value_teams,730,1,730.000000,ok
+2026-07-06,growth_na,Growth,North America,activation_rate,268,440,0.609091,ok
+2026-07-06,growth_na,Growth,North America,d30_retention_rate,201,361,0.556787,ok
+2026-07-06,growth_na,Growth,North America,core_actions_per_active_team,10483,936,11.199786,ok
+2026-07-06,growth_na,Growth,North America,paid_conversion_rate,34,308,0.110390,ok
+2026-07-06,growth_na,Growth,North America,error_rate,88,16848,0.005223,ok
+2026-07-06,growth_na,Growth,North America,automation_adoption_rate,225,936,0.240385,ok
+2026-07-06,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,936,5.448718,ok
+2026-07-06,growth_emea,Growth,EMEA,weekly_value_teams,560,1,560.000000,ok
+2026-07-06,growth_emea,Growth,EMEA,activation_rate,201,340,0.591176,ok
+2026-07-06,growth_emea,Growth,EMEA,d30_retention_rate,150,279,0.537634,ok
+2026-07-06,growth_emea,Growth,EMEA,core_actions_per_active_team,7754,718,10.799443,ok
+2026-07-06,growth_emea,Growth,EMEA,paid_conversion_rate,24,238,0.100840,ok
+2026-07-06,growth_emea,Growth,EMEA,error_rate,71,12924,0.005494,ok
+2026-07-06,growth_emea,Growth,EMEA,automation_adoption_rate,165,718,0.229805,ok
+2026-07-06,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,718,5.571031,ok
+2026-07-06,enterprise_global,Enterprise,Global,weekly_value_teams,490,1,490.000000,ok
+2026-07-06,enterprise_global,Enterprise,Global,activation_rate,90,128,0.703125,ok
+2026-07-06,enterprise_global,Enterprise,Global,d30_retention_rate,87,120,0.725000,ok
+2026-07-06,enterprise_global,Enterprise,Global,core_actions_per_active_team,8541,628,13.600318,ok
+2026-07-06,enterprise_global,Enterprise,Global,paid_conversion_rate,24,100,0.240000,ok
+2026-07-06,enterprise_global,Enterprise,Global,error_rate,49,11304,0.004335,ok
+2026-07-06,enterprise_global,Enterprise,Global,automation_adoption_rate,201,628,0.320064,ok
+2026-07-06,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,26,628,4.140127,ok
+2026-07-13,starter_na,Starter,North America,weekly_value_teams,1200,1,1200.000000,ok
+2026-07-13,starter_na,Starter,North America,activation_rate,480,880,0.545455,ok
+2026-07-13,starter_na,Starter,North America,d30_retention_rate,303,722,0.419668,ok
+2026-07-13,starter_na,Starter,North America,core_actions_per_active_team,13669,1667,8.199760,ok
+2026-07-13,starter_na,Starter,North America,paid_conversion_rate,31,616,0.050325,ok
+2026-07-13,starter_na,Starter,North America,error_rate,143,25005,0.005719,ok
+2026-07-13,starter_na,Starter,North America,automation_adoption_rate,233,1667,0.139772,ok
+2026-07-13,starter_na,Starter,North America,support_tickets_per_100_active_teams,122,1667,7.318536,ok
+2026-07-13,starter_emea,Starter,EMEA,weekly_value_teams,945,1,945.000000,ok
+2026-07-13,starter_emea,Starter,EMEA,activation_rate,360,690,0.521739,ok
+2026-07-13,starter_emea,Starter,EMEA,d30_retention_rate,232,566,0.409894,ok
+2026-07-13,starter_emea,Starter,EMEA,core_actions_per_active_team,10102,1312,7.699695,ok
+2026-07-13,starter_emea,Starter,EMEA,paid_conversion_rate,24,483,0.049689,ok
+2026-07-13,starter_emea,Starter,EMEA,error_rate,118,19680,0.005996,ok
+2026-07-13,starter_emea,Starter,EMEA,automation_adoption_rate,171,1312,0.130335,ok
+2026-07-13,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,101,1312,7.698171,ok
+2026-07-13,growth_na,Growth,North America,weekly_value_teams,745,1,745.000000,ok
+2026-07-13,growth_na,Growth,North America,activation_rate,277,450,0.615556,ok
+2026-07-13,growth_na,Growth,North America,d30_retention_rate,207,369,0.560976,ok
+2026-07-13,growth_na,Growth,North America,core_actions_per_active_team,10982,955,11.499476,ok
+2026-07-13,growth_na,Growth,North America,paid_conversion_rate,35,315,0.111111,ok
+2026-07-13,growth_na,Growth,North America,error_rate,88,17190,0.005119,ok
+2026-07-13,growth_na,Growth,North America,automation_adoption_rate,296,955,0.309948,ok
+2026-07-13,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,955,5.340314,ok
+2026-07-13,growth_emea,Growth,EMEA,weekly_value_teams,570,1,570.000000,ok
+2026-07-13,growth_emea,Growth,EMEA,activation_rate,205,345,0.594203,ok
+2026-07-13,growth_emea,Growth,EMEA,d30_retention_rate,153,283,0.540636,ok
+2026-07-13,growth_emea,Growth,EMEA,core_actions_per_active_team,8114,731,11.099863,ok
+2026-07-13,growth_emea,Growth,EMEA,paid_conversion_rate,25,241,0.103734,ok
+2026-07-13,growth_emea,Growth,EMEA,error_rate,71,13158,0.005396,ok
+2026-07-13,growth_emea,Growth,EMEA,automation_adoption_rate,219,731,0.299590,ok
+2026-07-13,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,731,5.471956,ok
+2026-07-13,enterprise_global,Enterprise,Global,weekly_value_teams,495,1,495.000000,ok
+2026-07-13,enterprise_global,Enterprise,Global,activation_rate,92,130,0.707692,ok
+2026-07-13,enterprise_global,Enterprise,Global,d30_retention_rate,88,120,0.733333,ok
+2026-07-13,enterprise_global,Enterprise,Global,core_actions_per_active_team,8826,635,13.899213,ok
+2026-07-13,enterprise_global,Enterprise,Global,paid_conversion_rate,25,100,0.250000,ok
+2026-07-13,enterprise_global,Enterprise,Global,error_rate,49,11430,0.004287,ok
+2026-07-13,enterprise_global,Enterprise,Global,automation_adoption_rate,254,635,0.400000,ok
+2026-07-13,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,27,635,4.251969,ok
+2026-07-20,starter_na,Starter,North America,weekly_value_teams,1210,1,1210.000000,ok
+2026-07-20,starter_na,Starter,North America,activation_rate,490,890,0.550562,ok
+2026-07-20,starter_na,Starter,North America,d30_retention_rate,308,730,0.421918,ok
+2026-07-20,starter_na,Starter,North America,core_actions_per_active_team,13952,1681,8.299822,ok
+2026-07-20,starter_na,Starter,North America,paid_conversion_rate,32,623,0.051364,ok
+2026-07-20,starter_na,Starter,North America,error_rate,144,25215,0.005711,ok
+2026-07-20,starter_na,Starter,North America,automation_adoption_rate,252,1681,0.149911,ok
+2026-07-20,starter_na,Starter,North America,support_tickets_per_100_active_teams,121,1681,7.198096,ok
+2026-07-20,starter_emea,Starter,EMEA,weekly_value_teams,950,1,950.000000,ok
+2026-07-20,starter_emea,Starter,EMEA,activation_rate,368,700,0.525714,ok
+2026-07-20,starter_emea,Starter,EMEA,d30_retention_rate,236,574,0.411150,ok
+2026-07-20,starter_emea,Starter,EMEA,core_actions_per_active_team,10288,1319,7.799848,ok
+2026-07-20,starter_emea,Starter,EMEA,paid_conversion_rate,24,490,0.048980,ok
+2026-07-20,starter_emea,Starter,EMEA,error_rate,119,19785,0.006015,ok
+2026-07-20,starter_emea,Starter,EMEA,automation_adoption_rate,185,1319,0.140258,ok
+2026-07-20,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,100,1319,7.581501,ok
+2026-07-20,growth_na,Growth,North America,weekly_value_teams,760,1,760.000000,ok
+2026-07-20,growth_na,Growth,North America,activation_rate,285,460,0.619565,ok
+2026-07-20,growth_na,Growth,North America,d30_retention_rate,213,377,0.564987,ok
+2026-07-20,growth_na,Growth,North America,core_actions_per_active_team,11591,974,11.900411,ok
+2026-07-20,growth_na,Growth,North America,paid_conversion_rate,37,322,0.114907,ok
+2026-07-20,growth_na,Growth,North America,error_rate,88,17532,0.005019,ok
+2026-07-20,growth_na,Growth,North America,automation_adoption_rate,370,974,0.379877,ok
+2026-07-20,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,974,5.236140,ok
+2026-07-20,growth_emea,Growth,EMEA,weekly_value_teams,580,1,580.000000,ok
+2026-07-20,growth_emea,Growth,EMEA,activation_rate,210,350,0.600000,ok
+2026-07-20,growth_emea,Growth,EMEA,d30_retention_rate,156,287,0.543554,ok
+2026-07-20,growth_emea,Growth,EMEA,core_actions_per_active_team,8556,744,11.500000,ok
+2026-07-20,growth_emea,Growth,EMEA,paid_conversion_rate,26,245,0.106122,ok
+2026-07-20,growth_emea,Growth,EMEA,error_rate,71,13392,0.005302,ok
+2026-07-20,growth_emea,Growth,EMEA,automation_adoption_rate,275,744,0.369624,ok
+2026-07-20,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,744,5.376344,ok
+2026-07-20,enterprise_global,Enterprise,Global,weekly_value_teams,500,1,500.000000,ok
+2026-07-20,enterprise_global,Enterprise,Global,activation_rate,94,132,0.712121,ok
+2026-07-20,enterprise_global,Enterprise,Global,d30_retention_rate,88,120,0.733333,ok
+2026-07-20,enterprise_global,Enterprise,Global,core_actions_per_active_team,9102,641,14.199688,ok
+2026-07-20,enterprise_global,Enterprise,Global,paid_conversion_rate,25,100,0.250000,ok
+2026-07-20,enterprise_global,Enterprise,Global,error_rate,48,11538,0.004160,ok
+2026-07-20,enterprise_global,Enterprise,Global,automation_adoption_rate,301,641,0.469579,ok
+2026-07-20,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,26,641,4.056162,ok
+2026-07-27,starter_na,Starter,North America,weekly_value_teams,1220,1,1220.000000,ok
+2026-07-27,starter_na,Starter,North America,activation_rate,497,900,0.552222,ok
+2026-07-27,starter_na,Starter,North America,d30_retention_rate,313,738,0.424119,ok
+2026-07-27,starter_na,Starter,North America,core_actions_per_active_team,14230,1694,8.400236,ok
+2026-07-27,starter_na,Starter,North America,paid_conversion_rate,33,630,0.052381,ok
+2026-07-27,starter_na,Starter,North America,error_rate,142,25410,0.005588,ok
+2026-07-27,starter_na,Starter,North America,automation_adoption_rate,254,1694,0.149941,ok
+2026-07-27,starter_na,Starter,North America,support_tickets_per_100_active_teams,120,1694,7.083825,ok
+2026-07-27,starter_emea,Starter,EMEA,weekly_value_teams,955,1,955.000000,ok
+2026-07-27,starter_emea,Starter,EMEA,activation_rate,373,710,0.525352,ok
+2026-07-27,starter_emea,Starter,EMEA,d30_retention_rate,241,582,0.414089,ok
+2026-07-27,starter_emea,Starter,EMEA,core_actions_per_active_team,10343,1326,7.800151,ok
+2026-07-27,starter_emea,Starter,EMEA,paid_conversion_rate,25,497,0.050302,ok
+2026-07-27,starter_emea,Starter,EMEA,error_rate,117,19890,0.005882,ok
+2026-07-27,starter_emea,Starter,EMEA,automation_adoption_rate,186,1326,0.140271,ok
+2026-07-27,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,99,1326,7.466063,ok
+2026-07-27,growth_na,Growth,North America,weekly_value_teams,775,1,775.000000,ok
+2026-07-27,growth_na,Growth,North America,activation_rate,294,470,0.625532,ok
+2026-07-27,growth_na,Growth,North America,d30_retention_rate,219,385,0.568831,ok
+2026-07-27,growth_na,Growth,North America,core_actions_per_active_team,12226,994,12.299799,ok
+2026-07-27,growth_na,Growth,North America,paid_conversion_rate,38,329,0.115502,ok
+2026-07-27,growth_na,Growth,North America,error_rate,89,17892,0.004974,ok
+2026-07-27,growth_na,Growth,North America,automation_adoption_rate,427,994,0.429577,ok
+2026-07-27,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,994,5.130785,ok
+2026-07-27,growth_emea,Growth,EMEA,weekly_value_teams,590,1,590.000000,ok
+2026-07-27,growth_emea,Growth,EMEA,activation_rate,215,355,0.605634,ok
+2026-07-27,growth_emea,Growth,EMEA,d30_retention_rate,160,291,0.549828,ok
+2026-07-27,growth_emea,Growth,EMEA,core_actions_per_active_team,8996,756,11.899471,ok
+2026-07-27,growth_emea,Growth,EMEA,paid_conversion_rate,27,248,0.108871,ok
+2026-07-27,growth_emea,Growth,EMEA,error_rate,71,13608,0.005218,ok
+2026-07-27,growth_emea,Growth,EMEA,automation_adoption_rate,318,756,0.420635,ok
+2026-07-27,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,756,5.291005,ok
+2026-07-27,enterprise_global,Enterprise,Global,weekly_value_teams,505,1,505.000000,ok
+2026-07-27,enterprise_global,Enterprise,Global,activation_rate,96,134,0.716418,ok
+2026-07-27,enterprise_global,Enterprise,Global,d30_retention_rate,88,120,0.733333,ok
+2026-07-27,enterprise_global,Enterprise,Global,core_actions_per_active_team,9382,647,14.500773,ok
+2026-07-27,enterprise_global,Enterprise,Global,paid_conversion_rate,25,100,0.250000,ok
+2026-07-27,enterprise_global,Enterprise,Global,error_rate,49,11646,0.004207,ok
+2026-07-27,enterprise_global,Enterprise,Global,automation_adoption_rate,336,647,0.519320,ok
+2026-07-27,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,26,647,4.018547,ok
+2026-08-03,starter_na,Starter,North America,weekly_value_teams,1235,1,1235.000000,ok
+2026-08-03,starter_na,Starter,North America,activation_rate,572,1080,0.529630,ok
+2026-08-03,starter_na,Starter,North America,d30_retention_rate,377,886,0.425508,ok
+2026-08-03,starter_na,Starter,North America,core_actions_per_active_team,14406,1715,8.400000,ok
+2026-08-03,starter_na,Starter,North America,paid_conversion_rate,41,756,0.054233,ok
+2026-08-03,starter_na,Starter,North America,error_rate,149,25725,0.005792,ok
+2026-08-03,starter_na,Starter,North America,automation_adoption_rate,274,1715,0.159767,ok
+2026-08-03,starter_na,Starter,North America,support_tickets_per_100_active_teams,125,1715,7.288630,ok
+2026-08-03,starter_emea,Starter,EMEA,weekly_value_teams,900,1,900.000000,ok
+2026-08-03,starter_emea,Starter,EMEA,activation_rate,360,720,0.500000,ok
+2026-08-03,starter_emea,Starter,EMEA,d30_retention_rate,243,590,0.411864,ok
+2026-08-03,starter_emea,Starter,EMEA,core_actions_per_active_team,9625,1250,7.700000,ok
+2026-08-03,starter_emea,Starter,EMEA,paid_conversion_rate,25,504,0.049603,ok
+2026-08-03,starter_emea,Starter,EMEA,error_rate,188,18750,0.010027,ok
+2026-08-03,starter_emea,Starter,EMEA,automation_adoption_rate,188,1250,0.150400,ok
+2026-08-03,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,106,1250,8.480000,ok
+2026-08-03,growth_na,Growth,North America,weekly_value_teams,790,1,790.000000,ok
+2026-08-03,growth_na,Growth,North America,activation_rate,299,475,0.629474,ok
+2026-08-03,growth_na,Growth,North America,d30_retention_rate,224,390,0.574359,ok
+2026-08-03,growth_na,Growth,North America,core_actions_per_active_team,12865,1013,12.699901,ok
+2026-08-03,growth_na,Growth,North America,paid_conversion_rate,40,332,0.120482,ok
+2026-08-03,growth_na,Growth,North America,error_rate,91,18234,0.004991,ok
+2026-08-03,growth_na,Growth,North America,automation_adoption_rate,476,1013,0.469891,ok
+2026-08-03,growth_na,Growth,North America,support_tickets_per_100_active_teams,51,1013,5.034551,ok
+2026-08-03,growth_emea,Growth,EMEA,weekly_value_teams,600,1,600.000000,ok
+2026-08-03,growth_emea,Growth,EMEA,activation_rate,220,360,0.611111,ok
+2026-08-03,growth_emea,Growth,EMEA,d30_retention_rate,164,295,0.555932,ok
+2026-08-03,growth_emea,Growth,EMEA,core_actions_per_active_team,9382,769,12.200260,ok
+2026-08-03,growth_emea,Growth,EMEA,paid_conversion_rate,28,252,0.111111,ok
+2026-08-03,growth_emea,Growth,EMEA,error_rate,72,13842,0.005202,ok
+2026-08-03,growth_emea,Growth,EMEA,automation_adoption_rate,354,769,0.460338,ok
+2026-08-03,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,40,769,5.201560,ok
+2026-08-03,enterprise_global,Enterprise,Global,weekly_value_teams,510,1,510.000000,ok
+2026-08-03,enterprise_global,Enterprise,Global,activation_rate,98,136,0.720588,ok
+2026-08-03,enterprise_global,Enterprise,Global,d30_retention_rate,88,120,0.733333,ok
+2026-08-03,enterprise_global,Enterprise,Global,core_actions_per_active_team,9679,654,14.799694,ok
+2026-08-03,enterprise_global,Enterprise,Global,paid_conversion_rate,26,100,0.260000,ok
+2026-08-03,enterprise_global,Enterprise,Global,error_rate,49,11772,0.004162,ok
+2026-08-03,enterprise_global,Enterprise,Global,automation_adoption_rate,366,654,0.559633,ok
+2026-08-03,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,26,654,3.975535,ok
+2026-08-10,starter_na,Starter,North America,weekly_value_teams,1255,1,1255.000000,ok
+2026-08-10,starter_na,Starter,North America,activation_rate,581,1100,0.528182,ok
+2026-08-10,starter_na,Starter,North America,d30_retention_rate,384,902,0.425721,ok
+2026-08-10,starter_na,Starter,North America,core_actions_per_active_team,14816,1743,8.500287,ok
+2026-08-10,starter_na,Starter,North America,paid_conversion_rate,42,770,0.054545,ok
+2026-08-10,starter_na,Starter,North America,error_rate,157,26145,0.006005,ok
+2026-08-10,starter_na,Starter,North America,automation_adoption_rate,296,1743,0.169822,ok
+2026-08-10,starter_na,Starter,North America,support_tickets_per_100_active_teams,131,1743,7.515777,ok
+2026-08-10,starter_emea,Starter,EMEA,weekly_value_teams,700,1,700.000000,ok
+2026-08-10,starter_emea,Starter,EMEA,activation_rate,272,715,0.380420,ok
+2026-08-10,starter_emea,Starter,EMEA,d30_retention_rate,226,586,0.385666,ok
+2026-08-10,starter_emea,Starter,EMEA,core_actions_per_active_team,6804,972,7.000000,ok
+2026-08-10,starter_emea,Starter,EMEA,paid_conversion_rate,22,500,0.044000,ok
+2026-08-10,starter_emea,Starter,EMEA,error_rate,262,14580,0.017970,ok
+2026-08-10,starter_emea,Starter,EMEA,automation_adoption_rate,136,972,0.139918,ok
+2026-08-10,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,117,972,12.037037,ok
+2026-08-10,growth_na,Growth,North America,weekly_value_teams,805,1,805.000000,ok
+2026-08-10,growth_na,Growth,North America,activation_rate,305,480,0.635417,ok
+2026-08-10,growth_na,Growth,North America,d30_retention_rate,229,394,0.581218,ok
+2026-08-10,growth_na,Growth,North America,core_actions_per_active_team,13416,1032,13.000000,ok
+2026-08-10,growth_na,Growth,North America,paid_conversion_rate,41,336,0.122024,ok
+2026-08-10,growth_na,Growth,North America,error_rate,95,18576,0.005114,ok
+2026-08-10,growth_na,Growth,North America,automation_adoption_rate,516,1032,0.500000,ok
+2026-08-10,growth_na,Growth,North America,support_tickets_per_100_active_teams,52,1032,5.038760,ok
+2026-08-10,growth_emea,Growth,EMEA,weekly_value_teams,610,1,610.000000,ok
+2026-08-10,growth_emea,Growth,EMEA,activation_rate,224,365,0.613699,ok
+2026-08-10,growth_emea,Growth,EMEA,d30_retention_rate,167,299,0.558528,ok
+2026-08-10,growth_emea,Growth,EMEA,core_actions_per_active_team,9775,782,12.500000,ok
+2026-08-10,growth_emea,Growth,EMEA,paid_conversion_rate,29,255,0.113725,ok
+2026-08-10,growth_emea,Growth,EMEA,error_rate,75,14076,0.005328,ok
+2026-08-10,growth_emea,Growth,EMEA,automation_adoption_rate,383,782,0.489770,ok
+2026-08-10,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,41,782,5.242967,ok
+2026-08-10,enterprise_global,Enterprise,Global,weekly_value_teams,515,1,515.000000,ok
+2026-08-10,enterprise_global,Enterprise,Global,activation_rate,100,138,0.724638,ok
+2026-08-10,enterprise_global,Enterprise,Global,d30_retention_rate,89,120,0.741667,ok
+2026-08-10,enterprise_global,Enterprise,Global,core_actions_per_active_team,9900,660,15.000000,ok
+2026-08-10,enterprise_global,Enterprise,Global,paid_conversion_rate,26,100,0.260000,ok
+2026-08-10,enterprise_global,Enterprise,Global,error_rate,51,11880,0.004293,ok
+2026-08-10,enterprise_global,Enterprise,Global,automation_adoption_rate,389,660,0.589394,ok
+2026-08-10,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,26,660,3.939394,ok
+2026-08-17,starter_na,Starter,North America,weekly_value_teams,1265,1,1265.000000,ok
+2026-08-17,starter_na,Starter,North America,activation_rate,553,1040,0.531731,ok
+2026-08-17,starter_na,Starter,North America,d30_retention_rate,364,853,0.426729,ok
+2026-08-17,starter_na,Starter,North America,core_actions_per_active_team,14934,1757,8.499715,ok
+2026-08-17,starter_na,Starter,North America,paid_conversion_rate,41,728,0.056319,ok
+2026-08-17,starter_na,Starter,North America,error_rate,163,26355,0.006185,ok
+2026-08-17,starter_na,Starter,North America,automation_adoption_rate,316,1757,0.179852,ok
+2026-08-17,starter_na,Starter,North America,support_tickets_per_100_active_teams,135,1757,7.683552,ok
+2026-08-17,starter_emea,Starter,EMEA,weekly_value_teams,600,1,600.000000,ok
+2026-08-17,starter_emea,Starter,EMEA,activation_rate,214,690,0.310145,estimated_backfill
+2026-08-17,starter_emea,Starter,EMEA,d30_retention_rate,198,566,0.349823,ok
+2026-08-17,starter_emea,Starter,EMEA,core_actions_per_active_team,5498,833,6.600240,ok
+2026-08-17,starter_emea,Starter,EMEA,paid_conversion_rate,19,483,0.039337,ok
+2026-08-17,starter_emea,Starter,EMEA,error_rate,500,12495,0.040016,ok
+2026-08-17,starter_emea,Starter,EMEA,automation_adoption_rate,108,833,0.129652,ok
+2026-08-17,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,158,833,18.967587,ok
+2026-08-17,growth_na,Growth,North America,weekly_value_teams,820,1,820.000000,ok
+2026-08-17,growth_na,Growth,North America,activation_rate,309,485,0.637113,ok
+2026-08-17,growth_na,Growth,North America,d30_retention_rate,232,398,0.582915,ok
+2026-08-17,growth_na,Growth,North America,core_actions_per_active_team,13873,1051,13.199810,ok
+2026-08-17,growth_na,Growth,North America,paid_conversion_rate,42,340,0.123529,ok
+2026-08-17,growth_na,Growth,North America,error_rate,104,18918,0.005497,ok
+2026-08-17,growth_na,Growth,North America,automation_adoption_rate,547,1051,0.520457,ok
+2026-08-17,growth_na,Growth,North America,support_tickets_per_100_active_teams,56,1051,5.328259,ok
+2026-08-17,growth_emea,Growth,EMEA,weekly_value_teams,590,1,590.000000,ok
+2026-08-17,growth_emea,Growth,EMEA,activation_rate,206,350,0.588571,ok
+2026-08-17,growth_emea,Growth,EMEA,d30_retention_rate,155,287,0.540070,ok
+2026-08-17,growth_emea,Growth,EMEA,core_actions_per_active_team,8921,756,11.800265,ok
+2026-08-17,growth_emea,Growth,EMEA,paid_conversion_rate,26,245,0.106122,ok
+2026-08-17,growth_emea,Growth,EMEA,error_rate,408,13608,0.029982,ok
+2026-08-17,growth_emea,Growth,EMEA,automation_adoption_rate,355,756,0.469577,ok
+2026-08-17,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,91,756,12.037037,ok
+2026-08-17,enterprise_global,Enterprise,Global,weekly_value_teams,500,1,500.000000,ok
+2026-08-17,enterprise_global,Enterprise,Global,activation_rate,91,130,0.700000,ok
+2026-08-17,enterprise_global,Enterprise,Global,d30_retention_rate,86,120,0.716667,ok
+2026-08-17,enterprise_global,Enterprise,Global,core_actions_per_active_team,9230,641,14.399376,ok
+2026-08-17,enterprise_global,Enterprise,Global,paid_conversion_rate,25,100,0.250000,ok
+2026-08-17,enterprise_global,Enterprise,Global,error_rate,288,11538,0.024961,ok
+2026-08-17,enterprise_global,Enterprise,Global,automation_adoption_rate,372,641,0.580343,ok
+2026-08-17,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,58,641,9.048362,ok
+2026-08-24,starter_na,Starter,North America,weekly_value_teams,1275,1,1275.000000,ok
+2026-08-24,starter_na,Starter,North America,activation_rate,540,1010,0.534653,ok
+2026-08-24,starter_na,Starter,North America,d30_retention_rate,354,828,0.427536,ok
+2026-08-24,starter_na,Starter,North America,core_actions_per_active_team,15231,1771,8.600226,ok
+2026-08-24,starter_na,Starter,North America,paid_conversion_rate,40,707,0.056577,ok
+2026-08-24,starter_na,Starter,North America,error_rate,157,26565,0.005910,ok
+2026-08-24,starter_na,Starter,North America,automation_adoption_rate,336,1771,0.189723,ok
+2026-08-24,starter_na,Starter,North America,support_tickets_per_100_active_teams,131,1771,7.396951,ok
+2026-08-24,starter_emea,Starter,EMEA,weekly_value_teams,580,1,580.000000,ok
+2026-08-24,starter_emea,Starter,EMEA,activation_rate,224,680,0.329412,ok
+2026-08-24,starter_emea,Starter,EMEA,d30_retention_rate,190,558,0.340502,ok
+2026-08-24,starter_emea,Starter,EMEA,core_actions_per_active_team,5239,806,6.500000,ok
+2026-08-24,starter_emea,Starter,EMEA,paid_conversion_rate,20,476,0.042017,ok
+2026-08-24,starter_emea,Starter,EMEA,error_rate,266,12090,0.022002,ok
+2026-08-24,starter_emea,Starter,EMEA,automation_adoption_rate,105,806,0.130273,ok
+2026-08-24,starter_emea,Starter,EMEA,support_tickets_per_100_active_teams,113,806,14.019851,ok
+2026-08-24,growth_na,Growth,North America,weekly_value_teams,835,1,835.000000,ok
+2026-08-24,growth_na,Growth,North America,activation_rate,314,490,0.640816,ok
+2026-08-24,growth_na,Growth,North America,d30_retention_rate,235,402,0.584577,ok
+2026-08-24,growth_na,Growth,North America,core_actions_per_active_team,14351,1071,13.399627,ok
+2026-08-24,growth_na,Growth,North America,paid_conversion_rate,43,343,0.125364,ok
+2026-08-24,growth_na,Growth,North America,error_rate,96,19278,0.004980,ok
+2026-08-24,growth_na,Growth,North America,automation_adoption_rate,578,1071,0.539683,ok
+2026-08-24,growth_na,Growth,North America,support_tickets_per_100_active_teams,52,1071,4.855275,ok
+2026-08-24,growth_emea,Growth,EMEA,weekly_value_teams,620,1,620.000000,ok
+2026-08-24,growth_emea,Growth,EMEA,activation_rate,229,370,0.618919,ok
+2026-08-24,growth_emea,Growth,EMEA,d30_retention_rate,171,303,0.564356,ok
+2026-08-24,growth_emea,Growth,EMEA,core_actions_per_active_team,10176,795,12.800000,ok
+2026-08-24,growth_emea,Growth,EMEA,error_rate,86,14310,0.006010,ok
+2026-08-24,growth_emea,Growth,EMEA,automation_adoption_rate,421,795,0.529560,ok
+2026-08-24,growth_emea,Growth,EMEA,support_tickets_per_100_active_teams,44,795,5.534591,ok
+2026-08-24,enterprise_global,Enterprise,Global,weekly_value_teams,525,1,525.000000,ok
+2026-08-24,enterprise_global,Enterprise,Global,activation_rate,102,140,0.728571,ok
+2026-08-24,enterprise_global,Enterprise,Global,d30_retention_rate,89,120,0.741667,ok
+2026-08-24,enterprise_global,Enterprise,Global,core_actions_per_active_team,10230,673,15.200594,ok
+2026-08-24,enterprise_global,Enterprise,Global,paid_conversion_rate,26,100,0.260000,ok
+2026-08-24,enterprise_global,Enterprise,Global,error_rate,55,12114,0.004540,ok
+2026-08-24,enterprise_global,Enterprise,Global,automation_adoption_rate,417,673,0.619614,ok
+2026-08-24,enterprise_global,Enterprise,Global,support_tickets_per_100_active_teams,28,673,4.160475,ok

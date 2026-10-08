@@ -1,0 +1,13 @@
+unit_id,title,dependencies,planned_files,complexity_points,blast_radius,reversible,acceptance_refs
+WU-01,Version invoice contract,,packages/contracts/invoice.ts|packages/contracts/version.ts,4,medium,true,AC-001|AC-002|AC-003
+WU-02,Introduce regional ledger model,WU-01,services/ledger/model.ts|services/ledger/repository.ts|migrations/index.ts,6,high,true,AC-004|AC-005|AC-006
+WU-03,Add jurisdiction tax engine,WU-01,services/tax/calculator.ts|services/tax/rules.ts|packages/contracts/invoice.ts,6,high,true,AC-007|AC-008|AC-009
+WU-04,Build ledger migration runner,WU-02,migrations/index.ts|migrations/regional_ledger.ts|scripts/migrate-ledger.ts,9,critical,false,AC-010|AC-011|AC-012
+WU-05,Expose regional invoice API,WU-02|WU-03,services/api/invoice.ts|services/api/routes.ts|packages/contracts/invoice.ts,7,high,true,AC-013|AC-014|AC-015
+WU-06,Create historical backfill worker,WU-04,workers/backfill.ts|workers/checkpoint.ts|migrations/index.ts,7,high,false,AC-016|AC-017|AC-018
+WU-07,Update invoice administration UI,WU-05,web/admin/invoices.tsx|web/admin/invoice-client.ts|services/api/invoice.ts,3,medium,true,AC-019|AC-020|AC-021
+WU-08,Add billing observability,WU-05|WU-11,ops/dashboards/billing.json|ops/alerts/billing.yaml|services/api/invoice.ts,4,medium,true,AC-022|AC-023|AC-024
+WU-09,Implement guarded regional rollout,WU-06|WU-08|WU-12,config/rollout.yaml|services/api/feature-flags.ts|workers/backfill.ts,8,critical,true,AC-025|AC-026|AC-027
+WU-10,Publish operator runbook,WU-09,docs/regional-ledger-runbook.md|config/rollout.yaml,2,low,true,AC-028|AC-029|AC-030
+WU-11,Expand invoice fixture harness,WU-01,tests/fixtures/invoices.json|tests/helpers/invoice-factory.ts|packages/contracts/invoice.ts,3,low,true,AC-031|AC-032|AC-033
+WU-12,Establish performance baseline,,benchmarks/invoice-api.js|benchmarks/ledger-query.js,3,low,true,AC-034|AC-035|AC-036

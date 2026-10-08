@@ -1,0 +1,46 @@
+{
+  "models": [
+    {
+      "display_name": "Aurora 7B step 100k",
+      "model_id": "aurora-7b-step-100k",
+      "role": "checkpoint",
+      "training_step": 100000
+    },
+    {
+      "display_name": "Aurora 7B step 200k",
+      "model_id": "aurora-7b-step-200k",
+      "role": "checkpoint",
+      "training_step": 200000
+    },
+    {
+      "display_name": "Aurora 7B step 300k",
+      "model_id": "aurora-7b-step-300k",
+      "role": "checkpoint",
+      "training_step": 300000
+    },
+    {
+      "display_name": "Aurora 7B step 400k",
+      "model_id": "aurora-7b-step-400k",
+      "role": "checkpoint",
+      "training_step": 400000
+    },
+    {
+      "display_name": "Aurora 7B step 500k",
+      "model_id": "aurora-7b-step-500k",
+      "role": "checkpoint",
+      "training_step": 500000
+    },
+    {
+      "display_name": "Aurora 7B current release",
+      "model_id": "aurora-7b-release-prev",
+      "role": "previous_release",
+      "training_step": null
+    },
+    {
+      "display_name": "Borealis 7B external baseline",
+      "model_id": "borealis-7b-baseline",
+      "role": "external_baseline",
+      "training_step": null
+    }
+  ]
+}

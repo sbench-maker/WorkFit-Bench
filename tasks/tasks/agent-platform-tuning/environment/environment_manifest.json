@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "google-cloud-aiplatform",
+      "import_name": "vertexai",
+      "version": "1.138.0",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "numpy",
+      "import_name": "numpy",
+      "version": "2.4.2",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "pandas",
+      "import_name": "pandas",
+      "version": "3.0.1",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "datasets",
+      "import_name": "datasets",
+      "version": "2.18.0",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "smart_open",
+      "import_name": "smart_open",
+      "version": "7.5.1",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "pyarrow",
+      "import_name": "pyarrow",
+      "version": "19.0.1",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "google-genai",
+      "import_name": "google.genai",
+      "version": "1.73.1",
+      "used_by": [
+        "agent"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "workflow_id": "WF-RETURN-1",
+  "observable_states": [
+    "submitted",
+    "authorization_pending_or_granted",
+    "pickup_scheduled",
+    "in_transit",
+    "credit_confirmed",
+    "closed"
+  ],
+  "simplest_complete_path": {
+    "case": "one standard domestic item valued at or below USD 500",
+    "entry": "basic form with one optional photo",
+    "authorization": "automatic",
+    "pickup": "operations selects and records a pickup window manually",
+    "resolution": "coordinator records the supplier credit memo",
+    "requester_value": "requester can see status from submission through closure"
+  },
+  "current_workaround": "Email request, spreadsheet triage, carrier portal, and manual status replies."
+}

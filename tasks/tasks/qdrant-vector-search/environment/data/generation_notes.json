@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "fictional": true,
+  "row_counts": {
+    "knowledge_points": 240,
+    "query_requests": 18
+  },
+  "intentional_edge_cases": [
+    "same semantic material exists for three tenants, requiring tenant isolation",
+    "published, retired, expired, and future-dated chunks coexist",
+    "queries constrain language, product, document type, region, and effective dates",
+    "date-boundary and unmatched-region combinations exercise empty candidate sets"
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "ticket_id": "MT-101",
+    "status": "open",
+    "component": "checkout",
+    "opened_on": "2026-01-12",
+    "summary": "Quote and capture totals sometimes differ by one cent",
+    "detail": "Support has a manual adjustment macro; suspected duplicated rounding logic."
+  },
+  {
+    "ticket_id": "MT-104",
+    "status": "open",
+    "component": "delivery",
+    "opened_on": "2026-02-04",
+    "summary": "Deploys have no tested rollback",
+    "detail": "Two failed migrations required reconstructing commands from terminal history."
+  },
+  {
+    "ticket_id": "MT-108",
+    "status": "open",
+    "component": "test_suite",
+    "opened_on": "2026-02-18",
+    "summary": "Dispatcher test is flaky",
+    "detail": "CI policy permits one retry, which masks first-run failures."
+  },
+  {
+    "ticket_id": "MT-109",
+    "status": "open",
+    "component": "test_suite",
+    "opened_on": "2026-03-02",
+    "summary": "Refund capture path has no integration coverage",
+    "detail": "The only checkout test covers a positive quote and never calls capture_total."
+  },
+  {
+    "ticket_id": "MT-112",
+    "status": "open",
+    "component": "documentation",
+    "opened_on": "2026-03-21",
+    "summary": "New starters cannot follow the operations runbook",
+    "detail": "Documented port and health path do not match the checked-in configuration and API."
+  },
+  {
+    "ticket_id": "MT-115",
+    "status": "open",
+    "component": "dispatcher",
+    "opened_on": "2026-04-07",
+    "summary": "Retry pauses block the worker",
+    "detail": "Dispatch retry uses synchronous sleeps and unexplained constants."
+  },
+  {
+    "ticket_id": "MT-116",
+    "status": "open",
+    "component": "dispatcher",
+    "opened_on": "2026-04-09",
+    "summary": "Queued notifications disappear after restart",
+    "detail": "Shipment work is held only in a process-global list."
+  },
+  {
+    "ticket_id": "MT-119",
+    "status": "open",
+    "component": "order_api",
+    "opened_on": "2026-05-03",
+    "summary": "Small order changes are slow to review",
+    "detail": "Validation, persistence, pricing, dispatch, and response formatting share one function."
+  },
+  {
+    "ticket_id": "MT-121",
+    "status": "open",
+    "component": "storage",
+    "opened_on": "2026-05-14",
+    "summary": "Worker storage failures are hard to reproduce",
+    "detail": "A module-level connection is shared across request and worker code."
+  },
+  {
+    "ticket_id": "MT-124",
+    "status": "open",
+    "component": "http_client",
+    "opened_on": "2026-06-01",
+    "summary": "Transport policy update blocked",
+    "detail": "The locked HTTP client is unsupported and cannot enforce the policy."
+  },
+  {
+    "ticket_id": "MT-127",
+    "status": "closed",
+    "component": "checkout",
+    "opened_on": "2026-01-03",
+    "summary": "Add gift note length check",
+    "detail": "Released in 2026-02; retained as historical context."
+  },
+  {
+    "ticket_id": "MT-130",
+    "status": "planned",
+    "component": "order_api",
+    "opened_on": "2026-07-11",
+    "summary": "Add carrier ETA badges",
+    "detail": "Committed feature work for the next sprint."
+  },
+  {
+    "ticket_id": "MT-131",
+    "status": "planned",
+    "component": "order_api",
+    "opened_on": "2026-07-18",
+    "summary": "Returns portal pilot",
+    "detail": "Committed feature work for the following month."
+  },
+  {
+    "ticket_id": "MT-135",
+    "status": "open",
+    "component": "delivery",
+    "opened_on": "2026-08-02",
+    "summary": "No alert when order dispatch backlog grows",
+    "detail": "Operators learn of backlog from support; no queue-depth telemetry is emitted."
+  }
+]

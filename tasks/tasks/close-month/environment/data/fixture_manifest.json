@@ -1,0 +1,13 @@
+{
+  "fictional_fixture": true,
+  "generation_method": "deterministic local construction",
+  "seed": 20260430,
+  "target_month": "2026-04",
+  "comparison_month": "2026-03",
+  "row_counts": {
+    "qb_transactions.csv": 345,
+    "processor_settlements.csv": 112,
+    "owner_triage.csv": 13,
+    "trial_balance.csv": 13
+  }
+}

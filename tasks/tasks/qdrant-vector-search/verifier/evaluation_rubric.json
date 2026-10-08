@@ -1,0 +1,130 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_replay",
+      "title": "Readable and repeatable retrieval artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Both requested files exist; the JSON is readable and grouped by query, and the retriever rebuilds the batch artifact offline through the documented command with the same semantic hits.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_replay"
+      ]
+    },
+    {
+      "id": "completion__filter_scope",
+      "title": "Complete query coverage and filter isolation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every batch request appears exactly once, returns the correct number of eligible hits, and never crosses tenant, product, language, publication-state, region, document-type, or effective-date constraints.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_query_coverage",
+        "test_filter_eligibility_and_hit_counts"
+      ]
+    },
+    {
+      "id": "completion__cosine_ranking",
+      "title": "Correct cosine nearest-neighbor ranking",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Within each eligible candidate set, point IDs are ordered by the requested cosine similarity and scores accurately represent that similarity.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_ranked_point_ids",
+        "test_similarity_scores"
+      ]
+    },
+    {
+      "id": "completion__payload_fidelity",
+      "title": "Auditable payload fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each hit includes the exact source payload for its point without exposing stored vectors as result metadata.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_hit_payload_fidelity"
+      ]
+    },
+    {
+      "id": "completion__support_auditability",
+      "title": "Support-facing retrieval auditability",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The batch output is organized so a support reviewer can trace each request to its ordered hits, understand the returned article context and applied scope, and recognize legitimate no-hit results without rereading raw vector files.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_replay",
+        "title": "Readable and repeatable retrieval artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__filter_scope",
+        "title": "Complete query coverage and filter isolation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__cosine_ranking",
+        "title": "Correct cosine nearest-neighbor ranking",
+        "required_score": 10
+      },
+      {
+        "id": "completion__payload_fidelity",
+        "title": "Auditable payload fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__support_auditability",
+        "title": "Support-facing retrieval auditability",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

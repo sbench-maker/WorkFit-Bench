@@ -1,0 +1,1451 @@
+[
+  {
+    "event_id": "cal-ns-0911",
+    "title": "Northstar Data Platform Renewal Negotiation",
+    "start": "2026-09-11T15:00:00+08:00",
+    "end": "2026-09-11T16:15:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-martin",
+      "name": "Martin Shaw",
+      "organization": "HelioWorks",
+      "role": "Director of Procurement",
+      "email": "martin.shaw@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      },
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      },
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      },
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      },
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      },
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      }
+    ],
+    "description": "Renewal commercial and legal terms: pricing, DPA/security schedule, liability, audit rights, SLA and transition support.",
+    "status": "confirmed",
+    "related_account": "acct-northstar",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-ns-0819",
+    "title": "Northstar Renewal Internal Review",
+    "start": "2026-08-19T10:00:00+08:00",
+    "end": "2026-08-19T10:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 4B",
+    "organizer": {
+      "person_id": "p-ava",
+      "name": "Ava Chen",
+      "organization": "HelioWorks",
+      "role": "Senior Commercial Counsel",
+      "email": "ava.chen@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      },
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      },
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      },
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      },
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      }
+    ],
+    "description": "Internal review of Northstar renewal positions and owner assignments.",
+    "status": "completed",
+    "related_account": "acct-northstar",
+    "visibility": "legal-and-deal-team"
+  },
+  {
+    "event_id": "cal-noise-001",
+    "title": "Weekly legal intake",
+    "start": "2026-07-01T09:00:00+08:00",
+    "end": "2026-07-01T09:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-ava",
+      "name": "Ava Chen",
+      "organization": "HelioWorks",
+      "role": "Senior Commercial Counsel",
+      "email": "ava.chen@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      },
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-002",
+    "title": "Quarterly vendor review",
+    "start": "2026-07-03T10:00:00+08:00",
+    "end": "2026-07-03T10:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-martin",
+      "name": "Martin Shaw",
+      "organization": "HelioWorks",
+      "role": "Director of Procurement",
+      "email": "martin.shaw@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      },
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-003",
+    "title": "Finance forecast",
+    "start": "2026-07-05T11:00:00+08:00",
+    "end": "2026-07-05T12:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-lena",
+      "name": "Lena Ortiz",
+      "organization": "HelioWorks",
+      "role": "Security Assurance Lead",
+      "email": "lena.ortiz@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      },
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-004",
+    "title": "Security office hours",
+    "start": "2026-07-07T12:00:00+08:00",
+    "end": "2026-07-07T12:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-priya",
+      "name": "Priya Nair",
+      "organization": "HelioWorks",
+      "role": "Finance Controller",
+      "email": "priya.nair@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      },
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-005",
+    "title": "Data governance sync",
+    "start": "2026-07-09T13:00:00+08:00",
+    "end": "2026-07-09T13:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-elliot",
+      "name": "Elliot Brooks",
+      "organization": "Northstar Data Systems",
+      "role": "Account Executive",
+      "email": "elliot.brooks@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      },
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-006",
+    "title": "Weekly legal intake",
+    "start": "2026-07-11T14:00:00+08:00",
+    "end": "2026-07-11T15:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-nadia",
+      "name": "Nadia Kline",
+      "organization": "Northstar Data Systems",
+      "role": "Commercial Counsel",
+      "email": "nadia.kline@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      },
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-007",
+    "title": "Quarterly vendor review",
+    "start": "2026-07-13T15:00:00+08:00",
+    "end": "2026-07-13T15:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-jonah",
+      "name": "Jonah Reed",
+      "organization": "HelioWorks",
+      "role": "Data Platform Owner",
+      "email": "jonah.reed@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      },
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-008",
+    "title": "Finance forecast",
+    "start": "2026-07-15T09:00:00+08:00",
+    "end": "2026-07-15T09:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-rhea",
+      "name": "Rhea Patel",
+      "organization": "HelioWorks",
+      "role": "Deputy General Counsel",
+      "email": "rhea.patel@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      },
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "cancelled",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-009",
+    "title": "Security office hours",
+    "start": "2026-07-17T10:00:00+08:00",
+    "end": "2026-07-17T11:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-ava",
+      "name": "Ava Chen",
+      "organization": "HelioWorks",
+      "role": "Senior Commercial Counsel",
+      "email": "ava.chen@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      },
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-010",
+    "title": "Data governance sync",
+    "start": "2026-07-19T11:00:00+08:00",
+    "end": "2026-07-19T11:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-martin",
+      "name": "Martin Shaw",
+      "organization": "HelioWorks",
+      "role": "Director of Procurement",
+      "email": "martin.shaw@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      },
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-011",
+    "title": "Weekly legal intake",
+    "start": "2026-07-21T12:00:00+08:00",
+    "end": "2026-07-21T12:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-lena",
+      "name": "Lena Ortiz",
+      "organization": "HelioWorks",
+      "role": "Security Assurance Lead",
+      "email": "lena.ortiz@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      },
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-012",
+    "title": "Quarterly vendor review",
+    "start": "2026-07-23T13:00:00+08:00",
+    "end": "2026-07-23T14:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-priya",
+      "name": "Priya Nair",
+      "organization": "HelioWorks",
+      "role": "Finance Controller",
+      "email": "priya.nair@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      },
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-013",
+    "title": "Finance forecast",
+    "start": "2026-07-25T14:00:00+08:00",
+    "end": "2026-07-25T14:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-elliot",
+      "name": "Elliot Brooks",
+      "organization": "Northstar Data Systems",
+      "role": "Account Executive",
+      "email": "elliot.brooks@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      },
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-014",
+    "title": "Security office hours",
+    "start": "2026-07-27T15:00:00+08:00",
+    "end": "2026-07-27T15:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-nadia",
+      "name": "Nadia Kline",
+      "organization": "Northstar Data Systems",
+      "role": "Commercial Counsel",
+      "email": "nadia.kline@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      },
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-015",
+    "title": "Data governance sync",
+    "start": "2026-07-29T09:00:00+08:00",
+    "end": "2026-07-29T10:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-jonah",
+      "name": "Jonah Reed",
+      "organization": "HelioWorks",
+      "role": "Data Platform Owner",
+      "email": "jonah.reed@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      },
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-016",
+    "title": "Weekly legal intake",
+    "start": "2026-07-31T10:00:00+08:00",
+    "end": "2026-07-31T10:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-rhea",
+      "name": "Rhea Patel",
+      "organization": "HelioWorks",
+      "role": "Deputy General Counsel",
+      "email": "rhea.patel@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      },
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-017",
+    "title": "Quarterly vendor review",
+    "start": "2026-08-02T11:00:00+08:00",
+    "end": "2026-08-02T11:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-ava",
+      "name": "Ava Chen",
+      "organization": "HelioWorks",
+      "role": "Senior Commercial Counsel",
+      "email": "ava.chen@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      },
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-018",
+    "title": "Finance forecast",
+    "start": "2026-08-04T12:00:00+08:00",
+    "end": "2026-08-04T13:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-martin",
+      "name": "Martin Shaw",
+      "organization": "HelioWorks",
+      "role": "Director of Procurement",
+      "email": "martin.shaw@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      },
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-019",
+    "title": "Security office hours",
+    "start": "2026-08-06T13:00:00+08:00",
+    "end": "2026-08-06T13:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-lena",
+      "name": "Lena Ortiz",
+      "organization": "HelioWorks",
+      "role": "Security Assurance Lead",
+      "email": "lena.ortiz@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      },
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-020",
+    "title": "Data governance sync",
+    "start": "2026-08-08T14:00:00+08:00",
+    "end": "2026-08-08T14:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-priya",
+      "name": "Priya Nair",
+      "organization": "HelioWorks",
+      "role": "Finance Controller",
+      "email": "priya.nair@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      },
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-021",
+    "title": "Weekly legal intake",
+    "start": "2026-08-10T15:00:00+08:00",
+    "end": "2026-08-10T16:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-elliot",
+      "name": "Elliot Brooks",
+      "organization": "Northstar Data Systems",
+      "role": "Account Executive",
+      "email": "elliot.brooks@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      },
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-022",
+    "title": "Quarterly vendor review",
+    "start": "2026-08-12T09:00:00+08:00",
+    "end": "2026-08-12T09:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-nadia",
+      "name": "Nadia Kline",
+      "organization": "Northstar Data Systems",
+      "role": "Commercial Counsel",
+      "email": "nadia.kline@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      },
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-023",
+    "title": "Finance forecast",
+    "start": "2026-08-14T10:00:00+08:00",
+    "end": "2026-08-14T10:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-jonah",
+      "name": "Jonah Reed",
+      "organization": "HelioWorks",
+      "role": "Data Platform Owner",
+      "email": "jonah.reed@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      },
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-024",
+    "title": "Security office hours",
+    "start": "2026-08-16T11:00:00+08:00",
+    "end": "2026-08-16T12:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-rhea",
+      "name": "Rhea Patel",
+      "organization": "HelioWorks",
+      "role": "Deputy General Counsel",
+      "email": "rhea.patel@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      },
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-025",
+    "title": "Data governance sync",
+    "start": "2026-08-18T12:00:00+08:00",
+    "end": "2026-08-18T12:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-ava",
+      "name": "Ava Chen",
+      "organization": "HelioWorks",
+      "role": "Senior Commercial Counsel",
+      "email": "ava.chen@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      },
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-026",
+    "title": "Weekly legal intake",
+    "start": "2026-08-20T13:00:00+08:00",
+    "end": "2026-08-20T13:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-martin",
+      "name": "Martin Shaw",
+      "organization": "HelioWorks",
+      "role": "Director of Procurement",
+      "email": "martin.shaw@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      },
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-027",
+    "title": "Quarterly vendor review",
+    "start": "2026-08-22T14:00:00+08:00",
+    "end": "2026-08-22T15:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-lena",
+      "name": "Lena Ortiz",
+      "organization": "HelioWorks",
+      "role": "Security Assurance Lead",
+      "email": "lena.ortiz@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      },
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-028",
+    "title": "Finance forecast",
+    "start": "2026-08-24T15:00:00+08:00",
+    "end": "2026-08-24T15:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-priya",
+      "name": "Priya Nair",
+      "organization": "HelioWorks",
+      "role": "Finance Controller",
+      "email": "priya.nair@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      },
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-029",
+    "title": "Security office hours",
+    "start": "2026-08-26T09:00:00+08:00",
+    "end": "2026-08-26T09:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-elliot",
+      "name": "Elliot Brooks",
+      "organization": "Northstar Data Systems",
+      "role": "Account Executive",
+      "email": "elliot.brooks@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      },
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-030",
+    "title": "Data governance sync",
+    "start": "2026-08-28T10:00:00+08:00",
+    "end": "2026-08-28T11:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-nadia",
+      "name": "Nadia Kline",
+      "organization": "Northstar Data Systems",
+      "role": "Commercial Counsel",
+      "email": "nadia.kline@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      },
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "cancelled",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-031",
+    "title": "Weekly legal intake",
+    "start": "2026-08-30T11:00:00+08:00",
+    "end": "2026-08-30T11:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-jonah",
+      "name": "Jonah Reed",
+      "organization": "HelioWorks",
+      "role": "Data Platform Owner",
+      "email": "jonah.reed@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      },
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-032",
+    "title": "Quarterly vendor review",
+    "start": "2026-09-01T12:00:00+08:00",
+    "end": "2026-09-01T12:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-rhea",
+      "name": "Rhea Patel",
+      "organization": "HelioWorks",
+      "role": "Deputy General Counsel",
+      "email": "rhea.patel@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      },
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-033",
+    "title": "Finance forecast",
+    "start": "2026-09-03T13:00:00+08:00",
+    "end": "2026-09-03T14:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-ava",
+      "name": "Ava Chen",
+      "organization": "HelioWorks",
+      "role": "Senior Commercial Counsel",
+      "email": "ava.chen@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-ava",
+        "name": "Ava Chen",
+        "organization": "HelioWorks",
+        "role": "Senior Commercial Counsel",
+        "email": "ava.chen@helioworks.example"
+      },
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-034",
+    "title": "Security office hours",
+    "start": "2026-09-05T14:00:00+08:00",
+    "end": "2026-09-05T14:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-martin",
+      "name": "Martin Shaw",
+      "organization": "HelioWorks",
+      "role": "Director of Procurement",
+      "email": "martin.shaw@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-martin",
+        "name": "Martin Shaw",
+        "organization": "HelioWorks",
+        "role": "Director of Procurement",
+        "email": "martin.shaw@helioworks.example"
+      },
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-035",
+    "title": "Data governance sync",
+    "start": "2026-09-07T15:00:00+08:00",
+    "end": "2026-09-07T15:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-lena",
+      "name": "Lena Ortiz",
+      "organization": "HelioWorks",
+      "role": "Security Assurance Lead",
+      "email": "lena.ortiz@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-lena",
+        "name": "Lena Ortiz",
+        "organization": "HelioWorks",
+        "role": "Security Assurance Lead",
+        "email": "lena.ortiz@helioworks.example"
+      },
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-036",
+    "title": "Weekly legal intake",
+    "start": "2026-09-09T09:00:00+08:00",
+    "end": "2026-09-09T10:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-priya",
+      "name": "Priya Nair",
+      "organization": "HelioWorks",
+      "role": "Finance Controller",
+      "email": "priya.nair@helioworks.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-priya",
+        "name": "Priya Nair",
+        "organization": "HelioWorks",
+        "role": "Finance Controller",
+        "email": "priya.nair@helioworks.example"
+      },
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-internal",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-037",
+    "title": "Quarterly vendor review",
+    "start": "2026-09-11T10:00:00+08:00",
+    "end": "2026-09-11T10:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Orchid Room 2A",
+    "organizer": {
+      "person_id": "p-elliot",
+      "name": "Elliot Brooks",
+      "organization": "Northstar Data Systems",
+      "role": "Account Executive",
+      "email": "elliot.brooks@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-elliot",
+        "name": "Elliot Brooks",
+        "organization": "Northstar Data Systems",
+        "role": "Account Executive",
+        "email": "elliot.brooks@northstar.example"
+      },
+      {
+        "person_id": "p-jonah",
+        "name": "Jonah Reed",
+        "organization": "HelioWorks",
+        "role": "Data Platform Owner",
+        "email": "jonah.reed@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-summit",
+    "visibility": "internal"
+  },
+  {
+    "event_id": "cal-noise-038",
+    "title": "Finance forecast",
+    "start": "2026-09-13T11:00:00+08:00",
+    "end": "2026-09-13T11:45:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "location": "Video conference — link in corporate calendar",
+    "organizer": {
+      "person_id": "p-nadia",
+      "name": "Nadia Kline",
+      "organization": "Northstar Data Systems",
+      "role": "Commercial Counsel",
+      "email": "nadia.kline@northstar.example"
+    },
+    "attendees": [
+      {
+        "person_id": "p-nadia",
+        "name": "Nadia Kline",
+        "organization": "Northstar Data Systems",
+        "role": "Commercial Counsel",
+        "email": "nadia.kline@northstar.example"
+      },
+      {
+        "person_id": "p-rhea",
+        "name": "Rhea Patel",
+        "organization": "HelioWorks",
+        "role": "Deputy General Counsel",
+        "email": "rhea.patel@helioworks.example"
+      }
+    ],
+    "description": "Routine internal operating meeting.",
+    "status": "completed",
+    "related_account": "acct-lattice",
+    "visibility": "internal"
+  }
+]

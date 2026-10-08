@@ -1,0 +1,15 @@
+{
+  "method": "deterministic local construction",
+  "seed": 156731,
+  "files": {
+    "checkpoint_weights.jsonl": 240,
+    "model_manifest.json": 1,
+    "deployment_request.json": 1
+  },
+  "intentional_properties": [
+    "four transformer blocks with all attention and MLP projection matrices",
+    "protected embedding and language-head matrices",
+    "sparse channel outliers that make group size affect error",
+    "130-column matrices with partial final groups"
+  ]
+}

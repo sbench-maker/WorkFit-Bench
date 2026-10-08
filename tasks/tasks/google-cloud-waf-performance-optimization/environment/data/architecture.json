@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "arch-2026-08-18",
+  "workload": {
+    "name": "Northstar Retail commerce platform",
+    "environment": "pre-production mirror",
+    "primary_region": "us-central1",
+    "launch_window": "2026-09-21T15:00:00Z",
+    "traffic_mix_pct": {
+      "browse": 72,
+      "checkout": 18,
+      "admin": 10
+    }
+  },
+  "business_constraints": [
+    {
+      "id": "CON-BUDGET",
+      "statement": "Recurring infrastructure spend may increase by at most 20% before launch; larger changes need finance approval."
+    },
+    {
+      "id": "CON-DOWNTIME",
+      "statement": "The launch preparation cannot require a customer-visible maintenance window."
+    },
+    {
+      "id": "CON-INVENTORY",
+      "statement": "Inventory reservation may complete asynchronously within 2 seconds; order submission is idempotent by order_id."
+    },
+    {
+      "id": "CON-CACHE",
+      "statement": "Product descriptions and images are public and may be cached for 60 seconds; price and availability responses must not be served stale for more than 5 seconds."
+    }
+  ],
+  "components": [
+    {
+      "service_id": "edge-gateway",
+      "product": "Cloud Run",
+      "role": "HTTP ingress and routing",
+      "region": "us-central1",
+      "configuration": {
+        "min_instances": 2,
+        "max_instances": 30,
+        "container_concurrency": 80,
+        "cpu": "2 vCPU",
+        "memory": "2 GiB",
+        "stateless": true
+      }
+    },
+    {
+      "service_id": "catalog-api",
+      "product": "Google Kubernetes Engine",
+      "role": "Product browse and search origin",
+      "region": "us-central1",
+      "configuration": {
+        "replicas": 6,
+        "horizontal_pod_autoscaler": null,
+        "request_cpu": "1 vCPU",
+        "request_memory": "2 GiB",
+        "process_local_cache_ttl_seconds": 60,
+        "cloud_cdn_for_product_json": false
+      }
+    },
+    {
+      "service_id": "checkout-api",
+      "product": "Cloud Run",
+      "role": "Synchronous checkout orchestration",
+      "region": "us-central1",
+      "configuration": {
+        "min_instances": 2,
+        "max_instances": 10,
+        "container_concurrency": 80,
+        "cpu": "2 vCPU",
+        "memory": "4 GiB",
+        "database_pool_per_instance": 30,
+        "request_timeout_seconds": 15
+      },
+      "request_path": [
+        "validate cart",
+        "lookup each line-item price",
+        "reserve inventory synchronously",
+        "insert order and line items",
+        "return confirmation"
+      ]
+    },
+    {
+      "service_id": "inventory-worker",
+      "product": "Google Kubernetes Engine",
+      "role": "Consume Pub/Sub stock projection events",
+      "region": "us-central1",
+      "configuration": {
+        "replicas": 4,
+        "horizontal_pod_autoscaler": {
+          "metric": "cpu_utilization_pct",
+          "target": 70,
+          "min_replicas": 4,
+          "max_replicas": 12
+        },
+        "subscriber_ordering": "per sku",
+        "idempotency_key": "order_id"
+      }
+    },
+    {
+      "service_id": "order-db",
+      "product": "Cloud SQL for PostgreSQL",
+      "role": "Orders, inventory, and current product prices",
+      "region": "us-central1",
+      "configuration": {
+        "machine": "8 vCPU / 32 GiB",
+        "storage": "SSD",
+        "max_connections": 300,
+        "high_availability": true,
+        "read_replica": false
+      }
+    }
+  ],
+  "dependency_edges": [
+    {
+      "from": "edge-gateway",
+      "to": "catalog-api",
+      "mode": "synchronous HTTP"
+    },
+    {
+      "from": "edge-gateway",
+      "to": "checkout-api",
+      "mode": "synchronous HTTP"
+    },
+    {
+      "from": "catalog-api",
+      "to": "order-db",
+      "mode": "SQL reads"
+    },
+    {
+      "from": "checkout-api",
+      "to": "order-db",
+      "mode": "SQL reads and writes"
+    },
+    {
+      "from": "checkout-api",
+      "to": "inventory-worker",
+      "mode": "synchronous reservation RPC"
+    },
+    {
+      "from": "inventory-worker",
+      "to": "order-db",
+      "mode": "serialized writes per SKU"
+    }
+  ]
+}

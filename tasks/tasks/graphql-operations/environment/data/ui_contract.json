@@ -1,0 +1,91 @@
+{
+  "product": "Northstar Review Workspace",
+  "release": "client-r17",
+  "workspace": {
+    "route_input": "projectId",
+    "header": {
+      "project_fields": ["id", "name", "status"],
+      "client_fields": ["id", "name"]
+    },
+    "asset_grid": {
+      "pagination": "forward cursor",
+      "request_arguments": ["first", "after", "filter"],
+      "connection_fields": ["edges.cursor", "pageInfo.hasNextPage", "pageInfo.endCursor", "totalCount"],
+      "asset_fields": [
+        "id",
+        "title",
+        "status",
+        "version",
+        "thumbnail.url",
+        "thumbnail.altText",
+        "reviewer.id",
+        "reviewer.displayName",
+        "reviewer.avatarUrl",
+        "latestDecision.id",
+        "latestDecision.decision",
+        "latestDecision.decidedAt",
+        "latestDecision.reviewer.id",
+        "latestDecision.reviewer.displayName",
+        "latestDecision.reviewer.avatarUrl"
+      ],
+      "internal_note": {
+        "field": "internalNote",
+        "toggle_input": "includeInternalNotes",
+        "default": false,
+        "privacy_rule": "The response must omit this field unless the caller enables the toggle."
+      }
+    }
+  },
+  "decision_submit": {
+    "input": "SubmitAssetDecisionInput",
+    "outcomes": {
+      "SubmitAssetDecisionSuccess": ["clientMutationId", "asset card fields"],
+      "DecisionValidationError": ["code", "message", "field", "clientMutationId"],
+      "DecisionVersionConflict": [
+        "code",
+        "message",
+        "expectedVersion",
+        "currentVersion",
+        "asset card fields",
+        "clientMutationId"
+      ]
+    },
+    "rendering_rule": "The client switches on the concrete result type and must render every outcome without a follow-up fetch."
+  },
+  "live_update": {
+    "route_input": "projectId",
+    "event_fields": [
+      "id",
+      "occurredAt",
+      "project.id",
+      "actor.id",
+      "actor.displayName",
+      "actor.avatarUrl",
+      "asset card fields"
+    ],
+    "cache_rule": "The subscription and successful/conflicting mutation results must carry the same asset card shape as the grid."
+  },
+  "payload_policy": {
+    "use_only_consumed_fields": true,
+    "never_rendered": [
+      "billingCode",
+      "auditLog",
+      "billingEmail",
+      "legalName",
+      "email",
+      "phoneNumber",
+      "permissions",
+      "lastIpAddress",
+      "originalFile",
+      "rawSourceUrl",
+      "checksumSha256",
+      "thumbnail.width",
+      "thumbnail.height",
+      "thumbnail.dominantColor",
+      "latestDecision.rationale",
+      "latestDecision.privateMetadata",
+      "deliveryAttempt",
+      "traceId"
+    ]
+  }
+}

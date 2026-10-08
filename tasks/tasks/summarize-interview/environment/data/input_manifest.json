@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "fixture_type": "fictional_complete_customer_interview_transcript",
+  "transcript_id": "CI-2026-0821-07",
+  "primary_file": "interview_transcript.txt",
+  "is_complete": true,
+  "line_count": 158,
+  "start_marker": "[00:00]",
+  "end_marker": "[16:25] Dev: Recording stopped.",
+  "encoding": "UTF-8",
+  "notes": "Locally constructed deterministic fixture; all people, organizations, products, and events are fictional. No portion is truncated."
+}

@@ -1,0 +1,36 @@
+{
+  "sender": {
+    "name": "Maya Chen",
+    "role": "Founder",
+    "company": "TracePilot"
+  },
+  "product": {
+    "approved_description": "TracePilot is an AI release-readiness assistant that summarizes CI failures and change risk for engineering teams.",
+    "approved_program": "A private design-partner cohort starts in October 2026.",
+    "approved_ask": "a 20-minute workflow review"
+  },
+  "voice_profile": {
+    "tone": [
+      "direct",
+      "low-key",
+      "specific",
+      "peer-to-peer"
+    ],
+    "style": [
+      "short sentences",
+      "one concrete ask",
+      "plain subject lines"
+    ],
+    "avoid": [
+      "game-changer",
+      "deep dive",
+      "the key insight",
+      "leverage",
+      "synergy",
+      "at the forefront of",
+      "generic admiration",
+      "unverified customer or traction claims"
+    ]
+  },
+  "signoff": "Maya"
+}

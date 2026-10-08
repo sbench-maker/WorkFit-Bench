@@ -1,0 +1,69 @@
+{
+  "epic_id": "RET-410",
+  "title": "Self-service supplier return journeys",
+  "persona": "procurement operations coordinator",
+  "story": "As a procurement operations coordinator, I want to manage supplier return requests from submission through authorization, pickup, and credit confirmation so that I can close returns without chasing email and spreadsheets.",
+  "why_now": "The item is too large to sequence safely and is currently estimated at 35 points.",
+  "current_estimate_points": 35,
+  "product_outcome": "Reduce coordinator handling time while giving requesters visible progress.",
+  "invest_context": {
+    "independent": "No blocking backlog dependency; the current email process remains available.",
+    "negotiable": "The brief fixes user outcomes and policy, not implementation architecture.",
+    "valuable": "Coordinators and requesters can complete and track a return journey.",
+    "estimable": "The team can estimate the capability slices in story points.",
+    "testable": "Policy and workflow outcomes are specified in the bundled rules.",
+    "small": "Fails: 35 points exceeds the team ceiling."
+  },
+  "scope": [
+    {
+      "capability_id": "CAP-BASE",
+      "name": "Basic end-to-end return",
+      "description": "Single-item standard domestic request via a basic form, automatic authorization when eligible, manually arranged pickup, credit-memo confirmation, and visible status through closure."
+    },
+    {
+      "capability_id": "CAP-HIGH",
+      "name": "High-value approval",
+      "description": "Route high-value standard returns to a procurement manager before pickup."
+    },
+    {
+      "capability_id": "CAP-REG",
+      "name": "Regulated-item route",
+      "description": "Compliance approval and specialist carrier handling for regulated goods."
+    },
+    {
+      "capability_id": "CAP-INT",
+      "name": "International route",
+      "description": "Collect and validate customs declarations before an international pickup."
+    },
+    {
+      "capability_id": "CAP-BULK",
+      "name": "Bulk CSV entry",
+      "description": "Upload many return lines with row-level validation and partial acceptance."
+    },
+    {
+      "capability_id": "CAP-ATTACH",
+      "name": "Attachment convenience",
+      "description": "Drag-and-drop multiple attachments with previews instead of the basic single-file control."
+    },
+    {
+      "capability_id": "CAP-CARRIER",
+      "name": "Automatic carrier booking",
+      "description": "Book eligible pickups through the validated carrier adapter instead of operations arranging them manually."
+    },
+    {
+      "capability_id": "CAP-DASH",
+      "name": "Stage SLA dashboard",
+      "description": "Show operations which returns are approaching or breaching stage-level service targets."
+    },
+    {
+      "capability_id": "CAP-PERF",
+      "name": "Peak-load performance",
+      "description": "Meet the peak response objective for basic submission and status checks."
+    }
+  ],
+  "non_goals": [
+    "supplier mobile application",
+    "real-time bank refund processing",
+    "outbound purchase-order shipment management"
+  ]
+}

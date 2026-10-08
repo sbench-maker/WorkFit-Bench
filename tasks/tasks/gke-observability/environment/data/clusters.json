@@ -1,0 +1,643 @@
+[
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-core",
+    "cluster_name": "orion-checkout-prod",
+    "location": "us-central1",
+    "location_type": "regional",
+    "environment": "production",
+    "criticality": "tier0",
+    "release_channel": "REGULAR",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 18,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-pay",
+    "cluster_name": "orion-payments-prod",
+    "location": "us-east1",
+    "location_type": "regional",
+    "environment": "production",
+    "criticality": "tier0",
+    "release_channel": "REGULAR",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 15,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": false,
+      "dataplane_v2_metrics_enabled": true,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-ledger",
+    "cluster_name": "orion-ledger-prod",
+    "location": "europe-west4-a",
+    "location_type": "zonal",
+    "environment": "production",
+    "criticality": "tier0",
+    "release_channel": "REGULAR",
+    "dataplane_v2": false,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 9,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "none",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-ml",
+    "cluster_name": "orion-ml-prod",
+    "location": "asia-east1",
+    "location_type": "regional",
+    "environment": "production",
+    "criticality": "tier1",
+    "release_channel": "REGULAR",
+    "dataplane_v2": true,
+    "gpu_nodes": true,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 12,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-edge",
+    "cluster_name": "orion-edge-prod",
+    "location": "us-west1-b",
+    "location_type": "zonal",
+    "environment": "production",
+    "criticality": "tier1",
+    "release_channel": "REGULAR",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": false,
+    "custom_metrics_required": true,
+    "expected_node_count": 8,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-search",
+    "cluster_name": "orion-search-prod",
+    "location": "europe-west1",
+    "location_type": "regional",
+    "environment": "production",
+    "criticality": "tier1",
+    "release_channel": "REGULAR",
+    "dataplane_v2": false,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 11,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-core-np",
+    "cluster_name": "orion-checkout-stg",
+    "location": "us-central1",
+    "location_type": "regional",
+    "environment": "staging",
+    "criticality": "tier2",
+    "release_channel": "REGULAR",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 6,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "POD",
+        "DEPLOYMENT"
+      ],
+      "managed_prometheus_enabled": false,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-pay-np",
+    "cluster_name": "orion-payments-stg",
+    "location": "us-east1-b",
+    "location_type": "zonal",
+    "environment": "staging",
+    "criticality": "tier2",
+    "release_channel": "REGULAR",
+    "dataplane_v2": false,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 5,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": false,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-ml-np",
+    "cluster_name": "orion-ml-stg",
+    "location": "asia-east1",
+    "location_type": "regional",
+    "environment": "staging",
+    "criticality": "tier2",
+    "release_channel": "REGULAR",
+    "dataplane_v2": true,
+    "gpu_nodes": true,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 5,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": true,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-batch-np",
+    "cluster_name": "orion-batch-stg",
+    "location": "us-central1",
+    "location_type": "regional",
+    "environment": "staging",
+    "criticality": "tier2",
+    "release_channel": "REGULAR",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": false,
+    "expected_node_count": 4,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "CADVISOR",
+        "KUBELET"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": true,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-search-np",
+    "cluster_name": "orion-search-stg",
+    "location": "europe-west1",
+    "location_type": "regional",
+    "environment": "staging",
+    "criticality": "tier2",
+    "release_channel": "REGULAR",
+    "dataplane_v2": false,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": true,
+    "expected_node_count": 5,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "POD",
+        "DEPLOYMENT",
+        "HPA"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-labs",
+    "cluster_name": "orion-dev-a",
+    "location": "us-central1",
+    "location_type": "regional",
+    "environment": "sandbox",
+    "criticality": "tier3",
+    "release_channel": "RAPID",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": false,
+    "custom_metrics_required": false,
+    "expected_node_count": 3,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": true,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-labs",
+    "cluster_name": "orion-dev-b",
+    "location": "us-central1-a",
+    "location_type": "zonal",
+    "environment": "sandbox",
+    "criticality": "tier3",
+    "release_channel": "RAPID",
+    "dataplane_v2": false,
+    "gpu_nodes": false,
+    "persistent_volumes": false,
+    "custom_metrics_required": false,
+    "expected_node_count": 2,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "managed_prometheus_enabled": false,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-perf",
+    "cluster_name": "orion-loadtest",
+    "location": "us-west1",
+    "location_type": "regional",
+    "environment": "sandbox",
+    "criticality": "tier3",
+    "release_channel": "RAPID",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": false,
+    "custom_metrics_required": true,
+    "expected_node_count": 10,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": true,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-labs",
+    "cluster_name": "orion-playground",
+    "location": "europe-west1-b",
+    "location_type": "zonal",
+    "environment": "sandbox",
+    "criticality": "tier3",
+    "release_channel": "RAPID",
+    "dataplane_v2": false,
+    "gpu_nodes": false,
+    "persistent_volumes": false,
+    "custom_metrics_required": false,
+    "expected_node_count": 1,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [],
+      "managed_prometheus_enabled": false,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "none"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-chaos",
+    "cluster_name": "orion-chaos",
+    "location": "us-east1",
+    "location_type": "regional",
+    "environment": "sandbox",
+    "criticality": "tier3",
+    "release_channel": "RAPID",
+    "dataplane_v2": true,
+    "gpu_nodes": false,
+    "persistent_volumes": true,
+    "custom_metrics_required": false,
+    "expected_node_count": 4,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-ml-np",
+    "cluster_name": "orion-gpu-lab",
+    "location": "asia-east1-b",
+    "location_type": "zonal",
+    "environment": "sandbox",
+    "criticality": "tier3",
+    "release_channel": "RAPID",
+    "dataplane_v2": true,
+    "gpu_nodes": true,
+    "persistent_volumes": false,
+    "custom_metrics_required": true,
+    "expected_node_count": 2,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "DCGM"
+      ],
+      "managed_prometheus_enabled": true,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  },
+  {
+    "snapshot_id": "orion-fleet-2026-08-17T09:00:00Z",
+    "project_id": "nebula-demo",
+    "cluster_name": "orion-demo",
+    "location": "europe-west4",
+    "location_type": "regional",
+    "environment": "sandbox",
+    "criticality": "tier3",
+    "release_channel": "RAPID",
+    "dataplane_v2": false,
+    "gpu_nodes": false,
+    "persistent_volumes": false,
+    "custom_metrics_required": false,
+    "expected_node_count": 2,
+    "current_observability": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "managed_prometheus_enabled": false,
+      "dataplane_v2_metrics_enabled": false,
+      "logging_service": "logging.googleapis.com/kubernetes",
+      "monitoring_service": "monitoring.googleapis.com/kubernetes"
+    }
+  }
+]

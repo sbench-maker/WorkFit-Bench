@@ -1,0 +1,12 @@
+evidence_id,evidence_type,title,snapshot_date
+EVD-001,controlled_test,Regional routing load-test summary,2026-08-31
+EVD-002,controlled_test,Static DNS comparison appendix,2026-08-31
+EVD-003,trace_analysis,Checkout latency allocation trace,2026-08-31
+EVD-004,fault_injection,Latency threshold exercise,2026-08-31
+EVD-005,control_test,Policy audit-event completeness test,2026-08-31
+EVD-006,control_inventory,Encryption control inventory,2026-08-31
+EVD-007,sandbox_observation,Quickstart completion sample,2026-08-31
+EVD-008,client_test,Retry and deduplication matrix,2026-08-31
+EVD-009,customer_interview,Lumina Labs drill notes,2026-08-31
+EVD-010,benchmark,2026 routing benchmark results,2026-08-31
+EVD-011,test_plan,Benchmark exclusion protocol,2026-08-31

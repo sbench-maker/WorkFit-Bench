@@ -1,0 +1,114 @@
+[
+  {
+    "project_id": "PP-01",
+    "title": "BM25 field-weight tuning",
+    "approach": "Retuned title, body, and label weights on a 120-query slice.",
+    "outcome": "Overall recall rose two points, but cross-team blocker recall was unchanged.",
+    "lesson": "Generic lexical tuning is an established baseline, not a sufficient new direction."
+  },
+  {
+    "project_id": "PP-02",
+    "title": "Always-on cross-encoder reranking",
+    "approach": "Reranked every query with the current cross-encoder.",
+    "outcome": "Recall improved four points while p95 latency rose above 700 ms.",
+    "lesson": "The expensive component may need selective use rather than further scaling."
+  },
+  {
+    "project_id": "PP-03",
+    "title": "Title-only dense embeddings",
+    "approach": "Replaced lexical title matching with local dense embeddings.",
+    "outcome": "Paraphrase matches improved, but ownership and linked blocker tickets remained absent.",
+    "lesson": "Semantic similarity alone does not recover relational evidence."
+  },
+  {
+    "project_id": "PP-04",
+    "title": "Remote LLM query rewriting",
+    "approach": "Prototyped external model calls for symptom paraphrases.",
+    "outcome": "The prototype was stopped before evaluation because private incident text could not leave the environment.",
+    "lesson": "A proposal that depends on a remote model is infeasible for this pilot."
+  },
+  {
+    "project_id": "PP-05",
+    "title": "Ungated two-hop graph expansion",
+    "approach": "Expanded candidates through ticket links and service ownership edges.",
+    "outcome": "Cross-team recall improved, but stale links produced wrong-owner results and candidate explosion.",
+    "lesson": "Relationships are promising only if freshness and path quality are controlled."
+  },
+  {
+    "project_id": "PP-06",
+    "title": "Post-retrieval access filtering",
+    "approach": "Retrieved broadly, then removed results the requester could not view.",
+    "outcome": "No private text was displayed, but authorized result quality varied when labels were missing.",
+    "lesson": "Permission handling affects candidate generation as well as display filtering."
+  },
+  {
+    "project_id": "PP-07",
+    "title": "Confidence-only explanations",
+    "approach": "Added high, medium, or low confidence badges to each result.",
+    "outcome": "Operators interpreted high confidence as a completeness guarantee and trust fell after misses.",
+    "lesson": "Explanations should expose evidence paths or uncertainty causes, not unsupported confidence."
+  },
+  {
+    "project_id": "PP-08",
+    "title": "Manual service alias dictionary",
+    "approach": "Added aliases for twelve recently renamed services.",
+    "outcome": "Rename queries improved, but the hand-maintained list became stale within weeks.",
+    "lesson": "Alias normalization helps, but maintenance and temporal drift need study."
+  },
+  {
+    "project_id": "PP-09",
+    "title": "Duplicate result collapse",
+    "approach": "Collapsed tickets with identical normalized titles.",
+    "outcome": "Visible duplication fell while cloned templates from unrelated services were sometimes merged.",
+    "lesson": "Duplicate handling needs service and relationship context."
+  },
+  {
+    "project_id": "PP-10",
+    "title": "Owner metadata completion sprint",
+    "approach": "Filled missing owner fields for the highest-volume services.",
+    "outcome": "Owner coverage improved locally, but responsibility transfers still invalidated older tickets.",
+    "lesson": "Static cleanup does not solve ownership change over time."
+  },
+  {
+    "project_id": "PP-11",
+    "title": "Large reranker fine-tuning",
+    "approach": "Estimated a fine-tuning run on a larger reranker.",
+    "outcome": "The minimum useful run exceeded the current GPU and engineering budget.",
+    "lesson": "The two-week pilot needs a smaller or training-free approach."
+  },
+  {
+    "project_id": "PP-12",
+    "title": "Ticket summary snippets",
+    "approach": "Generated short summaries before applying final display filters.",
+    "outcome": "Summaries occasionally preserved phrases from restricted comments after the source ticket was withheld.",
+    "lesson": "Derived text must obey the same access boundary as source text."
+  },
+  {
+    "project_id": "PP-13",
+    "title": "Same-team personalization",
+    "approach": "Boosted the requester's own service and team history.",
+    "outcome": "Same-team recall increased while cross-team blocker discovery declined.",
+    "lesson": "Personalization can deepen the exact boundary the new study should address."
+  },
+  {
+    "project_id": "PP-14",
+    "title": "Weekly relationship-index refresh",
+    "approach": "Rebuilt ownership and link features once per week.",
+    "outcome": "The index was cheap to operate but wrong-owner paths persisted between transfers and refreshes.",
+    "lesson": "Freshness policy may matter more than raw refresh throughput."
+  },
+  {
+    "project_id": "PP-15",
+    "title": "Mandatory human escalation",
+    "approach": "Sent every low-score query to a service desk analyst.",
+    "outcome": "Accuracy improved, but median incident response slowed by nineteen minutes.",
+    "lesson": "Human review should target informative slices, not sit in the online path."
+  },
+  {
+    "project_id": "PP-16",
+    "title": "Metadata-only lightweight baseline",
+    "approach": "Combined lexical scores with service, age, and ownership metadata.",
+    "outcome": "It nearly matched the cross-encoder on short same-team queries at one fifth the latency.",
+    "lesson": "Any complex proposal should beat a carefully tuned simple baseline on the slice it targets."
+  }
+]

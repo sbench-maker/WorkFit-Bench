@@ -1,0 +1,3710 @@
+[
+  {
+    "thread_id": "EML-9001",
+    "subject": "Northwind renewal - revised pricing",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "priya.sethi@northwindlabs.example",
+      "marco.ruiz@northwindlabs.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-9001-A",
+        "sent_at": "2026-08-29T10:10:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "priya.sethi@northwindlabs.example"
+        ],
+        "cc": [
+          "marco.ruiz@northwindlabs.example"
+        ],
+        "body": "Attached is the revised annual pricing: 150 seats for $54,000. Let me know if procurement needs a different breakdown."
+      },
+      {
+        "message_id": "MSG-9001-B",
+        "sent_at": "2026-09-01T14:35:00-07:00",
+        "from": "priya.sethi@northwindlabs.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [
+          "marco.ruiz@northwindlabs.example"
+        ],
+        "body": "The revised $54,000 annual price for 150 seats works, so pricing is complete. Legal is targeting signature by September 30."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-9002",
+    "subject": "Northwind DPA redline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "priya.sethi@northwindlabs.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-9002-A",
+        "sent_at": "2026-09-07T09:12:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "priya.sethi@northwindlabs.example"
+        ],
+        "cc": [],
+        "body": "Checking what your legal team needs next for the renewal."
+      },
+      {
+        "message_id": "MSG-9002-B",
+        "sent_at": "2026-09-08T16:05:00-07:00",
+        "from": "priya.sethi@northwindlabs.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Please send the final DPA redline by September 11. We are moving forward with procurement once that language is settled; legal still targets signature September 30."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-8990",
+    "subject": "Northwind renewal planning",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "marco.ruiz@northwindlabs.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-8990-A",
+        "sent_at": "2026-08-15T11:20:00-07:00",
+        "from": "marco.ruiz@northwindlabs.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Let's use next week's planning call to settle renewal scope."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-9003",
+    "subject": "Northwind APAC pilot logistics",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "Casey.Wu@northwindlabs.example",
+      "jordan.lee@northwindlabs.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-9003-A",
+        "sent_at": "2026-09-06T13:45:00-07:00",
+        "from": "Casey.Wu@northwindlabs.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [
+          "jordan.lee@northwindlabs.example"
+        ],
+        "body": "This note is only about APAC pilot logistics, not the enterprise renewal."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0001",
+    "subject": "Fable Systems - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "dev.quinn21@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0001-1",
+        "sent_at": "2026-09-07T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "dev.quinn21@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0001-2",
+        "sent_at": "2026-09-08T08:00:00-07:00",
+        "from": "dev.quinn21@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0001-3",
+        "sent_at": "2026-09-08T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "dev.quinn21@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0002",
+    "subject": "Keystone North - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen38@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0002-1",
+        "sent_at": "2026-09-06T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen38@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0002-2",
+        "sent_at": "2026-09-07T07:00:00-07:00",
+        "from": "lucia.larsen38@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0002-3",
+        "sent_at": "2026-09-07T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen38@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0003",
+    "subject": "Pinewell - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta55@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0003-1",
+        "sent_at": "2026-09-05T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "theo.gupta55@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0003-2",
+        "sent_at": "2026-09-06T06:00:00-07:00",
+        "from": "theo.gupta55@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0003-3",
+        "sent_at": "2026-09-06T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "theo.gupta55@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0004",
+    "subject": "AlderWorks - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett72@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0004-1",
+        "sent_at": "2026-09-04T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "amina.bennett72@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0004-2",
+        "sent_at": "2026-09-05T05:00:00-07:00",
+        "from": "amina.bennett72@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0004-3",
+        "sent_at": "2026-09-05T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "amina.bennett72@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0005",
+    "subject": "Fable Systems - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rafael.usman89@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0005-1",
+        "sent_at": "2026-09-03T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman89@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0005-2",
+        "sent_at": "2026-09-04T04:00:00-07:00",
+        "from": "rafael.usman89@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0005-3",
+        "sent_at": "2026-09-04T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman89@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0006",
+    "subject": "Keystone North - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel106@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0006-1",
+        "sent_at": "2026-09-02T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel106@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0006-2",
+        "sent_at": "2026-09-03T03:00:00-07:00",
+        "from": "anika.patel106@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0006-3",
+        "sent_at": "2026-09-03T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel106@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0007",
+    "subject": "Pinewell - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur123@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0007-1",
+        "sent_at": "2026-09-01T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur123@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0007-2",
+        "sent_at": "2026-09-02T02:00:00-07:00",
+        "from": "drew.kaur123@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0007-3",
+        "sent_at": "2026-09-02T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur123@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0008",
+    "subject": "AlderWorks - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah140@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0008-1",
+        "sent_at": "2026-08-31T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah140@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0008-2",
+        "sent_at": "2026-09-01T01:00:00-07:00",
+        "from": "elena.farah140@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0008-3",
+        "sent_at": "2026-09-01T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah140@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0009",
+    "subject": "Fable Systems - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou157@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0009-1",
+        "sent_at": "2026-08-31T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou157@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0009-2",
+        "sent_at": "2026-08-31T09:00:00-07:00",
+        "from": "samir.zhou157@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0009-3",
+        "sent_at": "2026-08-31T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou157@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0010",
+    "subject": "Fable Systems - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rafael.usman17@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0010-1",
+        "sent_at": "2026-08-29T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman17@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0010-2",
+        "sent_at": "2026-08-30T08:00:00-07:00",
+        "from": "rafael.usman17@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0010-3",
+        "sent_at": "2026-08-30T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman17@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0011",
+    "subject": "Keystone North - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel34@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0011-1",
+        "sent_at": "2026-08-28T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel34@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0011-2",
+        "sent_at": "2026-08-29T07:00:00-07:00",
+        "from": "anika.patel34@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0011-3",
+        "sent_at": "2026-08-29T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel34@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0012",
+    "subject": "Pinewell - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur51@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0012-1",
+        "sent_at": "2026-08-27T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur51@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0012-2",
+        "sent_at": "2026-08-28T06:00:00-07:00",
+        "from": "drew.kaur51@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0012-3",
+        "sent_at": "2026-08-28T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur51@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0013",
+    "subject": "AlderWorks - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah68@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0013-1",
+        "sent_at": "2026-08-26T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah68@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0013-2",
+        "sent_at": "2026-08-27T05:00:00-07:00",
+        "from": "elena.farah68@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0013-3",
+        "sent_at": "2026-08-27T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah68@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0014",
+    "subject": "Fable Systems - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou85@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0014-1",
+        "sent_at": "2026-08-25T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou85@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0014-2",
+        "sent_at": "2026-08-26T04:00:00-07:00",
+        "from": "samir.zhou85@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0014-3",
+        "sent_at": "2026-08-26T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou85@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0015",
+    "subject": "Keystone North - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran102@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0015-1",
+        "sent_at": "2026-08-24T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran102@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0015-2",
+        "sent_at": "2026-08-25T03:00:00-07:00",
+        "from": "mina.tran102@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0015-3",
+        "sent_at": "2026-08-25T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran102@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0016",
+    "subject": "Pinewell - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz119@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0016-1",
+        "sent_at": "2026-08-23T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz119@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0016-2",
+        "sent_at": "2026-08-24T02:00:00-07:00",
+        "from": "hugo.ortiz119@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0016-3",
+        "sent_at": "2026-08-24T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz119@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0017",
+    "subject": "AlderWorks - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen136@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0017-1",
+        "sent_at": "2026-08-22T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen136@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0017-2",
+        "sent_at": "2026-08-23T01:00:00-07:00",
+        "from": "tara.jensen136@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0017-3",
+        "sent_at": "2026-08-23T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen136@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0018",
+    "subject": "Fable Systems - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito153@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0018-1",
+        "sent_at": "2026-08-22T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito153@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0018-2",
+        "sent_at": "2026-08-22T09:00:00-07:00",
+        "from": "owen.esposito153@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0018-3",
+        "sent_at": "2026-08-22T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito153@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0019",
+    "subject": "Fable Systems - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou13@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0019-1",
+        "sent_at": "2026-08-20T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou13@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0019-2",
+        "sent_at": "2026-08-21T08:00:00-07:00",
+        "from": "samir.zhou13@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0019-3",
+        "sent_at": "2026-08-21T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou13@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0020",
+    "subject": "Keystone North - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran30@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0020-1",
+        "sent_at": "2026-08-19T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran30@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0020-2",
+        "sent_at": "2026-08-20T07:00:00-07:00",
+        "from": "mina.tran30@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0020-3",
+        "sent_at": "2026-08-20T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran30@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0021",
+    "subject": "Pinewell - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz47@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0021-1",
+        "sent_at": "2026-08-18T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz47@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0021-2",
+        "sent_at": "2026-08-19T06:00:00-07:00",
+        "from": "hugo.ortiz47@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0021-3",
+        "sent_at": "2026-08-19T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz47@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0022",
+    "subject": "AlderWorks - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen64@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0022-1",
+        "sent_at": "2026-08-17T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen64@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0022-2",
+        "sent_at": "2026-08-18T05:00:00-07:00",
+        "from": "tara.jensen64@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0022-3",
+        "sent_at": "2026-08-18T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen64@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0023",
+    "subject": "Fable Systems - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito81@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0023-1",
+        "sent_at": "2026-08-16T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito81@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0023-2",
+        "sent_at": "2026-08-17T04:00:00-07:00",
+        "from": "owen.esposito81@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0023-3",
+        "sent_at": "2026-08-17T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito81@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0024",
+    "subject": "Keystone North - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates98@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0024-1",
+        "sent_at": "2026-08-15T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates98@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0024-2",
+        "sent_at": "2026-08-16T03:00:00-07:00",
+        "from": "leila.yates98@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0024-3",
+        "sent_at": "2026-08-16T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates98@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0025",
+    "subject": "Pinewell - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "nico.shah115@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0025-1",
+        "sent_at": "2026-08-14T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah115@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0025-2",
+        "sent_at": "2026-08-15T02:00:00-07:00",
+        "from": "nico.shah115@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0025-3",
+        "sent_at": "2026-08-15T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah115@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0026",
+    "subject": "AlderWorks - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu132@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0026-1",
+        "sent_at": "2026-08-13T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu132@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0026-2",
+        "sent_at": "2026-08-14T01:00:00-07:00",
+        "from": "iris.nwosu132@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0026-3",
+        "sent_at": "2026-08-14T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu132@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0027",
+    "subject": "Fable Systems - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito149@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0027-1",
+        "sent_at": "2026-08-13T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito149@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0027-2",
+        "sent_at": "2026-08-13T09:00:00-07:00",
+        "from": "mateo.ito149@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0027-3",
+        "sent_at": "2026-08-13T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito149@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0028",
+    "subject": "Fable Systems - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito9@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0028-1",
+        "sent_at": "2026-08-11T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito9@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0028-2",
+        "sent_at": "2026-08-12T08:00:00-07:00",
+        "from": "owen.esposito9@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0028-3",
+        "sent_at": "2026-08-12T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito9@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0029",
+    "subject": "Keystone North - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates26@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0029-1",
+        "sent_at": "2026-08-10T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates26@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0029-2",
+        "sent_at": "2026-08-11T07:00:00-07:00",
+        "from": "leila.yates26@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0029-3",
+        "sent_at": "2026-08-11T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates26@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0030",
+    "subject": "Pinewell - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "nico.shah43@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0030-1",
+        "sent_at": "2026-08-09T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah43@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0030-2",
+        "sent_at": "2026-08-10T06:00:00-07:00",
+        "from": "nico.shah43@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0030-3",
+        "sent_at": "2026-08-10T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah43@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0031",
+    "subject": "AlderWorks - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu60@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0031-1",
+        "sent_at": "2026-08-08T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu60@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0031-2",
+        "sent_at": "2026-08-09T05:00:00-07:00",
+        "from": "iris.nwosu60@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0031-3",
+        "sent_at": "2026-08-09T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu60@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0032",
+    "subject": "Fable Systems - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito77@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0032-1",
+        "sent_at": "2026-08-07T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito77@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0032-2",
+        "sent_at": "2026-08-08T04:00:00-07:00",
+        "from": "mateo.ito77@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0032-3",
+        "sent_at": "2026-08-08T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito77@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0033",
+    "subject": "Keystone North - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rina.dawson94@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0033-1",
+        "sent_at": "2026-08-06T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson94@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0033-2",
+        "sent_at": "2026-08-07T03:00:00-07:00",
+        "from": "rina.dawson94@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0033-3",
+        "sent_at": "2026-08-07T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson94@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0034",
+    "subject": "Pinewell - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong111@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0034-1",
+        "sent_at": "2026-08-05T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong111@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0034-2",
+        "sent_at": "2026-08-06T02:00:00-07:00",
+        "from": "caleb.wong111@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0034-3",
+        "sent_at": "2026-08-06T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong111@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0035",
+    "subject": "AlderWorks - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi128@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0035-1",
+        "sent_at": "2026-08-04T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "sofia.rossi128@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0035-2",
+        "sent_at": "2026-08-05T01:00:00-07:00",
+        "from": "sofia.rossi128@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0035-3",
+        "sent_at": "2026-08-05T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "sofia.rossi128@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0036",
+    "subject": "Fable Systems - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "eli.mendez145@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0036-1",
+        "sent_at": "2026-08-04T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "eli.mendez145@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0036-2",
+        "sent_at": "2026-08-04T09:00:00-07:00",
+        "from": "eli.mendez145@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0036-3",
+        "sent_at": "2026-08-04T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "eli.mendez145@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0037",
+    "subject": "Fable Systems - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito5@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0037-1",
+        "sent_at": "2026-08-02T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito5@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0037-2",
+        "sent_at": "2026-08-03T08:00:00-07:00",
+        "from": "mateo.ito5@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0037-3",
+        "sent_at": "2026-08-03T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito5@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0038",
+    "subject": "Keystone North - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rina.dawson22@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0038-1",
+        "sent_at": "2026-09-08T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson22@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0038-2",
+        "sent_at": "2026-09-09T07:00:00-07:00",
+        "from": "rina.dawson22@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0038-3",
+        "sent_at": "2026-09-09T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson22@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0039",
+    "subject": "Pinewell - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong39@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0039-1",
+        "sent_at": "2026-09-07T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong39@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0039-2",
+        "sent_at": "2026-09-08T06:00:00-07:00",
+        "from": "caleb.wong39@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0039-3",
+        "sent_at": "2026-09-08T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong39@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0040",
+    "subject": "AlderWorks - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi56@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0040-1",
+        "sent_at": "2026-09-06T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "sofia.rossi56@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0040-2",
+        "sent_at": "2026-09-07T05:00:00-07:00",
+        "from": "sofia.rossi56@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0040-3",
+        "sent_at": "2026-09-07T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "sofia.rossi56@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0041",
+    "subject": "Fable Systems - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "eli.mendez73@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0041-1",
+        "sent_at": "2026-09-05T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "eli.mendez73@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0041-2",
+        "sent_at": "2026-09-06T04:00:00-07:00",
+        "from": "eli.mendez73@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0041-3",
+        "sent_at": "2026-09-06T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "eli.mendez73@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0042",
+    "subject": "Keystone North - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "noor.hale90@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0042-1",
+        "sent_at": "2026-09-04T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "noor.hale90@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0042-2",
+        "sent_at": "2026-09-05T03:00:00-07:00",
+        "from": "noor.hale90@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0042-3",
+        "sent_at": "2026-09-05T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "noor.hale90@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0043",
+    "subject": "Pinewell - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "jonah.chandra107@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0043-1",
+        "sent_at": "2026-09-03T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "jonah.chandra107@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0043-2",
+        "sent_at": "2026-09-04T02:00:00-07:00",
+        "from": "jonah.chandra107@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0043-3",
+        "sent_at": "2026-09-04T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "jonah.chandra107@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0044",
+    "subject": "AlderWorks - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "marta.vega124@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0044-1",
+        "sent_at": "2026-09-02T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "marta.vega124@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0044-2",
+        "sent_at": "2026-09-03T01:00:00-07:00",
+        "from": "marta.vega124@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0044-3",
+        "sent_at": "2026-09-03T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "marta.vega124@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0045",
+    "subject": "Fable Systems - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "dev.quinn141@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0045-1",
+        "sent_at": "2026-09-02T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "dev.quinn141@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0045-2",
+        "sent_at": "2026-09-02T09:00:00-07:00",
+        "from": "dev.quinn141@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0045-3",
+        "sent_at": "2026-09-02T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "dev.quinn141@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0046",
+    "subject": "Keystone North - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen158@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0046-1",
+        "sent_at": "2026-08-31T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen158@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0046-2",
+        "sent_at": "2026-09-01T08:00:00-07:00",
+        "from": "lucia.larsen158@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0046-3",
+        "sent_at": "2026-09-01T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen158@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0047",
+    "subject": "Keystone North - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "noor.hale18@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0047-1",
+        "sent_at": "2026-08-30T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "noor.hale18@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0047-2",
+        "sent_at": "2026-08-31T07:00:00-07:00",
+        "from": "noor.hale18@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0047-3",
+        "sent_at": "2026-08-31T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "noor.hale18@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0048",
+    "subject": "Pinewell - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "jonah.chandra35@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0048-1",
+        "sent_at": "2026-08-29T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "jonah.chandra35@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0048-2",
+        "sent_at": "2026-08-30T06:00:00-07:00",
+        "from": "jonah.chandra35@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0048-3",
+        "sent_at": "2026-08-30T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "jonah.chandra35@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0049",
+    "subject": "AlderWorks - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "marta.vega52@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0049-1",
+        "sent_at": "2026-08-28T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "marta.vega52@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0049-2",
+        "sent_at": "2026-08-29T05:00:00-07:00",
+        "from": "marta.vega52@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0049-3",
+        "sent_at": "2026-08-29T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "marta.vega52@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0050",
+    "subject": "Fable Systems - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "dev.quinn69@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0050-1",
+        "sent_at": "2026-08-27T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "dev.quinn69@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0050-2",
+        "sent_at": "2026-08-28T04:00:00-07:00",
+        "from": "dev.quinn69@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0050-3",
+        "sent_at": "2026-08-28T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "dev.quinn69@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0051",
+    "subject": "Keystone North - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen86@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0051-1",
+        "sent_at": "2026-08-26T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen86@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0051-2",
+        "sent_at": "2026-08-27T03:00:00-07:00",
+        "from": "lucia.larsen86@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0051-3",
+        "sent_at": "2026-08-27T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen86@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0052",
+    "subject": "Pinewell - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta103@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0052-1",
+        "sent_at": "2026-08-25T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "theo.gupta103@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0052-2",
+        "sent_at": "2026-08-26T02:00:00-07:00",
+        "from": "theo.gupta103@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0052-3",
+        "sent_at": "2026-08-26T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "theo.gupta103@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0053",
+    "subject": "AlderWorks - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett120@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0053-1",
+        "sent_at": "2026-08-24T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "amina.bennett120@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0053-2",
+        "sent_at": "2026-08-25T01:00:00-07:00",
+        "from": "amina.bennett120@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0053-3",
+        "sent_at": "2026-08-25T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "amina.bennett120@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0054",
+    "subject": "Fable Systems - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rafael.usman137@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0054-1",
+        "sent_at": "2026-08-24T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman137@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0054-2",
+        "sent_at": "2026-08-24T09:00:00-07:00",
+        "from": "rafael.usman137@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0054-3",
+        "sent_at": "2026-08-24T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman137@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0055",
+    "subject": "Keystone North - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel154@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0055-1",
+        "sent_at": "2026-08-22T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel154@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0055-2",
+        "sent_at": "2026-08-23T08:00:00-07:00",
+        "from": "anika.patel154@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0055-3",
+        "sent_at": "2026-08-23T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel154@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0056",
+    "subject": "Keystone North - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen14@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0056-1",
+        "sent_at": "2026-08-21T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen14@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0056-2",
+        "sent_at": "2026-08-22T07:00:00-07:00",
+        "from": "lucia.larsen14@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0056-3",
+        "sent_at": "2026-08-22T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "lucia.larsen14@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0057",
+    "subject": "Pinewell - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta31@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0057-1",
+        "sent_at": "2026-08-20T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "theo.gupta31@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0057-2",
+        "sent_at": "2026-08-21T06:00:00-07:00",
+        "from": "theo.gupta31@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0057-3",
+        "sent_at": "2026-08-21T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "theo.gupta31@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0058",
+    "subject": "AlderWorks - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett48@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0058-1",
+        "sent_at": "2026-08-19T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "amina.bennett48@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0058-2",
+        "sent_at": "2026-08-20T05:00:00-07:00",
+        "from": "amina.bennett48@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0058-3",
+        "sent_at": "2026-08-20T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "amina.bennett48@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0059",
+    "subject": "Fable Systems - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rafael.usman65@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0059-1",
+        "sent_at": "2026-08-18T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman65@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0059-2",
+        "sent_at": "2026-08-19T04:00:00-07:00",
+        "from": "rafael.usman65@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0059-3",
+        "sent_at": "2026-08-19T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rafael.usman65@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0060",
+    "subject": "Keystone North - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel82@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0060-1",
+        "sent_at": "2026-08-17T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel82@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0060-2",
+        "sent_at": "2026-08-18T03:00:00-07:00",
+        "from": "anika.patel82@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0060-3",
+        "sent_at": "2026-08-18T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel82@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0061",
+    "subject": "Pinewell - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur99@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0061-1",
+        "sent_at": "2026-08-16T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur99@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0061-2",
+        "sent_at": "2026-08-17T02:00:00-07:00",
+        "from": "drew.kaur99@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0061-3",
+        "sent_at": "2026-08-17T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur99@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0062",
+    "subject": "AlderWorks - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah116@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0062-1",
+        "sent_at": "2026-08-15T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah116@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0062-2",
+        "sent_at": "2026-08-16T01:00:00-07:00",
+        "from": "elena.farah116@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0062-3",
+        "sent_at": "2026-08-16T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah116@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0063",
+    "subject": "Fable Systems - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou133@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0063-1",
+        "sent_at": "2026-08-15T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou133@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0063-2",
+        "sent_at": "2026-08-15T09:00:00-07:00",
+        "from": "samir.zhou133@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0063-3",
+        "sent_at": "2026-08-15T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou133@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0064",
+    "subject": "Keystone North - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran150@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0064-1",
+        "sent_at": "2026-08-13T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran150@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0064-2",
+        "sent_at": "2026-08-14T08:00:00-07:00",
+        "from": "mina.tran150@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0064-3",
+        "sent_at": "2026-08-14T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran150@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0065",
+    "subject": "Keystone North - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel10@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0065-1",
+        "sent_at": "2026-08-12T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel10@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0065-2",
+        "sent_at": "2026-08-13T07:00:00-07:00",
+        "from": "anika.patel10@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0065-3",
+        "sent_at": "2026-08-13T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "anika.patel10@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0066",
+    "subject": "Pinewell - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur27@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0066-1",
+        "sent_at": "2026-08-11T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur27@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0066-2",
+        "sent_at": "2026-08-12T06:00:00-07:00",
+        "from": "drew.kaur27@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0066-3",
+        "sent_at": "2026-08-12T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "drew.kaur27@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0067",
+    "subject": "AlderWorks - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah44@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0067-1",
+        "sent_at": "2026-08-10T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah44@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0067-2",
+        "sent_at": "2026-08-11T05:00:00-07:00",
+        "from": "elena.farah44@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0067-3",
+        "sent_at": "2026-08-11T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "elena.farah44@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0068",
+    "subject": "Fable Systems - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou61@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0068-1",
+        "sent_at": "2026-08-09T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou61@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0068-2",
+        "sent_at": "2026-08-10T04:00:00-07:00",
+        "from": "samir.zhou61@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0068-3",
+        "sent_at": "2026-08-10T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "samir.zhou61@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0069",
+    "subject": "Keystone North - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran78@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0069-1",
+        "sent_at": "2026-08-08T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran78@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0069-2",
+        "sent_at": "2026-08-09T03:00:00-07:00",
+        "from": "mina.tran78@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0069-3",
+        "sent_at": "2026-08-09T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran78@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0070",
+    "subject": "Pinewell - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz95@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0070-1",
+        "sent_at": "2026-08-07T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz95@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0070-2",
+        "sent_at": "2026-08-08T02:00:00-07:00",
+        "from": "hugo.ortiz95@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0070-3",
+        "sent_at": "2026-08-08T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz95@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0071",
+    "subject": "AlderWorks - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen112@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0071-1",
+        "sent_at": "2026-08-06T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen112@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0071-2",
+        "sent_at": "2026-08-07T01:00:00-07:00",
+        "from": "tara.jensen112@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0071-3",
+        "sent_at": "2026-08-07T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen112@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0072",
+    "subject": "Fable Systems - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito129@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0072-1",
+        "sent_at": "2026-08-06T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito129@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0072-2",
+        "sent_at": "2026-08-06T09:00:00-07:00",
+        "from": "owen.esposito129@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0072-3",
+        "sent_at": "2026-08-06T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito129@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0073",
+    "subject": "Keystone North - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates146@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0073-1",
+        "sent_at": "2026-08-04T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates146@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0073-2",
+        "sent_at": "2026-08-05T08:00:00-07:00",
+        "from": "leila.yates146@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0073-3",
+        "sent_at": "2026-08-05T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates146@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0074",
+    "subject": "Keystone North - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran6@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0074-1",
+        "sent_at": "2026-08-03T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran6@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0074-2",
+        "sent_at": "2026-08-04T07:00:00-07:00",
+        "from": "mina.tran6@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0074-3",
+        "sent_at": "2026-08-04T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mina.tran6@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0075",
+    "subject": "Pinewell - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz23@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0075-1",
+        "sent_at": "2026-08-02T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz23@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0075-2",
+        "sent_at": "2026-08-03T06:00:00-07:00",
+        "from": "hugo.ortiz23@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0075-3",
+        "sent_at": "2026-08-03T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "hugo.ortiz23@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0076",
+    "subject": "AlderWorks - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen40@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0076-1",
+        "sent_at": "2026-09-08T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen40@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0076-2",
+        "sent_at": "2026-09-09T05:00:00-07:00",
+        "from": "tara.jensen40@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0076-3",
+        "sent_at": "2026-09-09T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "tara.jensen40@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0077",
+    "subject": "Fable Systems - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito57@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0077-1",
+        "sent_at": "2026-09-07T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito57@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0077-2",
+        "sent_at": "2026-09-08T04:00:00-07:00",
+        "from": "owen.esposito57@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0077-3",
+        "sent_at": "2026-09-08T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "owen.esposito57@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0078",
+    "subject": "Keystone North - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates74@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0078-1",
+        "sent_at": "2026-09-06T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates74@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0078-2",
+        "sent_at": "2026-09-07T03:00:00-07:00",
+        "from": "leila.yates74@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0078-3",
+        "sent_at": "2026-09-07T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "leila.yates74@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0079",
+    "subject": "Pinewell - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "nico.shah91@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0079-1",
+        "sent_at": "2026-09-05T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah91@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0079-2",
+        "sent_at": "2026-09-06T02:00:00-07:00",
+        "from": "nico.shah91@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0079-3",
+        "sent_at": "2026-09-06T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah91@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0080",
+    "subject": "AlderWorks - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu108@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0080-1",
+        "sent_at": "2026-09-04T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu108@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0080-2",
+        "sent_at": "2026-09-05T01:00:00-07:00",
+        "from": "iris.nwosu108@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0080-3",
+        "sent_at": "2026-09-05T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu108@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0081",
+    "subject": "Fable Systems - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito125@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0081-1",
+        "sent_at": "2026-09-04T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito125@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0081-2",
+        "sent_at": "2026-09-04T09:00:00-07:00",
+        "from": "mateo.ito125@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0081-3",
+        "sent_at": "2026-09-04T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito125@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0082",
+    "subject": "Keystone North - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rina.dawson142@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0082-1",
+        "sent_at": "2026-09-02T23:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson142@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0082-2",
+        "sent_at": "2026-09-03T08:00:00-07:00",
+        "from": "rina.dawson142@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0082-3",
+        "sent_at": "2026-09-03T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson142@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0083",
+    "subject": "Pinewell - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong159@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0083-1",
+        "sent_at": "2026-09-01T22:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong159@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0083-2",
+        "sent_at": "2026-09-02T07:00:00-07:00",
+        "from": "caleb.wong159@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0083-3",
+        "sent_at": "2026-09-02T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong159@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0084",
+    "subject": "Pinewell - Implementation timeline",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "nico.shah19@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0084-1",
+        "sent_at": "2026-08-31T21:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah19@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0084-2",
+        "sent_at": "2026-09-01T06:00:00-07:00",
+        "from": "nico.shah19@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0084-3",
+        "sent_at": "2026-09-01T15:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "nico.shah19@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0085",
+    "subject": "AlderWorks - Pricing follow-up",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu36@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0085-1",
+        "sent_at": "2026-08-30T20:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu36@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0085-2",
+        "sent_at": "2026-08-31T05:00:00-07:00",
+        "from": "iris.nwosu36@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0085-3",
+        "sent_at": "2026-08-31T14:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "iris.nwosu36@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0086",
+    "subject": "Fable Systems - Security questionnaire",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito53@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0086-1",
+        "sent_at": "2026-08-29T19:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito53@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0086-2",
+        "sent_at": "2026-08-30T04:00:00-07:00",
+        "from": "mateo.ito53@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0086-3",
+        "sent_at": "2026-08-30T13:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "mateo.ito53@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0087",
+    "subject": "Keystone North - Pilot recap",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "rina.dawson70@keystonenorth11.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0087-1",
+        "sent_at": "2026-08-28T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson70@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0087-2",
+        "sent_at": "2026-08-29T03:00:00-07:00",
+        "from": "rina.dawson70@keystonenorth11.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0087-3",
+        "sent_at": "2026-08-29T12:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "rina.dawson70@keystonenorth11.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0088",
+    "subject": "Pinewell - Renewal options",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong87@pinewell16.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0088-1",
+        "sent_at": "2026-08-27T17:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong87@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0088-2",
+        "sent_at": "2026-08-28T02:00:00-07:00",
+        "from": "caleb.wong87@pinewell16.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0088-3",
+        "sent_at": "2026-08-28T11:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "caleb.wong87@pinewell16.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0089",
+    "subject": "AlderWorks - Procurement checklist",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi104@alderworks1.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0089-1",
+        "sent_at": "2026-08-26T16:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "sofia.rossi104@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0089-2",
+        "sent_at": "2026-08-27T01:00:00-07:00",
+        "from": "sofia.rossi104@alderworks1.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0089-3",
+        "sent_at": "2026-08-27T10:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "sofia.rossi104@alderworks1.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  },
+  {
+    "thread_id": "EML-0090",
+    "subject": "Fable Systems - Scope confirmation",
+    "participant_emails": [
+      "alex.morgan@brightpath.example",
+      "eli.mendez121@fablesystems6.example"
+    ],
+    "messages": [
+      {
+        "message_id": "MSG-0090-1",
+        "sent_at": "2026-08-26T00:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "eli.mendez121@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Sharing the requested project detail for review."
+      },
+      {
+        "message_id": "MSG-0090-2",
+        "sent_at": "2026-08-26T09:00:00-07:00",
+        "from": "eli.mendez121@fablesystems6.example",
+        "to": [
+          "alex.morgan@brightpath.example"
+        ],
+        "cc": [],
+        "body": "Thanks, our team will review and reply with any questions."
+      },
+      {
+        "message_id": "MSG-0090-3",
+        "sent_at": "2026-08-26T18:00:00-07:00",
+        "from": "alex.morgan@brightpath.example",
+        "to": [
+          "eli.mendez121@fablesystems6.example"
+        ],
+        "cc": [],
+        "body": "Following up on timing and the next working session."
+      }
+    ]
+  }
+]

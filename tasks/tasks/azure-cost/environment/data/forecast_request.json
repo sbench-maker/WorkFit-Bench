@@ -1,0 +1,25 @@
+{
+  "type": "ActualCost",
+  "timeframe": "Custom",
+  "timePeriod": {
+    "from": "2026-08-01T00:00:00Z",
+    "to": "2026-11-30T23:59:59Z"
+  },
+  "dataset": {
+    "granularity": "Monthly",
+    "aggregation": {
+      "totalCost": {
+        "name": "Cost",
+        "function": "Sum"
+      }
+    },
+    "sorting": [
+      {
+        "direction": "Ascending",
+        "name": "BillingMonth"
+      }
+    ]
+  },
+  "includeActualCost": true,
+  "includeFreshPartialCost": true
+}

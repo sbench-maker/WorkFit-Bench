@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3",
+    "duckdb",
+    "find",
+    "ls",
+    "mkdir",
+    "cp",
+    "cat"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "duckdb",
+      "import_name": "duckdb",
+      "version": "1.4.1",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "pyarrow",
+      "import_name": "pyarrow",
+      "version": "17.0.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

@@ -1,0 +1,59 @@
+deal_id,customer_id,deal_name,owner,amount_usd,stage,probability,created_date,close_date,last_activity_date,previous_week_stage,previous_week_probability,previous_week_amount_usd
+DEAL-3001,C007,Atlas Ridge renewal expansion,Marcus Lee,48000.00,negotiation,0.65,2026-07-13,2026-09-10,2026-09-07,proposal,0.45,48000.00
+DEAL-3002,C012,Fable multi-site rollout,Nina Flores,82000.00,qualification,0.20,2026-06-17,2026-09-30,2026-08-27,qualification,0.20,82000.00
+DEAL-3003,C019,Northwind annual renewal,Owen Bell,36000.00,proposal,0.45,2026-06-28,2026-09-03,2026-09-01,proposal,0.45,36000.00
+DEAL-3004,C016,Juniper dispatch add-on,Priya Shah,27000.00,discovery,0.30,2026-08-03,2026-09-25,2026-08-31,discovery,0.30,27000.00
+DEAL-3005,C023,Redwood imaging package,Marcus Lee,31000.00,closed-won,1.00,2026-07-25,2026-09-05,2026-09-05,negotiation,0.65,31000.00
+DEAL-3006,C032,Aster onboarding seats,Nina Flores,12500.00,discovery,0.30,2026-09-04,2026-09-26,2026-09-06,,,
+DEAL-3007,C020,Oak & Ember Home growth plan 07,Owen Bell,39900.00,negotiation,0.65,2026-06-16,2026-09-18,2026-09-07,negotiation,0.65,39900.00
+DEAL-3008,C033,Bluebird Metalworks growth plan 08,Priya Shah,44600.00,discovery,0.30,2026-06-07,2026-09-19,2026-09-06,discovery,0.30,44600.00
+DEAL-3009,C010,Driftwood Learning growth plan 09,Marcus Lee,7300.00,closed-won,1.00,2026-05-29,2026-09-05,2026-09-05,negotiation,0.65,7300.00
+DEAL-3010,C023,Redwood Family Dental growth plan 10,Nina Flores,12000.00,proposal,0.45,2026-05-20,2026-09-21,2026-09-04,qualification,0.20,12000.00
+DEAL-3011,C036,Emberlight Events growth plan 11,Owen Bell,16700.00,negotiation,0.65,2026-08-14,2026-09-22,2026-09-03,negotiation,0.65,16700.00
+DEAL-3012,C013,Granite Loop Fitness growth plan 12,Priya Shah,21400.00,discovery,0.30,2026-08-05,2026-09-23,2026-09-02,discovery,0.30,21400.00
+DEAL-3013,C026,Umber Lane Apparel growth plan 13,Marcus Lee,26100.00,closed-lost,0.00,2026-07-27,2026-09-06,2026-09-06,proposal,0.45,26100.00
+DEAL-3014,C003,Delta Harbor Supply growth plan 14,Nina Flores,30800.00,proposal,0.45,2026-07-18,2026-09-25,2026-09-07,proposal,0.45,30800.00
+DEAL-3015,C016,Juniper Field Services growth plan 15,Owen Bell,35500.00,negotiation,0.65,2026-07-09,2026-09-26,2026-09-06,proposal,0.45,35500.00
+DEAL-3016,C029,Xylo Works growth plan 16,Priya Shah,40200.00,discovery,0.30,2026-06-30,2026-09-27,2026-09-05,discovery,0.30,40200.00
+DEAL-3017,C006,Violet Thread Co. growth plan 17,Marcus Lee,44900.00,qualification,0.20,2026-06-21,2026-09-28,2026-09-04,qualification,0.20,44900.00
+DEAL-3018,C019,Northwind Veterinary Group growth plan 18,Nina Flores,7600.00,closed-won,1.00,2026-06-12,2026-09-03,2026-09-03,negotiation,0.65,7600.00
+DEAL-3019,C032,Aster Lane Wellness growth plan 19,Owen Bell,12300.00,negotiation,0.65,2026-06-03,2026-09-30,2026-09-02,negotiation,0.65,12300.00
+DEAL-3020,C009,Copper Finch Goods growth plan 20,Priya Shah,17000.00,discovery,0.30,2026-05-25,2026-10-01,2026-09-01,discovery,0.30,17000.00
+DEAL-3021,C022,Quarry House Labs growth plan 21,Marcus Lee,21700.00,qualification,0.20,2026-05-16,2026-10-02,2026-09-07,qualification,0.20,21700.00
+DEAL-3022,C035,Dovetail Market growth plan 22,Nina Flores,26400.00,proposal,0.45,2026-09-03,2026-10-03,2026-09-06,,,
+DEAL-3023,C012,Fable Foods Cooperative growth plan 23,Owen Bell,31100.00,negotiation,0.65,2026-08-01,2026-10-04,2026-09-05,negotiation,0.65,31100.00
+DEAL-3024,C025,Tern River Logistics growth plan 24,Priya Shah,35800.00,discovery,0.30,2026-07-23,2026-10-05,2026-09-04,discovery,0.30,35800.00
+DEAL-3025,C002,Cobalt Workshop growth plan 25,Marcus Lee,40500.00,qualification,0.20,2026-07-14,2026-10-06,2026-09-03,discovery,0.30,40500.00
+DEAL-3026,C015,Indigo Trail Gear growth plan 26,Nina Flores,45200.00,closed-lost,0.00,2026-07-05,2026-09-05,2026-09-05,proposal,0.45,45200.00
+DEAL-3027,C028,Willow Peak Travel growth plan 27,Owen Bell,7900.00,closed-won,1.00,2026-06-26,2026-09-01,2026-09-01,negotiation,0.65,7900.00
+DEAL-3028,C005,Elm City Roasters growth plan 28,Priya Shah,12600.00,discovery,0.30,2026-06-17,2026-09-11,2026-09-07,discovery,0.30,12600.00
+DEAL-3029,C018,Lakeview Audio growth plan 29,Marcus Lee,17300.00,qualification,0.20,2026-06-08,2026-09-12,2026-09-06,qualification,0.20,17300.00
+DEAL-3030,C031,Zephyr Garden Supply growth plan 30,Nina Flores,22000.00,proposal,0.45,2026-05-30,2026-09-13,2026-09-05,qualification,0.20,22000.00
+DEAL-3031,C008,Beacon Grove Media growth plan 31,Owen Bell,26700.00,negotiation,0.65,2026-05-21,2026-09-14,2026-09-04,negotiation,0.65,26700.00
+DEAL-3032,C021,Pinecrest Mobility growth plan 32,Priya Shah,31400.00,discovery,0.30,2026-08-15,2026-09-15,2026-09-03,discovery,0.30,31400.00
+DEAL-3033,C034,Crescent Paper Co. growth plan 33,Marcus Lee,36100.00,qualification,0.20,2026-08-06,2026-09-16,2026-09-02,qualification,0.20,36100.00
+DEAL-3034,C011,Everwell Kitchens growth plan 34,Nina Flores,40800.00,proposal,0.45,2026-07-28,2026-09-17,2026-09-01,proposal,0.45,40800.00
+DEAL-3035,C024,Saffron Table growth plan 35,Owen Bell,45500.00,negotiation,0.65,2026-07-19,2026-09-18,2026-09-07,proposal,0.45,45500.00
+DEAL-3036,C001,Birchline Design growth plan 36,Priya Shah,8200.00,closed-won,1.00,2026-07-10,2026-09-06,2026-09-06,negotiation,0.65,8200.00
+DEAL-3037,C014,Honeycomb Office growth plan 37,Marcus Lee,12900.00,qualification,0.20,2026-07-01,2026-09-20,2026-09-05,qualification,0.20,12900.00
+DEAL-3038,C027,Veridian Craft growth plan 38,Nina Flores,17600.00,proposal,0.45,2026-06-22,2026-09-21,2026-09-04,proposal,0.45,17600.00
+DEAL-3039,C004,Harbor Stone Studio growth plan 39,Owen Bell,22300.00,closed-lost,0.00,2026-06-13,2026-09-04,2026-09-04,proposal,0.45,22300.00
+DEAL-3040,C017,Kite & Key Books growth plan 40,Priya Shah,27000.00,discovery,0.30,2026-06-04,2026-09-23,2026-09-02,discovery,0.30,27000.00
+DEAL-3041,C030,Yellowbrick Tutors growth plan 41,Marcus Lee,31700.00,qualification,0.20,2026-05-26,2026-09-24,2026-09-01,qualification,0.20,31700.00
+DEAL-3042,C007,Atlas Ridge Markets growth plan 42,Nina Flores,36400.00,proposal,0.45,2026-05-17,2026-09-25,2026-09-07,proposal,0.45,36400.00
+DEAL-3043,C020,Oak & Ember Home growth plan 43,Owen Bell,41100.00,negotiation,0.65,2026-08-11,2026-09-26,2026-09-06,negotiation,0.65,41100.00
+DEAL-3044,C033,Bluebird Metalworks growth plan 44,Priya Shah,45800.00,discovery,0.30,2026-09-05,2026-09-27,2026-09-05,,,
+DEAL-3045,C010,Driftwood Learning growth plan 45,Marcus Lee,8500.00,closed-won,1.00,2026-07-24,2026-09-04,2026-09-04,negotiation,0.65,8500.00
+DEAL-3046,C023,Redwood Family Dental growth plan 46,Nina Flores,13200.00,proposal,0.45,2026-07-15,2026-09-29,2026-09-03,proposal,0.45,13200.00
+DEAL-3047,C036,Emberlight Events growth plan 47,Owen Bell,17900.00,negotiation,0.65,2026-07-06,2026-09-30,2026-09-02,negotiation,0.65,17900.00
+DEAL-3048,C013,Granite Loop Fitness growth plan 48,Priya Shah,22600.00,discovery,0.30,2026-06-27,2026-10-01,2026-09-01,discovery,0.30,22600.00
+DEAL-3049,C026,Umber Lane Apparel growth plan 49,Marcus Lee,27300.00,qualification,0.20,2026-06-18,2026-10-02,2026-09-07,qualification,0.20,27300.00
+DEAL-3050,C003,Delta Harbor Supply growth plan 50,Nina Flores,32000.00,proposal,0.45,2026-06-09,2026-10-03,2026-09-06,qualification,0.20,32000.00
+DEAL-3051,C016,Juniper Field Services growth plan 51,Owen Bell,36700.00,negotiation,0.65,2026-05-31,2026-10-04,2026-09-05,negotiation,0.65,36700.00
+DEAL-3052,C029,Xylo Works growth plan 52,Priya Shah,41400.00,closed-lost,0.00,2026-05-22,2026-09-03,2026-09-03,proposal,0.45,41400.00
+DEAL-3053,C006,Violet Thread Co. growth plan 53,Marcus Lee,46100.00,qualification,0.20,2026-08-16,2026-10-06,2026-09-03,qualification,0.20,46100.00
+DEAL-3054,C019,Northwind Veterinary Group growth plan 54,Nina Flores,8800.00,closed-won,1.00,2026-08-07,2026-09-02,2026-09-02,negotiation,0.65,8800.00
+DEAL-3055,C032,Aster Lane Wellness growth plan 55,Owen Bell,13500.00,negotiation,0.65,2026-09-06,2026-10-08,2026-09-01,,,
+DEAL-3056,C009,Copper Finch Goods growth plan 56,Priya Shah,18200.00,discovery,0.30,2026-07-20,2026-09-11,2026-09-07,discovery,0.30,18200.00
+DEAL-3057,C022,Quarry House Labs growth plan 57,Marcus Lee,22900.00,qualification,0.20,2026-07-11,2026-09-12,2026-09-06,qualification,0.20,22900.00
+DEAL-3058,C035,Dovetail Market growth plan 58,Nina Flores,27600.00,proposal,0.45,2026-07-02,2026-09-13,2026-09-05,proposal,0.45,27600.00

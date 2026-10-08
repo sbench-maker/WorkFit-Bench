@@ -1,0 +1,15 @@
+{
+  "fixture_type": "deterministic fictional RFC pipeline snapshot",
+  "rfc_id": "RFC-042",
+  "files": {
+    "repository_map.csv": 240,
+    "ci_catalog.json": 36,
+    "execution_events.jsonl": 120,
+    "pipeline_snapshot.json": 9
+  },
+  "notes": [
+    "All names and records are fictional.",
+    "The worker stall and stale policy branch are deliberate recovery and merge-safety cases.",
+    "No network access or credentials are required."
+  ]
+}

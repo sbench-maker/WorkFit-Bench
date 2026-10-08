@@ -1,0 +1,47 @@
+{
+  "fixture_type": "fictional deterministic vendor decision packet",
+  "as_of_date": "2026-09-15",
+  "files": {
+    "README.md": {
+      "complete": true,
+      "kind": "reading guide"
+    },
+    "procurement_context.md": {
+      "complete": true,
+      "kind": "requirements and forecast"
+    },
+    "atlaspay_renewal.md": {
+      "complete": true,
+      "kind": "incumbent renewal offer"
+    },
+    "beaconap_proposal.md": {
+      "complete": true,
+      "kind": "replacement proposal"
+    },
+    "legal_security_diligence.md": {
+      "complete": true,
+      "kind": "diligence memo"
+    },
+    "atlaspay_daily_performance.csv": {
+      "complete": true,
+      "rows": 365
+    },
+    "atlaspay_support_tickets.csv": {
+      "complete": true,
+      "rows": 84
+    },
+    "requirements_matrix.csv": {
+      "complete": true,
+      "rows": 40
+    },
+    "customer_references.csv": {
+      "complete": true,
+      "rows": 8
+    }
+  },
+  "scope_notes": [
+    "AtlasPay operational records cover the full stated 365-day observation period.",
+    "BeaconAP has commitments and references but no Northstar production history.",
+    "No input is truncated, sampled, or dependent on a remote system."
+  ]
+}

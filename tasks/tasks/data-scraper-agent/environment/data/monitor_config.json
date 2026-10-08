@@ -1,0 +1,144 @@
+{
+  "run_date": "2026-09-08",
+  "catalog_base_url": "https://models.example.test",
+  "collection": {
+    "card_selector": "article.model-card",
+    "duplicate_key": "canonical_url",
+    "duplicate_resolution": "latest_updated_at",
+    "filter_after_dedup": true,
+    "strip_query_and_fragment": true
+  },
+  "eligibility": {
+    "required_fields": [
+      "model_id",
+      "name",
+      "vendor",
+      "version",
+      "canonical_url",
+      "updated_at",
+      "status",
+      "capabilities",
+      "context_tokens",
+      "input_price_per_million",
+      "license"
+    ],
+    "allowed_statuses": [
+      "active",
+      "ga"
+    ],
+    "any_capability": [
+      "tool-use",
+      "structured-output"
+    ],
+    "min_context_tokens": 32768,
+    "max_input_price_per_million": 1.8,
+    "allowed_licenses": [
+      "permissive",
+      "commercial"
+    ],
+    "blocked_terms": [
+      "deprecated",
+      "sunset",
+      "retired"
+    ]
+  },
+  "storage": {
+    "existing_file": "prior_store.json",
+    "identity_key": "canonical_url",
+    "material_fields": [
+      "name",
+      "vendor",
+      "version",
+      "status",
+      "capabilities",
+      "context_tokens",
+      "input_price_per_million",
+      "license"
+    ],
+    "new_action": "added",
+    "changed_action": "updated",
+    "unchanged_action": "unchanged"
+  },
+  "feedback": {
+    "positive_decisions": [
+      "saved",
+      "piloting"
+    ],
+    "negative_decisions": [
+      "rejected"
+    ],
+    "positive_vendor_min": 2,
+    "positive_capability_min": 3,
+    "negative_vendor_min": 2,
+    "negative_license_min": 2,
+    "opposite_signal_must_be_zero": true
+  },
+  "scoring": {
+    "capability_points_each": 12,
+    "capability_points_cap": 36,
+    "context_bands": [
+      {
+        "min_tokens": 128000,
+        "points": 18
+      },
+      {
+        "min_tokens": 64000,
+        "points": 10
+      },
+      {
+        "min_tokens": 32000,
+        "points": 4
+      }
+    ],
+    "price_bands": [
+      {
+        "max_usd": 0.5,
+        "points": 16
+      },
+      {
+        "max_usd": 1.0,
+        "points": 10
+      },
+      {
+        "max_usd": 1.8,
+        "points": 4
+      }
+    ],
+    "license_points": {
+      "permissive": 10,
+      "commercial": 6
+    },
+    "fresh_since": "2026-08-10",
+    "fresh_points": 10,
+    "feedback_adjustments": {
+      "positive_vendor": {
+        "points": 8,
+        "application": "once"
+      },
+      "positive_capability": {
+        "points": 4,
+        "application": "per_matching_capability"
+      },
+      "negative_vendor": {
+        "points": -12,
+        "application": "once"
+      },
+      "negative_license": {
+        "points": -10,
+        "application": "once"
+      }
+    },
+    "clamp": [
+      0,
+      100
+    ],
+    "priority_thresholds": {
+      "high": 70,
+      "medium": 45
+    }
+  },
+  "schedule": {
+    "cadence": "daily",
+    "utc_cron": "20 6 * * *"
+  }
+}

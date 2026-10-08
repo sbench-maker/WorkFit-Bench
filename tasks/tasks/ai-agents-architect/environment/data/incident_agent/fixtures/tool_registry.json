@@ -1,0 +1,80 @@
+{
+  "tools": [
+    {
+      "name": "get_metrics",
+      "kind": "read",
+      "description": "Return incident telemetry.",
+      "required_arguments": [
+        "incident_id"
+      ]
+    },
+    {
+      "name": "get_logs",
+      "kind": "read",
+      "description": "Return a compact incident log digest.",
+      "required_arguments": [
+        "incident_id"
+      ]
+    },
+    {
+      "name": "get_recent_changes",
+      "kind": "read",
+      "description": "Return recent service changes.",
+      "required_arguments": [
+        "incident_id"
+      ]
+    },
+    {
+      "name": "page_oncall",
+      "kind": "oversight",
+      "description": "Record human oversight for a production P1.",
+      "required_arguments": [
+        "incident_id"
+      ]
+    },
+    {
+      "name": "rollback_deployment",
+      "kind": "mutation",
+      "description": "Roll back the implicated release.",
+      "required_arguments": [
+        "incident_id",
+        "service"
+      ]
+    },
+    {
+      "name": "restart_service",
+      "kind": "mutation",
+      "description": "Restart unhealthy service instances.",
+      "required_arguments": [
+        "incident_id",
+        "service"
+      ]
+    },
+    {
+      "name": "clear_cache",
+      "kind": "mutation",
+      "description": "Invalidate the service cache.",
+      "required_arguments": [
+        "incident_id",
+        "service"
+      ]
+    },
+    {
+      "name": "scale_workers",
+      "kind": "mutation",
+      "description": "Increase queue worker capacity.",
+      "required_arguments": [
+        "incident_id",
+        "service"
+      ]
+    }
+  ],
+  "policy": {
+    "production_p1_requires_page_before_mutation": true,
+    "minimum_autonomous_confidence": 0.75,
+    "max_tool_calls": 10,
+    "max_role_iterations": 8,
+    "retryable_tool_attempts": 2,
+    "duplicate_call_limit": 2
+  }
+}

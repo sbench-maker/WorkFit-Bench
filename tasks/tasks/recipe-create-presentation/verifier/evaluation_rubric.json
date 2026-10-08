@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__new_presentation_identity",
+      "title": "Fresh presentation creation and preservation of existing files",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Exactly one new presentation has the requested title, while the same-title older deck and other existing presentations remain present and unchanged.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_new_presentation_identity"
+      ]
+    },
+    {
+      "id": "completion__initial_slide_content",
+      "title": "Complete initial slide content",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The new deck contains the three requested slides in briefing order, with every title, subtitle, metric, site, date range, and decision point from the local brief represented on the appropriate slide.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_initial_slide_content"
+      ]
+    },
+    {
+      "id": "completion__editor_permission",
+      "title": "Correctly scoped editor access",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The specified pilot operations user has editor access on the newly generated presentation ID, no broad public or domain grant is added, and permissions on old files are untouched.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_editor_permission"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__new_presentation_identity",
+        "title": "Fresh presentation creation and preservation of existing files",
+        "required_score": 10
+      },
+      {
+        "id": "completion__initial_slide_content",
+        "title": "Complete initial slide content",
+        "required_score": 10
+      },
+      {
+        "id": "completion__editor_permission",
+        "title": "Correctly scoped editor access",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

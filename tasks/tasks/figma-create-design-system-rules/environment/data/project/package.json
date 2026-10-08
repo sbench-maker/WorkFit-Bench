@@ -1,0 +1,25 @@
+{
+  "name": "emberline-console",
+  "private": true,
+  "version": "0.8.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest run",
+    "check": "tsc --noEmit && eslint src",
+    "routes:generate": "node scripts/build-routes.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.59.20",
+    "clsx": "2.1.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.28.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "16.0.1",
+    "typescript": "5.6.3",
+    "vite": "5.4.10",
+    "vitest": "2.1.4"
+  }
+}

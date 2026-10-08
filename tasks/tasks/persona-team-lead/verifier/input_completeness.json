@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "snapshot_at": "2026-04-17T17:00:00Z",
+  "files": {
+    "roster.csv": {"records": 5, "truncated": false},
+    "accounts.csv": {"records": 30, "truncated": false},
+    "email_messages.jsonl": {"records": 127, "truncated": false},
+    "chat_messages.jsonl": {"records": 185, "truncated": false},
+    "action_tracker.csv": {"records": 70, "truncated": false},
+    "calendar_events.csv": {"records": 80, "truncated": false},
+    "okrs.csv": {"records": 12, "truncated": false},
+    "snapshot_meta.json": {"records": 1, "truncated": false},
+    "README.md": {"records": 1, "truncated": false}
+  },
+  "submission_expected": "/root/results/output.json"
+}

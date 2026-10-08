@@ -1,0 +1,10 @@
+parameters:
+    ignoreErrors:
+        -
+            message: '#Method ParcelPilot\\Legacy\\ManifestImporter::readRows\(\) has no return type specified\.#'
+            count: 1
+            path: src/Legacy/ManifestImporter.php
+        -
+            message: '#Property ParcelPilot\\Legacy\\ManifestImporter::\$decoder has no type specified\.#'
+            count: 1
+            path: src/Legacy/ManifestImporter.php

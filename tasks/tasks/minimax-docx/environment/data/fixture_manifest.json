@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "fictional": true,
+  "complete": true,
+  "truncated": false,
+  "inputs": [
+    {
+      "path": "draft_change_packet.docx",
+      "purpose": "content source",
+      "counts": {
+        "deployment_steps": 8,
+        "verification_checks": 4,
+        "rollback_steps": 3,
+        "approval_rows": 3
+      }
+    },
+    {
+      "path": "corporate_release_template.docx",
+      "purpose": "formatting authority",
+      "counts": {
+        "sections": 1,
+        "headers": 1,
+        "footers": 1
+      }
+    },
+    {
+      "path": "release_facts.json",
+      "purpose": "factual authority",
+      "counts": {
+        "components": 3,
+        "rollback_triggers": 2,
+        "approvals": 3
+      }
+    }
+  ],
+  "limitations": []
+}

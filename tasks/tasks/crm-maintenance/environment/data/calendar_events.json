@@ -1,0 +1,1253 @@
+[
+  {
+    "event_id": "CAL-9001",
+    "title": "Northwind legal and procurement handoff",
+    "start": "2026-09-03T13:00:00-07:00",
+    "end": "2026-09-03T13:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "priya.sethi@northwindlabs.example",
+      "marco.ruiz@northwindlabs.example",
+      "Casey.Wu@northwindlabs.example",
+      "jordan.lee@northwindlabs.example"
+    ],
+    "description": "Casey will own procurement and Jordan is the security reviewer. Annual price remains $54,000. Legal is working toward a September 30 signature."
+  },
+  {
+    "event_id": "CAL-8990",
+    "title": "Northwind renewal scope review",
+    "start": "2026-08-19T16:30:00-07:00",
+    "end": "2026-08-19T17:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "marco.ruiz@northwindlabs.example"
+    ],
+    "description": "Reviewed current renewal scope before revising pricing."
+  },
+  {
+    "event_id": "CAL-9002",
+    "title": "Internal Northwind forecast prep",
+    "start": "2026-09-09T10:00:00-07:00",
+    "end": "2026-09-09T10:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "finance.ops@brightpath.example"
+    ],
+    "description": "Internal forecast discussion; no customer participants."
+  },
+  {
+    "event_id": "CAL-9003",
+    "title": "Northwind APAC pilot office hours",
+    "start": "2026-09-04T09:00:00-07:00",
+    "end": "2026-09-04T09:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "Casey.Wu@northwindlabs.example"
+    ],
+    "description": "APAC pilot logistics only; unrelated to the enterprise renewal."
+  },
+  {
+    "event_id": "CAL-0001",
+    "title": "Pinewell - Commercial review",
+    "start": "2026-09-08T15:00:00-07:00",
+    "end": "2026-09-08T15:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur27@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0002",
+    "title": "Keystone North - Implementation planning",
+    "start": "2026-09-07T14:00:00-07:00",
+    "end": "2026-09-07T15:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates50@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0003",
+    "title": "Fable Systems - Security working session",
+    "start": "2026-09-06T13:00:00-07:00",
+    "end": "2026-09-06T13:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "eli.mendez73@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0004",
+    "title": "AlderWorks - Executive check-in",
+    "start": "2026-09-05T12:00:00-07:00",
+    "end": "2026-09-05T12:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett96@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0005",
+    "title": "Pinewell - Pilot retrospective",
+    "start": "2026-09-04T11:00:00-07:00",
+    "end": "2026-09-04T12:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz119@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0006",
+    "title": "Keystone North - Technical discovery",
+    "start": "2026-09-03T10:00:00-07:00",
+    "end": "2026-09-03T10:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "rina.dawson142@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0007",
+    "title": "AlderWorks - Commercial review",
+    "start": "2026-09-02T16:00:00-07:00",
+    "end": "2026-09-02T16:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi8@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0008",
+    "title": "Pinewell - Implementation planning",
+    "start": "2026-09-01T15:00:00-07:00",
+    "end": "2026-09-01T16:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta31@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0009",
+    "title": "Keystone North - Security working session",
+    "start": "2026-08-31T14:00:00-07:00",
+    "end": "2026-08-31T14:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran54@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0010",
+    "title": "Fable Systems - Executive check-in",
+    "start": "2026-08-30T13:00:00-07:00",
+    "end": "2026-08-30T13:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito77@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0011",
+    "title": "AlderWorks - Pilot retrospective",
+    "start": "2026-08-29T12:00:00-07:00",
+    "end": "2026-08-29T13:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "marta.vega100@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0012",
+    "title": "Pinewell - Technical discovery",
+    "start": "2026-08-28T11:00:00-07:00",
+    "end": "2026-08-28T11:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur123@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0013",
+    "title": "Keystone North - Commercial review",
+    "start": "2026-08-27T10:00:00-07:00",
+    "end": "2026-08-27T10:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates146@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0014",
+    "title": "AlderWorks - Implementation planning",
+    "start": "2026-08-26T16:00:00-07:00",
+    "end": "2026-08-26T17:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu12@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0015",
+    "title": "Pinewell - Security working session",
+    "start": "2026-08-25T15:00:00-07:00",
+    "end": "2026-08-25T15:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "jonah.chandra35@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0016",
+    "title": "Keystone North - Executive check-in",
+    "start": "2026-08-24T14:00:00-07:00",
+    "end": "2026-08-24T14:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel58@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0017",
+    "title": "Fable Systems - Pilot retrospective",
+    "start": "2026-08-23T13:00:00-07:00",
+    "end": "2026-08-23T14:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito81@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0018",
+    "title": "AlderWorks - Technical discovery",
+    "start": "2026-08-22T12:00:00-07:00",
+    "end": "2026-08-22T12:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi104@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0019",
+    "title": "Pinewell - Commercial review",
+    "start": "2026-08-21T11:00:00-07:00",
+    "end": "2026-08-21T11:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta127@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0020",
+    "title": "Keystone North - Implementation planning",
+    "start": "2026-08-20T10:00:00-07:00",
+    "end": "2026-08-20T11:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran150@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0021",
+    "title": "AlderWorks - Security working session",
+    "start": "2026-08-19T16:00:00-07:00",
+    "end": "2026-08-19T16:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen16@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0022",
+    "title": "Pinewell - Executive check-in",
+    "start": "2026-08-18T15:00:00-07:00",
+    "end": "2026-08-18T15:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong39@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0023",
+    "title": "Keystone North - Pilot retrospective",
+    "start": "2026-08-17T14:00:00-07:00",
+    "end": "2026-08-17T15:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen62@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0024",
+    "title": "Fable Systems - Technical discovery",
+    "start": "2026-08-16T13:00:00-07:00",
+    "end": "2026-08-16T13:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou85@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0025",
+    "title": "AlderWorks - Commercial review",
+    "start": "2026-08-15T12:00:00-07:00",
+    "end": "2026-08-15T12:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu108@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0026",
+    "title": "Pinewell - Implementation planning",
+    "start": "2026-08-14T11:00:00-07:00",
+    "end": "2026-08-14T12:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "jonah.chandra131@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0027",
+    "title": "Keystone North - Security working session",
+    "start": "2026-08-13T10:00:00-07:00",
+    "end": "2026-08-13T10:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel154@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0028",
+    "title": "AlderWorks - Executive check-in",
+    "start": "2026-08-12T16:00:00-07:00",
+    "end": "2026-08-12T16:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah20@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0029",
+    "title": "Pinewell - Pilot retrospective",
+    "start": "2026-08-11T15:00:00-07:00",
+    "end": "2026-08-11T16:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "nico.shah43@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0030",
+    "title": "Keystone North - Technical discovery",
+    "start": "2026-08-10T14:00:00-07:00",
+    "end": "2026-08-10T14:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "noor.hale66@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0031",
+    "title": "Fable Systems - Commercial review",
+    "start": "2026-08-09T13:00:00-07:00",
+    "end": "2026-08-09T13:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "rafael.usman89@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0032",
+    "title": "AlderWorks - Implementation planning",
+    "start": "2026-08-08T12:00:00-07:00",
+    "end": "2026-08-08T13:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen112@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0033",
+    "title": "Pinewell - Security working session",
+    "start": "2026-08-07T11:00:00-07:00",
+    "end": "2026-08-07T11:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong135@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0034",
+    "title": "Keystone North - Executive check-in",
+    "start": "2026-08-06T10:00:00-07:00",
+    "end": "2026-08-06T10:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen158@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0035",
+    "title": "AlderWorks - Pilot retrospective",
+    "start": "2026-08-05T16:00:00-07:00",
+    "end": "2026-08-05T17:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett24@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0036",
+    "title": "Pinewell - Technical discovery",
+    "start": "2026-08-04T15:00:00-07:00",
+    "end": "2026-08-04T15:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz47@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0037",
+    "title": "Keystone North - Commercial review",
+    "start": "2026-08-03T14:00:00-07:00",
+    "end": "2026-08-03T14:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "rina.dawson70@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0038",
+    "title": "Fable Systems - Implementation planning",
+    "start": "2026-08-02T13:00:00-07:00",
+    "end": "2026-08-02T14:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "dev.quinn93@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0039",
+    "title": "AlderWorks - Security working session",
+    "start": "2026-08-01T12:00:00-07:00",
+    "end": "2026-08-01T12:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah116@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0040",
+    "title": "Pinewell - Executive check-in",
+    "start": "2026-07-31T11:00:00-07:00",
+    "end": "2026-07-31T11:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "nico.shah139@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0041",
+    "title": "Fable Systems - Pilot retrospective",
+    "start": "2026-07-30T10:00:00-07:00",
+    "end": "2026-07-30T11:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito5@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0042",
+    "title": "AlderWorks - Technical discovery",
+    "start": "2026-07-29T16:00:00-07:00",
+    "end": "2026-07-29T16:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "marta.vega28@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0043",
+    "title": "Pinewell - Commercial review",
+    "start": "2026-07-28T15:00:00-07:00",
+    "end": "2026-07-28T15:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur51@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0044",
+    "title": "Keystone North - Implementation planning",
+    "start": "2026-07-27T14:00:00-07:00",
+    "end": "2026-07-27T15:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates74@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0045",
+    "title": "Fable Systems - Security working session",
+    "start": "2026-07-26T13:00:00-07:00",
+    "end": "2026-07-26T13:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "eli.mendez97@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0046",
+    "title": "AlderWorks - Executive check-in",
+    "start": "2026-07-25T12:00:00-07:00",
+    "end": "2026-07-25T12:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett120@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0047",
+    "title": "Pinewell - Pilot retrospective",
+    "start": "2026-07-24T11:00:00-07:00",
+    "end": "2026-07-24T12:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz143@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0048",
+    "title": "Fable Systems - Technical discovery",
+    "start": "2026-07-23T10:00:00-07:00",
+    "end": "2026-07-23T10:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito9@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0049",
+    "title": "AlderWorks - Commercial review",
+    "start": "2026-07-22T16:00:00-07:00",
+    "end": "2026-07-22T16:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi32@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0050",
+    "title": "Pinewell - Implementation planning",
+    "start": "2026-07-21T15:00:00-07:00",
+    "end": "2026-07-21T16:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta55@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0051",
+    "title": "Keystone North - Security working session",
+    "start": "2026-07-20T14:00:00-07:00",
+    "end": "2026-07-20T14:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran78@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0052",
+    "title": "Fable Systems - Executive check-in",
+    "start": "2026-07-19T13:00:00-07:00",
+    "end": "2026-07-19T13:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito101@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0053",
+    "title": "AlderWorks - Pilot retrospective",
+    "start": "2026-07-18T12:00:00-07:00",
+    "end": "2026-07-18T13:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "marta.vega124@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0054",
+    "title": "Pinewell - Technical discovery",
+    "start": "2026-07-17T11:00:00-07:00",
+    "end": "2026-07-17T11:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur147@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0055",
+    "title": "Fable Systems - Commercial review",
+    "start": "2026-09-09T10:00:00-07:00",
+    "end": "2026-09-09T10:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou13@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0056",
+    "title": "AlderWorks - Implementation planning",
+    "start": "2026-09-08T16:00:00-07:00",
+    "end": "2026-09-08T17:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu36@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0057",
+    "title": "Pinewell - Security working session",
+    "start": "2026-09-07T15:00:00-07:00",
+    "end": "2026-09-07T15:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "jonah.chandra59@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0058",
+    "title": "Keystone North - Executive check-in",
+    "start": "2026-09-06T14:00:00-07:00",
+    "end": "2026-09-06T14:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel82@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0059",
+    "title": "Fable Systems - Pilot retrospective",
+    "start": "2026-09-05T13:00:00-07:00",
+    "end": "2026-09-05T14:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito105@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0060",
+    "title": "AlderWorks - Technical discovery",
+    "start": "2026-09-04T12:00:00-07:00",
+    "end": "2026-09-04T12:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi128@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0061",
+    "title": "Pinewell - Commercial review",
+    "start": "2026-09-03T11:00:00-07:00",
+    "end": "2026-09-03T11:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta151@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0062",
+    "title": "Fable Systems - Implementation planning",
+    "start": "2026-09-02T10:00:00-07:00",
+    "end": "2026-09-02T11:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "rafael.usman17@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0063",
+    "title": "AlderWorks - Security working session",
+    "start": "2026-09-01T16:00:00-07:00",
+    "end": "2026-09-01T16:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen40@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0064",
+    "title": "Pinewell - Executive check-in",
+    "start": "2026-08-31T15:00:00-07:00",
+    "end": "2026-08-31T15:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong63@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0065",
+    "title": "Keystone North - Pilot retrospective",
+    "start": "2026-08-30T14:00:00-07:00",
+    "end": "2026-08-30T15:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen86@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0066",
+    "title": "Fable Systems - Technical discovery",
+    "start": "2026-08-29T13:00:00-07:00",
+    "end": "2026-08-29T13:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou109@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0067",
+    "title": "AlderWorks - Commercial review",
+    "start": "2026-08-28T12:00:00-07:00",
+    "end": "2026-08-28T12:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu132@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0068",
+    "title": "Pinewell - Implementation planning",
+    "start": "2026-08-27T11:00:00-07:00",
+    "end": "2026-08-27T12:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "jonah.chandra155@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0069",
+    "title": "Fable Systems - Security working session",
+    "start": "2026-08-26T10:00:00-07:00",
+    "end": "2026-08-26T10:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "dev.quinn21@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0070",
+    "title": "AlderWorks - Executive check-in",
+    "start": "2026-08-25T16:00:00-07:00",
+    "end": "2026-08-25T16:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah44@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0071",
+    "title": "Pinewell - Pilot retrospective",
+    "start": "2026-08-24T15:00:00-07:00",
+    "end": "2026-08-24T16:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "nico.shah67@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0072",
+    "title": "Keystone North - Technical discovery",
+    "start": "2026-08-23T14:00:00-07:00",
+    "end": "2026-08-23T14:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "noor.hale90@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0073",
+    "title": "Fable Systems - Commercial review",
+    "start": "2026-08-22T13:00:00-07:00",
+    "end": "2026-08-22T13:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "rafael.usman113@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0074",
+    "title": "AlderWorks - Implementation planning",
+    "start": "2026-08-21T12:00:00-07:00",
+    "end": "2026-08-21T13:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "tara.jensen136@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0075",
+    "title": "Pinewell - Security working session",
+    "start": "2026-08-20T11:00:00-07:00",
+    "end": "2026-08-20T11:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "caleb.wong159@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0076",
+    "title": "Fable Systems - Executive check-in",
+    "start": "2026-08-19T10:00:00-07:00",
+    "end": "2026-08-19T10:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "eli.mendez25@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0077",
+    "title": "AlderWorks - Pilot retrospective",
+    "start": "2026-08-18T16:00:00-07:00",
+    "end": "2026-08-18T17:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett48@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0078",
+    "title": "Pinewell - Technical discovery",
+    "start": "2026-08-17T15:00:00-07:00",
+    "end": "2026-08-17T15:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "hugo.ortiz71@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0079",
+    "title": "Keystone North - Commercial review",
+    "start": "2026-08-16T14:00:00-07:00",
+    "end": "2026-08-16T14:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "rina.dawson94@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0080",
+    "title": "Fable Systems - Implementation planning",
+    "start": "2026-08-15T13:00:00-07:00",
+    "end": "2026-08-15T14:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "dev.quinn117@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0081",
+    "title": "AlderWorks - Security working session",
+    "start": "2026-08-14T12:00:00-07:00",
+    "end": "2026-08-14T12:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "elena.farah140@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0082",
+    "title": "Keystone North - Executive check-in",
+    "start": "2026-08-13T11:00:00-07:00",
+    "end": "2026-08-13T11:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran6@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0083",
+    "title": "Fable Systems - Pilot retrospective",
+    "start": "2026-08-12T10:00:00-07:00",
+    "end": "2026-08-12T11:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito29@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0084",
+    "title": "AlderWorks - Technical discovery",
+    "start": "2026-08-11T16:00:00-07:00",
+    "end": "2026-08-11T16:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "marta.vega52@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0085",
+    "title": "Pinewell - Commercial review",
+    "start": "2026-08-10T15:00:00-07:00",
+    "end": "2026-08-10T15:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "drew.kaur75@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0086",
+    "title": "Keystone North - Implementation planning",
+    "start": "2026-08-09T14:00:00-07:00",
+    "end": "2026-08-09T15:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "leila.yates98@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0087",
+    "title": "Fable Systems - Security working session",
+    "start": "2026-08-08T13:00:00-07:00",
+    "end": "2026-08-08T13:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "eli.mendez121@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0088",
+    "title": "AlderWorks - Executive check-in",
+    "start": "2026-08-07T12:00:00-07:00",
+    "end": "2026-08-07T12:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "amina.bennett144@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0089",
+    "title": "Keystone North - Pilot retrospective",
+    "start": "2026-08-06T11:00:00-07:00",
+    "end": "2026-08-06T12:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel10@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0090",
+    "title": "Fable Systems - Technical discovery",
+    "start": "2026-08-05T10:00:00-07:00",
+    "end": "2026-08-05T10:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "owen.esposito33@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0091",
+    "title": "AlderWorks - Commercial review",
+    "start": "2026-08-04T16:00:00-07:00",
+    "end": "2026-08-04T16:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "sofia.rossi56@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0092",
+    "title": "Pinewell - Implementation planning",
+    "start": "2026-08-03T15:00:00-07:00",
+    "end": "2026-08-03T16:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "theo.gupta79@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0093",
+    "title": "Keystone North - Security working session",
+    "start": "2026-08-02T14:00:00-07:00",
+    "end": "2026-08-02T14:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mina.tran102@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0094",
+    "title": "Fable Systems - Executive check-in",
+    "start": "2026-08-01T13:00:00-07:00",
+    "end": "2026-08-01T13:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "mateo.ito125@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0095",
+    "title": "AlderWorks - Pilot retrospective",
+    "start": "2026-07-31T12:00:00-07:00",
+    "end": "2026-07-31T13:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "marta.vega148@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0096",
+    "title": "Keystone North - Technical discovery",
+    "start": "2026-07-30T11:00:00-07:00",
+    "end": "2026-07-30T11:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "lucia.larsen14@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0097",
+    "title": "Fable Systems - Commercial review",
+    "start": "2026-07-29T10:00:00-07:00",
+    "end": "2026-07-29T10:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "samir.zhou37@fablesystems6.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0098",
+    "title": "AlderWorks - Implementation planning",
+    "start": "2026-07-28T16:00:00-07:00",
+    "end": "2026-07-28T17:00:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "iris.nwosu60@alderworks1.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0099",
+    "title": "Pinewell - Security working session",
+    "start": "2026-07-27T15:00:00-07:00",
+    "end": "2026-07-27T15:30:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "jonah.chandra83@pinewell16.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  },
+  {
+    "event_id": "CAL-0100",
+    "title": "Keystone North - Executive check-in",
+    "start": "2026-07-26T14:00:00-07:00",
+    "end": "2026-07-26T14:45:00-07:00",
+    "status": "completed",
+    "attendee_emails": [
+      "alex.morgan@brightpath.example",
+      "anika.patel106@keystonenorth11.example"
+    ],
+    "description": "Discussed current questions, ownership, and the next checkpoint."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "construction": "deterministic fictional product telemetry",
+  "review_period": "2026-08 (four weekly snapshots beginning 2026-08-03 through 2026-08-24)",
+  "comparison_period": "2026-07 (four weekly snapshots beginning 2026-07-06 through 2026-07-27)",
+  "observation_rows": 479,
+  "aggregation_note": "Use metric_definitions.csv; numerator and denominator support weighted aggregation across segments.",
+  "status_rule": "For higher-is-better metrics, on track is at or above target; at risk is within the listed relative band below target; otherwise miss. Reverse the inequalities for lower-is-better metrics."
+}

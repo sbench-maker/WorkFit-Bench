@@ -1,0 +1,3 @@
+# Offline website snapshot
+
+This fixture represents a frozen website and is not a live observation. Use the preinstalled `firecrawl` CLI against `https://docs.northstar.test`; it follows links in `site_snapshot.json` without network access. The supported crawl flags are `--wait`, `--progress`, `--limit`, `--max-depth`, `--include-paths`, `--exclude-paths`, `--delay`, `--max-concurrency`, `--pretty`, and `-o/--output`. Crawl output is JSON with crawl metadata and a `data` array of extracted pages (`url`, `title`, `markdown`, `depth`). Path options may be repeated or comma-separated. URL query strings do not create a second page.

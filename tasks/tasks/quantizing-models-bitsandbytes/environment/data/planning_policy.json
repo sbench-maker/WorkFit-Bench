@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "mode_priority": [
+    "nf4_4bit",
+    "int8_8bit",
+    "fp16"
+  ],
+  "weight_gb_per_billion_parameters": {
+    "nf4_4bit": 0.5,
+    "int8_8bit": 1.0,
+    "fp16": 2.0
+  },
+  "accuracy_loss_source": {
+    "nf4_4bit": "loss_nf4_pct",
+    "int8_8bit": "loss_int8_pct",
+    "fp16": 0.0
+  },
+  "mode_support_source": {
+    "nf4_4bit": "supports_nf4",
+    "int8_8bit": "supports_int8",
+    "fp16": true
+  },
+  "offload": {
+    "allowed_latency_classes": [
+      "standard",
+      "batch"
+    ],
+    "minimum_gpu_weight_fraction": 0.35
+  },
+  "int8_threshold": {
+    "accuracy_sensitive_cap_at_or_below_pct": 0.35,
+    "accuracy_sensitive_value": 5.0,
+    "default_value": 6.0
+  },
+  "round_numeric_fields_to_decimals": 2
+}

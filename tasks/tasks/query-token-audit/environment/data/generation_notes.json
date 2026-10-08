@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "fictional": true,
+  "record_counts": {
+    "review_queue": 240,
+    "audit_responses": 240
+  },
+  "join_key": "audit_request_id",
+  "notes": [
+    "All projects, symbols, addresses, and responses are fictional.",
+    "Some unavailable snapshots deliberately retain stale-looking risk fields to exercise validity handling.",
+    "Tax values include both boundary values and unknown values."
+  ]
+}

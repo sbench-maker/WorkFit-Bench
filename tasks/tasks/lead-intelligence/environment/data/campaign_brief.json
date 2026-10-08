@@ -1,0 +1,159 @@
+{
+  "campaign_id": "TP-DP-2026Q4",
+  "campaign_name": "TracePilot design-partner outreach",
+  "as_of_date": "2026-09-01",
+  "shortlist_size": 12,
+  "goal": "Book engineering-leader workflow reviews for a private design-partner cohort.",
+  "target_topics": [
+    "release_reliability",
+    "ci_cd",
+    "developer_productivity"
+  ],
+  "identity_resolution": {
+    "group_by": "person_id",
+    "eligible_sources": "source_verified=true",
+    "field_rule": "For each field, use the most recent non-empty value by observed_at; on an exact timestamp tie prefer crm, then linkedin, then x."
+  },
+  "exclusions": {
+    "consent_status": [
+      "do_not_contact"
+    ],
+    "lifecycle_stage": [
+      "active_opportunity",
+      "current_customer"
+    ]
+  },
+  "score": {
+    "role_alignment": {
+      "weight": 30,
+      "points": {
+        "CTO": 30,
+        "VP Engineering": 30,
+        "Head of Engineering": 27,
+        "Director of Engineering": 23,
+        "Founder": 20,
+        "CEO": 18,
+        "Engineering Manager": 15,
+        "Developer Advocate": 10,
+        "Product Manager": 8,
+        "Other": 0
+      }
+    },
+    "industry_match": {
+      "weight": 25,
+      "points": {
+        "ci_cd": 25,
+        "developer_tools": 25,
+        "observability": 22,
+        "devsecops": 20,
+        "cloud_infrastructure": 18,
+        "ai_tooling": 15,
+        "fintech": 5,
+        "healthcare": 0
+      }
+    },
+    "recent_activity": {
+      "weight": 20,
+      "rule": "Use the newest verified activity in a target topic. Score by age in calendar days at as_of_date.",
+      "age_bands": [
+        {
+          "max_days": 14,
+          "points": 20
+        },
+        {
+          "max_days": 30,
+          "points": 17
+        },
+        {
+          "max_days": 60,
+          "points": 12
+        },
+        {
+          "max_days": 90,
+          "points": 6
+        }
+      ],
+      "otherwise": 0
+    },
+    "influence": {
+      "weight": 10,
+      "follower_bands": [
+        {
+          "min_followers": 50000,
+          "points": 10
+        },
+        {
+          "min_followers": 20000,
+          "points": 8
+        },
+        {
+          "min_followers": 5000,
+          "points": 6
+        },
+        {
+          "min_followers": 1000,
+          "points": 4
+        },
+        {
+          "min_followers": 250,
+          "points": 2
+        }
+      ],
+      "otherwise": 0
+    },
+    "location_proximity": {
+      "weight": 10,
+      "points": {
+        "San Francisco Bay Area": 10,
+        "Seattle": 8,
+        "Portland": 8,
+        "New York": 5,
+        "Boston": 5,
+        "Toronto": 5,
+        "Remote": 4,
+        "London": 2,
+        "Berlin": 2
+      },
+      "otherwise": 0
+    },
+    "engagement_overlap": {
+      "weight": 5,
+      "points": {
+        "demo_request": 5,
+        "content_reply": 4,
+        "webinar_attendance": 3,
+        "content_like": 2,
+        "email_open": 1,
+        "none": 0
+      }
+    },
+    "total": "Sum the six point values; maximum 100.",
+    "ranking": "Eligible people only, descending total score, then newest qualifying activity date, then person_id ascending."
+  },
+  "warm_paths": {
+    "eligible": "verified=true only",
+    "warmth_order": [
+      "direct_mutual",
+      "portfolio_advisory",
+      "coworker_alumni",
+      "event_overlap",
+      "content_engagement"
+    ],
+    "tie_break": "newest evidence_date, then path_id ascending"
+  },
+  "primary_channel_order": [
+    "warm_intro_email when a verified path exists and the bridge has email",
+    "direct_email when the target has email",
+    "linkedin_dm when the target has linkedin_slug",
+    "x_dm when the target has x_handle",
+    "manual_research otherwise"
+  ],
+  "outreach_limits": {
+    "warm_intro_email_body_words": 60,
+    "direct_email_body_words": 80,
+    "linkedin_dm_body_words": 55,
+    "x_dm_body_words": 40,
+    "email_subject_words": 7,
+    "touches_requested": 1
+  }
+}

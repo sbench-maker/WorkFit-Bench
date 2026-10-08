@@ -1,0 +1,30 @@
+{
+  "fixture": "Fictional SaaS subscription KPI snapshot",
+  "reporting_month": "2025-08",
+  "files": {
+    "customers.csv": 293,
+    "monthly_subscription_snapshots.csv": 1959,
+    "cancellations.csv": 42,
+    "acquisition_spend.csv": 40,
+    "targets.json": 6
+  },
+  "integrity": {
+    "unique_customers": 293,
+    "snapshot_months": [
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08"
+    ],
+    "cancellation_statuses": {
+      "completed": 40,
+      "scheduled": 1,
+      "rescinded": 1
+    }
+  }
+}

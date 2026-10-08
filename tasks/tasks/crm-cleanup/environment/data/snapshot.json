@@ -1,0 +1,10 @@
+{
+  "snapshot_type": "fictional_offline_crm_export",
+  "as_of": "2026-08-31T23:59:59Z",
+  "row_counts": {
+    "contacts.csv": 240,
+    "deals.csv": 120,
+    "deal_contacts.csv": 208,
+    "activities.csv": 480
+  }
+}

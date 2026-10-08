@@ -1,0 +1,26 @@
+observation_id,participant_id,theme_id,intensity_1_to_5,evidence_type,quote,observed_consequence
+O001,P01,T_VALIDATION,5,past_behavior,"The banner said 27 rows failed, but it never told me which column to fix.",delayed first cohort launch
+O002,P01,T_TEMPLATE,4,past_behavior,"Our HR export says work email, while the template expects email address.",delayed first cohort launch
+O003,P01,T_ROLE_SETUP,3,past_behavior,After import I still was not sure which people should be learners or coordinators.,delayed first cohort launch
+O004,P01,T_PRICING,2,past_behavior,I worried that a test upload would immediately count against our seat limit.,raised a planning question
+O005,P02,T_VALIDATION,4,past_behavior,I uploaded the same file three times because I could not see what had changed.,delayed first cohort launch
+O006,P02,T_TEMPLATE,4,past_behavior,I spent most of the hour renaming columns before I could even test the upload.,delayed first cohort launch
+O007,P02,T_PRICING,2,past_behavior,I did not know whether deleted test learners would still be billed.,raised a planning question
+O008,P03,T_PERMISSIONS,5,past_behavior,"Payroll owns the employee export, so I waited two days for a corrected file.",delayed first cohort launch
+O009,P03,T_ROLE_SETUP,3,past_behavior,"The role names sounded similar, so I stopped before launching the cohort.",delayed first cohort launch
+O010,P04,T_VALIDATION,5,past_behavior,Support found a date format issue that the screen only called invalid data.,delayed first cohort launch
+O011,P04,T_TEMPLATE,4,past_behavior,The example template did not match the file our payroll system exports.,delayed first cohort launch
+O012,P05,T_VALIDATION,5,past_behavior,I had to compare every row manually after the generic error appeared.,delayed first cohort launch
+O013,P05,T_PERMISSIONS,4,past_behavior,I could not get manager IDs without asking IT for a second export.,delayed first cohort launch
+O014,P05,T_ROLE_SETUP,3,past_behavior,After import I still was not sure which people should be learners or coordinators.,delayed first cohort launch
+O015,P06,T_VALIDATION,4,past_behavior,"The banner said 27 rows failed, but it never told me which column to fix.",delayed first cohort launch
+O016,P06,T_TEMPLATE,3,past_behavior,"Our HR export says work email, while the template expects email address.",delayed first cohort launch
+O017,P07,T_VALIDATION,5,past_behavior,I uploaded the same file three times because I could not see what had changed.,delayed first cohort launch
+O018,P07,T_TEMPLATE,4,past_behavior,I spent most of the hour renaming columns before I could even test the upload.,delayed first cohort launch
+O019,P07,T_PERMISSIONS,4,past_behavior,The import was blocked while legal checked whether contractor records could be shared.,delayed first cohort launch
+O020,P08,T_VALIDATION,5,past_behavior,Support found a date format issue that the screen only called invalid data.,delayed first cohort launch
+O021,P08,T_TEMPLATE,3,past_behavior,The example template did not match the file our payroll system exports.,delayed first cohort launch
+O022,P08,T_PERMISSIONS,5,past_behavior,"Payroll owns the employee export, so I waited two days for a corrected file.",delayed first cohort launch
+O023,P09,T_VALIDATION,4,past_behavior,I had to compare every row manually after the generic error appeared.,delayed first cohort launch
+O024,P10,T_PERMISSIONS,4,past_behavior,I could not get manager IDs without asking IT for a second export.,delayed first cohort launch
+O025,P11,T_OTHER,3,past_behavior,"For our global rollout, single sign-on sequencing mattered more than CSV import.",raised a planning question

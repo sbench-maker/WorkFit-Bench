@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__scope_disposition",
+      "title": "Correct test-by-test disposition",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan moves the navigation/process and native-window cases to browser coverage while retaining the empty-URL guard and URL formatting cases as unit tests.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_scope_dispositions"
+      ]
+    },
+    {
+      "id": "completion__behavior_evidence",
+      "title": "Code-grounded behavior mapping",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan accurately traces the migrated assertions through the supplied production code and existing browser-test precedents, distinguishing real navigation, process readiness, native initialization, registration, visibility, and close notification from test-only shortcuts.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__implementation_build_plan",
+      "title": "Actionable fixture and build plan",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The handoff proposes coherent browser fixtures, preserves the remaining unit file where needed, identifies source-list and ChromeOS-conditional build changes, and avoids unnecessary production edits.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    },
+    {
+      "id": "completion__lifecycle_safety",
+      "title": "Bot-safe setup and teardown",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan prevents process-readiness, partial AppWindow initialization, and observer-order teardown failures with concrete setup, waits, and native close ordering grounded in the checkout.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__scope_disposition",
+        "title": "Correct test-by-test disposition",
+        "required_score": 10
+      },
+      {
+        "id": "completion__behavior_evidence",
+        "title": "Code-grounded behavior mapping",
+        "required_score": 10
+      },
+      {
+        "id": "completion__implementation_build_plan",
+        "title": "Actionable fixture and build plan",
+        "required_score": 10
+      },
+      {
+        "id": "completion__lifecycle_safety",
+        "title": "Bot-safe setup and teardown",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,6 @@
+blocker_id,card_id,category,state_blocking,owner,failed_gate,evidence_id,next_action,status
+B01,C04,failed_gate,true,shield,risk_review,E0221,Remove secret-like debug output and rerun the risk review,open
+B02,C08,failed_gate,true,sage,eval,E0233,Fix the regression on multilingual ranking cases and rerun the evaluator,open
+B03,C15,overlapping_write,true,nova,boundary,,"Wait for C02 to merge, then rebase in an isolated worktree and regenerate the SDK",open
+B04,C06,acceptance_pending,false,atlas,acceptance,,Add rollback-path coverage for A0603,open
+B05,C17,handoff_pending,false,orion,handoff,,Publish the billing webhook handoff with changed files and test evidence,open

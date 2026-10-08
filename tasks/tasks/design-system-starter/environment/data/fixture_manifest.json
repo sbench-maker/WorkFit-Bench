@@ -1,0 +1,13 @@
+{
+  "fictional": true,
+  "files": {
+    "accessibility_notes.md": 1,
+    "brand_brief.json": 1,
+    "component_scope.json": 1,
+    "ui_inventory.json": 240
+  },
+  "join_keys": {
+    "ui_inventory.canonical_component": "component_scope.hierarchy values"
+  },
+  "method": "deterministic local construction"
+}

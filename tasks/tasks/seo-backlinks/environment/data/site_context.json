@@ -1,0 +1,76 @@
+{
+  "snapshot_date": "2026-06-30",
+  "snapshot_kind": "fictional point-in-time export",
+  "network_required": false,
+  "sites": {
+    "cipherleaf.example": {
+      "role": "target",
+      "brand_terms": [
+        "cipherleaf",
+        "cipher leaf",
+        "cipherleaf security"
+      ],
+      "generic_anchors": [
+        "learn more",
+        "read the guide",
+        "this report",
+        "visit website",
+        "click here"
+      ],
+      "exact_keywords": [
+        "cloud compliance platform",
+        "security compliance software"
+      ],
+      "partial_phrases": [
+        "cloud compliance",
+        "security compliance",
+        "audit automation",
+        "vendor trust"
+      ],
+      "market_countries": [
+        "US",
+        "GB",
+        "CA",
+        "AU"
+      ],
+      "language": "en",
+      "outreach_assets": {
+        "cloud_controls": "/research/cloud-controls-benchmark",
+        "vendor_risk": "/guides/vendor-risk-evidence",
+        "audit_automation": "/templates/audit-evidence-map"
+      }
+    },
+    "vaultspire.example": {
+      "role": "competitor",
+      "brand_terms": [
+        "vaultspire",
+        "vault spire",
+        "vaultspire labs"
+      ],
+      "generic_anchors": [
+        "learn more",
+        "read the guide",
+        "this report",
+        "visit website",
+        "click here"
+      ],
+      "exact_keywords": [
+        "continuous compliance platform",
+        "security evidence software"
+      ],
+      "partial_phrases": [
+        "continuous compliance",
+        "security evidence",
+        "audit readiness",
+        "vendor assurance"
+      ],
+      "market_countries": [
+        "US",
+        "GB",
+        "CA",
+        "AU"
+      ],
+      "language": "en"
+    }
+  }
+}

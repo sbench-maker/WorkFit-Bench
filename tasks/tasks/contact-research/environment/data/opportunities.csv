@@ -1,0 +1,32 @@
+opportunity_id,account_id,opportunity_type,status,stage,amount_usd,target_close_date
+OPP-0001,A-001,New Business,Open,Business Case,43500,2026-10-04
+OPP-0002,A-002,New Business,Open,Technical Validation,47000,2026-10-07
+OPP-0003,A-003,Renewal,Open,Contracting,50500,2026-10-10
+OPP-0004,A-004,New Business,Closed Won,Discovery,54000,2026-10-13
+OPP-0005,A-005,New Business,Open,Business Case,57500,2026-10-16
+OPP-0006,A-006,Renewal,Open,Technical Validation,61000,2026-10-19
+OPP-0008,A-008,New Business,Closed Won,Discovery,68000,2026-10-25
+OPP-0009,A-009,Renewal,Open,Business Case,71500,2026-10-28
+OPP-0010,A-010,New Business,Open,Technical Validation,75000,2026-10-31
+OPP-0011,A-011,New Business,Open,Contracting,78500,2026-11-03
+OPP-0012,A-012,Renewal,Closed Won,Discovery,82000,2026-11-06
+OPP-0013,A-013,New Business,Open,Business Case,85500,2026-11-09
+OPP-0014,A-014,New Business,Open,Technical Validation,89000,2026-11-12
+OPP-0015,A-015,Renewal,Open,Contracting,92500,2026-11-15
+OPP-0016,A-016,New Business,Closed Won,Discovery,96000,2026-11-18
+OPP-0017,A-017,New Business,Open,Business Case,99500,2026-11-21
+OPP-0018,A-018,Renewal,Open,Technical Validation,103000,2026-11-24
+OPP-0019,A-019,New Business,Open,Contracting,106500,2026-11-27
+OPP-0020,A-020,New Business,Closed Won,Discovery,110000,2026-11-30
+OPP-0021,A-021,Renewal,Open,Business Case,113500,2026-12-03
+OPP-0022,A-022,New Business,Open,Technical Validation,117000,2026-12-06
+OPP-0023,A-023,New Business,Open,Contracting,120500,2026-12-09
+OPP-0024,A-024,Renewal,Closed Won,Discovery,124000,2026-12-12
+OPP-0025,A-025,New Business,Open,Business Case,127500,2026-12-15
+OPP-0026,A-026,New Business,Open,Technical Validation,131000,2026-12-18
+OPP-0027,A-027,Renewal,Open,Contracting,134500,2026-12-21
+OPP-0028,A-028,New Business,Closed Won,Discovery,138000,2026-12-24
+OPP-0029,A-029,New Business,Open,Business Case,141500,2026-12-27
+OPP-0030,A-030,Renewal,Open,Technical Validation,145000,2026-12-30
+OPP-0101,A-007,New Business,Closed Won,Closed Won,120000,2025-11-30
+OPP-0208,A-007,Expansion,Open,Technical Validation,180000,2026-12-15

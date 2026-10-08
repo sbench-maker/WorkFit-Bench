@@ -1,0 +1,25 @@
+{
+  "snapshot_as_of": "2026-09-10T18:00:00-07:00",
+  "target_deal_id": "DEAL-0042",
+  "target_deal_name": "Northwind Labs Enterprise Renewal",
+  "recent_communication_lookback_days": 14,
+  "contradictory_note_minimum_age_days": 90,
+  "review_fields": [
+    "hs_lastactivitydate",
+    "hs_next_step",
+    "dealstage",
+    "closedate",
+    "amount",
+    "associated_contacts",
+    "notes_history"
+  ],
+  "communication_scope": "Email threads and completed calendar events count only when at least one current associated contact of the target deal participates and the subject or event context concerns that deal.",
+  "activity_deduplication": "A communication is already logged when a target-deal CRM activity has the same source_ref.",
+  "contact_lookup": "Match contact email addresses case-insensitively before proposing creation.",
+  "write_policy": {
+    "cleanup_mode": "proposal_only_until_owner_approval",
+    "deal_stage": "flag_for_owner_decision; never include in a proposed write set",
+    "history": "append clarifying notes; never edit or delete historical activities or notes",
+    "deletion": "not_permitted"
+  }
+}

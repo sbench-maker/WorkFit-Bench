@@ -1,0 +1,52 @@
+{
+  "snapshot_type": "fictional offline workspace export",
+  "reporting_date": "2026-10-05",
+  "as_of": "2026-10-05T08:30:00-04:00",
+  "timezone": "America/New_York",
+  "target_project_id": "PRJ-ORBIT",
+  "target_project_name": "Orbit Billing Launch",
+  "project_manager_id": "MAYA",
+  "project_channel": "orbit-launch",
+  "restricted_channel": "orbit-core-private",
+  "planning_window": {
+    "start": "2026-10-05",
+    "end": "2026-10-09"
+  },
+  "status_order": [
+    "Backlog",
+    "Ready",
+    "In Progress",
+    "In Review",
+    "Blocked",
+    "Done",
+    "Cancelled"
+  ],
+  "tracker_rules": {
+    "authorized_reporters": "the task owner or project manager",
+    "apply_after_tracker_timestamp_only": true,
+    "ignore_duplicate_of_events": true,
+    "completed_tasks_require_explicit_reopen": true,
+    "keep_latest_eligible_event_per_task": true,
+    "apply_changed_status_percent_or_blocker": true
+  },
+  "scheduling_rules": {
+    "slot_increment_minutes": 15,
+    "selection": "earliest slot inside the request window where every required attendee is both available and conflict-free",
+    "recurring_requests": "one start time must work on every recurrence date",
+    "optional_attendees": "include only when requested, non-sensitive, and free at the chosen slot; never include optional attendees in sensitive meetings",
+    "deduplication": "do not create a request that already has a calendar event with the same linked_request_id"
+  },
+  "communication_rules": {
+    "weekly_status_recipient_roles": [
+      "executive_sponsor",
+      "customer_success",
+      "marketing_lead"
+    ],
+    "weekly_status_requires_active_opt_in": true,
+    "critical_blocker_escalation": "overdue Critical tasks still Blocked after reconciliation",
+    "blocker_recipients": "project manager and the task escalation contact",
+    "escalation_cooldown_hours": 48,
+    "document_announcement": "upload and announce the newest approved team-visible version when that exact version has not been announced",
+    "document_channel": "orbit-launch"
+  }
+}

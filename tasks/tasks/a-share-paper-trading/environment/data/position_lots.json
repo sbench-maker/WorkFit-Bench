@@ -1,0 +1,290 @@
+[
+  {
+    "lot_id": "LOT-SA-001",
+    "account_id": "swing_alpha",
+    "symbol": "600111",
+    "acquired_date": "2026-09-09",
+    "qty": 300,
+    "remaining_qty": 300,
+    "cost_price": 20.0
+  },
+  {
+    "lot_id": "LOT-SA-002",
+    "account_id": "swing_alpha",
+    "symbol": "600111",
+    "acquired_date": "2026-09-10",
+    "qty": 200,
+    "remaining_qty": 200,
+    "cost_price": 21.0
+  },
+  {
+    "lot_id": "LOT-SA-003",
+    "account_id": "swing_alpha",
+    "symbol": "300222",
+    "acquired_date": "2026-09-08",
+    "qty": 200,
+    "remaining_qty": 200,
+    "cost_price": 50.0
+  },
+  {
+    "lot_id": "LOT-SA-004",
+    "account_id": "swing_alpha",
+    "symbol": "600333",
+    "acquired_date": "2026-08-28",
+    "qty": 75,
+    "remaining_qty": 75,
+    "cost_price": 9.8
+  },
+  {
+    "lot_id": "LOT-H-001",
+    "account_id": "long_term",
+    "symbol": "600444",
+    "acquired_date": "2026-07-03",
+    "qty": 200,
+    "remaining_qty": 200,
+    "cost_price": 9.67
+  },
+  {
+    "lot_id": "LOT-H-002",
+    "account_id": "long_term",
+    "symbol": "600555",
+    "acquired_date": "2026-07-05",
+    "qty": 300,
+    "remaining_qty": 300,
+    "cost_price": 12.84
+  },
+  {
+    "lot_id": "LOT-H-003",
+    "account_id": "long_term",
+    "symbol": "000666",
+    "acquired_date": "2026-07-07",
+    "qty": 400,
+    "remaining_qty": 400,
+    "cost_price": 16.01
+  },
+  {
+    "lot_id": "LOT-H-004",
+    "account_id": "long_term",
+    "symbol": "600888",
+    "acquired_date": "2026-07-09",
+    "qty": 500,
+    "remaining_qty": 500,
+    "cost_price": 19.18
+  },
+  {
+    "lot_id": "LOT-H-005",
+    "account_id": "long_term",
+    "symbol": "000777",
+    "acquired_date": "2026-07-11",
+    "qty": 600,
+    "remaining_qty": 600,
+    "cost_price": 22.35
+  },
+  {
+    "lot_id": "LOT-H-006",
+    "account_id": "long_term",
+    "symbol": "688123",
+    "acquired_date": "2026-07-13",
+    "qty": 700,
+    "remaining_qty": 700,
+    "cost_price": 25.52
+  },
+  {
+    "lot_id": "LOT-H-007",
+    "account_id": "long_term",
+    "symbol": "002345",
+    "acquired_date": "2026-07-15",
+    "qty": 100,
+    "remaining_qty": 100,
+    "cost_price": 28.69
+  },
+  {
+    "lot_id": "LOT-H-008",
+    "account_id": "long_term",
+    "symbol": "601234",
+    "acquired_date": "2026-07-17",
+    "qty": 200,
+    "remaining_qty": 200,
+    "cost_price": 31.86
+  },
+  {
+    "lot_id": "LOT-H-009",
+    "account_id": "long_term",
+    "symbol": "301456",
+    "acquired_date": "2026-07-19",
+    "qty": 300,
+    "remaining_qty": 300,
+    "cost_price": 35.03
+  },
+  {
+    "lot_id": "LOT-H-010",
+    "account_id": "long_term",
+    "symbol": "600111",
+    "acquired_date": "2026-07-21",
+    "qty": 400,
+    "remaining_qty": 400,
+    "cost_price": 38.2
+  },
+  {
+    "lot_id": "LOT-H-011",
+    "account_id": "long_term",
+    "symbol": "300222",
+    "acquired_date": "2026-07-23",
+    "qty": 500,
+    "remaining_qty": 500,
+    "cost_price": 6.5
+  },
+  {
+    "lot_id": "LOT-H-012",
+    "account_id": "long_term",
+    "symbol": "600333",
+    "acquired_date": "2026-07-25",
+    "qty": 600,
+    "remaining_qty": 600,
+    "cost_price": 9.67
+  },
+  {
+    "lot_id": "LOT-H-013",
+    "account_id": "long_term",
+    "symbol": "600444",
+    "acquired_date": "2026-07-27",
+    "qty": 700,
+    "remaining_qty": 700,
+    "cost_price": 12.84
+  },
+  {
+    "lot_id": "LOT-H-014",
+    "account_id": "long_term",
+    "symbol": "600555",
+    "acquired_date": "2026-07-29",
+    "qty": 100,
+    "remaining_qty": 100,
+    "cost_price": 16.01
+  },
+  {
+    "lot_id": "LOT-H-015",
+    "account_id": "long_term",
+    "symbol": "000666",
+    "acquired_date": "2026-07-31",
+    "qty": 200,
+    "remaining_qty": 200,
+    "cost_price": 19.18
+  },
+  {
+    "lot_id": "LOT-H-016",
+    "account_id": "long_term",
+    "symbol": "600888",
+    "acquired_date": "2026-08-02",
+    "qty": 300,
+    "remaining_qty": 300,
+    "cost_price": 22.35
+  },
+  {
+    "lot_id": "LOT-H-017",
+    "account_id": "quant_beta",
+    "symbol": "000777",
+    "acquired_date": "2026-08-04",
+    "qty": 400,
+    "remaining_qty": 400,
+    "cost_price": 25.52
+  },
+  {
+    "lot_id": "LOT-H-018",
+    "account_id": "quant_beta",
+    "symbol": "688123",
+    "acquired_date": "2026-08-06",
+    "qty": 500,
+    "remaining_qty": 500,
+    "cost_price": 28.69
+  },
+  {
+    "lot_id": "LOT-H-019",
+    "account_id": "quant_beta",
+    "symbol": "002345",
+    "acquired_date": "2026-08-08",
+    "qty": 600,
+    "remaining_qty": 600,
+    "cost_price": 31.86
+  },
+  {
+    "lot_id": "LOT-H-020",
+    "account_id": "quant_beta",
+    "symbol": "601234",
+    "acquired_date": "2026-08-10",
+    "qty": 700,
+    "remaining_qty": 700,
+    "cost_price": 35.03
+  },
+  {
+    "lot_id": "LOT-H-021",
+    "account_id": "quant_beta",
+    "symbol": "301456",
+    "acquired_date": "2026-08-12",
+    "qty": 100,
+    "remaining_qty": 100,
+    "cost_price": 38.2
+  },
+  {
+    "lot_id": "LOT-H-022",
+    "account_id": "quant_beta",
+    "symbol": "600111",
+    "acquired_date": "2026-08-14",
+    "qty": 200,
+    "remaining_qty": 200,
+    "cost_price": 6.5
+  },
+  {
+    "lot_id": "LOT-H-023",
+    "account_id": "quant_beta",
+    "symbol": "300222",
+    "acquired_date": "2026-08-16",
+    "qty": 300,
+    "remaining_qty": 300,
+    "cost_price": 9.67
+  },
+  {
+    "lot_id": "LOT-H-024",
+    "account_id": "quant_beta",
+    "symbol": "600333",
+    "acquired_date": "2026-08-18",
+    "qty": 400,
+    "remaining_qty": 400,
+    "cost_price": 12.84
+  },
+  {
+    "lot_id": "LOT-H-025",
+    "account_id": "quant_beta",
+    "symbol": "600444",
+    "acquired_date": "2026-08-20",
+    "qty": 500,
+    "remaining_qty": 500,
+    "cost_price": 16.01
+  },
+  {
+    "lot_id": "LOT-H-026",
+    "account_id": "quant_beta",
+    "symbol": "600555",
+    "acquired_date": "2026-08-22",
+    "qty": 600,
+    "remaining_qty": 600,
+    "cost_price": 19.18
+  },
+  {
+    "lot_id": "LOT-H-027",
+    "account_id": "quant_beta",
+    "symbol": "000666",
+    "acquired_date": "2026-08-24",
+    "qty": 700,
+    "remaining_qty": 700,
+    "cost_price": 22.35
+  },
+  {
+    "lot_id": "LOT-H-028",
+    "account_id": "quant_beta",
+    "symbol": "600888",
+    "acquired_date": "2026-08-26",
+    "qty": 100,
+    "remaining_qty": 100,
+    "cost_price": 25.52
+  }
+]

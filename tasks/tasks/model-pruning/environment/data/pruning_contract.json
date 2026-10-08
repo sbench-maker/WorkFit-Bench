@@ -1,0 +1,22 @@
+{
+  "model_id": "orion-mini-r3",
+  "method": "one-shot activation-aware weight pruning",
+  "retraining_allowed": false,
+  "activation_aggregation": "arithmetic mean of input_rms across sample_id, independently per tensor and input column",
+  "importance": "absolute source weight multiplied by the aggregated activation for that input column",
+  "sparsity_pattern": {
+    "name": "2:4",
+    "group_axis": "within each output row",
+    "grouping": "consecutive non-overlapping input-column groups starting at column 0",
+    "group_size": 4,
+    "keep": 2,
+    "pruned_value": 0.0
+  },
+  "selection": "keep the two greatest importance scores in every group",
+  "tie_break": "lower input-column index wins",
+  "eligible_source": "tensor_manifest.json eligible field",
+  "excluded_tensor_rule": "copy every ineligible tensor value exactly",
+  "expected_calibration_samples_per_eligible_tensor": 128,
+  "numeric_policy": "preserve retained source weights exactly; write pruned weights as numeric zero",
+  "runtime_measurements_in_fixture": false
+}

@@ -1,0 +1,176 @@
+path_id,target_person_id,bridge_id,path_type,verified,evidence_date,relationship_detail
+W0001,P002,B001,direct_mutual,true,2026-08-18,Mara has an active two-way professional connection with Nadia.
+W0002,P003,B004,direct_mutual,false,2026-08-29,Unverified imported follow edge.
+W0003,P003,B003,portfolio_advisory,true,2026-07-28,Niko advises Theo's company on platform strategy.
+W0004,P004,B006,coworker_alumni,true,2026-06-03,Inez and Priya worked on the same reliability team.
+W0005,P005,B002,direct_mutual,false,2026-08-31,Unverified social-graph suggestion.
+W0006,P006,B007,event_overlap,true,2026-07-18,Pavel and Lena joined the same release engineering roundtable.
+W0007,P008,B011,direct_mutual,true,2026-08-12,Rafi has an active two-way professional connection with Aria.
+W0008,P009,B008,content_engagement,true,2026-08-21,Tess and Dev exchanged substantive comments on a CI review thread.
+W0009,P010,B009,portfolio_advisory,true,2026-06-23,Amir is an adviser to Camille's company.
+W0010,P010,B017,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0011,P011,B005,direct_mutual,true,2026-08-24,Gabe has an active two-way professional connection with Owen.
+W0012,P012,B007,coworker_alumni,true,2026-04-26,A verified relationship recorded in the exported social graph.
+W0013,P013,B001,direct_mutual,true,2026-08-26,Mara has an active two-way professional connection with Keira.
+W0014,P014,B017,content_engagement,true,2026-04-08,A verified relationship recorded in the exported social graph.
+W0015,P015,B010,coworker_alumni,true,2026-05-04,June and Rina previously worked together on developer infrastructure.
+W0016,P015,B016,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0017,P016,B009,portfolio_advisory,true,2026-03-21,A verified relationship recorded in the exported social graph.
+W0018,P017,B012,event_overlap,true,2026-08-15,Nell and Mei attended the same platform leadership workshop.
+W0019,P018,B001,event_overlap,true,2026-03-03,A verified relationship recorded in the exported social graph.
+W0020,P020,B011,direct_mutual,true,2026-02-13,A verified relationship recorded in the exported social graph.
+W0021,P020,B015,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0022,P022,B003,coworker_alumni,true,2026-01-26,A verified relationship recorded in the exported social graph.
+W0023,P024,B013,content_engagement,true,2026-01-08,A verified relationship recorded in the exported social graph.
+W0024,P025,B014,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0025,P026,B005,portfolio_advisory,true,2025-12-21,A verified relationship recorded in the exported social graph.
+W0026,P028,B015,event_overlap,true,2026-08-10,A verified relationship recorded in the exported social graph.
+W0027,P030,B007,direct_mutual,true,2026-07-23,A verified relationship recorded in the exported social graph.
+W0028,P030,B013,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.
+W0029,P032,B017,coworker_alumni,true,2026-07-05,A verified relationship recorded in the exported social graph.
+W0030,P034,B009,content_engagement,true,2026-06-17,A verified relationship recorded in the exported social graph.
+W0031,P035,B012,direct_mutual,false,2026-08-25,An unverified inferred connection from a partial import.
+W0032,P036,B001,portfolio_advisory,true,2026-05-30,A verified relationship recorded in the exported social graph.
+W0033,P038,B011,event_overlap,true,2026-05-12,A verified relationship recorded in the exported social graph.
+W0034,P040,B003,direct_mutual,true,2026-04-24,A verified relationship recorded in the exported social graph.
+W0035,P040,B011,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0036,P042,B013,coworker_alumni,true,2026-04-06,A verified relationship recorded in the exported social graph.
+W0037,P044,B005,content_engagement,true,2026-03-19,A verified relationship recorded in the exported social graph.
+W0038,P045,B010,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0039,P046,B015,portfolio_advisory,true,2026-03-01,A verified relationship recorded in the exported social graph.
+W0040,P048,B007,event_overlap,true,2026-02-11,A verified relationship recorded in the exported social graph.
+W0041,P050,B017,direct_mutual,true,2026-01-24,A verified relationship recorded in the exported social graph.
+W0042,P050,B009,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0043,P052,B009,coworker_alumni,true,2026-01-06,A verified relationship recorded in the exported social graph.
+W0044,P054,B001,content_engagement,true,2025-12-19,A verified relationship recorded in the exported social graph.
+W0045,P055,B008,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0046,P056,B011,portfolio_advisory,true,2026-08-08,A verified relationship recorded in the exported social graph.
+W0047,P058,B003,event_overlap,true,2026-07-21,A verified relationship recorded in the exported social graph.
+W0048,P060,B013,direct_mutual,true,2026-07-03,A verified relationship recorded in the exported social graph.
+W0049,P060,B007,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.
+W0050,P062,B005,coworker_alumni,true,2026-06-15,A verified relationship recorded in the exported social graph.
+W0051,P064,B015,content_engagement,true,2026-05-28,A verified relationship recorded in the exported social graph.
+W0052,P065,B006,direct_mutual,false,2026-08-25,An unverified inferred connection from a partial import.
+W0053,P066,B007,portfolio_advisory,true,2026-05-10,A verified relationship recorded in the exported social graph.
+W0054,P068,B017,event_overlap,true,2026-04-22,A verified relationship recorded in the exported social graph.
+W0055,P070,B009,direct_mutual,true,2026-04-04,A verified relationship recorded in the exported social graph.
+W0056,P070,B005,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0057,P072,B001,coworker_alumni,true,2026-03-17,A verified relationship recorded in the exported social graph.
+W0058,P074,B011,content_engagement,true,2026-02-27,A verified relationship recorded in the exported social graph.
+W0059,P075,B004,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0060,P076,B003,portfolio_advisory,true,2026-02-09,A verified relationship recorded in the exported social graph.
+W0061,P078,B013,event_overlap,true,2026-01-22,A verified relationship recorded in the exported social graph.
+W0062,P080,B005,direct_mutual,true,2026-01-04,A verified relationship recorded in the exported social graph.
+W0063,P080,B003,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0064,P082,B015,coworker_alumni,true,2025-12-17,A verified relationship recorded in the exported social graph.
+W0065,P084,B007,content_engagement,true,2026-08-06,A verified relationship recorded in the exported social graph.
+W0066,P085,B002,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0067,P086,B017,portfolio_advisory,true,2026-07-19,A verified relationship recorded in the exported social graph.
+W0068,P088,B009,event_overlap,true,2026-07-01,A verified relationship recorded in the exported social graph.
+W0069,P090,B001,direct_mutual,true,2026-06-13,A verified relationship recorded in the exported social graph.
+W0070,P090,B001,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.
+W0071,P092,B011,coworker_alumni,true,2026-05-26,A verified relationship recorded in the exported social graph.
+W0072,P094,B003,content_engagement,true,2026-05-08,A verified relationship recorded in the exported social graph.
+W0073,P095,B018,direct_mutual,false,2026-08-25,An unverified inferred connection from a partial import.
+W0074,P096,B013,portfolio_advisory,true,2026-04-20,A verified relationship recorded in the exported social graph.
+W0075,P098,B005,event_overlap,true,2026-04-02,A verified relationship recorded in the exported social graph.
+W0076,P100,B015,direct_mutual,true,2026-03-15,A verified relationship recorded in the exported social graph.
+W0077,P100,B017,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0078,P102,B007,coworker_alumni,true,2026-02-25,A verified relationship recorded in the exported social graph.
+W0079,P104,B017,content_engagement,true,2026-02-07,A verified relationship recorded in the exported social graph.
+W0080,P105,B016,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0081,P106,B009,portfolio_advisory,true,2026-01-20,A verified relationship recorded in the exported social graph.
+W0082,P108,B001,event_overlap,true,2026-01-02,A verified relationship recorded in the exported social graph.
+W0083,P110,B011,direct_mutual,true,2025-12-15,A verified relationship recorded in the exported social graph.
+W0084,P110,B015,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0085,P112,B003,coworker_alumni,true,2026-08-04,A verified relationship recorded in the exported social graph.
+W0086,P114,B013,content_engagement,true,2026-07-17,A verified relationship recorded in the exported social graph.
+W0087,P115,B014,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0088,P116,B005,portfolio_advisory,true,2026-06-29,A verified relationship recorded in the exported social graph.
+W0089,P118,B015,event_overlap,true,2026-06-11,A verified relationship recorded in the exported social graph.
+W0090,P120,B007,direct_mutual,true,2026-05-24,A verified relationship recorded in the exported social graph.
+W0091,P120,B013,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.
+W0092,P122,B017,coworker_alumni,true,2026-05-06,A verified relationship recorded in the exported social graph.
+W0093,P124,B009,content_engagement,true,2026-04-18,A verified relationship recorded in the exported social graph.
+W0094,P125,B012,direct_mutual,false,2026-08-25,An unverified inferred connection from a partial import.
+W0095,P126,B001,portfolio_advisory,true,2026-03-31,A verified relationship recorded in the exported social graph.
+W0096,P128,B011,event_overlap,true,2026-03-13,A verified relationship recorded in the exported social graph.
+W0097,P130,B003,direct_mutual,true,2026-02-23,A verified relationship recorded in the exported social graph.
+W0098,P130,B011,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0099,P132,B013,coworker_alumni,true,2026-02-05,A verified relationship recorded in the exported social graph.
+W0100,P134,B005,content_engagement,true,2026-01-18,A verified relationship recorded in the exported social graph.
+W0101,P135,B010,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0102,P136,B015,portfolio_advisory,true,2025-12-31,A verified relationship recorded in the exported social graph.
+W0103,P138,B007,event_overlap,true,2025-12-13,A verified relationship recorded in the exported social graph.
+W0104,P140,B017,direct_mutual,true,2026-08-02,A verified relationship recorded in the exported social graph.
+W0105,P140,B009,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0106,P142,B009,coworker_alumni,true,2026-07-15,A verified relationship recorded in the exported social graph.
+W0107,P144,B001,content_engagement,true,2026-06-27,A verified relationship recorded in the exported social graph.
+W0108,P145,B008,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0109,P146,B011,portfolio_advisory,true,2026-06-09,A verified relationship recorded in the exported social graph.
+W0110,P148,B003,event_overlap,true,2026-05-22,A verified relationship recorded in the exported social graph.
+W0111,P150,B013,direct_mutual,true,2026-05-04,A verified relationship recorded in the exported social graph.
+W0112,P150,B007,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.
+W0113,P152,B005,coworker_alumni,true,2026-04-16,A verified relationship recorded in the exported social graph.
+W0114,P154,B015,content_engagement,true,2026-03-29,A verified relationship recorded in the exported social graph.
+W0115,P155,B006,direct_mutual,false,2026-08-25,An unverified inferred connection from a partial import.
+W0116,P156,B007,portfolio_advisory,true,2026-03-11,A verified relationship recorded in the exported social graph.
+W0117,P158,B017,event_overlap,true,2026-02-21,A verified relationship recorded in the exported social graph.
+W0118,P160,B009,direct_mutual,true,2026-02-03,A verified relationship recorded in the exported social graph.
+W0119,P160,B005,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0120,P162,B001,coworker_alumni,true,2026-01-16,A verified relationship recorded in the exported social graph.
+W0121,P164,B011,content_engagement,true,2025-12-29,A verified relationship recorded in the exported social graph.
+W0122,P165,B004,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0123,P166,B003,portfolio_advisory,true,2025-12-11,A verified relationship recorded in the exported social graph.
+W0124,P168,B013,event_overlap,true,2026-07-31,A verified relationship recorded in the exported social graph.
+W0125,P170,B005,direct_mutual,true,2026-07-13,A verified relationship recorded in the exported social graph.
+W0126,P170,B003,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0127,P172,B015,coworker_alumni,true,2026-06-25,A verified relationship recorded in the exported social graph.
+W0128,P174,B007,content_engagement,true,2026-06-07,A verified relationship recorded in the exported social graph.
+W0129,P175,B002,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0130,P176,B017,portfolio_advisory,true,2026-05-20,A verified relationship recorded in the exported social graph.
+W0131,P178,B009,event_overlap,true,2026-05-02,A verified relationship recorded in the exported social graph.
+W0132,P180,B001,direct_mutual,true,2026-04-14,A verified relationship recorded in the exported social graph.
+W0133,P180,B001,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.
+W0134,P182,B011,coworker_alumni,true,2026-03-27,A verified relationship recorded in the exported social graph.
+W0135,P184,B003,content_engagement,true,2026-03-09,A verified relationship recorded in the exported social graph.
+W0136,P185,B018,direct_mutual,false,2026-08-25,An unverified inferred connection from a partial import.
+W0137,P186,B013,portfolio_advisory,true,2026-02-19,A verified relationship recorded in the exported social graph.
+W0138,P188,B005,event_overlap,true,2026-02-01,A verified relationship recorded in the exported social graph.
+W0139,P190,B015,direct_mutual,true,2026-01-14,A verified relationship recorded in the exported social graph.
+W0140,P190,B017,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0141,P192,B007,coworker_alumni,true,2025-12-27,A verified relationship recorded in the exported social graph.
+W0142,P194,B017,content_engagement,true,2025-12-09,A verified relationship recorded in the exported social graph.
+W0143,P195,B016,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0144,P196,B009,portfolio_advisory,true,2026-07-29,A verified relationship recorded in the exported social graph.
+W0145,P198,B001,event_overlap,true,2026-07-11,A verified relationship recorded in the exported social graph.
+W0146,P200,B011,direct_mutual,true,2026-06-23,A verified relationship recorded in the exported social graph.
+W0147,P200,B015,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0148,P202,B003,coworker_alumni,true,2026-06-05,A verified relationship recorded in the exported social graph.
+W0149,P204,B013,content_engagement,true,2026-05-18,A verified relationship recorded in the exported social graph.
+W0150,P205,B014,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0151,P206,B005,portfolio_advisory,true,2026-04-30,A verified relationship recorded in the exported social graph.
+W0152,P208,B015,event_overlap,true,2026-04-12,A verified relationship recorded in the exported social graph.
+W0153,P210,B007,direct_mutual,true,2026-03-25,A verified relationship recorded in the exported social graph.
+W0154,P210,B013,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.
+W0155,P212,B017,coworker_alumni,true,2026-03-07,A verified relationship recorded in the exported social graph.
+W0156,P214,B009,content_engagement,true,2026-02-17,A verified relationship recorded in the exported social graph.
+W0157,P215,B012,direct_mutual,false,2026-08-25,An unverified inferred connection from a partial import.
+W0158,P216,B001,portfolio_advisory,true,2026-01-30,A verified relationship recorded in the exported social graph.
+W0159,P218,B011,event_overlap,true,2026-01-12,A verified relationship recorded in the exported social graph.
+W0160,P220,B003,direct_mutual,true,2025-12-25,A verified relationship recorded in the exported social graph.
+W0161,P220,B011,direct_mutual,false,2026-08-20,An unverified inferred connection from a partial import.
+W0162,P222,B013,coworker_alumni,true,2025-12-07,A verified relationship recorded in the exported social graph.
+W0163,P224,B005,content_engagement,true,2026-07-27,A verified relationship recorded in the exported social graph.
+W0164,P225,B010,direct_mutual,false,2026-08-15,An unverified inferred connection from a partial import.
+W0165,P226,B015,portfolio_advisory,true,2026-07-09,A verified relationship recorded in the exported social graph.
+W0166,P228,B007,event_overlap,true,2026-06-21,A verified relationship recorded in the exported social graph.
+W0167,P230,B017,direct_mutual,true,2026-06-03,A verified relationship recorded in the exported social graph.
+W0168,P230,B009,direct_mutual,false,2026-08-10,An unverified inferred connection from a partial import.
+W0169,P232,B009,coworker_alumni,true,2026-05-16,A verified relationship recorded in the exported social graph.
+W0170,P234,B001,content_engagement,true,2026-04-28,A verified relationship recorded in the exported social graph.
+W0171,P235,B008,direct_mutual,false,2026-08-05,An unverified inferred connection from a partial import.
+W0172,P236,B011,portfolio_advisory,true,2026-04-10,A verified relationship recorded in the exported social graph.
+W0173,P238,B003,event_overlap,true,2026-03-23,A verified relationship recorded in the exported social graph.
+W0174,P240,B013,direct_mutual,true,2026-03-05,A verified relationship recorded in the exported social graph.
+W0175,P240,B007,direct_mutual,false,2026-08-30,An unverified inferred connection from a partial import.

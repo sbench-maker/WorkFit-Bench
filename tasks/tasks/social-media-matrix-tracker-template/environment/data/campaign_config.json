@@ -1,0 +1,52 @@
+{
+  "fictional_dataset": true,
+  "brand": "Moonwake Studio",
+  "campaign": "Night Bloom",
+  "timezone": "UTC+8",
+  "current_window": {
+    "start": "2026-08-02",
+    "end": "2026-08-31",
+    "label": "30D"
+  },
+  "prior_window": {
+    "start": "2026-07-03",
+    "end": "2026-08-01"
+  },
+  "platform_order": [
+    "TikTok",
+    "Instagram",
+    "YouTube",
+    "Xiaohongshu"
+  ],
+  "metric_definitions": {
+    "engagement_rate_pct": "100 * sum(engagements) / sum(reach), excluding export_unavailable rows",
+    "net_follower_growth": "followers_end on 2026-08-31 minus followers_end on 2026-08-01",
+    "top_post": "highest conversions among approved posts; break ties by clicks",
+    "sentiment_mix": "sum approved-post positive/neutral/negative comment counts, normalized to 100%",
+    "content_mix": "sum approved-post engagements grouped into Video, Thread, Carousel"
+  },
+  "alerts": [
+    {
+      "id": "ER_DROP",
+      "rule": "current engagement rate is at least 15% below prior engagement rate",
+      "severity": "high"
+    },
+    {
+      "id": "SLA_BREACH",
+      "rule": "current-window mean response_minutes_median exceeds 45 minutes",
+      "severity": "medium"
+    }
+  ],
+  "data_quality_notes": [
+    {
+      "platform": "YouTube",
+      "date": "2026-08-14",
+      "impact": "activity metrics unavailable; exclude the row from rate calculations and show 29/30-day coverage"
+    },
+    {
+      "platform": "Xiaohongshu",
+      "date": "2026-08-17",
+      "impact": "follower snapshot missing; do not treat it as a loss or zero, and keep valid activity metrics"
+    }
+  ]
+}

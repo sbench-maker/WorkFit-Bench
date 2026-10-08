@@ -1,0 +1,23 @@
+{
+  "method": "deterministic fictional construction",
+  "seed": 80080,
+  "files": {
+    "accounts.csv": 72,
+    "contacts.csv": 240,
+    "activities.csv": 547,
+    "sales_reps.csv": 8,
+    "holidays.csv": 1
+  },
+  "relationships": [
+    "contacts.account_id -> accounts.account_id when populated",
+    "activities.lead_id -> contacts.lead_id",
+    "owner IDs -> sales_reps.rep_id"
+  ],
+  "intentional_data_conditions": [
+    "two accounts share one domain",
+    "some contacts omit account_id",
+    "unavailable and capacity-limited owners",
+    "weekend plus one company holiday in SLA windows",
+    "negative signals and hard disqualifiers"
+  ]
+}

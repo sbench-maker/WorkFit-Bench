@@ -1,0 +1,16 @@
+{
+  "project": "Aster Billing regional ledger",
+  "snapshot_at": "2026-08-31T18:00:00Z",
+  "objective": "Turn the approved RFC into a bounded autonomous implementation and integration run.",
+  "constraints": {
+    "agents_available": 4,
+    "default_branch": "main",
+    "isolated_workspace_per_unit": true,
+    "network_available_during_run": false,
+    "protected_paths": [
+      "config/production-secrets.yaml",
+      "infra/root.tf"
+    ]
+  },
+  "operator": "release engineering lead"
+}

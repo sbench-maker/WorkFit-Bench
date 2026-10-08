@@ -1,0 +1,153 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Complete, usable project",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The revised LoopLog project is readable at the requested path and retains its production source, localization catalog, and 500-record offline fixture.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__observation_data_flow",
+      "title": "Correct Observation ownership and passed-value flow",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The app owns the observable store, the feed receives rather than re-owns it, local view state is private, and rows do not freeze passed activities as state.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_store_ownership_and_observation",
+        "test_local_state_and_passed_values"
+      ]
+    },
+    {
+      "id": "completion__stable_identity",
+      "title": "Stable list identity and favorite targeting",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Dynamic rows use persistent activity identity, and a favorite action targets the visible activity UUID rather than a filtered or sorted position.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_dynamic_rows_use_activity_identity",
+        "test_favorite_action_targets_visible_activity_id"
+      ]
+    },
+    {
+      "id": "completion__localization",
+      "title": "English/Japanese localization and locale-aware values",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All feed and detail interface concepts are backed by complete English/Japanese catalog entries, while dates and distances use locale-aware formatting and user titles remain data.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_catalog_concepts_are_complete_and_used",
+        "test_dynamic_values_are_locale_aware"
+      ]
+    },
+    {
+      "id": "completion__modern_swiftui",
+      "title": "iOS 17 SwiftUI navigation, controls, and animation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The edited screen uses current navigation and modifier forms, a semantic button for the row action, and an animation scoped to the favorite change.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_modern_navigation_and_modifiers",
+        "test_favorite_is_a_button_with_scoped_animation"
+      ]
+    },
+    {
+      "id": "completion__interaction_quality",
+      "title": "Coherent feed interactions and VoiceOver experience",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Search, favorites filtering, sorting, empty state, detail navigation, and favorite toggling remain a coherent user flow, with one state-aware VoiceOver action per row and no conflicting tap targets.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Complete, usable project",
+        "required_score": 10
+      },
+      {
+        "id": "completion__observation_data_flow",
+        "title": "Correct Observation ownership and passed-value flow",
+        "required_score": 10
+      },
+      {
+        "id": "completion__stable_identity",
+        "title": "Stable list identity and favorite targeting",
+        "required_score": 10
+      },
+      {
+        "id": "completion__localization",
+        "title": "English/Japanese localization and locale-aware values",
+        "required_score": 10
+      },
+      {
+        "id": "completion__modern_swiftui",
+        "title": "iOS 17 SwiftUI navigation, controls, and animation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__interaction_quality",
+        "title": "Coherent feed interactions and VoiceOver experience",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

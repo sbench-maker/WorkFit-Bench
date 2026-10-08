@@ -1,0 +1,3721 @@
+{
+  "base_id": "appDevTriage01",
+  "table_id": "tblIssues01",
+  "table_name": "Issues",
+  "next_record_number": 236,
+  "records": [
+    {
+      "id": "rec00000000000001",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1001",
+        "Title": "Northstar issue 1001: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-01T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000002",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1002",
+        "Title": "Northstar issue 1002: login flow",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-02T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000003",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1003",
+        "Title": "Northstar issue 1003: deploy hook",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-03T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000004",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1004",
+        "Title": "Northstar issue 1004: search index",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-04T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000005",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1005",
+        "Title": "Northstar issue 1005: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-05T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000006",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1006",
+        "Title": "Northstar issue 1006: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-06T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000007",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1007",
+        "Title": "Northstar issue 1007: login flow",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-07T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000008",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1008",
+        "Title": "Northstar issue 1008: deploy hook",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-08T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000009",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1009",
+        "Title": "Northstar issue 1009: search index",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-09T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000010",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1010",
+        "Title": "Northstar issue 1010: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-10T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000011",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1011",
+        "Title": "Northstar issue 1011: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-11T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000012",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1012",
+        "Title": "Northstar issue 1012: login flow",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-12T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000013",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1013",
+        "Title": "Northstar issue 1013: deploy hook",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-13T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000014",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1014",
+        "Title": "Northstar issue 1014: search index",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-14T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000015",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1015",
+        "Title": "Northstar issue 1015: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-15T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000016",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1016",
+        "Title": "Northstar issue 1016: cache refresh",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-16T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000017",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1017",
+        "Title": "Northstar issue 1017: login flow",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-17T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000018",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1018",
+        "Title": "Northstar issue 1018: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-18T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000019",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1019",
+        "Title": "Northstar issue 1019: search index",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-19T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000020",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1020",
+        "Title": "Northstar issue 1020: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-20T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000021",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1021",
+        "Title": "Northstar issue 1021: cache refresh",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-21T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000022",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1022",
+        "Title": "Northstar issue 1022: login flow",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-22T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000023",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1023",
+        "Title": "Northstar issue 1023: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-23T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000024",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1024",
+        "Title": "Northstar issue 1024: search index",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-24T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000025",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1025",
+        "Title": "Northstar issue 1025: mobile layout",
+        "Status": "Done",
+        "Priority": "P1",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-25T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000026",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1026",
+        "Title": "Northstar issue 1026: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-26T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000027",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1027",
+        "Title": "Northstar issue 1027: login flow",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-27T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000028",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1028",
+        "Title": "Northstar issue 1028: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-28T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000029",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1029",
+        "Title": "Northstar issue 1029: search index",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-29T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000030",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1030",
+        "Title": "Northstar issue 1030: mobile layout",
+        "Status": "Done",
+        "Priority": "P2",
+        "Source Updated At": "2026-08-01T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000031",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1031",
+        "Title": "Northstar issue 1031: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-02T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000032",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1032",
+        "Title": "Northstar issue 1032: login flow",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-03T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000033",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1033",
+        "Title": "Northstar issue 1033: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-04T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000034",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1034",
+        "Title": "Northstar issue 1034: search index",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-05T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000035",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1035",
+        "Title": "Northstar issue 1035: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-06T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000036",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1036",
+        "Title": "Northstar issue 1036: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-07T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000037",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1037",
+        "Title": "Northstar issue 1037: login flow",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-08T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000038",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1038",
+        "Title": "Northstar issue 1038: deploy hook",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-09T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000039",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1039",
+        "Title": "Northstar issue 1039: search index",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-10T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000040",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1040",
+        "Title": "Northstar issue 1040: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-11T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000041",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1041",
+        "Title": "Northstar issue 1041: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-12T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000042",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1042",
+        "Title": "Northstar issue 1042: login flow",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-13T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000043",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1043",
+        "Title": "Northstar issue 1043: deploy hook",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-14T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000044",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1044",
+        "Title": "Northstar issue 1044: search index",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-15T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000045",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1045",
+        "Title": "Northstar issue 1045: mobile layout",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-16T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000046",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1046",
+        "Title": "Northstar issue 1046: cache refresh",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-17T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000047",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1047",
+        "Title": "Northstar issue 1047: login flow",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-18T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000048",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1048",
+        "Title": "Northstar issue 1048: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-19T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000049",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1049",
+        "Title": "Northstar issue 1049: search index",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-20T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000050",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1050",
+        "Title": "Northstar issue 1050: mobile layout",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-21T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000051",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1051",
+        "Title": "Northstar issue 1051: cache refresh",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-22T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000052",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1052",
+        "Title": "Northstar issue 1052: login flow",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-23T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000053",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1053",
+        "Title": "Northstar issue 1053: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-24T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000054",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1054",
+        "Title": "Northstar issue 1054: search index",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-25T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000055",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1055",
+        "Title": "Northstar issue 1055: mobile layout",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-26T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000056",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1056",
+        "Title": "Northstar issue 1056: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-27T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000057",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1057",
+        "Title": "Northstar issue 1057: login flow",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-28T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000058",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1058",
+        "Title": "Northstar issue 1058: deploy hook",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-29T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000059",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1059",
+        "Title": "Northstar issue 1059: search index",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-01T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000060",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1060",
+        "Title": "Northstar issue 1060: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Source Updated At": "2026-08-02T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000061",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1061",
+        "Title": "Northstar issue 1061: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-03T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000062",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1062",
+        "Title": "Northstar issue 1062: login flow",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-04T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000063",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1063",
+        "Title": "Northstar issue 1063: deploy hook",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-05T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000064",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1064",
+        "Title": "Northstar issue 1064: search index",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-06T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000065",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1065",
+        "Title": "Northstar issue 1065: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-07T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000066",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1066",
+        "Title": "Northstar issue 1066: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-08T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000067",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1067",
+        "Title": "Northstar issue 1067: login flow",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-09T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000068",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1068",
+        "Title": "Northstar issue 1068: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-10T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000069",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1069",
+        "Title": "Northstar issue 1069: search index",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-11T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000070",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1070",
+        "Title": "Northstar issue 1070: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-12T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000071",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1071",
+        "Title": "Northstar issue 1071: cache refresh",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-13T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000072",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1072",
+        "Title": "Northstar issue 1072: login flow",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-14T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000073",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1073",
+        "Title": "Northstar issue 1073: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-15T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000074",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1074",
+        "Title": "Northstar issue 1074: search index",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-16T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000075",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1075",
+        "Title": "Northstar issue 1075: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-17T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000076",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1076",
+        "Title": "Northstar issue 1076: cache refresh",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-18T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000077",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1077",
+        "Title": "Northstar issue 1077: login flow",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-19T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000078",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1078",
+        "Title": "Northstar issue 1078: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-20T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000079",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1079",
+        "Title": "Northstar issue 1079: search index",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-21T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000080",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1080",
+        "Title": "Northstar issue 1080: mobile layout",
+        "Status": "Done",
+        "Priority": "P0",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-22T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000081",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1081",
+        "Title": "Northstar issue 1081: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-23T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000082",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1082",
+        "Title": "Northstar issue 1082: login flow",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-24T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000083",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1083",
+        "Title": "Northstar issue 1083: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-25T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000084",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1084",
+        "Title": "Northstar issue 1084: search index",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-26T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000085",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1085",
+        "Title": "Northstar issue 1085: mobile layout",
+        "Status": "Done",
+        "Priority": "P1",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-27T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000086",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1086",
+        "Title": "Northstar issue 1086: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-28T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000087",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1087",
+        "Title": "Northstar issue 1087: login flow",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-29T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000088",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1088",
+        "Title": "Northstar issue 1088: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-01T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000089",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1089",
+        "Title": "Northstar issue 1089: search index",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-02T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000090",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1090",
+        "Title": "Northstar issue 1090: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Source Updated At": "2026-08-03T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000091",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1091",
+        "Title": "Northstar issue 1091: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-04T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000092",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1092",
+        "Title": "Northstar issue 1092: login flow",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-05T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000093",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1093",
+        "Title": "Northstar issue 1093: deploy hook",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-06T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000094",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1094",
+        "Title": "Northstar issue 1094: search index",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-07T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000095",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1095",
+        "Title": "Northstar issue 1095: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-08T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000096",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1096",
+        "Title": "Northstar issue 1096: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-09T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000097",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1097",
+        "Title": "Northstar issue 1097: login flow",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-10T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000098",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1098",
+        "Title": "Northstar issue 1098: deploy hook",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-11T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000099",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1099",
+        "Title": "Northstar issue 1099: search index",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-12T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000100",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1100",
+        "Title": "Northstar issue 1100: mobile layout",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-13T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000101",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1101",
+        "Title": "Northstar issue 1101: cache refresh",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-14T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000102",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1102",
+        "Title": "Northstar issue 1102: login flow",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-15T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000103",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1103",
+        "Title": "Northstar issue 1103: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-16T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000104",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1104",
+        "Title": "Northstar issue 1104: search index",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-17T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000105",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1105",
+        "Title": "Northstar issue 1105: mobile layout",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-18T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000106",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1106",
+        "Title": "Northstar issue 1106: cache refresh",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-19T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000107",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1107",
+        "Title": "Northstar issue 1107: login flow",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-20T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000108",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1108",
+        "Title": "Northstar issue 1108: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-21T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000109",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1109",
+        "Title": "Northstar issue 1109: search index",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-22T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000110",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1110",
+        "Title": "Northstar issue 1110: mobile layout",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-23T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000111",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1111",
+        "Title": "Northstar issue 1111: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-24T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000112",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1112",
+        "Title": "Northstar issue 1112: login flow",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-25T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000113",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1113",
+        "Title": "Northstar issue 1113: deploy hook",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-26T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000114",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1114",
+        "Title": "Northstar issue 1114: search index",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-27T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000115",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1115",
+        "Title": "Northstar issue 1115: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-28T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000116",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1116",
+        "Title": "Northstar issue 1116: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-29T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000117",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1117",
+        "Title": "Northstar issue 1117: login flow",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-01T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000118",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1118",
+        "Title": "Northstar issue 1118: deploy hook",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-02T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000119",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1119",
+        "Title": "Northstar issue 1119: search index",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-03T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000120",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1120",
+        "Title": "Northstar issue 1120: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Source Updated At": "2026-08-04T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000121",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1121",
+        "Title": "Northstar issue 1121: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-05T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000122",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1122",
+        "Title": "Northstar issue 1122: login flow",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-06T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000123",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1123",
+        "Title": "Northstar issue 1123: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-07T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000124",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1124",
+        "Title": "Northstar issue 1124: search index",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-08T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000125",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1125",
+        "Title": "Northstar issue 1125: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-09T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000126",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1126",
+        "Title": "Northstar issue 1126: cache refresh",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-10T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000127",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1127",
+        "Title": "Northstar issue 1127: login flow",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-11T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000128",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1128",
+        "Title": "Northstar issue 1128: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-12T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000129",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1129",
+        "Title": "Northstar issue 1129: search index",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-13T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000130",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1130",
+        "Title": "Northstar issue 1130: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-14T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000131",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1131",
+        "Title": "Northstar issue 1131: cache refresh",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-15T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000132",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1132",
+        "Title": "Northstar issue 1132: login flow",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-16T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000133",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1133",
+        "Title": "Northstar issue 1133: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-17T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000134",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1134",
+        "Title": "Northstar issue 1134: search index",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-18T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000135",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1135",
+        "Title": "Northstar issue 1135: mobile layout",
+        "Status": "Done",
+        "Priority": "P3",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-19T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000136",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1136",
+        "Title": "Northstar issue 1136: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-20T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000137",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1137",
+        "Title": "Northstar issue 1137: login flow",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-21T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000138",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1138",
+        "Title": "Northstar issue 1138: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-22T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000139",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1139",
+        "Title": "Northstar issue 1139: search index",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-23T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000140",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1140",
+        "Title": "Northstar issue 1140: mobile layout",
+        "Status": "Done",
+        "Priority": "P0",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-24T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000141",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1141",
+        "Title": "Northstar issue 1141: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-25T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000142",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1142",
+        "Title": "Northstar issue 1142: login flow",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-26T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000143",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1143",
+        "Title": "Northstar issue 1143: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-27T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000144",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1144",
+        "Title": "Northstar issue 1144: search index",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-28T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000145",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1145",
+        "Title": "Northstar issue 1145: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-29T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000146",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1146",
+        "Title": "Northstar issue 1146: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-01T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000147",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1147",
+        "Title": "Northstar issue 1147: login flow",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-02T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000148",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1148",
+        "Title": "Northstar issue 1148: deploy hook",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-03T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000149",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1149",
+        "Title": "Northstar issue 1149: search index",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-04T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000150",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1150",
+        "Title": "Northstar issue 1150: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Source Updated At": "2026-08-05T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000151",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1151",
+        "Title": "Northstar issue 1151: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-06T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000152",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1152",
+        "Title": "Northstar issue 1152: login flow",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-07T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000153",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1153",
+        "Title": "Northstar issue 1153: deploy hook",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-08T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000154",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1154",
+        "Title": "Northstar issue 1154: search index",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-09T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000155",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1155",
+        "Title": "Northstar issue 1155: mobile layout",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-10T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000156",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1156",
+        "Title": "Northstar issue 1156: cache refresh",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-11T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000157",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1157",
+        "Title": "Northstar issue 1157: login flow",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-12T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000158",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1158",
+        "Title": "Northstar issue 1158: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-13T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000159",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1159",
+        "Title": "Northstar issue 1159: search index",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-14T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000160",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1160",
+        "Title": "Northstar issue 1160: mobile layout",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-15T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000161",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1161",
+        "Title": "Northstar issue 1161: cache refresh",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-16T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000162",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1162",
+        "Title": "Northstar issue 1162: login flow",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-17T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000163",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1163",
+        "Title": "Northstar issue 1163: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-18T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000164",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1164",
+        "Title": "Northstar issue 1164: search index",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-19T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000165",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1165",
+        "Title": "Northstar issue 1165: mobile layout",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-20T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000166",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1166",
+        "Title": "Northstar issue 1166: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-21T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000167",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1167",
+        "Title": "Northstar issue 1167: login flow",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-22T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000168",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1168",
+        "Title": "Northstar issue 1168: deploy hook",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-23T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000169",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1169",
+        "Title": "Northstar issue 1169: search index",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-24T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000170",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1170",
+        "Title": "Northstar issue 1170: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-25T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000171",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1171",
+        "Title": "Northstar issue 1171: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-26T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000172",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1172",
+        "Title": "Northstar issue 1172: login flow",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-27T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000173",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1173",
+        "Title": "Northstar issue 1173: deploy hook",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-28T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000174",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1174",
+        "Title": "Northstar issue 1174: search index",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-29T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000175",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1175",
+        "Title": "Northstar issue 1175: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-01T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000176",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1176",
+        "Title": "Northstar issue 1176: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-02T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000177",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1177",
+        "Title": "Northstar issue 1177: login flow",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-03T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000178",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1178",
+        "Title": "Northstar issue 1178: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-04T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000179",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1179",
+        "Title": "Northstar issue 1179: search index",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-05T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000180",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1180",
+        "Title": "Northstar issue 1180: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Source Updated At": "2026-08-06T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000181",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1181",
+        "Title": "Northstar issue 1181: cache refresh",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-07T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000182",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1182",
+        "Title": "Northstar issue 1182: login flow",
+        "Status": "Done",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-08T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000183",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1183",
+        "Title": "Northstar issue 1183: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-09T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000184",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1184",
+        "Title": "Northstar issue 1184: search index",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-10T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000185",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1185",
+        "Title": "Northstar issue 1185: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-11T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000186",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1186",
+        "Title": "Northstar issue 1186: cache refresh",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-12T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000187",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1187",
+        "Title": "Northstar issue 1187: login flow",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-13T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000188",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1188",
+        "Title": "Northstar issue 1188: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-14T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000189",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1189",
+        "Title": "Northstar issue 1189: search index",
+        "Status": "Ready",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-15T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000190",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1190",
+        "Title": "Northstar issue 1190: mobile layout",
+        "Status": "Done",
+        "Priority": "P2",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-16T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000191",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1191",
+        "Title": "Northstar issue 1191: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-17T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000192",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1192",
+        "Title": "Northstar issue 1192: login flow",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-18T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000193",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1193",
+        "Title": "Northstar issue 1193: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-19T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000194",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1194",
+        "Title": "Northstar issue 1194: search index",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-20T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000195",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1195",
+        "Title": "Northstar issue 1195: mobile layout",
+        "Status": "Done",
+        "Priority": "P3",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-21T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000196",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1196",
+        "Title": "Northstar issue 1196: cache refresh",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-22T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000197",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1197",
+        "Title": "Northstar issue 1197: login flow",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-23T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000198",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1198",
+        "Title": "Northstar issue 1198: deploy hook",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-24T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000199",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1199",
+        "Title": "Northstar issue 1199: search index",
+        "Status": "In Progress",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-25T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000200",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1200",
+        "Title": "Northstar issue 1200: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P0",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-26T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000201",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1201",
+        "Title": "Northstar issue 1201: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-27T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000202",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1202",
+        "Title": "Northstar issue 1202: login flow",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-28T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000203",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1203",
+        "Title": "Northstar issue 1203: deploy hook",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-29T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000204",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1204",
+        "Title": "Northstar issue 1204: search index",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-01T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000205",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1205",
+        "Title": "Northstar issue 1205: mobile layout",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-02T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000206",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1206",
+        "Title": "Northstar issue 1206: cache refresh",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-03T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000207",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1207",
+        "Title": "Northstar issue 1207: login flow",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-04T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000208",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1208",
+        "Title": "Northstar issue 1208: deploy hook",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-05T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000209",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1209",
+        "Title": "Northstar issue 1209: search index",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-06T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000210",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1210",
+        "Title": "Northstar issue 1210: mobile layout",
+        "Status": "Ready",
+        "Priority": "P2",
+        "Source Updated At": "2026-08-07T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000211",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1211",
+        "Title": "Northstar issue 1211: cache refresh",
+        "Status": "Done",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-08T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000212",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1212",
+        "Title": "Northstar issue 1212: login flow",
+        "Status": "In Progress",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-09T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000213",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1213",
+        "Title": "Northstar issue 1213: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-10T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000214",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1214",
+        "Title": "Northstar issue 1214: search index",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-11T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000215",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1215",
+        "Title": "Northstar issue 1215: mobile layout",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-12T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000216",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1216",
+        "Title": "Northstar issue 1216: cache refresh",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "ada@northstar.test",
+        "Source Updated At": "2026-08-13T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000217",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1217",
+        "Title": "Northstar issue 1217: login flow",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-14T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000218",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1218",
+        "Title": "Northstar issue 1218: deploy hook",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-15T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000219",
+      "createdTime": "2026-04-15T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1219",
+        "Title": "Northstar issue 1219: search index",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-16T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000220",
+      "createdTime": "2026-04-16T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1220",
+        "Title": "Northstar issue 1220: mobile layout",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-17T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000221",
+      "createdTime": "2026-04-17T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1221",
+        "Title": "Northstar issue 1221: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P1",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-18T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000222",
+      "createdTime": "2026-04-18T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1222",
+        "Title": "Northstar issue 1222: login flow",
+        "Status": "Blocked",
+        "Priority": "P2",
+        "Owner Email": "bo@northstar.test",
+        "Source Updated At": "2026-08-19T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000223",
+      "createdTime": "2026-04-19T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1223",
+        "Title": "Northstar issue 1223: deploy hook",
+        "Status": "Ready",
+        "Priority": "P3",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-20T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000224",
+      "createdTime": "2026-04-03T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1224",
+        "Title": "Northstar issue 1224: search index",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-21T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000225",
+      "createdTime": "2026-04-04T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1225",
+        "Title": "Northstar issue 1225: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-22T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000226",
+      "createdTime": "2026-04-05T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1226",
+        "Title": "Northstar issue 1226: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-23T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000227",
+      "createdTime": "2026-04-06T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1227",
+        "Title": "Northstar issue 1227: login flow",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-24T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000228",
+      "createdTime": "2026-04-07T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1228",
+        "Title": "Northstar issue 1228: deploy hook",
+        "Status": "Ready",
+        "Priority": "P0",
+        "Owner Email": "cy@northstar.test",
+        "Source Updated At": "2026-08-25T11:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000229",
+      "createdTime": "2026-04-08T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1229",
+        "Title": "Northstar issue 1229: search index",
+        "Status": "Done",
+        "Priority": "P1",
+        "Owner Email": "dev@northstar.test",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-26T12:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000230",
+      "createdTime": "2026-04-09T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1230",
+        "Title": "Northstar issue 1230: mobile layout",
+        "Status": "In Progress",
+        "Priority": "P2",
+        "Labels": [
+          "frontend",
+          "accessibility"
+        ],
+        "Source Updated At": "2026-08-27T13:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000231",
+      "createdTime": "2026-04-10T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1231",
+        "Title": "Northstar issue 1231: cache refresh",
+        "Status": "Backlog",
+        "Priority": "P3",
+        "Owner Email": "ada@northstar.test",
+        "Labels": [
+          "backend",
+          "performance"
+        ],
+        "Source Updated At": "2026-08-28T14:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000232",
+      "createdTime": "2026-04-11T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1232",
+        "Title": "Northstar issue 1232: login flow",
+        "Status": "Done",
+        "Priority": "P0",
+        "Owner Email": "bo@northstar.test",
+        "Labels": [
+          "mobile"
+        ],
+        "Source Updated At": "2026-08-29T15:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000233",
+      "createdTime": "2026-04-12T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1233",
+        "Title": "Northstar issue 1233: deploy hook",
+        "Status": "In Progress",
+        "Priority": "P1",
+        "Owner Email": "cy@northstar.test",
+        "Labels": [
+          "security",
+          "api"
+        ],
+        "Source Updated At": "2026-08-01T08:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000234",
+      "createdTime": "2026-04-13T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1234",
+        "Title": "Northstar issue 1234: search index",
+        "Status": "Backlog",
+        "Priority": "P2",
+        "Owner Email": "dev@northstar.test",
+        "Source Updated At": "2026-08-02T09:00:00.000Z",
+        "Reopen Approved": false
+      }
+    },
+    {
+      "id": "rec00000000000235",
+      "createdTime": "2026-04-14T06:00:00.000Z",
+      "fields": {
+        "External ID": "BUG-1235",
+        "Title": "Northstar issue 1235: mobile layout",
+        "Status": "Blocked",
+        "Priority": "P3",
+        "Labels": [
+          "api"
+        ],
+        "Source Updated At": "2026-08-03T10:00:00.000Z",
+        "Reopen Approved": false
+      }
+    }
+  ]
+}

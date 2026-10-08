@@ -1,0 +1,52 @@
+{
+  "gates": [
+    {
+      "gate_id": "compile",
+      "required_for_risk": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "blocking": true
+    },
+    {
+      "gate_id": "unit",
+      "required_for_risk": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "blocking": true
+    },
+    {
+      "gate_id": "integration",
+      "required_for_risk": [
+        "medium",
+        "high"
+      ],
+      "blocking": true
+    },
+    {
+      "gate_id": "api_contract",
+      "required_for_risk": [
+        "medium",
+        "high"
+      ],
+      "blocking": true
+    },
+    {
+      "gate_id": "security",
+      "required_for_risk": [
+        "high"
+      ],
+      "blocking": true
+    },
+    {
+      "gate_id": "migration_roundtrip",
+      "required_for_risk": [
+        "high"
+      ],
+      "blocking": true
+    }
+  ]
+}

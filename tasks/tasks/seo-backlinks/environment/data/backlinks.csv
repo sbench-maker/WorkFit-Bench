@@ -1,0 +1,380 @@
+backlink_id,source_domain,source_path,destination_site,destination_path,anchor_text,rel,placement,verification_status
+BL0001,security-ledger.test,/content/1,cipherleaf.example,/reports/2025-control-map,learn more,follow,editorial,verified_active
+BL0002,security-ledger.test,/content/2,cipherleaf.example,/,security compliance software,follow,editorial,verified_active
+BL0003,security-ledger.test,/content/3,cipherleaf.example,/research/cloud-controls-benchmark,vendor trust evidence,follow,editorial,verified_removed
+BL0004,security-ledger.test,/content/1,vaultspire.example,/templates/vendor-assurance,learn more,follow,editorial,verified_active
+BL0005,security-ledger.test,/content/2,vaultspire.example,/blog/evidence-collection,security evidence software,follow,editorial,verified_active
+BL0006,security-ledger.test,/content/3,vaultspire.example,/old/security-evidence-checklist,vendor assurance template,follow,editorial,verified_active
+BL0007,security-ledger.test,/content/4,vaultspire.example,/,the annual audit readiness study,follow,editorial,verified_removed
+BL0008,cloud-control.test,/content/1,cipherleaf.example,/resources/soc2-starter,CipherLeaf,nofollow,editorial,verified_active
+BL0009,cloud-control.test,/content/2,cipherleaf.example,/reports/2025-control-map,https://cipherleaf.example,follow,editorial,verified_active
+BL0010,cloud-control.test,/content/3,cipherleaf.example,/,this report,follow,editorial,verified_active
+BL0011,cloud-control.test,/content/4,cipherleaf.example,/research/cloud-controls-benchmark,security compliance software,follow,editorial,verified_removed
+BL0012,cloud-control.test,/content/1,vaultspire.example,/guides/continuous-compliance,VaultSpire,nofollow,editorial,verified_active
+BL0013,cloud-control.test,/content/2,vaultspire.example,/templates/vendor-assurance,https://vaultspire.example,follow,editorial,verified_active
+BL0014,cloud-control.test,/content/3,vaultspire.example,/blog/evidence-collection,this report,follow,editorial,verified_active
+BL0015,cloud-control.test,/content/4,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0016,cloud-control.test,/content/5,vaultspire.example,/,audit readiness report,follow,editorial,verified_removed
+BL0017,privacy-observer.test,/content/1,cipherleaf.example,/guides/vendor-risk-evidence,cloud compliance platform,follow,editorial,verified_active
+BL0018,privacy-observer.test,/content/2,cipherleaf.example,/templates/audit-evidence-map,audit automation guide,follow,editorial,verified_active
+BL0019,privacy-observer.test,/content/3,cipherleaf.example,/blog/security-questionnaires,how security teams collect audit evidence,follow,editorial,verified_active
+BL0020,privacy-observer.test,/content/4,cipherleaf.example,/resources/soc2-starter,CipherLeaf,nofollow,editorial,verified_active
+BL0021,privacy-observer.test,/content/5,cipherleaf.example,/reports/2025-control-map,Cipher Leaf,follow,editorial,verified_active
+BL0022,privacy-observer.test,/content/1,vaultspire.example,/,continuous compliance platform,follow,editorial,verified_active
+BL0023,privacy-observer.test,/content/2,vaultspire.example,/reports/state-of-audit-readiness,audit readiness report,follow,editorial,verified_active
+BL0024,privacy-observer.test,/content/3,vaultspire.example,/guides/continuous-compliance,a practical approach to evidence collection,follow,editorial,verified_active
+BL0025,audit-practice.test,/content/1,cipherleaf.example,/research/cloud-controls-benchmark,cipherleaf.example,follow,editorial,verified_active
+BL0026,audit-practice.test,/content/2,cipherleaf.example,/guides/vendor-risk-evidence,read the guide,follow,editorial,verified_active
+BL0027,audit-practice.test,/content/3,cipherleaf.example,/templates/audit-evidence-map,cloud compliance platform,follow,editorial,verified_active
+BL0028,audit-practice.test,/content/1,vaultspire.example,/old/security-evidence-checklist,vaultspire.example,follow,editorial,verified_active
+BL0029,audit-practice.test,/content/2,vaultspire.example,/,read the guide,follow,editorial,verified_active
+BL0030,audit-practice.test,/content/3,vaultspire.example,/reports/state-of-audit-readiness,continuous compliance platform,follow,editorial,verified_active
+BL0031,audit-practice.test,/content/4,vaultspire.example,/guides/continuous-compliance,continuous compliance guide,follow,editorial,verified_active
+BL0032,trust-architecture.test,/content/1,cipherleaf.example,/reports/2025-control-map,how security teams collect audit evidence,follow,editorial,verified_active
+BL0033,trust-architecture.test,/content/2,cipherleaf.example,/,Cipher Leaf,nofollow,editorial,verified_active
+BL0034,trust-architecture.test,/content/3,cipherleaf.example,/research/cloud-controls-benchmark,CipherLeaf Security,follow,editorial,verified_active
+BL0035,trust-architecture.test,/content/4,cipherleaf.example,/guides/vendor-risk-evidence,https://cipherleaf.example,follow,editorial,verified_active
+BL0036,trust-architecture.test,/content/1,vaultspire.example,/blog/evidence-collection,a practical approach to evidence collection,follow,editorial,verified_active
+BL0037,trust-architecture.test,/content/2,vaultspire.example,/old/security-evidence-checklist,Vault Spire,nofollow,editorial,verified_active
+BL0038,trust-architecture.test,/content/3,vaultspire.example,/,VaultSpire Labs,follow,editorial,verified_active
+BL0039,trust-architecture.test,/content/4,vaultspire.example,/reports/state-of-audit-readiness,https://vaultspire.example,follow,editorial,verified_active
+BL0040,trust-architecture.test,/content/5,vaultspire.example,/guides/continuous-compliance,learn more,follow,editorial,verified_active
+BL0041,saas-risk-review.test,/content/1,cipherleaf.example,/resources/soc2-starter,cloud compliance platform,follow,editorial,verified_active
+BL0042,saas-risk-review.test,/content/2,cipherleaf.example,/reports/2025-control-map,audit automation guide,follow,editorial,verified_active
+BL0043,saas-risk-review.test,/content/3,cipherleaf.example,/,how security teams collect audit evidence,follow,editorial,verified_active
+BL0044,saas-risk-review.test,/content/4,cipherleaf.example,/research/cloud-controls-benchmark,CipherLeaf,nofollow,editorial,verified_active
+BL0045,saas-risk-review.test,/content/5,cipherleaf.example,/guides/vendor-risk-evidence,Cipher Leaf,follow,editorial,verified_active
+BL0046,saas-risk-review.test,/content/1,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,editorial,verified_active
+BL0047,saas-risk-review.test,/content/2,vaultspire.example,/blog/evidence-collection,audit readiness report,follow,editorial,verified_active
+BL0048,saas-risk-review.test,/content/3,vaultspire.example,/old/security-evidence-checklist,a practical approach to evidence collection,follow,editorial,verified_active
+BL0049,policy-stack.test,/content/1,cipherleaf.example,/guides/vendor-risk-evidence,how security teams collect audit evidence,follow,editorial,verified_active
+BL0050,policy-stack.test,/content/2,cipherleaf.example,/templates/audit-evidence-map,Cipher Leaf,nofollow,editorial,verified_active
+BL0051,policy-stack.test,/content/3,cipherleaf.example,/blog/security-questionnaires,cipherleaf.example,follow,editorial,verified_active
+BL0052,policy-stack.test,/content/1,vaultspire.example,/,a practical approach to evidence collection,follow,editorial,verified_active
+BL0053,policy-stack.test,/content/2,vaultspire.example,/reports/state-of-audit-readiness,Vault Spire,nofollow,editorial,verified_active
+BL0054,policy-stack.test,/content/3,vaultspire.example,/guides/continuous-compliance,vaultspire.example,follow,editorial,verified_active
+BL0055,policy-stack.test,/content/4,vaultspire.example,/templates/vendor-assurance,visit website,follow,editorial,verified_active
+BL0056,devsec-community.test,/content/1,cipherleaf.example,/,cloud compliance platform,follow,editorial,verified_active
+BL0057,devsec-community.test,/content/2,cipherleaf.example,/research/cloud-controls-benchmark,audit automation guide,follow,editorial,verified_active
+BL0058,devsec-community.test,/content/3,cipherleaf.example,/guides/vendor-risk-evidence,how security teams collect audit evidence,follow,editorial,verified_active
+BL0059,devsec-community.test,/content/4,cipherleaf.example,/templates/audit-evidence-map,CipherLeaf,nofollow,editorial,verified_active
+BL0060,devsec-community.test,/content/1,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,editorial,verified_active
+BL0061,devsec-community.test,/content/2,vaultspire.example,/,audit readiness report,follow,editorial,verified_active
+BL0062,devsec-community.test,/content/3,vaultspire.example,/reports/state-of-audit-readiness,a practical approach to evidence collection,follow,editorial,verified_active
+BL0063,devsec-community.test,/content/4,vaultspire.example,/guides/continuous-compliance,VaultSpire,nofollow,editorial,verified_active
+BL0064,devsec-community.test,/content/5,vaultspire.example,/templates/vendor-assurance,Vault Spire,follow,editorial,verified_active
+BL0065,control-frameworks.test,/content/1,cipherleaf.example,/templates/audit-evidence-map,how security teams collect audit evidence,follow,editorial,verified_active
+BL0066,control-frameworks.test,/content/2,cipherleaf.example,/blog/security-questionnaires,Cipher Leaf,nofollow,editorial,verified_active
+BL0067,control-frameworks.test,/content/3,cipherleaf.example,/resources/soc2-starter,CipherLeaf Security,follow,editorial,verified_active
+BL0068,control-frameworks.test,/content/4,cipherleaf.example,/reports/2025-control-map,https://cipherleaf.example,follow,editorial,verified_active
+BL0069,control-frameworks.test,/content/5,cipherleaf.example,/,learn more,follow,editorial,verified_active
+BL0070,control-frameworks.test,/content/1,vaultspire.example,/guides/continuous-compliance,a practical approach to evidence collection,follow,editorial,verified_active
+BL0071,control-frameworks.test,/content/2,vaultspire.example,/templates/vendor-assurance,Vault Spire,nofollow,editorial,verified_active
+BL0072,control-frameworks.test,/content/3,vaultspire.example,/blog/evidence-collection,VaultSpire Labs,follow,editorial,verified_active
+BL0073,cloud-buyer.test,/content/1,cipherleaf.example,/blog/security-questionnaires,cloud compliance benchmark,follow,editorial,verified_active
+BL0074,cloud-buyer.test,/content/2,cipherleaf.example,/resources/soc2-starter,a benchmark for cloud control coverage,follow,editorial,verified_active
+BL0075,cloud-buyer.test,/content/3,cipherleaf.example,/reports/2025-control-map,CipherLeaf Security,nofollow,editorial,verified_active
+BL0076,cloud-buyer.test,/content/1,vaultspire.example,/guides/continuous-compliance,continuous compliance guide,follow,editorial,verified_active
+BL0077,cloud-buyer.test,/content/2,vaultspire.example,/templates/vendor-assurance,the annual audit readiness study,follow,editorial,verified_active
+BL0078,cloud-buyer.test,/content/3,vaultspire.example,/blog/evidence-collection,VaultSpire Labs,nofollow,editorial,verified_active
+BL0079,cloud-buyer.test,/content/4,vaultspire.example,/old/security-evidence-checklist,https://vaultspire.example,follow,editorial,verified_active
+BL0080,data-governance-room.test,/content/1,cipherleaf.example,/,CipherLeaf,follow,editorial,verified_active
+BL0081,data-governance-room.test,/content/2,cipherleaf.example,/research/cloud-controls-benchmark,https://cipherleaf.example,follow,editorial,verified_active
+BL0082,data-governance-room.test,/content/3,cipherleaf.example,/guides/vendor-risk-evidence,this report,follow,editorial,verified_active
+BL0083,data-governance-room.test,/content/4,cipherleaf.example,/templates/audit-evidence-map,cloud compliance benchmark,follow,editorial,verified_active
+BL0084,data-governance-room.test,/content/1,vaultspire.example,/,VaultSpire,follow,editorial,verified_active
+BL0085,data-governance-room.test,/content/2,vaultspire.example,/reports/state-of-audit-readiness,https://vaultspire.example,follow,editorial,verified_active
+BL0086,data-governance-room.test,/content/3,vaultspire.example,/guides/continuous-compliance,this report,follow,editorial,verified_active
+BL0087,data-governance-room.test,/content/4,vaultspire.example,/templates/vendor-assurance,continuous compliance guide,follow,editorial,verified_active
+BL0088,data-governance-room.test,/content/5,vaultspire.example,/blog/evidence-collection,a practical approach to evidence collection,follow,editorial,verified_active
+BL0089,founder-security.test,/content/1,cipherleaf.example,/blog/security-questionnaires,cloud compliance platform,follow,editorial,verified_active
+BL0090,founder-security.test,/content/2,cipherleaf.example,/resources/soc2-starter,audit automation guide,follow,editorial,verified_active
+BL0091,founder-security.test,/content/3,cipherleaf.example,/reports/2025-control-map,how security teams collect audit evidence,follow,editorial,verified_active
+BL0092,founder-security.test,/content/4,cipherleaf.example,/,CipherLeaf,nofollow,editorial,verified_active
+BL0093,founder-security.test,/content/5,cipherleaf.example,/research/cloud-controls-benchmark,Cipher Leaf,follow,editorial,verified_active
+BL0094,founder-security.test,/content/1,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,editorial,verified_active
+BL0095,founder-security.test,/content/2,vaultspire.example,/blog/evidence-collection,audit readiness report,follow,editorial,verified_active
+BL0096,founder-security.test,/content/3,vaultspire.example,/old/security-evidence-checklist,a practical approach to evidence collection,follow,editorial,verified_active
+BL0097,regional-techwire.test,/content/1,cipherleaf.example,/reports/2025-control-map,cloud compliance benchmark,follow,editorial,verified_active
+BL0098,regional-techwire.test,/content/2,cipherleaf.example,/,a benchmark for cloud control coverage,follow,editorial,verified_active
+BL0099,regional-techwire.test,/content/3,cipherleaf.example,/research/cloud-controls-benchmark,CipherLeaf Security,nofollow,editorial,unverifiable_js
+BL0100,regional-techwire.test,/content/1,vaultspire.example,/old/security-evidence-checklist,continuous compliance guide,follow,editorial,verified_active
+BL0101,regional-techwire.test,/content/2,vaultspire.example,/,the annual audit readiness study,follow,editorial,verified_active
+BL0102,regional-techwire.test,/content/3,vaultspire.example,/reports/state-of-audit-readiness,VaultSpire Labs,nofollow,editorial,verified_active
+BL0103,regional-techwire.test,/content/4,vaultspire.example,/guides/continuous-compliance,VaultSpire,follow,editorial,unverifiable_js
+BL0104,workflow-labs.test,/content/1,cipherleaf.example,/templates/audit-evidence-map,CipherLeaf,nofollow,editorial,verified_active
+BL0105,workflow-labs.test,/content/2,cipherleaf.example,/blog/security-questionnaires,https://cipherleaf.example,follow,editorial,verified_active
+BL0106,workflow-labs.test,/content/3,cipherleaf.example,/resources/soc2-starter,this report,follow,editorial,verified_active
+BL0107,workflow-labs.test,/content/4,cipherleaf.example,/reports/2025-control-map,security compliance software,follow,editorial,unverifiable_js
+BL0108,workflow-labs.test,/content/1,vaultspire.example,/guides/continuous-compliance,VaultSpire,nofollow,editorial,verified_active
+BL0109,workflow-labs.test,/content/2,vaultspire.example,/templates/vendor-assurance,https://vaultspire.example,follow,editorial,verified_active
+BL0110,workflow-labs.test,/content/3,vaultspire.example,/blog/evidence-collection,this report,follow,editorial,verified_active
+BL0111,workflow-labs.test,/content/4,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0112,workflow-labs.test,/content/5,vaultspire.example,/,audit readiness report,follow,editorial,unverifiable_js
+BL0113,open-controls.test,/content/1,cipherleaf.example,/blog/security-questionnaires,CipherLeaf,nofollow,editorial,verified_active
+BL0114,open-controls.test,/content/2,cipherleaf.example,/resources/soc2-starter,https://cipherleaf.example,follow,editorial,verified_active
+BL0115,open-controls.test,/content/3,cipherleaf.example,/reports/2025-control-map,this report,follow,editorial,verified_active
+BL0116,open-controls.test,/content/4,cipherleaf.example,/,security compliance software,follow,editorial,verified_active
+BL0117,open-controls.test,/content/5,cipherleaf.example,/research/cloud-controls-benchmark,audit automation guide,follow,editorial,verified_active
+BL0118,open-controls.test,/content/1,vaultspire.example,/templates/vendor-assurance,VaultSpire,nofollow,editorial,verified_active
+BL0119,open-controls.test,/content/2,vaultspire.example,/blog/evidence-collection,https://vaultspire.example,follow,editorial,verified_active
+BL0120,open-controls.test,/content/3,vaultspire.example,/old/security-evidence-checklist,this report,follow,editorial,verified_active
+BL0121,cipher-practitioners.test,/content/1,cipherleaf.example,/blog/security-questionnaires,CipherLeaf,follow,editorial,verified_active
+BL0122,cipher-practitioners.test,/content/2,cipherleaf.example,/resources/soc2-starter,https://cipherleaf.example,follow,editorial,verified_active
+BL0123,cipher-practitioners.test,/content/3,cipherleaf.example,/reports/2025-control-map,this report,follow,editorial,verified_active
+BL0124,evidence-ops.test,/content/1,cipherleaf.example,/blog/security-questionnaires,how security teams collect audit evidence,follow,editorial,verified_active
+BL0125,evidence-ops.test,/content/2,cipherleaf.example,/resources/soc2-starter,Cipher Leaf,nofollow,editorial,verified_active
+BL0126,evidence-ops.test,/content/3,cipherleaf.example,/reports/2025-control-map,cipherleaf.example,follow,editorial,verified_active
+BL0127,evidence-ops.test,/content/4,cipherleaf.example,/,visit website,follow,editorial,verified_active
+BL0128,security-finance.test,/content/1,cipherleaf.example,/guides/vendor-risk-evidence,cloud compliance platform,follow,editorial,verified_active
+BL0129,security-finance.test,/content/2,cipherleaf.example,/templates/audit-evidence-map,audit automation guide,follow,editorial,verified_active
+BL0130,security-finance.test,/content/3,cipherleaf.example,/blog/security-questionnaires,how security teams collect audit evidence,follow,editorial,verified_active
+BL0131,startup-assurance.test,/content/1,cipherleaf.example,/blog/security-questionnaires,cloud compliance benchmark,follow,editorial,verified_active
+BL0132,startup-assurance.test,/content/2,cipherleaf.example,/resources/soc2-starter,a benchmark for cloud control coverage,follow,editorial,verified_active
+BL0133,startup-assurance.test,/content/3,cipherleaf.example,/reports/2025-control-map,CipherLeaf Security,nofollow,editorial,verified_active
+BL0134,startup-assurance.test,/content/4,cipherleaf.example,/,CipherLeaf,follow,editorial,verified_active
+BL0135,compliance-craft.test,/content/1,cipherleaf.example,/blog/security-questionnaires,cloud compliance platform,follow,editorial,verified_active
+BL0136,compliance-craft.test,/content/2,cipherleaf.example,/resources/soc2-starter,audit automation guide,follow,editorial,verified_active
+BL0137,compliance-craft.test,/content/3,cipherleaf.example,/reports/2025-control-map,how security teams collect audit evidence,follow,editorial,verified_active
+BL0138,risk-data-lab.test,/content/1,cipherleaf.example,/guides/vendor-risk-evidence,CipherLeaf,nofollow,editorial,verified_active
+BL0139,risk-data-lab.test,/content/2,cipherleaf.example,/templates/audit-evidence-map,https://cipherleaf.example,follow,editorial,verified_active
+BL0140,risk-data-lab.test,/content/3,cipherleaf.example,/blog/security-questionnaires,this report,follow,editorial,verified_active
+BL0141,risk-data-lab.test,/content/4,cipherleaf.example,/resources/soc2-starter,security compliance software,follow,editorial,verified_active
+BL0142,vendor-trust.test,/content/1,cipherleaf.example,/guides/vendor-risk-evidence,how security teams collect audit evidence,follow,editorial,verified_active
+BL0143,vendor-trust.test,/content/2,cipherleaf.example,/templates/audit-evidence-map,Cipher Leaf,nofollow,editorial,verified_active
+BL0144,vendor-trust.test,/content/3,cipherleaf.example,/blog/security-questionnaires,cipherleaf.example,follow,editorial,verified_active
+BL0145,cloud-counsel.test,/content/1,cipherleaf.example,/blog/security-questionnaires,CipherLeaf,nofollow,editorial,verified_active
+BL0146,cloud-counsel.test,/content/2,cipherleaf.example,/resources/soc2-starter,https://cipherleaf.example,follow,editorial,verified_active
+BL0147,cloud-counsel.test,/content/3,cipherleaf.example,/reports/2025-control-map,this report,follow,editorial,verified_active
+BL0148,cloud-counsel.test,/content/4,cipherleaf.example,/,security compliance software,follow,editorial,verified_active
+BL0149,assurance-week.test,/content/1,cipherleaf.example,/reports/2025-control-map,cipherleaf.example,follow,editorial,verified_active
+BL0150,assurance-week.test,/content/2,cipherleaf.example,/,read the guide,follow,editorial,verified_active
+BL0151,assurance-week.test,/content/3,cipherleaf.example,/research/cloud-controls-benchmark,cloud compliance platform,follow,editorial,verified_active
+BL0152,security-operators.test,/content/1,cipherleaf.example,/blog/security-questionnaires,how security teams collect audit evidence,follow,editorial,verified_active
+BL0153,security-operators.test,/content/2,cipherleaf.example,/resources/soc2-starter,Cipher Leaf,nofollow,editorial,verified_active
+BL0154,security-operators.test,/content/3,cipherleaf.example,/reports/2025-control-map,CipherLeaf Security,follow,editorial,verified_active
+BL0155,security-operators.test,/content/4,cipherleaf.example,/,https://cipherleaf.example,follow,editorial,verified_active
+BL0156,controls-catalog.test,/content/1,cipherleaf.example,/templates/audit-evidence-map,cloud compliance platform,follow,editorial,verified_active
+BL0157,controls-catalog.test,/content/2,cipherleaf.example,/blog/security-questionnaires,audit automation guide,follow,editorial,verified_active
+BL0158,controls-catalog.test,/content/3,cipherleaf.example,/resources/soc2-starter,how security teams collect audit evidence,follow,editorial,verified_active
+BL0159,b2b-policy.test,/content/1,cipherleaf.example,/resources/soc2-starter,learn more,follow,editorial,verified_active
+BL0160,b2b-policy.test,/content/2,cipherleaf.example,/reports/2025-control-map,audit automation guide,follow,editorial,verified_active
+BL0161,b2b-policy.test,/content/3,cipherleaf.example,/,how security teams collect audit evidence,follow,editorial,verified_active
+BL0162,b2b-policy.test,/content/4,cipherleaf.example,/research/cloud-controls-benchmark,CipherLeaf,nofollow,editorial,verified_active
+BL0163,midmarket-cloud.test,/content/1,cipherleaf.example,/blog/security-questionnaires,learn more,follow,editorial,verified_active
+BL0164,midmarket-cloud.test,/content/2,cipherleaf.example,/resources/soc2-starter,security compliance software,follow,editorial,verified_active
+BL0165,midmarket-cloud.test,/content/3,cipherleaf.example,/reports/2025-control-map,vendor trust evidence,follow,editorial,verified_active
+BL0166,founder-controls.test,/content/1,cipherleaf.example,/reports/2025-control-map,cloud compliance platform,follow,editorial,verified_active
+BL0167,founder-controls.test,/content/2,cipherleaf.example,/,audit automation guide,follow,editorial,verified_active
+BL0168,founder-controls.test,/content/3,cipherleaf.example,/research/cloud-controls-benchmark,how security teams collect audit evidence,follow,editorial,verified_active
+BL0169,founder-controls.test,/content/4,cipherleaf.example,/guides/vendor-risk-evidence,CipherLeaf,nofollow,editorial,verified_active
+BL0170,regional-audit.test,/content/1,cipherleaf.example,/resources/soc2-starter,cipherleaf.example,follow,editorial,verified_active
+BL0171,regional-audit.test,/content/2,cipherleaf.example,/reports/2025-control-map,read the guide,follow,editorial,verified_active
+BL0172,regional-audit.test,/content/3,cipherleaf.example,/,cloud compliance platform,follow,editorial,verified_active
+BL0173,secops-journal.test,/content/1,vaultspire.example,/reports/state-of-audit-readiness,vaultspire.example,follow,editorial,verified_active
+BL0174,secops-journal.test,/content/2,vaultspire.example,/guides/continuous-compliance,read the guide,follow,editorial,verified_active
+BL0175,secops-journal.test,/content/3,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,editorial,verified_active
+BL0176,compliance-lab.test,/content/1,vaultspire.example,/guides/continuous-compliance,vaultspire.example,follow,editorial,verified_active
+BL0177,compliance-lab.test,/content/2,vaultspire.example,/templates/vendor-assurance,read the guide,follow,editorial,verified_active
+BL0178,compliance-lab.test,/content/3,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0179,compliance-lab.test,/content/4,vaultspire.example,/old/security-evidence-checklist,continuous compliance guide,follow,editorial,verified_active
+BL0180,cloud-audit-alliance.test,/content/1,vaultspire.example,/templates/vendor-assurance,VaultSpire,follow,editorial,verified_active
+BL0181,cloud-audit-alliance.test,/content/2,vaultspire.example,/blog/evidence-collection,https://vaultspire.example,follow,editorial,verified_active
+BL0182,cloud-audit-alliance.test,/content/3,vaultspire.example,/old/security-evidence-checklist,this report,follow,editorial,verified_active
+BL0183,cloud-audit-alliance.test,/content/4,vaultspire.example,/,continuous compliance guide,follow,editorial,verified_active
+BL0184,cloud-audit-alliance.test,/content/5,vaultspire.example,/reports/state-of-audit-readiness,a practical approach to evidence collection,follow,editorial,verified_active
+BL0185,risk-engineering.test,/content/1,vaultspire.example,/,continuous compliance platform,follow,editorial,verified_active
+BL0186,risk-engineering.test,/content/2,vaultspire.example,/reports/state-of-audit-readiness,audit readiness report,follow,editorial,verified_active
+BL0187,risk-engineering.test,/content/3,vaultspire.example,/guides/continuous-compliance,a practical approach to evidence collection,follow,editorial,verified_active
+BL0188,governance-review.test,/content/1,vaultspire.example,/guides/continuous-compliance,continuous compliance guide,follow,editorial,verified_active
+BL0189,governance-review.test,/content/2,vaultspire.example,/templates/vendor-assurance,the annual audit readiness study,follow,editorial,verified_active
+BL0190,governance-review.test,/content/3,vaultspire.example,/blog/evidence-collection,VaultSpire Labs,nofollow,editorial,verified_active
+BL0191,governance-review.test,/content/4,vaultspire.example,/old/security-evidence-checklist,VaultSpire,follow,editorial,verified_active
+BL0192,b2b-security-weekly.test,/content/1,vaultspire.example,/old/security-evidence-checklist,VaultSpire,nofollow,editorial,verified_active
+BL0193,b2b-security-weekly.test,/content/2,vaultspire.example,/,Vault Spire,follow,editorial,verified_active
+BL0194,b2b-security-weekly.test,/content/3,vaultspire.example,/reports/state-of-audit-readiness,vaultspire.example,follow,editorial,verified_active
+BL0195,b2b-security-weekly.test,/content/4,vaultspire.example,/guides/continuous-compliance,visit website,follow,editorial,verified_active
+BL0196,b2b-security-weekly.test,/content/5,vaultspire.example,/templates/vendor-assurance,audit readiness report,follow,editorial,verified_active
+BL0197,devtrust-community.test,/content/1,vaultspire.example,/old/security-evidence-checklist,a practical approach to evidence collection,follow,editorial,verified_active
+BL0198,devtrust-community.test,/content/2,vaultspire.example,/,Vault Spire,nofollow,editorial,verified_active
+BL0199,devtrust-community.test,/content/3,vaultspire.example,/reports/state-of-audit-readiness,VaultSpire Labs,follow,editorial,verified_active
+BL0200,privacy-briefing.test,/content/1,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0201,privacy-briefing.test,/content/2,vaultspire.example,/old/security-evidence-checklist,audit readiness report,follow,editorial,verified_active
+BL0202,privacy-briefing.test,/content/3,vaultspire.example,/,a practical approach to evidence collection,follow,editorial,verified_active
+BL0203,privacy-briefing.test,/content/4,vaultspire.example,/reports/state-of-audit-readiness,VaultSpire,nofollow,editorial,verified_active
+BL0204,saas-controlroom.test,/content/1,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,editorial,verified_active
+BL0205,saas-controlroom.test,/content/2,vaultspire.example,/,audit readiness report,follow,editorial,verified_active
+BL0206,saas-controlroom.test,/content/3,vaultspire.example,/reports/state-of-audit-readiness,a practical approach to evidence collection,follow,editorial,verified_active
+BL0207,saas-controlroom.test,/content/4,vaultspire.example,/guides/continuous-compliance,VaultSpire,nofollow,editorial,verified_active
+BL0208,saas-controlroom.test,/content/5,vaultspire.example,/templates/vendor-assurance,Vault Spire,follow,editorial,unverifiable_js
+BL0209,infosec-curriculum.test,/content/1,vaultspire.example,/guides/continuous-compliance,a practical approach to evidence collection,follow,editorial,verified_active
+BL0210,infosec-curriculum.test,/content/2,vaultspire.example,/templates/vendor-assurance,Vault Spire,nofollow,editorial,verified_active
+BL0211,infosec-curriculum.test,/content/3,vaultspire.example,/blog/evidence-collection,VaultSpire Labs,follow,editorial,verified_active
+BL0212,cloudops-dispatch.test,/content/1,vaultspire.example,/guides/continuous-compliance,continuous compliance guide,follow,editorial,verified_active
+BL0213,cloudops-dispatch.test,/content/2,vaultspire.example,/templates/vendor-assurance,the annual audit readiness study,follow,editorial,verified_active
+BL0214,cloudops-dispatch.test,/content/3,vaultspire.example,/blog/evidence-collection,VaultSpire Labs,nofollow,editorial,verified_active
+BL0215,cloudops-dispatch.test,/content/4,vaultspire.example,/old/security-evidence-checklist,VaultSpire,follow,editorial,verified_active
+BL0216,procurement-tech-review.test,/content/1,vaultspire.example,/templates/vendor-assurance,continuous compliance guide,follow,editorial,verified_active
+BL0217,procurement-tech-review.test,/content/2,vaultspire.example,/blog/evidence-collection,the annual audit readiness study,follow,editorial,verified_active
+BL0218,procurement-tech-review.test,/content/3,vaultspire.example,/old/security-evidence-checklist,VaultSpire Labs,nofollow,editorial,verified_active
+BL0219,procurement-tech-review.test,/content/4,vaultspire.example,/,https://vaultspire.example,follow,editorial,verified_active
+BL0220,procurement-tech-review.test,/content/5,vaultspire.example,/reports/state-of-audit-readiness,learn more,follow,editorial,verified_active
+BL0221,rank-orbit.test,/content/1,cipherleaf.example,/research/cloud-controls-benchmark,cloud compliance platform,follow,editorial,verified_active
+BL0222,rank-orbit.test,/content/2,cipherleaf.example,/guides/vendor-risk-evidence,security compliance software,follow,editorial,verified_active
+BL0223,rank-orbit.test,/content/3,cipherleaf.example,/templates/audit-evidence-map,cloud compliance platform,follow,editorial,verified_active
+BL0224,rank-orbit.test,/content/4,cipherleaf.example,/blog/security-questionnaires,security compliance software,nofollow,editorial,verified_active
+BL0225,rank-orbit.test,/content/5,cipherleaf.example,/resources/soc2-starter,audit automation guide,follow,editorial,verified_active
+BL0226,rank-orbit.test,/content/6,cipherleaf.example,/reports/2025-control-map,security compliance software,follow,editorial,verified_active
+BL0227,rank-orbit.test,/content/7,cipherleaf.example,/,cloud compliance platform,follow,editorial,verified_active
+BL0228,expired-cloud.test,/content/1,cipherleaf.example,/blog/security-questionnaires,cloud compliance platform,nofollow,editorial,verified_active
+BL0229,expired-cloud.test,/content/2,cipherleaf.example,/resources/soc2-starter,security compliance software,follow,editorial,verified_active
+BL0230,expired-cloud.test,/content/3,cipherleaf.example,/reports/2025-control-map,cloud compliance platform,follow,editorial,verified_active
+BL0231,expired-cloud.test,/content/4,cipherleaf.example,/,security compliance software,follow,editorial,verified_active
+BL0232,expired-cloud.test,/content/5,cipherleaf.example,/research/cloud-controls-benchmark,audit automation guide,follow,editorial,verified_active
+BL0233,expired-cloud.test,/content/6,cipherleaf.example,/guides/vendor-risk-evidence,security compliance software,follow,editorial,verified_active
+BL0234,expired-cloud.test,/content/7,cipherleaf.example,/templates/audit-evidence-map,cloud compliance platform,nofollow,editorial,verified_active
+BL0235,footer-market.test,/content/1,cipherleaf.example,/blog/security-questionnaires,cloud compliance platform,nofollow,footer,verified_active
+BL0236,footer-market.test,/content/2,cipherleaf.example,/resources/soc2-starter,security compliance software,follow,footer,verified_active
+BL0237,footer-market.test,/content/3,cipherleaf.example,/reports/2025-control-map,cloud compliance platform,follow,footer,verified_active
+BL0238,footer-market.test,/content/4,cipherleaf.example,/,security compliance software,follow,footer,verified_active
+BL0239,footer-market.test,/content/5,cipherleaf.example,/research/cloud-controls-benchmark,audit automation guide,follow,footer,verified_active
+BL0240,footer-market.test,/content/6,cipherleaf.example,/guides/vendor-risk-evidence,security compliance software,follow,footer,verified_active
+BL0241,footer-market.test,/content/7,cipherleaf.example,/templates/audit-evidence-map,cloud compliance platform,nofollow,footer,verified_active
+BL0242,pharma-breach.test,/content/1,cipherleaf.example,/blog/security-questionnaires,cloud compliance platform,nofollow,editorial,verified_active
+BL0243,pharma-breach.test,/content/2,cipherleaf.example,/resources/soc2-starter,security compliance software,follow,editorial,verified_active
+BL0244,pharma-breach.test,/content/3,cipherleaf.example,/reports/2025-control-map,cloud compliance platform,follow,editorial,verified_active
+BL0245,pharma-breach.test,/content/4,cipherleaf.example,/,security compliance software,follow,editorial,verified_active
+BL0246,pharma-breach.test,/content/5,cipherleaf.example,/research/cloud-controls-benchmark,audit automation guide,follow,editorial,verified_active
+BL0247,pharma-breach.test,/content/6,cipherleaf.example,/guides/vendor-risk-evidence,security compliance software,follow,editorial,verified_active
+BL0248,pharma-breach.test,/content/7,cipherleaf.example,/templates/audit-evidence-map,cloud compliance platform,nofollow,editorial,verified_active
+BL0249,thin-profile.test,/content/1,cipherleaf.example,/templates/audit-evidence-map,cipherleaf.example,nofollow,profile,verified_active
+BL0250,thin-profile.test,/content/2,cipherleaf.example,/blog/security-questionnaires,https://cipherleaf.example,nofollow,profile,verified_active
+BL0251,thin-profile.test,/content/3,cipherleaf.example,/resources/soc2-starter,cipherleaf.example,nofollow,profile,verified_active
+BL0252,thin-profile.test,/content/4,cipherleaf.example,/reports/2025-control-map,https://cipherleaf.example,nofollow,profile,verified_active
+BL0253,small-security-blog.test,/content/1,cipherleaf.example,/templates/audit-evidence-map,cipherleaf.example,nofollow,editorial,verified_active
+BL0254,small-security-blog.test,/content/2,cipherleaf.example,/blog/security-questionnaires,https://cipherleaf.example,nofollow,editorial,verified_active
+BL0255,small-security-blog.test,/content/3,cipherleaf.example,/resources/soc2-starter,cipherleaf.example,nofollow,editorial,verified_active
+BL0256,pbn-circuit.test,/content/1,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0257,pbn-circuit.test,/content/2,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0258,pbn-circuit.test,/content/3,vaultspire.example,/,continuous compliance platform,nofollow,editorial,verified_active
+BL0259,pbn-circuit.test,/content/4,vaultspire.example,/reports/state-of-audit-readiness,security evidence software,follow,editorial,verified_active
+BL0260,pbn-circuit.test,/content/5,vaultspire.example,/guides/continuous-compliance,audit readiness report,follow,editorial,verified_active
+BL0261,pbn-circuit.test,/content/6,vaultspire.example,/templates/vendor-assurance,security evidence software,follow,editorial,verified_active
+BL0262,pbn-circuit.test,/content/7,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0263,pbn-circuit.test,/content/8,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0264,pbn-cascade.test,/content/1,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0265,pbn-cascade.test,/content/2,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0266,pbn-cascade.test,/content/3,vaultspire.example,/,continuous compliance platform,nofollow,editorial,verified_active
+BL0267,pbn-cascade.test,/content/4,vaultspire.example,/reports/state-of-audit-readiness,security evidence software,follow,editorial,verified_active
+BL0268,pbn-cascade.test,/content/5,vaultspire.example,/guides/continuous-compliance,audit readiness report,follow,editorial,verified_active
+BL0269,pbn-cascade.test,/content/6,vaultspire.example,/templates/vendor-assurance,security evidence software,follow,editorial,verified_active
+BL0270,pbn-cascade.test,/content/7,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0271,pbn-cascade.test,/content/8,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0272,manual-action.test,/content/1,vaultspire.example,/,continuous compliance platform,nofollow,editorial,verified_active
+BL0273,manual-action.test,/content/2,vaultspire.example,/reports/state-of-audit-readiness,security evidence software,follow,editorial,verified_active
+BL0274,manual-action.test,/content/3,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,editorial,verified_active
+BL0275,manual-action.test,/content/4,vaultspire.example,/templates/vendor-assurance,security evidence software,follow,editorial,verified_active
+BL0276,manual-action.test,/content/5,vaultspire.example,/blog/evidence-collection,audit readiness report,follow,editorial,verified_active
+BL0277,manual-action.test,/content/6,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0278,manual-action.test,/content/7,vaultspire.example,/,continuous compliance platform,nofollow,editorial,verified_active
+BL0279,manual-action.test,/content/8,vaultspire.example,/reports/state-of-audit-readiness,security evidence software,follow,editorial,verified_active
+BL0280,deindexed-vault.test,/content/1,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,editorial,verified_active
+BL0281,deindexed-vault.test,/content/2,vaultspire.example,/templates/vendor-assurance,security evidence software,follow,editorial,verified_active
+BL0282,deindexed-vault.test,/content/3,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0283,deindexed-vault.test,/content/4,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0284,deindexed-vault.test,/content/5,vaultspire.example,/,audit readiness report,nofollow,editorial,verified_active
+BL0285,deindexed-vault.test,/content/6,vaultspire.example,/reports/state-of-audit-readiness,security evidence software,follow,editorial,verified_active
+BL0286,deindexed-vault.test,/content/7,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,editorial,verified_active
+BL0287,deindexed-vault.test,/content/8,vaultspire.example,/templates/vendor-assurance,security evidence software,follow,editorial,verified_active
+BL0288,directory-blast.test,/content/1,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0289,directory-blast.test,/content/2,vaultspire.example,/templates/vendor-assurance,read the guide,follow,directory,verified_active
+BL0290,directory-blast.test,/content/3,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,directory,verified_active
+BL0291,directory-blast.test,/content/4,vaultspire.example,/old/security-evidence-checklist,visit website,follow,directory,verified_active
+BL0292,directory-blast.test,/content/5,vaultspire.example,/,continuous compliance platform,nofollow,directory,verified_active
+BL0293,directory-blast.test,/content/6,vaultspire.example,/reports/state-of-audit-readiness,read the guide,follow,directory,verified_active
+BL0294,directory-blast.test,/content/7,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0295,directory-blast.test,/content/8,vaultspire.example,/templates/vendor-assurance,visit website,follow,directory,verified_active
+BL0296,directory-blast.test,/content/9,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,directory,verified_active
+BL0297,directory-blast.test,/content/10,vaultspire.example,/old/security-evidence-checklist,read the guide,follow,directory,verified_active
+BL0298,directory-blast.test,/content/11,vaultspire.example,/,continuous compliance platform,nofollow,directory,verified_active
+BL0299,directory-blast.test,/content/12,vaultspire.example,/reports/state-of-audit-readiness,visit website,follow,directory,verified_active
+BL0300,directory-blast.test,/content/13,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0301,directory-blast.test,/content/14,vaultspire.example,/templates/vendor-assurance,read the guide,follow,directory,verified_active
+BL0302,directory-blast.test,/content/15,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,directory,verified_active
+BL0303,directory-blast.test,/content/16,vaultspire.example,/old/security-evidence-checklist,visit website,follow,directory,verified_active
+BL0304,directory-blast.test,/content/17,vaultspire.example,/,continuous compliance platform,nofollow,directory,verified_active
+BL0305,directory-blast.test,/content/1,vaultspire.example,/reports/state-of-audit-readiness,read the guide,follow,directory,verified_active
+BL0306,directory-blast.test,/content/2,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0307,directory-blast.test,/content/3,vaultspire.example,/templates/vendor-assurance,visit website,follow,directory,verified_active
+BL0308,directory-pulse.test,/content/1,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0309,directory-pulse.test,/content/2,vaultspire.example,/templates/vendor-assurance,read the guide,follow,directory,verified_active
+BL0310,directory-pulse.test,/content/3,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,directory,verified_active
+BL0311,directory-pulse.test,/content/4,vaultspire.example,/old/security-evidence-checklist,visit website,follow,directory,verified_active
+BL0312,directory-pulse.test,/content/5,vaultspire.example,/,continuous compliance platform,nofollow,directory,verified_active
+BL0313,directory-pulse.test,/content/6,vaultspire.example,/reports/state-of-audit-readiness,read the guide,follow,directory,verified_active
+BL0314,directory-pulse.test,/content/7,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0315,directory-pulse.test,/content/8,vaultspire.example,/templates/vendor-assurance,visit website,follow,directory,verified_active
+BL0316,directory-pulse.test,/content/9,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,directory,verified_active
+BL0317,directory-pulse.test,/content/10,vaultspire.example,/old/security-evidence-checklist,read the guide,follow,directory,verified_active
+BL0318,directory-pulse.test,/content/11,vaultspire.example,/,continuous compliance platform,nofollow,directory,verified_active
+BL0319,directory-pulse.test,/content/12,vaultspire.example,/reports/state-of-audit-readiness,visit website,follow,directory,verified_active
+BL0320,directory-pulse.test,/content/13,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0321,directory-pulse.test,/content/14,vaultspire.example,/templates/vendor-assurance,read the guide,follow,directory,verified_active
+BL0322,directory-pulse.test,/content/15,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,directory,verified_active
+BL0323,directory-pulse.test,/content/16,vaultspire.example,/old/security-evidence-checklist,visit website,follow,directory,verified_active
+BL0324,directory-pulse.test,/content/17,vaultspire.example,/,continuous compliance platform,nofollow,directory,verified_active
+BL0325,directory-pulse.test,/content/1,vaultspire.example,/reports/state-of-audit-readiness,read the guide,follow,directory,verified_active
+BL0326,directory-pulse.test,/content/2,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,directory,verified_active
+BL0327,directory-pulse.test,/content/3,vaultspire.example,/templates/vendor-assurance,visit website,follow,directory,verified_active
+BL0328,directory-harbor.test,/content/1,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,directory,verified_active
+BL0329,directory-harbor.test,/content/2,vaultspire.example,/blog/evidence-collection,read the guide,follow,directory,verified_active
+BL0330,directory-harbor.test,/content/3,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,directory,verified_active
+BL0331,directory-harbor.test,/content/4,vaultspire.example,/,visit website,nofollow,directory,verified_active
+BL0332,directory-harbor.test,/content/5,vaultspire.example,/reports/state-of-audit-readiness,continuous compliance platform,follow,directory,verified_active
+BL0333,directory-harbor.test,/content/6,vaultspire.example,/guides/continuous-compliance,read the guide,follow,directory,verified_active
+BL0334,directory-harbor.test,/content/7,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,directory,verified_active
+BL0335,directory-harbor.test,/content/8,vaultspire.example,/blog/evidence-collection,visit website,follow,directory,verified_active
+BL0336,directory-harbor.test,/content/9,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,directory,verified_active
+BL0337,directory-harbor.test,/content/10,vaultspire.example,/,read the guide,nofollow,directory,verified_active
+BL0338,directory-harbor.test,/content/11,vaultspire.example,/reports/state-of-audit-readiness,continuous compliance platform,follow,directory,verified_active
+BL0339,directory-harbor.test,/content/12,vaultspire.example,/guides/continuous-compliance,visit website,follow,directory,verified_active
+BL0340,directory-harbor.test,/content/13,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,directory,verified_active
+BL0341,directory-harbor.test,/content/14,vaultspire.example,/blog/evidence-collection,read the guide,follow,directory,verified_active
+BL0342,directory-harbor.test,/content/15,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,directory,verified_active
+BL0343,directory-harbor.test,/content/16,vaultspire.example,/,visit website,nofollow,directory,verified_active
+BL0344,directory-harbor.test,/content/17,vaultspire.example,/reports/state-of-audit-readiness,continuous compliance platform,follow,directory,verified_active
+BL0345,directory-harbor.test,/content/1,vaultspire.example,/guides/continuous-compliance,read the guide,follow,directory,verified_active
+BL0346,directory-harbor.test,/content/2,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,directory,verified_active
+BL0347,directory-harbor.test,/content/3,vaultspire.example,/blog/evidence-collection,visit website,follow,directory,verified_active
+BL0348,paid-sidebar.test,/content/1,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,sidebar,verified_active
+BL0349,paid-sidebar.test,/content/2,vaultspire.example,/,security evidence software,nofollow,sidebar,verified_active
+BL0350,paid-sidebar.test,/content/3,vaultspire.example,/reports/state-of-audit-readiness,continuous compliance platform,follow,sidebar,verified_active
+BL0351,paid-sidebar.test,/content/4,vaultspire.example,/guides/continuous-compliance,security evidence software,follow,sidebar,verified_active
+BL0352,paid-sidebar.test,/content/5,vaultspire.example,/templates/vendor-assurance,audit readiness report,follow,sidebar,verified_active
+BL0353,paid-sidebar.test,/content/6,vaultspire.example,/blog/evidence-collection,security evidence software,follow,sidebar,verified_active
+BL0354,paid-sidebar.test,/content/7,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,sidebar,verified_active
+BL0355,paid-sidebar.test,/content/8,vaultspire.example,/,security evidence software,nofollow,sidebar,verified_active
+BL0356,paid-sidebar.test,/content/9,vaultspire.example,/reports/state-of-audit-readiness,continuous compliance platform,follow,sidebar,verified_active
+BL0357,paid-sidebar.test,/content/10,vaultspire.example,/guides/continuous-compliance,continuous compliance guide,follow,sidebar,verified_active
+BL0358,paid-sidebar.test,/content/11,vaultspire.example,/templates/vendor-assurance,continuous compliance platform,follow,sidebar,verified_active
+BL0359,paid-sidebar.test,/content/12,vaultspire.example,/blog/evidence-collection,security evidence software,follow,sidebar,verified_active
+BL0360,paid-sidebar.test,/content/13,vaultspire.example,/old/security-evidence-checklist,continuous compliance platform,follow,sidebar,verified_active
+BL0361,paid-sidebar.test,/content/14,vaultspire.example,/,security evidence software,nofollow,sidebar,verified_active
+BL0362,injected-casino.test,/content/1,vaultspire.example,/guides/continuous-compliance,continuous compliance platform,follow,editorial,verified_active
+BL0363,injected-casino.test,/content/2,vaultspire.example,/templates/vendor-assurance,security evidence software,follow,editorial,verified_active
+BL0364,injected-casino.test,/content/3,vaultspire.example,/blog/evidence-collection,continuous compliance platform,follow,editorial,verified_active
+BL0365,injected-casino.test,/content/4,vaultspire.example,/old/security-evidence-checklist,security evidence software,follow,editorial,verified_active
+BL0366,injected-casino.test,/content/5,vaultspire.example,/,audit readiness report,nofollow,editorial,verified_active
+BL0367,injected-casino.test,/content/6,vaultspire.example,/reports/state-of-audit-readiness,security evidence software,follow,editorial,verified_active
+BL0368,nofollow-index.test,/content/1,vaultspire.example,/reports/state-of-audit-readiness,vaultspire.example,nofollow,directory,verified_active
+BL0369,nofollow-index.test,/content/2,vaultspire.example,/guides/continuous-compliance,https://vaultspire.example,nofollow,directory,verified_active
+BL0370,nofollow-index.test,/content/3,vaultspire.example,/templates/vendor-assurance,vaultspire.example,nofollow,directory,verified_active
+BL0371,nofollow-index.test,/content/4,vaultspire.example,/blog/evidence-collection,https://vaultspire.example,nofollow,directory,verified_active
+BL0372,nofollow-index.test,/content/5,vaultspire.example,/old/security-evidence-checklist,vaultspire.example,nofollow,directory,verified_active
+BL0373,security-ledger.test,/content/1,cipherleaf.example,/resources/soc2-starter,learn more,follow,editorial,verified_removed
+BL0374,privacy-observer.test,/content/1,cipherleaf.example,/resources/soc2-starter,cloud compliance platform,follow,editorial,verified_active
+BL0375,evidence-ops.test,/content/1,cipherleaf.example,/resources/soc2-starter,how security teams collect audit evidence,follow,editorial,verified_active
+BL0376,vendor-trust.test,/content/1,cipherleaf.example,/resources/soc2-starter,how security teams collect audit evidence,follow,editorial,verified_active
+BL0377,audit-practice.test,/content/1,cipherleaf.example,/reports/2025-control-map,cipherleaf.example,follow,editorial,verified_active
+BL0378,policy-stack.test,/content/1,cipherleaf.example,/reports/2025-control-map,how security teams collect audit evidence,follow,editorial,verified_active
+BL0379,cipher-practitioners.test,/content/1,cipherleaf.example,/reports/2025-control-map,CipherLeaf,follow,editorial,verified_active

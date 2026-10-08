@@ -1,0 +1,88 @@
+{
+  "as_of_date": "2026-09-10",
+  "terminal_statuses": [
+    "closed",
+    "cancelled",
+    "done"
+  ],
+  "provider_preference": [
+    "github",
+    "asana"
+  ],
+  "deduplication": {
+    "key": "work_item_key",
+    "merge": {
+      "priority": "most urgent value",
+      "due_date": "earliest non-null date",
+      "updated_at": "latest timestamp",
+      "labels_okr_refs_components_authors_blockers": "set union",
+      "title_primary_ref": "provider_preference"
+    }
+  },
+  "ranking": {
+    "priority_points": {
+      "P0": 36,
+      "P1": 27,
+      "P2": 17,
+      "P3": 8
+    },
+    "due_points": {
+      "overdue": 18,
+      "within_2_days": 14,
+      "within_7_days": 9,
+      "within_14_days": 4,
+      "later_or_missing": 0
+    },
+    "recency_points": {
+      "within_1_day": 12,
+      "within_7_days": 8,
+      "within_30_days": 4,
+      "older": 1
+    },
+    "impact_label_points": {
+      "security": 6,
+      "data-loss": 6
+    },
+    "impact_labels_are_not_additive": true,
+    "okr_rule": "use the highest alignment_points among active referenced OKRs; unknown and archived OKRs score zero",
+    "blocked_penalty": 12,
+    "tie_breakers": [
+      "earliest due date with missing last",
+      "latest updated_at",
+      "work_item_key ascending"
+    ]
+  },
+  "blocking": "An item is blocked when any blocker_key refers to a non-terminal work item.",
+  "routing": {
+    "text_fields": [
+      "title",
+      "body",
+      "labels",
+      "components"
+    ],
+    "component_match_points": 4,
+    "distinct_whole_word_keyword_points": 1,
+    "decision": "select the unique highest-scoring enabled repo; zero-score and top-score ties require review"
+  },
+  "execution": {
+    "ready_packet_count": 15,
+    "eligible": "non-terminal, not blocked, every contributing author is known and trusted, and routing has one enabled winner",
+    "selection": "scan ranked inbox in order and take the first eligible items",
+    "review": "flag every non-terminal item that is blocked, has an unknown or untrusted contributing author, or has ambiguous/missing routing",
+    "pipeline": [
+      "analyze",
+      "write failing tests",
+      "implement"
+    ]
+  },
+  "context": {
+    "match": "within the routed repo, score each symbol by distinct whole-word overlaps between ticket text and context keywords",
+    "minimum_score": 1,
+    "max_symbols": 3,
+    "tie_breakers": [
+      "relevance score descending",
+      "blast radius high then medium then low",
+      "symbol ascending"
+    ]
+  }
+}

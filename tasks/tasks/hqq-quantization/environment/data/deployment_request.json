@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "request_id": "edge-t4-042",
+  "framework": "transformers",
+  "target_hardware": {
+    "gpu": "NVIDIA T4",
+    "compute_capability": "7.5",
+    "gpu_memory_gib": 16
+  },
+  "axis": 1,
+  "calibration_samples_available": 0,
+  "calibration_data_allowed": false,
+  "allowed_nbits": [
+    2,
+    3,
+    4
+  ],
+  "allowed_group_sizes": [
+    16,
+    32,
+    64
+  ],
+  "preserve_modules": [
+    "model.embed_tokens",
+    "lm_head"
+  ],
+  "backends": {
+    "pytorch": {
+      "supported": true,
+      "optimized": false,
+      "reason": "portable fallback"
+    },
+    "pytorch_compile": {
+      "supported": true,
+      "optimized": true,
+      "reason": "supported compiler path"
+    },
+    "aten": {
+      "supported": true,
+      "optimized": true,
+      "reason": "optimized CUDA path for Turing"
+    },
+    "marlin": {
+      "supported": false,
+      "optimized": true,
+      "reason": "requires compute capability 8.0 or newer"
+    }
+  },
+  "preferred_backend_order": [
+    "aten",
+    "pytorch_compile",
+    "pytorch"
+  ],
+  "quality_limits": {
+    "model.layers.0.self_attn.q_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.0.self_attn.k_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.0.self_attn.v_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.0.self_attn.o_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.0.mlp.gate_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.0.mlp.up_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.0.mlp.down_proj": {
+      "max_rmse": 0.04
+    },
+    "model.layers.1.self_attn.q_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.1.self_attn.k_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.1.self_attn.v_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.1.self_attn.o_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.1.mlp.gate_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.1.mlp.up_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.1.mlp.down_proj": {
+      "max_rmse": 0.04
+    },
+    "model.layers.2.self_attn.q_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.2.self_attn.k_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.2.self_attn.v_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.2.self_attn.o_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.2.mlp.gate_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.2.mlp.up_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.2.mlp.down_proj": {
+      "max_rmse": 0.04
+    },
+    "model.layers.3.self_attn.q_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.3.self_attn.k_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.3.self_attn.v_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.3.self_attn.o_proj": {
+      "max_rmse": 0.0205
+    },
+    "model.layers.3.mlp.gate_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.3.mlp.up_proj": {
+      "max_rmse": 0.045
+    },
+    "model.layers.3.mlp.down_proj": {
+      "max_rmse": 0.04
+    }
+  },
+  "max_packed_bytes": 19360,
+  "optimization_objective": [
+    "minimize_total_packed_bytes",
+    "then_minimize_overall_rmse"
+  ]
+}

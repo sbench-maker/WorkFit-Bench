@@ -1,0 +1,1327 @@
+[
+  {
+    "version_id": "V001",
+    "file_name": "Lin_ProductManager_FableHealth_2025-01-10.pdf",
+    "created_at": "2025-01-10",
+    "role_family": "product_management",
+    "company_scope": "Fable Health",
+    "base_master_id": "M001",
+    "content_sha256": "d0b3ca497c449a83d5b5dee9152d3a0b36f69f67f484a6fdbd2b06b4e5fb93db",
+    "included_update_ids": [
+      "U016"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_FableHealth_2025-01-10.pdf"
+  },
+  {
+    "version_id": "V002",
+    "file_name": "Lin_SoftwareEngineer_KiteAnalytics_2025-01-16.pdf",
+    "created_at": "2025-01-16",
+    "role_family": "software_engineering",
+    "company_scope": "Kite Analytics",
+    "base_master_id": "M001",
+    "content_sha256": "d492630d26a18bd866f7d1d613e98435a5292db64f8bdd0fb4c569e4ef692b16",
+    "included_update_ids": [
+      "U015",
+      "U032"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_KiteAnalytics_2025-01-16.pdf"
+  },
+  {
+    "version_id": "V003",
+    "file_name": "Lin_DataScientist_PioneerMaps_2025-01-22.pdf",
+    "created_at": "2025-01-22",
+    "role_family": "data_science",
+    "company_scope": "Pioneer Maps",
+    "base_master_id": "M002",
+    "content_sha256": "7ca9ce2d1985a2b7bd0bc0ca3e88e886f3ae664b6db52d44c06d15eabaa2f82f",
+    "included_update_ids": [
+      "U014",
+      "U031"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_PioneerMaps_2025-01-22.pdf"
+  },
+  {
+    "version_id": "V004",
+    "file_name": "Lin_ProductManager_UmberMedia_2025-01-28.pdf",
+    "created_at": "2025-01-28",
+    "role_family": "product_management",
+    "company_scope": "Umber Media",
+    "base_master_id": "M002",
+    "content_sha256": "60e2c0c7cebddb536953ba4b426161b4be4bfc31ee876957a3d0090db9867111",
+    "included_update_ids": [
+      "U013",
+      "U030"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_ProductManager_UmberMedia_2025-01-28.pdf"
+  },
+  {
+    "version_id": "V005",
+    "file_name": "Lin_SoftwareEngineer_BluePeak_2025-02-03.pdf",
+    "created_at": "2025-02-03",
+    "role_family": "software_engineering",
+    "company_scope": "Blue Peak",
+    "base_master_id": "M001",
+    "content_sha256": "b3d8ace99d8a27ddadbac04974bd0c412d3b92c0aabe1a66af767ac42cdec93f",
+    "included_update_ids": [
+      "U012",
+      "U029"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_BluePeak_2025-02-03.pdf"
+  },
+  {
+    "version_id": "V006",
+    "file_name": "Lin_DataScientist_GraniteCloud_2025-02-09.pdf",
+    "created_at": "2025-02-09",
+    "role_family": "data_science",
+    "company_scope": "Granite Cloud",
+    "base_master_id": "M002",
+    "content_sha256": "73e83cea61da11140051826cbab3905d9cb86fa40f7086a4dfc4a0cf1d984d7c",
+    "included_update_ids": [
+      "U011",
+      "U028"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_GraniteCloud_2025-02-09.pdf"
+  },
+  {
+    "version_id": "V007",
+    "file_name": "Lin_ProductManager_MorrowStudio_2025-02-15.pdf",
+    "created_at": "2025-02-15",
+    "role_family": "product_management",
+    "company_scope": "Morrow Studio",
+    "base_master_id": "M002",
+    "content_sha256": "a1fe7e86155cd01a0b4c4abd871a2fee9fcb149ab41204a626513027f7732fcb",
+    "included_update_ids": [
+      "U010",
+      "U027"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_MorrowStudio_2025-02-15.pdf"
+  },
+  {
+    "version_id": "V008",
+    "file_name": "Lin_SoftwareEngineer_RivetSecurity_2025-02-21.pdf",
+    "created_at": "2025-02-21",
+    "role_family": "software_engineering",
+    "company_scope": "Rivet Security",
+    "base_master_id": "M002",
+    "content_sha256": "a70953691dc7c5daf8d6399ffdf79bd50f3f7dd102c42bbe539a672f109c787f",
+    "included_update_ids": [
+      "U009",
+      "U026"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_SoftwareEngineer_RivetSecurity_2025-02-21.pdf"
+  },
+  {
+    "version_id": "V009",
+    "file_name": "Lin_DataScientist_WillowMobility_2025-02-27.pdf",
+    "created_at": "2025-02-27",
+    "role_family": "data_science",
+    "company_scope": "Willow Mobility",
+    "base_master_id": "M002",
+    "content_sha256": "5b1c96e6a72369a68771ec74977e47ba6674c61d1a71678da77e505670f10b5e",
+    "included_update_ids": [
+      "U025"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_WillowMobility_2025-02-27.pdf"
+  },
+  {
+    "version_id": "V010",
+    "file_name": "Lin_ProductManager_DriftHarbor_2025-03-05.pdf",
+    "created_at": "2025-03-05",
+    "role_family": "product_management",
+    "company_scope": "Drift Harbor",
+    "base_master_id": "M001",
+    "content_sha256": "89f7b5da305109365e047fd6703a0ae01f5df5eab683e2881a9a027f1326b967",
+    "included_update_ids": [
+      "U007",
+      "U024"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_DriftHarbor_2025-03-05.pdf"
+  },
+  {
+    "version_id": "V011",
+    "file_name": "Lin_SoftwareEngineer_IndigoRobotics_2025-03-11.pdf",
+    "created_at": "2025-03-11",
+    "role_family": "software_engineering",
+    "company_scope": "Indigo Robotics",
+    "base_master_id": "M002",
+    "content_sha256": "baa753be55f281fc9641a33dee6b59daabbeeb6ebe70f52fc9496f741c525b51",
+    "included_update_ids": [
+      "U006",
+      "U023"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_IndigoRobotics_2025-03-11.pdf"
+  },
+  {
+    "version_id": "V012",
+    "file_name": "Lin_DataScientist_NimbusFoods_2025-03-17.pdf",
+    "created_at": "2025-03-17",
+    "role_family": "data_science",
+    "company_scope": "Nimbus Foods",
+    "base_master_id": "M002",
+    "content_sha256": "4327507a96aa26c7c893a7c4ddc68ca8e74547da401bcb5fe613db729e266ade",
+    "included_update_ids": [
+      "U005"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_DataScientist_NimbusFoods_2025-03-17.pdf"
+  },
+  {
+    "version_id": "V013",
+    "file_name": "Lin_ProductManager_SolaceBio_2025-03-23.pdf",
+    "created_at": "2025-03-23",
+    "role_family": "product_management",
+    "company_scope": "Solace Bio",
+    "base_master_id": "M002",
+    "content_sha256": "616beb34f8bb55c9ffea8f50c62fb9d8c13ecf8b46cea2c167f0ca79f3fcff91",
+    "included_update_ids": [
+      "U004",
+      "U021"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_SolaceBio_2025-03-23.pdf"
+  },
+  {
+    "version_id": "V014",
+    "file_name": "Lin_SoftwareEngineer_AsterLabs_2025-03-29.pdf",
+    "created_at": "2025-03-29",
+    "role_family": "software_engineering",
+    "company_scope": "Aster Labs",
+    "base_master_id": "M002",
+    "content_sha256": "55f4af60027425d842d5899ff22df78ed8af1e4137e66dcc41eda49ea0764e13",
+    "included_update_ids": [
+      "U003",
+      "U020"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_AsterLabs_2025-03-29.pdf"
+  },
+  {
+    "version_id": "V015",
+    "file_name": "Lin_DataScientist_FableHealth_2025-04-04.pdf",
+    "created_at": "2025-04-04",
+    "role_family": "data_science",
+    "company_scope": "Fable Health",
+    "base_master_id": "M001",
+    "content_sha256": "c1374cdb978626ab0b8e2e03b6fb4f749436a3653642a84259df11350192d430",
+    "included_update_ids": [
+      "U002",
+      "U019"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_FableHealth_2025-04-04.pdf"
+  },
+  {
+    "version_id": "V016",
+    "file_name": "Lin_ProductManager_KiteAnalytics_2025-04-10.pdf",
+    "created_at": "2025-04-10",
+    "role_family": "product_management",
+    "company_scope": "Kite Analytics",
+    "base_master_id": "M002",
+    "content_sha256": "c113ed002bdb05a5ae729bdbdfe6c3129133f4e0ca3553eacfd7d1d528e3d837",
+    "included_update_ids": [
+      "U018"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_ProductManager_KiteAnalytics_2025-04-10.pdf"
+  },
+  {
+    "version_id": "V017",
+    "file_name": "Lin_SoftwareEngineer_PioneerMaps_2025-04-16.pdf",
+    "created_at": "2025-04-16",
+    "role_family": "software_engineering",
+    "company_scope": "Pioneer Maps",
+    "base_master_id": "M005",
+    "content_sha256": "5f2bd9a344f445d0999be520fa16d24c0d1a65b617f584e10f8f048cc29448d7",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_PioneerMaps_2025-04-16.pdf"
+  },
+  {
+    "version_id": "V018",
+    "file_name": "Lin_DataScientist_UmberMedia_2025-04-22.pdf",
+    "created_at": "2025-04-22",
+    "role_family": "data_science",
+    "company_scope": "Umber Media",
+    "base_master_id": "M002",
+    "content_sha256": "6d2db53352c3a5d50983cf600445c1398e49421ac3a449dfee44950fc5a4fc44",
+    "included_update_ids": [
+      "U016"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_UmberMedia_2025-04-22.pdf"
+  },
+  {
+    "version_id": "V019",
+    "file_name": "Lin_ProductManager_BluePeak_2025-04-28.pdf",
+    "created_at": "2025-04-28",
+    "role_family": "product_management",
+    "company_scope": "Blue Peak",
+    "base_master_id": "M002",
+    "content_sha256": "87b753b3f71936318a82a5b7e7569c4602394000c879979424db337551a9c437",
+    "included_update_ids": [
+      "U032"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_BluePeak_2025-04-28.pdf"
+  },
+  {
+    "version_id": "V020",
+    "file_name": "Lin_SoftwareEngineer_GraniteCloud_2025-05-04.pdf",
+    "created_at": "2025-05-04",
+    "role_family": "software_engineering",
+    "company_scope": "Granite Cloud",
+    "base_master_id": "M001",
+    "content_sha256": "d0b148e98e5fc8ab91b2eafb032cabde1c894380ae70e9fd630444b1f57a3b03",
+    "included_update_ids": [
+      "U014",
+      "U031"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_SoftwareEngineer_GraniteCloud_2025-05-04.pdf"
+  },
+  {
+    "version_id": "V021",
+    "file_name": "Lin_DataScientist_MorrowStudio_2025-05-10.pdf",
+    "created_at": "2025-05-10",
+    "role_family": "data_science",
+    "company_scope": "Morrow Studio",
+    "base_master_id": "M002",
+    "content_sha256": "31d5dddd1eee117c1223110424fa15837506e448600a23ec1ebd066ad645ef14",
+    "included_update_ids": [
+      "U013",
+      "U030"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_MorrowStudio_2025-05-10.pdf"
+  },
+  {
+    "version_id": "V022",
+    "file_name": "Lin_ProductManager_RivetSecurity_2025-05-16.pdf",
+    "created_at": "2025-05-16",
+    "role_family": "product_management",
+    "company_scope": "Rivet Security",
+    "base_master_id": "M003",
+    "content_sha256": "0b2843cdca00f947f9bac1c50a94096911bf4b9379b5e716a302f71cae834e96",
+    "included_update_ids": [
+      "U012"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_RivetSecurity_2025-05-16.pdf"
+  },
+  {
+    "version_id": "V023",
+    "file_name": "Lin_SoftwareEngineer_WillowMobility_2025-05-22.pdf",
+    "created_at": "2025-05-22",
+    "role_family": "software_engineering",
+    "company_scope": "Willow Mobility",
+    "base_master_id": "M002",
+    "content_sha256": "97c53a438a9a19a9558763f0c29f1d2adaef233bed399259fe74fe53484534ff",
+    "included_update_ids": [
+      "U011",
+      "U028"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_WillowMobility_2025-05-22.pdf"
+  },
+  {
+    "version_id": "V024",
+    "file_name": "Lin_DataScientist_DriftHarbor_2025-05-28.pdf",
+    "created_at": "2025-05-28",
+    "role_family": "data_science",
+    "company_scope": "Drift Harbor",
+    "base_master_id": "M003",
+    "content_sha256": "f992e0e1d665ac41073a4e777170391fc48ce85a1e6678c64c7b6b97ba1813ef",
+    "included_update_ids": [
+      "U010",
+      "U027"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_DataScientist_DriftHarbor_2025-05-28.pdf"
+  },
+  {
+    "version_id": "V025",
+    "file_name": "Lin_ProductManager_IndigoRobotics_2025-06-03.pdf",
+    "created_at": "2025-06-03",
+    "role_family": "product_management",
+    "company_scope": "Indigo Robotics",
+    "base_master_id": "M002",
+    "content_sha256": "b4992cae6617dea1f9008ab196fdb09984305b0ede8f99ea8f18abf55adefebe",
+    "included_update_ids": [
+      "U009",
+      "U026"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_IndigoRobotics_2025-06-03.pdf"
+  },
+  {
+    "version_id": "V026",
+    "file_name": "Lin_SoftwareEngineer_NimbusFoods_2025-06-09.pdf",
+    "created_at": "2025-06-09",
+    "role_family": "software_engineering",
+    "company_scope": "Nimbus Foods",
+    "base_master_id": "M003",
+    "content_sha256": "74de1c1105a3bf5fdff33fbe20a10fc75917a943fdbe7a038b3c7f9c3694734e",
+    "included_update_ids": [
+      "U025"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_NimbusFoods_2025-06-09.pdf"
+  },
+  {
+    "version_id": "V027",
+    "file_name": "Lin_DataScientist_SolaceBio_2025-06-15.pdf",
+    "created_at": "2025-06-15",
+    "role_family": "data_science",
+    "company_scope": "Solace Bio",
+    "base_master_id": "M003",
+    "content_sha256": "dfd1c99e241cf5952acffe25998a930eb3817096e8d0d646cd5c82ea61997b28",
+    "included_update_ids": [
+      "U007",
+      "U024"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_SolaceBio_2025-06-15.pdf"
+  },
+  {
+    "version_id": "V028",
+    "file_name": "Lin_ProductManager_AsterLabs_2025-06-21.pdf",
+    "created_at": "2025-06-21",
+    "role_family": "product_management",
+    "company_scope": "Aster Labs",
+    "base_master_id": "M003",
+    "content_sha256": "75f652079c1791fe14730ff68dd0b847b193537d10f6f27aefb34b3a2cc88bd5",
+    "included_update_ids": [
+      "U006"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_ProductManager_AsterLabs_2025-06-21.pdf"
+  },
+  {
+    "version_id": "V029",
+    "file_name": "Lin_SoftwareEngineer_FableHealth_2025-06-27.pdf",
+    "created_at": "2025-06-27",
+    "role_family": "software_engineering",
+    "company_scope": "Fable Health",
+    "base_master_id": "M003",
+    "content_sha256": "ebf0f8238bc3e70b3bbb658178714dcd6f3449e9e5421ee049f194801c7bee40",
+    "included_update_ids": [
+      "U005"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_FableHealth_2025-06-27.pdf"
+  },
+  {
+    "version_id": "V030",
+    "file_name": "Lin_DataScientist_KiteAnalytics_2025-07-03.pdf",
+    "created_at": "2025-07-03",
+    "role_family": "data_science",
+    "company_scope": "Kite Analytics",
+    "base_master_id": "M002",
+    "content_sha256": "252768a2aaa59e2e2c57befcd64e46c1f00dbb8d6ccbaec1a4e6fb0c8478bd63",
+    "included_update_ids": [
+      "U004",
+      "U021"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_KiteAnalytics_2025-07-03.pdf"
+  },
+  {
+    "version_id": "V031",
+    "file_name": "Lin_DataScientist_Northstar_2025-07-10.pdf",
+    "created_at": "2025-07-09",
+    "role_family": "product_management",
+    "company_scope": "Pioneer Maps",
+    "base_master_id": "M003",
+    "content_sha256": "44451c7bb81da4d1144b585f790c35091a7d2595cb6239f6f3801a92015cc18b",
+    "included_update_ids": [
+      "U003",
+      "U020"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_DataScientist_Northstar_2025-07-10.pdf"
+  },
+  {
+    "version_id": "V032",
+    "file_name": "Lin_DataScientist_Northstar_2025-07-10.pdf",
+    "created_at": "2025-07-15",
+    "role_family": "software_engineering",
+    "company_scope": "Umber Media",
+    "base_master_id": "M003",
+    "content_sha256": "9b0f3b7e5b7d03c94a62c3196022b55b2c62124c156530aac5091c81a53811e5",
+    "included_update_ids": [
+      "U019"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_DataScientist_Northstar_2025-07-10.pdf"
+  },
+  {
+    "version_id": "V033",
+    "file_name": "Lin_DataScientist_BluePeak_2025-07-21.pdf",
+    "created_at": "2025-07-21",
+    "role_family": "data_science",
+    "company_scope": "Blue Peak",
+    "base_master_id": "M003",
+    "content_sha256": "21fc312713a647499ab00e23406fc0b0f969543ce15b2a49065e38156ef68106",
+    "included_update_ids": [
+      "U018"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_BluePeak_2025-07-21.pdf"
+  },
+  {
+    "version_id": "V034",
+    "file_name": "Lin_ProductManager_GraniteCloud_2025-07-27.pdf",
+    "created_at": "2025-07-27",
+    "role_family": "product_management",
+    "company_scope": "Granite Cloud",
+    "base_master_id": "M003",
+    "content_sha256": "d64455013872ae7cfef56f69b0d8ebaadc15079f3a57916197c3f8929ab450c6",
+    "included_update_ids": [
+      "U017"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_GraniteCloud_2025-07-27.pdf"
+  },
+  {
+    "version_id": "V035",
+    "file_name": "Lin_SoftwareEngineer_MorrowStudio_2025-08-02.pdf",
+    "created_at": "2025-08-02",
+    "role_family": "software_engineering",
+    "company_scope": "Morrow Studio",
+    "base_master_id": "M002",
+    "content_sha256": "39a8ac21083a8f1d110462d46ef78c5424f8324331421772f5681d34d9e2cade",
+    "included_update_ids": [
+      "U016"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_MorrowStudio_2025-08-02.pdf"
+  },
+  {
+    "version_id": "V036",
+    "file_name": "Lin_DataScientist_RivetSecurity_2025-08-08.pdf",
+    "created_at": "2025-08-08",
+    "role_family": "data_science",
+    "company_scope": "Rivet Security",
+    "base_master_id": "M003",
+    "content_sha256": "e203b07d096eea76447d4c669f7bf37e4621b4d332875e165e39e715467e6f3e",
+    "included_update_ids": [
+      "U032"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_DataScientist_RivetSecurity_2025-08-08.pdf"
+  },
+  {
+    "version_id": "V037",
+    "file_name": "Lin_ProductManager_WillowMobility_2025-08-14.pdf",
+    "created_at": "2025-08-14",
+    "role_family": "product_management",
+    "company_scope": "Willow Mobility",
+    "base_master_id": "M003",
+    "content_sha256": "a1ced84148a69b6b3d3a1bb14d7fd245b4ed306542bdaf9b1b449fd41d5b420e",
+    "included_update_ids": [
+      "U014",
+      "U031"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_WillowMobility_2025-08-14.pdf"
+  },
+  {
+    "version_id": "V038",
+    "file_name": "Lin_SoftwareEngineer_DriftHarbor_2025-08-20.pdf",
+    "created_at": "2025-08-20",
+    "role_family": "software_engineering",
+    "company_scope": "Drift Harbor",
+    "base_master_id": "M003",
+    "content_sha256": "b5a06622ce5fffa0439d2743a9cb532fb7d2f22ad15629f9889cc4798f0dedb5",
+    "included_update_ids": [
+      "U013"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_DriftHarbor_2025-08-20.pdf"
+  },
+  {
+    "version_id": "V039",
+    "file_name": "Lin_DataScientist_IndigoRobotics_2025-08-26.pdf",
+    "created_at": "2025-08-26",
+    "role_family": "data_science",
+    "company_scope": "Indigo Robotics",
+    "base_master_id": "M004",
+    "content_sha256": "b2beacc20cbad0d8e4712d45e502d145aba44bbd10e438604420e2804ca5150b",
+    "included_update_ids": [
+      "U012"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_IndigoRobotics_2025-08-26.pdf"
+  },
+  {
+    "version_id": "V040",
+    "file_name": "Lin_ProductManager_NimbusFoods_2025-09-01.pdf",
+    "created_at": "2025-09-01",
+    "role_family": "product_management",
+    "company_scope": "Nimbus Foods",
+    "base_master_id": "M003",
+    "content_sha256": "01c7ae7be3d95fcec06734f06345259ec971c9888cce84bb02c0afd9f0a21fb5",
+    "included_update_ids": [
+      "U011",
+      "U028"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_ProductManager_NimbusFoods_2025-09-01.pdf"
+  },
+  {
+    "version_id": "V041",
+    "file_name": "Lin_SoftwareEngineer_SolaceBio_2025-09-07.pdf",
+    "created_at": "2025-09-07",
+    "role_family": "software_engineering",
+    "company_scope": "Solace Bio",
+    "base_master_id": "M004",
+    "content_sha256": "9563e3cd3cb56f773168ad816593faa25c3a3a58f212f681e57ade3a339ec634",
+    "included_update_ids": [
+      "U027"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_SolaceBio_2025-09-07.pdf"
+  },
+  {
+    "version_id": "V042",
+    "file_name": "Lin_DataScientist_AsterLabs_2025-09-13.pdf",
+    "created_at": "2025-09-13",
+    "role_family": "data_science",
+    "company_scope": "Aster Labs",
+    "base_master_id": "M004",
+    "content_sha256": "82ea6999cbd180b533c7bae080bf5d5e3dd1fc341fdf251481c3284a9ab05db5",
+    "included_update_ids": [
+      "U026"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_AsterLabs_2025-09-13.pdf"
+  },
+  {
+    "version_id": "V043",
+    "file_name": "Lin_ProductManager_FableHealth_2025-09-19.pdf",
+    "created_at": "2025-09-19",
+    "role_family": "product_management",
+    "company_scope": "Fable Health",
+    "base_master_id": "M004",
+    "content_sha256": "e43092286daa7486c1929efd8ced29bb94fb5bb1e8da36c952e41ced0f922192",
+    "included_update_ids": [
+      "U025"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_FableHealth_2025-09-19.pdf"
+  },
+  {
+    "version_id": "V044",
+    "file_name": "Lin_SoftwareEngineer_KiteAnalytics_2025-09-25.pdf",
+    "created_at": "2025-09-25",
+    "role_family": "software_engineering",
+    "company_scope": "Kite Analytics",
+    "base_master_id": "M004",
+    "content_sha256": "fc5c7949cec2a11c728c28aafcc8d92c498cb041128f0951fe04b2f6e888dafd",
+    "included_update_ids": [
+      "U007"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_SoftwareEngineer_KiteAnalytics_2025-09-25.pdf"
+  },
+  {
+    "version_id": "V045",
+    "file_name": "Lin_DataScientist_PioneerMaps_2025-10-01.pdf",
+    "created_at": "2025-10-01",
+    "role_family": "data_science",
+    "company_scope": "Pioneer Maps",
+    "base_master_id": "M003",
+    "content_sha256": "c639a645d0b68566d058800c7e098d4546b129bd78361852255524ab5f314b6c",
+    "included_update_ids": [
+      "U006"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_PioneerMaps_2025-10-01.pdf"
+  },
+  {
+    "version_id": "V046",
+    "file_name": "Lin_ProductManager_UmberMedia_2025-10-07.pdf",
+    "created_at": "2025-10-07",
+    "role_family": "product_management",
+    "company_scope": "Umber Media",
+    "base_master_id": "M003",
+    "content_sha256": "9f780c2aebfe83f9e9ec0147be802fe98e98d00b8a9fa318cd3b7c1dc80c64c6",
+    "included_update_ids": [
+      "U005"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_UmberMedia_2025-10-07.pdf"
+  },
+  {
+    "version_id": "V047",
+    "file_name": "Lin_SoftwareEngineer_BluePeak_2025-10-13.pdf",
+    "created_at": "2025-10-13",
+    "role_family": "software_engineering",
+    "company_scope": "Blue Peak",
+    "base_master_id": "M004",
+    "content_sha256": "c56ff2e3148e5664a19b823901b6633ad9bfe42f2b8da6ad014e390e7f1a410e",
+    "included_update_ids": [
+      "U004",
+      "U021"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_BluePeak_2025-10-13.pdf"
+  },
+  {
+    "version_id": "V048",
+    "file_name": "Lin_DataScientist_GraniteCloud_2025-10-19.pdf",
+    "created_at": "2025-10-19",
+    "role_family": "data_science",
+    "company_scope": "Granite Cloud",
+    "base_master_id": "M004",
+    "content_sha256": "ca41607b0d82a3594ff971883c2b2cc832ddeeda63bbac26860ab72b6d9bce9a",
+    "included_update_ids": [
+      "U020"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_DataScientist_GraniteCloud_2025-10-19.pdf"
+  },
+  {
+    "version_id": "V049",
+    "file_name": "Lin_ProductManager_MorrowStudio_2025-10-25.pdf",
+    "created_at": "2025-10-25",
+    "role_family": "product_management",
+    "company_scope": "Morrow Studio",
+    "base_master_id": "M004",
+    "content_sha256": "fc81311b849bdf1a4750b4c5e16581b40aab958b395cbd906ebccbea1db44c36",
+    "included_update_ids": [
+      "U019"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_MorrowStudio_2025-10-25.pdf"
+  },
+  {
+    "version_id": "V050",
+    "file_name": "Lin_SoftwareEngineer_RivetSecurity_2025-10-31.pdf",
+    "created_at": "2025-10-31",
+    "role_family": "software_engineering",
+    "company_scope": "Rivet Security",
+    "base_master_id": "M003",
+    "content_sha256": "6ac6f9ca73fd27d2656f77ce07784620cad3320e18293251d8859f6fb6551b8c",
+    "included_update_ids": [
+      "U018"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_RivetSecurity_2025-10-31.pdf"
+  },
+  {
+    "version_id": "V051",
+    "file_name": "Lin_DataScientist_WillowMobility_2025-11-06.pdf",
+    "created_at": "2025-11-06",
+    "role_family": "data_science",
+    "company_scope": "Willow Mobility",
+    "base_master_id": "M004",
+    "content_sha256": "6794a7a55b835cc3e0182efa8499aecd76af78741a535d736516d4364d7a92b7",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_WillowMobility_2025-11-06.pdf"
+  },
+  {
+    "version_id": "V052",
+    "file_name": "Lin_ProductManager_DriftHarbor_2025-11-12.pdf",
+    "created_at": "2025-11-12",
+    "role_family": "product_management",
+    "company_scope": "Drift Harbor",
+    "base_master_id": "M004",
+    "content_sha256": "6072ee9e8563a78ff58cd011acc2d20fe87caa3d3d7ad46af522bd08d1ce8f9e",
+    "included_update_ids": [],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_ProductManager_DriftHarbor_2025-11-12.pdf"
+  },
+  {
+    "version_id": "V053",
+    "file_name": "Lin_SoftwareEngineer_IndigoRobotics_2025-11-18.pdf",
+    "created_at": "2025-11-18",
+    "role_family": "software_engineering",
+    "company_scope": "Indigo Robotics",
+    "base_master_id": "M004",
+    "content_sha256": "485ab9d1334934d3602f6eb6d1da1695f652a62ca2a6980b77957e001f20e157",
+    "included_update_ids": [
+      "U032"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_IndigoRobotics_2025-11-18.pdf"
+  },
+  {
+    "version_id": "V054",
+    "file_name": "Lin_DataScientist_NimbusFoods_2025-11-24.pdf",
+    "created_at": "2025-11-24",
+    "role_family": "data_science",
+    "company_scope": "Nimbus Foods",
+    "base_master_id": "M004",
+    "content_sha256": "ac0ae2cd2208052d7ce6047ca95731c8e42462d345423730c8008a028de34ec9",
+    "included_update_ids": [
+      "U014"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_NimbusFoods_2025-11-24.pdf"
+  },
+  {
+    "version_id": "V055",
+    "file_name": "Lin_ProductManager_SolaceBio_2025-11-30.pdf",
+    "created_at": "2025-11-30",
+    "role_family": "product_management",
+    "company_scope": "Solace Bio",
+    "base_master_id": "M003",
+    "content_sha256": "9e8148efc92da6c0432d76e92b9b20ddc00ee55fff31dae5213e9e0906fb0d69",
+    "included_update_ids": [
+      "U013"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_SolaceBio_2025-11-30.pdf"
+  },
+  {
+    "version_id": "V056",
+    "file_name": "Lin_SoftwareEngineer_AsterLabs_2025-12-06.pdf",
+    "created_at": "2025-12-06",
+    "role_family": "software_engineering",
+    "company_scope": "Aster Labs",
+    "base_master_id": "M004",
+    "content_sha256": "da8c9f4d62aa72499af79ba73428c13600ac90028a364773dccf7153f2b0e452",
+    "included_update_ids": [
+      "U012"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_SoftwareEngineer_AsterLabs_2025-12-06.pdf"
+  },
+  {
+    "version_id": "V057",
+    "file_name": "Lin_DataScientist_FableHealth_2025-12-12.pdf",
+    "created_at": "2025-12-12",
+    "role_family": "data_science",
+    "company_scope": "Fable Health",
+    "base_master_id": "M005",
+    "content_sha256": "3a28af4d68bed64c1836dda4030cf12de3f2ac8650c9fc37b6484bd3ded4a635",
+    "included_update_ids": [
+      "U028"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_FableHealth_2025-12-12.pdf"
+  },
+  {
+    "version_id": "V058",
+    "file_name": "Lin_ProductManager_KiteAnalytics_2025-12-18.pdf",
+    "created_at": "2025-12-18",
+    "role_family": "product_management",
+    "company_scope": "Kite Analytics",
+    "base_master_id": "M005",
+    "content_sha256": "9786d987eeac7e5eadb152a48d61545b14e50a05936473a55b962015e9c898e9",
+    "included_update_ids": [
+      "U027"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_KiteAnalytics_2025-12-18.pdf"
+  },
+  {
+    "version_id": "V059",
+    "file_name": "Lin_SoftwareEngineer_PioneerMaps_2025-12-24.pdf",
+    "created_at": "2025-12-24",
+    "role_family": "software_engineering",
+    "company_scope": "Pioneer Maps",
+    "base_master_id": "M005",
+    "content_sha256": "27e1c454488dbe634850326ac0011fa30c73284d436caf83a3971bab4c3bae6e",
+    "included_update_ids": [
+      "U026"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_PioneerMaps_2025-12-24.pdf"
+  },
+  {
+    "version_id": "V060",
+    "file_name": "Lin_DataScientist_UmberMedia_2025-12-30.pdf",
+    "created_at": "2025-12-30",
+    "role_family": "data_science",
+    "company_scope": "Umber Media",
+    "base_master_id": "M004",
+    "content_sha256": "1bdd9b2092c1b40c6f791eff5c9cd7a1d72e06d0daba9bfca38003116f185801",
+    "included_update_ids": [
+      "U025"
+    ],
+    "stored_state": "archived",
+    "location": "Resume/Archive/Lin_DataScientist_UmberMedia_2025-12-30.pdf"
+  },
+  {
+    "version_id": "V061",
+    "file_name": "Lin_ProductManager_BluePeak_2026-01-05.pdf",
+    "created_at": "2026-01-05",
+    "role_family": "product_management",
+    "company_scope": "Blue Peak",
+    "base_master_id": "M005",
+    "content_sha256": "fbb2669184fbf98f892e4603d4db0247795f270a7a2eb4bd5d7523d526d728db",
+    "included_update_ids": [
+      "U007"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_BluePeak_2026-01-05.pdf"
+  },
+  {
+    "version_id": "V062",
+    "file_name": "Lin_SoftwareEngineer_GraniteCloud_2026-01-11.pdf",
+    "created_at": "2026-01-11",
+    "role_family": "software_engineering",
+    "company_scope": "Granite Cloud",
+    "base_master_id": "M005",
+    "content_sha256": "2d09a6c6279d0dbfcbef4079a813fb72bc78ec382e9b7d995e63c84bdeda1f18",
+    "included_update_ids": [
+      "U006"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_GraniteCloud_2026-01-11.pdf"
+  },
+  {
+    "version_id": "V063",
+    "file_name": "Lin_DataScientist_MorrowStudio_2026-01-17.pdf",
+    "created_at": "2026-01-17",
+    "role_family": "data_science",
+    "company_scope": "Morrow Studio",
+    "base_master_id": "M999",
+    "content_sha256": "0a579a5fbe4fcab8e11447f708ba4b30c3e242a204a706e4eca0960ab5b0e754",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_MorrowStudio_2026-01-17.pdf"
+  },
+  {
+    "version_id": "V064",
+    "file_name": "Lin_ProductManager_RivetSecurity_2026-01-23.pdf",
+    "created_at": "2026-01-23",
+    "role_family": "product_management",
+    "company_scope": "Rivet Security",
+    "base_master_id": "M005",
+    "content_sha256": "99c7f1a488cc39efb719ebb24fec0f8298bb5e2796ce8fc26f443da0bebe877c",
+    "included_update_ids": [
+      "U021"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_RivetSecurity_2026-01-23.pdf"
+  },
+  {
+    "version_id": "V065",
+    "file_name": "Lin_SoftwareEngineer_WillowMobility_2026-01-29.pdf",
+    "created_at": "2026-01-29",
+    "role_family": "software_engineering",
+    "company_scope": "Willow Mobility",
+    "base_master_id": "M004",
+    "content_sha256": "f3a3ca9e55fb050765ff797c075c631b685e8aa3b95a8727e62ecec7263d4524",
+    "included_update_ids": [
+      "U020"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_WillowMobility_2026-01-29.pdf"
+  },
+  {
+    "version_id": "V066",
+    "file_name": "Lin_DataScientist_DriftHarbor_2026-02-04.pdf",
+    "created_at": "2026-02-04",
+    "role_family": "data_science",
+    "company_scope": "Drift Harbor",
+    "base_master_id": "M005",
+    "content_sha256": "e3786f352d75a0a4e6d380360ba625646db9f927aa0005d317c5331034912ae8",
+    "included_update_ids": [
+      "U019"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_DriftHarbor_2026-02-04.pdf"
+  },
+  {
+    "version_id": "V067",
+    "file_name": "Lin_ProductManager_IndigoRobotics_2026-02-10.pdf",
+    "created_at": "2026-02-10",
+    "role_family": "product_management",
+    "company_scope": "Indigo Robotics",
+    "base_master_id": "M005",
+    "content_sha256": "f4ce8011e1f9b26cd65ccaf49273a05e2682d260acb4b8103c3076cb119fec25",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_IndigoRobotics_2026-02-10.pdf"
+  },
+  {
+    "version_id": "V068",
+    "file_name": "Lin_SoftwareEngineer_NimbusFoods_2026-02-16.pdf",
+    "created_at": "2026-02-16",
+    "role_family": "software_engineering",
+    "company_scope": "Nimbus Foods",
+    "base_master_id": "M006",
+    "content_sha256": "19a24f695eacb29d436f434f982d3124c42d7caac2cc8ba07e8bd94ee65210de",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_NimbusFoods_2026-02-16.pdf"
+  },
+  {
+    "version_id": "V069",
+    "file_name": "Lin_DataScientist_SolaceBio_2026-02-22.pdf",
+    "created_at": "2026-02-22",
+    "role_family": "data_science",
+    "company_scope": "Solace Bio",
+    "base_master_id": "M005",
+    "content_sha256": "c98af9dd48887733db5ad8c5639c09a87d6ce7e305fbd0203a19b26f6812bdab",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_SolaceBio_2026-02-22.pdf"
+  },
+  {
+    "version_id": "V070",
+    "file_name": "Lin_ProductManager_AsterLabs_2026-02-28.pdf",
+    "created_at": "2026-02-28",
+    "role_family": "product_management",
+    "company_scope": "Aster Labs",
+    "base_master_id": "M005",
+    "content_sha256": "471d21775284547f7f15a05bdce1b8251dad8528ae17974aeed6f1d69e26395f",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_AsterLabs_2026-02-28.pdf"
+  },
+  {
+    "version_id": "V071",
+    "file_name": "Lin_SoftwareEngineer_FableHealth_2026-03-06.pdf",
+    "created_at": "2026-03-06",
+    "role_family": "software_engineering",
+    "company_scope": "Fable Health",
+    "base_master_id": "M006",
+    "content_sha256": "19a3416f3d069b12c10e887b65c1ef6bc035b40c2199161872bfbfebf5c0c7f0",
+    "included_update_ids": [
+      "U014"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_FableHealth_2026-03-06.pdf"
+  },
+  {
+    "version_id": "V072",
+    "file_name": "Lin_DataScientist_KiteAnalytics_2026-03-12.pdf",
+    "created_at": "2026-03-12",
+    "role_family": "data_science",
+    "company_scope": "Kite Analytics",
+    "base_master_id": "M006",
+    "content_sha256": "1e327787f776ef6fae929b4038e4c009aea2d7fd632be446e88d628511cb17cf",
+    "included_update_ids": [
+      "U013"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_KiteAnalytics_2026-03-12.pdf"
+  },
+  {
+    "version_id": "V073",
+    "file_name": "Lin_ProductManager_PioneerMaps_2026-03-18.pdf",
+    "created_at": "2026-03-18",
+    "role_family": "product_management",
+    "company_scope": "Pioneer Maps",
+    "base_master_id": "M006",
+    "content_sha256": "60a5df7086b74e69ceb7204e30ad247456754e62eb304ba32b2dfa8a6342b4f5",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_PioneerMaps_2026-03-18.pdf"
+  },
+  {
+    "version_id": "V074",
+    "file_name": "Lin_SoftwareEngineer_UmberMedia_2026-03-24.pdf",
+    "created_at": "2026-03-24",
+    "role_family": "software_engineering",
+    "company_scope": "Umber Media",
+    "base_master_id": "M006",
+    "content_sha256": "dce577c0562d7af1cbb932640f8e5768670e833ac8e0d3972a0442c30f449586",
+    "included_update_ids": [
+      "U028"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_UmberMedia_2026-03-24.pdf"
+  },
+  {
+    "version_id": "V075",
+    "file_name": "Lin_DataScientist_BluePeak_2026-03-30.pdf",
+    "created_at": "2026-03-30",
+    "role_family": "data_science",
+    "company_scope": "Blue Peak",
+    "base_master_id": "M005",
+    "content_sha256": "ca727346267495386547b69751d0555381eef716a0d8f3729ffdb843dce62704",
+    "included_update_ids": [
+      "U027"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_BluePeak_2026-03-30.pdf"
+  },
+  {
+    "version_id": "V076",
+    "file_name": "Lin_ProductManager_GraniteCloud_2026-04-05.pdf",
+    "created_at": "2026-04-05",
+    "role_family": "product_management",
+    "company_scope": "Granite Cloud",
+    "base_master_id": "M006",
+    "content_sha256": "51a27e13cb241f7719da573d20b5ee0cb96d189d54b901c68b75ba8d0e9dad6e",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_GraniteCloud_2026-04-05.pdf"
+  },
+  {
+    "version_id": "V077",
+    "file_name": "Lin_SoftwareEngineer_MorrowStudio_2026-04-11.pdf",
+    "created_at": "2026-04-11",
+    "role_family": "software_engineering",
+    "company_scope": "Morrow Studio",
+    "base_master_id": "M006",
+    "content_sha256": "a68d2ec51744698cf792b5822f2a77734a4975463889b72325ece38f1e25bc56",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_MorrowStudio_2026-04-11.pdf"
+  },
+  {
+    "version_id": "V078",
+    "file_name": "Lin_DataScientist_RivetSecurity_2026-04-17.pdf",
+    "created_at": "2026-04-17",
+    "role_family": "data_science",
+    "company_scope": "Rivet Security",
+    "base_master_id": "M006",
+    "content_sha256": "ebd1d1624ffc09c9740078309a30809d8e358b8be0aabf0cee555517f0647e6a",
+    "included_update_ids": [
+      "U007"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_RivetSecurity_2026-04-17.pdf"
+  },
+  {
+    "version_id": "V079",
+    "file_name": "Lin_ProductManager_WillowMobility_2026-04-23.pdf",
+    "created_at": "2026-04-23",
+    "role_family": "product_management",
+    "company_scope": "Willow Mobility",
+    "base_master_id": "M006",
+    "content_sha256": "8560d0f2b5dfd59eb18af69fa7e4860949851e41f2e7db6456b7510221c0cdd9",
+    "included_update_ids": [
+      "U006"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_WillowMobility_2026-04-23.pdf"
+  },
+  {
+    "version_id": "V080",
+    "file_name": "Lin_SoftwareEngineer_DriftHarbor_2026-04-29.pdf",
+    "created_at": "2026-04-29",
+    "role_family": "software_engineering",
+    "company_scope": "Drift Harbor",
+    "base_master_id": "M005",
+    "content_sha256": "968aaab79933416eb9492828f2f4fd235fa9d57a7d883e8889ca48b2b2e6a618",
+    "included_update_ids": [
+      "U005"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_DriftHarbor_2026-04-29.pdf"
+  },
+  {
+    "version_id": "V081",
+    "file_name": "Lin_DataScientist_IndigoRobotics_2026-05-05.pdf",
+    "created_at": "2026-05-05",
+    "role_family": "data_science",
+    "company_scope": "Indigo Robotics",
+    "base_master_id": "M006",
+    "content_sha256": "a51ab057e2c372fac061cb9b10e2d1591dcaf094880122ae843dbc36d4c0d5eb",
+    "included_update_ids": [
+      "U021"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_IndigoRobotics_2026-05-05.pdf"
+  },
+  {
+    "version_id": "V082",
+    "file_name": "Lin_ProductManager_NimbusFoods_2026-05-11.pdf",
+    "created_at": "2026-05-11",
+    "role_family": "product_management",
+    "company_scope": "Nimbus Foods",
+    "base_master_id": "M006",
+    "content_sha256": "7548c463f242a06ed1f980e4492aad24f7245f3a6f2332c8440240046db412b0",
+    "included_update_ids": [
+      "U020"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_NimbusFoods_2026-05-11.pdf"
+  },
+  {
+    "version_id": "V083",
+    "file_name": "Lin_SoftwareEngineer_SolaceBio_2026-05-17.pdf",
+    "created_at": "2026-05-17",
+    "role_family": "software_engineering",
+    "company_scope": "Solace Bio",
+    "base_master_id": "M006",
+    "content_sha256": "a038f410385e03717016838d09102aa5dbe1f4856f72859d8b909221c244ea67",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_SolaceBio_2026-05-17.pdf"
+  },
+  {
+    "version_id": "V084",
+    "file_name": "Lin_DataScientist_AsterLabs_2026-05-23.pdf",
+    "created_at": "2026-05-23",
+    "role_family": "data_science",
+    "company_scope": "Aster Labs",
+    "base_master_id": "M007",
+    "content_sha256": "2bf773f36d37f8ecf1ec8a7ded5522ebb90e59b4572a3b84f52ded7044559bec",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_AsterLabs_2026-05-23.pdf"
+  },
+  {
+    "version_id": "V085",
+    "file_name": "Lin_ProductManager_FableHealth_2026-05-29.pdf",
+    "created_at": "2026-05-29",
+    "role_family": "product_management",
+    "company_scope": "Fable Health",
+    "base_master_id": "M006",
+    "content_sha256": "a9f579e5252cc17811067dae5df69ed496f200c49d5564aa9247b5e479859ca5",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_FableHealth_2026-05-29.pdf"
+  },
+  {
+    "version_id": "V086",
+    "file_name": "Lin_SoftwareEngineer_KiteAnalytics_2026-06-04.pdf",
+    "created_at": "2026-06-04",
+    "role_family": "software_engineering",
+    "company_scope": "Kite Analytics",
+    "base_master_id": "M007",
+    "content_sha256": "a110c7d6f92fbffc941c92924dac545085090ec66dc0d6b935305b662dd9d963",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_KiteAnalytics_2026-06-04.pdf"
+  },
+  {
+    "version_id": "V087",
+    "file_name": "Lin_DataScientist_PioneerMaps_2026-06-10.pdf",
+    "created_at": "2026-06-10",
+    "role_family": "data_science",
+    "company_scope": "Pioneer Maps",
+    "base_master_id": "M007",
+    "content_sha256": "e6ac909c862797f4895c27b84860730888a43cdc28cc372afa4d1ddbf37f4cc4",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_PioneerMaps_2026-06-10.pdf"
+  },
+  {
+    "version_id": "V088",
+    "file_name": "Lin_ProductManager_UmberMedia_2026-06-16.pdf",
+    "created_at": "2026-06-16",
+    "role_family": "product_management",
+    "company_scope": "Umber Media",
+    "base_master_id": "M007",
+    "content_sha256": "e73b6cd812179d4e376e4aaf2517bec0622b5bb6cba462b8d93e5ce3921ea123",
+    "included_update_ids": [
+      "U014"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_UmberMedia_2026-06-16.pdf"
+  },
+  {
+    "version_id": "V089",
+    "file_name": "Lin_SoftwareEngineer_BluePeak_2026-06-22.pdf",
+    "created_at": "2026-06-22",
+    "role_family": "software_engineering",
+    "company_scope": "Blue Peak",
+    "base_master_id": "M007",
+    "content_sha256": "9dd043b448959a8e6d8ac9cde5b924ffe4405a622f4f7d725ad4c92d956f3ecb",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_BluePeak_2026-06-22.pdf"
+  },
+  {
+    "version_id": "V090",
+    "file_name": "Lin_DataScientist_GraniteCloud_2026-06-28.pdf",
+    "created_at": "2026-06-28",
+    "role_family": "data_science",
+    "company_scope": "Granite Cloud",
+    "base_master_id": "M006",
+    "content_sha256": "6c7a7651fb095ad6c0ec7ca5aa59d21e5eb4a440bbe8967104d5b622c2c3b330",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_GraniteCloud_2026-06-28.pdf"
+  },
+  {
+    "version_id": "V091",
+    "file_name": "Lin_ProductManager_MorrowStudio_2026-07-04.pdf",
+    "created_at": "2026-07-04",
+    "role_family": "product_management",
+    "company_scope": "Morrow Studio",
+    "base_master_id": "M007",
+    "content_sha256": "87838e14c064bfd29aa37bcdd440bd68d55828a4a4b2adf16093ccc8ba7624eb",
+    "included_update_ids": [
+      "U028"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_MorrowStudio_2026-07-04.pdf"
+  },
+  {
+    "version_id": "V092",
+    "file_name": "Lin_SoftwareEngineer_RivetSecurity_2026-07-10.pdf",
+    "created_at": "2026-07-10",
+    "role_family": "software_engineering",
+    "company_scope": "Rivet Security",
+    "base_master_id": "M006",
+    "content_sha256": "87a205d06c3dc2f4b02f22ce93e5cfa424a611ee6eddbe9438a6f7dbba79d1e9",
+    "included_update_ids": [
+      "U027"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_RivetSecurity_2026-07-10.pdf"
+  },
+  {
+    "version_id": "V093",
+    "file_name": "Lin_DataScientist_WillowMobility_2026-07-16.pdf",
+    "created_at": "2026-07-16",
+    "role_family": "data_science",
+    "company_scope": "Willow Mobility",
+    "base_master_id": "M008",
+    "content_sha256": "a73ba1c60d19113ae6f5aa38d73d576a14f137feb8410948e6f816cb8c4ca539",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_WillowMobility_2026-07-16.pdf"
+  },
+  {
+    "version_id": "V094",
+    "file_name": "Lin_ProductManager_DriftHarbor_2026-07-22.pdf",
+    "created_at": "2026-07-22",
+    "role_family": "product_management",
+    "company_scope": "Drift Harbor",
+    "base_master_id": "M008",
+    "content_sha256": "2edc542580f6f921769a88b01c32c78377c0a93c1fe33ac8301714cd69dc0254",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/product_management/Lin_ProductManager_DriftHarbor_2026-07-22.pdf"
+  },
+  {
+    "version_id": "V095",
+    "file_name": "Lin_SoftwareEngineer_IndigoRobotics_2026-07-28.pdf",
+    "created_at": "2026-07-28",
+    "role_family": "software_engineering",
+    "company_scope": "Indigo Robotics",
+    "base_master_id": "M007",
+    "content_sha256": "c177dd0b96697bda4370751f7627418fdb1200ae8cd381e6fc3976a391f28bea",
+    "included_update_ids": [
+      "U007"
+    ],
+    "stored_state": "active",
+    "location": "Resume/Tailored/software_engineering/Lin_SoftwareEngineer_IndigoRobotics_2026-07-28.pdf"
+  },
+  {
+    "version_id": "V096",
+    "file_name": "Lin_DataScientist_NimbusFoods_2026-08-03.pdf",
+    "created_at": "2026-08-03",
+    "role_family": "data_science",
+    "company_scope": "Nimbus Foods",
+    "base_master_id": "M008",
+    "content_sha256": "a61c41a5f1b3aa3e60853de85699d2a06ed7e5b83a168d46de09803fea7384cb",
+    "included_update_ids": [],
+    "stored_state": "active",
+    "location": "Resume/Tailored/data_science/Lin_DataScientist_NimbusFoods_2026-08-03.pdf"
+  }
+]

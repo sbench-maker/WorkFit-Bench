@@ -1,0 +1,29 @@
+title,mechanism,status,reason,assumption_ids,idea_id
+double the replay buffer,Store more labeled frames and replay uniformly.,tested,Rare recall improved two points but power and memory costs increased.,ASM-020,IDEA-001
+four-bit backbone quantization,Quantize the current backbone more aggressively.,tested,Saved memory but did not alter adaptation behavior under compound drift.,ASM-003,IDEA-002
+nightly federated averaging,Run the existing global update more frequently.,tested,Increased correlated errors and erased useful specialists.,ASM-005,IDEA-003
+larger teacher distillation,Distill a larger central teacher into every robot.,rejected,Requires central access to frames and preserves one global ontology.,ASM-001;ASM-006,IDEA-004
+confidence-based pseudo-labeling,Self-train on high-confidence local predictions.,tested,Amplified shared blind spots after label delay.,ASM-007,IDEA-005
+tune learning-rate schedule,Search a broader set of optimizer schedules.,tested,Incremental benchmark gain did not address site transfers.,ASM-009,IDEA-006
+compress gradients further,Reduce the bytes in conventional gradient exchange.,paused,Near the link ceiling and weak at identifying the changed relation.,ASM-008;ASM-013,IDEA-007
+central active labeling queue,Send uncertain frames to a shared human queue.,rejected,Raw-image transfer violates policy and labels arrive too late.,ASM-001;ASM-007,IDEA-008
+monthly model reset,Reset every robot to the global checkpoint monthly.,tested,Destroyed gradual local adaptation.,ASM-009;ASM-012,IDEA-009
+single site-aware adapter,Add one learned site embedding to the global model.,tested,Static site identity did not capture zone or shift recurrence.,ASM-010;ASM-014,IDEA-010
+bigger synthetic augmentation set,Generate more appearance variants for training.,paused,Coverage grew but the proposal remained an offline data-scale extension.,ASM-007,IDEA-011
+one universal calibration layer,Calibrate all robot outputs to one threshold.,tested,Concealed coherent minority-site failures.,ASM-006;ASM-011,IDEA-012
+expand memory variant 1,Increase storage or replay frequency without changing the learning relation.,rejected,It conflicts with a hard deployment constraint.,ASM-003,IDEA-013
+shrink model variant 1,Reduce parameters or precision while preserving the same global objective.,paused,It duplicates an earlier incremental line of work.,ASM-007,IDEA-014
+tune optimizer variant 1,Search local hyperparameters inside the existing training loop.,tested,It improves the mean metric without rare-regime robustness.,ASM-015,IDEA-015
+add labels variant 1,Request more labels through the existing delayed pipeline.,tested,It changes scale but not the system's hidden assumptions.,ASM-020,IDEA-016
+expand memory variant 2,Increase storage or replay frequency without changing the learning relation.,rejected,It conflicts with a hard deployment constraint.,ASM-003,IDEA-017
+shrink model variant 2,Reduce parameters or precision while preserving the same global objective.,paused,It duplicates an earlier incremental line of work.,ASM-007,IDEA-018
+tune optimizer variant 2,Search local hyperparameters inside the existing training loop.,tested,It improves the mean metric without rare-regime robustness.,ASM-015,IDEA-019
+add labels variant 2,Request more labels through the existing delayed pipeline.,tested,It changes scale but not the system's hidden assumptions.,ASM-020,IDEA-020
+expand memory variant 3,Increase storage or replay frequency without changing the learning relation.,rejected,It conflicts with a hard deployment constraint.,ASM-003,IDEA-021
+shrink model variant 3,Reduce parameters or precision while preserving the same global objective.,paused,It duplicates an earlier incremental line of work.,ASM-007,IDEA-022
+tune optimizer variant 3,Search local hyperparameters inside the existing training loop.,tested,It improves the mean metric without rare-regime robustness.,ASM-015,IDEA-023
+add labels variant 3,Request more labels through the existing delayed pipeline.,tested,It changes scale but not the system's hidden assumptions.,ASM-020,IDEA-024
+expand memory variant 4,Increase storage or replay frequency without changing the learning relation.,rejected,It conflicts with a hard deployment constraint.,ASM-003,IDEA-025
+shrink model variant 4,Reduce parameters or precision while preserving the same global objective.,paused,It duplicates an earlier incremental line of work.,ASM-007,IDEA-026
+tune optimizer variant 4,Search local hyperparameters inside the existing training loop.,tested,It improves the mean metric without rare-regime robustness.,ASM-015,IDEA-027
+add labels variant 4,Request more labels through the existing delayed pipeline.,tested,It changes scale but not the system's hidden assumptions.,ASM-020,IDEA-028

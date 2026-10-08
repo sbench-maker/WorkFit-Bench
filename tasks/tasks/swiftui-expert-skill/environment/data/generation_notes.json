@@ -1,0 +1,25 @@
+{
+  "method": "deterministic local construction",
+  "generator": "authoring/generate_fixture.py",
+  "files": {
+    "LoopLog/LoopLog/Resources/Activities.json": 500
+  },
+  "schema": {
+    "id": "UUID string",
+    "title": "fictional user-authored activity title",
+    "kind": "hike | ride | run",
+    "distanceKilometers": "positive decimal",
+    "startedAt": "UTC ISO-8601 timestamp",
+    "isFavorite": "boolean"
+  },
+  "relationships": [
+    "Activity.id is the persistent row and mutation key used by ActivityStore",
+    "Activity.kind values correspond to localized product labels in Localizable.xcstrings"
+  ],
+  "intentional_edge_cases": [
+    "duplicate titles",
+    "paired identical timestamps",
+    "mixed favorites across every activity kind",
+    "source ordering that changes under newest/oldest sorting"
+  ]
+}

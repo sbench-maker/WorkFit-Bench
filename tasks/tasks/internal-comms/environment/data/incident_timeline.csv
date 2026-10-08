@@ -1,0 +1,23 @@
+event_id,incident_id,timestamp,event_type,detail,evidence_status
+EVT-001,INC-2047,2026-09-04T09:08:00,monitoring,Impact begins; SSO success rate falls across regions.,observed
+EVT-002,INC-2047,2026-09-04T09:10:00,response,Incident bridge opened.,completed
+EVT-003,INC-2047,2026-09-04T09:16:00,response,Sev-1 declared and ticket-linking instruction issued.,completed
+EVT-004,INC-2047,2026-09-04T09:19:00,hypothesis,Expired signing certificate proposed as a possible cause.,rejected
+EVT-005,INC-2047,2026-09-04T09:22:00,diagnostic,Certificate chain and expiry dates checked.,completed
+EVT-006,INC-2047,2026-09-04T09:24:00,finding,Signing certificates are valid; certificate hypothesis rejected.,confirmed
+EVT-007,INC-2047,2026-09-04T09:27:00,hypothesis,Stale DNS connector record proposed as a possible cause.,rejected
+EVT-008,INC-2047,2026-09-04T09:31:00,finding,Regional DNS answers match approved records; DNS hypothesis rejected.,confirmed
+EVT-009,INC-2047,2026-09-04T09:35:00,finding,Traces show requests routed to disabled recovery connector after CHG-882.,confirmed
+EVT-010,INC-2047,2026-09-04T09:39:00,decision,Rollback of CHG-882 approved.,completed
+EVT-011,INC-2047,2026-09-04T09:48:00,mitigation,Rollback begins; successful transactions recover.,completed
+EVT-012,INC-2047,2026-09-04T09:55:00,monitoring,All regions show sustained recovery.,observed
+EVT-013,INC-2047,2026-09-04T10:02:00,resolution,Access restored; impact window ends after 54 minutes.,completed
+EVT-014,INC-2047,2026-09-04T10:08:00,support,Ticket reconciliation finds 72 linked incident tickets.,confirmed
+EVT-015,INC-2047,2026-09-04T10:22:00,finding,Employee status page was published 14 minutes after impact began.,confirmed
+EVT-016,INC-2047,2026-09-04T11:05:00,finding,Contractor login failures were absent from synthetic alert population.,confirmed
+EVT-017,INC-2047,2026-09-04T13:40:00,root_cause,Routing-rule precedence error in CHG-882 confirmed as root cause.,confirmed
+EVT-018,INC-2047,2026-09-05T09:12:00,follow_up,Rollback automation and on-call playbook step completed.,completed
+EVT-019,INC-2047,2026-09-05T15:30:00,risk,Recovery connector remains disabled pending vendor patch validation.,open
+EVT-020,INC-2047,2026-09-06T11:00:00,follow_up,Post-incident review published.,completed
+EVT-021,INC-2047,2026-09-07T16:30:00,support,69 linked tickets resolved or closed; 3 await confirmation.,open
+EVT-022,INC-2047,2026-09-07T17:30:00,handoff,Open risks and next-week actions reviewed with owners.,completed

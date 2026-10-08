@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Runnable artifact and batch usability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested project, README, default persistent index, and batch JSON exist, are readable, and the documented CLI can reproduce the batch.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_batch_output_are_usable"
+      ]
+    },
+    {
+      "id": "completion__persistent_lifecycle",
+      "title": "Self-contained persistent index lifecycle",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "A fresh corpus can be indexed and then queried correctly after the original Markdown and catalog are unavailable.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_index_reloads_without_source_corpus"
+      ]
+    },
+    {
+      "id": "completion__retrieval_relevance",
+      "title": "Relevant answer-bearing retrieval",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Representative questions across products and topics cite the exact section containing the applicable operational directive.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_retrieval_citations_match_relevant_sections"
+      ]
+    },
+    {
+      "id": "completion__scope_safety",
+      "title": "Metadata scope and unsupported-query safety",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Citations match every requested product, release, region, audience, and lifecycle filter; unsupported scopes return insufficient with no borrowed citation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_metadata_scope_and_insufficient_handling"
+      ]
+    },
+    {
+      "id": "completion__answer_correctness",
+      "title": "Batch coverage and grounded answer facts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every bundled query has one non-empty response, and representative answers preserve the material actions, thresholds, identifiers, and sequence facts in their directives.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_batch_query_coverage",
+        "test_grounded_answer_facts"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Runnable artifact and batch usability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__persistent_lifecycle",
+        "title": "Self-contained persistent index lifecycle",
+        "required_score": 10
+      },
+      {
+        "id": "completion__retrieval_relevance",
+        "title": "Relevant answer-bearing retrieval",
+        "required_score": 10
+      },
+      {
+        "id": "completion__scope_safety",
+        "title": "Metadata scope and unsupported-query safety",
+        "required_score": 10
+      },
+      {
+        "id": "completion__answer_correctness",
+        "title": "Batch coverage and grounded answer facts",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

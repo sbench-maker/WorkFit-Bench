@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "openpyxl",
+      "import_name": "openpyxl",
+      "version": "3.1.5",
+      "used_by": [
+        "agent",
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "pypdf",
+      "import_name": "pypdf",
+      "version": "5.9.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "reportlab",
+      "import_name": "reportlab",
+      "version": "4.4.3",
+      "used_by": []
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

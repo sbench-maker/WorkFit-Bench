@@ -1,0 +1,25 @@
+{
+  "fixture_kind": "fictional offline Azure Cost Management export snapshot",
+  "as_of_date": "2026-08-20",
+  "reporting_currency": "USD",
+  "latest_complete_month": "2026-07",
+  "outlook_months": [
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+  ],
+  "historical_query_pages": [
+    "actual_cost_page_1.json",
+    "actual_cost_page_2.json"
+  ],
+  "forecast_responses": [
+    "forecast_101.json",
+    "forecast_202.json",
+    "forecast_303.json",
+    "forecast_404.json",
+    "forecast_505.json"
+  ],
+  "catalog_file": "subscriptions.csv",
+  "budget_file": "monthly_budgets.csv"
+}

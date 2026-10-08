@@ -1,0 +1,215 @@
+{
+  "asOf": "2026-09-10T08:00:00Z",
+  "positions": [
+    {
+      "positionId": "POS-001",
+      "ticker": "ANCHOR",
+      "chainId": "56",
+      "contractAddress": "0xb39aebbf709edf4e135296ae7ca400e0d086ed39",
+      "quantity": 52750.5,
+      "averageEntryPrice": "0.0029",
+      "openedAt": 1788768000000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-002",
+      "ticker": "CIRRUS",
+      "chainId": "CT_501",
+      "contractAddress": "Sol7808d96750a14dd09a9cc39993dcf4b4fa61aba18",
+      "quantity": 65501.0,
+      "averageEntryPrice": "0.0038",
+      "openedAt": 1788681600000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-003",
+      "ticker": "DRIFT",
+      "chainId": "56",
+      "contractAddress": "0xe78632b54b2ae993966ae59a97f001e8ebc98cce",
+      "quantity": 78251.5,
+      "averageEntryPrice": "0.0047",
+      "openedAt": 1788595200000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-004",
+      "ticker": "ECHO",
+      "chainId": "CT_501",
+      "contractAddress": "Sol0055777fa3fe888fd20cd0953afc2d2fd9adab98b",
+      "quantity": 91002.0,
+      "averageEntryPrice": "0.0056",
+      "openedAt": 1788508800000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-005",
+      "ticker": "FLUX",
+      "chainId": "56",
+      "contractAddress": "0x0d00311923489439300853c8f2df7e55a0fed113",
+      "quantity": 103752.5,
+      "averageEntryPrice": "0.0065",
+      "openedAt": 1788422400000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-006",
+      "ticker": "GROVE",
+      "chainId": "CT_501",
+      "contractAddress": "Sol6a1b2e23cedb721ad3093567dd3dcce8d013fbc36",
+      "quantity": 116503.0,
+      "averageEntryPrice": "0.0074",
+      "openedAt": 1788336000000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-007",
+      "ticker": "HALO",
+      "chainId": "56",
+      "contractAddress": "0x9fe2011855e413a2ea6d2bad891eb7132f4ed51c",
+      "quantity": 129253.5,
+      "averageEntryPrice": "0.0083",
+      "openedAt": 1788249600000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-008",
+      "ticker": "IRIS",
+      "chainId": "CT_501",
+      "contractAddress": "Sol9ba157900a51d95b47db7d9f9613cfef2094f4050",
+      "quantity": 142004.0,
+      "averageEntryPrice": "0.0092",
+      "openedAt": 1788163200000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-009",
+      "ticker": "JADE",
+      "chainId": "56",
+      "contractAddress": "0x1d6692a201c703117b4e4ad177cd9ec30af46c20",
+      "quantity": 154754.5,
+      "averageEntryPrice": "0.0101",
+      "openedAt": 1788076800000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-010",
+      "ticker": "KNOLL",
+      "chainId": "CT_501",
+      "contractAddress": "Solf432d21bcc69c0f7bb2d5fe692ca50bbfa13b9d2c",
+      "quantity": 167505.0,
+      "averageEntryPrice": "0.011",
+      "openedAt": 1787990400000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-011",
+      "ticker": "OPAL",
+      "chainId": "56",
+      "contractAddress": "0xe2b55cf66363bc390006d89ceac0e64a9e99ac0b",
+      "quantity": 180255.5,
+      "averageEntryPrice": "0.0119",
+      "openedAt": 1787904000000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-011",
+      "ticker": "HOLD11",
+      "chainId": "56",
+      "contractAddress": "0xdaf48b35527315f6c66f6eb846a22f76f6d770b2",
+      "quantity": 34900.0,
+      "averageEntryPrice": "0.0032",
+      "openedAt": 1788076800000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-012",
+      "ticker": "HOLD12",
+      "chainId": "CT_501",
+      "contractAddress": "Sol808f3c86566b5864df5cd4aad6731fc28c02dd3d9",
+      "quantity": 35800.0,
+      "averageEntryPrice": "0.0034",
+      "openedAt": 1787990400000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-013",
+      "ticker": "HOLD13",
+      "chainId": "56",
+      "contractAddress": "0x0c9e672e19a33209792f97fa5b45858b272266d6",
+      "quantity": 36700.0,
+      "averageEntryPrice": "0.0036",
+      "openedAt": 1787904000000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-014",
+      "ticker": "HOLD14",
+      "chainId": "CT_501",
+      "contractAddress": "Sol598e516475c658abf72ea59b9e3caf2ad170e16ba",
+      "quantity": 37600.0,
+      "averageEntryPrice": "0.0038",
+      "openedAt": 1787817600000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-015",
+      "ticker": "HOLD15",
+      "chainId": "56",
+      "contractAddress": "0xebd749118d127af9e4b6100e198191c97b49f366",
+      "quantity": 38500.0,
+      "averageEntryPrice": "0.004",
+      "openedAt": 1787731200000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-016",
+      "ticker": "HOLD16",
+      "chainId": "CT_501",
+      "contractAddress": "Sol2ce28d7ff49ce61572987cc57537072e63319f65d",
+      "quantity": 39400.0,
+      "averageEntryPrice": "0.0042",
+      "openedAt": 1787644800000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-017",
+      "ticker": "HOLD17",
+      "chainId": "56",
+      "contractAddress": "0x686303bd03db40a368ce1b0b4eda3d781cd45842",
+      "quantity": 40300.0,
+      "averageEntryPrice": "0.0044",
+      "openedAt": 1787558400000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-018",
+      "ticker": "HOLD18",
+      "chainId": "CT_501",
+      "contractAddress": "Sol29fe1e8bede23f8e807129bcfe3c8495de2b68d6b",
+      "quantity": 41200.0,
+      "averageEntryPrice": "0.0046",
+      "openedAt": 1787472000000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-019",
+      "ticker": "HOLD19",
+      "chainId": "56",
+      "contractAddress": "0x84482e571f2f30f856772083a60aa536558a3273",
+      "quantity": 42100.0,
+      "averageEntryPrice": "0.0048",
+      "openedAt": 1787385600000,
+      "status": "open"
+    },
+    {
+      "positionId": "POS-020",
+      "ticker": "HOLD20",
+      "chainId": "CT_501",
+      "contractAddress": "Solcbb12ecf07d800ead87123914b3c93bec8fc86848",
+      "quantity": 43000.0,
+      "averageEntryPrice": "0.005",
+      "openedAt": 1787299200000,
+      "status": "open"
+    }
+  ]
+}

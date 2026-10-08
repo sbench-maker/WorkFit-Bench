@@ -1,0 +1,130 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__unit_dispositions",
+      "title": "Complete and correct unit dispositions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every work item appears once and is preserved, resumed, scoped for replay, isolated, escalated, or dependency-held according to current evidence and policy.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_work_item_scope_coverage",
+        "test_unit_dispositions"
+      ]
+    },
+    {
+      "id": "completion__restart_plan",
+      "title": "Dependency-safe gated restart",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Only eligible units are scheduled, every dependency precedes its consumer, applicable gates are rerun, and estimated cost reconciles within the restart reserve.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_restart_membership_and_dependency_waves",
+        "test_restart_gate_scope_and_budget"
+      ]
+    },
+    {
+      "id": "completion__recovery_controls",
+      "title": "Bounded recovery controls and persisted checkpoint",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The runner receives correct retry and repeat limits, hard-stop gates, per-unit allowances, and a snapshot-bound frozen checkpoint that preserves completed work.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_bounded_controls_and_checkpoint"
+      ]
+    },
+    {
+      "id": "completion__loop_control",
+      "title": "Loop selection and campaign freeze",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan selects the loop mode implied by the campaign signals and freezes the stalled, repeatedly failing campaign.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_loop_selection_and_freeze"
+      ]
+    },
+    {
+      "id": "completion__evidence_handoff",
+      "title": "Causal evidence and release-lead handoff",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Non-routine recovery actions are explained with concise, traceable run evidence, and each release-lead review identifies the decision, affected dependency chain, and safe next step.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__unit_dispositions",
+        "title": "Complete and correct unit dispositions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__restart_plan",
+        "title": "Dependency-safe gated restart",
+        "required_score": 10
+      },
+      {
+        "id": "completion__recovery_controls",
+        "title": "Bounded recovery controls and persisted checkpoint",
+        "required_score": 10
+      },
+      {
+        "id": "completion__loop_control",
+        "title": "Loop selection and campaign freeze",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_handoff",
+        "title": "Causal evidence and release-lead handoff",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "method": "deterministic local construction",
+  "seed": "closed-form-no-random-generator",
+  "files": {
+    "tenant_inventory.csv": 240,
+    "workload.csv": 720
+  },
+  "join_keys": [
+    "tenant_id"
+  ],
+  "intentional_edge_cases": [
+    "twelve high-volume tenants including one largest tenant",
+    "tenant-scoped identifiers that are not globally unique",
+    "migration blackout windows",
+    "legal holds and PII purge backlogs",
+    "at-least-once webhook ingestion",
+    "large analytics exports unsuitable for the OLTP primary"
+  ]
+}

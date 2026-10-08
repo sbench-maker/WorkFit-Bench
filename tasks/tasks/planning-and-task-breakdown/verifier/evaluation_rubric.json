@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__feature_coverage",
+      "title": "Feature and release scope coverage",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The combined plan and checklist cover the frozen specification's material persistence, API, content, scheduling, recipient, delivery, audit, UI, migration, and flag-enforcement obligations without depending on exact headings or ordering.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__sequencing_and_slicing",
+      "title": "Dependency sequencing and workable slicing",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Tasks follow credible technical dependencies, expose safe parallel work, deliver coherent vertical slices where practical, and keep the system reviewable at intermediate states.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__risk_and_review_controls",
+      "title": "Decision, risk, and human-review controls",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan makes the DST, activity-visibility, and failure-alert decisions explicit; assigns sensible decision gates; respects non-goals; and places human checkpoints before schema commitment, live delivery, and staged rollout with rollback and monitoring evidence.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__feature_coverage",
+        "title": "Feature and release scope coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__sequencing_and_slicing",
+        "title": "Dependency sequencing and workable slicing",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_and_review_controls",
+        "title": "Decision, risk, and human-review controls",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

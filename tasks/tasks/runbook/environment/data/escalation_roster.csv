@@ -1,0 +1,6 @@
+situation,team,method,response_minutes
+P1 criteria or stalled mitigation,Incident Commander,#incident-command,5
+Provider 429 at least 10%,Integration Reliability,#integration-reliability,10
+State-store lag at least 200 ms,Platform State,#platform-state,10
+Poison event or payload repair,Integration Runtime,#integration-runtime,15
+Tenant impact confirmation,Customer Operations,#customer-operations,15

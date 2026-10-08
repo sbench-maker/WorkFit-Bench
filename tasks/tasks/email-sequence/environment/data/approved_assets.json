@@ -1,0 +1,39 @@
+{
+  "approved_destinations": [
+    {
+      "id": "connect_repository",
+      "label": "Connect a repository",
+      "url": "https://app.harborloop.test/settings/integrations",
+      "use_when": "repository connection is the earliest incomplete activation step"
+    },
+    {
+      "id": "invite_teammates",
+      "label": "Invite teammates",
+      "url": "https://app.harborloop.test/team/invite",
+      "use_when": "fewer than two teammates have been invited"
+    },
+    {
+      "id": "publish_checklist",
+      "label": "Publish your first checklist",
+      "url": "https://app.harborloop.test/releases/new",
+      "use_when": "repository and teammate steps are complete but no checklist is published"
+    },
+    {
+      "id": "setup_guide",
+      "label": "Open the trial setup guide",
+      "url": "https://help.harborloop.test/trial-setup",
+      "use_when": "a contact is stalled or needs troubleshooting guidance"
+    },
+    {
+      "id": "workflow_review",
+      "label": "Book a workflow review",
+      "url": "https://meet.harborloop.test/workflow-review",
+      "use_when": "an unactivated contact has viewed pricing or requests live help"
+    }
+  ],
+  "content_notes": [
+    "There are no approved customer quotes or case-study metrics in this fixture.",
+    "Do not add tracking parameters to the fictional .test URLs.",
+    "A reply invitation may appear in body copy, but each email still has one primary button CTA."
+  ]
+}

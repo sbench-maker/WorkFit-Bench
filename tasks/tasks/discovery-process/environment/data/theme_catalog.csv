@@ -1,0 +1,7 @@
+theme_id,label,journey_stage,strategic_fit_1_to_5,description
+T_VALIDATION,Opaque validation and repair path,employee_import,5,Generic row errors do not identify the field or provide a repairable file.
+T_TEMPLATE,Template and column mismatch,employee_import,4,Administrators start with HRIS exports whose headings do not match the template.
+T_PERMISSIONS,Permission coordination delays,data_preparation,3,Administrators wait for another team to export complete employee data.
+T_ROLE_SETUP,Role assignment uncertainty,cohort_setup,2,Administrators are unsure which learning role to assign after import.
+T_PRICING,Seat allocation concern,planning,1,Administrators worry that test imports consume paid seats.
+T_OTHER,Other isolated questions,varied,1,Low-frequency issues that do not form a coherent interview pattern.

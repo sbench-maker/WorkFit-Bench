@@ -1,0 +1,113 @@
+{
+  "contract_version": "1.0",
+  "artifact": "/root/results/support_agent.json",
+  "required_top_level_fields": [
+    "schema_version",
+    "name",
+    "description",
+    "channel",
+    "mode",
+    "attached_tools",
+    "action_boundaries",
+    "system_prompt",
+    "routing_policy",
+    "escalation_policy",
+    "refund_policy",
+    "completion_contract"
+  ],
+  "fixed_values": {
+    "schema_version": "1.0",
+    "channel": "helpdesk_ticket",
+    "mode": "draft_and_limited_action"
+  },
+  "routing_policy": {
+    "type": "array",
+    "one_row_per_category": [
+      "question",
+      "bug_report",
+      "refund_request",
+      "feature_request",
+      "account_issue",
+      "abuse_spam",
+      "security_privacy",
+      "legal_escalation"
+    ],
+    "row_fields": [
+      "category",
+      "customer_outcome",
+      "internal_action"
+    ],
+    "customer_outcome_values": [
+      "draft_reply",
+      "draft_reply_after_action",
+      "no_customer_reply",
+      "escalation_acknowledgement_draft"
+    ],
+    "internal_action_values": [
+      "answer_from_knowledge_base",
+      "collect_missing_bug_details",
+      "evaluate_refund_policy",
+      "log_feature_request",
+      "escalate"
+    ]
+  },
+  "action_boundaries": {
+    "type": "object",
+    "required_fields": [
+      "customer_reply_mode",
+      "draft_tool",
+      "customer_send_tool",
+      "refund_completion_status",
+      "refund_non_success_statuses",
+      "refund_non_success_action"
+    ],
+    "fixed_values": {
+      "customer_reply_mode": "draft_only",
+      "draft_tool": "helpdesk.create_draft",
+      "customer_send_tool": null,
+      "refund_completion_status": "succeeded",
+      "refund_non_success_statuses": [
+        "pending",
+        "failed"
+      ],
+      "refund_non_success_action": "escalate"
+    }
+  },
+  "escalation_policy": {
+    "type": "array",
+    "row_fields": [
+      "trigger_id",
+      "queue",
+      "reason"
+    ]
+  },
+  "refund_policy": {
+    "type": "object",
+    "required_fields": [
+      "lookup_tool",
+      "action_tool",
+      "max_purchase_age_days",
+      "max_amount_usd",
+      "currency",
+      "allowed_reasons",
+      "required_charge_status",
+      "required_payment_method",
+      "require_identity_verified",
+      "require_no_prior_refund",
+      "success_status",
+      "non_success_route"
+    ]
+  },
+  "completion_contract": {
+    "type": "object",
+    "required_fields": [
+      "allowed_primary_outputs",
+      "internal_note_template"
+    ],
+    "allowed_primary_outputs": [
+      "draft_reply",
+      "verified_action_receipt",
+      "escalation_note"
+    ]
+  }
+}

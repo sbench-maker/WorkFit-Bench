@@ -1,0 +1,58 @@
+[
+  {
+    "person_id": "p-ava",
+    "name": "Ava Chen",
+    "organization": "HelioWorks",
+    "role": "Senior Commercial Counsel",
+    "email": "ava.chen@helioworks.example"
+  },
+  {
+    "person_id": "p-martin",
+    "name": "Martin Shaw",
+    "organization": "HelioWorks",
+    "role": "Director of Procurement",
+    "email": "martin.shaw@helioworks.example"
+  },
+  {
+    "person_id": "p-lena",
+    "name": "Lena Ortiz",
+    "organization": "HelioWorks",
+    "role": "Security Assurance Lead",
+    "email": "lena.ortiz@helioworks.example"
+  },
+  {
+    "person_id": "p-priya",
+    "name": "Priya Nair",
+    "organization": "HelioWorks",
+    "role": "Finance Controller",
+    "email": "priya.nair@helioworks.example"
+  },
+  {
+    "person_id": "p-elliot",
+    "name": "Elliot Brooks",
+    "organization": "Northstar Data Systems",
+    "role": "Account Executive",
+    "email": "elliot.brooks@northstar.example"
+  },
+  {
+    "person_id": "p-nadia",
+    "name": "Nadia Kline",
+    "organization": "Northstar Data Systems",
+    "role": "Commercial Counsel",
+    "email": "nadia.kline@northstar.example"
+  },
+  {
+    "person_id": "p-jonah",
+    "name": "Jonah Reed",
+    "organization": "HelioWorks",
+    "role": "Data Platform Owner",
+    "email": "jonah.reed@helioworks.example"
+  },
+  {
+    "person_id": "p-rhea",
+    "name": "Rhea Patel",
+    "organization": "HelioWorks",
+    "role": "Deputy General Counsel",
+    "email": "rhea.patel@helioworks.example"
+  }
+]

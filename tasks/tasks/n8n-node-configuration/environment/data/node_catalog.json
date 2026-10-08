@@ -1,0 +1,159 @@
+{
+  "schema_version": "offline-node-catalog-1.0",
+  "nodes": {
+    "n8n-nodes-base.webhook": {
+      "typeVersion": 2.1,
+      "required": [
+        "path",
+        "httpMethod",
+        "responseMode"
+      ],
+      "operations": {
+        "httpMethod": [
+          "GET",
+          "POST"
+        ],
+        "responseMode": [
+          "onReceived",
+          "lastNode",
+          "responseNode"
+        ]
+      }
+    },
+    "n8n-nodes-base.if": {
+      "typeVersion": 2.2,
+      "required": [
+        "conditions"
+      ],
+      "operator_dependencies": {
+        "binary": [
+          "equals",
+          "notEquals",
+          "contains"
+        ],
+        "unary": [
+          "isEmpty",
+          "isNotEmpty",
+          "true",
+          "false"
+        ],
+        "singleValue": "required true for unary operators and absent for binary operators"
+      }
+    },
+    "n8n-nodes-base.httpRequest": {
+      "typeVersion": 4.4,
+      "required": [
+        "method",
+        "url",
+        "authentication"
+      ],
+      "displayOptions": {
+        "sendQuery": {
+          "show": {
+            "method": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        },
+        "queryParameters": {
+          "show": {
+            "sendQuery": [
+              true
+            ]
+          }
+        },
+        "sendBody": {
+          "show": {
+            "method": [
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        },
+        "body": {
+          "show": {
+            "sendBody": [
+              true
+            ],
+            "method": [
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        },
+        "nodeCredentialType": {
+          "show": {
+            "authentication": [
+              "predefinedCredentialType"
+            ]
+          }
+        }
+      }
+    },
+    "n8n-nodes-base.postgres": {
+      "typeVersion": 2.6,
+      "required_by_operation": {
+        "executeQuery": [
+          "query"
+        ]
+      },
+      "options": [
+        "queryReplacement",
+        "queryBatching"
+      ]
+    },
+    "n8n-nodes-base.switch": {
+      "typeVersion": 3.2,
+      "required": [
+        "mode",
+        "rules"
+      ],
+      "options": [
+        "fallbackOutput",
+        "renameFallbackOutput"
+      ]
+    },
+    "n8n-nodes-base.set": {
+      "typeVersion": 3.4,
+      "required": [
+        "assignments"
+      ],
+      "assignment_fields": [
+        "name",
+        "value",
+        "type"
+      ]
+    },
+    "n8n-nodes-base.respondToWebhook": {
+      "typeVersion": 1.4,
+      "required": [
+        "respondWith",
+        "responseBody"
+      ],
+      "options": [
+        "responseCode"
+      ]
+    },
+    "n8n-nodes-base.slack": {
+      "typeVersion": 2.3,
+      "required_by_operation": {
+        "message/post": [
+          "channel",
+          "text"
+        ]
+      },
+      "operation_values": {
+        "Send a message": "post"
+      },
+      "block_kit_shape": "Expression must yield an object with a blocks key."
+    }
+  }
+}

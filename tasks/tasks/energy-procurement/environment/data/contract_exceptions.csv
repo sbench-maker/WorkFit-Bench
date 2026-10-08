@@ -1,0 +1,13 @@
+exception_id,offer_id,clause_code,severity,description,status
+EX001,PJM-SP02-FIX,unlimited_volume_deviation_penalty,critical,Open-ended deviation damages apply outside a supplier-set band.,open
+EX002,ERCOT-SP06-IDX,unilateral_material_adverse_change_termination,critical,Supplier may terminate after an undefined market disruption.,open
+EX003,PJM-SP03-HYB,collateral_call,high,Supplier may request collateral after a rating trigger.,open
+EX004,ERCOT-SP03-HYB,collateral_call,high,Supplier may request collateral after a rating trigger.,open
+EX005,PJM-SP06-HYB,change_in_law_pass_through,medium,New regulatory costs pass through without a negotiated materiality threshold.,open
+EX006,ERCOT-SP02-HYB,change_in_law_pass_through,medium,New regulatory costs pass through without a negotiated materiality threshold.,open
+EX007,PJM-SP01-IDX,index_data_correction_window,low,Settlement corrections remain open for 120 days.,open
+EX008,ERCOT-SP05-HYB,credit_support,medium,Parent guarantee form remains subject to final legal approval.,open
+EX009,PJM-SP05-FIX,unlimited_volume_deviation_penalty,critical,Supplier withdrew the original uncapped language.,withdrawn
+EX010,ERCOT-SP01-FIX,force_majeure_scope,medium,Force majeure definition includes certain transmission outages.,open
+EX011,ERCOT-SP03-FIX,collateral_call,high,Collateral threshold tightens on a negative credit watch.,open
+EX012,PJM-SP02-IDX,change_in_law_pass_through,medium,Market-rule changes are passed through at documented cost.,open

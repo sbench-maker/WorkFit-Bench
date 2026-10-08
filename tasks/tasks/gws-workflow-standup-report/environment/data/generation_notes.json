@@ -1,0 +1,15 @@
+{
+  "files": {
+    "calendar_events.json": 236,
+    "tasklists.json": 3,
+    "tasks.json": 260
+  },
+  "intentional_edge_cases": [
+    "cancelled and self-declined meetings on the report date",
+    "one all-day event and two timed events whose stored date differs from their report-day inclusion boundary",
+    "one overlapping timed meeting pair",
+    "open-looking tasks that are deleted or hidden",
+    "open tasks with no due date, due today, overdue, and blocked states"
+  ],
+  "method": "deterministic local construction"
+}

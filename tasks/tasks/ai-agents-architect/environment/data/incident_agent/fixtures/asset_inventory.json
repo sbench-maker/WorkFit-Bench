@@ -1,0 +1,74 @@
+[
+  {
+    "service": "atlas-api",
+    "owner_team": "Orion",
+    "tier": 1,
+    "runbook": "RB-001"
+  },
+  {
+    "service": "beacon-auth",
+    "owner_team": "Nova",
+    "tier": 2,
+    "runbook": "RB-002"
+  },
+  {
+    "service": "cinder-cache",
+    "owner_team": "Pine",
+    "tier": 2,
+    "runbook": "RB-003"
+  },
+  {
+    "service": "delta-worker",
+    "owner_team": "Quartz",
+    "tier": 1,
+    "runbook": "RB-004"
+  },
+  {
+    "service": "ember-web",
+    "owner_team": "Orion",
+    "tier": 2,
+    "runbook": "RB-005"
+  },
+  {
+    "service": "fjord-payments",
+    "owner_team": "Nova",
+    "tier": 2,
+    "runbook": "RB-006"
+  },
+  {
+    "service": "grove-search",
+    "owner_team": "Pine",
+    "tier": 1,
+    "runbook": "RB-007"
+  },
+  {
+    "service": "harbor-files",
+    "owner_team": "Quartz",
+    "tier": 2,
+    "runbook": "RB-008"
+  },
+  {
+    "service": "iris-profile",
+    "owner_team": "Orion",
+    "tier": 2,
+    "runbook": "RB-009"
+  },
+  {
+    "service": "juniper-mail",
+    "owner_team": "Nova",
+    "tier": 1,
+    "runbook": "RB-010"
+  },
+  {
+    "service": "kestrel-events",
+    "owner_team": "Pine",
+    "tier": 2,
+    "runbook": "RB-011"
+  },
+  {
+    "service": "lumen-reporting",
+    "owner_team": "Quartz",
+    "tier": 2,
+    "runbook": "RB-012"
+  }
+]

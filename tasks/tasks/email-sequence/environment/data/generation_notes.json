@@ -1,0 +1,17 @@
+{
+  "method": "deterministic local construction",
+  "records": {
+    "trial_contacts.csv": 240,
+    "product_events.csv": 956,
+    "onboarding_history.csv": 222
+  },
+  "relationships": [
+    "contact_id and account_id join trial_contacts.csv to product_events.csv",
+    "role_segment joins production history to current trial segments"
+  ],
+  "intentional_edge_cases": [
+    "test-scope history rows with implausibly perfect rates must be excluded",
+    "contacts can have conversion, transfer, support, consent, frequency-cap, or competing-sequence states",
+    "pricing interest is distinct from activation"
+  ]
+}

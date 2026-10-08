@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__primary_diagnosis",
+      "title": "Primary diagnosis and affected path",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report identifies Cloud NAT port exhaustion as the primary cause and correctly identifies the gateway, source service, destination, protocol port, and incident scope.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_primary_diagnosis_and_path"
+      ]
+    },
+    {
+      "id": "completion__trend_and_sources",
+      "title": "Hourly trend and impacted sources",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Hourly SRC-reporter traffic and NAT allocation-drop totals are accurate, and the three most impacted internal sources and their drop counts are correct.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_hourly_traffic_and_drop_trend",
+        "test_top_impacted_sources"
+      ]
+    },
+    {
+      "id": "completion__alternative_evidence",
+      "title": "Alternative-cause evidence",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report uses the relevant firewall and RTT evidence to distinguish the incident from firewall blocking or genuine latency degradation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__primary_diagnosis",
+        "title": "Primary diagnosis and affected path",
+        "required_score": 10
+      },
+      {
+        "id": "completion__trend_and_sources",
+        "title": "Hourly trend and impacted sources",
+        "required_score": 10
+      },
+      {
+        "id": "completion__alternative_evidence",
+        "title": "Alternative-cause evidence",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

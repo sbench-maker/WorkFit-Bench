@@ -1,0 +1,721 @@
+sample_id,window_start,tenant_id,home_region,operation,object,predicates,sort,avg_qps,observed_p95_ms,rows_returned_p95,consistency,notes
+W-00001,2026-06-01T00:00:00Z,TEN-0001,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,366.64,75,1,strong,checkout retry and support lookup
+W-00002,2026-06-06T07:00:00Z,TEN-0001,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",112.9,219,18,replica_ok_2s,seven-year support trace
+W-00003,2026-06-11T14:00:00Z,TEN-0001,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",182.52,329,50,replica_ok_2s,two-year interactive history
+W-00004,2026-06-04T11:00:00Z,TEN-0002,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,122.17,177,200,strong,concurrent workers skip locked rows
+W-00005,2026-06-09T18:00:00Z,TEN-0002,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,290.61,76,1,strong,checkout retry and support lookup
+W-00006,2026-06-14T01:00:00Z,TEN-0002,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",88.7,220,18,replica_ok_2s,seven-year support trace
+W-00007,2026-06-07T22:00:00Z,TEN-0003,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,3.14,10982,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00008,2026-06-12T05:00:00Z,TEN-0003,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,128.22,178,200,strong,concurrent workers skip locked rows
+W-00009,2026-06-03T12:00:00Z,TEN-0003,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,306.23,77,1,strong,checkout retry and support lookup
+W-00010,2026-06-10T09:00:00Z,TEN-0004,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,499.69,105,1,strong,atomic decrement/hold; retryable
+W-00011,2026-06-01T16:00:00Z,TEN-0004,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,5.97,10983,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00012,2026-06-06T23:00:00Z,TEN-0004,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,134.27,179,200,strong,concurrent workers skip locked rows
+W-00013,2026-06-13T20:00:00Z,TEN-0005,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,45.36,296,250,replica_ok_2s,operational sweep every minute
+W-00014,2026-06-04T03:00:00Z,TEN-0005,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,291.21,106,1,strong,atomic decrement/hold; retryable
+W-00015,2026-06-09T10:00:00Z,TEN-0005,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,6.29,10984,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00016,2026-06-02T07:00:00Z,TEN-0006,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",186.88,285,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00017,2026-06-07T14:00:00Z,TEN-0006,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,47.88,297,250,replica_ok_2s,operational sweep every minute
+W-00018,2026-06-12T21:00:00Z,TEN-0006,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,304.82,107,1,strong,atomic decrement/hold; retryable
+W-00019,2026-06-05T18:00:00Z,TEN-0007,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,91.73,121,1,replica_ok_2s,carrier-scoped tracking key
+W-00020,2026-06-10T01:00:00Z,TEN-0007,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",195.96,286,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00021,2026-06-01T08:00:00Z,TEN-0007,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,50.4,298,250,replica_ok_2s,operational sweep every minute
+W-00022,2026-06-08T05:00:00Z,TEN-0008,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.21,36607,10000,maintenance,120-day lifecycle batch
+W-00023,2026-06-13T12:00:00Z,TEN-0008,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,96.77,122,1,replica_ok_2s,carrier-scoped tracking key
+W-00024,2026-06-04T19:00:00Z,TEN-0008,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",159.67,287,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00025,2026-06-11T16:00:00Z,TEN-0009,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,400.62,148,1,strong,at-least-once duplicate check
+W-00026,2026-06-02T23:00:00Z,TEN-0009,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.22,36608,10000,maintenance,120-day lifecycle batch
+W-00027,2026-06-07T06:00:00Z,TEN-0009,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,101.81,123,1,replica_ok_2s,carrier-scoped tracking key
+W-00028,2026-06-14T03:00:00Z,TEN-0010,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,169.34,67,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00029,2026-06-05T10:00:00Z,TEN-0010,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,422.39,140,1,strong,at-least-once duplicate check
+W-00030,2026-06-10T17:00:00Z,TEN-0010,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.32,36600,10000,maintenance,120-day lifecycle batch
+W-00031,2026-06-03T14:00:00Z,TEN-0011,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",131.24,330,50,replica_ok_2s,two-year interactive history
+W-00032,2026-06-08T21:00:00Z,TEN-0011,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,177.41,68,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00033,2026-06-13T04:00:00Z,TEN-0011,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,246.76,141,1,strong,at-least-once duplicate check
+W-00034,2026-06-06T01:00:00Z,TEN-0012,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",85.48,221,18,replica_ok_2s,seven-year support trace
+W-00035,2026-06-11T08:00:00Z,TEN-0012,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",138.3,331,50,replica_ok_2s,two-year interactive history
+W-00036,2026-06-02T15:00:00Z,TEN-0012,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,145.15,69,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00037,2026-06-09T12:00:00Z,TEN-0013,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,122.39,65,1,strong,checkout retry and support lookup
+W-00038,2026-06-14T19:00:00Z,TEN-0013,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",37.3,183,18,replica_ok_2s,seven-year support trace
+W-00039,2026-06-05T02:00:00Z,TEN-0013,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",60.56,273,50,replica_ok_2s,two-year interactive history
+W-00040,2026-06-12T23:00:00Z,TEN-0014,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,17.98,149,200,strong,concurrent workers skip locked rows
+W-00041,2026-06-03T06:00:00Z,TEN-0014,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,42.97,66,1,strong,checkout retry and support lookup
+W-00042,2026-06-08T13:00:00Z,TEN-0014,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",10.19,184,18,replica_ok_2s,seven-year support trace
+W-00043,2026-06-01T10:00:00Z,TEN-0015,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.33,9005,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00044,2026-06-06T17:00:00Z,TEN-0015,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,13.31,150,200,strong,concurrent workers skip locked rows
+W-00045,2026-06-11T00:00:00Z,TEN-0015,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,17.73,67,1,strong,checkout retry and support lookup
+W-00046,2026-06-04T21:00:00Z,TEN-0016,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,16.04,90,1,strong,atomic decrement/hold; retryable
+W-00047,2026-06-09T04:00:00Z,TEN-0016,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9006,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00048,2026-06-14T11:00:00Z,TEN-0016,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.07,151,200,strong,concurrent workers skip locked rows
+W-00049,2026-06-07T08:00:00Z,TEN-0017,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,20.16,247,250,replica_ok_2s,operational sweep every minute
+W-00050,2026-06-12T15:00:00Z,TEN-0017,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,99.79,91,1,strong,atomic decrement/hold; retryable
+W-00051,2026-06-03T22:00:00Z,TEN-0017,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.54,9007,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00052,2026-06-10T19:00:00Z,TEN-0018,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",27.47,238,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00053,2026-06-01T02:00:00Z,TEN-0018,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.07,248,250,replica_ok_2s,operational sweep every minute
+W-00054,2026-06-06T09:00:00Z,TEN-0018,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,63.28,92,1,strong,atomic decrement/hold; retryable
+W-00055,2026-06-13T06:00:00Z,TEN-0019,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.33,95,1,replica_ok_2s,carrier-scoped tracking key
+W-00056,2026-06-04T13:00:00Z,TEN-0019,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",8.81,230,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00057,2026-06-09T20:00:00Z,TEN-0019,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.92,240,250,replica_ok_2s,operational sweep every minute
+W-00058,2026-06-02T17:00:00Z,TEN-0020,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30001,10000,maintenance,120-day lifecycle batch
+W-00059,2026-06-07T00:00:00Z,TEN-0020,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.61,96,1,replica_ok_2s,carrier-scoped tracking key
+W-00060,2026-06-12T07:00:00Z,TEN-0020,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.31,231,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00061,2026-06-05T04:00:00Z,TEN-0021,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,98.78,117,1,strong,at-least-once duplicate check
+W-00062,2026-06-10T11:00:00Z,TEN-0021,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30002,10000,maintenance,120-day lifecycle batch
+W-00063,2026-06-01T18:00:00Z,TEN-0021,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,44.94,97,1,replica_ok_2s,carrier-scoped tracking key
+W-00064,2026-06-08T15:00:00Z,TEN-0022,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,24.86,58,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00065,2026-06-13T22:00:00Z,TEN-0022,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,34.61,118,1,strong,at-least-once duplicate check
+W-00066,2026-06-04T05:00:00Z,TEN-0022,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30003,10000,maintenance,120-day lifecycle batch
+W-00067,2026-06-11T02:00:00Z,TEN-0023,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.62,274,50,replica_ok_2s,two-year interactive history
+W-00068,2026-06-02T09:00:00Z,TEN-0023,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,14.41,59,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00069,2026-06-07T16:00:00Z,TEN-0023,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,25.66,119,1,strong,at-least-once duplicate check
+W-00070,2026-06-14T13:00:00Z,TEN-0024,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.93,185,18,replica_ok_2s,seven-year support trace
+W-00071,2026-06-05T20:00:00Z,TEN-0024,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.01,275,50,replica_ok_2s,two-year interactive history
+W-00072,2026-06-10T03:00:00Z,TEN-0024,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.45,60,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00073,2026-06-03T00:00:00Z,TEN-0025,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,130.2,68,1,strong,checkout retry and support lookup
+W-00074,2026-06-08T07:00:00Z,TEN-0025,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",30.91,186,18,replica_ok_2s,seven-year support trace
+W-00075,2026-06-13T14:00:00Z,TEN-0025,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",64.09,276,50,replica_ok_2s,two-year interactive history
+W-00076,2026-06-06T11:00:00Z,TEN-0026,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,14.78,152,200,strong,concurrent workers skip locked rows
+W-00077,2026-06-11T18:00:00Z,TEN-0026,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,45.57,69,1,strong,checkout retry and support lookup
+W-00078,2026-06-02T01:00:00Z,TEN-0026,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",10.86,187,18,replica_ok_2s,seven-year support trace
+W-00079,2026-06-09T22:00:00Z,TEN-0027,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9008,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00080,2026-06-14T05:00:00Z,TEN-0027,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.14,153,200,strong,concurrent workers skip locked rows
+W-00081,2026-06-05T12:00:00Z,TEN-0027,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,18.76,70,1,strong,checkout retry and support lookup
+W-00082,2026-06-12T09:00:00Z,TEN-0028,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,23.79,84,1,strong,atomic decrement/hold; retryable
+W-00083,2026-06-03T16:00:00Z,TEN-0028,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.37,9000,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00084,2026-06-08T23:00:00Z,TEN-0028,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.47,145,200,strong,concurrent workers skip locked rows
+W-00085,2026-06-01T20:00:00Z,TEN-0029,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,21.42,241,250,replica_ok_2s,operational sweep every minute
+W-00086,2026-06-06T03:00:00Z,TEN-0029,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,106.6,85,1,strong,atomic decrement/hold; retryable
+W-00087,2026-06-11T10:00:00Z,TEN-0029,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.94,9001,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00088,2026-06-04T07:00:00Z,TEN-0030,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",22.68,232,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00089,2026-06-09T14:00:00Z,TEN-0030,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.49,242,250,replica_ok_2s,operational sweep every minute
+W-00090,2026-06-14T21:00:00Z,TEN-0030,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,37.42,86,1,strong,atomic decrement/hold; retryable
+W-00091,2026-06-07T18:00:00Z,TEN-0031,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.67,98,1,replica_ok_2s,carrier-scoped tracking key
+W-00092,2026-06-12T01:00:00Z,TEN-0031,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.4,233,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00093,2026-06-03T08:00:00Z,TEN-0031,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,3.08,243,250,replica_ok_2s,operational sweep every minute
+W-00094,2026-06-10T05:00:00Z,TEN-0032,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30004,10000,maintenance,120-day lifecycle batch
+W-00095,2026-06-01T12:00:00Z,TEN-0032,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.94,99,1,replica_ok_2s,carrier-scoped tracking key
+W-00096,2026-06-06T19:00:00Z,TEN-0032,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.9,234,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00097,2026-06-13T16:00:00Z,TEN-0033,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,188.7,120,1,strong,at-least-once duplicate check
+W-00098,2026-06-04T23:00:00Z,TEN-0033,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30005,10000,maintenance,120-day lifecycle batch
+W-00099,2026-06-09T06:00:00Z,TEN-0033,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,36.96,100,1,replica_ok_2s,carrier-scoped tracking key
+W-00100,2026-06-02T03:00:00Z,TEN-0034,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,20.61,61,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00101,2026-06-07T10:00:00Z,TEN-0034,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,65.92,121,1,strong,at-least-once duplicate check
+W-00102,2026-06-12T17:00:00Z,TEN-0034,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.05,30006,10000,maintenance,120-day lifecycle batch
+W-00103,2026-06-05T14:00:00Z,TEN-0035,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.09,277,50,replica_ok_2s,two-year interactive history
+W-00104,2026-06-10T21:00:00Z,TEN-0035,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.54,62,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00105,2026-06-01T04:00:00Z,TEN-0035,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,11.75,122,1,strong,at-least-once duplicate check
+W-00106,2026-06-08T01:00:00Z,TEN-0036,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.09,188,18,replica_ok_2s,seven-year support trace
+W-00107,2026-06-13T08:00:00Z,TEN-0036,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.47,278,50,replica_ok_2s,two-year interactive history
+W-00108,2026-06-04T15:00:00Z,TEN-0036,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.98,63,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00109,2026-06-11T12:00:00Z,TEN-0037,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,138.01,62,1,strong,checkout retry and support lookup
+W-00110,2026-06-02T19:00:00Z,TEN-0037,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",32.93,180,18,replica_ok_2s,seven-year support trace
+W-00111,2026-06-07T02:00:00Z,TEN-0037,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",52.92,270,50,replica_ok_2s,two-year interactive history
+W-00112,2026-06-14T23:00:00Z,TEN-0038,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,15.79,146,200,strong,concurrent workers skip locked rows
+W-00113,2026-06-05T06:00:00Z,TEN-0038,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,48.17,63,1,strong,checkout retry and support lookup
+W-00114,2026-06-10T13:00:00Z,TEN-0038,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",11.54,181,18,replica_ok_2s,seven-year support trace
+W-00115,2026-06-03T10:00:00Z,TEN-0039,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.37,9002,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00116,2026-06-08T17:00:00Z,TEN-0039,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,11.76,147,200,strong,concurrent workers skip locked rows
+W-00117,2026-06-13T00:00:00Z,TEN-0039,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,15.52,64,1,strong,checkout retry and support lookup
+W-00118,2026-06-06T21:00:00Z,TEN-0040,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,14.11,87,1,strong,atomic decrement/hold; retryable
+W-00119,2026-06-11T04:00:00Z,TEN-0040,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.22,9003,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00120,2026-06-02T11:00:00Z,TEN-0040,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.86,148,200,strong,concurrent workers skip locked rows
+W-00121,2026-06-09T08:00:00Z,TEN-0041,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,22.68,244,250,replica_ok_2s,operational sweep every minute
+W-00122,2026-06-14T15:00:00Z,TEN-0041,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,113.4,88,1,strong,atomic decrement/hold; retryable
+W-00123,2026-06-05T22:00:00Z,TEN-0041,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.35,9004,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00124,2026-06-12T19:00:00Z,TEN-0042,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",24.19,235,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00125,2026-06-03T02:00:00Z,TEN-0042,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.16,245,250,replica_ok_2s,operational sweep every minute
+W-00126,2026-06-08T09:00:00Z,TEN-0042,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,71.44,89,1,strong,atomic decrement/hold; retryable
+W-00127,2026-06-01T06:00:00Z,TEN-0043,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,6.0,101,1,replica_ok_2s,carrier-scoped tracking key
+W-00128,2026-06-06T13:00:00Z,TEN-0043,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.0,236,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00129,2026-06-11T20:00:00Z,TEN-0043,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.56,246,250,replica_ok_2s,operational sweep every minute
+W-00130,2026-06-04T17:00:00Z,TEN-0044,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30007,10000,maintenance,120-day lifecycle batch
+W-00131,2026-06-09T00:00:00Z,TEN-0044,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,4.9,102,1,replica_ok_2s,carrier-scoped tracking key
+W-00132,2026-06-14T07:00:00Z,TEN-0044,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.49,237,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00133,2026-06-07T04:00:00Z,TEN-0045,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,110.88,123,1,strong,at-least-once duplicate check
+W-00134,2026-06-12T11:00:00Z,TEN-0045,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.09,30008,10000,maintenance,120-day lifecycle batch
+W-00135,2026-06-03T18:00:00Z,TEN-0045,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,39.48,103,1,replica_ok_2s,carrier-scoped tracking key
+W-00136,2026-06-10T15:00:00Z,TEN-0046,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,21.95,55,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00137,2026-06-01T22:00:00Z,TEN-0046,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,30.24,115,1,strong,at-least-once duplicate check
+W-00138,2026-06-06T05:00:00Z,TEN-0046,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30000,10000,maintenance,120-day lifecycle batch
+W-00139,2026-06-13T02:00:00Z,TEN-0047,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.55,271,50,replica_ok_2s,two-year interactive history
+W-00140,2026-06-04T09:00:00Z,TEN-0047,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,16.32,56,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00141,2026-06-09T16:00:00Z,TEN-0047,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,22.57,116,1,strong,at-least-once duplicate check
+W-00142,2026-06-02T13:00:00Z,TEN-0048,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.36,182,18,replica_ok_2s,seven-year support trace
+W-00143,2026-06-07T20:00:00Z,TEN-0048,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.01,272,50,replica_ok_2s,two-year interactive history
+W-00144,2026-06-12T03:00:00Z,TEN-0048,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.5,57,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00145,2026-06-05T00:00:00Z,TEN-0049,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,145.82,65,1,strong,checkout retry and support lookup
+W-00146,2026-06-10T07:00:00Z,TEN-0049,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",34.94,183,18,replica_ok_2s,seven-year support trace
+W-00147,2026-06-01T14:00:00Z,TEN-0049,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",56.45,273,50,replica_ok_2s,two-year interactive history
+W-00148,2026-06-08T11:00:00Z,TEN-0050,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,16.8,149,200,strong,concurrent workers skip locked rows
+W-00149,2026-06-13T18:00:00Z,TEN-0050,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,39.93,66,1,strong,checkout retry and support lookup
+W-00150,2026-06-04T01:00:00Z,TEN-0050,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",12.21,184,18,replica_ok_2s,seven-year support trace
+W-00151,2026-06-11T22:00:00Z,TEN-0051,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.17,9005,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00152,2026-06-02T05:00:00Z,TEN-0051,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.93,150,200,strong,concurrent workers skip locked rows
+W-00153,2026-06-07T12:00:00Z,TEN-0051,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,16.54,67,1,strong,checkout retry and support lookup
+W-00154,2026-06-14T09:00:00Z,TEN-0052,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,27.0,90,1,strong,atomic decrement/hold; retryable
+W-00155,2026-06-05T16:00:00Z,TEN-0052,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.32,9006,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00156,2026-06-10T23:00:00Z,TEN-0052,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,7.26,151,200,strong,concurrent workers skip locked rows
+W-00157,2026-06-03T20:00:00Z,TEN-0053,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,18.69,247,250,replica_ok_2s,operational sweep every minute
+W-00158,2026-06-08T03:00:00Z,TEN-0053,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,120.2,91,1,strong,atomic decrement/hold; retryable
+W-00159,2026-06-13T10:00:00Z,TEN-0053,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.59,9007,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00160,2026-06-06T07:00:00Z,TEN-0054,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",25.7,238,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00161,2026-06-11T14:00:00Z,TEN-0054,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.58,248,250,replica_ok_2s,operational sweep every minute
+W-00162,2026-06-02T21:00:00Z,TEN-0054,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,41.96,92,1,strong,atomic decrement/hold; retryable
+W-00163,2026-06-09T18:00:00Z,TEN-0055,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,4.95,95,1,replica_ok_2s,carrier-scoped tracking key
+W-00164,2026-06-14T01:00:00Z,TEN-0055,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.59,230,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00165,2026-06-05T08:00:00Z,TEN-0055,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.72,240,250,replica_ok_2s,operational sweep every minute
+W-00166,2026-06-12T05:00:00Z,TEN-0056,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30001,10000,maintenance,120-day lifecycle batch
+W-00167,2026-06-03T12:00:00Z,TEN-0056,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.22,96,1,replica_ok_2s,carrier-scoped tracking key
+W-00168,2026-06-08T19:00:00Z,TEN-0056,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",11.09,231,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00169,2026-06-01T16:00:00Z,TEN-0057,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,165.11,117,1,strong,at-least-once duplicate check
+W-00170,2026-06-06T23:00:00Z,TEN-0057,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.09,30002,10000,maintenance,120-day lifecycle batch
+W-00171,2026-06-11T06:00:00Z,TEN-0057,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,42.0,97,1,replica_ok_2s,carrier-scoped tracking key
+W-00172,2026-06-04T03:00:00Z,TEN-0058,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,23.3,58,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00173,2026-06-09T10:00:00Z,TEN-0058,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,58.06,118,1,strong,at-least-once duplicate check
+W-00174,2026-06-14T17:00:00Z,TEN-0058,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.04,30003,10000,maintenance,120-day lifecycle batch
+W-00175,2026-06-07T14:00:00Z,TEN-0059,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.08,274,50,replica_ok_2s,two-year interactive history
+W-00176,2026-06-12T21:00:00Z,TEN-0059,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.59,59,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00177,2026-06-03T04:00:00Z,TEN-0059,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,13.33,119,1,strong,at-least-once duplicate check
+W-00178,2026-06-10T01:00:00Z,TEN-0060,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.62,185,18,replica_ok_2s,seven-year support trace
+W-00179,2026-06-01T08:00:00Z,TEN-0060,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.47,275,50,replica_ok_2s,two-year interactive history
+W-00180,2026-06-06T15:00:00Z,TEN-0060,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,7.83,60,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00181,2026-06-13T12:00:00Z,TEN-0061,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,121.09,68,1,strong,checkout retry and support lookup
+W-00182,2026-06-04T19:00:00Z,TEN-0061,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",36.96,186,18,replica_ok_2s,seven-year support trace
+W-00183,2026-06-09T02:00:00Z,TEN-0061,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",59.98,276,50,replica_ok_2s,two-year interactive history
+W-00184,2026-06-02T23:00:00Z,TEN-0062,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,17.81,152,200,strong,concurrent workers skip locked rows
+W-00185,2026-06-07T06:00:00Z,TEN-0062,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,42.53,69,1,strong,checkout retry and support lookup
+W-00186,2026-06-12T13:00:00Z,TEN-0062,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",10.08,187,18,replica_ok_2s,seven-year support trace
+W-00187,2026-06-05T10:00:00Z,TEN-0063,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.33,9008,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00188,2026-06-10T17:00:00Z,TEN-0063,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,13.19,153,200,strong,concurrent workers skip locked rows
+W-00189,2026-06-01T00:00:00Z,TEN-0063,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,17.56,70,1,strong,checkout retry and support lookup
+W-00190,2026-06-08T21:00:00Z,TEN-0064,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,15.89,84,1,strong,atomic decrement/hold; retryable
+W-00191,2026-06-13T04:00:00Z,TEN-0064,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9000,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00192,2026-06-04T11:00:00Z,TEN-0064,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.01,145,200,strong,concurrent workers skip locked rows
+W-00193,2026-06-11T08:00:00Z,TEN-0065,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,19.95,241,250,replica_ok_2s,operational sweep every minute
+W-00194,2026-06-02T15:00:00Z,TEN-0065,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,127.01,85,1,strong,atomic decrement/hold; retryable
+W-00195,2026-06-07T22:00:00Z,TEN-0065,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.53,9001,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00196,2026-06-14T19:00:00Z,TEN-0066,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",27.22,232,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00197,2026-06-05T02:00:00Z,TEN-0066,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.0,242,250,replica_ok_2s,operational sweep every minute
+W-00198,2026-06-10T09:00:00Z,TEN-0066,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,62.6,86,1,strong,atomic decrement/hold; retryable
+W-00199,2026-06-03T06:00:00Z,TEN-0067,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.28,98,1,replica_ok_2s,carrier-scoped tracking key
+W-00200,2026-06-08T13:00:00Z,TEN-0067,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",8.71,233,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00201,2026-06-13T20:00:00Z,TEN-0067,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.89,243,250,replica_ok_2s,operational sweep every minute
+W-00202,2026-06-06T17:00:00Z,TEN-0068,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30004,10000,maintenance,120-day lifecycle batch
+W-00203,2026-06-11T00:00:00Z,TEN-0068,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.55,99,1,replica_ok_2s,carrier-scoped tracking key
+W-00204,2026-06-02T07:00:00Z,TEN-0068,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.21,234,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00205,2026-06-09T04:00:00Z,TEN-0069,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,97.78,120,1,strong,at-least-once duplicate check
+W-00206,2026-06-14T11:00:00Z,TEN-0069,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.07,30005,10000,maintenance,120-day lifecycle batch
+W-00207,2026-06-05T18:00:00Z,TEN-0069,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,44.52,100,1,replica_ok_2s,carrier-scoped tracking key
+W-00208,2026-06-12T15:00:00Z,TEN-0070,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,24.64,61,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00209,2026-06-03T22:00:00Z,TEN-0070,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,34.27,121,1,strong,at-least-once duplicate check
+W-00210,2026-06-08T05:00:00Z,TEN-0070,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30006,10000,maintenance,120-day lifecycle batch
+W-00211,2026-06-01T02:00:00Z,TEN-0071,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.55,277,50,replica_ok_2s,two-year interactive history
+W-00212,2026-06-06T09:00:00Z,TEN-0071,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,14.26,62,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00213,2026-06-11T16:00:00Z,TEN-0071,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,25.42,122,1,strong,at-least-once duplicate check
+W-00214,2026-06-04T13:00:00Z,TEN-0072,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.88,188,18,replica_ok_2s,seven-year support trace
+W-00215,2026-06-09T20:00:00Z,TEN-0072,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.93,278,50,replica_ok_2s,two-year interactive history
+W-00216,2026-06-14T03:00:00Z,TEN-0072,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.36,63,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00217,2026-06-07T00:00:00Z,TEN-0073,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,128.9,62,1,strong,checkout retry and support lookup
+W-00218,2026-06-12T07:00:00Z,TEN-0073,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",30.58,180,18,replica_ok_2s,seven-year support trace
+W-00219,2026-06-03T14:00:00Z,TEN-0073,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",63.5,270,50,replica_ok_2s,two-year interactive history
+W-00220,2026-06-10T11:00:00Z,TEN-0074,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,18.82,146,200,strong,concurrent workers skip locked rows
+W-00221,2026-06-01T18:00:00Z,TEN-0074,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,45.14,63,1,strong,checkout retry and support lookup
+W-00222,2026-06-06T01:00:00Z,TEN-0074,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",10.75,181,18,replica_ok_2s,seven-year support trace
+W-00223,2026-06-13T22:00:00Z,TEN-0075,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9002,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00224,2026-06-04T05:00:00Z,TEN-0075,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.07,147,200,strong,concurrent workers skip locked rows
+W-00225,2026-06-09T12:00:00Z,TEN-0075,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,18.58,64,1,strong,checkout retry and support lookup
+W-00226,2026-06-02T09:00:00Z,TEN-0076,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,23.52,87,1,strong,atomic decrement/hold; retryable
+W-00227,2026-06-07T16:00:00Z,TEN-0076,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.36,9003,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00228,2026-06-12T23:00:00Z,TEN-0076,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.4,148,200,strong,concurrent workers skip locked rows
+W-00229,2026-06-05T20:00:00Z,TEN-0077,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,21.21,244,250,replica_ok_2s,operational sweep every minute
+W-00230,2026-06-10T03:00:00Z,TEN-0077,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,105.46,88,1,strong,atomic decrement/hold; retryable
+W-00231,2026-06-01T10:00:00Z,TEN-0077,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.91,9004,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00232,2026-06-08T07:00:00Z,TEN-0078,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",22.43,235,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00233,2026-06-13T14:00:00Z,TEN-0078,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.42,245,250,replica_ok_2s,operational sweep every minute
+W-00234,2026-06-04T21:00:00Z,TEN-0078,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,37.04,89,1,strong,atomic decrement/hold; retryable
+W-00235,2026-06-11T18:00:00Z,TEN-0079,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.61,101,1,replica_ok_2s,carrier-scoped tracking key
+W-00236,2026-06-02T01:00:00Z,TEN-0079,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.31,236,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00237,2026-06-07T08:00:00Z,TEN-0079,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,3.05,246,250,replica_ok_2s,operational sweep every minute
+W-00238,2026-06-14T05:00:00Z,TEN-0080,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30007,10000,maintenance,120-day lifecycle batch
+W-00239,2026-06-05T12:00:00Z,TEN-0080,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.89,102,1,replica_ok_2s,carrier-scoped tracking key
+W-00240,2026-06-10T19:00:00Z,TEN-0080,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.8,237,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00241,2026-06-03T16:00:00Z,TEN-0081,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,186.88,123,1,strong,at-least-once duplicate check
+W-00242,2026-06-08T23:00:00Z,TEN-0081,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30008,10000,maintenance,120-day lifecycle batch
+W-00243,2026-06-13T06:00:00Z,TEN-0081,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,47.04,103,1,replica_ok_2s,carrier-scoped tracking key
+W-00244,2026-06-06T03:00:00Z,TEN-0082,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,20.38,55,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00245,2026-06-11T10:00:00Z,TEN-0082,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,65.32,115,1,strong,at-least-once duplicate check
+W-00246,2026-06-02T17:00:00Z,TEN-0082,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.05,30000,10000,maintenance,120-day lifecycle batch
+W-00247,2026-06-09T14:00:00Z,TEN-0083,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.01,271,50,replica_ok_2s,two-year interactive history
+W-00248,2026-06-14T21:00:00Z,TEN-0083,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.45,56,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00249,2026-06-05T04:00:00Z,TEN-0083,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,11.62,116,1,strong,at-least-once duplicate check
+W-00250,2026-06-12T01:00:00Z,TEN-0084,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.05,182,18,replica_ok_2s,seven-year support trace
+W-00251,2026-06-03T08:00:00Z,TEN-0084,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.39,272,50,replica_ok_2s,two-year interactive history
+W-00252,2026-06-08T15:00:00Z,TEN-0084,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.89,57,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00253,2026-06-01T12:00:00Z,TEN-0085,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,136.71,65,1,strong,checkout retry and support lookup
+W-00254,2026-06-06T19:00:00Z,TEN-0085,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",32.59,183,18,replica_ok_2s,seven-year support trace
+W-00255,2026-06-11T02:00:00Z,TEN-0085,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",52.33,273,50,replica_ok_2s,two-year interactive history
+W-00256,2026-06-04T23:00:00Z,TEN-0086,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,15.62,149,200,strong,concurrent workers skip locked rows
+W-00257,2026-06-09T06:00:00Z,TEN-0086,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,47.74,66,1,strong,checkout retry and support lookup
+W-00258,2026-06-14T13:00:00Z,TEN-0086,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",11.42,184,18,replica_ok_2s,seven-year support trace
+W-00259,2026-06-07T10:00:00Z,TEN-0087,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.37,9005,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00260,2026-06-12T17:00:00Z,TEN-0087,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,11.64,150,200,strong,concurrent workers skip locked rows
+W-00261,2026-06-03T00:00:00Z,TEN-0087,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,15.35,67,1,strong,checkout retry and support lookup
+W-00262,2026-06-10T21:00:00Z,TEN-0088,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,13.96,90,1,strong,atomic decrement/hold; retryable
+W-00263,2026-06-01T04:00:00Z,TEN-0088,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.21,9006,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00264,2026-06-06T11:00:00Z,TEN-0088,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.8,151,200,strong,concurrent workers skip locked rows
+W-00265,2026-06-13T08:00:00Z,TEN-0089,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,22.47,247,250,replica_ok_2s,operational sweep every minute
+W-00266,2026-06-04T15:00:00Z,TEN-0089,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,112.27,91,1,strong,atomic decrement/hold; retryable
+W-00267,2026-06-09T22:00:00Z,TEN-0089,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.34,9007,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00268,2026-06-02T19:00:00Z,TEN-0090,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",23.94,238,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00269,2026-06-07T02:00:00Z,TEN-0090,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.84,248,250,replica_ok_2s,operational sweep every minute
+W-00270,2026-06-12T09:00:00Z,TEN-0090,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,70.76,92,1,strong,atomic decrement/hold; retryable
+W-00271,2026-06-05T06:00:00Z,TEN-0091,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.94,95,1,replica_ok_2s,carrier-scoped tracking key
+W-00272,2026-06-10T13:00:00Z,TEN-0091,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.9,230,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00273,2026-06-01T20:00:00Z,TEN-0091,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.53,240,250,replica_ok_2s,operational sweep every minute
+W-00274,2026-06-08T17:00:00Z,TEN-0092,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30001,10000,maintenance,120-day lifecycle batch
+W-00275,2026-06-13T00:00:00Z,TEN-0092,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,4.84,96,1,replica_ok_2s,carrier-scoped tracking key
+W-00276,2026-06-04T07:00:00Z,TEN-0092,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.4,231,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00277,2026-06-11T04:00:00Z,TEN-0093,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,109.87,117,1,strong,at-least-once duplicate check
+W-00278,2026-06-02T11:00:00Z,TEN-0093,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30002,10000,maintenance,120-day lifecycle batch
+W-00279,2026-06-07T18:00:00Z,TEN-0093,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,39.06,97,1,replica_ok_2s,carrier-scoped tracking key
+W-00280,2026-06-14T15:00:00Z,TEN-0094,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,21.73,58,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00281,2026-06-05T22:00:00Z,TEN-0094,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,29.9,118,1,strong,at-least-once duplicate check
+W-00282,2026-06-10T05:00:00Z,TEN-0094,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30003,10000,maintenance,120-day lifecycle batch
+W-00283,2026-06-03T02:00:00Z,TEN-0095,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.47,274,50,replica_ok_2s,two-year interactive history
+W-00284,2026-06-08T09:00:00Z,TEN-0095,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,16.16,59,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00285,2026-06-13T16:00:00Z,TEN-0095,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,22.33,119,1,strong,at-least-once duplicate check
+W-00286,2026-06-06T13:00:00Z,TEN-0096,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.31,185,18,replica_ok_2s,seven-year support trace
+W-00287,2026-06-11T20:00:00Z,TEN-0096,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",6.93,275,50,replica_ok_2s,two-year interactive history
+W-00288,2026-06-02T03:00:00Z,TEN-0096,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.42,60,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00289,2026-06-09T00:00:00Z,TEN-0097,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,144.52,68,1,strong,checkout retry and support lookup
+W-00290,2026-06-14T07:00:00Z,TEN-0097,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",34.61,186,18,replica_ok_2s,seven-year support trace
+W-00291,2026-06-05T14:00:00Z,TEN-0097,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",55.86,276,50,replica_ok_2s,two-year interactive history
+W-00292,2026-06-12T11:00:00Z,TEN-0098,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,16.63,152,200,strong,concurrent workers skip locked rows
+W-00293,2026-06-03T18:00:00Z,TEN-0098,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,39.49,69,1,strong,checkout retry and support lookup
+W-00294,2026-06-08T01:00:00Z,TEN-0098,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",12.1,187,18,replica_ok_2s,seven-year support trace
+W-00295,2026-06-01T22:00:00Z,TEN-0099,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.22,9008,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00296,2026-06-06T05:00:00Z,TEN-0099,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.86,153,200,strong,concurrent workers skip locked rows
+W-00297,2026-06-11T12:00:00Z,TEN-0099,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,16.37,70,1,strong,checkout retry and support lookup
+W-00298,2026-06-04T09:00:00Z,TEN-0100,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,26.73,84,1,strong,atomic decrement/hold; retryable
+W-00299,2026-06-09T16:00:00Z,TEN-0100,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.32,9000,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00300,2026-06-14T23:00:00Z,TEN-0100,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,7.19,145,200,strong,concurrent workers skip locked rows
+W-00301,2026-06-07T20:00:00Z,TEN-0101,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,18.48,241,250,replica_ok_2s,operational sweep every minute
+W-00302,2026-06-12T03:00:00Z,TEN-0101,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,119.07,85,1,strong,atomic decrement/hold; retryable
+W-00303,2026-06-03T10:00:00Z,TEN-0101,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.57,9001,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00304,2026-06-10T07:00:00Z,TEN-0102,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",25.45,232,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00305,2026-06-01T14:00:00Z,TEN-0102,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.51,242,250,replica_ok_2s,operational sweep every minute
+W-00306,2026-06-06T21:00:00Z,TEN-0102,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,41.58,86,1,strong,atomic decrement/hold; retryable
+W-00307,2026-06-13T18:00:00Z,TEN-0103,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,4.9,98,1,replica_ok_2s,carrier-scoped tracking key
+W-00308,2026-06-04T01:00:00Z,TEN-0103,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.49,233,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00309,2026-06-09T08:00:00Z,TEN-0103,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.69,243,250,replica_ok_2s,operational sweep every minute
+W-00310,2026-06-02T05:00:00Z,TEN-0104,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30004,10000,maintenance,120-day lifecycle batch
+W-00311,2026-06-07T12:00:00Z,TEN-0104,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.17,99,1,replica_ok_2s,carrier-scoped tracking key
+W-00312,2026-06-12T19:00:00Z,TEN-0104,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.99,234,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00313,2026-06-05T16:00:00Z,TEN-0105,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,163.3,120,1,strong,at-least-once duplicate check
+W-00314,2026-06-10T23:00:00Z,TEN-0105,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.09,30005,10000,maintenance,120-day lifecycle batch
+W-00315,2026-06-01T06:00:00Z,TEN-0105,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,41.58,100,1,replica_ok_2s,carrier-scoped tracking key
+W-00316,2026-06-08T03:00:00Z,TEN-0106,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,23.07,61,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00317,2026-06-13T10:00:00Z,TEN-0106,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,57.46,121,1,strong,at-least-once duplicate check
+W-00318,2026-06-04T17:00:00Z,TEN-0106,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.06,30006,10000,maintenance,120-day lifecycle batch
+W-00319,2026-06-11T14:00:00Z,TEN-0107,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.01,277,50,replica_ok_2s,two-year interactive history
+W-00320,2026-06-02T21:00:00Z,TEN-0107,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.5,62,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00321,2026-06-07T04:00:00Z,TEN-0107,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,13.2,122,1,strong,at-least-once duplicate check
+W-00322,2026-06-14T01:00:00Z,TEN-0108,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.58,188,18,replica_ok_2s,seven-year support trace
+W-00323,2026-06-05T08:00:00Z,TEN-0108,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.39,278,50,replica_ok_2s,two-year interactive history
+W-00324,2026-06-10T15:00:00Z,TEN-0108,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,7.74,63,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00325,2026-06-03T12:00:00Z,TEN-0109,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,119.78,62,1,strong,checkout retry and support lookup
+W-00326,2026-06-08T19:00:00Z,TEN-0109,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",36.62,180,18,replica_ok_2s,seven-year support trace
+W-00327,2026-06-13T02:00:00Z,TEN-0109,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",59.39,270,50,replica_ok_2s,two-year interactive history
+W-00328,2026-06-06T23:00:00Z,TEN-0110,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,17.64,146,200,strong,concurrent workers skip locked rows
+W-00329,2026-06-11T06:00:00Z,TEN-0110,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,42.1,63,1,strong,checkout retry and support lookup
+W-00330,2026-06-02T13:00:00Z,TEN-0110,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",9.97,181,18,replica_ok_2s,seven-year support trace
+W-00331,2026-06-09T10:00:00Z,TEN-0111,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.32,9002,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00332,2026-06-14T17:00:00Z,TEN-0111,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,13.07,147,200,strong,concurrent workers skip locked rows
+W-00333,2026-06-05T00:00:00Z,TEN-0111,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,17.39,64,1,strong,checkout retry and support lookup
+W-00334,2026-06-12T21:00:00Z,TEN-0112,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,15.74,87,1,strong,atomic decrement/hold; retryable
+W-00335,2026-06-03T04:00:00Z,TEN-0112,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9003,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00336,2026-06-08T11:00:00Z,TEN-0112,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,5.94,148,200,strong,concurrent workers skip locked rows
+W-00337,2026-06-01T08:00:00Z,TEN-0113,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,19.74,244,250,replica_ok_2s,operational sweep every minute
+W-00338,2026-06-06T15:00:00Z,TEN-0113,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,125.87,88,1,strong,atomic decrement/hold; retryable
+W-00339,2026-06-11T22:00:00Z,TEN-0113,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.51,9004,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00340,2026-06-04T19:00:00Z,TEN-0114,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",26.96,235,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00341,2026-06-09T02:00:00Z,TEN-0114,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.93,245,250,replica_ok_2s,operational sweep every minute
+W-00342,2026-06-14T09:00:00Z,TEN-0114,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,61.92,89,1,strong,atomic decrement/hold; retryable
+W-00343,2026-06-07T06:00:00Z,TEN-0115,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.22,101,1,replica_ok_2s,carrier-scoped tracking key
+W-00344,2026-06-12T13:00:00Z,TEN-0115,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",11.09,236,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00345,2026-06-03T20:00:00Z,TEN-0115,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.86,246,250,replica_ok_2s,operational sweep every minute
+W-00346,2026-06-10T17:00:00Z,TEN-0116,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30007,10000,maintenance,120-day lifecycle batch
+W-00347,2026-06-01T00:00:00Z,TEN-0116,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.5,102,1,replica_ok_2s,carrier-scoped tracking key
+W-00348,2026-06-06T07:00:00Z,TEN-0116,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.11,237,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00349,2026-06-13T04:00:00Z,TEN-0117,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,96.77,123,1,strong,at-least-once duplicate check
+W-00350,2026-06-04T11:00:00Z,TEN-0117,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.07,30008,10000,maintenance,120-day lifecycle batch
+W-00351,2026-06-09T18:00:00Z,TEN-0117,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,44.1,103,1,replica_ok_2s,carrier-scoped tracking key
+W-00352,2026-06-02T15:00:00Z,TEN-0118,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,24.42,55,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00353,2026-06-07T22:00:00Z,TEN-0118,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,33.94,115,1,strong,at-least-once duplicate check
+W-00354,2026-06-12T05:00:00Z,TEN-0118,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30000,10000,maintenance,120-day lifecycle batch
+W-00355,2026-06-05T02:00:00Z,TEN-0119,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.47,271,50,replica_ok_2s,two-year interactive history
+W-00356,2026-06-10T09:00:00Z,TEN-0119,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,14.1,56,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00357,2026-06-01T16:00:00Z,TEN-0119,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,25.19,116,1,strong,at-least-once duplicate check
+W-00358,2026-06-08T13:00:00Z,TEN-0120,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.84,182,18,replica_ok_2s,seven-year support trace
+W-00359,2026-06-13T20:00:00Z,TEN-0120,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.85,272,50,replica_ok_2s,two-year interactive history
+W-00360,2026-06-04T03:00:00Z,TEN-0120,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.27,57,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00361,2026-06-11T00:00:00Z,TEN-0121,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,127.6,65,1,strong,checkout retry and support lookup
+W-00362,2026-06-02T07:00:00Z,TEN-0121,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",30.24,183,18,replica_ok_2s,seven-year support trace
+W-00363,2026-06-07T14:00:00Z,TEN-0121,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",62.92,273,50,replica_ok_2s,two-year interactive history
+W-00364,2026-06-14T11:00:00Z,TEN-0122,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,18.65,149,200,strong,concurrent workers skip locked rows
+W-00365,2026-06-05T18:00:00Z,TEN-0122,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,44.7,66,1,strong,checkout retry and support lookup
+W-00366,2026-06-10T01:00:00Z,TEN-0122,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",10.64,184,18,replica_ok_2s,seven-year support trace
+W-00367,2026-06-03T22:00:00Z,TEN-0123,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9005,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00368,2026-06-08T05:00:00Z,TEN-0123,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.01,150,200,strong,concurrent workers skip locked rows
+W-00369,2026-06-13T12:00:00Z,TEN-0123,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,18.41,67,1,strong,checkout retry and support lookup
+W-00370,2026-06-06T09:00:00Z,TEN-0124,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,29.94,90,1,strong,atomic decrement/hold; retryable
+W-00371,2026-06-11T16:00:00Z,TEN-0124,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.36,9006,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00372,2026-06-02T23:00:00Z,TEN-0124,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.34,151,200,strong,concurrent workers skip locked rows
+W-00373,2026-06-09T20:00:00Z,TEN-0125,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,21.0,247,250,replica_ok_2s,operational sweep every minute
+W-00374,2026-06-14T03:00:00Z,TEN-0125,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,104.33,91,1,strong,atomic decrement/hold; retryable
+W-00375,2026-06-05T10:00:00Z,TEN-0125,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.88,9007,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00376,2026-06-12T07:00:00Z,TEN-0126,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",22.18,238,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00377,2026-06-03T14:00:00Z,TEN-0126,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.35,248,250,replica_ok_2s,operational sweep every minute
+W-00378,2026-06-08T21:00:00Z,TEN-0126,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,36.67,92,1,strong,atomic decrement/hold; retryable
+W-00379,2026-06-01T18:00:00Z,TEN-0127,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.55,95,1,replica_ok_2s,carrier-scoped tracking key
+W-00380,2026-06-06T01:00:00Z,TEN-0127,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.21,230,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00381,2026-06-11T08:00:00Z,TEN-0127,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,3.03,240,250,replica_ok_2s,operational sweep every minute
+W-00382,2026-06-04T05:00:00Z,TEN-0128,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30001,10000,maintenance,120-day lifecycle batch
+W-00383,2026-06-09T12:00:00Z,TEN-0128,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.83,96,1,replica_ok_2s,carrier-scoped tracking key
+W-00384,2026-06-14T19:00:00Z,TEN-0128,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.7,231,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00385,2026-06-07T16:00:00Z,TEN-0129,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,185.07,117,1,strong,at-least-once duplicate check
+W-00386,2026-06-12T23:00:00Z,TEN-0129,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30002,10000,maintenance,120-day lifecycle batch
+W-00387,2026-06-03T06:00:00Z,TEN-0129,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,46.62,97,1,replica_ok_2s,carrier-scoped tracking key
+W-00388,2026-06-10T03:00:00Z,TEN-0130,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,20.16,58,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00389,2026-06-01T10:00:00Z,TEN-0130,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,64.71,118,1,strong,at-least-once duplicate check
+W-00390,2026-06-06T17:00:00Z,TEN-0130,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.05,30003,10000,maintenance,120-day lifecycle batch
+W-00391,2026-06-13T14:00:00Z,TEN-0131,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.93,274,50,replica_ok_2s,two-year interactive history
+W-00392,2026-06-04T21:00:00Z,TEN-0131,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.36,59,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00393,2026-06-09T04:00:00Z,TEN-0131,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,14.78,119,1,strong,at-least-once duplicate check
+W-00394,2026-06-02T01:00:00Z,TEN-0132,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.0,185,18,replica_ok_2s,seven-year support trace
+W-00395,2026-06-07T08:00:00Z,TEN-0132,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.32,275,50,replica_ok_2s,two-year interactive history
+W-00396,2026-06-12T15:00:00Z,TEN-0132,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.8,60,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00397,2026-06-05T12:00:00Z,TEN-0133,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,135.41,68,1,strong,checkout retry and support lookup
+W-00398,2026-06-10T19:00:00Z,TEN-0133,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",32.26,186,18,replica_ok_2s,seven-year support trace
+W-00399,2026-06-01T02:00:00Z,TEN-0133,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",51.74,276,50,replica_ok_2s,two-year interactive history
+W-00400,2026-06-08T23:00:00Z,TEN-0134,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,15.46,152,200,strong,concurrent workers skip locked rows
+W-00401,2026-06-13T06:00:00Z,TEN-0134,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,47.31,69,1,strong,checkout retry and support lookup
+W-00402,2026-06-04T13:00:00Z,TEN-0134,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",11.31,187,18,replica_ok_2s,seven-year support trace
+W-00403,2026-06-11T10:00:00Z,TEN-0135,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.36,9008,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00404,2026-06-02T17:00:00Z,TEN-0135,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,11.52,153,200,strong,concurrent workers skip locked rows
+W-00405,2026-06-07T00:00:00Z,TEN-0135,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,15.17,70,1,strong,checkout retry and support lookup
+W-00406,2026-06-14T21:00:00Z,TEN-0136,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,13.81,84,1,strong,atomic decrement/hold; retryable
+W-00407,2026-06-05T04:00:00Z,TEN-0136,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.21,9000,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00408,2026-06-10T11:00:00Z,TEN-0136,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.73,145,200,strong,concurrent workers skip locked rows
+W-00409,2026-06-03T08:00:00Z,TEN-0137,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,22.26,241,250,replica_ok_2s,operational sweep every minute
+W-00410,2026-06-08T15:00:00Z,TEN-0137,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,111.13,85,1,strong,atomic decrement/hold; retryable
+W-00411,2026-06-13T22:00:00Z,TEN-0137,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.32,9001,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00412,2026-06-06T19:00:00Z,TEN-0138,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",23.69,232,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00413,2026-06-11T02:00:00Z,TEN-0138,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.77,242,250,replica_ok_2s,operational sweep every minute
+W-00414,2026-06-02T09:00:00Z,TEN-0138,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,70.08,86,1,strong,atomic decrement/hold; retryable
+W-00415,2026-06-09T06:00:00Z,TEN-0139,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.89,98,1,replica_ok_2s,carrier-scoped tracking key
+W-00416,2026-06-14T13:00:00Z,TEN-0139,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.8,233,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00417,2026-06-05T20:00:00Z,TEN-0139,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.5,243,250,replica_ok_2s,operational sweep every minute
+W-00418,2026-06-12T17:00:00Z,TEN-0140,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30004,10000,maintenance,120-day lifecycle batch
+W-00419,2026-06-03T00:00:00Z,TEN-0140,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,6.16,99,1,replica_ok_2s,carrier-scoped tracking key
+W-00420,2026-06-08T07:00:00Z,TEN-0140,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.3,234,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00421,2026-06-01T04:00:00Z,TEN-0141,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,108.86,120,1,strong,at-least-once duplicate check
+W-00422,2026-06-06T11:00:00Z,TEN-0141,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30005,10000,maintenance,120-day lifecycle batch
+W-00423,2026-06-11T18:00:00Z,TEN-0141,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,38.64,100,1,replica_ok_2s,carrier-scoped tracking key
+W-00424,2026-06-04T15:00:00Z,TEN-0142,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,21.5,61,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00425,2026-06-09T22:00:00Z,TEN-0142,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,29.57,121,1,strong,at-least-once duplicate check
+W-00426,2026-06-14T05:00:00Z,TEN-0142,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30006,10000,maintenance,120-day lifecycle batch
+W-00427,2026-06-07T02:00:00Z,TEN-0143,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.39,277,50,replica_ok_2s,two-year interactive history
+W-00428,2026-06-12T09:00:00Z,TEN-0143,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,16.0,62,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00429,2026-06-03T16:00:00Z,TEN-0143,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,22.1,122,1,strong,at-least-once duplicate check
+W-00430,2026-06-10T13:00:00Z,TEN-0144,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.27,188,18,replica_ok_2s,seven-year support trace
+W-00431,2026-06-01T20:00:00Z,TEN-0144,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",6.85,278,50,replica_ok_2s,two-year interactive history
+W-00432,2026-06-06T03:00:00Z,TEN-0144,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.33,63,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00433,2026-06-13T00:00:00Z,TEN-0145,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,143.22,62,1,strong,checkout retry and support lookup
+W-00434,2026-06-04T07:00:00Z,TEN-0145,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",34.27,180,18,replica_ok_2s,seven-year support trace
+W-00435,2026-06-09T14:00:00Z,TEN-0145,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",55.27,270,50,replica_ok_2s,two-year interactive history
+W-00436,2026-06-02T11:00:00Z,TEN-0146,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,16.46,146,200,strong,concurrent workers skip locked rows
+W-00437,2026-06-07T18:00:00Z,TEN-0146,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,39.06,63,1,strong,checkout retry and support lookup
+W-00438,2026-06-12T01:00:00Z,TEN-0146,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",11.98,181,18,replica_ok_2s,seven-year support trace
+W-00439,2026-06-05T22:00:00Z,TEN-0147,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.21,9002,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00440,2026-06-10T05:00:00Z,TEN-0147,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.8,147,200,strong,concurrent workers skip locked rows
+W-00441,2026-06-01T12:00:00Z,TEN-0147,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,16.2,64,1,strong,checkout retry and support lookup
+W-00442,2026-06-08T09:00:00Z,TEN-0148,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,26.46,87,1,strong,atomic decrement/hold; retryable
+W-00443,2026-06-13T16:00:00Z,TEN-0148,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.32,9003,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00444,2026-06-04T23:00:00Z,TEN-0148,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,7.13,148,200,strong,concurrent workers skip locked rows
+W-00445,2026-06-11T20:00:00Z,TEN-0149,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,23.52,244,250,replica_ok_2s,operational sweep every minute
+W-00446,2026-06-02T03:00:00Z,TEN-0149,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,117.94,88,1,strong,atomic decrement/hold; retryable
+W-00447,2026-06-07T10:00:00Z,TEN-0149,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.54,9004,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00448,2026-06-14T07:00:00Z,TEN-0150,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",25.2,235,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00449,2026-06-05T14:00:00Z,TEN-0150,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.44,245,250,replica_ok_2s,operational sweep every minute
+W-00450,2026-06-10T21:00:00Z,TEN-0150,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,41.2,89,1,strong,atomic decrement/hold; retryable
+W-00451,2026-06-03T18:00:00Z,TEN-0151,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,4.84,101,1,replica_ok_2s,carrier-scoped tracking key
+W-00452,2026-06-08T01:00:00Z,TEN-0151,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.4,236,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00453,2026-06-13T08:00:00Z,TEN-0151,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.67,246,250,replica_ok_2s,operational sweep every minute
+W-00454,2026-06-06T05:00:00Z,TEN-0152,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30007,10000,maintenance,120-day lifecycle batch
+W-00455,2026-06-11T12:00:00Z,TEN-0152,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.12,102,1,replica_ok_2s,carrier-scoped tracking key
+W-00456,2026-06-02T19:00:00Z,TEN-0152,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.89,237,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00457,2026-06-09T16:00:00Z,TEN-0153,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,161.48,123,1,strong,at-least-once duplicate check
+W-00458,2026-06-14T23:00:00Z,TEN-0153,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.09,30008,10000,maintenance,120-day lifecycle batch
+W-00459,2026-06-05T06:00:00Z,TEN-0153,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,41.16,103,1,replica_ok_2s,carrier-scoped tracking key
+W-00460,2026-06-12T03:00:00Z,TEN-0154,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,22.85,55,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00461,2026-06-03T10:00:00Z,TEN-0154,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,56.85,115,1,strong,at-least-once duplicate check
+W-00462,2026-06-08T17:00:00Z,TEN-0154,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.06,30000,10000,maintenance,120-day lifecycle batch
+W-00463,2026-06-01T14:00:00Z,TEN-0155,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",6.93,271,50,replica_ok_2s,two-year interactive history
+W-00464,2026-06-06T21:00:00Z,TEN-0155,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.42,56,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00465,2026-06-11T04:00:00Z,TEN-0155,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,13.07,116,1,strong,at-least-once duplicate check
+W-00466,2026-06-04T01:00:00Z,TEN-0156,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.53,182,18,replica_ok_2s,seven-year support trace
+W-00467,2026-06-09T08:00:00Z,TEN-0156,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.32,272,50,replica_ok_2s,two-year interactive history
+W-00468,2026-06-14T15:00:00Z,TEN-0156,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.86,57,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00469,2026-06-07T12:00:00Z,TEN-0157,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,118.48,65,1,strong,checkout retry and support lookup
+W-00470,2026-06-12T19:00:00Z,TEN-0157,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",36.29,183,18,replica_ok_2s,seven-year support trace
+W-00471,2026-06-03T02:00:00Z,TEN-0157,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",58.8,273,50,replica_ok_2s,two-year interactive history
+W-00472,2026-06-10T23:00:00Z,TEN-0158,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,17.47,149,200,strong,concurrent workers skip locked rows
+W-00473,2026-06-01T06:00:00Z,TEN-0158,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,41.66,66,1,strong,checkout retry and support lookup
+W-00474,2026-06-06T13:00:00Z,TEN-0158,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",9.86,184,18,replica_ok_2s,seven-year support trace
+W-00475,2026-06-13T10:00:00Z,TEN-0159,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.32,9005,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00476,2026-06-04T17:00:00Z,TEN-0159,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,12.95,150,200,strong,concurrent workers skip locked rows
+W-00477,2026-06-09T00:00:00Z,TEN-0159,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,17.22,67,1,strong,checkout retry and support lookup
+W-00478,2026-06-02T21:00:00Z,TEN-0160,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,15.59,90,1,strong,atomic decrement/hold; retryable
+W-00479,2026-06-07T04:00:00Z,TEN-0160,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9006,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00480,2026-06-12T11:00:00Z,TEN-0160,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,5.87,151,200,strong,concurrent workers skip locked rows
+W-00481,2026-06-05T08:00:00Z,TEN-0161,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,19.53,247,250,replica_ok_2s,operational sweep every minute
+W-00482,2026-06-10T15:00:00Z,TEN-0161,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,124.74,91,1,strong,atomic decrement/hold; retryable
+W-00483,2026-06-01T22:00:00Z,TEN-0161,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.5,9007,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00484,2026-06-08T19:00:00Z,TEN-0162,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",26.71,238,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00485,2026-06-13T02:00:00Z,TEN-0162,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.86,248,250,replica_ok_2s,operational sweep every minute
+W-00486,2026-06-04T09:00:00Z,TEN-0162,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,61.24,92,1,strong,atomic decrement/hold; retryable
+W-00487,2026-06-11T06:00:00Z,TEN-0163,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.17,95,1,replica_ok_2s,carrier-scoped tracking key
+W-00488,2026-06-02T13:00:00Z,TEN-0163,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.99,230,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00489,2026-06-07T20:00:00Z,TEN-0163,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.83,240,250,replica_ok_2s,operational sweep every minute
+W-00490,2026-06-14T17:00:00Z,TEN-0164,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30001,10000,maintenance,120-day lifecycle batch
+W-00491,2026-06-05T00:00:00Z,TEN-0164,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.45,96,1,replica_ok_2s,carrier-scoped tracking key
+W-00492,2026-06-10T07:00:00Z,TEN-0164,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.01,231,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00493,2026-06-03T04:00:00Z,TEN-0165,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,95.76,117,1,strong,at-least-once duplicate check
+W-00494,2026-06-08T11:00:00Z,TEN-0165,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.09,30002,10000,maintenance,120-day lifecycle batch
+W-00495,2026-06-13T18:00:00Z,TEN-0165,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,43.68,97,1,replica_ok_2s,carrier-scoped tracking key
+W-00496,2026-06-06T15:00:00Z,TEN-0166,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,24.19,58,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00497,2026-06-11T22:00:00Z,TEN-0166,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,33.6,118,1,strong,at-least-once duplicate check
+W-00498,2026-06-02T05:00:00Z,TEN-0166,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30003,10000,maintenance,120-day lifecycle batch
+W-00499,2026-06-09T02:00:00Z,TEN-0167,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.39,274,50,replica_ok_2s,two-year interactive history
+W-00500,2026-06-14T09:00:00Z,TEN-0167,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,13.94,59,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00501,2026-06-05T16:00:00Z,TEN-0167,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,24.95,119,1,strong,at-least-once duplicate check
+W-00502,2026-06-12T13:00:00Z,TEN-0168,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.8,185,18,replica_ok_2s,seven-year support trace
+W-00503,2026-06-03T20:00:00Z,TEN-0168,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.78,275,50,replica_ok_2s,two-year interactive history
+W-00504,2026-06-08T03:00:00Z,TEN-0168,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.18,60,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00505,2026-06-01T00:00:00Z,TEN-0169,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,126.29,68,1,strong,checkout retry and support lookup
+W-00506,2026-06-06T07:00:00Z,TEN-0169,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",29.9,186,18,replica_ok_2s,seven-year support trace
+W-00507,2026-06-11T14:00:00Z,TEN-0169,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",62.33,276,50,replica_ok_2s,two-year interactive history
+W-00508,2026-06-04T11:00:00Z,TEN-0170,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,18.48,152,200,strong,concurrent workers skip locked rows
+W-00509,2026-06-09T18:00:00Z,TEN-0170,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,44.27,69,1,strong,checkout retry and support lookup
+W-00510,2026-06-14T01:00:00Z,TEN-0170,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",10.53,187,18,replica_ok_2s,seven-year support trace
+W-00511,2026-06-07T22:00:00Z,TEN-0171,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9008,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00512,2026-06-12T05:00:00Z,TEN-0171,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,5.94,153,200,strong,concurrent workers skip locked rows
+W-00513,2026-06-03T12:00:00Z,TEN-0171,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,18.24,70,1,strong,checkout retry and support lookup
+W-00514,2026-06-10T09:00:00Z,TEN-0172,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,29.67,84,1,strong,atomic decrement/hold; retryable
+W-00515,2026-06-01T16:00:00Z,TEN-0172,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.36,9000,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00516,2026-06-06T23:00:00Z,TEN-0172,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.27,145,200,strong,concurrent workers skip locked rows
+W-00517,2026-06-13T20:00:00Z,TEN-0173,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,20.79,241,250,replica_ok_2s,operational sweep every minute
+W-00518,2026-06-04T03:00:00Z,TEN-0173,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,103.19,85,1,strong,atomic decrement/hold; retryable
+W-00519,2026-06-09T10:00:00Z,TEN-0173,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.86,9001,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00520,2026-06-02T07:00:00Z,TEN-0174,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",28.22,232,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00521,2026-06-07T14:00:00Z,TEN-0174,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.28,242,250,replica_ok_2s,operational sweep every minute
+W-00522,2026-06-12T21:00:00Z,TEN-0174,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,36.29,86,1,strong,atomic decrement/hold; retryable
+W-00523,2026-06-05T18:00:00Z,TEN-0175,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.5,98,1,replica_ok_2s,carrier-scoped tracking key
+W-00524,2026-06-10T01:00:00Z,TEN-0175,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.11,233,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00525,2026-06-01T08:00:00Z,TEN-0175,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,3.0,243,250,replica_ok_2s,operational sweep every minute
+W-00526,2026-06-08T05:00:00Z,TEN-0176,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30004,10000,maintenance,120-day lifecycle batch
+W-00527,2026-06-13T12:00:00Z,TEN-0176,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.78,99,1,replica_ok_2s,carrier-scoped tracking key
+W-00528,2026-06-04T19:00:00Z,TEN-0176,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.6,234,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00529,2026-06-11T16:00:00Z,TEN-0177,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,183.25,120,1,strong,at-least-once duplicate check
+W-00530,2026-06-02T23:00:00Z,TEN-0177,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30005,10000,maintenance,120-day lifecycle batch
+W-00531,2026-06-07T06:00:00Z,TEN-0177,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,46.2,100,1,replica_ok_2s,carrier-scoped tracking key
+W-00532,2026-06-14T03:00:00Z,TEN-0178,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,19.94,61,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00533,2026-06-05T10:00:00Z,TEN-0178,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,64.11,121,1,strong,at-least-once duplicate check
+W-00534,2026-06-10T17:00:00Z,TEN-0178,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.05,30006,10000,maintenance,120-day lifecycle batch
+W-00535,2026-06-03T14:00:00Z,TEN-0179,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.85,277,50,replica_ok_2s,two-year interactive history
+W-00536,2026-06-08T21:00:00Z,TEN-0179,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.27,62,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00537,2026-06-13T04:00:00Z,TEN-0179,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,14.65,122,1,strong,at-least-once duplicate check
+W-00538,2026-06-06T01:00:00Z,TEN-0180,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",3.96,188,18,replica_ok_2s,seven-year support trace
+W-00539,2026-06-11T08:00:00Z,TEN-0180,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.24,278,50,replica_ok_2s,two-year interactive history
+W-00540,2026-06-02T15:00:00Z,TEN-0180,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.71,63,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00541,2026-06-09T12:00:00Z,TEN-0181,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,134.11,62,1,strong,checkout retry and support lookup
+W-00542,2026-06-14T19:00:00Z,TEN-0181,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",31.92,180,18,replica_ok_2s,seven-year support trace
+W-00543,2026-06-05T02:00:00Z,TEN-0181,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",65.86,270,50,replica_ok_2s,two-year interactive history
+W-00544,2026-06-12T23:00:00Z,TEN-0182,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,15.29,146,200,strong,concurrent workers skip locked rows
+W-00545,2026-06-03T06:00:00Z,TEN-0182,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,46.87,63,1,strong,checkout retry and support lookup
+W-00546,2026-06-08T13:00:00Z,TEN-0182,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",11.2,181,18,replica_ok_2s,seven-year support trace
+W-00547,2026-06-01T10:00:00Z,TEN-0183,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.36,9002,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00548,2026-06-06T17:00:00Z,TEN-0183,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,11.4,147,200,strong,concurrent workers skip locked rows
+W-00549,2026-06-11T00:00:00Z,TEN-0183,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,15.0,64,1,strong,checkout retry and support lookup
+W-00550,2026-06-04T21:00:00Z,TEN-0184,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,13.66,87,1,strong,atomic decrement/hold; retryable
+W-00551,2026-06-09T04:00:00Z,TEN-0184,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.21,9003,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00552,2026-06-14T11:00:00Z,TEN-0184,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.67,148,200,strong,concurrent workers skip locked rows
+W-00553,2026-06-07T08:00:00Z,TEN-0185,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,22.05,244,250,replica_ok_2s,operational sweep every minute
+W-00554,2026-06-12T15:00:00Z,TEN-0185,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,110.0,88,1,strong,atomic decrement/hold; retryable
+W-00555,2026-06-03T22:00:00Z,TEN-0185,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.31,9004,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00556,2026-06-10T19:00:00Z,TEN-0186,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",23.44,235,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00557,2026-06-01T02:00:00Z,TEN-0186,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.7,245,250,replica_ok_2s,operational sweep every minute
+W-00558,2026-06-06T09:00:00Z,TEN-0186,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,69.4,89,1,strong,atomic decrement/hold; retryable
+W-00559,2026-06-13T06:00:00Z,TEN-0187,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.83,101,1,replica_ok_2s,carrier-scoped tracking key
+W-00560,2026-06-04T13:00:00Z,TEN-0187,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.7,236,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00561,2026-06-09T20:00:00Z,TEN-0187,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.48,246,250,replica_ok_2s,operational sweep every minute
+W-00562,2026-06-02T17:00:00Z,TEN-0188,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30007,10000,maintenance,120-day lifecycle batch
+W-00563,2026-06-07T00:00:00Z,TEN-0188,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,6.11,102,1,replica_ok_2s,carrier-scoped tracking key
+W-00564,2026-06-12T07:00:00Z,TEN-0188,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.2,237,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00565,2026-06-05T04:00:00Z,TEN-0189,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,107.86,123,1,strong,at-least-once duplicate check
+W-00566,2026-06-10T11:00:00Z,TEN-0189,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30008,10000,maintenance,120-day lifecycle batch
+W-00567,2026-06-01T18:00:00Z,TEN-0189,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,38.22,103,1,replica_ok_2s,carrier-scoped tracking key
+W-00568,2026-06-08T15:00:00Z,TEN-0190,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,21.28,55,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00569,2026-06-13T22:00:00Z,TEN-0190,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,37.63,115,1,strong,at-least-once duplicate check
+W-00570,2026-06-04T05:00:00Z,TEN-0190,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30000,10000,maintenance,120-day lifecycle batch
+W-00571,2026-06-11T02:00:00Z,TEN-0191,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.32,271,50,replica_ok_2s,two-year interactive history
+W-00572,2026-06-02T09:00:00Z,TEN-0191,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,15.84,56,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00573,2026-06-07T16:00:00Z,TEN-0191,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,21.86,116,1,strong,at-least-once duplicate check
+W-00574,2026-06-14T13:00:00Z,TEN-0192,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.22,182,18,replica_ok_2s,seven-year support trace
+W-00575,2026-06-05T20:00:00Z,TEN-0192,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",6.78,272,50,replica_ok_2s,two-year interactive history
+W-00576,2026-06-10T03:00:00Z,TEN-0192,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.24,57,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00577,2026-06-03T00:00:00Z,TEN-0193,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,141.92,65,1,strong,checkout retry and support lookup
+W-00578,2026-06-08T07:00:00Z,TEN-0193,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",33.94,183,18,replica_ok_2s,seven-year support trace
+W-00579,2026-06-13T14:00:00Z,TEN-0193,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",54.68,273,50,replica_ok_2s,two-year interactive history
+W-00580,2026-06-06T11:00:00Z,TEN-0194,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,16.3,149,200,strong,concurrent workers skip locked rows
+W-00581,2026-06-11T18:00:00Z,TEN-0194,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,38.63,66,1,strong,checkout retry and support lookup
+W-00582,2026-06-02T01:00:00Z,TEN-0194,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",11.87,184,18,replica_ok_2s,seven-year support trace
+W-00583,2026-06-09T22:00:00Z,TEN-0195,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.21,9005,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00584,2026-06-14T05:00:00Z,TEN-0195,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.73,150,200,strong,concurrent workers skip locked rows
+W-00585,2026-06-05T12:00:00Z,TEN-0195,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,16.03,67,1,strong,checkout retry and support lookup
+W-00586,2026-06-12T09:00:00Z,TEN-0196,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,26.2,90,1,strong,atomic decrement/hold; retryable
+W-00587,2026-06-03T16:00:00Z,TEN-0196,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.31,9006,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00588,2026-06-08T23:00:00Z,TEN-0196,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,7.06,151,200,strong,concurrent workers skip locked rows
+W-00589,2026-06-01T20:00:00Z,TEN-0197,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,23.31,247,250,replica_ok_2s,operational sweep every minute
+W-00590,2026-06-06T03:00:00Z,TEN-0197,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,116.8,91,1,strong,atomic decrement/hold; retryable
+W-00591,2026-06-11T10:00:00Z,TEN-0197,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.51,9007,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00592,2026-06-04T07:00:00Z,TEN-0198,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",24.95,238,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00593,2026-06-09T14:00:00Z,TEN-0198,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.37,248,250,replica_ok_2s,operational sweep every minute
+W-00594,2026-06-14T21:00:00Z,TEN-0198,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,40.82,92,1,strong,atomic decrement/hold; retryable
+W-00595,2026-06-07T18:00:00Z,TEN-0199,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,6.16,95,1,replica_ok_2s,carrier-scoped tracking key
+W-00596,2026-06-12T01:00:00Z,TEN-0199,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.3,230,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00597,2026-06-03T08:00:00Z,TEN-0199,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.64,240,250,replica_ok_2s,operational sweep every minute
+W-00598,2026-06-10T05:00:00Z,TEN-0200,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30001,10000,maintenance,120-day lifecycle batch
+W-00599,2026-06-01T12:00:00Z,TEN-0200,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.06,96,1,replica_ok_2s,carrier-scoped tracking key
+W-00600,2026-06-06T19:00:00Z,TEN-0200,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.79,231,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00601,2026-06-13T16:00:00Z,TEN-0201,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,159.67,117,1,strong,at-least-once duplicate check
+W-00602,2026-06-04T23:00:00Z,TEN-0201,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.09,30002,10000,maintenance,120-day lifecycle batch
+W-00603,2026-06-09T06:00:00Z,TEN-0201,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,40.74,97,1,replica_ok_2s,carrier-scoped tracking key
+W-00604,2026-06-02T03:00:00Z,TEN-0202,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,22.62,58,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00605,2026-06-07T10:00:00Z,TEN-0202,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,56.25,118,1,strong,at-least-once duplicate check
+W-00606,2026-06-12T17:00:00Z,TEN-0202,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.06,30003,10000,maintenance,120-day lifecycle batch
+W-00607,2026-06-05T14:00:00Z,TEN-0203,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",6.85,274,50,replica_ok_2s,two-year interactive history
+W-00608,2026-06-10T21:00:00Z,TEN-0203,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.33,59,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00609,2026-06-01T04:00:00Z,TEN-0203,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,12.94,119,1,strong,at-least-once duplicate check
+W-00610,2026-06-08T01:00:00Z,TEN-0204,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.49,185,18,replica_ok_2s,seven-year support trace
+W-00611,2026-06-13T08:00:00Z,TEN-0204,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.24,275,50,replica_ok_2s,two-year interactive history
+W-00612,2026-06-04T15:00:00Z,TEN-0204,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.77,60,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00613,2026-06-11T12:00:00Z,TEN-0205,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,117.18,68,1,strong,checkout retry and support lookup
+W-00614,2026-06-02T19:00:00Z,TEN-0205,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",35.95,186,18,replica_ok_2s,seven-year support trace
+W-00615,2026-06-07T02:00:00Z,TEN-0205,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",58.21,276,50,replica_ok_2s,two-year interactive history
+W-00616,2026-06-14T23:00:00Z,TEN-0206,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,17.3,152,200,strong,concurrent workers skip locked rows
+W-00617,2026-06-05T06:00:00Z,TEN-0206,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,41.23,69,1,strong,checkout retry and support lookup
+W-00618,2026-06-10T13:00:00Z,TEN-0206,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",12.54,187,18,replica_ok_2s,seven-year support trace
+W-00619,2026-06-03T10:00:00Z,TEN-0207,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.32,9008,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00620,2026-06-08T17:00:00Z,TEN-0207,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,12.83,153,200,strong,concurrent workers skip locked rows
+W-00621,2026-06-13T00:00:00Z,TEN-0207,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,17.05,70,1,strong,checkout retry and support lookup
+W-00622,2026-06-06T21:00:00Z,TEN-0208,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,15.44,84,1,strong,atomic decrement/hold; retryable
+W-00623,2026-06-11T04:00:00Z,TEN-0208,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.18,9000,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00624,2026-06-02T11:00:00Z,TEN-0208,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,5.81,145,200,strong,concurrent workers skip locked rows
+W-00625,2026-06-09T08:00:00Z,TEN-0209,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,19.32,241,250,replica_ok_2s,operational sweep every minute
+W-00626,2026-06-14T15:00:00Z,TEN-0209,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,123.61,85,1,strong,atomic decrement/hold; retryable
+W-00627,2026-06-05T22:00:00Z,TEN-0209,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.48,9001,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00628,2026-06-12T19:00:00Z,TEN-0210,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",26.46,232,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00629,2026-06-03T02:00:00Z,TEN-0210,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,6.79,242,250,replica_ok_2s,operational sweep every minute
+W-00630,2026-06-08T09:00:00Z,TEN-0210,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,60.56,86,1,strong,atomic decrement/hold; retryable
+W-00631,2026-06-01T06:00:00Z,TEN-0211,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.12,98,1,replica_ok_2s,carrier-scoped tracking key
+W-00632,2026-06-06T13:00:00Z,TEN-0211,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.89,233,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00633,2026-06-11T20:00:00Z,TEN-0211,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.81,243,250,replica_ok_2s,operational sweep every minute
+W-00634,2026-06-04T17:00:00Z,TEN-0212,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30004,10000,maintenance,120-day lifecycle batch
+W-00635,2026-06-09T00:00:00Z,TEN-0212,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.39,99,1,replica_ok_2s,carrier-scoped tracking key
+W-00636,2026-06-14T07:00:00Z,TEN-0212,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",8.91,234,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00637,2026-06-07T04:00:00Z,TEN-0213,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,94.75,120,1,strong,at-least-once duplicate check
+W-00638,2026-06-12T11:00:00Z,TEN-0213,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.09,30005,10000,maintenance,120-day lifecycle batch
+W-00639,2026-06-03T18:00:00Z,TEN-0213,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,43.26,100,1,replica_ok_2s,carrier-scoped tracking key
+W-00640,2026-06-10T15:00:00Z,TEN-0214,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,23.97,61,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00641,2026-06-01T22:00:00Z,TEN-0214,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,33.26,121,1,strong,at-least-once duplicate check
+W-00642,2026-06-06T05:00:00Z,TEN-0214,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30006,10000,maintenance,120-day lifecycle batch
+W-00643,2026-06-13T02:00:00Z,TEN-0215,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.32,277,50,replica_ok_2s,two-year interactive history
+W-00644,2026-06-04T09:00:00Z,TEN-0215,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,17.74,62,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00645,2026-06-09T16:00:00Z,TEN-0215,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,24.71,122,1,strong,at-least-once duplicate check
+W-00646,2026-06-02T13:00:00Z,TEN-0216,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.75,188,18,replica_ok_2s,seven-year support trace
+W-00647,2026-06-07T20:00:00Z,TEN-0216,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.7,278,50,replica_ok_2s,two-year interactive history
+W-00648,2026-06-12T03:00:00Z,TEN-0216,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.1,63,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00649,2026-06-05T00:00:00Z,TEN-0217,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,124.99,62,1,strong,checkout retry and support lookup
+W-00650,2026-06-10T07:00:00Z,TEN-0217,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",29.57,180,18,replica_ok_2s,seven-year support trace
+W-00651,2026-06-01T14:00:00Z,TEN-0217,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",61.74,270,50,replica_ok_2s,two-year interactive history
+W-00652,2026-06-08T11:00:00Z,TEN-0218,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,18.31,146,200,strong,concurrent workers skip locked rows
+W-00653,2026-06-13T18:00:00Z,TEN-0218,apac,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,43.83,63,1,strong,checkout retry and support lookup
+W-00654,2026-06-04T01:00:00Z,TEN-0218,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",10.42,181,18,replica_ok_2s,seven-year support trace
+W-00655,2026-06-11T22:00:00Z,TEN-0219,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.19,9002,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00656,2026-06-02T05:00:00Z,TEN-0219,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,5.87,147,200,strong,concurrent workers skip locked rows
+W-00657,2026-06-07T12:00:00Z,TEN-0219,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,18.07,64,1,strong,checkout retry and support lookup
+W-00658,2026-06-14T09:00:00Z,TEN-0220,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,29.4,87,1,strong,atomic decrement/hold; retryable
+W-00659,2026-06-05T16:00:00Z,TEN-0220,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.35,9003,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00660,2026-06-10T23:00:00Z,TEN-0220,us,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.2,148,200,strong,concurrent workers skip locked rows
+W-00661,2026-06-03T20:00:00Z,TEN-0221,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,20.58,244,250,replica_ok_2s,operational sweep every minute
+W-00662,2026-06-08T03:00:00Z,TEN-0221,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,102.06,88,1,strong,atomic decrement/hold; retryable
+W-00663,2026-06-13T10:00:00Z,TEN-0221,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,2.83,9004,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00664,2026-06-06T07:00:00Z,TEN-0222,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",27.97,235,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00665,2026-06-11T14:00:00Z,TEN-0222,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.21,245,250,replica_ok_2s,operational sweep every minute
+W-00666,2026-06-02T21:00:00Z,TEN-0222,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,35.91,89,1,strong,atomic decrement/hold; retryable
+W-00667,2026-06-09T18:00:00Z,TEN-0223,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.45,101,1,replica_ok_2s,carrier-scoped tracking key
+W-00668,2026-06-14T01:00:00Z,TEN-0223,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.01,236,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00669,2026-06-05T08:00:00Z,TEN-0223,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.97,246,250,replica_ok_2s,operational sweep every minute
+W-00670,2026-06-12T05:00:00Z,TEN-0224,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.01,30007,10000,maintenance,120-day lifecycle batch
+W-00671,2026-06-03T12:00:00Z,TEN-0224,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.72,102,1,replica_ok_2s,carrier-scoped tracking key
+W-00672,2026-06-08T19:00:00Z,TEN-0224,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.5,237,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00673,2026-06-01T16:00:00Z,TEN-0225,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,181.44,123,1,strong,at-least-once duplicate check
+W-00674,2026-06-06T23:00:00Z,TEN-0225,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30008,10000,maintenance,120-day lifecycle batch
+W-00675,2026-06-11T06:00:00Z,TEN-0225,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,45.78,103,1,replica_ok_2s,carrier-scoped tracking key
+W-00676,2026-06-04T03:00:00Z,TEN-0226,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,19.71,55,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00677,2026-06-09T10:00:00Z,TEN-0226,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,63.5,115,1,strong,at-least-once duplicate check
+W-00678,2026-06-14T17:00:00Z,TEN-0226,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.05,30000,10000,maintenance,120-day lifecycle batch
+W-00679,2026-06-07T14:00:00Z,TEN-0227,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",7.78,271,50,replica_ok_2s,two-year interactive history
+W-00680,2026-06-12T21:00:00Z,TEN-0227,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.18,56,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00681,2026-06-03T04:00:00Z,TEN-0227,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,14.52,116,1,strong,at-least-once duplicate check
+W-00682,2026-06-10T01:00:00Z,TEN-0228,apac,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",3.92,182,18,replica_ok_2s,seven-year support trace
+W-00683,2026-06-01T08:00:00Z,TEN-0228,apac,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.16,272,50,replica_ok_2s,two-year interactive history
+W-00684,2026-06-06T15:00:00Z,TEN-0228,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,8.62,57,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00685,2026-06-13T12:00:00Z,TEN-0229,us,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,132.8,65,1,strong,checkout retry and support lookup
+W-00686,2026-06-04T19:00:00Z,TEN-0229,us,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",31.58,183,18,replica_ok_2s,seven-year support trace
+W-00687,2026-06-09T02:00:00Z,TEN-0229,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",65.27,273,50,replica_ok_2s,two-year interactive history
+W-00688,2026-06-02T23:00:00Z,TEN-0230,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,15.12,149,200,strong,concurrent workers skip locked rows
+W-00689,2026-06-07T06:00:00Z,TEN-0230,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,46.44,66,1,strong,checkout retry and support lookup
+W-00690,2026-06-12T13:00:00Z,TEN-0230,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",11.09,184,18,replica_ok_2s,seven-year support trace
+W-00691,2026-06-05T10:00:00Z,TEN-0231,eu,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.36,9005,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00692,2026-06-10T17:00:00Z,TEN-0231,eu,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,11.29,150,200,strong,concurrent workers skip locked rows
+W-00693,2026-06-01T00:00:00Z,TEN-0231,eu,lookup_order_by_external_ref,orders,tenant_id = ? AND external_order_ref = ?,,19.1,67,1,strong,checkout retry and support lookup
+W-00694,2026-06-08T21:00:00Z,TEN-0232,apac,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,13.51,90,1,strong,atomic decrement/hold; retryable
+W-00695,2026-06-13T04:00:00Z,TEN-0232,apac,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,0.21,9006,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00696,2026-06-04T11:00:00Z,TEN-0232,apac,claim_outbox_batch,outbox,tenant_id = ? AND published_at IS NULL,created_at ASC,6.6,151,200,strong,concurrent workers skip locked rows
+W-00697,2026-06-11T08:00:00Z,TEN-0233,us,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,21.84,247,250,replica_ok_2s,operational sweep every minute
+W-00698,2026-06-02T15:00:00Z,TEN-0233,us,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,108.86,91,1,strong,atomic decrement/hold; retryable
+W-00699,2026-06-07T22:00:00Z,TEN-0233,us,tenant_daily_finance_export,orders,tenant_id = ? AND created_at >= ? AND created_at < ?,created_at ASC,1.29,9007,250000,analytics_lag_10m,large aggregate/export; keep off OLTP primary
+W-00700,2026-06-14T19:00:00Z,TEN-0234,eu,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",23.18,238,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00701,2026-06-05T02:00:00Z,TEN-0234,eu,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,7.63,248,250,replica_ok_2s,operational sweep every minute
+W-00702,2026-06-10T09:00:00Z,TEN-0234,eu,reserve_inventory,inventory,tenant_id = ? AND warehouse_id = ? AND product_id = ?,,68.72,92,1,strong,atomic decrement/hold; retryable
+W-00703,2026-06-03T06:00:00Z,TEN-0235,apac,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,5.78,95,1,replica_ok_2s,carrier-scoped tracking key
+W-00704,2026-06-08T13:00:00Z,TEN-0235,apac,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",9.6,230,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00705,2026-06-13T20:00:00Z,TEN-0235,apac,stalled_orders,orders,"tenant_id = ? AND status IN (confirmed, allocating) AND status_changed_at < ?",status_changed_at ASC,2.45,240,250,replica_ok_2s,operational sweep every minute
+W-00706,2026-06-06T17:00:00Z,TEN-0236,us,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.02,30001,10000,maintenance,120-day lifecycle batch
+W-00707,2026-06-11T00:00:00Z,TEN-0236,us,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,6.05,96,1,replica_ok_2s,carrier-scoped tracking key
+W-00708,2026-06-02T07:00:00Z,TEN-0236,us,warehouse_pick_queue,orders,"tenant_id = ? AND warehouse_id = ? AND status IN (confirmed, allocating)","confirmed_at ASC, order_id ASC",10.1,231,100,replica_ok_2s,cursor page; excludes cancelled orders
+W-00709,2026-06-09T04:00:00Z,TEN-0237,eu,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,106.85,117,1,strong,at-least-once duplicate check
+W-00710,2026-06-14T11:00:00Z,TEN-0237,eu,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.08,30002,10000,maintenance,120-day lifecycle batch
+W-00711,2026-06-05T18:00:00Z,TEN-0237,eu,shipment_tracking_lookup,shipments,carrier = ? AND tracking_number = ?,,37.8,97,1,replica_ok_2s,carrier-scoped tracking key
+W-00712,2026-06-12T15:00:00Z,TEN-0238,apac,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,21.06,58,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00713,2026-06-03T22:00:00Z,TEN-0238,apac,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,37.3,118,1,strong,at-least-once duplicate check
+W-00714,2026-06-08T05:00:00Z,TEN-0238,apac,expire_webhook_payloads,webhook_receipts,processed_at < ? AND legal_hold = false,processed_at ASC,0.03,30003,10000,maintenance,120-day lifecycle batch
+W-00715,2026-06-01T02:00:00Z,TEN-0239,us,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.24,274,50,replica_ok_2s,two-year interactive history
+W-00716,2026-06-06T09:00:00Z,TEN-0239,us,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,15.68,59,1,replica_ok_2s,catalog lookup; SKU reusable across tenants
+W-00717,2026-06-11T16:00:00Z,TEN-0239,us,ingest_provider_webhook,webhook_receipts,tenant_id = ? AND provider = ? AND provider_event_id = ?,,21.62,119,1,strong,at-least-once duplicate check
+W-00718,2026-06-04T13:00:00Z,TEN-0240,eu,order_status_timeline,order_status_events,tenant_id = ? AND order_id = ?,"occurred_at ASC, event_id ASC",4.18,185,18,replica_ok_2s,seven-year support trace
+W-00719,2026-06-09T20:00:00Z,TEN-0240,eu,customer_order_history,orders,tenant_id = ? AND customer_id = ? AND created_at >= ?,"created_at DESC, order_id DESC",8.62,275,50,replica_ok_2s,two-year interactive history
+W-00720,2026-06-14T03:00:00Z,TEN-0240,eu,product_by_sku,products,tenant_id = ? AND sku = ? AND deleted_at IS NULL,,9.15,60,1,replica_ok_2s,catalog lookup; SKU reusable across tenants

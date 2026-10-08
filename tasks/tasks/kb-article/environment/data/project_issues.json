@@ -1,0 +1,35 @@
+[
+  {
+    "issue_id": "BUG-2841",
+    "title": "Saved import mapping retains deactivated owner access reference",
+    "status": "Workaround Available",
+    "opened_at": "2026-07-14",
+    "last_confirmed_at": "2026-09-05",
+    "target_release": null,
+    "internal_codename": "LANTERN-DOOR",
+    "internal_notes": [
+      {
+        "at": "2026-08-21",
+        "state": "superseded",
+        "text": "Engineering hoped for a September 18 hotfix; this was never approved for customer communication."
+      },
+      {
+        "at": "2026-09-05",
+        "state": "current",
+        "text": "No committed fix date. Keep public status at Workaround Available and review weekly."
+      }
+    ]
+  },
+  {
+    "issue_id": "BUG-2790",
+    "title": "Duplicate CSV headers lose focus",
+    "status": "Resolved",
+    "target_release": "2026.8.2"
+  },
+  {
+    "issue_id": "BUG-2866",
+    "title": "UTF-16 import validation copy",
+    "status": "Investigating",
+    "target_release": null
+  }
+]

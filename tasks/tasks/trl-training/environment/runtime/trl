@@ -1,0 +1,175 @@
+#!/usr/bin/env python3
+"""Offline TRL CLI preflight used by this deterministic SkillsBench fixture."""
+
+from __future__ import annotations
+
+import json
+import os
+from pathlib import Path
+import re
+import sys
+
+
+VERSION = "trl-preflight 1.0.0"
+
+
+def scalar(value: str):
+    value = value.strip()
+    if not value:
+        return ""
+    if (value[0:1] == value[-1:] and value.startswith(("'", '"'))):
+        return value[1:-1]
+    lowered = value.lower()
+    if lowered in {"true", "yes", "on"}:
+        return True
+    if lowered in {"false", "no", "off"}:
+        return False
+    if lowered in {"null", "none", "~"}:
+        return None
+    if re.fullmatch(r"[-+]?\d+", value):
+        return int(value)
+    if re.fullmatch(r"[-+]?(?:\d+\.\d*|\d*\.\d+)(?:e[-+]?\d+)?", value, re.I) or re.fullmatch(
+        r"[-+]?\d+e[-+]?\d+", value, re.I
+    ):
+        return float(value)
+    return value
+
+
+def load_config(path: Path) -> dict:
+    text = path.read_text(encoding="utf-8")
+    try:
+        payload = json.loads(text)
+    except json.JSONDecodeError:
+        payload = {}
+        for line_number, raw in enumerate(text.splitlines(), 1):
+            line = raw.split("#", 1)[0].strip()
+            if not line:
+                continue
+            if ":" not in line:
+                raise ValueError(f"unsupported YAML at line {line_number}")
+            key, value = line.split(":", 1)
+            key = key.strip()
+            if not key or key.startswith("-") or any(char.isspace() for char in key):
+                raise ValueError(f"unsupported YAML key at line {line_number}")
+            payload[key] = scalar(value)
+    if not isinstance(payload, dict):
+        raise ValueError("configuration must be a mapping")
+    return payload
+
+
+def read_jsonl(path: Path) -> list[dict]:
+    rows = []
+    for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip():
+            continue
+        row = json.loads(line)
+        if not isinstance(row, dict):
+            raise ValueError(f"{path}: line {line_number} is not an object")
+        for key in ("pair_id", "prompt_group_id", "prompt", "chosen", "rejected"):
+            if key not in row:
+                raise ValueError(f"{path}: line {line_number} lacks {key}")
+        for key in ("prompt", "chosen", "rejected"):
+            messages = row[key]
+            if not isinstance(messages, list) or not messages:
+                raise ValueError(f"{path}: line {line_number} has invalid {key}")
+            if any(
+                not isinstance(message, dict)
+                or not isinstance(message.get("role"), str)
+                or not isinstance(message.get("content"), str)
+                or not message["content"].strip()
+                for message in messages
+            ):
+                raise ValueError(f"{path}: line {line_number} has malformed messages")
+        rows.append(row)
+    return rows
+
+
+def runtime_path(raw_path: object) -> Path:
+    """Map canonical container paths only for authoring-time host validation."""
+    path = Path(str(raw_path))
+    mappings = (
+        (Path("/root/data"), os.environ.get("TRL_DATA_ROOT")),
+        (Path("/root/results"), os.environ.get("TRL_RESULTS_ROOT")),
+    )
+    for canonical, override in mappings:
+        if override and (path == canonical or canonical in path.parents):
+            return Path(override) / path.relative_to(canonical)
+    return path
+
+
+def die(message: str) -> int:
+    print(f"trl preflight failed: {message}", file=sys.stderr)
+    return 2
+
+
+def main(argv: list[str]) -> int:
+    if argv in (["--version"], ["-V"]):
+        print(VERSION)
+        return 0
+    if not argv or argv[0] != "dpo":
+        return die("this fixture supports the dpo command only")
+    try:
+        config_index = argv.index("--config")
+        config_path = Path(argv[config_index + 1]).resolve()
+    except (ValueError, IndexError):
+        return die("use: trl dpo --config PATH")
+    try:
+        config = load_config(config_path)
+        required = {
+            "model_name_or_path",
+            "train_dataset_path",
+            "eval_dataset_path",
+            "per_device_train_batch_size",
+            "gradient_accumulation_steps",
+            "num_processes",
+        }
+        missing = sorted(required - set(config))
+        if missing:
+            raise ValueError("configuration lacks " + ", ".join(missing))
+        model_path = runtime_path(config["model_name_or_path"])
+        train_path = runtime_path(config["train_dataset_path"])
+        eval_path = runtime_path(config["eval_dataset_path"])
+        for label, path in (("model", model_path), ("train data", train_path), ("eval data", eval_path)):
+            if not path.is_absolute() or not path.exists():
+                raise ValueError(f"{label} must be an existing absolute local path")
+        train = read_jsonl(train_path)
+        evaluation = read_jsonl(eval_path)
+        train_ids = {row["pair_id"] for row in train}
+        eval_ids = {row["pair_id"] for row in evaluation}
+        if len(train_ids) != len(train) or len(eval_ids) != len(evaluation) or train_ids & eval_ids:
+            raise ValueError("pair IDs must be unique and disjoint")
+        train_groups = {row["prompt_group_id"] for row in train}
+        eval_groups = {row["prompt_group_id"] for row in evaluation}
+        if train_groups & eval_groups:
+            raise ValueError("prompt groups cross train and eval")
+        effective_batch = (
+            int(config["per_device_train_batch_size"])
+            * int(config["gradient_accumulation_steps"])
+            * int(config["num_processes"])
+        )
+        if effective_batch != 64:
+            raise ValueError(f"effective global batch is {effective_batch}, expected 64")
+        if int(config["per_device_train_batch_size"]) > 2:
+            raise ValueError("per-device batch exceeds the 20 GB profile limit")
+        remote_values = " ".join(str(value).lower() for value in config.values())
+        if any(marker in remote_values for marker in ("wandb", "trackio", "huggingface.co", "http://", "https://")):
+            raise ValueError("configuration contains a remote dependency")
+        if config.get("push_to_hub") not in (False, 0, None):
+            raise ValueError("push_to_hub must be false")
+        result = {
+            "status": "preflight_ok",
+            "command": "dpo",
+            "config": os.fspath(config_path),
+            "train_records": len(train),
+            "eval_records": len(evaluation),
+            "effective_global_batch_size": effective_batch,
+            "note": "Configuration/data validation only; no weights were loaded and no training ran.",
+        }
+        print(json.dumps(result, sort_keys=True))
+        return 0
+    except (OSError, ValueError, TypeError, json.JSONDecodeError) as exc:
+        return die(str(exc))
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))

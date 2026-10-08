@@ -1,0 +1,16 @@
+{
+  "fictional": true,
+  "intentional_variation": [
+    "mixed file risk and test coverage",
+    "historical rollback-checksum failures",
+    "more ready missions than the three-agent capacity after the root completes"
+  ],
+  "method": "deterministic local construction",
+  "record_counts": {
+    "repository_inventory": 240,
+    "test_history": 260
+  },
+  "relationships": [
+    "mission prompts reference paths in repository_inventory.json"
+  ]
+}

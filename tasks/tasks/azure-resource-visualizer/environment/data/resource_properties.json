@@ -1,0 +1,2034 @@
+[
+  {
+    "resource_id": "r01",
+    "property": "architecture_role",
+    "value": "Customer ingress and global routing",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r01",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r01",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r01",
+    "property": "endpoint_count",
+    "value": "1",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r01",
+    "property": "origin_protocol",
+    "value": "HTTPS",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r01",
+    "property": "waf_policy_id",
+    "value": "r02",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r01",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r02",
+    "property": "architecture_role",
+    "value": "Front Door web application firewall",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r02",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r02",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r02",
+    "property": "mode",
+    "value": "Prevention",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r02",
+    "property": "managed_ruleset",
+    "value": "DefaultRuleSet_2.1",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r03",
+    "property": "architecture_role",
+    "value": "Application Gateway public address",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r03",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r03",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r03",
+    "property": "ip_version",
+    "value": "IPv4",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r03",
+    "property": "allocation",
+    "value": "Static",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "architecture_role",
+    "value": "Regional ingress and TLS termination",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "subnet_id",
+    "value": "r06",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "frontend_ip_id",
+    "value": "r03",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "backend_protocol",
+    "value": "HTTPS",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "autoscale_instances",
+    "value": "2-10",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "backend_certificate_validation",
+    "value": "disabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r04",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r05",
+    "property": "architecture_role",
+    "value": "Production virtual network",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r05",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r05",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r05",
+    "property": "address_space",
+    "value": "10.42.0.0/16",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r05",
+    "property": "dns_mode",
+    "value": "Azure-provided",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r06",
+    "property": "architecture_role",
+    "value": "Ingress subnet",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r06",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r06",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r06",
+    "property": "parent_vnet_id",
+    "value": "r05",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r06",
+    "property": "address_prefix",
+    "value": "10.42.1.0/24",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r06",
+    "property": "nsg_id",
+    "value": "r09",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r07",
+    "property": "architecture_role",
+    "value": "Application integration subnet",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r07",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r07",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r07",
+    "property": "parent_vnet_id",
+    "value": "r05",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r07",
+    "property": "address_prefix",
+    "value": "10.42.2.0/24",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r07",
+    "property": "nsg_id",
+    "value": "r10",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r07",
+    "property": "route_table_id",
+    "value": "r12",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r08",
+    "property": "architecture_role",
+    "value": "Private endpoint subnet",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r08",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r08",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r08",
+    "property": "parent_vnet_id",
+    "value": "r05",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r08",
+    "property": "address_prefix",
+    "value": "10.42.3.0/24",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r08",
+    "property": "nsg_id",
+    "value": "r11",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r08",
+    "property": "private_endpoint_policies",
+    "value": "Disabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r09",
+    "property": "architecture_role",
+    "value": "Ingress subnet filtering",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r09",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r09",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r09",
+    "property": "inbound_policy",
+    "value": "Internet 443 to Application Gateway only",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r09",
+    "property": "default_inbound",
+    "value": "Deny",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r10",
+    "property": "architecture_role",
+    "value": "Application subnet filtering",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r10",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r10",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r10",
+    "property": "inbound_policy",
+    "value": "Edge subnet to app ports only",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r10",
+    "property": "default_inbound",
+    "value": "Deny",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r11",
+    "property": "architecture_role",
+    "value": "Private endpoint subnet filtering",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r11",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r11",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r11",
+    "property": "inbound_policy",
+    "value": "VNet private-link traffic only",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r11",
+    "property": "default_inbound",
+    "value": "Deny",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r12",
+    "property": "architecture_role",
+    "value": "Application subnet routes",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r12",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r12",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r12",
+    "property": "route_count",
+    "value": "1",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r12",
+    "property": "default_route_next_hop",
+    "value": "Internet",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r13",
+    "property": "architecture_role",
+    "value": "Web application compute plan",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r13",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r13",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r13",
+    "property": "worker_count",
+    "value": "3",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r13",
+    "property": "zone_redundant",
+    "value": "true",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "architecture_role",
+    "value": "Customer storefront",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "plan_id",
+    "value": "r13",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "subnet_id",
+    "value": "r07",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "runtime",
+    "value": "Node.js 20 LTS",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "managed_identity_id",
+    "value": "r29",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "app_insights_id",
+    "value": "r36",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "https_only",
+    "value": "true",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r14",
+    "property": "secret_reference_names",
+    "value": "SESSION_SIGNING_KEY;API_BASE_URL (values not collected)",
+    "architecture_relevant": true,
+    "is_secret_reference": true,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r15",
+    "property": "architecture_role",
+    "value": "API and function compute plan",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r15",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r15",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r15",
+    "property": "worker_count",
+    "value": "2",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r15",
+    "property": "zone_redundant",
+    "value": "true",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "architecture_role",
+    "value": "Order and catalog API",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "plan_id",
+    "value": "r15",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "subnet_id",
+    "value": "r07",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "runtime",
+    "value": ".NET 8",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "managed_identity_id",
+    "value": "r30",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "app_insights_id",
+    "value": "r37",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "https_only",
+    "value": "true",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r16",
+    "property": "secret_reference_names",
+    "value": "ORDER_DB_PASSWORD;ERP_CLIENT_SECRET (values not collected)",
+    "architecture_relevant": true,
+    "is_secret_reference": true,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "architecture_role",
+    "value": "Order orchestration function",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "plan_id",
+    "value": "r15",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "subnet_id",
+    "value": "r07",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "runtime",
+    "value": "Python 3.11",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "managed_identity_id",
+    "value": "r31",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "app_insights_id",
+    "value": "r37",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r17",
+    "property": "trigger",
+    "value": "Service Bus queue",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "architecture_role",
+    "value": "Event projection function",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "plan_id",
+    "value": "r15",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "subnet_id",
+    "value": "r07",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "runtime",
+    "value": "Node.js 20 LTS",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "managed_identity_id",
+    "value": "r31",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "app_insights_id",
+    "value": "r37",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r18",
+    "property": "trigger",
+    "value": "Service Bus topic",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r19",
+    "property": "architecture_role",
+    "value": "Container Apps environment",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r19",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r19",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r19",
+    "property": "subnet_id",
+    "value": "r07",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r19",
+    "property": "ingress",
+    "value": "internal",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r19",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "architecture_role",
+    "value": "Catalog search indexer",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "environment_id",
+    "value": "r19",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "workload_profile",
+    "value": "D4",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "managed_identity_id",
+    "value": "r31",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "min_replicas",
+    "value": "1",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "max_replicas",
+    "value": "6",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r20",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r21",
+    "property": "architecture_role",
+    "value": "Logical SQL server",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r21",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r21",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r21",
+    "property": "minimum_tls",
+    "value": "1.2",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r21",
+    "property": "public_network_access",
+    "value": "Disabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r21",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r22",
+    "property": "architecture_role",
+    "value": "Transactional order database",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r22",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r22",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r22",
+    "property": "parent_server_id",
+    "value": "r21",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r22",
+    "property": "max_size_gb",
+    "value": "128",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r22",
+    "property": "backup_redundancy",
+    "value": "Local",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r22",
+    "property": "zone_redundant",
+    "value": "false",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r23",
+    "property": "architecture_role",
+    "value": "Catalog document store",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r23",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r23",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r23",
+    "property": "capacity_mode",
+    "value": "Serverless",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r23",
+    "property": "consistency",
+    "value": "Session",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r23",
+    "property": "public_network_access",
+    "value": "Disabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r24",
+    "property": "architecture_role",
+    "value": "Receipts, exports, and function state",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r24",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r24",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r24",
+    "property": "redundancy",
+    "value": "ZRS",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r24",
+    "property": "minimum_tls",
+    "value": "1.2",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r24",
+    "property": "public_network_access",
+    "value": "Disabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r24",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r25",
+    "property": "architecture_role",
+    "value": "Order event messaging",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r25",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r25",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r25",
+    "property": "zone_redundant",
+    "value": "true",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r25",
+    "property": "minimum_tls",
+    "value": "1.2",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r25",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r26",
+    "property": "architecture_role",
+    "value": "Order work queue",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r26",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r26",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r26",
+    "property": "parent_namespace_id",
+    "value": "r25",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r26",
+    "property": "max_delivery_count",
+    "value": "10",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r26",
+    "property": "dead_lettering",
+    "value": "enabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r27",
+    "property": "architecture_role",
+    "value": "API response cache",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r27",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r27",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r27",
+    "property": "minimum_tls",
+    "value": "1.2",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r27",
+    "property": "non_ssl_port",
+    "value": "disabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r27",
+    "property": "replicas",
+    "value": "2",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r28",
+    "property": "architecture_role",
+    "value": "Application secret and certificate references",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r28",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r28",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r28",
+    "property": "public_network_access",
+    "value": "Disabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r28",
+    "property": "soft_delete_days",
+    "value": "90",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r28",
+    "property": "purge_protection",
+    "value": "enabled",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r28",
+    "property": "diagnostic_workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r29",
+    "property": "architecture_role",
+    "value": "Storefront managed identity",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r29",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r29",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r29",
+    "property": "identity_kind",
+    "value": "UserAssigned",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r29",
+    "property": "attached_workload",
+    "value": "r14",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r30",
+    "property": "architecture_role",
+    "value": "API managed identity",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r30",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r30",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r30",
+    "property": "identity_kind",
+    "value": "UserAssigned",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r30",
+    "property": "attached_workload",
+    "value": "r16",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r31",
+    "property": "architecture_role",
+    "value": "Shared background-jobs identity",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r31",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r31",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r31",
+    "property": "identity_kind",
+    "value": "UserAssigned",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r31",
+    "property": "attached_workloads",
+    "value": "r17;r18;r20",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r32",
+    "property": "architecture_role",
+    "value": "SQL private endpoint",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r32",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r32",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r32",
+    "property": "subnet_id",
+    "value": "r08",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r32",
+    "property": "target_resource_id",
+    "value": "r21",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r32",
+    "property": "dns_zone_id",
+    "value": "r40",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r32",
+    "property": "connection_state",
+    "value": "Approved",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r33",
+    "property": "architecture_role",
+    "value": "Storage private endpoint",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r33",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r33",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r33",
+    "property": "subnet_id",
+    "value": "r08",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r33",
+    "property": "target_resource_id",
+    "value": "r24",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r33",
+    "property": "connection_state",
+    "value": "Approved",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r34",
+    "property": "architecture_role",
+    "value": "Key Vault private endpoint",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r34",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r34",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r34",
+    "property": "subnet_id",
+    "value": "r08",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r34",
+    "property": "target_resource_id",
+    "value": "r28",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r34",
+    "property": "connection_state",
+    "value": "Approved",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r35",
+    "property": "architecture_role",
+    "value": "Central application and platform logs",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r35",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r35",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r35",
+    "property": "retention_days",
+    "value": "90",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r35",
+    "property": "daily_cap_gb",
+    "value": "20",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r36",
+    "property": "architecture_role",
+    "value": "Storefront application telemetry",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r36",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r36",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r36",
+    "property": "workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r36",
+    "property": "sampling_percentage",
+    "value": "10",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r36",
+    "property": "linked_workload",
+    "value": "r14",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r37",
+    "property": "architecture_role",
+    "value": "API and job telemetry",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r37",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r37",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r37",
+    "property": "workspace_id",
+    "value": "r35",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r37",
+    "property": "sampling_percentage",
+    "value": "20",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r37",
+    "property": "linked_workloads",
+    "value": "r16;r17;r18",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r38",
+    "property": "architecture_role",
+    "value": "Operations alert routing",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r38",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r38",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r38",
+    "property": "enabled_receiver_count",
+    "value": "1",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r38",
+    "property": "receiver_type",
+    "value": "ITSM webhook",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r39",
+    "property": "architecture_role",
+    "value": "API latency alert",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r39",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r39",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r39",
+    "property": "monitored_resource_id",
+    "value": "r16",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r39",
+    "property": "action_group_id",
+    "value": "r38",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r39",
+    "property": "metric",
+    "value": "server response time",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r39",
+    "property": "threshold",
+    "value": "2 seconds for 10 minutes",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r40",
+    "property": "architecture_role",
+    "value": "SQL private endpoint name resolution",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r40",
+    "property": "deployment_scope",
+    "value": "production",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r40",
+    "property": "provisioning_state",
+    "value": "Succeeded",
+    "architecture_relevant": false,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r40",
+    "property": "zone_name",
+    "value": "privatelink.database.windows.net",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r40",
+    "property": "linked_vnet_id",
+    "value": "r05",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  },
+  {
+    "resource_id": "r40",
+    "property": "registration_enabled",
+    "value": "false",
+    "architecture_relevant": true,
+    "is_secret_reference": false,
+    "source_export": "resource-detail-snapshot"
+  }
+]

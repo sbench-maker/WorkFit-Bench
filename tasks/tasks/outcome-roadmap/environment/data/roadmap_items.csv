@@ -1,0 +1,33 @@
+initiative_id,quarter,initiative,work_type,commitment,primary_segment,problem_hypothesis,metric_hint,evidence_theme
+FN-101,Q1 2027,Guided workspace setup wizard,feature,committed,SMB admins,New admins do not know which setup steps matter first.,14-day activation rate; setup time,setup_friction
+FN-102,Q1 2027,CSV customer import validator,feature,committed,SMB admins,Import errors stall initial configuration and force support contact.,14-day activation rate; setup time,setup_friction
+FN-103,Q1 2027,Sample job templates,feature,committed,SMB admins,Blank-state workspaces make the first workflow hard to understand.,14-day activation rate,setup_friction
+FN-104,Q1 2027,Admin launch checklist,feature,committed,SMB admins,Admins cannot tell whether a workspace is ready for technicians.,14-day activation rate; setup time,setup_friction
+FN-105,Q1 2027,Role permission presets,feature,committed,Enterprise admins,Security setup is repeatedly rebuilt during pilots.,enterprise pilot-to-paid conversion,permissions_and_audit
+FN-106,Q1 2027,Downloadable audit log,feature,committed,Enterprise admins,Security reviews pause while admins assemble activity evidence.,enterprise pilot-to-paid conversion,permissions_and_audit
+FN-107,Q1 2027,Self-service SSO configuration,feature,planned,Enterprise admins,SSO setup currently requires FieldNest support and lengthens pilots.,enterprise pilot-to-paid conversion,permissions_and_audit
+FN-108,Q1 2027,Redesigned billing settings,redesign,planned,SMB admins,"Admins contact support to understand seats, plans, and invoice contacts.",billing-settings tickets,billing_self_service
+FN-201,Q2 2027,Drag-and-drop dispatch board,feature,committed,Dispatchers,Moving jobs between technicians requires several screens.,time to schedule 20 jobs; dispatcher WAU,dispatch_speed
+FN-202,Q2 2027,Bulk technician assignment,feature,committed,Dispatchers,High-volume dispatchers repeat the same assignment action job by job.,time to schedule 20 jobs,dispatch_speed
+FN-203,Q2 2027,Scheduling conflict alerts,feature,committed,Dispatchers,Overlaps are noticed after customers or technicians complain.,reschedule conflicts; dispatcher WAU,dispatch_speed
+FN-204,Q2 2027,Saved dispatcher views,feature,planned,Dispatchers,Dispatchers rebuild filters for territories and shifts every day.,time to schedule 20 jobs; dispatcher WAU,dispatch_speed
+FN-205,Q2 2027,Offline mobile job cards,feature,committed,Technicians,Technicians in weak coverage lose job details and defer completion.,retry-free mobile completion,mobile_reliability
+FN-206,Q2 2027,Resumable photo uploads,feature,committed,Technicians,Failed evidence uploads force technicians to repeat work.,photo upload failure rate,mobile_reliability
+FN-207,Q2 2027,Background sync status screen,feature,planned,Technicians,Technicians cannot tell whether offline changes reached dispatch.,retry-free mobile completion,mobile_reliability
+FN-208,Q2 2027,Partner calendar two-way sync,integration,planned,Mid-market teams,External appointments drift from the dispatch schedule.,active integrations at 90 days,calendar_coordination
+FN-301,Q3 2027,Route suggestion engine,feature,planned,Dispatchers,Manual route choices create avoidable travel and late arrivals.,on-time arrival rate,route_efficiency
+FN-302,Q3 2027,Map job clustering,feature,planned,Dispatchers,Dense job areas are hard to group into efficient runs.,on-time arrival rate,route_efficiency
+FN-303,Q3 2027,Live traffic overlay,feature,candidate,Dispatchers,Schedules do not reflect changing travel conditions.,on-time arrival rate,route_efficiency
+FN-304,Q3 2027,Customer SMS ETA,feature,committed,Service customers,Customers call dispatch because arrival timing is unclear.,where-is-technician contacts; missed appointments,appointment_reliability
+FN-305,Q3 2027,Appointment confirmation portal,feature,planned,Service customers,Teams discover unavailable customers only at arrival.,missed appointment rate,appointment_reliability
+FN-306,Q3 2027,Customer self-service rescheduling,feature,planned,Service customers,Changing an appointment requires a phone exchange with dispatch.,missed appointments; support contacts,appointment_reliability
+FN-307,Q3 2027,Public API and webhook registry,platform,committed,Integration admins,"Partners cannot build stable, supportable connections.",active integrations at 90 days,integration_demand
+FN-308,Q3 2027,Manager analytics dashboard,redesign,candidate,Operations managers,Weekly performance reviews require manual spreadsheet assembly.,manager report preparation time,manager_visibility
+FN-401,Q4 2027,Accounting-system invoice export,integration,planned,Finance teams,Completed work is re-keyed before invoices can be prepared.,invoice-ready lag,invoice_cycle
+FN-402,Q4 2027,Batch invoice review,feature,planned,Finance teams,Finance reviews completed jobs one at a time.,invoice-ready lag,invoice_cycle
+FN-403,Q4 2027,Payment status reconciliation,feature,candidate,Finance teams,Payment status is manually matched back to field work.,invoice-ready lag,invoice_cycle
+FN-404,Q4 2027,Multi-region admin console,feature,planned,Enterprise admins,Regional rollouts require separate workspaces and duplicated governance.,enterprise pilot-to-paid conversion,regional_governance
+FN-405,Q4 2027,Custom data-retention controls,feature,planned,Enterprise admins,Fixed retention settings fail some enterprise governance reviews.,enterprise pilot-to-paid conversion; gross retention,regional_governance
+FN-406,Q4 2027,Data-residency selector,feature,candidate,Enterprise admins,"Some prospects ask where operational data is stored, but the affected pipeline is not quantified.",enterprise pilot-to-paid conversion,data_residency
+FN-407,Q4 2027,Partner integration marketplace,feature,planned,Integration admins,Customers struggle to discover supported partner workflows.,active integrations at 90 days,integration_demand
+FN-408,Q4 2027,AI voice dispatch assistant prototype,experiment,validation,Dispatchers,Two discovery calls suggested hands-free dispatch might help during peaks; no workflow study exists.,no validated KPI yet,voice_dispatch

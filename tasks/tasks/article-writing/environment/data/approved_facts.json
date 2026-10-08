@@ -1,0 +1,84 @@
+{
+  "document_status": "fictional approved launch fact sheet",
+  "authority_note": "Use this file as the controlling source for publishable facts and quotations.",
+  "company": {
+    "vendor": "Northstar Flow",
+    "product": "Dispatch Windows",
+    "customer": "Harborline Home Services",
+    "customer_description": "a fictional residential maintenance operator"
+  },
+  "pilot": {
+    "duration": "six weeks",
+    "date_range": "April 6–May 17, 2026",
+    "branches": 3,
+    "coordinators": 14,
+    "work_orders": 1842,
+    "comparison_basis": "the six weeks immediately before the pilot versus the six-week pilot",
+    "results": [
+      {
+        "metric": "median active scheduling time per work order",
+        "before": "6 minutes 40 seconds",
+        "during": "4 minutes 35 seconds",
+        "approved_change": "31% lower",
+        "status": "measured pilot outcome"
+      },
+      {
+        "metric": "after-hours reassignment rate",
+        "before": "12.4%",
+        "during": "7.1%",
+        "approved_change": "down 5.3 percentage points",
+        "status": "measured pilot outcome"
+      },
+      {
+        "metric": "on-time arrival rate",
+        "before": "82%",
+        "during": "88%",
+        "approved_change": "up 6 percentage points",
+        "status": "measured pilot outcome"
+      },
+      {
+        "metric": "missed-appointment rate",
+        "before": "5.8%",
+        "during": "4.9%",
+        "approved_change": "down 0.9 percentage points",
+        "status": "directional only",
+        "qualification": "The six-week window is too short to separate the change from seasonal demand. Do not call this conclusive."
+      }
+    ],
+    "adoption_signal": "11 of 14 coordinators used saved windows on at least four days per week during the final two weeks.",
+    "limitations": [
+      "The pilot covered three branches of one residential maintenance operator.",
+      "Northstar did not run a randomized control group.",
+      "No employee-hours-saved or revenue claim has been approved."
+    ]
+  },
+  "workflow": {
+    "before": "Coordinators kept branch-specific promise windows in spreadsheets and relayed changes in chat; dispatchers rebuilt routes after late jobs or absences.",
+    "with_product": "Coordinators save customer promise windows on each work order. Dispatchers can see which windows still have slack before moving a job, and technicians receive the updated sequence in the existing mobile view.",
+    "scope_note": "Dispatch Windows recommends feasible moves but does not automatically reassign a technician or contact a customer."
+  },
+  "launch": {
+    "general_availability_date": "June 18, 2026",
+    "eligible_plans": [
+      "Growth",
+      "Scale"
+    ],
+    "launch_targets": [
+      "sustain at least a 25% reduction in median active scheduling time per work order",
+      "keep after-hours reassignment below 8%"
+    ],
+    "approved_cta": "Bring one week of after-hours reassignments to a Northstar workflow review."
+  },
+  "approved_quotes": [
+    {
+      "speaker": "Mara Velez",
+      "title": "regional dispatch lead, Harborline Home Services",
+      "quote": "Before this, we were solving the same route twice—once at 4 p.m. and again at 6."
+    },
+    {
+      "speaker": "Mara Velez",
+      "title": "regional dispatch lead, Harborline Home Services",
+      "quote": "The useful part isn’t the map. It’s knowing which promise we can still keep."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+policy_id,priority,first_response_minutes,resolution_minutes,business_hours_only
+1,P1,15,240,false
+2,P2,60,480,false
+3,P3,240,1440,true
+4,P4,480,4320,true

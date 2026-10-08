@@ -1,0 +1,82 @@
+[
+  {
+    "master_id": "M001",
+    "revision_number": 1,
+    "file_name": "Lin_Master_Resume_v1.docx",
+    "published_at": "2024-09-15",
+    "state": "superseded",
+    "superseded_by": "M002",
+    "content_sha256": "e5736d33bbd66039c186cb24eda59dcbdfb30bbfa1f4b51403e19d0b411871df",
+    "location": "Resume/Master/Lin_Master_Resume_v1.docx"
+  },
+  {
+    "master_id": "M002",
+    "revision_number": 2,
+    "file_name": "Lin_Master_Resume_v2.docx",
+    "published_at": "2025-01-20",
+    "state": "superseded",
+    "superseded_by": "M003",
+    "content_sha256": "04929dbf70f59026efb2ff4a5da25541c863539b6dd5a5972fb49e33d1dccaa4",
+    "location": "Resume/Master/Lin_Master_Resume_v2.docx"
+  },
+  {
+    "master_id": "M003",
+    "revision_number": 3,
+    "file_name": "Lin_Master_Resume_v3.docx",
+    "published_at": "2025-05-12",
+    "state": "superseded",
+    "superseded_by": "M004",
+    "content_sha256": "cecc87591d31e317422bbff578f73b0d081e90d90962fd5ab91f43d213162800",
+    "location": "Resume/Master/Lin_Master_Resume_v3.docx"
+  },
+  {
+    "master_id": "M004",
+    "revision_number": 4,
+    "file_name": "Lin_Master_Resume_v4.docx",
+    "published_at": "2025-08-25",
+    "state": "superseded",
+    "superseded_by": "M005",
+    "content_sha256": "abf71e398f94f4b9b720ddbd2413623dc5df24668932708770a526660d680caf",
+    "location": "Resume/Master/Lin_Master_Resume_v4.docx"
+  },
+  {
+    "master_id": "M005",
+    "revision_number": 5,
+    "file_name": "Lin_Master_Resume_v5.docx",
+    "published_at": "2025-12-08",
+    "state": "superseded",
+    "superseded_by": "M006",
+    "content_sha256": "d3b045b054efae0de711e58043592e6f341594493bc405c559fe48184fb03204",
+    "location": "Resume/Master/Lin_Master_Resume_v5.docx"
+  },
+  {
+    "master_id": "M006",
+    "revision_number": 6,
+    "file_name": "Lin_Master_Resume_v6.docx",
+    "published_at": "2026-02-16",
+    "state": "superseded",
+    "superseded_by": "M007",
+    "content_sha256": "482f0824b981d2d599c8d073de6b5b7970f7d2189eb3d8a01b97a43416f3c29f",
+    "location": "Resume/Master/Lin_Master_Resume_v6.docx"
+  },
+  {
+    "master_id": "M007",
+    "revision_number": 7,
+    "file_name": "Lin_Master_Resume_v7.docx",
+    "published_at": "2026-05-18",
+    "state": "superseded",
+    "superseded_by": "M008",
+    "content_sha256": "fe4541eb75a09752b1d4d78dc16538d6dd9e346b58813f98a794098701718681",
+    "location": "Resume/Master/Lin_Master_Resume_v7.docx"
+  },
+  {
+    "master_id": "M008",
+    "revision_number": 8,
+    "file_name": "Lin_Master_Resume_v8.docx",
+    "published_at": "2026-07-15",
+    "state": "current",
+    "superseded_by": null,
+    "content_sha256": "88fbeda611a98f9f77a98d791f6e3ee31ab23da2a49ce4611ea107f6f91c76fc",
+    "location": "Resume/Master/Lin_Master_Resume_v8.docx"
+  }
+]

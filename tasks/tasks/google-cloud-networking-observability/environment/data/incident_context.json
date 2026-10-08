@@ -1,0 +1,25 @@
+{
+  "incident_id": "inc-20260814-egress-07",
+  "project_id": "quartz-cart-ops",
+  "linked_dataset": "quartz-cart-ops.netops_logs._AllLogs",
+  "window_start": "2026-08-14T09:00:00Z",
+  "window_end": "2026-08-14T13:00:00Z",
+  "symptom": "checkout-api requests to the payment authorization endpoint timed out",
+  "service": "checkout-api",
+  "destination": {
+    "name": "payment-authorization",
+    "ip": "203.0.113.77",
+    "port": 443
+  },
+  "suspected_nat_gateway": "nat-checkout-prod",
+  "reporting_timezone": "UTC",
+  "operations_context": {
+    "current_external_ip_count": 1,
+    "dynamic_port_allocation": true,
+    "min_ports_per_vm": 64,
+    "max_ports_per_vm": 1024,
+    "change_window_note": "An emergency second NAT address can be attached without restarting workloads.",
+    "alerting_goal": "Page before sustained allocation failures materially affect checkout traffic; avoid paging on a single isolated drop."
+  },
+  "fixture_notice": "Deterministic fictional export for offline incident analysis."
+}

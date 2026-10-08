@@ -1,0 +1,19 @@
+{
+  "method": "deterministic local construction",
+  "seed": 8842,
+  "record_counts": {
+    "companies.csv": 64,
+    "profile_export.csv": 329,
+    "crm_contacts.csv": 240,
+    "activities.csv": 492,
+    "mutual_contacts.csv": 18,
+    "warm_paths.csv": 175
+  },
+  "fixture_characteristics": [
+    "multiple verified snapshots for some people",
+    "newer unverified profile and activity claims",
+    "ineligible CRM states among otherwise strong prospects",
+    "verified and unverified introduction paths",
+    "missing channel coordinates on a minority of records"
+  ]
+}

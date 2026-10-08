@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "snapshot_complete": true,
+  "truncated_files": [],
+  "available_inputs": [
+    "request.json",
+    "paper_page.md",
+    "paper_metadata.json",
+    "linked_models.json",
+    "linked_datasets.json",
+    "linked_spaces.json",
+    "snapshot_manifest.json"
+  ],
+  "note": "The full deterministic offline paper-page and structured metadata snapshot is available to the Judge."
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "snapshot_at": "2026-09-09T12:30:00Z",
+  "files": {
+    "accounts.csv": 48,
+    "contacts.csv": 144,
+    "support_tickets.jsonl": 240,
+    "correspondence.jsonl": 220,
+    "incident_updates.jsonl": 45,
+    "account_notes.jsonl": 100,
+    "communication_policy.md": 1,
+    "request.json": 1
+  },
+  "truncated_files": [],
+  "unavailable_inputs": []
+}

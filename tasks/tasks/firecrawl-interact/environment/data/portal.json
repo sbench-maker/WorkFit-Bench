@@ -1,0 +1,3641 @@
+{
+  "portal": "Northstar Support Console",
+  "page_size": 12,
+  "ui": {
+    "initial_view": "summary-only",
+    "filters": [
+      "status",
+      "priority",
+      "region"
+    ],
+    "detail_control": "Open details"
+  },
+  "tickets": [
+    {
+      "ticket_id": "T-1001",
+      "customer": "Beacon Works 001",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 11,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 001",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1002",
+      "customer": "Cirrus Works 002",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 22,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 002",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1003",
+      "customer": "Delta Works 003",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 33,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 003",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1004",
+      "customer": "Ember Works 004",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 44,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 004",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1005",
+      "customer": "Flux Works 005",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 55,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 005",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1006",
+      "customer": "Atlas Works 006",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 66,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 006",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1007",
+      "customer": "Beacon Works 007",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 77,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 007",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1008",
+      "customer": "Cirrus Works 008",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 5,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 008",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1009",
+      "customer": "Delta Works 009",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 16,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Webhook retries for Delta Works 009",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1010",
+      "customer": "Ember Works 010",
+      "region": "East",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 27,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 010",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1011",
+      "customer": "Flux Works 011",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 38,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 011",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1012",
+      "customer": "Atlas Works 012",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 49,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 012",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1013",
+      "customer": "Beacon Works 013",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 60,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 013",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1014",
+      "customer": "Cirrus Works 014",
+      "region": "East",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 71,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 014",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1015",
+      "customer": "Delta Works 015",
+      "region": "West",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 82,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 015",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1016",
+      "customer": "Ember Works 016",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 10,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 016",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1017",
+      "customer": "Flux Works 017",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 21,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 017",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1018",
+      "customer": "Atlas Works 018",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 32,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Access request for Atlas Works 018",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1019",
+      "customer": "Beacon Works 019",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 43,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 019",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1020",
+      "customer": "Cirrus Works 020",
+      "region": "North",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 54,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 020",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1021",
+      "customer": "Delta Works 021",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 65,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 021",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1022",
+      "customer": "Ember Works 022",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 76,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 022",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1023",
+      "customer": "Flux Works 023",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 4,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 023",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1024",
+      "customer": "Atlas Works 024",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 15,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 024",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1025",
+      "customer": "Beacon Works 025",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 26,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 025",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1026",
+      "customer": "Cirrus Works 026",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 37,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 026",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1027",
+      "customer": "Delta Works 027",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 48,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Export timeout for Delta Works 027",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1028",
+      "customer": "Ember Works 028",
+      "region": "North",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 59,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 028",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1029",
+      "customer": "Flux Works 029",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 70,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 029",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1030",
+      "customer": "Atlas Works 030",
+      "region": "East",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 81,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 030",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1031",
+      "customer": "Beacon Works 031",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 9,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 031",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1032",
+      "customer": "Cirrus Works 032",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 20,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 032",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1033",
+      "customer": "Delta Works 033",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 31,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 033",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1034",
+      "customer": "Ember Works 034",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 42,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 034",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1035",
+      "customer": "Flux Works 035",
+      "region": "West",
+      "status": "closed",
+      "priority": "urgent",
+      "age_hours": 53,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 035",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1036",
+      "customer": "Atlas Works 036",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 64,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing",
+        "vip"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 036",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1037",
+      "customer": "Beacon Works 037",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 75,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 037",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1038",
+      "customer": "Cirrus Works 038",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 3,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 038",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1039",
+      "customer": "Delta Works 039",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 14,
+      "sla_hours": 12,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 039",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1040",
+      "customer": "Ember Works 040",
+      "region": "North",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 25,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 040",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1041",
+      "customer": "Flux Works 041",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 36,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 041",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1042",
+      "customer": "Atlas Works 042",
+      "region": "East",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 47,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 042",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1043",
+      "customer": "Beacon Works 043",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 58,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 043",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1044",
+      "customer": "Cirrus Works 044",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 69,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 044",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1045",
+      "customer": "Delta Works 045",
+      "region": "South",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 80,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Webhook retries for Delta Works 045",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1046",
+      "customer": "Ember Works 046",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 8,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 046",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1047",
+      "customer": "Flux Works 047",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 19,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 047",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1048",
+      "customer": "Atlas Works 048",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 30,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 048",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1049",
+      "customer": "Beacon Works 049",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 41,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 049",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1050",
+      "customer": "Cirrus Works 050",
+      "region": "East",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 52,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 050",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1051",
+      "customer": "Delta Works 051",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 63,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 051",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1052",
+      "customer": "Ember Works 052",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 74,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 052",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1053",
+      "customer": "Flux Works 053",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 2,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 053",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1054",
+      "customer": "Atlas Works 054",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 13,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Access request for Atlas Works 054",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1055",
+      "customer": "Beacon Works 055",
+      "region": "West",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 24,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 055",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1056",
+      "customer": "Cirrus Works 056",
+      "region": "North",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 35,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 056",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1057",
+      "customer": "Delta Works 057",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 46,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 057",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1058",
+      "customer": "Ember Works 058",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 57,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 058",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1059",
+      "customer": "Flux Works 059",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 68,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 059",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1060",
+      "customer": "Atlas Works 060",
+      "region": "North",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 79,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 060",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1061",
+      "customer": "Beacon Works 061",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 7,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 061",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1062",
+      "customer": "Cirrus Works 062",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 18,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 062",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1063",
+      "customer": "Delta Works 063",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 29,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Export timeout for Delta Works 063",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1064",
+      "customer": "Ember Works 064",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 40,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 064",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1065",
+      "customer": "Flux Works 065",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 51,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 065",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1066",
+      "customer": "Atlas Works 066",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 62,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 066",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1067",
+      "customer": "Beacon Works 067",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 73,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 067",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1068",
+      "customer": "Cirrus Works 068",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 1,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 068",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1069",
+      "customer": "Delta Works 069",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 12,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 069",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1070",
+      "customer": "Ember Works 070",
+      "region": "East",
+      "status": "closed",
+      "priority": "urgent",
+      "age_hours": 23,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 070",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1071",
+      "customer": "Flux Works 071",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 34,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 071",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1072",
+      "customer": "Atlas Works 072",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 45,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing",
+        "vip"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 072",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1073",
+      "customer": "Beacon Works 073",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 56,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 073",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1074",
+      "customer": "Cirrus Works 074",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 67,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 074",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1075",
+      "customer": "Delta Works 075",
+      "region": "West",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 78,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 075",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1076",
+      "customer": "Ember Works 076",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 6,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 076",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1077",
+      "customer": "Flux Works 077",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 17,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 077",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1078",
+      "customer": "Atlas Works 078",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 28,
+      "sla_hours": 12,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 078",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1079",
+      "customer": "Beacon Works 079",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 39,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 079",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1080",
+      "customer": "Cirrus Works 080",
+      "region": "North",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 50,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 080",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1081",
+      "customer": "Delta Works 081",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 61,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Webhook retries for Delta Works 081",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1082",
+      "customer": "Ember Works 082",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 72,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 082",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1083",
+      "customer": "Flux Works 083",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 0,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 083",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1084",
+      "customer": "Atlas Works 084",
+      "region": "North",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 11,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 084",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1085",
+      "customer": "Beacon Works 085",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 22,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 085",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1086",
+      "customer": "Cirrus Works 086",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 33,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 086",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1087",
+      "customer": "Delta Works 087",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 44,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 087",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1088",
+      "customer": "Ember Works 088",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 55,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 088",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1089",
+      "customer": "Flux Works 089",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 66,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 089",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1090",
+      "customer": "Atlas Works 090",
+      "region": "East",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 77,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Access request for Atlas Works 090",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1091",
+      "customer": "Beacon Works 091",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 5,
+      "sla_hours": 4,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 091",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1092",
+      "customer": "Cirrus Works 092",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 16,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 092",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1093",
+      "customer": "Delta Works 093",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 27,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 093",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1094",
+      "customer": "Ember Works 094",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 38,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 094",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1095",
+      "customer": "Flux Works 095",
+      "region": "West",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 49,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 095",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1096",
+      "customer": "Atlas Works 096",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 60,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 096",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1097",
+      "customer": "Beacon Works 097",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 71,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 097",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1098",
+      "customer": "Cirrus Works 098",
+      "region": "East",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 82,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 098",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1099",
+      "customer": "Delta Works 099",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 10,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Export timeout for Delta Works 099",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1100",
+      "customer": "Ember Works 100",
+      "region": "North",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 21,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 100",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1101",
+      "customer": "Flux Works 101",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 32,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 101",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1102",
+      "customer": "Atlas Works 102",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 43,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 102",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1103",
+      "customer": "Beacon Works 103",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 54,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 103",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1104",
+      "customer": "Cirrus Works 104",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 65,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 104",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1105",
+      "customer": "Delta Works 105",
+      "region": "South",
+      "status": "closed",
+      "priority": "urgent",
+      "age_hours": 76,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 105",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1106",
+      "customer": "Ember Works 106",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 4,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 106",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1107",
+      "customer": "Flux Works 107",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 15,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 107",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1108",
+      "customer": "Atlas Works 108",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 26,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing",
+        "vip"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 108",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1109",
+      "customer": "Beacon Works 109",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 37,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 109",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1110",
+      "customer": "Cirrus Works 110",
+      "region": "East",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 48,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 110",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1111",
+      "customer": "Delta Works 111",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 59,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 111",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1112",
+      "customer": "Ember Works 112",
+      "region": "North",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 70,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 112",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1113",
+      "customer": "Flux Works 113",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 81,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 113",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1114",
+      "customer": "Atlas Works 114",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 9,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 114",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1115",
+      "customer": "Beacon Works 115",
+      "region": "West",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 20,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 115",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1116",
+      "customer": "Cirrus Works 116",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 31,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 116",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1117",
+      "customer": "Delta Works 117",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 42,
+      "sla_hours": 12,
+      "owner": "",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Webhook retries for Delta Works 117",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1118",
+      "customer": "Ember Works 118",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 53,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 118",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1119",
+      "customer": "Flux Works 119",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 64,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 119",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1120",
+      "customer": "Atlas Works 120",
+      "region": "North",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 75,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 120",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1121",
+      "customer": "Beacon Works 121",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 3,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 121",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1122",
+      "customer": "Cirrus Works 122",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 14,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 122",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1123",
+      "customer": "Delta Works 123",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 25,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 123",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1124",
+      "customer": "Ember Works 124",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 36,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 124",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1125",
+      "customer": "Flux Works 125",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 47,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 125",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1126",
+      "customer": "Atlas Works 126",
+      "region": "East",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 58,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Access request for Atlas Works 126",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1127",
+      "customer": "Beacon Works 127",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 69,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 127",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1128",
+      "customer": "Cirrus Works 128",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 80,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 128",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1129",
+      "customer": "Delta Works 129",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 8,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 129",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1130",
+      "customer": "Ember Works 130",
+      "region": "East",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 19,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 130",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1131",
+      "customer": "Flux Works 131",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 30,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 131",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1132",
+      "customer": "Atlas Works 132",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 41,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 132",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1133",
+      "customer": "Beacon Works 133",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 52,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 133",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1134",
+      "customer": "Cirrus Works 134",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 63,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 134",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1135",
+      "customer": "Delta Works 135",
+      "region": "West",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 74,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Export timeout for Delta Works 135",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1136",
+      "customer": "Ember Works 136",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 2,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 136",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1137",
+      "customer": "Flux Works 137",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 13,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 137",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1138",
+      "customer": "Atlas Works 138",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 24,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 138",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1139",
+      "customer": "Beacon Works 139",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 35,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 139",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1140",
+      "customer": "Cirrus Works 140",
+      "region": "North",
+      "status": "closed",
+      "priority": "urgent",
+      "age_hours": 46,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 140",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1141",
+      "customer": "Delta Works 141",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 57,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 141",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1142",
+      "customer": "Ember Works 142",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 68,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 142",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1143",
+      "customer": "Flux Works 143",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 79,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 143",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1144",
+      "customer": "Atlas Works 144",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 7,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing",
+        "vip"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 144",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1145",
+      "customer": "Beacon Works 145",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 18,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 145",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1146",
+      "customer": "Cirrus Works 146",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 29,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 146",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1147",
+      "customer": "Delta Works 147",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 40,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 147",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1148",
+      "customer": "Ember Works 148",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 51,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 148",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1149",
+      "customer": "Flux Works 149",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 62,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 149",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1150",
+      "customer": "Atlas Works 150",
+      "region": "East",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 73,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 150",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1151",
+      "customer": "Beacon Works 151",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 1,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 151",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1152",
+      "customer": "Cirrus Works 152",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 12,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 152",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1153",
+      "customer": "Delta Works 153",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 23,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Webhook retries for Delta Works 153",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1154",
+      "customer": "Ember Works 154",
+      "region": "East",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 34,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 154",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1155",
+      "customer": "Flux Works 155",
+      "region": "West",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 45,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 155",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1156",
+      "customer": "Atlas Works 156",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 56,
+      "sla_hours": 12,
+      "owner": "",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 156",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1157",
+      "customer": "Beacon Works 157",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 67,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 157",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1158",
+      "customer": "Cirrus Works 158",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 78,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 158",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1159",
+      "customer": "Delta Works 159",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 6,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 159",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1160",
+      "customer": "Ember Works 160",
+      "region": "North",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 17,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 160",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1161",
+      "customer": "Flux Works 161",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 28,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 161",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1162",
+      "customer": "Atlas Works 162",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 39,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Access request for Atlas Works 162",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1163",
+      "customer": "Beacon Works 163",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 50,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 163",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1164",
+      "customer": "Cirrus Works 164",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 61,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 164",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1165",
+      "customer": "Delta Works 165",
+      "region": "South",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 72,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 165",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1166",
+      "customer": "Ember Works 166",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 0,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 166",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1167",
+      "customer": "Flux Works 167",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 11,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 167",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1168",
+      "customer": "Atlas Works 168",
+      "region": "North",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 22,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 168",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1169",
+      "customer": "Beacon Works 169",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 33,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 169",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1170",
+      "customer": "Cirrus Works 170",
+      "region": "East",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 44,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 170",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1171",
+      "customer": "Delta Works 171",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 55,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Export timeout for Delta Works 171",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1172",
+      "customer": "Ember Works 172",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 66,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 172",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1173",
+      "customer": "Flux Works 173",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 77,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 173",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1174",
+      "customer": "Atlas Works 174",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 5,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 174",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1175",
+      "customer": "Beacon Works 175",
+      "region": "West",
+      "status": "closed",
+      "priority": "urgent",
+      "age_hours": 16,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 175",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1176",
+      "customer": "Cirrus Works 176",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 27,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 176",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1177",
+      "customer": "Delta Works 177",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 38,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 177",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1178",
+      "customer": "Ember Works 178",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 49,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 178",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1179",
+      "customer": "Flux Works 179",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 60,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 179",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1180",
+      "customer": "Atlas Works 180",
+      "region": "North",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 71,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing",
+        "vip"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 180",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1181",
+      "customer": "Beacon Works 181",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 82,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 181",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1182",
+      "customer": "Cirrus Works 182",
+      "region": "East",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 10,
+      "sla_hours": 4,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 182",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1183",
+      "customer": "Delta Works 183",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 21,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 183",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1184",
+      "customer": "Ember Works 184",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 32,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 184",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1185",
+      "customer": "Flux Works 185",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 43,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 185",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1186",
+      "customer": "Atlas Works 186",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 54,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 186",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1187",
+      "customer": "Beacon Works 187",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 65,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 187",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1188",
+      "customer": "Cirrus Works 188",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 76,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 188",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1189",
+      "customer": "Delta Works 189",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 4,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Webhook retries for Delta Works 189",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1190",
+      "customer": "Ember Works 190",
+      "region": "East",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 15,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 190",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1191",
+      "customer": "Flux Works 191",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 26,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 191",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1192",
+      "customer": "Atlas Works 192",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 37,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 192",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1193",
+      "customer": "Beacon Works 193",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 48,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 193",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1194",
+      "customer": "Cirrus Works 194",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 59,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 194",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1195",
+      "customer": "Delta Works 195",
+      "region": "West",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 70,
+      "sla_hours": 12,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 195",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1196",
+      "customer": "Ember Works 196",
+      "region": "North",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 81,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 196",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1197",
+      "customer": "Flux Works 197",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 9,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 197",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1198",
+      "customer": "Atlas Works 198",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 20,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Access request for Atlas Works 198",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1199",
+      "customer": "Beacon Works 199",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 31,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 199",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1200",
+      "customer": "Cirrus Works 200",
+      "region": "North",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 42,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 200",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1201",
+      "customer": "Delta Works 201",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 53,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 201",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1202",
+      "customer": "Ember Works 202",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 64,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 202",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1203",
+      "customer": "Flux Works 203",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 75,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 203",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1204",
+      "customer": "Atlas Works 204",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 3,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 204",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1205",
+      "customer": "Beacon Works 205",
+      "region": "South",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 14,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 205",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1206",
+      "customer": "Cirrus Works 206",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 25,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 206",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1207",
+      "customer": "Delta Works 207",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 36,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Export timeout for Delta Works 207",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1208",
+      "customer": "Ember Works 208",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 47,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 208",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1209",
+      "customer": "Flux Works 209",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 58,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 209",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1210",
+      "customer": "Atlas Works 210",
+      "region": "East",
+      "status": "closed",
+      "priority": "urgent",
+      "age_hours": 69,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 210",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1211",
+      "customer": "Beacon Works 211",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 80,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 211",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1212",
+      "customer": "Cirrus Works 212",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 8,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 212",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1213",
+      "customer": "Delta Works 213",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 19,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 213",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1214",
+      "customer": "Ember Works 214",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 30,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 214",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1215",
+      "customer": "Flux Works 215",
+      "region": "West",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 41,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 215",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1216",
+      "customer": "Atlas Works 216",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 52,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing",
+        "vip"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 216",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1217",
+      "customer": "Beacon Works 217",
+      "region": "South",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 63,
+      "sla_hours": 4,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 217",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1218",
+      "customer": "Cirrus Works 218",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 74,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 218",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1219",
+      "customer": "Delta Works 219",
+      "region": "West",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 2,
+      "sla_hours": 12,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 219",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1220",
+      "customer": "Ember Works 220",
+      "region": "North",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 13,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 220",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1221",
+      "customer": "Flux Works 221",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 24,
+      "sla_hours": 48,
+      "owner": "",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 221",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1222",
+      "customer": "Atlas Works 222",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 35,
+      "sla_hours": 12,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Atlas Works 222",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1223",
+      "customer": "Beacon Works 223",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 46,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 223",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1224",
+      "customer": "Cirrus Works 224",
+      "region": "North",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 57,
+      "sla_hours": 4,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 224",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1225",
+      "customer": "Delta Works 225",
+      "region": "South",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 68,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Webhook retries for Delta Works 225",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1226",
+      "customer": "Ember Works 226",
+      "region": "East",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 79,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 226",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1227",
+      "customer": "Flux Works 227",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 7,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 227",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1228",
+      "customer": "Atlas Works 228",
+      "region": "North",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 18,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 228",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1229",
+      "customer": "Beacon Works 229",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 29,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Beacon Works 229",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1230",
+      "customer": "Cirrus Works 230",
+      "region": "East",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 40,
+      "sla_hours": 48,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Cirrus Works 230",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1231",
+      "customer": "Delta Works 231",
+      "region": "West",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 51,
+      "sla_hours": 4,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Delta Works 231",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1232",
+      "customer": "Ember Works 232",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 62,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Ember Works 232",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1233",
+      "customer": "Flux Works 233",
+      "region": "South",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 73,
+      "sla_hours": 48,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Flux Works 233",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1234",
+      "customer": "Atlas Works 234",
+      "region": "East",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 1,
+      "sla_hours": 12,
+      "owner": "",
+      "tags": [
+        "technical",
+        "vip"
+      ],
+      "subject": "Access request for Atlas Works 234",
+      "latest_note": "Customer confirmed production impact."
+    },
+    {
+      "ticket_id": "T-1235",
+      "customer": "Beacon Works 235",
+      "region": "West",
+      "status": "closed",
+      "priority": "normal",
+      "age_hours": 12,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Beacon Works 235",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1236",
+      "customer": "Cirrus Works 236",
+      "region": "North",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 23,
+      "sla_hours": 48,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Cirrus Works 236",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1237",
+      "customer": "Delta Works 237",
+      "region": "South",
+      "status": "open",
+      "priority": "high",
+      "age_hours": 34,
+      "sla_hours": 12,
+      "owner": "Noah",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Webhook retries for Delta Works 237",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1238",
+      "customer": "Ember Works 238",
+      "region": "East",
+      "status": "open",
+      "priority": "urgent",
+      "age_hours": 45,
+      "sla_hours": 4,
+      "owner": "Priya",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Access request for Ember Works 238",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1239",
+      "customer": "Flux Works 239",
+      "region": "West",
+      "status": "open",
+      "priority": "normal",
+      "age_hours": 56,
+      "sla_hours": 48,
+      "owner": "Theo",
+      "tags": [
+        "technical"
+      ],
+      "subject": "Export timeout for Flux Works 239",
+      "latest_note": "Awaiting support follow-up."
+    },
+    {
+      "ticket_id": "T-1240",
+      "customer": "Atlas Works 240",
+      "region": "North",
+      "status": "closed",
+      "priority": "high",
+      "age_hours": 67,
+      "sla_hours": 12,
+      "owner": "Mira",
+      "tags": [
+        "billing"
+      ],
+      "subject": "Invoice mismatch for Atlas Works 240",
+      "latest_note": "Customer confirmed production impact."
+    }
+  ]
+}

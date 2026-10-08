@@ -1,0 +1,74 @@
+[
+  {
+    "scenario_id": "TH-01",
+    "actor": "public swapper",
+    "action": "submits a swap that remains pending while reserves move",
+    "security_property": "caller-defined minimum output and expiry constrain execution"
+  },
+  {
+    "scenario_id": "TH-02",
+    "actor": "sandwich searcher",
+    "action": "moves pool reserves around a victim swap in one block",
+    "security_property": "victim can bound adverse execution"
+  },
+  {
+    "scenario_id": "TH-03",
+    "actor": "flash borrower",
+    "action": "temporarily moves pool reserves and calls the oracle update",
+    "security_property": "stored collateral price is not a single-block spot quote"
+  },
+  {
+    "scenario_id": "TH-04",
+    "actor": "external token holder",
+    "action": "sends FOAM directly to the vault before a victim deposit",
+    "security_property": "unsolicited balance changes do not alter share issuance"
+  },
+  {
+    "scenario_id": "TH-05",
+    "actor": "public caller",
+    "action": "invokes any balance synchronization endpoint after a donation",
+    "security_property": "public calls cannot crystallize donated balances into internal accounting"
+  },
+  {
+    "scenario_id": "TH-06",
+    "actor": "FOAM token",
+    "action": "deducts its configured transfer fee during deposit",
+    "security_property": "shares and tracked assets use the amount actually received"
+  },
+  {
+    "scenario_id": "TH-07",
+    "actor": "callback-capable asset",
+    "action": "reenters a vault entrypoint during transferFrom or transfer",
+    "security_property": "vault state cannot be observed or mutated half-updated"
+  },
+  {
+    "scenario_id": "TH-08",
+    "actor": "unprivileged account",
+    "action": "attempts to change swap fees to the configured cap",
+    "security_property": "only the governor can change economics"
+  },
+  {
+    "scenario_id": "TH-09",
+    "actor": "governor successor",
+    "action": "accepts a pending administrative transfer",
+    "security_property": "ownership change is explicit and two-step"
+  },
+  {
+    "scenario_id": "TH-10",
+    "actor": "large trader",
+    "action": "requests a quote with an amount near the uint256 limit",
+    "security_property": "pricing arithmetic does not revert solely because an intermediate product overflows"
+  },
+  {
+    "scenario_id": "TH-11",
+    "actor": "incident guardian",
+    "action": "pauses the pool and vault during incident response",
+    "security_property": "risk-increasing user flows stop while authorized recovery remains possible"
+  },
+  {
+    "scenario_id": "TH-12",
+    "actor": "non-standard TIDE token",
+    "action": "returns no data from transfer",
+    "security_property": "pool transfers handle optional return data safely"
+  }
+]

@@ -1,0 +1,1052 @@
+event_id,ticket_id,event_at,event_type,actor_agent_id,detail
+900001,500001,2026-07-01 13:07:00,created,,Opened through chat
+900002,500001,2026-07-01 13:18:00,assigned,1008,Assigned to team 6
+900003,500001,2026-07-01 13:45:00,first_response,1008,Initial response sent
+900004,500001,2026-07-01 15:14:00,resolved,1008,Resolution confirmed
+900005,500002,2026-07-01 18:14:00,created,,Opened through phone
+900006,500002,2026-07-01 18:26:00,assigned,1015,Assigned to team 5
+900007,500002,2026-07-01 19:05:00,first_response,1015,Initial response sent
+900008,500002,2026-07-01 21:08:00,resolved,1015,Resolution confirmed
+900009,500003,2026-07-01 23:21:00,created,,Opened through portal
+900010,500003,2026-07-01 23:34:00,assigned,1022,Assigned to team 4
+900011,500003,2026-07-02 00:25:00,first_response,1022,Initial response sent
+900012,500003,2026-07-02 03:02:00,resolved,1022,Resolution confirmed
+900013,500004,2026-07-02 04:28:00,created,,Opened through email
+900014,500004,2026-07-02 04:42:00,assigned,1006,Assigned to team 3
+900015,500004,2026-07-02 05:45:00,first_response,1006,Initial response sent
+900016,500004,2026-07-02 08:56:00,resolved,1006,Resolution confirmed
+900017,500005,2026-07-02 09:35:00,created,,Opened through chat
+900018,500005,2026-07-02 09:50:00,assigned,1013,Assigned to team 2
+900019,500005,2026-07-02 11:05:00,first_response,1013,Initial response sent
+900020,500006,2026-07-02 14:42:00,created,,Opened through phone
+900021,500006,2026-07-02 14:58:00,assigned,1020,Assigned to team 1
+900022,500006,2026-07-02 16:25:00,first_response,1020,Initial response sent
+900023,500006,2026-07-02 20:44:00,resolved,1020,Resolution confirmed
+900024,500007,2026-07-02 19:49:00,created,,Opened through portal
+900025,500007,2026-07-02 20:06:00,assigned,1004,Assigned to team 6
+900026,500007,2026-07-02 21:45:00,first_response,1004,Initial response sent
+900027,500008,2026-07-03 00:56:00,created,,Opened through email
+900028,500008,2026-07-03 01:14:00,assigned,1011,Assigned to team 5
+900029,500008,2026-07-03 03:05:00,first_response,1011,Initial response sent
+900030,500008,2026-07-03 08:32:00,resolved,1011,Resolution confirmed
+900031,500009,2026-07-03 05:03:00,created,,Opened through chat
+900032,500009,2026-07-03 05:22:00,assigned,1018,Assigned to team 4
+900033,500009,2026-07-03 07:25:00,first_response,1018,Initial response sent
+900034,500009,2026-07-03 13:26:00,resolved,1018,Resolution confirmed
+900035,500010,2026-07-03 10:10:00,created,,Opened through phone
+900036,500010,2026-07-03 10:30:00,assigned,1002,Assigned to team 3
+900037,500010,2026-07-03 12:45:00,first_response,1002,Initial response sent
+900038,500011,2026-07-03 15:17:00,created,,Opened through portal
+900039,500011,2026-07-03 15:38:00,assigned,1009,Assigned to team 2
+900040,500011,2026-07-03 18:05:00,first_response,1009,Initial response sent
+900041,500012,2026-07-03 20:24:00,created,,Opened through email
+900042,500012,2026-07-03 20:46:00,assigned,1016,Assigned to team 1
+900043,500012,2026-07-03 23:25:00,first_response,1016,Initial response sent
+900044,500012,2026-07-04 07:08:00,resolved,1016,Resolution confirmed
+900045,500013,2026-07-04 01:31:00,created,,Opened through chat
+900046,500013,2026-07-04 01:54:00,assigned,1023,Assigned to team 6
+900047,500013,2026-07-04 04:45:00,first_response,1023,Initial response sent
+900048,500014,2026-07-04 06:38:00,created,,Opened through phone
+900049,500014,2026-07-04 07:02:00,assigned,1007,Assigned to team 5
+900050,500014,2026-07-04 10:05:00,first_response,1007,Initial response sent
+900051,500015,2026-07-04 11:45:00,created,,Opened through portal
+900052,500015,2026-07-04 12:10:00,assigned,1014,Assigned to team 4
+900053,500015,2026-07-04 15:25:00,first_response,1014,Initial response sent
+900054,500016,2026-07-04 16:52:00,created,,Opened through email
+900055,500016,2026-07-04 17:18:00,assigned,1021,Assigned to team 3
+900056,500016,2026-07-04 20:45:00,first_response,1021,Initial response sent
+900057,500016,2026-07-05 06:44:00,resolved,1021,Resolution confirmed
+900058,500017,2026-07-04 21:59:00,created,,Opened through chat
+900059,500017,2026-07-04 22:26:00,assigned,1005,Assigned to team 2
+900060,500017,2026-07-05 02:05:00,first_response,1005,Initial response sent
+900061,500017,2026-07-05 12:38:00,resolved,1005,Resolution confirmed
+900062,500018,2026-07-05 02:06:00,created,,Opened through phone
+900063,500018,2026-07-05 02:34:00,assigned,1012,Assigned to team 1
+900064,500018,2026-07-05 06:25:00,first_response,1012,Initial response sent
+900065,500018,2026-07-05 17:32:00,resolved,1012,Resolution confirmed
+900066,500019,2026-07-05 07:13:00,created,,Opened through portal
+900067,500019,2026-07-05 07:42:00,assigned,1019,Assigned to team 6
+900068,500019,2026-07-05 11:45:00,first_response,1019,Initial response sent
+900069,500019,2026-07-05 12:53:00,escalated,1019,Escalated for specialist review
+900070,500019,2026-07-05 23:26:00,resolved,1019,Resolution confirmed
+900071,500020,2026-07-05 12:20:00,created,,Opened through email
+900072,500020,2026-07-05 12:30:00,assigned,1003,Assigned to team 5
+900073,500020,2026-07-05 17:05:00,first_response,1003,Initial response sent
+900074,500021,2026-07-05 17:27:00,created,,Opened through chat
+900075,500021,2026-07-05 17:38:00,assigned,1010,Assigned to team 4
+900076,500021,2026-07-05 22:25:00,first_response,1010,Initial response sent
+900077,500022,2026-07-05 22:34:00,created,,Opened through phone
+900078,500022,2026-07-05 22:46:00,assigned,1017,Assigned to team 3
+900079,500022,2026-07-06 03:45:00,first_response,1017,Initial response sent
+900080,500023,2026-07-06 03:41:00,created,,Opened through portal
+900081,500023,2026-07-06 03:54:00,assigned,1001,Assigned to team 2
+900082,500023,2026-07-06 09:05:00,first_response,1001,Initial response sent
+900083,500023,2026-07-06 23:02:00,resolved,1001,Resolution confirmed
+900084,500024,2026-07-06 08:48:00,created,,Opened through email
+900085,500024,2026-07-06 09:02:00,assigned,1008,Assigned to team 1
+900086,500024,2026-07-06 09:25:00,first_response,1008,Initial response sent
+900087,500024,2026-07-07 04:56:00,resolved,1008,Resolution confirmed
+900088,500025,2026-07-06 13:55:00,created,,Opened through chat
+900089,500025,2026-07-06 14:10:00,assigned,1015,Assigned to team 6
+900090,500025,2026-07-06 14:45:00,first_response,1015,Initial response sent
+900091,500026,2026-07-06 18:02:00,created,,Opened through phone
+900092,500026,2026-07-06 18:18:00,assigned,1022,Assigned to team 5
+900093,500026,2026-07-06 19:05:00,first_response,1022,Initial response sent
+900094,500027,2026-07-06 23:09:00,created,,Opened through portal
+900095,500027,2026-07-06 23:26:00,assigned,1006,Assigned to team 4
+900096,500027,2026-07-07 00:25:00,first_response,1006,Initial response sent
+900097,500027,2026-07-07 21:38:00,resolved,1006,Resolution confirmed
+900098,500028,2026-07-07 04:16:00,created,,Opened through email
+900099,500028,2026-07-07 04:34:00,assigned,1013,Assigned to team 3
+900100,500028,2026-07-07 05:45:00,first_response,1013,Initial response sent
+900101,500029,2026-07-07 09:23:00,created,,Opened through chat
+900102,500029,2026-07-07 09:42:00,assigned,1020,Assigned to team 2
+900103,500029,2026-07-07 11:05:00,first_response,1020,Initial response sent
+900104,500029,2026-07-08 09:26:00,resolved,1020,Resolution confirmed
+900105,500030,2026-07-07 14:30:00,created,,Opened through phone
+900106,500030,2026-07-07 14:50:00,assigned,1004,Assigned to team 1
+900107,500030,2026-07-07 16:25:00,first_response,1004,Initial response sent
+900108,500031,2026-07-07 19:37:00,created,,Opened through portal
+900109,500031,2026-07-07 19:58:00,assigned,1011,Assigned to team 6
+900110,500031,2026-07-07 21:45:00,first_response,1011,Initial response sent
+900111,500031,2026-07-08 21:14:00,resolved,1011,Resolution confirmed
+900112,500032,2026-07-08 00:44:00,created,,Opened through email
+900113,500032,2026-07-08 01:06:00,assigned,1018,Assigned to team 5
+900114,500032,2026-07-08 03:05:00,first_response,1018,Initial response sent
+900115,500032,2026-07-09 03:08:00,resolved,1018,Resolution confirmed
+900116,500033,2026-07-08 05:51:00,created,,Opened through chat
+900117,500033,2026-07-08 06:14:00,assigned,1002,Assigned to team 4
+900118,500033,2026-07-08 08:25:00,first_response,1002,Initial response sent
+900119,500034,2026-07-08 10:58:00,created,,Opened through phone
+900120,500034,2026-07-08 11:22:00,assigned,1009,Assigned to team 3
+900121,500034,2026-07-08 13:45:00,first_response,1009,Initial response sent
+900122,500034,2026-07-09 14:56:00,resolved,1009,Resolution confirmed
+900123,500035,2026-07-08 15:05:00,created,,Opened through portal
+900124,500035,2026-07-08 15:30:00,assigned,1016,Assigned to team 2
+900125,500035,2026-07-08 18:05:00,first_response,1016,Initial response sent
+900126,500036,2026-07-08 20:12:00,created,,Opened through email
+900127,500036,2026-07-08 20:38:00,assigned,1023,Assigned to team 1
+900128,500036,2026-07-08 23:25:00,first_response,1023,Initial response sent
+900129,500036,2026-07-10 01:44:00,resolved,1023,Resolution confirmed
+900130,500037,2026-07-09 01:19:00,created,,Opened through chat
+900131,500037,2026-07-09 01:46:00,assigned,1007,Assigned to team 6
+900132,500037,2026-07-09 04:45:00,first_response,1007,Initial response sent
+900133,500037,2026-07-10 07:03:00,reopened,1007,Customer supplied additional detail
+900134,500037,2026-07-10 07:38:00,resolved,1007,Resolution confirmed
+900135,500038,2026-07-09 06:26:00,created,,Opened through phone
+900136,500038,2026-07-09 06:54:00,assigned,1014,Assigned to team 5
+900137,500038,2026-07-09 10:05:00,first_response,1014,Initial response sent
+900138,500038,2026-07-09 12:06:00,escalated,1014,Escalated for specialist review
+900139,500038,2026-07-10 13:32:00,resolved,1014,Resolution confirmed
+900140,500039,2026-07-09 11:33:00,created,,Opened through portal
+900141,500039,2026-07-09 12:02:00,assigned,1021,Assigned to team 4
+900142,500039,2026-07-09 15:25:00,first_response,1021,Initial response sent
+900143,500040,2026-07-09 16:40:00,created,,Opened through email
+900144,500040,2026-07-09 16:50:00,assigned,1005,Assigned to team 3
+900145,500040,2026-07-09 20:45:00,first_response,1005,Initial response sent
+900146,500041,2026-07-09 21:47:00,created,,Opened through chat
+900147,500041,2026-07-09 21:58:00,assigned,1012,Assigned to team 2
+900148,500041,2026-07-10 02:05:00,first_response,1012,Initial response sent
+900149,500041,2026-07-11 07:14:00,resolved,1012,Resolution confirmed
+900150,500042,2026-07-10 02:54:00,created,,Opened through phone
+900151,500042,2026-07-10 03:06:00,assigned,1019,Assigned to team 1
+900152,500042,2026-07-10 07:25:00,first_response,1019,Initial response sent
+900153,500043,2026-07-10 07:01:00,created,,Opened through portal
+900154,500043,2026-07-10 07:14:00,assigned,1003,Assigned to team 6
+900155,500043,2026-07-10 11:45:00,first_response,1003,Initial response sent
+900156,500043,2026-07-11 18:02:00,resolved,1003,Resolution confirmed
+900157,500044,2026-07-10 12:08:00,created,,Opened through email
+900158,500044,2026-07-10 12:22:00,assigned,1010,Assigned to team 5
+900159,500044,2026-07-10 17:05:00,first_response,1010,Initial response sent
+900160,500045,2026-07-10 17:15:00,created,,Opened through chat
+900161,500045,2026-07-10 17:30:00,assigned,1017,Assigned to team 4
+900162,500045,2026-07-10 22:25:00,first_response,1017,Initial response sent
+900163,500046,2026-07-10 22:22:00,created,,Opened through phone
+900164,500046,2026-07-10 22:38:00,assigned,1001,Assigned to team 3
+900165,500046,2026-07-11 03:45:00,first_response,1001,Initial response sent
+900166,500046,2026-07-12 11:44:00,resolved,1001,Resolution confirmed
+900167,500047,2026-07-11 03:29:00,created,,Opened through portal
+900168,500047,2026-07-11 03:46:00,assigned,1008,Assigned to team 2
+900169,500047,2026-07-11 04:05:00,first_response,1008,Initial response sent
+900170,500047,2026-07-12 17:38:00,resolved,1008,Resolution confirmed
+900171,500048,2026-07-11 08:36:00,created,,Opened through email
+900172,500048,2026-07-11 08:54:00,assigned,1015,Assigned to team 1
+900173,500048,2026-07-11 09:25:00,first_response,1015,Initial response sent
+900174,500048,2026-07-12 23:32:00,resolved,1015,Resolution confirmed
+900175,500049,2026-07-11 13:43:00,created,,Opened through chat
+900176,500049,2026-07-11 14:02:00,assigned,1022,Assigned to team 6
+900177,500049,2026-07-11 14:45:00,first_response,1022,Initial response sent
+900178,500050,2026-07-11 18:50:00,created,,Opened through phone
+900179,500050,2026-07-11 19:10:00,assigned,1006,Assigned to team 5
+900180,500050,2026-07-11 20:05:00,first_response,1006,Initial response sent
+900181,500051,2026-07-11 23:57:00,created,,Opened through portal
+900182,500051,2026-07-12 00:18:00,assigned,1013,Assigned to team 4
+900183,500051,2026-07-12 01:25:00,first_response,1013,Initial response sent
+900184,500051,2026-07-13 17:14:00,resolved,1013,Resolution confirmed
+900185,500052,2026-07-12 04:04:00,created,,Opened through email
+900186,500052,2026-07-12 04:26:00,assigned,1020,Assigned to team 3
+900187,500052,2026-07-12 05:45:00,first_response,1020,Initial response sent
+900188,500053,2026-07-12 09:11:00,created,,Opened through chat
+900189,500053,2026-07-12 09:34:00,assigned,1004,Assigned to team 2
+900190,500053,2026-07-12 11:05:00,first_response,1004,Initial response sent
+900191,500053,2026-07-14 04:02:00,resolved,1004,Resolution confirmed
+900192,500054,2026-07-12 14:18:00,created,,Opened through phone
+900193,500054,2026-07-12 14:42:00,assigned,1011,Assigned to team 1
+900194,500054,2026-07-12 16:25:00,first_response,1011,Initial response sent
+900195,500054,2026-07-14 09:56:00,resolved,1011,Resolution confirmed
+900196,500055,2026-07-12 19:25:00,created,,Opened through portal
+900197,500055,2026-07-12 19:50:00,assigned,1018,Assigned to team 6
+900198,500055,2026-07-12 21:45:00,first_response,1018,Initial response sent
+900199,500056,2026-07-13 00:32:00,created,,Opened through email
+900200,500056,2026-07-13 00:58:00,assigned,1002,Assigned to team 5
+900201,500056,2026-07-13 03:05:00,first_response,1002,Initial response sent
+900202,500057,2026-07-13 05:39:00,created,,Opened through chat
+900203,500057,2026-07-13 06:06:00,assigned,1009,Assigned to team 4
+900204,500057,2026-07-13 08:25:00,first_response,1009,Initial response sent
+900205,500057,2026-07-13 11:19:00,escalated,1009,Escalated for specialist review
+900206,500057,2026-07-15 03:38:00,resolved,1009,Resolution confirmed
+900207,500058,2026-07-13 10:46:00,created,,Opened through phone
+900208,500058,2026-07-13 11:14:00,assigned,1016,Assigned to team 3
+900209,500058,2026-07-13 13:45:00,first_response,1016,Initial response sent
+900210,500058,2026-07-15 09:32:00,resolved,1016,Resolution confirmed
+900211,500059,2026-07-13 15:53:00,created,,Opened through portal
+900212,500059,2026-07-13 16:22:00,assigned,1023,Assigned to team 2
+900213,500059,2026-07-13 19:05:00,first_response,1023,Initial response sent
+900214,500059,2026-07-15 15:26:00,resolved,1023,Resolution confirmed
+900215,500060,2026-07-13 20:00:00,created,,Opened through email
+900216,500060,2026-07-13 20:10:00,assigned,1007,Assigned to team 1
+900217,500060,2026-07-13 23:25:00,first_response,1007,Initial response sent
+900218,500061,2026-07-14 01:07:00,created,,Opened through chat
+900219,500061,2026-07-14 01:18:00,assigned,1014,Assigned to team 6
+900220,500061,2026-07-14 04:45:00,first_response,1014,Initial response sent
+900221,500061,2026-07-16 02:14:00,resolved,1014,Resolution confirmed
+900222,500062,2026-07-14 06:14:00,created,,Opened through phone
+900223,500062,2026-07-14 06:26:00,assigned,1021,Assigned to team 5
+900224,500062,2026-07-14 10:05:00,first_response,1021,Initial response sent
+900225,500062,2026-07-16 08:08:00,resolved,1021,Resolution confirmed
+900226,500063,2026-07-14 11:21:00,created,,Opened through portal
+900227,500063,2026-07-14 11:34:00,assigned,1005,Assigned to team 4
+900228,500063,2026-07-14 15:25:00,first_response,1005,Initial response sent
+900229,500064,2026-07-14 16:28:00,created,,Opened through email
+900230,500064,2026-07-14 16:42:00,assigned,1012,Assigned to team 3
+900231,500064,2026-07-14 20:45:00,first_response,1012,Initial response sent
+900232,500064,2026-07-16 19:56:00,resolved,1012,Resolution confirmed
+900233,500065,2026-07-14 21:35:00,created,,Opened through chat
+900234,500065,2026-07-14 21:50:00,assigned,1019,Assigned to team 2
+900235,500065,2026-07-15 02:05:00,first_response,1019,Initial response sent
+900236,500066,2026-07-15 02:42:00,created,,Opened through phone
+900237,500066,2026-07-15 02:58:00,assigned,1003,Assigned to team 1
+900238,500066,2026-07-15 07:25:00,first_response,1003,Initial response sent
+900239,500067,2026-07-15 07:49:00,created,,Opened through portal
+900240,500067,2026-07-15 08:06:00,assigned,1010,Assigned to team 6
+900241,500067,2026-07-15 12:45:00,first_response,1010,Initial response sent
+900242,500067,2026-07-17 13:38:00,resolved,1010,Resolution confirmed
+900243,500068,2026-07-15 12:56:00,created,,Opened through email
+900244,500068,2026-07-15 13:14:00,assigned,1017,Assigned to team 5
+900245,500068,2026-07-15 18:05:00,first_response,1017,Initial response sent
+900246,500068,2026-07-17 19:32:00,resolved,1017,Resolution confirmed
+900247,500069,2026-07-15 17:03:00,created,,Opened through chat
+900248,500069,2026-07-15 17:22:00,assigned,1001,Assigned to team 4
+900249,500069,2026-07-15 22:25:00,first_response,1001,Initial response sent
+900250,500069,2026-07-18 00:26:00,resolved,1001,Resolution confirmed
+900251,500070,2026-07-15 22:10:00,created,,Opened through phone
+900252,500070,2026-07-15 22:30:00,assigned,1008,Assigned to team 3
+900253,500070,2026-07-15 22:45:00,first_response,1008,Initial response sent
+900254,500071,2026-07-16 03:17:00,created,,Opened through portal
+900255,500071,2026-07-16 03:38:00,assigned,1015,Assigned to team 2
+900256,500071,2026-07-16 04:05:00,first_response,1015,Initial response sent
+900257,500071,2026-07-18 12:14:00,resolved,1015,Resolution confirmed
+900258,500072,2026-07-16 08:24:00,created,,Opened through email
+900259,500072,2026-07-16 08:46:00,assigned,1022,Assigned to team 1
+900260,500072,2026-07-16 09:25:00,first_response,1022,Initial response sent
+900261,500072,2026-07-18 18:08:00,resolved,1022,Resolution confirmed
+900262,500073,2026-07-16 13:31:00,created,,Opened through chat
+900263,500073,2026-07-16 13:54:00,assigned,1006,Assigned to team 6
+900264,500073,2026-07-16 14:45:00,first_response,1006,Initial response sent
+900265,500073,2026-07-19 00:02:00,resolved,1006,Resolution confirmed
+900266,500074,2026-07-16 18:38:00,created,,Opened through phone
+900267,500074,2026-07-16 19:02:00,assigned,1013,Assigned to team 5
+900268,500074,2026-07-16 20:05:00,first_response,1013,Initial response sent
+900269,500074,2026-07-19 05:21:00,reopened,1013,Customer supplied additional detail
+900270,500074,2026-07-19 05:56:00,resolved,1013,Resolution confirmed
+900271,500075,2026-07-16 23:45:00,created,,Opened through portal
+900272,500075,2026-07-17 00:10:00,assigned,1020,Assigned to team 4
+900273,500075,2026-07-17 01:25:00,first_response,1020,Initial response sent
+900274,500076,2026-07-17 04:52:00,created,,Opened through email
+900275,500076,2026-07-17 05:18:00,assigned,1004,Assigned to team 3
+900276,500076,2026-07-17 06:45:00,first_response,1004,Initial response sent
+900277,500076,2026-07-17 10:32:00,escalated,1004,Escalated for specialist review
+900278,500076,2026-07-19 17:44:00,resolved,1004,Resolution confirmed
+900279,500077,2026-07-17 09:59:00,created,,Opened through chat
+900280,500077,2026-07-17 10:26:00,assigned,1011,Assigned to team 2
+900281,500077,2026-07-17 12:05:00,first_response,1011,Initial response sent
+900282,500078,2026-07-17 14:06:00,created,,Opened through phone
+900283,500078,2026-07-17 14:34:00,assigned,1018,Assigned to team 1
+900284,500078,2026-07-17 16:25:00,first_response,1018,Initial response sent
+900285,500079,2026-07-17 19:13:00,created,,Opened through portal
+900286,500079,2026-07-17 19:42:00,assigned,1002,Assigned to team 6
+900287,500079,2026-07-17 21:45:00,first_response,1002,Initial response sent
+900288,500079,2026-07-20 10:26:00,resolved,1002,Resolution confirmed
+900289,500080,2026-07-18 00:20:00,created,,Opened through email
+900290,500080,2026-07-18 00:30:00,assigned,1009,Assigned to team 5
+900291,500080,2026-07-18 03:05:00,first_response,1009,Initial response sent
+900292,500081,2026-07-18 05:27:00,created,,Opened through chat
+900293,500081,2026-07-18 05:38:00,assigned,1016,Assigned to team 4
+900294,500081,2026-07-18 08:25:00,first_response,1016,Initial response sent
+900295,500081,2026-07-20 22:14:00,resolved,1016,Resolution confirmed
+900296,500082,2026-07-18 10:34:00,created,,Opened through phone
+900297,500082,2026-07-18 10:46:00,assigned,1023,Assigned to team 3
+900298,500082,2026-07-18 13:45:00,first_response,1023,Initial response sent
+900299,500082,2026-07-21 04:08:00,resolved,1023,Resolution confirmed
+900300,500083,2026-07-18 15:41:00,created,,Opened through portal
+900301,500083,2026-07-18 15:54:00,assigned,1007,Assigned to team 2
+900302,500083,2026-07-18 19:05:00,first_response,1007,Initial response sent
+900303,500083,2026-07-18 17:02:00,resolved,1007,Resolution confirmed
+900304,500084,2026-07-18 20:48:00,created,,Opened through email
+900305,500084,2026-07-18 21:02:00,assigned,1014,Assigned to team 1
+900306,500084,2026-07-19 00:25:00,first_response,1014,Initial response sent
+900307,500085,2026-07-19 01:55:00,created,,Opened through chat
+900308,500085,2026-07-19 02:10:00,assigned,1021,Assigned to team 6
+900309,500085,2026-07-19 05:45:00,first_response,1021,Initial response sent
+900310,500086,2026-07-19 06:02:00,created,,Opened through phone
+900311,500086,2026-07-19 06:18:00,assigned,1005,Assigned to team 5
+900312,500086,2026-07-19 10:05:00,first_response,1005,Initial response sent
+900313,500086,2026-07-19 09:44:00,resolved,1005,Resolution confirmed
+900314,500087,2026-07-19 11:09:00,created,,Opened through portal
+900315,500087,2026-07-19 11:26:00,assigned,1012,Assigned to team 4
+900316,500087,2026-07-19 15:25:00,first_response,1012,Initial response sent
+900317,500087,2026-07-19 15:38:00,resolved,1012,Resolution confirmed
+900318,500088,2026-07-19 16:16:00,created,,Opened through email
+900319,500088,2026-07-19 16:34:00,assigned,1019,Assigned to team 3
+900320,500088,2026-07-19 20:45:00,first_response,1019,Initial response sent
+900321,500089,2026-07-19 21:23:00,created,,Opened through chat
+900322,500089,2026-07-19 21:42:00,assigned,1003,Assigned to team 2
+900323,500089,2026-07-20 02:05:00,first_response,1003,Initial response sent
+900324,500089,2026-07-20 03:26:00,resolved,1003,Resolution confirmed
+900325,500090,2026-07-20 02:30:00,created,,Opened through phone
+900326,500090,2026-07-20 02:50:00,assigned,1010,Assigned to team 1
+900327,500090,2026-07-20 07:25:00,first_response,1010,Initial response sent
+900328,500091,2026-07-20 07:37:00,created,,Opened through portal
+900329,500091,2026-07-20 07:58:00,assigned,1017,Assigned to team 6
+900330,500091,2026-07-20 12:45:00,first_response,1017,Initial response sent
+900331,500092,2026-07-20 12:44:00,created,,Opened through email
+900332,500092,2026-07-20 13:06:00,assigned,1001,Assigned to team 5
+900333,500092,2026-07-20 18:05:00,first_response,1001,Initial response sent
+900334,500092,2026-07-20 21:08:00,resolved,1001,Resolution confirmed
+900335,500093,2026-07-20 17:51:00,created,,Opened through chat
+900336,500093,2026-07-20 18:14:00,assigned,1008,Assigned to team 4
+900337,500093,2026-07-20 18:25:00,first_response,1008,Initial response sent
+900338,500093,2026-07-21 03:02:00,resolved,1008,Resolution confirmed
+900339,500094,2026-07-20 22:58:00,created,,Opened through phone
+900340,500094,2026-07-20 23:22:00,assigned,1015,Assigned to team 3
+900341,500094,2026-07-20 23:45:00,first_response,1015,Initial response sent
+900342,500094,2026-07-21 08:56:00,resolved,1015,Resolution confirmed
+900343,500095,2026-07-21 03:05:00,created,,Opened through portal
+900344,500095,2026-07-21 03:30:00,assigned,1022,Assigned to team 2
+900345,500095,2026-07-21 04:05:00,first_response,1022,Initial response sent
+900346,500095,2026-07-21 08:45:00,escalated,1022,Escalated for specialist review
+900347,500096,2026-07-21 08:12:00,created,,Opened through email
+900348,500096,2026-07-21 08:38:00,assigned,1006,Assigned to team 1
+900349,500096,2026-07-21 09:25:00,first_response,1006,Initial response sent
+900350,500096,2026-07-21 19:44:00,resolved,1006,Resolution confirmed
+900351,500097,2026-07-21 13:19:00,created,,Opened through chat
+900352,500097,2026-07-21 13:46:00,assigned,1013,Assigned to team 6
+900353,500097,2026-07-21 14:45:00,first_response,1013,Initial response sent
+900354,500097,2026-07-22 01:38:00,resolved,1013,Resolution confirmed
+900355,500098,2026-07-21 18:26:00,created,,Opened through phone
+900356,500098,2026-07-21 18:54:00,assigned,1020,Assigned to team 5
+900357,500098,2026-07-21 20:05:00,first_response,1020,Initial response sent
+900358,500099,2026-07-21 23:33:00,created,,Opened through portal
+900359,500099,2026-07-22 00:02:00,assigned,1004,Assigned to team 4
+900360,500099,2026-07-22 01:25:00,first_response,1004,Initial response sent
+900361,500100,2026-07-22 04:40:00,created,,Opened through email
+900362,500100,2026-07-22 04:50:00,assigned,1011,Assigned to team 3
+900363,500100,2026-07-22 06:45:00,first_response,1011,Initial response sent
+900364,500101,2026-07-22 09:47:00,created,,Opened through chat
+900365,500101,2026-07-22 09:58:00,assigned,1018,Assigned to team 2
+900366,500101,2026-07-22 12:05:00,first_response,1018,Initial response sent
+900367,500101,2026-07-23 01:14:00,resolved,1018,Resolution confirmed
+900368,500102,2026-07-22 14:54:00,created,,Opened through phone
+900369,500102,2026-07-22 15:06:00,assigned,1002,Assigned to team 1
+900370,500102,2026-07-22 17:25:00,first_response,1002,Initial response sent
+900371,500102,2026-07-23 07:08:00,resolved,1002,Resolution confirmed
+900372,500103,2026-07-22 19:01:00,created,,Opened through portal
+900373,500103,2026-07-22 19:14:00,assigned,1009,Assigned to team 6
+900374,500103,2026-07-22 21:45:00,first_response,1009,Initial response sent
+900375,500103,2026-07-23 12:02:00,resolved,1009,Resolution confirmed
+900376,500104,2026-07-23 00:08:00,created,,Opened through email
+900377,500104,2026-07-23 00:22:00,assigned,1016,Assigned to team 5
+900378,500104,2026-07-23 03:05:00,first_response,1016,Initial response sent
+900379,500105,2026-07-23 05:15:00,created,,Opened through chat
+900380,500105,2026-07-23 05:30:00,assigned,1023,Assigned to team 4
+900381,500105,2026-07-23 08:25:00,first_response,1023,Initial response sent
+900382,500106,2026-07-23 10:22:00,created,,Opened through phone
+900383,500106,2026-07-23 10:38:00,assigned,1007,Assigned to team 3
+900384,500106,2026-07-23 13:45:00,first_response,1007,Initial response sent
+900385,500106,2026-07-24 05:44:00,resolved,1007,Resolution confirmed
+900386,500107,2026-07-23 15:29:00,created,,Opened through portal
+900387,500107,2026-07-23 15:46:00,assigned,1014,Assigned to team 2
+900388,500107,2026-07-23 19:05:00,first_response,1014,Initial response sent
+900389,500107,2026-07-24 11:38:00,resolved,1014,Resolution confirmed
+900390,500108,2026-07-23 20:36:00,created,,Opened through email
+900391,500108,2026-07-23 20:54:00,assigned,1021,Assigned to team 1
+900392,500108,2026-07-24 00:25:00,first_response,1021,Initial response sent
+900393,500108,2026-07-24 17:32:00,resolved,1021,Resolution confirmed
+900394,500109,2026-07-24 01:43:00,created,,Opened through chat
+900395,500109,2026-07-24 02:02:00,assigned,1005,Assigned to team 6
+900396,500109,2026-07-24 05:45:00,first_response,1005,Initial response sent
+900397,500109,2026-07-24 23:26:00,resolved,1005,Resolution confirmed
+900398,500110,2026-07-24 06:50:00,created,,Opened through phone
+900399,500110,2026-07-24 07:10:00,assigned,1012,Assigned to team 5
+900400,500110,2026-07-24 11:05:00,first_response,1012,Initial response sent
+900401,500111,2026-07-24 11:57:00,created,,Opened through portal
+900402,500111,2026-07-24 12:18:00,assigned,1019,Assigned to team 4
+900403,500111,2026-07-24 16:25:00,first_response,1019,Initial response sent
+900404,500111,2026-07-25 10:39:00,reopened,1019,Customer supplied additional detail
+900405,500111,2026-07-25 11:14:00,resolved,1019,Resolution confirmed
+900406,500112,2026-07-24 16:04:00,created,,Opened through email
+900407,500112,2026-07-24 16:26:00,assigned,1003,Assigned to team 3
+900408,500112,2026-07-24 20:45:00,first_response,1003,Initial response sent
+900409,500113,2026-07-24 21:11:00,created,,Opened through chat
+900410,500113,2026-07-24 21:34:00,assigned,1010,Assigned to team 2
+900411,500113,2026-07-25 02:05:00,first_response,1010,Initial response sent
+900412,500113,2026-07-25 22:02:00,resolved,1010,Resolution confirmed
+900413,500114,2026-07-25 02:18:00,created,,Opened through phone
+900414,500114,2026-07-25 02:42:00,assigned,1017,Assigned to team 1
+900415,500114,2026-07-25 07:25:00,first_response,1017,Initial response sent
+900416,500114,2026-07-25 07:58:00,escalated,1017,Escalated for specialist review
+900417,500114,2026-07-26 03:56:00,resolved,1017,Resolution confirmed
+900418,500115,2026-07-25 07:25:00,created,,Opened through portal
+900419,500115,2026-07-25 07:50:00,assigned,1001,Assigned to team 6
+900420,500115,2026-07-25 12:45:00,first_response,1001,Initial response sent
+900421,500116,2026-07-25 12:32:00,created,,Opened through email
+900422,500116,2026-07-25 12:58:00,assigned,1008,Assigned to team 5
+900423,500116,2026-07-25 13:05:00,first_response,1008,Initial response sent
+900424,500116,2026-07-26 15:44:00,resolved,1008,Resolution confirmed
+900425,500117,2026-07-25 17:39:00,created,,Opened through chat
+900426,500117,2026-07-25 18:06:00,assigned,1015,Assigned to team 4
+900427,500117,2026-07-25 18:25:00,first_response,1015,Initial response sent
+900428,500118,2026-07-25 22:46:00,created,,Opened through phone
+900429,500118,2026-07-25 23:14:00,assigned,1022,Assigned to team 3
+900430,500118,2026-07-25 23:45:00,first_response,1022,Initial response sent
+900431,500118,2026-07-27 03:32:00,resolved,1022,Resolution confirmed
+900432,500119,2026-07-26 03:53:00,created,,Opened through portal
+900433,500119,2026-07-26 04:22:00,assigned,1006,Assigned to team 2
+900434,500119,2026-07-26 05:05:00,first_response,1006,Initial response sent
+900435,500120,2026-07-26 08:00:00,created,,Opened through email
+900436,500120,2026-07-26 08:10:00,assigned,1013,Assigned to team 1
+900437,500120,2026-07-26 09:25:00,first_response,1013,Initial response sent
+900438,500121,2026-07-26 13:07:00,created,,Opened through chat
+900439,500121,2026-07-26 13:18:00,assigned,1020,Assigned to team 6
+900440,500121,2026-07-26 14:45:00,first_response,1020,Initial response sent
+900441,500122,2026-07-26 18:14:00,created,,Opened through phone
+900442,500122,2026-07-26 18:26:00,assigned,1004,Assigned to team 5
+900443,500122,2026-07-26 20:05:00,first_response,1004,Initial response sent
+900444,500122,2026-07-28 02:08:00,resolved,1004,Resolution confirmed
+900445,500123,2026-07-26 23:21:00,created,,Opened through portal
+900446,500123,2026-07-26 23:34:00,assigned,1011,Assigned to team 4
+900447,500123,2026-07-27 01:25:00,first_response,1011,Initial response sent
+900448,500123,2026-07-28 08:02:00,resolved,1011,Resolution confirmed
+900449,500124,2026-07-27 04:28:00,created,,Opened through email
+900450,500124,2026-07-27 04:42:00,assigned,1018,Assigned to team 3
+900451,500124,2026-07-27 06:45:00,first_response,1018,Initial response sent
+900452,500124,2026-07-28 13:56:00,resolved,1018,Resolution confirmed
+900453,500125,2026-07-27 09:35:00,created,,Opened through chat
+900454,500125,2026-07-27 09:50:00,assigned,1002,Assigned to team 2
+900455,500125,2026-07-27 12:05:00,first_response,1002,Initial response sent
+900456,500126,2026-07-27 14:42:00,created,,Opened through phone
+900457,500126,2026-07-27 14:58:00,assigned,1009,Assigned to team 1
+900458,500126,2026-07-27 17:25:00,first_response,1009,Initial response sent
+900459,500127,2026-07-27 19:49:00,created,,Opened through portal
+900460,500127,2026-07-27 20:06:00,assigned,1016,Assigned to team 6
+900461,500127,2026-07-27 22:45:00,first_response,1016,Initial response sent
+900462,500127,2026-07-29 07:38:00,resolved,1016,Resolution confirmed
+900463,500128,2026-07-28 00:56:00,created,,Opened through email
+900464,500128,2026-07-28 01:14:00,assigned,1023,Assigned to team 5
+900465,500128,2026-07-28 04:05:00,first_response,1023,Initial response sent
+900466,500128,2026-07-29 13:32:00,resolved,1023,Resolution confirmed
+900467,500129,2026-07-28 05:03:00,created,,Opened through chat
+900468,500129,2026-07-28 05:22:00,assigned,1007,Assigned to team 4
+900469,500129,2026-07-28 08:25:00,first_response,1007,Initial response sent
+900470,500129,2026-07-29 18:26:00,resolved,1007,Resolution confirmed
+900471,500130,2026-07-28 10:10:00,created,,Opened through phone
+900472,500130,2026-07-28 10:30:00,assigned,1014,Assigned to team 3
+900473,500130,2026-07-28 13:45:00,first_response,1014,Initial response sent
+900474,500131,2026-07-28 15:17:00,created,,Opened through portal
+900475,500131,2026-07-28 15:38:00,assigned,1021,Assigned to team 2
+900476,500131,2026-07-28 19:05:00,first_response,1021,Initial response sent
+900477,500131,2026-07-30 06:14:00,resolved,1021,Resolution confirmed
+900478,500132,2026-07-28 20:24:00,created,,Opened through email
+900479,500132,2026-07-28 20:46:00,assigned,1005,Assigned to team 1
+900480,500132,2026-07-29 00:25:00,first_response,1005,Initial response sent
+900481,500133,2026-07-29 01:31:00,created,,Opened through chat
+900482,500133,2026-07-29 01:54:00,assigned,1012,Assigned to team 6
+900483,500133,2026-07-29 05:45:00,first_response,1012,Initial response sent
+900484,500133,2026-07-29 07:11:00,escalated,1012,Escalated for specialist review
+900485,500134,2026-07-29 06:38:00,created,,Opened through phone
+900486,500134,2026-07-29 07:02:00,assigned,1019,Assigned to team 5
+900487,500134,2026-07-29 11:05:00,first_response,1019,Initial response sent
+900488,500134,2026-07-30 23:56:00,resolved,1019,Resolution confirmed
+900489,500135,2026-07-29 11:45:00,created,,Opened through portal
+900490,500135,2026-07-29 12:10:00,assigned,1003,Assigned to team 4
+900491,500135,2026-07-29 16:25:00,first_response,1003,Initial response sent
+900492,500136,2026-07-29 16:52:00,created,,Opened through email
+900493,500136,2026-07-29 17:18:00,assigned,1010,Assigned to team 3
+900494,500136,2026-07-29 21:45:00,first_response,1010,Initial response sent
+900495,500136,2026-07-31 11:44:00,resolved,1010,Resolution confirmed
+900496,500137,2026-07-29 21:59:00,created,,Opened through chat
+900497,500137,2026-07-29 22:26:00,assigned,1017,Assigned to team 2
+900498,500137,2026-07-30 03:05:00,first_response,1017,Initial response sent
+900499,500137,2026-07-31 17:38:00,resolved,1017,Resolution confirmed
+900500,500138,2026-07-30 02:06:00,created,,Opened through phone
+900501,500138,2026-07-30 02:34:00,assigned,1001,Assigned to team 1
+900502,500138,2026-07-30 07:25:00,first_response,1001,Initial response sent
+900503,500138,2026-07-31 22:32:00,resolved,1001,Resolution confirmed
+900504,500139,2026-07-30 07:13:00,created,,Opened through portal
+900505,500139,2026-07-30 07:42:00,assigned,1008,Assigned to team 6
+900506,500139,2026-07-30 07:45:00,first_response,1008,Initial response sent
+900507,500139,2026-08-01 04:26:00,resolved,1008,Resolution confirmed
+900508,500140,2026-07-30 12:20:00,created,,Opened through email
+900509,500140,2026-07-30 12:30:00,assigned,1015,Assigned to team 5
+900510,500140,2026-07-30 13:05:00,first_response,1015,Initial response sent
+900511,500141,2026-07-30 17:27:00,created,,Opened through chat
+900512,500141,2026-07-30 17:38:00,assigned,1022,Assigned to team 4
+900513,500141,2026-07-30 18:25:00,first_response,1022,Initial response sent
+900514,500141,2026-08-01 16:14:00,resolved,1022,Resolution confirmed
+900515,500142,2026-07-30 22:34:00,created,,Opened through phone
+900516,500142,2026-07-30 22:46:00,assigned,1006,Assigned to team 3
+900517,500142,2026-07-30 23:45:00,first_response,1006,Initial response sent
+900518,500142,2026-08-01 22:08:00,resolved,1006,Resolution confirmed
+900519,500143,2026-07-31 03:41:00,created,,Opened through portal
+900520,500143,2026-07-31 03:54:00,assigned,1013,Assigned to team 2
+900521,500143,2026-07-31 05:05:00,first_response,1013,Initial response sent
+900522,500144,2026-07-31 08:48:00,created,,Opened through email
+900523,500144,2026-07-31 09:02:00,assigned,1020,Assigned to team 1
+900524,500144,2026-07-31 10:25:00,first_response,1020,Initial response sent
+900525,500144,2026-08-02 09:56:00,resolved,1020,Resolution confirmed
+900526,500145,2026-07-31 13:55:00,created,,Opened through chat
+900527,500145,2026-07-31 14:10:00,assigned,1004,Assigned to team 6
+900528,500145,2026-07-31 15:45:00,first_response,1004,Initial response sent
+900529,500146,2026-07-31 18:02:00,created,,Opened through phone
+900530,500146,2026-07-31 18:18:00,assigned,1011,Assigned to team 5
+900531,500146,2026-07-31 20:05:00,first_response,1011,Initial response sent
+900532,500146,2026-08-02 20:44:00,resolved,1011,Resolution confirmed
+900533,500147,2026-07-31 23:09:00,created,,Opened through portal
+900534,500147,2026-07-31 23:26:00,assigned,1018,Assigned to team 4
+900535,500147,2026-08-01 01:25:00,first_response,1018,Initial response sent
+900536,500148,2026-08-01 04:16:00,created,,Opened through email
+900537,500148,2026-08-01 04:34:00,assigned,1002,Assigned to team 3
+900538,500148,2026-08-01 06:45:00,first_response,1002,Initial response sent
+900539,500148,2026-08-03 07:57:00,reopened,1002,Customer supplied additional detail
+900540,500148,2026-08-03 08:32:00,resolved,1002,Resolution confirmed
+900541,500149,2026-08-01 09:23:00,created,,Opened through chat
+900542,500149,2026-08-01 09:42:00,assigned,1009,Assigned to team 2
+900543,500149,2026-08-01 12:05:00,first_response,1009,Initial response sent
+900544,500149,2026-08-03 14:26:00,resolved,1009,Resolution confirmed
+900545,500150,2026-08-01 14:30:00,created,,Opened through phone
+900546,500150,2026-08-01 14:50:00,assigned,1016,Assigned to team 1
+900547,500150,2026-08-01 17:25:00,first_response,1016,Initial response sent
+900548,500151,2026-08-01 19:37:00,created,,Opened through portal
+900549,500151,2026-08-01 19:58:00,assigned,1023,Assigned to team 6
+900550,500151,2026-08-01 22:45:00,first_response,1023,Initial response sent
+900551,500151,2026-08-04 02:14:00,resolved,1023,Resolution confirmed
+900552,500152,2026-08-02 00:44:00,created,,Opened through email
+900553,500152,2026-08-02 01:06:00,assigned,1007,Assigned to team 5
+900554,500152,2026-08-02 04:05:00,first_response,1007,Initial response sent
+900555,500152,2026-08-02 06:24:00,escalated,1007,Escalated for specialist review
+900556,500152,2026-08-04 08:08:00,resolved,1007,Resolution confirmed
+900557,500153,2026-08-02 05:51:00,created,,Opened through chat
+900558,500153,2026-08-02 06:14:00,assigned,1014,Assigned to team 4
+900559,500153,2026-08-02 09:25:00,first_response,1014,Initial response sent
+900560,500153,2026-08-04 14:02:00,resolved,1014,Resolution confirmed
+900561,500154,2026-08-02 10:58:00,created,,Opened through phone
+900562,500154,2026-08-02 11:22:00,assigned,1021,Assigned to team 3
+900563,500154,2026-08-02 14:45:00,first_response,1021,Initial response sent
+900564,500155,2026-08-02 15:05:00,created,,Opened through portal
+900565,500155,2026-08-02 15:30:00,assigned,1005,Assigned to team 2
+900566,500155,2026-08-02 19:05:00,first_response,1005,Initial response sent
+900567,500156,2026-08-02 20:12:00,created,,Opened through email
+900568,500156,2026-08-02 20:38:00,assigned,1012,Assigned to team 1
+900569,500156,2026-08-03 00:25:00,first_response,1012,Initial response sent
+900570,500157,2026-08-03 01:19:00,created,,Opened through chat
+900571,500157,2026-08-03 01:46:00,assigned,1019,Assigned to team 6
+900572,500157,2026-08-03 05:45:00,first_response,1019,Initial response sent
+900573,500157,2026-08-05 12:38:00,resolved,1019,Resolution confirmed
+900574,500158,2026-08-03 06:26:00,created,,Opened through phone
+900575,500158,2026-08-03 06:54:00,assigned,1003,Assigned to team 5
+900576,500158,2026-08-03 11:05:00,first_response,1003,Initial response sent
+900577,500158,2026-08-05 18:32:00,resolved,1003,Resolution confirmed
+900578,500159,2026-08-03 11:33:00,created,,Opened through portal
+900579,500159,2026-08-03 12:02:00,assigned,1010,Assigned to team 4
+900580,500159,2026-08-03 16:25:00,first_response,1010,Initial response sent
+900581,500159,2026-08-06 00:26:00,resolved,1010,Resolution confirmed
+900582,500160,2026-08-03 16:40:00,created,,Opened through email
+900583,500160,2026-08-03 16:50:00,assigned,1017,Assigned to team 3
+900584,500160,2026-08-03 21:45:00,first_response,1017,Initial response sent
+900585,500161,2026-08-03 21:47:00,created,,Opened through chat
+900586,500161,2026-08-03 21:58:00,assigned,1001,Assigned to team 2
+900587,500161,2026-08-04 03:05:00,first_response,1001,Initial response sent
+900588,500162,2026-08-04 02:54:00,created,,Opened through phone
+900589,500162,2026-08-04 03:06:00,assigned,1008,Assigned to team 1
+900590,500162,2026-08-04 03:25:00,first_response,1008,Initial response sent
+900591,500162,2026-08-06 18:08:00,resolved,1008,Resolution confirmed
+900592,500163,2026-08-04 07:01:00,created,,Opened through portal
+900593,500163,2026-08-04 07:14:00,assigned,1015,Assigned to team 6
+900594,500163,2026-08-04 07:45:00,first_response,1015,Initial response sent
+900595,500163,2026-08-06 23:02:00,resolved,1015,Resolution confirmed
+900596,500164,2026-08-04 12:08:00,created,,Opened through email
+900597,500164,2026-08-04 12:22:00,assigned,1022,Assigned to team 5
+900598,500164,2026-08-04 13:05:00,first_response,1022,Initial response sent
+900599,500164,2026-08-07 04:56:00,resolved,1022,Resolution confirmed
+900600,500165,2026-08-04 17:15:00,created,,Opened through chat
+900601,500165,2026-08-04 17:30:00,assigned,1006,Assigned to team 4
+900602,500165,2026-08-04 18:25:00,first_response,1006,Initial response sent
+900603,500166,2026-08-04 22:22:00,created,,Opened through phone
+900604,500166,2026-08-04 22:38:00,assigned,1013,Assigned to team 3
+900605,500166,2026-08-04 23:45:00,first_response,1013,Initial response sent
+900606,500166,2026-08-04 23:44:00,resolved,1013,Resolution confirmed
+900607,500167,2026-08-05 03:29:00,created,,Opened through portal
+900608,500167,2026-08-05 03:46:00,assigned,1020,Assigned to team 2
+900609,500167,2026-08-05 05:05:00,first_response,1020,Initial response sent
+900610,500167,2026-08-05 05:38:00,resolved,1020,Resolution confirmed
+900611,500168,2026-08-05 08:36:00,created,,Opened through email
+900612,500168,2026-08-05 08:54:00,assigned,1004,Assigned to team 1
+900613,500168,2026-08-05 10:25:00,first_response,1004,Initial response sent
+900614,500169,2026-08-05 13:43:00,created,,Opened through chat
+900615,500169,2026-08-05 14:02:00,assigned,1011,Assigned to team 6
+900616,500169,2026-08-05 15:45:00,first_response,1011,Initial response sent
+900617,500170,2026-08-05 18:50:00,created,,Opened through phone
+900618,500170,2026-08-05 19:10:00,assigned,1018,Assigned to team 5
+900619,500170,2026-08-05 21:05:00,first_response,1018,Initial response sent
+900620,500171,2026-08-05 23:57:00,created,,Opened through portal
+900621,500171,2026-08-06 00:18:00,assigned,1002,Assigned to team 4
+900622,500171,2026-08-06 02:25:00,first_response,1002,Initial response sent
+900623,500171,2026-08-06 05:37:00,escalated,1002,Escalated for specialist review
+900624,500171,2026-08-06 05:14:00,resolved,1002,Resolution confirmed
+900625,500172,2026-08-06 04:04:00,created,,Opened through email
+900626,500172,2026-08-06 04:26:00,assigned,1009,Assigned to team 3
+900627,500172,2026-08-06 06:45:00,first_response,1009,Initial response sent
+900628,500172,2026-08-06 10:08:00,resolved,1009,Resolution confirmed
+900629,500173,2026-08-06 09:11:00,created,,Opened through chat
+900630,500173,2026-08-06 09:34:00,assigned,1016,Assigned to team 2
+900631,500173,2026-08-06 12:05:00,first_response,1016,Initial response sent
+900632,500173,2026-08-06 16:02:00,resolved,1016,Resolution confirmed
+900633,500174,2026-08-06 14:18:00,created,,Opened through phone
+900634,500174,2026-08-06 14:42:00,assigned,1023,Assigned to team 1
+900635,500174,2026-08-06 17:25:00,first_response,1023,Initial response sent
+900636,500174,2026-08-06 21:56:00,resolved,1023,Resolution confirmed
+900637,500175,2026-08-06 19:25:00,created,,Opened through portal
+900638,500175,2026-08-06 19:50:00,assigned,1007,Assigned to team 6
+900639,500175,2026-08-06 22:45:00,first_response,1007,Initial response sent
+900640,500176,2026-08-07 00:32:00,created,,Opened through email
+900641,500176,2026-08-07 00:58:00,assigned,1014,Assigned to team 5
+900642,500176,2026-08-07 04:05:00,first_response,1014,Initial response sent
+900643,500177,2026-08-07 05:39:00,created,,Opened through chat
+900644,500177,2026-08-07 06:06:00,assigned,1021,Assigned to team 4
+900645,500177,2026-08-07 09:25:00,first_response,1021,Initial response sent
+900646,500177,2026-08-07 15:38:00,resolved,1021,Resolution confirmed
+900647,500178,2026-08-07 10:46:00,created,,Opened through phone
+900648,500178,2026-08-07 11:14:00,assigned,1005,Assigned to team 3
+900649,500178,2026-08-07 14:45:00,first_response,1005,Initial response sent
+900650,500178,2026-08-07 21:32:00,resolved,1005,Resolution confirmed
+900651,500179,2026-08-07 15:53:00,created,,Opened through portal
+900652,500179,2026-08-07 16:22:00,assigned,1012,Assigned to team 2
+900653,500179,2026-08-07 20:05:00,first_response,1012,Initial response sent
+900654,500179,2026-08-08 03:26:00,resolved,1012,Resolution confirmed
+900655,500180,2026-08-07 20:00:00,created,,Opened through email
+900656,500180,2026-08-07 20:10:00,assigned,1019,Assigned to team 1
+900657,500180,2026-08-08 00:25:00,first_response,1019,Initial response sent
+900658,500181,2026-08-08 01:07:00,created,,Opened through chat
+900659,500181,2026-08-08 01:18:00,assigned,1003,Assigned to team 6
+900660,500181,2026-08-08 05:45:00,first_response,1003,Initial response sent
+900661,500181,2026-08-08 14:14:00,resolved,1003,Resolution confirmed
+900662,500182,2026-08-08 06:14:00,created,,Opened through phone
+900663,500182,2026-08-08 06:26:00,assigned,1010,Assigned to team 5
+900664,500182,2026-08-08 11:05:00,first_response,1010,Initial response sent
+900665,500183,2026-08-08 11:21:00,created,,Opened through portal
+900666,500183,2026-08-08 11:34:00,assigned,1017,Assigned to team 4
+900667,500183,2026-08-08 16:25:00,first_response,1017,Initial response sent
+900668,500183,2026-08-09 02:02:00,resolved,1017,Resolution confirmed
+900669,500184,2026-08-08 16:28:00,created,,Opened through email
+900670,500184,2026-08-08 16:42:00,assigned,1001,Assigned to team 3
+900671,500184,2026-08-08 21:45:00,first_response,1001,Initial response sent
+900672,500184,2026-08-09 07:56:00,resolved,1001,Resolution confirmed
+900673,500185,2026-08-08 21:35:00,created,,Opened through chat
+900674,500185,2026-08-08 21:50:00,assigned,1008,Assigned to team 2
+900675,500185,2026-08-08 22:05:00,first_response,1008,Initial response sent
+900676,500186,2026-08-09 02:42:00,created,,Opened through phone
+900677,500186,2026-08-09 02:58:00,assigned,1015,Assigned to team 1
+900678,500186,2026-08-09 03:25:00,first_response,1015,Initial response sent
+900679,500186,2026-08-09 19:44:00,resolved,1015,Resolution confirmed
+900680,500187,2026-08-09 07:49:00,created,,Opened through portal
+900681,500187,2026-08-09 08:06:00,assigned,1022,Assigned to team 6
+900682,500187,2026-08-09 08:45:00,first_response,1022,Initial response sent
+900683,500188,2026-08-09 12:56:00,created,,Opened through email
+900684,500188,2026-08-09 13:14:00,assigned,1006,Assigned to team 5
+900685,500188,2026-08-09 14:05:00,first_response,1006,Initial response sent
+900686,500188,2026-08-10 07:32:00,resolved,1006,Resolution confirmed
+900687,500189,2026-08-09 17:03:00,created,,Opened through chat
+900688,500189,2026-08-09 17:22:00,assigned,1013,Assigned to team 4
+900689,500189,2026-08-09 18:25:00,first_response,1013,Initial response sent
+900690,500190,2026-08-09 22:10:00,created,,Opened through phone
+900691,500190,2026-08-09 22:30:00,assigned,1020,Assigned to team 3
+900692,500190,2026-08-09 23:45:00,first_response,1020,Initial response sent
+900693,500190,2026-08-10 03:50:00,escalated,1020,Escalated for specialist review
+900694,500191,2026-08-10 03:17:00,created,,Opened through portal
+900695,500191,2026-08-10 03:38:00,assigned,1004,Assigned to team 2
+900696,500191,2026-08-10 05:05:00,first_response,1004,Initial response sent
+900697,500191,2026-08-11 00:14:00,resolved,1004,Resolution confirmed
+900698,500192,2026-08-10 08:24:00,created,,Opened through email
+900699,500192,2026-08-10 08:46:00,assigned,1011,Assigned to team 1
+900700,500192,2026-08-10 10:25:00,first_response,1011,Initial response sent
+900701,500192,2026-08-11 06:08:00,resolved,1011,Resolution confirmed
+900702,500193,2026-08-10 13:31:00,created,,Opened through chat
+900703,500193,2026-08-10 13:54:00,assigned,1018,Assigned to team 6
+900704,500193,2026-08-10 15:45:00,first_response,1018,Initial response sent
+900705,500193,2026-08-11 12:02:00,resolved,1018,Resolution confirmed
+900706,500194,2026-08-10 18:38:00,created,,Opened through phone
+900707,500194,2026-08-10 19:02:00,assigned,1002,Assigned to team 5
+900708,500194,2026-08-10 21:05:00,first_response,1002,Initial response sent
+900709,500194,2026-08-11 17:56:00,resolved,1002,Resolution confirmed
+900710,500195,2026-08-10 23:45:00,created,,Opened through portal
+900711,500195,2026-08-11 00:10:00,assigned,1009,Assigned to team 4
+900712,500195,2026-08-11 02:25:00,first_response,1009,Initial response sent
+900713,500196,2026-08-11 04:52:00,created,,Opened through email
+900714,500196,2026-08-11 05:18:00,assigned,1016,Assigned to team 3
+900715,500196,2026-08-11 07:45:00,first_response,1016,Initial response sent
+900716,500197,2026-08-11 09:59:00,created,,Opened through chat
+900717,500197,2026-08-11 10:26:00,assigned,1023,Assigned to team 2
+900718,500197,2026-08-11 13:05:00,first_response,1023,Initial response sent
+900719,500197,2026-08-12 11:38:00,resolved,1023,Resolution confirmed
+900720,500198,2026-08-11 14:06:00,created,,Opened through phone
+900721,500198,2026-08-11 14:34:00,assigned,1007,Assigned to team 1
+900722,500198,2026-08-11 17:25:00,first_response,1007,Initial response sent
+900723,500199,2026-08-11 19:13:00,created,,Opened through portal
+900724,500199,2026-08-11 19:42:00,assigned,1014,Assigned to team 6
+900725,500199,2026-08-11 22:45:00,first_response,1014,Initial response sent
+900726,500199,2026-08-12 22:26:00,resolved,1014,Resolution confirmed
+900727,500200,2026-08-12 00:20:00,created,,Opened through email
+900728,500200,2026-08-12 00:30:00,assigned,1021,Assigned to team 5
+900729,500200,2026-08-12 04:05:00,first_response,1021,Initial response sent
+900730,500201,2026-08-12 05:27:00,created,,Opened through chat
+900731,500201,2026-08-12 05:38:00,assigned,1005,Assigned to team 4
+900732,500201,2026-08-12 09:25:00,first_response,1005,Initial response sent
+900733,500201,2026-08-13 10:14:00,resolved,1005,Resolution confirmed
+900734,500202,2026-08-12 10:34:00,created,,Opened through phone
+900735,500202,2026-08-12 10:46:00,assigned,1012,Assigned to team 3
+900736,500202,2026-08-12 14:45:00,first_response,1012,Initial response sent
+900737,500202,2026-08-13 16:08:00,resolved,1012,Resolution confirmed
+900738,500203,2026-08-12 15:41:00,created,,Opened through portal
+900739,500203,2026-08-12 15:54:00,assigned,1019,Assigned to team 2
+900740,500203,2026-08-12 20:05:00,first_response,1019,Initial response sent
+900741,500204,2026-08-12 20:48:00,created,,Opened through email
+900742,500204,2026-08-12 21:02:00,assigned,1003,Assigned to team 1
+900743,500204,2026-08-13 01:25:00,first_response,1003,Initial response sent
+900744,500204,2026-08-14 03:56:00,resolved,1003,Resolution confirmed
+900745,500205,2026-08-13 01:55:00,created,,Opened through chat
+900746,500205,2026-08-13 02:10:00,assigned,1010,Assigned to team 6
+900747,500205,2026-08-13 06:45:00,first_response,1010,Initial response sent
+900748,500206,2026-08-13 06:02:00,created,,Opened through phone
+900749,500206,2026-08-13 06:18:00,assigned,1017,Assigned to team 5
+900750,500206,2026-08-13 11:05:00,first_response,1017,Initial response sent
+900751,500206,2026-08-14 14:44:00,resolved,1017,Resolution confirmed
+900752,500207,2026-08-13 11:09:00,created,,Opened through portal
+900753,500207,2026-08-13 11:26:00,assigned,1001,Assigned to team 4
+900754,500207,2026-08-13 16:25:00,first_response,1001,Initial response sent
+900755,500207,2026-08-14 20:38:00,resolved,1001,Resolution confirmed
+900756,500208,2026-08-13 16:16:00,created,,Opened through email
+900757,500208,2026-08-13 16:34:00,assigned,1008,Assigned to team 3
+900758,500208,2026-08-13 16:45:00,first_response,1008,Initial response sent
+900759,500209,2026-08-13 21:23:00,created,,Opened through chat
+900760,500209,2026-08-13 21:42:00,assigned,1015,Assigned to team 2
+900761,500209,2026-08-13 22:05:00,first_response,1015,Initial response sent
+900762,500209,2026-08-14 03:03:00,escalated,1015,Escalated for specialist review
+900763,500210,2026-08-14 02:30:00,created,,Opened through phone
+900764,500210,2026-08-14 02:50:00,assigned,1022,Assigned to team 1
+900765,500210,2026-08-14 03:25:00,first_response,1022,Initial response sent
+900766,500211,2026-08-14 07:37:00,created,,Opened through portal
+900767,500211,2026-08-14 07:58:00,assigned,1006,Assigned to team 6
+900768,500211,2026-08-14 08:45:00,first_response,1006,Initial response sent
+900769,500211,2026-08-15 20:14:00,resolved,1006,Resolution confirmed
+900770,500212,2026-08-14 12:44:00,created,,Opened through email
+900771,500212,2026-08-14 13:06:00,assigned,1013,Assigned to team 5
+900772,500212,2026-08-14 14:05:00,first_response,1013,Initial response sent
+900773,500212,2026-08-16 02:08:00,resolved,1013,Resolution confirmed
+900774,500213,2026-08-14 17:51:00,created,,Opened through chat
+900775,500213,2026-08-14 18:14:00,assigned,1020,Assigned to team 4
+900776,500213,2026-08-14 19:25:00,first_response,1020,Initial response sent
+900777,500213,2026-08-16 08:02:00,resolved,1020,Resolution confirmed
+900778,500214,2026-08-14 22:58:00,created,,Opened through phone
+900779,500214,2026-08-14 23:22:00,assigned,1004,Assigned to team 3
+900780,500214,2026-08-15 00:45:00,first_response,1004,Initial response sent
+900781,500214,2026-08-16 13:56:00,resolved,1004,Resolution confirmed
+900782,500215,2026-08-15 03:05:00,created,,Opened through portal
+900783,500215,2026-08-15 03:30:00,assigned,1011,Assigned to team 2
+900784,500215,2026-08-15 05:05:00,first_response,1011,Initial response sent
+900785,500216,2026-08-15 08:12:00,created,,Opened through email
+900786,500216,2026-08-15 08:38:00,assigned,1018,Assigned to team 1
+900787,500216,2026-08-15 10:25:00,first_response,1018,Initial response sent
+900788,500216,2026-08-17 00:44:00,resolved,1018,Resolution confirmed
+900789,500217,2026-08-15 13:19:00,created,,Opened through chat
+900790,500217,2026-08-15 13:46:00,assigned,1002,Assigned to team 6
+900791,500217,2026-08-15 15:45:00,first_response,1002,Initial response sent
+900792,500218,2026-08-15 18:26:00,created,,Opened through phone
+900793,500218,2026-08-15 18:54:00,assigned,1009,Assigned to team 5
+900794,500218,2026-08-15 21:05:00,first_response,1009,Initial response sent
+900795,500218,2026-08-17 12:32:00,resolved,1009,Resolution confirmed
+900796,500219,2026-08-15 23:33:00,created,,Opened through portal
+900797,500219,2026-08-16 00:02:00,assigned,1016,Assigned to team 4
+900798,500219,2026-08-16 02:25:00,first_response,1016,Initial response sent
+900799,500219,2026-08-17 18:26:00,resolved,1016,Resolution confirmed
+900800,500220,2026-08-16 04:40:00,created,,Opened through email
+900801,500220,2026-08-16 04:50:00,assigned,1023,Assigned to team 3
+900802,500220,2026-08-16 07:45:00,first_response,1023,Initial response sent
+900803,500221,2026-08-16 09:47:00,created,,Opened through chat
+900804,500221,2026-08-16 09:58:00,assigned,1007,Assigned to team 2
+900805,500221,2026-08-16 13:05:00,first_response,1007,Initial response sent
+900806,500222,2026-08-16 14:54:00,created,,Opened through phone
+900807,500222,2026-08-16 15:06:00,assigned,1014,Assigned to team 1
+900808,500222,2026-08-16 18:25:00,first_response,1014,Initial response sent
+900809,500222,2026-08-18 11:33:00,reopened,1014,Customer supplied additional detail
+900810,500222,2026-08-18 12:08:00,resolved,1014,Resolution confirmed
+900811,500223,2026-08-16 19:01:00,created,,Opened through portal
+900812,500223,2026-08-16 19:14:00,assigned,1021,Assigned to team 6
+900813,500223,2026-08-16 22:45:00,first_response,1021,Initial response sent
+900814,500223,2026-08-18 17:02:00,resolved,1021,Resolution confirmed
+900815,500224,2026-08-17 00:08:00,created,,Opened through email
+900816,500224,2026-08-17 00:22:00,assigned,1005,Assigned to team 5
+900817,500224,2026-08-17 04:05:00,first_response,1005,Initial response sent
+900818,500225,2026-08-17 05:15:00,created,,Opened through chat
+900819,500225,2026-08-17 05:30:00,assigned,1012,Assigned to team 4
+900820,500225,2026-08-17 09:25:00,first_response,1012,Initial response sent
+900821,500226,2026-08-17 10:22:00,created,,Opened through phone
+900822,500226,2026-08-17 10:38:00,assigned,1019,Assigned to team 3
+900823,500226,2026-08-17 14:45:00,first_response,1019,Initial response sent
+900824,500226,2026-08-19 10:44:00,resolved,1019,Resolution confirmed
+900825,500227,2026-08-17 15:29:00,created,,Opened through portal
+900826,500227,2026-08-17 15:46:00,assigned,1003,Assigned to team 2
+900827,500227,2026-08-17 20:05:00,first_response,1003,Initial response sent
+900828,500227,2026-08-19 16:38:00,resolved,1003,Resolution confirmed
+900829,500228,2026-08-17 20:36:00,created,,Opened through email
+900830,500228,2026-08-17 20:54:00,assigned,1010,Assigned to team 1
+900831,500228,2026-08-18 01:25:00,first_response,1010,Initial response sent
+900832,500228,2026-08-18 02:16:00,escalated,1010,Escalated for specialist review
+900833,500228,2026-08-19 22:32:00,resolved,1010,Resolution confirmed
+900834,500229,2026-08-18 01:43:00,created,,Opened through chat
+900835,500229,2026-08-18 02:02:00,assigned,1017,Assigned to team 6
+900836,500229,2026-08-18 06:45:00,first_response,1017,Initial response sent
+900837,500229,2026-08-20 04:26:00,resolved,1017,Resolution confirmed
+900838,500230,2026-08-18 06:50:00,created,,Opened through phone
+900839,500230,2026-08-18 07:10:00,assigned,1001,Assigned to team 5
+900840,500230,2026-08-18 12:05:00,first_response,1001,Initial response sent
+900841,500231,2026-08-18 11:57:00,created,,Opened through portal
+900842,500231,2026-08-18 12:18:00,assigned,1008,Assigned to team 4
+900843,500231,2026-08-18 12:25:00,first_response,1008,Initial response sent
+900844,500232,2026-08-18 16:04:00,created,,Opened through email
+900845,500232,2026-08-18 16:26:00,assigned,1015,Assigned to team 3
+900846,500232,2026-08-18 16:45:00,first_response,1015,Initial response sent
+900847,500232,2026-08-20 21:08:00,resolved,1015,Resolution confirmed
+900848,500233,2026-08-18 21:11:00,created,,Opened through chat
+900849,500233,2026-08-18 21:34:00,assigned,1022,Assigned to team 2
+900850,500233,2026-08-18 22:05:00,first_response,1022,Initial response sent
+900851,500233,2026-08-21 03:02:00,resolved,1022,Resolution confirmed
+900852,500234,2026-08-19 02:18:00,created,,Opened through phone
+900853,500234,2026-08-19 02:42:00,assigned,1006,Assigned to team 1
+900854,500234,2026-08-19 03:25:00,first_response,1006,Initial response sent
+900855,500235,2026-08-19 07:25:00,created,,Opened through portal
+900856,500235,2026-08-19 07:50:00,assigned,1013,Assigned to team 6
+900857,500235,2026-08-19 08:45:00,first_response,1013,Initial response sent
+900858,500236,2026-08-19 12:32:00,created,,Opened through email
+900859,500236,2026-08-19 12:58:00,assigned,1020,Assigned to team 5
+900860,500236,2026-08-19 14:05:00,first_response,1020,Initial response sent
+900861,500236,2026-08-21 20:44:00,resolved,1020,Resolution confirmed
+900862,500237,2026-08-19 17:39:00,created,,Opened through chat
+900863,500237,2026-08-19 18:06:00,assigned,1004,Assigned to team 4
+900864,500237,2026-08-19 19:25:00,first_response,1004,Initial response sent
+900865,500237,2026-08-22 02:38:00,resolved,1004,Resolution confirmed
+900866,500238,2026-08-19 22:46:00,created,,Opened through phone
+900867,500238,2026-08-19 23:14:00,assigned,1011,Assigned to team 3
+900868,500238,2026-08-20 00:45:00,first_response,1011,Initial response sent
+900869,500239,2026-08-20 03:53:00,created,,Opened through portal
+900870,500239,2026-08-20 04:22:00,assigned,1018,Assigned to team 2
+900871,500239,2026-08-20 06:05:00,first_response,1018,Initial response sent
+900872,500239,2026-08-22 14:26:00,resolved,1018,Resolution confirmed
+900873,500240,2026-08-20 08:00:00,created,,Opened through email
+900874,500240,2026-08-20 08:10:00,assigned,1002,Assigned to team 1
+900875,500240,2026-08-20 10:25:00,first_response,1002,Initial response sent
+900876,500241,2026-08-20 13:07:00,created,,Opened through chat
+900877,500241,2026-08-20 13:18:00,assigned,1009,Assigned to team 6
+900878,500241,2026-08-20 15:45:00,first_response,1009,Initial response sent
+900879,500241,2026-08-23 01:14:00,resolved,1009,Resolution confirmed
+900880,500242,2026-08-20 18:14:00,created,,Opened through phone
+900881,500242,2026-08-20 18:26:00,assigned,1016,Assigned to team 5
+900882,500242,2026-08-20 21:05:00,first_response,1016,Initial response sent
+900883,500243,2026-08-20 23:21:00,created,,Opened through portal
+900884,500243,2026-08-20 23:34:00,assigned,1023,Assigned to team 4
+900885,500243,2026-08-21 02:25:00,first_response,1023,Initial response sent
+900886,500243,2026-08-23 13:02:00,resolved,1023,Resolution confirmed
+900887,500244,2026-08-21 04:28:00,created,,Opened through email
+900888,500244,2026-08-21 04:42:00,assigned,1007,Assigned to team 3
+900889,500244,2026-08-21 07:45:00,first_response,1007,Initial response sent
+900890,500244,2026-08-23 18:56:00,resolved,1007,Resolution confirmed
+900891,500245,2026-08-21 09:35:00,created,,Opened through chat
+900892,500245,2026-08-21 09:50:00,assigned,1014,Assigned to team 2
+900893,500245,2026-08-21 13:05:00,first_response,1014,Initial response sent
+900894,500246,2026-08-21 14:42:00,created,,Opened through phone
+900895,500246,2026-08-21 14:58:00,assigned,1021,Assigned to team 1
+900896,500246,2026-08-21 18:25:00,first_response,1021,Initial response sent
+900897,500246,2026-08-24 06:44:00,resolved,1021,Resolution confirmed
+900898,500247,2026-08-21 19:49:00,created,,Opened through portal
+900899,500247,2026-08-21 20:06:00,assigned,1005,Assigned to team 6
+900900,500247,2026-08-21 23:45:00,first_response,1005,Initial response sent
+900901,500247,2026-08-22 01:29:00,escalated,1005,Escalated for specialist review
+900902,500248,2026-08-22 00:56:00,created,,Opened through email
+900903,500248,2026-08-22 01:14:00,assigned,1012,Assigned to team 5
+900904,500248,2026-08-22 05:05:00,first_response,1012,Initial response sent
+900905,500248,2026-08-24 18:32:00,resolved,1012,Resolution confirmed
+900906,500249,2026-08-22 05:03:00,created,,Opened through chat
+900907,500249,2026-08-22 05:22:00,assigned,1019,Assigned to team 4
+900908,500249,2026-08-22 09:25:00,first_response,1019,Initial response sent
+900909,500249,2026-08-22 06:26:00,resolved,1019,Resolution confirmed
+900910,500250,2026-08-22 10:10:00,created,,Opened through phone
+900911,500250,2026-08-22 10:30:00,assigned,1003,Assigned to team 3
+900912,500250,2026-08-22 14:45:00,first_response,1003,Initial response sent
+900913,500251,2026-08-22 15:17:00,created,,Opened through portal
+900914,500251,2026-08-22 15:38:00,assigned,1010,Assigned to team 2
+900915,500251,2026-08-22 20:05:00,first_response,1010,Initial response sent
+900916,500251,2026-08-22 18:14:00,resolved,1010,Resolution confirmed
+900917,500252,2026-08-22 20:24:00,created,,Opened through email
+900918,500252,2026-08-22 20:46:00,assigned,1017,Assigned to team 1
+900919,500252,2026-08-23 01:25:00,first_response,1017,Initial response sent
+900920,500253,2026-08-23 01:31:00,created,,Opened through chat
+900921,500253,2026-08-23 01:54:00,assigned,1001,Assigned to team 6
+900922,500253,2026-08-23 06:45:00,first_response,1001,Initial response sent
+900923,500254,2026-08-23 06:38:00,created,,Opened through phone
+900924,500254,2026-08-23 07:02:00,assigned,1008,Assigned to team 5
+900925,500254,2026-08-23 07:05:00,first_response,1008,Initial response sent
+900926,500254,2026-08-23 11:56:00,resolved,1008,Resolution confirmed
+900927,500255,2026-08-23 11:45:00,created,,Opened through portal
+900928,500255,2026-08-23 12:10:00,assigned,1015,Assigned to team 4
+900929,500255,2026-08-23 12:25:00,first_response,1015,Initial response sent
+900930,500256,2026-08-23 16:52:00,created,,Opened through email
+900931,500256,2026-08-23 17:18:00,assigned,1022,Assigned to team 3
+900932,500256,2026-08-23 17:45:00,first_response,1022,Initial response sent
+900933,500256,2026-08-23 23:44:00,resolved,1022,Resolution confirmed
+900934,500257,2026-08-23 21:59:00,created,,Opened through chat
+900935,500257,2026-08-23 22:26:00,assigned,1006,Assigned to team 2
+900936,500257,2026-08-23 23:05:00,first_response,1006,Initial response sent
+900937,500257,2026-08-24 05:38:00,resolved,1006,Resolution confirmed
+900938,500258,2026-08-24 02:06:00,created,,Opened through phone
+900939,500258,2026-08-24 02:34:00,assigned,1013,Assigned to team 1
+900940,500258,2026-08-24 03:25:00,first_response,1013,Initial response sent
+900941,500258,2026-08-24 10:32:00,resolved,1013,Resolution confirmed
+900942,500259,2026-08-24 07:13:00,created,,Opened through portal
+900943,500259,2026-08-24 07:42:00,assigned,1020,Assigned to team 6
+900944,500259,2026-08-24 08:45:00,first_response,1020,Initial response sent
+900945,500260,2026-08-24 12:20:00,created,,Opened through email
+900946,500260,2026-08-24 12:30:00,assigned,1004,Assigned to team 5
+900947,500260,2026-08-24 14:05:00,first_response,1004,Initial response sent
+900948,500261,2026-08-24 17:27:00,created,,Opened through chat
+900949,500261,2026-08-24 17:38:00,assigned,1011,Assigned to team 4
+900950,500261,2026-08-24 19:25:00,first_response,1011,Initial response sent
+900951,500261,2026-08-25 04:14:00,resolved,1011,Resolution confirmed
+900952,500262,2026-08-24 22:34:00,created,,Opened through phone
+900953,500262,2026-08-24 22:46:00,assigned,1018,Assigned to team 3
+900954,500262,2026-08-25 00:45:00,first_response,1018,Initial response sent
+900955,500262,2026-08-25 10:08:00,resolved,1018,Resolution confirmed
+900956,500263,2026-08-25 03:41:00,created,,Opened through portal
+900957,500263,2026-08-25 03:54:00,assigned,1002,Assigned to team 2
+900958,500263,2026-08-25 06:05:00,first_response,1002,Initial response sent
+900959,500263,2026-08-25 16:02:00,resolved,1002,Resolution confirmed
+900960,500264,2026-08-25 08:48:00,created,,Opened through email
+900961,500264,2026-08-25 09:02:00,assigned,1009,Assigned to team 1
+900962,500264,2026-08-25 11:25:00,first_response,1009,Initial response sent
+900963,500265,2026-08-25 13:55:00,created,,Opened through chat
+900964,500265,2026-08-25 14:10:00,assigned,1016,Assigned to team 6
+900965,500265,2026-08-25 16:45:00,first_response,1016,Initial response sent
+900966,500266,2026-08-25 18:02:00,created,,Opened through phone
+900967,500266,2026-08-25 18:18:00,assigned,1023,Assigned to team 5
+900968,500266,2026-08-25 21:05:00,first_response,1023,Initial response sent
+900969,500266,2026-08-25 23:42:00,escalated,1023,Escalated for specialist review
+900970,500267,2026-08-25 23:09:00,created,,Opened through portal
+900971,500267,2026-08-25 23:26:00,assigned,1007,Assigned to team 4
+900972,500267,2026-08-26 02:25:00,first_response,1007,Initial response sent
+900973,500267,2026-08-26 14:38:00,resolved,1007,Resolution confirmed
+900974,500268,2026-08-26 04:16:00,created,,Opened through email
+900975,500268,2026-08-26 04:34:00,assigned,1014,Assigned to team 3
+900976,500268,2026-08-26 07:45:00,first_response,1014,Initial response sent
+900977,500268,2026-08-26 20:32:00,resolved,1014,Resolution confirmed
+900978,500269,2026-08-26 09:23:00,created,,Opened through chat
+900979,500269,2026-08-26 09:42:00,assigned,1021,Assigned to team 2
+900980,500269,2026-08-26 13:05:00,first_response,1021,Initial response sent
+900981,500269,2026-08-27 02:26:00,resolved,1021,Resolution confirmed
+900982,500270,2026-08-26 14:30:00,created,,Opened through phone
+900983,500270,2026-08-26 14:50:00,assigned,1005,Assigned to team 1
+900984,500270,2026-08-26 18:25:00,first_response,1005,Initial response sent
+900985,500271,2026-08-26 19:37:00,created,,Opened through portal
+900986,500271,2026-08-26 19:58:00,assigned,1012,Assigned to team 6
+900987,500271,2026-08-26 23:45:00,first_response,1012,Initial response sent
+900988,500271,2026-08-27 14:14:00,resolved,1012,Resolution confirmed
+900989,500272,2026-08-27 00:44:00,created,,Opened through email
+900990,500272,2026-08-27 01:06:00,assigned,1019,Assigned to team 5
+900991,500272,2026-08-27 05:05:00,first_response,1019,Initial response sent
+900992,500272,2026-08-27 20:08:00,resolved,1019,Resolution confirmed
+900993,500273,2026-08-27 05:51:00,created,,Opened through chat
+900994,500273,2026-08-27 06:14:00,assigned,1003,Assigned to team 4
+900995,500273,2026-08-27 10:25:00,first_response,1003,Initial response sent
+900996,500274,2026-08-27 10:58:00,created,,Opened through phone
+900997,500274,2026-08-27 11:22:00,assigned,1010,Assigned to team 3
+900998,500274,2026-08-27 15:45:00,first_response,1010,Initial response sent
+900999,500274,2026-08-28 07:56:00,resolved,1010,Resolution confirmed
+901000,500275,2026-08-27 15:05:00,created,,Opened through portal
+901001,500275,2026-08-27 15:30:00,assigned,1017,Assigned to team 2
+901002,500275,2026-08-27 20:05:00,first_response,1017,Initial response sent
+901003,500276,2026-08-27 20:12:00,created,,Opened through email
+901004,500276,2026-08-27 20:38:00,assigned,1001,Assigned to team 1
+901005,500276,2026-08-28 01:25:00,first_response,1001,Initial response sent
+901006,500276,2026-08-28 18:44:00,resolved,1001,Resolution confirmed
+901007,500277,2026-08-28 01:19:00,created,,Opened through chat
+901008,500277,2026-08-28 01:46:00,assigned,1008,Assigned to team 6
+901009,500277,2026-08-28 01:45:00,first_response,1008,Initial response sent
+901010,500277,2026-08-29 00:38:00,resolved,1008,Resolution confirmed
+901011,500278,2026-08-28 06:26:00,created,,Opened through phone
+901012,500278,2026-08-28 06:54:00,assigned,1015,Assigned to team 5
+901013,500278,2026-08-28 07:05:00,first_response,1015,Initial response sent
+901014,500278,2026-08-29 06:32:00,resolved,1015,Resolution confirmed
+901015,500279,2026-08-28 11:33:00,created,,Opened through portal
+901016,500279,2026-08-28 12:02:00,assigned,1022,Assigned to team 4
+901017,500279,2026-08-28 12:25:00,first_response,1022,Initial response sent
+901018,500279,2026-08-29 12:26:00,resolved,1022,Resolution confirmed
+901019,500280,2026-08-28 16:40:00,created,,Opened through email
+901020,500280,2026-08-28 16:50:00,assigned,1006,Assigned to team 3
+901021,500280,2026-08-28 17:45:00,first_response,1006,Initial response sent
+901022,500281,2026-08-28 21:47:00,created,,Opened through chat
+901023,500281,2026-08-28 21:58:00,assigned,1013,Assigned to team 2
+901024,500281,2026-08-28 23:05:00,first_response,1013,Initial response sent
+901025,500281,2026-08-30 00:14:00,resolved,1013,Resolution confirmed
+901026,500282,2026-08-29 02:54:00,created,,Opened through phone
+901027,500282,2026-08-29 03:06:00,assigned,1020,Assigned to team 1
+901028,500282,2026-08-29 04:25:00,first_response,1020,Initial response sent
+901029,500282,2026-08-30 06:08:00,resolved,1020,Resolution confirmed
+901030,500283,2026-08-29 07:01:00,created,,Opened through portal
+901031,500283,2026-08-29 07:14:00,assigned,1004,Assigned to team 6
+901032,500283,2026-08-29 08:45:00,first_response,1004,Initial response sent
+901033,500283,2026-08-30 11:02:00,resolved,1004,Resolution confirmed
+901034,500284,2026-08-29 12:08:00,created,,Opened through email
+901035,500284,2026-08-29 12:22:00,assigned,1011,Assigned to team 5
+901036,500284,2026-08-29 14:05:00,first_response,1011,Initial response sent
+901037,500284,2026-08-30 16:56:00,resolved,1011,Resolution confirmed
+901038,500285,2026-08-29 17:15:00,created,,Opened through chat
+901039,500285,2026-08-29 17:30:00,assigned,1018,Assigned to team 4
+901040,500285,2026-08-29 19:25:00,first_response,1018,Initial response sent
+901041,500285,2026-08-29 22:55:00,escalated,1018,Escalated for specialist review
+901042,500286,2026-08-29 22:22:00,created,,Opened through phone
+901043,500286,2026-08-29 22:38:00,assigned,1002,Assigned to team 3
+901044,500286,2026-08-30 00:45:00,first_response,1002,Initial response sent
+901045,500287,2026-08-30 03:29:00,created,,Opened through portal
+901046,500287,2026-08-30 03:46:00,assigned,1009,Assigned to team 2
+901047,500287,2026-08-30 06:05:00,first_response,1009,Initial response sent
+901048,500288,2026-08-30 08:36:00,created,,Opened through email
+901049,500288,2026-08-30 08:54:00,assigned,1016,Assigned to team 1
+901050,500288,2026-08-30 11:25:00,first_response,1016,Initial response sent
+901051,500288,2026-08-31 16:32:00,resolved,1016,Resolution confirmed

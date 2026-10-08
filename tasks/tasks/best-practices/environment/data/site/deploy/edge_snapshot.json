@@ -1,0 +1,13 @@
+{
+  "service": "EdgeGate",
+  "managed_outside_repository": true,
+  "captured_for": "fictional pre-launch review",
+  "session_cookie_policy": {
+    "secure": true,
+    "http_only": false,
+    "same_site": "Lax",
+    "path": "/"
+  },
+  "constraint": "A legacy embedded SSO return flow is still under compatibility review.",
+  "owner": "identity-platform"
+}

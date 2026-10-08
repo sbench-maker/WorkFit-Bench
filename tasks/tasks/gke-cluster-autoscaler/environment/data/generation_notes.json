@@ -1,0 +1,15 @@
+{
+  "method": "deterministic local construction",
+  "record_counts": {
+    "nodes": 15,
+    "pdbs": 7,
+    "pods": 240,
+    "visibility_events": 50
+  },
+  "relationship_checks": {
+    "all_pods_reference_known_nodes": true,
+    "node_names_unique": true,
+    "pod_identity_unique": true
+  },
+  "snapshot_time": "2026-02-18T09:00:00Z"
+}

@@ -1,0 +1,120 @@
+{
+  "records": [
+    {
+      "model_id": "hist-001",
+      "decision": "saved",
+      "vendor": "AsterCompute",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "license": "permissive",
+      "note": "Reliable tool calls."
+    },
+    {
+      "model_id": "hist-002",
+      "decision": "piloting",
+      "vendor": "AsterCompute",
+      "capabilities": [
+        "tool-use",
+        "reasoning"
+      ],
+      "license": "commercial",
+      "note": "Strong agent fit."
+    },
+    {
+      "model_id": "hist-003",
+      "decision": "saved",
+      "vendor": "AsterCompute",
+      "capabilities": [
+        "structured-output"
+      ],
+      "license": "permissive",
+      "note": "Clean JSON output."
+    },
+    {
+      "model_id": "hist-004",
+      "decision": "saved",
+      "vendor": "NimbusForge",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "license": "commercial",
+      "note": "Good production option."
+    },
+    {
+      "model_id": "hist-005",
+      "decision": "piloting",
+      "vendor": "NimbusForge",
+      "capabilities": [
+        "tool-use",
+        "batch"
+      ],
+      "license": "commercial",
+      "note": "Low-friction integration."
+    },
+    {
+      "model_id": "hist-006",
+      "decision": "saved",
+      "vendor": "CedarLabs",
+      "capabilities": [
+        "structured-output",
+        "batch"
+      ],
+      "license": "permissive",
+      "note": "Useful batch output."
+    },
+    {
+      "model_id": "hist-007",
+      "decision": "rejected",
+      "vendor": "ValeAI",
+      "capabilities": [
+        "vision"
+      ],
+      "license": "restricted",
+      "note": "Terms do not fit deployment."
+    },
+    {
+      "model_id": "hist-008",
+      "decision": "rejected",
+      "vendor": "ValeAI",
+      "capabilities": [
+        "vision",
+        "embeddings"
+      ],
+      "license": "restricted",
+      "note": "Outside current workload."
+    },
+    {
+      "model_id": "hist-009",
+      "decision": "rejected",
+      "vendor": "ValeAI",
+      "capabilities": [
+        "text-generation"
+      ],
+      "license": "restricted",
+      "note": "Restricted use."
+    },
+    {
+      "model_id": "hist-010",
+      "decision": "rejected",
+      "vendor": "EchoWorks",
+      "capabilities": [
+        "vision"
+      ],
+      "license": "research-only",
+      "note": "Not deployable."
+    },
+    {
+      "model_id": "hist-011",
+      "decision": "rejected",
+      "vendor": "EchoWorks",
+      "capabilities": [
+        "embeddings"
+      ],
+      "license": "research-only",
+      "note": "Not an agent workload."
+    }
+  ]
+}

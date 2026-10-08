@@ -1,0 +1,43 @@
+cancellation_id,customer_id,initiated_date,effective_month,status,reason,owner_team
+CAN-0001,CUS-0118,2025-01-04,2025-01,completed,Budget reduction,Customer Success
+CAN-0002,CUS-0069,2025-01-07,2025-01,completed,Service quality,Support
+CAN-0003,CUS-0139,2025-01-10,2025-01,completed,Champion left,Customer Success
+CAN-0004,CUS-0089,2025-02-04,2025-02,completed,Service quality,Support
+CAN-0005,CUS-0159,2025-02-07,2025-02,completed,Champion left,Customer Success
+CAN-0006,CUS-0068,2025-02-10,2025-02,completed,Missing feature,Customer Success
+CAN-0007,CUS-0138,2025-02-13,2025-02,completed,Budget reduction,Customer Success
+CAN-0008,CUS-0048,2025-03-04,2025-03,completed,Champion left,Customer Success
+CAN-0009,CUS-0019,2025-03-07,2025-03,completed,Missing feature,Customer Success
+CAN-0010,CUS-0088,2025-03-10,2025-03,completed,Budget reduction,Customer Success
+CAN-0011,CUS-0158,2025-03-13,2025-03,completed,Service quality,Support
+CAN-0012,CUS-0188,2025-04-04,2025-04,completed,Missing feature,Customer Success
+CAN-0013,CUS-0039,2025-04-07,2025-04,completed,Budget reduction,Customer Success
+CAN-0014,CUS-0109,2025-04-10,2025-04,completed,Service quality,Support
+CAN-0015,CUS-0179,2025-04-13,2025-04,completed,Champion left,Customer Success
+CAN-0016,CUS-0018,2025-04-16,2025-04,completed,Missing feature,Customer Success
+CAN-0017,CUS-0178,2025-05-04,2025-05,completed,Budget reduction,Customer Success
+CAN-0018,CUS-0059,2025-05-07,2025-05,completed,Service quality,Support
+CAN-0019,CUS-0129,2025-05-10,2025-05,completed,Champion left,Customer Success
+CAN-0020,CUS-0199,2025-05-13,2025-05,completed,Missing feature,Customer Success
+CAN-0021,CUS-0038,2025-05-16,2025-05,completed,Budget reduction,Customer Success
+CAN-0022,CUS-0209,2025-06-04,2025-06,completed,Service quality,Support
+CAN-0023,CUS-0058,2025-06-07,2025-06,completed,Champion left,Customer Success
+CAN-0024,CUS-0208,2025-06-10,2025-06,completed,Missing feature,Customer Success
+CAN-0025,CUS-0029,2025-06-13,2025-06,completed,Budget reduction,Customer Success
+CAN-0026,CUS-0108,2025-06-16,2025-06,completed,Service quality,Support
+CAN-0027,CUS-0229,2025-07-04,2025-07,completed,Champion left,Customer Success
+CAN-0028,CUS-0228,2025-07-07,2025-07,completed,Missing feature,Customer Success
+CAN-0029,CUS-0219,2025-07-10,2025-07,completed,Budget reduction,Customer Success
+CAN-0030,CUS-0128,2025-07-13,2025-07,completed,Service quality,Support
+CAN-0031,CUS-0009,2025-07-16,2025-07,completed,Champion left,Customer Success
+CAN-0032,CUS-0198,2025-07-19,2025-07,completed,Missing feature,Customer Success
+CAN-0033,CUS-0148,2025-08-04,2025-08,completed,Missing feature,Customer Success
+CAN-0034,CUS-0248,2025-08-07,2025-08,completed,Budget reduction,Customer Success
+CAN-0035,CUS-0079,2025-08-10,2025-08,completed,Service quality,Support
+CAN-0036,CUS-0149,2025-08-13,2025-08,completed,Champion left,Customer Success
+CAN-0037,CUS-0218,2025-08-16,2025-08,completed,Missing feature,Customer Success
+CAN-0038,CUS-0099,2025-08-19,2025-08,completed,Budget reduction,Customer Success
+CAN-0039,CUS-0169,2025-08-22,2025-08,completed,Service quality,Support
+CAN-0040,CUS-0008,2025-08-05,2025-08,completed,Champion left,Customer Success
+CAN-0041,CUS-0013,2025-08-27,2025-09,scheduled,Budget reduction,Customer Success
+CAN-0042,CUS-0025,2025-08-12,2025-08,rescinded,Missing feature,Product

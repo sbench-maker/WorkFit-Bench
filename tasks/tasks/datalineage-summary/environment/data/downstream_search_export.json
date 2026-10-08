@@ -1,0 +1,389 @@
+{
+  "exportedAt": "2026-08-19T12:00:00Z",
+  "service": "DataLineageServer:search_lineage",
+  "request": {
+    "parent": "projects/helios-analytics/locations/eu",
+    "locations": [
+      "us",
+      "eu",
+      "asia",
+      "us-central1",
+      "us-east4",
+      "europe-west1",
+      "europe-west4",
+      "europe-north1",
+      "asia-northeast1",
+      "asia-southeast1"
+    ],
+    "rootCriteria": {
+      "entities": {
+        "entities": [
+          {
+            "fullyQualifiedName": "bigquery:helios-analytics.prod_finance.fct_invoice_daily",
+            "field": [
+              "net_revenue"
+            ]
+          }
+        ]
+      }
+    },
+    "direction": "DOWNSTREAM",
+    "limits": {
+      "maxDepth": 10,
+      "maxResults": 5000,
+      "maxProcessPerLink": 10
+    }
+  },
+  "response": {
+    "pages": [
+      {
+        "page": 1,
+        "entities": [
+          {
+            "entityId": "E00",
+            "fullyQualifiedName": "bigquery:helios-analytics.prod_finance.fct_invoice_daily",
+            "displayName": "fct_invoice_daily",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "prod_finance",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E20",
+            "fullyQualifiedName": "bigquery:helios-bi.revenue_semantic.daily_revenue_kpi",
+            "displayName": "daily_revenue_kpi",
+            "system": "BigQuery",
+            "project": "helios-bi",
+            "container": "revenue_semantic",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E21",
+            "fullyQualifiedName": "bigquery:helios-analytics.data_quality.invoice_quality_monitor",
+            "displayName": "invoice_quality_monitor",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "data_quality",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E22",
+            "fullyQualifiedName": "looker:helios-bi.finance-executive.revenue-health",
+            "displayName": "Revenue Health",
+            "system": "Looker",
+            "project": "helios-bi",
+            "container": "finance-executive",
+            "location": "eu",
+            "assetType": "DASHBOARD",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E23",
+            "fullyQualifiedName": "bigquery:helios-ml.finance_planning.revenue_forecast_features",
+            "displayName": "revenue_forecast_features",
+            "system": "BigQuery",
+            "project": "helios-ml",
+            "container": "finance_planning",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          }
+        ],
+        "processes": [
+          {
+            "processId": "P20",
+            "displayName": "aggregate_daily_revenue",
+            "processType": "DATAFORM_ACTION",
+            "platform": "Dataform",
+            "project": "helios-bi",
+            "location": "eu",
+            "transformationLogic": "Aggregates net_revenue by accounting date and market."
+          },
+          {
+            "processId": "P21",
+            "displayName": "publish_invoice_quality_monitor",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "Publishes invoice-level net_revenue and null indicators for quality monitoring."
+          },
+          {
+            "processId": "P22",
+            "displayName": "refresh_revenue_health_explore",
+            "processType": "LOOKER_DERIVED_TABLE",
+            "platform": "Looker",
+            "project": "helios-bi",
+            "location": "eu",
+            "transformationLogic": "Refreshes the executive revenue-health dashboard."
+          },
+          {
+            "processId": "P23",
+            "displayName": "build_revenue_forecast_features",
+            "processType": "DATAFORM_ACTION",
+            "platform": "Dataform",
+            "project": "helios-ml",
+            "location": "eu",
+            "transformationLogic": "Builds recognized_revenue features for the planning model."
+          }
+        ],
+        "links": [
+          {
+            "linkId": "D001",
+            "source": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "target": {
+              "entityId": "E20",
+              "field": "recognized_revenue"
+            },
+            "processId": "P20",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "D002",
+            "source": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "target": {
+              "entityId": "E21",
+              "field": "net_revenue"
+            },
+            "processId": "P21",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "D003",
+            "source": {
+              "entityId": "E20",
+              "field": "recognized_revenue"
+            },
+            "target": {
+              "entityId": "E22",
+              "field": "net_revenue"
+            },
+            "processId": "P22",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "D004",
+            "source": {
+              "entityId": "E20",
+              "field": "recognized_revenue"
+            },
+            "target": {
+              "entityId": "E23",
+              "field": "recognized_revenue_28d"
+            },
+            "processId": "P23",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          }
+        ],
+        "nextPageToken": "down-page-2"
+      },
+      {
+        "page": 2,
+        "entities": [
+          {
+            "entityId": "E00",
+            "fullyQualifiedName": "bigquery:helios-analytics.prod_finance.fct_invoice_daily",
+            "displayName": "fct_invoice_daily",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "prod_finance",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E23",
+            "fullyQualifiedName": "bigquery:helios-ml.finance_planning.revenue_forecast_features",
+            "displayName": "revenue_forecast_features",
+            "system": "BigQuery",
+            "project": "helios-ml",
+            "container": "finance_planning",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E24",
+            "fullyQualifiedName": "gcs:helios-exports-eu/finance-close/daily-revenue",
+            "displayName": "finance-close/daily-revenue",
+            "system": "Cloud Storage",
+            "project": "helios-exports",
+            "container": "helios-exports-eu",
+            "location": "europe-west1",
+            "assetType": "OBJECT_PREFIX",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E25",
+            "fullyQualifiedName": "bigquery:helios-revops.collections.collection_priority",
+            "displayName": "collection_priority",
+            "system": "BigQuery",
+            "project": "helios-revops",
+            "container": "collections",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E26",
+            "fullyQualifiedName": "looker:helios-bi.legacy-finance.old-revenue-daily",
+            "displayName": "Old Revenue Daily",
+            "system": "Looker",
+            "project": "helios-bi",
+            "container": "legacy-finance",
+            "location": "eu",
+            "assetType": "DASHBOARD",
+            "state": "DEPRECATED"
+          }
+        ],
+        "processes": [
+          {
+            "processId": "P23",
+            "displayName": "build_revenue_forecast_features",
+            "processType": "DATAFORM_ACTION",
+            "platform": "Dataform",
+            "project": "helios-ml",
+            "location": "eu",
+            "transformationLogic": "Builds recognized_revenue features for the planning model."
+          },
+          {
+            "processId": "P24",
+            "displayName": "export_finance_close_feed",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-exports",
+            "location": "europe-west1",
+            "transformationLogic": "Exports recognized revenue to the finance-close object prefix."
+          },
+          {
+            "processId": "P25",
+            "displayName": "score_collection_priority",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-revops",
+            "location": "eu",
+            "transformationLogic": "Uses invoice revenue signals to prioritize collection queues."
+          },
+          {
+            "processId": "P26",
+            "displayName": "refresh_old_revenue_daily",
+            "processType": "LOOKER_DERIVED_TABLE",
+            "platform": "Looker",
+            "project": "helios-bi",
+            "location": "eu",
+            "transformationLogic": "Retired dashboard refresh."
+          }
+        ],
+        "links": [
+          {
+            "linkId": "D004",
+            "source": {
+              "entityId": "E20",
+              "field": "recognized_revenue"
+            },
+            "target": {
+              "entityId": "E23",
+              "field": "recognized_revenue_28d"
+            },
+            "processId": "P23",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "D005",
+            "source": {
+              "entityId": "E20",
+              "field": "recognized_revenue"
+            },
+            "target": {
+              "entityId": "E24",
+              "field": "net_revenue"
+            },
+            "processId": "P24",
+            "discoveredLocation": "europe-west1",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "D006",
+            "source": {
+              "entityId": "E21",
+              "field": "net_revenue"
+            },
+            "target": {
+              "entityId": "E25",
+              "field": "revenue_signal"
+            },
+            "processId": "P25",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "D007",
+            "source": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "target": {
+              "entityId": "E26",
+              "field": "net_revenue"
+            },
+            "processId": "P26",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": false,
+            "validFrom": "2025-09-01T00:00:00Z",
+            "validTo": "2026-06-30T23:59:59Z",
+            "endpointState": "RESOLVED"
+          }
+        ],
+        "nextPageToken": null
+      }
+    ],
+    "truncated": false,
+    "warnings": []
+  }
+}

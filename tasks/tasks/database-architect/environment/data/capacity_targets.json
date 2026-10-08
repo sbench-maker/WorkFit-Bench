@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-06-30",
+  "horizon_months": 24,
+  "current": {
+    "active_tenants": 240,
+    "orders_total": 184000000,
+    "order_status_events_total": 1280000000,
+    "peak_order_creates_per_second": 1450,
+    "peak_status_events_per_second": 9200,
+    "peak_inbound_webhooks_per_second": 5100,
+    "peak_read_queries_per_second": 27000,
+    "database_size_tb": 9.4
+  },
+  "month_24": {
+    "active_tenants": 620,
+    "orders_total": 690000000,
+    "order_status_events_total": 5200000000,
+    "peak_order_creates_per_second": 4800,
+    "peak_status_events_per_second": 32000,
+    "peak_inbound_webhooks_per_second": 17000,
+    "peak_read_queries_per_second": 85000,
+    "database_size_tb": 31.0
+  },
+  "latency_slo_ms": {
+    "create_order_p95": 180,
+    "reserve_inventory_p95": 90,
+    "order_lookup_p95": 70,
+    "warehouse_pick_queue_p95": 250,
+    "customer_history_p95": 300
+  },
+  "availability": {
+    "service_percent": 99.95,
+    "region_loss_rpo_seconds": 60,
+    "region_loss_rto_minutes": 15,
+    "replica_read_max_lag_seconds": 2,
+    "analytics_max_lag_minutes": 10
+  }
+}

@@ -1,0 +1,72 @@
+Import Row,External ID,Title,Status,Priority,Owner Email,Labels,Source Updated At,Reopen Approved
+IMP-0001,BUG-1001,Northstar issue 1001: cache refresh — import revision,Ready,P2,,triage|sprint-1,2026-09-06T08:00:00.000Z,false
+IMP-0002,BUG-1002,Northstar issue 1002: login flow — import revision,Done,P3,Engineer3@Northstar.Test,api | triage | api,2026-09-08T09:00:00.000Z,false
+IMP-0003,BUG-1003,Northstar issue 1003: deploy hook — import revision,In Progress,P0,Engineer4@Northstar.Test,triage|sprint-3,2026-09-10T10:00:00.000Z,false
+IMP-0004,BUG-1004,Northstar issue 1004: search index — import revision,Backlog,P1,Engineer5@Northstar.Test,triage|sprint-0,2026-09-08T11:00:00.000Z,false
+IMP-0005,BUG-1005,Northstar issue 1005: mobile layout — import revision,Blocked,P2,Engineer6@Northstar.Test,triage|sprint-1,2026-09-10T12:00:00.000Z,false
+IMP-0006,BUG-1006,Northstar issue 1006: cache refresh — import revision,Ready,P3,Engineer7@Northstar.Test,triage|sprint-2,2026-09-12T13:00:00.000Z,false
+IMP-0007,BUG-1007,Northstar issue 1007: login flow — import revision,Done,P0,Engineer8@Northstar.Test,triage|sprint-3,2026-08-05T14:00:00.000Z,false
+IMP-0008,BUG-1008,Northstar issue 1008: deploy hook — import revision,In Progress,P1,,api | triage | api,2026-09-12T15:00:00.000Z,false
+IMP-0009,BUG-1009,Northstar issue 1009: search index — import revision,Backlog,P2,Engineer1@Northstar.Test,triage|sprint-1,2026-09-14T08:00:00.000Z,false
+IMP-0010,BUG-1010,Northstar issue 1010: mobile layout — import revision,Blocked,P3,Engineer2@Northstar.Test,triage|sprint-2,2026-09-16T09:00:00.000Z,false
+IMP-0011,BUG-1011,Northstar issue 1011: cache refresh — import revision,Ready,P0,Engineer3@Northstar.Test,triage|sprint-3,2026-09-18T10:00:00.000Z,false
+IMP-0012,BUG-1012,Northstar issue 1012: login flow — import revision,Backlog,P1,Engineer4@Northstar.Test,triage|sprint-0,2026-09-16T11:00:00.000Z,false
+IMP-0013,BUG-1013,Northstar issue 1013: deploy hook — import revision,Ready,P2,Engineer5@Northstar.Test,triage|sprint-1,2026-09-18T12:00:00.000Z,false
+IMP-0014,BUG-1014,Northstar issue 1014: search index — import revision,Ready,P3,Engineer6@Northstar.Test,api | triage | api,2026-09-20T13:00:00.000Z,false
+IMP-0015,BUG-1015,Northstar issue 1015: mobile layout — import revision,Done,P0,,triage|sprint-3,2026-09-22T14:00:00.000Z,false
+IMP-0016,BUG-1016,Northstar issue 1016: cache refresh — import revision,In Progress,P1,Engineer8@Northstar.Test,triage|sprint-0,2026-09-20T15:00:00.000Z,false
+IMP-0017,BUG-1017,Northstar issue 1017: login flow — import revision,Backlog,P2,Engineer0@Northstar.Test,triage|sprint-1,2026-09-22T08:00:00.000Z,false
+IMP-0018,BUG-1018,Northstar issue 1018: deploy hook,In Progress,P2,cy@northstar.test,,2026-08-18T09:00:00.000Z,false
+IMP-0019,BUG-1019,Northstar issue 1019: search index — import revision,Ready,P0,Engineer2@Northstar.Test,triage|sprint-3,2026-09-26T10:00:00.000Z,false
+IMP-0020,BUG-1020,Northstar issue 1020: mobile layout — import revision,Done,P1,Engineer3@Northstar.Test,api | triage | api,2026-09-24T11:00:00.000Z,false
+IMP-0021,BUG-1021,Northstar issue 1021: cache refresh — import revision,In Progress,P2,Engineer4@Northstar.Test,triage|sprint-1,2026-08-19T12:00:00.000Z,false
+IMP-0022,BUG-1022,Northstar issue 1022: login flow — import revision,Backlog,P3,,triage|sprint-2,2026-09-28T13:00:00.000Z,false
+IMP-0023,BUG-1023,Northstar issue 1023: deploy hook — import revision,Done,P0,Engineer6@Northstar.Test,triage|sprint-3,2026-09-30T14:00:00.000Z,false
+IMP-0024,BUG-1024,Northstar issue 1024: search index — import revision,In Progress,P1,Engineer7@Northstar.Test,triage|sprint-0,2026-09-28T15:00:00.000Z,false
+IMP-0025,BUG-1025,Northstar issue 1025: mobile layout — import revision,Backlog,P2,Engineer8@Northstar.Test,triage|sprint-1,2026-09-30T08:00:00.000Z,false
+IMP-0026,BUG-1026,Northstar issue 1026: cache refresh — import revision,Blocked,P3,Engineer0@Northstar.Test,api | triage | api,2026-10-02T09:00:00.000Z,false
+IMP-0027,BUG-1027,Northstar issue 1027: login flow — import revision,Ready,P0,Engineer1@Northstar.Test,triage|sprint-3,2026-10-04T10:00:00.000Z,false
+IMP-0028,BUG-1028,Northstar issue 1028: deploy hook — import revision,Done,P1,Engineer2@Northstar.Test,triage|sprint-0,2026-10-02T11:00:00.000Z,false
+IMP-0029,BUG-1029,Northstar issue 1029: search index — import revision,In Progress,P2,,triage|sprint-1,2026-10-04T12:00:00.000Z,false
+IMP-0030,BUG-1030,Northstar issue 1030: mobile layout,Done,P2,,,2026-08-01T13:00:00.000Z,false
+IMP-0031,BUG-1031,Northstar issue 1031: cache refresh — import revision,Blocked,P0,Engineer5@Northstar.Test,triage|sprint-3,2026-09-09T14:00:00.000Z,false
+IMP-0032,BUG-1032,Northstar issue 1032: login flow — import revision,Ready,P1,Engineer6@Northstar.Test,api | triage | api,2026-09-07T15:00:00.000Z,false
+IMP-0033,BUG-1033,Northstar issue 1033: deploy hook — import revision,Done,P2,Engineer7@Northstar.Test,triage|sprint-1,2026-09-09T08:00:00.000Z,false
+IMP-0034,BUG-1034,Northstar issue 1034: search index — import revision,Blocked,P3,Engineer8@Northstar.Test,triage|sprint-2,2026-09-11T09:00:00.000Z,false
+IMP-0035,BUG-1035,Northstar issue 1035: mobile layout — import revision,Ready,P0,Engineer0@Northstar.Test,triage|sprint-3,2026-09-13T10:00:00.000Z,false
+IMP-0036,BUG-1036,Northstar issue 1036: cache refresh — import revision,Done,P1,,triage|sprint-0,2026-09-11T11:00:00.000Z,false
+IMP-0037,BUG-1037,Northstar issue 1037: login flow — import revision,Ready,P2,Engineer2@Northstar.Test,triage|sprint-1,2026-09-13T12:00:00.000Z,false
+IMP-0038,BUG-1038,Northstar issue 1038: deploy hook — import revision,Backlog,P3,Engineer3@Northstar.Test,api | triage | api,2026-09-15T13:00:00.000Z,false
+IMP-0039,BUG-1039,Northstar issue 1039: search index — import revision,Blocked,P0,Engineer4@Northstar.Test,triage|sprint-3,2026-09-17T14:00:00.000Z,false
+IMP-0040,BUG-1040,Northstar issue 1040: mobile layout — import revision,Ready,P1,Engineer5@Northstar.Test,triage|sprint-0,2026-09-15T15:00:00.000Z,false
+IMP-0041,BUG-1041,Northstar issue 1041: cache refresh — import revision,Done,P2,Engineer6@Northstar.Test,triage|sprint-1,2026-09-17T08:00:00.000Z,false
+IMP-0042,BUG-1042,Northstar issue 1042: login flow — import revision,In Progress,P3,Engineer7@Northstar.Test,triage|sprint-2,2026-08-11T09:00:00.000Z,false
+IMP-0043,BUG-1043,Northstar issue 1043: deploy hook — import revision,Backlog,P0,,triage|sprint-3,2026-09-21T10:00:00.000Z,false
+IMP-0044,BUG-1044,Northstar issue 1044: search index — import revision,Blocked,P1,Engineer0@Northstar.Test,api | triage | api,2026-09-19T11:00:00.000Z,false
+IMP-0045,BUG-1045,Northstar issue 1045: mobile layout,Ready,P1,,backend|performance,2026-08-16T12:00:00.000Z,false
+IMP-0046,BUG-1046,Northstar issue 1046: cache refresh — import revision,Backlog,P3,Engineer2@Northstar.Test,triage|sprint-2,2026-09-23T13:00:00.000Z,false
+IMP-0047,BUG-1047,Northstar issue 1047: login flow — import revision,Blocked,P0,Engineer3@Northstar.Test,triage|sprint-3,2026-09-25T14:00:00.000Z,false
+IMP-0048,BUG-1048,Northstar issue 1048: deploy hook — import revision,Ready,P1,Engineer4@Northstar.Test,triage|sprint-0,2026-09-23T15:00:00.000Z,false
+IMP-0049,BUG-2001,Imported regression 2001: token refresh,Ready,P1,new6@northstar.test,import|backend,2026-10-03T11:00:00.000Z,false
+IMP-0050,BUG-2002,Imported regression 2002: build artifact,In Progress,P2,new0@northstar.test,import|backend,2026-10-04T12:00:00.000Z,false
+IMP-0051,BUG-2003,Imported regression 2003: audit trail,Blocked,P3,new1@northstar.test,import|backend,2026-10-05T13:00:00.000Z,false
+IMP-0052,BUG-2004,Imported regression 2004: webhook retry,Done,P0,new2@northstar.test,,2026-10-06T14:00:00.000Z,false
+IMP-0053,BUG-2005,Imported regression 2005: token refresh,QA Review,P1,,import|backend,2026-10-07T10:00:00.000Z,false
+IMP-0054,BUG-2006,Imported regression 2006: build artifact,Ready,P2,new4@northstar.test,import|backend,2026-10-08T11:00:00.000Z,false
+IMP-0055,BUG-2007,Imported regression 2007: audit trail,In Progress,P3,new5@northstar.test,import|backend,2026-09-30T12:00:00.000Z,false
+IMP-0056,BUG-2008,Imported regression 2008: webhook retry,Blocked,P0,new6@northstar.test,,2026-10-01T13:00:00.000Z,false
+IMP-0057,BUG-2009,Imported regression 2009: token refresh,Done,P1,new0@northstar.test,import|backend,2026-10-02T14:00:00.000Z,false
+IMP-0058,BUG-2010,Imported regression 2010: build artifact,Backlog,P2,,import|backend,2026-10-03T10:00:00.000Z,false
+IMP-0059,BUG-2011,,Ready,P3,new2@northstar.test,import|backend,2026-10-04T11:00:00.000Z,false
+IMP-0060,BUG-2012,Imported regression 2012: webhook retry,In Progress,P0,new3@northstar.test,,2026-10-05T12:00:00.000Z,false
+IMP-0061,BUG-2013,Imported regression 2013: token refresh,Blocked,P1,new4@northstar.test,import|backend,2026-10-06T13:00:00.000Z,false
+IMP-0062,BAD-2014,Imported regression 2014: build artifact,Done,P2,new5@northstar.test,import|backend,2026-10-07T14:00:00.000Z,false
+IMP-0063,BUG-2015,Imported regression 2015: audit trail,Backlog,P3,,import|backend,2026-10-08T10:00:00.000Z,false
+IMP-0064,BUG-2016,Imported regression 2016: webhook retry,Ready,P0,new0@northstar.test,,2026-09-30T11:00:00.000Z,false
+IMP-0065,BUG-2017,Imported regression 2017: token refresh,In Progress,Urgent,new1@northstar.test,import|backend,2026-10-01T12:00:00.000Z,false
+IMP-0066,BUG-2018,Imported regression 2018: build artifact,Blocked,P2,new2@northstar.test,import|backend,2026-10-02T13:00:00.000Z,false
+IMP-0067,BUG-2019,Imported regression 2019: audit trail,Done,P3,new3@northstar.test,import|backend,2026-10-03T14:00:00.000Z,false
+IMP-0068,BUG-2020,Imported regression 2020: webhook retry,Backlog,P0,,,2026-10-04T10:00:00.000Z,false
+IMP-0069,BUG-1005,Northstar issue 1005: mobile layout — import revision older duplicate,Blocked,P2,Engineer6@Northstar.Test,triage|sprint-1,2026-09-06T12:00:00.000Z,false
+IMP-0070,BUG-2008,Imported regression 2008: webhook retry older duplicate,Blocked,P0,new6@northstar.test,,2026-09-27T13:00:00.000Z,false
+IMP-0071,BUG-1028,Conflicting duplicate for BUG-1028,Done,P1,Engineer2@Northstar.Test,triage|sprint-0,2026-10-02T11:00:00.000Z,false

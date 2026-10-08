@@ -1,0 +1,9 @@
+{
+  "model_type": "fictional_decoder",
+  "architectures": [
+    "FictionalForCausalLM"
+  ],
+  "parameter_count_b": 6.0,
+  "torch_dtype": "float16",
+  "local_files_only": true
+}

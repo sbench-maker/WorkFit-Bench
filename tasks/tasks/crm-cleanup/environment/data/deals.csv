@@ -1,0 +1,121 @@
+deal_id,deal_name,pipeline_status,deal_stage,amount,currency,close_date,next_step,notes,owner_id,created_at
+D0001,Cedar Labs - Expansion 001,open,qualification,4875,USD,2026-09-08,Send pricing revision,Owner note for account cycle 1.,U002,2026-05-02T23:59:59Z
+D0002,Ember Supply - Expansion 002,open,discovery,6250,USD,2026-09-09,Book technical review,Owner note for account cycle 2.,U003,2026-05-01T23:59:59Z
+D0003,Granite Systems - Expansion 003,open,proposal,7625,USD,2026-09-10,Validate procurement path,Owner note for account cycle 3.,U004,2026-04-30T23:59:59Z
+D0004,Ivory Studio - Expansion 004,open,negotiation,9000,USD,2026-09-11,Confirm evaluation team,Owner note for account cycle 4.,U005,2026-04-29T23:59:59Z
+D0005,Blue Works - Expansion 005,open,qualification,10375,USD,2026-09-12,Send pricing revision,,U006,2026-04-28T23:59:59Z
+D0006,Delta Labs - Expansion 006,open,discovery,11750,USD,2026-09-13,Book technical review,Owner note for account cycle 6.,U007,2026-04-27T23:59:59Z
+D0007,Fox Supply - Expansion 007,open,proposal,13125,USD,2026-09-14,Validate procurement path,Owner note for account cycle 7.,U001,2026-04-26T23:59:59Z
+D0008,Harbor Systems - Expansion 008,open,negotiation,14500,USD,2026-09-15,Confirm evaluation team,Owner note for account cycle 8.,U002,2026-04-25T23:59:59Z
+D0009,Juniper Studio - Expansion 009,open,qualification,15875,USD,2026-09-16,Send pricing revision,Owner note for account cycle 0.,U003,2026-04-24T23:59:59Z
+D0010,Cedar Works - Expansion 010,open,discovery,17250,USD,2026-09-17,Book technical review,,U004,2026-04-23T23:59:59Z
+D0011,Ember Labs - Expansion 011,open,proposal,18625,USD,2026-09-18,,,U005,2026-04-22T23:59:59Z
+D0012,Granite Supply - Expansion 012,open,negotiation,20000,USD,2026-09-19,Confirm evaluation team,Owner note for account cycle 3.,U006,2026-04-21T23:59:59Z
+D0013,Ivory Systems - Expansion 013,open,qualification,21375,USD,2026-09-20,Send pricing revision,Owner note for account cycle 4.,U007,2026-04-20T23:59:59Z
+D0014,Amber Studio - Expansion 014,open,discovery,22750,USD,2026-09-21,Book technical review,Owner note for account cycle 5.,U001,2026-04-19T23:59:59Z
+D0015,Delta Works - Expansion 015,open,proposal,24125,USD,2026-09-22,Validate procurement path,,U002,2026-04-18T23:59:59Z
+D0016,Fox Labs - Expansion 016,open,negotiation,25500,USD,2026-09-23,Confirm evaluation team,Owner note for account cycle 7.,U003,2026-04-17T23:59:59Z
+D0017,Harbor Supply - Expansion 017,open,qualification,,USD,2026-09-24,Send pricing revision,Owner note for account cycle 8.,U004,2026-04-16T23:59:59Z
+D0018,Juniper Systems - Expansion 018,open,discovery,28250,USD,2026-09-25,Book technical review,Owner note for account cycle 0.,U005,2026-04-15T23:59:59Z
+D0019,Blue Studio - Expansion 019,open,proposal,29625,USD,,Validate procurement path,Owner note for account cycle 1.,U006,2026-04-14T23:59:59Z
+D0020,Ember Works - Expansion 020,open,negotiation,31000,USD,2026-09-27,Confirm evaluation team,,U007,2026-04-13T23:59:59Z
+D0021,Granite Labs - Expansion 021,open,qualification,32375,USD,2026-09-28,Send pricing revision,Owner note for account cycle 3.,U001,2026-04-12T23:59:59Z
+D0022,Ivory Supply - Expansion 022,open,discovery,33750,USD,2026-09-29,,,U002,2026-04-11T23:59:59Z
+D0023,Amber Systems - Expansion 023,open,proposal,35125,USD,2026-09-30,Validate procurement path,Owner note for account cycle 5.,U003,2026-04-10T23:59:59Z
+D0024,Cedar Studio - Expansion 024,open,negotiation,36500,USD,2026-10-01,Confirm evaluation team,Owner note for account cycle 6.,U004,2026-04-09T23:59:59Z
+D0025,Fox Works - Expansion 025,open,qualification,37875,USD,2026-10-02,Send pricing revision,,U005,2026-04-08T23:59:59Z
+D0026,Harbor Labs - Expansion 026,open,discovery,39250,USD,2026-10-03,Book technical review,Owner note for account cycle 8.,U006,2026-04-07T23:59:59Z
+D0027,Juniper Supply - Expansion 027,open,proposal,40625,USD,2026-10-04,Validate procurement path,Owner note for account cycle 0.,U007,2026-04-06T23:59:59Z
+D0028,Blue Systems - Expansion 028,open,negotiation,42000,USD,2026-10-05,Confirm evaluation team,Owner note for account cycle 1.,U001,2026-04-05T23:59:59Z
+D0029,Delta Studio - Expansion 029,open,,43375,USD,2026-10-06,Send pricing revision,Owner note for account cycle 2.,U002,2026-04-04T23:59:59Z
+D0030,Granite Works - Expansion 030,open,discovery,44750,USD,2026-10-07,Book technical review,,U003,2026-04-03T23:59:59Z
+D0031,Ivory Labs - Expansion 031,open,proposal,46125,USD,2026-10-08,Validate procurement path,Owner note for account cycle 4.,U004,2026-04-02T23:59:59Z
+D0032,Amber Supply - Expansion 032,open,negotiation,47500,USD,2026-10-09,Confirm evaluation team,Owner note for account cycle 5.,U005,2026-04-01T23:59:59Z
+D0033,Cedar Systems - Expansion 033,open,qualification,48875,USD,2026-10-10,,,U006,2026-03-31T23:59:59Z
+D0034,Ember Studio - Expansion 034,open,discovery,0,USD,2026-10-11,Book technical review,Owner note for account cycle 7.,U007,2026-03-30T23:59:59Z
+D0035,Harbor Works - Expansion 035,open,proposal,51625,USD,2026-10-12,Validate procurement path,,U001,2026-03-29T23:59:59Z
+D0036,Juniper Labs - Expansion 036,open,negotiation,53000,USD,2026-10-13,Confirm evaluation team,Owner note for account cycle 0.,U002,2026-03-28T23:59:59Z
+D0037,Blue Supply - Expansion 037,open,qualification,54375,USD,2026-10-14,Send pricing revision,Owner note for account cycle 1.,U003,2026-03-27T23:59:59Z
+D0038,Delta Systems - Expansion 038,open,discovery,55750,USD,,Book technical review,Owner note for account cycle 2.,U004,2026-03-26T23:59:59Z
+D0039,Fox Studio - Expansion 039,open,proposal,57125,USD,2026-10-16,Validate procurement path,Owner note for account cycle 3.,U005,2026-03-25T23:59:59Z
+D0040,Ivory Works - Expansion 040,open,negotiation,58500,USD,2026-10-17,Confirm evaluation team,,U006,2026-03-24T23:59:59Z
+D0041,Amber Labs - Expansion 041,open,qualification,59875,USD,2026-10-18,Send pricing revision,Owner note for account cycle 5.,U007,2026-03-23T23:59:59Z
+D0042,Cedar Supply - Expansion 042,open,discovery,61250,USD,2026-10-19,Book technical review,Owner note for account cycle 6.,U001,2026-03-22T23:59:59Z
+D0043,Ember Systems - Expansion 043,open,proposal,62625,USD,2026-10-20,Validate procurement path,Owner note for account cycle 7.,U002,2026-03-21T23:59:59Z
+D0044,Granite Studio - Expansion 044,open,negotiation,64000,USD,2026-10-21,,,U003,2026-03-20T23:59:59Z
+D0045,Juniper Works - Expansion 045,open,qualification,65375,USD,2026-10-22,Send pricing revision,,U004,2026-03-19T23:59:59Z
+D0046,Blue Labs - Expansion 046,open,discovery,66750,USD,2026-10-23,Book technical review,Owner note for account cycle 1.,U005,2026-03-18T23:59:59Z
+D0047,Delta Supply - Expansion 047,open,proposal,68125,USD,2026-10-24,Validate procurement path,Owner note for account cycle 2.,U006,2026-03-17T23:59:59Z
+D0048,Fox Systems - Expansion 048,open,negotiation,69500,USD,2026-10-25,Confirm evaluation team,Owner note for account cycle 3.,U007,2026-03-16T23:59:59Z
+D0049,Harbor Studio - Expansion 049,open,qualification,70875,USD,2026-10-26,Send pricing revision,Owner note for account cycle 4.,U001,2026-03-15T23:59:59Z
+D0050,Amber Works - Expansion 050,open,discovery,72250,USD,2026-10-27,Book technical review,,U002,2026-03-14T23:59:59Z
+D0051,Cedar Labs - Expansion 051,open,proposal,,USD,2026-10-28,Validate procurement path,Owner note for account cycle 6.,U003,2026-03-13T23:59:59Z
+D0052,Ember Supply - Expansion 052,open,negotiation,75000,USD,2026-10-29,Confirm evaluation team,Owner note for account cycle 7.,U004,2026-03-12T23:59:59Z
+D0053,Granite Systems - Expansion 053,open,qualification,76375,USD,2026-10-30,Send pricing revision,Owner note for account cycle 8.,U005,2026-03-11T23:59:59Z
+D0054,Ivory Studio - Expansion 054,open,discovery,77750,USD,2026-10-31,Book technical review,Owner note for account cycle 0.,U006,2026-03-10T23:59:59Z
+D0055,Blue Works - Expansion 055,open,proposal,79125,USD,2026-11-01,,,U007,2026-03-09T23:59:59Z
+D0056,Delta Labs - Expansion 056,open,negotiation,80500,USD,2026-11-02,Confirm evaluation team,Owner note for account cycle 2.,U001,2026-03-08T23:59:59Z
+D0057,Fox Supply - Expansion 057,open,qualification,81875,USD,,Send pricing revision,Owner note for account cycle 3.,U002,2026-03-07T23:59:59Z
+D0058,Harbor Systems - Expansion 058,open,,83250,USD,2026-11-04,Book technical review,Owner note for account cycle 4.,U003,2026-03-06T23:59:59Z
+D0059,Juniper Studio - Expansion 059,open,proposal,84625,USD,2026-11-05,Validate procurement path,Owner note for account cycle 5.,U004,2026-03-05T23:59:59Z
+D0060,Cedar Works - Expansion 060,open,negotiation,86000,USD,2026-11-06,Confirm evaluation team,,U005,2026-03-04T23:59:59Z
+D0061,Ember Labs - Expansion 061,open,qualification,87375,USD,2026-11-07,Send pricing revision,Owner note for account cycle 7.,U006,2026-03-03T23:59:59Z
+D0062,Granite Supply - Expansion 062,open,discovery,88750,USD,2026-11-08,Book technical review,Owner note for account cycle 8.,U007,2026-03-02T23:59:59Z
+D0063,Ivory Systems - Expansion 063,open,proposal,90125,USD,2026-11-09,Validate procurement path,Owner note for account cycle 0.,U001,2026-03-01T23:59:59Z
+D0064,Amber Studio - Expansion 064,open,negotiation,91500,USD,2026-11-10,Confirm evaluation team,Owner note for account cycle 1.,U002,2026-02-28T23:59:59Z
+D0065,Delta Works - Expansion 065,open,qualification,92875,USD,2026-11-11,Send pricing revision,,U003,2026-02-27T23:59:59Z
+D0066,Fox Labs - Expansion 066,open,discovery,94250,USD,2026-11-12,,,U004,2026-02-26T23:59:59Z
+D0067,Harbor Supply - Expansion 067,open,proposal,3625,USD,2026-11-13,Validate procurement path,Owner note for account cycle 4.,U005,2026-02-25T23:59:59Z
+D0068,Juniper Systems - Expansion 068,open,negotiation,,USD,2026-11-14,Confirm evaluation team,Owner note for account cycle 5.,U006,2026-02-24T23:59:59Z
+D0069,Blue Studio - Expansion 069,open,qualification,6375,USD,2026-11-15,Send pricing revision,Owner note for account cycle 6.,U007,2026-02-23T23:59:59Z
+D0070,Ember Works - Expansion 070,open,discovery,7750,USD,2026-09-07,Book technical review,,U001,2026-02-22T23:59:59Z
+D0071,Granite Labs - Expansion 071,open,proposal,9125,USD,2026-09-08,Validate procurement path,Owner note for account cycle 8.,U002,2026-02-21T23:59:59Z
+D0072,Ivory Supply - Expansion 072,open,negotiation,10500,USD,2026-09-09,Confirm evaluation team,Owner note for account cycle 0.,U003,2026-02-20T23:59:59Z
+D0073,Amber Systems - Expansion 073,open,qualification,11875,USD,2026-09-10,Send pricing revision,Owner note for account cycle 1.,U004,2026-02-19T23:59:59Z
+D0074,Cedar Studio - Expansion 074,open,discovery,13250,USD,2026-09-11,Book technical review,Owner note for account cycle 2.,U005,2026-02-18T23:59:59Z
+D0075,Fox Works - Expansion 075,open,proposal,14625,USD,2026-09-12,Validate procurement path,,U006,2026-02-17T23:59:59Z
+D0076,Harbor Labs - Expansion 076,open,negotiation,16000,USD,,Confirm evaluation team,Owner note for account cycle 4.,U007,2026-02-16T23:59:59Z
+D0077,Juniper Supply - Expansion 077,open,qualification,17375,USD,2026-09-14,,,U001,2026-02-15T23:59:59Z
+D0078,Blue Systems - Expansion 078,open,discovery,18750,USD,2026-09-15,Book technical review,Owner note for account cycle 6.,U002,2026-02-14T23:59:59Z
+D0079,Delta Studio - Expansion 079,open,proposal,20125,USD,2026-09-16,Validate procurement path,Owner note for account cycle 7.,U003,2026-02-13T23:59:59Z
+D0080,Granite Works - Expansion 080,open,negotiation,21500,USD,2026-09-17,Confirm evaluation team,,U004,2026-02-12T23:59:59Z
+D0081,Ivory Labs - Expansion 081,open,qualification,22875,USD,2026-09-18,Send pricing revision,Owner note for account cycle 0.,U005,2026-02-11T23:59:59Z
+D0082,Amber Supply - Expansion 082,open,discovery,24250,USD,2026-09-19,Book technical review,Owner note for account cycle 1.,U006,2026-02-10T23:59:59Z
+D0083,Cedar Systems - Expansion 083,open,proposal,25625,USD,2026-09-20,Validate procurement path,Owner note for account cycle 2.,U007,2026-02-09T23:59:59Z
+D0084,Ember Studio - Expansion 084,open,negotiation,27000,USD,2026-09-21,Confirm evaluation team,Owner note for account cycle 3.,U001,2026-02-08T23:59:59Z
+D0085,Harbor Works - Expansion 085,open,qualification,,USD,2026-09-22,Send pricing revision,,U002,2026-02-07T23:59:59Z
+D0086,Juniper Labs - Expansion 086,open,discovery,29750,USD,2026-09-23,Book technical review,Owner note for account cycle 5.,U003,2026-02-06T23:59:59Z
+D0087,Blue Supply - Expansion 087,open,,31125,USD,2026-09-24,Validate procurement path,Owner note for account cycle 6.,U004,2026-02-05T23:59:59Z
+D0088,Delta Systems - Expansion 088,open,negotiation,32500,USD,2026-09-25,,,U005,2026-02-04T23:59:59Z
+D0089,Fox Studio - Expansion 089,open,qualification,33875,USD,2026-09-26,Send pricing revision,Owner note for account cycle 8.,U006,2026-02-03T23:59:59Z
+D0090,Ivory Works - Expansion 090,open,discovery,35250,USD,2026-09-27,Book technical review,,U007,2026-02-02T23:59:59Z
+D0091,Amber Labs - Expansion 091,won,proposal,36625,USD,2026-09-28,Validate procurement path,Owner note for account cycle 1.,U001,2026-02-01T23:59:59Z
+D0092,Cedar Supply - Expansion 092,lost,negotiation,38000,USD,2026-09-29,Confirm evaluation team,Owner note for account cycle 2.,U002,2026-01-31T23:59:59Z
+D0093,Ember Systems - Expansion 093,won,qualification,39375,USD,2026-09-30,Send pricing revision,Owner note for account cycle 3.,U003,2026-01-30T23:59:59Z
+D0094,Granite Studio - Expansion 094,lost,discovery,40750,USD,2026-10-01,Book technical review,Owner note for account cycle 4.,U004,2026-01-29T23:59:59Z
+D0095,Juniper Works - Expansion 095,won,proposal,42125,USD,2026-10-02,Validate procurement path,,U005,2026-01-28T23:59:59Z
+D0096,Blue Labs - Expansion 096,lost,negotiation,43500,USD,2026-10-03,Confirm evaluation team,Owner note for account cycle 6.,U006,2026-01-27T23:59:59Z
+D0097,Delta Supply - Expansion 097,won,qualification,44875,USD,2026-10-04,Send pricing revision,Owner note for account cycle 7.,U007,2026-01-26T23:59:59Z
+D0098,Fox Systems - Expansion 098,lost,discovery,46250,USD,2026-10-05,Book technical review,Owner note for account cycle 8.,U001,2026-01-25T23:59:59Z
+D0099,Harbor Studio - Expansion 099,won,proposal,47625,USD,2026-10-06,,,U002,2026-01-24T23:59:59Z
+D0100,Amber Works - Expansion 100,lost,negotiation,49000,USD,2026-10-07,Confirm evaluation team,,U003,2026-01-23T23:59:59Z
+D0101,Cedar Labs - Expansion 101,won,qualification,50375,USD,2026-10-08,Send pricing revision,Owner note for account cycle 2.,U004,2026-01-22T23:59:59Z
+D0102,Ember Supply - Expansion 102,lost,discovery,51750,USD,2026-10-09,Book technical review,Owner note for account cycle 3.,U005,2026-01-21T23:59:59Z
+D0103,Granite Systems - Expansion 103,won,proposal,53125,USD,2026-10-10,Validate procurement path,Owner note for account cycle 4.,U006,2026-01-20T23:59:59Z
+D0104,Ivory Studio - Expansion 104,lost,negotiation,54500,USD,2026-10-11,Confirm evaluation team,Owner note for account cycle 5.,U007,2026-01-19T23:59:59Z
+D0105,Blue Works - Expansion 105,won,qualification,55875,USD,2026-10-12,Send pricing revision,,U001,2026-01-18T23:59:59Z
+D0106,Delta Labs - Expansion 106,lost,discovery,57250,USD,2026-10-13,Book technical review,Owner note for account cycle 7.,U002,2026-01-17T23:59:59Z
+D0107,Fox Supply - Expansion 107,won,proposal,58625,USD,2026-10-14,Validate procurement path,Owner note for account cycle 8.,U003,2026-01-16T23:59:59Z
+D0108,Harbor Systems - Expansion 108,lost,negotiation,60000,USD,2026-10-15,Confirm evaluation team,Owner note for account cycle 0.,U004,2026-01-15T23:59:59Z
+D0109,Juniper Studio - Expansion 109,won,qualification,61375,USD,2026-10-16,Send pricing revision,Owner note for account cycle 1.,U005,2026-01-14T23:59:59Z
+D0110,Cedar Works - Expansion 110,lost,discovery,62750,USD,2026-10-17,,,U006,2026-01-13T23:59:59Z
+D0111,Ember Labs - Expansion 111,won,proposal,64125,USD,2026-10-18,Validate procurement path,Owner note for account cycle 3.,U007,2026-01-12T23:59:59Z
+D0112,Granite Supply - Expansion 112,lost,negotiation,65500,USD,2026-10-19,Confirm evaluation team,Owner note for account cycle 4.,U001,2026-01-11T23:59:59Z
+D0113,Ivory Systems - Expansion 113,won,qualification,66875,USD,2026-10-20,Send pricing revision,Owner note for account cycle 5.,U002,2026-01-10T23:59:59Z
+D0114,Amber Studio - Expansion 114,lost,discovery,68250,USD,2026-10-21,Book technical review,Owner note for account cycle 6.,U003,2026-01-09T23:59:59Z
+D0115,Delta Works - Expansion 115,won,proposal,69625,USD,2026-10-22,Validate procurement path,,U004,2026-01-08T23:59:59Z
+D0116,Fox Labs - Expansion 116,lost,negotiation,71000,USD,2026-10-23,Confirm evaluation team,Owner note for account cycle 8.,U005,2026-01-07T23:59:59Z
+D0117,Harbor Supply - Expansion 117,won,qualification,72375,USD,2026-10-24,Send pricing revision,Owner note for account cycle 0.,U006,2026-01-06T23:59:59Z
+D0118,Juniper Systems - Expansion 118,lost,discovery,73750,USD,2026-10-25,Book technical review,Owner note for account cycle 1.,U007,2026-01-05T23:59:59Z
+D0119,Blue Studio - Expansion 119,won,proposal,75125,USD,2026-10-26,Validate procurement path,Owner note for account cycle 2.,U001,2026-01-04T23:59:59Z
+D0120,Ember Works - Expansion 120,lost,negotiation,76500,USD,2026-10-27,Confirm evaluation team,,U002,2026-01-03T23:59:59Z

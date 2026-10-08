@@ -1,0 +1,29 @@
+[
+  {
+    "resource_id": "x01",
+    "name": "erp-orders-shared",
+    "type": "Microsoft.Web/sites",
+    "resource_group": "rg-helio-shared",
+    "location": "canadaeast",
+    "purpose": "Partner order handoff",
+    "scope": "external_dependency"
+  },
+  {
+    "resource_id": "x02",
+    "name": "search-catalog-shared",
+    "type": "Microsoft.Search/searchServices",
+    "resource_group": "rg-helio-shared",
+    "location": "canadacentral",
+    "purpose": "Shared product search index",
+    "scope": "external_dependency"
+  },
+  {
+    "resource_id": "x03",
+    "name": "eh-soc-shared",
+    "type": "Microsoft.EventHub/namespaces",
+    "resource_group": "rg-security-prod",
+    "location": "canadacentral",
+    "purpose": "Security event collection",
+    "scope": "external_dependency"
+  }
+]

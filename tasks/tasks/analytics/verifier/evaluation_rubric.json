@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__qa_audit_accuracy",
+      "title": "QA audit metrics are accurate",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All six scoped QA metrics correctly quantify duplicates, consent leakage, personal-data properties, invalid names, and incomplete events from the frozen stream.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_qa_summary_accuracy"
+      ]
+    },
+    {
+      "id": "completion__event_measurement_design",
+      "title": "Event, property, consent, and privacy design",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every required product action has a consistently named event with an implementation source, a success trigger, the decision-critical properties, granted-consent gating, and no PII fields.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_event_plan_coverage_and_naming",
+        "test_event_property_consent_and_privacy_design"
+      ]
+    },
+    {
+      "id": "completion__ga4_measurement_configuration",
+      "title": "Conversion and custom-dimension configuration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The conversion set and counting semantics match the supplied KPI definitions, while event-varying segmentation is registered without redefining automatic acquisition or standard ecommerce fields.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_conversion_configuration",
+        "test_custom_dimension_configuration",
+        "test_automatic_fields_not_redefined_as_custom_dimensions"
+      ]
+    },
+    {
+      "id": "completion__implementation_validation_readiness",
+      "title": "Implementation and validation readiness",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The handoff gives developers and analysts actionable changes and test scenarios that verify success triggers, required values, consent denial, privacy, and retry/reload deduplication before launch.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__qa_audit_accuracy",
+        "title": "QA audit metrics are accurate",
+        "required_score": 10
+      },
+      {
+        "id": "completion__event_measurement_design",
+        "title": "Event, property, consent, and privacy design",
+        "required_score": 10
+      },
+      {
+        "id": "completion__ga4_measurement_configuration",
+        "title": "Conversion and custom-dimension configuration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__implementation_validation_readiness",
+        "title": "Implementation and validation readiness",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

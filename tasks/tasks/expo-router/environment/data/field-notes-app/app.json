@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Trailbook Field Notes",
+    "slug": "trailbook-field-notes",
+    "scheme": "trailbook",
+    "plugins": ["expo-router"],
+    "experiments": {"typedRoutes": true},
+    "android": {"softwareKeyboardLayoutMode": "resize"}
+  }
+}

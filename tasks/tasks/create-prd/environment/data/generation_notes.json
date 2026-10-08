@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "reporting_cutoff": "2026-08-31",
+  "files": {
+    "accounts.csv": 48,
+    "triage_sessions.csv": 240,
+    "discovery_notes.jsonl": 40
+  },
+  "relationships": [
+    "triage_sessions.account_id joins accounts.account_id",
+    "discovery_notes.account_id joins accounts.account_id"
+  ],
+  "scope_note": "All organizations, people, sessions, and observations in this fixture are fictional."
+}

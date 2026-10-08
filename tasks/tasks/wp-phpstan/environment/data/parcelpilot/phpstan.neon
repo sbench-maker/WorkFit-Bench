@@ -1,0 +1,17 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 7
+    paths:
+        - src/
+        - includes/
+        - build/
+        - vendor/
+
+    scanFiles:
+        - vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
+
+    ignoreErrors:
+        # Temporary migration rule added during the release rush.
+        - '#(unknown class|invalid type|call to method .* on an unknown class).*#'

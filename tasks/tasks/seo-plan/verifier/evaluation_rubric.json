@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__deliverable_usability",
+      "title": "Complete, readable deliverable set",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All five requested Markdown files exist at the requested location, are readable, and contain substantive planning content.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_requested_deliverables_are_readable"
+      ]
+    },
+    {
+      "id": "completion__factual_grounding",
+      "title": "Snapshot facts and material constraints are respected",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan uses the supplied baseline and competitor scope, addresses the material current-site faults, and does not erase launch-state distinctions that would make public claims misleading.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_snapshot_baseline_and_competitor_scope",
+        "test_material_site_and_launch_constraints"
+      ]
+    },
+    {
+      "id": "completion__roadmap_feasibility",
+      "title": "Feasible roadmap, measurement, and handoff",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The phased roadmap has usable owners, dependencies, resource estimates, reserved capacity, launch-aware timing, measurable KPI checkpoints, and risk responses that make the plan executable over 12 months.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__deliverable_usability",
+        "title": "Complete, readable deliverable set",
+        "required_score": 10
+      },
+      {
+        "id": "completion__factual_grounding",
+        "title": "Snapshot facts and material constraints are respected",
+        "required_score": 10
+      },
+      {
+        "id": "completion__roadmap_feasibility",
+        "title": "Feasible roadmap, measurement, and handoff",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

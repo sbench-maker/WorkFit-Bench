@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-04-30",
+  "target_month": "2026-04",
+  "connections": [
+    {
+      "processor": "Stripe",
+      "status": "available",
+      "coverage": "2026-04-01 through 2026-04-30"
+    },
+    {
+      "processor": "Square",
+      "status": "available",
+      "coverage": "2026-04-01 through 2026-04-30"
+    },
+    {
+      "processor": "PayPal",
+      "status": "unavailable",
+      "coverage": null,
+      "note": "Connection unavailable at export time"
+    }
+  ]
+}

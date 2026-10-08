@@ -1,0 +1,60 @@
+{
+  "company": "Cedar & Finch Commerce (fictional)",
+  "report_date": "2026-09-07",
+  "timezone": "America/Chicago",
+  "current_7_day_window": {
+    "start": "2026-09-01",
+    "end": "2026-09-07"
+  },
+  "prior_7_day_window": {
+    "start": "2026-08-25",
+    "end": "2026-08-31"
+  },
+  "sources": [
+    {
+      "name": "QuickBooks",
+      "status": "available",
+      "detail": "summary and invoice export complete"
+    },
+    {
+      "name": "PayPal",
+      "status": "available",
+      "detail": "transaction export complete"
+    },
+    {
+      "name": "Square",
+      "status": "available",
+      "detail": "transaction export complete"
+    },
+    {
+      "name": "HubSpot",
+      "status": "available",
+      "detail": "deals and stage events complete"
+    },
+    {
+      "name": "Google Calendar",
+      "status": "available",
+      "detail": "events through 2026-09-14 complete"
+    },
+    {
+      "name": "Slack",
+      "status": "available",
+      "detail": "owner-relevant search export complete"
+    },
+    {
+      "name": "Gmail",
+      "status": "unavailable",
+      "detail": "authentication error; no message export"
+    },
+    {
+      "name": "Zendesk",
+      "status": "unavailable",
+      "detail": "not connected"
+    },
+    {
+      "name": "Shopify",
+      "status": "unavailable",
+      "detail": "not connected"
+    }
+  ]
+}

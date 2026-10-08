@@ -1,0 +1,57 @@
+{
+  "analytics_stack": {
+    "collection": "Google Tag Manager web container",
+    "destination": "GA4 web stream",
+    "source_of_truth_for_system_events": "application backend"
+  },
+  "business_questions": [
+    {
+      "decision": "Shift launch spend and page placement toward qualified acquisition.",
+      "id": "BQ1",
+      "question": "Which campaign and CTA placements create completed signups?"
+    },
+    {
+      "decision": "Choose the onboarding step to simplify next sprint.",
+      "id": "BQ2",
+      "question": "Where do new workspaces stall during onboarding?"
+    },
+    {
+      "decision": "Prioritize templates and in-product guidance.",
+      "id": "BQ3",
+      "question": "Which report types and templates lead users to activation?"
+    },
+    {
+      "decision": "Evaluate packaging and forecast launch revenue.",
+      "id": "BQ4",
+      "question": "Which plans and billing cycles convert from trial to paid?"
+    }
+  ],
+  "campaign_convention": {
+    "case": "lowercase",
+    "optional_parameters": [
+      "content",
+      "term"
+    ],
+    "required_parameters": [
+      "source",
+      "medium",
+      "campaign"
+    ],
+    "separator": "underscore"
+  },
+  "company": "Kiteframe",
+  "kpi_definitions": {
+    "activation": "A user's first successful report export within seven days of signup.",
+    "paid_conversion": "A payment-processor-confirmed first invoice with a stable transaction identifier.",
+    "signup": "Backend-confirmed account creation, never a button click or page view."
+  },
+  "privacy_and_quality_constraints": [
+    "Analytics tags may fire only when analytics_storage is granted.",
+    "Email addresses, full names, phone numbers, and free-text form content must not be sent to GA4.",
+    "Internal traffic is excluded from launch QA metrics.",
+    "Campaign values are normalized before collection; raw query strings are not analytics properties.",
+    "System-event retries and success-page reloads must not inflate conversions."
+  ],
+  "product": "Collaborative reporting SaaS",
+  "release": "self-serve trial launch"
+}

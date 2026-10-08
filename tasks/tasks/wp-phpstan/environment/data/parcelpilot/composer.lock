@@ -1,0 +1,12 @@
+{
+  "_readme": [
+    "This lock file belongs to a deterministic fictional fixture."
+  ],
+  "content-hash": "parcelpilot-fixture-v1",
+  "packages": [],
+  "packages-dev": [
+    {"name": "phpstan/phpstan", "version": "1.12.9"},
+    {"name": "php-stubs/wordpress-stubs", "version": "7.0.0"},
+    {"name": "php-stubs/woocommerce-stubs", "version": "9.3.3"}
+  ]
+}

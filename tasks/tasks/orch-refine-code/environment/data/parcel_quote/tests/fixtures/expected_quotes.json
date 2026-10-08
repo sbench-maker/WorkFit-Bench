@@ -1,0 +1,4073 @@
+[
+  {
+    "request_id": "CASE-0001",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 225
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1095,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0002",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 146,
+    "total_cents": 1004,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0003",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0004",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1215,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0005",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 110,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1500,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0006",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 225
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2236,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0007",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 70,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 465,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0008",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 2200,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4005,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0009",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0010",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 2730,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 488,
+    "total_cents": 3842,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0011",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 10780,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 317
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 12912,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0012",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0013",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 870,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0014",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 146,
+    "total_cents": 1004,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0015",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0016",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 476
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1691,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0017",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 110,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1500,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0018",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0019",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 70,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 465,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0020",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 2200,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4005,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0021",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 634
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2969,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0022",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 2730,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 488,
+    "total_cents": 3842,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0023",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 10780,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 12595,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0024",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0025",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 870,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0026",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 792
+      }
+    ],
+    "discount_cents": 146,
+    "total_cents": 1796,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0027",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0028",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1215,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0029",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 110,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1500,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0030",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0031",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 70,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 951
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1416,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0032",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 2200,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4005,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0033",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0034",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 2730,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 488,
+    "total_cents": 3842,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0035",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 10780,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 12595,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0036",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 1109
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3419,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0037",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 4760,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6530,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0038",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 440,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 212,
+    "total_cents": 1378,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0039",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0040",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 1120,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0041",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 3960,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 1268
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6618,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0042",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0043",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2380,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 2775,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0044",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 10560,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 13265,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0045",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0046",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 3360,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 1426
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 583,
+    "total_cents": 5803,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0047",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 9680,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 11495,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0048",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0049",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2170,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3040,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0050",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 440,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 212,
+    "total_cents": 1378,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0051",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 1584
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 3284,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0052",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 2450,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3665,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0053",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 330,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1720,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0054",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0055",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2310,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 2705,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0056",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 2750,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 1743
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6298,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0057",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0058",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 5600,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 919,
+    "total_cents": 6281,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0059",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 10340,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 12155,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0060",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0061",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 5250,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 1901
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8921,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0062",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 4290,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 790,
+    "total_cents": 4650,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0063",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0064",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 5180,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7295,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0065",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 2860,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4250,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0066",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 2059
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 3934,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0067",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 3920,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 5215,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0068",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 4510,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7215,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0069",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0070",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 1260,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 268,
+    "total_cents": 1692,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0071",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 1210,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 2218
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 4343,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0072",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0073",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 6090,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7860,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0074",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 5280,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 938,
+    "total_cents": 6392,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0075",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0076",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 4480,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 2376
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8971,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0077",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 2090,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3480,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0078",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0079",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 560,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 955,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0080",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 3740,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 5545,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0081",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 2535
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4710,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0082",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 3290,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 572,
+    "total_cents": 4318,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0083",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 9790,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 11605,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0084",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0085",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 3080,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4850,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0086",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 2693
+      }
+    ],
+    "discount_cents": 146,
+    "total_cents": 3697,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0087",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0088",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 3430,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 5545,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0089",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 2970,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4360,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0090",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0091",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 3920,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 2851
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 8066,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0092",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 4620,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7325,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0093",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0094",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 6370,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1034,
+    "total_cents": 6936,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0095",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 915,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0096",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 3010
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8050,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0097",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 1540,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2410,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0098",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 6050,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1054,
+    "total_cents": 7046,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0099",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0100",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 3430,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 5545,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0101",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 2530,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 3168
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7088,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0102",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0103",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 1960,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 2355,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0104",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 3960,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 5765,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0105",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0106",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 2590,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 3326
+      }
+    ],
+    "discount_cents": 467,
+    "total_cents": 6149,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0107",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 4180,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 5095,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0108",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0109",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 140,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1010,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0110",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 4180,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 773,
+    "total_cents": 4557,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0111",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 3485
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 5855,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0112",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 6020,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8135,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0113",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 1540,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2930,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0114",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0115",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 700,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1095,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0116",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 7700,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 3643
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 14048,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0117",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0118",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 280,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 121,
+    "total_cents": 859,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0119",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 7370,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 9185,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0120",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0121",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2940,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 3802
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8512,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0122",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 6930,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1186,
+    "total_cents": 7794,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0123",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0124",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 1890,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3105,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0125",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 10890,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 13180,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0126",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 3960
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 5971,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0127",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 1050,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1445,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0128",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 7700,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 10405,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0129",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0130",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 5040,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 835,
+    "total_cents": 5805,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0131",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 2970,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 4118
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 8003,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0132",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0133",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 1750,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2620,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0134",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 9020,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1499,
+    "total_cents": 9571,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0135",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0136",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 1400,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 4277
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6892,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0137",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 5060,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7350,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0138",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0139",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2940,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 4235,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0140",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 9020,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 11725,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0141",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 4435
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6770,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0142",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 6720,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1087,
+    "total_cents": 7233,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0143",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 9350,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 11165,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0144",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0145",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 3850,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 5620,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0146",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 880,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 4594
+      }
+    ],
+    "discount_cents": 278,
+    "total_cents": 6346,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0147",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0148",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 1750,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2965,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0149",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 2530,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3920,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0150",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0151",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2240,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 4752
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 7387,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0152",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 6050,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8755,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0153",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0154",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 1470,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 299,
+    "total_cents": 1871,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0155",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 6050,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 7865,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0156",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 4910
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7220,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0157",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2450,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3320,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0158",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 7260,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1235,
+    "total_cents": 8075,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0159",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0160",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 4760,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6875,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0161",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 9350,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 5069
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 16709,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0162",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0163",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 4480,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 5775,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0164",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 3520,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 5325,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0165",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0166",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 4830,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 5227
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 803,
+    "total_cents": 10854,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0167",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 9900,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 11715,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0168",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0169",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 5530,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7300,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0170",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 550,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 229,
+    "total_cents": 1471,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0171",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 5385
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 7085,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0172",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 350,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1565,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0173",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 7700,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 9990,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0174",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0175",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 4620,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 5915,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0176",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 1870,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 5544
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 9219,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0177",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0178",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 3290,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 572,
+    "total_cents": 4318,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0179",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 8470,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 10285,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0180",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0181",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 4200,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 5702
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 11672,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0182",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 5170,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 922,
+    "total_cents": 6298,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0183",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0184",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 2660,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3875,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0185",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 1870,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3260,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0186",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 5861
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 7736,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0187",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2030,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 2425,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0188",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 6050,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8755,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0189",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0190",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 1120,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 247,
+    "total_cents": 1573,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0191",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 7920,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 6019
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 15754,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0192",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0193",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 5320,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7090,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0194",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 2970,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 592,
+    "total_cents": 3528,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0195",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0196",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 4130,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 6177
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 12422,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0197",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 770,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2160,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0198",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0199",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2730,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 4025,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0200",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 1100,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2905,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0201",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 6336
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 8511,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0202",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 980,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 226,
+    "total_cents": 1454,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0203",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 4510,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 6325,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0204",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0205",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 2800,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 4570,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0206",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 7480,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 6494
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1268,
+    "total_cents": 14756,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0207",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 2370,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0208",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 3920,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6035,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0209",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 9240,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 11530,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0210",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0211",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 1190,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 6652
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 8237,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0212",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 1650,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 3455,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0213",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0214",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 560,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 163,
+    "total_cents": 1097,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0215",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 330,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1245,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0216",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 6811
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 11851,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0217",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 980,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 1850,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0218",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 3630,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 691,
+    "total_cents": 4089,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0219",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 1700,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0220",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 1540,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2755,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0221",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 9460,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 6969
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 18719,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0222",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 324,
+    "total_cents": 2011,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0223",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 4620,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 5915,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0224",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 4290,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 6095,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0225",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2175,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0226",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 5110,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "FRAGILE",
+        "amount_cents": 7128
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 845,
+    "total_cents": 12993,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0227",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 4620,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 6435,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0228",
+    "base_cents": 1800,
+    "distance_cents": 0,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2310,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0229",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 5320,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 7090,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0230",
+    "base_cents": 975,
+    "distance_cents": 0,
+    "weight_cents": 550,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 229,
+    "total_cents": 1471,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0231",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 320,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 7286
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 9656,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0232",
+    "base_cents": 525,
+    "distance_cents": 340,
+    "weight_cents": 840,
+    "surcharges": [
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2055,
+    "currency": "USD",
+    "eta_days": 7
+  },
+  {
+    "request_id": "CASE-0233",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 7040,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 9330,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0234",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 0,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 1875,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0235",
+    "base_cents": 525,
+    "distance_cents": 170,
+    "weight_cents": 140,
+    "surcharges": [],
+    "discount_cents": 300,
+    "total_cents": 535,
+    "currency": "USD",
+    "eta_days": 6
+  },
+  {
+    "request_id": "CASE-0236",
+    "base_cents": 975,
+    "distance_cents": 480,
+    "weight_cents": 8910,
+    "surcharges": [
+      {
+        "code": "FRAGILE",
+        "amount_cents": 7444
+      },
+      {
+        "code": "REMOTE_AREA",
+        "amount_cents": 350
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 19059,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0237",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      }
+    ],
+    "discount_cents": 0,
+    "total_cents": 2335,
+    "currency": "USD",
+    "eta_days": 0
+  },
+  {
+    "request_id": "CASE-0238",
+    "base_cents": 525,
+    "distance_cents": 0,
+    "weight_cents": 6160,
+    "surcharges": [
+      {
+        "code": "RESIDENTIAL",
+        "amount_cents": 175
+      },
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 1003,
+    "total_cents": 6757,
+    "currency": "USD",
+    "eta_days": 5
+  },
+  {
+    "request_id": "CASE-0239",
+    "base_cents": 975,
+    "distance_cents": 240,
+    "weight_cents": 5830,
+    "surcharges": [
+      {
+        "code": "OVERSIZE",
+        "amount_cents": 900
+      }
+    ],
+    "discount_cents": 300,
+    "total_cents": 7645,
+    "currency": "USD",
+    "eta_days": 2
+  },
+  {
+    "request_id": "CASE-0240",
+    "base_cents": 1800,
+    "distance_cents": 200,
+    "weight_cents": 3040,
+    "surcharges": [],
+    "discount_cents": 0,
+    "total_cents": 5040,
+    "currency": "USD",
+    "eta_days": 0
+  }
+]

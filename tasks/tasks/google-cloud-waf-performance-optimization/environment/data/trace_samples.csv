@@ -1,0 +1,561 @@
+trace_id,run_id,journey,span_id,parent_span_id,service_id,operation,duration_ms,status
+run-steady-trace-000,RUN-STEADY,checkout,run-steady-trace-000-span-0,,checkout-api,POST /checkout,104.0,OK
+run-steady-trace-000,RUN-STEADY,checkout,run-steady-trace-000-span-1,run-steady-trace-000-span-0,checkout-api,validate-cart,15.0,OK
+run-steady-trace-000,RUN-STEADY,checkout,run-steady-trace-000-span-2,run-steady-trace-000-span-0,order-db,SELECT price per line item 1,34.0,OK
+run-steady-trace-000,RUN-STEADY,checkout,run-steady-trace-000-span-3,run-steady-trace-000-span-0,order-db,SELECT price per line item 2,39.0,OK
+run-steady-trace-000,RUN-STEADY,checkout,run-steady-trace-000-span-4,run-steady-trace-000-span-0,order-db,SELECT price per line item 3,41.0,OK
+run-steady-trace-000,RUN-STEADY,checkout,run-steady-trace-000-span-5,run-steady-trace-000-span-0,inventory-worker,reserve-stock synchronous RPC,68.0,OK
+run-steady-trace-000,RUN-STEADY,checkout,run-steady-trace-000-span-6,run-steady-trace-000-span-0,order-db,INSERT order transaction,54.0,OK
+run-steady-trace-001,RUN-STEADY,checkout,run-steady-trace-001-span-0,,checkout-api,POST /checkout,111.0,OK
+run-steady-trace-001,RUN-STEADY,checkout,run-steady-trace-001-span-1,run-steady-trace-001-span-0,checkout-api,validate-cart,22.0,OK
+run-steady-trace-001,RUN-STEADY,checkout,run-steady-trace-001-span-2,run-steady-trace-001-span-0,order-db,SELECT price per line item 1,28.0,OK
+run-steady-trace-001,RUN-STEADY,checkout,run-steady-trace-001-span-3,run-steady-trace-001-span-0,order-db,SELECT price per line item 2,33.0,OK
+run-steady-trace-001,RUN-STEADY,checkout,run-steady-trace-001-span-4,run-steady-trace-001-span-0,order-db,SELECT price per line item 3,35.0,OK
+run-steady-trace-001,RUN-STEADY,checkout,run-steady-trace-001-span-5,run-steady-trace-001-span-0,inventory-worker,reserve-stock synchronous RPC,75.0,OK
+run-steady-trace-001,RUN-STEADY,checkout,run-steady-trace-001-span-6,run-steady-trace-001-span-0,order-db,INSERT order transaction,61.0,OK
+run-steady-trace-002,RUN-STEADY,checkout,run-steady-trace-002-span-0,,checkout-api,POST /checkout,105.0,OK
+run-steady-trace-002,RUN-STEADY,checkout,run-steady-trace-002-span-1,run-steady-trace-002-span-0,checkout-api,validate-cart,16.0,OK
+run-steady-trace-002,RUN-STEADY,checkout,run-steady-trace-002-span-2,run-steady-trace-002-span-0,order-db,SELECT price per line item 1,35.0,OK
+run-steady-trace-002,RUN-STEADY,checkout,run-steady-trace-002-span-3,run-steady-trace-002-span-0,order-db,SELECT price per line item 2,40.0,OK
+run-steady-trace-002,RUN-STEADY,checkout,run-steady-trace-002-span-4,run-steady-trace-002-span-0,order-db,SELECT price per line item 3,29.0,OK
+run-steady-trace-002,RUN-STEADY,checkout,run-steady-trace-002-span-5,run-steady-trace-002-span-0,inventory-worker,reserve-stock synchronous RPC,69.0,OK
+run-steady-trace-002,RUN-STEADY,checkout,run-steady-trace-002-span-6,run-steady-trace-002-span-0,order-db,INSERT order transaction,55.0,OK
+run-steady-trace-003,RUN-STEADY,checkout,run-steady-trace-003-span-0,,checkout-api,POST /checkout,112.0,OK
+run-steady-trace-003,RUN-STEADY,checkout,run-steady-trace-003-span-1,run-steady-trace-003-span-0,checkout-api,validate-cart,23.0,OK
+run-steady-trace-003,RUN-STEADY,checkout,run-steady-trace-003-span-2,run-steady-trace-003-span-0,order-db,SELECT price per line item 1,29.0,OK
+run-steady-trace-003,RUN-STEADY,checkout,run-steady-trace-003-span-3,run-steady-trace-003-span-0,order-db,SELECT price per line item 2,34.0,OK
+run-steady-trace-003,RUN-STEADY,checkout,run-steady-trace-003-span-4,run-steady-trace-003-span-0,order-db,SELECT price per line item 3,36.0,OK
+run-steady-trace-003,RUN-STEADY,checkout,run-steady-trace-003-span-5,run-steady-trace-003-span-0,inventory-worker,reserve-stock synchronous RPC,76.0,OK
+run-steady-trace-003,RUN-STEADY,checkout,run-steady-trace-003-span-6,run-steady-trace-003-span-0,order-db,INSERT order transaction,49.0,OK
+run-steady-trace-004,RUN-STEADY,checkout,run-steady-trace-004-span-0,,checkout-api,POST /checkout,106.0,OK
+run-steady-trace-004,RUN-STEADY,checkout,run-steady-trace-004-span-1,run-steady-trace-004-span-0,checkout-api,validate-cart,17.0,OK
+run-steady-trace-004,RUN-STEADY,checkout,run-steady-trace-004-span-2,run-steady-trace-004-span-0,order-db,SELECT price per line item 1,36.0,OK
+run-steady-trace-004,RUN-STEADY,checkout,run-steady-trace-004-span-3,run-steady-trace-004-span-0,order-db,SELECT price per line item 2,41.0,OK
+run-steady-trace-004,RUN-STEADY,checkout,run-steady-trace-004-span-4,run-steady-trace-004-span-0,order-db,SELECT price per line item 3,30.0,OK
+run-steady-trace-004,RUN-STEADY,checkout,run-steady-trace-004-span-5,run-steady-trace-004-span-0,inventory-worker,reserve-stock synchronous RPC,70.0,OK
+run-steady-trace-004,RUN-STEADY,checkout,run-steady-trace-004-span-6,run-steady-trace-004-span-0,order-db,INSERT order transaction,56.0,OK
+run-steady-trace-005,RUN-STEADY,checkout,run-steady-trace-005-span-0,,checkout-api,POST /checkout,113.0,OK
+run-steady-trace-005,RUN-STEADY,checkout,run-steady-trace-005-span-1,run-steady-trace-005-span-0,checkout-api,validate-cart,24.0,OK
+run-steady-trace-005,RUN-STEADY,checkout,run-steady-trace-005-span-2,run-steady-trace-005-span-0,order-db,SELECT price per line item 1,30.0,OK
+run-steady-trace-005,RUN-STEADY,checkout,run-steady-trace-005-span-3,run-steady-trace-005-span-0,order-db,SELECT price per line item 2,35.0,OK
+run-steady-trace-005,RUN-STEADY,checkout,run-steady-trace-005-span-4,run-steady-trace-005-span-0,order-db,SELECT price per line item 3,37.0,OK
+run-steady-trace-005,RUN-STEADY,checkout,run-steady-trace-005-span-5,run-steady-trace-005-span-0,inventory-worker,reserve-stock synchronous RPC,77.0,OK
+run-steady-trace-005,RUN-STEADY,checkout,run-steady-trace-005-span-6,run-steady-trace-005-span-0,order-db,INSERT order transaction,50.0,OK
+run-steady-trace-006,RUN-STEADY,checkout,run-steady-trace-006-span-0,,checkout-api,POST /checkout,107.0,OK
+run-steady-trace-006,RUN-STEADY,checkout,run-steady-trace-006-span-1,run-steady-trace-006-span-0,checkout-api,validate-cart,18.0,OK
+run-steady-trace-006,RUN-STEADY,checkout,run-steady-trace-006-span-2,run-steady-trace-006-span-0,order-db,SELECT price per line item 1,37.0,OK
+run-steady-trace-006,RUN-STEADY,checkout,run-steady-trace-006-span-3,run-steady-trace-006-span-0,order-db,SELECT price per line item 2,42.0,OK
+run-steady-trace-006,RUN-STEADY,checkout,run-steady-trace-006-span-4,run-steady-trace-006-span-0,order-db,SELECT price per line item 3,31.0,OK
+run-steady-trace-006,RUN-STEADY,checkout,run-steady-trace-006-span-5,run-steady-trace-006-span-0,inventory-worker,reserve-stock synchronous RPC,71.0,OK
+run-steady-trace-006,RUN-STEADY,checkout,run-steady-trace-006-span-6,run-steady-trace-006-span-0,order-db,INSERT order transaction,57.0,OK
+run-steady-trace-007,RUN-STEADY,checkout,run-steady-trace-007-span-0,,checkout-api,POST /checkout,114.0,OK
+run-steady-trace-007,RUN-STEADY,checkout,run-steady-trace-007-span-1,run-steady-trace-007-span-0,checkout-api,validate-cart,12.0,OK
+run-steady-trace-007,RUN-STEADY,checkout,run-steady-trace-007-span-2,run-steady-trace-007-span-0,order-db,SELECT price per line item 1,31.0,OK
+run-steady-trace-007,RUN-STEADY,checkout,run-steady-trace-007-span-3,run-steady-trace-007-span-0,order-db,SELECT price per line item 2,36.0,OK
+run-steady-trace-007,RUN-STEADY,checkout,run-steady-trace-007-span-4,run-steady-trace-007-span-0,order-db,SELECT price per line item 3,38.0,OK
+run-steady-trace-007,RUN-STEADY,checkout,run-steady-trace-007-span-5,run-steady-trace-007-span-0,inventory-worker,reserve-stock synchronous RPC,78.0,OK
+run-steady-trace-007,RUN-STEADY,checkout,run-steady-trace-007-span-6,run-steady-trace-007-span-0,order-db,INSERT order transaction,51.0,OK
+run-steady-trace-008,RUN-STEADY,checkout,run-steady-trace-008-span-0,,checkout-api,POST /checkout,108.0,OK
+run-steady-trace-008,RUN-STEADY,checkout,run-steady-trace-008-span-1,run-steady-trace-008-span-0,checkout-api,validate-cart,19.0,OK
+run-steady-trace-008,RUN-STEADY,checkout,run-steady-trace-008-span-2,run-steady-trace-008-span-0,order-db,SELECT price per line item 1,38.0,OK
+run-steady-trace-008,RUN-STEADY,checkout,run-steady-trace-008-span-3,run-steady-trace-008-span-0,order-db,SELECT price per line item 2,30.0,OK
+run-steady-trace-008,RUN-STEADY,checkout,run-steady-trace-008-span-4,run-steady-trace-008-span-0,order-db,SELECT price per line item 3,32.0,OK
+run-steady-trace-008,RUN-STEADY,checkout,run-steady-trace-008-span-5,run-steady-trace-008-span-0,inventory-worker,reserve-stock synchronous RPC,72.0,OK
+run-steady-trace-008,RUN-STEADY,checkout,run-steady-trace-008-span-6,run-steady-trace-008-span-0,order-db,INSERT order transaction,58.0,OK
+run-steady-trace-009,RUN-STEADY,checkout,run-steady-trace-009-span-0,,checkout-api,POST /checkout,115.0,OK
+run-steady-trace-009,RUN-STEADY,checkout,run-steady-trace-009-span-1,run-steady-trace-009-span-0,checkout-api,validate-cart,13.0,OK
+run-steady-trace-009,RUN-STEADY,checkout,run-steady-trace-009-span-2,run-steady-trace-009-span-0,order-db,SELECT price per line item 1,32.0,OK
+run-steady-trace-009,RUN-STEADY,checkout,run-steady-trace-009-span-3,run-steady-trace-009-span-0,order-db,SELECT price per line item 2,37.0,OK
+run-steady-trace-009,RUN-STEADY,checkout,run-steady-trace-009-span-4,run-steady-trace-009-span-0,order-db,SELECT price per line item 3,39.0,OK
+run-steady-trace-009,RUN-STEADY,checkout,run-steady-trace-009-span-5,run-steady-trace-009-span-0,inventory-worker,reserve-stock synchronous RPC,66.0,OK
+run-steady-trace-009,RUN-STEADY,checkout,run-steady-trace-009-span-6,run-steady-trace-009-span-0,order-db,INSERT order transaction,52.0,OK
+run-steady-trace-010,RUN-STEADY,checkout,run-steady-trace-010-span-0,,checkout-api,POST /checkout,109.0,OK
+run-steady-trace-010,RUN-STEADY,checkout,run-steady-trace-010-span-1,run-steady-trace-010-span-0,checkout-api,validate-cart,20.0,OK
+run-steady-trace-010,RUN-STEADY,checkout,run-steady-trace-010-span-2,run-steady-trace-010-span-0,order-db,SELECT price per line item 1,39.0,OK
+run-steady-trace-010,RUN-STEADY,checkout,run-steady-trace-010-span-3,run-steady-trace-010-span-0,order-db,SELECT price per line item 2,31.0,OK
+run-steady-trace-010,RUN-STEADY,checkout,run-steady-trace-010-span-4,run-steady-trace-010-span-0,order-db,SELECT price per line item 3,33.0,OK
+run-steady-trace-010,RUN-STEADY,checkout,run-steady-trace-010-span-5,run-steady-trace-010-span-0,inventory-worker,reserve-stock synchronous RPC,73.0,OK
+run-steady-trace-010,RUN-STEADY,checkout,run-steady-trace-010-span-6,run-steady-trace-010-span-0,order-db,INSERT order transaction,59.0,OK
+run-steady-trace-011,RUN-STEADY,checkout,run-steady-trace-011-span-0,,checkout-api,POST /checkout,116.0,OK
+run-steady-trace-011,RUN-STEADY,checkout,run-steady-trace-011-span-1,run-steady-trace-011-span-0,checkout-api,validate-cart,14.0,OK
+run-steady-trace-011,RUN-STEADY,checkout,run-steady-trace-011-span-2,run-steady-trace-011-span-0,order-db,SELECT price per line item 1,33.0,OK
+run-steady-trace-011,RUN-STEADY,checkout,run-steady-trace-011-span-3,run-steady-trace-011-span-0,order-db,SELECT price per line item 2,38.0,OK
+run-steady-trace-011,RUN-STEADY,checkout,run-steady-trace-011-span-4,run-steady-trace-011-span-0,order-db,SELECT price per line item 3,40.0,OK
+run-steady-trace-011,RUN-STEADY,checkout,run-steady-trace-011-span-5,run-steady-trace-011-span-0,inventory-worker,reserve-stock synchronous RPC,67.0,OK
+run-steady-trace-011,RUN-STEADY,checkout,run-steady-trace-011-span-6,run-steady-trace-011-span-0,order-db,INSERT order transaction,53.0,OK
+run-steady-trace-012,RUN-STEADY,checkout,run-steady-trace-012-span-0,,checkout-api,POST /checkout,110.0,OK
+run-steady-trace-012,RUN-STEADY,checkout,run-steady-trace-012-span-1,run-steady-trace-012-span-0,checkout-api,validate-cart,21.0,OK
+run-steady-trace-012,RUN-STEADY,checkout,run-steady-trace-012-span-2,run-steady-trace-012-span-0,order-db,SELECT price per line item 1,40.0,OK
+run-steady-trace-012,RUN-STEADY,checkout,run-steady-trace-012-span-3,run-steady-trace-012-span-0,order-db,SELECT price per line item 2,32.0,OK
+run-steady-trace-012,RUN-STEADY,checkout,run-steady-trace-012-span-4,run-steady-trace-012-span-0,order-db,SELECT price per line item 3,34.0,OK
+run-steady-trace-012,RUN-STEADY,checkout,run-steady-trace-012-span-5,run-steady-trace-012-span-0,inventory-worker,reserve-stock synchronous RPC,74.0,OK
+run-steady-trace-012,RUN-STEADY,checkout,run-steady-trace-012-span-6,run-steady-trace-012-span-0,order-db,INSERT order transaction,60.0,OK
+run-steady-trace-013,RUN-STEADY,checkout,run-steady-trace-013-span-0,,checkout-api,POST /checkout,104.0,OK
+run-steady-trace-013,RUN-STEADY,checkout,run-steady-trace-013-span-1,run-steady-trace-013-span-0,checkout-api,validate-cart,15.0,OK
+run-steady-trace-013,RUN-STEADY,checkout,run-steady-trace-013-span-2,run-steady-trace-013-span-0,order-db,SELECT price per line item 1,34.0,OK
+run-steady-trace-013,RUN-STEADY,checkout,run-steady-trace-013-span-3,run-steady-trace-013-span-0,order-db,SELECT price per line item 2,39.0,OK
+run-steady-trace-013,RUN-STEADY,checkout,run-steady-trace-013-span-4,run-steady-trace-013-span-0,order-db,SELECT price per line item 3,41.0,OK
+run-steady-trace-013,RUN-STEADY,checkout,run-steady-trace-013-span-5,run-steady-trace-013-span-0,inventory-worker,reserve-stock synchronous RPC,68.0,OK
+run-steady-trace-013,RUN-STEADY,checkout,run-steady-trace-013-span-6,run-steady-trace-013-span-0,order-db,INSERT order transaction,54.0,OK
+run-steady-trace-014,RUN-STEADY,checkout,run-steady-trace-014-span-0,,checkout-api,POST /checkout,111.0,OK
+run-steady-trace-014,RUN-STEADY,checkout,run-steady-trace-014-span-1,run-steady-trace-014-span-0,checkout-api,validate-cart,22.0,OK
+run-steady-trace-014,RUN-STEADY,checkout,run-steady-trace-014-span-2,run-steady-trace-014-span-0,order-db,SELECT price per line item 1,28.0,OK
+run-steady-trace-014,RUN-STEADY,checkout,run-steady-trace-014-span-3,run-steady-trace-014-span-0,order-db,SELECT price per line item 2,33.0,OK
+run-steady-trace-014,RUN-STEADY,checkout,run-steady-trace-014-span-4,run-steady-trace-014-span-0,order-db,SELECT price per line item 3,35.0,OK
+run-steady-trace-014,RUN-STEADY,checkout,run-steady-trace-014-span-5,run-steady-trace-014-span-0,inventory-worker,reserve-stock synchronous RPC,75.0,OK
+run-steady-trace-014,RUN-STEADY,checkout,run-steady-trace-014-span-6,run-steady-trace-014-span-0,order-db,INSERT order transaction,61.0,OK
+run-steady-trace-015,RUN-STEADY,checkout,run-steady-trace-015-span-0,,checkout-api,POST /checkout,105.0,OK
+run-steady-trace-015,RUN-STEADY,checkout,run-steady-trace-015-span-1,run-steady-trace-015-span-0,checkout-api,validate-cart,16.0,OK
+run-steady-trace-015,RUN-STEADY,checkout,run-steady-trace-015-span-2,run-steady-trace-015-span-0,order-db,SELECT price per line item 1,35.0,OK
+run-steady-trace-015,RUN-STEADY,checkout,run-steady-trace-015-span-3,run-steady-trace-015-span-0,order-db,SELECT price per line item 2,40.0,OK
+run-steady-trace-015,RUN-STEADY,checkout,run-steady-trace-015-span-4,run-steady-trace-015-span-0,order-db,SELECT price per line item 3,29.0,OK
+run-steady-trace-015,RUN-STEADY,checkout,run-steady-trace-015-span-5,run-steady-trace-015-span-0,inventory-worker,reserve-stock synchronous RPC,69.0,OK
+run-steady-trace-015,RUN-STEADY,checkout,run-steady-trace-015-span-6,run-steady-trace-015-span-0,order-db,INSERT order transaction,55.0,OK
+run-steady-trace-016,RUN-STEADY,checkout,run-steady-trace-016-span-0,,checkout-api,POST /checkout,112.0,OK
+run-steady-trace-016,RUN-STEADY,checkout,run-steady-trace-016-span-1,run-steady-trace-016-span-0,checkout-api,validate-cart,23.0,OK
+run-steady-trace-016,RUN-STEADY,checkout,run-steady-trace-016-span-2,run-steady-trace-016-span-0,order-db,SELECT price per line item 1,29.0,OK
+run-steady-trace-016,RUN-STEADY,checkout,run-steady-trace-016-span-3,run-steady-trace-016-span-0,order-db,SELECT price per line item 2,34.0,OK
+run-steady-trace-016,RUN-STEADY,checkout,run-steady-trace-016-span-4,run-steady-trace-016-span-0,order-db,SELECT price per line item 3,36.0,OK
+run-steady-trace-016,RUN-STEADY,checkout,run-steady-trace-016-span-5,run-steady-trace-016-span-0,inventory-worker,reserve-stock synchronous RPC,76.0,OK
+run-steady-trace-016,RUN-STEADY,checkout,run-steady-trace-016-span-6,run-steady-trace-016-span-0,order-db,INSERT order transaction,49.0,OK
+run-steady-trace-017,RUN-STEADY,checkout,run-steady-trace-017-span-0,,checkout-api,POST /checkout,106.0,OK
+run-steady-trace-017,RUN-STEADY,checkout,run-steady-trace-017-span-1,run-steady-trace-017-span-0,checkout-api,validate-cart,17.0,OK
+run-steady-trace-017,RUN-STEADY,checkout,run-steady-trace-017-span-2,run-steady-trace-017-span-0,order-db,SELECT price per line item 1,36.0,OK
+run-steady-trace-017,RUN-STEADY,checkout,run-steady-trace-017-span-3,run-steady-trace-017-span-0,order-db,SELECT price per line item 2,41.0,OK
+run-steady-trace-017,RUN-STEADY,checkout,run-steady-trace-017-span-4,run-steady-trace-017-span-0,order-db,SELECT price per line item 3,30.0,OK
+run-steady-trace-017,RUN-STEADY,checkout,run-steady-trace-017-span-5,run-steady-trace-017-span-0,inventory-worker,reserve-stock synchronous RPC,70.0,OK
+run-steady-trace-017,RUN-STEADY,checkout,run-steady-trace-017-span-6,run-steady-trace-017-span-0,order-db,INSERT order transaction,56.0,OK
+run-steady-trace-018,RUN-STEADY,checkout,run-steady-trace-018-span-0,,checkout-api,POST /checkout,113.0,OK
+run-steady-trace-018,RUN-STEADY,checkout,run-steady-trace-018-span-1,run-steady-trace-018-span-0,checkout-api,validate-cart,24.0,OK
+run-steady-trace-018,RUN-STEADY,checkout,run-steady-trace-018-span-2,run-steady-trace-018-span-0,order-db,SELECT price per line item 1,30.0,OK
+run-steady-trace-018,RUN-STEADY,checkout,run-steady-trace-018-span-3,run-steady-trace-018-span-0,order-db,SELECT price per line item 2,35.0,OK
+run-steady-trace-018,RUN-STEADY,checkout,run-steady-trace-018-span-4,run-steady-trace-018-span-0,order-db,SELECT price per line item 3,37.0,OK
+run-steady-trace-018,RUN-STEADY,checkout,run-steady-trace-018-span-5,run-steady-trace-018-span-0,inventory-worker,reserve-stock synchronous RPC,77.0,OK
+run-steady-trace-018,RUN-STEADY,checkout,run-steady-trace-018-span-6,run-steady-trace-018-span-0,order-db,INSERT order transaction,50.0,OK
+run-steady-trace-019,RUN-STEADY,checkout,run-steady-trace-019-span-0,,checkout-api,POST /checkout,107.0,OK
+run-steady-trace-019,RUN-STEADY,checkout,run-steady-trace-019-span-1,run-steady-trace-019-span-0,checkout-api,validate-cart,18.0,OK
+run-steady-trace-019,RUN-STEADY,checkout,run-steady-trace-019-span-2,run-steady-trace-019-span-0,order-db,SELECT price per line item 1,37.0,OK
+run-steady-trace-019,RUN-STEADY,checkout,run-steady-trace-019-span-3,run-steady-trace-019-span-0,order-db,SELECT price per line item 2,42.0,OK
+run-steady-trace-019,RUN-STEADY,checkout,run-steady-trace-019-span-4,run-steady-trace-019-span-0,order-db,SELECT price per line item 3,31.0,OK
+run-steady-trace-019,RUN-STEADY,checkout,run-steady-trace-019-span-5,run-steady-trace-019-span-0,inventory-worker,reserve-stock synchronous RPC,71.0,OK
+run-steady-trace-019,RUN-STEADY,checkout,run-steady-trace-019-span-6,run-steady-trace-019-span-0,order-db,INSERT order transaction,57.0,OK
+run-launch-trace-000,RUN-LAUNCH,checkout,run-launch-trace-000-span-0,,checkout-api,POST /checkout,181.0,OK
+run-launch-trace-000,RUN-LAUNCH,checkout,run-launch-trace-000-span-1,run-launch-trace-000-span-0,checkout-api,validate-cart,27.6,OK
+run-launch-trace-000,RUN-LAUNCH,checkout,run-launch-trace-000-span-2,run-launch-trace-000-span-0,order-db,SELECT price per line item 1,57.8,OK
+run-launch-trace-000,RUN-LAUNCH,checkout,run-launch-trace-000-span-3,run-launch-trace-000-span-0,order-db,SELECT price per line item 2,64.2,OK
+run-launch-trace-000,RUN-LAUNCH,checkout,run-launch-trace-000-span-4,run-launch-trace-000-span-0,order-db,SELECT price per line item 3,65.5,OK
+run-launch-trace-000,RUN-LAUNCH,checkout,run-launch-trace-000-span-5,run-launch-trace-000-span-0,inventory-worker,reserve-stock synchronous RPC,118.4,OK
+run-launch-trace-000,RUN-LAUNCH,checkout,run-launch-trace-000-span-6,run-launch-trace-000-span-0,order-db,INSERT order transaction,92.5,OK
+run-launch-trace-001,RUN-LAUNCH,checkout,run-launch-trace-001-span-0,,checkout-api,POST /checkout,188.0,OK
+run-launch-trace-001,RUN-LAUNCH,checkout,run-launch-trace-001-span-1,run-launch-trace-001-span-0,checkout-api,validate-cart,34.6,OK
+run-launch-trace-001,RUN-LAUNCH,checkout,run-launch-trace-001-span-2,run-launch-trace-001-span-0,order-db,SELECT price per line item 1,51.8,OK
+run-launch-trace-001,RUN-LAUNCH,checkout,run-launch-trace-001-span-3,run-launch-trace-001-span-0,order-db,SELECT price per line item 2,58.2,OK
+run-launch-trace-001,RUN-LAUNCH,checkout,run-launch-trace-001-span-4,run-launch-trace-001-span-0,order-db,SELECT price per line item 3,59.5,OK
+run-launch-trace-001,RUN-LAUNCH,checkout,run-launch-trace-001-span-5,run-launch-trace-001-span-0,inventory-worker,reserve-stock synchronous RPC,125.4,OK
+run-launch-trace-001,RUN-LAUNCH,checkout,run-launch-trace-001-span-6,run-launch-trace-001-span-0,order-db,INSERT order transaction,99.5,OK
+run-launch-trace-002,RUN-LAUNCH,checkout,run-launch-trace-002-span-0,,checkout-api,POST /checkout,182.0,OK
+run-launch-trace-002,RUN-LAUNCH,checkout,run-launch-trace-002-span-1,run-launch-trace-002-span-0,checkout-api,validate-cart,28.6,OK
+run-launch-trace-002,RUN-LAUNCH,checkout,run-launch-trace-002-span-2,run-launch-trace-002-span-0,order-db,SELECT price per line item 1,58.8,OK
+run-launch-trace-002,RUN-LAUNCH,checkout,run-launch-trace-002-span-3,run-launch-trace-002-span-0,order-db,SELECT price per line item 2,65.2,OK
+run-launch-trace-002,RUN-LAUNCH,checkout,run-launch-trace-002-span-4,run-launch-trace-002-span-0,order-db,SELECT price per line item 3,53.5,OK
+run-launch-trace-002,RUN-LAUNCH,checkout,run-launch-trace-002-span-5,run-launch-trace-002-span-0,inventory-worker,reserve-stock synchronous RPC,119.4,OK
+run-launch-trace-002,RUN-LAUNCH,checkout,run-launch-trace-002-span-6,run-launch-trace-002-span-0,order-db,INSERT order transaction,93.5,OK
+run-launch-trace-003,RUN-LAUNCH,checkout,run-launch-trace-003-span-0,,checkout-api,POST /checkout,189.0,OK
+run-launch-trace-003,RUN-LAUNCH,checkout,run-launch-trace-003-span-1,run-launch-trace-003-span-0,checkout-api,validate-cart,35.6,OK
+run-launch-trace-003,RUN-LAUNCH,checkout,run-launch-trace-003-span-2,run-launch-trace-003-span-0,order-db,SELECT price per line item 1,52.8,OK
+run-launch-trace-003,RUN-LAUNCH,checkout,run-launch-trace-003-span-3,run-launch-trace-003-span-0,order-db,SELECT price per line item 2,59.2,OK
+run-launch-trace-003,RUN-LAUNCH,checkout,run-launch-trace-003-span-4,run-launch-trace-003-span-0,order-db,SELECT price per line item 3,60.5,OK
+run-launch-trace-003,RUN-LAUNCH,checkout,run-launch-trace-003-span-5,run-launch-trace-003-span-0,inventory-worker,reserve-stock synchronous RPC,126.4,OK
+run-launch-trace-003,RUN-LAUNCH,checkout,run-launch-trace-003-span-6,run-launch-trace-003-span-0,order-db,INSERT order transaction,87.5,OK
+run-launch-trace-004,RUN-LAUNCH,checkout,run-launch-trace-004-span-0,,checkout-api,POST /checkout,183.0,OK
+run-launch-trace-004,RUN-LAUNCH,checkout,run-launch-trace-004-span-1,run-launch-trace-004-span-0,checkout-api,validate-cart,29.6,OK
+run-launch-trace-004,RUN-LAUNCH,checkout,run-launch-trace-004-span-2,run-launch-trace-004-span-0,order-db,SELECT price per line item 1,59.8,OK
+run-launch-trace-004,RUN-LAUNCH,checkout,run-launch-trace-004-span-3,run-launch-trace-004-span-0,order-db,SELECT price per line item 2,66.2,OK
+run-launch-trace-004,RUN-LAUNCH,checkout,run-launch-trace-004-span-4,run-launch-trace-004-span-0,order-db,SELECT price per line item 3,54.5,OK
+run-launch-trace-004,RUN-LAUNCH,checkout,run-launch-trace-004-span-5,run-launch-trace-004-span-0,inventory-worker,reserve-stock synchronous RPC,120.4,OK
+run-launch-trace-004,RUN-LAUNCH,checkout,run-launch-trace-004-span-6,run-launch-trace-004-span-0,order-db,INSERT order transaction,94.5,OK
+run-launch-trace-005,RUN-LAUNCH,checkout,run-launch-trace-005-span-0,,checkout-api,POST /checkout,190.0,OK
+run-launch-trace-005,RUN-LAUNCH,checkout,run-launch-trace-005-span-1,run-launch-trace-005-span-0,checkout-api,validate-cart,36.6,OK
+run-launch-trace-005,RUN-LAUNCH,checkout,run-launch-trace-005-span-2,run-launch-trace-005-span-0,order-db,SELECT price per line item 1,53.8,OK
+run-launch-trace-005,RUN-LAUNCH,checkout,run-launch-trace-005-span-3,run-launch-trace-005-span-0,order-db,SELECT price per line item 2,60.2,OK
+run-launch-trace-005,RUN-LAUNCH,checkout,run-launch-trace-005-span-4,run-launch-trace-005-span-0,order-db,SELECT price per line item 3,61.5,OK
+run-launch-trace-005,RUN-LAUNCH,checkout,run-launch-trace-005-span-5,run-launch-trace-005-span-0,inventory-worker,reserve-stock synchronous RPC,127.4,OK
+run-launch-trace-005,RUN-LAUNCH,checkout,run-launch-trace-005-span-6,run-launch-trace-005-span-0,order-db,INSERT order transaction,88.5,OK
+run-launch-trace-006,RUN-LAUNCH,checkout,run-launch-trace-006-span-0,,checkout-api,POST /checkout,184.0,OK
+run-launch-trace-006,RUN-LAUNCH,checkout,run-launch-trace-006-span-1,run-launch-trace-006-span-0,checkout-api,validate-cart,30.6,OK
+run-launch-trace-006,RUN-LAUNCH,checkout,run-launch-trace-006-span-2,run-launch-trace-006-span-0,order-db,SELECT price per line item 1,60.8,OK
+run-launch-trace-006,RUN-LAUNCH,checkout,run-launch-trace-006-span-3,run-launch-trace-006-span-0,order-db,SELECT price per line item 2,67.2,OK
+run-launch-trace-006,RUN-LAUNCH,checkout,run-launch-trace-006-span-4,run-launch-trace-006-span-0,order-db,SELECT price per line item 3,55.5,OK
+run-launch-trace-006,RUN-LAUNCH,checkout,run-launch-trace-006-span-5,run-launch-trace-006-span-0,inventory-worker,reserve-stock synchronous RPC,121.4,OK
+run-launch-trace-006,RUN-LAUNCH,checkout,run-launch-trace-006-span-6,run-launch-trace-006-span-0,order-db,INSERT order transaction,95.5,OK
+run-launch-trace-007,RUN-LAUNCH,checkout,run-launch-trace-007-span-0,,checkout-api,POST /checkout,191.0,OK
+run-launch-trace-007,RUN-LAUNCH,checkout,run-launch-trace-007-span-1,run-launch-trace-007-span-0,checkout-api,validate-cart,24.6,OK
+run-launch-trace-007,RUN-LAUNCH,checkout,run-launch-trace-007-span-2,run-launch-trace-007-span-0,order-db,SELECT price per line item 1,54.8,OK
+run-launch-trace-007,RUN-LAUNCH,checkout,run-launch-trace-007-span-3,run-launch-trace-007-span-0,order-db,SELECT price per line item 2,61.2,OK
+run-launch-trace-007,RUN-LAUNCH,checkout,run-launch-trace-007-span-4,run-launch-trace-007-span-0,order-db,SELECT price per line item 3,62.5,OK
+run-launch-trace-007,RUN-LAUNCH,checkout,run-launch-trace-007-span-5,run-launch-trace-007-span-0,inventory-worker,reserve-stock synchronous RPC,128.4,OK
+run-launch-trace-007,RUN-LAUNCH,checkout,run-launch-trace-007-span-6,run-launch-trace-007-span-0,order-db,INSERT order transaction,89.5,ERROR
+run-launch-trace-008,RUN-LAUNCH,checkout,run-launch-trace-008-span-0,,checkout-api,POST /checkout,185.0,OK
+run-launch-trace-008,RUN-LAUNCH,checkout,run-launch-trace-008-span-1,run-launch-trace-008-span-0,checkout-api,validate-cart,31.6,OK
+run-launch-trace-008,RUN-LAUNCH,checkout,run-launch-trace-008-span-2,run-launch-trace-008-span-0,order-db,SELECT price per line item 1,61.8,OK
+run-launch-trace-008,RUN-LAUNCH,checkout,run-launch-trace-008-span-3,run-launch-trace-008-span-0,order-db,SELECT price per line item 2,55.2,OK
+run-launch-trace-008,RUN-LAUNCH,checkout,run-launch-trace-008-span-4,run-launch-trace-008-span-0,order-db,SELECT price per line item 3,56.5,OK
+run-launch-trace-008,RUN-LAUNCH,checkout,run-launch-trace-008-span-5,run-launch-trace-008-span-0,inventory-worker,reserve-stock synchronous RPC,122.4,OK
+run-launch-trace-008,RUN-LAUNCH,checkout,run-launch-trace-008-span-6,run-launch-trace-008-span-0,order-db,INSERT order transaction,96.5,OK
+run-launch-trace-009,RUN-LAUNCH,checkout,run-launch-trace-009-span-0,,checkout-api,POST /checkout,192.0,OK
+run-launch-trace-009,RUN-LAUNCH,checkout,run-launch-trace-009-span-1,run-launch-trace-009-span-0,checkout-api,validate-cart,25.6,OK
+run-launch-trace-009,RUN-LAUNCH,checkout,run-launch-trace-009-span-2,run-launch-trace-009-span-0,order-db,SELECT price per line item 1,55.8,OK
+run-launch-trace-009,RUN-LAUNCH,checkout,run-launch-trace-009-span-3,run-launch-trace-009-span-0,order-db,SELECT price per line item 2,62.2,OK
+run-launch-trace-009,RUN-LAUNCH,checkout,run-launch-trace-009-span-4,run-launch-trace-009-span-0,order-db,SELECT price per line item 3,63.5,OK
+run-launch-trace-009,RUN-LAUNCH,checkout,run-launch-trace-009-span-5,run-launch-trace-009-span-0,inventory-worker,reserve-stock synchronous RPC,116.4,OK
+run-launch-trace-009,RUN-LAUNCH,checkout,run-launch-trace-009-span-6,run-launch-trace-009-span-0,order-db,INSERT order transaction,90.5,OK
+run-launch-trace-010,RUN-LAUNCH,checkout,run-launch-trace-010-span-0,,checkout-api,POST /checkout,186.0,OK
+run-launch-trace-010,RUN-LAUNCH,checkout,run-launch-trace-010-span-1,run-launch-trace-010-span-0,checkout-api,validate-cart,32.6,OK
+run-launch-trace-010,RUN-LAUNCH,checkout,run-launch-trace-010-span-2,run-launch-trace-010-span-0,order-db,SELECT price per line item 1,62.8,OK
+run-launch-trace-010,RUN-LAUNCH,checkout,run-launch-trace-010-span-3,run-launch-trace-010-span-0,order-db,SELECT price per line item 2,56.2,OK
+run-launch-trace-010,RUN-LAUNCH,checkout,run-launch-trace-010-span-4,run-launch-trace-010-span-0,order-db,SELECT price per line item 3,57.5,OK
+run-launch-trace-010,RUN-LAUNCH,checkout,run-launch-trace-010-span-5,run-launch-trace-010-span-0,inventory-worker,reserve-stock synchronous RPC,123.4,OK
+run-launch-trace-010,RUN-LAUNCH,checkout,run-launch-trace-010-span-6,run-launch-trace-010-span-0,order-db,INSERT order transaction,97.5,OK
+run-launch-trace-011,RUN-LAUNCH,checkout,run-launch-trace-011-span-0,,checkout-api,POST /checkout,193.0,OK
+run-launch-trace-011,RUN-LAUNCH,checkout,run-launch-trace-011-span-1,run-launch-trace-011-span-0,checkout-api,validate-cart,26.6,OK
+run-launch-trace-011,RUN-LAUNCH,checkout,run-launch-trace-011-span-2,run-launch-trace-011-span-0,order-db,SELECT price per line item 1,56.8,OK
+run-launch-trace-011,RUN-LAUNCH,checkout,run-launch-trace-011-span-3,run-launch-trace-011-span-0,order-db,SELECT price per line item 2,63.2,OK
+run-launch-trace-011,RUN-LAUNCH,checkout,run-launch-trace-011-span-4,run-launch-trace-011-span-0,order-db,SELECT price per line item 3,64.5,OK
+run-launch-trace-011,RUN-LAUNCH,checkout,run-launch-trace-011-span-5,run-launch-trace-011-span-0,inventory-worker,reserve-stock synchronous RPC,117.4,OK
+run-launch-trace-011,RUN-LAUNCH,checkout,run-launch-trace-011-span-6,run-launch-trace-011-span-0,order-db,INSERT order transaction,91.5,OK
+run-launch-trace-012,RUN-LAUNCH,checkout,run-launch-trace-012-span-0,,checkout-api,POST /checkout,187.0,OK
+run-launch-trace-012,RUN-LAUNCH,checkout,run-launch-trace-012-span-1,run-launch-trace-012-span-0,checkout-api,validate-cart,33.6,OK
+run-launch-trace-012,RUN-LAUNCH,checkout,run-launch-trace-012-span-2,run-launch-trace-012-span-0,order-db,SELECT price per line item 1,63.8,OK
+run-launch-trace-012,RUN-LAUNCH,checkout,run-launch-trace-012-span-3,run-launch-trace-012-span-0,order-db,SELECT price per line item 2,57.2,OK
+run-launch-trace-012,RUN-LAUNCH,checkout,run-launch-trace-012-span-4,run-launch-trace-012-span-0,order-db,SELECT price per line item 3,58.5,OK
+run-launch-trace-012,RUN-LAUNCH,checkout,run-launch-trace-012-span-5,run-launch-trace-012-span-0,inventory-worker,reserve-stock synchronous RPC,124.4,OK
+run-launch-trace-012,RUN-LAUNCH,checkout,run-launch-trace-012-span-6,run-launch-trace-012-span-0,order-db,INSERT order transaction,98.5,OK
+run-launch-trace-013,RUN-LAUNCH,checkout,run-launch-trace-013-span-0,,checkout-api,POST /checkout,181.0,OK
+run-launch-trace-013,RUN-LAUNCH,checkout,run-launch-trace-013-span-1,run-launch-trace-013-span-0,checkout-api,validate-cart,27.6,OK
+run-launch-trace-013,RUN-LAUNCH,checkout,run-launch-trace-013-span-2,run-launch-trace-013-span-0,order-db,SELECT price per line item 1,57.8,OK
+run-launch-trace-013,RUN-LAUNCH,checkout,run-launch-trace-013-span-3,run-launch-trace-013-span-0,order-db,SELECT price per line item 2,64.2,OK
+run-launch-trace-013,RUN-LAUNCH,checkout,run-launch-trace-013-span-4,run-launch-trace-013-span-0,order-db,SELECT price per line item 3,65.5,OK
+run-launch-trace-013,RUN-LAUNCH,checkout,run-launch-trace-013-span-5,run-launch-trace-013-span-0,inventory-worker,reserve-stock synchronous RPC,118.4,OK
+run-launch-trace-013,RUN-LAUNCH,checkout,run-launch-trace-013-span-6,run-launch-trace-013-span-0,order-db,INSERT order transaction,92.5,OK
+run-launch-trace-014,RUN-LAUNCH,checkout,run-launch-trace-014-span-0,,checkout-api,POST /checkout,188.0,OK
+run-launch-trace-014,RUN-LAUNCH,checkout,run-launch-trace-014-span-1,run-launch-trace-014-span-0,checkout-api,validate-cart,34.6,OK
+run-launch-trace-014,RUN-LAUNCH,checkout,run-launch-trace-014-span-2,run-launch-trace-014-span-0,order-db,SELECT price per line item 1,51.8,OK
+run-launch-trace-014,RUN-LAUNCH,checkout,run-launch-trace-014-span-3,run-launch-trace-014-span-0,order-db,SELECT price per line item 2,58.2,OK
+run-launch-trace-014,RUN-LAUNCH,checkout,run-launch-trace-014-span-4,run-launch-trace-014-span-0,order-db,SELECT price per line item 3,59.5,OK
+run-launch-trace-014,RUN-LAUNCH,checkout,run-launch-trace-014-span-5,run-launch-trace-014-span-0,inventory-worker,reserve-stock synchronous RPC,125.4,OK
+run-launch-trace-014,RUN-LAUNCH,checkout,run-launch-trace-014-span-6,run-launch-trace-014-span-0,order-db,INSERT order transaction,99.5,OK
+run-launch-trace-015,RUN-LAUNCH,checkout,run-launch-trace-015-span-0,,checkout-api,POST /checkout,182.0,OK
+run-launch-trace-015,RUN-LAUNCH,checkout,run-launch-trace-015-span-1,run-launch-trace-015-span-0,checkout-api,validate-cart,28.6,OK
+run-launch-trace-015,RUN-LAUNCH,checkout,run-launch-trace-015-span-2,run-launch-trace-015-span-0,order-db,SELECT price per line item 1,58.8,OK
+run-launch-trace-015,RUN-LAUNCH,checkout,run-launch-trace-015-span-3,run-launch-trace-015-span-0,order-db,SELECT price per line item 2,65.2,OK
+run-launch-trace-015,RUN-LAUNCH,checkout,run-launch-trace-015-span-4,run-launch-trace-015-span-0,order-db,SELECT price per line item 3,53.5,OK
+run-launch-trace-015,RUN-LAUNCH,checkout,run-launch-trace-015-span-5,run-launch-trace-015-span-0,inventory-worker,reserve-stock synchronous RPC,119.4,OK
+run-launch-trace-015,RUN-LAUNCH,checkout,run-launch-trace-015-span-6,run-launch-trace-015-span-0,order-db,INSERT order transaction,93.5,OK
+run-launch-trace-016,RUN-LAUNCH,checkout,run-launch-trace-016-span-0,,checkout-api,POST /checkout,189.0,OK
+run-launch-trace-016,RUN-LAUNCH,checkout,run-launch-trace-016-span-1,run-launch-trace-016-span-0,checkout-api,validate-cart,35.6,OK
+run-launch-trace-016,RUN-LAUNCH,checkout,run-launch-trace-016-span-2,run-launch-trace-016-span-0,order-db,SELECT price per line item 1,52.8,OK
+run-launch-trace-016,RUN-LAUNCH,checkout,run-launch-trace-016-span-3,run-launch-trace-016-span-0,order-db,SELECT price per line item 2,59.2,OK
+run-launch-trace-016,RUN-LAUNCH,checkout,run-launch-trace-016-span-4,run-launch-trace-016-span-0,order-db,SELECT price per line item 3,60.5,OK
+run-launch-trace-016,RUN-LAUNCH,checkout,run-launch-trace-016-span-5,run-launch-trace-016-span-0,inventory-worker,reserve-stock synchronous RPC,126.4,OK
+run-launch-trace-016,RUN-LAUNCH,checkout,run-launch-trace-016-span-6,run-launch-trace-016-span-0,order-db,INSERT order transaction,87.5,ERROR
+run-launch-trace-017,RUN-LAUNCH,checkout,run-launch-trace-017-span-0,,checkout-api,POST /checkout,183.0,OK
+run-launch-trace-017,RUN-LAUNCH,checkout,run-launch-trace-017-span-1,run-launch-trace-017-span-0,checkout-api,validate-cart,29.6,OK
+run-launch-trace-017,RUN-LAUNCH,checkout,run-launch-trace-017-span-2,run-launch-trace-017-span-0,order-db,SELECT price per line item 1,59.8,OK
+run-launch-trace-017,RUN-LAUNCH,checkout,run-launch-trace-017-span-3,run-launch-trace-017-span-0,order-db,SELECT price per line item 2,66.2,OK
+run-launch-trace-017,RUN-LAUNCH,checkout,run-launch-trace-017-span-4,run-launch-trace-017-span-0,order-db,SELECT price per line item 3,54.5,OK
+run-launch-trace-017,RUN-LAUNCH,checkout,run-launch-trace-017-span-5,run-launch-trace-017-span-0,inventory-worker,reserve-stock synchronous RPC,120.4,OK
+run-launch-trace-017,RUN-LAUNCH,checkout,run-launch-trace-017-span-6,run-launch-trace-017-span-0,order-db,INSERT order transaction,94.5,OK
+run-launch-trace-018,RUN-LAUNCH,checkout,run-launch-trace-018-span-0,,checkout-api,POST /checkout,190.0,OK
+run-launch-trace-018,RUN-LAUNCH,checkout,run-launch-trace-018-span-1,run-launch-trace-018-span-0,checkout-api,validate-cart,36.6,OK
+run-launch-trace-018,RUN-LAUNCH,checkout,run-launch-trace-018-span-2,run-launch-trace-018-span-0,order-db,SELECT price per line item 1,53.8,OK
+run-launch-trace-018,RUN-LAUNCH,checkout,run-launch-trace-018-span-3,run-launch-trace-018-span-0,order-db,SELECT price per line item 2,60.2,OK
+run-launch-trace-018,RUN-LAUNCH,checkout,run-launch-trace-018-span-4,run-launch-trace-018-span-0,order-db,SELECT price per line item 3,61.5,OK
+run-launch-trace-018,RUN-LAUNCH,checkout,run-launch-trace-018-span-5,run-launch-trace-018-span-0,inventory-worker,reserve-stock synchronous RPC,127.4,OK
+run-launch-trace-018,RUN-LAUNCH,checkout,run-launch-trace-018-span-6,run-launch-trace-018-span-0,order-db,INSERT order transaction,88.5,OK
+run-launch-trace-019,RUN-LAUNCH,checkout,run-launch-trace-019-span-0,,checkout-api,POST /checkout,184.0,OK
+run-launch-trace-019,RUN-LAUNCH,checkout,run-launch-trace-019-span-1,run-launch-trace-019-span-0,checkout-api,validate-cart,30.6,OK
+run-launch-trace-019,RUN-LAUNCH,checkout,run-launch-trace-019-span-2,run-launch-trace-019-span-0,order-db,SELECT price per line item 1,60.8,OK
+run-launch-trace-019,RUN-LAUNCH,checkout,run-launch-trace-019-span-3,run-launch-trace-019-span-0,order-db,SELECT price per line item 2,67.2,OK
+run-launch-trace-019,RUN-LAUNCH,checkout,run-launch-trace-019-span-4,run-launch-trace-019-span-0,order-db,SELECT price per line item 3,55.5,OK
+run-launch-trace-019,RUN-LAUNCH,checkout,run-launch-trace-019-span-5,run-launch-trace-019-span-0,inventory-worker,reserve-stock synchronous RPC,121.4,OK
+run-launch-trace-019,RUN-LAUNCH,checkout,run-launch-trace-019-span-6,run-launch-trace-019-span-0,order-db,INSERT order transaction,95.5,OK
+run-burst-trace-000,RUN-BURST,checkout,run-burst-trace-000-span-0,,checkout-api,POST /checkout,269.0,OK
+run-burst-trace-000,RUN-BURST,checkout,run-burst-trace-000-span-1,run-burst-trace-000-span-0,checkout-api,validate-cart,42.0,OK
+run-burst-trace-000,RUN-BURST,checkout,run-burst-trace-000-span-2,run-burst-trace-000-span-0,order-db,SELECT price per line item 1,85.0,OK
+run-burst-trace-000,RUN-BURST,checkout,run-burst-trace-000-span-3,run-burst-trace-000-span-0,order-db,SELECT price per line item 2,93.0,OK
+run-burst-trace-000,RUN-BURST,checkout,run-burst-trace-000-span-4,run-burst-trace-000-span-0,order-db,SELECT price per line item 3,93.5,OK
+run-burst-trace-000,RUN-BURST,checkout,run-burst-trace-000-span-5,run-burst-trace-000-span-0,inventory-worker,reserve-stock synchronous RPC,176.0,OK
+run-burst-trace-000,RUN-BURST,checkout,run-burst-trace-000-span-6,run-burst-trace-000-span-0,order-db,INSERT order transaction,136.5,OK
+run-burst-trace-001,RUN-BURST,checkout,run-burst-trace-001-span-0,,checkout-api,POST /checkout,276.0,OK
+run-burst-trace-001,RUN-BURST,checkout,run-burst-trace-001-span-1,run-burst-trace-001-span-0,checkout-api,validate-cart,49.0,OK
+run-burst-trace-001,RUN-BURST,checkout,run-burst-trace-001-span-2,run-burst-trace-001-span-0,order-db,SELECT price per line item 1,79.0,OK
+run-burst-trace-001,RUN-BURST,checkout,run-burst-trace-001-span-3,run-burst-trace-001-span-0,order-db,SELECT price per line item 2,87.0,OK
+run-burst-trace-001,RUN-BURST,checkout,run-burst-trace-001-span-4,run-burst-trace-001-span-0,order-db,SELECT price per line item 3,87.5,OK
+run-burst-trace-001,RUN-BURST,checkout,run-burst-trace-001-span-5,run-burst-trace-001-span-0,inventory-worker,reserve-stock synchronous RPC,183.0,OK
+run-burst-trace-001,RUN-BURST,checkout,run-burst-trace-001-span-6,run-burst-trace-001-span-0,order-db,INSERT order transaction,143.5,OK
+run-burst-trace-002,RUN-BURST,checkout,run-burst-trace-002-span-0,,checkout-api,POST /checkout,270.0,OK
+run-burst-trace-002,RUN-BURST,checkout,run-burst-trace-002-span-1,run-burst-trace-002-span-0,checkout-api,validate-cart,43.0,OK
+run-burst-trace-002,RUN-BURST,checkout,run-burst-trace-002-span-2,run-burst-trace-002-span-0,order-db,SELECT price per line item 1,86.0,OK
+run-burst-trace-002,RUN-BURST,checkout,run-burst-trace-002-span-3,run-burst-trace-002-span-0,order-db,SELECT price per line item 2,94.0,OK
+run-burst-trace-002,RUN-BURST,checkout,run-burst-trace-002-span-4,run-burst-trace-002-span-0,order-db,SELECT price per line item 3,81.5,OK
+run-burst-trace-002,RUN-BURST,checkout,run-burst-trace-002-span-5,run-burst-trace-002-span-0,inventory-worker,reserve-stock synchronous RPC,177.0,OK
+run-burst-trace-002,RUN-BURST,checkout,run-burst-trace-002-span-6,run-burst-trace-002-span-0,order-db,INSERT order transaction,137.5,OK
+run-burst-trace-003,RUN-BURST,checkout,run-burst-trace-003-span-0,,checkout-api,POST /checkout,277.0,OK
+run-burst-trace-003,RUN-BURST,checkout,run-burst-trace-003-span-1,run-burst-trace-003-span-0,checkout-api,validate-cart,50.0,OK
+run-burst-trace-003,RUN-BURST,checkout,run-burst-trace-003-span-2,run-burst-trace-003-span-0,order-db,SELECT price per line item 1,80.0,OK
+run-burst-trace-003,RUN-BURST,checkout,run-burst-trace-003-span-3,run-burst-trace-003-span-0,order-db,SELECT price per line item 2,88.0,OK
+run-burst-trace-003,RUN-BURST,checkout,run-burst-trace-003-span-4,run-burst-trace-003-span-0,order-db,SELECT price per line item 3,88.5,OK
+run-burst-trace-003,RUN-BURST,checkout,run-burst-trace-003-span-5,run-burst-trace-003-span-0,inventory-worker,reserve-stock synchronous RPC,184.0,OK
+run-burst-trace-003,RUN-BURST,checkout,run-burst-trace-003-span-6,run-burst-trace-003-span-0,order-db,INSERT order transaction,131.5,OK
+run-burst-trace-004,RUN-BURST,checkout,run-burst-trace-004-span-0,,checkout-api,POST /checkout,271.0,OK
+run-burst-trace-004,RUN-BURST,checkout,run-burst-trace-004-span-1,run-burst-trace-004-span-0,checkout-api,validate-cart,44.0,OK
+run-burst-trace-004,RUN-BURST,checkout,run-burst-trace-004-span-2,run-burst-trace-004-span-0,order-db,SELECT price per line item 1,87.0,OK
+run-burst-trace-004,RUN-BURST,checkout,run-burst-trace-004-span-3,run-burst-trace-004-span-0,order-db,SELECT price per line item 2,95.0,OK
+run-burst-trace-004,RUN-BURST,checkout,run-burst-trace-004-span-4,run-burst-trace-004-span-0,order-db,SELECT price per line item 3,82.5,OK
+run-burst-trace-004,RUN-BURST,checkout,run-burst-trace-004-span-5,run-burst-trace-004-span-0,inventory-worker,reserve-stock synchronous RPC,178.0,OK
+run-burst-trace-004,RUN-BURST,checkout,run-burst-trace-004-span-6,run-burst-trace-004-span-0,order-db,INSERT order transaction,138.5,OK
+run-burst-trace-005,RUN-BURST,checkout,run-burst-trace-005-span-0,,checkout-api,POST /checkout,278.0,OK
+run-burst-trace-005,RUN-BURST,checkout,run-burst-trace-005-span-1,run-burst-trace-005-span-0,checkout-api,validate-cart,51.0,OK
+run-burst-trace-005,RUN-BURST,checkout,run-burst-trace-005-span-2,run-burst-trace-005-span-0,order-db,SELECT price per line item 1,81.0,OK
+run-burst-trace-005,RUN-BURST,checkout,run-burst-trace-005-span-3,run-burst-trace-005-span-0,order-db,SELECT price per line item 2,89.0,OK
+run-burst-trace-005,RUN-BURST,checkout,run-burst-trace-005-span-4,run-burst-trace-005-span-0,order-db,SELECT price per line item 3,89.5,OK
+run-burst-trace-005,RUN-BURST,checkout,run-burst-trace-005-span-5,run-burst-trace-005-span-0,inventory-worker,reserve-stock synchronous RPC,185.0,OK
+run-burst-trace-005,RUN-BURST,checkout,run-burst-trace-005-span-6,run-burst-trace-005-span-0,order-db,INSERT order transaction,132.5,OK
+run-burst-trace-006,RUN-BURST,checkout,run-burst-trace-006-span-0,,checkout-api,POST /checkout,272.0,OK
+run-burst-trace-006,RUN-BURST,checkout,run-burst-trace-006-span-1,run-burst-trace-006-span-0,checkout-api,validate-cart,45.0,OK
+run-burst-trace-006,RUN-BURST,checkout,run-burst-trace-006-span-2,run-burst-trace-006-span-0,order-db,SELECT price per line item 1,88.0,OK
+run-burst-trace-006,RUN-BURST,checkout,run-burst-trace-006-span-3,run-burst-trace-006-span-0,order-db,SELECT price per line item 2,96.0,OK
+run-burst-trace-006,RUN-BURST,checkout,run-burst-trace-006-span-4,run-burst-trace-006-span-0,order-db,SELECT price per line item 3,83.5,OK
+run-burst-trace-006,RUN-BURST,checkout,run-burst-trace-006-span-5,run-burst-trace-006-span-0,inventory-worker,reserve-stock synchronous RPC,179.0,OK
+run-burst-trace-006,RUN-BURST,checkout,run-burst-trace-006-span-6,run-burst-trace-006-span-0,order-db,INSERT order transaction,139.5,OK
+run-burst-trace-007,RUN-BURST,checkout,run-burst-trace-007-span-0,,checkout-api,POST /checkout,279.0,OK
+run-burst-trace-007,RUN-BURST,checkout,run-burst-trace-007-span-1,run-burst-trace-007-span-0,checkout-api,validate-cart,39.0,OK
+run-burst-trace-007,RUN-BURST,checkout,run-burst-trace-007-span-2,run-burst-trace-007-span-0,order-db,SELECT price per line item 1,82.0,OK
+run-burst-trace-007,RUN-BURST,checkout,run-burst-trace-007-span-3,run-burst-trace-007-span-0,order-db,SELECT price per line item 2,90.0,OK
+run-burst-trace-007,RUN-BURST,checkout,run-burst-trace-007-span-4,run-burst-trace-007-span-0,order-db,SELECT price per line item 3,90.5,OK
+run-burst-trace-007,RUN-BURST,checkout,run-burst-trace-007-span-5,run-burst-trace-007-span-0,inventory-worker,reserve-stock synchronous RPC,186.0,OK
+run-burst-trace-007,RUN-BURST,checkout,run-burst-trace-007-span-6,run-burst-trace-007-span-0,order-db,INSERT order transaction,133.5,ERROR
+run-burst-trace-008,RUN-BURST,checkout,run-burst-trace-008-span-0,,checkout-api,POST /checkout,273.0,OK
+run-burst-trace-008,RUN-BURST,checkout,run-burst-trace-008-span-1,run-burst-trace-008-span-0,checkout-api,validate-cart,46.0,OK
+run-burst-trace-008,RUN-BURST,checkout,run-burst-trace-008-span-2,run-burst-trace-008-span-0,order-db,SELECT price per line item 1,89.0,OK
+run-burst-trace-008,RUN-BURST,checkout,run-burst-trace-008-span-3,run-burst-trace-008-span-0,order-db,SELECT price per line item 2,84.0,OK
+run-burst-trace-008,RUN-BURST,checkout,run-burst-trace-008-span-4,run-burst-trace-008-span-0,order-db,SELECT price per line item 3,84.5,OK
+run-burst-trace-008,RUN-BURST,checkout,run-burst-trace-008-span-5,run-burst-trace-008-span-0,inventory-worker,reserve-stock synchronous RPC,180.0,OK
+run-burst-trace-008,RUN-BURST,checkout,run-burst-trace-008-span-6,run-burst-trace-008-span-0,order-db,INSERT order transaction,140.5,OK
+run-burst-trace-009,RUN-BURST,checkout,run-burst-trace-009-span-0,,checkout-api,POST /checkout,280.0,OK
+run-burst-trace-009,RUN-BURST,checkout,run-burst-trace-009-span-1,run-burst-trace-009-span-0,checkout-api,validate-cart,40.0,OK
+run-burst-trace-009,RUN-BURST,checkout,run-burst-trace-009-span-2,run-burst-trace-009-span-0,order-db,SELECT price per line item 1,83.0,OK
+run-burst-trace-009,RUN-BURST,checkout,run-burst-trace-009-span-3,run-burst-trace-009-span-0,order-db,SELECT price per line item 2,91.0,OK
+run-burst-trace-009,RUN-BURST,checkout,run-burst-trace-009-span-4,run-burst-trace-009-span-0,order-db,SELECT price per line item 3,91.5,OK
+run-burst-trace-009,RUN-BURST,checkout,run-burst-trace-009-span-5,run-burst-trace-009-span-0,inventory-worker,reserve-stock synchronous RPC,174.0,OK
+run-burst-trace-009,RUN-BURST,checkout,run-burst-trace-009-span-6,run-burst-trace-009-span-0,order-db,INSERT order transaction,134.5,OK
+run-burst-trace-010,RUN-BURST,checkout,run-burst-trace-010-span-0,,checkout-api,POST /checkout,274.0,OK
+run-burst-trace-010,RUN-BURST,checkout,run-burst-trace-010-span-1,run-burst-trace-010-span-0,checkout-api,validate-cart,47.0,OK
+run-burst-trace-010,RUN-BURST,checkout,run-burst-trace-010-span-2,run-burst-trace-010-span-0,order-db,SELECT price per line item 1,90.0,OK
+run-burst-trace-010,RUN-BURST,checkout,run-burst-trace-010-span-3,run-burst-trace-010-span-0,order-db,SELECT price per line item 2,85.0,OK
+run-burst-trace-010,RUN-BURST,checkout,run-burst-trace-010-span-4,run-burst-trace-010-span-0,order-db,SELECT price per line item 3,85.5,OK
+run-burst-trace-010,RUN-BURST,checkout,run-burst-trace-010-span-5,run-burst-trace-010-span-0,inventory-worker,reserve-stock synchronous RPC,181.0,OK
+run-burst-trace-010,RUN-BURST,checkout,run-burst-trace-010-span-6,run-burst-trace-010-span-0,order-db,INSERT order transaction,141.5,OK
+run-burst-trace-011,RUN-BURST,checkout,run-burst-trace-011-span-0,,checkout-api,POST /checkout,281.0,OK
+run-burst-trace-011,RUN-BURST,checkout,run-burst-trace-011-span-1,run-burst-trace-011-span-0,checkout-api,validate-cart,41.0,OK
+run-burst-trace-011,RUN-BURST,checkout,run-burst-trace-011-span-2,run-burst-trace-011-span-0,order-db,SELECT price per line item 1,84.0,OK
+run-burst-trace-011,RUN-BURST,checkout,run-burst-trace-011-span-3,run-burst-trace-011-span-0,order-db,SELECT price per line item 2,92.0,OK
+run-burst-trace-011,RUN-BURST,checkout,run-burst-trace-011-span-4,run-burst-trace-011-span-0,order-db,SELECT price per line item 3,92.5,OK
+run-burst-trace-011,RUN-BURST,checkout,run-burst-trace-011-span-5,run-burst-trace-011-span-0,inventory-worker,reserve-stock synchronous RPC,175.0,OK
+run-burst-trace-011,RUN-BURST,checkout,run-burst-trace-011-span-6,run-burst-trace-011-span-0,order-db,INSERT order transaction,135.5,OK
+run-burst-trace-012,RUN-BURST,checkout,run-burst-trace-012-span-0,,checkout-api,POST /checkout,275.0,OK
+run-burst-trace-012,RUN-BURST,checkout,run-burst-trace-012-span-1,run-burst-trace-012-span-0,checkout-api,validate-cart,48.0,OK
+run-burst-trace-012,RUN-BURST,checkout,run-burst-trace-012-span-2,run-burst-trace-012-span-0,order-db,SELECT price per line item 1,91.0,OK
+run-burst-trace-012,RUN-BURST,checkout,run-burst-trace-012-span-3,run-burst-trace-012-span-0,order-db,SELECT price per line item 2,86.0,OK
+run-burst-trace-012,RUN-BURST,checkout,run-burst-trace-012-span-4,run-burst-trace-012-span-0,order-db,SELECT price per line item 3,86.5,OK
+run-burst-trace-012,RUN-BURST,checkout,run-burst-trace-012-span-5,run-burst-trace-012-span-0,inventory-worker,reserve-stock synchronous RPC,182.0,OK
+run-burst-trace-012,RUN-BURST,checkout,run-burst-trace-012-span-6,run-burst-trace-012-span-0,order-db,INSERT order transaction,142.5,OK
+run-burst-trace-013,RUN-BURST,checkout,run-burst-trace-013-span-0,,checkout-api,POST /checkout,269.0,OK
+run-burst-trace-013,RUN-BURST,checkout,run-burst-trace-013-span-1,run-burst-trace-013-span-0,checkout-api,validate-cart,42.0,OK
+run-burst-trace-013,RUN-BURST,checkout,run-burst-trace-013-span-2,run-burst-trace-013-span-0,order-db,SELECT price per line item 1,85.0,OK
+run-burst-trace-013,RUN-BURST,checkout,run-burst-trace-013-span-3,run-burst-trace-013-span-0,order-db,SELECT price per line item 2,93.0,OK
+run-burst-trace-013,RUN-BURST,checkout,run-burst-trace-013-span-4,run-burst-trace-013-span-0,order-db,SELECT price per line item 3,93.5,OK
+run-burst-trace-013,RUN-BURST,checkout,run-burst-trace-013-span-5,run-burst-trace-013-span-0,inventory-worker,reserve-stock synchronous RPC,176.0,OK
+run-burst-trace-013,RUN-BURST,checkout,run-burst-trace-013-span-6,run-burst-trace-013-span-0,order-db,INSERT order transaction,136.5,OK
+run-burst-trace-014,RUN-BURST,checkout,run-burst-trace-014-span-0,,checkout-api,POST /checkout,276.0,OK
+run-burst-trace-014,RUN-BURST,checkout,run-burst-trace-014-span-1,run-burst-trace-014-span-0,checkout-api,validate-cart,49.0,OK
+run-burst-trace-014,RUN-BURST,checkout,run-burst-trace-014-span-2,run-burst-trace-014-span-0,order-db,SELECT price per line item 1,79.0,OK
+run-burst-trace-014,RUN-BURST,checkout,run-burst-trace-014-span-3,run-burst-trace-014-span-0,order-db,SELECT price per line item 2,87.0,OK
+run-burst-trace-014,RUN-BURST,checkout,run-burst-trace-014-span-4,run-burst-trace-014-span-0,order-db,SELECT price per line item 3,87.5,OK
+run-burst-trace-014,RUN-BURST,checkout,run-burst-trace-014-span-5,run-burst-trace-014-span-0,inventory-worker,reserve-stock synchronous RPC,183.0,OK
+run-burst-trace-014,RUN-BURST,checkout,run-burst-trace-014-span-6,run-burst-trace-014-span-0,order-db,INSERT order transaction,143.5,OK
+run-burst-trace-015,RUN-BURST,checkout,run-burst-trace-015-span-0,,checkout-api,POST /checkout,270.0,OK
+run-burst-trace-015,RUN-BURST,checkout,run-burst-trace-015-span-1,run-burst-trace-015-span-0,checkout-api,validate-cart,43.0,OK
+run-burst-trace-015,RUN-BURST,checkout,run-burst-trace-015-span-2,run-burst-trace-015-span-0,order-db,SELECT price per line item 1,86.0,OK
+run-burst-trace-015,RUN-BURST,checkout,run-burst-trace-015-span-3,run-burst-trace-015-span-0,order-db,SELECT price per line item 2,94.0,OK
+run-burst-trace-015,RUN-BURST,checkout,run-burst-trace-015-span-4,run-burst-trace-015-span-0,order-db,SELECT price per line item 3,81.5,OK
+run-burst-trace-015,RUN-BURST,checkout,run-burst-trace-015-span-5,run-burst-trace-015-span-0,inventory-worker,reserve-stock synchronous RPC,177.0,OK
+run-burst-trace-015,RUN-BURST,checkout,run-burst-trace-015-span-6,run-burst-trace-015-span-0,order-db,INSERT order transaction,137.5,OK
+run-burst-trace-016,RUN-BURST,checkout,run-burst-trace-016-span-0,,checkout-api,POST /checkout,277.0,OK
+run-burst-trace-016,RUN-BURST,checkout,run-burst-trace-016-span-1,run-burst-trace-016-span-0,checkout-api,validate-cart,50.0,OK
+run-burst-trace-016,RUN-BURST,checkout,run-burst-trace-016-span-2,run-burst-trace-016-span-0,order-db,SELECT price per line item 1,80.0,OK
+run-burst-trace-016,RUN-BURST,checkout,run-burst-trace-016-span-3,run-burst-trace-016-span-0,order-db,SELECT price per line item 2,88.0,OK
+run-burst-trace-016,RUN-BURST,checkout,run-burst-trace-016-span-4,run-burst-trace-016-span-0,order-db,SELECT price per line item 3,88.5,OK
+run-burst-trace-016,RUN-BURST,checkout,run-burst-trace-016-span-5,run-burst-trace-016-span-0,inventory-worker,reserve-stock synchronous RPC,184.0,OK
+run-burst-trace-016,RUN-BURST,checkout,run-burst-trace-016-span-6,run-burst-trace-016-span-0,order-db,INSERT order transaction,131.5,ERROR
+run-burst-trace-017,RUN-BURST,checkout,run-burst-trace-017-span-0,,checkout-api,POST /checkout,271.0,OK
+run-burst-trace-017,RUN-BURST,checkout,run-burst-trace-017-span-1,run-burst-trace-017-span-0,checkout-api,validate-cart,44.0,OK
+run-burst-trace-017,RUN-BURST,checkout,run-burst-trace-017-span-2,run-burst-trace-017-span-0,order-db,SELECT price per line item 1,87.0,OK
+run-burst-trace-017,RUN-BURST,checkout,run-burst-trace-017-span-3,run-burst-trace-017-span-0,order-db,SELECT price per line item 2,95.0,OK
+run-burst-trace-017,RUN-BURST,checkout,run-burst-trace-017-span-4,run-burst-trace-017-span-0,order-db,SELECT price per line item 3,82.5,OK
+run-burst-trace-017,RUN-BURST,checkout,run-burst-trace-017-span-5,run-burst-trace-017-span-0,inventory-worker,reserve-stock synchronous RPC,178.0,OK
+run-burst-trace-017,RUN-BURST,checkout,run-burst-trace-017-span-6,run-burst-trace-017-span-0,order-db,INSERT order transaction,138.5,OK
+run-burst-trace-018,RUN-BURST,checkout,run-burst-trace-018-span-0,,checkout-api,POST /checkout,278.0,OK
+run-burst-trace-018,RUN-BURST,checkout,run-burst-trace-018-span-1,run-burst-trace-018-span-0,checkout-api,validate-cart,51.0,OK
+run-burst-trace-018,RUN-BURST,checkout,run-burst-trace-018-span-2,run-burst-trace-018-span-0,order-db,SELECT price per line item 1,81.0,OK
+run-burst-trace-018,RUN-BURST,checkout,run-burst-trace-018-span-3,run-burst-trace-018-span-0,order-db,SELECT price per line item 2,89.0,OK
+run-burst-trace-018,RUN-BURST,checkout,run-burst-trace-018-span-4,run-burst-trace-018-span-0,order-db,SELECT price per line item 3,89.5,OK
+run-burst-trace-018,RUN-BURST,checkout,run-burst-trace-018-span-5,run-burst-trace-018-span-0,inventory-worker,reserve-stock synchronous RPC,185.0,OK
+run-burst-trace-018,RUN-BURST,checkout,run-burst-trace-018-span-6,run-burst-trace-018-span-0,order-db,INSERT order transaction,132.5,OK
+run-burst-trace-019,RUN-BURST,checkout,run-burst-trace-019-span-0,,checkout-api,POST /checkout,272.0,OK
+run-burst-trace-019,RUN-BURST,checkout,run-burst-trace-019-span-1,run-burst-trace-019-span-0,checkout-api,validate-cart,45.0,OK
+run-burst-trace-019,RUN-BURST,checkout,run-burst-trace-019-span-2,run-burst-trace-019-span-0,order-db,SELECT price per line item 1,88.0,OK
+run-burst-trace-019,RUN-BURST,checkout,run-burst-trace-019-span-3,run-burst-trace-019-span-0,order-db,SELECT price per line item 2,96.0,OK
+run-burst-trace-019,RUN-BURST,checkout,run-burst-trace-019-span-4,run-burst-trace-019-span-0,order-db,SELECT price per line item 3,83.5,OK
+run-burst-trace-019,RUN-BURST,checkout,run-burst-trace-019-span-5,run-burst-trace-019-span-0,inventory-worker,reserve-stock synchronous RPC,179.0,OK
+run-burst-trace-019,RUN-BURST,checkout,run-burst-trace-019-span-6,run-burst-trace-019-span-0,order-db,INSERT order transaction,139.5,OK
+run-failover-trace-000,RUN-FAILOVER,checkout,run-failover-trace-000-span-0,,checkout-api,POST /checkout,225.0,OK
+run-failover-trace-000,RUN-FAILOVER,checkout,run-failover-trace-000-span-1,run-failover-trace-000-span-0,checkout-api,validate-cart,34.8,OK
+run-failover-trace-000,RUN-FAILOVER,checkout,run-failover-trace-000-span-2,run-failover-trace-000-span-0,order-db,SELECT price per line item 1,71.4,OK
+run-failover-trace-000,RUN-FAILOVER,checkout,run-failover-trace-000-span-3,run-failover-trace-000-span-0,order-db,SELECT price per line item 2,78.6,OK
+run-failover-trace-000,RUN-FAILOVER,checkout,run-failover-trace-000-span-4,run-failover-trace-000-span-0,order-db,SELECT price per line item 3,79.5,OK
+run-failover-trace-000,RUN-FAILOVER,checkout,run-failover-trace-000-span-5,run-failover-trace-000-span-0,inventory-worker,reserve-stock synchronous RPC,147.2,OK
+run-failover-trace-000,RUN-FAILOVER,checkout,run-failover-trace-000-span-6,run-failover-trace-000-span-0,order-db,INSERT order transaction,114.5,OK
+run-failover-trace-001,RUN-FAILOVER,checkout,run-failover-trace-001-span-0,,checkout-api,POST /checkout,232.0,OK
+run-failover-trace-001,RUN-FAILOVER,checkout,run-failover-trace-001-span-1,run-failover-trace-001-span-0,checkout-api,validate-cart,41.8,OK
+run-failover-trace-001,RUN-FAILOVER,checkout,run-failover-trace-001-span-2,run-failover-trace-001-span-0,order-db,SELECT price per line item 1,65.4,OK
+run-failover-trace-001,RUN-FAILOVER,checkout,run-failover-trace-001-span-3,run-failover-trace-001-span-0,order-db,SELECT price per line item 2,72.6,OK
+run-failover-trace-001,RUN-FAILOVER,checkout,run-failover-trace-001-span-4,run-failover-trace-001-span-0,order-db,SELECT price per line item 3,73.5,OK
+run-failover-trace-001,RUN-FAILOVER,checkout,run-failover-trace-001-span-5,run-failover-trace-001-span-0,inventory-worker,reserve-stock synchronous RPC,154.2,OK
+run-failover-trace-001,RUN-FAILOVER,checkout,run-failover-trace-001-span-6,run-failover-trace-001-span-0,order-db,INSERT order transaction,121.5,OK
+run-failover-trace-002,RUN-FAILOVER,checkout,run-failover-trace-002-span-0,,checkout-api,POST /checkout,226.0,OK
+run-failover-trace-002,RUN-FAILOVER,checkout,run-failover-trace-002-span-1,run-failover-trace-002-span-0,checkout-api,validate-cart,35.8,OK
+run-failover-trace-002,RUN-FAILOVER,checkout,run-failover-trace-002-span-2,run-failover-trace-002-span-0,order-db,SELECT price per line item 1,72.4,OK
+run-failover-trace-002,RUN-FAILOVER,checkout,run-failover-trace-002-span-3,run-failover-trace-002-span-0,order-db,SELECT price per line item 2,79.6,OK
+run-failover-trace-002,RUN-FAILOVER,checkout,run-failover-trace-002-span-4,run-failover-trace-002-span-0,order-db,SELECT price per line item 3,67.5,OK
+run-failover-trace-002,RUN-FAILOVER,checkout,run-failover-trace-002-span-5,run-failover-trace-002-span-0,inventory-worker,reserve-stock synchronous RPC,148.2,OK
+run-failover-trace-002,RUN-FAILOVER,checkout,run-failover-trace-002-span-6,run-failover-trace-002-span-0,order-db,INSERT order transaction,115.5,OK
+run-failover-trace-003,RUN-FAILOVER,checkout,run-failover-trace-003-span-0,,checkout-api,POST /checkout,233.0,OK
+run-failover-trace-003,RUN-FAILOVER,checkout,run-failover-trace-003-span-1,run-failover-trace-003-span-0,checkout-api,validate-cart,42.8,OK
+run-failover-trace-003,RUN-FAILOVER,checkout,run-failover-trace-003-span-2,run-failover-trace-003-span-0,order-db,SELECT price per line item 1,66.4,OK
+run-failover-trace-003,RUN-FAILOVER,checkout,run-failover-trace-003-span-3,run-failover-trace-003-span-0,order-db,SELECT price per line item 2,73.6,OK
+run-failover-trace-003,RUN-FAILOVER,checkout,run-failover-trace-003-span-4,run-failover-trace-003-span-0,order-db,SELECT price per line item 3,74.5,OK
+run-failover-trace-003,RUN-FAILOVER,checkout,run-failover-trace-003-span-5,run-failover-trace-003-span-0,inventory-worker,reserve-stock synchronous RPC,155.2,OK
+run-failover-trace-003,RUN-FAILOVER,checkout,run-failover-trace-003-span-6,run-failover-trace-003-span-0,order-db,INSERT order transaction,109.5,OK
+run-failover-trace-004,RUN-FAILOVER,checkout,run-failover-trace-004-span-0,,checkout-api,POST /checkout,227.0,OK
+run-failover-trace-004,RUN-FAILOVER,checkout,run-failover-trace-004-span-1,run-failover-trace-004-span-0,checkout-api,validate-cart,36.8,OK
+run-failover-trace-004,RUN-FAILOVER,checkout,run-failover-trace-004-span-2,run-failover-trace-004-span-0,order-db,SELECT price per line item 1,73.4,OK
+run-failover-trace-004,RUN-FAILOVER,checkout,run-failover-trace-004-span-3,run-failover-trace-004-span-0,order-db,SELECT price per line item 2,80.6,OK
+run-failover-trace-004,RUN-FAILOVER,checkout,run-failover-trace-004-span-4,run-failover-trace-004-span-0,order-db,SELECT price per line item 3,68.5,OK
+run-failover-trace-004,RUN-FAILOVER,checkout,run-failover-trace-004-span-5,run-failover-trace-004-span-0,inventory-worker,reserve-stock synchronous RPC,149.2,OK
+run-failover-trace-004,RUN-FAILOVER,checkout,run-failover-trace-004-span-6,run-failover-trace-004-span-0,order-db,INSERT order transaction,116.5,OK
+run-failover-trace-005,RUN-FAILOVER,checkout,run-failover-trace-005-span-0,,checkout-api,POST /checkout,234.0,OK
+run-failover-trace-005,RUN-FAILOVER,checkout,run-failover-trace-005-span-1,run-failover-trace-005-span-0,checkout-api,validate-cart,43.8,OK
+run-failover-trace-005,RUN-FAILOVER,checkout,run-failover-trace-005-span-2,run-failover-trace-005-span-0,order-db,SELECT price per line item 1,67.4,OK
+run-failover-trace-005,RUN-FAILOVER,checkout,run-failover-trace-005-span-3,run-failover-trace-005-span-0,order-db,SELECT price per line item 2,74.6,OK
+run-failover-trace-005,RUN-FAILOVER,checkout,run-failover-trace-005-span-4,run-failover-trace-005-span-0,order-db,SELECT price per line item 3,75.5,OK
+run-failover-trace-005,RUN-FAILOVER,checkout,run-failover-trace-005-span-5,run-failover-trace-005-span-0,inventory-worker,reserve-stock synchronous RPC,156.2,OK
+run-failover-trace-005,RUN-FAILOVER,checkout,run-failover-trace-005-span-6,run-failover-trace-005-span-0,order-db,INSERT order transaction,110.5,OK
+run-failover-trace-006,RUN-FAILOVER,checkout,run-failover-trace-006-span-0,,checkout-api,POST /checkout,228.0,OK
+run-failover-trace-006,RUN-FAILOVER,checkout,run-failover-trace-006-span-1,run-failover-trace-006-span-0,checkout-api,validate-cart,37.8,OK
+run-failover-trace-006,RUN-FAILOVER,checkout,run-failover-trace-006-span-2,run-failover-trace-006-span-0,order-db,SELECT price per line item 1,74.4,OK
+run-failover-trace-006,RUN-FAILOVER,checkout,run-failover-trace-006-span-3,run-failover-trace-006-span-0,order-db,SELECT price per line item 2,81.6,OK
+run-failover-trace-006,RUN-FAILOVER,checkout,run-failover-trace-006-span-4,run-failover-trace-006-span-0,order-db,SELECT price per line item 3,69.5,OK
+run-failover-trace-006,RUN-FAILOVER,checkout,run-failover-trace-006-span-5,run-failover-trace-006-span-0,inventory-worker,reserve-stock synchronous RPC,150.2,OK
+run-failover-trace-006,RUN-FAILOVER,checkout,run-failover-trace-006-span-6,run-failover-trace-006-span-0,order-db,INSERT order transaction,117.5,OK
+run-failover-trace-007,RUN-FAILOVER,checkout,run-failover-trace-007-span-0,,checkout-api,POST /checkout,235.0,OK
+run-failover-trace-007,RUN-FAILOVER,checkout,run-failover-trace-007-span-1,run-failover-trace-007-span-0,checkout-api,validate-cart,31.8,OK
+run-failover-trace-007,RUN-FAILOVER,checkout,run-failover-trace-007-span-2,run-failover-trace-007-span-0,order-db,SELECT price per line item 1,68.4,OK
+run-failover-trace-007,RUN-FAILOVER,checkout,run-failover-trace-007-span-3,run-failover-trace-007-span-0,order-db,SELECT price per line item 2,75.6,OK
+run-failover-trace-007,RUN-FAILOVER,checkout,run-failover-trace-007-span-4,run-failover-trace-007-span-0,order-db,SELECT price per line item 3,76.5,OK
+run-failover-trace-007,RUN-FAILOVER,checkout,run-failover-trace-007-span-5,run-failover-trace-007-span-0,inventory-worker,reserve-stock synchronous RPC,157.2,OK
+run-failover-trace-007,RUN-FAILOVER,checkout,run-failover-trace-007-span-6,run-failover-trace-007-span-0,order-db,INSERT order transaction,111.5,ERROR
+run-failover-trace-008,RUN-FAILOVER,checkout,run-failover-trace-008-span-0,,checkout-api,POST /checkout,229.0,OK
+run-failover-trace-008,RUN-FAILOVER,checkout,run-failover-trace-008-span-1,run-failover-trace-008-span-0,checkout-api,validate-cart,38.8,OK
+run-failover-trace-008,RUN-FAILOVER,checkout,run-failover-trace-008-span-2,run-failover-trace-008-span-0,order-db,SELECT price per line item 1,75.4,OK
+run-failover-trace-008,RUN-FAILOVER,checkout,run-failover-trace-008-span-3,run-failover-trace-008-span-0,order-db,SELECT price per line item 2,69.6,OK
+run-failover-trace-008,RUN-FAILOVER,checkout,run-failover-trace-008-span-4,run-failover-trace-008-span-0,order-db,SELECT price per line item 3,70.5,OK
+run-failover-trace-008,RUN-FAILOVER,checkout,run-failover-trace-008-span-5,run-failover-trace-008-span-0,inventory-worker,reserve-stock synchronous RPC,151.2,OK
+run-failover-trace-008,RUN-FAILOVER,checkout,run-failover-trace-008-span-6,run-failover-trace-008-span-0,order-db,INSERT order transaction,118.5,OK
+run-failover-trace-009,RUN-FAILOVER,checkout,run-failover-trace-009-span-0,,checkout-api,POST /checkout,236.0,OK
+run-failover-trace-009,RUN-FAILOVER,checkout,run-failover-trace-009-span-1,run-failover-trace-009-span-0,checkout-api,validate-cart,32.8,OK
+run-failover-trace-009,RUN-FAILOVER,checkout,run-failover-trace-009-span-2,run-failover-trace-009-span-0,order-db,SELECT price per line item 1,69.4,OK
+run-failover-trace-009,RUN-FAILOVER,checkout,run-failover-trace-009-span-3,run-failover-trace-009-span-0,order-db,SELECT price per line item 2,76.6,OK
+run-failover-trace-009,RUN-FAILOVER,checkout,run-failover-trace-009-span-4,run-failover-trace-009-span-0,order-db,SELECT price per line item 3,77.5,OK
+run-failover-trace-009,RUN-FAILOVER,checkout,run-failover-trace-009-span-5,run-failover-trace-009-span-0,inventory-worker,reserve-stock synchronous RPC,145.2,OK
+run-failover-trace-009,RUN-FAILOVER,checkout,run-failover-trace-009-span-6,run-failover-trace-009-span-0,order-db,INSERT order transaction,112.5,OK
+run-failover-trace-010,RUN-FAILOVER,checkout,run-failover-trace-010-span-0,,checkout-api,POST /checkout,230.0,OK
+run-failover-trace-010,RUN-FAILOVER,checkout,run-failover-trace-010-span-1,run-failover-trace-010-span-0,checkout-api,validate-cart,39.8,OK
+run-failover-trace-010,RUN-FAILOVER,checkout,run-failover-trace-010-span-2,run-failover-trace-010-span-0,order-db,SELECT price per line item 1,76.4,OK
+run-failover-trace-010,RUN-FAILOVER,checkout,run-failover-trace-010-span-3,run-failover-trace-010-span-0,order-db,SELECT price per line item 2,70.6,OK
+run-failover-trace-010,RUN-FAILOVER,checkout,run-failover-trace-010-span-4,run-failover-trace-010-span-0,order-db,SELECT price per line item 3,71.5,OK
+run-failover-trace-010,RUN-FAILOVER,checkout,run-failover-trace-010-span-5,run-failover-trace-010-span-0,inventory-worker,reserve-stock synchronous RPC,152.2,OK
+run-failover-trace-010,RUN-FAILOVER,checkout,run-failover-trace-010-span-6,run-failover-trace-010-span-0,order-db,INSERT order transaction,119.5,OK
+run-failover-trace-011,RUN-FAILOVER,checkout,run-failover-trace-011-span-0,,checkout-api,POST /checkout,237.0,OK
+run-failover-trace-011,RUN-FAILOVER,checkout,run-failover-trace-011-span-1,run-failover-trace-011-span-0,checkout-api,validate-cart,33.8,OK
+run-failover-trace-011,RUN-FAILOVER,checkout,run-failover-trace-011-span-2,run-failover-trace-011-span-0,order-db,SELECT price per line item 1,70.4,OK
+run-failover-trace-011,RUN-FAILOVER,checkout,run-failover-trace-011-span-3,run-failover-trace-011-span-0,order-db,SELECT price per line item 2,77.6,OK
+run-failover-trace-011,RUN-FAILOVER,checkout,run-failover-trace-011-span-4,run-failover-trace-011-span-0,order-db,SELECT price per line item 3,78.5,OK
+run-failover-trace-011,RUN-FAILOVER,checkout,run-failover-trace-011-span-5,run-failover-trace-011-span-0,inventory-worker,reserve-stock synchronous RPC,146.2,OK
+run-failover-trace-011,RUN-FAILOVER,checkout,run-failover-trace-011-span-6,run-failover-trace-011-span-0,order-db,INSERT order transaction,113.5,OK
+run-failover-trace-012,RUN-FAILOVER,checkout,run-failover-trace-012-span-0,,checkout-api,POST /checkout,231.0,OK
+run-failover-trace-012,RUN-FAILOVER,checkout,run-failover-trace-012-span-1,run-failover-trace-012-span-0,checkout-api,validate-cart,40.8,OK
+run-failover-trace-012,RUN-FAILOVER,checkout,run-failover-trace-012-span-2,run-failover-trace-012-span-0,order-db,SELECT price per line item 1,77.4,OK
+run-failover-trace-012,RUN-FAILOVER,checkout,run-failover-trace-012-span-3,run-failover-trace-012-span-0,order-db,SELECT price per line item 2,71.6,OK
+run-failover-trace-012,RUN-FAILOVER,checkout,run-failover-trace-012-span-4,run-failover-trace-012-span-0,order-db,SELECT price per line item 3,72.5,OK
+run-failover-trace-012,RUN-FAILOVER,checkout,run-failover-trace-012-span-5,run-failover-trace-012-span-0,inventory-worker,reserve-stock synchronous RPC,153.2,OK
+run-failover-trace-012,RUN-FAILOVER,checkout,run-failover-trace-012-span-6,run-failover-trace-012-span-0,order-db,INSERT order transaction,120.5,OK
+run-failover-trace-013,RUN-FAILOVER,checkout,run-failover-trace-013-span-0,,checkout-api,POST /checkout,225.0,OK
+run-failover-trace-013,RUN-FAILOVER,checkout,run-failover-trace-013-span-1,run-failover-trace-013-span-0,checkout-api,validate-cart,34.8,OK
+run-failover-trace-013,RUN-FAILOVER,checkout,run-failover-trace-013-span-2,run-failover-trace-013-span-0,order-db,SELECT price per line item 1,71.4,OK
+run-failover-trace-013,RUN-FAILOVER,checkout,run-failover-trace-013-span-3,run-failover-trace-013-span-0,order-db,SELECT price per line item 2,78.6,OK
+run-failover-trace-013,RUN-FAILOVER,checkout,run-failover-trace-013-span-4,run-failover-trace-013-span-0,order-db,SELECT price per line item 3,79.5,OK
+run-failover-trace-013,RUN-FAILOVER,checkout,run-failover-trace-013-span-5,run-failover-trace-013-span-0,inventory-worker,reserve-stock synchronous RPC,147.2,OK
+run-failover-trace-013,RUN-FAILOVER,checkout,run-failover-trace-013-span-6,run-failover-trace-013-span-0,order-db,INSERT order transaction,114.5,OK
+run-failover-trace-014,RUN-FAILOVER,checkout,run-failover-trace-014-span-0,,checkout-api,POST /checkout,232.0,OK
+run-failover-trace-014,RUN-FAILOVER,checkout,run-failover-trace-014-span-1,run-failover-trace-014-span-0,checkout-api,validate-cart,41.8,OK
+run-failover-trace-014,RUN-FAILOVER,checkout,run-failover-trace-014-span-2,run-failover-trace-014-span-0,order-db,SELECT price per line item 1,65.4,OK
+run-failover-trace-014,RUN-FAILOVER,checkout,run-failover-trace-014-span-3,run-failover-trace-014-span-0,order-db,SELECT price per line item 2,72.6,OK
+run-failover-trace-014,RUN-FAILOVER,checkout,run-failover-trace-014-span-4,run-failover-trace-014-span-0,order-db,SELECT price per line item 3,73.5,OK
+run-failover-trace-014,RUN-FAILOVER,checkout,run-failover-trace-014-span-5,run-failover-trace-014-span-0,inventory-worker,reserve-stock synchronous RPC,154.2,OK
+run-failover-trace-014,RUN-FAILOVER,checkout,run-failover-trace-014-span-6,run-failover-trace-014-span-0,order-db,INSERT order transaction,121.5,OK
+run-failover-trace-015,RUN-FAILOVER,checkout,run-failover-trace-015-span-0,,checkout-api,POST /checkout,226.0,OK
+run-failover-trace-015,RUN-FAILOVER,checkout,run-failover-trace-015-span-1,run-failover-trace-015-span-0,checkout-api,validate-cart,35.8,OK
+run-failover-trace-015,RUN-FAILOVER,checkout,run-failover-trace-015-span-2,run-failover-trace-015-span-0,order-db,SELECT price per line item 1,72.4,OK
+run-failover-trace-015,RUN-FAILOVER,checkout,run-failover-trace-015-span-3,run-failover-trace-015-span-0,order-db,SELECT price per line item 2,79.6,OK
+run-failover-trace-015,RUN-FAILOVER,checkout,run-failover-trace-015-span-4,run-failover-trace-015-span-0,order-db,SELECT price per line item 3,67.5,OK
+run-failover-trace-015,RUN-FAILOVER,checkout,run-failover-trace-015-span-5,run-failover-trace-015-span-0,inventory-worker,reserve-stock synchronous RPC,148.2,OK
+run-failover-trace-015,RUN-FAILOVER,checkout,run-failover-trace-015-span-6,run-failover-trace-015-span-0,order-db,INSERT order transaction,115.5,OK
+run-failover-trace-016,RUN-FAILOVER,checkout,run-failover-trace-016-span-0,,checkout-api,POST /checkout,233.0,OK
+run-failover-trace-016,RUN-FAILOVER,checkout,run-failover-trace-016-span-1,run-failover-trace-016-span-0,checkout-api,validate-cart,42.8,OK
+run-failover-trace-016,RUN-FAILOVER,checkout,run-failover-trace-016-span-2,run-failover-trace-016-span-0,order-db,SELECT price per line item 1,66.4,OK
+run-failover-trace-016,RUN-FAILOVER,checkout,run-failover-trace-016-span-3,run-failover-trace-016-span-0,order-db,SELECT price per line item 2,73.6,OK
+run-failover-trace-016,RUN-FAILOVER,checkout,run-failover-trace-016-span-4,run-failover-trace-016-span-0,order-db,SELECT price per line item 3,74.5,OK
+run-failover-trace-016,RUN-FAILOVER,checkout,run-failover-trace-016-span-5,run-failover-trace-016-span-0,inventory-worker,reserve-stock synchronous RPC,155.2,OK
+run-failover-trace-016,RUN-FAILOVER,checkout,run-failover-trace-016-span-6,run-failover-trace-016-span-0,order-db,INSERT order transaction,109.5,ERROR
+run-failover-trace-017,RUN-FAILOVER,checkout,run-failover-trace-017-span-0,,checkout-api,POST /checkout,227.0,OK
+run-failover-trace-017,RUN-FAILOVER,checkout,run-failover-trace-017-span-1,run-failover-trace-017-span-0,checkout-api,validate-cart,36.8,OK
+run-failover-trace-017,RUN-FAILOVER,checkout,run-failover-trace-017-span-2,run-failover-trace-017-span-0,order-db,SELECT price per line item 1,73.4,OK
+run-failover-trace-017,RUN-FAILOVER,checkout,run-failover-trace-017-span-3,run-failover-trace-017-span-0,order-db,SELECT price per line item 2,80.6,OK
+run-failover-trace-017,RUN-FAILOVER,checkout,run-failover-trace-017-span-4,run-failover-trace-017-span-0,order-db,SELECT price per line item 3,68.5,OK
+run-failover-trace-017,RUN-FAILOVER,checkout,run-failover-trace-017-span-5,run-failover-trace-017-span-0,inventory-worker,reserve-stock synchronous RPC,149.2,OK
+run-failover-trace-017,RUN-FAILOVER,checkout,run-failover-trace-017-span-6,run-failover-trace-017-span-0,order-db,INSERT order transaction,116.5,OK
+run-failover-trace-018,RUN-FAILOVER,checkout,run-failover-trace-018-span-0,,checkout-api,POST /checkout,234.0,OK
+run-failover-trace-018,RUN-FAILOVER,checkout,run-failover-trace-018-span-1,run-failover-trace-018-span-0,checkout-api,validate-cart,43.8,OK
+run-failover-trace-018,RUN-FAILOVER,checkout,run-failover-trace-018-span-2,run-failover-trace-018-span-0,order-db,SELECT price per line item 1,67.4,OK
+run-failover-trace-018,RUN-FAILOVER,checkout,run-failover-trace-018-span-3,run-failover-trace-018-span-0,order-db,SELECT price per line item 2,74.6,OK
+run-failover-trace-018,RUN-FAILOVER,checkout,run-failover-trace-018-span-4,run-failover-trace-018-span-0,order-db,SELECT price per line item 3,75.5,OK
+run-failover-trace-018,RUN-FAILOVER,checkout,run-failover-trace-018-span-5,run-failover-trace-018-span-0,inventory-worker,reserve-stock synchronous RPC,156.2,OK
+run-failover-trace-018,RUN-FAILOVER,checkout,run-failover-trace-018-span-6,run-failover-trace-018-span-0,order-db,INSERT order transaction,110.5,OK
+run-failover-trace-019,RUN-FAILOVER,checkout,run-failover-trace-019-span-0,,checkout-api,POST /checkout,228.0,OK
+run-failover-trace-019,RUN-FAILOVER,checkout,run-failover-trace-019-span-1,run-failover-trace-019-span-0,checkout-api,validate-cart,37.8,OK
+run-failover-trace-019,RUN-FAILOVER,checkout,run-failover-trace-019-span-2,run-failover-trace-019-span-0,order-db,SELECT price per line item 1,74.4,OK
+run-failover-trace-019,RUN-FAILOVER,checkout,run-failover-trace-019-span-3,run-failover-trace-019-span-0,order-db,SELECT price per line item 2,81.6,OK
+run-failover-trace-019,RUN-FAILOVER,checkout,run-failover-trace-019-span-4,run-failover-trace-019-span-0,order-db,SELECT price per line item 3,69.5,OK
+run-failover-trace-019,RUN-FAILOVER,checkout,run-failover-trace-019-span-5,run-failover-trace-019-span-0,inventory-worker,reserve-stock synchronous RPC,150.2,OK
+run-failover-trace-019,RUN-FAILOVER,checkout,run-failover-trace-019-span-6,run-failover-trace-019-span-0,order-db,INSERT order transaction,117.5,OK

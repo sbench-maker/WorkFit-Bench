@@ -1,0 +1,239 @@
+{
+  "containerVersion": {
+    "container": {
+      "name": "Kiteframe Web - Production Snapshot",
+      "publicId": "GTM-MOCK42"
+    },
+    "tag": [
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": null,
+        "firingTriggerId": [
+          "10"
+        ],
+        "name": "GA4 - Config - Base",
+        "parameters": {
+          "send_page_view": true
+        },
+        "tagId": "1",
+        "type": "gaawc"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "page_view",
+        "firingTriggerId": [
+          "10"
+        ],
+        "name": "GA4 - Event - Page View",
+        "parameters": {
+          "page_location": "{{Page URL}}"
+        },
+        "tagId": "2",
+        "type": "gaawe"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "CTA Clicked",
+        "firingTriggerId": [
+          "11"
+        ],
+        "name": "GA4 - Event - CTA",
+        "parameters": {
+          "button_text": "{{Click Text}}",
+          "page_path": "{{Page Path}}"
+        },
+        "tagId": "3",
+        "type": "gaawe"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "signup_completed",
+        "firingTriggerId": [
+          "12"
+        ],
+        "name": "GA4 - Event - Signup Custom Event",
+        "parameters": {
+          "method": "{{DLV - method}}",
+          "plan": "{{DLV - plan}}"
+        },
+        "tagId": "4",
+        "type": "gaawe"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "signup_completed",
+        "firingTriggerId": [
+          "13"
+        ],
+        "name": "GA4 - Event - Signup Welcome Page",
+        "parameters": {
+          "method": "unknown",
+          "plan": "{{DLV - plan}}"
+        },
+        "tagId": "5",
+        "type": "gaawe"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "form_submitted",
+        "firingTriggerId": [
+          "14"
+        ],
+        "name": "GA4 - Event - Form Submit",
+        "parameters": {
+          "email": "{{DLV - email}}",
+          "form_name": "{{DLV - form_name}}"
+        },
+        "tagId": "6",
+        "type": "gaawe"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "feature_used",
+        "firingTriggerId": [
+          "15"
+        ],
+        "name": "GA4 - Event - Feature Used",
+        "parameters": {
+          "plan": "{{DLV - plan}}"
+        },
+        "tagId": "7",
+        "type": "gaawe"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "purchase",
+        "firingTriggerId": [
+          "16"
+        ],
+        "name": "GA4 - Event - Purchase Success Page",
+        "parameters": {
+          "currency": "USD",
+          "value": "{{DLV - value}}"
+        },
+        "tagId": "8",
+        "type": "gaawe"
+      },
+      {
+        "consentSettings": {
+          "analytics_storage": "not_set"
+        },
+        "eventName": "onboarding-step-completed",
+        "firingTriggerId": [
+          "17"
+        ],
+        "name": "GA4 - Event - Onboarding Step",
+        "parameters": {
+          "step_number": "{{DLV - step_number}}"
+        },
+        "tagId": "9",
+        "type": "gaawe"
+      }
+    ],
+    "trigger": [
+      {
+        "filter": [],
+        "name": "Page View - All Pages",
+        "triggerId": "10",
+        "type": "pageview"
+      },
+      {
+        "filter": [
+          "click_classes contains trial-cta"
+        ],
+        "name": "Click - Trial CTA",
+        "triggerId": "11",
+        "type": "click"
+      },
+      {
+        "customEventFilter": "signup_completed",
+        "name": "Custom - signup_completed",
+        "triggerId": "12",
+        "type": "customEvent"
+      },
+      {
+        "filter": [
+          "page_path equals /welcome"
+        ],
+        "name": "View - Welcome",
+        "triggerId": "13",
+        "type": "pageview"
+      },
+      {
+        "filter": [],
+        "name": "Submit - Any Form",
+        "triggerId": "14",
+        "type": "formSubmission"
+      },
+      {
+        "customEventFilter": "feature_used",
+        "name": "Custom - feature_used",
+        "triggerId": "15",
+        "type": "customEvent"
+      },
+      {
+        "filter": [
+          "page_path equals /billing/success"
+        ],
+        "name": "View - Billing Success",
+        "triggerId": "16",
+        "type": "pageview"
+      },
+      {
+        "customEventFilter": "onboarding-step-completed",
+        "name": "Custom - onboarding",
+        "triggerId": "17",
+        "type": "customEvent"
+      }
+    ],
+    "variable": [
+      {
+        "dataLayerVersion": 2,
+        "key": "method",
+        "name": "DLV - method",
+        "type": "v"
+      },
+      {
+        "dataLayerVersion": 2,
+        "key": "plan",
+        "name": "DLV - plan",
+        "type": "v"
+      },
+      {
+        "dataLayerVersion": 2,
+        "key": "email",
+        "name": "DLV - email",
+        "type": "v"
+      },
+      {
+        "dataLayerVersion": 2,
+        "key": "value",
+        "name": "DLV - value",
+        "type": "v"
+      },
+      {
+        "dataLayerVersion": 2,
+        "key": "step_number",
+        "name": "DLV - step_number",
+        "type": "v"
+      }
+    ]
+  },
+  "exportFormatVersion": 2
+}

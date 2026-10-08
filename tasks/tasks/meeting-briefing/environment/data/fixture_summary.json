@@ -1,0 +1,16 @@
+{
+  "construction": "deterministic fictional offline fixture",
+  "record_counts": {
+    "calendar": 40,
+    "email": 120,
+    "chat": 100,
+    "documents": 32,
+    "people": 8
+  },
+  "total_source_records_excluding_people": 292,
+  "join_keys": [
+    "related_account",
+    "person_id/author_id/email",
+    "thread_id"
+  ]
+}

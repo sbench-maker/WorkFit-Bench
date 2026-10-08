@@ -1,0 +1,241 @@
+observation_id,assumption_id,participant_id,cohort,study_round,importance_1_5,current_satisfaction_1_5,observed_behavior,behavior_completed,elapsed_seconds,note
+O0101,A01,P012,new,round_1,5,2,opened reminder and started refill,1,61,Completed the sandbox action on attempt 1.
+O0102,A01,P019,returning,round_1,3,2,opened reminder and started refill,1,78,Completed the sandbox action on attempt 2.
+O0103,A01,P026,assisted,round_1,5,2,opened reminder and started refill,1,95,Completed the sandbox action on attempt 1.
+O0104,A01,P033,new,round_1,3,2,opened reminder and started refill,1,112,Completed the sandbox action on attempt 2.
+O0105,A01,P040,returning,round_1,5,2,opened reminder and started refill,1,129,Completed the sandbox action on attempt 1.
+O0106,A01,P047,assisted,round_1,3,2,opened reminder and started refill,0,,Abandoned before confirmation.
+O0107,A01,P054,new,round_2,5,2,opened reminder and started refill,0,,Needed facilitator help to continue.
+O0108,A01,P061,returning,round_2,3,2,opened reminder and started refill,0,,Abandoned before confirmation.
+O0109,A01,P068,assisted,round_2,5,2,opened reminder and started refill,0,,Needed facilitator help to continue.
+O0110,A01,P003,new,round_2,3,2,opened reminder and started refill,0,,Abandoned before confirmation.
+O0111,A01,P010,returning,round_2,5,2,opened reminder and started refill,0,,Needed facilitator help to continue.
+O0112,A01,P017,assisted,round_2,3,2,opened reminder and started refill,0,,Abandoned before confirmation.
+O0201,A02,P023,new,round_1,5,2,completed roster import,1,84,Completed the sandbox action on attempt 1.
+O0202,A02,P030,returning,round_1,3,2,completed roster import,1,101,Completed the sandbox action on attempt 2.
+O0203,A02,P037,assisted,round_1,5,2,completed roster import,1,118,Completed the sandbox action on attempt 1.
+O0204,A02,P044,new,round_1,3,2,completed roster import,1,135,Completed the sandbox action on attempt 2.
+O0205,A02,P051,returning,round_1,5,2,completed roster import,1,152,Completed the sandbox action on attempt 1.
+O0206,A02,P058,assisted,round_1,3,2,completed roster import,1,169,Completed the sandbox action on attempt 2.
+O0207,A02,P065,new,round_2,5,2,completed roster import,1,186,Completed the sandbox action on attempt 1.
+O0208,A02,P072,returning,round_2,3,2,completed roster import,1,203,Completed the sandbox action on attempt 2.
+O0209,A02,P007,assisted,round_2,5,2,completed roster import,1,220,Completed the sandbox action on attempt 1.
+O0210,A02,P014,new,round_2,3,2,completed roster import,1,237,Completed the sandbox action on attempt 2.
+O0211,A02,P021,returning,round_2,5,2,completed roster import,0,,Needed facilitator help to continue.
+O0212,A02,P028,assisted,round_2,3,2,completed roster import,0,,Abandoned before confirmation.
+O0301,A03,P034,new,round_1,4,2,completed onboarding unaided,1,107,Completed the sandbox action on attempt 1.
+O0302,A03,P041,returning,round_1,2,2,completed onboarding unaided,1,124,Completed the sandbox action on attempt 2.
+O0303,A03,P048,assisted,round_1,4,2,completed onboarding unaided,1,141,Completed the sandbox action on attempt 1.
+O0304,A03,P055,new,round_1,2,2,completed onboarding unaided,1,158,Completed the sandbox action on attempt 2.
+O0305,A03,P062,returning,round_1,4,2,completed onboarding unaided,1,175,Completed the sandbox action on attempt 1.
+O0306,A03,P069,assisted,round_1,2,2,completed onboarding unaided,1,192,Completed the sandbox action on attempt 2.
+O0307,A03,P004,new,round_2,4,2,completed onboarding unaided,1,209,Completed the sandbox action on attempt 1.
+O0308,A03,P011,returning,round_2,2,2,completed onboarding unaided,1,226,Completed the sandbox action on attempt 2.
+O0309,A03,P018,assisted,round_2,4,2,completed onboarding unaided,0,,Needed facilitator help to continue.
+O0310,A03,P025,new,round_2,2,2,completed onboarding unaided,0,,Abandoned before confirmation.
+O0311,A03,P032,returning,round_2,4,2,completed onboarding unaided,0,,Needed facilitator help to continue.
+O0312,A03,P039,assisted,round_2,2,2,completed onboarding unaided,0,,Abandoned before confirmation.
+O0401,A04,P045,new,round_1,3,4,accepted sandbox pickup token,1,130,Completed the sandbox action on attempt 1.
+O0402,A04,P052,returning,round_1,1,4,accepted sandbox pickup token,1,147,Completed the sandbox action on attempt 2.
+O0403,A04,P059,assisted,round_1,3,4,accepted sandbox pickup token,1,164,Completed the sandbox action on attempt 1.
+O0404,A04,P066,new,round_1,1,4,accepted sandbox pickup token,1,181,Completed the sandbox action on attempt 2.
+O0405,A04,P001,returning,round_1,3,4,accepted sandbox pickup token,1,198,Completed the sandbox action on attempt 1.
+O0406,A04,P008,assisted,round_1,1,4,accepted sandbox pickup token,1,215,Completed the sandbox action on attempt 2.
+O0407,A04,P015,new,round_2,3,4,accepted sandbox pickup token,1,232,Completed the sandbox action on attempt 1.
+O0408,A04,P022,returning,round_2,1,4,accepted sandbox pickup token,1,249,Completed the sandbox action on attempt 2.
+O0409,A04,P029,assisted,round_2,3,4,accepted sandbox pickup token,1,266,Completed the sandbox action on attempt 1.
+O0410,A04,P036,new,round_2,1,4,accepted sandbox pickup token,0,,Abandoned before confirmation.
+O0411,A04,P043,returning,round_2,3,4,accepted sandbox pickup token,0,,Needed facilitator help to continue.
+O0412,A04,P050,assisted,round_2,1,4,accepted sandbox pickup token,0,,Abandoned before confirmation.
+O0501,A05,P056,new,round_1,4,2,completed wearable connection,1,153,Completed the sandbox action on attempt 1.
+O0502,A05,P063,returning,round_1,2,2,completed wearable connection,1,170,Completed the sandbox action on attempt 2.
+O0503,A05,P070,assisted,round_1,4,2,completed wearable connection,1,187,Completed the sandbox action on attempt 1.
+O0504,A05,P005,new,round_1,2,2,completed wearable connection,1,204,Completed the sandbox action on attempt 2.
+O0505,A05,P012,returning,round_1,4,2,completed wearable connection,0,,Needed facilitator help to continue.
+O0506,A05,P019,assisted,round_1,2,2,completed wearable connection,0,,Abandoned before confirmation.
+O0507,A05,P026,new,round_2,4,2,completed wearable connection,0,,Needed facilitator help to continue.
+O0508,A05,P033,returning,round_2,2,2,completed wearable connection,0,,Abandoned before confirmation.
+O0509,A05,P040,assisted,round_2,4,2,completed wearable connection,0,,Needed facilitator help to continue.
+O0510,A05,P047,new,round_2,2,2,completed wearable connection,0,,Abandoned before confirmation.
+O0511,A05,P054,returning,round_2,4,2,completed wearable connection,0,,Needed facilitator help to continue.
+O0512,A05,P061,assisted,round_2,2,2,completed wearable connection,0,,Abandoned before confirmation.
+O0601,A06,P067,new,round_1,3,3,advanced to simulated checkout,1,176,Completed the sandbox action on attempt 1.
+O0602,A06,P002,returning,round_1,1,3,advanced to simulated checkout,1,193,Completed the sandbox action on attempt 2.
+O0603,A06,P009,assisted,round_1,3,3,advanced to simulated checkout,0,,Needed facilitator help to continue.
+O0604,A06,P016,new,round_1,1,3,advanced to simulated checkout,0,,Abandoned before confirmation.
+O0605,A06,P023,returning,round_1,3,3,advanced to simulated checkout,0,,Needed facilitator help to continue.
+O0606,A06,P030,assisted,round_1,1,3,advanced to simulated checkout,0,,Abandoned before confirmation.
+O0607,A06,P037,new,round_2,3,3,advanced to simulated checkout,0,,Needed facilitator help to continue.
+O0608,A06,P044,returning,round_2,1,3,advanced to simulated checkout,0,,Abandoned before confirmation.
+O0609,A06,P051,assisted,round_2,3,3,advanced to simulated checkout,0,,Needed facilitator help to continue.
+O0610,A06,P058,new,round_2,1,3,advanced to simulated checkout,0,,Abandoned before confirmation.
+O0611,A06,P065,returning,round_2,3,3,advanced to simulated checkout,0,,Needed facilitator help to continue.
+O0612,A06,P072,assisted,round_2,1,3,advanced to simulated checkout,0,,Abandoned before confirmation.
+O0701,A07,P006,new,round_1,5,2,opened and resolved risk alert,1,199,Completed the sandbox action on attempt 1.
+O0702,A07,P013,returning,round_1,3,2,opened and resolved risk alert,1,216,Completed the sandbox action on attempt 2.
+O0703,A07,P020,assisted,round_1,5,2,opened and resolved risk alert,1,233,Completed the sandbox action on attempt 1.
+O0704,A07,P027,new,round_1,3,2,opened and resolved risk alert,1,250,Completed the sandbox action on attempt 2.
+O0705,A07,P034,returning,round_1,5,2,opened and resolved risk alert,1,267,Completed the sandbox action on attempt 1.
+O0706,A07,P041,assisted,round_1,3,2,opened and resolved risk alert,0,,Abandoned before confirmation.
+O0707,A07,P048,new,round_2,5,2,opened and resolved risk alert,0,,Needed facilitator help to continue.
+O0708,A07,P055,returning,round_2,3,2,opened and resolved risk alert,0,,Abandoned before confirmation.
+O0709,A07,P062,assisted,round_2,5,2,opened and resolved risk alert,0,,Needed facilitator help to continue.
+O0710,A07,P069,new,round_2,3,2,opened and resolved risk alert,0,,Abandoned before confirmation.
+O0711,A07,P004,returning,round_2,5,2,opened and resolved risk alert,0,,Needed facilitator help to continue.
+O0712,A07,P011,assisted,round_2,3,2,opened and resolved risk alert,0,,Abandoned before confirmation.
+O0801,A08,P017,new,round_1,4,3,used in-flow language switch,1,222,Completed the sandbox action on attempt 1.
+O0802,A08,P024,returning,round_1,2,3,used in-flow language switch,1,239,Completed the sandbox action on attempt 2.
+O0803,A08,P031,assisted,round_1,4,3,used in-flow language switch,1,256,Completed the sandbox action on attempt 1.
+O0804,A08,P038,new,round_1,2,3,used in-flow language switch,1,273,Completed the sandbox action on attempt 2.
+O0805,A08,P045,returning,round_1,4,3,used in-flow language switch,1,290,Completed the sandbox action on attempt 1.
+O0806,A08,P052,assisted,round_1,2,3,used in-flow language switch,1,47,Completed the sandbox action on attempt 2.
+O0807,A08,P059,new,round_2,4,3,used in-flow language switch,1,64,Completed the sandbox action on attempt 1.
+O0808,A08,P066,returning,round_2,2,3,used in-flow language switch,1,81,Completed the sandbox action on attempt 2.
+O0809,A08,P001,assisted,round_2,4,3,used in-flow language switch,1,98,Completed the sandbox action on attempt 1.
+O0810,A08,P008,new,round_2,2,3,used in-flow language switch,1,115,Completed the sandbox action on attempt 2.
+O0811,A08,P015,returning,round_2,4,3,used in-flow language switch,0,,Needed facilitator help to continue.
+O0812,A08,P022,assisted,round_2,2,3,used in-flow language switch,0,,Abandoned before confirmation.
+O0901,A09,P028,new,round_1,5,1,completed constrained-network upload,1,245,Completed the sandbox action on attempt 1.
+O0902,A09,P035,returning,round_1,3,1,completed constrained-network upload,1,262,Completed the sandbox action on attempt 2.
+O0903,A09,P042,assisted,round_1,5,1,completed constrained-network upload,1,279,Completed the sandbox action on attempt 1.
+O0904,A09,P049,new,round_1,3,1,completed constrained-network upload,0,,Abandoned before confirmation.
+O0905,A09,P056,returning,round_1,5,1,completed constrained-network upload,0,,Needed facilitator help to continue.
+O0906,A09,P063,assisted,round_1,3,1,completed constrained-network upload,0,,Abandoned before confirmation.
+O0907,A09,P070,new,round_2,5,1,completed constrained-network upload,0,,Needed facilitator help to continue.
+O0908,A09,P005,returning,round_2,3,1,completed constrained-network upload,0,,Abandoned before confirmation.
+O0909,A09,P012,assisted,round_2,5,1,completed constrained-network upload,0,,Needed facilitator help to continue.
+O0910,A09,P019,new,round_2,3,1,completed constrained-network upload,0,,Abandoned before confirmation.
+O0911,A09,P026,returning,round_2,5,1,completed constrained-network upload,0,,Needed facilitator help to continue.
+O0912,A09,P033,assisted,round_2,3,1,completed constrained-network upload,0,,Abandoned before confirmation.
+O1001,A10,P039,new,round_1,4,2,completed consent and invited caregiver,1,268,Completed the sandbox action on attempt 1.
+O1002,A10,P046,returning,round_1,4,3,completed consent and invited caregiver,1,285,Completed the sandbox action on attempt 2.
+O1003,A10,P053,assisted,round_1,4,2,completed consent and invited caregiver,1,42,Completed the sandbox action on attempt 1.
+O1004,A10,P060,new,round_1,4,3,completed consent and invited caregiver,0,,Abandoned before confirmation.
+O1005,A10,P067,returning,round_1,4,2,completed consent and invited caregiver,0,,Needed facilitator help to continue.
+O1006,A10,P002,assisted,round_1,4,3,completed consent and invited caregiver,0,,Abandoned before confirmation.
+O1007,A10,P009,new,round_2,4,2,completed consent and invited caregiver,0,,Needed facilitator help to continue.
+O1008,A10,P016,returning,round_2,4,3,completed consent and invited caregiver,0,,Abandoned before confirmation.
+O1009,A10,P023,assisted,round_2,4,2,completed consent and invited caregiver,0,,Needed facilitator help to continue.
+O1010,A10,P030,new,round_2,4,3,completed consent and invited caregiver,0,,Abandoned before confirmation.
+O1011,A10,P037,returning,round_2,4,2,completed consent and invited caregiver,0,,Needed facilitator help to continue.
+O1012,A10,P044,assisted,round_2,4,3,completed consent and invited caregiver,0,,Abandoned before confirmation.
+O1101,A11,P050,new,round_1,4,3,requested sandbox dashboard access,1,291,Completed the sandbox action on attempt 1.
+O1102,A11,P057,returning,round_1,2,3,requested sandbox dashboard access,1,48,Completed the sandbox action on attempt 2.
+O1103,A11,P064,assisted,round_1,4,3,requested sandbox dashboard access,0,,Needed facilitator help to continue.
+O1104,A11,P071,new,round_1,2,3,requested sandbox dashboard access,0,,Abandoned before confirmation.
+O1105,A11,P006,returning,round_1,4,3,requested sandbox dashboard access,0,,Needed facilitator help to continue.
+O1106,A11,P013,assisted,round_1,2,3,requested sandbox dashboard access,0,,Abandoned before confirmation.
+O1107,A11,P020,new,round_2,4,3,requested sandbox dashboard access,0,,Needed facilitator help to continue.
+O1108,A11,P027,returning,round_2,2,3,requested sandbox dashboard access,0,,Abandoned before confirmation.
+O1109,A11,P034,assisted,round_2,4,3,requested sandbox dashboard access,0,,Needed facilitator help to continue.
+O1110,A11,P041,new,round_2,2,3,requested sandbox dashboard access,0,,Abandoned before confirmation.
+O1111,A11,P048,returning,round_2,4,3,requested sandbox dashboard access,0,,Needed facilitator help to continue.
+O1112,A11,P055,assisted,round_2,2,3,requested sandbox dashboard access,0,,Abandoned before confirmation.
+O1201,A12,P061,new,round_1,4,2,completed third weekly check-in,1,54,Completed the sandbox action on attempt 1.
+O1202,A12,P068,returning,round_1,2,2,completed third weekly check-in,1,71,Completed the sandbox action on attempt 2.
+O1203,A12,P003,assisted,round_1,4,2,completed third weekly check-in,1,88,Completed the sandbox action on attempt 1.
+O1204,A12,P010,new,round_1,2,2,completed third weekly check-in,1,105,Completed the sandbox action on attempt 2.
+O1205,A12,P017,returning,round_1,4,2,completed third weekly check-in,1,122,Completed the sandbox action on attempt 1.
+O1206,A12,P024,assisted,round_1,2,2,completed third weekly check-in,1,139,Completed the sandbox action on attempt 2.
+O1207,A12,P031,new,round_2,4,2,completed third weekly check-in,1,156,Completed the sandbox action on attempt 1.
+O1208,A12,P038,returning,round_2,2,2,completed third weekly check-in,0,,Abandoned before confirmation.
+O1209,A12,P045,assisted,round_2,4,2,completed third weekly check-in,0,,Needed facilitator help to continue.
+O1210,A12,P052,new,round_2,2,2,completed third weekly check-in,0,,Abandoned before confirmation.
+O1211,A12,P059,returning,round_2,4,2,completed third weekly check-in,0,,Needed facilitator help to continue.
+O1212,A12,P066,assisted,round_2,2,2,completed third weekly check-in,0,,Abandoned before confirmation.
+O1301,A13,P072,new,round_1,4,3,used translated summary in mock handoff,1,77,Completed the sandbox action on attempt 1.
+O1302,A13,P007,returning,round_1,2,3,used translated summary in mock handoff,1,94,Completed the sandbox action on attempt 2.
+O1303,A13,P014,assisted,round_1,4,3,used translated summary in mock handoff,1,111,Completed the sandbox action on attempt 1.
+O1304,A13,P021,new,round_1,2,3,used translated summary in mock handoff,0,,Abandoned before confirmation.
+O1305,A13,P028,returning,round_1,4,3,used translated summary in mock handoff,0,,Needed facilitator help to continue.
+O1306,A13,P035,assisted,round_1,2,3,used translated summary in mock handoff,0,,Abandoned before confirmation.
+O1307,A13,P042,new,round_2,4,3,used translated summary in mock handoff,0,,Needed facilitator help to continue.
+O1308,A13,P049,returning,round_2,2,3,used translated summary in mock handoff,0,,Abandoned before confirmation.
+O1309,A13,P056,assisted,round_2,4,3,used translated summary in mock handoff,0,,Needed facilitator help to continue.
+O1310,A13,P063,new,round_2,2,3,used translated summary in mock handoff,0,,Abandoned before confirmation.
+O1311,A13,P070,returning,round_2,4,3,used translated summary in mock handoff,0,,Needed facilitator help to continue.
+O1312,A13,P005,assisted,round_2,2,3,used translated summary in mock handoff,0,,Abandoned before confirmation.
+O1401,A14,P011,new,round_1,4,3,completed passkey sign-in,1,100,Completed the sandbox action on attempt 1.
+O1402,A14,P018,returning,round_1,2,3,completed passkey sign-in,1,117,Completed the sandbox action on attempt 2.
+O1403,A14,P025,assisted,round_1,4,3,completed passkey sign-in,1,134,Completed the sandbox action on attempt 1.
+O1404,A14,P032,new,round_1,2,3,completed passkey sign-in,1,151,Completed the sandbox action on attempt 2.
+O1405,A14,P039,returning,round_1,4,3,completed passkey sign-in,1,168,Completed the sandbox action on attempt 1.
+O1406,A14,P046,assisted,round_1,2,3,completed passkey sign-in,1,185,Completed the sandbox action on attempt 2.
+O1407,A14,P053,new,round_2,4,3,completed passkey sign-in,1,202,Completed the sandbox action on attempt 1.
+O1408,A14,P060,returning,round_2,2,3,completed passkey sign-in,1,219,Completed the sandbox action on attempt 2.
+O1409,A14,P067,assisted,round_2,4,3,completed passkey sign-in,0,,Needed facilitator help to continue.
+O1410,A14,P002,new,round_2,2,3,completed passkey sign-in,0,,Abandoned before confirmation.
+O1411,A14,P009,returning,round_2,4,3,completed passkey sign-in,0,,Needed facilitator help to continue.
+O1412,A14,P016,assisted,round_2,2,3,completed passkey sign-in,0,,Abandoned before confirmation.
+O1501,A15,P022,new,round_1,3,4,continued session after theme prompt,1,123,Completed the sandbox action on attempt 1.
+O1502,A15,P029,returning,round_1,1,4,continued session after theme prompt,1,140,Completed the sandbox action on attempt 2.
+O1503,A15,P036,assisted,round_1,3,4,continued session after theme prompt,1,157,Completed the sandbox action on attempt 1.
+O1504,A15,P043,new,round_1,1,4,continued session after theme prompt,1,174,Completed the sandbox action on attempt 2.
+O1505,A15,P050,returning,round_1,3,4,continued session after theme prompt,1,191,Completed the sandbox action on attempt 1.
+O1506,A15,P057,assisted,round_1,1,4,continued session after theme prompt,1,208,Completed the sandbox action on attempt 2.
+O1507,A15,P064,new,round_2,3,4,continued session after theme prompt,1,225,Completed the sandbox action on attempt 1.
+O1508,A15,P071,returning,round_2,1,4,continued session after theme prompt,1,242,Completed the sandbox action on attempt 2.
+O1509,A15,P006,assisted,round_2,3,4,continued session after theme prompt,1,259,Completed the sandbox action on attempt 1.
+O1510,A15,P013,new,round_2,1,4,continued session after theme prompt,1,276,Completed the sandbox action on attempt 2.
+O1511,A15,P020,returning,round_2,3,4,continued session after theme prompt,0,,Needed facilitator help to continue.
+O1512,A15,P027,assisted,round_2,1,4,continued session after theme prompt,0,,Abandoned before confirmation.
+O1601,A16,P033,new,round_1,3,3,downloaded history PDF,1,146,Completed the sandbox action on attempt 1.
+O1602,A16,P040,returning,round_1,1,3,downloaded history PDF,1,163,Completed the sandbox action on attempt 2.
+O1603,A16,P047,assisted,round_1,3,3,downloaded history PDF,1,180,Completed the sandbox action on attempt 1.
+O1604,A16,P054,new,round_1,1,3,downloaded history PDF,1,197,Completed the sandbox action on attempt 2.
+O1605,A16,P061,returning,round_1,3,3,downloaded history PDF,1,214,Completed the sandbox action on attempt 1.
+O1606,A16,P068,assisted,round_1,1,3,downloaded history PDF,1,231,Completed the sandbox action on attempt 2.
+O1607,A16,P003,new,round_2,3,3,downloaded history PDF,1,248,Completed the sandbox action on attempt 1.
+O1608,A16,P010,returning,round_2,1,3,downloaded history PDF,1,265,Completed the sandbox action on attempt 2.
+O1609,A16,P017,assisted,round_2,3,3,downloaded history PDF,0,,Needed facilitator help to continue.
+O1610,A16,P024,new,round_2,1,3,downloaded history PDF,0,,Abandoned before confirmation.
+O1611,A16,P031,returning,round_2,3,3,downloaded history PDF,0,,Needed facilitator help to continue.
+O1612,A16,P038,assisted,round_2,1,3,downloaded history PDF,0,,Abandoned before confirmation.
+O1701,A17,P044,new,round_1,3,3,configured branding in sandbox,1,169,Completed the sandbox action on attempt 1.
+O1702,A17,P051,returning,round_1,1,3,configured branding in sandbox,1,186,Completed the sandbox action on attempt 2.
+O1703,A17,P058,assisted,round_1,3,3,configured branding in sandbox,1,203,Completed the sandbox action on attempt 1.
+O1704,A17,P065,new,round_1,1,3,configured branding in sandbox,1,220,Completed the sandbox action on attempt 2.
+O1705,A17,P072,returning,round_1,3,3,configured branding in sandbox,1,237,Completed the sandbox action on attempt 1.
+O1706,A17,P007,assisted,round_1,1,3,configured branding in sandbox,0,,Abandoned before confirmation.
+O1707,A17,P014,new,round_2,3,3,configured branding in sandbox,0,,Needed facilitator help to continue.
+O1708,A17,P021,returning,round_2,1,3,configured branding in sandbox,0,,Abandoned before confirmation.
+O1709,A17,P028,assisted,round_2,3,3,configured branding in sandbox,0,,Needed facilitator help to continue.
+O1710,A17,P035,new,round_2,1,3,configured branding in sandbox,0,,Abandoned before confirmation.
+O1711,A17,P042,returning,round_2,3,3,configured branding in sandbox,0,,Needed facilitator help to continue.
+O1712,A17,P049,assisted,round_2,1,3,configured branding in sandbox,0,,Abandoned before confirmation.
+O1801,A18,P055,new,round_1,3,3,inserted suggested reply,1,192,Completed the sandbox action on attempt 1.
+O1802,A18,P062,returning,round_1,1,3,inserted suggested reply,1,209,Completed the sandbox action on attempt 2.
+O1803,A18,P069,assisted,round_1,3,3,inserted suggested reply,1,226,Completed the sandbox action on attempt 1.
+O1804,A18,P004,new,round_1,1,3,inserted suggested reply,1,243,Completed the sandbox action on attempt 2.
+O1805,A18,P011,returning,round_1,3,3,inserted suggested reply,1,260,Completed the sandbox action on attempt 1.
+O1806,A18,P018,assisted,round_1,1,3,inserted suggested reply,1,277,Completed the sandbox action on attempt 2.
+O1807,A18,P025,new,round_2,3,3,inserted suggested reply,1,294,Completed the sandbox action on attempt 1.
+O1808,A18,P032,returning,round_2,1,3,inserted suggested reply,1,51,Completed the sandbox action on attempt 2.
+O1809,A18,P039,assisted,round_2,3,3,inserted suggested reply,0,,Needed facilitator help to continue.
+O1810,A18,P046,new,round_2,1,3,inserted suggested reply,0,,Abandoned before confirmation.
+O1811,A18,P053,returning,round_2,3,3,inserted suggested reply,0,,Needed facilitator help to continue.
+O1812,A18,P060,assisted,round_2,1,3,inserted suggested reply,0,,Abandoned before confirmation.
+O1901,A19,P066,new,round_1,3,4,shared sandbox streak badge,1,215,Completed the sandbox action on attempt 1.
+O1902,A19,P001,returning,round_1,1,4,shared sandbox streak badge,1,232,Completed the sandbox action on attempt 2.
+O1903,A19,P008,assisted,round_1,3,4,shared sandbox streak badge,1,249,Completed the sandbox action on attempt 1.
+O1904,A19,P015,new,round_1,1,4,shared sandbox streak badge,1,266,Completed the sandbox action on attempt 2.
+O1905,A19,P022,returning,round_1,3,4,shared sandbox streak badge,1,283,Completed the sandbox action on attempt 1.
+O1906,A19,P029,assisted,round_1,1,4,shared sandbox streak badge,1,40,Completed the sandbox action on attempt 2.
+O1907,A19,P036,new,round_2,3,4,shared sandbox streak badge,1,57,Completed the sandbox action on attempt 1.
+O1908,A19,P043,returning,round_2,1,4,shared sandbox streak badge,1,74,Completed the sandbox action on attempt 2.
+O1909,A19,P050,assisted,round_2,3,4,shared sandbox streak badge,1,91,Completed the sandbox action on attempt 1.
+O1910,A19,P057,new,round_2,1,4,shared sandbox streak badge,0,,Abandoned before confirmation.
+O1911,A19,P064,returning,round_2,3,4,shared sandbox streak badge,0,,Needed facilitator help to continue.
+O1912,A19,P071,assisted,round_2,1,4,shared sandbox streak badge,0,,Abandoned before confirmation.
+O2001,A20,P005,new,round_1,3,3,scheduled audit export,1,238,Completed the sandbox action on attempt 1.
+O2002,A20,P012,returning,round_1,1,3,scheduled audit export,1,255,Completed the sandbox action on attempt 2.
+O2003,A20,P019,assisted,round_1,3,3,scheduled audit export,1,272,Completed the sandbox action on attempt 1.
+O2004,A20,P026,new,round_1,1,3,scheduled audit export,1,289,Completed the sandbox action on attempt 2.
+O2005,A20,P033,returning,round_1,3,3,scheduled audit export,0,,Needed facilitator help to continue.
+O2006,A20,P040,assisted,round_1,1,3,scheduled audit export,0,,Abandoned before confirmation.
+O2007,A20,P047,new,round_2,3,3,scheduled audit export,0,,Needed facilitator help to continue.
+O2008,A20,P054,returning,round_2,1,3,scheduled audit export,0,,Abandoned before confirmation.
+O2009,A20,P061,assisted,round_2,3,3,scheduled audit export,0,,Needed facilitator help to continue.
+O2010,A20,P068,new,round_2,1,3,scheduled audit export,0,,Abandoned before confirmation.
+O2011,A20,P003,returning,round_2,3,3,scheduled audit export,0,,Needed facilitator help to continue.
+O2012,A20,P010,assisted,round_2,1,3,scheduled audit export,0,,Abandoned before confirmation.

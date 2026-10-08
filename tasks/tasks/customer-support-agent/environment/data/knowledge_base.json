@@ -1,0 +1,88 @@
+{
+  "articles": [
+    {
+      "article_id": "KB-101",
+      "title": "Resetting a password",
+      "facts": [
+        "A password-reset link expires after 30 minutes."
+      ]
+    },
+    {
+      "article_id": "KB-102",
+      "title": "Plans and workspace limits",
+      "facts": [
+        "Starter supports 3 active boards; Team supports 25; Business is unlimited."
+      ]
+    },
+    {
+      "article_id": "KB-103",
+      "title": "Canceling a subscription",
+      "facts": [
+        "Cancellation stops the next renewal and does not itself issue a refund."
+      ]
+    },
+    {
+      "article_id": "KB-104",
+      "title": "Board exports",
+      "facts": [
+        "CSV export is available on Team and Business from Board menu > Export."
+      ]
+    },
+    {
+      "article_id": "KB-105",
+      "title": "Inviting guests",
+      "facts": [
+        "Guests can access only boards to which they are explicitly invited."
+      ]
+    },
+    {
+      "article_id": "KB-106",
+      "title": "Mobile offline mode",
+      "facts": [
+        "Offline editing is not supported; cached boards are read-only."
+      ]
+    },
+    {
+      "article_id": "KB-107",
+      "title": "Notification settings",
+      "facts": [
+        "Email digests can be changed under Profile > Notifications."
+      ]
+    },
+    {
+      "article_id": "KB-108",
+      "title": "Supported browsers",
+      "facts": [
+        "PilotDesk supports the latest two stable versions of Chrome, Edge, Firefox, and Safari."
+      ]
+    },
+    {
+      "article_id": "KB-109",
+      "title": "Feature requests",
+      "facts": [
+        "Support may log a request but must not promise dates or roadmap commitment."
+      ]
+    },
+    {
+      "article_id": "KB-110",
+      "title": "Workspace deletion",
+      "facts": [
+        "Deletion requests require specialist identity verification and must be escalated."
+      ]
+    },
+    {
+      "article_id": "KB-111",
+      "title": "Status page guidance",
+      "facts": [
+        "Do not declare an outage unless the incident flag in the ticket context is active."
+      ]
+    },
+    {
+      "article_id": "KB-112",
+      "title": "Reporting a product bug",
+      "facts": [
+        "Capture reproduction steps, expected and actual behavior, OS, browser, and app version; do not request details already present."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__task_change_scope",
+      "title": "Complete, deduplicated, traceable change scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every source-backed tracker mutation is represented exactly once, duplicates across mail and chat are consolidated, routine FYIs are excluded, and proposed changes retain stable source references.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_required_task_change_scope",
+        "test_task_change_dedup_and_traceability"
+      ]
+    },
+    {
+      "id": "completion__task_change_decisions",
+      "title": "Correct owners, dates, priorities, and state transitions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each proposed mutation follows the latest authoritative request, assignment fallback, deadline, priority, review, cancellation, completion, and reopen rules in the supplied snapshot.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_task_change_decisions"
+      ]
+    },
+    {
+      "id": "completion__attention_and_digest_facts",
+      "title": "Accurate attention and weekly snapshot facts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The packet surfaces the active blocked/overdue/unowned work, the one material calendar overlap, the assignment-availability conflict, and exactly the non-on-track OKRs with correct values.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_attention_items",
+        "test_calendar_and_availability_conflicts",
+        "test_okr_snapshot"
+      ]
+    },
+    {
+      "id": "completion__confidentiality",
+      "title": "Private context remains private",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Restricted account context and private staff-event detail are not exposed in the coordination packet.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_confidentiality_boundary"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__task_change_scope",
+        "title": "Complete, deduplicated, traceable change scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__task_change_decisions",
+        "title": "Correct owners, dates, priorities, and state transitions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__attention_and_digest_facts",
+        "title": "Accurate attention and weekly snapshot facts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__confidentiality",
+        "title": "Private context remains private",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "planning_date": "2026-08-31",
+  "review_period_weeks": 1,
+  "eligible_history": "Exclude rows where promo_flag or stockout_flag is true.",
+  "forecast_horizon_weeks": 4,
+  "forecast_methods": {
+    "stable": "Arithmetic mean of the latest 8 eligible observations, repeated for each horizon week.",
+    "trending": "OLS line on the latest 13 eligible observations using calendar-week offsets from the first history week; forecast the next 4 calendar weeks and floor at zero.",
+    "seasonal": "For each horizon week, use the units from exactly 52 weeks earlier multiplied by the ratio of the latest 8 eligible observations to their eligible 52-week-prior counterparts.",
+    "intermittent": "Croston forecast with alpha 0.20 on the latest 26 eligible observations: initialize size to first positive demand and interval to its 1-based position; at each later positive demand update size and positive-to-positive interval with alpha; repeat size/interval for the horizon."
+  },
+  "rounding": "Keep full precision through calculations; published forecast values may be rounded to 2 decimals and inventory unit quantities must be whole units.",
+  "safety_stock": "For all SKUs, use the sample standard deviation of the latest 26 eligible weekly demands. SS = ceil(z * sqrt((LT_avg_weeks + review_period_weeks) * sigma_week^2 + mean_forecast_week^2 * LT_std_weeks^2)).",
+  "z_scores": {
+    "0.900": 1.28,
+    "0.950": 1.65,
+    "0.975": 1.96
+  },
+  "inventory_position": "on_hand + quantities on open or confirmed purchase orders - backorders - committed",
+  "target_stock": "mean_forecast_week * (LT_avg_weeks + review_period_weeks) + safety_stock",
+  "recommended_order": "ceil(max(0, target_stock - inventory_position)) rounded up to a full case; if positive, it must also be at least the SKU MOQ.",
+  "pre_arrival_risk": "A SKU is at risk when on_hand - backorders - committed plus open/confirmed PO quantities due on or before planning_date + new_lead_time_avg_days is less than mean_forecast_week * LT_avg_weeks.",
+  "counted_po_statuses": [
+    "open",
+    "confirmed"
+  ]
+}

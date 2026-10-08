@@ -1,0 +1,77 @@
+{
+  "snapshot_at": "2026-08-03T12:00:00Z",
+  "company": "HarborLoop",
+  "product": "A collaborative release-planning workspace for B2B software teams.",
+  "sequence": {
+    "type": "onboarding",
+    "trigger": "A contact starts a 14-day team trial.",
+    "main_email_count": 6,
+    "goal": "Activate a trial workspace before its day-14 end.",
+    "activation_definition": [
+      "connect at least one repository",
+      "invite at least two teammates",
+      "publish the first release checklist"
+    ],
+    "cadence_preference": "front-load useful setup help in the first week, then taper",
+    "conversion_window": "attribute activation to an email when completed within 3 days of delivery"
+  },
+  "audience": {
+    "role_segments": {
+      "engineering_manager": "Needs visibility into owners, blockers, and release readiness.",
+      "product_ops": "Needs repeatable handoffs and a shared launch process.",
+      "founder": "Needs a lightweight way to keep a small team aligned without adding ceremony."
+    }
+  },
+  "approved_product_facts": [
+    "HarborLoop connects a Git repository to a shared release workspace.",
+    "A release checklist can hold owners, due dates, and approval status.",
+    "Teammates can collaborate in the same workspace.",
+    "The team trial lasts 14 days.",
+    "A workflow review is a live setup conversation, not a product purchase."
+  ],
+  "voice": {
+    "tone": "clear, calm, practical, and low-pressure",
+    "sender": "Maya from HarborLoop",
+    "personalization_tokens": [
+      "{{first_name}}",
+      "{{company_name}}"
+    ],
+    "avoid": [
+      "invented customer stories or statistics",
+      "guarantees, fake scarcity, and unapproved discounts",
+      "claims that setup is instant, automatic, or requires zero work"
+    ]
+  },
+  "eligibility_and_control": {
+    "evaluate_before_every_send": true,
+    "exit": [
+      "all three activation steps are complete",
+      "a paid plan starts"
+    ],
+    "transfer_out": [
+      "a workflow review is booked; move the contact to sales-assisted onboarding"
+    ],
+    "suppress": [
+      "marketing_opt_in is false",
+      "hard_bounce is true",
+      "internal_account is true",
+      "another active_sequence is present",
+      "a high-severity support case opened within the last 48 hours",
+      "marketing_sends_last_7d is 3 or more"
+    ],
+    "re_entry": "Allow a new run only for a genuinely new trial at least 120 days after the prior trial ended, provided all current eligibility checks pass.",
+    "branching_priority": [
+      "Exit or transfer checks take precedence over any message branch.",
+      "Otherwise target the earliest incomplete activation step.",
+      "A pricing view may route an unactivated contact to a workflow-review message, but must not be called activation."
+    ]
+  },
+  "history_rules": {
+    "include_record_scope": "production",
+    "rate_denominator": "delivered",
+    "open_rate": "unique_opens / delivered",
+    "click_through_rate": "unique_clicks / delivered",
+    "activation_rate": "activations_within_3d / delivered",
+    "unsubscribe_rate": "unsubscribes / delivered"
+  }
+}

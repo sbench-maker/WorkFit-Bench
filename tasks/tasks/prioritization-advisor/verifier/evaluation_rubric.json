@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__framework_fit",
+      "title": "Framework choice fits AsterLane's context",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The primary recommendation is a defensible recurring prioritization framework for AsterLane's early-PMF stage, small team, uneven data, stakeholder misalignment, and mixed backlog, and its rationale distinguishes framework fit from a universal ranking claim.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__evidence_and_tradeoffs",
+      "title": "Evidence-grounded diagnosis and trade-offs",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The recommendation accurately uses the packet to diagnose the RICE pilot and stakeholder conflict, treats unknown reach responsibly, and protects mandatory obligations and strategic judgment without fabricating capacity or certainty.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__implementation_design",
+      "title": "Practical implementation and team governance",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The rollout is usable for recurring monthly and quarterly decisions: it defines how items enter comparison, supplies a concrete scoring or classification template, assigns collaborative roles, handles evidence and disagreements, and records gates or overrides within the team's time constraints.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__alternative_and_lifecycle",
+      "title": "Alternative, safeguards, and reassessment",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The runner-up is contextually plausible with clear gains and losses, and the recommendation gives specific failure safeguards and stable reassessment triggers that avoid both framework whiplash and set-it-and-forget-it use.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__framework_fit",
+        "title": "Framework choice fits AsterLane's context",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_and_tradeoffs",
+        "title": "Evidence-grounded diagnosis and trade-offs",
+        "required_score": 10
+      },
+      {
+        "id": "completion__implementation_design",
+        "title": "Practical implementation and team governance",
+        "required_score": 10
+      },
+      {
+        "id": "completion__alternative_and_lifecycle",
+        "title": "Alternative, safeguards, and reassessment",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

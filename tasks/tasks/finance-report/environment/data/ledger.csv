@@ -1,0 +1,709 @@
+entry_id,recognition_date,posting_date,reporting_quarter,account_group,account_name,cost_center,customer_id,amount_usd,include_in_report,memo
+JE00001,2024-10-02,2024-10-04,Q4 FY2024,Revenue,Subscription revenue,Revenue,C001,114304,yes,Recognized subscription invoice
+JE00002,2024-10-04,2024-10-06,Q4 FY2024,Revenue,Subscription revenue,Revenue,C002,96256,yes,Recognized subscription invoice
+JE00003,2024-10-06,2024-10-08,Q4 FY2024,Revenue,Subscription revenue,Revenue,C003,84224,yes,Recognized subscription invoice
+JE00004,2024-10-08,2024-10-10,Q4 FY2024,Revenue,Subscription revenue,Revenue,C004,72192,yes,Recognized subscription invoice
+JE00005,2024-10-10,2024-10-12,Q4 FY2024,Revenue,Subscription revenue,Revenue,C005,60160,yes,Recognized subscription invoice
+JE00006,2024-10-12,2024-10-14,Q4 FY2024,Revenue,Subscription revenue,Revenue,C006,48128,yes,Recognized subscription invoice
+JE00007,2024-10-14,2024-10-16,Q4 FY2024,Revenue,Subscription revenue,Revenue,C007,36096,yes,Recognized subscription invoice
+JE00008,2024-10-16,2024-10-18,Q4 FY2024,Revenue,Subscription revenue,Revenue,C008,30080,yes,Recognized subscription invoice
+JE00009,2024-10-18,2024-10-20,Q4 FY2024,Revenue,Subscription revenue,Revenue,C009,24064,yes,Recognized subscription invoice
+JE00010,2024-10-20,2024-10-22,Q4 FY2024,Revenue,Subscription revenue,Revenue,C010,18048,yes,Recognized subscription invoice
+JE00011,2024-10-22,2024-10-24,Q4 FY2024,Revenue,Subscription revenue,Revenue,C011,12032,yes,Recognized subscription invoice
+JE00012,2024-10-24,2024-10-26,Q4 FY2024,Revenue,Subscription revenue,Revenue,C012,6016,yes,Recognized subscription invoice
+JE00013,2024-10-05,2024-10-07,Q4 FY2024,Revenue,Professional services,Revenue,C001,16000,yes,Implementation and advisory services
+JE00014,2024-10-10,2024-10-12,Q4 FY2024,Revenue,Professional services,Revenue,C008,12800,yes,Implementation and advisory services
+JE00015,2024-10-15,2024-10-17,Q4 FY2024,Revenue,Professional services,Revenue,C015,9600,yes,Implementation and advisory services
+JE00016,2024-10-20,2024-10-22,Q4 FY2024,Revenue,Professional services,Revenue,C022,6400,yes,Implementation and advisory services
+JE00017,2024-10-17,2024-10-19,Q4 FY2024,Revenue,Refunds and credits,Revenue,C001,-3840,yes,Service credit
+JE00018,2024-10-24,2024-10-26,Q4 FY2024,Revenue,Refunds and credits,Revenue,C012,-2560,yes,Service credit
+JE00019,2024-10-04,2024-10-06,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-54400,yes,Cloud hosting vendor charge
+JE00020,2024-10-13,2024-10-15,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-32640,yes,Cloud hosting vendor charge
+JE00021,2024-10-22,2024-10-24,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-21760,yes,Cloud hosting vendor charge
+JE00022,2024-10-04,2024-10-06,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-19200,yes,Support vendors vendor charge
+JE00023,2024-10-13,2024-10-15,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-11520,yes,Support vendors vendor charge
+JE00024,2024-10-22,2024-10-24,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-7680,yes,Support vendors vendor charge
+JE00025,2024-10-04,2024-10-06,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-6400,yes,Payment processing vendor charge
+JE00026,2024-10-13,2024-10-15,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-3840,yes,Payment processing vendor charge
+JE00027,2024-10-22,2024-10-24,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-2560,yes,Payment processing vendor charge
+JE00028,2024-10-03,2024-10-05,Q4 FY2024,Operating Expense,Engineering payroll,Research & Development,,-86800,yes,Monthly operating expense
+JE00029,2024-10-07,2024-10-09,Q4 FY2024,Operating Expense,Product tooling,Research & Development,,-74400,yes,Monthly operating expense
+JE00030,2024-10-11,2024-10-13,Q4 FY2024,Operating Expense,QA contractors,Research & Development,,-62000,yes,Monthly operating expense
+JE00031,2024-10-15,2024-10-17,Q4 FY2024,Operating Expense,Developer systems,Research & Development,,-49600,yes,Monthly operating expense
+JE00032,2024-10-19,2024-10-21,Q4 FY2024,Operating Expense,Research programs,Research & Development,,-37200,yes,Monthly operating expense
+JE00033,2024-10-23,2024-10-25,Q4 FY2024,Operating Expense,Product design,Research & Development,,-24800,yes,Monthly operating expense
+JE00034,2024-10-03,2024-10-05,Q4 FY2024,Operating Expense,Sales payroll,Sales & Marketing,,-62688,yes,Monthly operating expense
+JE00035,2024-10-07,2024-10-09,Q4 FY2024,Operating Expense,Demand generation,Sales & Marketing,,-53733,yes,Monthly operating expense
+JE00036,2024-10-11,2024-10-13,Q4 FY2024,Operating Expense,Events,Sales & Marketing,,-44777,yes,Monthly operating expense
+JE00037,2024-10-15,2024-10-17,Q4 FY2024,Operating Expense,Sales systems,Sales & Marketing,,-35822,yes,Monthly operating expense
+JE00038,2024-10-19,2024-10-21,Q4 FY2024,Operating Expense,Partner commissions,Sales & Marketing,,-26866,yes,Monthly operating expense
+JE00039,2024-10-23,2024-10-25,Q4 FY2024,Operating Expense,Content programs,Sales & Marketing,,-17914,yes,Monthly operating expense
+JE00040,2024-10-03,2024-10-05,Q4 FY2024,Operating Expense,Finance payroll,General & Administrative,,-36166,yes,Monthly operating expense
+JE00041,2024-10-07,2024-10-09,Q4 FY2024,Operating Expense,Legal and audit,General & Administrative,,-31000,yes,Monthly operating expense
+JE00042,2024-10-11,2024-10-13,Q4 FY2024,Operating Expense,Insurance,General & Administrative,,-25833,yes,Monthly operating expense
+JE00043,2024-10-15,2024-10-17,Q4 FY2024,Operating Expense,Corporate systems,General & Administrative,,-20666,yes,Monthly operating expense
+JE00044,2024-10-19,2024-10-21,Q4 FY2024,Operating Expense,Advisory,General & Administrative,,-15500,yes,Monthly operating expense
+JE00045,2024-10-23,2024-10-25,Q4 FY2024,Operating Expense,Banking fees,General & Administrative,,-10335,yes,Monthly operating expense
+JE00046,2024-10-03,2024-10-05,Q4 FY2024,Operating Expense,Success payroll,Customer Success,,-31344,yes,Monthly operating expense
+JE00047,2024-10-07,2024-10-09,Q4 FY2024,Operating Expense,Implementation contractors,Customer Success,,-26866,yes,Monthly operating expense
+JE00048,2024-10-11,2024-10-13,Q4 FY2024,Operating Expense,Training,Customer Success,,-22388,yes,Monthly operating expense
+JE00049,2024-10-15,2024-10-17,Q4 FY2024,Operating Expense,Support tooling,Customer Success,,-17911,yes,Monthly operating expense
+JE00050,2024-10-19,2024-10-21,Q4 FY2024,Operating Expense,Customer programs,Customer Success,,-13433,yes,Monthly operating expense
+JE00051,2024-10-23,2024-10-25,Q4 FY2024,Operating Expense,Travel,Customer Success,,-8958,yes,Monthly operating expense
+JE00052,2024-10-03,2024-10-05,Q4 FY2024,Operating Expense,People payroll,People & Workplace,,-24111,yes,Monthly operating expense
+JE00053,2024-10-07,2024-10-09,Q4 FY2024,Operating Expense,Recruiting,People & Workplace,,-20666,yes,Monthly operating expense
+JE00054,2024-10-11,2024-10-13,Q4 FY2024,Operating Expense,Office,People & Workplace,,-17222,yes,Monthly operating expense
+JE00055,2024-10-15,2024-10-17,Q4 FY2024,Operating Expense,Team events,People & Workplace,,-13777,yes,Monthly operating expense
+JE00056,2024-10-19,2024-10-21,Q4 FY2024,Operating Expense,Benefits admin,People & Workplace,,-10333,yes,Monthly operating expense
+JE00057,2024-10-23,2024-10-25,Q4 FY2024,Operating Expense,Equipment,People & Workplace,,-6891,yes,Monthly operating expense
+JE00058,2024-10-12,2024-10-14,Q4 FY2024,Financing,Equity proceeds,Corporate,,2500000,no,Excluded financing activity
+JE00059,2024-10-26,2024-10-28,Q4 FY2024,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00060,2024-11-02,2024-11-04,Q4 FY2024,Revenue,Subscription revenue,Revenue,C002,117876,yes,Recognized subscription invoice
+JE00061,2024-11-04,2024-11-06,Q4 FY2024,Revenue,Subscription revenue,Revenue,C003,99264,yes,Recognized subscription invoice
+JE00062,2024-11-06,2024-11-08,Q4 FY2024,Revenue,Subscription revenue,Revenue,C004,86856,yes,Recognized subscription invoice
+JE00063,2024-11-08,2024-11-10,Q4 FY2024,Revenue,Subscription revenue,Revenue,C005,74448,yes,Recognized subscription invoice
+JE00064,2024-11-10,2024-11-12,Q4 FY2024,Revenue,Subscription revenue,Revenue,C006,62040,yes,Recognized subscription invoice
+JE00065,2024-11-12,2024-11-14,Q4 FY2024,Revenue,Subscription revenue,Revenue,C007,49632,yes,Recognized subscription invoice
+JE00066,2024-11-14,2024-11-16,Q4 FY2024,Revenue,Subscription revenue,Revenue,C008,37224,yes,Recognized subscription invoice
+JE00067,2024-11-16,2024-11-18,Q4 FY2024,Revenue,Subscription revenue,Revenue,C009,31020,yes,Recognized subscription invoice
+JE00068,2024-11-18,2024-11-20,Q4 FY2024,Revenue,Subscription revenue,Revenue,C010,24816,yes,Recognized subscription invoice
+JE00069,2024-11-20,2024-11-22,Q4 FY2024,Revenue,Subscription revenue,Revenue,C011,18612,yes,Recognized subscription invoice
+JE00070,2024-11-22,2024-11-24,Q4 FY2024,Revenue,Subscription revenue,Revenue,C012,12408,yes,Recognized subscription invoice
+JE00071,2024-11-24,2024-11-26,Q4 FY2024,Revenue,Subscription revenue,Revenue,C013,6204,yes,Recognized subscription invoice
+JE00072,2024-11-05,2024-11-07,Q4 FY2024,Revenue,Professional services,Revenue,C002,16500,yes,Implementation and advisory services
+JE00073,2024-11-10,2024-11-12,Q4 FY2024,Revenue,Professional services,Revenue,C009,13200,yes,Implementation and advisory services
+JE00074,2024-11-15,2024-11-17,Q4 FY2024,Revenue,Professional services,Revenue,C016,9900,yes,Implementation and advisory services
+JE00075,2024-11-20,2024-11-22,Q4 FY2024,Revenue,Professional services,Revenue,C023,6600,yes,Implementation and advisory services
+JE00076,2024-11-17,2024-11-19,Q4 FY2024,Revenue,Refunds and credits,Revenue,C002,-3960,yes,Service credit
+JE00077,2024-11-24,2024-11-26,Q4 FY2024,Revenue,Refunds and credits,Revenue,C013,-2640,yes,Service credit
+JE00078,2024-11-04,2024-11-06,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-55420,yes,Cloud hosting vendor charge
+JE00079,2024-11-13,2024-11-15,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-33252,yes,Cloud hosting vendor charge
+JE00080,2024-11-22,2024-11-24,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-22168,yes,Cloud hosting vendor charge
+JE00081,2024-11-04,2024-11-06,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-19560,yes,Support vendors vendor charge
+JE00082,2024-11-13,2024-11-15,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-11736,yes,Support vendors vendor charge
+JE00083,2024-11-22,2024-11-24,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-7824,yes,Support vendors vendor charge
+JE00084,2024-11-04,2024-11-06,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-6520,yes,Payment processing vendor charge
+JE00085,2024-11-13,2024-11-15,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-3912,yes,Payment processing vendor charge
+JE00086,2024-11-22,2024-11-24,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-2608,yes,Payment processing vendor charge
+JE00087,2024-11-03,2024-11-05,Q4 FY2024,Operating Expense,Engineering payroll,Research & Development,,-85866,yes,Monthly operating expense
+JE00088,2024-11-07,2024-11-09,Q4 FY2024,Operating Expense,Product tooling,Research & Development,,-73600,yes,Monthly operating expense
+JE00089,2024-11-11,2024-11-13,Q4 FY2024,Operating Expense,QA contractors,Research & Development,,-61333,yes,Monthly operating expense
+JE00090,2024-11-15,2024-11-17,Q4 FY2024,Operating Expense,Developer systems,Research & Development,,-49066,yes,Monthly operating expense
+JE00091,2024-11-19,2024-11-21,Q4 FY2024,Operating Expense,Research programs,Research & Development,,-36800,yes,Monthly operating expense
+JE00092,2024-11-23,2024-11-25,Q4 FY2024,Operating Expense,Product design,Research & Development,,-24535,yes,Monthly operating expense
+JE00093,2024-11-03,2024-11-05,Q4 FY2024,Operating Expense,Sales payroll,Sales & Marketing,,-62014,yes,Monthly operating expense
+JE00094,2024-11-07,2024-11-09,Q4 FY2024,Operating Expense,Demand generation,Sales & Marketing,,-53155,yes,Monthly operating expense
+JE00095,2024-11-11,2024-11-13,Q4 FY2024,Operating Expense,Events,Sales & Marketing,,-44296,yes,Monthly operating expense
+JE00096,2024-11-15,2024-11-17,Q4 FY2024,Operating Expense,Sales systems,Sales & Marketing,,-35437,yes,Monthly operating expense
+JE00097,2024-11-19,2024-11-21,Q4 FY2024,Operating Expense,Partner commissions,Sales & Marketing,,-26577,yes,Monthly operating expense
+JE00098,2024-11-23,2024-11-25,Q4 FY2024,Operating Expense,Content programs,Sales & Marketing,,-17721,yes,Monthly operating expense
+JE00099,2024-11-03,2024-11-05,Q4 FY2024,Operating Expense,Finance payroll,General & Administrative,,-35777,yes,Monthly operating expense
+JE00100,2024-11-07,2024-11-09,Q4 FY2024,Operating Expense,Legal and audit,General & Administrative,,-30666,yes,Monthly operating expense
+JE00101,2024-11-11,2024-11-13,Q4 FY2024,Operating Expense,Insurance,General & Administrative,,-25555,yes,Monthly operating expense
+JE00102,2024-11-15,2024-11-17,Q4 FY2024,Operating Expense,Corporate systems,General & Administrative,,-20444,yes,Monthly operating expense
+JE00103,2024-11-19,2024-11-21,Q4 FY2024,Operating Expense,Advisory,General & Administrative,,-15333,yes,Monthly operating expense
+JE00104,2024-11-23,2024-11-25,Q4 FY2024,Operating Expense,Banking fees,General & Administrative,,-10225,yes,Monthly operating expense
+JE00105,2024-11-03,2024-11-05,Q4 FY2024,Operating Expense,Success payroll,Customer Success,,-31007,yes,Monthly operating expense
+JE00106,2024-11-07,2024-11-09,Q4 FY2024,Operating Expense,Implementation contractors,Customer Success,,-26577,yes,Monthly operating expense
+JE00107,2024-11-11,2024-11-13,Q4 FY2024,Operating Expense,Training,Customer Success,,-22148,yes,Monthly operating expense
+JE00108,2024-11-15,2024-11-17,Q4 FY2024,Operating Expense,Support tooling,Customer Success,,-17718,yes,Monthly operating expense
+JE00109,2024-11-19,2024-11-21,Q4 FY2024,Operating Expense,Customer programs,Customer Success,,-13288,yes,Monthly operating expense
+JE00110,2024-11-23,2024-11-25,Q4 FY2024,Operating Expense,Travel,Customer Success,,-8862,yes,Monthly operating expense
+JE00111,2024-11-03,2024-11-05,Q4 FY2024,Operating Expense,People payroll,People & Workplace,,-23851,yes,Monthly operating expense
+JE00112,2024-11-07,2024-11-09,Q4 FY2024,Operating Expense,Recruiting,People & Workplace,,-20444,yes,Monthly operating expense
+JE00113,2024-11-11,2024-11-13,Q4 FY2024,Operating Expense,Office,People & Workplace,,-17037,yes,Monthly operating expense
+JE00114,2024-11-15,2024-11-17,Q4 FY2024,Operating Expense,Team events,People & Workplace,,-13629,yes,Monthly operating expense
+JE00115,2024-11-19,2024-11-21,Q4 FY2024,Operating Expense,Benefits admin,People & Workplace,,-10222,yes,Monthly operating expense
+JE00116,2024-11-23,2024-11-25,Q4 FY2024,Operating Expense,Equipment,People & Workplace,,-6817,yes,Monthly operating expense
+JE00117,2024-11-12,2024-11-14,Q4 FY2024,Financing,Equity proceeds,Corporate,,2510000,no,Excluded financing activity
+JE00118,2024-11-26,2024-11-28,Q4 FY2024,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00119,2024-12-02,2024-12-04,Q4 FY2024,Revenue,Subscription revenue,Revenue,C003,123234,yes,Recognized subscription invoice
+JE00120,2024-12-04,2024-12-06,Q4 FY2024,Revenue,Subscription revenue,Revenue,C004,103776,yes,Recognized subscription invoice
+JE00121,2024-12-06,2024-12-08,Q4 FY2024,Revenue,Subscription revenue,Revenue,C005,90804,yes,Recognized subscription invoice
+JE00122,2024-12-08,2024-12-10,Q4 FY2024,Revenue,Subscription revenue,Revenue,C006,77832,yes,Recognized subscription invoice
+JE00123,2024-12-10,2024-12-12,Q4 FY2024,Revenue,Subscription revenue,Revenue,C007,64860,yes,Recognized subscription invoice
+JE00124,2024-12-12,2024-12-14,Q4 FY2024,Revenue,Subscription revenue,Revenue,C008,51888,yes,Recognized subscription invoice
+JE00125,2024-12-14,2024-12-16,Q4 FY2024,Revenue,Subscription revenue,Revenue,C009,38916,yes,Recognized subscription invoice
+JE00126,2024-12-16,2024-12-18,Q4 FY2024,Revenue,Subscription revenue,Revenue,C010,32430,yes,Recognized subscription invoice
+JE00127,2024-12-18,2024-12-20,Q4 FY2024,Revenue,Subscription revenue,Revenue,C011,25944,yes,Recognized subscription invoice
+JE00128,2024-12-20,2024-12-22,Q4 FY2024,Revenue,Subscription revenue,Revenue,C012,19458,yes,Recognized subscription invoice
+JE00129,2024-12-22,2024-12-24,Q4 FY2024,Revenue,Subscription revenue,Revenue,C013,12972,yes,Recognized subscription invoice
+JE00130,2024-12-24,2024-12-26,Q4 FY2024,Revenue,Subscription revenue,Revenue,C014,6486,yes,Recognized subscription invoice
+JE00131,2024-12-05,2024-12-07,Q4 FY2024,Revenue,Professional services,Revenue,C003,17250,yes,Implementation and advisory services
+JE00132,2024-12-10,2024-12-12,Q4 FY2024,Revenue,Professional services,Revenue,C010,13800,yes,Implementation and advisory services
+JE00133,2024-12-15,2024-12-17,Q4 FY2024,Revenue,Professional services,Revenue,C017,10350,yes,Implementation and advisory services
+JE00134,2024-12-20,2024-12-22,Q4 FY2024,Revenue,Professional services,Revenue,C024,6900,yes,Implementation and advisory services
+JE00135,2024-12-17,2024-12-19,Q4 FY2024,Revenue,Refunds and credits,Revenue,C003,-4140,yes,Service credit
+JE00136,2024-12-24,2024-12-26,Q4 FY2024,Revenue,Refunds and credits,Revenue,C014,-2760,yes,Service credit
+JE00137,2024-12-04,2024-12-06,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-57460,yes,Cloud hosting vendor charge
+JE00138,2024-12-13,2024-12-15,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-34476,yes,Cloud hosting vendor charge
+JE00139,2024-12-22,2024-12-24,Q4 FY2024,Cost of Revenue,Cloud hosting,Service Delivery,,-22984,yes,Cloud hosting vendor charge
+JE00140,2024-12-04,2024-12-06,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-20280,yes,Support vendors vendor charge
+JE00141,2024-12-13,2024-12-15,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-12168,yes,Support vendors vendor charge
+JE00142,2024-12-22,2024-12-24,Q4 FY2024,Cost of Revenue,Support vendors,Service Delivery,,-8112,yes,Support vendors vendor charge
+JE00143,2024-12-04,2024-12-06,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-6760,yes,Payment processing vendor charge
+JE00144,2024-12-13,2024-12-15,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-4056,yes,Payment processing vendor charge
+JE00145,2024-12-22,2024-12-24,Q4 FY2024,Cost of Revenue,Payment processing,Service Delivery,,-2704,yes,Payment processing vendor charge
+JE00146,2024-12-03,2024-12-05,Q4 FY2024,Operating Expense,Engineering payroll,Research & Development,,-88200,yes,Monthly operating expense
+JE00147,2024-12-07,2024-12-09,Q4 FY2024,Operating Expense,Product tooling,Research & Development,,-75600,yes,Monthly operating expense
+JE00148,2024-12-11,2024-12-13,Q4 FY2024,Operating Expense,QA contractors,Research & Development,,-63000,yes,Monthly operating expense
+JE00149,2024-12-15,2024-12-17,Q4 FY2024,Operating Expense,Developer systems,Research & Development,,-50400,yes,Monthly operating expense
+JE00150,2024-12-19,2024-12-21,Q4 FY2024,Operating Expense,Research programs,Research & Development,,-37800,yes,Monthly operating expense
+JE00151,2024-12-23,2024-12-25,Q4 FY2024,Operating Expense,Product design,Research & Development,,-25200,yes,Monthly operating expense
+JE00152,2024-12-03,2024-12-05,Q4 FY2024,Operating Expense,Sales payroll,Sales & Marketing,,-66150,yes,Monthly operating expense
+JE00153,2024-12-07,2024-12-09,Q4 FY2024,Operating Expense,Demand generation,Sales & Marketing,,-56700,yes,Monthly operating expense
+JE00154,2024-12-11,2024-12-13,Q4 FY2024,Operating Expense,Events,Sales & Marketing,,-47250,yes,Monthly operating expense
+JE00155,2024-12-15,2024-12-17,Q4 FY2024,Operating Expense,Sales systems,Sales & Marketing,,-37800,yes,Monthly operating expense
+JE00156,2024-12-19,2024-12-21,Q4 FY2024,Operating Expense,Partner commissions,Sales & Marketing,,-28350,yes,Monthly operating expense
+JE00157,2024-12-23,2024-12-25,Q4 FY2024,Operating Expense,Content programs,Sales & Marketing,,-18900,yes,Monthly operating expense
+JE00158,2024-12-03,2024-12-05,Q4 FY2024,Operating Expense,Finance payroll,General & Administrative,,-36750,yes,Monthly operating expense
+JE00159,2024-12-07,2024-12-09,Q4 FY2024,Operating Expense,Legal and audit,General & Administrative,,-31500,yes,Monthly operating expense
+JE00160,2024-12-11,2024-12-13,Q4 FY2024,Operating Expense,Insurance,General & Administrative,,-26250,yes,Monthly operating expense
+JE00161,2024-12-15,2024-12-17,Q4 FY2024,Operating Expense,Corporate systems,General & Administrative,,-21000,yes,Monthly operating expense
+JE00162,2024-12-19,2024-12-21,Q4 FY2024,Operating Expense,Advisory,General & Administrative,,-15750,yes,Monthly operating expense
+JE00163,2024-12-23,2024-12-25,Q4 FY2024,Operating Expense,Banking fees,General & Administrative,,-10500,yes,Monthly operating expense
+JE00164,2024-12-03,2024-12-05,Q4 FY2024,Operating Expense,Success payroll,Customer Success,,-31850,yes,Monthly operating expense
+JE00165,2024-12-07,2024-12-09,Q4 FY2024,Operating Expense,Implementation contractors,Customer Success,,-27300,yes,Monthly operating expense
+JE00166,2024-12-11,2024-12-13,Q4 FY2024,Operating Expense,Training,Customer Success,,-22750,yes,Monthly operating expense
+JE00167,2024-12-15,2024-12-17,Q4 FY2024,Operating Expense,Support tooling,Customer Success,,-18200,yes,Monthly operating expense
+JE00168,2024-12-19,2024-12-21,Q4 FY2024,Operating Expense,Customer programs,Customer Success,,-13650,yes,Monthly operating expense
+JE00169,2024-12-23,2024-12-25,Q4 FY2024,Operating Expense,Travel,Customer Success,,-9100,yes,Monthly operating expense
+JE00170,2024-12-03,2024-12-05,Q4 FY2024,Operating Expense,People payroll,People & Workplace,,-22050,yes,Monthly operating expense
+JE00171,2024-12-07,2024-12-09,Q4 FY2024,Operating Expense,Recruiting,People & Workplace,,-18900,yes,Monthly operating expense
+JE00172,2024-12-11,2024-12-13,Q4 FY2024,Operating Expense,Office,People & Workplace,,-15750,yes,Monthly operating expense
+JE00173,2024-12-15,2024-12-17,Q4 FY2024,Operating Expense,Team events,People & Workplace,,-12600,yes,Monthly operating expense
+JE00174,2024-12-19,2024-12-21,Q4 FY2024,Operating Expense,Benefits admin,People & Workplace,,-9450,yes,Monthly operating expense
+JE00175,2024-12-23,2024-12-25,Q4 FY2024,Operating Expense,Equipment,People & Workplace,,-6300,yes,Monthly operating expense
+JE00176,2024-12-12,2024-12-14,Q4 FY2024,Financing,Equity proceeds,Corporate,,2520000,no,Excluded financing activity
+JE00177,2024-12-26,2024-12-28,Q4 FY2024,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00178,2025-01-02,2025-01-04,Q1 FY2025,Revenue,Subscription revenue,Revenue,C004,126806,yes,Recognized subscription invoice
+JE00179,2025-01-04,2025-01-06,Q1 FY2025,Revenue,Subscription revenue,Revenue,C005,106784,yes,Recognized subscription invoice
+JE00180,2025-01-06,2025-01-08,Q1 FY2025,Revenue,Subscription revenue,Revenue,C006,93436,yes,Recognized subscription invoice
+JE00181,2025-01-08,2025-01-10,Q1 FY2025,Revenue,Subscription revenue,Revenue,C007,80088,yes,Recognized subscription invoice
+JE00182,2025-01-10,2025-01-12,Q1 FY2025,Revenue,Subscription revenue,Revenue,C008,66740,yes,Recognized subscription invoice
+JE00183,2025-01-12,2025-01-14,Q1 FY2025,Revenue,Subscription revenue,Revenue,C009,53392,yes,Recognized subscription invoice
+JE00184,2025-01-14,2025-01-16,Q1 FY2025,Revenue,Subscription revenue,Revenue,C010,40044,yes,Recognized subscription invoice
+JE00185,2025-01-16,2025-01-18,Q1 FY2025,Revenue,Subscription revenue,Revenue,C011,33370,yes,Recognized subscription invoice
+JE00186,2025-01-18,2025-01-20,Q1 FY2025,Revenue,Subscription revenue,Revenue,C012,26696,yes,Recognized subscription invoice
+JE00187,2025-01-20,2025-01-22,Q1 FY2025,Revenue,Subscription revenue,Revenue,C013,20022,yes,Recognized subscription invoice
+JE00188,2025-01-22,2025-01-24,Q1 FY2025,Revenue,Subscription revenue,Revenue,C014,13348,yes,Recognized subscription invoice
+JE00189,2025-01-24,2025-01-26,Q1 FY2025,Revenue,Subscription revenue,Revenue,C015,6674,yes,Recognized subscription invoice
+JE00190,2025-01-05,2025-01-07,Q1 FY2025,Revenue,Professional services,Revenue,C004,17750,yes,Implementation and advisory services
+JE00191,2025-01-10,2025-01-12,Q1 FY2025,Revenue,Professional services,Revenue,C011,14200,yes,Implementation and advisory services
+JE00192,2025-01-15,2025-01-17,Q1 FY2025,Revenue,Professional services,Revenue,C018,10650,yes,Implementation and advisory services
+JE00193,2025-01-20,2025-01-22,Q1 FY2025,Revenue,Professional services,Revenue,C025,7100,yes,Implementation and advisory services
+JE00194,2025-01-17,2025-01-19,Q1 FY2025,Revenue,Refunds and credits,Revenue,C004,-4260,yes,Service credit
+JE00195,2025-01-24,2025-01-26,Q1 FY2025,Revenue,Refunds and credits,Revenue,C015,-2840,yes,Service credit
+JE00196,2025-01-04,2025-01-06,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-57800,yes,Cloud hosting vendor charge
+JE00197,2025-01-13,2025-01-15,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-34680,yes,Cloud hosting vendor charge
+JE00198,2025-01-22,2025-01-24,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-23120,yes,Cloud hosting vendor charge
+JE00199,2025-01-04,2025-01-06,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-20400,yes,Support vendors vendor charge
+JE00200,2025-01-13,2025-01-15,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-12240,yes,Support vendors vendor charge
+JE00201,2025-01-22,2025-01-24,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-8160,yes,Support vendors vendor charge
+JE00202,2025-01-04,2025-01-06,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-6800,yes,Payment processing vendor charge
+JE00203,2025-01-13,2025-01-15,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-4080,yes,Payment processing vendor charge
+JE00204,2025-01-22,2025-01-24,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-2720,yes,Payment processing vendor charge
+JE00205,2025-01-03,2025-01-05,Q1 FY2025,Operating Expense,Engineering payroll,Research & Development,,-85296,yes,Monthly operating expense
+JE00206,2025-01-07,2025-01-09,Q1 FY2025,Operating Expense,Product tooling,Research & Development,,-73111,yes,Monthly operating expense
+JE00207,2025-01-11,2025-01-13,Q1 FY2025,Operating Expense,QA contractors,Research & Development,,-60925,yes,Monthly operating expense
+JE00208,2025-01-15,2025-01-17,Q1 FY2025,Operating Expense,Developer systems,Research & Development,,-48740,yes,Monthly operating expense
+JE00209,2025-01-19,2025-01-21,Q1 FY2025,Operating Expense,Research programs,Research & Development,,-36555,yes,Monthly operating expense
+JE00210,2025-01-23,2025-01-25,Q1 FY2025,Operating Expense,Product design,Research & Development,,-24373,yes,Monthly operating expense
+JE00211,2025-01-03,2025-01-05,Q1 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-63362,yes,Monthly operating expense
+JE00212,2025-01-07,2025-01-09,Q1 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-54311,yes,Monthly operating expense
+JE00213,2025-01-11,2025-01-13,Q1 FY2025,Operating Expense,Events,Sales & Marketing,,-45259,yes,Monthly operating expense
+JE00214,2025-01-15,2025-01-17,Q1 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-36207,yes,Monthly operating expense
+JE00215,2025-01-19,2025-01-21,Q1 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-27155,yes,Monthly operating expense
+JE00216,2025-01-23,2025-01-25,Q1 FY2025,Operating Expense,Content programs,Sales & Marketing,,-18106,yes,Monthly operating expense
+JE00217,2025-01-03,2025-01-05,Q1 FY2025,Operating Expense,Finance payroll,General & Administrative,,-36555,yes,Monthly operating expense
+JE00218,2025-01-07,2025-01-09,Q1 FY2025,Operating Expense,Legal and audit,General & Administrative,,-31333,yes,Monthly operating expense
+JE00219,2025-01-11,2025-01-13,Q1 FY2025,Operating Expense,Insurance,General & Administrative,,-26111,yes,Monthly operating expense
+JE00220,2025-01-15,2025-01-17,Q1 FY2025,Operating Expense,Corporate systems,General & Administrative,,-20888,yes,Monthly operating expense
+JE00221,2025-01-19,2025-01-21,Q1 FY2025,Operating Expense,Advisory,General & Administrative,,-15666,yes,Monthly operating expense
+JE00222,2025-01-23,2025-01-25,Q1 FY2025,Operating Expense,Banking fees,General & Administrative,,-10447,yes,Monthly operating expense
+JE00223,2025-01-03,2025-01-05,Q1 FY2025,Operating Expense,Success payroll,Customer Success,,-34118,yes,Monthly operating expense
+JE00224,2025-01-07,2025-01-09,Q1 FY2025,Operating Expense,Implementation contractors,Customer Success,,-29244,yes,Monthly operating expense
+JE00225,2025-01-11,2025-01-13,Q1 FY2025,Operating Expense,Training,Customer Success,,-24370,yes,Monthly operating expense
+JE00226,2025-01-15,2025-01-17,Q1 FY2025,Operating Expense,Support tooling,Customer Success,,-19496,yes,Monthly operating expense
+JE00227,2025-01-19,2025-01-21,Q1 FY2025,Operating Expense,Customer programs,Customer Success,,-14622,yes,Monthly operating expense
+JE00228,2025-01-23,2025-01-25,Q1 FY2025,Operating Expense,Travel,Customer Success,,-9750,yes,Monthly operating expense
+JE00229,2025-01-03,2025-01-05,Q1 FY2025,Operating Expense,People payroll,People & Workplace,,-24370,yes,Monthly operating expense
+JE00230,2025-01-07,2025-01-09,Q1 FY2025,Operating Expense,Recruiting,People & Workplace,,-20888,yes,Monthly operating expense
+JE00231,2025-01-11,2025-01-13,Q1 FY2025,Operating Expense,Office,People & Workplace,,-17407,yes,Monthly operating expense
+JE00232,2025-01-15,2025-01-17,Q1 FY2025,Operating Expense,Team events,People & Workplace,,-13925,yes,Monthly operating expense
+JE00233,2025-01-19,2025-01-21,Q1 FY2025,Operating Expense,Benefits admin,People & Workplace,,-10444,yes,Monthly operating expense
+JE00234,2025-01-23,2025-01-25,Q1 FY2025,Operating Expense,Equipment,People & Workplace,,-6966,yes,Monthly operating expense
+JE00235,2025-01-12,2025-01-14,Q1 FY2025,Financing,Equity proceeds,Corporate,,2530000,no,Excluded financing activity
+JE00236,2025-01-26,2025-01-28,Q1 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00237,2025-02-02,2025-02-04,Q1 FY2025,Revenue,Subscription revenue,Revenue,C005,131271,yes,Recognized subscription invoice
+JE00238,2025-02-04,2025-02-06,Q1 FY2025,Revenue,Subscription revenue,Revenue,C006,110544,yes,Recognized subscription invoice
+JE00239,2025-02-06,2025-02-08,Q1 FY2025,Revenue,Subscription revenue,Revenue,C007,96726,yes,Recognized subscription invoice
+JE00240,2025-02-08,2025-02-10,Q1 FY2025,Revenue,Subscription revenue,Revenue,C008,82908,yes,Recognized subscription invoice
+JE00241,2025-02-10,2025-02-12,Q1 FY2025,Revenue,Subscription revenue,Revenue,C009,69090,yes,Recognized subscription invoice
+JE00242,2025-02-12,2025-02-14,Q1 FY2025,Revenue,Subscription revenue,Revenue,C010,55272,yes,Recognized subscription invoice
+JE00243,2025-02-14,2025-02-16,Q1 FY2025,Revenue,Subscription revenue,Revenue,C011,41454,yes,Recognized subscription invoice
+JE00244,2025-02-16,2025-02-18,Q1 FY2025,Revenue,Subscription revenue,Revenue,C012,34545,yes,Recognized subscription invoice
+JE00245,2025-02-18,2025-02-20,Q1 FY2025,Revenue,Subscription revenue,Revenue,C013,27636,yes,Recognized subscription invoice
+JE00246,2025-02-20,2025-02-22,Q1 FY2025,Revenue,Subscription revenue,Revenue,C014,20727,yes,Recognized subscription invoice
+JE00247,2025-02-22,2025-02-24,Q1 FY2025,Revenue,Subscription revenue,Revenue,C015,13818,yes,Recognized subscription invoice
+JE00248,2025-02-24,2025-02-26,Q1 FY2025,Revenue,Subscription revenue,Revenue,C016,6909,yes,Recognized subscription invoice
+JE00249,2025-02-05,2025-02-07,Q1 FY2025,Revenue,Professional services,Revenue,C005,18375,yes,Implementation and advisory services
+JE00250,2025-02-10,2025-02-12,Q1 FY2025,Revenue,Professional services,Revenue,C012,14700,yes,Implementation and advisory services
+JE00251,2025-02-15,2025-02-17,Q1 FY2025,Revenue,Professional services,Revenue,C019,11025,yes,Implementation and advisory services
+JE00252,2025-02-20,2025-02-22,Q1 FY2025,Revenue,Professional services,Revenue,C026,7350,yes,Implementation and advisory services
+JE00253,2025-02-17,2025-02-19,Q1 FY2025,Revenue,Refunds and credits,Revenue,C005,-4410,yes,Service credit
+JE00254,2025-02-24,2025-02-26,Q1 FY2025,Revenue,Refunds and credits,Revenue,C016,-2940,yes,Service credit
+JE00255,2025-02-04,2025-02-06,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-60180,yes,Cloud hosting vendor charge
+JE00256,2025-02-13,2025-02-15,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-36108,yes,Cloud hosting vendor charge
+JE00257,2025-02-22,2025-02-24,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-24072,yes,Cloud hosting vendor charge
+JE00258,2025-02-04,2025-02-06,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-21240,yes,Support vendors vendor charge
+JE00259,2025-02-13,2025-02-15,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-12744,yes,Support vendors vendor charge
+JE00260,2025-02-22,2025-02-24,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-8496,yes,Support vendors vendor charge
+JE00261,2025-02-04,2025-02-06,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-7080,yes,Payment processing vendor charge
+JE00262,2025-02-13,2025-02-15,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-4248,yes,Payment processing vendor charge
+JE00263,2025-02-22,2025-02-24,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-2832,yes,Payment processing vendor charge
+JE00264,2025-02-03,2025-02-05,Q1 FY2025,Operating Expense,Engineering payroll,Research & Development,,-88666,yes,Monthly operating expense
+JE00265,2025-02-07,2025-02-09,Q1 FY2025,Operating Expense,Product tooling,Research & Development,,-76000,yes,Monthly operating expense
+JE00266,2025-02-11,2025-02-13,Q1 FY2025,Operating Expense,QA contractors,Research & Development,,-63333,yes,Monthly operating expense
+JE00267,2025-02-15,2025-02-17,Q1 FY2025,Operating Expense,Developer systems,Research & Development,,-50666,yes,Monthly operating expense
+JE00268,2025-02-19,2025-02-21,Q1 FY2025,Operating Expense,Research programs,Research & Development,,-38000,yes,Monthly operating expense
+JE00269,2025-02-23,2025-02-25,Q1 FY2025,Operating Expense,Product design,Research & Development,,-25335,yes,Monthly operating expense
+JE00270,2025-02-03,2025-02-05,Q1 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-66500,yes,Monthly operating expense
+JE00271,2025-02-07,2025-02-09,Q1 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-57000,yes,Monthly operating expense
+JE00272,2025-02-11,2025-02-13,Q1 FY2025,Operating Expense,Events,Sales & Marketing,,-47500,yes,Monthly operating expense
+JE00273,2025-02-15,2025-02-17,Q1 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-38000,yes,Monthly operating expense
+JE00274,2025-02-19,2025-02-21,Q1 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-28500,yes,Monthly operating expense
+JE00275,2025-02-23,2025-02-25,Q1 FY2025,Operating Expense,Content programs,Sales & Marketing,,-19000,yes,Monthly operating expense
+JE00276,2025-02-03,2025-02-05,Q1 FY2025,Operating Expense,Finance payroll,General & Administrative,,-36944,yes,Monthly operating expense
+JE00277,2025-02-07,2025-02-09,Q1 FY2025,Operating Expense,Legal and audit,General & Administrative,,-31666,yes,Monthly operating expense
+JE00278,2025-02-11,2025-02-13,Q1 FY2025,Operating Expense,Insurance,General & Administrative,,-26388,yes,Monthly operating expense
+JE00279,2025-02-15,2025-02-17,Q1 FY2025,Operating Expense,Corporate systems,General & Administrative,,-21111,yes,Monthly operating expense
+JE00280,2025-02-19,2025-02-21,Q1 FY2025,Operating Expense,Advisory,General & Administrative,,-15833,yes,Monthly operating expense
+JE00281,2025-02-23,2025-02-25,Q1 FY2025,Operating Expense,Banking fees,General & Administrative,,-10558,yes,Monthly operating expense
+JE00282,2025-02-03,2025-02-05,Q1 FY2025,Operating Expense,Success payroll,Customer Success,,-32018,yes,Monthly operating expense
+JE00283,2025-02-07,2025-02-09,Q1 FY2025,Operating Expense,Implementation contractors,Customer Success,,-27444,yes,Monthly operating expense
+JE00284,2025-02-11,2025-02-13,Q1 FY2025,Operating Expense,Training,Customer Success,,-22870,yes,Monthly operating expense
+JE00285,2025-02-15,2025-02-17,Q1 FY2025,Operating Expense,Support tooling,Customer Success,,-18296,yes,Monthly operating expense
+JE00286,2025-02-19,2025-02-21,Q1 FY2025,Operating Expense,Customer programs,Customer Success,,-13722,yes,Monthly operating expense
+JE00287,2025-02-23,2025-02-25,Q1 FY2025,Operating Expense,Travel,Customer Success,,-9150,yes,Monthly operating expense
+JE00288,2025-02-03,2025-02-05,Q1 FY2025,Operating Expense,People payroll,People & Workplace,,-22166,yes,Monthly operating expense
+JE00289,2025-02-07,2025-02-09,Q1 FY2025,Operating Expense,Recruiting,People & Workplace,,-19000,yes,Monthly operating expense
+JE00290,2025-02-11,2025-02-13,Q1 FY2025,Operating Expense,Office,People & Workplace,,-15833,yes,Monthly operating expense
+JE00291,2025-02-15,2025-02-17,Q1 FY2025,Operating Expense,Team events,People & Workplace,,-12666,yes,Monthly operating expense
+JE00292,2025-02-19,2025-02-21,Q1 FY2025,Operating Expense,Benefits admin,People & Workplace,,-9500,yes,Monthly operating expense
+JE00293,2025-02-23,2025-02-25,Q1 FY2025,Operating Expense,Equipment,People & Workplace,,-6335,yes,Monthly operating expense
+JE00294,2025-02-12,2025-02-14,Q1 FY2025,Financing,Equity proceeds,Corporate,,2540000,no,Excluded financing activity
+JE00295,2025-02-26,2025-02-28,Q1 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00296,2025-03-02,2025-03-04,Q1 FY2025,Revenue,Subscription revenue,Revenue,C006,136629,yes,Recognized subscription invoice
+JE00297,2025-03-04,2025-03-06,Q1 FY2025,Revenue,Subscription revenue,Revenue,C007,115056,yes,Recognized subscription invoice
+JE00298,2025-03-06,2025-03-08,Q1 FY2025,Revenue,Subscription revenue,Revenue,C008,100674,yes,Recognized subscription invoice
+JE00299,2025-03-08,2025-03-10,Q1 FY2025,Revenue,Subscription revenue,Revenue,C009,86292,yes,Recognized subscription invoice
+JE00300,2025-03-10,2025-03-12,Q1 FY2025,Revenue,Subscription revenue,Revenue,C010,71910,yes,Recognized subscription invoice
+JE00301,2025-03-12,2025-03-14,Q1 FY2025,Revenue,Subscription revenue,Revenue,C011,57528,yes,Recognized subscription invoice
+JE00302,2025-03-14,2025-03-16,Q1 FY2025,Revenue,Subscription revenue,Revenue,C012,43146,yes,Recognized subscription invoice
+JE00303,2025-03-16,2025-03-18,Q1 FY2025,Revenue,Subscription revenue,Revenue,C013,35955,yes,Recognized subscription invoice
+JE00304,2025-03-18,2025-03-20,Q1 FY2025,Revenue,Subscription revenue,Revenue,C014,28764,yes,Recognized subscription invoice
+JE00305,2025-03-20,2025-03-22,Q1 FY2025,Revenue,Subscription revenue,Revenue,C015,21573,yes,Recognized subscription invoice
+JE00306,2025-03-22,2025-03-24,Q1 FY2025,Revenue,Subscription revenue,Revenue,C016,14382,yes,Recognized subscription invoice
+JE00307,2025-03-24,2025-03-26,Q1 FY2025,Revenue,Subscription revenue,Revenue,C017,7191,yes,Recognized subscription invoice
+JE00308,2025-03-05,2025-03-07,Q1 FY2025,Revenue,Professional services,Revenue,C006,19125,yes,Implementation and advisory services
+JE00309,2025-03-10,2025-03-12,Q1 FY2025,Revenue,Professional services,Revenue,C013,15300,yes,Implementation and advisory services
+JE00310,2025-03-15,2025-03-17,Q1 FY2025,Revenue,Professional services,Revenue,C020,11475,yes,Implementation and advisory services
+JE00311,2025-03-20,2025-03-22,Q1 FY2025,Revenue,Professional services,Revenue,C027,7650,yes,Implementation and advisory services
+JE00312,2025-03-17,2025-03-19,Q1 FY2025,Revenue,Refunds and credits,Revenue,C006,-4590,yes,Service credit
+JE00313,2025-03-24,2025-03-26,Q1 FY2025,Revenue,Refunds and credits,Revenue,C017,-3060,yes,Service credit
+JE00314,2025-03-04,2025-03-06,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-62560,yes,Cloud hosting vendor charge
+JE00315,2025-03-13,2025-03-15,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-37536,yes,Cloud hosting vendor charge
+JE00316,2025-03-22,2025-03-24,Q1 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-25024,yes,Cloud hosting vendor charge
+JE00317,2025-03-04,2025-03-06,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-22080,yes,Support vendors vendor charge
+JE00318,2025-03-13,2025-03-15,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-13248,yes,Support vendors vendor charge
+JE00319,2025-03-22,2025-03-24,Q1 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-8832,yes,Support vendors vendor charge
+JE00320,2025-03-04,2025-03-06,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-7360,yes,Payment processing vendor charge
+JE00321,2025-03-13,2025-03-15,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-4416,yes,Payment processing vendor charge
+JE00322,2025-03-22,2025-03-24,Q1 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-2944,yes,Payment processing vendor charge
+JE00323,2025-03-03,2025-03-05,Q1 FY2025,Operating Expense,Engineering payroll,Research & Development,,-92568,yes,Monthly operating expense
+JE00324,2025-03-07,2025-03-09,Q1 FY2025,Operating Expense,Product tooling,Research & Development,,-79344,yes,Monthly operating expense
+JE00325,2025-03-11,2025-03-13,Q1 FY2025,Operating Expense,QA contractors,Research & Development,,-66120,yes,Monthly operating expense
+JE00326,2025-03-15,2025-03-17,Q1 FY2025,Operating Expense,Developer systems,Research & Development,,-52896,yes,Monthly operating expense
+JE00327,2025-03-19,2025-03-21,Q1 FY2025,Operating Expense,Research programs,Research & Development,,-39672,yes,Monthly operating expense
+JE00328,2025-03-23,2025-03-25,Q1 FY2025,Operating Expense,Product design,Research & Development,,-26450,yes,Monthly operating expense
+JE00329,2025-03-03,2025-03-05,Q1 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-70051,yes,Monthly operating expense
+JE00330,2025-03-07,2025-03-09,Q1 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-60044,yes,Monthly operating expense
+JE00331,2025-03-11,2025-03-13,Q1 FY2025,Operating Expense,Events,Sales & Marketing,,-50037,yes,Monthly operating expense
+JE00332,2025-03-15,2025-03-17,Q1 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-40029,yes,Monthly operating expense
+JE00333,2025-03-19,2025-03-21,Q1 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-30022,yes,Monthly operating expense
+JE00334,2025-03-23,2025-03-25,Q1 FY2025,Operating Expense,Content programs,Sales & Marketing,,-20017,yes,Monthly operating expense
+JE00335,2025-03-03,2025-03-05,Q1 FY2025,Operating Expense,Finance payroll,General & Administrative,,-40029,yes,Monthly operating expense
+JE00336,2025-03-07,2025-03-09,Q1 FY2025,Operating Expense,Legal and audit,General & Administrative,,-34311,yes,Monthly operating expense
+JE00337,2025-03-11,2025-03-13,Q1 FY2025,Operating Expense,Insurance,General & Administrative,,-28592,yes,Monthly operating expense
+JE00338,2025-03-15,2025-03-17,Q1 FY2025,Operating Expense,Corporate systems,General & Administrative,,-22874,yes,Monthly operating expense
+JE00339,2025-03-19,2025-03-21,Q1 FY2025,Operating Expense,Advisory,General & Administrative,,-17155,yes,Monthly operating expense
+JE00340,2025-03-23,2025-03-25,Q1 FY2025,Operating Expense,Banking fees,General & Administrative,,-11439,yes,Monthly operating expense
+JE00341,2025-03-03,2025-03-05,Q1 FY2025,Operating Expense,Success payroll,Customer Success,,-32524,yes,Monthly operating expense
+JE00342,2025-03-07,2025-03-09,Q1 FY2025,Operating Expense,Implementation contractors,Customer Success,,-27877,yes,Monthly operating expense
+JE00343,2025-03-11,2025-03-13,Q1 FY2025,Operating Expense,Training,Customer Success,,-23231,yes,Monthly operating expense
+JE00344,2025-03-15,2025-03-17,Q1 FY2025,Operating Expense,Support tooling,Customer Success,,-18585,yes,Monthly operating expense
+JE00345,2025-03-19,2025-03-21,Q1 FY2025,Operating Expense,Customer programs,Customer Success,,-13938,yes,Monthly operating expense
+JE00346,2025-03-23,2025-03-25,Q1 FY2025,Operating Expense,Travel,Customer Success,,-9295,yes,Monthly operating expense
+JE00347,2025-03-03,2025-03-05,Q1 FY2025,Operating Expense,People payroll,People & Workplace,,-15011,yes,Monthly operating expense
+JE00348,2025-03-07,2025-03-09,Q1 FY2025,Operating Expense,Recruiting,People & Workplace,,-12866,yes,Monthly operating expense
+JE00349,2025-03-11,2025-03-13,Q1 FY2025,Operating Expense,Office,People & Workplace,,-10722,yes,Monthly operating expense
+JE00350,2025-03-15,2025-03-17,Q1 FY2025,Operating Expense,Team events,People & Workplace,,-8577,yes,Monthly operating expense
+JE00351,2025-03-19,2025-03-21,Q1 FY2025,Operating Expense,Benefits admin,People & Workplace,,-6433,yes,Monthly operating expense
+JE00352,2025-03-23,2025-03-25,Q1 FY2025,Operating Expense,Equipment,People & Workplace,,-4291,yes,Monthly operating expense
+JE00353,2025-03-12,2025-03-14,Q1 FY2025,Financing,Equity proceeds,Corporate,,2550000,no,Excluded financing activity
+JE00354,2025-03-26,2025-03-28,Q1 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00355,2025-04-02,2025-04-04,Q2 FY2025,Revenue,Subscription revenue,Revenue,C007,141094,yes,Recognized subscription invoice
+JE00356,2025-04-04,2025-04-06,Q2 FY2025,Revenue,Subscription revenue,Revenue,C008,118816,yes,Recognized subscription invoice
+JE00357,2025-04-06,2025-04-08,Q2 FY2025,Revenue,Subscription revenue,Revenue,C009,103964,yes,Recognized subscription invoice
+JE00358,2025-04-08,2025-04-10,Q2 FY2025,Revenue,Subscription revenue,Revenue,C010,89112,yes,Recognized subscription invoice
+JE00359,2025-04-10,2025-04-12,Q2 FY2025,Revenue,Subscription revenue,Revenue,C011,74260,yes,Recognized subscription invoice
+JE00360,2025-04-12,2025-04-14,Q2 FY2025,Revenue,Subscription revenue,Revenue,C012,59408,yes,Recognized subscription invoice
+JE00361,2025-04-14,2025-04-16,Q2 FY2025,Revenue,Subscription revenue,Revenue,C013,44556,yes,Recognized subscription invoice
+JE00362,2025-04-16,2025-04-18,Q2 FY2025,Revenue,Subscription revenue,Revenue,C014,37130,yes,Recognized subscription invoice
+JE00363,2025-04-18,2025-04-20,Q2 FY2025,Revenue,Subscription revenue,Revenue,C015,29704,yes,Recognized subscription invoice
+JE00364,2025-04-20,2025-04-22,Q2 FY2025,Revenue,Subscription revenue,Revenue,C016,22278,yes,Recognized subscription invoice
+JE00365,2025-04-22,2025-04-24,Q2 FY2025,Revenue,Subscription revenue,Revenue,C017,14852,yes,Recognized subscription invoice
+JE00366,2025-04-24,2025-04-26,Q2 FY2025,Revenue,Subscription revenue,Revenue,C018,7426,yes,Recognized subscription invoice
+JE00367,2025-04-05,2025-04-07,Q2 FY2025,Revenue,Professional services,Revenue,C007,19750,yes,Implementation and advisory services
+JE00368,2025-04-10,2025-04-12,Q2 FY2025,Revenue,Professional services,Revenue,C014,15800,yes,Implementation and advisory services
+JE00369,2025-04-15,2025-04-17,Q2 FY2025,Revenue,Professional services,Revenue,C021,11850,yes,Implementation and advisory services
+JE00370,2025-04-20,2025-04-22,Q2 FY2025,Revenue,Professional services,Revenue,C028,7900,yes,Implementation and advisory services
+JE00371,2025-04-17,2025-04-19,Q2 FY2025,Revenue,Refunds and credits,Revenue,C007,-4740,yes,Service credit
+JE00372,2025-04-24,2025-04-26,Q2 FY2025,Revenue,Refunds and credits,Revenue,C018,-3160,yes,Service credit
+JE00373,2025-04-04,2025-04-06,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-64600,yes,Cloud hosting vendor charge
+JE00374,2025-04-13,2025-04-15,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-38760,yes,Cloud hosting vendor charge
+JE00375,2025-04-22,2025-04-24,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-25840,yes,Cloud hosting vendor charge
+JE00376,2025-04-04,2025-04-06,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-22800,yes,Support vendors vendor charge
+JE00377,2025-04-13,2025-04-15,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-13680,yes,Support vendors vendor charge
+JE00378,2025-04-22,2025-04-24,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-9120,yes,Support vendors vendor charge
+JE00379,2025-04-04,2025-04-06,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-7600,yes,Payment processing vendor charge
+JE00380,2025-04-13,2025-04-15,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-4560,yes,Payment processing vendor charge
+JE00381,2025-04-22,2025-04-24,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-3040,yes,Payment processing vendor charge
+JE00382,2025-04-03,2025-04-05,Q2 FY2025,Operating Expense,Engineering payroll,Research & Development,,-90533,yes,Monthly operating expense
+JE00383,2025-04-07,2025-04-09,Q2 FY2025,Operating Expense,Product tooling,Research & Development,,-77600,yes,Monthly operating expense
+JE00384,2025-04-11,2025-04-13,Q2 FY2025,Operating Expense,QA contractors,Research & Development,,-64666,yes,Monthly operating expense
+JE00385,2025-04-15,2025-04-17,Q2 FY2025,Operating Expense,Developer systems,Research & Development,,-51733,yes,Monthly operating expense
+JE00386,2025-04-19,2025-04-21,Q2 FY2025,Operating Expense,Research programs,Research & Development,,-38800,yes,Monthly operating expense
+JE00387,2025-04-23,2025-04-25,Q2 FY2025,Operating Expense,Product design,Research & Development,,-25868,yes,Monthly operating expense
+JE00388,2025-04-03,2025-04-05,Q2 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-67900,yes,Monthly operating expense
+JE00389,2025-04-07,2025-04-09,Q2 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-58200,yes,Monthly operating expense
+JE00390,2025-04-11,2025-04-13,Q2 FY2025,Operating Expense,Events,Sales & Marketing,,-48500,yes,Monthly operating expense
+JE00391,2025-04-15,2025-04-17,Q2 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-38800,yes,Monthly operating expense
+JE00392,2025-04-19,2025-04-21,Q2 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-29100,yes,Monthly operating expense
+JE00393,2025-04-23,2025-04-25,Q2 FY2025,Operating Expense,Content programs,Sales & Marketing,,-19400,yes,Monthly operating expense
+JE00394,2025-04-03,2025-04-05,Q2 FY2025,Operating Expense,Finance payroll,General & Administrative,,-37722,yes,Monthly operating expense
+JE00395,2025-04-07,2025-04-09,Q2 FY2025,Operating Expense,Legal and audit,General & Administrative,,-32333,yes,Monthly operating expense
+JE00396,2025-04-11,2025-04-13,Q2 FY2025,Operating Expense,Insurance,General & Administrative,,-26944,yes,Monthly operating expense
+JE00397,2025-04-15,2025-04-17,Q2 FY2025,Operating Expense,Corporate systems,General & Administrative,,-21555,yes,Monthly operating expense
+JE00398,2025-04-19,2025-04-21,Q2 FY2025,Operating Expense,Advisory,General & Administrative,,-16166,yes,Monthly operating expense
+JE00399,2025-04-23,2025-04-25,Q2 FY2025,Operating Expense,Banking fees,General & Administrative,,-10780,yes,Monthly operating expense
+JE00400,2025-04-03,2025-04-05,Q2 FY2025,Operating Expense,Success payroll,Customer Success,,-32692,yes,Monthly operating expense
+JE00401,2025-04-07,2025-04-09,Q2 FY2025,Operating Expense,Implementation contractors,Customer Success,,-28022,yes,Monthly operating expense
+JE00402,2025-04-11,2025-04-13,Q2 FY2025,Operating Expense,Training,Customer Success,,-23351,yes,Monthly operating expense
+JE00403,2025-04-15,2025-04-17,Q2 FY2025,Operating Expense,Support tooling,Customer Success,,-18681,yes,Monthly operating expense
+JE00404,2025-04-19,2025-04-21,Q2 FY2025,Operating Expense,Customer programs,Customer Success,,-14011,yes,Monthly operating expense
+JE00405,2025-04-23,2025-04-25,Q2 FY2025,Operating Expense,Travel,Customer Success,,-9343,yes,Monthly operating expense
+JE00406,2025-04-03,2025-04-05,Q2 FY2025,Operating Expense,People payroll,People & Workplace,,-22633,yes,Monthly operating expense
+JE00407,2025-04-07,2025-04-09,Q2 FY2025,Operating Expense,Recruiting,People & Workplace,,-19400,yes,Monthly operating expense
+JE00408,2025-04-11,2025-04-13,Q2 FY2025,Operating Expense,Office,People & Workplace,,-16166,yes,Monthly operating expense
+JE00409,2025-04-15,2025-04-17,Q2 FY2025,Operating Expense,Team events,People & Workplace,,-12933,yes,Monthly operating expense
+JE00410,2025-04-19,2025-04-21,Q2 FY2025,Operating Expense,Benefits admin,People & Workplace,,-9700,yes,Monthly operating expense
+JE00411,2025-04-23,2025-04-25,Q2 FY2025,Operating Expense,Equipment,People & Workplace,,-6468,yes,Monthly operating expense
+JE00412,2025-04-12,2025-04-14,Q2 FY2025,Financing,Equity proceeds,Corporate,,2560000,no,Excluded financing activity
+JE00413,2025-04-26,2025-04-28,Q2 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00414,2025-05-02,2025-05-04,Q2 FY2025,Revenue,Subscription revenue,Revenue,C008,145559,yes,Recognized subscription invoice
+JE00415,2025-05-04,2025-05-06,Q2 FY2025,Revenue,Subscription revenue,Revenue,C009,122576,yes,Recognized subscription invoice
+JE00416,2025-05-06,2025-05-08,Q2 FY2025,Revenue,Subscription revenue,Revenue,C010,107254,yes,Recognized subscription invoice
+JE00417,2025-05-08,2025-05-10,Q2 FY2025,Revenue,Subscription revenue,Revenue,C011,91932,yes,Recognized subscription invoice
+JE00418,2025-05-10,2025-05-12,Q2 FY2025,Revenue,Subscription revenue,Revenue,C012,76610,yes,Recognized subscription invoice
+JE00419,2025-05-12,2025-05-14,Q2 FY2025,Revenue,Subscription revenue,Revenue,C013,61288,yes,Recognized subscription invoice
+JE00420,2025-05-14,2025-05-16,Q2 FY2025,Revenue,Subscription revenue,Revenue,C014,45966,yes,Recognized subscription invoice
+JE00421,2025-05-16,2025-05-18,Q2 FY2025,Revenue,Subscription revenue,Revenue,C015,38305,yes,Recognized subscription invoice
+JE00422,2025-05-18,2025-05-20,Q2 FY2025,Revenue,Subscription revenue,Revenue,C016,30644,yes,Recognized subscription invoice
+JE00423,2025-05-20,2025-05-22,Q2 FY2025,Revenue,Subscription revenue,Revenue,C017,22983,yes,Recognized subscription invoice
+JE00424,2025-05-22,2025-05-24,Q2 FY2025,Revenue,Subscription revenue,Revenue,C018,15322,yes,Recognized subscription invoice
+JE00425,2025-05-24,2025-05-26,Q2 FY2025,Revenue,Subscription revenue,Revenue,C019,7661,yes,Recognized subscription invoice
+JE00426,2025-05-05,2025-05-07,Q2 FY2025,Revenue,Professional services,Revenue,C008,20375,yes,Implementation and advisory services
+JE00427,2025-05-10,2025-05-12,Q2 FY2025,Revenue,Professional services,Revenue,C015,16300,yes,Implementation and advisory services
+JE00428,2025-05-15,2025-05-17,Q2 FY2025,Revenue,Professional services,Revenue,C022,12225,yes,Implementation and advisory services
+JE00429,2025-05-20,2025-05-22,Q2 FY2025,Revenue,Professional services,Revenue,C029,8150,yes,Implementation and advisory services
+JE00430,2025-05-17,2025-05-19,Q2 FY2025,Revenue,Refunds and credits,Revenue,C008,-4890,yes,Service credit
+JE00431,2025-05-24,2025-05-26,Q2 FY2025,Revenue,Refunds and credits,Revenue,C019,-3260,yes,Service credit
+JE00432,2025-05-04,2025-05-06,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-66300,yes,Cloud hosting vendor charge
+JE00433,2025-05-13,2025-05-15,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-39780,yes,Cloud hosting vendor charge
+JE00434,2025-05-22,2025-05-24,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-26520,yes,Cloud hosting vendor charge
+JE00435,2025-05-04,2025-05-06,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-23400,yes,Support vendors vendor charge
+JE00436,2025-05-13,2025-05-15,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-14040,yes,Support vendors vendor charge
+JE00437,2025-05-22,2025-05-24,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-9360,yes,Support vendors vendor charge
+JE00438,2025-05-04,2025-05-06,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-7800,yes,Payment processing vendor charge
+JE00439,2025-05-13,2025-05-15,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-4680,yes,Payment processing vendor charge
+JE00440,2025-05-22,2025-05-24,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-3120,yes,Payment processing vendor charge
+JE00441,2025-05-03,2025-05-05,Q2 FY2025,Operating Expense,Engineering payroll,Research & Development,,-94007,yes,Monthly operating expense
+JE00442,2025-05-07,2025-05-09,Q2 FY2025,Operating Expense,Product tooling,Research & Development,,-80577,yes,Monthly operating expense
+JE00443,2025-05-11,2025-05-13,Q2 FY2025,Operating Expense,QA contractors,Research & Development,,-67148,yes,Monthly operating expense
+JE00444,2025-05-15,2025-05-17,Q2 FY2025,Operating Expense,Developer systems,Research & Development,,-53718,yes,Monthly operating expense
+JE00445,2025-05-19,2025-05-21,Q2 FY2025,Operating Expense,Research programs,Research & Development,,-40288,yes,Monthly operating expense
+JE00446,2025-05-23,2025-05-25,Q2 FY2025,Operating Expense,Product design,Research & Development,,-26862,yes,Monthly operating expense
+JE00447,2025-05-03,2025-05-05,Q2 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-71140,yes,Monthly operating expense
+JE00448,2025-05-07,2025-05-09,Q2 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-60977,yes,Monthly operating expense
+JE00449,2025-05-11,2025-05-13,Q2 FY2025,Operating Expense,Events,Sales & Marketing,,-50814,yes,Monthly operating expense
+JE00450,2025-05-15,2025-05-17,Q2 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-40651,yes,Monthly operating expense
+JE00451,2025-05-19,2025-05-21,Q2 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-30488,yes,Monthly operating expense
+JE00452,2025-05-23,2025-05-25,Q2 FY2025,Operating Expense,Content programs,Sales & Marketing,,-20330,yes,Monthly operating expense
+JE00453,2025-05-03,2025-05-05,Q2 FY2025,Operating Expense,Finance payroll,General & Administrative,,-38111,yes,Monthly operating expense
+JE00454,2025-05-07,2025-05-09,Q2 FY2025,Operating Expense,Legal and audit,General & Administrative,,-32666,yes,Monthly operating expense
+JE00455,2025-05-11,2025-05-13,Q2 FY2025,Operating Expense,Insurance,General & Administrative,,-27222,yes,Monthly operating expense
+JE00456,2025-05-15,2025-05-17,Q2 FY2025,Operating Expense,Corporate systems,General & Administrative,,-21777,yes,Monthly operating expense
+JE00457,2025-05-19,2025-05-21,Q2 FY2025,Operating Expense,Advisory,General & Administrative,,-16333,yes,Monthly operating expense
+JE00458,2025-05-23,2025-05-25,Q2 FY2025,Operating Expense,Banking fees,General & Administrative,,-10891,yes,Monthly operating expense
+JE00459,2025-05-03,2025-05-05,Q2 FY2025,Operating Expense,Success payroll,Customer Success,,-33029,yes,Monthly operating expense
+JE00460,2025-05-07,2025-05-09,Q2 FY2025,Operating Expense,Implementation contractors,Customer Success,,-28311,yes,Monthly operating expense
+JE00461,2025-05-11,2025-05-13,Q2 FY2025,Operating Expense,Training,Customer Success,,-23592,yes,Monthly operating expense
+JE00462,2025-05-15,2025-05-17,Q2 FY2025,Operating Expense,Support tooling,Customer Success,,-18874,yes,Monthly operating expense
+JE00463,2025-05-19,2025-05-21,Q2 FY2025,Operating Expense,Customer programs,Customer Success,,-14155,yes,Monthly operating expense
+JE00464,2025-05-23,2025-05-25,Q2 FY2025,Operating Expense,Travel,Customer Success,,-9439,yes,Monthly operating expense
+JE00465,2025-05-03,2025-05-05,Q2 FY2025,Operating Expense,People payroll,People & Workplace,,-17785,yes,Monthly operating expense
+JE00466,2025-05-07,2025-05-09,Q2 FY2025,Operating Expense,Recruiting,People & Workplace,,-15244,yes,Monthly operating expense
+JE00467,2025-05-11,2025-05-13,Q2 FY2025,Operating Expense,Office,People & Workplace,,-12703,yes,Monthly operating expense
+JE00468,2025-05-15,2025-05-17,Q2 FY2025,Operating Expense,Team events,People & Workplace,,-10162,yes,Monthly operating expense
+JE00469,2025-05-19,2025-05-21,Q2 FY2025,Operating Expense,Benefits admin,People & Workplace,,-7622,yes,Monthly operating expense
+JE00470,2025-05-23,2025-05-25,Q2 FY2025,Operating Expense,Equipment,People & Workplace,,-5084,yes,Monthly operating expense
+JE00471,2025-05-12,2025-05-14,Q2 FY2025,Financing,Equity proceeds,Corporate,,2570000,no,Excluded financing activity
+JE00472,2025-05-26,2025-05-28,Q2 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00473,2025-06-02,2025-06-04,Q2 FY2025,Revenue,Subscription revenue,Revenue,C009,150024,yes,Recognized subscription invoice
+JE00474,2025-06-04,2025-06-06,Q2 FY2025,Revenue,Subscription revenue,Revenue,C010,126336,yes,Recognized subscription invoice
+JE00475,2025-06-06,2025-06-08,Q2 FY2025,Revenue,Subscription revenue,Revenue,C011,110544,yes,Recognized subscription invoice
+JE00476,2025-06-08,2025-06-10,Q2 FY2025,Revenue,Subscription revenue,Revenue,C012,94752,yes,Recognized subscription invoice
+JE00477,2025-06-10,2025-06-12,Q2 FY2025,Revenue,Subscription revenue,Revenue,C013,78960,yes,Recognized subscription invoice
+JE00478,2025-06-12,2025-06-14,Q2 FY2025,Revenue,Subscription revenue,Revenue,C014,63168,yes,Recognized subscription invoice
+JE00479,2025-06-14,2025-06-16,Q2 FY2025,Revenue,Subscription revenue,Revenue,C015,47376,yes,Recognized subscription invoice
+JE00480,2025-06-16,2025-06-18,Q2 FY2025,Revenue,Subscription revenue,Revenue,C016,39480,yes,Recognized subscription invoice
+JE00481,2025-06-18,2025-06-20,Q2 FY2025,Revenue,Subscription revenue,Revenue,C017,31584,yes,Recognized subscription invoice
+JE00482,2025-06-20,2025-06-22,Q2 FY2025,Revenue,Subscription revenue,Revenue,C018,23688,yes,Recognized subscription invoice
+JE00483,2025-06-22,2025-06-24,Q2 FY2025,Revenue,Subscription revenue,Revenue,C019,15792,yes,Recognized subscription invoice
+JE00484,2025-06-24,2025-06-26,Q2 FY2025,Revenue,Subscription revenue,Revenue,C020,7896,yes,Recognized subscription invoice
+JE00485,2025-06-05,2025-06-07,Q2 FY2025,Revenue,Professional services,Revenue,C009,21000,yes,Implementation and advisory services
+JE00486,2025-06-10,2025-06-12,Q2 FY2025,Revenue,Professional services,Revenue,C016,16800,yes,Implementation and advisory services
+JE00487,2025-06-15,2025-06-17,Q2 FY2025,Revenue,Professional services,Revenue,C023,12600,yes,Implementation and advisory services
+JE00488,2025-06-20,2025-06-22,Q2 FY2025,Revenue,Professional services,Revenue,C030,8400,yes,Implementation and advisory services
+JE00489,2025-06-17,2025-06-19,Q2 FY2025,Revenue,Refunds and credits,Revenue,C009,-5040,yes,Service credit
+JE00490,2025-06-24,2025-06-26,Q2 FY2025,Revenue,Refunds and credits,Revenue,C020,-3360,yes,Service credit
+JE00491,2025-06-04,2025-06-06,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-68000,yes,Cloud hosting vendor charge
+JE00492,2025-06-13,2025-06-15,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-40800,yes,Cloud hosting vendor charge
+JE00493,2025-06-22,2025-06-24,Q2 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-27200,yes,Cloud hosting vendor charge
+JE00494,2025-06-04,2025-06-06,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-24000,yes,Support vendors vendor charge
+JE00495,2025-06-13,2025-06-15,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-14400,yes,Support vendors vendor charge
+JE00496,2025-06-22,2025-06-24,Q2 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-9600,yes,Support vendors vendor charge
+JE00497,2025-06-04,2025-06-06,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-8000,yes,Payment processing vendor charge
+JE00498,2025-06-13,2025-06-15,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-4800,yes,Payment processing vendor charge
+JE00499,2025-06-22,2025-06-24,Q2 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-3200,yes,Payment processing vendor charge
+JE00500,2025-06-03,2025-06-05,Q2 FY2025,Operating Expense,Engineering payroll,Research & Development,,-94966,yes,Monthly operating expense
+JE00501,2025-06-07,2025-06-09,Q2 FY2025,Operating Expense,Product tooling,Research & Development,,-81400,yes,Monthly operating expense
+JE00502,2025-06-11,2025-06-13,Q2 FY2025,Operating Expense,QA contractors,Research & Development,,-67833,yes,Monthly operating expense
+JE00503,2025-06-15,2025-06-17,Q2 FY2025,Operating Expense,Developer systems,Research & Development,,-54266,yes,Monthly operating expense
+JE00504,2025-06-19,2025-06-21,Q2 FY2025,Operating Expense,Research programs,Research & Development,,-40700,yes,Monthly operating expense
+JE00505,2025-06-23,2025-06-25,Q2 FY2025,Operating Expense,Product design,Research & Development,,-27135,yes,Monthly operating expense
+JE00506,2025-06-03,2025-06-05,Q2 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-71866,yes,Monthly operating expense
+JE00507,2025-06-07,2025-06-09,Q2 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-61600,yes,Monthly operating expense
+JE00508,2025-06-11,2025-06-13,Q2 FY2025,Operating Expense,Events,Sales & Marketing,,-51333,yes,Monthly operating expense
+JE00509,2025-06-15,2025-06-17,Q2 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-41066,yes,Monthly operating expense
+JE00510,2025-06-19,2025-06-21,Q2 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-30800,yes,Monthly operating expense
+JE00511,2025-06-23,2025-06-25,Q2 FY2025,Operating Expense,Content programs,Sales & Marketing,,-20535,yes,Monthly operating expense
+JE00512,2025-06-03,2025-06-05,Q2 FY2025,Operating Expense,Finance payroll,General & Administrative,,-41066,yes,Monthly operating expense
+JE00513,2025-06-07,2025-06-09,Q2 FY2025,Operating Expense,Legal and audit,General & Administrative,,-35200,yes,Monthly operating expense
+JE00514,2025-06-11,2025-06-13,Q2 FY2025,Operating Expense,Insurance,General & Administrative,,-29333,yes,Monthly operating expense
+JE00515,2025-06-15,2025-06-17,Q2 FY2025,Operating Expense,Corporate systems,General & Administrative,,-23466,yes,Monthly operating expense
+JE00516,2025-06-19,2025-06-21,Q2 FY2025,Operating Expense,Advisory,General & Administrative,,-17600,yes,Monthly operating expense
+JE00517,2025-06-23,2025-06-25,Q2 FY2025,Operating Expense,Banking fees,General & Administrative,,-11735,yes,Monthly operating expense
+JE00518,2025-06-03,2025-06-05,Q2 FY2025,Operating Expense,Success payroll,Customer Success,,-33366,yes,Monthly operating expense
+JE00519,2025-06-07,2025-06-09,Q2 FY2025,Operating Expense,Implementation contractors,Customer Success,,-28600,yes,Monthly operating expense
+JE00520,2025-06-11,2025-06-13,Q2 FY2025,Operating Expense,Training,Customer Success,,-23833,yes,Monthly operating expense
+JE00521,2025-06-15,2025-06-17,Q2 FY2025,Operating Expense,Support tooling,Customer Success,,-19066,yes,Monthly operating expense
+JE00522,2025-06-19,2025-06-21,Q2 FY2025,Operating Expense,Customer programs,Customer Success,,-14300,yes,Monthly operating expense
+JE00523,2025-06-23,2025-06-25,Q2 FY2025,Operating Expense,Travel,Customer Success,,-9535,yes,Monthly operating expense
+JE00524,2025-06-03,2025-06-05,Q2 FY2025,Operating Expense,People payroll,People & Workplace,,-15400,yes,Monthly operating expense
+JE00525,2025-06-07,2025-06-09,Q2 FY2025,Operating Expense,Recruiting,People & Workplace,,-13200,yes,Monthly operating expense
+JE00526,2025-06-11,2025-06-13,Q2 FY2025,Operating Expense,Office,People & Workplace,,-11000,yes,Monthly operating expense
+JE00527,2025-06-15,2025-06-17,Q2 FY2025,Operating Expense,Team events,People & Workplace,,-8800,yes,Monthly operating expense
+JE00528,2025-06-19,2025-06-21,Q2 FY2025,Operating Expense,Benefits admin,People & Workplace,,-6600,yes,Monthly operating expense
+JE00529,2025-06-23,2025-06-25,Q2 FY2025,Operating Expense,Equipment,People & Workplace,,-4400,yes,Monthly operating expense
+JE00530,2025-06-12,2025-06-14,Q2 FY2025,Financing,Equity proceeds,Corporate,,2580000,no,Excluded financing activity
+JE00531,2025-06-26,2025-06-28,Q2 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00532,2025-07-02,2025-07-04,Q3 FY2025,Revenue,Subscription revenue,Revenue,C010,154489,yes,Recognized subscription invoice
+JE00533,2025-07-04,2025-07-06,Q3 FY2025,Revenue,Subscription revenue,Revenue,C011,130096,yes,Recognized subscription invoice
+JE00534,2025-07-06,2025-07-08,Q3 FY2025,Revenue,Subscription revenue,Revenue,C012,113834,yes,Recognized subscription invoice
+JE00535,2025-07-08,2025-07-10,Q3 FY2025,Revenue,Subscription revenue,Revenue,C013,97572,yes,Recognized subscription invoice
+JE00536,2025-07-10,2025-07-12,Q3 FY2025,Revenue,Subscription revenue,Revenue,C014,81310,yes,Recognized subscription invoice
+JE00537,2025-07-12,2025-07-14,Q3 FY2025,Revenue,Subscription revenue,Revenue,C015,65048,yes,Recognized subscription invoice
+JE00538,2025-07-14,2025-07-16,Q3 FY2025,Revenue,Subscription revenue,Revenue,C016,48786,yes,Recognized subscription invoice
+JE00539,2025-07-16,2025-07-18,Q3 FY2025,Revenue,Subscription revenue,Revenue,C017,40655,yes,Recognized subscription invoice
+JE00540,2025-07-18,2025-07-20,Q3 FY2025,Revenue,Subscription revenue,Revenue,C018,32524,yes,Recognized subscription invoice
+JE00541,2025-07-20,2025-07-22,Q3 FY2025,Revenue,Subscription revenue,Revenue,C019,24393,yes,Recognized subscription invoice
+JE00542,2025-07-22,2025-07-24,Q3 FY2025,Revenue,Subscription revenue,Revenue,C020,16262,yes,Recognized subscription invoice
+JE00543,2025-07-24,2025-07-26,Q3 FY2025,Revenue,Subscription revenue,Revenue,C021,8131,yes,Recognized subscription invoice
+JE00544,2025-07-05,2025-07-07,Q3 FY2025,Revenue,Professional services,Revenue,C010,21625,yes,Implementation and advisory services
+JE00545,2025-07-10,2025-07-12,Q3 FY2025,Revenue,Professional services,Revenue,C017,17300,yes,Implementation and advisory services
+JE00546,2025-07-15,2025-07-17,Q3 FY2025,Revenue,Professional services,Revenue,C024,12975,yes,Implementation and advisory services
+JE00547,2025-07-20,2025-07-22,Q3 FY2025,Revenue,Professional services,Revenue,C031,8650,yes,Implementation and advisory services
+JE00548,2025-07-17,2025-07-19,Q3 FY2025,Revenue,Refunds and credits,Revenue,C010,-5190,yes,Service credit
+JE00549,2025-07-24,2025-07-26,Q3 FY2025,Revenue,Refunds and credits,Revenue,C021,-3460,yes,Service credit
+JE00550,2025-07-04,2025-07-06,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-69360,yes,Cloud hosting vendor charge
+JE00551,2025-07-13,2025-07-15,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-41616,yes,Cloud hosting vendor charge
+JE00552,2025-07-22,2025-07-24,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-27744,yes,Cloud hosting vendor charge
+JE00553,2025-07-04,2025-07-06,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-24480,yes,Support vendors vendor charge
+JE00554,2025-07-13,2025-07-15,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-14688,yes,Support vendors vendor charge
+JE00555,2025-07-22,2025-07-24,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-9792,yes,Support vendors vendor charge
+JE00556,2025-07-04,2025-07-06,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-8160,yes,Payment processing vendor charge
+JE00557,2025-07-13,2025-07-15,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-4896,yes,Payment processing vendor charge
+JE00558,2025-07-22,2025-07-24,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-3264,yes,Payment processing vendor charge
+JE00559,2025-07-03,2025-07-05,Q3 FY2025,Operating Expense,Engineering payroll,Research & Development,,-91933,yes,Monthly operating expense
+JE00560,2025-07-07,2025-07-09,Q3 FY2025,Operating Expense,Product tooling,Research & Development,,-78800,yes,Monthly operating expense
+JE00561,2025-07-11,2025-07-13,Q3 FY2025,Operating Expense,QA contractors,Research & Development,,-65666,yes,Monthly operating expense
+JE00562,2025-07-15,2025-07-17,Q3 FY2025,Operating Expense,Developer systems,Research & Development,,-52533,yes,Monthly operating expense
+JE00563,2025-07-19,2025-07-21,Q3 FY2025,Operating Expense,Research programs,Research & Development,,-39400,yes,Monthly operating expense
+JE00564,2025-07-23,2025-07-25,Q3 FY2025,Operating Expense,Product design,Research & Development,,-26268,yes,Monthly operating expense
+JE00565,2025-07-03,2025-07-05,Q3 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-68950,yes,Monthly operating expense
+JE00566,2025-07-07,2025-07-09,Q3 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-59100,yes,Monthly operating expense
+JE00567,2025-07-11,2025-07-13,Q3 FY2025,Operating Expense,Events,Sales & Marketing,,-49250,yes,Monthly operating expense
+JE00568,2025-07-15,2025-07-17,Q3 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-39400,yes,Monthly operating expense
+JE00569,2025-07-19,2025-07-21,Q3 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-29550,yes,Monthly operating expense
+JE00570,2025-07-23,2025-07-25,Q3 FY2025,Operating Expense,Content programs,Sales & Marketing,,-19700,yes,Monthly operating expense
+JE00571,2025-07-03,2025-07-05,Q3 FY2025,Operating Expense,Finance payroll,General & Administrative,,-38305,yes,Monthly operating expense
+JE00572,2025-07-07,2025-07-09,Q3 FY2025,Operating Expense,Legal and audit,General & Administrative,,-32833,yes,Monthly operating expense
+JE00573,2025-07-11,2025-07-13,Q3 FY2025,Operating Expense,Insurance,General & Administrative,,-27361,yes,Monthly operating expense
+JE00574,2025-07-15,2025-07-17,Q3 FY2025,Operating Expense,Corporate systems,General & Administrative,,-21888,yes,Monthly operating expense
+JE00575,2025-07-19,2025-07-21,Q3 FY2025,Operating Expense,Advisory,General & Administrative,,-16416,yes,Monthly operating expense
+JE00576,2025-07-23,2025-07-25,Q3 FY2025,Operating Expense,Banking fees,General & Administrative,,-10947,yes,Monthly operating expense
+JE00577,2025-07-03,2025-07-05,Q3 FY2025,Operating Expense,Success payroll,Customer Success,,-33198,yes,Monthly operating expense
+JE00578,2025-07-07,2025-07-09,Q3 FY2025,Operating Expense,Implementation contractors,Customer Success,,-28455,yes,Monthly operating expense
+JE00579,2025-07-11,2025-07-13,Q3 FY2025,Operating Expense,Training,Customer Success,,-23712,yes,Monthly operating expense
+JE00580,2025-07-15,2025-07-17,Q3 FY2025,Operating Expense,Support tooling,Customer Success,,-18970,yes,Monthly operating expense
+JE00581,2025-07-19,2025-07-21,Q3 FY2025,Operating Expense,Customer programs,Customer Success,,-14227,yes,Monthly operating expense
+JE00582,2025-07-23,2025-07-25,Q3 FY2025,Operating Expense,Travel,Customer Success,,-9488,yes,Monthly operating expense
+JE00583,2025-07-03,2025-07-05,Q3 FY2025,Operating Expense,People payroll,People & Workplace,,-22983,yes,Monthly operating expense
+JE00584,2025-07-07,2025-07-09,Q3 FY2025,Operating Expense,Recruiting,People & Workplace,,-19700,yes,Monthly operating expense
+JE00585,2025-07-11,2025-07-13,Q3 FY2025,Operating Expense,Office,People & Workplace,,-16416,yes,Monthly operating expense
+JE00586,2025-07-15,2025-07-17,Q3 FY2025,Operating Expense,Team events,People & Workplace,,-13133,yes,Monthly operating expense
+JE00587,2025-07-19,2025-07-21,Q3 FY2025,Operating Expense,Benefits admin,People & Workplace,,-9850,yes,Monthly operating expense
+JE00588,2025-07-23,2025-07-25,Q3 FY2025,Operating Expense,Equipment,People & Workplace,,-6568,yes,Monthly operating expense
+JE00589,2025-07-12,2025-07-14,Q3 FY2025,Financing,Equity proceeds,Corporate,,2590000,no,Excluded financing activity
+JE00590,2025-07-26,2025-07-28,Q3 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00591,2025-08-02,2025-08-04,Q3 FY2025,Revenue,Subscription revenue,Revenue,C011,160740,yes,Recognized subscription invoice
+JE00592,2025-08-04,2025-08-06,Q3 FY2025,Revenue,Subscription revenue,Revenue,C012,135360,yes,Recognized subscription invoice
+JE00593,2025-08-06,2025-08-08,Q3 FY2025,Revenue,Subscription revenue,Revenue,C013,118440,yes,Recognized subscription invoice
+JE00594,2025-08-08,2025-08-10,Q3 FY2025,Revenue,Subscription revenue,Revenue,C014,101520,yes,Recognized subscription invoice
+JE00595,2025-08-10,2025-08-12,Q3 FY2025,Revenue,Subscription revenue,Revenue,C015,84600,yes,Recognized subscription invoice
+JE00596,2025-08-12,2025-08-14,Q3 FY2025,Revenue,Subscription revenue,Revenue,C016,67680,yes,Recognized subscription invoice
+JE00597,2025-08-14,2025-08-16,Q3 FY2025,Revenue,Subscription revenue,Revenue,C017,50760,yes,Recognized subscription invoice
+JE00598,2025-08-16,2025-08-18,Q3 FY2025,Revenue,Subscription revenue,Revenue,C018,42300,yes,Recognized subscription invoice
+JE00599,2025-08-18,2025-08-20,Q3 FY2025,Revenue,Subscription revenue,Revenue,C019,33840,yes,Recognized subscription invoice
+JE00600,2025-08-20,2025-08-22,Q3 FY2025,Revenue,Subscription revenue,Revenue,C020,25380,yes,Recognized subscription invoice
+JE00601,2025-08-22,2025-08-24,Q3 FY2025,Revenue,Subscription revenue,Revenue,C021,16920,yes,Recognized subscription invoice
+JE00602,2025-08-24,2025-08-26,Q3 FY2025,Revenue,Subscription revenue,Revenue,C022,8460,yes,Recognized subscription invoice
+JE00603,2025-08-05,2025-08-07,Q3 FY2025,Revenue,Professional services,Revenue,C011,22500,yes,Implementation and advisory services
+JE00604,2025-08-10,2025-08-12,Q3 FY2025,Revenue,Professional services,Revenue,C018,18000,yes,Implementation and advisory services
+JE00605,2025-08-15,2025-08-17,Q3 FY2025,Revenue,Professional services,Revenue,C025,13500,yes,Implementation and advisory services
+JE00606,2025-08-20,2025-08-22,Q3 FY2025,Revenue,Professional services,Revenue,C032,9000,yes,Implementation and advisory services
+JE00607,2025-08-17,2025-08-19,Q3 FY2025,Revenue,Refunds and credits,Revenue,C011,-5400,yes,Service credit
+JE00608,2025-08-24,2025-08-26,Q3 FY2025,Revenue,Refunds and credits,Revenue,C022,-3600,yes,Service credit
+JE00609,2025-08-04,2025-08-06,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-71400,yes,Cloud hosting vendor charge
+JE00610,2025-08-13,2025-08-15,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-42840,yes,Cloud hosting vendor charge
+JE00611,2025-08-22,2025-08-24,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-28560,yes,Cloud hosting vendor charge
+JE00612,2025-08-04,2025-08-06,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-25200,yes,Support vendors vendor charge
+JE00613,2025-08-13,2025-08-15,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-15120,yes,Support vendors vendor charge
+JE00614,2025-08-22,2025-08-24,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-10080,yes,Support vendors vendor charge
+JE00615,2025-08-04,2025-08-06,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-8400,yes,Payment processing vendor charge
+JE00616,2025-08-13,2025-08-15,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-5040,yes,Payment processing vendor charge
+JE00617,2025-08-22,2025-08-24,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-3360,yes,Payment processing vendor charge
+JE00618,2025-08-03,2025-08-05,Q3 FY2025,Operating Expense,Engineering payroll,Research & Development,,-92400,yes,Monthly operating expense
+JE00619,2025-08-07,2025-08-09,Q3 FY2025,Operating Expense,Product tooling,Research & Development,,-79200,yes,Monthly operating expense
+JE00620,2025-08-11,2025-08-13,Q3 FY2025,Operating Expense,QA contractors,Research & Development,,-66000,yes,Monthly operating expense
+JE00621,2025-08-15,2025-08-17,Q3 FY2025,Operating Expense,Developer systems,Research & Development,,-52800,yes,Monthly operating expense
+JE00622,2025-08-19,2025-08-21,Q3 FY2025,Operating Expense,Research programs,Research & Development,,-39600,yes,Monthly operating expense
+JE00623,2025-08-23,2025-08-25,Q3 FY2025,Operating Expense,Product design,Research & Development,,-26400,yes,Monthly operating expense
+JE00624,2025-08-03,2025-08-05,Q3 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-71866,yes,Monthly operating expense
+JE00625,2025-08-07,2025-08-09,Q3 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-61600,yes,Monthly operating expense
+JE00626,2025-08-11,2025-08-13,Q3 FY2025,Operating Expense,Events,Sales & Marketing,,-51333,yes,Monthly operating expense
+JE00627,2025-08-15,2025-08-17,Q3 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-41066,yes,Monthly operating expense
+JE00628,2025-08-19,2025-08-21,Q3 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-30800,yes,Monthly operating expense
+JE00629,2025-08-23,2025-08-25,Q3 FY2025,Operating Expense,Content programs,Sales & Marketing,,-20535,yes,Monthly operating expense
+JE00630,2025-08-03,2025-08-05,Q3 FY2025,Operating Expense,Finance payroll,General & Administrative,,-38500,yes,Monthly operating expense
+JE00631,2025-08-07,2025-08-09,Q3 FY2025,Operating Expense,Legal and audit,General & Administrative,,-33000,yes,Monthly operating expense
+JE00632,2025-08-11,2025-08-13,Q3 FY2025,Operating Expense,Insurance,General & Administrative,,-27500,yes,Monthly operating expense
+JE00633,2025-08-15,2025-08-17,Q3 FY2025,Operating Expense,Corporate systems,General & Administrative,,-22000,yes,Monthly operating expense
+JE00634,2025-08-19,2025-08-21,Q3 FY2025,Operating Expense,Advisory,General & Administrative,,-16500,yes,Monthly operating expense
+JE00635,2025-08-23,2025-08-25,Q3 FY2025,Operating Expense,Banking fees,General & Administrative,,-11000,yes,Monthly operating expense
+JE00636,2025-08-03,2025-08-05,Q3 FY2025,Operating Expense,Success payroll,Customer Success,,-33366,yes,Monthly operating expense
+JE00637,2025-08-07,2025-08-09,Q3 FY2025,Operating Expense,Implementation contractors,Customer Success,,-28600,yes,Monthly operating expense
+JE00638,2025-08-11,2025-08-13,Q3 FY2025,Operating Expense,Training,Customer Success,,-23833,yes,Monthly operating expense
+JE00639,2025-08-15,2025-08-17,Q3 FY2025,Operating Expense,Support tooling,Customer Success,,-19066,yes,Monthly operating expense
+JE00640,2025-08-19,2025-08-21,Q3 FY2025,Operating Expense,Customer programs,Customer Success,,-14300,yes,Monthly operating expense
+JE00641,2025-08-23,2025-08-25,Q3 FY2025,Operating Expense,Travel,Customer Success,,-9535,yes,Monthly operating expense
+JE00642,2025-08-03,2025-08-05,Q3 FY2025,Operating Expense,People payroll,People & Workplace,,-20533,yes,Monthly operating expense
+JE00643,2025-08-07,2025-08-09,Q3 FY2025,Operating Expense,Recruiting,People & Workplace,,-17600,yes,Monthly operating expense
+JE00644,2025-08-11,2025-08-13,Q3 FY2025,Operating Expense,Office,People & Workplace,,-14666,yes,Monthly operating expense
+JE00645,2025-08-15,2025-08-17,Q3 FY2025,Operating Expense,Team events,People & Workplace,,-11733,yes,Monthly operating expense
+JE00646,2025-08-19,2025-08-21,Q3 FY2025,Operating Expense,Benefits admin,People & Workplace,,-8800,yes,Monthly operating expense
+JE00647,2025-08-23,2025-08-25,Q3 FY2025,Operating Expense,Equipment,People & Workplace,,-5868,yes,Monthly operating expense
+JE00648,2025-08-12,2025-08-14,Q3 FY2025,Financing,Equity proceeds,Corporate,,2600000,no,Excluded financing activity
+JE00649,2025-08-26,2025-08-28,Q3 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting
+JE00650,2025-09-02,2025-09-04,Q3 FY2025,Revenue,Subscription revenue,Revenue,C012,166098,yes,Recognized subscription invoice
+JE00651,2025-09-04,2025-09-06,Q3 FY2025,Revenue,Subscription revenue,Revenue,C013,139872,yes,Recognized subscription invoice
+JE00652,2025-09-06,2025-09-08,Q3 FY2025,Revenue,Subscription revenue,Revenue,C014,122388,yes,Recognized subscription invoice
+JE00653,2025-09-08,2025-09-10,Q3 FY2025,Revenue,Subscription revenue,Revenue,C015,104904,yes,Recognized subscription invoice
+JE00654,2025-09-10,2025-09-12,Q3 FY2025,Revenue,Subscription revenue,Revenue,C016,87420,yes,Recognized subscription invoice
+JE00655,2025-09-12,2025-09-14,Q3 FY2025,Revenue,Subscription revenue,Revenue,C017,69936,yes,Recognized subscription invoice
+JE00656,2025-09-14,2025-09-16,Q3 FY2025,Revenue,Subscription revenue,Revenue,C018,52452,yes,Recognized subscription invoice
+JE00657,2025-09-16,2025-09-18,Q3 FY2025,Revenue,Subscription revenue,Revenue,C019,43710,yes,Recognized subscription invoice
+JE00658,2025-09-18,2025-09-20,Q3 FY2025,Revenue,Subscription revenue,Revenue,C020,34968,yes,Recognized subscription invoice
+JE00659,2025-09-20,2025-09-22,Q3 FY2025,Revenue,Subscription revenue,Revenue,C021,26226,yes,Recognized subscription invoice
+JE00660,2025-09-22,2025-09-24,Q3 FY2025,Revenue,Subscription revenue,Revenue,C022,17484,yes,Recognized subscription invoice
+JE00661,2025-09-24,2025-09-26,Q3 FY2025,Revenue,Subscription revenue,Revenue,C023,8742,yes,Recognized subscription invoice
+JE00662,2025-09-05,2025-09-07,Q3 FY2025,Revenue,Professional services,Revenue,C012,23250,yes,Implementation and advisory services
+JE00663,2025-09-10,2025-09-12,Q3 FY2025,Revenue,Professional services,Revenue,C019,18600,yes,Implementation and advisory services
+JE00664,2025-09-15,2025-09-17,Q3 FY2025,Revenue,Professional services,Revenue,C026,13950,yes,Implementation and advisory services
+JE00665,2025-09-20,2025-09-22,Q3 FY2025,Revenue,Professional services,Revenue,C033,9300,yes,Implementation and advisory services
+JE00666,2025-09-17,2025-09-19,Q3 FY2025,Revenue,Refunds and credits,Revenue,C012,-5580,yes,Service credit
+JE00667,2025-09-24,2025-09-26,Q3 FY2025,Revenue,Refunds and credits,Revenue,C023,-3720,yes,Service credit
+JE00668,2025-09-04,2025-09-06,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-73440,yes,Cloud hosting vendor charge
+JE00669,2025-09-13,2025-09-15,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-44064,yes,Cloud hosting vendor charge
+JE00670,2025-09-22,2025-09-24,Q3 FY2025,Cost of Revenue,Cloud hosting,Service Delivery,,-29376,yes,Cloud hosting vendor charge
+JE00671,2025-09-04,2025-09-06,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-25920,yes,Support vendors vendor charge
+JE00672,2025-09-13,2025-09-15,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-15552,yes,Support vendors vendor charge
+JE00673,2025-09-22,2025-09-24,Q3 FY2025,Cost of Revenue,Support vendors,Service Delivery,,-10368,yes,Support vendors vendor charge
+JE00674,2025-09-04,2025-09-06,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-8640,yes,Payment processing vendor charge
+JE00675,2025-09-13,2025-09-15,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-5184,yes,Payment processing vendor charge
+JE00676,2025-09-22,2025-09-24,Q3 FY2025,Cost of Revenue,Payment processing,Service Delivery,,-3456,yes,Payment processing vendor charge
+JE00677,2025-09-03,2025-09-05,Q3 FY2025,Operating Expense,Engineering payroll,Research & Development,,-92866,yes,Monthly operating expense
+JE00678,2025-09-07,2025-09-09,Q3 FY2025,Operating Expense,Product tooling,Research & Development,,-79600,yes,Monthly operating expense
+JE00679,2025-09-11,2025-09-13,Q3 FY2025,Operating Expense,QA contractors,Research & Development,,-66333,yes,Monthly operating expense
+JE00680,2025-09-15,2025-09-17,Q3 FY2025,Operating Expense,Developer systems,Research & Development,,-53066,yes,Monthly operating expense
+JE00681,2025-09-19,2025-09-21,Q3 FY2025,Operating Expense,Research programs,Research & Development,,-39800,yes,Monthly operating expense
+JE00682,2025-09-23,2025-09-25,Q3 FY2025,Operating Expense,Product design,Research & Development,,-26535,yes,Monthly operating expense
+JE00683,2025-09-03,2025-09-05,Q3 FY2025,Operating Expense,Sales payroll,Sales & Marketing,,-72229,yes,Monthly operating expense
+JE00684,2025-09-07,2025-09-09,Q3 FY2025,Operating Expense,Demand generation,Sales & Marketing,,-61911,yes,Monthly operating expense
+JE00685,2025-09-11,2025-09-13,Q3 FY2025,Operating Expense,Events,Sales & Marketing,,-51592,yes,Monthly operating expense
+JE00686,2025-09-15,2025-09-17,Q3 FY2025,Operating Expense,Sales systems,Sales & Marketing,,-41274,yes,Monthly operating expense
+JE00687,2025-09-19,2025-09-21,Q3 FY2025,Operating Expense,Partner commissions,Sales & Marketing,,-30955,yes,Monthly operating expense
+JE00688,2025-09-23,2025-09-25,Q3 FY2025,Operating Expense,Content programs,Sales & Marketing,,-20639,yes,Monthly operating expense
+JE00689,2025-09-03,2025-09-05,Q3 FY2025,Operating Expense,Finance payroll,General & Administrative,,-41274,yes,Monthly operating expense
+JE00690,2025-09-07,2025-09-09,Q3 FY2025,Operating Expense,Legal and audit,General & Administrative,,-35377,yes,Monthly operating expense
+JE00691,2025-09-11,2025-09-13,Q3 FY2025,Operating Expense,Insurance,General & Administrative,,-29481,yes,Monthly operating expense
+JE00692,2025-09-15,2025-09-17,Q3 FY2025,Operating Expense,Corporate systems,General & Administrative,,-23585,yes,Monthly operating expense
+JE00693,2025-09-19,2025-09-21,Q3 FY2025,Operating Expense,Advisory,General & Administrative,,-17688,yes,Monthly operating expense
+JE00694,2025-09-23,2025-09-25,Q3 FY2025,Operating Expense,Banking fees,General & Administrative,,-11795,yes,Monthly operating expense
+JE00695,2025-09-03,2025-09-05,Q3 FY2025,Operating Expense,Success payroll,Customer Success,,-33535,yes,Monthly operating expense
+JE00696,2025-09-07,2025-09-09,Q3 FY2025,Operating Expense,Implementation contractors,Customer Success,,-28744,yes,Monthly operating expense
+JE00697,2025-09-11,2025-09-13,Q3 FY2025,Operating Expense,Training,Customer Success,,-23953,yes,Monthly operating expense
+JE00698,2025-09-15,2025-09-17,Q3 FY2025,Operating Expense,Support tooling,Customer Success,,-19162,yes,Monthly operating expense
+JE00699,2025-09-19,2025-09-21,Q3 FY2025,Operating Expense,Customer programs,Customer Success,,-14372,yes,Monthly operating expense
+JE00700,2025-09-23,2025-09-25,Q3 FY2025,Operating Expense,Travel,Customer Success,,-9584,yes,Monthly operating expense
+JE00701,2025-09-03,2025-09-05,Q3 FY2025,Operating Expense,People payroll,People & Workplace,,-18057,yes,Monthly operating expense
+JE00702,2025-09-07,2025-09-09,Q3 FY2025,Operating Expense,Recruiting,People & Workplace,,-15477,yes,Monthly operating expense
+JE00703,2025-09-11,2025-09-13,Q3 FY2025,Operating Expense,Office,People & Workplace,,-12898,yes,Monthly operating expense
+JE00704,2025-09-15,2025-09-17,Q3 FY2025,Operating Expense,Team events,People & Workplace,,-10318,yes,Monthly operating expense
+JE00705,2025-09-19,2025-10-02,Q3 FY2025,Operating Expense,Benefits admin,People & Workplace,,-7738,yes,September accrual posted in October; recognize in September
+JE00706,2025-09-23,2025-09-25,Q3 FY2025,Operating Expense,Equipment,People & Workplace,,-5162,yes,Monthly operating expense
+JE00707,2025-09-12,2025-09-14,Q3 FY2025,Financing,Equity proceeds,Corporate,,2610000,no,Excluded financing activity
+JE00708,2025-09-26,2025-09-28,Q3 FY2025,Operating Expense,Sandbox duplicate,Research & Development,,-12500,no,Excluded duplicate test posting

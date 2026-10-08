@@ -1,0 +1,28 @@
+decision_id,category,target_id,decision,details,evidence_ids
+DEC-001,tracker_task,WK-1002,add_active,"Add with tracker title, Cedar project, and source reference.",WK-1002
+DEC-002,tracker_task,WK-1003,decline,Do not add; Leo is covering the access review in the planning meeting.,WK-1003
+DEC-003,tracker_task,WK-1004,add_active,Add with its tracker due date and Orion context.,WK-1004
+DEC-004,tracker_task,WK-1005,add_active,Add; create the confirmed Nebula project memory described below.,WK-1005;ACT-0066
+DEC-005,tracker_task,WK-1006,add_active,Add; create the confirmed Devon Li memory described below.,WK-1006;ACT-0044
+DEC-006,tracker_task,WK-1007,decline,Do not add; archive work is owned by operations.,WK-1007
+DEC-007,tracker_task,WK-1008,add_active,"Add the task, but leave RFD unresolved rather than expanding it.",WK-1008
+DEC-008,tracker_task,WK-1015,add_active,Add with Atlas context and tracker due date.,WK-1015
+DEC-009,tracker_task,WK-1017,decline,Do not add; the survey stays with research operations.,WK-1017
+DEC-010,tracker_task,WK-1018,add_active,Add with Operations context and tracker due date.,WK-1018
+DEC-011,stale_or_completed_task,LOCAL-001,reschedule,Keep active and change the due date to 2026-08-24.,LOCAL-001;WK-1001
+DEC-012,stale_or_completed_task,LOCAL-004,reschedule,Keep active and change the due date to 2026-09-04.,LOCAL-004
+DEC-013,stale_or_completed_task,LOCAL-005,move_someday,Move out of Active into Someday.,LOCAL-005
+DEC-014,stale_or_completed_task,LOCAL-006,mark_done,Mark complete on 2026-08-17.,LOCAL-006
+DEC-015,stale_or_completed_task,LOCAL-007,keep_active,Keep active and flag its missing project context in the report.,LOCAL-007
+DEC-016,stale_or_completed_task,LOCAL-008,mark_done,Tracker is complete; mark complete on 2026-08-17.,LOCAL-008;WK-1011
+DEC-017,stale_or_completed_task,LOCAL-009,mark_done,Tracker is complete; mark complete on 2026-08-17.,LOCAL-009;WK-1012
+DEC-018,stale_or_completed_task,LOCAL-010,keep_active,Keep active: the local follow-up remains open despite tracker completion.,LOCAL-010;WK-1013
+DEC-019,activity_todo,ACT-0031,add_active,"Add 'Send revised Atlas pilot summary to Ren', due 2026-08-19, project Atlas.",ACT-0031
+DEC-020,activity_todo,ACT-0058,add_active,"Add 'Review Cedar support SLA addendum', due 2026-08-21, project Cedar.",ACT-0058
+DEC-021,activity_todo,ACT-0103,decline,Do not add; the commitment was conditional and not approved.,ACT-0103
+DEC-022,activity_todo,ACT-0117,add_active,"Add 'Share Orion cutover notes with Todd', due 2026-08-20, project Orion.",ACT-0117
+DEC-023,memory_gap,project:NEBULA,add_memory,Nebula is a partner enablement pilot in discovery; sponsor is Todd Martinez.,WK-1005;ACT-0066
+DEC-024,memory_gap,person:DEVON_LI,add_memory,Devon Li is the observability lead for Atlas telemetry review.,WK-1006;ACT-0044
+DEC-025,memory_gap,glossary:RFD,leave_unresolved,Ask Maya what RFD means; do not invent an expansion.,WK-1008;LOCAL-014
+DEC-026,memory_enrichment,project:ATLAS,apply_enrichment,Update status to launch-ready pending final security sign-off.,ACT-0024;WK-1001
+DEC-027,memory_enrichment,relationship:TODD_PRIYA,apply_enrichment,Record that Todd Martinez covers Priya Nair's Atlas security sign-off while she is away.,ACT-0088

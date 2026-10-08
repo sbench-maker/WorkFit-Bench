@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__canonical_inbox_scope",
+      "title": "Canonical live-inbox coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every non-terminal work item appears once in the inbox, cross-provider mirrors are merged, and terminal work is absent.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_inbox_scope_and_dedup"
+      ]
+    },
+    {
+      "id": "completion__priority_order",
+      "title": "Priority calculation and ordering",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The inbox order follows the supplied urgency, active-OKR, recency, impact, blocker, and tie-break rules after mirror merging.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_priority_scores_and_order"
+      ]
+    },
+    {
+      "id": "completion__execution_safety_routing",
+      "title": "Safe execution selection and repository routing",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Execution packets are the highest-ranked eligible items, use the unique configured repo and working directory, and unsafe or ambiguous items are routed to review rather than execution.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_execution_queue_safety_and_routing",
+        "test_review_flag_coverage"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__canonical_inbox_scope",
+        "title": "Canonical live-inbox coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__priority_order",
+        "title": "Priority calculation and ordering",
+        "required_score": 10
+      },
+      {
+        "id": "completion__execution_safety_routing",
+        "title": "Safe execution selection and repository routing",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

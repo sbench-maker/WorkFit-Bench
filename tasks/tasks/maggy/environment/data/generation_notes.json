@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "as_of_date": "2026-09-10",
+  "files": {
+    "issues.json": 261,
+    "authors.json": 18,
+    "repositories.json": 6,
+    "icpg_context.json": 30
+  },
+  "intentional_edge_cases": [
+    "cross-provider mirror records sharing one work_item_key",
+    "terminal, blocked, untrusted-author, unknown-author, ambiguous-route, and missing-route items",
+    "archived and unknown OKR references",
+    "ties resolved by due date, update timestamp, and stable work key"
+  ]
+}

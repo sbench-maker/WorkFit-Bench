@@ -1,0 +1,29 @@
+{
+  "sprint_length_days": 10,
+  "story_point_scale": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    13
+  ],
+  "story_ceiling_points": 5,
+  "uncertainty_domain": "low to moderate; policy and the carrier adapter contract are validated",
+  "estimate_by_capability": {
+    "CAP-BASE": 5,
+    "CAP-HIGH": 3,
+    "CAP-REG": 5,
+    "CAP-INT": 4,
+    "CAP-BULK": 5,
+    "CAP-ATTACH": 2,
+    "CAP-CARRIER": 5,
+    "CAP-DASH": 3,
+    "CAP-PERF": 3
+  },
+  "delivery_notes": [
+    "The existing email process can coexist with every slice.",
+    "The carrier adapter contract has passed a sandbox proof; an investigation spike is not required.",
+    "A basic single-file upload control already exists and can be reused in the first slice."
+  ]
+}

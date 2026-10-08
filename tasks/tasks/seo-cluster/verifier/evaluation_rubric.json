@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_and_map_integrity",
+      "title": "Plan and offline map integrity",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Both requested artifacts are readable; the plan exposes pages and links, and the HTML is a substantive interactive visualization of the requested topic without a remote script dependency.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__serp_page_targeting",
+      "title": "SERP-driven keyword dispositions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every supplied keyword has one traceable disposition, navigational terms are excluded, high-overlap variants share pages, materially different SERPs remain separate, and merged pages use defensible primary targets.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_serp_driven_keyword_dispositions"
+      ]
+    },
+    {
+      "id": "completion__hub_spoke_architecture",
+      "title": "Hub-and-spoke architecture",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The broad seed is the pillar and the derived page targets form coherent, policy-sized spoke clusters consistent with the supplied SERP-overlap bands.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_hub_and_spoke_architecture"
+      ]
+    },
+    {
+      "id": "completion__internal_link_network",
+      "title": "Usable internal-link network",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The link matrix resolves to planned pages, connects every spoke bidirectionally with the pillar, supplies enough incoming paths, uses descriptive anchors, and represents the strongest cross-cluster bridges.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_internal_link_network"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_and_map_integrity",
+        "title": "Plan and offline map integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__serp_page_targeting",
+        "title": "SERP-driven keyword dispositions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__hub_spoke_architecture",
+        "title": "Hub-and-spoke architecture",
+        "required_score": 10
+      },
+      {
+        "id": "completion__internal_link_network",
+        "title": "Usable internal-link network",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

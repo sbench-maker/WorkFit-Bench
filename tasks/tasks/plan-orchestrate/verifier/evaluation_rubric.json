@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_and_command_usability",
+      "title": "Artifact and command usability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The Markdown deliverable is readable and its emitted commands are syntactically complete, consistently use the detected plugin namespace, and contain no invented command flags or unresolved placeholders.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_command_usability"
+      ]
+    },
+    {
+      "id": "completion__plan_coverage_and_scope",
+      "title": "Plan coverage and requested scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The overview covers all seven source steps, while detail and batch commands cover steps 2 through 6 in plan order and exclude unrequested steps.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_plan_coverage_and_scope"
+      ]
+    },
+    {
+      "id": "completion__agent_chain_decisions",
+      "title": "Agent-chain decisions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each step uses a valid, deduplicated chain in the right order for its intent, including Python review and the PyTorch-specific resolver implied by the project fixture, with overview and commands agreeing.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_agent_chain_decisions"
+      ]
+    },
+    {
+      "id": "completion__prompt_fidelity",
+      "title": "Self-contained prompt fidelity",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every scoped task description is executable without reopening the plan, faithfully carries the step's concrete work and 1–3 verifiable completion conditions, and preserves only the out-of-scope boundary declared for that step.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_and_command_usability",
+        "title": "Artifact and command usability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__plan_coverage_and_scope",
+        "title": "Plan coverage and requested scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__agent_chain_decisions",
+        "title": "Agent-chain decisions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__prompt_fidelity",
+        "title": "Self-contained prompt fidelity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

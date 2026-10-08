@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__request_outcomes",
+      "title": "Request coverage and terminal outcomes",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every queued request appears exactly once and is identified as completed, failed, or timed out according to the frozen service behavior.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_request_ledger_and_terminal_states"
+      ]
+    },
+    {
+      "id": "completion__record_coverage",
+      "title": "Completed record coverage and deduplication",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Completed jobs contain the full set of unique extracted record IDs, while non-completed jobs do not masquerade as successful feeds with records.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_completed_record_coverage_and_deduplication"
+      ]
+    },
+    {
+      "id": "completion__record_fidelity",
+      "title": "Website-specific field fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Extracted product, comment, post, review, and job values match the final records returned by the service, including the latest version of repeated records.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_extracted_field_fidelity"
+      ]
+    },
+    {
+      "id": "completion__summary_and_failures",
+      "title": "Reconciled summary and failure transparency",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The compact totals reconcile with the ledger and extracted records, and each failed or timed-out request includes a usable reason.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__request_outcomes",
+        "title": "Request coverage and terminal outcomes",
+        "required_score": 10
+      },
+      {
+        "id": "completion__record_coverage",
+        "title": "Completed record coverage and deduplication",
+        "required_score": 10
+      },
+      {
+        "id": "completion__record_fidelity",
+        "title": "Website-specific field fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summary_and_failures",
+        "title": "Reconciled summary and failure transparency",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

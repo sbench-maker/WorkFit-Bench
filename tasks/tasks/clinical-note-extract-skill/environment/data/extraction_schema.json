@@ -1,0 +1,97 @@
+{
+  "test_date": {
+    "desc": "date the pulmonary function test was performed, at the precision stated",
+    "check": {
+      "kind": "date"
+    }
+  },
+  "fev1_liters": {
+    "desc": "FEV1 after bronchodilator when post-bronchodilator is reported, otherwise the stated FEV1",
+    "check": {
+      "kind": "range",
+      "min": 0.2,
+      "max": 8,
+      "unit": "L"
+    }
+  },
+  "fev1_percent_predicted": {
+    "desc": "post-bronchodilator FEV1 percent predicted when available",
+    "check": {
+      "kind": "range",
+      "min": 5,
+      "max": 150,
+      "unit": "%"
+    }
+  },
+  "fvc_liters": {
+    "desc": "FVC after bronchodilator when post-bronchodilator is reported, otherwise the stated FVC",
+    "check": {
+      "kind": "range",
+      "min": 0.3,
+      "max": 10,
+      "unit": "L"
+    }
+  },
+  "fvc_percent_predicted": {
+    "desc": "post-bronchodilator FVC percent predicted when available",
+    "check": {
+      "kind": "range",
+      "min": 5,
+      "max": 150,
+      "unit": "%"
+    }
+  },
+  "fev1_fvc_ratio": {
+    "desc": "post-bronchodilator FEV1/FVC ratio",
+    "check": {
+      "kind": "range",
+      "min": 0.2,
+      "max": 1.0
+    }
+  },
+  "dlco_percent_predicted": {
+    "desc": "DLCO percent predicted, if a readable result is stated",
+    "check": {
+      "kind": "range",
+      "min": 5,
+      "max": 150,
+      "unit": "%"
+    }
+  },
+  "bronchodilator_response": {
+    "desc": "whether a significant bronchodilator response is stated",
+    "finding": true
+  },
+  "interpretation_pattern": {
+    "desc": "obstructive, restrictive, mixed, or normal pattern as the interpreter stated it"
+  },
+  "interpretation_severity": {
+    "desc": "severity grade as the interpreter stated it"
+  },
+  "home_oxygen": {
+    "desc": "home oxygen use or consideration as stated",
+    "finding": true
+  },
+  "current_chest_pain": {
+    "desc": "what the note says about chest pain",
+    "finding": true
+  },
+  "family_emphysema": {
+    "desc": "what the note says about emphysema in a family member",
+    "finding": true
+  },
+  "primary_pulmonary_diagnosis": {
+    "desc": "primary pulmonary diagnosis in the clinician's own words, without copying a billing code as the value",
+    "finding": true,
+    "check": {
+      "kind": "terminology",
+      "via": "icd10cm"
+    }
+  },
+  "smoking_cessation_date": {
+    "desc": "smoking cessation date at the precision stated",
+    "check": {
+      "kind": "date"
+    }
+  }
+}

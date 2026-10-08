@@ -1,0 +1,212 @@
+{
+  "tier_rules": [
+    {
+      "tier": "trivial",
+      "min_points": 1,
+      "max_points": 2,
+      "stages": [
+        "implement",
+        "test"
+      ]
+    },
+    {
+      "tier": "small",
+      "min_points": 3,
+      "max_points": 4,
+      "stages": [
+        "implement",
+        "test",
+        "code_review"
+      ]
+    },
+    {
+      "tier": "medium",
+      "min_points": 5,
+      "max_points": 7,
+      "stages": [
+        "research",
+        "plan",
+        "implement",
+        "test",
+        "spec_review",
+        "code_review",
+        "review_fix"
+      ]
+    },
+    {
+      "tier": "large",
+      "min_points": 8,
+      "max_points": 99,
+      "stages": [
+        "research",
+        "plan",
+        "implement",
+        "test",
+        "spec_review",
+        "code_review",
+        "review_fix",
+        "final_review"
+      ]
+    }
+  ],
+  "scheduling": {
+    "max_parallel_agents": 4,
+    "same_wave_requires": [
+      "all_dependencies_in_earlier_waves",
+      "no_shared_planned_files"
+    ],
+    "workspace_rule": "one isolated worktree per work unit",
+    "merge_rule": "dependency order; when otherwise tied use lower work-unit number first"
+  },
+  "human_gate_rules": [
+    {
+      "gate": "plan_approval",
+      "when": "complexity_points >= 8",
+      "position": "before_implement"
+    },
+    {
+      "gate": "rollout_approval",
+      "when": "blast_radius == critical OR reversible == false",
+      "position": "before_merge"
+    }
+  ],
+  "required_merge_evidence": [
+    "all_acceptance_checks_passed",
+    "unit_pipeline_passed",
+    "required_reviews_approved",
+    "base_is_current"
+  ],
+  "limits": {
+    "max_passes": 3,
+    "max_total_agent_runs": 48,
+    "max_duration_minutes": 240,
+    "max_cost_usd": 40,
+    "completion_signal_consecutive": 2
+  },
+  "completion": {
+    "success_requires": [
+      "every_work_unit_merged",
+      "all_required_acceptance_checks_passed",
+      "post_merge_ci_passed",
+      "completion_signal_seen_twice"
+    ],
+    "stop_immediately_on": [
+      "max_passes_reached",
+      "max_total_agent_runs_reached",
+      "max_duration_reached",
+      "max_cost_reached",
+      "operator_abort"
+    ]
+  },
+  "persistent_state": {
+    "run_state_path": ".agent-loop/run-state.json",
+    "unit_notes_pattern": ".agent-loop/units/{unit_id}.md",
+    "required_run_fields": [
+      "current_pass",
+      "agent_runs",
+      "elapsed_minutes",
+      "cost_usd",
+      "completed_units",
+      "blocked_units",
+      "next_wave"
+    ],
+    "required_unit_fields": [
+      "status",
+      "attempt",
+      "last_successful_stage",
+      "evidence",
+      "next_action",
+      "failure_context"
+    ]
+  },
+  "failure_policies": [
+    {
+      "failure_type": "test_failure",
+      "action": "return_to_implement",
+      "retry_limit": 2,
+      "resume_from": "implement",
+      "capture": [
+        "failing_tests",
+        "test_output",
+        "changed_files"
+      ]
+    },
+    {
+      "failure_type": "merge_conflict",
+      "action": "evict_and_requeue_after_blockers",
+      "retry_limit": 2,
+      "resume_from": "implement",
+      "capture": [
+        "conflicting_files",
+        "base_commit",
+        "conflict_diff"
+      ]
+    },
+    {
+      "failure_type": "ci_infra_flake",
+      "action": "retry_same_gate",
+      "retry_limit": 1,
+      "resume_from": "test",
+      "capture": [
+        "run_id",
+        "runner_error",
+        "job_name"
+      ]
+    },
+    {
+      "failure_type": "review_rejection",
+      "action": "route_to_review_fix",
+      "retry_limit": 2,
+      "resume_from": "review_fix",
+      "capture": [
+        "review_findings",
+        "reviewer",
+        "affected_files"
+      ]
+    },
+    {
+      "failure_type": "agent_timeout",
+      "action": "checkpoint_then_requeue",
+      "retry_limit": 1,
+      "resume_from": "last_successful_stage",
+      "capture": [
+        "partial_changes",
+        "last_command",
+        "last_successful_stage"
+      ]
+    },
+    {
+      "failure_type": "stale_base",
+      "action": "rebase_then_retest",
+      "retry_limit": 1,
+      "resume_from": "test",
+      "capture": [
+        "old_base",
+        "new_base",
+        "changed_dependencies"
+      ]
+    },
+    {
+      "failure_type": "budget_exhausted",
+      "action": "stop_for_operator",
+      "retry_limit": 0,
+      "resume_from": "operator_decision",
+      "capture": [
+        "cost_usd",
+        "agent_runs",
+        "remaining_units"
+      ]
+    },
+    {
+      "failure_type": "duration_exhausted",
+      "action": "stop_for_operator",
+      "retry_limit": 0,
+      "resume_from": "operator_decision",
+      "capture": [
+        "elapsed_minutes",
+        "active_units",
+        "remaining_units"
+      ]
+    }
+  ]
+}

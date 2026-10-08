@@ -1,0 +1,2887 @@
+{
+  "schema_version": "1.0",
+  "generated_for": "offline structured-feed exercise",
+  "entries": [
+    {
+      "request_id": "req-amz-01",
+      "dataset_id": "gd_l7q7dkf244hwjntr0",
+      "input": {
+        "url": "https://amazon.example.invalid/dp/AMZ-FX-001"
+      },
+      "snapshot_id": "snap_req_amz_01",
+      "states": [
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "product_id": "AMZ-FX-001",
+          "title": "Northstar USB-C Field Recorder",
+          "price": 89.95,
+          "currency": "USD",
+          "rating": 4.3,
+          "review_count": 184,
+          "availability": "in_stock",
+          "url": "https://amazon.example.invalid/dp/AMZ-FX-001"
+        },
+        {
+          "product_id": "AMZ-FX-001",
+          "title": "Northstar USB-C Field Recorder",
+          "price": 89.95,
+          "currency": "USD",
+          "rating": 4.3,
+          "review_count": 188,
+          "availability": "in_stock",
+          "url": "https://amazon.example.invalid/dp/AMZ-FX-001"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-amz-02",
+      "dataset_id": "gd_l7q7dkf244hwjntr0",
+      "input": {
+        "url": "https://amazon.example.invalid/dp/AMZ-FX-002"
+      },
+      "snapshot_id": "snap_req_amz_02",
+      "states": [
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "product_id": "AMZ-FX-002",
+          "title": "Juniper Compact LED Panel",
+          "price": 64.5,
+          "currency": "USD",
+          "rating": 4.6,
+          "review_count": 92,
+          "availability": "low_stock",
+          "url": "https://amazon.example.invalid/dp/AMZ-FX-002"
+        },
+        {
+          "product_id": "AMZ-FX-002",
+          "title": "Juniper Compact LED Panel",
+          "price": 64.5,
+          "currency": "USD",
+          "rating": 4.6,
+          "review_count": 96,
+          "availability": "low_stock",
+          "url": "https://amazon.example.invalid/dp/AMZ-FX-002"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-amz-03",
+      "dataset_id": "gd_l7q7dkf244hwjntr0",
+      "input": {
+        "url": "https://amazon.example.invalid/dp/AMZ-FX-003"
+      },
+      "snapshot_id": "snap_req_amz_03",
+      "states": [
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "product_id": "AMZ-FX-003",
+          "title": "Mariner Wireless Lavalier Kit",
+          "price": 119.0,
+          "currency": "USD",
+          "rating": 4.1,
+          "review_count": 311,
+          "availability": "in_stock",
+          "url": "https://amazon.example.invalid/dp/AMZ-FX-003"
+        },
+        {
+          "product_id": "AMZ-FX-003",
+          "title": "Mariner Wireless Lavalier Kit",
+          "price": 119.0,
+          "currency": "USD",
+          "rating": 4.1,
+          "review_count": 315,
+          "availability": "in_stock",
+          "url": "https://amazon.example.invalid/dp/AMZ-FX-003"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-yt-01",
+      "dataset_id": "gd_lk9q0ew71spt1mxywf",
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-01",
+        "num_of_comments": "32"
+      },
+      "snapshot_id": "snap_req_yt_01",
+      "states": [
+        "starting",
+        "building",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "comment_id": "Y01-C001",
+          "video_id": "launch-cut-01",
+          "author_handle": "@studio_moss01",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 10,
+          "published_at": "2026-08-04T09:07:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C002",
+          "video_id": "launch-cut-01",
+          "author_handle": "@cutroom_lee02",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 17,
+          "published_at": "2026-08-05T10:14:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C003",
+          "video_id": "launch-cut-01",
+          "author_handle": "@lenslogic03",
+          "text": "Could you add captions for the setup section?",
+          "likes": 24,
+          "published_at": "2026-08-06T11:21:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C004",
+          "video_id": "launch-cut-01",
+          "author_handle": "@pixeltrail04",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 31,
+          "published_at": "2026-08-07T12:28:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C005",
+          "video_id": "launch-cut-01",
+          "author_handle": "@framefinder05",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 38,
+          "published_at": "2026-08-08T13:35:00Z",
+          "parent_comment_id": "Y01-C004"
+        },
+        {
+          "comment_id": "Y01-C006",
+          "video_id": "launch-cut-01",
+          "author_handle": "@audio_almanac06",
+          "text": "Could you add captions for the setup section?",
+          "likes": 4,
+          "published_at": "2026-08-09T14:42:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C007",
+          "video_id": "launch-cut-01",
+          "author_handle": "@studio_moss07",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 11,
+          "published_at": "2026-08-10T15:49:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C008",
+          "video_id": "launch-cut-01",
+          "author_handle": "@cutroom_lee08",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 18,
+          "published_at": "2026-08-11T16:56:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C009",
+          "video_id": "launch-cut-01",
+          "author_handle": "@lenslogic09",
+          "text": "Could you add captions for the setup section?",
+          "likes": 25,
+          "published_at": "2026-08-03T17:03:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C010",
+          "video_id": "launch-cut-01",
+          "author_handle": "@pixeltrail10",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 32,
+          "published_at": "2026-08-04T18:10:00Z",
+          "parent_comment_id": "Y01-C009"
+        },
+        {
+          "comment_id": "Y01-C011",
+          "video_id": "launch-cut-01",
+          "author_handle": "@framefinder11",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 39,
+          "published_at": "2026-08-05T08:17:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C012",
+          "video_id": "launch-cut-01",
+          "author_handle": "@audio_almanac12",
+          "text": "Could you add captions for the setup section?",
+          "likes": 5,
+          "published_at": "2026-08-06T09:24:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C013",
+          "video_id": "launch-cut-01",
+          "author_handle": "@studio_moss13",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 12,
+          "published_at": "2026-08-07T10:31:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C014",
+          "video_id": "launch-cut-01",
+          "author_handle": "@cutroom_lee14",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 19,
+          "published_at": "2026-08-08T11:38:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C015",
+          "video_id": "launch-cut-01",
+          "author_handle": "@lenslogic15",
+          "text": "Could you add captions for the setup section?",
+          "likes": 26,
+          "published_at": "2026-08-09T12:45:00Z",
+          "parent_comment_id": "Y01-C014"
+        },
+        {
+          "comment_id": "Y01-C016",
+          "video_id": "launch-cut-01",
+          "author_handle": "@pixeltrail16",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 33,
+          "published_at": "2026-08-10T13:52:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C017",
+          "video_id": "launch-cut-01",
+          "author_handle": "@framefinder17",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 40,
+          "published_at": "2026-08-11T14:59:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C018",
+          "video_id": "launch-cut-01",
+          "author_handle": "@audio_almanac18",
+          "text": "Could you add captions for the setup section?",
+          "likes": 6,
+          "published_at": "2026-08-03T15:06:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C019",
+          "video_id": "launch-cut-01",
+          "author_handle": "@studio_moss19",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 13,
+          "published_at": "2026-08-04T16:13:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C020",
+          "video_id": "launch-cut-01",
+          "author_handle": "@cutroom_lee20",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 20,
+          "published_at": "2026-08-05T17:20:00Z",
+          "parent_comment_id": "Y01-C019"
+        },
+        {
+          "comment_id": "Y01-C021",
+          "video_id": "launch-cut-01",
+          "author_handle": "@lenslogic21",
+          "text": "Could you add captions for the setup section?",
+          "likes": 27,
+          "published_at": "2026-08-06T18:27:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C022",
+          "video_id": "launch-cut-01",
+          "author_handle": "@pixeltrail22",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 34,
+          "published_at": "2026-08-07T08:34:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C023",
+          "video_id": "launch-cut-01",
+          "author_handle": "@framefinder23",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 0,
+          "published_at": "2026-08-08T09:41:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C024",
+          "video_id": "launch-cut-01",
+          "author_handle": "@audio_almanac24",
+          "text": "Could you add captions for the setup section?",
+          "likes": 7,
+          "published_at": "2026-08-09T10:48:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C025",
+          "video_id": "launch-cut-01",
+          "author_handle": "@studio_moss25",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 14,
+          "published_at": "2026-08-10T11:55:00Z",
+          "parent_comment_id": "Y01-C024"
+        },
+        {
+          "comment_id": "Y01-C026",
+          "video_id": "launch-cut-01",
+          "author_handle": "@cutroom_lee26",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 21,
+          "published_at": "2026-08-11T12:02:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C027",
+          "video_id": "launch-cut-01",
+          "author_handle": "@lenslogic27",
+          "text": "Could you add captions for the setup section?",
+          "likes": 28,
+          "published_at": "2026-08-03T13:09:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C028",
+          "video_id": "launch-cut-01",
+          "author_handle": "@pixeltrail28",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 35,
+          "published_at": "2026-08-04T14:16:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C029",
+          "video_id": "launch-cut-01",
+          "author_handle": "@framefinder29",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 1,
+          "published_at": "2026-08-05T15:23:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C030",
+          "video_id": "launch-cut-01",
+          "author_handle": "@audio_almanac30",
+          "text": "Could you add captions for the setup section?",
+          "likes": 8,
+          "published_at": "2026-08-06T16:30:00Z",
+          "parent_comment_id": "Y01-C029"
+        },
+        {
+          "comment_id": "Y01-C031",
+          "video_id": "launch-cut-01",
+          "author_handle": "@studio_moss31",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 15,
+          "published_at": "2026-08-07T17:37:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C032",
+          "video_id": "launch-cut-01",
+          "author_handle": "@cutroom_lee32",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 22,
+          "published_at": "2026-08-08T18:44:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y01-C005",
+          "video_id": "launch-cut-01",
+          "author_handle": "@framefinder05",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 47,
+          "published_at": "2026-08-08T13:35:00Z",
+          "parent_comment_id": "Y01-C004"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-yt-02",
+      "dataset_id": "gd_lk9q0ew71spt1mxywf",
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-02",
+        "num_of_comments": "32"
+      },
+      "snapshot_id": "snap_req_yt_02",
+      "states": [
+        "starting",
+        "building",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "comment_id": "Y02-C001",
+          "video_id": "launch-cut-02",
+          "author_handle": "@cutroom_lee01",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 13,
+          "published_at": "2026-08-05T09:07:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C002",
+          "video_id": "launch-cut-02",
+          "author_handle": "@lenslogic02",
+          "text": "The battery comparison was useful.",
+          "likes": 20,
+          "published_at": "2026-08-06T10:14:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C003",
+          "video_id": "launch-cut-02",
+          "author_handle": "@pixeltrail03",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 27,
+          "published_at": "2026-08-07T11:21:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C004",
+          "video_id": "launch-cut-02",
+          "author_handle": "@framefinder04",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 34,
+          "published_at": "2026-08-08T12:28:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C005",
+          "video_id": "launch-cut-02",
+          "author_handle": "@audio_almanac05",
+          "text": "The battery comparison was useful.",
+          "likes": 0,
+          "published_at": "2026-08-09T13:35:00Z",
+          "parent_comment_id": "Y02-C004"
+        },
+        {
+          "comment_id": "Y02-C006",
+          "video_id": "launch-cut-02",
+          "author_handle": "@studio_moss06",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 7,
+          "published_at": "2026-08-10T14:42:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C007",
+          "video_id": "launch-cut-02",
+          "author_handle": "@cutroom_lee07",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 14,
+          "published_at": "2026-08-11T15:49:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C008",
+          "video_id": "launch-cut-02",
+          "author_handle": "@lenslogic08",
+          "text": "The battery comparison was useful.",
+          "likes": 21,
+          "published_at": "2026-08-12T16:56:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C009",
+          "video_id": "launch-cut-02",
+          "author_handle": "@pixeltrail09",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 28,
+          "published_at": "2026-08-04T17:03:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C010",
+          "video_id": "launch-cut-02",
+          "author_handle": "@framefinder10",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 35,
+          "published_at": "2026-08-05T18:10:00Z",
+          "parent_comment_id": "Y02-C009"
+        },
+        {
+          "comment_id": "Y02-C011",
+          "video_id": "launch-cut-02",
+          "author_handle": "@audio_almanac11",
+          "text": "The battery comparison was useful.",
+          "likes": 1,
+          "published_at": "2026-08-06T08:17:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C012",
+          "video_id": "launch-cut-02",
+          "author_handle": "@studio_moss12",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 8,
+          "published_at": "2026-08-07T09:24:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C013",
+          "video_id": "launch-cut-02",
+          "author_handle": "@cutroom_lee13",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 15,
+          "published_at": "2026-08-08T10:31:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C014",
+          "video_id": "launch-cut-02",
+          "author_handle": "@lenslogic14",
+          "text": "The battery comparison was useful.",
+          "likes": 22,
+          "published_at": "2026-08-09T11:38:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C015",
+          "video_id": "launch-cut-02",
+          "author_handle": "@pixeltrail15",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 29,
+          "published_at": "2026-08-10T12:45:00Z",
+          "parent_comment_id": "Y02-C014"
+        },
+        {
+          "comment_id": "Y02-C016",
+          "video_id": "launch-cut-02",
+          "author_handle": "@framefinder16",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 36,
+          "published_at": "2026-08-11T13:52:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C017",
+          "video_id": "launch-cut-02",
+          "author_handle": "@audio_almanac17",
+          "text": "The battery comparison was useful.",
+          "likes": 2,
+          "published_at": "2026-08-12T14:59:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C018",
+          "video_id": "launch-cut-02",
+          "author_handle": "@studio_moss18",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 9,
+          "published_at": "2026-08-04T15:06:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C019",
+          "video_id": "launch-cut-02",
+          "author_handle": "@cutroom_lee19",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 16,
+          "published_at": "2026-08-05T16:13:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C020",
+          "video_id": "launch-cut-02",
+          "author_handle": "@lenslogic20",
+          "text": "The battery comparison was useful.",
+          "likes": 23,
+          "published_at": "2026-08-06T17:20:00Z",
+          "parent_comment_id": "Y02-C019"
+        },
+        {
+          "comment_id": "Y02-C021",
+          "video_id": "launch-cut-02",
+          "author_handle": "@pixeltrail21",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 30,
+          "published_at": "2026-08-07T18:27:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C022",
+          "video_id": "launch-cut-02",
+          "author_handle": "@framefinder22",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 37,
+          "published_at": "2026-08-08T08:34:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C023",
+          "video_id": "launch-cut-02",
+          "author_handle": "@audio_almanac23",
+          "text": "The battery comparison was useful.",
+          "likes": 3,
+          "published_at": "2026-08-09T09:41:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C024",
+          "video_id": "launch-cut-02",
+          "author_handle": "@studio_moss24",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 10,
+          "published_at": "2026-08-10T10:48:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C025",
+          "video_id": "launch-cut-02",
+          "author_handle": "@cutroom_lee25",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 17,
+          "published_at": "2026-08-11T11:55:00Z",
+          "parent_comment_id": "Y02-C024"
+        },
+        {
+          "comment_id": "Y02-C026",
+          "video_id": "launch-cut-02",
+          "author_handle": "@lenslogic26",
+          "text": "The battery comparison was useful.",
+          "likes": 24,
+          "published_at": "2026-08-12T12:02:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C027",
+          "video_id": "launch-cut-02",
+          "author_handle": "@pixeltrail27",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 31,
+          "published_at": "2026-08-04T13:09:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C028",
+          "video_id": "launch-cut-02",
+          "author_handle": "@framefinder28",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 38,
+          "published_at": "2026-08-05T14:16:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C029",
+          "video_id": "launch-cut-02",
+          "author_handle": "@audio_almanac29",
+          "text": "The battery comparison was useful.",
+          "likes": 4,
+          "published_at": "2026-08-06T15:23:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C030",
+          "video_id": "launch-cut-02",
+          "author_handle": "@studio_moss30",
+          "text": "The field test convinced me to try this workflow.",
+          "likes": 11,
+          "published_at": "2026-08-07T16:30:00Z",
+          "parent_comment_id": "Y02-C029"
+        },
+        {
+          "comment_id": "Y02-C031",
+          "video_id": "launch-cut-02",
+          "author_handle": "@cutroom_lee31",
+          "text": "I would like a follow-up on the mobile rig.",
+          "likes": 18,
+          "published_at": "2026-08-08T17:37:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C032",
+          "video_id": "launch-cut-02",
+          "author_handle": "@lenslogic32",
+          "text": "The battery comparison was useful.",
+          "likes": 25,
+          "published_at": "2026-08-09T18:44:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y02-C005",
+          "video_id": "launch-cut-02",
+          "author_handle": "@audio_almanac05",
+          "text": "The battery comparison was useful.",
+          "likes": 9,
+          "published_at": "2026-08-09T13:35:00Z",
+          "parent_comment_id": "Y02-C004"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-yt-03",
+      "dataset_id": "gd_lk9q0ew71spt1mxywf",
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-03",
+        "num_of_comments": "32"
+      },
+      "snapshot_id": "snap_req_yt_03",
+      "states": [
+        "starting",
+        "building",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "comment_id": "Y03-C001",
+          "video_id": "launch-cut-03",
+          "author_handle": "@lenslogic01",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 16,
+          "published_at": "2026-08-06T09:07:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C002",
+          "video_id": "launch-cut-03",
+          "author_handle": "@pixeltrail02",
+          "text": "Could you add captions for the setup section?",
+          "likes": 23,
+          "published_at": "2026-08-07T10:14:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C003",
+          "video_id": "launch-cut-03",
+          "author_handle": "@framefinder03",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 30,
+          "published_at": "2026-08-08T11:21:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C004",
+          "video_id": "launch-cut-03",
+          "author_handle": "@audio_almanac04",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 37,
+          "published_at": "2026-08-09T12:28:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C005",
+          "video_id": "launch-cut-03",
+          "author_handle": "@studio_moss05",
+          "text": "Could you add captions for the setup section?",
+          "likes": 3,
+          "published_at": "2026-08-10T13:35:00Z",
+          "parent_comment_id": "Y03-C004"
+        },
+        {
+          "comment_id": "Y03-C006",
+          "video_id": "launch-cut-03",
+          "author_handle": "@cutroom_lee06",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 10,
+          "published_at": "2026-08-11T14:42:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C007",
+          "video_id": "launch-cut-03",
+          "author_handle": "@lenslogic07",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 17,
+          "published_at": "2026-08-12T15:49:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C008",
+          "video_id": "launch-cut-03",
+          "author_handle": "@pixeltrail08",
+          "text": "Could you add captions for the setup section?",
+          "likes": 24,
+          "published_at": "2026-08-13T16:56:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C009",
+          "video_id": "launch-cut-03",
+          "author_handle": "@framefinder09",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 31,
+          "published_at": "2026-08-05T17:03:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C010",
+          "video_id": "launch-cut-03",
+          "author_handle": "@audio_almanac10",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 38,
+          "published_at": "2026-08-06T18:10:00Z",
+          "parent_comment_id": "Y03-C009"
+        },
+        {
+          "comment_id": "Y03-C011",
+          "video_id": "launch-cut-03",
+          "author_handle": "@studio_moss11",
+          "text": "Could you add captions for the setup section?",
+          "likes": 4,
+          "published_at": "2026-08-07T08:17:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C012",
+          "video_id": "launch-cut-03",
+          "author_handle": "@cutroom_lee12",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 11,
+          "published_at": "2026-08-08T09:24:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C013",
+          "video_id": "launch-cut-03",
+          "author_handle": "@lenslogic13",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 18,
+          "published_at": "2026-08-09T10:31:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C014",
+          "video_id": "launch-cut-03",
+          "author_handle": "@pixeltrail14",
+          "text": "Could you add captions for the setup section?",
+          "likes": 25,
+          "published_at": "2026-08-10T11:38:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C015",
+          "video_id": "launch-cut-03",
+          "author_handle": "@framefinder15",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 32,
+          "published_at": "2026-08-11T12:45:00Z",
+          "parent_comment_id": "Y03-C014"
+        },
+        {
+          "comment_id": "Y03-C016",
+          "video_id": "launch-cut-03",
+          "author_handle": "@audio_almanac16",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 39,
+          "published_at": "2026-08-12T13:52:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C017",
+          "video_id": "launch-cut-03",
+          "author_handle": "@studio_moss17",
+          "text": "Could you add captions for the setup section?",
+          "likes": 5,
+          "published_at": "2026-08-13T14:59:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C018",
+          "video_id": "launch-cut-03",
+          "author_handle": "@cutroom_lee18",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 12,
+          "published_at": "2026-08-05T15:06:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C019",
+          "video_id": "launch-cut-03",
+          "author_handle": "@lenslogic19",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 19,
+          "published_at": "2026-08-06T16:13:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C020",
+          "video_id": "launch-cut-03",
+          "author_handle": "@pixeltrail20",
+          "text": "Could you add captions for the setup section?",
+          "likes": 26,
+          "published_at": "2026-08-07T17:20:00Z",
+          "parent_comment_id": "Y03-C019"
+        },
+        {
+          "comment_id": "Y03-C021",
+          "video_id": "launch-cut-03",
+          "author_handle": "@framefinder21",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 33,
+          "published_at": "2026-08-08T18:27:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C022",
+          "video_id": "launch-cut-03",
+          "author_handle": "@audio_almanac22",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 40,
+          "published_at": "2026-08-09T08:34:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C023",
+          "video_id": "launch-cut-03",
+          "author_handle": "@studio_moss23",
+          "text": "Could you add captions for the setup section?",
+          "likes": 6,
+          "published_at": "2026-08-10T09:41:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C024",
+          "video_id": "launch-cut-03",
+          "author_handle": "@cutroom_lee24",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 13,
+          "published_at": "2026-08-11T10:48:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C025",
+          "video_id": "launch-cut-03",
+          "author_handle": "@lenslogic25",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 20,
+          "published_at": "2026-08-12T11:55:00Z",
+          "parent_comment_id": "Y03-C024"
+        },
+        {
+          "comment_id": "Y03-C026",
+          "video_id": "launch-cut-03",
+          "author_handle": "@pixeltrail26",
+          "text": "Could you add captions for the setup section?",
+          "likes": 27,
+          "published_at": "2026-08-13T12:02:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C027",
+          "video_id": "launch-cut-03",
+          "author_handle": "@framefinder27",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 34,
+          "published_at": "2026-08-05T13:09:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C028",
+          "video_id": "launch-cut-03",
+          "author_handle": "@audio_almanac28",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 0,
+          "published_at": "2026-08-06T14:16:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C029",
+          "video_id": "launch-cut-03",
+          "author_handle": "@studio_moss29",
+          "text": "Could you add captions for the setup section?",
+          "likes": 7,
+          "published_at": "2026-08-07T15:23:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C030",
+          "video_id": "launch-cut-03",
+          "author_handle": "@cutroom_lee30",
+          "text": "Audio dips briefly near the middle, but the demo is clear.",
+          "likes": 14,
+          "published_at": "2026-08-08T16:30:00Z",
+          "parent_comment_id": "Y03-C029"
+        },
+        {
+          "comment_id": "Y03-C031",
+          "video_id": "launch-cut-03",
+          "author_handle": "@lenslogic31",
+          "text": "The color examples make the trade-off easy to understand.",
+          "likes": 21,
+          "published_at": "2026-08-09T17:37:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C032",
+          "video_id": "launch-cut-03",
+          "author_handle": "@pixeltrail32",
+          "text": "Could you add captions for the setup section?",
+          "likes": 28,
+          "published_at": "2026-08-10T18:44:00Z",
+          "parent_comment_id": null
+        },
+        {
+          "comment_id": "Y03-C005",
+          "video_id": "launch-cut-03",
+          "author_handle": "@studio_moss05",
+          "text": "Could you add captions for the setup section?",
+          "likes": 12,
+          "published_at": "2026-08-10T13:35:00Z",
+          "parent_comment_id": "Y03-C004"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-yt-04",
+      "dataset_id": "gd_lk9q0ew71spt1mxywf",
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-04",
+        "num_of_comments": "32"
+      },
+      "snapshot_id": "snap_req_yt_04",
+      "states": [
+        "building",
+        "running"
+      ],
+      "terminal": "timeout",
+      "records": [],
+      "error": "collection did not finish before the polling limit"
+    },
+    {
+      "request_id": "req-ig-01",
+      "dataset_id": "gd_lk5ns7kz21pck8jpis",
+      "input": {
+        "url": "https://instagram.example.invalid/fictional_studio_1/"
+      },
+      "snapshot_id": "snap_req_ig_01",
+      "states": [
+        "starting",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "post_id": "IG01-P001",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "video",
+          "likes": 101,
+          "comments_count": 14,
+          "published_at": "2026-08-02T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P001"
+        },
+        {
+          "post_id": "IG01-P002",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 138,
+          "comments_count": 25,
+          "published_at": "2026-08-03T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P002"
+        },
+        {
+          "post_id": "IG01-P003",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 175,
+          "comments_count": 2,
+          "published_at": "2026-08-04T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P003"
+        },
+        {
+          "post_id": "IG01-P004",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 212,
+          "comments_count": 13,
+          "published_at": "2026-08-05T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P004"
+        },
+        {
+          "post_id": "IG01-P005",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 249,
+          "comments_count": 24,
+          "published_at": "2026-08-06T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P005"
+        },
+        {
+          "post_id": "IG01-P006",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "carousel",
+          "likes": 286,
+          "comments_count": 35,
+          "published_at": "2026-08-07T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P006"
+        },
+        {
+          "post_id": "IG01-P007",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "video",
+          "likes": 323,
+          "comments_count": 12,
+          "published_at": "2026-08-08T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P007"
+        },
+        {
+          "post_id": "IG01-P008",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "image",
+          "likes": 360,
+          "comments_count": 23,
+          "published_at": "2026-08-09T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P008"
+        },
+        {
+          "post_id": "IG01-P009",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "carousel",
+          "likes": 397,
+          "comments_count": 34,
+          "published_at": "2026-08-10T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P009"
+        },
+        {
+          "post_id": "IG01-P010",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "video",
+          "likes": 434,
+          "comments_count": 11,
+          "published_at": "2026-08-11T09:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P010"
+        },
+        {
+          "post_id": "IG01-P011",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "image",
+          "likes": 61,
+          "comments_count": 22,
+          "published_at": "2026-08-12T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P011"
+        },
+        {
+          "post_id": "IG01-P012",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "carousel",
+          "likes": 98,
+          "comments_count": 33,
+          "published_at": "2026-08-13T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P012"
+        },
+        {
+          "post_id": "IG01-P013",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "video",
+          "likes": 135,
+          "comments_count": 10,
+          "published_at": "2026-08-14T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P013"
+        },
+        {
+          "post_id": "IG01-P014",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 172,
+          "comments_count": 21,
+          "published_at": "2026-08-15T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P014"
+        },
+        {
+          "post_id": "IG01-P015",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 209,
+          "comments_count": 32,
+          "published_at": "2026-08-16T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P015"
+        },
+        {
+          "post_id": "IG01-P016",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 246,
+          "comments_count": 9,
+          "published_at": "2026-08-17T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P016"
+        },
+        {
+          "post_id": "IG01-P017",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 283,
+          "comments_count": 20,
+          "published_at": "2026-08-18T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P017"
+        },
+        {
+          "post_id": "IG01-P018",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "carousel",
+          "likes": 320,
+          "comments_count": 31,
+          "published_at": "2026-08-19T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P018"
+        },
+        {
+          "post_id": "IG01-P019",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "video",
+          "likes": 357,
+          "comments_count": 8,
+          "published_at": "2026-08-20T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P019"
+        },
+        {
+          "post_id": "IG01-P020",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "image",
+          "likes": 394,
+          "comments_count": 19,
+          "published_at": "2026-08-21T09:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P020"
+        },
+        {
+          "post_id": "IG01-P021",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "carousel",
+          "likes": 431,
+          "comments_count": 30,
+          "published_at": "2026-08-22T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P021"
+        },
+        {
+          "post_id": "IG01-P022",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "video",
+          "likes": 58,
+          "comments_count": 7,
+          "published_at": "2026-08-23T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P022"
+        },
+        {
+          "post_id": "IG01-P023",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "image",
+          "likes": 95,
+          "comments_count": 18,
+          "published_at": "2026-08-24T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P023"
+        },
+        {
+          "post_id": "IG01-P024",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "carousel",
+          "likes": 132,
+          "comments_count": 29,
+          "published_at": "2026-08-01T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P024"
+        },
+        {
+          "post_id": "IG01-P025",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "video",
+          "likes": 169,
+          "comments_count": 6,
+          "published_at": "2026-08-02T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P025"
+        },
+        {
+          "post_id": "IG01-P026",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 206,
+          "comments_count": 17,
+          "published_at": "2026-08-03T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P026"
+        },
+        {
+          "post_id": "IG01-P027",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 243,
+          "comments_count": 28,
+          "published_at": "2026-08-04T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P027"
+        },
+        {
+          "post_id": "IG01-P028",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 280,
+          "comments_count": 5,
+          "published_at": "2026-08-05T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P028"
+        },
+        {
+          "post_id": "IG01-P009",
+          "profile_handle": "@fictional_studio_1",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "carousel",
+          "likes": 409,
+          "comments_count": 34,
+          "published_at": "2026-08-10T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG01-P009"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-ig-02",
+      "dataset_id": "gd_lk5ns7kz21pck8jpis",
+      "input": {
+        "url": "https://instagram.example.invalid/fictional_studio_2/"
+      },
+      "snapshot_id": "snap_req_ig_02",
+      "states": [
+        "starting",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "post_id": "IG02-P001",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 120,
+          "comments_count": 15,
+          "published_at": "2026-08-02T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P001"
+        },
+        {
+          "post_id": "IG02-P002",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 157,
+          "comments_count": 26,
+          "published_at": "2026-08-03T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P002"
+        },
+        {
+          "post_id": "IG02-P003",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 194,
+          "comments_count": 3,
+          "published_at": "2026-08-04T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P003"
+        },
+        {
+          "post_id": "IG02-P004",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 231,
+          "comments_count": 14,
+          "published_at": "2026-08-05T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P004"
+        },
+        {
+          "post_id": "IG02-P005",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "carousel",
+          "likes": 268,
+          "comments_count": 25,
+          "published_at": "2026-08-06T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P005"
+        },
+        {
+          "post_id": "IG02-P006",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "video",
+          "likes": 305,
+          "comments_count": 2,
+          "published_at": "2026-08-07T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P006"
+        },
+        {
+          "post_id": "IG02-P007",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "image",
+          "likes": 342,
+          "comments_count": 13,
+          "published_at": "2026-08-08T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P007"
+        },
+        {
+          "post_id": "IG02-P008",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "carousel",
+          "likes": 379,
+          "comments_count": 24,
+          "published_at": "2026-08-09T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P008"
+        },
+        {
+          "post_id": "IG02-P009",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "video",
+          "likes": 416,
+          "comments_count": 35,
+          "published_at": "2026-08-10T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P009"
+        },
+        {
+          "post_id": "IG02-P010",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "image",
+          "likes": 453,
+          "comments_count": 12,
+          "published_at": "2026-08-11T09:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P010"
+        },
+        {
+          "post_id": "IG02-P011",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "carousel",
+          "likes": 80,
+          "comments_count": 23,
+          "published_at": "2026-08-12T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P011"
+        },
+        {
+          "post_id": "IG02-P012",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "video",
+          "likes": 117,
+          "comments_count": 34,
+          "published_at": "2026-08-13T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P012"
+        },
+        {
+          "post_id": "IG02-P013",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 154,
+          "comments_count": 11,
+          "published_at": "2026-08-14T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P013"
+        },
+        {
+          "post_id": "IG02-P014",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 191,
+          "comments_count": 22,
+          "published_at": "2026-08-15T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P014"
+        },
+        {
+          "post_id": "IG02-P015",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 228,
+          "comments_count": 33,
+          "published_at": "2026-08-16T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P015"
+        },
+        {
+          "post_id": "IG02-P016",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 265,
+          "comments_count": 10,
+          "published_at": "2026-08-17T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P016"
+        },
+        {
+          "post_id": "IG02-P017",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "carousel",
+          "likes": 302,
+          "comments_count": 21,
+          "published_at": "2026-08-18T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P017"
+        },
+        {
+          "post_id": "IG02-P018",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "video",
+          "likes": 339,
+          "comments_count": 32,
+          "published_at": "2026-08-19T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P018"
+        },
+        {
+          "post_id": "IG02-P019",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "image",
+          "likes": 376,
+          "comments_count": 9,
+          "published_at": "2026-08-20T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P019"
+        },
+        {
+          "post_id": "IG02-P020",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "carousel",
+          "likes": 413,
+          "comments_count": 20,
+          "published_at": "2026-08-21T09:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P020"
+        },
+        {
+          "post_id": "IG02-P021",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "video",
+          "likes": 450,
+          "comments_count": 31,
+          "published_at": "2026-08-22T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P021"
+        },
+        {
+          "post_id": "IG02-P022",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "image",
+          "likes": 77,
+          "comments_count": 8,
+          "published_at": "2026-08-23T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P022"
+        },
+        {
+          "post_id": "IG02-P023",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "carousel",
+          "likes": 114,
+          "comments_count": 19,
+          "published_at": "2026-08-24T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P023"
+        },
+        {
+          "post_id": "IG02-P024",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "video",
+          "likes": 151,
+          "comments_count": 30,
+          "published_at": "2026-08-01T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P024"
+        },
+        {
+          "post_id": "IG02-P025",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 188,
+          "comments_count": 7,
+          "published_at": "2026-08-02T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P025"
+        },
+        {
+          "post_id": "IG02-P026",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 225,
+          "comments_count": 18,
+          "published_at": "2026-08-03T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P026"
+        },
+        {
+          "post_id": "IG02-P027",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 262,
+          "comments_count": 29,
+          "published_at": "2026-08-04T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P027"
+        },
+        {
+          "post_id": "IG02-P028",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 299,
+          "comments_count": 6,
+          "published_at": "2026-08-05T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P028"
+        },
+        {
+          "post_id": "IG02-P009",
+          "profile_handle": "@fictional_studio_2",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "video",
+          "likes": 428,
+          "comments_count": 35,
+          "published_at": "2026-08-10T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG02-P009"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-ig-03",
+      "dataset_id": "gd_lk5ns7kz21pck8jpis",
+      "input": {
+        "url": "https://instagram.example.invalid/fictional_studio_3/"
+      },
+      "snapshot_id": "snap_req_ig_03",
+      "states": [
+        "starting",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "post_id": "IG03-P001",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 139,
+          "comments_count": 16,
+          "published_at": "2026-08-02T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P001"
+        },
+        {
+          "post_id": "IG03-P002",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 176,
+          "comments_count": 27,
+          "published_at": "2026-08-03T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P002"
+        },
+        {
+          "post_id": "IG03-P003",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 213,
+          "comments_count": 4,
+          "published_at": "2026-08-04T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P003"
+        },
+        {
+          "post_id": "IG03-P004",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "carousel",
+          "likes": 250,
+          "comments_count": 15,
+          "published_at": "2026-08-05T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P004"
+        },
+        {
+          "post_id": "IG03-P005",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "video",
+          "likes": 287,
+          "comments_count": 26,
+          "published_at": "2026-08-06T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P005"
+        },
+        {
+          "post_id": "IG03-P006",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "image",
+          "likes": 324,
+          "comments_count": 3,
+          "published_at": "2026-08-07T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P006"
+        },
+        {
+          "post_id": "IG03-P007",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "carousel",
+          "likes": 361,
+          "comments_count": 14,
+          "published_at": "2026-08-08T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P007"
+        },
+        {
+          "post_id": "IG03-P008",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "video",
+          "likes": 398,
+          "comments_count": 25,
+          "published_at": "2026-08-09T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P008"
+        },
+        {
+          "post_id": "IG03-P009",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "image",
+          "likes": 435,
+          "comments_count": 2,
+          "published_at": "2026-08-10T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P009"
+        },
+        {
+          "post_id": "IG03-P010",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "carousel",
+          "likes": 62,
+          "comments_count": 13,
+          "published_at": "2026-08-11T09:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P010"
+        },
+        {
+          "post_id": "IG03-P011",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "video",
+          "likes": 99,
+          "comments_count": 24,
+          "published_at": "2026-08-12T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P011"
+        },
+        {
+          "post_id": "IG03-P012",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 136,
+          "comments_count": 35,
+          "published_at": "2026-08-13T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P012"
+        },
+        {
+          "post_id": "IG03-P013",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 173,
+          "comments_count": 12,
+          "published_at": "2026-08-14T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P013"
+        },
+        {
+          "post_id": "IG03-P014",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 210,
+          "comments_count": 23,
+          "published_at": "2026-08-15T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P014"
+        },
+        {
+          "post_id": "IG03-P015",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 247,
+          "comments_count": 34,
+          "published_at": "2026-08-16T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P015"
+        },
+        {
+          "post_id": "IG03-P016",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "carousel",
+          "likes": 284,
+          "comments_count": 11,
+          "published_at": "2026-08-17T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P016"
+        },
+        {
+          "post_id": "IG03-P017",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "video",
+          "likes": 321,
+          "comments_count": 22,
+          "published_at": "2026-08-18T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P017"
+        },
+        {
+          "post_id": "IG03-P018",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "image",
+          "likes": 358,
+          "comments_count": 33,
+          "published_at": "2026-08-19T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P018"
+        },
+        {
+          "post_id": "IG03-P019",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "carousel",
+          "likes": 395,
+          "comments_count": 10,
+          "published_at": "2026-08-20T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P019"
+        },
+        {
+          "post_id": "IG03-P020",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "video",
+          "likes": 432,
+          "comments_count": 21,
+          "published_at": "2026-08-21T09:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P020"
+        },
+        {
+          "post_id": "IG03-P021",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "image",
+          "likes": 59,
+          "comments_count": 32,
+          "published_at": "2026-08-22T10:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P021"
+        },
+        {
+          "post_id": "IG03-P022",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "carousel",
+          "likes": 96,
+          "comments_count": 9,
+          "published_at": "2026-08-23T11:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P022"
+        },
+        {
+          "post_id": "IG03-P023",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "video",
+          "likes": 133,
+          "comments_count": 20,
+          "published_at": "2026-08-24T12:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P023"
+        },
+        {
+          "post_id": "IG03-P024",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "image",
+          "likes": 170,
+          "comments_count": 31,
+          "published_at": "2026-08-01T13:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P024"
+        },
+        {
+          "post_id": "IG03-P025",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "carousel",
+          "likes": 207,
+          "comments_count": 8,
+          "published_at": "2026-08-02T14:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P025"
+        },
+        {
+          "post_id": "IG03-P026",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Three lighting changes from today's studio test.",
+          "media_type": "video",
+          "likes": 244,
+          "comments_count": 19,
+          "published_at": "2026-08-03T15:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P026"
+        },
+        {
+          "post_id": "IG03-P027",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "Behind the edit: keeping motion natural.",
+          "media_type": "image",
+          "likes": 281,
+          "comments_count": 30,
+          "published_at": "2026-08-04T16:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P027"
+        },
+        {
+          "post_id": "IG03-P028",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "What would you pack for a one-camera shoot?",
+          "media_type": "carousel",
+          "likes": 318,
+          "comments_count": 7,
+          "published_at": "2026-08-05T17:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P028"
+        },
+        {
+          "post_id": "IG03-P009",
+          "profile_handle": "@fictional_studio_3",
+          "caption": "A quiet setup before the doors open.",
+          "media_type": "image",
+          "likes": 447,
+          "comments_count": 2,
+          "published_at": "2026-08-10T18:15:00Z",
+          "url": "https://instagram.example.invalid/p/IG03-P009"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-map-01",
+      "dataset_id": "gd_luzfs1dn2oa0teb81",
+      "input": {
+        "url": "https://maps.example.invalid/place/harborlight-creative-rooms",
+        "days_limit": "30"
+      },
+      "snapshot_id": "snap_req_map_01",
+      "states": [
+        "starting",
+        "building",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "review_id": "MAP-R001",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-02T11:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R002",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-03T12:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R003",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Clean space, though the evening access instructions were unclear.",
+          "reviewed_at": "2026-08-04T13:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R004",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Good value for a small production team.",
+          "reviewed_at": "2026-08-05T14:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R005",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Fast check-in and a very quiet editing room.",
+          "reviewed_at": "2026-08-06T15:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R006",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-07T16:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R007",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-08T17:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R008",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Clean space, though the evening access instructions were unclear.",
+          "reviewed_at": "2026-08-09T10:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R009",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Good value for a small production team.",
+          "reviewed_at": "2026-08-10T11:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R010",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Fast check-in and a very quiet editing room.",
+          "reviewed_at": "2026-08-11T12:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R011",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-12T13:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R012",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-13T14:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R013",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Clean space, though the evening access instructions were unclear.",
+          "reviewed_at": "2026-08-14T15:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R014",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Good value for a small production team.",
+          "reviewed_at": "2026-08-15T16:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R015",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Fast check-in and a very quiet editing room.",
+          "reviewed_at": "2026-08-16T17:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R016",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-17T10:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R017",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-18T11:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R018",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Clean space, though the evening access instructions were unclear.",
+          "reviewed_at": "2026-08-19T12:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R019",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "",
+          "reviewed_at": "2026-08-20T13:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R020",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Fast check-in and a very quiet editing room.",
+          "reviewed_at": "2026-08-21T14:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R021",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-22T15:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R022",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-23T16:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R023",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Clean space, though the evening access instructions were unclear.",
+          "reviewed_at": "2026-08-24T17:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R024",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Good value for a small production team.",
+          "reviewed_at": "2026-08-25T10:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R025",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Fast check-in and a very quiet editing room.",
+          "reviewed_at": "2026-08-26T11:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R026",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-27T12:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R027",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-28T13:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R028",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Clean space, though the evening access instructions were unclear.",
+          "reviewed_at": "2026-08-01T14:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R029",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Good value for a small production team.",
+          "reviewed_at": "2026-08-02T15:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R030",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Fast check-in and a very quiet editing room.",
+          "reviewed_at": "2026-08-03T16:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R031",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-04T17:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R032",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-05T10:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R033",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 5,
+          "text": "Clean space, though the evening access instructions were unclear.",
+          "reviewed_at": "2026-08-06T11:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R034",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 4,
+          "text": "Good value for a small production team.",
+          "reviewed_at": "2026-08-07T12:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R035",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 3,
+          "text": "Fast check-in and a very quiet editing room.",
+          "reviewed_at": "2026-08-08T13:00:00Z",
+          "owner_response": null
+        },
+        {
+          "review_id": "MAP-R036",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Helpful staff; the loading entrance was hard to find.",
+          "reviewed_at": "2026-08-09T14:00:00Z",
+          "owner_response": "Thanks for the detailed production feedback."
+        },
+        {
+          "review_id": "MAP-R012",
+          "business_name": "Harborlight Creative Rooms",
+          "rating": 2,
+          "text": "Reliable Wi-Fi and enough outlets for our crew.",
+          "reviewed_at": "2026-08-13T14:00:00Z",
+          "owner_response": "We have added clearer entrance signs. Thank you."
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-map-02",
+      "dataset_id": "gd_luzfs1dn2oa0teb81",
+      "input": {
+        "url": "https://maps.example.invalid/place/closed-set",
+        "days_limit": "30"
+      },
+      "snapshot_id": "snap_req_map_02",
+      "states": [
+        "building"
+      ],
+      "terminal": "failed",
+      "records": [],
+      "error": "target page is unavailable in the frozen snapshot"
+    },
+    {
+      "request_id": "req-job-01",
+      "dataset_id": "gd_lpfll7v5hcqtkxl6l",
+      "input": {
+        "url": "https://linkedin.example.invalid/company/fictional-media-1/jobs/"
+      },
+      "snapshot_id": "snap_req_job_01",
+      "states": [
+        "running",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "job_id": "JOB01-001",
+          "company": "Fictional Media Collective 1",
+          "title": "Motion Designer",
+          "location": "Linden City",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-03T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-001"
+        },
+        {
+          "job_id": "JOB01-002",
+          "company": "Fictional Media Collective 1",
+          "title": "Media Operations Analyst",
+          "location": "North Quay",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-04T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-002"
+        },
+        {
+          "job_id": "JOB01-003",
+          "company": "Fictional Media Collective 1",
+          "title": "Assistant Video Editor",
+          "location": "Linden City",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-05T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-003"
+        },
+        {
+          "job_id": "JOB01-004",
+          "company": "Fictional Media Collective 1",
+          "title": "Production Coordinator",
+          "location": "North Quay",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-06T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-004"
+        },
+        {
+          "job_id": "JOB01-005",
+          "company": "Fictional Media Collective 1",
+          "title": "Motion Designer",
+          "location": "Linden City",
+          "workplace_type": "on-site",
+          "employment_type": "contract",
+          "posted_at": "2026-08-07T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-005"
+        },
+        {
+          "job_id": "JOB01-006",
+          "company": "Fictional Media Collective 1",
+          "title": "Media Operations Analyst",
+          "location": "North Quay",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-08T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-006"
+        },
+        {
+          "job_id": "JOB01-007",
+          "company": "Fictional Media Collective 1",
+          "title": "Assistant Video Editor",
+          "location": "Linden City",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-09T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-007"
+        },
+        {
+          "job_id": "JOB01-008",
+          "company": "Fictional Media Collective 1",
+          "title": "Production Coordinator",
+          "location": "North Quay",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-10T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-008"
+        },
+        {
+          "job_id": "JOB01-009",
+          "company": "Fictional Media Collective 1",
+          "title": "Motion Designer",
+          "location": "Linden City",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-11T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-009"
+        },
+        {
+          "job_id": "JOB01-010",
+          "company": "Fictional Media Collective 1",
+          "title": "Media Operations Analyst",
+          "location": "North Quay",
+          "workplace_type": "remote",
+          "employment_type": "contract",
+          "posted_at": "2026-08-12T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-010"
+        },
+        {
+          "job_id": "JOB01-011",
+          "company": "Fictional Media Collective 1",
+          "title": "Assistant Video Editor",
+          "location": "Linden City",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-13T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-011"
+        },
+        {
+          "job_id": "JOB01-012",
+          "company": "Fictional Media Collective 1",
+          "title": "Production Coordinator",
+          "location": "North Quay",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-14T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-012"
+        },
+        {
+          "job_id": "JOB01-013",
+          "company": "Fictional Media Collective 1",
+          "title": "Motion Designer",
+          "location": "Linden City",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-15T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-013"
+        },
+        {
+          "job_id": "JOB01-014",
+          "company": "Fictional Media Collective 1",
+          "title": "Media Operations Analyst",
+          "location": "North Quay",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-16T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-014"
+        },
+        {
+          "job_id": "JOB01-015",
+          "company": "Fictional Media Collective 1",
+          "title": "Assistant Video Editor",
+          "location": "Linden City",
+          "workplace_type": "hybrid",
+          "employment_type": "contract",
+          "posted_at": "2026-08-17T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-015"
+        },
+        {
+          "job_id": "JOB01-016",
+          "company": "Fictional Media Collective 1",
+          "title": "Production Coordinator",
+          "location": "North Quay",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-18T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-016"
+        },
+        {
+          "job_id": "JOB01-017",
+          "company": "Fictional Media Collective 1",
+          "title": "Motion Designer",
+          "location": "Linden City",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-19T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-017"
+        },
+        {
+          "job_id": "JOB01-018",
+          "company": "Fictional Media Collective 1",
+          "title": "Media Operations Analyst",
+          "location": "North Quay",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-20T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-018"
+        },
+        {
+          "job_id": "JOB01-019",
+          "company": "Fictional Media Collective 1",
+          "title": "Assistant Video Editor",
+          "location": "Linden City",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-21T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-019"
+        },
+        {
+          "job_id": "JOB01-020",
+          "company": "Fictional Media Collective 1",
+          "title": "Production Coordinator",
+          "location": "North Quay",
+          "workplace_type": "on-site",
+          "employment_type": "contract",
+          "posted_at": "2026-08-22T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-020"
+        },
+        {
+          "job_id": "JOB01-021",
+          "company": "Fictional Media Collective 1",
+          "title": "Motion Designer",
+          "location": "Linden City",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-23T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-021"
+        },
+        {
+          "job_id": "JOB01-022",
+          "company": "Fictional Media Collective 1",
+          "title": "Media Operations Analyst",
+          "location": "North Quay",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-24T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-022"
+        },
+        {
+          "job_id": "JOB01-023",
+          "company": "Fictional Media Collective 1",
+          "title": "Assistant Video Editor",
+          "location": "Linden City",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-25T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-023"
+        },
+        {
+          "job_id": "JOB01-024",
+          "company": "Fictional Media Collective 1",
+          "title": "Production Coordinator",
+          "location": "North Quay",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-26T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-024"
+        },
+        {
+          "job_id": "JOB01-025",
+          "company": "Fictional Media Collective 1",
+          "title": "Motion Designer",
+          "location": "Linden City",
+          "workplace_type": "remote",
+          "employment_type": "contract",
+          "posted_at": "2026-08-02T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-025"
+        },
+        {
+          "job_id": "JOB01-007",
+          "company": "Fictional Media Collective 1",
+          "title": "Assistant Video Editor",
+          "location": "Linden City",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-29T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB01-007"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-job-02",
+      "dataset_id": "gd_lpfll7v5hcqtkxl6l",
+      "input": {
+        "url": "https://linkedin.example.invalid/company/fictional-media-2/jobs/"
+      },
+      "snapshot_id": "snap_req_job_02",
+      "states": [
+        "running",
+        "running"
+      ],
+      "terminal": "complete",
+      "records": [
+        {
+          "job_id": "JOB02-001",
+          "company": "Fictional Media Collective 2",
+          "title": "Media Operations Analyst",
+          "location": "Port Amber",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-03T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-001"
+        },
+        {
+          "job_id": "JOB02-002",
+          "company": "Fictional Media Collective 2",
+          "title": "Assistant Video Editor",
+          "location": "Remote - US",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-04T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-002"
+        },
+        {
+          "job_id": "JOB02-003",
+          "company": "Fictional Media Collective 2",
+          "title": "Production Coordinator",
+          "location": "Port Amber",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-05T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-003"
+        },
+        {
+          "job_id": "JOB02-004",
+          "company": "Fictional Media Collective 2",
+          "title": "Motion Designer",
+          "location": "Remote - US",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-06T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-004"
+        },
+        {
+          "job_id": "JOB02-005",
+          "company": "Fictional Media Collective 2",
+          "title": "Media Operations Analyst",
+          "location": "Port Amber",
+          "workplace_type": "hybrid",
+          "employment_type": "contract",
+          "posted_at": "2026-08-07T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-005"
+        },
+        {
+          "job_id": "JOB02-006",
+          "company": "Fictional Media Collective 2",
+          "title": "Assistant Video Editor",
+          "location": "Remote - US",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-08T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-006"
+        },
+        {
+          "job_id": "JOB02-007",
+          "company": "Fictional Media Collective 2",
+          "title": "Production Coordinator",
+          "location": "Port Amber",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-09T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-007"
+        },
+        {
+          "job_id": "JOB02-008",
+          "company": "Fictional Media Collective 2",
+          "title": "Motion Designer",
+          "location": "Remote - US",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-10T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-008"
+        },
+        {
+          "job_id": "JOB02-009",
+          "company": "Fictional Media Collective 2",
+          "title": "Media Operations Analyst",
+          "location": "Port Amber",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-11T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-009"
+        },
+        {
+          "job_id": "JOB02-010",
+          "company": "Fictional Media Collective 2",
+          "title": "Assistant Video Editor",
+          "location": "Remote - US",
+          "workplace_type": "on-site",
+          "employment_type": "contract",
+          "posted_at": "2026-08-12T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-010"
+        },
+        {
+          "job_id": "JOB02-011",
+          "company": "Fictional Media Collective 2",
+          "title": "Production Coordinator",
+          "location": "Port Amber",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-13T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-011"
+        },
+        {
+          "job_id": "JOB02-012",
+          "company": "Fictional Media Collective 2",
+          "title": "Motion Designer",
+          "location": "Remote - US",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-14T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-012"
+        },
+        {
+          "job_id": "JOB02-013",
+          "company": "Fictional Media Collective 2",
+          "title": "Media Operations Analyst",
+          "location": "Port Amber",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-15T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-013"
+        },
+        {
+          "job_id": "JOB02-014",
+          "company": "Fictional Media Collective 2",
+          "title": "Assistant Video Editor",
+          "location": "Remote - US",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-16T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-014"
+        },
+        {
+          "job_id": "JOB02-015",
+          "company": "Fictional Media Collective 2",
+          "title": "Production Coordinator",
+          "location": "Port Amber",
+          "workplace_type": "remote",
+          "employment_type": "contract",
+          "posted_at": "2026-08-17T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-015"
+        },
+        {
+          "job_id": "JOB02-016",
+          "company": "Fictional Media Collective 2",
+          "title": "Motion Designer",
+          "location": "Remote - US",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-18T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-016"
+        },
+        {
+          "job_id": "JOB02-017",
+          "company": "Fictional Media Collective 2",
+          "title": "Media Operations Analyst",
+          "location": "Port Amber",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-19T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-017"
+        },
+        {
+          "job_id": "JOB02-018",
+          "company": "Fictional Media Collective 2",
+          "title": "Assistant Video Editor",
+          "location": "Remote - US",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-20T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-018"
+        },
+        {
+          "job_id": "JOB02-019",
+          "company": "Fictional Media Collective 2",
+          "title": "Production Coordinator",
+          "location": "Port Amber",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-21T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-019"
+        },
+        {
+          "job_id": "JOB02-020",
+          "company": "Fictional Media Collective 2",
+          "title": "Motion Designer",
+          "location": "Remote - US",
+          "workplace_type": "hybrid",
+          "employment_type": "contract",
+          "posted_at": "2026-08-22T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-020"
+        },
+        {
+          "job_id": "JOB02-021",
+          "company": "Fictional Media Collective 2",
+          "title": "Media Operations Analyst",
+          "location": "Port Amber",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-23T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-021"
+        },
+        {
+          "job_id": "JOB02-022",
+          "company": "Fictional Media Collective 2",
+          "title": "Assistant Video Editor",
+          "location": "Remote - US",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-24T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-022"
+        },
+        {
+          "job_id": "JOB02-023",
+          "company": "Fictional Media Collective 2",
+          "title": "Production Coordinator",
+          "location": "Port Amber",
+          "workplace_type": "hybrid",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-25T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-023"
+        },
+        {
+          "job_id": "JOB02-024",
+          "company": "Fictional Media Collective 2",
+          "title": "Motion Designer",
+          "location": "Remote - US",
+          "workplace_type": "remote",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-26T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-024"
+        },
+        {
+          "job_id": "JOB02-025",
+          "company": "Fictional Media Collective 2",
+          "title": "Media Operations Analyst",
+          "location": "Port Amber",
+          "workplace_type": "on-site",
+          "employment_type": "contract",
+          "posted_at": "2026-08-02T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-025"
+        },
+        {
+          "job_id": "JOB02-007",
+          "company": "Fictional Media Collective 2",
+          "title": "Production Coordinator",
+          "location": "Port Amber",
+          "workplace_type": "on-site",
+          "employment_type": "full-time",
+          "posted_at": "2026-08-29T12:00:00Z",
+          "url": "https://linkedin.example.invalid/jobs/view/JOB02-007"
+        }
+      ],
+      "error": null
+    },
+    {
+      "request_id": "req-job-03",
+      "dataset_id": "gd_lpfll7v5hcqtkxl6l",
+      "input": {
+        "url": "https://linkedin.example.invalid/company/fictional-media-3/jobs/"
+      },
+      "snapshot_id": "snap_req_job_03",
+      "states": [
+        "starting",
+        "building",
+        "running"
+      ],
+      "terminal": "trigger_error",
+      "records": [],
+      "error": "request rejected: target URL is outside the enabled snapshot"
+    }
+  ]
+}

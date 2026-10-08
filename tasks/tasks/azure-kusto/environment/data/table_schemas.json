@@ -1,0 +1,41 @@
+{
+  "cluster": "northwind-ops-adx",
+  "database": "OperationsTelemetry",
+  "tables": {
+    "RequestTelemetry": {
+      "file": "request_telemetry.csv",
+      "columns": {
+        "Timestamp": "datetime",
+        "RequestId": "string",
+        "Service": "string",
+        "Region": "string",
+        "Endpoint": "string",
+        "DeploymentId": "string",
+        "StatusCode": "int",
+        "DurationMs": "long",
+        "Success": "bool",
+        "CorrelationId": "string"
+      }
+    },
+    "Deployments": {
+      "file": "deployments.csv",
+      "columns": {
+        "DeploymentId": "string",
+        "Service": "string",
+        "Region": "string",
+        "DeployedAt": "datetime",
+        "Version": "string",
+        "ChangeSummary": "string",
+        "RollbackOf": "string"
+      }
+    },
+    "ServiceObjectives": {
+      "file": "service_objectives.csv",
+      "columns": {
+        "Service": "string",
+        "TargetP95Ms": "long",
+        "MaxErrorRate": "real"
+      }
+    }
+  }
+}

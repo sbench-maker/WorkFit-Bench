@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_and_reviewer_coverage",
+      "title": "Usable consolidated artifact and reviewer coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON is readable and contains separately attributable, non-empty findings from both local reviewers.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_reviewer_coverage"
+      ]
+    },
+    {
+      "id": "completion__material_findings",
+      "title": "Material regressions identified by the expected reviewers",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The reviewer-specific sections capture the tenant cache leak, unsafe fallback, oversized-request batching regression, and metadata authorization bypass found by the two frozen review responses, with risk-appropriate severity.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_material_reviewer_findings"
+      ]
+    },
+    {
+      "id": "completion__patch_scope_and_citations",
+      "title": "Patch scope discipline and usable citations",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Findings stay within files changed from main and material issues cite the relevant changed lines rather than legacy code.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_patch_scope_and_citations"
+      ]
+    },
+    {
+      "id": "completion__comparison_consistency",
+      "title": "Accurate agreement and difference synthesis",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The comparison correctly distinguishes issues shared by both reviewers from Codex-only and Gemini-only findings.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_comparison_consistency"
+      ]
+    },
+    {
+      "id": "completion__merge_gate",
+      "title": "Correct merge recommendation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The consolidated result clearly recommends blocking the merge until the material regressions are fixed.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_merge_gate"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_and_reviewer_coverage",
+        "title": "Usable consolidated artifact and reviewer coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__material_findings",
+        "title": "Material regressions identified by the expected reviewers",
+        "required_score": 10
+      },
+      {
+        "id": "completion__patch_scope_and_citations",
+        "title": "Patch scope discipline and usable citations",
+        "required_score": 10
+      },
+      {
+        "id": "completion__comparison_consistency",
+        "title": "Accurate agreement and difference synthesis",
+        "required_score": 10
+      },
+      {
+        "id": "completion__merge_gate",
+        "title": "Correct merge recommendation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

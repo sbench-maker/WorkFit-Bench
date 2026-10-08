@@ -1,0 +1,56 @@
+{
+  "confidence_threshold": 0.85,
+  "unresolved_customer_reply_threshold": 3,
+  "escalation_triggers": [
+    {
+      "trigger_id": "legal_or_regulatory_threat",
+      "queue": "risk-legal"
+    },
+    {
+      "trigger_id": "chargeback_threat",
+      "queue": "risk-legal"
+    },
+    {
+      "trigger_id": "public_or_social_escalation",
+      "queue": "risk-legal"
+    },
+    {
+      "trigger_id": "security_or_account_takeover",
+      "queue": "security-privacy"
+    },
+    {
+      "trigger_id": "privacy_deletion_or_export",
+      "queue": "security-privacy"
+    },
+    {
+      "trigger_id": "account_ownership_or_identity",
+      "queue": "account-specialists"
+    },
+    {
+      "trigger_id": "abuse_or_threats",
+      "queue": "trust-safety"
+    },
+    {
+      "trigger_id": "refund_outside_policy",
+      "queue": "billing-review"
+    },
+    {
+      "trigger_id": "refund_action_not_succeeded",
+      "queue": "billing-review"
+    },
+    {
+      "trigger_id": "three_or_more_unresolved_replies",
+      "queue": "support-leads"
+    },
+    {
+      "trigger_id": "confidence_below_0_85",
+      "queue": "support-leads"
+    }
+  ],
+  "escalation_note_needs": [
+    "one-paragraph issue summary",
+    "ticket_id",
+    "relevant account and order context",
+    "recommended next action"
+  ]
+}

@@ -1,0 +1,13 @@
+prerequisite_id,dependent_id,reason,criticality
+FN-101,FN-104,The launch checklist should deep-link into the setup wizard.,normal
+FN-105,FN-107,SSO self-service must inherit tested permission presets.,normal
+FN-205,FN-207,Sync status needs the offline queue introduced with job cards.,critical
+FN-207,FN-301,Route suggestions need reliable fresh technician state.,critical
+FN-307,FN-208,Calendar sync needs the public event and webhook contracts.,critical
+FN-304,FN-305,The confirmation link is delivered through the messaging service.,normal
+FN-305,FN-306,Self-service rescheduling reuses confirmation identity and availability rules.,critical
+FN-307,FN-401,Accounting export should use the supported public integration contract.,critical
+FN-401,FN-402,Batch review consumes normalized invoice-export records.,normal
+FN-401,FN-403,Reconciliation needs external invoice identifiers from export.,normal
+FN-307,FN-407,Marketplace listings require stable APIs and webhooks.,critical
+FN-105,FN-404,Multi-region administration relies on the common role model.,normal

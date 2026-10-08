@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__tier_capture",
+      "title": "HTTP client-tier context capture",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The router phase reads the configured header case-insensitively, normalizes known tier values, and stores the configured default for missing, blank, or unknown tiers.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_router_hook_captures_normalized_tier"
+      ]
+    },
+    {
+      "id": "completion__execution_policy",
+      "title": "Execution budget enforcement",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Query and mutation plans use the correct effective ceiling, allow equality, and reject excess cost with the configured status, message, code, and numeric cost extensions.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_execution_enforces_configured_limits_and_error_contract"
+      ]
+    },
+    {
+      "id": "completion__service_control_flow",
+      "title": "Safe service control flow",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Disabled hooks preserve inner service behavior, allowed requests invoke the inner service once, and rejected requests short-circuit it.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_disabled_passthrough_boundaries_and_short_circuiting"
+      ]
+    },
+    {
+      "id": "completion__workspace_build",
+      "title": "Usable offline plugin checkout",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested checkout and integration files exist, are readable, and compile against the supplied local router interfaces with Cargo offline.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_workspace_builds_and_required_artifacts_are_present"
+      ]
+    },
+    {
+      "id": "completion__router_integration",
+      "title": "Registration, module wiring, and router configuration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plugin is exported, registered as acme.query_budget, and configured consistently with the supplied local policy.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_registration_module_and_configuration_are_integrated"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__tier_capture",
+        "title": "HTTP client-tier context capture",
+        "required_score": 10
+      },
+      {
+        "id": "completion__execution_policy",
+        "title": "Execution budget enforcement",
+        "required_score": 10
+      },
+      {
+        "id": "completion__service_control_flow",
+        "title": "Safe service control flow",
+        "required_score": 10
+      },
+      {
+        "id": "completion__workspace_build",
+        "title": "Usable offline plugin checkout",
+        "required_score": 10
+      },
+      {
+        "id": "completion__router_integration",
+        "title": "Registration, module wiring, and router configuration",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

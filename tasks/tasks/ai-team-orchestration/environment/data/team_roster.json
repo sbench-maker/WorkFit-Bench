@@ -1,0 +1,52 @@
+{
+  "sprint": {
+    "number": 1,
+    "start": "2027-01-11",
+    "end": "2027-01-22",
+    "capacity_points": 50
+  },
+  "members": [
+    {
+      "name": "Remy",
+      "role": "Producer",
+      "capacity_points": 0,
+      "focus": "scope, coordination, issue triage, and merges",
+      "boundary": "does not implement product code"
+    },
+    {
+      "name": "Kira",
+      "role": "Product Designer",
+      "capacity_points": 2,
+      "focus": "flows, accessibility, and acceptance intent",
+      "boundary": "does not own API or CI implementation"
+    },
+    {
+      "name": "Nova",
+      "role": "Frontend Engineer",
+      "capacity_points": 12,
+      "focus": "React UI, state, and accessibility implementation",
+      "boundary": "does not change API contracts without Sage review"
+    },
+    {
+      "name": "Sage",
+      "role": "Backend Engineer",
+      "capacity_points": 24,
+      "focus": "FastAPI, data model, queue, auth, and security",
+      "boundary": "does not sign off their own fixes"
+    },
+    {
+      "name": "Ivy",
+      "role": "QA Engineer",
+      "capacity_points": 6,
+      "focus": "API/E2E tests, bug filing, and sign-off",
+      "boundary": "files issues and verifies fixes; does not edit product source"
+    },
+    {
+      "name": "Dash",
+      "role": "DevOps Engineer",
+      "capacity_points": 6,
+      "focus": "local stack and CI",
+      "boundary": "cloud deployment is outside Sprint 1"
+    }
+  ]
+}

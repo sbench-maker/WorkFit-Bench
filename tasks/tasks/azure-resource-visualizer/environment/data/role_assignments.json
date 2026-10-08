@@ -1,0 +1,138 @@
+[
+  {
+    "assignment_id": "ra01",
+    "principal_resource_id": "r29",
+    "scope_resource_id": "r28",
+    "role": "Key Vault Secrets User",
+    "active": true,
+    "evidence": "Storefront resolves named secret references"
+  },
+  {
+    "assignment_id": "ra02",
+    "principal_resource_id": "r29",
+    "scope_resource_id": "r24",
+    "role": "Storage Blob Data Reader",
+    "active": true,
+    "evidence": "Storefront serves public media"
+  },
+  {
+    "assignment_id": "ra03",
+    "principal_resource_id": "r29",
+    "scope_resource_id": "r22",
+    "role": "SQL DB Contributor",
+    "active": false,
+    "evidence": "Expired migration grant"
+  },
+  {
+    "assignment_id": "ra04",
+    "principal_resource_id": "r30",
+    "scope_resource_id": "r28",
+    "role": "Key Vault Secrets User",
+    "active": true,
+    "evidence": "API resolves named secret references"
+  },
+  {
+    "assignment_id": "ra05",
+    "principal_resource_id": "r30",
+    "scope_resource_id": "r22",
+    "role": "SQL DB Contributor",
+    "active": true,
+    "evidence": "API database management grant"
+  },
+  {
+    "assignment_id": "ra06",
+    "principal_resource_id": "r30",
+    "scope_resource_id": "r23",
+    "role": "Cosmos DB Built-in Data Contributor",
+    "active": true,
+    "evidence": "Catalog reads and writes"
+  },
+  {
+    "assignment_id": "ra07",
+    "principal_resource_id": "r30",
+    "scope_resource_id": "r24",
+    "role": "Owner",
+    "active": true,
+    "evidence": "Legacy broad storage grant"
+  },
+  {
+    "assignment_id": "ra08",
+    "principal_resource_id": "r30",
+    "scope_resource_id": "r25",
+    "role": "Azure Service Bus Data Sender",
+    "active": true,
+    "evidence": "Publishes order events"
+  },
+  {
+    "assignment_id": "ra09",
+    "principal_resource_id": "r30",
+    "scope_resource_id": "r27",
+    "role": "Redis Cache Contributor",
+    "active": true,
+    "evidence": "Cache operations"
+  },
+  {
+    "assignment_id": "ra10",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "r28",
+    "role": "Key Vault Secrets User",
+    "active": true,
+    "evidence": "Jobs resolve named secret references"
+  },
+  {
+    "assignment_id": "ra11",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "r22",
+    "role": "SQL DB Contributor",
+    "active": true,
+    "evidence": "Order processing updates"
+  },
+  {
+    "assignment_id": "ra12",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "r23",
+    "role": "Cosmos DB Built-in Data Contributor",
+    "active": true,
+    "evidence": "Projection and indexing work"
+  },
+  {
+    "assignment_id": "ra13",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "r24",
+    "role": "Storage Blob Data Contributor",
+    "active": true,
+    "evidence": "Receipt and batch processing"
+  },
+  {
+    "assignment_id": "ra14",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "r25",
+    "role": "Azure Service Bus Data Receiver",
+    "active": true,
+    "evidence": "Consumes order messages"
+  },
+  {
+    "assignment_id": "ra15",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "r25",
+    "role": "Azure Service Bus Data Sender",
+    "active": true,
+    "evidence": "Publishes processing events"
+  },
+  {
+    "assignment_id": "ra16",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "x02",
+    "role": "Search Index Data Contributor",
+    "active": true,
+    "evidence": "Updates shared search index"
+  },
+  {
+    "assignment_id": "ra17",
+    "principal_resource_id": "r31",
+    "scope_resource_id": "x01",
+    "role": "Website Contributor",
+    "active": false,
+    "evidence": "Rejected cross-group deployment proposal"
+  }
+]

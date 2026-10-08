@@ -1,0 +1,44 @@
+{
+  "open_deal_status": "open",
+  "stale_after_days": 14,
+  "qualifying_activity_status_by_type": {
+    "email": [
+      "completed",
+      "sent"
+    ],
+    "call": [
+      "completed"
+    ],
+    "meeting": [
+      "completed",
+      "held"
+    ],
+    "note": [
+      "completed",
+      "logged"
+    ]
+  },
+  "required_deal_fields": [
+    "close_date",
+    "amount",
+    "deal_stage",
+    "associated_contact",
+    "next_step_or_notes"
+  ],
+  "required_contact_fields_for_open_deals": [
+    "email",
+    "company",
+    "phone"
+  ],
+  "missing_value_rule": "null, an empty string, or whitespace-only text is missing; numeric zero is present",
+  "duplicate_candidate_rules": {
+    "email": "same non-empty email after trimming whitespace and case-folding",
+    "identity": "same company after punctuation/whitespace normalization plus the same normalized first and last name",
+    "first_name_aliases": {
+      "alexander": "alex",
+      "bob": "robert"
+    },
+    "initial_rule": "a one-letter first-name initial matches the same initial only when normalized company, last name, and a non-empty email also match"
+  },
+  "change_policy": "This snapshot is review-only. All merge, stage-change, close-lost, and field-fill proposals require explicit owner approval and no records may be deleted."
+}

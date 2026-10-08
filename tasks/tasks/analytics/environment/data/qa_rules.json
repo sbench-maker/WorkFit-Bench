@@ -1,0 +1,83 @@
+{
+  "event_aliases": {
+    "CTA Clicked": "cta_clicked",
+    "Sign Up": "signup_completed",
+    "onboarding-step-completed": "onboarding_step_completed"
+  },
+  "forbidden_property_keys": [
+    "email",
+    "email_address",
+    "full_name",
+    "phone",
+    "phone_number",
+    "free_text"
+  ],
+  "metrics": {
+    "duplicate_extra_rows": "For identical session_id, timestamp, event_name, analytics_storage, and properties, count every copy after the first; event_id is ignored.",
+    "invalid_event_name_rows": "Count in-scope rows whose event_name does not match ^[a-z][a-z0-9_]*$.",
+    "missing_required_property_rows": "After applying event_aliases, count in-scope rows for which at least one property listed for that event is absent, null, or blank.",
+    "pii_property_rows": "Count in-scope rows containing any forbidden property key at any nesting depth.",
+    "pre_consent_rows": "Count in-scope rows whose analytics_storage is not granted.",
+    "total_event_rows": "Count all in-scope rows."
+  },
+  "required_properties": {
+    "activation_completed": [
+      "days_since_signup",
+      "report_type",
+      "template_id"
+    ],
+    "checkout_started": [
+      "plan",
+      "billing_cycle",
+      "value",
+      "currency"
+    ],
+    "cta_clicked": [
+      "cta_location",
+      "button_text",
+      "page_path",
+      "source",
+      "medium",
+      "campaign"
+    ],
+    "onboarding_step_completed": [
+      "step_number",
+      "step_name"
+    ],
+    "purchase": [
+      "transaction_id",
+      "plan",
+      "billing_cycle",
+      "value",
+      "currency"
+    ],
+    "report_exported": [
+      "report_type",
+      "export_format",
+      "template_id",
+      "is_first_export"
+    ],
+    "signup_completed": [
+      "method",
+      "plan",
+      "source",
+      "medium",
+      "campaign"
+    ],
+    "signup_started": [
+      "method",
+      "source",
+      "medium",
+      "campaign"
+    ],
+    "team_member_invited": [
+      "role",
+      "invite_method"
+    ],
+    "workspace_created": [
+      "workspace_type",
+      "plan"
+    ]
+  },
+  "scope": "Only rows where traffic_type is external are included in every QA summary metric."
+}

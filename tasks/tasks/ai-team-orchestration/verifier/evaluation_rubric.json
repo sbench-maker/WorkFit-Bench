@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Launch-pack completeness and readability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested project brief, launch brainstorm prompt, and Sprint 1 plan, progress, and done working documents exist as readable, substantive Markdown in the launch pack.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__project_fidelity",
+      "title": "Accepted product and architecture fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The durable brief preserves the fixed product purpose, roles, accepted stack, run-state and metric contracts, and local commands from the frozen inputs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_project_fidelity"
+      ]
+    },
+    {
+      "id": "completion__security_integrity",
+      "title": "Security and privacy integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The pack retains the concrete upload, redaction, and live-provider boundaries and contains no credential-like secret value.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_security_controls_are_preserved",
+        "test_no_credential_values_are_exposed"
+      ]
+    },
+    {
+      "id": "completion__sprint_integrity",
+      "title": "Sprint scope, dependency, and ownership integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Sprint 1 schedules every committed item within capacity, respects dependencies and accountable owners, excludes blocked/rejected/deferred work, and retains the supplied team and merge boundaries.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_committed_scope_and_capacity",
+        "test_dependency_and_owner_integrity",
+        "test_out_of_scope_and_team_boundaries"
+      ]
+    },
+    {
+      "id": "completion__brainstorm_quality",
+      "title": "Decision-producing, role-specific brainstorm prompt",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The launch brainstorm prompt assigns distinct perspectives to the named EvalHarbor roles and asks them to challenge assumptions, decide scope or trade-offs, and produce a handoff.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Launch-pack completeness and readability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__project_fidelity",
+        "title": "Accepted product and architecture fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__security_integrity",
+        "title": "Security and privacy integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__sprint_integrity",
+        "title": "Sprint scope, dependency, and ownership integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__brainstorm_quality",
+        "title": "Decision-producing, role-specific brainstorm prompt",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

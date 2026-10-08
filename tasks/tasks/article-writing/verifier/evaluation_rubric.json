@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Usable newsletter artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown newsletter exists at the requested path, is readable text, and stays within the requested 900–1,200-word range.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__approved_fact_coverage",
+      "title": "Coverage and status of approved facts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The issue includes the campaign brief's material pilot scale, measured changes, adoption signal, and launch details, while presenting the two launch thresholds as targets rather than observed Harborline outcomes.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_required_campaign_facts",
+        "test_launch_thresholds_are_labeled_as_targets"
+      ]
+    },
+    {
+      "id": "completion__source_integrity",
+      "title": "Source and quotation integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The newsletter excludes specifically superseded, internal, off-record, or unapproved claims in the packet, and any direct customer quotation is faithful to an approved quotation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_unapproved_or_superseded_claims_are_excluded",
+        "test_direct_quotes_are_source_faithful"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Usable newsletter artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__approved_fact_coverage",
+        "title": "Coverage and status of approved facts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__source_integrity",
+        "title": "Source and quotation integrity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

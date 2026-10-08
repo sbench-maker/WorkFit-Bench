@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__hover_behavior",
+      "title": "Working status-card hover transition",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "StatusCard owns a supported Animator, drives a per-instance hover value through the requested off/on transition, interpolates the supplied colors, uses the requested timing/ease/cursor, and keeps its label above the background.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_hover_behavior"
+      ]
+    },
+    {
+      "id": "completion__spinner_behavior",
+      "title": "Continuous loading rotation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "SyncSpinner starts its time track on, loops at the requested duration, and animates a per-instance rotation through a full turn that the arc shader consumes.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_spinner_behavior"
+      ]
+    },
+    {
+      "id": "completion__integration_contract",
+      "title": "Preserved and independent component integration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The panel retains its widget names, IDs, dimensions, spacing, copy, colors, and spinner geometry; hover and time remain independent, and no Animator is attached to an unsupported widget definition.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_integration_contract"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__hover_behavior",
+        "title": "Working status-card hover transition",
+        "required_score": 10
+      },
+      {
+        "id": "completion__spinner_behavior",
+        "title": "Continuous loading rotation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__integration_contract",
+        "title": "Preserved and independent component integration",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

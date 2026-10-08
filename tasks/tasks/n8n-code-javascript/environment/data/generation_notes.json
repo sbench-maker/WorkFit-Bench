@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "seed": 7049,
+  "fixture": "webhook_items.json",
+  "physical_delivery_count": 260,
+  "base_event_count": 210,
+  "retry_delivery_count": 50,
+  "intentional_edge_cases": [
+    "mixed decimal strings and numeric money values",
+    "timestamps with four UTC-offset styles",
+    "valid retry deliveries whose later payload changes",
+    "invalid later retries that must not displace an earlier valid delivery",
+    "missing and malformed nested webhook fields",
+    "cancelled events and an empty-input contract"
+  ]
+}

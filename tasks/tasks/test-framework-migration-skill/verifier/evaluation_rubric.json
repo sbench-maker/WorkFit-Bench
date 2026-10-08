@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__runnable_migration",
+      "title": "Runnable offline migration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The delivered project is readable, has a local validation entry point, honors BASE_URL, and its Playwright suite passes against the supplied checkout application without external services.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_runnable_migration_passes_against_the_supplied_app"
+      ]
+    },
+    {
+      "id": "completion__checkout_calculations",
+      "title": "Checkout calculation parity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The migrated suite protects the source suite's standard shipping, express shipping, promotion, and threshold calculations so material regressions are detected.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_checkout_calculation_regressions_are_detected"
+      ]
+    },
+    {
+      "id": "completion__resilience_and_popup",
+      "title": "Failure, stock, and popup parity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The migrated suite detects loss of out-of-stock blocking, pricing failure feedback, or the receipt's new-tab behavior.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_resilience_and_browser_event_regressions_are_detected"
+      ]
+    },
+    {
+      "id": "completion__target_project_contract",
+      "title": "Clean Playwright TypeScript project",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The result is a TypeScript Playwright Test project that declares its target dependency and contains no Cypress runtime dependency or source API residue.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_project_is_clean_playwright_typescript"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__runnable_migration",
+        "title": "Runnable offline migration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__checkout_calculations",
+        "title": "Checkout calculation parity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__resilience_and_popup",
+        "title": "Failure, stock, and popup parity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__target_project_contract",
+        "title": "Clean Playwright TypeScript project",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

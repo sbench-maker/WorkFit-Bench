@@ -1,0 +1,266 @@
+event_id,ticket_id,occurred_at_utc,actor_id,event_type,from_value,to_value,note
+te-ops-1,OPS-482,2026-09-07T18:05:00Z,u_mchen,status,To Do,In Progress,Started implementation after design review.
+te-ops-2,OPS-482,2026-09-08T06:28:00Z,u_mchen,status,In Progress,Done,Merged PR 318 after green checks.
+te-app-1,APP-771,2026-09-08T07:12:00Z,u_mchen,status,To Do,In Progress,UI skeleton and state model ready for review.
+te-data-1,DATA-205,2026-09-07T22:10:00Z,u_mchen,status,To Do,In Progress,Local synthetic replay did not reproduce the mismatch.
+te-data-2,DATA-205,2026-09-08T12:30:00Z,u_mchen,status,In Progress,Blocked,Waiting for a redacted replay sample from Nia; Security approval is required before it can be shared.
+te-auth-1,AUTH-90,2026-09-07T17:30:00Z,u_mchen,status,In Progress,Blocked,Sandbox signer was temporarily unavailable.
+te-auth-2,AUTH-90,2026-09-08T00:05:00Z,u_priya,status,Blocked,In Progress,Priya restored the sandbox signer; work is unblocked.
+te-auth-3,AUTH-90,2026-09-08T04:02:00Z,u_mchen,status,In Progress,Done,Sandbox validation completed.
+te-mob-1,MOB-640,2026-09-08T05:50:00Z,u_theo,status,In Review,Done,Merged after Maya's approval.
+te-app-755,APP-755,2026-09-07T15:56:00Z,u_mchen,status,In Review,Done,Prior-day cleanup merged before the local midnight boundary.
+te-bg-000-0,OPS-1000,2026-08-28T08:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-000-1,OPS-1000,2026-08-29T03:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-000-2,OPS-1000,2026-08-29T22:00:00Z,u_theo,status,In Progress,To Do,Routine team workflow event.
+te-bg-001-0,APP-1001,2026-08-28T15:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-001-1,APP-1001,2026-08-29T10:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-001-2,APP-1001,2026-08-30T05:00:00Z,u_nia,status,In Progress,In Progress,Routine team workflow event.
+te-bg-002-0,DATA-1002,2026-08-28T22:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-002-1,DATA-1002,2026-08-29T17:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-002-2,DATA-1002,2026-08-30T12:00:00Z,u_priya,status,In Progress,In Review,Routine team workflow event.
+te-bg-003-0,MOB-1003,2026-08-29T05:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-003-1,MOB-1003,2026-08-30T00:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-003-2,MOB-1003,2026-08-30T19:00:00Z,u_jun,status,In Progress,Done,Routine team workflow event.
+te-bg-004-0,QA-1004,2026-08-29T12:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-004-1,QA-1004,2026-08-30T07:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-004-2,QA-1004,2026-08-31T02:00:00Z,u_leo,status,In Progress,To Do,Routine team workflow event.
+te-bg-005-0,DOC-1005,2026-08-29T19:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-005-1,DOC-1005,2026-08-30T14:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-005-2,DOC-1005,2026-08-31T09:00:00Z,u_theo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-006-0,OPS-1006,2026-08-30T02:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-006-1,OPS-1006,2026-08-30T21:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-006-2,OPS-1006,2026-08-31T16:00:00Z,u_nia,status,In Progress,In Review,Routine team workflow event.
+te-bg-007-0,APP-1007,2026-08-30T09:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-007-1,APP-1007,2026-08-31T04:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-007-2,APP-1007,2026-08-31T23:00:00Z,u_priya,status,In Progress,Done,Routine team workflow event.
+te-bg-008-0,DATA-1008,2026-08-30T16:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-008-1,DATA-1008,2026-08-31T11:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-008-2,DATA-1008,2026-09-01T06:00:00Z,u_jun,status,In Progress,To Do,Routine team workflow event.
+te-bg-009-0,MOB-1009,2026-08-30T23:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-009-1,MOB-1009,2026-08-31T18:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-009-2,MOB-1009,2026-09-01T13:00:00Z,u_leo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-010-0,QA-1010,2026-08-31T06:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-010-1,QA-1010,2026-09-01T01:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-010-2,QA-1010,2026-09-01T20:00:00Z,u_theo,status,In Progress,In Review,Routine team workflow event.
+te-bg-011-0,DOC-1011,2026-08-31T13:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-011-1,DOC-1011,2026-09-01T08:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-011-2,DOC-1011,2026-09-02T03:00:00Z,u_nia,status,In Progress,Done,Routine team workflow event.
+te-bg-012-0,OPS-1012,2026-08-31T20:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-012-1,OPS-1012,2026-09-01T15:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-012-2,OPS-1012,2026-09-02T10:00:00Z,u_priya,status,In Progress,To Do,Routine team workflow event.
+te-bg-013-0,APP-1013,2026-09-01T03:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-013-1,APP-1013,2026-09-01T22:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-013-2,APP-1013,2026-09-02T17:00:00Z,u_jun,status,In Progress,In Progress,Routine team workflow event.
+te-bg-014-0,DATA-1014,2026-09-01T10:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-014-1,DATA-1014,2026-09-02T05:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-014-2,DATA-1014,2026-09-03T00:00:00Z,u_leo,status,In Progress,In Review,Routine team workflow event.
+te-bg-015-0,MOB-1015,2026-09-01T17:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-015-1,MOB-1015,2026-09-02T12:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-015-2,MOB-1015,2026-09-03T07:00:00Z,u_theo,status,In Progress,Done,Routine team workflow event.
+te-bg-016-0,QA-1016,2026-09-02T00:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-016-1,QA-1016,2026-09-02T19:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-016-2,QA-1016,2026-09-03T14:00:00Z,u_nia,status,In Progress,To Do,Routine team workflow event.
+te-bg-017-0,DOC-1017,2026-09-02T07:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-017-1,DOC-1017,2026-09-03T02:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-017-2,DOC-1017,2026-09-03T21:00:00Z,u_priya,status,In Progress,In Progress,Routine team workflow event.
+te-bg-018-0,OPS-1018,2026-09-02T14:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-018-1,OPS-1018,2026-09-03T09:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-018-2,OPS-1018,2026-09-04T04:00:00Z,u_jun,status,In Progress,In Review,Routine team workflow event.
+te-bg-019-0,APP-1019,2026-09-02T21:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-019-1,APP-1019,2026-09-03T16:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-019-2,APP-1019,2026-09-04T11:00:00Z,u_leo,status,In Progress,Done,Routine team workflow event.
+te-bg-020-0,DATA-1020,2026-09-03T04:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-020-1,DATA-1020,2026-09-03T23:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-020-2,DATA-1020,2026-09-04T18:00:00Z,u_theo,status,In Progress,To Do,Routine team workflow event.
+te-bg-021-0,MOB-1021,2026-09-03T11:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-021-1,MOB-1021,2026-09-04T06:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-021-2,MOB-1021,2026-09-05T01:00:00Z,u_nia,status,In Progress,In Progress,Routine team workflow event.
+te-bg-022-0,QA-1022,2026-09-03T18:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-022-1,QA-1022,2026-09-04T13:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-022-2,QA-1022,2026-09-05T08:00:00Z,u_priya,status,In Progress,In Review,Routine team workflow event.
+te-bg-023-0,DOC-1023,2026-09-04T01:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-023-1,DOC-1023,2026-09-04T20:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-023-2,DOC-1023,2026-09-05T15:00:00Z,u_jun,status,In Progress,Done,Routine team workflow event.
+te-bg-024-0,OPS-1024,2026-09-04T08:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-024-1,OPS-1024,2026-09-05T03:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-024-2,OPS-1024,2026-09-05T22:00:00Z,u_leo,status,In Progress,To Do,Routine team workflow event.
+te-bg-025-0,APP-1025,2026-09-04T15:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-025-1,APP-1025,2026-09-05T10:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-025-2,APP-1025,2026-09-06T05:00:00Z,u_theo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-026-0,DATA-1026,2026-09-04T22:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-026-1,DATA-1026,2026-09-05T17:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-026-2,DATA-1026,2026-09-06T12:00:00Z,u_nia,status,In Progress,In Review,Routine team workflow event.
+te-bg-027-0,MOB-1027,2026-09-05T05:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-027-1,MOB-1027,2026-09-06T00:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-027-2,MOB-1027,2026-09-06T19:00:00Z,u_priya,status,In Progress,Done,Routine team workflow event.
+te-bg-028-0,QA-1028,2026-09-05T12:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-028-1,QA-1028,2026-09-06T07:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-028-2,QA-1028,2026-09-07T02:00:00Z,u_jun,status,In Progress,To Do,Routine team workflow event.
+te-bg-029-0,DOC-1029,2026-09-05T19:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-029-1,DOC-1029,2026-09-06T14:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-029-2,DOC-1029,2026-09-07T09:00:00Z,u_leo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-030-0,OPS-1030,2026-09-06T02:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-030-1,OPS-1030,2026-09-06T21:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-030-2,OPS-1030,2026-09-07T16:00:00Z,u_theo,status,In Progress,In Review,Routine team workflow event.
+te-bg-031-0,APP-1031,2026-09-06T09:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-031-1,APP-1031,2026-09-07T04:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-031-2,APP-1031,2026-09-07T23:00:00Z,u_nia,status,In Progress,Done,Routine team workflow event.
+te-bg-032-0,DATA-1032,2026-09-06T16:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-032-1,DATA-1032,2026-09-07T11:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-032-2,DATA-1032,2026-09-08T06:00:00Z,u_priya,status,In Progress,To Do,Routine team workflow event.
+te-bg-033-0,MOB-1033,2026-09-06T23:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-033-1,MOB-1033,2026-09-07T18:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-033-2,MOB-1033,2026-09-08T13:00:00Z,u_jun,status,In Progress,In Progress,Routine team workflow event.
+te-bg-034-0,QA-1034,2026-09-07T06:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-034-1,QA-1034,2026-09-08T01:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-034-2,QA-1034,2026-08-28T14:00:00Z,u_leo,status,In Progress,In Review,Routine team workflow event.
+te-bg-035-0,DOC-1035,2026-09-07T13:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-035-1,DOC-1035,2026-09-08T08:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-035-2,DOC-1035,2026-08-28T21:00:00Z,u_theo,status,In Progress,Done,Routine team workflow event.
+te-bg-036-0,OPS-1036,2026-09-07T20:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-036-1,OPS-1036,2026-08-28T09:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-036-2,OPS-1036,2026-08-29T04:00:00Z,u_nia,status,In Progress,To Do,Routine team workflow event.
+te-bg-037-0,APP-1037,2026-09-08T03:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-037-1,APP-1037,2026-08-28T16:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-037-2,APP-1037,2026-08-29T11:00:00Z,u_priya,status,In Progress,In Progress,Routine team workflow event.
+te-bg-038-0,DATA-1038,2026-09-08T10:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-038-1,DATA-1038,2026-08-28T23:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-038-2,DATA-1038,2026-08-29T18:00:00Z,u_jun,status,In Progress,In Review,Routine team workflow event.
+te-bg-039-0,MOB-1039,2026-08-28T11:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-039-1,MOB-1039,2026-08-29T06:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-039-2,MOB-1039,2026-08-30T01:00:00Z,u_leo,status,In Progress,Done,Routine team workflow event.
+te-bg-040-0,QA-1040,2026-08-28T18:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-040-1,QA-1040,2026-08-29T13:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-040-2,QA-1040,2026-08-30T08:00:00Z,u_theo,status,In Progress,To Do,Routine team workflow event.
+te-bg-041-0,DOC-1041,2026-08-29T01:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-041-1,DOC-1041,2026-08-29T20:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-041-2,DOC-1041,2026-08-30T15:00:00Z,u_nia,status,In Progress,In Progress,Routine team workflow event.
+te-bg-042-0,OPS-1042,2026-08-29T08:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-042-1,OPS-1042,2026-08-30T03:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-042-2,OPS-1042,2026-08-30T22:00:00Z,u_priya,status,In Progress,In Review,Routine team workflow event.
+te-bg-043-0,APP-1043,2026-08-29T15:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-043-1,APP-1043,2026-08-30T10:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-043-2,APP-1043,2026-08-31T05:00:00Z,u_jun,status,In Progress,Done,Routine team workflow event.
+te-bg-044-0,DATA-1044,2026-08-29T22:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-044-1,DATA-1044,2026-08-30T17:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-044-2,DATA-1044,2026-08-31T12:00:00Z,u_leo,status,In Progress,To Do,Routine team workflow event.
+te-bg-045-0,MOB-1045,2026-08-30T05:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-045-1,MOB-1045,2026-08-31T00:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-045-2,MOB-1045,2026-08-31T19:00:00Z,u_theo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-046-0,QA-1046,2026-08-30T12:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-046-1,QA-1046,2026-08-31T07:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-046-2,QA-1046,2026-09-01T02:00:00Z,u_nia,status,In Progress,In Review,Routine team workflow event.
+te-bg-047-0,DOC-1047,2026-08-30T19:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-047-1,DOC-1047,2026-08-31T14:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-047-2,DOC-1047,2026-09-01T09:00:00Z,u_priya,status,In Progress,Done,Routine team workflow event.
+te-bg-048-0,OPS-1048,2026-08-31T02:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-048-1,OPS-1048,2026-08-31T21:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-048-2,OPS-1048,2026-09-01T16:00:00Z,u_jun,status,In Progress,To Do,Routine team workflow event.
+te-bg-049-0,APP-1049,2026-08-31T09:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-049-1,APP-1049,2026-09-01T04:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-049-2,APP-1049,2026-09-01T23:00:00Z,u_leo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-050-0,DATA-1050,2026-08-31T16:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-050-1,DATA-1050,2026-09-01T11:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-050-2,DATA-1050,2026-09-02T06:00:00Z,u_theo,status,In Progress,In Review,Routine team workflow event.
+te-bg-051-0,MOB-1051,2026-08-31T23:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-051-1,MOB-1051,2026-09-01T18:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-051-2,MOB-1051,2026-09-02T13:00:00Z,u_nia,status,In Progress,Done,Routine team workflow event.
+te-bg-052-0,QA-1052,2026-09-01T06:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-052-1,QA-1052,2026-09-02T01:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-052-2,QA-1052,2026-09-02T20:00:00Z,u_priya,status,In Progress,To Do,Routine team workflow event.
+te-bg-053-0,DOC-1053,2026-09-01T13:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-053-1,DOC-1053,2026-09-02T08:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-053-2,DOC-1053,2026-09-03T03:00:00Z,u_jun,status,In Progress,In Progress,Routine team workflow event.
+te-bg-054-0,OPS-1054,2026-09-01T20:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-054-1,OPS-1054,2026-09-02T15:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-054-2,OPS-1054,2026-09-03T10:00:00Z,u_leo,status,In Progress,In Review,Routine team workflow event.
+te-bg-055-0,APP-1055,2026-09-02T03:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-055-1,APP-1055,2026-09-02T22:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-055-2,APP-1055,2026-09-03T17:00:00Z,u_theo,status,In Progress,Done,Routine team workflow event.
+te-bg-056-0,DATA-1056,2026-09-02T10:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-056-1,DATA-1056,2026-09-03T05:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-056-2,DATA-1056,2026-09-04T00:00:00Z,u_nia,status,In Progress,To Do,Routine team workflow event.
+te-bg-057-0,MOB-1057,2026-09-02T17:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-057-1,MOB-1057,2026-09-03T12:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-057-2,MOB-1057,2026-09-04T07:00:00Z,u_priya,status,In Progress,In Progress,Routine team workflow event.
+te-bg-058-0,QA-1058,2026-09-03T00:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-058-1,QA-1058,2026-09-03T19:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-058-2,QA-1058,2026-09-04T14:00:00Z,u_jun,status,In Progress,In Review,Routine team workflow event.
+te-bg-059-0,DOC-1059,2026-09-03T07:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-059-1,DOC-1059,2026-09-04T02:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-059-2,DOC-1059,2026-09-04T21:00:00Z,u_leo,status,In Progress,Done,Routine team workflow event.
+te-bg-060-0,OPS-1060,2026-09-03T14:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-060-1,OPS-1060,2026-09-04T09:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-060-2,OPS-1060,2026-09-05T04:00:00Z,u_theo,status,In Progress,To Do,Routine team workflow event.
+te-bg-061-0,APP-1061,2026-09-03T21:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-061-1,APP-1061,2026-09-04T16:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-061-2,APP-1061,2026-09-05T11:00:00Z,u_nia,status,In Progress,In Progress,Routine team workflow event.
+te-bg-062-0,DATA-1062,2026-09-04T04:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-062-1,DATA-1062,2026-09-04T23:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-062-2,DATA-1062,2026-09-05T18:00:00Z,u_priya,status,In Progress,In Review,Routine team workflow event.
+te-bg-063-0,MOB-1063,2026-09-04T11:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-063-1,MOB-1063,2026-09-05T06:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-063-2,MOB-1063,2026-09-06T01:00:00Z,u_jun,status,In Progress,Done,Routine team workflow event.
+te-bg-064-0,QA-1064,2026-09-04T18:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-064-1,QA-1064,2026-09-05T13:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-064-2,QA-1064,2026-09-06T08:00:00Z,u_leo,status,In Progress,To Do,Routine team workflow event.
+te-bg-065-0,DOC-1065,2026-09-05T01:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-065-1,DOC-1065,2026-09-05T20:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-065-2,DOC-1065,2026-09-06T15:00:00Z,u_theo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-066-0,OPS-1066,2026-09-05T08:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-066-1,OPS-1066,2026-09-06T03:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-066-2,OPS-1066,2026-09-06T22:00:00Z,u_nia,status,In Progress,In Review,Routine team workflow event.
+te-bg-067-0,APP-1067,2026-09-05T15:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-067-1,APP-1067,2026-09-06T10:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-067-2,APP-1067,2026-09-07T05:00:00Z,u_priya,status,In Progress,Done,Routine team workflow event.
+te-bg-068-0,DATA-1068,2026-09-05T22:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-068-1,DATA-1068,2026-09-06T17:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-068-2,DATA-1068,2026-09-07T12:00:00Z,u_jun,status,In Progress,To Do,Routine team workflow event.
+te-bg-069-0,MOB-1069,2026-09-06T05:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-069-1,MOB-1069,2026-09-07T00:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-069-2,MOB-1069,2026-09-07T19:00:00Z,u_leo,status,In Progress,In Progress,Routine team workflow event.
+te-bg-070-0,QA-1070,2026-09-06T12:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-070-1,QA-1070,2026-09-07T07:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-070-2,QA-1070,2026-09-08T02:00:00Z,u_theo,status,In Progress,In Review,Routine team workflow event.
+te-bg-071-0,DOC-1071,2026-09-06T19:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-071-1,DOC-1071,2026-09-07T14:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-071-2,DOC-1071,2026-09-08T09:00:00Z,u_nia,status,In Progress,Done,Routine team workflow event.
+te-bg-072-0,OPS-1072,2026-09-07T02:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-072-1,OPS-1072,2026-09-07T21:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-072-2,OPS-1072,2026-08-28T10:00:00Z,u_priya,status,In Progress,To Do,Routine team workflow event.
+te-bg-073-0,APP-1073,2026-09-07T09:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-073-1,APP-1073,2026-09-08T04:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-073-2,APP-1073,2026-08-28T17:00:00Z,u_jun,status,In Progress,In Progress,Routine team workflow event.
+te-bg-074-0,DATA-1074,2026-09-07T16:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-074-1,DATA-1074,2026-09-08T11:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-074-2,DATA-1074,2026-08-29T00:00:00Z,u_leo,status,In Progress,In Review,Routine team workflow event.
+te-bg-075-0,MOB-1075,2026-09-07T23:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-075-1,MOB-1075,2026-08-28T12:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-075-2,MOB-1075,2026-08-29T07:00:00Z,u_theo,status,In Progress,Done,Routine team workflow event.
+te-bg-076-0,QA-1076,2026-09-08T06:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-076-1,QA-1076,2026-08-28T19:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-076-2,QA-1076,2026-08-29T14:00:00Z,u_nia,status,In Progress,To Do,Routine team workflow event.
+te-bg-077-0,DOC-1077,2026-09-08T13:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-077-1,DOC-1077,2026-08-29T02:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-077-2,DOC-1077,2026-08-29T21:00:00Z,u_priya,status,In Progress,In Progress,Routine team workflow event.
+te-bg-078-0,OPS-1078,2026-08-28T14:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-078-1,OPS-1078,2026-08-29T09:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-078-2,OPS-1078,2026-08-30T04:00:00Z,u_jun,status,In Progress,In Review,Routine team workflow event.
+te-bg-079-0,APP-1079,2026-08-28T21:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-079-1,APP-1079,2026-08-29T16:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-079-2,APP-1079,2026-08-30T11:00:00Z,u_leo,status,In Progress,Done,Routine team workflow event.
+te-bg-080-0,DATA-1080,2026-08-29T04:00:00Z,u_theo,created,Backlog,To Do,Routine team workflow event.
+te-bg-080-1,DATA-1080,2026-08-29T23:00:00Z,u_theo,status,To Do,In Progress,Routine team workflow event.
+te-bg-080-2,DATA-1080,2026-08-30T18:00:00Z,u_theo,status,In Progress,To Do,Routine team workflow event.
+te-bg-081-0,MOB-1081,2026-08-29T11:00:00Z,u_nia,created,Backlog,To Do,Routine team workflow event.
+te-bg-081-1,MOB-1081,2026-08-30T06:00:00Z,u_nia,status,To Do,In Progress,Routine team workflow event.
+te-bg-081-2,MOB-1081,2026-08-31T01:00:00Z,u_nia,status,In Progress,In Progress,Routine team workflow event.
+te-bg-082-0,QA-1082,2026-08-29T18:00:00Z,u_priya,created,Backlog,To Do,Routine team workflow event.
+te-bg-082-1,QA-1082,2026-08-30T13:00:00Z,u_priya,status,To Do,In Progress,Routine team workflow event.
+te-bg-082-2,QA-1082,2026-08-31T08:00:00Z,u_priya,status,In Progress,In Review,Routine team workflow event.
+te-bg-083-0,DOC-1083,2026-08-30T01:00:00Z,u_jun,created,Backlog,To Do,Routine team workflow event.
+te-bg-083-1,DOC-1083,2026-08-30T20:00:00Z,u_jun,status,To Do,In Progress,Routine team workflow event.
+te-bg-083-2,DOC-1083,2026-08-31T15:00:00Z,u_jun,status,In Progress,Done,Routine team workflow event.
+te-bg-084-0,OPS-1084,2026-08-30T08:00:00Z,u_leo,created,Backlog,To Do,Routine team workflow event.
+te-bg-084-1,OPS-1084,2026-08-31T03:00:00Z,u_leo,status,To Do,In Progress,Routine team workflow event.
+te-bg-084-2,OPS-1084,2026-08-31T22:00:00Z,u_leo,status,In Progress,To Do,Routine team workflow event.

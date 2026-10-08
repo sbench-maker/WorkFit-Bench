@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_prd_contract",
+      "title": "Usable engineering PRD artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown file is readable, substantial, and covers the core decision areas needed in a PRD: context, owners, goals, users, value, solution, assumptions, and release planning.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_markdown_prd_is_readable_and_complete"
+      ]
+    },
+    {
+      "id": "completion__evidence_and_objectives",
+      "title": "Evidence-grounded baseline and SMART outcomes",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The PRD reports the eligible manual-work baseline correctly and preserves the approved week-six speed, quality, adoption, authorization, and audit outcome contract.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_baseline_evidence_matches_sessions",
+        "test_approved_smart_outcomes"
+      ]
+    },
+    {
+      "id": "completion__safe_v1_contract",
+      "title": "Safe and internally consistent v1 boundary",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "v1 keeps the single-queue 50-ticket routing workflow, preview and partial-result protections, permissions, idempotency, audit, and accessibility needs, while materially riskier asks remain outside v1.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_v1_limits_and_safeguards",
+        "test_deferred_capabilities_stay_out_of_v1"
+      ]
+    },
+    {
+      "id": "completion__solution_release_decisions",
+      "title": "Implementable solution and release decisions",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The proposed experience, requirements, measurement plan, dependencies, gates, and relative release sequence form an implementable path from prototype through dogfood, pilot, and launch decision.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_prd_contract",
+        "title": "Usable engineering PRD artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_and_objectives",
+        "title": "Evidence-grounded baseline and SMART outcomes",
+        "required_score": 10
+      },
+      {
+        "id": "completion__safe_v1_contract",
+        "title": "Safe and internally consistent v1 boundary",
+        "required_score": 10
+      },
+      {
+        "id": "completion__solution_release_decisions",
+        "title": "Implementable solution and release decisions",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

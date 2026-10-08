@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__workbook_integrity",
+      "title": "Workbook integrity and source preservation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested workbook is readable, retains every source sheet and reference value, and preserves all 240 original trade records and source fields without duplication or alteration.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_workbook_integrity_and_source_preservation"
+      ]
+    },
+    {
+      "id": "completion__trade_calculations",
+      "title": "Formula-driven trade calculations and edge handling",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every trade has live formulas for local gross, broker fee in USD, and signed USD cash impact; results follow the supplied rates and settlement rules, cancelled trades resolve to zero cash, and booked trades with missing FX remain explicitly unresolved.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_trade_formula_coverage_and_recalculated_results"
+      ]
+    },
+    {
+      "id": "completion__summary_reconciliation",
+      "title": "Summary coverage and reconciliation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Summary contains each supplied desk/currency combination and a grand total, with live formulas whose counts, fees, cash impacts, and missing-rate states reconcile to Trades.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_summary_coverage_formulas_and_reconciliation"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__workbook_integrity",
+        "title": "Workbook integrity and source preservation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__trade_calculations",
+        "title": "Formula-driven trade calculations and edge handling",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summary_reconciliation",
+        "title": "Summary coverage and reconciliation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

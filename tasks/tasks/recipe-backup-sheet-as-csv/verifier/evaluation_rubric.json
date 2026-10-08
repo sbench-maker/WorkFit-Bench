@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__csv_usability",
+      "title": "Usable CSV artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested file exists and is a non-empty, rectangular UTF-8 CSV that standard CSV readers can parse.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_csv_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__header_fidelity",
+      "title": "Header and schema fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The CSV preserves the active Recipe Catalog sheet's header labels and column order.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_header_fidelity"
+      ]
+    },
+    {
+      "id": "completion__record_scope",
+      "title": "Active-sheet record coverage and order",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All and only Recipe Catalog records appear once, in the same row order, with no archive or reference-tab substitution.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_recipe_record_coverage_and_order"
+      ]
+    },
+    {
+      "id": "completion__cell_fidelity",
+      "title": "Cell-content fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every non-key cell preserves the source value, including empty cells, punctuation, Unicode, commas, quotes, and embedded newlines.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_recipe_cell_content_fidelity"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__csv_usability",
+        "title": "Usable CSV artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__header_fidelity",
+        "title": "Header and schema fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__record_scope",
+        "title": "Active-sheet record coverage and order",
+        "required_score": 10
+      },
+      {
+        "id": "completion__cell_fidelity",
+        "title": "Cell-content fidelity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

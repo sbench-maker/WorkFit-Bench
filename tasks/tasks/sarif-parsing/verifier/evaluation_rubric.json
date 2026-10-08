@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Usable regression artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON exists, parses, and exposes the three comparison groups, per-status severity totals, and a release-gate decision.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__comparison_and_deduplication",
+      "title": "Correct comparison and deduplication",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every canonical finding is classified exactly once as new, fixed, or unchanged after applying the supplied identity and deduplication policy.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_comparison_and_deduplication"
+      ]
+    },
+    {
+      "id": "completion__finding_fidelity",
+      "title": "Finding fidelity and traceability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Reported findings retain the correct rule, effective severity, source message, normalized repository-relative file, and start line.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_finding_fidelity"
+      ]
+    },
+    {
+      "id": "completion__summaries_and_gate",
+      "title": "Severity summaries and release gate",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Per-status severity totals reconcile to the canonical finding groups and the gate follows the manifest rule for new error-level findings.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_summaries_and_gate"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Usable regression artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__comparison_and_deduplication",
+        "title": "Correct comparison and deduplication",
+        "required_score": 10
+      },
+      {
+        "id": "completion__finding_fidelity",
+        "title": "Finding fidelity and traceability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summaries_and_gate",
+        "title": "Severity summaries and release gate",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

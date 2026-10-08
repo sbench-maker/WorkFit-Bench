@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__change_feed_coverage",
+      "title": "Change-feed coverage and artifact usability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON and runnable project exist, and the feed covers every newly added or materially updated eligible model without duplicate or unusable records.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_change_feed"
+      ]
+    },
+    {
+      "id": "completion__collection_normalization",
+      "title": "Collection, normalization, and duplicate resolution",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Emitted records reflect the authoritative latest crawl cards, use canonical URLs, preserve the model facts, and exclude entries that fail the configured eligibility rules.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_collection_normalization"
+      ]
+    },
+    {
+      "id": "completion__enrichment_correctness",
+      "title": "Configuration- and feedback-aware enrichment",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every required change has the correct compatibility score and priority after applying the supplied bands, thresholds, and learned positive or negative feedback signals.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__persistence_consistency",
+      "title": "Persistent-state consistency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The local persisted state retains prior records, inserts new eligible models, updates material changes, and does not create duplicate canonical identities.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_persistent_state_consistency"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__change_feed_coverage",
+        "title": "Change-feed coverage and artifact usability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__collection_normalization",
+        "title": "Collection, normalization, and duplicate resolution",
+        "required_score": 10
+      },
+      {
+        "id": "completion__enrichment_correctness",
+        "title": "Configuration- and feedback-aware enrichment",
+        "required_score": 10
+      },
+      {
+        "id": "completion__persistence_consistency",
+        "title": "Persistent-state consistency",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

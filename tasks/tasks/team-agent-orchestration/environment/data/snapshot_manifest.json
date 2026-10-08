@@ -1,0 +1,18 @@
+{
+  "construction": "deterministic fictional release-control snapshot",
+  "as_of": "2026-08-14T18:00:00Z",
+  "files": {
+    "agents.csv": 9,
+    "work_items.csv": 18,
+    "acceptance_checks.csv": 35,
+    "file_changes.csv": 26,
+    "evidence.csv": 261,
+    "blockers.csv": 5,
+    "project_context.json": 1
+  },
+  "notes": [
+    "Board-state values are intentionally stale and must be reconciled against evidence.",
+    "C15 shares a file with C02 and has a frozen overlap blocker.",
+    "Archived work remains in the export but is outside the active release board."
+  ]
+}

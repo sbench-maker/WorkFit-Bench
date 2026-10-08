@@ -1,0 +1,37 @@
+sku_id,sku_name,category,vendor_id,demand_pattern,unit_cost,unit_margin,case_pack,moq,target_service_level
+SKU-001,Glass Storage Set 1,Kitchen,V-ASTER,stable,3.20,0.83,6,12,0.975
+SKU-002,Oat Cluster 2,Pantry,V-BRIM,stable,4.57,1.39,8,24,0.950
+SKU-003,Citrus Hand Wash 3,Personal Care,V-COVE,stable,5.94,2.08,12,60,0.950
+SKU-004,Harvest Candle 4,Seasonal,V-DUSK,stable,7.31,2.89,18,144,0.900
+SKU-005,Bamboo Utensil Kit 5,Kitchen,V-ASTER,stable,8.68,3.82,24,48,0.975
+SKU-006,Tomato Bisque 6,Pantry,V-BRIM,stable,10.05,2.61,6,18,0.950
+SKU-007,Mineral Shampoo 7,Personal Care,V-COVE,stable,11.42,3.48,8,40,0.950
+SKU-008,Fleece Throw 8,Seasonal,V-DUSK,stable,12.79,4.48,12,96,0.900
+SKU-009,Silicone Baking Mat 9,Kitchen,V-ASTER,stable,14.16,5.59,18,36,0.975
+SKU-010,Herb Cracker 10,Pantry,V-BRIM,stable,15.53,6.83,24,72,0.950
+SKU-011,Cotton Facial Pad 11,Personal Care,V-COVE,trending,16.90,4.39,6,30,0.950
+SKU-012,Winter Mug 12,Seasonal,V-DUSK,trending,18.27,5.57,8,64,0.900
+SKU-013,Glass Storage Set 13,Kitchen,V-ASTER,trending,19.64,6.87,12,24,0.975
+SKU-014,Oat Cluster 14,Pantry,V-BRIM,trending,21.01,8.30,18,54,0.950
+SKU-015,Citrus Hand Wash 15,Personal Care,V-COVE,trending,22.38,9.85,24,120,0.950
+SKU-016,Harvest Candle 16,Seasonal,V-DUSK,trending,23.75,6.17,6,48,0.900
+SKU-017,Bamboo Utensil Kit 17,Kitchen,V-ASTER,trending,25.12,7.66,8,16,0.975
+SKU-018,Tomato Bisque 18,Pantry,V-BRIM,trending,26.49,9.27,12,36,0.950
+SKU-019,Mineral Shampoo 19,Personal Care,V-COVE,trending,3.86,1.52,18,90,0.950
+SKU-020,Fleece Throw 20,Seasonal,V-DUSK,seasonal,5.23,2.30,24,192,0.900
+SKU-021,Silicone Baking Mat 21,Kitchen,V-ASTER,seasonal,6.60,1.72,6,12,0.975
+SKU-022,Herb Cracker 22,Pantry,V-BRIM,seasonal,7.97,2.43,8,24,0.950
+SKU-023,Cotton Facial Pad 23,Personal Care,V-COVE,seasonal,9.34,3.27,12,60,0.950
+SKU-024,Winter Mug 24,Seasonal,V-DUSK,seasonal,10.71,4.23,18,144,0.900
+SKU-025,Glass Storage Set 25,Kitchen,V-ASTER,seasonal,12.08,5.32,24,48,0.975
+SKU-026,Oat Cluster 26,Pantry,V-BRIM,seasonal,13.45,3.50,6,18,0.950
+SKU-027,Citrus Hand Wash 27,Personal Care,V-COVE,seasonal,14.82,4.52,8,40,0.950
+SKU-028,Harvest Candle 28,Seasonal,V-DUSK,seasonal,16.19,5.67,12,96,0.900
+SKU-029,Bamboo Utensil Kit 29,Kitchen,V-ASTER,intermittent,17.56,6.94,18,36,0.975
+SKU-030,Tomato Bisque 30,Pantry,V-BRIM,intermittent,18.93,8.33,24,72,0.950
+SKU-031,Mineral Shampoo 31,Personal Care,V-COVE,intermittent,20.30,5.28,6,30,0.950
+SKU-032,Fleece Throw 32,Seasonal,V-DUSK,intermittent,21.67,6.61,8,64,0.900
+SKU-033,Silicone Baking Mat 33,Kitchen,V-ASTER,intermittent,23.04,8.06,12,24,0.975
+SKU-034,Herb Cracker 34,Pantry,V-BRIM,intermittent,24.41,9.64,18,54,0.950
+SKU-035,Cotton Facial Pad 35,Personal Care,V-COVE,intermittent,25.78,11.34,24,120,0.950
+SKU-036,Winter Mug 36,Seasonal,V-DUSK,intermittent,27.15,7.06,6,48,0.900

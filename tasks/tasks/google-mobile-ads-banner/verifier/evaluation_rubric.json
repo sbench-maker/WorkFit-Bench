@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_build",
+      "title": "Usable offline project",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested project is present at the named output path, retains its fixture inputs, and completes its offline build.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_builds_and_is_complete"
+      ]
+    },
+    {
+      "id": "completion__adaptive_placement",
+      "title": "Adaptive in-feed placement",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Exactly one inline adaptive banner is placed at the product team's sponsored slot inside the scrolling feed with the development viewport width.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_inline_banner_placement_and_size"
+      ]
+    },
+    {
+      "id": "completion__request_loading",
+      "title": "Banner request and loading",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The banner sends one load request using the fixture's Android test traffic and the selected adaptive size.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_request_and_single_load"
+      ]
+    },
+    {
+      "id": "completion__callback_states",
+      "title": "Thread-safe load states",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Background success and failure callbacks update meaningful status and banner visibility without an off-main-thread UI mutation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_callback_ui_states_and_thread_safety"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_build",
+        "title": "Usable offline project",
+        "required_score": 10
+      },
+      {
+        "id": "completion__adaptive_placement",
+        "title": "Adaptive in-feed placement",
+        "required_score": 10
+      },
+      {
+        "id": "completion__request_loading",
+        "title": "Banner request and loading",
+        "required_score": 10
+      },
+      {
+        "id": "completion__callback_states",
+        "title": "Thread-safe load states",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

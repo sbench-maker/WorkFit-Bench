@@ -1,0 +1,10 @@
+# Northstar Relay Documentation
+> Routing and reliability documentation for engineering teams.
+
+## Start here
+- [Product overview](/product/relay): Overview of the traffic-routing service.
+- [Quickstart](/docs/quickstart): Send a first routed request.
+- [Legacy authentication](/docs/legacy-auth): Configure the retired v1 authentication flow.
+
+## Guides
+- [Latency budgets](/guides/latency-budget): Plan a service latency budget.

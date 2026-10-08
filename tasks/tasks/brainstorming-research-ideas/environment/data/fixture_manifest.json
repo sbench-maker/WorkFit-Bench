@@ -1,0 +1,15 @@
+{
+  "construction": "deterministic local fiction",
+  "snapshot_date": "2026-08-15",
+  "files": {
+    "project_brief.json": 1,
+    "prior_projects.json": 16,
+    "capability_changes.json": 10,
+    "observations.jsonl": 240,
+    "observation_index.csv": 240
+  },
+  "join_keys": {
+    "observations.jsonl -> observation_index.csv": "observation_id",
+    "capability_changes.json -> project_brief.json": "asset_id / available_asset_ids"
+  }
+}

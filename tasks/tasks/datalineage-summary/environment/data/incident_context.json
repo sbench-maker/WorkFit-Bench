@@ -1,0 +1,8 @@
+{
+  "incidentId": "DQ-2026-0817-REV",
+  "observedDate": "2026-08-17",
+  "observedIssue": "The null rate for net_revenue rose above the finance quality threshold.",
+  "focalAsset": "bigquery:helios-analytics.prod_finance.fct_invoice_daily",
+  "focalField": "net_revenue",
+  "analysisIntent": "Use lineage to identify the data path and investigation checkpoints; lineage alone does not establish causation."
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "fixture_kind": "deterministic fictional Context7-style snapshot",
+  "complete": true,
+  "truncated": false,
+  "network_required": false,
+  "row_counts": {
+    "library_catalog.json": 30,
+    "document_chunks.jsonl": 260
+  },
+  "join_key": "library_id",
+  "sha256": {
+    "library_catalog.json": "57f32e6a58d3d38811dd682d5109666125efb9cee1885d92c81069a17968542e",
+    "document_chunks.jsonl": "ad02acd6f8a52eea860343cf1957d2f44dea7ca976520237743ee9c909c2bb6b"
+  },
+  "construction": "fixed records and deterministic round-robin filler; no external sources"
+}

@@ -1,0 +1,9 @@
+metric_id,display_name,hierarchy_level,unit,monthly_aggregation,direction,description
+weekly_value_teams,Weekly value teams,North Star,teams,average_weekly_sum,higher,Teams with at least three members completing a core workflow in the week.
+activation_rate,Activation rate,L1 Activation,rate,weighted_ratio,higher,Activated signups divided by signups.
+d30_retention_rate,D30 retention,L1 Retention,rate,weighted_ratio,higher,Retained users divided by eligible users for matured cohorts.
+core_actions_per_active_team,Core actions per active team,L1 Engagement,ratio,weighted_ratio,higher,Core workflow actions divided by active teams.
+paid_conversion_rate,Paid conversion,L1 Monetization,rate,weighted_ratio,higher,New paid accounts divided by eligible free accounts.
+error_rate,Session error rate,L2 Reliability,rate,weighted_ratio,lower,Sessions with a blocking error divided by sessions.
+automation_adoption_rate,Automation adoption,L2 Feature Adoption,rate,weighted_ratio,higher,Active teams using an automation template divided by eligible active teams.
+support_tickets_per_100_active_teams,Support tickets per 100 active teams,L1 Satisfaction,per_100,weighted_ratio_scaled,lower,Support tickets per 100 active teams.

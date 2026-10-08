@@ -1,0 +1,28 @@
+{
+  "fixture_type": "deterministic fictional offline workspace snapshot",
+  "snapshot_at": "2026-04-17T17:00:00Z",
+  "reporting_window": {
+    "start": "2026-04-13",
+    "end": "2026-04-17"
+  },
+  "planning_window": {
+    "start": "2026-04-20",
+    "end": "2026-04-24"
+  },
+  "record_counts": {
+    "roster.csv": 5,
+    "accounts.csv": 30,
+    "email_messages.jsonl": 127,
+    "chat_messages.jsonl": 185,
+    "action_tracker.csv": 70,
+    "calendar_events.csv": 80,
+    "okrs.csv": 12
+  },
+  "join_keys": [
+    "user_id/owner_id/author_id",
+    "account_id",
+    "thread_id",
+    "task_id",
+    "event_id"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__tracker_and_snapshot",
+      "title": "Tracker reconciliation and weekly snapshot",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan applies exactly the eligible latest Orbit task updates and reports the resulting status counts, overdue open work, and active blockers.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__calendar_coordination",
+      "title": "Conflict-free calendar coordination",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every unscheduled meeting request is placed at the earliest feasible time with the correct recurrence and attendees, while the existing request is not duplicated and the sensitive review excludes its optional observer.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_calendar_actions_are_feasible_complete_and_deduplicated"
+      ]
+    },
+    {
+      "id": "completion__email_routing",
+      "title": "Status and escalation email routing",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan drafts the current weekly status email and only the blocker escalation that is due after cooldown, with the correct stakeholder and escalation recipients and reviewable subject/body content.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_email_draft_scope_routing_and_deduplication"
+      ]
+    },
+    {
+      "id": "completion__document_workflow",
+      "title": "Eligible document upload and announcement",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan uploads and announces only the newest approved, team-visible, not-yet-announced Orbit runbook version to the project channel.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_document_upload_and_announcement_scope"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__tracker_and_snapshot",
+        "title": "Tracker reconciliation and weekly snapshot",
+        "required_score": 10
+      },
+      {
+        "id": "completion__calendar_coordination",
+        "title": "Conflict-free calendar coordination",
+        "required_score": 10
+      },
+      {
+        "id": "completion__email_routing",
+        "title": "Status and escalation email routing",
+        "required_score": 10
+      },
+      {
+        "id": "completion__document_workflow",
+        "title": "Eligible document upload and announcement",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

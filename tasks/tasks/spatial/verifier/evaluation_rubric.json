@@ -1,0 +1,112 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Usable GeoJSON artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested file is a readable, non-empty WGS84 GeoJSON FeatureCollection of point features with identifiable records.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_geojson_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__source_scope_metadata",
+      "title": "Venue scope and metadata preservation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The layer contains exactly the active, coordinate-valid source venues once each, with correct point coordinates and source display metadata.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_feature_scope_and_coordinates",
+        "test_source_metadata_preserved"
+      ]
+    },
+    {
+      "id": "completion__zone_assignment",
+      "title": "Service-zone assignment",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each venue has the correct covered zone, including boundary, overlap-priority, and null out-of-zone outcomes.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_all_zone_assignments",
+        "test_zone_boundary_overlap_and_null_cases"
+      ]
+    },
+    {
+      "id": "completion__nearest_hub_distance",
+      "title": "Nearest pickup hub and spheroid distance",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every output venue identifies its nearest pickup hub and reports a WGS84 spheroid distance in meters within a small numerical tolerance.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_nearest_hub_and_spheroid_distance"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Usable GeoJSON artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__source_scope_metadata",
+        "title": "Venue scope and metadata preservation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__zone_assignment",
+        "title": "Service-zone assignment",
+        "required_score": 10
+      },
+      {
+        "id": "completion__nearest_hub_distance",
+        "title": "Nearest pickup hub and spheroid distance",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

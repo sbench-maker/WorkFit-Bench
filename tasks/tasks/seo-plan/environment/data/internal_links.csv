@@ -1,0 +1,344 @@
+link_id,source_page_id,target_page_id,anchor_text,location
+L0001,P001,P017,learn about month end close software,body
+L0002,P001,P031,learn about account reconciliation software,related-resources
+L0003,P001,P044,learn about close management software,footer
+L0004,P002,P024,learn about account reconciliation software,body
+L0005,P002,P038,learn about close management software,related-resources
+L0006,P002,P051,learn about multi entity close software,footer
+L0007,P003,P032,learn about close management software,body
+L0008,P003,P045,learn about multi entity close software,related-resources
+L0009,P003,P059,learn about month end close checklist,footer
+L0010,P004,P039,learn about multi entity close software,body
+L0011,P004,P052,learn about month end close checklist,related-resources
+L0012,P004,P066,learn about month end close process,footer
+L0013,P006,P053,learn about month end close process,body
+L0014,P006,P067,learn about balance sheet reconciliation,related-resources
+L0015,P006,P080,learn about netsuite month end close,footer
+L0016,P007,P061,learn about balance sheet reconciliation,body
+L0017,P007,P074,learn about netsuite month end close,related-resources
+L0018,P007,P088,learn about quickbooks month end close,footer
+L0019,P008,P068,learn about netsuite month end close,body
+L0020,P008,P081,learn about quickbooks month end close,related-resources
+L0021,P008,P095,learn about sap financial close automation,footer
+L0022,P009,P075,learn about quickbooks month end close,body
+L0023,P009,P089,learn about sap financial close automation,related-resources
+L0024,P009,P102,learn about audit ready close,footer
+L0025,P010,P082,learn about sap financial close automation,body
+L0026,P010,P096,learn about audit ready close,related-resources
+L0027,P010,P109,learn about financial close automation,footer
+L0028,P011,P090,learn about audit ready close,body
+L0029,P011,P103,learn about financial close automation,related-resources
+L0030,P011,P117,learn about month end close reporting,footer
+L0031,P012,P097,learn about financial close automation,body
+L0032,P012,P110,learn about month end close reporting,related-resources
+L0033,P012,P007,learn about flux analysis software,footer
+L0034,P013,P104,learn about month end close reporting,body
+L0035,P013,P118,learn about flux analysis software,related-resources
+L0036,P013,P014,learn about intercompany reconciliation software,footer
+L0037,P014,P111,learn about flux analysis software,body
+L0038,P014,P008,learn about intercompany reconciliation software,related-resources
+L0039,P014,P021,learn about financial close roi calculator,footer
+L0040,P015,P119,learn about intercompany reconciliation software,body
+L0041,P015,P028,learn about month end close benchmark,footer
+L0042,P016,P009,learn about financial close roi calculator,body
+L0043,P016,P022,learn about month end close benchmark,related-resources
+L0044,P016,P036,learn about numericone alternative,footer
+L0045,P017,P016,learn about month end close benchmark,body
+L0046,P017,P030,learn about numericone alternative,related-resources
+L0047,P017,P043,learn about reconflow alternative,footer
+L0048,P018,P023,learn about numericone alternative,body
+L0049,P018,P037,learn about reconflow alternative,related-resources
+L0050,P018,P050,learn about monthendly alternative,footer
+L0051,P019,P031,learn about reconflow alternative,body
+L0052,P019,P044,learn about monthendly alternative,related-resources
+L0053,P019,P057,learn about ledgerbeam alternative,footer
+L0054,P020,P038,learn about monthendly alternative,body
+L0055,P020,P051,learn about ledgerbeam alternative,related-resources
+L0056,P020,P065,learn about clearclose alternative,footer
+L0057,P021,P045,learn about ledgerbeam alternative,body
+L0058,P021,P059,learn about clearclose alternative,related-resources
+L0059,P021,P072,learn about financial close glossary,footer
+L0060,P022,P052,learn about clearclose alternative,body
+L0061,P022,P066,learn about financial close glossary,related-resources
+L0062,P022,P079,learn about financial close software,footer
+L0063,P023,P060,learn about financial close glossary,body
+L0064,P023,P073,learn about financial close software,related-resources
+L0065,P023,P086,learn about month end close software,footer
+L0066,P024,P067,learn about financial close software,body
+L0067,P024,P080,learn about month end close software,related-resources
+L0068,P024,P094,learn about account reconciliation software,footer
+L0069,P025,P074,learn about month end close software,body
+L0070,P025,P088,learn about account reconciliation software,related-resources
+L0071,P025,P101,learn about close management software,footer
+L0072,P026,P081,learn about account reconciliation software,body
+L0073,P026,P095,learn about close management software,related-resources
+L0074,P026,P108,learn about multi entity close software,footer
+L0075,P027,P089,learn about close management software,body
+L0076,P027,P102,learn about multi entity close software,related-resources
+L0077,P027,P115,learn about month end close checklist,footer
+L0078,P028,P096,learn about multi entity close software,body
+L0079,P028,P109,learn about month end close checklist,related-resources
+L0080,P028,P006,learn about month end close process,footer
+L0081,P030,P110,learn about month end close process,body
+L0082,P030,P007,learn about balance sheet reconciliation,related-resources
+L0083,P030,P020,learn about netsuite month end close,footer
+L0084,P031,P118,learn about balance sheet reconciliation,body
+L0085,P031,P014,learn about netsuite month end close,related-resources
+L0086,P031,P027,learn about quickbooks month end close,footer
+L0087,P032,P008,learn about netsuite month end close,body
+L0088,P032,P021,learn about quickbooks month end close,related-resources
+L0089,P032,P035,learn about sap financial close automation,footer
+L0090,P033,P015,learn about quickbooks month end close,body
+L0091,P033,P028,learn about sap financial close automation,related-resources
+L0092,P033,P042,learn about audit ready close,footer
+L0093,P034,P022,learn about sap financial close automation,body
+L0094,P034,P036,learn about audit ready close,related-resources
+L0095,P034,P049,learn about financial close automation,footer
+L0096,P035,P030,learn about audit ready close,body
+L0097,P035,P043,learn about financial close automation,related-resources
+L0098,P035,P056,learn about month end close reporting,footer
+L0099,P036,P037,learn about financial close automation,body
+L0100,P036,P050,learn about month end close reporting,related-resources
+L0101,P036,P064,learn about flux analysis software,footer
+L0102,P037,P044,learn about month end close reporting,body
+L0103,P037,P057,learn about flux analysis software,related-resources
+L0104,P037,P071,learn about intercompany reconciliation software,footer
+L0105,P038,P051,learn about flux analysis software,body
+L0106,P038,P065,learn about intercompany reconciliation software,related-resources
+L0107,P038,P078,learn about financial close roi calculator,footer
+L0108,P039,P059,learn about intercompany reconciliation software,body
+L0109,P039,P072,learn about financial close roi calculator,related-resources
+L0110,P039,P085,learn about month end close benchmark,footer
+L0111,P040,P066,learn about financial close roi calculator,body
+L0112,P040,P079,learn about month end close benchmark,related-resources
+L0113,P040,P093,learn about numericone alternative,footer
+L0114,P041,P073,learn about month end close benchmark,body
+L0115,P041,P086,learn about numericone alternative,related-resources
+L0116,P041,P100,learn about reconflow alternative,footer
+L0117,P042,P080,learn about numericone alternative,body
+L0118,P042,P094,learn about reconflow alternative,related-resources
+L0119,P042,P107,learn about monthendly alternative,footer
+L0120,P043,P088,learn about reconflow alternative,body
+L0121,P043,P101,learn about monthendly alternative,related-resources
+L0122,P043,P114,learn about ledgerbeam alternative,footer
+L0123,P044,P095,learn about monthendly alternative,body
+L0124,P044,P108,learn about ledgerbeam alternative,related-resources
+L0125,P044,P004,learn about clearclose alternative,footer
+L0126,P045,P102,learn about ledgerbeam alternative,body
+L0127,P045,P115,learn about clearclose alternative,related-resources
+L0128,P045,P012,learn about financial close glossary,footer
+L0129,P046,P109,learn about clearclose alternative,body
+L0130,P046,P006,learn about financial close glossary,related-resources
+L0131,P046,P019,learn about financial close software,footer
+L0132,P047,P117,learn about financial close glossary,body
+L0133,P047,P013,learn about financial close software,related-resources
+L0134,P047,P026,learn about month end close software,footer
+L0135,P048,P007,learn about financial close software,body
+L0136,P048,P020,learn about month end close software,related-resources
+L0137,P048,P034,learn about account reconciliation software,footer
+L0138,P049,P014,learn about month end close software,body
+L0139,P049,P027,learn about account reconciliation software,related-resources
+L0140,P049,P041,learn about close management software,footer
+L0141,P050,P021,learn about account reconciliation software,body
+L0142,P050,P035,learn about close management software,related-resources
+L0143,P050,P048,learn about multi entity close software,footer
+L0144,P051,P028,learn about close management software,body
+L0145,P051,P042,learn about multi entity close software,related-resources
+L0146,P051,P055,learn about month end close checklist,footer
+L0147,P052,P036,learn about multi entity close software,body
+L0148,P052,P049,learn about month end close checklist,related-resources
+L0149,P052,P063,learn about month end close process,footer
+L0150,P053,P043,learn about month end close checklist,body
+L0151,P053,P056,learn about month end close process,related-resources
+L0152,P053,P070,learn about balance sheet reconciliation,footer
+L0153,P054,P050,learn about month end close process,body
+L0154,P054,P064,learn about balance sheet reconciliation,related-resources
+L0155,P054,P077,learn about netsuite month end close,footer
+L0156,P055,P057,learn about balance sheet reconciliation,body
+L0157,P055,P071,learn about netsuite month end close,related-resources
+L0158,P055,P084,learn about quickbooks month end close,footer
+L0159,P056,P065,learn about netsuite month end close,body
+L0160,P056,P078,learn about quickbooks month end close,related-resources
+L0161,P056,P092,learn about sap financial close automation,footer
+L0162,P057,P072,learn about quickbooks month end close,body
+L0163,P057,P085,learn about sap financial close automation,related-resources
+L0164,P057,P099,learn about audit ready close,footer
+L0165,P059,P086,learn about audit ready close,body
+L0166,P059,P100,learn about financial close automation,related-resources
+L0167,P059,P113,learn about month end close reporting,footer
+L0168,P060,P094,learn about financial close automation,body
+L0169,P060,P107,learn about month end close reporting,related-resources
+L0170,P060,P002,learn about flux analysis software,footer
+L0171,P061,P101,learn about month end close reporting,body
+L0172,P061,P114,learn about flux analysis software,related-resources
+L0173,P061,P011,learn about intercompany reconciliation software,footer
+L0174,P062,P108,learn about flux analysis software,body
+L0175,P062,P004,learn about intercompany reconciliation software,related-resources
+L0176,P062,P018,learn about financial close roi calculator,footer
+L0177,P063,P115,learn about intercompany reconciliation software,body
+L0178,P063,P012,learn about financial close roi calculator,related-resources
+L0179,P063,P025,learn about month end close benchmark,footer
+L0180,P064,P006,learn about financial close roi calculator,body
+L0181,P064,P019,learn about month end close benchmark,related-resources
+L0182,P064,P033,learn about numericone alternative,footer
+L0183,P065,P013,learn about month end close benchmark,body
+L0184,P065,P026,learn about numericone alternative,related-resources
+L0185,P065,P040,learn about reconflow alternative,footer
+L0186,P066,P020,learn about numericone alternative,body
+L0187,P066,P034,learn about reconflow alternative,related-resources
+L0188,P066,P047,learn about monthendly alternative,footer
+L0189,P067,P027,learn about reconflow alternative,body
+L0190,P067,P041,learn about monthendly alternative,related-resources
+L0191,P067,P054,learn about ledgerbeam alternative,footer
+L0192,P068,P035,learn about monthendly alternative,body
+L0193,P068,P048,learn about ledgerbeam alternative,related-resources
+L0194,P068,P062,learn about clearclose alternative,footer
+L0195,P069,P042,learn about ledgerbeam alternative,body
+L0196,P069,P055,learn about clearclose alternative,related-resources
+L0197,P070,P049,learn about clearclose alternative,body
+L0198,P070,P063,learn about financial close glossary,related-resources
+L0199,P070,P076,learn about financial close software,footer
+L0200,P071,P056,learn about financial close glossary,body
+L0201,P071,P070,learn about financial close software,related-resources
+L0202,P071,P083,learn about month end close software,footer
+L0203,P072,P064,learn about financial close software,body
+L0204,P072,P077,learn about month end close software,related-resources
+L0205,P072,P091,learn about account reconciliation software,footer
+L0206,P073,P071,learn about month end close software,body
+L0207,P073,P084,learn about account reconciliation software,related-resources
+L0208,P073,P098,learn about close management software,footer
+L0209,P074,P078,learn about account reconciliation software,body
+L0210,P074,P092,learn about close management software,related-resources
+L0211,P074,P105,learn about multi entity close software,footer
+L0212,P075,P085,learn about close management software,body
+L0213,P075,P099,learn about multi entity close software,related-resources
+L0214,P075,P112,learn about month end close checklist,footer
+L0215,P076,P093,learn about multi entity close software,body
+L0216,P076,P106,learn about month end close checklist,related-resources
+L0217,P076,P120,learn about month end close process,footer
+L0218,P077,P100,learn about month end close checklist,body
+L0219,P077,P113,learn about month end close process,related-resources
+L0220,P077,P010,learn about balance sheet reconciliation,footer
+L0221,P078,P107,learn about month end close process,body
+L0222,P078,P002,learn about balance sheet reconciliation,related-resources
+L0223,P078,P017,learn about netsuite month end close,footer
+L0224,P079,P114,learn about balance sheet reconciliation,body
+L0225,P079,P011,learn about netsuite month end close,related-resources
+L0226,P079,P024,learn about quickbooks month end close,footer
+L0227,P080,P004,learn about netsuite month end close,body
+L0228,P080,P018,learn about quickbooks month end close,related-resources
+L0229,P080,P032,learn about sap financial close automation,footer
+L0230,P081,P012,learn about quickbooks month end close,body
+L0231,P081,P025,learn about sap financial close automation,related-resources
+L0232,P081,P039,learn about audit ready close,footer
+L0233,P082,P019,learn about sap financial close automation,body
+L0234,P082,P033,learn about audit ready close,related-resources
+L0235,P082,P046,learn about financial close automation,footer
+L0236,P083,P026,learn about audit ready close,body
+L0237,P083,P040,learn about financial close automation,related-resources
+L0238,P083,P053,learn about month end close reporting,footer
+L0239,P084,P034,learn about financial close automation,body
+L0240,P084,P047,learn about month end close reporting,related-resources
+L0241,P084,P061,learn about flux analysis software,footer
+L0242,P085,P041,learn about month end close reporting,body
+L0243,P085,P054,learn about flux analysis software,related-resources
+L0244,P085,P068,learn about intercompany reconciliation software,footer
+L0245,P086,P048,learn about flux analysis software,body
+L0246,P086,P062,learn about intercompany reconciliation software,related-resources
+L0247,P086,P075,learn about financial close roi calculator,footer
+L0248,P088,P063,learn about financial close roi calculator,body
+L0249,P088,P076,learn about month end close benchmark,related-resources
+L0250,P088,P090,learn about numericone alternative,footer
+L0251,P089,P070,learn about month end close benchmark,body
+L0252,P089,P083,learn about numericone alternative,related-resources
+L0253,P089,P097,learn about reconflow alternative,footer
+L0254,P090,P077,learn about numericone alternative,body
+L0255,P090,P091,learn about reconflow alternative,related-resources
+L0256,P090,P104,learn about monthendly alternative,footer
+L0257,P091,P084,learn about reconflow alternative,body
+L0258,P091,P098,learn about monthendly alternative,related-resources
+L0259,P091,P111,learn about ledgerbeam alternative,footer
+L0260,P092,P105,learn about ledgerbeam alternative,related-resources
+L0261,P092,P119,learn about clearclose alternative,footer
+L0262,P093,P099,learn about ledgerbeam alternative,body
+L0263,P093,P112,learn about clearclose alternative,related-resources
+L0264,P093,P009,learn about financial close glossary,footer
+L0265,P094,P106,learn about clearclose alternative,body
+L0266,P094,P120,learn about financial close glossary,related-resources
+L0267,P094,P016,learn about financial close software,footer
+L0268,P095,P113,learn about financial close glossary,body
+L0269,P095,P010,learn about financial close software,related-resources
+L0270,P095,P023,learn about month end close software,footer
+L0271,P096,P002,learn about financial close software,body
+L0272,P096,P017,learn about month end close software,related-resources
+L0273,P096,P031,learn about account reconciliation software,footer
+L0274,P097,P011,learn about month end close software,body
+L0275,P097,P024,learn about account reconciliation software,related-resources
+L0276,P097,P038,learn about close management software,footer
+L0277,P098,P018,learn about account reconciliation software,body
+L0278,P098,P032,learn about close management software,related-resources
+L0279,P098,P045,learn about multi entity close software,footer
+L0280,P099,P025,learn about close management software,body
+L0281,P099,P039,learn about multi entity close software,related-resources
+L0282,P099,P052,learn about month end close checklist,footer
+L0283,P100,P033,learn about multi entity close software,body
+L0284,P100,P046,learn about month end close checklist,related-resources
+L0285,P100,P060,learn about month end close process,footer
+L0286,P101,P040,learn about month end close checklist,body
+L0287,P101,P053,learn about month end close process,related-resources
+L0288,P101,P067,learn about balance sheet reconciliation,footer
+L0289,P102,P047,learn about month end close process,body
+L0290,P102,P061,learn about balance sheet reconciliation,related-resources
+L0291,P102,P074,learn about netsuite month end close,footer
+L0292,P103,P054,learn about balance sheet reconciliation,body
+L0293,P103,P068,learn about netsuite month end close,related-resources
+L0294,P103,P081,learn about quickbooks month end close,footer
+L0295,P104,P062,learn about netsuite month end close,body
+L0296,P104,P075,learn about quickbooks month end close,related-resources
+L0297,P104,P089,learn about sap financial close automation,footer
+L0298,P105,P069,learn about quickbooks month end close,body
+L0299,P105,P082,learn about sap financial close automation,related-resources
+L0300,P105,P096,learn about audit ready close,footer
+L0301,P106,P076,learn about sap financial close automation,body
+L0302,P106,P090,learn about audit ready close,related-resources
+L0303,P106,P103,learn about financial close automation,footer
+L0304,P107,P083,learn about audit ready close,body
+L0305,P107,P097,learn about financial close automation,related-resources
+L0306,P107,P110,learn about month end close reporting,footer
+L0307,P108,P091,learn about financial close automation,body
+L0308,P108,P104,learn about month end close reporting,related-resources
+L0309,P108,P118,learn about flux analysis software,footer
+L0310,P109,P098,learn about month end close reporting,body
+L0311,P109,P111,learn about flux analysis software,related-resources
+L0312,P109,P008,learn about intercompany reconciliation software,footer
+L0313,P110,P105,learn about flux analysis software,body
+L0314,P110,P119,learn about intercompany reconciliation software,related-resources
+L0315,P110,P015,learn about financial close roi calculator,footer
+L0316,P111,P112,learn about intercompany reconciliation software,body
+L0317,P111,P009,learn about financial close roi calculator,related-resources
+L0318,P111,P022,learn about month end close benchmark,footer
+L0319,P112,P120,learn about financial close roi calculator,body
+L0320,P112,P016,learn about month end close benchmark,related-resources
+L0321,P112,P030,learn about numericone alternative,footer
+L0322,P113,P010,learn about month end close benchmark,body
+L0323,P113,P023,learn about numericone alternative,related-resources
+L0324,P113,P037,learn about reconflow alternative,footer
+L0325,P114,P017,learn about numericone alternative,body
+L0326,P114,P031,learn about reconflow alternative,related-resources
+L0327,P114,P044,learn about monthendly alternative,footer
+L0328,P115,P024,learn about reconflow alternative,body
+L0329,P115,P038,learn about monthendly alternative,related-resources
+L0330,P115,P051,learn about ledgerbeam alternative,footer
+L0331,P117,P039,learn about ledgerbeam alternative,body
+L0332,P117,P052,learn about clearclose alternative,related-resources
+L0333,P117,P066,learn about financial close glossary,footer
+L0334,P118,P046,learn about clearclose alternative,body
+L0335,P118,P060,learn about financial close glossary,related-resources
+L0336,P118,P073,learn about financial close software,footer
+L0337,P119,P053,learn about financial close glossary,body
+L0338,P119,P067,learn about financial close software,related-resources
+L0339,P119,P080,learn about month end close software,footer
+L0340,P120,P061,learn about financial close software,body
+L0341,P120,P074,learn about month end close software,related-resources
+L0342,P120,P088,learn about account reconciliation software,footer
+L0343,P010,P001,pricing,footer

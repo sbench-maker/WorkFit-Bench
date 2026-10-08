@@ -1,0 +1,308 @@
+[
+  {
+    "action": "/plan-payroll",
+    "purpose": "Assess near-term payroll cash and overdue receivables.",
+    "trigger_examples": [
+      "cash is tight",
+      "make payroll",
+      "who owes me money"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "QuickBooks"
+      ],
+      "required_any": [],
+      "optional": [
+        "PayPal",
+        "Square",
+        "Stripe"
+      ]
+    }
+  },
+  {
+    "action": "/month-heads-up",
+    "purpose": "Forecast the next month of cash and runway.",
+    "trigger_examples": [
+      "next month",
+      "cash forecast",
+      "runway"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "QuickBooks"
+      ],
+      "required_any": [],
+      "optional": [
+        "PayPal"
+      ]
+    }
+  },
+  {
+    "action": "/close-month",
+    "purpose": "Reconcile records and close the books.",
+    "trigger_examples": [
+      "month-end",
+      "close the books",
+      "reconcile"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "QuickBooks"
+      ],
+      "required_any": [],
+      "optional": [
+        "PayPal",
+        "Square",
+        "Stripe"
+      ]
+    }
+  },
+  {
+    "action": "/price-check",
+    "purpose": "Review unit costs, margins, and pricing.",
+    "trigger_examples": [
+      "margins",
+      "raise prices",
+      "cost per unit"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "QuickBooks"
+      ],
+      "required_any": [],
+      "optional": [
+        "PayPal"
+      ]
+    }
+  },
+  {
+    "action": "/tax-prep",
+    "purpose": "Organize accounting inputs for taxes and the accountant.",
+    "trigger_examples": [
+      "estimated taxes",
+      "1099s",
+      "accountant needs"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "QuickBooks"
+      ],
+      "required_any": [],
+      "optional": [
+        "PayPal",
+        "Stripe"
+      ]
+    }
+  },
+  {
+    "action": "/call-list",
+    "purpose": "Prioritize sales leads for follow-up.",
+    "trigger_examples": [
+      "who should I call",
+      "hot leads",
+      "pipeline"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "HubSpot"
+      ],
+      "required_any": [],
+      "optional": [
+        "Google Calendar",
+        "Mail"
+      ]
+    }
+  },
+  {
+    "action": "/run-campaign",
+    "purpose": "Plan a campaign to acquire or reactivate customers.",
+    "trigger_examples": [
+      "sales are down",
+      "need more customers",
+      "run a campaign"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "Canva",
+        "HubSpot"
+      ],
+      "required_any": [],
+      "optional": [
+        "PayPal",
+        "QuickBooks"
+      ]
+    }
+  },
+  {
+    "action": "/sales-brief",
+    "purpose": "Summarize what is selling and what to promote.",
+    "trigger_examples": [
+      "what is selling",
+      "what should I promote"
+    ],
+    "connector_policy": {
+      "required_all": [],
+      "required_any": [
+        [
+          "PayPal",
+          "QuickBooks"
+        ]
+      ],
+      "optional": [
+        "HubSpot"
+      ]
+    }
+  },
+  {
+    "action": "/customer-pulse-check",
+    "purpose": "Synthesize customer feedback, reviews, and complaints.",
+    "trigger_examples": [
+      "what are customers saying",
+      "reviews",
+      "complaints"
+    ],
+    "connector_policy": {
+      "required_all": [],
+      "required_any": [
+        [
+          "HubSpot",
+          "PayPal"
+        ]
+      ],
+      "optional": []
+    }
+  },
+  {
+    "action": "/handle-complaint",
+    "purpose": "Prepare to address one upset customer's message.",
+    "trigger_examples": [
+      "angry email",
+      "customer is upset",
+      "handle this complaint"
+    ],
+    "connector_policy": {
+      "required_all": [],
+      "required_any": [],
+      "optional": [
+        "Gmail",
+        "HubSpot",
+        "PayPal"
+      ]
+    }
+  },
+  {
+    "action": "/crm-cleanup",
+    "purpose": "Clean stale deals and incomplete or duplicate CRM records.",
+    "trigger_examples": [
+      "CRM is a mess",
+      "stale deals",
+      "duplicate contacts"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "HubSpot"
+      ],
+      "required_any": [],
+      "optional": []
+    }
+  },
+  {
+    "action": "/review-contract",
+    "purpose": "Review an uploaded agreement or NDA for business risk.",
+    "trigger_examples": [
+      "review this contract",
+      "NDA",
+      "should I sign"
+    ],
+    "connector_policy": {
+      "required_all": [],
+      "required_any": [],
+      "optional": [
+        "DocuSign"
+      ]
+    }
+  },
+  {
+    "action": "/monday-brief",
+    "purpose": "Organize start-of-week priorities.",
+    "trigger_examples": [
+      "Monday brief",
+      "start of week",
+      "what is on my plate"
+    ],
+    "connector_policy": {
+      "required_all": [],
+      "required_any": [],
+      "optional": [
+        "Gmail",
+        "Google Calendar",
+        "HubSpot",
+        "PayPal",
+        "QuickBooks"
+      ]
+    }
+  },
+  {
+    "action": "/friday-brief",
+    "purpose": "Summarize end-of-week results and loose ends.",
+    "trigger_examples": [
+      "Friday recap",
+      "end of week",
+      "how did we do"
+    ],
+    "connector_policy": {
+      "required_all": [],
+      "required_any": [
+        [
+          "HubSpot",
+          "PayPal"
+        ]
+      ],
+      "optional": []
+    }
+  },
+  {
+    "action": "/quarterly-review",
+    "purpose": "Prepare a quarter-level business review.",
+    "trigger_examples": [
+      "quarterly review",
+      "board deck",
+      "QBR"
+    ],
+    "connector_policy": {
+      "required_all": [
+        "QuickBooks"
+      ],
+      "required_any": [],
+      "optional": [
+        "HubSpot",
+        "PayPal"
+      ]
+    }
+  },
+  {
+    "action": "smb-onboard",
+    "purpose": "Capture business context and connect tools.",
+    "trigger_examples": [
+      "I am new",
+      "set me up",
+      "get started"
+    ],
+    "connector_policy": {
+      "required_all": [],
+      "required_any": [],
+      "optional": [
+        "Canva",
+        "DocuSign",
+        "Gmail",
+        "Google Calendar",
+        "HubSpot",
+        "Mail",
+        "PayPal",
+        "QuickBooks",
+        "Square",
+        "Stripe"
+      ]
+    }
+  }
+]

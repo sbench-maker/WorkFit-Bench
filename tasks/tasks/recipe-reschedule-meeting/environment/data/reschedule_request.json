@@ -1,0 +1,24 @@
+{
+  "request_id": "cal-change-2026-0909-017",
+  "received_at": "2026-09-09T09:00:00-04:00",
+  "requester": {
+    "name": "Lena Cho",
+    "email": "lena.cho@northstar.invalid"
+  },
+  "message": "Could you move next Wednesday's Aurora Color Review—the 11:00 a.m. Eastern occurrence hosted by Mira Ortiz—to Friday, September 18 at 2:30 p.m. Pacific? Move only that occurrence, keep it 75 minutes, and make sure every guest gets the calendar update.",
+  "target_clues": {
+    "calendar_id": "primary",
+    "summary": "Aurora Color Review",
+    "occurrence_date": "2026-09-16",
+    "current_start_local": "2026-09-16T11:00:00-04:00",
+    "current_time_zone": "America/New_York",
+    "organizer_email": "mira.ortiz@northstar.invalid"
+  },
+  "requested_change": {
+    "new_start_local": "2026-09-18T14:30:00-07:00",
+    "time_zone": "America/Los_Angeles",
+    "preserve_duration_minutes": 75,
+    "scope": "single_occurrence",
+    "notify": "all_attendees"
+  }
+}

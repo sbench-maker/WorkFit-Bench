@@ -1,0 +1,15 @@
+{
+  "method": "deterministic fictional fixture construction",
+  "files": {
+    "roadmap_items.csv": 32,
+    "customer_signals.csv": 240,
+    "kpi_baselines.csv": 16,
+    "dependency_edges.csv": 12
+  },
+  "relationships": [
+    "roadmap_items.evidence_theme joins customer_signals.theme",
+    "dependency_edges initiative IDs join roadmap_items.initiative_id",
+    "roadmap metric hints correspond to kpi_baselines metric names"
+  ],
+  "notes": "All entities and observations are fictional; signal counts are evidence volume, not market prevalence."
+}

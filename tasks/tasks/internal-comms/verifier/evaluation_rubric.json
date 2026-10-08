@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_and_3p_contract",
+      "title": "Usable weekly 3P artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown artifact is readable, identifies the Workplace Systems Reliability reporting week, and contains distinguishable Progress, Plans, and Problems content.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_is_readable_and_scoped",
+        "test_three_p_sections_are_present"
+      ]
+    },
+    {
+      "id": "completion__central_incident_facts",
+      "title": "Central SSO impact and follow-through facts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The update accurately communicates the SSO incident's employee and application impact, recovery duration, and linked-ticket disposition at the cutoff.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_sso_impact_and_recovery_facts",
+        "test_linked_ticket_disposition_facts"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_and_3p_contract",
+        "title": "Usable weekly 3P artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__central_incident_facts",
+        "title": "Central SSO impact and follow-through facts",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

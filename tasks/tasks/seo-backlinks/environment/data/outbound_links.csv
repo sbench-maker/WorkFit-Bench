@@ -1,0 +1,15 @@
+source_site,destination_domain,source_path,status
+cipherleaf.example,security-ledger.test,/partners/1,active
+cipherleaf.example,cloud-control.test,/partners/2,active
+cipherleaf.example,privacy-observer.test,/partners/3,active
+cipherleaf.example,audit-practice.test,/partners/4,active
+cipherleaf.example,trust-architecture.test,/partners/5,active
+cipherleaf.example,saas-risk-review.test,/partners/6,active
+cipherleaf.example,policy-stack.test,/partners/7,active
+cipherleaf.example,devsec-community.test,/partners/8,active
+cipherleaf.example,control-frameworks.test,/partners/9,active
+cipherleaf.example,cloud-buyer.test,/partners/10,active
+cipherleaf.example,data-governance-room.test,/partners/11,active
+vaultspire.example,founder-security.test,/resources/1,active
+vaultspire.example,regional-techwire.test,/resources/2,active
+vaultspire.example,workflow-labs.test,/resources/3,active

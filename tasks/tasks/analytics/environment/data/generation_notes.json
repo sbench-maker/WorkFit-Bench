@@ -1,0 +1,12 @@
+{
+  "fixture_scope": "fictional launch QA data",
+  "intentional_variation": [
+    "external and internal traffic",
+    "granted and denied analytics consent",
+    "browser-style and backend-style funnel events",
+    "retries, reload duplicates, legacy names, and incomplete parameters"
+  ],
+  "method": "deterministic local construction",
+  "qa_event_row_count": 540,
+  "qa_session_count": 96
+}

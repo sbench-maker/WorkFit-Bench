@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3",
+    "node",
+    "npm",
+    "cp",
+    "mkdir",
+    "cat"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    }
+  ],
+  "agent_facing_workflow": {
+    "input_project": "/root/data/field-notes-app",
+    "output_project": "/root/results/field-notes-app",
+    "fixture_validation_command": "python3 scripts/validate-data.py",
+    "framework_target": "Expo SDK 55 with Expo Router"
+  },
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

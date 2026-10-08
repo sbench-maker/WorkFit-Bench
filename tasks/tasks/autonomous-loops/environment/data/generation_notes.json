@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "work_units.csv": 12,
+    "acceptance_criteria.csv": 36,
+    "repo_inventory.csv": 72,
+    "file_change_history.csv": 240,
+    "ci_history.csv": 112
+  },
+  "intentional_edge_cases": [
+    "independent initial units that can run in parallel",
+    "dependency-separated units that still touch shared files",
+    "irreversible work below the large-tier threshold",
+    "budget and duration exhaustion are non-retryable"
+  ]
+}

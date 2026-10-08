@@ -1,0 +1,71 @@
+task_id,account_id,title,owner_id,due_date,priority,status,source_refs,last_updated
+TSK-010,A001,Revise Nimbus migration rollback plan,U004,2026-04-21,normal,in_progress,email:THR-001,2026-04-15T10:00:00Z
+TSK-011,A002,Obtain Cedar admin consent for SSO logs,U003,2026-04-20,high,blocked,email:THR-002,2026-04-16T09:00:00Z
+TSK-012,A008,Prepare Atlas administrator training deck,U002,2026-04-24,normal,in_progress,email:THR-008,2026-04-14T14:00:00Z
+TSK-013,A003,Configure Aster sandbox,U004,2026-04-17,normal,in_progress,chat:CH-K001,2026-04-16T16:00:00Z
+TSK-014,A009,Deliver BluePeak export,U002,2026-04-10,normal,done,email:THR-009,2026-04-10T15:00:00Z
+TSK-020,A010,Triage Lumen Grove data mismatch,,2026-04-15,high,blocked,chat:CH-K006,2026-04-15T12:00:00Z
+TSK-021,A004,Collect vendor response for Juniper incident,U004,2026-04-18,critical,blocked,chat:CH-K007,2026-04-17T09:31:00Z
+TSK-022,A007,Refresh account brief for Solace Foods,U003,2026-05-12,normal,todo,email:THR-034,2026-04-15T14:00:00Z
+TSK-023,A010,Check onboarding checklist for Lumen Grove,U002,2026-05-13,normal,in_progress,email:THR-035,2026-04-16T15:00:00Z
+TSK-024,A013,Archive resolved question for Quartz Market,U003,2026-05-14,normal,todo,email:THR-036,2026-04-17T10:00:00Z
+TSK-025,A016,Review adoption note for Tidal Media,U002,2026-04-20,normal,todo,email:THR-037,2026-04-13T11:00:00Z
+TSK-026,A019,Confirm call agenda for Willow Energy,U003,2026-04-21,normal,in_progress,email:THR-038,2026-04-14T12:00:00Z
+TSK-027,A022,Refresh account brief for Zephyr Foods,U002,2026-04-22,normal,todo,email:THR-039,2026-04-15T13:00:00Z
+TSK-028,A025,Check onboarding checklist for Cobalt Design,U003,2026-04-23,normal,in_progress,email:THR-040,2026-04-16T14:00:00Z
+TSK-029,A028,Archive resolved question for Fjord Analytics,U002,2026-04-24,normal,todo,email:THR-041,2026-04-17T15:00:00Z
+TSK-030,A001,Review adoption note for Nimbus Harbor,U003,2026-04-25,normal,todo,email:THR-042,2026-04-13T10:00:00Z
+TSK-031,A004,Confirm call agenda for Juniper Transit,U002,2026-04-26,normal,in_progress,email:THR-043,2026-04-14T11:00:00Z
+TSK-032,A007,Refresh account brief for Solace Foods,U003,2026-04-27,normal,todo,email:THR-044,2026-04-15T12:00:00Z
+TSK-033,A010,Check onboarding checklist for Lumen Grove,U002,2026-04-28,normal,in_progress,email:THR-045,2026-04-16T13:00:00Z
+TSK-034,A013,Archive resolved question for Quartz Market,U003,2026-04-29,normal,todo,email:THR-046,2026-04-17T14:00:00Z
+TSK-035,A016,Review adoption note for Tidal Media,U002,2026-04-30,normal,todo,email:THR-047,2026-04-13T15:00:00Z
+TSK-036,A019,Confirm call agenda for Willow Energy,U003,2026-05-01,normal,in_progress,email:THR-048,2026-04-14T10:00:00Z
+TSK-037,A022,Refresh account brief for Zephyr Foods,U002,2026-05-02,normal,todo,email:THR-049,2026-04-15T11:00:00Z
+TSK-038,A025,Check onboarding checklist for Cobalt Design,U003,2026-05-03,normal,in_progress,email:THR-050,2026-04-16T12:00:00Z
+TSK-039,A028,Archive resolved question for Fjord Analytics,U002,2026-05-04,normal,todo,email:THR-051,2026-04-17T13:00:00Z
+TSK-040,A001,Review adoption note for Nimbus Harbor,U003,2026-05-05,normal,todo,email:THR-052,2026-04-13T14:00:00Z
+TSK-041,A004,Confirm call agenda for Juniper Transit,U002,2026-05-06,normal,in_progress,email:THR-053,2026-04-14T15:00:00Z
+TSK-042,A007,Refresh account brief for Solace Foods,U003,2026-05-07,normal,todo,email:THR-054,2026-04-15T10:00:00Z
+TSK-043,A010,Check onboarding checklist for Lumen Grove,U002,2026-05-08,normal,in_progress,email:THR-055,2026-04-16T11:00:00Z
+TSK-044,A013,Archive resolved question for Quartz Market,U003,2026-05-09,normal,todo,email:THR-012,2026-04-17T12:00:00Z
+TSK-045,A016,Review adoption note for Tidal Media,U002,2026-05-10,normal,todo,email:THR-013,2026-04-13T13:00:00Z
+TSK-046,A019,Confirm call agenda for Willow Energy,U003,2026-05-11,normal,in_progress,email:THR-014,2026-04-14T14:00:00Z
+TSK-047,A022,Refresh account brief for Zephyr Foods,U002,2026-05-12,normal,todo,email:THR-015,2026-04-15T15:00:00Z
+TSK-048,A025,Check onboarding checklist for Cobalt Design,U003,2026-05-13,normal,in_progress,email:THR-016,2026-04-16T10:00:00Z
+TSK-049,A028,Archive resolved question for Fjord Analytics,U002,2026-05-14,normal,todo,email:THR-017,2026-04-17T11:00:00Z
+TSK-050,A001,Review adoption note for Nimbus Harbor,U003,2026-04-20,normal,todo,email:THR-018,2026-04-13T12:00:00Z
+TSK-051,A004,Confirm call agenda for Juniper Transit,U002,2026-04-21,normal,in_progress,email:THR-019,2026-04-14T13:00:00Z
+TSK-052,A007,Refresh account brief for Solace Foods,U003,2026-04-22,normal,todo,email:THR-020,2026-04-15T14:00:00Z
+TSK-053,A010,Check onboarding checklist for Lumen Grove,U002,2026-04-23,normal,in_progress,email:THR-021,2026-04-16T15:00:00Z
+TSK-054,A013,Archive resolved question for Quartz Market,U003,2026-04-24,normal,todo,email:THR-022,2026-04-17T10:00:00Z
+TSK-055,A016,Review adoption note for Tidal Media,U002,2026-04-25,normal,todo,email:THR-023,2026-04-13T11:00:00Z
+TSK-056,A019,Confirm call agenda for Willow Energy,U003,2026-04-26,normal,in_progress,email:THR-024,2026-04-14T12:00:00Z
+TSK-057,A022,Refresh account brief for Zephyr Foods,U002,2026-04-27,normal,todo,email:THR-025,2026-04-15T13:00:00Z
+TSK-058,A025,Check onboarding checklist for Cobalt Design,U003,2026-04-28,normal,in_progress,email:THR-026,2026-04-16T14:00:00Z
+TSK-059,A028,Archive resolved question for Fjord Analytics,U002,2026-04-29,normal,todo,email:THR-027,2026-04-17T15:00:00Z
+TSK-060,A001,Review adoption note for Nimbus Harbor,U003,2026-04-30,normal,todo,email:THR-028,2026-04-13T10:00:00Z
+TSK-061,A004,Confirm call agenda for Juniper Transit,U002,2026-05-01,normal,in_progress,email:THR-029,2026-04-14T11:00:00Z
+TSK-062,A007,Refresh account brief for Solace Foods,U003,2026-05-02,normal,todo,email:THR-030,2026-04-15T12:00:00Z
+TSK-063,A010,Check onboarding checklist for Lumen Grove,U002,2026-05-03,normal,in_progress,email:THR-031,2026-04-16T13:00:00Z
+TSK-064,A013,Archive resolved question for Quartz Market,U003,2026-05-04,normal,todo,email:THR-032,2026-04-17T14:00:00Z
+TSK-065,A016,Review adoption note for Tidal Media,U002,2026-05-05,normal,todo,email:THR-033,2026-04-13T15:00:00Z
+TSK-066,A019,Confirm call agenda for Willow Energy,U003,2026-05-06,normal,in_progress,email:THR-034,2026-04-14T10:00:00Z
+TSK-067,A022,Refresh account brief for Zephyr Foods,U002,2026-05-07,normal,todo,email:THR-035,2026-04-15T11:00:00Z
+TSK-068,A025,Check onboarding checklist for Cobalt Design,U003,2026-05-08,normal,in_progress,email:THR-036,2026-04-16T12:00:00Z
+TSK-069,A028,Archive resolved question for Fjord Analytics,U002,2026-05-09,normal,todo,email:THR-037,2026-04-17T13:00:00Z
+TSK-070,A001,Review adoption note for Nimbus Harbor,U003,2026-05-10,normal,todo,email:THR-038,2026-04-13T14:00:00Z
+TSK-071,A004,Confirm call agenda for Juniper Transit,U002,2026-05-11,normal,in_progress,email:THR-039,2026-04-14T15:00:00Z
+TSK-072,A007,Refresh account brief for Solace Foods,U003,2026-05-12,normal,todo,email:THR-040,2026-04-15T10:00:00Z
+TSK-073,A010,Check onboarding checklist for Lumen Grove,U002,2026-05-13,normal,in_progress,email:THR-041,2026-04-16T11:00:00Z
+TSK-074,A013,Archive resolved question for Quartz Market,U003,2026-05-14,normal,todo,email:THR-042,2026-04-17T12:00:00Z
+TSK-075,A016,Review adoption note for Tidal Media,U002,2026-04-20,normal,todo,email:THR-043,2026-04-13T13:00:00Z
+TSK-076,A019,Confirm call agenda for Willow Energy,U003,2026-04-21,normal,in_progress,email:THR-044,2026-04-14T14:00:00Z
+TSK-077,A022,Refresh account brief for Zephyr Foods,U002,2026-04-22,normal,todo,email:THR-045,2026-04-15T15:00:00Z
+TSK-078,A025,Check onboarding checklist for Cobalt Design,U003,2026-04-23,normal,in_progress,email:THR-046,2026-04-16T10:00:00Z
+TSK-079,A028,Archive resolved question for Fjord Analytics,U002,2026-04-24,normal,todo,email:THR-047,2026-04-17T11:00:00Z
+TSK-080,A001,Review adoption note for Nimbus Harbor,U003,2026-04-25,normal,todo,email:THR-048,2026-04-13T12:00:00Z
+TSK-081,A004,Confirm call agenda for Juniper Transit,U002,2026-04-26,normal,in_progress,email:THR-049,2026-04-14T13:00:00Z
+TSK-082,A007,Refresh account brief for Solace Foods,U003,2026-04-27,normal,todo,email:THR-050,2026-04-15T14:00:00Z
+TSK-083,A010,Check onboarding checklist for Lumen Grove,U002,2026-04-28,normal,in_progress,email:THR-051,2026-04-16T15:00:00Z
+TSK-084,A013,Archive resolved question for Quartz Market,U003,2026-04-29,normal,todo,email:THR-052,2026-04-17T10:00:00Z

@@ -1,0 +1,122 @@
+{
+  "approved_palette": {
+    "amber.400": "#FBBF24",
+    "amber.700": "#B45309",
+    "green.400": "#4ADE80",
+    "green.700": "#15803D",
+    "red.400": "#F87171",
+    "red.700": "#B91C1C",
+    "sky.400": "#38BDF8",
+    "sky.700": "#0369A1",
+    "slate.100": "#F1F5F9",
+    "slate.200": "#E2E8F0",
+    "slate.300": "#CBD5E1",
+    "slate.400": "#94A3B8",
+    "slate.50": "#F8FAFC",
+    "slate.500": "#64748B",
+    "slate.600": "#475569",
+    "slate.700": "#334155",
+    "slate.800": "#1E293B",
+    "slate.900": "#0F172A",
+    "violet.400": "#A78BFA",
+    "violet.500": "#8B5CF6",
+    "violet.600": "#7C3AED",
+    "violet.700": "#6D28D9",
+    "violet.800": "#5B21B6",
+    "white": "#FFFFFF"
+  },
+  "foundation": {
+    "font_family_mono": "ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_family_sans": "Inter, ui-sans-serif, system-ui, sans-serif",
+    "font_sizes": {
+      "lg": "1.125rem",
+      "md": "1rem",
+      "sm": "0.875rem",
+      "xl": "1.25rem",
+      "xs": "0.75rem"
+    },
+    "font_weights": {
+      "bold": 700,
+      "medium": 500,
+      "regular": 400,
+      "semibold": 600
+    },
+    "line_heights": {
+      "body": 1.5,
+      "tight": 1.25
+    },
+    "radii": {
+      "full": "9999px",
+      "lg": "0.5rem",
+      "md": "0.375rem",
+      "none": "0",
+      "sm": "0.25rem"
+    },
+    "shadows": {
+      "md": "0 8px 24px rgba(15, 23, 42, 0.18)",
+      "sm": "0 1px 3px rgba(15, 23, 42, 0.12)"
+    },
+    "spacing": {
+      "0": "0",
+      "1": "0.25rem",
+      "12": "3rem",
+      "2": "0.5rem",
+      "3": "0.75rem",
+      "4": "1rem",
+      "6": "1.5rem",
+      "8": "2rem"
+    }
+  },
+  "implementation": {
+    "consumer_expectations": [
+      "native HTML attributes remain available",
+      "Button and TextInput refs reach the native element",
+      "components can be imported individually"
+    ],
+    "framework": "React",
+    "language": "TypeScript",
+    "styling": "plain CSS using custom properties"
+  },
+  "product": "ParcelPilot Operations Console",
+  "product_context": "A fictional desktop-first internal tool used for shipment and exception workflows.",
+  "semantic_roles": {
+    "dark": {
+      "background.canvas": "slate.900",
+      "background.raised": "slate.700",
+      "background.surface": "slate.800",
+      "border.default": "slate.400",
+      "brand.default": "violet.400",
+      "brand.hover": "violet.500",
+      "feedback.error": "red.400",
+      "feedback.info": "sky.400",
+      "feedback.success": "green.400",
+      "feedback.warning": "amber.400",
+      "focus.ring": "violet.400",
+      "text.onBrand": "slate.900",
+      "text.primary": "slate.50",
+      "text.secondary": "slate.300"
+    },
+    "light": {
+      "background.canvas": "white",
+      "background.raised": "white",
+      "background.surface": "slate.50",
+      "border.default": "slate.500",
+      "brand.default": "violet.700",
+      "brand.hover": "violet.800",
+      "feedback.error": "red.700",
+      "feedback.info": "sky.700",
+      "feedback.success": "green.700",
+      "feedback.warning": "amber.700",
+      "focus.ring": "violet.700",
+      "text.onBrand": "white",
+      "text.primary": "slate.900",
+      "text.secondary": "slate.700"
+    }
+  },
+  "system_name": "Orbit",
+  "theme_behavior": {
+    "default": "Follow prefers-color-scheme when no explicit choice exists.",
+    "override": "A data-theme value of light or dark wins over system preference.",
+    "persistence_key": "orbit-theme"
+  }
+}

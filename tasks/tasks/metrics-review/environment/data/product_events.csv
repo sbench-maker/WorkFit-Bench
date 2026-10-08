@@ -1,0 +1,6 @@
+event_id,date,scope,event_type,description
+evt_001,2026-07-13,Growth and Enterprise; all regions,feature_launch,Automation template gallery released to Growth and Enterprise plans.
+evt_002,2026-08-03,Starter; North America,marketing_campaign,Partner campaign increased Starter signups; no product change was bundled with the campaign.
+evt_003,2026-08-10,Starter; EMEA,product_rollout,New guided onboarding and workspace permission defaults reached 100% of Starter EMEA signups.
+evt_004,2026-08-17,EMEA; all plans,incident,A 42-minute API incident caused blocking workflow errors; service recovered the same day.
+evt_005,2026-08-24,Starter; EMEA,support_change,In-product permission troubleshooting guide was added; no onboarding rollback occurred.

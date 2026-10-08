@@ -1,0 +1,284 @@
+"""Frozen schema for the fictional Northstar media-review service."""
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
+
+scalar DateTime
+scalar URL
+
+interface Node {
+  id: ID!
+}
+
+type Query {
+  project(id: ID!): Project
+  viewer: User!
+  asset(id: ID!): Asset
+  searchAssets(query: String!, first: Int!, after: String): AssetConnection!
+}
+
+type Mutation {
+  submitAssetDecision(input: SubmitAssetDecisionInput!): SubmitAssetDecisionResult!
+  renameProject(input: RenameProjectInput!): RenameProjectPayload!
+  addInternalNote(input: AddInternalNoteInput!): AddInternalNotePayload!
+}
+
+type Subscription {
+  assetDecisionChanged(projectId: ID!): AssetDecisionChangedEvent!
+  projectPresenceChanged(projectId: ID!): ProjectPresenceEvent!
+}
+
+enum ProjectStatus {
+  DRAFT
+  IN_REVIEW
+  APPROVED
+  ARCHIVED
+}
+
+enum AssetStatus {
+  UPLOADING
+  READY_FOR_REVIEW
+  CHANGES_REQUESTED
+  APPROVED
+  ARCHIVED
+}
+
+enum AssetKind {
+  IMAGE
+  VIDEO
+  AUDIO
+  DOCUMENT
+}
+
+enum ReviewDecisionValue {
+  APPROVE
+  REQUEST_CHANGES
+}
+
+enum AssetSortField {
+  UPDATED_AT
+  TITLE
+  STATUS
+}
+
+enum SortDirection {
+  ASC
+  DESC
+}
+
+type Project implements Node {
+  id: ID!
+  name: String!
+  status: ProjectStatus!
+  client: Client!
+  assets(first: Int!, after: String, filter: AssetFilter): AssetConnection!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  billingCode: String
+  auditLog(first: Int!, after: String): AuditEventConnection!
+}
+
+type Client implements Node {
+  id: ID!
+  name: String!
+  legalName: String!
+  billingEmail: String
+  accountOwner: User
+}
+
+type Asset implements Node {
+  id: ID!
+  title: String!
+  status: AssetStatus!
+  kind: AssetKind!
+  version: Int!
+  thumbnail: AssetThumbnail
+  reviewer: User
+  latestDecision: ReviewDecision
+  internalNote: String
+  originalFile: OriginalFile!
+  rawSourceUrl: URL!
+  checksumSha256: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  comments(first: Int!, after: String): CommentConnection!
+}
+
+type AssetThumbnail {
+  url: URL!
+  altText: String!
+  width: Int!
+  height: Int!
+  dominantColor: String
+}
+
+type OriginalFile {
+  url: URL!
+  fileName: String!
+  byteSize: Int!
+  mimeType: String!
+}
+
+type User implements Node {
+  id: ID!
+  displayName: String!
+  avatarUrl: URL
+  email: String!
+  phoneNumber: String
+  permissions: [String!]!
+  lastIpAddress: String
+}
+
+type ReviewDecision implements Node {
+  id: ID!
+  decision: ReviewDecisionValue!
+  decidedAt: DateTime!
+  reviewer: User!
+  rationale: String
+  privateMetadata: String
+}
+
+type AssetConnection {
+  edges: [AssetEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type AssetEdge {
+  node: Asset!
+  cursor: String!
+}
+
+type PageInfo {
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+  startCursor: String
+  endCursor: String
+}
+
+input AssetFilter {
+  statuses: [AssetStatus!]
+  kinds: [AssetKind!]
+  assignedReviewerId: ID
+  sort: AssetSortInput
+}
+
+input AssetSortInput {
+  field: AssetSortField!
+  direction: SortDirection!
+}
+
+input SubmitAssetDecisionInput {
+  assetId: ID!
+  decision: ReviewDecisionValue!
+  expectedVersion: Int!
+  comment: String
+  clientMutationId: String!
+}
+
+union SubmitAssetDecisionResult =
+    SubmitAssetDecisionSuccess
+  | DecisionValidationError
+  | DecisionVersionConflict
+
+type SubmitAssetDecisionSuccess {
+  asset: Asset!
+  clientMutationId: String!
+}
+
+type DecisionValidationError {
+  code: String!
+  message: String!
+  field: String
+  clientMutationId: String!
+}
+
+type DecisionVersionConflict {
+  code: String!
+  message: String!
+  expectedVersion: Int!
+  currentVersion: Int!
+  asset: Asset!
+  clientMutationId: String!
+}
+
+type AssetDecisionChangedEvent implements Node {
+  id: ID!
+  occurredAt: DateTime!
+  project: Project!
+  actor: User!
+  asset: Asset!
+  deliveryAttempt: Int!
+  traceId: String!
+}
+
+input RenameProjectInput {
+  projectId: ID!
+  name: String!
+  clientMutationId: String!
+}
+
+type RenameProjectPayload {
+  project: Project!
+  clientMutationId: String!
+}
+
+input AddInternalNoteInput {
+  assetId: ID!
+  body: String!
+  clientMutationId: String!
+}
+
+type AddInternalNotePayload {
+  asset: Asset!
+  clientMutationId: String!
+}
+
+type ProjectPresenceEvent implements Node {
+  id: ID!
+  project: Project!
+  user: User!
+  online: Boolean!
+  occurredAt: DateTime!
+}
+
+type Comment implements Node {
+  id: ID!
+  body: String!
+  author: User!
+  createdAt: DateTime!
+  editedAt: DateTime
+  internalOnly: Boolean!
+}
+
+type CommentConnection {
+  edges: [CommentEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type CommentEdge {
+  node: Comment!
+  cursor: String!
+}
+
+type AuditEvent implements Node {
+  id: ID!
+  action: String!
+  actor: User
+  occurredAt: DateTime!
+  payload: String!
+}
+
+type AuditEventConnection {
+  edges: [AuditEventEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type AuditEventEdge {
+  node: AuditEvent!
+  cursor: String!
+}

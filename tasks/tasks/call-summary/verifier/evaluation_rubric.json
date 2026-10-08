@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__source_fidelity",
+      "title": "Call scope and factual fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The recap preserves the call identity, attendees, operational priorities, final pilot scope, and current CRM stage from the frozen inputs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_source_fidelity"
+      ]
+    },
+    {
+      "id": "completion__action_tracking",
+      "title": "Supported owners, actions, and timing",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The internal recap captures the five vendor/customer handoffs with the correct owner, work, and agreed date or condition, including Maya's unresolved technical follow-up.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_action_tracking"
+      ]
+    },
+    {
+      "id": "completion__commitment_boundaries",
+      "title": "Corrections, confidentiality, and commitment boundaries",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The deliverables keep competitive notes internal, preserve confirmed-versus-open technical distinctions, use the corrected seat count and commercial/identity packaging, and label milestone dates as tentative or conditional.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_commitment_boundaries"
+      ]
+    },
+    {
+      "id": "completion__customer_communication",
+      "title": "Customer follow-up clarity and tone",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested plain-text customer email from Maya states the customer outcome, responsibilities, dependencies, and next step without copying internal CRM or transcript-only details.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__source_fidelity",
+        "title": "Call scope and factual fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__action_tracking",
+        "title": "Supported owners, actions, and timing",
+        "required_score": 10
+      },
+      {
+        "id": "completion__commitment_boundaries",
+        "title": "Corrections, confidentiality, and commitment boundaries",
+        "required_score": 10
+      },
+      {
+        "id": "completion__customer_communication",
+        "title": "Customer follow-up clarity and tone",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

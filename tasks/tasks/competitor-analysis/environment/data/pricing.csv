@@ -1,0 +1,39 @@
+price_id,vendor_id,plan,monthly_price_usd,billing_basis,seats_included,event_allowance,overage_per_10k_events_usd,minimum_contract_months,effective_from,effective_to,status,evidence_id
+PR-V01-FREE,V01,Free,0,platform/month,3,100000,,0,2026-01-01,,active,PX-V01-01
+PR-V01-TEAM,V01,Team,699,platform/month,5,2000000,18.0,12,2026-04-01,,active,PX-V01-02
+PR-V01-ENT,V01,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V01-03
+PR-V02-FREE,V02,Free,0,workspace/month,3,100000,,0,2026-01-01,,active,PX-V02-01
+PR-V02-TEAM,V02,Team,549,workspace/month,10,1000000,22.0,12,2026-04-01,,active,PX-V02-02
+PR-V02-ENT,V02,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V02-03
+PR-V03-FREE,V03,Free,0,workspace/month,3,100000,,0,2026-01-01,,active,PX-V03-01
+PR-V03-TEAM,V03,Team,399,workspace/month,8,2000000,12.0,1,2026-04-01,,active,PX-V03-02
+PR-V03-ENT,V03,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V03-03
+PR-V04-FREE,V04,Free,0,workspace/month,3,100000,,0,2026-01-01,,active,PX-V04-01
+PR-V04-TEAM,V04,Team,299,workspace/month,5,3000000,8.0,1,2026-04-01,,active,PX-V04-02
+PR-V04-ENT,V04,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V04-03
+PR-V05-FREE,V05,Free,0,workspace/month,3,100000,,0,2026-01-01,,active,PX-V05-01
+PR-V05-TEAM,V05,Team,249,workspace/month,6,1000000,15.0,12,2026-04-01,,active,PX-V05-02
+PR-V05-ENT,V05,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V05-03
+PR-V06-FREE,V06,Free,0,platform/month,3,100000,,0,2026-01-01,,active,PX-V06-01
+PR-V06-TEAM,V06,Team,2400,platform/month,10,5000000,10.0,12,2026-04-01,,active,PX-V06-02
+PR-V06-ENT,V06,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V06-03
+PR-V07-FREE,V07,Free,0,workspace/month,3,100000,,0,2026-01-01,,active,PX-V07-01
+PR-V07-TEAM,V07,Team,89,workspace/month,3,100000,5.0,1,2026-04-01,,active,PX-V07-02
+PR-V07-ENT,V07,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V07-03
+PR-V08-FREE,V08,Free,0,seat/month,1,0,,0,2026-01-01,,active,PX-V08-01
+PR-V08-TEAM,V08,Team,75,seat/month,1,0,0.0,12,2026-04-01,,active,PX-V08-02
+PR-V08-ENT,V08,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V08-03
+PR-V09-FREE,V09,Free,0,software license,0,0,,0,2026-01-01,,active,PX-V09-01
+PR-V09-TEAM,V09,Team,0,software license,0,0,0.0,0,2026-04-01,,active,PX-V09-02
+PR-V09-ENT,V09,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V09-03
+PR-V10-FREE,V10,Free,0,workspace/month,3,100000,,0,2026-01-01,,active,PX-V10-01
+PR-V10-TEAM,V10,Team,159,workspace/month,5,250000,25.0,1,2026-04-01,,active,PX-V10-02
+PR-V10-ENT,V10,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V10-03
+PR-V11-FREE,V11,Free,0,platform/month,3,100000,,0,2026-01-01,,active,PX-V11-01
+PR-V11-TEAM,V11,Team,5000,platform/month,20,10000000,0.0,36,2026-04-01,,active,PX-V11-02
+PR-V11-ENT,V11,Enterprise,,custom annual contract,,,,36,2026-04-01,,active,PX-V11-03
+PR-V12-FREE,V12,Free,0,app/month,3,100000,,0,2026-01-01,,active,PX-V12-01
+PR-V12-TEAM,V12,Team,199,app/month,5,1000000,10.0,1,2026-04-01,,active,PX-V12-02
+PR-V12-ENT,V12,Enterprise,,custom annual contract,,,,12,2026-04-01,,active,PX-V12-03
+PR-V01-TEAM-OLD,V01,Team,599,platform/month,5,2000000,16.0,12,2025-07-01,2026-03-31,superseded,PX-V01-00
+PR-V03-TEAM-FUTURE,V03,Team,449,workspace/month,8,3000000,11.0,1,2026-07-15,,announced,PX-V03-04

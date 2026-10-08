@@ -1,0 +1,444 @@
+[
+  {
+    "agreement_id": "AGR-VEND-001",
+    "agreement_type": "vendor master services agreement",
+    "counterparty": "Cobalt Metrics",
+    "status": "active",
+    "effective_date": "2025-02-01",
+    "end_date": "2027-01-31",
+    "linked_accounts": [],
+    "terms": "Incorporates DPA-VEND-001. Vendor indemnity may apply to third-party claims caused by vendor security failures; the limitation-of-liability clause has a security-confidentiality carve-out subject to counsel interpretation.",
+    "document_status": "complete",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "agreement_id": "DPA-VEND-001",
+    "agreement_type": "vendor data processing addendum",
+    "counterparty": "Cobalt Metrics",
+    "status": "active",
+    "effective_date": "2025-02-01",
+    "end_date": "2027-01-31",
+    "linked_accounts": [],
+    "terms": "Processor must notify Northstar without undue delay and no later than 24 hours after confirming a security incident affecting Northstar personal data; must preserve evidence, cooperate, and provide rolling updates.",
+    "document_status": "signed copy present; Annex B security controls attachment missing from export",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "agreement_id": "CUST-HEL-044",
+    "agreement_type": "enterprise services agreement",
+    "counterparty": "Helio Schools",
+    "status": "active",
+    "effective_date": "2025-07-01",
+    "end_date": "2027-06-30",
+    "linked_accounts": [
+      "ACC-HELIO"
+    ],
+    "terms": "Northstar will notify Helio without undue delay, targeting 48 hours after Northstar reasonably determines that Helio covered data was affected. Notice must describe known categories and mitigation; updates may follow.",
+    "document_status": "complete",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "agreement_id": "CUST-AST-117",
+    "agreement_type": "enterprise services agreement",
+    "counterparty": "Aster Cooperative",
+    "status": "active",
+    "effective_date": "2024-11-15",
+    "end_date": "2026-11-14",
+    "linked_accounts": [
+      "ACC-ASTER"
+    ],
+    "terms": "Security-incident notice is due without undue delay, with a 48-hour target after reasonable determination that Aster data was affected. Initial notice may be based on confirmed information then available.",
+    "document_status": "complete",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "agreement_id": "CUST-MER-208",
+    "agreement_type": "enterprise services agreement",
+    "counterparty": "Meridian College",
+    "status": "active",
+    "effective_date": "2026-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-MERIDIAN"
+    ],
+    "terms": "Northstar will notify Meridian without undue delay after confirming unauthorized access to Meridian customer data. No fixed number of hours is stated.",
+    "document_status": "complete",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "agreement_id": "CUST-PIN-309",
+    "agreement_type": "standard services agreement",
+    "counterparty": "Pinnacle Training",
+    "status": "active",
+    "effective_date": "2025-09-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-PINNACLE"
+    ],
+    "terms": "Standard confidentiality terms apply. There is no negotiated security-incident notice addendum in CLM.",
+    "document_status": "complete",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "agreement_id": "CYB-2026-04",
+    "agreement_type": "cyber insurance policy",
+    "counterparty": "Fictional Harbor Indemnity",
+    "status": "active",
+    "effective_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [],
+    "terms": "Notice as soon as practicable and no later than 72 hours after awareness of a circumstance likely to give rise to a claim. Carrier written consent required before forensic vendor spend above USD 25,000.",
+    "document_status": "declarations and notice clause present",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-001",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 01",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-001"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-900"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-002",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 02",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-002"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-901"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-003",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 03",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-003"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-902"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-004",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 04",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-004"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-903"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-005",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 05",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-005"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-904"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-006",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 06",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-006"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-905"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-007",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 07",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-007"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-906"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-008",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 08",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-008"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-907"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-009",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 09",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-009"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-908"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-010",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 10",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-010"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-909"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-011",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 11",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-011"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-910"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-012",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 12",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-012"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-911"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-013",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 13",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-013"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-912"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-014",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 14",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-014"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-913"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-015",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 15",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-015"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-914"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-016",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 16",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-016"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-915"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-017",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 17",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-017"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-916"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-018",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 18",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-018"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-917"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-019",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 19",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-019"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-918"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-020",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 20",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-020"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-919"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-021",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 21",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-021"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-920"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-022",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 22",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-022"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-921"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-023",
+    "agreement_type": "software subscription",
+    "counterparty": "Fictional Counterparty 23",
+    "status": "pending renewal",
+    "effective_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-023"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-922"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-024",
+    "agreement_type": "consulting agreement",
+    "counterparty": "Fictional Counterparty 24",
+    "status": "expired",
+    "effective_date": "2025-01-01",
+    "end_date": "2027-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-024"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-923"
+  },
+  {
+    "agreement_id": "AGR-ROUTINE-025",
+    "agreement_type": "mutual NDA",
+    "counterparty": "Fictional Counterparty 25",
+    "status": "active",
+    "effective_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "linked_accounts": [
+      "ACC-ROUTINE-025"
+    ],
+    "terms": "Routine commercial terms; no connection to the Cobalt Metrics incident or affected tenant ledger.",
+    "document_status": "complete",
+    "matter_id": "MAT-924"
+  }
+]

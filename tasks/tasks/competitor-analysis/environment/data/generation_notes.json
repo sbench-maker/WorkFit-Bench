@@ -1,0 +1,19 @@
+{
+  "method": "deterministic local construction",
+  "snapshot_date": "2026-06-30",
+  "files": {
+    "vendors.csv": 12,
+    "pricing.csv": 38,
+    "features.csv": 240,
+    "customer_feedback.jsonl": 320,
+    "market_moves.jsonl": 60
+  },
+  "intentional_edge_cases": [
+    "one missing founding year",
+    "one superseded price and one post-snapshot announced price",
+    "four post-snapshot feedback rows",
+    "syndicated feedback duplicates",
+    "beta and roadmap capabilities",
+    "direct-looking alternatives that fail one or more market-scope conditions"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "model_id": "orion-mini-r3",
+  "tensors": [
+    {
+      "tensor_id": "blocks.0.attn.q_proj.weight",
+      "layer_index": 0,
+      "module": "attn.q_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.0.attn.k_proj.weight",
+      "layer_index": 0,
+      "module": "attn.k_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.0.attn.v_proj.weight",
+      "layer_index": 0,
+      "module": "attn.v_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.0.attn.o_proj.weight",
+      "layer_index": 0,
+      "module": "attn.o_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.0.mlp.gate_proj.weight",
+      "layer_index": 0,
+      "module": "mlp.gate_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.0.mlp.up_proj.weight",
+      "layer_index": 0,
+      "module": "mlp.up_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.0.mlp.down_proj.weight",
+      "layer_index": 0,
+      "module": "mlp.down_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.1.attn.q_proj.weight",
+      "layer_index": 1,
+      "module": "attn.q_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.1.attn.k_proj.weight",
+      "layer_index": 1,
+      "module": "attn.k_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.1.attn.v_proj.weight",
+      "layer_index": 1,
+      "module": "attn.v_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.1.attn.o_proj.weight",
+      "layer_index": 1,
+      "module": "attn.o_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.1.mlp.gate_proj.weight",
+      "layer_index": 1,
+      "module": "mlp.gate_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.1.mlp.up_proj.weight",
+      "layer_index": 1,
+      "module": "mlp.up_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.1.mlp.down_proj.weight",
+      "layer_index": 1,
+      "module": "mlp.down_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.2.attn.q_proj.weight",
+      "layer_index": 2,
+      "module": "attn.q_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.2.attn.k_proj.weight",
+      "layer_index": 2,
+      "module": "attn.k_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.2.attn.v_proj.weight",
+      "layer_index": 2,
+      "module": "attn.v_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.2.attn.o_proj.weight",
+      "layer_index": 2,
+      "module": "attn.o_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.2.mlp.gate_proj.weight",
+      "layer_index": 2,
+      "module": "mlp.gate_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.2.mlp.up_proj.weight",
+      "layer_index": 2,
+      "module": "mlp.up_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.2.mlp.down_proj.weight",
+      "layer_index": 2,
+      "module": "mlp.down_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.3.attn.q_proj.weight",
+      "layer_index": 3,
+      "module": "attn.q_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.3.attn.k_proj.weight",
+      "layer_index": 3,
+      "module": "attn.k_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.3.attn.v_proj.weight",
+      "layer_index": 3,
+      "module": "attn.v_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.3.attn.o_proj.weight",
+      "layer_index": 3,
+      "module": "attn.o_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.3.mlp.gate_proj.weight",
+      "layer_index": 3,
+      "module": "mlp.gate_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.3.mlp.up_proj.weight",
+      "layer_index": 3,
+      "module": "mlp.up_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "blocks.3.mlp.down_proj.weight",
+      "layer_index": 3,
+      "module": "mlp.down_proj",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": true,
+      "eligibility_reason": "linear projection selected for accelerator pruning"
+    },
+    {
+      "tensor_id": "tok_embeddings.weight",
+      "layer_index": null,
+      "module": "token_embedding",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": false,
+      "eligibility_reason": "serving contract requires dense preservation"
+    },
+    {
+      "tensor_id": "lm_head.weight",
+      "layer_index": null,
+      "module": "output_head",
+      "shape": [
+        8,
+        12
+      ],
+      "eligible": false,
+      "eligibility_reason": "serving contract requires dense preservation"
+    }
+  ]
+}

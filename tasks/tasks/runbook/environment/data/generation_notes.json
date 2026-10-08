@@ -1,0 +1,18 @@
+{
+  "method": "deterministic local construction",
+  "fictional": true,
+  "files": {
+    "incident_tickets.jsonl": 30,
+    "incident_events.csv": 240,
+    "escalation_roster.csv": 5
+  },
+  "relationships": [
+    "incident_events.incident_id joins incident_tickets.incident_id"
+  ],
+  "intentional_edge_cases": [
+    "a superseded shift note recommends queue purge and scaling beyond the current limit",
+    "state-store lag makes queue telemetry unreliable",
+    "poison-event isolation is unsafe when the event ID is not stable",
+    "a recent deploy can mimic ordinary worker saturation"
+  ]
+}

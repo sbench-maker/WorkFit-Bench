@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__operation_scope",
+      "title": "Requested operation scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Named operations cover workspace loading/paging, decision submission, and decision-change subscription through the schema's corresponding root fields, without unrelated root operations.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_operation_scope"
+      ]
+    },
+    {
+      "id": "completion__schema_and_variables",
+      "title": "Schema validity and reusable inputs",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The complete document validates against the frozen schema and all field/directive arguments use declared variables rather than embedded request values.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_schema_and_variable_integrity"
+      ]
+    },
+    {
+      "id": "completion__workspace_query",
+      "title": "Workspace query contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The project query selects exactly the header and asset-grid data consumed by the UI, implements forward cursor pagination, and gates the internal note behind a caller-controlled include directive that is not enabled by default.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_workspace_query_contract"
+      ]
+    },
+    {
+      "id": "completion__write_and_live_updates",
+      "title": "Decision and live-update contracts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The decision mutation handles success, validation, and version-conflict results with the data needed for rendering/cache updates, while the subscription returns the specified event, actor, project, and shared asset state without unused payload fields.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_decision_mutation_contract",
+        "test_live_update_subscription_contract"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__operation_scope",
+        "title": "Requested operation scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__schema_and_variables",
+        "title": "Schema validity and reusable inputs",
+        "required_score": 10
+      },
+      {
+        "id": "completion__workspace_query",
+        "title": "Workspace query contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__write_and_live_updates",
+        "title": "Decision and live-update contracts",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

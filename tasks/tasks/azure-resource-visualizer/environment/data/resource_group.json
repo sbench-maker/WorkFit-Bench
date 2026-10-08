@@ -1,0 +1,19 @@
+{
+  "snapshot_kind": "deterministic fictional Azure export",
+  "snapshot_at": "2026-08-31T23:00:00Z",
+  "resource_group": "rg-helio-prod",
+  "subscription_name": "Helio Retail Sandbox",
+  "subscription_id": "sub-helio-fictitious",
+  "primary_region": "canadacentral",
+  "workload": "Helio Commerce production ordering platform",
+  "inventory_complete": true,
+  "config_details_complete": true,
+  "relationship_export_complete": true,
+  "notes": [
+    "resources.json contains only current in-group resources and defines the inventory count.",
+    "external_resources.json contains context nodes outside the inventory and must remain visibly external.",
+    "Duplicate verified flow rows are corroborating evidence for one connection.",
+    "Candidate flows and inactive role assignments are not confirmed current connections.",
+    "Secret-reference names are included, but their values were not collected and are not present in this fixture."
+  ]
+}

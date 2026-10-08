@@ -1,0 +1,272 @@
+[
+  {
+    "library_id": "/northstar-labs/fluxcache-python/v4.2.0",
+    "name": "FluxCache Python",
+    "version": "4.2.0",
+    "benchmark_score": 97.4,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python SDK documentation for the FluxCache 4.2 line."
+  },
+  {
+    "library_id": "/northstar-labs/fluxcache-python/v3.9.4",
+    "name": "FluxCache Python",
+    "version": "3.9.4",
+    "benchmark_score": 96.8,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Archived official Python SDK documentation for the FluxCache 3.x line."
+  },
+  {
+    "library_id": "/community-hub/fluxcache-python/v4.2.0",
+    "name": "FluxCache Python Community",
+    "version": "4.2.0",
+    "benchmark_score": 88.2,
+    "source_reputation": "Medium",
+    "official": false,
+    "description": "Community-maintained Python examples and compatibility notes."
+  },
+  {
+    "library_id": "/northstar-labs/fluxcache-js/v4.2.0",
+    "name": "FluxCache JavaScript",
+    "version": "4.2.0",
+    "benchmark_score": 95.1,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official JavaScript client documentation."
+  },
+  {
+    "library_id": "/northstar-labs/fluxcache-go/v4.2.0",
+    "name": "FluxCache Go",
+    "version": "4.2.0",
+    "benchmark_score": 94.6,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Go client documentation."
+  },
+  {
+    "library_id": "/learning-garden/fluxcache-handbook",
+    "name": "FluxCache Handbook",
+    "version": "2026.1",
+    "benchmark_score": 82.0,
+    "source_reputation": "Medium",
+    "official": false,
+    "description": "General tutorials spanning several client generations."
+  },
+  {
+    "library_id": "/pinecone-systems/emberqueue-python/v2.7.1",
+    "name": "EmberQueue Python",
+    "version": "2.7.1",
+    "benchmark_score": 93.7,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python SDK for a fictional queue service."
+  },
+  {
+    "library_id": "/pinecone-systems/emberqueue-js/v2.7.1",
+    "name": "EmberQueue JavaScript",
+    "version": "2.7.1",
+    "benchmark_score": 91.9,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official JavaScript SDK for a fictional queue service."
+  },
+  {
+    "library_id": "/violet-data/quilldb-python/v5.1.0",
+    "name": "QuillDB Python",
+    "version": "5.1.0",
+    "benchmark_score": 94.2,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python database client documentation."
+  },
+  {
+    "library_id": "/violet-data/quilldb-python/v4.8.3",
+    "name": "QuillDB Python",
+    "version": "4.8.3",
+    "benchmark_score": 92.8,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Archived Python database client documentation."
+  },
+  {
+    "library_id": "/meridian-cloud/aurorablob-python/v1.9.0",
+    "name": "AuroraBlob Python",
+    "version": "1.9.0",
+    "benchmark_score": 90.4,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python object storage client documentation."
+  },
+  {
+    "library_id": "/meridian-cloud/aurorablob-go/v1.9.0",
+    "name": "AuroraBlob Go",
+    "version": "1.9.0",
+    "benchmark_score": 89.7,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Go object storage client documentation."
+  },
+  {
+    "library_id": "/silverline/canopy-auth-python/v3.4.2",
+    "name": "Canopy Auth Python",
+    "version": "3.4.2",
+    "benchmark_score": 95.0,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python authentication client documentation."
+  },
+  {
+    "library_id": "/silverline/canopy-auth-js/v3.4.2",
+    "name": "Canopy Auth JavaScript",
+    "version": "3.4.2",
+    "benchmark_score": 93.3,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official JavaScript authentication client documentation."
+  },
+  {
+    "library_id": "/tidalworks/harbor-events-python/v6.0.1",
+    "name": "Harbor Events Python",
+    "version": "6.0.1",
+    "benchmark_score": 91.5,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official event-stream client documentation."
+  },
+  {
+    "library_id": "/tidalworks/harbor-events-java/v6.0.1",
+    "name": "Harbor Events Java",
+    "version": "6.0.1",
+    "benchmark_score": 90.8,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Java event-stream client documentation."
+  },
+  {
+    "library_id": "/orchard-tech/mosaic-search-python/v2.2.0",
+    "name": "Mosaic Search Python",
+    "version": "2.2.0",
+    "benchmark_score": 92.1,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python search SDK documentation."
+  },
+  {
+    "library_id": "/orchard-tech/mosaic-search-js/v2.2.0",
+    "name": "Mosaic Search JavaScript",
+    "version": "2.2.0",
+    "benchmark_score": 91.4,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official JavaScript search SDK documentation."
+  },
+  {
+    "library_id": "/redwood-labs/pulsemetrics-python/v7.3.0",
+    "name": "PulseMetrics Python",
+    "version": "7.3.0",
+    "benchmark_score": 89.9,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python metrics client documentation."
+  },
+  {
+    "library_id": "/redwood-labs/pulsemetrics-rust/v7.3.0",
+    "name": "PulseMetrics Rust",
+    "version": "7.3.0",
+    "benchmark_score": 88.6,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Rust metrics client documentation."
+  },
+  {
+    "library_id": "/bluepeak/atlas-config-python/v1.6.4",
+    "name": "Atlas Config Python",
+    "version": "1.6.4",
+    "benchmark_score": 90.6,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python configuration client documentation."
+  },
+  {
+    "library_id": "/bluepeak/atlas-config-cli/v1.6.4",
+    "name": "Atlas Config CLI",
+    "version": "1.6.4",
+    "benchmark_score": 87.5,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official command-line documentation."
+  },
+  {
+    "library_id": "/sunfield/relaymail-python/v4.0.0",
+    "name": "RelayMail Python",
+    "version": "4.0.0",
+    "benchmark_score": 88.9,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python mail client documentation."
+  },
+  {
+    "library_id": "/sunfield/relaymail-php/v4.0.0",
+    "name": "RelayMail PHP",
+    "version": "4.0.0",
+    "benchmark_score": 86.1,
+    "source_reputation": "Medium",
+    "official": true,
+    "description": "Official PHP mail client documentation."
+  },
+  {
+    "library_id": "/greystone/ledgerkit-python/v3.1.5",
+    "name": "LedgerKit Python",
+    "version": "3.1.5",
+    "benchmark_score": 93.0,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official Python ledger client documentation."
+  },
+  {
+    "library_id": "/greystone/ledgerkit-dotnet/v3.1.5",
+    "name": "LedgerKit .NET",
+    "version": "3.1.5",
+    "benchmark_score": 91.0,
+    "source_reputation": "High",
+    "official": true,
+    "description": "Official .NET ledger client documentation."
+  },
+  {
+    "library_id": "/copperleaf/routecraft-python/v2.5.0",
+    "name": "RouteCraft Python",
+    "version": "2.5.0",
+    "benchmark_score": 88.0,
+    "source_reputation": "Medium",
+    "official": true,
+    "description": "Official Python routing client documentation."
+  },
+  {
+    "library_id": "/copperleaf/routecraft-go/v2.5.0",
+    "name": "RouteCraft Go",
+    "version": "2.5.0",
+    "benchmark_score": 87.2,
+    "source_reputation": "Medium",
+    "official": true,
+    "description": "Official Go routing client documentation."
+  },
+  {
+    "library_id": "/fieldnotes/python-async-patterns",
+    "name": "Python Async Patterns",
+    "version": "2025.4",
+    "benchmark_score": 85.7,
+    "source_reputation": "Medium",
+    "official": false,
+    "description": "General community notes about Python async application structure."
+  },
+  {
+    "library_id": "/workshop-labs/cache-client-comparison",
+    "name": "Cache Client Comparison",
+    "version": "2026.2",
+    "benchmark_score": 79.4,
+    "source_reputation": "Low",
+    "official": false,
+    "description": "A community comparison of several fictional cache clients."
+  }
+]

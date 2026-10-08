@@ -1,0 +1,356 @@
+[
+  {
+    "repo_id": "repo-ledger",
+    "symbol": "SettlementReconciler",
+    "file": "src/ledger/SettlementReconciler.py",
+    "keywords": [
+      "ledger",
+      "reconciliation"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep SettlementReconciler behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-ledger",
+    "symbol": "JournalWriter",
+    "file": "src/ledger/JournalWriter.py",
+    "keywords": [
+      "ledger",
+      "settlement",
+      "reconciliation"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep JournalWriter behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-ledger",
+    "symbol": "BalanceProjector",
+    "file": "src/ledger/BalanceProjector.py",
+    "keywords": [
+      "ledger",
+      "posting",
+      "reconciliation"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep BalanceProjector behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-ledger",
+    "symbol": "ReversalService",
+    "file": "src/ledger/ReversalService.py",
+    "keywords": [
+      "ledger",
+      "journal",
+      "reconciliation"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep ReversalService behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-ledger",
+    "symbol": "LedgerBackfill",
+    "file": "src/ledger/LedgerBackfill.py",
+    "keywords": [
+      "ledger",
+      "balance",
+      "reconciliation"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep LedgerBackfill behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-ledger",
+    "symbol": "PostingRetryGuard",
+    "file": "src/ledger/PostingRetryGuard.py",
+    "keywords": [
+      "ledger",
+      "reconciliation"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep PostingRetryGuard behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-gateway",
+    "symbol": "WebhookDispatcher",
+    "file": "src/gateway/WebhookDispatcher.py",
+    "keywords": [
+      "gateway",
+      "checkout"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep WebhookDispatcher behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-gateway",
+    "symbol": "CheckoutSession",
+    "file": "src/gateway/CheckoutSession.py",
+    "keywords": [
+      "gateway",
+      "payment",
+      "checkout"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep CheckoutSession behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-gateway",
+    "symbol": "PaymentStateMachine",
+    "file": "src/gateway/PaymentStateMachine.py",
+    "keywords": [
+      "gateway",
+      "card",
+      "checkout"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep PaymentStateMachine behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-gateway",
+    "symbol": "CardTokenStore",
+    "file": "src/gateway/CardTokenStore.py",
+    "keywords": [
+      "gateway",
+      "webhook",
+      "checkout"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep CardTokenStore behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-gateway",
+    "symbol": "CaptureWorker",
+    "file": "src/gateway/CaptureWorker.py",
+    "keywords": [
+      "gateway",
+      "token",
+      "checkout"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep CaptureWorker behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-gateway",
+    "symbol": "IdempotencyRegistry",
+    "file": "src/gateway/IdempotencyRegistry.py",
+    "keywords": [
+      "gateway",
+      "capture",
+      "checkout"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep IdempotencyRegistry behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-risk",
+    "symbol": "VelocityEvaluator",
+    "file": "src/risk/VelocityEvaluator.py",
+    "keywords": [
+      "risk",
+      "fraud"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep VelocityEvaluator behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-risk",
+    "symbol": "ScreeningQueue",
+    "file": "src/risk/ScreeningQueue.py",
+    "keywords": [
+      "risk",
+      "rule",
+      "fraud"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep ScreeningQueue behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-risk",
+    "symbol": "FraudRuleEngine",
+    "file": "src/risk/FraudRuleEngine.py",
+    "keywords": [
+      "risk",
+      "screening",
+      "fraud"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep FraudRuleEngine behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-risk",
+    "symbol": "ChargebackMatcher",
+    "file": "src/risk/ChargebackMatcher.py",
+    "keywords": [
+      "risk",
+      "velocity",
+      "fraud"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep ChargebackMatcher behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-risk",
+    "symbol": "DeviceLinkGraph",
+    "file": "src/risk/DeviceLinkGraph.py",
+    "keywords": [
+      "risk",
+      "chargeback",
+      "fraud"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep DeviceLinkGraph behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-risk",
+    "symbol": "RiskPreview",
+    "file": "src/risk/RiskPreview.py",
+    "keywords": [
+      "risk",
+      "device",
+      "fraud"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep RiskPreview behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-console",
+    "symbol": "ReportExporter",
+    "file": "src/console/ReportExporter.py",
+    "keywords": [
+      "console",
+      "dashboard"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep ReportExporter behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-console",
+    "symbol": "DashboardFilters",
+    "file": "src/console/DashboardFilters.py",
+    "keywords": [
+      "console",
+      "admin",
+      "dashboard"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep DashboardFilters behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-console",
+    "symbol": "DisputeTable",
+    "file": "src/console/DisputeTable.py",
+    "keywords": [
+      "console",
+      "report",
+      "dashboard"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep DisputeTable behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-console",
+    "symbol": "BulkActionRunner",
+    "file": "src/console/BulkActionRunner.py",
+    "keywords": [
+      "console",
+      "export",
+      "dashboard"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep BulkActionRunner behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-console",
+    "symbol": "AdminNavigation",
+    "file": "src/console/AdminNavigation.py",
+    "keywords": [
+      "console",
+      "accessibility",
+      "dashboard"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep AdminNavigation behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-console",
+    "symbol": "AccessibilityMap",
+    "file": "src/console/AccessibilityMap.py",
+    "keywords": [
+      "console",
+      "filter",
+      "dashboard"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep AccessibilityMap behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-platform",
+    "symbol": "ReleasePublisher",
+    "file": "src/platform/ReleasePublisher.py",
+    "keywords": [
+      "platform",
+      "ci"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep ReleasePublisher behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-platform",
+    "symbol": "DeploymentProbe",
+    "file": "src/platform/DeploymentProbe.py",
+    "keywords": [
+      "platform",
+      "build",
+      "ci"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep DeploymentProbe behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-platform",
+    "symbol": "AlertGrouper",
+    "file": "src/platform/AlertGrouper.py",
+    "keywords": [
+      "platform",
+      "dependency",
+      "ci"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep AlertGrouper behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-platform",
+    "symbol": "BuildCache",
+    "file": "src/platform/BuildCache.py",
+    "keywords": [
+      "platform",
+      "observability",
+      "ci"
+    ],
+    "blast_radius": "medium",
+    "prior_intent": "Keep BuildCache behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-platform",
+    "symbol": "DependencyMonitor",
+    "file": "src/platform/DependencyMonitor.py",
+    "keywords": [
+      "platform",
+      "release",
+      "ci"
+    ],
+    "blast_radius": "high",
+    "prior_intent": "Keep DependencyMonitor behavior backward compatible and add regression coverage."
+  },
+  {
+    "repo_id": "repo-platform",
+    "symbol": "WorkerSupervisor",
+    "file": "src/platform/WorkerSupervisor.py",
+    "keywords": [
+      "platform",
+      "deployment",
+      "ci"
+    ],
+    "blast_radius": "low",
+    "prior_intent": "Keep WorkerSupervisor behavior backward compatible and add regression coverage."
+  }
+]

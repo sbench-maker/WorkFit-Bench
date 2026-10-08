@@ -1,0 +1,87 @@
+{
+  "units_note": "completion_pct and error_pct are percentages, not fractions",
+  "evaluation_source": "Use the row in load_test_summary.csv identified by source_run_id and journey.",
+  "requirements": [
+    {
+      "requirement_id": "REQ-BROWSE-P95",
+      "source_run_id": "RUN-LAUNCH",
+      "journey": "browse",
+      "metric": "p95_ms",
+      "operator": "<=",
+      "target": 250,
+      "unit": "ms"
+    },
+    {
+      "requirement_id": "REQ-BROWSE-ERROR",
+      "source_run_id": "RUN-LAUNCH",
+      "journey": "browse",
+      "metric": "error_pct",
+      "operator": "<=",
+      "target": 1.0,
+      "unit": "percent"
+    },
+    {
+      "requirement_id": "REQ-BROWSE-COMPLETION",
+      "source_run_id": "RUN-LAUNCH",
+      "journey": "browse",
+      "metric": "completion_pct",
+      "operator": ">=",
+      "target": 98.0,
+      "unit": "percent"
+    },
+    {
+      "requirement_id": "REQ-CHECKOUT-P95",
+      "source_run_id": "RUN-LAUNCH",
+      "journey": "checkout",
+      "metric": "p95_ms",
+      "operator": "<=",
+      "target": 650,
+      "unit": "ms"
+    },
+    {
+      "requirement_id": "REQ-CHECKOUT-ERROR",
+      "source_run_id": "RUN-LAUNCH",
+      "journey": "checkout",
+      "metric": "error_pct",
+      "operator": "<=",
+      "target": 1.5,
+      "unit": "percent"
+    },
+    {
+      "requirement_id": "REQ-CHECKOUT-COMPLETION",
+      "source_run_id": "RUN-LAUNCH",
+      "journey": "checkout",
+      "metric": "completion_pct",
+      "operator": ">=",
+      "target": 97.0,
+      "unit": "percent"
+    },
+    {
+      "requirement_id": "REQ-INVENTORY-QUEUE",
+      "source_run_id": "RUN-LAUNCH",
+      "journey": "checkout",
+      "metric": "queue_oldest_age_s",
+      "operator": "<=",
+      "target": 2.0,
+      "unit": "seconds"
+    },
+    {
+      "requirement_id": "REQ-BURST-CHECKOUT",
+      "source_run_id": "RUN-BURST",
+      "journey": "checkout",
+      "metric": "p95_ms",
+      "operator": "<=",
+      "target": 1000,
+      "unit": "ms"
+    },
+    {
+      "requirement_id": "REQ-FAILOVER-CHECKOUT",
+      "source_run_id": "RUN-FAILOVER",
+      "journey": "checkout",
+      "metric": "p95_ms",
+      "operator": "<=",
+      "target": 900,
+      "unit": "ms"
+    }
+  ]
+}

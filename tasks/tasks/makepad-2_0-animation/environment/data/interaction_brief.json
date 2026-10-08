@@ -1,0 +1,46 @@
+{
+  "project": "Pulseboard offline demo",
+  "framework": "Makepad 2.0",
+  "component_file": "starter_ops_status_panel.rs",
+  "composition": {
+    "panel_widget": "OpsStatusPanel",
+    "card_widget": "StatusCard",
+    "spinner_widget": "SyncSpinner",
+    "required_ids": ["status_card", "status_label", "sync_spinner"],
+    "copy": "Indexing local workspace"
+  },
+  "hover_interaction": {
+    "owner": "StatusCard",
+    "initial_state": "off",
+    "states": {
+      "off": {"hover_value": 0.0, "play": "Forward", "duration_seconds": 0.18},
+      "on": {"hover_value": 1.0, "play": "Forward", "duration_seconds": 0.18}
+    },
+    "ease": "OutCubic",
+    "cursor": "Hand",
+    "background": {
+      "base_color": "#202638",
+      "hover_color": "#303b5c",
+      "interpolation_driver": "hover"
+    },
+    "visibility_note": "The text must remain above the animated card background at every hover value."
+  },
+  "loading_animation": {
+    "owner": "SyncSpinner",
+    "initial_state": "on",
+    "group": "time",
+    "play": "Loop",
+    "duration_seconds": 1.2,
+    "ease": "Linear",
+    "rotation_start_radians": 0.0,
+    "rotation_end_radians": 6.28318,
+    "stroke_color": "#72a7ff",
+    "stroke_width": 2.5,
+    "note": "Rotation is per widget instance and the shader arc reads the animated rotation value."
+  },
+  "integration_constraints": [
+    "Preserve the current dimensions, spacing, IDs, widget names, and displayed copy.",
+    "Hover and time are independent animation tracks and must not write each other's values.",
+    "Do not add runtime downloads, external assets, event-handler scaffolding, or a second animation system."
+  ]
+}

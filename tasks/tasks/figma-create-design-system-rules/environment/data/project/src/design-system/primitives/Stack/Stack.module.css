@@ -1,0 +1,1 @@
+.root { display: flex; flex-direction: column; gap: var(--stack-gap); }

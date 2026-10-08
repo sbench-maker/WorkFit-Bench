@@ -1,0 +1,45 @@
+{
+  "company": "AsterLane (fictional)",
+  "product": "B2B workflow automation platform",
+  "planning_date": "2026-12-01",
+  "product_stage": "early product-market fit, scaling into larger accounts",
+  "planning_need": "one recurring method for the next two quarterly roadmap cycles",
+  "team": {
+    "product_managers": 1,
+    "designers": 1,
+    "engineers": 6,
+    "data_analyst_allocation": "25%",
+    "working_style": "cross-functional delivery team; roadmap stakeholders are not aligned"
+  },
+  "decision_problem": [
+    "Sales prioritizes enterprise commitments and revenue at risk.",
+    "Support prioritizes repeated friction and reliability.",
+    "Engineering prioritizes platform risk and technical debt.",
+    "Product prioritizes activation, retention, and strategic learning."
+  ],
+  "data_availability": {
+    "telemetry": "reliable in onboarding, automation, and reporting; incomplete elsewhere",
+    "customer_feedback": "tagged but not statistically representative",
+    "effort_estimates": "rough engineering-week estimates exist for all backlog items",
+    "reach_estimates": "unknown values are intentionally blank and must not be treated as zero"
+  },
+  "current_process": {
+    "method": "RICE pilot used in the last two reviews",
+    "problems": [
+      "reach cannot be estimated credibly for many requests",
+      "risk-reduction and obligation work scores poorly or cannot be scored",
+      "stakeholders debate the inputs after seeing the rank",
+      "manual overrides are common and poorly documented"
+    ]
+  },
+  "strategy": [
+    "improve new-workspace activation",
+    "be ready for larger regulated customers",
+    "reduce workflow failure incidents"
+  ],
+  "operating_constraints": [
+    "Three compliance items have fixed deadlines and are gates, not optional competitors.",
+    "The team can spend at most 60 minutes maintaining scores before each monthly review.",
+    "Leadership wants a visible audit trail for exceptions and overrides."
+  ]
+}

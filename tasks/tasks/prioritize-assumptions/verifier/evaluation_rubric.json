@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__assumption_coverage",
+      "title": "Complete assumption coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every assumption in the frozen register is represented in the decision brief.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_all_assumptions_are_covered"
+      ]
+    },
+    {
+      "id": "completion__matrix_decisions",
+      "title": "Impact × Risk decisions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each represented assumption is assigned the correct high/low Impact and Risk quadrant and the corresponding test, proceed, reject, or defer action under the supplied scoring rules, including threshold-boundary cases.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_matrix_decisions"
+      ]
+    },
+    {
+      "id": "completion__experiment_quality",
+      "title": "Lean, behavioral validation experiments",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every assumption selected for testing has a tailored experiment that fits an available resource and its capacity, stays within the two-week/no-production and assumption-specific constraints, measures actual behavior, and states a numeric threshold plus the pass/fail roadmap decision.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__assumption_coverage",
+        "title": "Complete assumption coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__matrix_decisions",
+        "title": "Impact × Risk decisions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__experiment_quality",
+        "title": "Lean, behavioral validation experiments",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

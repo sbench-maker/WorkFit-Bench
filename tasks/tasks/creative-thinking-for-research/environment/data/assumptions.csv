@@ -1,0 +1,49 @@
+statement,constraint_type,origin,status,evidence_ids,why_it_matters,assumption_id
+Raw images never leave a robot.,hard,privacy policy,enforced,OBS-006,Any idea requiring centralized frames is unusable.,ASM-001
+Safety alerts must remain below 80 ms p95.,hard,safety case,enforced,OBS-016,Always-on multi-pass inference would miss the alert deadline.,ASM-002
+Adaptation averages no more than 2.0 W over a shift.,hard,battery envelope,enforced,OBS-007,Heavy retraining shortens the operating shift.,ASM-003
+Each robot may upload at most 8 MB per day.,hard,connectivity envelope,enforced,OBS-014,Large checkpoints or gradients consume the entire link budget.,ASM-004
+All robots should converge toward one global model.,hidden,current architecture,contradicted,OBS-005;OBS-011,Convergence can erase complementary specialists and correlate errors.,ASM-005
+Every site needs the same fixed label ontology.,soft,benchmark convention,questioned,OBS-008,A shared ontology can hide locally meaningful failure distinctions.,ASM-006
+Adaptation begins only after labels arrive.,hidden,evaluation protocol,contradicted,OBS-002,Useful fleet signals appear many hours before labels.,ASM-007
+"Useful collaboration must exchange data, gradients, or weights.",hidden,federated-learning convention,contradicted,OBS-006;OBS-014,Relational error summaries may be smaller and more diagnostic.,ASM-008
+"Drift is a nuisance to erase, and forgetting is the primary objective.",hidden,continual-learning framing,questioned,OBS-004;OBS-010,Recurrent regimes may reward recoverability rather than uniform retention.,ASM-009
+The learner is only the model on the robot.,hidden,system boundary,questioned,OBS-003;OBS-009,Location and peer state can carry adaptation memory.,ASM-010
+Model diversity is a temporary defect before synchronization.,soft,operations preference,contradicted,OBS-005,Diversity can create error complementarity.,ASM-011
+Old adapters are dead storage once a regime disappears.,soft,memory policy,contradicted,OBS-004;OBS-007,Dormant expertise can be cheaper to revive than relearn.,ASM-012
+A compressed gradient is the smallest meaningful collaboration unit.,soft,protocol choice,contradicted,OBS-006;OBS-014,Sketches and signatures use far less bandwidth.,ASM-013
+"Context belongs to the current robot session, not to a place or shift.",hidden,data model,contradicted,OBS-003;OBS-009,Failures recur by zone and time across robots.,ASM-014
+One scalar forgetting score is a sufficient research objective.,soft,benchmark design,contradicted,OBS-010,It conflates recurrent recovery with novel adaptation.,ASM-015
+The best peer is the robot from the most similar site.,soft,routing heuristic,contradicted,OBS-012,Error-signature compatibility is more predictive.,ASM-016
+Fleet adaptation requires a continuously available coordinator.,hidden,deployment topology,contradicted,OBS-015,Short peer messages remain available during coordinator outages.,ASM-017
+A fleet update must wait for synchronized rounds.,soft,training schedule,questioned,OBS-015,Barriers are unavailable during simultaneous shifts.,ASM-018
+Inference must always finish in one pass.,hidden,latency interpretation,questioned,OBS-016,Sparse selective rechecking can fit the deadline.,ASM-019
+More replay is the safest path to robustness.,soft,local optimum,contradicted,OBS-007,Replay can exceed power and overwrite useful specialists.,ASM-020
+Uncertainty summaries are meaningful only with labels.,hidden,benchmark convention,questioned,OBS-052,The convention may suppress local specialization without satisfying a hard requirement.,ASM-021
+Evaluation windows remain fixed after deployment.,soft,deployment custom,untested,OBS-059,The choice changes which failures are visible during evaluation.,ASM-022
+Site identity should be decided centrally.,hidden,unwritten review norm,questioned,OBS-066,Relaxing it could permit asynchronous or relational coordination.,ASM-023
+Calibration thresholds must be identical across the fleet.,soft,prototype habit,untested,OBS-017,Changing this boundary could alter what information the system treats as state.,ASM-024
+Peer selection must be globally comparable.,hidden,benchmark convention,questioned,OBS-024,The convention may suppress local specialization without satisfying a hard requirement.,ASM-025
+Update timing should optimize the average case.,soft,deployment custom,untested,OBS-031,The choice changes which failures are visible during evaluation.,ASM-026
+Adapter ownership are meaningful only with labels.,hidden,unwritten review norm,questioned,OBS-038,Relaxing it could permit asynchronous or relational coordination.,ASM-027
+Memory eviction remain fixed after deployment.,soft,prototype habit,untested,OBS-045,Changing this boundary could alter what information the system treats as state.,ASM-028
+Uncertainty summaries should be decided centrally.,hidden,benchmark convention,questioned,OBS-052,The convention may suppress local specialization without satisfying a hard requirement.,ASM-029
+Evaluation windows must be identical across the fleet.,soft,deployment custom,untested,OBS-059,The choice changes which failures are visible during evaluation.,ASM-030
+Site identity must be globally comparable.,hidden,unwritten review norm,questioned,OBS-066,Relaxing it could permit asynchronous or relational coordination.,ASM-031
+Calibration thresholds should optimize the average case.,soft,prototype habit,untested,OBS-017,Changing this boundary could alter what information the system treats as state.,ASM-032
+Peer selection are meaningful only with labels.,hidden,benchmark convention,questioned,OBS-024,The convention may suppress local specialization without satisfying a hard requirement.,ASM-033
+Update timing remain fixed after deployment.,soft,deployment custom,untested,OBS-031,The choice changes which failures are visible during evaluation.,ASM-034
+Adapter ownership should be decided centrally.,hidden,unwritten review norm,questioned,OBS-038,Relaxing it could permit asynchronous or relational coordination.,ASM-035
+Memory eviction must be identical across the fleet.,soft,prototype habit,untested,OBS-045,Changing this boundary could alter what information the system treats as state.,ASM-036
+Uncertainty summaries must be globally comparable.,hidden,benchmark convention,questioned,OBS-052,The convention may suppress local specialization without satisfying a hard requirement.,ASM-037
+Evaluation windows should optimize the average case.,soft,deployment custom,untested,OBS-059,The choice changes which failures are visible during evaluation.,ASM-038
+Site identity are meaningful only with labels.,hidden,unwritten review norm,questioned,OBS-066,Relaxing it could permit asynchronous or relational coordination.,ASM-039
+Calibration thresholds remain fixed after deployment.,soft,prototype habit,untested,OBS-017,Changing this boundary could alter what information the system treats as state.,ASM-040
+Peer selection should be decided centrally.,hidden,benchmark convention,questioned,OBS-024,The convention may suppress local specialization without satisfying a hard requirement.,ASM-041
+Update timing must be identical across the fleet.,soft,deployment custom,untested,OBS-031,The choice changes which failures are visible during evaluation.,ASM-042
+Adapter ownership must be globally comparable.,hidden,unwritten review norm,questioned,OBS-038,Relaxing it could permit asynchronous or relational coordination.,ASM-043
+Memory eviction should optimize the average case.,soft,prototype habit,untested,OBS-045,Changing this boundary could alter what information the system treats as state.,ASM-044
+Uncertainty summaries are meaningful only with labels.,hidden,benchmark convention,questioned,OBS-052,The convention may suppress local specialization without satisfying a hard requirement.,ASM-045
+Evaluation windows remain fixed after deployment.,soft,deployment custom,untested,OBS-059,The choice changes which failures are visible during evaluation.,ASM-046
+Site identity should be decided centrally.,hidden,unwritten review norm,questioned,OBS-066,Relaxing it could permit asynchronous or relational coordination.,ASM-047
+Calibration thresholds must be identical across the fleet.,soft,prototype habit,untested,OBS-017,Changing this boundary could alter what information the system treats as state.,ASM-048

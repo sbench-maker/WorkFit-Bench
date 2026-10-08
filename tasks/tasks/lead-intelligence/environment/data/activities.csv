@@ -1,0 +1,493 @@
+activity_id,person_id,activity_date,platform,topic,summary,verified,engagement_count
+A0001,P001,2026-08-30,linkedin,release_reliability,Wrote that release gates should explain failures instead of only blocking deploys.,true,53
+A0002,P001,2026-08-31,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,21
+A0003,P002,2026-08-29,blog,ci_cd,Posted a teardown of flaky deployment gates and the hours they add to release reviews.,true,94
+A0004,P002,2026-08-31,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,38
+A0005,P003,2026-08-27,x,developer_productivity,Shared a thread on keeping CI context attached to every change-risk decision.,true,135
+A0006,P003,2026-08-31,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,55
+A0007,P004,2026-08-25,linkedin,release_reliability,Published notes on tracing failed checks back to the code paths that changed.,true,176
+A0008,P004,2026-08-31,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,72
+A0009,P005,2026-08-22,blog,ci_cd,Argued that platform teams need fewer dashboards and clearer deploy decisions.,true,217
+A0010,P005,2026-08-29,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,89
+A0011,P006,2026-08-20,x,developer_productivity,Described a rollout where policy checks caught a risky permission change before release.,true,258
+A0012,P006,2026-08-27,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,106
+A0013,P007,2026-08-16,linkedin,release_reliability,Asked how teams summarize noisy test failures for on-call engineers.,true,299
+A0014,P007,2026-08-23,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,123
+A0015,P008,2026-08-30,blog,ci_cd,Posted a checklist for making release reviews understandable outside the platform team.,true,340
+A0016,P008,2026-08-31,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,140
+A0017,P009,2026-07-30,x,developer_productivity,Compared manual change-risk review with automated evidence from CI runs.,true,381
+A0018,P009,2026-08-06,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,157
+A0019,P010,2026-08-23,linkedin,release_reliability,Shared lessons from consolidating three deployment pipelines into one release process.,true,422
+A0020,P010,2026-08-30,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,174
+A0021,P011,2026-08-28,blog,ci_cd,Explained why build-pass rate alone misses the failures engineers actually investigate.,true,463
+A0022,P011,2026-08-31,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,191
+A0023,P012,2026-08-12,x,developer_productivity,Published a note on reducing approval latency without removing safety checks.,true,504
+A0024,P012,2026-08-19,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,208
+A0025,P013,2026-08-31,linkedin,release_reliability,Outlined a lightweight release scorecard for engineering managers.,true,545
+A0026,P013,2026-08-31,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,225
+A0027,P014,2026-08-29,blog,ci_cd,Asked for examples of useful AI summaries inside developer workflows.,true,586
+A0028,P014,2026-08-31,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,242
+A0029,P015,2026-07-23,x,developer_productivity,Wrote that developer tools should show evidence before making risk recommendations.,true,627
+A0030,P015,2026-07-30,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,9
+A0031,P016,2026-08-27,linkedin,release_reliability,Shared a release-readiness checklist used by the platform team.,true,668
+A0032,P016,2026-08-31,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,26
+A0033,P017,2026-08-24,blog,ci_cd,Posted about separating flaky tests from genuine regression signals.,true,709
+A0034,P017,2026-08-31,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,43
+A0035,P018,2026-08-12,x,developer_productivity,Recapped a roundtable on safer deploys for fast-moving teams.,true,750
+A0036,P018,2026-08-19,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,60
+A0037,P019,2026-06-28,linkedin,release_reliability,Compared rollback frequency across two release processes.,true,791
+A0038,P019,2026-07-05,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,77
+A0039,P019,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0040,P020,2026-08-07,blog,ci_cd,Asked how AI agents can reduce release coordination work without hiding evidence.,true,832
+A0041,P020,2026-08-14,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,94
+A0042,P021,2026-08-30,x,developer_productivity,Published a checklist for explaining CI risk to service owners.,true,873
+A0043,P021,2026-08-31,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,111
+A0044,P022,2026-05-16,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,14
+A0045,P022,2026-05-23,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,128
+A0046,P023,2026-05-03,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,55
+A0047,P023,2026-05-10,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,145
+A0048,P024,2026-04-20,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,96
+A0049,P024,2026-04-27,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,162
+A0050,P025,2026-04-07,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,137
+A0051,P025,2026-04-14,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,179
+A0052,P026,2026-03-25,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,178
+A0053,P026,2026-04-01,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,196
+A0054,P027,2026-03-12,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,219
+A0055,P027,2026-03-19,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,213
+A0056,P028,2026-06-27,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,260
+A0057,P028,2026-07-04,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,230
+A0058,P029,2026-06-14,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,301
+A0059,P029,2026-06-21,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,247
+A0060,P030,2026-06-01,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,342
+A0061,P030,2026-06-08,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,14
+A0062,P031,2026-05-19,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,383
+A0063,P031,2026-05-26,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,31
+A0064,P032,2026-05-06,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,424
+A0065,P032,2026-05-13,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,48
+A0066,P033,2026-04-23,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,465
+A0067,P033,2026-04-30,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,65
+A0068,P034,2026-04-10,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,506
+A0069,P034,2026-04-17,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,82
+A0070,P035,2026-03-28,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,547
+A0071,P035,2026-04-04,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,99
+A0072,P036,2026-03-15,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,588
+A0073,P036,2026-03-22,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,116
+A0074,P037,2026-06-30,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,629
+A0075,P037,2026-07-07,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,133
+A0076,P038,2026-06-17,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,670
+A0077,P038,2026-06-24,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,150
+A0078,P038,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0079,P039,2026-06-04,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,711
+A0080,P039,2026-06-11,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,167
+A0081,P040,2026-05-22,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,752
+A0082,P040,2026-05-29,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,184
+A0083,P041,2026-05-09,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,793
+A0084,P041,2026-05-16,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,201
+A0085,P042,2026-04-26,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,834
+A0086,P042,2026-05-03,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,218
+A0087,P043,2026-04-13,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,875
+A0088,P043,2026-04-20,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,235
+A0089,P044,2026-03-31,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,16
+A0090,P044,2026-04-07,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,252
+A0091,P045,2026-03-18,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,57
+A0092,P045,2026-03-25,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,19
+A0093,P046,2026-03-05,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,98
+A0094,P046,2026-03-12,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,36
+A0095,P047,2026-06-20,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,139
+A0096,P047,2026-06-27,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,53
+A0097,P048,2026-06-07,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,180
+A0098,P048,2026-06-14,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,70
+A0099,P049,2026-05-25,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,221
+A0100,P049,2026-06-01,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,87
+A0101,P050,2026-05-12,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,262
+A0102,P050,2026-05-19,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,104
+A0103,P051,2026-04-29,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,303
+A0104,P051,2026-05-06,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,121
+A0105,P052,2026-04-16,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,344
+A0106,P052,2026-04-23,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,138
+A0107,P053,2026-04-03,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,385
+A0108,P053,2026-04-10,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,155
+A0109,P054,2026-03-21,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,426
+A0110,P054,2026-03-28,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,172
+A0111,P055,2026-03-08,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,467
+A0112,P055,2026-03-15,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,189
+A0113,P056,2026-06-23,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,508
+A0114,P056,2026-06-30,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,206
+A0115,P057,2026-06-10,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,549
+A0116,P057,2026-06-17,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,223
+A0117,P057,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0118,P058,2026-05-28,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,590
+A0119,P058,2026-06-04,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,240
+A0120,P059,2026-05-15,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,631
+A0121,P059,2026-05-22,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,7
+A0122,P060,2026-05-02,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,672
+A0123,P060,2026-05-09,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,24
+A0124,P061,2026-04-19,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,713
+A0125,P061,2026-04-26,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,41
+A0126,P062,2026-04-06,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,754
+A0127,P062,2026-04-13,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,58
+A0128,P063,2026-03-24,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,795
+A0129,P063,2026-03-31,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,75
+A0130,P064,2026-03-11,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,836
+A0131,P064,2026-03-18,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,92
+A0132,P065,2026-06-26,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,877
+A0133,P065,2026-07-03,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,109
+A0134,P066,2026-06-13,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,18
+A0135,P066,2026-06-20,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,126
+A0136,P067,2026-05-31,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,59
+A0137,P067,2026-06-07,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,143
+A0138,P068,2026-05-18,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,100
+A0139,P068,2026-05-25,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,160
+A0140,P069,2026-05-05,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,141
+A0141,P069,2026-05-12,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,177
+A0142,P070,2026-04-22,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,182
+A0143,P070,2026-04-29,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,194
+A0144,P071,2026-04-09,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,223
+A0145,P071,2026-04-16,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,211
+A0146,P072,2026-03-27,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,264
+A0147,P072,2026-04-03,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,228
+A0148,P073,2026-03-14,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,305
+A0149,P073,2026-03-21,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,245
+A0150,P074,2026-06-29,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,346
+A0151,P074,2026-07-06,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,12
+A0152,P075,2026-06-16,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,387
+A0153,P075,2026-06-23,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,29
+A0154,P076,2026-06-03,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,428
+A0155,P076,2026-06-10,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,46
+A0156,P076,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0157,P077,2026-05-21,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,469
+A0158,P077,2026-05-28,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,63
+A0159,P078,2026-05-08,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,510
+A0160,P078,2026-05-15,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,80
+A0161,P079,2026-04-25,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,551
+A0162,P079,2026-05-02,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,97
+A0163,P080,2026-04-12,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,592
+A0164,P080,2026-04-19,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,114
+A0165,P081,2026-03-30,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,633
+A0166,P081,2026-04-06,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,131
+A0167,P082,2026-03-17,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,674
+A0168,P082,2026-03-24,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,148
+A0169,P083,2026-03-04,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,715
+A0170,P083,2026-03-11,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,165
+A0171,P084,2026-06-19,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,756
+A0172,P084,2026-06-26,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,182
+A0173,P085,2026-06-06,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,797
+A0174,P085,2026-06-13,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,199
+A0175,P086,2026-05-24,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,838
+A0176,P086,2026-05-31,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,216
+A0177,P087,2026-05-11,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,879
+A0178,P087,2026-05-18,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,233
+A0179,P088,2026-04-28,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,20
+A0180,P088,2026-05-05,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,250
+A0181,P089,2026-04-15,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,61
+A0182,P089,2026-04-22,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,17
+A0183,P090,2026-04-02,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,102
+A0184,P090,2026-04-09,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,34
+A0185,P091,2026-03-20,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,143
+A0186,P091,2026-03-27,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,51
+A0187,P092,2026-03-07,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,184
+A0188,P092,2026-03-14,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,68
+A0189,P093,2026-06-22,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,225
+A0190,P093,2026-06-29,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,85
+A0191,P094,2026-06-09,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,266
+A0192,P094,2026-06-16,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,102
+A0193,P095,2026-05-27,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,307
+A0194,P095,2026-06-03,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,119
+A0195,P095,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0196,P096,2026-05-14,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,348
+A0197,P096,2026-05-21,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,136
+A0198,P097,2026-05-01,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,389
+A0199,P097,2026-05-08,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,153
+A0200,P098,2026-04-18,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,430
+A0201,P098,2026-04-25,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,170
+A0202,P099,2026-04-05,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,471
+A0203,P099,2026-04-12,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,187
+A0204,P100,2026-03-23,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,512
+A0205,P100,2026-03-30,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,204
+A0206,P101,2026-03-10,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,553
+A0207,P101,2026-03-17,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,221
+A0208,P102,2026-06-25,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,594
+A0209,P102,2026-07-02,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,238
+A0210,P103,2026-06-12,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,635
+A0211,P103,2026-06-19,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,5
+A0212,P104,2026-05-30,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,676
+A0213,P104,2026-06-06,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,22
+A0214,P105,2026-05-17,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,717
+A0215,P105,2026-05-24,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,39
+A0216,P106,2026-05-04,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,758
+A0217,P106,2026-05-11,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,56
+A0218,P107,2026-04-21,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,799
+A0219,P107,2026-04-28,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,73
+A0220,P108,2026-04-08,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,840
+A0221,P108,2026-04-15,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,90
+A0222,P109,2026-03-26,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,881
+A0223,P109,2026-04-02,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,107
+A0224,P110,2026-03-13,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,22
+A0225,P110,2026-03-20,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,124
+A0226,P111,2026-06-28,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,63
+A0227,P111,2026-07-05,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,141
+A0228,P112,2026-06-15,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,104
+A0229,P112,2026-06-22,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,158
+A0230,P113,2026-06-02,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,145
+A0231,P113,2026-06-09,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,175
+A0232,P114,2026-05-20,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,186
+A0233,P114,2026-05-27,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,192
+A0234,P114,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0235,P115,2026-05-07,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,227
+A0236,P115,2026-05-14,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,209
+A0237,P116,2026-04-24,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,268
+A0238,P116,2026-05-01,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,226
+A0239,P117,2026-04-11,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,309
+A0240,P117,2026-04-18,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,243
+A0241,P118,2026-03-29,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,350
+A0242,P118,2026-04-05,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,10
+A0243,P119,2026-03-16,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,391
+A0244,P119,2026-03-23,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,27
+A0245,P120,2026-07-01,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,432
+A0246,P120,2026-07-08,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,44
+A0247,P121,2026-06-18,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,473
+A0248,P121,2026-06-25,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,61
+A0249,P122,2026-06-05,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,514
+A0250,P122,2026-06-12,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,78
+A0251,P123,2026-05-23,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,555
+A0252,P123,2026-05-30,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,95
+A0253,P124,2026-05-10,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,596
+A0254,P124,2026-05-17,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,112
+A0255,P125,2026-04-27,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,637
+A0256,P125,2026-05-04,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,129
+A0257,P126,2026-04-14,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,678
+A0258,P126,2026-04-21,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,146
+A0259,P127,2026-04-01,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,719
+A0260,P127,2026-04-08,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,163
+A0261,P128,2026-03-19,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,760
+A0262,P128,2026-03-26,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,180
+A0263,P129,2026-03-06,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,801
+A0264,P129,2026-03-13,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,197
+A0265,P130,2026-06-21,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,842
+A0266,P130,2026-06-28,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,214
+A0267,P131,2026-06-08,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,883
+A0268,P131,2026-06-15,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,231
+A0269,P132,2026-05-26,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,24
+A0270,P132,2026-06-02,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,248
+A0271,P133,2026-05-13,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,65
+A0272,P133,2026-05-20,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,15
+A0273,P133,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0274,P134,2026-04-30,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,106
+A0275,P134,2026-05-07,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,32
+A0276,P135,2026-04-17,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,147
+A0277,P135,2026-04-24,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,49
+A0278,P136,2026-04-04,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,188
+A0279,P136,2026-04-11,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,66
+A0280,P137,2026-03-22,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,229
+A0281,P137,2026-03-29,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,83
+A0282,P138,2026-03-09,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,270
+A0283,P138,2026-03-16,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,100
+A0284,P139,2026-06-24,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,311
+A0285,P139,2026-07-01,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,117
+A0286,P140,2026-06-11,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,352
+A0287,P140,2026-06-18,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,134
+A0288,P141,2026-05-29,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,393
+A0289,P141,2026-06-05,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,151
+A0290,P142,2026-05-16,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,434
+A0291,P142,2026-05-23,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,168
+A0292,P143,2026-05-03,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,475
+A0293,P143,2026-05-10,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,185
+A0294,P144,2026-04-20,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,516
+A0295,P144,2026-04-27,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,202
+A0296,P145,2026-04-07,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,557
+A0297,P145,2026-04-14,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,219
+A0298,P146,2026-03-25,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,598
+A0299,P146,2026-04-01,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,236
+A0300,P147,2026-03-12,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,639
+A0301,P147,2026-03-19,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,253
+A0302,P148,2026-06-27,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,680
+A0303,P148,2026-07-04,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,20
+A0304,P149,2026-06-14,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,721
+A0305,P149,2026-06-21,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,37
+A0306,P150,2026-06-01,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,762
+A0307,P150,2026-06-08,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,54
+A0308,P151,2026-05-19,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,803
+A0309,P151,2026-05-26,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,71
+A0310,P152,2026-05-06,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,844
+A0311,P152,2026-05-13,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,88
+A0312,P152,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0313,P153,2026-04-23,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,885
+A0314,P153,2026-04-30,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,105
+A0315,P154,2026-04-10,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,26
+A0316,P154,2026-04-17,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,122
+A0317,P155,2026-03-28,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,67
+A0318,P155,2026-04-04,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,139
+A0319,P156,2026-03-15,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,108
+A0320,P156,2026-03-22,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,156
+A0321,P157,2026-06-30,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,149
+A0322,P157,2026-07-07,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,173
+A0323,P158,2026-06-17,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,190
+A0324,P158,2026-06-24,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,190
+A0325,P159,2026-06-04,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,231
+A0326,P159,2026-06-11,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,207
+A0327,P160,2026-05-22,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,272
+A0328,P160,2026-05-29,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,224
+A0329,P161,2026-05-09,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,313
+A0330,P161,2026-05-16,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,241
+A0331,P162,2026-04-26,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,354
+A0332,P162,2026-05-03,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,8
+A0333,P163,2026-04-13,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,395
+A0334,P163,2026-04-20,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,25
+A0335,P164,2026-03-31,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,436
+A0336,P164,2026-04-07,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,42
+A0337,P165,2026-03-18,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,477
+A0338,P165,2026-03-25,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,59
+A0339,P166,2026-03-05,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,518
+A0340,P166,2026-03-12,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,76
+A0341,P167,2026-06-20,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,559
+A0342,P167,2026-06-27,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,93
+A0343,P168,2026-06-07,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,600
+A0344,P168,2026-06-14,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,110
+A0345,P169,2026-05-25,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,641
+A0346,P169,2026-06-01,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,127
+A0347,P170,2026-05-12,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,682
+A0348,P170,2026-05-19,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,144
+A0349,P171,2026-04-29,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,723
+A0350,P171,2026-05-06,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,161
+A0351,P171,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0352,P172,2026-04-16,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,764
+A0353,P172,2026-04-23,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,178
+A0354,P173,2026-04-03,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,805
+A0355,P173,2026-04-10,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,195
+A0356,P174,2026-03-21,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,846
+A0357,P174,2026-03-28,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,212
+A0358,P175,2026-03-08,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,887
+A0359,P175,2026-03-15,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,229
+A0360,P176,2026-06-23,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,28
+A0361,P176,2026-06-30,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,246
+A0362,P177,2026-06-10,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,69
+A0363,P177,2026-06-17,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,13
+A0364,P178,2026-05-28,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,110
+A0365,P178,2026-06-04,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,30
+A0366,P179,2026-05-15,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,151
+A0367,P179,2026-05-22,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,47
+A0368,P180,2026-05-02,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,192
+A0369,P180,2026-05-09,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,64
+A0370,P181,2026-04-19,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,233
+A0371,P181,2026-04-26,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,81
+A0372,P182,2026-04-06,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,274
+A0373,P182,2026-04-13,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,98
+A0374,P183,2026-03-24,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,315
+A0375,P183,2026-03-31,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,115
+A0376,P184,2026-03-11,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,356
+A0377,P184,2026-03-18,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,132
+A0378,P185,2026-06-26,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,397
+A0379,P185,2026-07-03,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,149
+A0380,P186,2026-06-13,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,438
+A0381,P186,2026-06-20,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,166
+A0382,P187,2026-05-31,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,479
+A0383,P187,2026-06-07,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,183
+A0384,P188,2026-05-18,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,520
+A0385,P188,2026-05-25,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,200
+A0386,P189,2026-05-05,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,561
+A0387,P189,2026-05-12,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,217
+A0388,P190,2026-04-22,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,602
+A0389,P190,2026-04-29,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,234
+A0390,P190,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0391,P191,2026-04-09,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,643
+A0392,P191,2026-04-16,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,251
+A0393,P192,2026-03-27,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,684
+A0394,P192,2026-04-03,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,18
+A0395,P193,2026-03-14,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,725
+A0396,P193,2026-03-21,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,35
+A0397,P194,2026-06-29,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,766
+A0398,P194,2026-07-06,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,52
+A0399,P195,2026-06-16,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,807
+A0400,P195,2026-06-23,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,69
+A0401,P196,2026-06-03,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,848
+A0402,P196,2026-06-10,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,86
+A0403,P197,2026-05-21,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,889
+A0404,P197,2026-05-28,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,103
+A0405,P198,2026-05-08,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,30
+A0406,P198,2026-05-15,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,120
+A0407,P199,2026-04-25,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,71
+A0408,P199,2026-05-02,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,137
+A0409,P200,2026-04-12,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,112
+A0410,P200,2026-04-19,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,154
+A0411,P201,2026-03-30,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,153
+A0412,P201,2026-04-06,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,171
+A0413,P202,2026-03-17,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,194
+A0414,P202,2026-03-24,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,188
+A0415,P203,2026-03-04,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,235
+A0416,P203,2026-03-11,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,205
+A0417,P204,2026-06-19,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,276
+A0418,P204,2026-06-26,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,222
+A0419,P205,2026-06-06,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,317
+A0420,P205,2026-06-13,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,239
+A0421,P206,2026-05-24,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,358
+A0422,P206,2026-05-31,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,6
+A0423,P207,2026-05-11,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,399
+A0424,P207,2026-05-18,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,23
+A0425,P208,2026-04-28,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,440
+A0426,P208,2026-05-05,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,40
+A0427,P209,2026-04-15,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,481
+A0428,P209,2026-04-22,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,57
+A0429,P209,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0430,P210,2026-04-02,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,522
+A0431,P210,2026-04-09,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,74
+A0432,P211,2026-03-20,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,563
+A0433,P211,2026-03-27,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,91
+A0434,P212,2026-03-07,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,604
+A0435,P212,2026-03-14,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,108
+A0436,P213,2026-06-22,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,645
+A0437,P213,2026-06-29,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,125
+A0438,P214,2026-06-09,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,686
+A0439,P214,2026-06-16,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,142
+A0440,P215,2026-05-27,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,727
+A0441,P215,2026-06-03,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,159
+A0442,P216,2026-05-14,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,768
+A0443,P216,2026-05-21,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,176
+A0444,P217,2026-05-01,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,809
+A0445,P217,2026-05-08,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,193
+A0446,P218,2026-04-18,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,850
+A0447,P218,2026-04-25,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,210
+A0448,P219,2026-04-05,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,891
+A0449,P219,2026-04-12,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,227
+A0450,P220,2026-03-23,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,32
+A0451,P220,2026-03-30,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,244
+A0452,P221,2026-03-10,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,73
+A0453,P221,2026-03-17,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,11
+A0454,P222,2026-06-25,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,114
+A0455,P222,2026-07-02,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,28
+A0456,P223,2026-06-12,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,155
+A0457,P223,2026-06-19,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,45
+A0458,P224,2026-05-30,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,196
+A0459,P224,2026-06-06,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,62
+A0460,P225,2026-05-17,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,237
+A0461,P225,2026-05-24,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,79
+A0462,P226,2026-05-04,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,278
+A0463,P226,2026-05-11,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,96
+A0464,P227,2026-04-21,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,319
+A0465,P227,2026-04-28,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,113
+A0466,P228,2026-04-08,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,360
+A0467,P228,2026-04-15,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,130
+A0468,P228,2026-08-31,x,ci_cd,Unverified repost attribution claiming an urgent CI migration.,false,5000
+A0469,P229,2026-03-26,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,401
+A0470,P229,2026-04-02,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,147
+A0471,P230,2026-03-13,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,442
+A0472,P230,2026-03-20,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,164
+A0473,P231,2026-06-28,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,483
+A0474,P231,2026-07-05,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,181
+A0475,P232,2026-06-15,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,524
+A0476,P232,2026-06-22,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,198
+A0477,P233,2026-06-02,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,565
+A0478,P233,2026-06-09,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,215
+A0479,P234,2026-05-20,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,606
+A0480,P234,2026-05-27,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,232
+A0481,P235,2026-05-07,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,647
+A0482,P235,2026-05-14,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,249
+A0483,P236,2026-04-24,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,688
+A0484,P236,2026-05-01,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,16
+A0485,P237,2026-04-11,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,729
+A0486,P237,2026-04-18,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,33
+A0487,P238,2026-03-29,linkedin,release_reliability,Shared a practical note about release reliability during a platform-team planning cycle.,true,770
+A0488,P238,2026-04-05,x,hiring,Commented on a routine operating update unrelated to the campaign topic.,true,50
+A0489,P239,2026-03-16,blog,ci_cd,Shared a practical note about ci cd during a platform-team planning cycle.,true,811
+A0490,P239,2026-03-23,x,product_strategy,Commented on a routine operating update unrelated to the campaign topic.,true,67
+A0491,P240,2026-07-01,x,developer_productivity,Shared a practical note about developer productivity during a platform-team planning cycle.,true,852
+A0492,P240,2026-07-08,x,team_culture,Commented on a routine operating update unrelated to the campaign topic.,true,84

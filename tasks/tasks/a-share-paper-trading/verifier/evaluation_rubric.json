@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__ticket_decisions",
+      "title": "Per-instruction decisions and rejection reasons",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each of the ten instructions has exactly one correct outcome. Executable instructions have the correct filled or open status; instructions blocked by T+1 sellability, price limits, stale quotes, or board-lot constraints are rejected with the corresponding reason.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_cancel_decision",
+        "test_filled_order_decisions",
+        "test_locked_limit_order_decision",
+        "test_rejected_safeguards"
+      ]
+    },
+    {
+      "id": "completion__broker_state",
+      "title": "Paper-trading state transitions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Cancellations release reserved cash. Fills update cash and lot-level positions using the correct prices and fees. A queued limit-up order retains its reserved cash. The default account and other accounts remain unchanged.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_state_cash_and_account_isolation",
+        "test_state_orders_and_trades",
+        "test_state_positions"
+      ]
+    },
+    {
+      "id": "completion__report_reconciliation",
+      "title": "Receipts and final-state reconciliation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The account, positions, orders, and trade receipts in output.json match the persisted state and include every business record created or cancelled by this work order.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_report_account_and_positions_match_state",
+        "test_report_receipts_match_state"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__ticket_decisions",
+        "title": "Per-instruction decisions and rejection reasons",
+        "required_score": 10
+      },
+      {
+        "id": "completion__broker_state",
+        "title": "Paper-trading state transitions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__report_reconciliation",
+        "title": "Receipts and final-state reconciliation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

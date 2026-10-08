@@ -1,0 +1,13 @@
+facility_id,facility_name,market,load_zone,facility_type,operational_criticality,current_contract_end,meter_count,planning_base_kw
+F001,Arden Components,PJM,PJM-West,manufacturing,high,2026-12-31,2,1450
+F002,Blueoak Cold Storage,PJM,PJM-North,cold_storage,critical,2026-12-31,3,1200
+F003,Cinder Distribution,PJM,PJM-West,distribution,medium,2026-12-31,1,900
+F004,Delta Corporate Campus,PJM,PJM-North,office,low,2026-12-31,2,700
+F005,Elm Data Systems,PJM,PJM-North,data_center,critical,2026-12-31,3,1800
+F006,Forge Packaging,PJM,PJM-West,manufacturing,high,2026-12-31,1,1050
+F007,Gulfstar Plastics,ERCOT,ERCOT-Houston,manufacturing,high,2026-12-31,2,1600
+F008,Helio Cold Logistics,ERCOT,ERCOT-North,cold_storage,critical,2026-12-31,3,1300
+F009,Ion Fulfillment,ERCOT,ERCOT-North,distribution,medium,2026-12-31,1,1000
+F010,Juniper Office Center,ERCOT,ERCOT-Houston,office,low,2026-12-31,2,650
+F011,Kestrel Compute,ERCOT,ERCOT-North,data_center,critical,2026-12-31,3,2000
+F012,Lone Mesa Assembly,ERCOT,ERCOT-Houston,manufacturing,high,2026-12-31,1,1400

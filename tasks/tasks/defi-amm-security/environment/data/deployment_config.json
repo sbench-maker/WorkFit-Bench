@@ -1,0 +1,30 @@
+{
+  "snapshot_id": "breakwater-v0.9-rc3",
+  "network": "fictional-localnet",
+  "pool": {
+    "contract": "HarborPool",
+    "token_a": "BAY",
+    "token_b": "TIDE",
+    "initial_reserve_a": "2500000000000000000000000",
+    "initial_reserve_b": "5000000000000",
+    "swap_fee_bps": 30,
+    "fee_cap_bps": 100
+  },
+  "vault": {
+    "contract": "TideVault",
+    "asset": "FOAM",
+    "listed": true,
+    "deposits_enabled_at_launch": true
+  },
+  "oracle": {
+    "contract": "HarborOracle",
+    "consumer": "BreakwaterLendingController",
+    "required_window_seconds": 1800,
+    "maximum_age_seconds": 3600
+  },
+  "roles": {
+    "governor": "role:governor-council",
+    "guardian": "role:incident-guardian",
+    "keeper": "role:yield-keeper"
+  }
+}

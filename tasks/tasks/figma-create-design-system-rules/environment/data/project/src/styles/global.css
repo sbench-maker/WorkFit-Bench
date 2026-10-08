@@ -1,0 +1,9 @@
+@import './tokens.css';
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--color-text);
+  background: var(--color-surface);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}

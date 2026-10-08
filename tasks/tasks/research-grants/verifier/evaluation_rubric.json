@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__financial_reconciliation",
+      "title": "Corrected request is financially accurate",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Annual and cumulative direct, indirect, and total costs reflect the frozen salary, fringe, allowability, timing, classification, MTDC, and F&A rules.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_financial_totals"
+      ]
+    },
+    {
+      "id": "completion__routing_dispositions",
+      "title": "Routing risks have the correct disposition",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Material open issues are surfaced and correctly separated into submission blockers and nonblocking confirm-later items without misclassifying resolved budget corrections.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_required_compliance_dispositions",
+        "test_no_material_false_blockers"
+      ]
+    },
+    {
+      "id": "completion__justification_grounding",
+      "title": "Budget justification is grounded and paste-ready",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The narrative explains why the retained cost categories and effort are necessary for the named work, uses proposal-facing language, and handles corrections and documentary contingencies without unsupported claims.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    },
+    {
+      "id": "completion__routing_actionability",
+      "title": "Compliance log supports routing action",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The compliance log is concise and operational: a sponsored-programs reviewer can identify why each listed issue matters, what evidence triggered it, and the next action without reconstructing the analysis.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__financial_reconciliation",
+        "title": "Corrected request is financially accurate",
+        "required_score": 10
+      },
+      {
+        "id": "completion__routing_dispositions",
+        "title": "Routing risks have the correct disposition",
+        "required_score": 10
+      },
+      {
+        "id": "completion__justification_grounding",
+        "title": "Budget justification is grounded and paste-ready",
+        "required_score": 10
+      },
+      {
+        "id": "completion__routing_actionability",
+        "title": "Compliance log supports routing action",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "campaign_id": "HL-SDK-4.6",
+  "snapshot_id": "snap-hl46-20260818T1800Z",
+  "as_of": "2026-08-18T18:00:00Z",
+  "objective": "Prepare the fictional HelioLedger Python SDK 4.6 release through autonomous pull requests.",
+  "selection_signals": {
+    "strict_ci_pr_control": true,
+    "rfc_decomposition_required": true,
+    "exploratory_parallel_generation": false
+  },
+  "current_loop_state": "running",
+  "budget": {
+    "campaign_limit_credits": 620,
+    "spent_credits": 438,
+    "restart_reserve_credits": 170,
+    "unallocated_buffer_credits": 12
+  }
+}

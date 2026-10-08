@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "seed": 11427,
+  "files": {
+    "parcel_quote/tests/fixtures/requests.json": 240,
+    "parcel_quote/tests/fixtures/expected_quotes.json": 240,
+    "parcel_quote/tests/fixtures/batch_mixed.jsonl": 5
+  },
+  "variation": [
+    "all three service levels",
+    "zones 1 through 8",
+    "weight-bracket boundaries",
+    "each surcharge and coupon combination",
+    "same-day availability boundaries"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Decision-queue artifact usability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON exists, is readable, and exposes identifiable buy, sell, and incomplete-signal collections.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__buy_selection",
+      "title": "Buy eligibility and ranking",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The buy queue contains exactly the policy-eligible top signals in the correct priority order, excluding stale, completed/timeout, low-conviction, high-exit, undersized, and incomplete records.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_buy_selection_and_ranking"
+      ]
+    },
+    {
+      "id": "completion__sell_alerts",
+      "title": "Held-position sell alert coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every recent qualifying sell signal that matches an open position is included once, ranked by the policy, and unrelated or incomplete signals are excluded.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_held_position_sell_alerts"
+      ]
+    },
+    {
+      "id": "completion__metric_fidelity",
+      "title": "Signal metric fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Actionable rows remain traceable to their source signals; reported trigger/current prices, current return, max gain, exit rate, and smart-wallet conviction agree with source values and use percentage units correctly.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_signal_metrics_and_units"
+      ]
+    },
+    {
+      "id": "completion__data_quality",
+      "title": "Incomplete qualifying-signal handling",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Qualifying signals with missing required market data are identified with their actual missing fields and are not promoted into actionable queues with invented values.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_incomplete_qualifying_signals"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Decision-queue artifact usability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__buy_selection",
+        "title": "Buy eligibility and ranking",
+        "required_score": 10
+      },
+      {
+        "id": "completion__sell_alerts",
+        "title": "Held-position sell alert coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__metric_fidelity",
+        "title": "Signal metric fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__data_quality",
+        "title": "Incomplete qualifying-signal handling",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

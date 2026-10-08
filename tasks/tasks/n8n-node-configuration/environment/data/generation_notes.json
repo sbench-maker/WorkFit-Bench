@@ -1,0 +1,38 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "draft_workflow.json": {
+      "nodes": 15
+    },
+    "change_brief.json": {
+      "node_requirements": 15
+    },
+    "node_catalog.json": {
+      "node_types": 8
+    },
+    "sample_submissions.jsonl": {
+      "records": 240
+    },
+    "README.md": {
+      "purpose": "fixture and offline-tool instructions"
+    },
+    "n8n_offline.py": {
+      "purpose": "local node discovery and workflow validation"
+    }
+  },
+  "join_keys": [
+    "node name",
+    "node type",
+    "participant_id",
+    "study_id"
+  ],
+  "intentional_edge_cases": [
+    "missing email takes the IF false branch",
+    "manual_review decisions require the Switch fallback",
+    "GET carries a query parameter but no body",
+    "POST carries a conditional JSON body",
+    "database values must be bound rather than interpolated",
+    "three named integrations have no credential IDs",
+    "four response branches require distinct HTTP status codes"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "beautifulsoup4",
+      "import_name": "bs4",
+      "version": "4.13.4",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "lxml",
+      "import_name": "lxml",
+      "version": "5.1.0",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "requests",
+      "import_name": "requests",
+      "version": "2.32.4",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "PyYAML",
+      "import_name": "yaml",
+      "version": "6.0.2",
+      "used_by": [
+        "agent"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_contract",
+      "title": "Readable JSON feed contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON exists, is readable, contains a story collection and total count, and exposes the six requested values for every story with usable types.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_contract"
+      ]
+    },
+    {
+      "id": "completion__coverage_and_order",
+      "title": "Complete front-page coverage and displayed order",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All and only the 30 ranked stories appear once, in displayed order, with the reported total consistent with the collection.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_coverage_and_order"
+      ]
+    },
+    {
+      "id": "completion__story_identity",
+      "title": "Story titles and links",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each extracted item ID is paired with the correct decoded visible title and destination link from its ranked row.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_story_identity"
+      ]
+    },
+    {
+      "id": "completion__engagement_metadata",
+      "title": "Points and comment counts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Scored stories have the correct numeric points and comments, including singular labels and zero-comment discuss links.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_engagement_metadata"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_contract",
+        "title": "Readable JSON feed contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__coverage_and_order",
+        "title": "Complete front-page coverage and displayed order",
+        "required_score": 10
+      },
+      {
+        "id": "completion__story_identity",
+        "title": "Story titles and links",
+        "required_score": 10
+      },
+      {
+        "id": "completion__engagement_metadata",
+        "title": "Points and comment counts",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

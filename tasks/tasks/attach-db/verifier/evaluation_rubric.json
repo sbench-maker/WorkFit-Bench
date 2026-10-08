@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__shared_state_preservation",
+      "title": "Existing shared state is preserved",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The staged init file retains the UTC setting, safe_ratio macro, and existing read-only historical attachment under its original alias.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_state_preserves_shared_setup"
+      ]
+    },
+    {
+      "id": "completion__attachment_semantics",
+      "title": "Snapshot attachment is reusable and safe",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The init state attaches the intended snapshot exactly once as support_ops_snapshot, selects it for unqualified queries, and declares the attachment read-only.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_state_initializes_target_read_only_and_active"
+      ]
+    },
+    {
+      "id": "completion__report_identity_scope",
+      "title": "Report identity and table scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report identifies the resolved snapshot and chosen alias and covers every physical table, including the empty import_rejects table, with no invented tables.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_report_identity_and_table_scope"
+      ]
+    },
+    {
+      "id": "completion__schema_details",
+      "title": "Column definitions and row counts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Reported row counts and ordered column name/type definitions match the attached DuckDB snapshot for every table.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_report_row_counts",
+        "test_report_column_definitions"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__shared_state_preservation",
+        "title": "Existing shared state is preserved",
+        "required_score": 10
+      },
+      {
+        "id": "completion__attachment_semantics",
+        "title": "Snapshot attachment is reusable and safe",
+        "required_score": 10
+      },
+      {
+        "id": "completion__report_identity_scope",
+        "title": "Report identity and table scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__schema_details",
+        "title": "Column definitions and row counts",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_and_preservation",
+      "title": "Usable rule file and preservation of existing instructions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested AGENTS.md is readable and ready to use, retains all material pre-existing contributor safeguards, and contains no unresolved template placeholders.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_is_usable_and_preserves_existing_instructions"
+      ]
+    },
+    {
+      "id": "completion__component_architecture",
+      "title": "Repository-specific component and architecture conventions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The rules correctly distinguish reusable primitives from feature composition and encode the repository's naming, export, import, component API, routing, state, and data-access boundaries.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_component_locations_and_reuse_rules",
+        "test_component_api_and_import_conventions",
+        "test_application_architecture_boundaries"
+      ]
+    },
+    {
+      "id": "completion__styling_tokens_assets",
+      "title": "Styling, token, and Figma asset conventions",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The rules direct implementations to the actual CSS Module and token systems and give correct, non-destructive handling for Figma-provided and persisted assets.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__figma_workflow",
+      "title": "Complete Figma-to-code workflow contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The rules encode the captured node-context, truncation fallback, screenshot, implementation gating, translation, and parity-validation flow in the correct dependency order.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_figma_context_screenshot_and_implementation_order",
+        "test_figma_fallback_translation_and_validation"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_and_preservation",
+        "title": "Usable rule file and preservation of existing instructions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__component_architecture",
+        "title": "Repository-specific component and architecture conventions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__styling_tokens_assets",
+        "title": "Styling, token, and Figma asset conventions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__figma_workflow",
+        "title": "Complete Figma-to-code workflow contract",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

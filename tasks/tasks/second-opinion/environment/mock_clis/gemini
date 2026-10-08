@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+"""Small offline stand-in for the Gemini CLI review surface."""
+
+from __future__ import annotations
+
+import json
+import sys
+
+from mock_review_lib import gemini_response
+
+
+def main() -> int:
+    if "--version" in sys.argv:
+        print("gemini-cli 0.1.0-offline-fixture")
+        return 0
+    prompt = sys.stdin.read()
+    if not prompt:
+        try:
+            position = sys.argv.index("-p")
+            prompt = sys.argv[position + 1]
+        except (ValueError, IndexError):
+            prompt = ""
+    sys.stdout.write(json.dumps(gemini_response(prompt), indent=2) + "\n")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

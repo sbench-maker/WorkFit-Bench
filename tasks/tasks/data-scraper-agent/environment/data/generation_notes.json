@@ -1,0 +1,21 @@
+{
+  "method": "deterministic fictional catalog construction",
+  "files": {
+    "catalog_page_1.html": 65,
+    "catalog_page_2.html": 65,
+    "catalog_page_3.html": 64,
+    "catalog_page_4.html": 64,
+    "prior_store.json": 30,
+    "feedback.json": 11
+  },
+  "relationships": [
+    "model_id and canonical URL link crawl duplicates to prior stored records"
+  ],
+  "intentional_edge_cases": [
+    "relative and absolute URLs with tracking parameters, fragments, and trailing slashes",
+    "cross-page duplicates whose most recent card controls eligibility",
+    "malformed cards with missing or invalid required values",
+    "eligible prior records split among unchanged and materially changed states",
+    "positive and negative feedback signals with explicit minimum support"
+  ]
+}

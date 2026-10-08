@@ -1,0 +1,32 @@
+{
+  "company": "Alder Peak Systems",
+  "entity_type": "early-stage SaaS company",
+  "reporting_period": "Q3 FY2025",
+  "period_start": "2025-07-01",
+  "period_end": "2025-09-30",
+  "comparison_period": "Q2 FY2025",
+  "issued_date": "2025-10-14",
+  "prepared_by": "Finance Operations",
+  "finance_lead": "Elena Park, VP Finance",
+  "confidentiality": "Confidential — Finance",
+  "currency": "USD",
+  "cash_balance_2025_09_30_usd": 5900000,
+  "q4_outlook": {
+    "revenue_guidance_low_usd": 2850000,
+    "revenue_guidance_high_usd": 3050000,
+    "net_new_mrr_low_usd": 90000,
+    "net_new_mrr_high_usd": 115000,
+    "gross_margin_floor_pct": 76.0,
+    "planned_hires": 4,
+    "hiring_note": "Hiring is limited to four already-approved product and security roles.",
+    "drivers": [
+      "September enterprise expansions carry into Q4",
+      "Usage-based services pipeline is weighted toward November"
+    ],
+    "risks": [
+      "Vector Forge (C003) is still in renewal",
+      "Harbor & Pine (C004) is marked at risk",
+      "A December infrastructure migration may temporarily raise hosting cost"
+    ]
+  }
+}

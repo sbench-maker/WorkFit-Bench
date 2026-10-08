@@ -1,0 +1,49 @@
+review_id,item_id,reach_entered,reach_source,rice_score,final_decision,manual_override,override_reason,review_meeting_minutes
+R-2026-07,BL-001,,unknown,,selected,true,Customer or risk obligation not represented by reach.,113
+R-2026-07,BL-002,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,130
+R-2026-07,BL-003,639,telemetry,447.3,deferred,false,,147
+R-2026-07,BL-004,,unknown,,selected,false,,164
+R-2026-07,BL-005,,unknown,,selected,false,,108
+R-2026-07,BL-006,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,125
+R-2026-07,BL-007,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,142
+R-2026-07,BL-008,,unknown,,selected,false,,159
+R-2026-07,BL-009,1677,telemetry,1173.9,selected,false,,103
+R-2026-07,BL-010,,unknown,,deferred,false,,120
+R-2026-07,BL-011,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,137
+R-2026-07,BL-012,,unknown,,selected,true,Customer or risk obligation not represented by reach.,154
+R-2026-07,BL-013,2369,telemetry,266.5,selected,false,,98
+R-2026-07,BL-014,2542,telemetry,831.9,deferred,false,,115
+R-2026-07,BL-015,,unknown,,deferred,false,,132
+R-2026-07,BL-016,,unknown,,selected,true,Customer or risk obligation not represented by reach.,149
+R-2026-07,BL-017,,unknown,,selected,true,Customer or risk obligation not represented by reach.,166
+R-2026-07,BL-018,2,customer_count,,deferred,true,Customer or risk obligation not represented by reach.,110
+R-2026-07,BL-019,3407,telemetry,6132.6,deferred,false,,127
+R-2026-07,BL-020,,unknown,,selected,false,,144
+R-2026-07,BL-021,,unknown,,selected,true,Customer or risk obligation not represented by reach.,161
+R-2026-07,BL-022,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,105
+R-2026-07,BL-023,,unknown,,deferred,false,,122
+R-2026-07,BL-024,,unknown,,selected,true,Customer or risk obligation not represented by reach.,139
+R-2026-10,BL-025,,unknown,,selected,false,,156
+R-2026-10,BL-026,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,100
+R-2026-10,BL-027,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,117
+R-2026-10,BL-028,,unknown,,selected,false,,134
+R-2026-10,BL-029,,unknown,,selected,false,,151
+R-2026-10,BL-030,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,168
+R-2026-10,BL-031,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,112
+R-2026-10,BL-032,,unknown,,selected,true,Customer or risk obligation not represented by reach.,129
+R-2026-10,BL-033,929,telemetry,108.4,selected,false,,146
+R-2026-10,BL-034,,unknown,,deferred,false,,163
+R-2026-10,BL-035,,unknown,,deferred,false,,107
+R-2026-10,BL-036,,unknown,,selected,true,Customer or risk obligation not represented by reach.,124
+R-2026-10,BL-037,,unknown,,selected,true,Customer or risk obligation not represented by reach.,141
+R-2026-10,BL-038,1794,telemetry,1076.4,deferred,false,,158
+R-2026-10,BL-039,1967,telemetry,393.4,deferred,false,,102
+R-2026-10,BL-040,,unknown,,selected,false,,119
+R-2026-10,BL-041,,unknown,,selected,true,Customer or risk obligation not represented by reach.,136
+R-2026-10,BL-042,8,customer_count,,deferred,true,Customer or risk obligation not represented by reach.,153
+R-2026-10,BL-043,2659,telemetry,478.6,deferred,false,,97
+R-2026-10,BL-044,,unknown,,selected,false,,114
+R-2026-10,BL-045,,unknown,,selected,false,,131
+R-2026-10,BL-046,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,148
+R-2026-10,BL-047,,unknown,,deferred,true,Customer or risk obligation not represented by reach.,165
+R-2026-10,BL-048,,unknown,,selected,true,Customer or risk obligation not represented by reach.,109

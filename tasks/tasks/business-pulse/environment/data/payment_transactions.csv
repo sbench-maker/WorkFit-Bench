@@ -1,0 +1,113 @@
+payment_id,customer_id,customer,source,transaction_at,amount_usd,status
+PAY-7001,C007,Atlas Ridge Markets,PayPal,2026-09-07T08:47:00-05:00,2400.00,failed
+PAY-7002,C008,Beacon Grove Media,Square,2026-09-06T15:54:00-05:00,875.00,pending
+PAY-7003,C030,Yellowbrick Tutors,PayPal,2026-09-05T11:01:00-05:00,145.00,failed
+PAY-7004,C009,Copper Finch Goods,PayPal,2026-09-07T12:08:00-05:00,2732.00,completed
+PAY-7005,C020,Oak & Ember Home,PayPal,2026-09-02T13:15:00-05:00,3345.00,completed
+PAY-7006,C031,Zephyr Garden Supply,Square,2026-08-28T14:22:00-05:00,738.00,completed
+PAY-7007,C006,Violet Thread Co.,PayPal,2026-08-23T15:29:00-05:00,1351.00,completed
+PAY-7008,C017,Kite & Key Books,PayPal,2026-09-07T16:36:00-05:00,1964.00,completed
+PAY-7009,C028,Willow Peak Travel,Square,2026-09-02T17:43:00-05:00,2577.00,completed
+PAY-7010,C003,Delta Harbor Supply,PayPal,2026-08-28T18:50:00-05:00,3190.00,completed
+PAY-7011,C014,Honeycomb Office,PayPal,2026-08-23T08:57:00-05:00,583.00,completed
+PAY-7012,C025,Tern River Logistics,Square,2026-09-07T09:04:00-05:00,1196.00,completed
+PAY-7013,C036,Emberlight Events,PayPal,2026-09-02T10:11:00-05:00,1809.00,completed
+PAY-7014,C011,Everwell Kitchens,PayPal,2026-08-28T11:18:00-05:00,2422.00,completed
+PAY-7015,C022,Quarry House Labs,Square,2026-08-23T12:25:00-05:00,3035.00,completed
+PAY-7016,C033,Bluebird Metalworks,PayPal,2026-09-07T13:32:00-05:00,428.00,completed
+PAY-7017,C008,Beacon Grove Media,PayPal,2026-09-02T14:39:00-05:00,1041.00,completed
+PAY-7018,C019,Northwind Veterinary Group,Square,2026-08-28T15:46:00-05:00,1654.00,completed
+PAY-7019,C030,Yellowbrick Tutors,PayPal,2026-08-23T16:53:00-05:00,2267.00,completed
+PAY-7020,C005,Elm City Roasters,PayPal,2026-09-07T17:00:00-05:00,2880.00,completed
+PAY-7021,C016,Juniper Field Services,Square,2026-09-02T18:07:00-05:00,3493.00,completed
+PAY-7022,C027,Veridian Craft,PayPal,2026-08-28T08:14:00-05:00,886.00,completed
+PAY-7023,C002,Cobalt Workshop,PayPal,2026-08-23T09:21:00-05:00,1499.00,completed
+PAY-7024,C013,Granite Loop Fitness,Square,2026-09-07T10:28:00-05:00,2112.00,completed
+PAY-7025,C024,Saffron Table,PayPal,2026-09-02T11:35:00-05:00,2725.00,completed
+PAY-7026,C035,Dovetail Market,PayPal,2026-08-28T12:42:00-05:00,3338.00,completed
+PAY-7027,C010,Driftwood Learning,Square,2026-08-23T13:49:00-05:00,731.00,completed
+PAY-7028,C021,Pinecrest Mobility,PayPal,2026-09-07T14:56:00-05:00,1344.00,completed
+PAY-7029,C032,Aster Lane Wellness,PayPal,2026-09-02T15:03:00-05:00,1957.00,completed
+PAY-7030,C007,Atlas Ridge Markets,Square,2026-08-28T16:10:00-05:00,2570.00,completed
+PAY-7031,C018,Lakeview Audio,PayPal,2026-08-23T17:17:00-05:00,3183.00,completed
+PAY-7032,C029,Xylo Works,PayPal,2026-09-07T18:24:00-05:00,576.00,completed
+PAY-7033,C004,Harbor Stone Studio,Square,2026-09-02T08:31:00-05:00,1189.00,completed
+PAY-7034,C015,Indigo Trail Gear,PayPal,2026-08-28T09:38:00-05:00,1802.00,completed
+PAY-7035,C026,Umber Lane Apparel,PayPal,2026-08-23T10:45:00-05:00,2415.00,completed
+PAY-7036,C001,Birchline Design,Square,2026-09-07T11:52:00-05:00,3028.00,completed
+PAY-7037,C012,Fable Foods Cooperative,PayPal,2026-09-02T12:59:00-05:00,145.00,failed
+PAY-7038,C023,Redwood Family Dental,PayPal,2026-08-28T13:06:00-05:00,1034.00,completed
+PAY-7039,C034,Crescent Paper Co.,Square,2026-08-23T14:13:00-05:00,1647.00,completed
+PAY-7040,C009,Copper Finch Goods,PayPal,2026-09-07T15:20:00-05:00,2260.00,completed
+PAY-7041,C020,Oak & Ember Home,PayPal,2026-09-02T16:27:00-05:00,2873.00,completed
+PAY-7042,C031,Zephyr Garden Supply,Square,2026-08-28T17:34:00-05:00,3486.00,completed
+PAY-7043,C006,Violet Thread Co.,PayPal,2026-08-23T18:41:00-05:00,879.00,completed
+PAY-7044,C017,Kite & Key Books,PayPal,2026-09-07T08:48:00-05:00,1492.00,completed
+PAY-7045,C028,Willow Peak Travel,Square,2026-09-02T09:55:00-05:00,2105.00,completed
+PAY-7046,C003,Delta Harbor Supply,PayPal,2026-08-28T10:02:00-05:00,2718.00,completed
+PAY-7047,C014,Honeycomb Office,PayPal,2026-08-23T11:09:00-05:00,3331.00,completed
+PAY-7048,C025,Tern River Logistics,Square,2026-09-07T12:16:00-05:00,724.00,completed
+PAY-7049,C036,Emberlight Events,PayPal,2026-09-02T13:23:00-05:00,1337.00,completed
+PAY-7050,C011,Everwell Kitchens,PayPal,2026-08-28T14:30:00-05:00,1950.00,completed
+PAY-7051,C022,Quarry House Labs,Square,2026-08-23T15:37:00-05:00,2563.00,completed
+PAY-7052,C033,Bluebird Metalworks,PayPal,2026-09-07T16:44:00-05:00,3176.00,completed
+PAY-7053,C008,Beacon Grove Media,PayPal,2026-09-02T17:51:00-05:00,180.00,pending
+PAY-7054,C019,Northwind Veterinary Group,Square,2026-08-28T18:58:00-05:00,1182.00,completed
+PAY-7055,C030,Yellowbrick Tutors,PayPal,2026-08-23T08:05:00-05:00,1795.00,completed
+PAY-7056,C005,Elm City Roasters,PayPal,2026-09-07T09:12:00-05:00,2408.00,completed
+PAY-7057,C016,Juniper Field Services,Square,2026-09-02T10:19:00-05:00,3021.00,completed
+PAY-7058,C027,Veridian Craft,PayPal,2026-08-28T11:26:00-05:00,414.00,completed
+PAY-7059,C002,Cobalt Workshop,PayPal,2026-08-23T12:33:00-05:00,1027.00,completed
+PAY-7060,C013,Granite Loop Fitness,Square,2026-09-07T13:40:00-05:00,1640.00,completed
+PAY-7061,C024,Saffron Table,PayPal,2026-09-02T14:47:00-05:00,2253.00,completed
+PAY-7062,C035,Dovetail Market,PayPal,2026-08-28T15:54:00-05:00,2866.00,completed
+PAY-7063,C010,Driftwood Learning,Square,2026-08-23T16:01:00-05:00,3479.00,completed
+PAY-7064,C021,Pinecrest Mobility,PayPal,2026-09-07T17:08:00-05:00,872.00,completed
+PAY-7065,C032,Aster Lane Wellness,PayPal,2026-09-02T18:15:00-05:00,1485.00,completed
+PAY-7066,C007,Atlas Ridge Markets,Square,2026-08-28T08:22:00-05:00,2098.00,completed
+PAY-7067,C018,Lakeview Audio,PayPal,2026-08-23T09:29:00-05:00,2711.00,completed
+PAY-7068,C029,Xylo Works,PayPal,2026-09-07T10:36:00-05:00,3324.00,completed
+PAY-7069,C004,Harbor Stone Studio,Square,2026-09-02T11:43:00-05:00,717.00,completed
+PAY-7070,C015,Indigo Trail Gear,PayPal,2026-08-28T12:50:00-05:00,1330.00,completed
+PAY-7071,C026,Umber Lane Apparel,PayPal,2026-08-23T13:57:00-05:00,1943.00,completed
+PAY-7072,C001,Birchline Design,Square,2026-09-07T14:04:00-05:00,2556.00,completed
+PAY-7073,C012,Fable Foods Cooperative,PayPal,2026-09-02T15:11:00-05:00,3169.00,completed
+PAY-7074,C023,Redwood Family Dental,PayPal,2026-08-28T16:18:00-05:00,145.00,failed
+PAY-7075,C034,Crescent Paper Co.,Square,2026-08-23T17:25:00-05:00,1175.00,completed
+PAY-7076,C009,Copper Finch Goods,PayPal,2026-09-07T18:32:00-05:00,1788.00,completed
+PAY-7077,C020,Oak & Ember Home,PayPal,2026-09-02T08:39:00-05:00,2401.00,completed
+PAY-7078,C031,Zephyr Garden Supply,Square,2026-08-28T09:46:00-05:00,3014.00,completed
+PAY-7079,C006,Violet Thread Co.,PayPal,2026-08-23T10:53:00-05:00,407.00,completed
+PAY-7080,C017,Kite & Key Books,PayPal,2026-09-07T11:00:00-05:00,1020.00,completed
+PAY-7081,C028,Willow Peak Travel,Square,2026-09-02T12:07:00-05:00,1633.00,completed
+PAY-7082,C003,Delta Harbor Supply,PayPal,2026-08-28T13:14:00-05:00,2246.00,completed
+PAY-7083,C014,Honeycomb Office,PayPal,2026-08-23T14:21:00-05:00,2859.00,completed
+PAY-7084,C025,Tern River Logistics,Square,2026-09-07T15:28:00-05:00,3472.00,completed
+PAY-7085,C036,Emberlight Events,PayPal,2026-09-02T16:35:00-05:00,865.00,completed
+PAY-7086,C011,Everwell Kitchens,PayPal,2026-08-28T17:42:00-05:00,1478.00,completed
+PAY-7087,C022,Quarry House Labs,Square,2026-08-23T18:49:00-05:00,2091.00,completed
+PAY-7088,C033,Bluebird Metalworks,PayPal,2026-09-07T08:56:00-05:00,2704.00,completed
+PAY-7089,C008,Beacon Grove Media,PayPal,2026-09-02T09:03:00-05:00,3317.00,completed
+PAY-7090,C019,Northwind Veterinary Group,Square,2026-08-28T10:10:00-05:00,710.00,completed
+PAY-7091,C030,Yellowbrick Tutors,PayPal,2026-08-23T11:17:00-05:00,1323.00,completed
+PAY-7092,C005,Elm City Roasters,PayPal,2026-09-07T12:24:00-05:00,1936.00,completed
+PAY-7093,C016,Juniper Field Services,Square,2026-09-02T13:31:00-05:00,2549.00,completed
+PAY-7094,C027,Veridian Craft,PayPal,2026-08-28T14:38:00-05:00,3162.00,completed
+PAY-7095,C002,Cobalt Workshop,PayPal,2026-08-23T15:45:00-05:00,555.00,completed
+PAY-7096,C013,Granite Loop Fitness,Square,2026-09-07T16:52:00-05:00,1168.00,completed
+PAY-7097,C024,Saffron Table,PayPal,2026-09-02T17:59:00-05:00,1781.00,completed
+PAY-7098,C035,Dovetail Market,PayPal,2026-08-28T18:06:00-05:00,2394.00,completed
+PAY-7099,C010,Driftwood Learning,Square,2026-08-23T08:13:00-05:00,3007.00,completed
+PAY-7100,C021,Pinecrest Mobility,PayPal,2026-09-07T09:20:00-05:00,400.00,completed
+PAY-7101,C032,Aster Lane Wellness,PayPal,2026-09-02T10:27:00-05:00,1013.00,completed
+PAY-7102,C007,Atlas Ridge Markets,Square,2026-08-28T11:34:00-05:00,1626.00,completed
+PAY-7103,C018,Lakeview Audio,PayPal,2026-08-23T12:41:00-05:00,2239.00,completed
+PAY-7104,C029,Xylo Works,PayPal,2026-09-07T13:48:00-05:00,2852.00,completed
+PAY-7105,C004,Harbor Stone Studio,Square,2026-09-02T14:55:00-05:00,3465.00,completed
+PAY-7106,C015,Indigo Trail Gear,PayPal,2026-08-28T15:02:00-05:00,180.00,pending
+PAY-7107,C026,Umber Lane Apparel,PayPal,2026-08-23T16:09:00-05:00,1471.00,completed
+PAY-7108,C001,Birchline Design,Square,2026-09-07T17:16:00-05:00,2084.00,completed
+PAY-7109,C012,Fable Foods Cooperative,PayPal,2026-09-02T18:23:00-05:00,2697.00,completed
+PAY-7110,C023,Redwood Family Dental,PayPal,2026-08-28T08:30:00-05:00,3310.00,completed
+PAY-7111,C034,Crescent Paper Co.,Square,2026-08-23T09:37:00-05:00,145.00,failed
+PAY-7112,C009,Copper Finch Goods,PayPal,2026-09-07T10:44:00-05:00,1316.00,completed

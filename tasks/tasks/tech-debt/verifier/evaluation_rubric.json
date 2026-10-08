@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__material_scope",
+      "title": "Material debt coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The audit identifies the material, directly evidenced debt in pricing, releases, tests, dependencies, documentation, and dispatch durability.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_material_debt_coverage"
+      ]
+    },
+    {
+      "id": "completion__priority_integrity",
+      "title": "Priority score integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Finding scores stay on the documented 1–5 scales, use the requested formula correctly, and expose a coherent priority ordering.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_score_formula_and_bounds",
+        "test_priority_order_is_coherent"
+      ]
+    },
+    {
+      "id": "completion__plan_integrity",
+      "title": "Plan references and capacity integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The phased plan accounts for the findings, uses valid references, and does not exceed the debt capacity for now, next, or later.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_plan_references_and_coverage",
+        "test_phase_capacity_limits"
+      ]
+    },
+    {
+      "id": "completion__remediation_value",
+      "title": "Business justification and remediation value",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each material finding connects a concrete customer, delivery, or engineering harm to a proposed remediation.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__material_scope",
+        "title": "Material debt coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__priority_integrity",
+        "title": "Priority score integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__plan_integrity",
+        "title": "Plan references and capacity integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__remediation_value",
+        "title": "Business justification and remediation value",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

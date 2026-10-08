@@ -1,0 +1,9 @@
+{
+  "job_name": "northstar-orchid-dpo-r1",
+  "gpu_count": 2,
+  "gpu_memory_gb_each": 20,
+  "bf16_supported": true,
+  "network_available": false,
+  "max_per_device_train_batch_size": 2,
+  "required_effective_global_batch_size": 64
+}

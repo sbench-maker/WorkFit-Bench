@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_integrity",
+      "title": "Self-contained dashboard integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested index.html is a readable, substantive single-file dashboard that does not depend on external assets or network requests.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_is_self_contained_and_readable"
+      ]
+    },
+    {
+      "id": "completion__metric_accuracy",
+      "title": "Complete-period KPI accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Followers, weekly follower gain, weighted engagement rate, likes, and reposts agree with the frozen complete-day records for every platform, and the partial-day cutoff is clearly disclosed.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_complete_period_metrics_and_cutoff"
+      ]
+    },
+    {
+      "id": "completion__platform_sync_scope",
+      "title": "Cross-platform switching scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "X, LinkedIn, YouTube, and Instagram are all selectable, and the dashboard exposes synchronized KPI, growth, top-post, topic, and comment regions for the active platform.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_platform_controls_and_synchronized_regions"
+      ]
+    },
+    {
+      "id": "completion__trend_content_fidelity",
+      "title": "Trend and content fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each platform's 30-day follower view carries its named growth events, and its highest-click complete-week post, leading ranked topics, and leading approved comments are represented accurately.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_platform_trends_and_ranked_content"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_integrity",
+        "title": "Self-contained dashboard integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__metric_accuracy",
+        "title": "Complete-period KPI accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__platform_sync_scope",
+        "title": "Cross-platform switching scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__trend_content_fidelity",
+        "title": "Trend and content fidelity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

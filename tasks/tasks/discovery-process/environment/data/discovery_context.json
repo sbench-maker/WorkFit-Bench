@@ -1,0 +1,78 @@
+{
+  "fixture_notice": "Deterministic fictional product-discovery evidence created for an offline exercise.",
+  "as_of_date": "2026-06-30",
+  "product": {
+    "name": "Northstar Learning Hub",
+    "type": "employee learning administration platform",
+    "workflow_under_review": "bulk employee import before launching a first learning cohort"
+  },
+  "decision_to_inform": "Whether to fund guided CSV import recovery for the Q3 onboarding roadmap.",
+  "initial_hypothesis": "First-time HR and L&D administrators at organizations with 50-499 employees fail to launch a first cohort within seven days because bulk-import validation shows generic errors and offers no repair path.",
+  "target_population": {
+    "participant_employee_bands": [
+      "50-199",
+      "200-499"
+    ],
+    "participant_admin_experience": "first_time",
+    "include_interview_status": "completed",
+    "analytics_created_from": "2026-04-01",
+    "analytics_created_through": "2026-05-31",
+    "exclude_internal_accounts": true
+  },
+  "activation_definition": "First learning cohort launched within seven calendar days of account creation.",
+  "research_questions": [
+    "Where do first-time administrators stall before their first cohort launch?",
+    "Which import problems recur across interviews, support, and observed activation?",
+    "Does a guided repair flow improve unaided valid-import completion without admitting bad records?",
+    "Which solution is worth committing to for Q3?"
+  ],
+  "support_ticket_policy": {
+    "include_analysis_status": "included",
+    "count_each_original_ticket_once": true
+  },
+  "theme_prioritization": {
+    "frequency_score_by_distinct_target_interviews": [
+      {
+        "min": 1,
+        "max": 1,
+        "score": 1
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "score": 2
+      },
+      {
+        "min": 4,
+        "max": 5,
+        "score": 3
+      },
+      {
+        "min": 6,
+        "max": 7,
+        "score": 4
+      },
+      {
+        "min": 8,
+        "max": 999,
+        "score": 5
+      }
+    ],
+    "intensity_score": "mean intensity_1_to_5 among included interview observations",
+    "formula": "frequency_score * mean_intensity * strategic_fit_1_to_5",
+    "rank_direction": "descending"
+  },
+  "saturation_rule": "Reached when no new coded theme appears in the final two completed target interviews and the leading pattern appears in at least three included interviews.",
+  "problem_validation_policy": {
+    "minimum_interviews_for_leading_theme": 5,
+    "minimum_clean_vs_validation_activation_gap_percentage_points": 20.0,
+    "note": "Observed account data supports association, not causal attribution."
+  },
+  "experiment_policy": {
+    "primary_metric": "valid import completed unaided within 15 minutes, intention-to-treat",
+    "minimum_absolute_uplift_percentage_points": 20.0,
+    "guardrail_metric": "any invalid employee record admitted",
+    "maximum_guardrail_increase_percentage_points": 2.0,
+    "decision_rule": "GO only when the problem is validated and the tested solution passes both the primary threshold and the guardrail; otherwise PIVOT or KILL."
+  }
+}

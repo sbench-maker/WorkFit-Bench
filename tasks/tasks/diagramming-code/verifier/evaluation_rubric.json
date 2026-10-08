@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__module_architecture",
+      "title": "Code-grounded module architecture",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The left-to-right dependency map covers the service's material modules and direct dependency relationships without obscuring its handler, security, pipeline, repository, rendering, and runtime boundaries.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_module_map_scope_and_direction",
+        "test_module_dependencies_match_code"
+      ]
+    },
+    {
+      "id": "completion__execution_paths",
+      "title": "Complete, accurate paths to run_template",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The attack-surface view contains each request handler that can reach run_template, shows the material intermediates, and does not invent call relationships between code functions.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_attack_surface_path_coverage",
+        "test_data_flow_edges_are_code_grounded"
+      ]
+    },
+    {
+      "id": "completion__trust_encoding",
+      "title": "Untrusted entry-point distinction",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The public receive and preview handlers are visibly distinguished as untrusted from the authenticated replay handler in the attack-surface view.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_untrusted_entrypoints_are_distinguished"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__module_architecture",
+        "title": "Code-grounded module architecture",
+        "required_score": 10
+      },
+      {
+        "id": "completion__execution_paths",
+        "title": "Complete, accurate paths to run_template",
+        "required_score": 10
+      },
+      {
+        "id": "completion__trust_encoding",
+        "title": "Untrusted entry-point distinction",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

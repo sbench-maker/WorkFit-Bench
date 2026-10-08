@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Complete, usable launch kit",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown artifact is readable and contains a distinct reusable voice profile, X post, and customer email.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__campaign_fidelity",
+      "title": "Campaign claim fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Product identity, quantitative claims, availability statements, and safety boundaries in the launch drafts do not contradict the frozen campaign brief.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_product_identity_in_both_drafts",
+        "test_quantitative_claims_match_brief",
+        "test_availability_and_limit_claims_match_brief"
+      ]
+    },
+    {
+      "id": "completion__profile_source_fidelity",
+      "title": "Source-grounded, reusable voice profile",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The voice profile draws its guidance from the supplied archive, prioritizes newer originals over conflicting 2023 outliers, and separates public language from private guidance.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Complete, usable launch kit",
+        "required_score": 10
+      },
+      {
+        "id": "completion__campaign_fidelity",
+        "title": "Campaign claim fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__profile_source_fidelity",
+        "title": "Source-grounded, reusable voice profile",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,9 @@
+metric_family,owner,minimum_review_cadence,response_capability
+North Star,Product Analytics,weekly,Segment drill-down and instrumentation validation.
+Activation,Growth Product,weekly,Can pause onboarding rollouts and run funnel diagnostics.
+Retention,Lifecycle Product,monthly,Can investigate matured cohorts and lifecycle messaging.
+Engagement,Core Experience,weekly,Can inspect workflow adoption and run product experiments.
+Monetization,Revenue Product,weekly,Can inspect billing funnels after feed completeness is confirmed.
+Reliability,Site Reliability,daily,Can page the incident commander and mitigate blocking errors.
+Feature Adoption,Automation Product,weekly,Can segment template usage and iterate discovery flows.
+Satisfaction,Customer Support,daily,Can triage ticket categories and escalate product defects.

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3"
+  ],
+  "required_cli_versions": [
+    {
+      "command": "bash",
+      "version": "5.2.15(1)-release",
+      "used_by": [
+        "agent",
+        "verifier"
+      ]
+    },
+    {
+      "command": "python3",
+      "version": "3.12.11",
+      "used_by": [
+        "agent",
+        "verifier"
+      ]
+    }
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

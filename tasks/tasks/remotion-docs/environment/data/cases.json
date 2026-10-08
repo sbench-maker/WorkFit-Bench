@@ -1,0 +1,41 @@
+{
+  "snapshot_id": "remotion-mirror-2026-08-15",
+  "cases": [
+    {
+      "case_id": "RMT-241",
+      "subject": "Avoid duplicated composition constants in an overlay",
+      "question": "Inside a composition component, which API should the overlay use to read width, height, fps, and duration, and where is that API valid?",
+      "context": "The overlay currently repeats 1920x1080, 30 fps, and 450 frames in its own constants."
+    },
+    {
+      "case_id": "RMT-242",
+      "subject": "Frame numbers inside a delayed title card",
+      "question": "A title is wrapped in Sequence from={90} durationInFrames={60}. When is it mounted and what frame does useCurrentFrame() return at global frame 90?",
+      "context": "The developer assumed the child hook would return global frame 90."
+    },
+    {
+      "case_id": "RMT-243",
+      "subject": "Async preload failure should not produce a partial video",
+      "question": "How should a component hold rendering for an async preload, release it after success, and fail the render on rejection?",
+      "context": "The current catch block releases the render even when the required data request fails."
+    },
+    {
+      "case_id": "RMT-244",
+      "subject": "Track an AWS Lambda render to completion",
+      "question": "What identifiers must be kept after starting renderMediaOnLambda(), and how should the worker poll for completion and obtain the output?",
+      "context": "The worker currently treats the start call as completion and constructs an object URL from only the render ID."
+    },
+    {
+      "case_id": "RMT-245",
+      "subject": "pauseWhenBuffering behaves differently in preview and render",
+      "question": "For OffthreadVideo, where does pauseWhenBuffering pause the timeline, and should it change an actual render?",
+      "context": "QA sees the timeline pause in Chrome preview but not in the renderer or Safari."
+    },
+    {
+      "case_id": "RMT-246",
+      "subject": "Public asset breaks below a hosted base path",
+      "question": "How should a file named team intro.mp4 in public be referenced so spaces and the deployment base path are handled?",
+      "context": "The code uses '/public/team intro.mp4' directly and fails when hosted under a subpath."
+    }
+  ]
+}

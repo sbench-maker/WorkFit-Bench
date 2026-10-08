@@ -1,0 +1,28 @@
+{
+  "corpus": "Fictional support-handoff research packet",
+  "snapshot_date": "2026-03-31",
+  "constructed_fixture": true,
+  "scope_note": "All entities and observations in this packet are fictional and locally constructed for the task.",
+  "documents": [
+    {
+      "source_id": "TRIALSTONE-2025",
+      "file": "trialstone_field_trial.md",
+      "source_type": "peer-reviewed journal article"
+    },
+    {
+      "source_id": "CEDAR-OPS-2026",
+      "file": "cedar_finch_pilot.md",
+      "source_type": "internal technical report"
+    },
+    {
+      "source_id": "VECTORLOOM-WP",
+      "file": "vectorloom_whitepaper.md",
+      "source_type": "industry white paper"
+    },
+    {
+      "source_id": "REVIEWLAB-2024",
+      "file": "review_control_study.md",
+      "source_type": "peer-reviewed conference paper"
+    }
+  ]
+}

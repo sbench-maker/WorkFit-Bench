@@ -1,0 +1,26 @@
+{
+  "fixtureKind": "deterministic fictional offline export",
+  "snapshotAt": "2026-08-19T12:00:00Z",
+  "files": {
+    "incident_context.json": {
+      "complete": true
+    },
+    "supported_locations_snapshot.json": {
+      "complete": true
+    },
+    "upstream_search_export.json": {
+      "complete": true,
+      "pageCount": 2
+    },
+    "downstream_search_export.json": {
+      "complete": true,
+      "pageCount": 2
+    }
+  },
+  "notes": [
+    "The search responses themselves are not truncated.",
+    "Repeated link IDs across adjacent pages are export overlap and should be deduplicated.",
+    "Inactive links are historical observations, not current lineage.",
+    "One upstream endpoint has unavailable metadata and remains unresolved."
+  ]
+}

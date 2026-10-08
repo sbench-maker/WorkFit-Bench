@@ -1,0 +1,51 @@
+{
+  "aggregation": {
+    "center": "arithmetic mean of compatible completed seed scores",
+    "uncertainty": "sample standard deviation (ddof=1) and 95% CI half-width = 1.96 * sample_sd / sqrt(n)"
+  },
+  "release_policy": {
+    "maximum_regression_vs_previous_release": 0.01,
+    "minimum_macro_advantage_vs_external_baseline": 0.005,
+    "minimum_valid_seeds_per_benchmark": 5,
+    "selection_rule": "promote the highest-step checkpoint that passes every gate"
+  },
+  "required_benchmarks": {
+    "arc_challenge": {
+      "metric_name": "acc_norm",
+      "minimum_score": 0.61,
+      "num_fewshot": 25,
+      "task_version": "1.3"
+    },
+    "gsm8k": {
+      "metric_name": "exact_match",
+      "minimum_score": 0.45,
+      "num_fewshot": 5,
+      "task_version": "3.1"
+    },
+    "hellaswag": {
+      "metric_name": "acc_norm",
+      "minimum_score": 0.74,
+      "num_fewshot": 10,
+      "task_version": "1.1"
+    },
+    "mmlu": {
+      "metric_name": "acc",
+      "minimum_score": 0.55,
+      "num_fewshot": 5,
+      "task_version": "2.0"
+    },
+    "truthfulqa_mc2": {
+      "metric_name": "acc",
+      "minimum_score": 0.49,
+      "num_fewshot": 0,
+      "task_version": "2.0"
+    }
+  },
+  "required_run_config": {
+    "do_sample": false,
+    "harness_version": "0.4.8",
+    "prompt_template": "canonical-v1",
+    "temperature": 0.0
+  },
+  "suite_name": "aurora_general_release_v1"
+}

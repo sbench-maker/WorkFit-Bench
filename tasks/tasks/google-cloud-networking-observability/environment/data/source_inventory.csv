@@ -1,0 +1,5 @@
+internal_ip,instance_name,service,zone,subnetwork,metadata_mode
+10.42.1.10,checkout-api-a,checkout-api,us-central1-a,checkout-workers-a,INCLUDE_ALL_METADATA
+10.42.1.11,checkout-api-b,checkout-api,us-central1-b,checkout-workers-b,EXCLUDE_ALL_METADATA
+10.42.1.12,checkout-api-c,checkout-api,us-central1-b,checkout-workers-b,EXCLUDE_ALL_METADATA
+10.42.1.13,reconcile-worker-a,reconcile-worker,us-central1-a,checkout-workers-a,INCLUDE_ALL_METADATA

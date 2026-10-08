@@ -1,0 +1,52 @@
+{
+  "eligibility": {
+    "deal_status": "open",
+    "contact_call_status": "call_allowed",
+    "activity_window_calendar_days": 30
+  },
+  "scoring": {
+    "recency": "max(0, 30 - whole calendar days since last_owner_touch_at)",
+    "stage_points": {
+      "discovery": 10,
+      "qualification": 15,
+      "demo": 22,
+      "proposal": 30,
+      "negotiation": 40
+    },
+    "signal_lookback_days": 14,
+    "signal_rule": "Use the most recent qualifying signal in the lookback window; none scores 0.",
+    "signal_points": {
+      "inbound_reply": 28,
+      "calendar_hold": 22,
+      "web_visit": 12,
+      "email_open": 8
+    },
+    "value": "min(25, floor(amount_usd / 10000))",
+    "total": "recency + stage + signal + value",
+    "tie_breakers": [
+      "has an unanswered inbound email first",
+      "more recent qualifying signal",
+      "higher amount_usd",
+      "contact_id ascending"
+    ]
+  },
+  "email": {
+    "context_limit": 3,
+    "follow_up_due": "Latest message in a thread is inbound and was sent more than 3*24 hours before snapshot_generated_at.",
+    "delivery_state": "draft_only"
+  },
+  "calendar": {
+    "working_windows": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "13:00",
+        "17:00"
+      ]
+    ],
+    "slot_minutes": 20,
+    "state": "proposed_only"
+  }
+}

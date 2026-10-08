@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3",
+    "mock-burp-java",
+    "jq",
+    "head",
+    "wc",
+    "sort",
+    "grep",
+    "uname",
+    "mkdir",
+    "cp",
+    "cat"
+  ],
+  "command_versions": {
+    "bash": "5.2.15",
+    "python3": "3.12.11",
+    "mock-burp-java": "1.0.0",
+    "jq": "1.6",
+    "head": "GNU coreutils 9.1",
+    "wc": "GNU coreutils 9.1",
+    "sort": "GNU coreutils 9.1",
+    "grep": "GNU grep 3.8",
+    "uname": "GNU coreutils 9.1",
+    "mkdir": "GNU coreutils 9.1",
+    "cp": "GNU coreutils 9.1",
+    "cat": "GNU coreutils 9.1"
+  },
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "iniconfig",
+      "import_name": "iniconfig",
+      "version": "2.1.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "packaging",
+      "import_name": "packaging",
+      "version": "25.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "pluggy",
+      "import_name": "pluggy",
+      "version": "1.6.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "Pygments",
+      "import_name": "pygments",
+      "version": "2.19.2",
+      "used_by": [
+        "verifier"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

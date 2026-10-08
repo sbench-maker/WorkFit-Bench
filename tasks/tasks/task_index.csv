@@ -1,0 +1,163 @@
+task_id,work_scenario,category,subcategory,skill_paths
+a-share-paper-trading,Business Processes and Transaction Execution,business_operations,transaction_execution,environment/skills/a-share-paper-trading
+agent-platform-tuning,AI and Agent Engineering,ai_ml_engineering,model-training,environment/skills/agent-platform-tuning
+ai-agents-architect,AI and Agent Engineering,ai_ml_engineering,multi_agent_orchestration,environment/skills/ai-agents-architect
+ai-disclosure,Software Development and Quality Engineering,software-engineering,development-documentation,environment/skills/ai-disclosure
+ai-prompt-engineering-safety-review,AI and Agent Engineering,ai-agent-engineering,prompt-safety-and-evaluation,environment/skills/ai-prompt-engineering-safety-review
+ai-team-orchestration,AI and Agent Engineering,software-engineering,multi-agent-orchestration,environment/skills/ai-team-orchestration
+airtable,Business Processes and Transaction Execution,business_operations,data-sync-and-record-management,environment/skills/airtable
+analytics,Data Analysis and Presentation,data_analysis,analytics_measurement,environment/skills/analytics
+animation-performance,Content and Document Production,software-engineering,frontend-performance,environment/skills/animation-performance
+apify-ultimate-scraper,Data Collection and Processing,data_collection,web-scraping-and-enrichment,environment/skills/apify-ultimate-scraper
+apollo-router-plugin-creator,"Deployment, Operations, Security, and Reliability",software-engineering,graphql-gateway-development,environment/skills/apollo-router-plugin-creator
+article-writing,Content and Document Production,content-and-document-production,editorial-content-creation,environment/skills/article-writing
+attach-db,Business Processes and Transaction Execution,data-analysis,database-configuration,environment/skills/attach-db
+autonomous-loops,AI and Agent Engineering,ai-agent-engineering,autonomous-agent-planning,environment/skills/autonomous-loops
+azure-cost,Data Analysis and Presentation,finance,cloud-cost-management,environment/skills/azure-cost
+azure-kusto,Data Analysis and Presentation,deployment_operations_security_reliability,observability-and-incident-analysis,environment/skills/azure-kusto
+azure-resource-visualizer,Data Analysis and Presentation,data_analysis_presentation,cloud_architecture_visualization,environment/skills/azure-resource-visualizer
+best-practices,"Deployment, Operations, Security, and Reliability",software-engineering,web-security-and-compatibility,environment/skills/.bundle;environment/skills/best-practices
+bigquery-bigframes,Data Analysis and Presentation,ai_ml_engineering,ml-pipeline-development,environment/skills/bigquery-bigframes
+brainstorming-research-ideas,Information Retrieval and Knowledge Synthesis,information-retrieval-and-knowledge-synthesis,research-ideation,environment/skills/brainstorming-research-ideas
+brand-voice,Content and Document Production,content-and-document-production,brand-voice-and-copywriting,environment/skills/brand-voice
+brief,Information Retrieval and Knowledge Synthesis,legal,incident_response,environment/skills/brief
+burpsuite-project-parser,"Deployment, Operations, Security, and Reliability",cybersecurity,security_testing_and_compliance,environment/skills/burpsuite-project-parser
+business-pulse,Information Retrieval and Knowledge Synthesis,business_operations,executive-business-reporting,environment/skills/business-pulse
+call-list,Business Processes and Transaction Execution,business_workflow,sales_operations,environment/skills/call-list
+call-summary,Information Retrieval and Knowledge Synthesis,planning_communication_collaboration,sales-call-summarization,environment/skills/call-summary
+capybara-skill,Software Development and Quality Engineering,software-engineering,end-to-end-testing,environment/skills/capybara-skill
+claude-devfleet,AI and Agent Engineering,ai-agent-engineering,multi-agent-orchestration,environment/skills/claude-devfleet
+clinical-note-extract-skill,Data Analysis and Presentation,data-analysis,clinical-document-extraction,environment/skills/clinical-note-extract-skill
+clinical-research,Information Retrieval and Knowledge Synthesis,research,clinical-study-design,environment/skills/clinical-research
+close-month,Business Processes and Transaction Execution,finance,accounting-operations,environment/skills/close-month
+code-simplification,Software Development and Quality Engineering,software-engineering,code-review-and-refactoring,environment/skills/code-simplification
+codebase-onboarding,"Planning, Communication, and Collaboration",software-engineering,development-documentation,environment/skills/codebase-onboarding
+competitor-analysis,Information Retrieval and Knowledge Synthesis,research,competitive-market-analysis,environment/skills/competitor-analysis
+contact-research,Information Retrieval and Knowledge Synthesis,business_operations,sales-intelligence,environment/skills/contact-research
+continuous-agent-loop,AI and Agent Engineering,ai-agent-engineering,agent-orchestration-evaluation,environment/skills/nanoclaw-repl;environment/skills/autonomous-loops;environment/skills/eval-harness;environment/skills/plankton-code-quality;environment/skills/ralphinho-rfc-pipeline;environment/skills/continuous-agent-loop
+convert-file,Data Collection and Processing,data_collection,data-format-conversion,environment/skills/convert-file
+create-prd,"Planning, Communication, and Collaboration",product-management,requirements-and-release-planning,environment/skills/create-prd
+creative-thinking-for-research,Information Retrieval and Knowledge Synthesis,research,research-ideation,environment/skills/creative-thinking-for-research
+crm-cleanup,Data Collection and Processing,business_operations,crm-data-hygiene,environment/skills/crm-cleanup
+crm-maintenance,Business Processes and Transaction Execution,business_operations,crm-record-maintenance,environment/skills/crm-maintenance
+csharp-testing,Software Development and Quality Engineering,software-engineering,unit-testing,environment/skills/csharp-testing
+customer-success-manager,"Planning, Communication, and Collaboration",business_operations,customer_success_analytics,environment/skills/customer-success-manager
+customer-support-agent,"Planning, Communication, and Collaboration",planning_communication_collaboration,customer_support_automation,environment/skills/customer-support-agent
+dart-generate-test-mocks,Software Development and Quality Engineering,software-engineering,unit-testing,environment/skills/dart-generate-test-mocks
+data-feeds,Data Collection and Processing,data_collection,structured-data-extraction,environment/skills/data-feeds
+data-scraper-agent,Data Collection and Processing,ai-agent-engineering,data-monitoring-agents,environment/skills/data-scraper-agent
+database-architect,Data Analysis and Presentation,software-engineering,database-architecture,environment/skills/database-architect
+datalineage-summary,Information Retrieval and Knowledge Synthesis,data-analysis,data-lineage-analysis,environment/skills/datalineage-summary
+datanalysis-credit-risk,Data Analysis and Presentation,data-analysis-and-presentation,credit-risk-analysis,environment/skills/datanalysis-credit-risk
+defi-amm-security,"Deployment, Operations, Security, and Reliability",cybersecurity,smart-contract-security,environment/skills/defi-amm-security
+design-system,Content and Document Production,software-engineering,design-system-audit,environment/skills/design-system
+design-system-starter,Content and Document Production,content-and-document-production,design-system-implementation,environment/skills/design-system-starter
+diagramming-code,Data Analysis and Presentation,data-analysis-and-presentation,code-architecture-visualization,environment/skills/diagramming-code
+discovery-process,Information Retrieval and Knowledge Synthesis,product-and-project-management,product-discovery,environment/skills/problem-statement;environment/skills/discovery-interview-prep;environment/skills/prd-development;environment/skills/workshop-facilitation;environment/skills/problem-framing-canvas;environment/skills/opportunity-solution-tree;environment/skills/discovery-process;environment/skills/epic-hypothesis;environment/skills/proto-persona;environment/skills/jobs-to-be-done;environment/skills/customer-journey-mapping-workshop;environment/skills/lean-ux-canvas
+documentation-lookup,Information Retrieval and Knowledge Synthesis,information_retrieval_and_knowledge_integration,documentation_research,environment/skills/documentation-lookup
+draft-response,Content and Document Production,content-and-document-production,customer-communication,environment/skills/draft-response
+email-sequence,Content and Document Production,content-and-document-production,lifecycle-email-campaigns,environment/skills/email-sequence
+energy-procurement,Business Processes and Transaction Execution,business_operations,strategic-procurement,environment/skills/energy-procurement
+epic-breakdown-advisor,"Planning, Communication, and Collaboration",product-management,backlog-refinement,environment/skills/.bundle;environment/skills/epic-breakdown-advisor
+evaluating-llms-harness,AI and Agent Engineering,ai-agent-engineering,agent-model-evaluation,environment/skills/evaluating-llms-harness
+expo-router,"Deployment, Operations, Security, and Reliability",software_development,mobile_navigation,environment/skills/expo-router
+fiat,Business Processes and Transaction Execution,"""Business Operations""","""Fiat Crypto Purchase""",environment/skills/fiat
+figma-create-design-system-rules,Content and Document Production,software-engineering,design-to-code-configuration,environment/skills/figma-create-design-system-rules
+finance-report,Data Analysis and Presentation,data-analysis,data-visualization,environment/skills/finance-report
+firecrawl-build,Data Collection and Processing,software-engineering,web-research-integration,environment/skills/firecrawl-build-interact;environment/skills/firecrawl-build-search;environment/skills/firecrawl-build-onboarding;environment/skills/firecrawl-build
+firecrawl-build-interact,Data Collection and Processing,data_collection,dynamic_web_extraction,environment/skills/firecrawl-build-interact;environment/skills/firecrawl-build-search;environment/skills/firecrawl-build
+firecrawl-crawl,Data Collection and Processing,data_collection,website-crawling,environment/skills/firecrawl-scrape;environment/skills/firecrawl-map;environment/skills/firecrawl-crawl
+firecrawl-interact,Data Collection and Processing,data_collection,interactive-web-extraction,environment/skills/firecrawl-agent;environment/skills/firecrawl-scrape;environment/skills/firecrawl-interact;environment/skills/firecrawl-search
+firecrawl-scrape,Data Collection and Processing,data_collection,webpage_scraping,environment/skills/firecrawl-scrape;environment/skills/firecrawl-interact;environment/skills/firecrawl-search
+forecast,Data Analysis and Presentation,business_operations,sales-forecasting,environment/skills/forecast
+gke-app-onboarding,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,container_and_cluster_management,environment/skills/gke-app-onboarding
+gke-cluster-autoscaler,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,container_cluster_troubleshooting,environment/skills/gke-cluster-autoscaler
+gke-observability,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,monitoring_alerting_and_incident_response,environment/skills/gke-observability
+google-cloud-networking-observability,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,network_observability_incident_response,environment/skills/google-cloud-networking-observability
+google-cloud-waf-performance-optimization,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,cloud-performance-optimization,environment/skills/google-cloud-waf-performance-optimization
+google-mobile-ads-banner,Software Development and Quality Engineering,software_development,mobile_api_integration,environment/skills/google-mobile-ads-banner
+google-mobile-ads-rewarded,Software Development and Quality Engineering,software_development,mobile_api_integration,environment/skills/google-mobile-ads-rewarded
+graphql-operations,Software Development and Quality Engineering,software-engineering,graphql-client-development,environment/skills/graphql-operations
+gsap-performance,Content and Document Production,software-engineering,frontend-performance,environment/skills/gsap-performance
+gws-gmail-forward,Business Processes and Transaction Execution,productivity,email-workflow-automation,environment/skills/_bundle;environment/skills/gws-gmail-forward
+gws-workflow-standup-report,"Planning, Communication, and Collaboration",planning_communication_collaboration,standup-reporting,environment/skills/gws-workflow-standup-report;environment/skills/_bundle
+hackernews-frontpage,Data Collection and Processing,data_collection,webpage-scraping,environment/skills/hackernews-frontpage
+hqq-quantization,AI and Agent Engineering,ai_ml_engineering,model_quantization,environment/skills/hqq-quantization
+huggingface-papers,Information Retrieval and Knowledge Synthesis,research,machine-learning-literature-review,environment/skills/huggingface-papers
+huggingface-trackio,"Deployment, Operations, Security, and Reliability",ml_engineering,experiment_monitoring,environment/skills/huggingface-trackio
+internal-comms,"Planning, Communication, and Collaboration",planning_communication_collaboration,internal_communications,environment/skills/internal-comms
+inventory-demand-planning,Data Analysis and Presentation,business_operations,inventory-and-demand-planning,environment/skills/inventory-demand-planning
+jupyter-notebook,Content and Document Production,content-and-document-production,technical-training-materials,environment/skills/jupyter-notebook
+kb-article,Content and Document Production,content-and-document-production,knowledge-base-authoring,environment/skills/kb-article
+knowledge-ops,Data Collection and Processing,information-retrieval-and-synthesis,knowledge-management,environment/skills/knowledge-ops
+kpi-dashboard-design,Data Analysis and Presentation,data-analysis-and-presentation,kpi-dashboard,environment/skills/kpi-dashboard-design
+langchain-rag,AI and Agent Engineering,ai_engineering,retrieval_augmented_generation,environment/skills/langchain-rag
+lead-intelligence,"Planning, Communication, and Collaboration",business_operations,lead-prioritization,environment/skills/lead-intelligence
+maggy,Software Development and Quality Engineering,productivity,work-prioritization,environment/skills/maggy
+makepad-2_0-animation,Content and Document Production,software-engineering,frontend-animation,environment/skills/makepad-2.0-animation
+meeting-briefing,Information Retrieval and Knowledge Synthesis,planning_communication_collaboration,meeting-preparation,environment/skills/meeting-briefing
+metrics-dashboard,Data Analysis and Presentation,data-analysis-and-presentation,product-metrics-dashboard,environment/skills/metrics-dashboard
+metrics-review,Data Analysis and Presentation,data_analysis_presentation,metrics_trend_analysis,environment/skills/metrics-review
+minimax-docx,Content and Document Production,content-and-document-production,document-processing,environment/skills/minimax-docx
+minimax-xlsx,Content and Document Production,business_operations,trade-settlement-reconciliation,environment/skills/minimax-xlsx
+model-pruning,AI and Agent Engineering,ai-engineering,model-compression,environment/skills/model-pruning
+n8n-code-javascript,Data Collection and Processing,software-engineering,workflow-code-development,environment/skills/n8n-code-javascript
+n8n-node-configuration,Business Processes and Transaction Execution,software-engineering,workflow-automation-configuration,environment/skills/n8n-node-configuration
+orch-refine-code,Software Development and Quality Engineering,software-engineering,code-review-and-refactoring,environment/skills/orch-refine-code;environment/skills/.bundle
+outcome-roadmap,"Planning, Communication, and Collaboration",product-and-project-management,outcome-based-roadmapping,environment/skills/outcome-roadmap
+performance-report,Data Analysis and Presentation,data-analysis,marketing-performance,environment/skills/performance-report
+persona-project-manager,Business Processes and Transaction Execution,product-and-project-management,project-coordination,environment/skills/persona-project-manager
+persona-team-lead,"Planning, Communication, and Collaboration",planning-communication-collaboration,team-coordination,environment/skills/persona-team-lead
+plan-orchestrate,AI and Agent Engineering,"""AI and agent engineering""","""agent orchestration""",environment/skills/plan-orchestrate
+planning-and-task-breakdown,"Planning, Communication, and Collaboration",software-engineering,implementation-planning,environment/skills/planning-and-task-breakdown
+prioritization-advisor,"Planning, Communication, and Collaboration",product-and-project-management,prioritization-decision-support,environment/skills/.bundle;environment/skills/prioritization-advisor
+prioritization-frameworks,"Planning, Communication, and Collaboration",product_management,prioritization_and_decision_analysis,environment/skills/prioritization-frameworks
+prioritize-assumptions,"Planning, Communication, and Collaboration",product-and-project-management,prioritization-and-decision-analysis,environment/skills/prioritize-assumptions
+qdrant-vector-search,AI and Agent Engineering,ai_ml_engineering,retrieval-augmented-generation,environment/skills/qdrant-vector-search
+quantizing-models-bitsandbytes,AI and Agent Engineering,ai_ml_engineering,model_quantization,environment/skills/quantizing-models-bitsandbytes
+quarterly-review,Content and Document Production,data-analysis-and-presentation,quarterly-business-review,environment/skills/quarterly-review
+query-token-audit,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,security_detection_compliance_audit,environment/skills/query-token-audit
+ralphinho-rfc-pipeline,AI and Agent Engineering,ai-agent-engineering,multi-agent-orchestration,environment/skills/ralphinho-rfc-pipeline
+recipe-backup-sheet-as-csv,Content and Document Production,business_operations,spreadsheet-backup-and-export,environment/skills/recipe-backup-sheet-as-csv
+recipe-create-presentation,Content and Document Production,content-and-document-production,presentation-creation,environment/skills/recipe-create-presentation
+recipe-plan-weekly-schedule,Business Processes and Transaction Execution,productivity,calendar-planning,environment/skills/recipe-plan-weekly-schedule
+recipe-reschedule-meeting,Business Processes and Transaction Execution,business_workflows,email_and_calendar_automation,environment/skills/recipe-reschedule-meeting
+remotion-docs,Data Collection and Processing,information-retrieval-and-synthesis,documentation-research,environment/skills/remotion-docs
+research-decision-room,Information Retrieval and Knowledge Synthesis,information-retrieval-and-synthesis,qualitative-research-synthesis,environment/skills/research-decision-room
+research-grants,Information Retrieval and Knowledge Synthesis,research,grant_budget_preparation,environment/skills/research-grants
+research-summarizer,Information Retrieval and Knowledge Synthesis,research,evidence-synthesis,environment/skills/research-summarizer
+resume-version-manager,Business Processes and Transaction Execution,business_operations,resource_record_management,environment/skills/resume-version-manager
+revops,"Planning, Communication, and Collaboration",business_operations,revenue_operations,environment/skills/revops
+roadmap-update,"Planning, Communication, and Collaboration",product-and-project-management,roadmap-prioritization,environment/skills/roadmap-update
+runbook,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,incident-response-documentation,environment/skills/runbook
+santa-method,AI and Agent Engineering,AI and Agent Engineering,Agent Orchestration and Evaluation,environment/skills/santa-method
+sarif-parsing,Data Collection and Processing,cybersecurity,security-scan-analysis,environment/skills/sarif-parsing
+second-opinion,Software Development and Quality Engineering,cybersecurity,code-security-review,environment/skills/second-opinion
+security-scan,"Deployment, Operations, Security, and Reliability",software_engineering,security_and_compliance,environment/skills/security-scan
+seo-backlinks,Information Retrieval and Knowledge Synthesis,business_operations,seo-backlink-analysis,environment/skills/seo-backlinks
+seo-cluster,Content and Document Production,content-and-document-production,content-generation-and-editing,environment/skills/seo-cluster
+seo-geo,Data Collection and Processing,business_operations,generative-search-optimization,environment/skills/seo-geo
+seo-plan,"Planning, Communication, and Collaboration",business_operations,seo-strategy,environment/skills/seo-plan
+sglang,Software Development and Quality Engineering,software-development,backend-llm-serving,environment/skills/sglang
+smb-router,"Deployment, Operations, Security, and Reliability",business_operations,customer-request-routing,environment/skills/smb-router
+social-media-dashboard,Data Analysis and Presentation,data-analytics,social-media-dashboard,environment/skills/social-media-dashboard
+social-media-matrix-tracker-template,Data Analysis and Presentation,data-analytics,social-media-visualization,environment/skills/social-media-matrix-tracker-template
+soul-guardian,"Deployment, Operations, Security, and Reliability",deployment_operations_security_reliability,monitoring_alerting_incident_response,environment/skills/soul-guardian
+spatial,Data Collection and Processing,data-analysis,geospatial-data-processing,environment/skills/spatial
+standup,"Planning, Communication, and Collaboration",planning_communication_collaboration,standup-reporting,environment/skills/standup
+stripe-best-practices,Business Processes and Transaction Execution,software-engineering,payment-integration,environment/skills/stripe-best-practices
+summarize-interview,Information Retrieval and Knowledge Synthesis,research,qualitative-research-synthesis,environment/skills/summarize-interview
+swiftui-expert-skill,Software Development and Quality Engineering,software-engineering,ios-application-development,environment/skills/swiftui-expert-skill
+tdd-workflow,Software Development and Quality Engineering,software-engineering,test-driven-development,environment/skills/tdd-workflow
+team-agent-orchestration,AI and Agent Engineering,ai-agent-engineering,multi-agent-orchestration,environment/skills/team-agent-orchestration
+tech-debt,Software Development and Quality Engineering,software_engineering,code_review_and_refactoring,environment/skills/tech-debt
+terraform-test,"Deployment, Operations, Security, and Reliability",software-engineering,infrastructure-testing,environment/skills/terraform-test
+test-conversion-researcher,Software Development and Quality Engineering,software-engineering,test-migration-planning,environment/skills/test-conversion-researcher
+test-framework-migration-skill,Software Development and Quality Engineering,software-engineering,test-framework-migration,environment/skills/playwright-skill;environment/skills/cypress-skill;environment/skills/puppeteer-skill;environment/skills/shared;environment/skills/test-framework-migration-skill;environment/skills/selenium-skill
+ton-vulnerability-scanner,"Deployment, Operations, Security, and Reliability",cybersecurity,smart-contract-security,environment/skills/ton-vulnerability-scanner
+trading-signal,Business Processes and Transaction Execution,business_operations,trading_execution,environment/skills/trading-signal
+trl-training,AI and Agent Engineering,ai-agent-engineering,model-training,environment/skills/trl-training
+update,Business Processes and Transaction Execution,productivity,workspace-maintenance,environment/skills/update
+vendor-review,Business Processes and Transaction Execution,business_operations,vendor-evaluation,environment/skills/vendor-review
+venice-augment,Data Collection and Processing,information-retrieval-and-synthesis,release-readiness-research,environment/skills/venice-augment
+wp-phpstan,Software Development and Quality Engineering,software-engineering,static-analysis-remediation,environment/skills/wp-phpstan

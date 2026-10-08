@@ -1,0 +1,17 @@
+metric_id,metric_name,audience,baseline,baseline_unit,observation_window,strategic_target,target_unit,target_window,caveat
+KPI-01,New workspaces active within 14 days,SMB admins,42,percent,2026 H2 cohort,60,percent,H1 2027,Activation means first technician invited and five jobs completed.
+KPI-02,Median admin setup time,SMB admins,118,minutes,2026 Q4 onboarding study,70,minutes,H1 2027,Measured from workspace creation to technician-ready configuration.
+KPI-03,Median time to schedule 20 jobs,Dispatchers,31,minutes,2026 Q4 workflow study,18,minutes,Q3 2027,Study excludes initial data import.
+KPI-04,Conflicts caused by rescheduling,Dispatchers,9.4,per 100 rescheduled jobs,2026 H2,5.0,per 100 rescheduled jobs,Q3 2027,Lower is better.
+KPI-05,Mobile jobs completed without a sync retry,Technicians,86,percent,2026 H2,95,percent,Q3 2027,Only jobs with at least one mobile update are included.
+KPI-06,Technician photo upload failure rate,Technicians,7.6,percent,2026 Q4,2.5,percent,Q3 2027,Lower is better; retry attempts count once per job.
+KPI-07,On-time arrival rate,Service customers,71,percent,2026 H2,82,percent,Q4 2027,On time means within the promised 30-minute window.
+KPI-08,Missed appointment rate,Service customers,8.8,percent,2026 H2,6.0,percent,Q4 2027,Lower is better; customer-cancelled visits are excluded.
+KPI-09,Where-is-my-technician contacts,Service customers,14.2,per 100 appointments,2026 Q4,8.0,per 100 appointments,Q4 2027,Lower is better.
+KPI-10,Customers with an active integration at day 90,Integration admins,18,percent,2026 H2 cohort,32,percent,Q4 2027,Active means at least 20 successful sync events in the prior 30 days.
+KPI-11,Median invoice-ready lag,Finance teams,4.8,days,2026 H2,2.5,days,Q1 2028,From job completion to approved invoice batch; lower is better.
+KPI-12,Enterprise pilot-to-paid conversion,Enterprise admins,36,percent,2026 full year,50,percent,Q1 2028,Pilots with fewer than 25 technicians are excluded.
+KPI-13,Gross revenue retention,Business,87,percent,2026 full year,91,percent,Q1 2028,"Company-level lagging indicator, not attributable to one feature."
+KPI-14,Weekly active dispatcher rate,Dispatchers,64,percent,2026 H2,72,percent,Q4 2027,Among licensed dispatchers.
+KPI-15,Median manager report preparation time,Operations managers,96,minutes per week,2026 Q4 interviews,45,minutes per week,Q4 2027,Self-reported sample of 18 managers.
+KPI-16,Billing-settings support tickets,SMB admins,6.2,per 100 accounts per month,2026 H2,3.5,per 100 accounts per month,Q3 2027,Lower is better.

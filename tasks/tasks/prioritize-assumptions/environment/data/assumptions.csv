@@ -1,0 +1,21 @@
+assumption_id,product_area,assumption,customer_segment,quarterly_customers_affected,confidence_pct,validation_effort_days,decision_deadline,experiment_constraint
+A01,Medication,Caregivers will act on refill reminders sent by SMS.,caregivers,600,40,5,2026-09-18,SMS content must not contain health details.
+A02,Clinic setup,Clinic administrators can bulk-import a patient roster without assisted setup.,clinic_admins,500,80,4,2026-10-02,Use synthetic rosters only.
+A03,Onboarding,New patients can finish onboarding without live support.,new_patients,700,75,5,2026-09-25,Panel participants must be adults.
+A04,Pharmacy,Independent pharmacies will accept an emailed pickup token.,pharmacy_staff,500,80,3,2026-10-16,No message may resemble a real prescription.
+A05,Integrations,Patients will connect a wearable to share adherence signals.,wearable_owners,500,35,4,2026-09-22,Only synthetic wearable data may be used.
+A06,Monetization,Caregivers will pay $6 per month for coordination features.,caregivers,300,25,4,2026-10-09,No real payment may be captured.
+A07,Clinical alerts,Clinicians will review a weekly queue of adherence-risk alerts.,clinicians,350,50,4,2026-09-17,Use fictional patient cases only.
+A08,Localization,Patients will switch their preferred language during an active flow.,multilingual_patients,500,85,2,2026-10-01,Prototype supports Spanish and Mandarin only.
+A09,Insurance,Rural patients can upload an insurance image on a slow connection.,rural_patients,280,30,5,2026-09-16,Use synthetic insurance cards; cap network at 1 Mbps.
+A10,Sharing,Patients will complete explicit consent before enabling family sharing.,patients_with_caregivers,250,20,3,2026-09-15,Privacy review is required; do not enable real sharing.
+A11,Employer channel,Small employers will sponsor a population dashboard.,employer_buyers,300,40,5,2026-10-23,No employee-level data may be shown.
+A12,Engagement,Patients will complete a symptom check-in three times per week.,active_patients,300,65,3,2026-09-30,Prompts may run only inside the research sandbox.
+A13,Clinical notes,Nurses will rely on automatically translated visit summaries.,nurses,250,30,4,2026-09-29,Translations must be labeled draft and use fictional cases.
+A14,Authentication,Returning patients will choose a passkey instead of a one-time code.,returning_patients,500,70,4,2026-10-07,Use test accounts and lab devices only.
+A15,Appearance,Patients need dark mode to continue evening sessions.,active_patients,900,90,1,2026-11-06,Visual prototype only.
+A16,Records,Patients will export their history as a PDF.,active_patients,450,80,2,2026-10-30,Exports must contain synthetic data.
+A17,Clinic setup,Clinics require custom branding before inviting patients.,clinic_admins,400,50,4,2026-10-14,Do not publish branded pages.
+A18,Support,Support agents will use suggested replies for routine cases.,support_agents,500,70,2,2026-10-28,Fictional support transcripts only.
+A19,Engagement,Patients will share adherence streak badges with family.,active_patients,700,85,1,2026-11-13,Sharing remains inside the research sandbox.
+A20,Compliance,Clinic administrators will schedule monthly audit-log exports.,clinic_admins,500,35,4,2026-10-20,Audit rows must be synthetic.

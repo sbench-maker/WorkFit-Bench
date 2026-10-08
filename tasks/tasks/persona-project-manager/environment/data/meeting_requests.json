@@ -1,0 +1,118 @@
+[
+  {
+    "request_id": "MEET-100",
+    "title": "Orbit launch standup",
+    "recurrence_dates": [
+      "2026-10-05",
+      "2026-10-07",
+      "2026-10-09"
+    ],
+    "window_start": "09:00",
+    "window_end": "10:00",
+    "duration_minutes": 15,
+    "required_attendee_ids": [
+      "MAYA",
+      "ELI",
+      "NOOR",
+      "PRIYA",
+      "DIEGO",
+      "JONAH"
+    ],
+    "optional_attendee_ids": [],
+    "include_optional_if_available": false,
+    "sensitive": false,
+    "linked_task_ids": [],
+    "purpose": "Fast recurring launch coordination."
+  },
+  {
+    "request_id": "MEET-101",
+    "title": "Vendor sample blocker review",
+    "recurrence_dates": [
+      "2026-10-06"
+    ],
+    "window_start": "13:00",
+    "window_end": "16:00",
+    "duration_minutes": 30,
+    "required_attendee_ids": [
+      "MAYA",
+      "NOOR",
+      "LANA"
+    ],
+    "optional_attendee_ids": [
+      "SAM"
+    ],
+    "include_optional_if_available": true,
+    "sensitive": true,
+    "linked_task_ids": [
+      "ORBIT-012"
+    ],
+    "purpose": "Resolve a sensitive launch blocker without optional observers."
+  },
+  {
+    "request_id": "MEET-102",
+    "title": "Stakeholder launch readiness",
+    "recurrence_dates": [
+      "2026-10-07"
+    ],
+    "window_start": "14:00",
+    "window_end": "17:00",
+    "duration_minutes": 45,
+    "required_attendee_ids": [
+      "MAYA",
+      "AVA",
+      "COLE",
+      "OWEN"
+    ],
+    "optional_attendee_ids": [],
+    "include_optional_if_available": false,
+    "sensitive": false,
+    "linked_task_ids": [],
+    "purpose": "Review readiness, customer messaging, and launch risks."
+  },
+  {
+    "request_id": "MEET-103",
+    "title": "Billing QA triage",
+    "recurrence_dates": [
+      "2026-10-06"
+    ],
+    "window_start": "10:00",
+    "window_end": "12:00",
+    "duration_minutes": 30,
+    "required_attendee_ids": [
+      "MAYA",
+      "PRIYA",
+      "JONAH"
+    ],
+    "optional_attendee_ids": [
+      "DIEGO"
+    ],
+    "include_optional_if_available": true,
+    "sensitive": false,
+    "linked_task_ids": [
+      "ORBIT-049"
+    ],
+    "purpose": "Close the remaining QA handoff."
+  },
+  {
+    "request_id": "MEET-104",
+    "title": "Data migration sync",
+    "recurrence_dates": [
+      "2026-10-08"
+    ],
+    "window_start": "11:00",
+    "window_end": "13:00",
+    "duration_minutes": 30,
+    "required_attendee_ids": [
+      "MAYA",
+      "ELI",
+      "NOOR"
+    ],
+    "optional_attendee_ids": [],
+    "include_optional_if_available": false,
+    "sensitive": false,
+    "linked_task_ids": [
+      "ORBIT-034"
+    ],
+    "purpose": "Already present in the exported calendar."
+  }
+]

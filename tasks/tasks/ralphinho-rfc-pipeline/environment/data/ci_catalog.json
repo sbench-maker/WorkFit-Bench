@@ -1,0 +1,431 @@
+{
+  "tests": [
+    {
+      "test_id": "CT-01",
+      "name": "contract compatibility",
+      "kind": "contract",
+      "covers": [
+        "R1",
+        "R12"
+      ],
+      "blocking_for": [
+        "libs/export-contract",
+        "config/feature-flags"
+      ],
+      "minutes": 3
+    },
+    {
+      "test_id": "DB-01",
+      "name": "forward migration on populated database",
+      "kind": "migration",
+      "covers": [
+        "R2"
+      ],
+      "blocking_for": [
+        "db/export-schema"
+      ],
+      "minutes": 8
+    },
+    {
+      "test_id": "DB-02",
+      "name": "migration rollback rehearsal",
+      "kind": "rollback",
+      "covers": [
+        "R2"
+      ],
+      "blocking_for": [
+        "db/export-schema"
+      ],
+      "minutes": 9
+    },
+    {
+      "test_id": "SEC-01",
+      "name": "workspace role authorization matrix",
+      "kind": "security",
+      "covers": [
+        "R3"
+      ],
+      "blocking_for": [
+        "services/policy"
+      ],
+      "minutes": 6
+    },
+    {
+      "test_id": "SEC-02",
+      "name": "service account export denial",
+      "kind": "security",
+      "covers": [
+        "R3"
+      ],
+      "blocking_for": [
+        "services/policy"
+      ],
+      "minutes": 4
+    },
+    {
+      "test_id": "API-01",
+      "name": "idempotent export creation",
+      "kind": "integration",
+      "covers": [
+        "R7"
+      ],
+      "blocking_for": [
+        "services/export-api"
+      ],
+      "minutes": 7
+    },
+    {
+      "test_id": "API-02",
+      "name": "status transition contract",
+      "kind": "integration",
+      "covers": [
+        "R8"
+      ],
+      "blocking_for": [
+        "services/export-api"
+      ],
+      "minutes": 6
+    },
+    {
+      "test_id": "API-03",
+      "name": "expired signed download rejection",
+      "kind": "security",
+      "covers": [
+        "R8"
+      ],
+      "blocking_for": [
+        "services/export-api"
+      ],
+      "minutes": 5
+    },
+    {
+      "test_id": "SNAP-01",
+      "name": "revision-consistent snapshot under writes",
+      "kind": "integration",
+      "covers": [
+        "R4"
+      ],
+      "blocking_for": [
+        "workers/export-snapshot"
+      ],
+      "minutes": 11
+    },
+    {
+      "test_id": "SNAP-02",
+      "name": "deleted-record manifest stability",
+      "kind": "integration",
+      "covers": [
+        "R4"
+      ],
+      "blocking_for": [
+        "workers/export-snapshot"
+      ],
+      "minutes": 8
+    },
+    {
+      "test_id": "RED-01",
+      "name": "sensitive field redaction matrix",
+      "kind": "security",
+      "covers": [
+        "R5"
+      ],
+      "blocking_for": [
+        "workers/export-redaction"
+      ],
+      "minutes": 8
+    },
+    {
+      "test_id": "RED-02",
+      "name": "redaction is deterministic on retry",
+      "kind": "integration",
+      "covers": [
+        "R5"
+      ],
+      "blocking_for": [
+        "workers/export-redaction"
+      ],
+      "minutes": 7
+    },
+    {
+      "test_id": "PKG-01",
+      "name": "streaming archive memory ceiling",
+      "kind": "performance",
+      "covers": [
+        "R6"
+      ],
+      "blocking_for": [
+        "workers/export-package"
+      ],
+      "minutes": 15
+    },
+    {
+      "test_id": "PKG-02",
+      "name": "envelope encryption and key rotation",
+      "kind": "security",
+      "covers": [
+        "R6"
+      ],
+      "blocking_for": [
+        "workers/export-package"
+      ],
+      "minutes": 12
+    },
+    {
+      "test_id": "AUD-01",
+      "name": "audit event completeness",
+      "kind": "integration",
+      "covers": [
+        "R9"
+      ],
+      "blocking_for": [
+        "services/audit"
+      ],
+      "minutes": 7
+    },
+    {
+      "test_id": "AUD-02",
+      "name": "failed download audit trace",
+      "kind": "integration",
+      "covers": [
+        "R9"
+      ],
+      "blocking_for": [
+        "services/audit"
+      ],
+      "minutes": 6
+    },
+    {
+      "test_id": "UI-01",
+      "name": "admin export flow",
+      "kind": "browser",
+      "covers": [
+        "R10"
+      ],
+      "blocking_for": [
+        "web/admin-exports"
+      ],
+      "minutes": 9
+    },
+    {
+      "test_id": "UI-02",
+      "name": "terminal failure messaging",
+      "kind": "browser",
+      "covers": [
+        "R10"
+      ],
+      "blocking_for": [
+        "web/admin-exports"
+      ],
+      "minutes": 5
+    },
+    {
+      "test_id": "OPS-01",
+      "name": "retention expiry and orphan cleanup",
+      "kind": "integration",
+      "covers": [
+        "R11"
+      ],
+      "blocking_for": [
+        "ops/export-lifecycle"
+      ],
+      "minutes": 10
+    },
+    {
+      "test_id": "OPS-02",
+      "name": "metrics and alert contract",
+      "kind": "contract",
+      "covers": [
+        "R11"
+      ],
+      "blocking_for": [
+        "ops/export-lifecycle"
+      ],
+      "minutes": 4
+    },
+    {
+      "test_id": "SYS-01",
+      "name": "end-to-end small workspace export",
+      "kind": "system",
+      "covers": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10"
+      ],
+      "blocking_for": [
+        "tests/export-system"
+      ],
+      "minutes": 18
+    },
+    {
+      "test_id": "SYS-02",
+      "name": "large workspace performance budget",
+      "kind": "system",
+      "covers": [
+        "R4",
+        "R5",
+        "R6",
+        "R11"
+      ],
+      "blocking_for": [
+        "tests/export-system"
+      ],
+      "minutes": 24
+    },
+    {
+      "test_id": "SYS-03",
+      "name": "rollback from enabled cohort",
+      "kind": "system",
+      "covers": [
+        "R2",
+        "R11",
+        "R12"
+      ],
+      "blocking_for": [
+        "tests/export-system",
+        "config/feature-flags"
+      ],
+      "minutes": 16
+    },
+    {
+      "test_id": "SYS-04",
+      "name": "legacy export coexistence",
+      "kind": "system",
+      "covers": [
+        "R8",
+        "R12"
+      ],
+      "blocking_for": [
+        "tests/export-system",
+        "config/feature-flags"
+      ],
+      "minutes": 13
+    },
+    {
+      "test_id": "UT-01",
+      "name": "module unit suite 01",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "libs/export-contract"
+      ],
+      "minutes": 2
+    },
+    {
+      "test_id": "UT-02",
+      "name": "module unit suite 02",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "db/export-schema"
+      ],
+      "minutes": 3
+    },
+    {
+      "test_id": "UT-03",
+      "name": "module unit suite 03",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "services/policy"
+      ],
+      "minutes": 4
+    },
+    {
+      "test_id": "UT-04",
+      "name": "module unit suite 04",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "services/export-api"
+      ],
+      "minutes": 5
+    },
+    {
+      "test_id": "UT-05",
+      "name": "module unit suite 05",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "workers/export-snapshot"
+      ],
+      "minutes": 2
+    },
+    {
+      "test_id": "UT-06",
+      "name": "module unit suite 06",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "workers/export-redaction"
+      ],
+      "minutes": 3
+    },
+    {
+      "test_id": "UT-07",
+      "name": "module unit suite 07",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "workers/export-package"
+      ],
+      "minutes": 4
+    },
+    {
+      "test_id": "UT-08",
+      "name": "module unit suite 08",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "services/audit"
+      ],
+      "minutes": 5
+    },
+    {
+      "test_id": "UT-09",
+      "name": "module unit suite 09",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "web/admin-exports"
+      ],
+      "minutes": 2
+    },
+    {
+      "test_id": "UT-10",
+      "name": "module unit suite 10",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "ops/export-lifecycle"
+      ],
+      "minutes": 3
+    },
+    {
+      "test_id": "UT-11",
+      "name": "module unit suite 11",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "config/feature-flags"
+      ],
+      "minutes": 4
+    },
+    {
+      "test_id": "UT-12",
+      "name": "module unit suite 12",
+      "kind": "unit",
+      "covers": [],
+      "blocking_for": [
+        "tests/export-system"
+      ],
+      "minutes": 5
+    }
+  ]
+}

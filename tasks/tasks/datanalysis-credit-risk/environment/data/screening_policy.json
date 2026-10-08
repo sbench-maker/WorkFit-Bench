@@ -1,0 +1,55 @@
+{
+  "dataset": {
+    "key_column": "record_id",
+    "date_column": "apply_date",
+    "label_column": "target",
+    "organization_column": "org_info",
+    "feature_prefix": "i_",
+    "valid_labels": [
+      0,
+      1
+    ],
+    "missing_sentinels": [
+      -1,
+      -999,
+      -1111
+    ],
+    "oos_organizations": [
+      "Grove-OOS",
+      "Haven-OOS"
+    ]
+  },
+  "screening_base": "Keep the first record per key, retain valid labels, exclude OOS organizations, then exclude abnormal months before calculating missingness and correlations.",
+  "gates_in_order": [
+    {
+      "gate": "zero_variance",
+      "rule": "drop any feature with one or fewer distinct non-missing values"
+    },
+    {
+      "gate": "abnormal_month",
+      "rule": "exclude a modeling month when total samples < 350 or bad samples < 20"
+    },
+    {
+      "gate": "missingness",
+      "rule": "drop a feature when overall missing rate > 0.60"
+    },
+    {
+      "gate": "iv",
+      "rule": "drop when overall IV < 0.10 or organization IV < 0.05 in at least 2 modeling organizations"
+    },
+    {
+      "gate": "psi",
+      "rule": "an organization is unstable when PSI > 0.10 in at least 2 valid transitions; drop a feature when at least 3 modeling organizations are unstable"
+    },
+    {
+      "gate": "null_importance",
+      "rule": "drop when absolute original-permuted gain difference < 50"
+    },
+    {
+      "gate": "correlation",
+      "rule": "among current survivors, for absolute Pearson correlation > 0.90 drop the lower-original-gain feature; if both are in the top 3 current survivors by original gain, retain both"
+    }
+  ],
+  "comparison_semantics": "All inequalities are strict exactly as written; equality stays on the passing side.",
+  "diagnostics": "The IV, PSI, and null-importance CSVs are frozen approved diagnostic outputs. Use them as authoritative; compute missingness and Pearson correlation from the screening base."
+}

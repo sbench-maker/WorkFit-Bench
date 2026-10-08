@@ -1,0 +1,47 @@
+{
+  "id": "77ba23fd41ac9077bb1026e4",
+  "paperId": "2608.04721v2",
+  "revision": 2,
+  "title": "CedarSwitch: Budget-Aware Sparse Summarization for Multilingual Support Tickets",
+  "authors": [
+    {
+      "id": "a101",
+      "name": "Lina Ortez",
+      "user": "lortez",
+      "claimed": true
+    },
+    {
+      "id": "a102",
+      "name": "Pavel Ilyin",
+      "user": null,
+      "claimed": false
+    },
+    {
+      "id": "a103",
+      "name": "Mei Harrow",
+      "user": "meiharrow",
+      "claimed": true
+    },
+    {
+      "id": "a104",
+      "name": "Noor Abeni",
+      "user": null,
+      "claimed": false
+    }
+  ],
+  "summary": "A sparse multilingual support-ticket summarizer combines budget-aware routing, terminology preservation, and confidence-gated extraction.",
+  "ai_summary": {
+    "text": "The method gains 5.1 ROUGE-L in English and 6.1 in Spanish while reducing median latency by about 38%.",
+    "source_revision": 1,
+    "generated_before_revision_2": true
+  },
+  "githubRepo": null,
+  "projectPage": null,
+  "organization": {
+    "name": "Aster Research Collective",
+    "slug": "aster-research"
+  },
+  "publishedAt": "2026-08-04",
+  "updatedAt": "2026-08-18",
+  "upvotes": 184
+}

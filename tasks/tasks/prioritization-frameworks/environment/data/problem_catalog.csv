@@ -1,0 +1,11 @@
+problem_id,customer_problem,theme
+P01,Locating failed automation runs,reliability
+P02,Understanding why a workflow failed,reliability
+P03,Controlling workspace permissions,governance
+P04,Connecting legacy data sources,integrations
+P05,Building the first workflow quickly,onboarding
+P06,Approving high-risk changes,governance
+P07,Keeping audit evidence ready,governance
+P08,Finding a relevant starting template,onboarding
+P09,Monitoring automation usage costs,operations
+P10,Collaborating on workflow drafts,collaboration

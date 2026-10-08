@@ -1,0 +1,10 @@
+{
+  "method": "deterministic fictional construction",
+  "files": {
+    "work_items.csv": 220,
+    "architecture_decisions.json": 12,
+    "team_roster.json": 6,
+    "repository_inventory.json": 14
+  },
+  "scope_note": "Rows marked committed and target_sprint 1 total 49 points; all other rows are roadmap context."
+}

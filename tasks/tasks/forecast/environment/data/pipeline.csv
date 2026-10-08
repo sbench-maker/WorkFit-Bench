@@ -1,0 +1,241 @@
+deal_id,deal_name,account_id,owner,amount_usd,stage,close_date,created_date,exec_sponsor_confirmed,security_review_status
+OPP-0001,Lumen Health Platform,ACC-012,Owen Price,132000,Contract,2026-11-25,2026-02-14,true,Clear
+OPP-0002,Willow Systems New Logo,ACC-023,Mina Shah,34000,Contract,2026-12-02,2026-02-27,false,Clear
+OPP-0003,Juniper Logistics Analytics,ACC-034,Jon Bell,167000,Demo,2026-12-09,2026-03-12,true,Not Required
+OPP-0004,Umber Works Renewal Plus,ACC-045,Elena Park,50000,Evaluation,2026-12-16,2026-03-25,false,In Review
+OPP-0005,Harbor Labs Expansion,ACC-056,Diego Ruiz,344000,Closed Lost,2026-11-15,2026-04-07,true,Clear
+OPP-0006,Grove Health Platform,ACC-007,Amira Chen,219000,Discovery,2026-12-30,2026-04-20,true,Not Required
+OPP-0007,Solace Logistics New Logo,ACC-019,Owen Price,360000,Contract,2026-12-10,2026-05-03,false,Clear
+OPP-0008,Fable Works Analytics,ACC-030,Mina Shah,254000,Evaluation,2026-11-27,2026-05-16,false,In Review
+OPP-0009,Quartz Labs Renewal Plus,ACC-041,Jon Bell,89000,Closed Won,2026-10-07,2026-05-29,false,Not Required
+OPP-0010,Drift Health Expansion,ACC-052,Elena Park,289000,Quote,2026-12-11,2026-06-11,true,Clear
+OPP-0011,Cinder Systems Platform,ACC-003,Diego Ruiz,120000,Negotiation,2026-11-24,2026-06-24,true,Clear
+OPP-0012,Northstar Logistics New Logo,ACC-014,Amira Chen,120000,Negotiation,2026-11-24,2026-07-07,true,Clear
+OPP-0013,Aster Works Analytics,ACC-025,Owen Price,180000,Contract,2026-11-13,2026-07-20,true,Clear
+OPP-0014,Mosaic Health Renewal Plus,ACC-037,Mina Shah,260000,Contract,2026-12-18,2026-08-02,true,Clear
+OPP-0015,Zenith Systems Expansion,ACC-048,Jon Bell,195000,Proposal,2026-11-22,2026-08-15,true,In Review
+OPP-0016,Kite Logistics Platform,ACC-059,Elena Park,310000,Discovery,2026-11-21,2026-08-28,false,Not Required
+OPP-0017,Juniper Works New Logo,ACC-010,Diego Ruiz,225000,Negotiation,2026-12-08,2026-09-10,true,Blocked
+OPP-0018,Umber Labs Analytics,ACC-021,Amira Chen,225000,Negotiation,2026-12-08,2026-09-23,true,Clear
+OPP-0019,Harbor Health Renewal Plus,ACC-032,Owen Price,145000,Contract,2026-12-04,2026-02-03,true,Clear
+OPP-0020,Solace Systems Expansion,ACC-043,Mina Shah,88000,Qualification,2026-11-28,2026-02-16,false,Not Required
+OPP-0021,Grove Works Platform,ACC-055,Jon Bell,540000,Contract,2027-01-12,2026-03-01,true,Clear
+OPP-0022,Fable Labs New Logo,ACC-006,Elena Park,272000,Proposal,2026-12-01,2026-03-14,true,Clear
+OPP-0023,Quartz Health Analytics,ACC-017,Diego Ruiz,130000,Demo,2026-12-08,2026-03-27,false,Blocked
+OPP-0024,Drift Systems Renewal Plus,ACC-028,Amira Chen,64000,Prospecting,2026-12-15,2026-04-09,false,In Review
+OPP-0025,Orbit Logistics Expansion,ACC-039,Owen Price,265000,Discovery,2026-12-22,2026-04-22,true,Clear
+OPP-0026,Beacon Works Platform,ACC-050,Mina Shah,80000,Proposal,2027-02-04,2026-05-05,false,Clear
+OPP-0027,Aster Labs New Logo,ACC-001,Jon Bell,88000,Prospecting,2026-10-04,2026-05-18,false,Not Required
+OPP-0028,Mosaic Systems Analytics,ACC-013,Elena Park,182000,Discovery,2026-11-26,2026-05-31,false,In Review
+OPP-0029,Zenith Logistics Renewal Plus,ACC-024,Diego Ruiz,438000,Closed Won,2026-11-06,2026-06-13,true,Clear
+OPP-0030,Kite Works Expansion,ACC-035,Amira Chen,203000,Proposal,2026-12-10,2026-06-26,false,Not Required
+OPP-0031,Vector Labs Platform,ACC-046,Owen Price,47000,Negotiation,2026-12-17,2026-07-09,false,Clear
+OPP-0032,Ion Health New Logo,ACC-057,Mina Shah,386000,Closed Lost,2026-12-03,2026-07-22,false,In Review
+OPP-0033,Harbor Systems Analytics,ACC-008,Jon Bell,75000,Proposal,2026-12-31,2026-08-04,true,Not Required
+OPP-0034,Solace Logistics Renewal Plus,ACC-019,Elena Park,71000,Contract,2026-09-10,2026-08-17,false,Clear
+OPP-0035,Grove Labs Expansion,ACC-031,Diego Ruiz,96000,Negotiation,2026-11-28,2026-08-30,false,Clear
+OPP-0036,Rivet Health Platform,ACC-042,Amira Chen,605000,Contract,2026-10-05,2026-09-12,false,In Review
+OPP-0037,Elm Systems New Logo,ACC-053,Owen Price,117000,Negotiation,2026-12-12,2026-09-25,false,Clear
+OPP-0038,Drift Logistics Analytics,ACC-004,Mina Shah,127000,Proposal,2026-12-19,2026-02-05,false,Clear
+OPP-0039,Orbit Works Renewal Plus,ACC-015,Jon Bell,676000,Discovery,2027-01-29,2026-02-18,true,Not Required
+OPP-0040,Beacon Labs Expansion,ACC-026,Elena Park,149000,Quote,2026-11-16,2026-03-03,false,In Review
+OPP-0041,Mosaic Health Platform,ACC-037,Diego Ruiz,55000,Demo,2026-11-23,2026-03-16,false,Clear
+OPP-0042,Aster Logistics New Logo,ACC-049,Amira Chen,170000,Evaluation,2026-11-30,2026-03-29,false,Not Required
+OPP-0043,Lumen Works Analytics,ACC-060,Owen Price,296000,Negotiation,2026-12-07,2026-04-11,true,Clear
+OPP-0044,Kite Labs Renewal Plus,ACC-011,Mina Shah,320000,Closed Lost,2026-10-22,2026-04-24,true,In Review
+OPP-0045,Vector Health Expansion,ACC-022,Jon Bell,201000,Proposal,2026-10-06,2026-05-07,false,Not Required
+OPP-0046,Ion Systems Platform,ACC-033,Elena Park,367000,Evaluation,2026-12-28,2026-05-20,true,Blocked
+OPP-0047,Tandem Logistics New Logo,ACC-044,Diego Ruiz,62000,Discovery,2026-11-18,2026-06-02,false,Clear
+OPP-0048,Grove Works Analytics,ACC-055,Amira Chen,38000,Contract,2026-11-25,2026-06-15,false,In Review
+OPP-0049,Grove Health Renewal Plus,ACC-007,Owen Price,397000,Contract,2026-12-02,2026-06-28,true,Clear
+OPP-0050,Rivet Systems Expansion,ACC-018,Mina Shah,54000,Qualification,2026-12-09,2026-07-11,false,Clear
+OPP-0051,Elm Logistics Platform,ACC-029,Jon Bell,486000,Closed Won,2026-10-10,2026-07-24,true,Not Required
+OPP-0052,Pioneer Works New Logo,ACC-040,Elena Park,115000,Evaluation,2027-01-23,2026-08-06,false,In Review
+OPP-0053,Cinder Labs Analytics,ACC-051,Diego Ruiz,533000,Closed Won,2026-10-28,2026-08-19,true,Clear
+OPP-0054,Beacon Health Renewal Plus,ACC-002,Amira Chen,557000,Closed Won,2026-11-06,2026-09-01,true,Not Required
+OPP-0055,Mosaic Systems Expansion,ACC-013,Owen Price,146000,Prospecting,2026-11-27,2026-09-14,true,Clear
+OPP-0056,Aster Works Platform,ACC-025,Mina Shah,234000,Qualification,2026-12-04,2026-09-27,false,In Review
+OPP-0057,Lumen Labs New Logo,ACC-036,Jon Bell,37000,Contract,2026-12-11,2026-02-07,false,Not Required
+OPP-0058,Willow Health Analytics,ACC-047,Elena Park,652000,Proposal,2026-12-18,2026-02-20,true,Clear
+OPP-0059,Juniper Systems Renewal Plus,ACC-058,Diego Ruiz,188000,Discovery,2026-12-25,2026-03-05,false,Clear
+OPP-0060,Ion Logistics Expansion,ACC-009,Amira Chen,61000,Negotiation,2026-11-15,2026-03-18,false,In Review
+OPP-0061,Tandem Works Platform,ACC-020,Owen Price,248000,Negotiation,2026-11-22,2026-03-31,true,Clear
+OPP-0062,Grove Labs New Logo,ACC-031,Mina Shah,60000,Quote,2026-11-29,2026-04-13,false,Clear
+OPP-0063,Solace Systems Analytics,ACC-043,Jon Bell,356000,Discovery,2026-10-08,2026-04-26,true,Not Required
+OPP-0064,Fable Logistics Renewal Plus,ACC-054,Elena Park,21000,Demo,2026-12-13,2026-05-09,false,In Review
+OPP-0065,Elm Works Expansion,ACC-005,Diego Ruiz,29000,Negotiation,2027-01-17,2026-05-22,false,Clear
+OPP-0066,Pioneer Labs Platform,ACC-016,Amira Chen,123000,Discovery,2026-12-27,2026-06-04,true,Not Required
+OPP-0067,Cinder Health New Logo,ACC-027,Owen Price,45000,Negotiation,2026-11-17,2026-06-17,false,Clear
+OPP-0068,Northstar Systems Analytics,ACC-038,Mina Shah,414000,Evaluation,2026-09-18,2026-06-30,false,In Review
+OPP-0069,Aster Logistics Renewal Plus,ACC-049,Jon Bell,133000,Contract,2026-12-01,2026-07-13,false,Blocked
+OPP-0070,Aster Labs Expansion,ACC-001,Elena Park,68000,Qualification,2026-12-08,2026-07-26,false,Clear
+OPP-0071,Lumen Health Platform,ACC-012,Diego Ruiz,210000,Discovery,2026-12-15,2026-08-08,true,Clear
+OPP-0072,Willow Systems New Logo,ACC-023,Amira Chen,84000,Evaluation,2026-10-09,2026-08-21,false,In Review
+OPP-0073,Juniper Logistics Analytics,ACC-034,Owen Price,244000,Evaluation,2026-12-29,2026-09-03,true,Clear
+OPP-0074,Umber Works Renewal Plus,ACC-045,Mina Shah,28000,Discovery,2026-11-19,2026-09-16,false,Clear
+OPP-0075,Harbor Labs Expansion,ACC-056,Jon Bell,581000,Discovery,2026-11-26,2026-09-29,true,Not Required
+OPP-0076,Grove Health Platform,ACC-007,Elena Park,297000,Negotiation,2026-12-03,2026-02-09,false,In Review
+OPP-0077,Solace Logistics New Logo,ACC-019,Diego Ruiz,52000,Demo,2026-12-10,2026-02-22,true,Clear
+OPP-0078,Fable Works Analytics,ACC-030,Amira Chen,331000,Quote,2027-01-11,2026-03-07,true,Not Required
+OPP-0079,Quartz Labs Renewal Plus,ACC-041,Owen Price,68000,Quote,2026-12-24,2026-03-20,false,Clear
+OPP-0080,Drift Health Expansion,ACC-052,Mina Shah,366000,Quote,2026-12-31,2026-04-02,false,In Review
+OPP-0081,Cinder Systems Platform,ACC-003,Jon Bell,384000,Qualification,2026-10-10,2026-04-15,true,Not Required
+OPP-0082,Northstar Logistics New Logo,ACC-014,Elena Park,19000,Quote,2026-11-28,2026-04-28,false,Clear
+OPP-0083,Aster Works Analytics,ACC-025,Diego Ruiz,133000,Contract,2026-12-05,2026-05-11,true,Clear
+OPP-0084,Mosaic Health Renewal Plus,ACC-037,Amira Chen,35000,Proposal,2026-12-12,2026-05-24,false,In Review
+OPP-0085,Zenith Systems Expansion,ACC-048,Owen Price,168000,Proposal,2026-09-22,2026-06-06,true,Clear
+OPP-0086,Kite Logistics Platform,ACC-059,Mina Shah,51000,Negotiation,2026-12-26,2026-06-19,false,Clear
+OPP-0087,Juniper Works New Logo,ACC-010,Jon Bell,59000,Qualification,2026-11-16,2026-07-02,false,Not Required
+OPP-0088,Umber Labs Analytics,ACC-021,Elena Park,220000,Evaluation,2026-11-23,2026-07-15,true,In Review
+OPP-0089,Harbor Health Renewal Plus,ACC-032,Diego Ruiz,75000,Qualification,2026-11-30,2026-07-28,false,Clear
+OPP-0090,Solace Systems Expansion,ACC-043,Amira Chen,255000,Closed Lost,2026-11-30,2026-08-10,true,Not Required
+OPP-0091,Grove Works Platform,ACC-055,Owen Price,19000,Proposal,2027-01-05,2026-08-23,false,Clear
+OPP-0092,Fable Labs New Logo,ACC-006,Mina Shah,509000,Proposal,2026-12-21,2026-09-05,false,Blocked
+OPP-0093,Quartz Health Analytics,ACC-017,Jon Bell,66000,Demo,2026-12-28,2026-09-18,false,Not Required
+OPP-0094,Drift Systems Renewal Plus,ACC-028,Elena Park,42000,Qualification,2026-11-18,2026-10-01,false,Clear
+OPP-0095,Orbit Logistics Expansion,ACC-039,Diego Ruiz,342000,Prospecting,2026-11-25,2026-02-11,true,Clear
+OPP-0096,Beacon Works Platform,ACC-050,Amira Chen,58000,Quote,2026-12-02,2026-02-24,false,In Review
+OPP-0097,Aster Labs New Logo,ACC-001,Owen Price,66000,Negotiation,2026-12-09,2026-03-09,false,Clear
+OPP-0098,Mosaic Systems Analytics,ACC-013,Mina Shah,118000,Quote,2026-12-16,2026-03-22,false,Clear
+OPP-0099,Zenith Logistics Renewal Plus,ACC-024,Jon Bell,675000,Proposal,2026-10-12,2026-04-04,true,Not Required
+OPP-0100,Kite Works Expansion,ACC-035,Elena Park,139000,Proposal,2026-12-30,2026-04-17,false,In Review
+OPP-0101,Vector Labs Platform,ACC-046,Diego Ruiz,26000,Evaluation,2026-11-20,2026-04-30,false,Clear
+OPP-0102,Ion Health New Logo,ACC-057,Amira Chen,179000,Negotiation,2026-09-26,2026-05-13,true,Not Required
+OPP-0103,Harbor Systems Analytics,ACC-008,Owen Price,171000,Negotiation,2026-12-04,2026-05-26,false,Clear
+OPP-0104,Solace Logistics Renewal Plus,ACC-019,Mina Shah,50000,Discovery,2027-02-13,2026-06-08,false,In Review
+OPP-0105,Grove Labs Expansion,ACC-031,Jon Bell,192000,Closed Won,2026-11-15,2026-06-21,false,Not Required
+OPP-0106,Rivet Health Platform,ACC-042,Elena Park,367000,Discovery,2026-12-25,2026-07-04,true,Clear
+OPP-0107,Elm Systems New Logo,ACC-053,Diego Ruiz,53000,Demo,2026-11-15,2026-07-17,false,Clear
+OPP-0108,Drift Logistics Analytics,ACC-004,Amira Chen,63000,Qualification,2026-10-13,2026-07-30,false,In Review
+OPP-0109,Orbit Works Renewal Plus,ACC-015,Owen Price,438000,Discovery,2026-11-29,2026-08-12,true,Clear
+OPP-0110,Beacon Labs Expansion,ACC-026,Mina Shah,84000,Negotiation,2026-12-06,2026-08-25,true,Clear
+OPP-0111,Mosaic Health Platform,ACC-037,Jon Bell,33000,Negotiation,2026-12-13,2026-09-07,false,Not Required
+OPP-0112,Aster Logistics New Logo,ACC-049,Elena Park,105000,Proposal,2026-12-20,2026-09-20,false,In Review
+OPP-0113,Lumen Works Analytics,ACC-060,Diego Ruiz,533000,Contract,2026-12-27,2026-10-03,true,Clear
+OPP-0114,Kite Labs Renewal Plus,ACC-011,Amira Chen,556000,Proposal,2026-11-17,2026-02-13,true,Not Required
+OPP-0115,Vector Health Expansion,ACC-022,Owen Price,137000,Evaluation,2026-11-24,2026-02-26,false,Blocked
+OPP-0116,Ion Systems Platform,ACC-033,Mina Shah,604000,Quote,2026-12-01,2026-03-11,false,In Review
+OPP-0117,Tandem Logistics New Logo,ACC-044,Jon Bell,158000,Quote,2027-02-07,2026-03-24,false,Not Required
+OPP-0118,Grove Works Analytics,ACC-055,Elena Park,88000,Demo,2026-12-15,2026-04-06,false,Clear
+OPP-0119,Grove Health Renewal Plus,ACC-007,Diego Ruiz,189000,Contract,2026-09-03,2026-04-19,true,Clear
+OPP-0120,Rivet Systems Expansion,ACC-018,Amira Chen,32000,Negotiation,2026-12-29,2026-05-02,false,In Review
+OPP-0121,Elm Logistics Platform,ACC-029,Owen Price,248000,Quote,2026-11-19,2026-05-15,true,Clear
+OPP-0122,Pioneer Works New Logo,ACC-040,Mina Shah,51000,Demo,2026-11-26,2026-05-28,false,Clear
+OPP-0123,Cinder Labs Analytics,ACC-051,Jon Bell,295000,Discovery,2026-12-03,2026-06-10,true,Not Required
+OPP-0124,Beacon Health Renewal Plus,ACC-002,Elena Park,319000,Proposal,2026-12-10,2026-06-23,false,In Review
+OPP-0125,Mosaic Systems Expansion,ACC-013,Diego Ruiz,82000,Qualification,2026-12-17,2026-07-06,false,Clear
+OPP-0126,Aster Works Platform,ACC-025,Amira Chen,311000,Prospecting,2026-10-15,2026-07-19,true,Not Required
+OPP-0127,Lumen Labs New Logo,ACC-036,Owen Price,88000,Prospecting,2026-12-31,2026-08-01,false,Clear
+OPP-0128,Willow Health Analytics,ACC-047,Mina Shah,414000,Evaluation,2026-11-21,2026-08-14,false,In Review
+OPP-0129,Juniper Systems Renewal Plus,ACC-058,Jon Bell,124000,Negotiation,2026-11-28,2026-08-27,false,Not Required
+OPP-0130,Ion Logistics Expansion,ACC-009,Elena Park,39000,Negotiation,2027-02-01,2026-09-09,false,Clear
+OPP-0131,Tandem Works Platform,ACC-020,Diego Ruiz,485000,Qualification,2026-12-12,2026-09-22,true,Clear
+OPP-0132,Grove Labs New Logo,ACC-031,Amira Chen,156000,Closed Won,2026-12-03,2026-02-02,true,In Review
+OPP-0133,Solace Systems Analytics,ACC-043,Owen Price,148000,Proposal,2026-12-26,2026-02-15,true,Clear
+OPP-0134,Fable Logistics Renewal Plus,ACC-054,Mina Shah,71000,Negotiation,2026-11-16,2026-02-28,false,Clear
+OPP-0135,Elm Works Expansion,ACC-005,Jon Bell,79000,Evaluation,2026-10-16,2026-03-13,false,Not Required
+OPP-0136,Pioneer Labs Platform,ACC-016,Elena Park,200000,Discovery,2026-09-07,2026-03-26,false,In Review
+OPP-0137,Cinder Health New Logo,ACC-027,Diego Ruiz,23000,Demo,2026-12-07,2026-04-08,false,Clear
+OPP-0138,Northstar Systems Analytics,ACC-038,Amira Chen,651000,Prospecting,2026-12-14,2026-04-21,true,Blocked
+OPP-0139,Aster Logistics Renewal Plus,ACC-049,Owen Price,69000,Quote,2026-12-21,2026-05-04,false,Clear
+OPP-0140,Aster Labs Expansion,ACC-001,Mina Shah,47000,Evaluation,2026-12-28,2026-05-17,false,In Review
+OPP-0141,Lumen Health Platform,ACC-012,Jon Bell,287000,Prospecting,2026-11-18,2026-05-30,true,Not Required
+OPP-0142,Willow Systems New Logo,ACC-023,Elena Park,62000,Proposal,2026-11-25,2026-06-12,false,Clear
+OPP-0143,Juniper Logistics Analytics,ACC-034,Diego Ruiz,322000,Evaluation,2027-01-26,2026-06-25,true,Clear
+OPP-0144,Umber Works Renewal Plus,ACC-045,Amira Chen,78000,Qualification,2026-10-17,2026-07-08,false,In Review
+OPP-0145,Harbor Labs Expansion,ACC-056,Owen Price,342000,Prospecting,2026-12-16,2026-07-21,true,Clear
+OPP-0146,Grove Health Platform,ACC-007,Mina Shah,374000,Demo,2026-12-23,2026-08-03,true,Clear
+OPP-0147,Solace Logistics New Logo,ACC-019,Jon Bell,30000,Quote,2026-12-30,2026-08-16,false,Not Required
+OPP-0148,Fable Works Analytics,ACC-030,Elena Park,124000,Prospecting,2026-11-20,2026-08-29,false,In Review
+OPP-0149,Quartz Labs Renewal Plus,ACC-041,Diego Ruiz,46000,Qualification,2026-11-27,2026-09-11,false,Clear
+OPP-0150,Drift Health Expansion,ACC-052,Amira Chen,158000,Demo,2026-12-04,2026-09-24,true,Not Required
+OPP-0151,Cinder Systems Platform,ACC-003,Owen Price,176000,Evaluation,2026-12-11,2026-02-04,true,Clear
+OPP-0152,Northstar Logistics New Logo,ACC-014,Mina Shah,70000,Prospecting,2026-12-18,2026-02-17,false,In Review
+OPP-0153,Aster Works Analytics,ACC-025,Jon Bell,211000,Discovery,2026-09-11,2026-03-02,true,Not Required
+OPP-0154,Mosaic Health Renewal Plus,ACC-037,Elena Park,86000,Negotiation,2026-11-15,2026-03-15,true,Clear
+OPP-0155,Zenith Systems Expansion,ACC-048,Diego Ruiz,245000,Proposal,2026-11-22,2026-03-28,true,Clear
+OPP-0156,Kite Logistics Platform,ACC-059,Amira Chen,29000,Evaluation,2027-01-20,2026-04-10,false,In Review
+OPP-0157,Juniper Works New Logo,ACC-010,Owen Price,37000,Evaluation,2026-12-06,2026-04-23,false,Clear
+OPP-0158,Umber Labs Analytics,ACC-021,Mina Shah,297000,Contract,2026-12-13,2026-05-06,true,Clear
+OPP-0159,Harbor Health Renewal Plus,ACC-032,Jon Bell,53000,Quote,2026-12-20,2026-05-19,false,Not Required
+OPP-0160,Solace Systems Expansion,ACC-043,Elena Park,332000,Proposal,2026-12-27,2026-06-01,false,In Review
+OPP-0161,Grove Works Platform,ACC-055,Diego Ruiz,69000,Negotiation,2026-11-17,2026-06-14,false,Blocked
+OPP-0162,Fable Labs New Logo,ACC-006,Amira Chen,271000,Discovery,2026-10-19,2026-06-27,true,Not Required
+OPP-0163,Quartz Health Analytics,ACC-017,Owen Price,162000,Closed Won,2026-11-12,2026-07-10,false,Clear
+OPP-0164,Drift Systems Renewal Plus,ACC-028,Mina Shah,21000,Contract,2026-12-08,2026-07-23,false,In Review
+OPP-0165,Orbit Logistics Expansion,ACC-039,Jon Bell,134000,Discovery,2026-12-15,2026-08-05,true,Not Required
+OPP-0166,Beacon Works Platform,ACC-050,Elena Park,37000,Quote,2026-12-22,2026-08-18,false,Clear
+OPP-0167,Aster Labs New Logo,ACC-001,Diego Ruiz,44000,Demo,2026-12-29,2026-08-31,false,Clear
+OPP-0168,Mosaic Systems Analytics,ACC-013,Amira Chen,54000,Negotiation,2026-11-19,2026-09-13,false,In Review
+OPP-0169,Zenith Logistics Renewal Plus,ACC-024,Owen Price,437000,Discovery,2027-01-14,2026-09-26,true,Clear
+OPP-0170,Kite Works Expansion,ACC-035,Mina Shah,75000,Demo,2026-09-15,2026-02-06,false,Clear
+OPP-0171,Vector Labs Platform,ACC-046,Jon Bell,76000,Contract,2026-10-20,2026-02-19,false,Not Required
+OPP-0172,Ion Health New Logo,ACC-057,Elena Park,256000,Evaluation,2026-12-17,2026-03-04,false,In Review
+OPP-0173,Harbor Systems Analytics,ACC-008,Diego Ruiz,107000,Prospecting,2026-12-24,2026-03-17,false,Clear
+OPP-0174,Solace Logistics Renewal Plus,ACC-019,Amira Chen,28000,Closed Won,2026-12-06,2026-03-30,false,Not Required
+OPP-0175,Grove Labs Expansion,ACC-031,Owen Price,128000,Contract,2026-11-21,2026-04-12,false,Clear
+OPP-0176,Rivet Health Platform,ACC-042,Mina Shah,603000,Closed Won,2026-10-10,2026-04-25,true,In Review
+OPP-0177,Elm Systems New Logo,ACC-053,Jon Bell,149000,Demo,2026-12-05,2026-05-08,false,Not Required
+OPP-0178,Drift Logistics Analytics,ACC-004,Elena Park,159000,Negotiation,2026-12-12,2026-05-21,false,Clear
+OPP-0179,Orbit Works Renewal Plus,ACC-015,Diego Ruiz,675000,Quote,2026-12-19,2026-06-03,true,Clear
+OPP-0180,Beacon Labs Expansion,ACC-026,Amira Chen,180000,Closed Won,2026-11-15,2026-06-16,false,In Review
+OPP-0181,Mosaic Health Platform,ACC-037,Owen Price,83000,Qualification,2026-11-16,2026-06-29,false,Clear
+OPP-0182,Aster Logistics New Logo,ACC-049,Mina Shah,201000,Contract,2027-01-08,2026-07-12,false,Clear
+OPP-0183,Lumen Works Analytics,ACC-060,Jon Bell,295000,Evaluation,2026-11-30,2026-07-25,true,Not Required
+OPP-0184,Kite Labs Renewal Plus,ACC-011,Elena Park,318000,Demo,2026-12-07,2026-08-07,false,Blocked
+OPP-0185,Vector Health Expansion,ACC-022,Diego Ruiz,73000,Closed Won,2026-10-16,2026-08-20,false,Clear
+OPP-0186,Ion Systems Platform,ACC-033,Amira Chen,366000,Demo,2026-12-21,2026-09-02,true,Not Required
+OPP-0187,Tandem Logistics New Logo,ACC-044,Owen Price,94000,Qualification,2026-09-19,2026-09-15,true,Clear
+OPP-0188,Grove Works Analytics,ACC-055,Mina Shah,67000,Contract,2026-11-18,2026-09-28,false,In Review
+OPP-0189,Grove Health Renewal Plus,ACC-007,Jon Bell,267000,Proposal,2026-10-22,2026-02-08,true,Not Required
+OPP-0190,Rivet Systems Expansion,ACC-018,Elena Park,83000,Proposal,2026-12-02,2026-02-21,false,Clear
+OPP-0191,Elm Logistics Platform,ACC-029,Diego Ruiz,485000,Qualification,2026-12-09,2026-03-06,true,Clear
+OPP-0192,Pioneer Works New Logo,ACC-040,Amira Chen,146000,Closed Won,2026-10-04,2026-03-19,false,In Review
+OPP-0193,Cinder Labs Analytics,ACC-051,Owen Price,532000,Quote,2026-12-23,2026-04-01,true,Clear
+OPP-0194,Beacon Health Renewal Plus,ACC-002,Mina Shah,556000,Quote,2026-12-30,2026-04-14,true,Clear
+OPP-0195,Mosaic Systems Expansion,ACC-013,Jon Bell,178000,Negotiation,2027-01-02,2026-04-27,false,Not Required
+OPP-0196,Aster Works Platform,ACC-025,Elena Park,388000,Evaluation,2026-11-27,2026-05-10,false,In Review
+OPP-0197,Lumen Labs New Logo,ACC-036,Diego Ruiz,66000,Prospecting,2026-12-04,2026-05-23,false,Clear
+OPP-0198,Willow Health Analytics,ACC-047,Amira Chen,651000,Contract,2026-10-23,2026-06-05,true,Not Required
+OPP-0199,Juniper Systems Renewal Plus,ACC-058,Owen Price,60000,Proposal,2026-12-18,2026-06-18,false,Clear
+OPP-0200,Ion Logistics Expansion,ACC-009,Mina Shah,90000,Closed Lost,2026-10-01,2026-07-01,false,In Review
+OPP-0201,Tandem Works Platform,ACC-020,Jon Bell,247000,Closed Won,2026-10-10,2026-07-14,true,Not Required
+OPP-0202,Grove Labs New Logo,ACC-031,Elena Park,92000,Closed Won,2026-10-19,2026-07-27,false,Clear
+OPP-0203,Solace Systems Analytics,ACC-043,Diego Ruiz,225000,Demo,2026-11-29,2026-08-09,true,Clear
+OPP-0204,Fable Logistics Renewal Plus,ACC-054,Amira Chen,49000,Discovery,2026-09-23,2026-08-22,false,In Review
+OPP-0205,Elm Works Expansion,ACC-005,Owen Price,57000,Contract,2026-12-13,2026-09-04,false,Clear
+OPP-0206,Pioneer Labs Platform,ACC-016,Mina Shah,277000,Demo,2026-12-20,2026-09-17,true,Clear
+OPP-0207,Cinder Health New Logo,ACC-027,Jon Bell,73000,Negotiation,2026-10-24,2026-09-30,false,Blocked
+OPP-0208,Northstar Systems Analytics,ACC-038,Elena Park,413000,Prospecting,2027-02-10,2026-02-10,false,In Review
+OPP-0209,Aster Logistics Renewal Plus,ACC-049,Diego Ruiz,165000,Evaluation,2026-11-24,2026-02-23,true,Clear
+OPP-0210,Aster Labs Expansion,ACC-001,Amira Chen,25000,Proposal,2026-12-01,2026-03-08,false,Not Required
+OPP-0211,Lumen Health Platform,ACC-012,Owen Price,364000,Qualification,2026-12-08,2026-03-21,true,Clear
+OPP-0212,Willow Systems New Logo,ACC-023,Mina Shah,41000,Closed Lost,2026-11-03,2026-04-03,false,In Review
+OPP-0213,Juniper Logistics Analytics,ACC-034,Jon Bell,399000,Contract,2026-12-22,2026-04-16,true,Not Required
+OPP-0214,Umber Works Renewal Plus,ACC-045,Elena Park,57000,Negotiation,2026-12-29,2026-04-29,false,Clear
+OPP-0215,Harbor Labs Expansion,ACC-056,Diego Ruiz,579000,Demo,2026-11-19,2026-05-12,true,Clear
+OPP-0216,Grove Health Platform,ACC-007,Amira Chen,166000,Proposal,2026-10-25,2026-05-25,false,In Review
+OPP-0217,Solace Logistics New Logo,ACC-019,Owen Price,80000,Discovery,2026-12-03,2026-06-07,false,Clear
+OPP-0218,Fable Works Analytics,ACC-030,Mina Shah,201000,Demo,2026-12-10,2026-06-20,true,Clear
+OPP-0219,Quartz Labs Renewal Plus,ACC-041,Jon Bell,24000,Proposal,2026-12-17,2026-07-03,false,Not Required
+OPP-0220,Drift Health Expansion,ACC-052,Elena Park,236000,Evaluation,2026-12-24,2026-07-16,true,In Review
+OPP-0221,Cinder Systems Platform,ACC-003,Diego Ruiz,253000,Demo,2027-02-04,2026-07-29,true,Clear
+OPP-0222,Northstar Logistics New Logo,ACC-014,Amira Chen,48000,Contract,2026-11-21,2026-08-11,false,Not Required
+OPP-0223,Aster Works Analytics,ACC-025,Owen Price,288000,Closed Won,2026-11-27,2026-08-24,true,Clear
+OPP-0224,Mosaic Health Renewal Plus,ACC-037,Mina Shah,64000,Negotiation,2026-12-05,2026-09-06,false,In Review
+OPP-0225,Zenith Systems Expansion,ACC-048,Jon Bell,323000,Closed Won,2026-10-01,2026-09-19,true,Not Required
+OPP-0226,Kite Logistics Platform,ACC-059,Elena Park,80000,Evaluation,2026-12-19,2026-10-02,false,Clear
+OPP-0227,Juniper Works New Logo,ACC-010,Diego Ruiz,88000,Contract,2026-12-26,2026-02-12,false,Clear
+OPP-0228,Umber Labs Analytics,ACC-021,Amira Chen,375000,Qualification,2026-11-16,2026-02-25,false,In Review
+OPP-0229,Harbor Health Renewal Plus,ACC-032,Owen Price,31000,Negotiation,2026-11-23,2026-03-10,false,Clear
+OPP-0230,Solace Systems Expansion,ACC-043,Mina Shah,124000,Evaluation,2026-11-30,2026-03-23,true,Blocked
+OPP-0231,Grove Works Platform,ACC-055,Jon Bell,47000,Discovery,2026-12-07,2026-04-05,true,Not Required
+OPP-0232,Fable Labs New Logo,ACC-006,Elena Park,508000,Discovery,2026-12-14,2026-04-18,false,In Review
+OPP-0233,Quartz Health Analytics,ACC-017,Diego Ruiz,98000,Contract,2026-12-21,2026-05-01,false,Clear
+OPP-0234,Drift Systems Renewal Plus,ACC-028,Amira Chen,71000,Discovery,2027-01-29,2026-05-14,false,Not Required
+OPP-0235,Orbit Logistics Expansion,ACC-039,Owen Price,211000,Demo,2026-11-18,2026-05-27,true,Clear
+OPP-0236,Beacon Works Platform,ACC-050,Mina Shah,87000,Proposal,2026-11-25,2026-06-09,false,In Review
+OPP-0237,Aster Labs New Logo,ACC-001,Jon Bell,23000,Demo,2026-12-02,2026-06-22,false,Not Required
+OPP-0238,Mosaic Systems Analytics,ACC-013,Elena Park,150000,Proposal,2026-09-04,2026-07-05,false,Clear
+OPP-0239,Zenith Logistics Renewal Plus,ACC-024,Diego Ruiz,674000,Discovery,2026-12-16,2026-07-18,true,Clear
+OPP-0240,Kite Works Expansion,ACC-035,Amira Chen,171000,Qualification,2026-12-23,2026-07-31,false,In Review

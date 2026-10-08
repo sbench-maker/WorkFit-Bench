@@ -1,0 +1,144 @@
+{
+  "policy_version": "support-routing-2026-08",
+  "match_semantics": "case-insensitive substring; first matching rule wins; otherwise use fallback",
+  "rules": [
+    {
+      "id": "credential_exposure",
+      "category": "security",
+      "priority": "P0",
+      "team": "security-response",
+      "any_phrases": [
+        "api token exposed",
+        "password posted publicly",
+        "secret key leaked"
+      ],
+      "action": "Revoke exposed credentials, preserve evidence, and contact the security on-call.",
+      "requires_human": true
+    },
+    {
+      "id": "unauthorized_access",
+      "category": "security",
+      "priority": "P0",
+      "team": "security-response",
+      "any_phrases": [
+        "unknown admin login",
+        "unrecognized administrator",
+        "account takeover"
+      ],
+      "action": "Contain the account, preserve access logs, and begin the takeover runbook.",
+      "requires_human": true
+    },
+    {
+      "id": "widespread_outage",
+      "category": "reliability",
+      "priority": "P0",
+      "team": "sre-oncall",
+      "any_phrases": [
+        "all workspaces unavailable",
+        "every checkout failing",
+        "region-wide outage"
+      ],
+      "action": "Page the reliability on-call and open an incident channel.",
+      "requires_human": true
+    },
+    {
+      "id": "privacy_request",
+      "category": "privacy",
+      "priority": "P1",
+      "team": "privacy-operations",
+      "any_phrases": [
+        "delete all personal data",
+        "export my personal data",
+        "data subject request"
+      ],
+      "action": "Verify identity and route through the privacy request workflow.",
+      "requires_human": true
+    },
+    {
+      "id": "account_lockout",
+      "category": "access",
+      "priority": "P1",
+      "team": "identity-support",
+      "any_phrases": [
+        "locked out after mfa",
+        "cannot pass two-factor",
+        "recovery codes rejected"
+      ],
+      "action": "Verify account ownership and start the secure access-recovery flow.",
+      "requires_human": true
+    },
+    {
+      "id": "duplicate_charge",
+      "category": "billing",
+      "priority": "P1",
+      "team": "billing-operations",
+      "any_phrases": [
+        "charged twice",
+        "duplicate annual charge",
+        "same invoice paid twice"
+      ],
+      "action": "Review the payment ledger, stop further collection, and correct any duplicate charge.",
+      "requires_human": true
+    },
+    {
+      "id": "refund_delay",
+      "category": "billing",
+      "priority": "P2",
+      "team": "billing-operations",
+      "any_phrases": [
+        "refund still missing",
+        "refund overdue",
+        "credit has not arrived"
+      ],
+      "action": "Check the refund trace and send the customer a dated status update.",
+      "requires_human": false
+    },
+    {
+      "id": "degraded_performance",
+      "category": "reliability",
+      "priority": "P2",
+      "team": "service-operations",
+      "any_phrases": [
+        "requests are very slow",
+        "intermittent timeouts",
+        "latency doubled"
+      ],
+      "action": "Collect request identifiers and correlate them with service health telemetry.",
+      "requires_human": false
+    },
+    {
+      "id": "feature_request",
+      "category": "general",
+      "priority": "P3",
+      "team": "customer-success",
+      "any_phrases": [
+        "feature request",
+        "would like an integration",
+        "please add support for"
+      ],
+      "action": "Record the request with its use case and share the product feedback reference.",
+      "requires_human": false
+    },
+    {
+      "id": "how_to",
+      "category": "general",
+      "priority": "P3",
+      "team": "customer-success",
+      "any_phrases": [
+        "how do i",
+        "where can i find",
+        "need setup guidance"
+      ],
+      "action": "Provide the relevant setup steps and confirm whether the customer is unblocked.",
+      "requires_human": false
+    }
+  ],
+  "fallback": {
+    "rule_id": "fallback",
+    "category": "general",
+    "priority": "P3",
+    "team": "customer-success",
+    "action": "Acknowledge the request and route it for ordinary customer-success follow-up.",
+    "requires_human": false
+  }
+}

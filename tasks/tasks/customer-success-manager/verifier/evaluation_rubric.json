@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__scoring_rollups",
+      "title": "Portfolio health, churn, and expansion correctness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The scored population, health distribution and average, churn distribution and ARR exposure, and modeled versus eligible expansion totals agree with the frozen CRM data and operating policy.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_portfolio_scoring_rollups"
+      ]
+    },
+    {
+      "id": "completion__queue_decisions",
+      "title": "Correct action-queue eligibility, priority, and value",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The save queue includes every account triggered by health, churn tier, or a critical warning in the declared priority order; the growth queue contains only healthy, low-risk accounts without severe warnings, is correctly ranked, and reports correct opportunity value.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_action_queues_and_priorities"
+      ]
+    },
+    {
+      "id": "completion__data_quality_quarantine",
+      "title": "Complete and accurate CRM data quarantine",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every incomplete or contradictory account is excluded from scoring and action queues and appears once in human review with the actual defect identified.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_data_quality_quarantine"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__scoring_rollups",
+        "title": "Portfolio health, churn, and expansion correctness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__queue_decisions",
+        "title": "Correct action-queue eligibility, priority, and value",
+        "required_score": 10
+      },
+      {
+        "id": "completion__data_quality_quarantine",
+        "title": "Complete and accurate CRM data quarantine",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

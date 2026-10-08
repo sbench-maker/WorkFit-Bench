@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "records": {
+    "project_events.csv": 240,
+    "maintenance_tickets.json": 14,
+    "component_inventory.json": 8
+  },
+  "fictional": true,
+  "reporting_cutoff": "2026-08-31",
+  "intentional_variation": [
+    "closed historical ticket",
+    "committed feature tickets",
+    "conflicting documentation and configuration",
+    "repeated event clusters"
+  ]
+}

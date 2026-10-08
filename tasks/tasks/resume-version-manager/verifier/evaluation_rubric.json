@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__master_and_inventory",
+      "title": "Canonical master and complete version inventory",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The register selects the actual current master and includes every tailored version with its correct base lineage and lineage validity.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_master_source_of_truth",
+        "test_version_inventory_and_lineage"
+      ]
+    },
+    {
+      "id": "completion__application_reconciliation",
+      "title": "Submitted application reconciliation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every submitted application is represented once with the correct resolution state, resolved version or unresolved candidates, including conflicting and impossible evidence.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_submitted_application_coverage",
+        "test_application_reconciliation_values"
+      ]
+    },
+    {
+      "id": "completion__update_and_lifecycle",
+      "title": "Update propagation and lifecycle decisions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each version reports the correct linked/open applications, relevant missing updates, and lifecycle action without deleting historical records.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_update_propagation_and_linkage",
+        "test_lifecycle_actions"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__master_and_inventory",
+        "title": "Canonical master and complete version inventory",
+        "required_score": 10
+      },
+      {
+        "id": "completion__application_reconciliation",
+        "title": "Submitted application reconciliation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__update_and_lifecycle",
+        "title": "Update propagation and lifecycle decisions",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

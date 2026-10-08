@@ -1,0 +1,9 @@
+metric_id,metric,segment,numerator,denominator,value_percent,window,limitation
+M-01,approval_cycle_over_48h,all,64,168,38.1,2026-08-03/2026-08-28,"Withdrawn requisitions excluded; this is descriptive, not causal."
+M-02,approval_cycle_over_48h,small,8,44,18.2,2026-08-03/2026-08-28,Account size is a proxy for workflow complexity.
+M-03,approval_cycle_over_48h,mid_market,24,68,35.3,2026-08-03/2026-08-28,Account size is a proxy for workflow complexity.
+M-04,approval_cycle_over_48h,enterprise,32,56,57.1,2026-08-03/2026-08-28,Account size is a proxy for workflow complexity.
+M-05,recruiter_rechecks_after_handoff_among_delayed,all,49,64,76.6,2026-08-03/2026-08-28,"A recheck can reflect monitoring, not necessarily confusion."
+M-06,reminder_open_rate,all,22,73,30.1,2026-08-03/2026-08-28,Open tracking can undercount privacy-protected email clients.
+M-07,completion_within_24h_after_reminder,all,9,73,12.3,2026-08-03/2026-08-28,No holdout group; do not attribute completion to the reminder.
+M-08,mobile_request_abandonment,hiring_manager,18,52,34.6,2026-08-03/2026-08-28,Device detection does not reveal why a session ended.

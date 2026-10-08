@@ -1,0 +1,33 @@
+{
+  "files": {
+    "approval.json": {
+      "complete": true,
+      "records": 1
+    },
+    "devfleet_mock.py": {
+      "complete": true,
+      "role": "offline state-transition simulator"
+    },
+    "generation_notes.json": {
+      "complete": true,
+      "records": 1
+    },
+    "initial_dashboard.json": {
+      "complete": true,
+      "records": 1
+    },
+    "release_request.md": {
+      "complete": true
+    },
+    "repository_inventory.json": {
+      "complete": true,
+      "records": 240
+    },
+    "test_history.jsonl": {
+      "complete": true,
+      "records": 260
+    }
+  },
+  "fixture_kind": "deterministic fictional snapshot",
+  "truncated": false
+}

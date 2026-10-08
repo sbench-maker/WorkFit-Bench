@@ -1,0 +1,37 @@
+[
+  {
+    "article_id": "KB-104",
+    "title": "Import contacts from a CSV file",
+    "path": "/kb/import-contacts-csv",
+    "status": "published",
+    "scope": "Standard CSV contact import setup and field preview."
+  },
+  {
+    "article_id": "KB-118",
+    "title": "Fix CSV column validation errors",
+    "path": "/kb/troubleshoot-csv-column-validation",
+    "status": "published",
+    "scope": "CSV-102 header and field matching errors."
+  },
+  {
+    "article_id": "KB-077",
+    "title": "Deactivate or restore a workspace member",
+    "path": "/kb/manage-workspace-members",
+    "status": "published",
+    "scope": "Workspace member lifecycle and permissions."
+  },
+  {
+    "article_id": "KB-131",
+    "title": "Monitor contact import activity",
+    "path": "/kb/monitor-contact-imports",
+    "status": "published",
+    "scope": "Import status, imported rows, and skipped row counts."
+  },
+  {
+    "article_id": "DRAFT-22",
+    "title": "Import errors roundup",
+    "path": null,
+    "status": "abandoned",
+    "scope": "Unfocused internal draft; not approved and not a duplicate of a customer article."
+  }
+]

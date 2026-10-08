@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_contract",
+      "title": "Importable agent artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON exists, is readable, and satisfies the bundled deployment contract with substantive agent identity and prompt content.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_contract"
+      ]
+    },
+    {
+      "id": "completion__action_boundaries",
+      "title": "Tool and action boundaries",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The agent attaches only the supplied tools, treats customer communication as draft-only, and requires verified tool success before representing an action as complete.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_tool_and_action_boundaries"
+      ]
+    },
+    {
+      "id": "completion__routing_escalation",
+      "title": "Triage and escalation coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every supported ticket class has an appropriate default disposition, and each policy trigger routes to the correct human queue with a usable reason.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_routing_and_escalation_policy"
+      ]
+    },
+    {
+      "id": "completion__refund_policy",
+      "title": "Refund eligibility and failure handling",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The configuration faithfully encodes all automatic-refund conditions, required tools, the sole success state, and the route for non-successful outcomes.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_refund_policy_alignment"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_contract",
+        "title": "Importable agent artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__action_boundaries",
+        "title": "Tool and action boundaries",
+        "required_score": 10
+      },
+      {
+        "id": "completion__routing_escalation",
+        "title": "Triage and escalation coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__refund_policy",
+        "title": "Refund eligibility and failure handling",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

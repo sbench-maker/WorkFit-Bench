@@ -1,0 +1,62 @@
+{
+  "dataset_note": "Deterministic fictional CRM snapshot for offline planning.",
+  "period": "Q4 FY2026",
+  "as_of_date": "2026-11-14",
+  "period_start": "2026-10-01",
+  "period_end": "2026-12-31",
+  "quota_usd": 24000000,
+  "currency": "USD",
+  "stage_probabilities": {
+    "Prospecting": 0.1,
+    "Qualification": 0.2,
+    "Discovery": 0.2,
+    "Demo": 0.4,
+    "Evaluation": 0.4,
+    "Proposal": 0.6,
+    "Quote": 0.6,
+    "Negotiation": 0.8,
+    "Contract": 0.8
+  },
+  "scope_policy": {
+    "open_stages": [
+      "Prospecting",
+      "Qualification",
+      "Discovery",
+      "Demo",
+      "Evaluation",
+      "Proposal",
+      "Quote",
+      "Negotiation",
+      "Contract"
+    ],
+    "quarter_pipeline": "Include only open-stage opportunities whose close_date is between period_start and period_end, inclusive.",
+    "closed_to_date": "Sum Booked rows in bookings.csv whose booked_date is within the reporting period and no later than as_of_date."
+  },
+  "scenario_policy": {
+    "best_case": "closed_to_date plus the full amount of every in-scope open opportunity",
+    "likely_case": "closed_to_date plus each in-scope open amount multiplied by its stage probability",
+    "worst_case": "closed_to_date plus the full amount of every deal classified as commit",
+    "gap_to_quota": "max(0, quota minus likely_case)",
+    "coverage_ratio": "in-scope open pipeline divided by max(quota minus closed_to_date, 1)"
+  },
+  "commit_policy": {
+    "eligible_stages": [
+      "Negotiation",
+      "Contract"
+    ],
+    "maximum_activity_age_days": 14,
+    "close_date_must_be_on_or_after_as_of_date": true,
+    "blocked_security_status": "Blocked",
+    "large_deal_threshold_usd": 250000,
+    "large_deal_requires_exec_sponsor": true,
+    "classification": "Every in-scope open opportunity is either commit or upside. Commit requires all rules above; all others are upside."
+  },
+  "risk_policy": {
+    "stale_activity": "No recorded activity, or latest activity is more than 14 days before as_of_date.",
+    "overdue_close": "Open opportunity close_date is before as_of_date.",
+    "compressed_early_stage": "Prospecting, Qualification, or Discovery opportunity closes from as_of_date through 14 days after it, inclusive.",
+    "large_without_sponsor": "Opportunity amount is at least the large-deal threshold and exec_sponsor_confirmed is false.",
+    "blocked_security": "security_review_status equals the blocked security status."
+  },
+  "reporting_note": "Risk flags do not change the stage-weighted likely-case math; they govern commit decisions and actions."
+}

@@ -1,0 +1,3 @@
+Fictional offline export for a daily standup. No records are real observations.
+
+profile.json identifies the standup subject, local timezone, standup date, and export cutoff. All activity timestamps are UTC and the local calendar day controls whether an event belongs to yesterday or today. pull_requests.json embeds review events; ticket_events.csv is chronological history while tickets.json holds the snapshot state. For repeated CI runs on the same ref and workflow, the later completed run is the current signal; a later success resolves an earlier failure. Bot and other-team activity can provide context but is not automatically the subject's work.

@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__lead_ranking",
+      "title": "Eligible lead selection and ranking",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The five call cards select and order the eligible contacts according to the frozen pipeline, activity, contact restriction, and ranking policy data.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_selected_leads_and_rank_order"
+      ]
+    },
+    {
+      "id": "completion__calendar_feasibility",
+      "title": "Conflict-free proposed call blocks",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each selected lead has one distinct 20-minute proposal on the target date inside working hours, with no collision with a busy or proposed interval.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_calendar_proposals_are_feasible"
+      ]
+    },
+    {
+      "id": "completion__follow_up_scope_and_safety",
+      "title": "Due follow-up coverage and approval safety",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Drafts cover exactly the selected leads whose latest thread is unanswered beyond the policy threshold, and the artifact does not represent messages, events, or CRM changes as executed.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_follow_up_scope_and_nonexecution"
+      ]
+    },
+    {
+      "id": "completion__follow_up_draft_quality",
+      "title": "Specific and actionable follow-up drafts",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each due draft is concise, references the actual unresolved conversation, asks for a clear next step, and is ready for owner review without implying it was sent.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__lead_ranking",
+        "title": "Eligible lead selection and ranking",
+        "required_score": 10
+      },
+      {
+        "id": "completion__calendar_feasibility",
+        "title": "Conflict-free proposed call blocks",
+        "required_score": 10
+      },
+      {
+        "id": "completion__follow_up_scope_and_safety",
+        "title": "Due follow-up coverage and approval safety",
+        "required_score": 10
+      },
+      {
+        "id": "completion__follow_up_draft_quality",
+        "title": "Specific and actionable follow-up drafts",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

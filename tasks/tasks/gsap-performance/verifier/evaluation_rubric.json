@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__deliverable_integrity",
+      "title": "Applicable deliverables",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The unified patch applies safely to the supplied checkout, leaves valid JavaScript, and the requested handoff is present and readable.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_deliverables_apply_and_open"
+      ]
+    },
+    {
+      "id": "completion__interaction_fidelity",
+      "title": "Interaction and accessibility fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Card, halo, and drawer endpoints and public states remain consistent with the bundled interaction contract, including zero-duration reduced-motion behavior.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_interaction_contract_and_reduced_motion"
+      ]
+    },
+    {
+      "id": "completion__hot_path_efficiency",
+      "title": "Pointer and reveal hot-path efficiency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "High-frequency pointer updates and visible-card reveals produce bounded animation work, do not interleave layout reads and animation writes, avoid layout-changing animated properties, and do not replay completed reveals.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_hot_paths_avoid_layout_churn_and_tween_fanout"
+      ]
+    },
+    {
+      "id": "completion__lifecycle_efficiency",
+      "title": "Resize and teardown lifecycle",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "A resize burst eventually causes a bounded refresh, and cleanup prevents pending or later events from creating animation work, changing state, or refreshing layout.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_resize_burst_and_cleanup_are_bounded"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__deliverable_integrity",
+        "title": "Applicable deliverables",
+        "required_score": 10
+      },
+      {
+        "id": "completion__interaction_fidelity",
+        "title": "Interaction and accessibility fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__hot_path_efficiency",
+        "title": "Pointer and reveal hot-path efficiency",
+        "required_score": 10
+      },
+      {
+        "id": "completion__lifecycle_efficiency",
+        "title": "Resize and teardown lifecycle",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

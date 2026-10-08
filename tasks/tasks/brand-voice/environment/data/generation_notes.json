@@ -1,0 +1,13 @@
+{
+  "method": "deterministic local construction",
+  "fictional_entities": true,
+  "files": {
+    "source_materials.jsonl": 18,
+    "campaign_brief.md": 1
+  },
+  "design_notes": [
+    "The archive stays within the natural 5-to-20 sample size of a curated voice corpus.",
+    "Recent public originals and private customer emails form distinct but related channels.",
+    "Two older, low-signal samples deliberately conflict with the recent corpus so recency judgment is observable."
+  ]
+}

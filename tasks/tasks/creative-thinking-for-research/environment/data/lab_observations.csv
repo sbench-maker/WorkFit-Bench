@@ -1,0 +1,73 @@
+site_group,drift_pattern,intervention,rare_recall,latency_p95_ms,adaptation_power_w,daily_uplink_mb,observation,confidence,related_assumption_ids,obs_id
+north,compound lighting/package drift,nightly global averaging,0.41,71,1.82,6.8,Rare-incident recall collapses although mean validation F1 changes by only 0.03.,high,ASM-005;ASM-009,OBS-001
+all,early drift,cross-robot disagreement logging,0.58,70,1.83,0.3,A rise in disagreement between independently adapted robots precedes the first labeled failure by 9 to 17 hours.,high,ASM-007;ASM-008,OBS-002
+east,location-linked layout churn,zone-tagged uncertainty summaries,0.63,73,1.88,0.5,Uncertainty spikes recur at the same loading zones and shift changes even after the originating robot leaves.,high,ASM-010;ASM-014,OBS-003
+south,seasonal reflective wrapping,adapter reactivation,0.72,76,1.94,0.2,"A four-month-old adapter recovers performance in 140 examples; retraining from the current model needs 1,900 examples.",medium,ASM-009;ASM-012,OBS-004
+all,site-specific rare classes,diverse local specialists,0.69,78,1.96,1.1,Pairs of intentionally diverse specialists make complementary errors; forcing convergence removes most of the gain.,high,ASM-005;ASM-011,OBS-005
+west,camera replacement,entropy-quantile sketch,0.61,72,1.86,0.08,A 2.2 KB quantile sketch identifies the affected feature stages with 87 percent precision without transmitting images.,medium,ASM-008;ASM-013,OBS-006
+north,recurring dawn glare,full replay retraining,0.55,79,2.38,0.0,Full replay exceeds the adaptation power ceiling and overwrites a specialist that was useful at dusk.,high,ASM-003;ASM-012,OBS-007
+south,rare spill class,uniform confidence threshold,0.38,69,1.79,0.0,Globally calibrated confidence hides a small but coherent failure cluster at two sites.,high,ASM-006;ASM-011,OBS-008
+east,scanner occlusion,metadata bulletin,0.66,74,1.87,0.12,A 160-byte site/time bulletin lets later robots increase scrutiny before entering the affected aisle.,medium,ASM-010;ASM-014,OBS-009
+all,mixed recurrent and novel drift,single forgetting score,0.49,72,1.84,0.0,The aggregate forgetting score treats rapid recovery of recurrent regimes as failure and masks slow adaptation to truly novel regimes.,high,ASM-009;ASM-015,OBS-010
+west,label delay,pseudo-label self-training,0.44,77,2.07,0.4,Self-training amplifies correlated false positives when every robot begins from the same global checkpoint.,high,ASM-005;ASM-007,OBS-011
+north,forklift-route change,neighbor specialist query,0.71,79,1.99,3.2,Querying a peer selected by error signature outperforms querying the most similar site by 11 recall points.,medium,ASM-005;ASM-016,OBS-012
+south,dust accumulation,fixed monthly reset,0.57,68,1.76,0.0,Resetting on a calendar boundary destroys gradual adaptation while leaving the causal camera condition unchanged.,medium,ASM-009;ASM-014,OBS-013
+east,new packaging family,gradient compression,0.59,73,1.91,7.7,Compressed gradients nearly exhaust the daily link budget and reveal less about which failure relation changed than a 3 KB error signature.,medium,ASM-004;ASM-008,OBS-014
+all,simultaneous local shifts,central coordinator outage,0.47,70,1.81,0.0,Robots can exchange short signed messages peer-to-peer but cannot wait for a fleet-wide barrier during the shift.,high,ASM-017;ASM-018,OBS-015
+west,rare human pose,two-pass uncertainty check,0.68,79,1.98,0.0,A selective second pass stays inside the alert deadline when used on fewer than six percent of frames.,medium,ASM-002;ASM-019,OBS-016
+south,camera aging,prototype cache,0.56,70,1.66,6.3,The failure recurs after a quiet interval and resembles an earlier local regime.,high,ASM-016;ASM-018,OBS-017
+north,shift-boundary mix,periodic reset,0.39,77,1.77,7.6,Independent models disagree most on the examples later confirmed as rare failures.,medium,ASM-005;ASM-011,OBS-018
+mixed,shelf-layout change,compressed update,0.56,65,1.88,1.0,"Coordination overhead, rather than inference, is the limiting resource in this run.",low,ASM-007;ASM-009,OBS-019
+pilot,route-policy change,peer checkpoint,0.39,72,1.99,2.3,The aggregate metric conceals a coherent minority failure pattern.,medium,ASM-008;ASM-013,OBS-020
+west,partial occlusion,confidence gate,0.56,79,2.1,3.6,Performance varies sharply by regime even when the fleet mean appears stable.,high,ASM-010;ASM-014,OBS-021
+east,packaging texture shift,tiny adapter,0.39,67,2.21,4.9,The lightweight intervention helps one site but transfers poorly to a second site.,medium,ASM-012;ASM-015,OBS-022
+south,rare-object arrival,nightly global averaging,0.56,74,1.71,6.2,A compact diagnostic signal arrives before enough labels exist for retraining.,low,ASM-016;ASM-018,OBS-023
+north,illumination ramp,local replay,0.39,81,1.82,7.5,The failure recurs after a quiet interval and resembles an earlier local regime.,medium,ASM-005;ASM-011,OBS-024
+mixed,camera aging,prototype cache,0.56,69,1.93,0.9,Independent models disagree most on the examples later confirmed as rare failures.,high,ASM-007;ASM-009,OBS-025
+pilot,shift-boundary mix,periodic reset,0.39,76,2.04,2.2,"Coordination overhead, rather than inference, is the limiting resource in this run.",medium,ASM-008;ASM-013,OBS-026
+west,shelf-layout change,compressed update,0.56,83,2.15,3.5,The aggregate metric conceals a coherent minority failure pattern.,low,ASM-010;ASM-014,OBS-027
+east,route-policy change,peer checkpoint,0.39,71,1.65,4.8,Performance varies sharply by regime even when the fleet mean appears stable.,medium,ASM-012;ASM-015,OBS-028
+south,partial occlusion,confidence gate,0.56,78,1.76,6.1,The lightweight intervention helps one site but transfers poorly to a second site.,high,ASM-016;ASM-018,OBS-029
+north,packaging texture shift,tiny adapter,0.39,66,1.87,7.4,A compact diagnostic signal arrives before enough labels exist for retraining.,medium,ASM-005;ASM-011,OBS-030
+mixed,rare-object arrival,nightly global averaging,0.56,73,1.98,0.8,The failure recurs after a quiet interval and resembles an earlier local regime.,low,ASM-007;ASM-009,OBS-031
+pilot,illumination ramp,local replay,0.39,80,2.09,2.1,Independent models disagree most on the examples later confirmed as rare failures.,medium,ASM-008;ASM-013,OBS-032
+west,camera aging,prototype cache,0.56,68,2.2,3.4,"Coordination overhead, rather than inference, is the limiting resource in this run.",high,ASM-010;ASM-014,OBS-033
+east,shift-boundary mix,periodic reset,0.39,75,1.7,4.7,The aggregate metric conceals a coherent minority failure pattern.,medium,ASM-012;ASM-015,OBS-034
+south,shelf-layout change,compressed update,0.56,82,1.81,6.0,Performance varies sharply by regime even when the fleet mean appears stable.,low,ASM-016;ASM-018,OBS-035
+north,route-policy change,peer checkpoint,0.39,70,1.92,7.3,The lightweight intervention helps one site but transfers poorly to a second site.,medium,ASM-005;ASM-011,OBS-036
+mixed,partial occlusion,confidence gate,0.56,77,2.03,0.7,A compact diagnostic signal arrives before enough labels exist for retraining.,high,ASM-007;ASM-009,OBS-037
+pilot,packaging texture shift,tiny adapter,0.39,65,2.14,2.0,The failure recurs after a quiet interval and resembles an earlier local regime.,medium,ASM-008;ASM-013,OBS-038
+west,rare-object arrival,nightly global averaging,0.56,72,1.64,3.3,Independent models disagree most on the examples later confirmed as rare failures.,low,ASM-010;ASM-014,OBS-039
+east,illumination ramp,local replay,0.39,79,1.75,4.6,"Coordination overhead, rather than inference, is the limiting resource in this run.",medium,ASM-012;ASM-015,OBS-040
+south,camera aging,prototype cache,0.56,67,1.86,5.9,The aggregate metric conceals a coherent minority failure pattern.,high,ASM-016;ASM-018,OBS-041
+north,shift-boundary mix,periodic reset,0.39,74,1.97,7.2,Performance varies sharply by regime even when the fleet mean appears stable.,medium,ASM-005;ASM-011,OBS-042
+mixed,shelf-layout change,compressed update,0.56,81,2.08,0.6,The lightweight intervention helps one site but transfers poorly to a second site.,low,ASM-007;ASM-009,OBS-043
+pilot,route-policy change,peer checkpoint,0.39,69,2.19,1.9,A compact diagnostic signal arrives before enough labels exist for retraining.,medium,ASM-008;ASM-013,OBS-044
+west,partial occlusion,confidence gate,0.56,76,1.69,3.2,The failure recurs after a quiet interval and resembles an earlier local regime.,high,ASM-010;ASM-014,OBS-045
+east,packaging texture shift,tiny adapter,0.39,83,1.8,4.5,Independent models disagree most on the examples later confirmed as rare failures.,medium,ASM-012;ASM-015,OBS-046
+south,rare-object arrival,nightly global averaging,0.56,71,1.91,5.8,"Coordination overhead, rather than inference, is the limiting resource in this run.",low,ASM-016;ASM-018,OBS-047
+north,illumination ramp,local replay,0.39,78,2.02,7.1,The aggregate metric conceals a coherent minority failure pattern.,medium,ASM-005;ASM-011,OBS-048
+mixed,camera aging,prototype cache,0.56,66,2.13,0.5,Performance varies sharply by regime even when the fleet mean appears stable.,high,ASM-007;ASM-009,OBS-049
+pilot,shift-boundary mix,periodic reset,0.39,73,1.63,1.8,The lightweight intervention helps one site but transfers poorly to a second site.,medium,ASM-008;ASM-013,OBS-050
+west,shelf-layout change,compressed update,0.56,80,1.74,3.1,A compact diagnostic signal arrives before enough labels exist for retraining.,low,ASM-010;ASM-014,OBS-051
+east,route-policy change,peer checkpoint,0.39,68,1.85,4.4,The failure recurs after a quiet interval and resembles an earlier local regime.,medium,ASM-012;ASM-015,OBS-052
+south,partial occlusion,confidence gate,0.56,75,1.96,5.7,Independent models disagree most on the examples later confirmed as rare failures.,high,ASM-016;ASM-018,OBS-053
+north,packaging texture shift,tiny adapter,0.39,82,2.07,7.0,"Coordination overhead, rather than inference, is the limiting resource in this run.",medium,ASM-005;ASM-011,OBS-054
+mixed,rare-object arrival,nightly global averaging,0.56,70,2.18,0.4,The aggregate metric conceals a coherent minority failure pattern.,low,ASM-007;ASM-009,OBS-055
+pilot,illumination ramp,local replay,0.39,77,1.68,1.7,Performance varies sharply by regime even when the fleet mean appears stable.,medium,ASM-008;ASM-013,OBS-056
+west,camera aging,prototype cache,0.56,65,1.79,3.0,The lightweight intervention helps one site but transfers poorly to a second site.,high,ASM-010;ASM-014,OBS-057
+east,shift-boundary mix,periodic reset,0.39,72,1.9,4.3,A compact diagnostic signal arrives before enough labels exist for retraining.,medium,ASM-012;ASM-015,OBS-058
+south,shelf-layout change,compressed update,0.56,79,2.01,5.6,The failure recurs after a quiet interval and resembles an earlier local regime.,low,ASM-016;ASM-018,OBS-059
+north,route-policy change,peer checkpoint,0.39,67,2.12,6.9,Independent models disagree most on the examples later confirmed as rare failures.,medium,ASM-005;ASM-011,OBS-060
+mixed,partial occlusion,confidence gate,0.56,74,1.62,0.3,"Coordination overhead, rather than inference, is the limiting resource in this run.",high,ASM-007;ASM-009,OBS-061
+pilot,packaging texture shift,tiny adapter,0.39,81,1.73,1.6,The aggregate metric conceals a coherent minority failure pattern.,medium,ASM-008;ASM-013,OBS-062
+west,rare-object arrival,nightly global averaging,0.56,69,1.84,2.9,Performance varies sharply by regime even when the fleet mean appears stable.,low,ASM-010;ASM-014,OBS-063
+east,illumination ramp,local replay,0.39,76,1.95,4.2,The lightweight intervention helps one site but transfers poorly to a second site.,medium,ASM-012;ASM-015,OBS-064
+south,camera aging,prototype cache,0.56,83,2.06,5.5,A compact diagnostic signal arrives before enough labels exist for retraining.,high,ASM-016;ASM-018,OBS-065
+north,shift-boundary mix,periodic reset,0.39,71,2.17,6.8,The failure recurs after a quiet interval and resembles an earlier local regime.,medium,ASM-005;ASM-011,OBS-066
+mixed,shelf-layout change,compressed update,0.56,78,1.67,0.2,Independent models disagree most on the examples later confirmed as rare failures.,low,ASM-007;ASM-009,OBS-067
+pilot,route-policy change,peer checkpoint,0.39,66,1.78,1.5,"Coordination overhead, rather than inference, is the limiting resource in this run.",medium,ASM-008;ASM-013,OBS-068
+west,partial occlusion,confidence gate,0.56,73,1.89,2.8,The aggregate metric conceals a coherent minority failure pattern.,high,ASM-010;ASM-014,OBS-069
+east,packaging texture shift,tiny adapter,0.39,80,2.0,4.1,Performance varies sharply by regime even when the fleet mean appears stable.,medium,ASM-012;ASM-015,OBS-070
+south,rare-object arrival,nightly global averaging,0.56,68,2.11,5.4,The lightweight intervention helps one site but transfers poorly to a second site.,low,ASM-016;ASM-018,OBS-071
+north,illumination ramp,local replay,0.39,75,2.22,6.7,A compact diagnostic signal arrives before enough labels exist for retraining.,medium,ASM-005;ASM-011,OBS-072

@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Usable and complete support handoff",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON handoff is readable, identifies the documentation snapshot, and includes one substantive answer with supporting pages for every queued case.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_scope"
+      ]
+    },
+    {
+      "id": "completion__page_discovery",
+      "title": "Relevant minimal documentation pages",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each case cites the smallest set of canonical mirror pages needed to support its documented answer, without irrelevant or fabricated URLs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_page_discovery"
+      ]
+    },
+    {
+      "id": "completion__guidance_accuracy",
+      "title": "Accurate documented guidance",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The case answers preserve the operational facts, state transitions, return values, and important negative constraints stated in the cited Markdown snapshots.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Usable and complete support handoff",
+        "required_score": 10
+      },
+      {
+        "id": "completion__page_discovery",
+        "title": "Relevant minimal documentation pages",
+        "required_score": 10
+      },
+      {
+        "id": "completion__guidance_accuracy",
+        "title": "Accurate documented guidance",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

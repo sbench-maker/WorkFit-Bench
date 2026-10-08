@@ -1,0 +1,129 @@
+{
+  "policy_version": "orion-observability-2026-08",
+  "platform": "Google Cloud Monitoring",
+  "profiles": {
+    "production": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "JOBSET",
+        "CADVISOR",
+        "KUBELET",
+        "DCGM",
+        "APISERVER",
+        "SCHEDULER",
+        "CONTROLLER_MANAGER"
+      ],
+      "managed_prometheus": "enabled",
+      "dataplane_v2_flow_metrics": "enabled only when the cluster uses Dataplane V2"
+    },
+    "staging": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS",
+        "WORKLOADS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS",
+        "STORAGE",
+        "POD",
+        "DEPLOYMENT",
+        "STATEFULSET",
+        "DAEMONSET",
+        "HPA",
+        "CADVISOR",
+        "KUBELET"
+      ],
+      "conditional_monitoring_components": {
+        "DCGM": "gpu_nodes is true"
+      },
+      "managed_prometheus": "enabled only when custom_metrics_required is true",
+      "dataplane_v2_flow_metrics": "enabled only when the cluster uses Dataplane V2"
+    },
+    "sandbox": {
+      "logging_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "monitoring_components": [
+        "SYSTEM_COMPONENTS"
+      ],
+      "managed_prometheus": "disabled",
+      "dataplane_v2_flow_metrics": "disabled",
+      "cost_intent": "system-only telemetry; remove workload, custom-metric, and flow-metric ingestion"
+    }
+  },
+  "service_endpoints": {
+    "logging_service": "logging.googleapis.com/kubernetes",
+    "monitoring_service": "monitoring.googleapis.com/kubernetes"
+  },
+  "gcloud_component_aliases": {
+    "SYSTEM_COMPONENTS": "SYSTEM",
+    "WORKLOADS": "WORKLOAD",
+    "APISERVER": "API_SERVER"
+  },
+  "production_dashboards": {
+    "required_panels": [
+      "apiserver_request_duration_seconds P99",
+      "container_cpu_usage_seconds_total",
+      "container_memory_working_set_bytes",
+      "kube_pod_container_status_restarts_total",
+      "scheduler_scheduling_duration_seconds"
+    ],
+    "conditional_panels": {
+      "kubelet_volume_stats_used_bytes / kubelet_volume_stats_capacity_bytes": "persistent_volumes is true",
+      "DCGM_FI_DEV_GPU_UTIL": "gpu_nodes is true"
+    }
+  },
+  "production_alerts": [
+    {
+      "id": "api-server-latency",
+      "metric": "apiserver_request_duration_seconds",
+      "condition": "P99 > 5 seconds"
+    },
+    {
+      "id": "pod-crash-loop",
+      "metric": "kube_pod_container_status_restarts_total",
+      "condition": "> 5 restarts in 10 minutes"
+    },
+    {
+      "id": "node-readiness-gap",
+      "metrics": [
+        "kubernetes.io/node/status_condition filtered to Ready",
+        "compute.googleapis.com/instance_group/size filtered to gke-<cluster_name>-.*"
+      ],
+      "condition": "healthy Ready count is less than managed instance group size"
+    },
+    {
+      "id": "scheduler-failures",
+      "metric": "scheduler_schedule_attempts_total",
+      "filter": "result=error",
+      "condition": "> 0"
+    },
+    {
+      "id": "pvc-near-capacity",
+      "metric": "kubelet_volume_stats_used_bytes / kubelet_volume_stats_capacity_bytes",
+      "condition": "> 85%",
+      "applies_when": "persistent_volumes is true"
+    },
+    {
+      "id": "gpu-saturation",
+      "metric": "DCGM_FI_DEV_GPU_UTIL",
+      "condition": "> 95% sustained",
+      "applies_when": "gpu_nodes is true"
+    }
+  ],
+  "rollout_guardrails": [
+    "Apply telemetry collection changes before activating dependent dashboards or alerts.",
+    "Canary one non-tier0 cluster per profile before broader rollout.",
+    "Do not change two tier0 production clusters at the same time.",
+    "Record a post-change verification and a rollback command for each stage."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fixture_notice": "Deterministic fictional SERP export for offline planning; no record is a live observation.",
+  "seed_keyword": "indoor herb garden",
+  "site_name": "Hearthwise",
+  "audience": "apartment residents who want reliable, low-maintenance culinary herbs",
+  "content_goal": "build a resource center that separates learning, plant care, and buying decisions",
+  "snapshot_date": "2026-07-15",
+  "market": "United States",
+  "language": "en",
+  "organic_results_per_keyword": 10,
+  "url_normalization": "Compare destinations after removing protocol, query strings, and trailing slashes.",
+  "non_organic_rows": "Rows whose result_type is not organic are SERP features and are outside overlap counts.",
+  "page_targeting_policy": {
+    "7-10": "merge as one target page",
+    "4-6": "separate pages in the same topic cluster",
+    "2-3": "separate pages with a contextual cross-link when useful",
+    "0-1": "keep separate",
+    "borderline": "scores of 3 or 4 need a documented human review decision"
+  },
+  "architecture_policy": {
+    "clusters_per_pillar": "2-5",
+    "spokes_per_cluster": "2-4",
+    "pillar_spoke_links": "bidirectional for every spoke",
+    "minimum_incoming_links_per_page": 3,
+    "anchor_guidance": "Use the destination keyword or a close descriptive variant, never generic click text."
+  }
+}

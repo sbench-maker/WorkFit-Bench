@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Usable PDF and requested QBR scope",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested PDF opens as a concise multi-page review and covers revenue, margin, customers, pipeline, opportunities, and risks.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__financial_accuracy",
+      "title": "Financial trend and mix accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Revenue, comparison growth, profit, and margin measures agree with the frozen ledger.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_financial_performance_accuracy"
+      ]
+    },
+    {
+      "id": "completion__customer_pipeline_accuracy",
+      "title": "Customer health, concentration, and pipeline accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "New wins, churn, concentration exposure, and next-quarter pipeline measures agree with the CRM and ledger exports.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_customer_health_and_pipeline_accuracy"
+      ]
+    },
+    {
+      "id": "completion__reconciliation_limitations",
+      "title": "PayPal reconciliation and material limitation disclosure",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The PDF reconciles the PayPal channel on the correct basis and makes the CRM sync gap and its decision impact visible.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_reconciliation_and_limitations"
+      ]
+    },
+    {
+      "id": "completion__priorities",
+      "title": "Evidence-grounded opportunities, risks, and actions",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The PDF identifies next-quarter opportunities and risks, links them to supplied evidence, and states specific owner actions.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Usable PDF and requested QBR scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__financial_accuracy",
+        "title": "Financial trend and mix accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__customer_pipeline_accuracy",
+        "title": "Customer health, concentration, and pipeline accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__reconciliation_limitations",
+        "title": "PayPal reconciliation and material limitation disclosure",
+        "required_score": 10
+      },
+      {
+        "id": "completion__priorities",
+        "title": "Evidence-grounded opportunities, risks, and actions",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

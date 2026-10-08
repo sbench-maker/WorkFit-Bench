@@ -1,0 +1,16 @@
+record_id,person_id,name,role,appointment_months,year_1_base_salary,budget_year,requested_calendar_months,other_nsf_calendar_months,fringe_rate,task_ids,draft_salary,draft_fringe
+P01-Y1,P01,Dr. Mira Chen,Principal Investigator,9,144000.00,1,1.50,0.75,0.30,T1|T2|T3|M1,24000.00,7200.00
+P01-Y2,P01,Dr. Mira Chen,Principal Investigator,9,144000.00,2,1.50,0.50,0.30,T1|T2|T3|M1,24720.00,7416.00
+P01-Y3,P01,Dr. Mira Chen,Principal Investigator,9,144000.00,3,1.50,0.75,0.30,T1|T2|T3|M1,25462.00,7639.00
+P02-Y1,P02,Dr. Rafael Ortiz,Co-Principal Investigator,9,117000.00,1,0.75,0.50,0.30,T2|T3,9750.00,2925.00
+P02-Y2,P02,Dr. Rafael Ortiz,Co-Principal Investigator,9,117000.00,2,0.75,0.50,0.30,T2|T3,10042.00,3013.00
+P02-Y3,P02,Dr. Rafael Ortiz,Co-Principal Investigator,9,117000.00,3,0.75,0.50,0.30,T2|T3,10344.00,3103.00
+P03-Y1,P03,Postdoctoral Researcher,Postdoctoral Scholar,12,56000.00,1,12.00,0.00,0.32,T1|T2|T3,56000.00,17920.00
+P03-Y2,P03,Postdoctoral Researcher,Postdoctoral Scholar,12,56000.00,2,12.00,0.00,0.32,T1|T2|T3,58580.00,18458.00
+P03-Y3,P03,Postdoctoral Researcher,Postdoctoral Scholar,12,56000.00,3,12.00,0.00,0.32,T1|T2|T3,59410.00,19011.00
+P04-Y1,P04,Graduate Research Assistant,Graduate Student,12,30000.00,1,12.00,0.00,0.08,T1|T2|T3|BI1,30000.00,2400.00
+P04-Y2,P04,Graduate Research Assistant,Graduate Student,12,30000.00,2,12.00,0.00,0.08,T1|T2|T3|BI1,30900.00,2472.00
+P04-Y3,P04,Graduate Research Assistant,Graduate Student,12,30000.00,3,12.00,0.00,0.08,T1|T2|T3|BI1,31827.00,2546.00
+P05-Y1,P05,Project Coordinator,Research Staff,12,60000.00,1,2.00,0.00,0.35,M1|BI1|D1,10000.00,3500.00
+P05-Y2,P05,Project Coordinator,Research Staff,12,60000.00,2,2.00,0.00,0.35,M1|BI1|D1,10300.00,3605.00
+P05-Y3,P05,Project Coordinator,Research Staff,12,60000.00,3,2.00,0.00,0.35,M1|BI1|D1,10609.00,3713.00

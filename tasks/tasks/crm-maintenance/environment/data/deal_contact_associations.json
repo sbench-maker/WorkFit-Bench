@@ -1,0 +1,812 @@
+[
+  {
+    "deal_id": "DEAL-0042",
+    "contact_id": "CONTACT-0001",
+    "associated_at": "2026-02-03T09:00:00-08:00"
+  },
+  {
+    "deal_id": "DEAL-0042",
+    "contact_id": "CONTACT-0002",
+    "associated_at": "2026-03-12T11:20:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0011",
+    "contact_id": "CONTACT-0003",
+    "associated_at": "2026-06-10T14:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0001",
+    "contact_id": "CONTACT-0011",
+    "associated_at": "2026-06-21T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0001",
+    "contact_id": "CONTACT-0024",
+    "associated_at": "2026-06-17T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0001",
+    "contact_id": "CONTACT-0037",
+    "associated_at": "2026-06-13T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0002",
+    "contact_id": "CONTACT-0018",
+    "associated_at": "2026-06-20T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0002",
+    "contact_id": "CONTACT-0031",
+    "associated_at": "2026-06-16T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0002",
+    "contact_id": "CONTACT-0044",
+    "associated_at": "2026-06-12T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0002",
+    "contact_id": "CONTACT-0057",
+    "associated_at": "2026-06-08T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0003",
+    "contact_id": "CONTACT-0025",
+    "associated_at": "2026-06-19T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0003",
+    "contact_id": "CONTACT-0038",
+    "associated_at": "2026-06-15T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0004",
+    "contact_id": "CONTACT-0032",
+    "associated_at": "2026-06-18T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0004",
+    "contact_id": "CONTACT-0045",
+    "associated_at": "2026-06-14T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0004",
+    "contact_id": "CONTACT-0058",
+    "associated_at": "2026-06-10T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0005",
+    "contact_id": "CONTACT-0039",
+    "associated_at": "2026-06-17T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0005",
+    "contact_id": "CONTACT-0052",
+    "associated_at": "2026-06-13T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0005",
+    "contact_id": "CONTACT-0065",
+    "associated_at": "2026-06-09T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0005",
+    "contact_id": "CONTACT-0078",
+    "associated_at": "2026-06-05T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0006",
+    "contact_id": "CONTACT-0046",
+    "associated_at": "2026-06-16T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0006",
+    "contact_id": "CONTACT-0059",
+    "associated_at": "2026-06-12T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0007",
+    "contact_id": "CONTACT-0053",
+    "associated_at": "2026-06-15T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0007",
+    "contact_id": "CONTACT-0066",
+    "associated_at": "2026-06-11T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0007",
+    "contact_id": "CONTACT-0079",
+    "associated_at": "2026-06-07T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0008",
+    "contact_id": "CONTACT-0060",
+    "associated_at": "2026-06-14T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0008",
+    "contact_id": "CONTACT-0073",
+    "associated_at": "2026-06-10T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0008",
+    "contact_id": "CONTACT-0086",
+    "associated_at": "2026-06-06T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0008",
+    "contact_id": "CONTACT-0099",
+    "associated_at": "2026-06-02T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0009",
+    "contact_id": "CONTACT-0067",
+    "associated_at": "2026-06-13T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0009",
+    "contact_id": "CONTACT-0080",
+    "associated_at": "2026-06-09T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0010",
+    "contact_id": "CONTACT-0074",
+    "associated_at": "2026-06-12T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0010",
+    "contact_id": "CONTACT-0087",
+    "associated_at": "2026-06-08T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0010",
+    "contact_id": "CONTACT-0100",
+    "associated_at": "2026-06-04T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0012",
+    "contact_id": "CONTACT-0088",
+    "associated_at": "2026-06-10T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0012",
+    "contact_id": "CONTACT-0101",
+    "associated_at": "2026-06-06T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0013",
+    "contact_id": "CONTACT-0095",
+    "associated_at": "2026-06-09T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0013",
+    "contact_id": "CONTACT-0108",
+    "associated_at": "2026-06-05T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0013",
+    "contact_id": "CONTACT-0121",
+    "associated_at": "2026-06-01T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0014",
+    "contact_id": "CONTACT-0102",
+    "associated_at": "2026-06-08T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0014",
+    "contact_id": "CONTACT-0115",
+    "associated_at": "2026-06-04T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0014",
+    "contact_id": "CONTACT-0128",
+    "associated_at": "2026-05-31T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0014",
+    "contact_id": "CONTACT-0141",
+    "associated_at": "2026-05-27T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0015",
+    "contact_id": "CONTACT-0109",
+    "associated_at": "2026-06-07T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0015",
+    "contact_id": "CONTACT-0122",
+    "associated_at": "2026-06-03T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0016",
+    "contact_id": "CONTACT-0116",
+    "associated_at": "2026-06-06T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0016",
+    "contact_id": "CONTACT-0129",
+    "associated_at": "2026-06-02T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0016",
+    "contact_id": "CONTACT-0142",
+    "associated_at": "2026-05-29T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0017",
+    "contact_id": "CONTACT-0123",
+    "associated_at": "2026-06-05T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0017",
+    "contact_id": "CONTACT-0136",
+    "associated_at": "2026-06-01T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0017",
+    "contact_id": "CONTACT-0149",
+    "associated_at": "2026-05-28T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0017",
+    "contact_id": "CONTACT-0005",
+    "associated_at": "2026-05-24T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0018",
+    "contact_id": "CONTACT-0130",
+    "associated_at": "2026-06-04T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0018",
+    "contact_id": "CONTACT-0143",
+    "associated_at": "2026-05-31T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0019",
+    "contact_id": "CONTACT-0137",
+    "associated_at": "2026-06-03T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0019",
+    "contact_id": "CONTACT-0150",
+    "associated_at": "2026-05-30T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0019",
+    "contact_id": "CONTACT-0006",
+    "associated_at": "2026-05-26T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0020",
+    "contact_id": "CONTACT-0144",
+    "associated_at": "2026-06-02T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0020",
+    "contact_id": "CONTACT-0157",
+    "associated_at": "2026-05-29T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0020",
+    "contact_id": "CONTACT-0013",
+    "associated_at": "2026-05-25T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0020",
+    "contact_id": "CONTACT-0026",
+    "associated_at": "2026-05-21T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0021",
+    "contact_id": "CONTACT-0151",
+    "associated_at": "2026-06-01T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0021",
+    "contact_id": "CONTACT-0007",
+    "associated_at": "2026-05-28T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0022",
+    "contact_id": "CONTACT-0158",
+    "associated_at": "2026-05-31T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0022",
+    "contact_id": "CONTACT-0014",
+    "associated_at": "2026-05-27T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0022",
+    "contact_id": "CONTACT-0027",
+    "associated_at": "2026-05-23T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0023",
+    "contact_id": "CONTACT-0008",
+    "associated_at": "2026-05-30T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0023",
+    "contact_id": "CONTACT-0021",
+    "associated_at": "2026-05-26T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0023",
+    "contact_id": "CONTACT-0034",
+    "associated_at": "2026-05-22T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0023",
+    "contact_id": "CONTACT-0047",
+    "associated_at": "2026-05-18T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0024",
+    "contact_id": "CONTACT-0015",
+    "associated_at": "2026-05-29T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0024",
+    "contact_id": "CONTACT-0028",
+    "associated_at": "2026-05-25T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0025",
+    "contact_id": "CONTACT-0022",
+    "associated_at": "2026-05-28T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0025",
+    "contact_id": "CONTACT-0035",
+    "associated_at": "2026-05-24T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0025",
+    "contact_id": "CONTACT-0048",
+    "associated_at": "2026-05-20T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0026",
+    "contact_id": "CONTACT-0029",
+    "associated_at": "2026-05-27T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0026",
+    "contact_id": "CONTACT-0042",
+    "associated_at": "2026-05-23T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0026",
+    "contact_id": "CONTACT-0055",
+    "associated_at": "2026-05-19T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0026",
+    "contact_id": "CONTACT-0068",
+    "associated_at": "2026-05-15T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0027",
+    "contact_id": "CONTACT-0036",
+    "associated_at": "2026-05-26T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0027",
+    "contact_id": "CONTACT-0049",
+    "associated_at": "2026-05-22T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0028",
+    "contact_id": "CONTACT-0043",
+    "associated_at": "2026-05-25T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0028",
+    "contact_id": "CONTACT-0056",
+    "associated_at": "2026-05-21T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0028",
+    "contact_id": "CONTACT-0069",
+    "associated_at": "2026-05-17T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0029",
+    "contact_id": "CONTACT-0050",
+    "associated_at": "2026-05-24T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0029",
+    "contact_id": "CONTACT-0063",
+    "associated_at": "2026-05-20T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0029",
+    "contact_id": "CONTACT-0076",
+    "associated_at": "2026-05-16T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0029",
+    "contact_id": "CONTACT-0089",
+    "associated_at": "2026-05-12T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0030",
+    "contact_id": "CONTACT-0057",
+    "associated_at": "2026-05-23T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0030",
+    "contact_id": "CONTACT-0070",
+    "associated_at": "2026-05-19T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0031",
+    "contact_id": "CONTACT-0064",
+    "associated_at": "2026-05-22T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0031",
+    "contact_id": "CONTACT-0077",
+    "associated_at": "2026-05-18T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0031",
+    "contact_id": "CONTACT-0090",
+    "associated_at": "2026-05-14T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0032",
+    "contact_id": "CONTACT-0071",
+    "associated_at": "2026-05-21T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0032",
+    "contact_id": "CONTACT-0084",
+    "associated_at": "2026-05-17T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0032",
+    "contact_id": "CONTACT-0097",
+    "associated_at": "2026-05-13T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0032",
+    "contact_id": "CONTACT-0110",
+    "associated_at": "2026-05-09T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0033",
+    "contact_id": "CONTACT-0078",
+    "associated_at": "2026-05-20T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0033",
+    "contact_id": "CONTACT-0091",
+    "associated_at": "2026-05-16T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0034",
+    "contact_id": "CONTACT-0085",
+    "associated_at": "2026-05-19T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0034",
+    "contact_id": "CONTACT-0098",
+    "associated_at": "2026-05-15T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0034",
+    "contact_id": "CONTACT-0111",
+    "associated_at": "2026-05-11T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0035",
+    "contact_id": "CONTACT-0092",
+    "associated_at": "2026-05-18T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0035",
+    "contact_id": "CONTACT-0105",
+    "associated_at": "2026-05-14T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0035",
+    "contact_id": "CONTACT-0118",
+    "associated_at": "2026-05-10T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0035",
+    "contact_id": "CONTACT-0131",
+    "associated_at": "2026-05-06T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0036",
+    "contact_id": "CONTACT-0099",
+    "associated_at": "2026-05-17T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0036",
+    "contact_id": "CONTACT-0112",
+    "associated_at": "2026-05-13T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0037",
+    "contact_id": "CONTACT-0106",
+    "associated_at": "2026-05-16T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0037",
+    "contact_id": "CONTACT-0119",
+    "associated_at": "2026-05-12T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0037",
+    "contact_id": "CONTACT-0132",
+    "associated_at": "2026-05-08T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0038",
+    "contact_id": "CONTACT-0113",
+    "associated_at": "2026-05-15T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0038",
+    "contact_id": "CONTACT-0126",
+    "associated_at": "2026-05-11T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0038",
+    "contact_id": "CONTACT-0139",
+    "associated_at": "2026-05-07T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0038",
+    "contact_id": "CONTACT-0152",
+    "associated_at": "2026-05-03T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0039",
+    "contact_id": "CONTACT-0120",
+    "associated_at": "2026-05-14T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0039",
+    "contact_id": "CONTACT-0133",
+    "associated_at": "2026-05-10T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0040",
+    "contact_id": "CONTACT-0127",
+    "associated_at": "2026-05-13T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0040",
+    "contact_id": "CONTACT-0140",
+    "associated_at": "2026-05-09T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0040",
+    "contact_id": "CONTACT-0153",
+    "associated_at": "2026-05-05T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0041",
+    "contact_id": "CONTACT-0134",
+    "associated_at": "2026-05-12T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0041",
+    "contact_id": "CONTACT-0147",
+    "associated_at": "2026-05-08T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0041",
+    "contact_id": "CONTACT-0160",
+    "associated_at": "2026-05-04T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0041",
+    "contact_id": "CONTACT-0016",
+    "associated_at": "2026-04-30T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0043",
+    "contact_id": "CONTACT-0148",
+    "associated_at": "2026-05-10T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0043",
+    "contact_id": "CONTACT-0004",
+    "associated_at": "2026-05-06T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0043",
+    "contact_id": "CONTACT-0017",
+    "associated_at": "2026-05-02T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0044",
+    "contact_id": "CONTACT-0155",
+    "associated_at": "2026-05-09T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0044",
+    "contact_id": "CONTACT-0011",
+    "associated_at": "2026-05-05T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0044",
+    "contact_id": "CONTACT-0024",
+    "associated_at": "2026-05-01T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0044",
+    "contact_id": "CONTACT-0037",
+    "associated_at": "2026-04-27T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0045",
+    "contact_id": "CONTACT-0005",
+    "associated_at": "2026-05-08T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0045",
+    "contact_id": "CONTACT-0018",
+    "associated_at": "2026-05-04T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0046",
+    "contact_id": "CONTACT-0012",
+    "associated_at": "2026-05-07T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0046",
+    "contact_id": "CONTACT-0025",
+    "associated_at": "2026-05-03T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0046",
+    "contact_id": "CONTACT-0038",
+    "associated_at": "2026-04-29T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0047",
+    "contact_id": "CONTACT-0019",
+    "associated_at": "2026-05-06T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0047",
+    "contact_id": "CONTACT-0032",
+    "associated_at": "2026-05-02T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0047",
+    "contact_id": "CONTACT-0045",
+    "associated_at": "2026-04-28T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0047",
+    "contact_id": "CONTACT-0058",
+    "associated_at": "2026-04-24T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0048",
+    "contact_id": "CONTACT-0026",
+    "associated_at": "2026-05-05T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0048",
+    "contact_id": "CONTACT-0039",
+    "associated_at": "2026-05-01T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0049",
+    "contact_id": "CONTACT-0033",
+    "associated_at": "2026-05-04T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0049",
+    "contact_id": "CONTACT-0046",
+    "associated_at": "2026-04-30T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0049",
+    "contact_id": "CONTACT-0059",
+    "associated_at": "2026-04-26T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0050",
+    "contact_id": "CONTACT-0040",
+    "associated_at": "2026-05-03T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0050",
+    "contact_id": "CONTACT-0053",
+    "associated_at": "2026-04-29T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0050",
+    "contact_id": "CONTACT-0066",
+    "associated_at": "2026-04-25T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0050",
+    "contact_id": "CONTACT-0079",
+    "associated_at": "2026-04-21T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0051",
+    "contact_id": "CONTACT-0047",
+    "associated_at": "2026-05-02T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0051",
+    "contact_id": "CONTACT-0060",
+    "associated_at": "2026-04-28T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0052",
+    "contact_id": "CONTACT-0054",
+    "associated_at": "2026-05-01T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0052",
+    "contact_id": "CONTACT-0067",
+    "associated_at": "2026-04-27T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0052",
+    "contact_id": "CONTACT-0080",
+    "associated_at": "2026-04-23T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0053",
+    "contact_id": "CONTACT-0061",
+    "associated_at": "2026-04-30T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0053",
+    "contact_id": "CONTACT-0074",
+    "associated_at": "2026-04-26T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0053",
+    "contact_id": "CONTACT-0087",
+    "associated_at": "2026-04-22T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0053",
+    "contact_id": "CONTACT-0100",
+    "associated_at": "2026-04-18T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0054",
+    "contact_id": "CONTACT-0068",
+    "associated_at": "2026-04-29T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0054",
+    "contact_id": "CONTACT-0081",
+    "associated_at": "2026-04-25T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0055",
+    "contact_id": "CONTACT-0075",
+    "associated_at": "2026-04-28T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0055",
+    "contact_id": "CONTACT-0088",
+    "associated_at": "2026-04-24T18:00:00-07:00"
+  },
+  {
+    "deal_id": "DEAL-0055",
+    "contact_id": "CONTACT-0101",
+    "associated_at": "2026-04-20T18:00:00-07:00"
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__runnable_suite",
+      "title": "Runnable regression suite and unchanged production code",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The completed repository is present, retains the supplied production source, and its test suite compiles, discovers tests, and passes against the supplied implementation offline.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_suite_builds_and_passes_baseline"
+      ]
+    },
+    {
+      "id": "completion__validation_contract",
+      "title": "Validation boundaries and absence of invalid-request side effects",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The suite detects regressions that admit quantity 51, whitespace-only SKUs, or empty line collections instead of rejecting them before gateway work.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_validation_boundaries_and_no_gateway_side_effects"
+      ]
+    },
+    {
+      "id": "completion__inventory_decisions",
+      "title": "SKU normalization, duplicate grouping, and stock decisions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The suite protects inclusive stock equality, case-insensitive and whitespace-normalized SKU grouping, and summed duplicate quantities.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_inventory_grouping_and_availability_decisions"
+      ]
+    },
+    {
+      "id": "completion__commit_and_result",
+      "title": "Commit interaction and successful result contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The suite detects a missing commit, an untrimmed request ID sent to the gateway, and a TotalUnits value based on distinct SKUs rather than submitted quantities.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_commit_contract_and_success_result"
+      ]
+    },
+    {
+      "id": "completion__cancellation",
+      "title": "Cancellation timing and token propagation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The suite protects pre-cancelled short-circuiting and propagation of the original token to both availability lookup and commit.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_cancellation_contract"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__runnable_suite",
+        "title": "Runnable regression suite and unchanged production code",
+        "required_score": 10
+      },
+      {
+        "id": "completion__validation_contract",
+        "title": "Validation boundaries and absence of invalid-request side effects",
+        "required_score": 10
+      },
+      {
+        "id": "completion__inventory_decisions",
+        "title": "SKU normalization, duplicate grouping, and stock decisions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__commit_and_result",
+        "title": "Commit interaction and successful result contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__cancellation",
+        "title": "Cancellation timing and token propagation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "method": "deterministic fictional construction",
+  "primary_records": 240,
+  "offline_rerun_records": 24,
+  "category_distribution": {
+    "access": 32,
+    "billing": 32,
+    "general": 48,
+    "privacy": 32,
+    "reliability": 48,
+    "security": 48
+  },
+  "intentional_edge_cases": [
+    "security signal mixed with lower-priority billing language",
+    "widespread outage mixed with a feature request",
+    "privacy and access cases requiring human verification",
+    "a Unicode place name",
+    "unmatched ordinary feedback routed by fallback"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__project_integrity",
+      "title": "Complete project and preserved fixture",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The delivered SDK 55 project is readable at the requested path, retains its configuration, local validation workflow, and all 24 source notes unchanged.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_project_is_complete_and_preserves_fixture"
+      ]
+    },
+    {
+      "id": "completion__native_tabs",
+      "title": "Native tab navigation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The root navigator uses static NativeTabs for Home, Saved, and Search, with Search last and configured with its native search role, and the legacy JavaScript tab navigator is removed.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_native_tabs_cover_required_destinations"
+      ]
+    },
+    {
+      "id": "completion__shared_stacks",
+      "title": "Per-tab stacks with shared detail route",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Home, Saved, and Search each anchor a native stack that includes one shared dynamic note-detail implementation while preserving /, /saved, /search, and /notes/:id.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_shared_tab_stacks_and_stable_public_routes"
+      ]
+    },
+    {
+      "id": "completion__header_search",
+      "title": "Native header search behavior",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Search input is provided through the native stack header and drives the preserved case-insensitive, trimmed, multi-field filtering and empty-result state without a legacy in-page text field.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_native_header_search_preserves_filter_contract"
+      ]
+    },
+    {
+      "id": "completion__screen_continuity",
+      "title": "Screen and interaction continuity",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The refactor keeps Home useful as a newest-first note list, Saved limited to favorites, cards navigating to the correct note, and detail/not-found screens informative across the new navigation structure.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__project_integrity",
+        "title": "Complete project and preserved fixture",
+        "required_score": 10
+      },
+      {
+        "id": "completion__native_tabs",
+        "title": "Native tab navigation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__shared_stacks",
+        "title": "Per-tab stacks with shared detail route",
+        "required_score": 10
+      },
+      {
+        "id": "completion__header_search",
+        "title": "Native header search behavior",
+        "required_score": 10
+      },
+      {
+        "id": "completion__screen_continuity",
+        "title": "Screen and interaction continuity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

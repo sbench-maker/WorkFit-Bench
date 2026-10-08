@@ -1,0 +1,160 @@
+{
+  "apiVersion": "policy/v1",
+  "items": [
+    {
+      "apiVersion": "policy/v1",
+      "kind": "PodDisruptionBudget",
+      "metadata": {
+        "name": "payments-availability",
+        "namespace": "payments"
+      },
+      "spec": {
+        "minAvailable": 2,
+        "selector": {
+          "matchLabels": {
+            "app": "payments-api"
+          }
+        }
+      },
+      "status": {
+        "currentHealthy": 2,
+        "desiredHealthy": 2,
+        "disruptionsAllowed": 0,
+        "expectedPods": 2
+      }
+    },
+    {
+      "apiVersion": "policy/v1",
+      "kind": "PodDisruptionBudget",
+      "metadata": {
+        "name": "search-api-availability",
+        "namespace": "platform"
+      },
+      "spec": {
+        "maxUnavailable": 1,
+        "selector": {
+          "matchLabels": {
+            "app": "search-api"
+          }
+        }
+      },
+      "status": {
+        "currentHealthy": 21,
+        "desiredHealthy": 19,
+        "disruptionsAllowed": 2,
+        "expectedPods": 21
+      }
+    },
+    {
+      "apiVersion": "policy/v1",
+      "kind": "PodDisruptionBudget",
+      "metadata": {
+        "name": "orders-api-availability",
+        "namespace": "commerce"
+      },
+      "spec": {
+        "maxUnavailable": 1,
+        "selector": {
+          "matchLabels": {
+            "app": "orders-api"
+          }
+        }
+      },
+      "status": {
+        "currentHealthy": 22,
+        "desiredHealthy": 20,
+        "disruptionsAllowed": 2,
+        "expectedPods": 22
+      }
+    },
+    {
+      "apiVersion": "policy/v1",
+      "kind": "PodDisruptionBudget",
+      "metadata": {
+        "name": "inventory-api-availability",
+        "namespace": "platform"
+      },
+      "spec": {
+        "maxUnavailable": 1,
+        "selector": {
+          "matchLabels": {
+            "app": "inventory-api"
+          }
+        }
+      },
+      "status": {
+        "currentHealthy": 23,
+        "desiredHealthy": 21,
+        "disruptionsAllowed": 2,
+        "expectedPods": 23
+      }
+    },
+    {
+      "apiVersion": "policy/v1",
+      "kind": "PodDisruptionBudget",
+      "metadata": {
+        "name": "recommendation-availability",
+        "namespace": "commerce"
+      },
+      "spec": {
+        "maxUnavailable": 1,
+        "selector": {
+          "matchLabels": {
+            "app": "recommendation"
+          }
+        }
+      },
+      "status": {
+        "currentHealthy": 24,
+        "desiredHealthy": 22,
+        "disruptionsAllowed": 2,
+        "expectedPods": 24
+      }
+    },
+    {
+      "apiVersion": "policy/v1",
+      "kind": "PodDisruptionBudget",
+      "metadata": {
+        "name": "session-worker-availability",
+        "namespace": "platform"
+      },
+      "spec": {
+        "maxUnavailable": 1,
+        "selector": {
+          "matchLabels": {
+            "app": "session-worker"
+          }
+        }
+      },
+      "status": {
+        "currentHealthy": 25,
+        "desiredHealthy": 23,
+        "disruptionsAllowed": 2,
+        "expectedPods": 25
+      }
+    },
+    {
+      "apiVersion": "policy/v1",
+      "kind": "PodDisruptionBudget",
+      "metadata": {
+        "name": "email-worker-availability",
+        "namespace": "commerce"
+      },
+      "spec": {
+        "maxUnavailable": 1,
+        "selector": {
+          "matchLabels": {
+            "app": "email-worker"
+          }
+        }
+      },
+      "status": {
+        "currentHealthy": 26,
+        "desiredHealthy": 24,
+        "disruptionsAllowed": 2,
+        "expectedPods": 26
+      }
+    }
+  ],
+  "kind": "PodDisruptionBudgetList"
+}

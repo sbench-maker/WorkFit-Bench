@@ -1,0 +1,19 @@
+{
+  "fixture_kind": "deterministic fictional Terraform module",
+  "module_path": "edge_delivery",
+  "terraform_version": "1.9.8",
+  "remote_providers": [],
+  "network_required": false,
+  "contract_areas": [
+    "default and customized subnet topology",
+    "conditional private endpoint fan-out",
+    "protected tag precedence",
+    "variable validation and production high-availability precondition"
+  ],
+  "intentional_boundaries": [
+    "development allows two subnets while production requires three",
+    "four subnets rotate across a three-zone pool",
+    "caller tags may collide with protected tag names",
+    "subnet_count values below two or above six are invalid"
+  ]
+}

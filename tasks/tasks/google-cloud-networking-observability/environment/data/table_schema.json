@@ -1,0 +1,31 @@
+{
+  "table": "quartz-cart-ops.netops_logs._AllLogs",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "TIMESTAMP",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "insert_id",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "log_name",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "resource",
+      "type": "JSON",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "json_payload",
+      "type": "JSON",
+      "mode": "NULLABLE"
+    }
+  ],
+  "json_payload_note": "Use JSON_VALUE(json_payload, '$.<path>') for nested scalar fields."
+}

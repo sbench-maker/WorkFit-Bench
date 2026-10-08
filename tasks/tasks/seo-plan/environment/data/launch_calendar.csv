@@ -1,0 +1,7 @@
+event_id,month,event,earliest_publication_month,restriction
+EV01,2,Close reporting dashboard refresh,2,Use approved dashboard capability copy only
+EV02,3,Customer proof pack approved,3,Named proof may be used from month 3
+EV03,5,2026 close benchmark dataset approved,5,Benchmark claims require methodology note
+EV04,8,SAP connector general availability,8,Do not describe SAP support as current before month 8
+EV05,11,Intercompany reconciliation private beta,11,Invite-only beta; no general-availability claim
+EV06,12,Year-end close campaign,10,Final campaign pages live by month 10 due to December blackout

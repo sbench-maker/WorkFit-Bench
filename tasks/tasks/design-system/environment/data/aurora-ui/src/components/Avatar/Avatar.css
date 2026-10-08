@@ -1,0 +1,20 @@
+.avatar {
+  color: var(--color-text-primary);
+  background-color: var(--color-surface-default);
+  border: 1px solid var(--color-border-default);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  transition-duration: var(--duration-fast);
+  border-radius: 50%;
+  background-color: #F4F6FA;
+}
+
+.avatar:focus-visible {
+  outline: 2px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+.avatar[data-disabled='true'] {
+  opacity: 0.48;
+  pointer-events: none;
+}

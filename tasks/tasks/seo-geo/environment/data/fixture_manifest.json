@@ -1,0 +1,13 @@
+{
+  "method": "deterministic local construction",
+  "snapshot_date": "2026-08-31",
+  "files": {
+    "site_pages.jsonl": 224,
+    "passages.jsonl": 236,
+    "crawler_access.csv": 84,
+    "query_observations.csv": 36,
+    "brand_mentions.csv": 53,
+    "evidence_register.csv": 11
+  },
+  "notes": "Fictional records only. Counts exclude headers."
+}

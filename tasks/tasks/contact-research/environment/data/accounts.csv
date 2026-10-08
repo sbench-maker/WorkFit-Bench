@@ -1,0 +1,31 @@
+account_id,company,domain,lifecycle_stage,employee_band,expansion_signal,churn_risk
+A-001,Juniper Metric,junipermetric.example,Customer,201-500,Usage growth,Low
+A-002,Cinder Works,cinderworks.example,Customer,501-1000,New engineering hires,Medium
+A-003,Aster Cloud,astercloud.example,Trial,1001-5000,Multiple active teams,Low
+A-004,Harborline,harborline.example,Prospect,51-200,None,High
+A-005,Mosaic Forge,mosaicforge.example,Customer,201-500,Usage growth,Low
+A-006,Lattice Harbor,latticeharbor.example,Customer,501-1000,New engineering hires,Low
+A-007,Northstar Grid,northstargrid.example,Customer,501-1000,Identity rollout across three teams,Low
+A-008,Copper Peak,copperpeak.example,Prospect,51-200,None,Low
+A-009,Quarry Labs,quarrylabs.example,Customer,201-500,Usage growth,High
+A-010,Sable Systems,sablesystems.example,Customer,501-1000,New engineering hires,Low
+A-011,Orbit Foundry,orbitfoundry.example,Trial,1001-5000,Multiple active teams,Low
+A-012,Maple Circuit,maplecircuit.example,Prospect,51-200,None,Medium
+A-013,Summit Ledger,summitledger.example,Customer,201-500,Usage growth,Low
+A-014,Blue Meridian,bluemeridian.example,Customer,501-1000,New engineering hires,High
+A-015,Pine Signal,pinesignal.example,Trial,1001-5000,Multiple active teams,Low
+A-016,Cobalt Thread,cobaltthread.example,Prospect,51-200,None,Low
+A-017,Driftline,driftline.example,Customer,201-500,Usage growth,Medium
+A-018,Elm Robotics,elmrobotics.example,Customer,501-1000,New engineering hires,Low
+A-019,Fable Stack,fablestack.example,Trial,1001-5000,Multiple active teams,High
+A-020,Granite Loop,graniteloop.example,Prospect,51-200,None,Low
+A-021,Helix Harbor,helixharbor.example,Customer,201-500,Usage growth,Low
+A-022,Ivory Relay,ivoryrelay.example,Customer,501-1000,New engineering hires,Medium
+A-023,Kiteframe,kiteframe.example,Trial,1001-5000,Multiple active teams,Low
+A-024,Lucent Field,lucentfield.example,Prospect,51-200,None,High
+A-025,Nimble Current,nimblecurrent.example,Customer,201-500,Usage growth,Low
+A-026,Opal Network,opalnetwork.example,Customer,501-1000,New engineering hires,Low
+A-027,Prairie Logic,prairielogic.example,Trial,1001-5000,Multiple active teams,Medium
+A-028,Quartz Run,quartzrun.example,Prospect,51-200,None,Low
+A-029,Riverglass,riverglass.example,Customer,201-500,Usage growth,High
+A-030,Tandem Arc,tandemarc.example,Customer,501-1000,New engineering hires,Low

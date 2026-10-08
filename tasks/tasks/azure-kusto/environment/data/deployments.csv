@@ -1,0 +1,16 @@
+DeploymentId,Service,Region,DeployedAt,Version,ChangeSummary,RollbackOf
+dep-checkout-eastus-20260810,checkout-api,eastus,2026-08-10T10:00:00Z,4.3.7,routine stable release,
+dep-checkout-westeurope-20260810,checkout-api,westeurope,2026-08-10T10:00:00Z,4.3.7,routine stable release,
+dep-checkout-southeastasia-20260810,checkout-api,southeastasia,2026-08-10T10:00:00Z,4.3.7,routine stable release,
+dep-catalog-eastus-20260810,catalog-api,eastus,2026-08-10T10:00:00Z,11.7.2,routine stable release,
+dep-catalog-westeurope-20260810,catalog-api,westeurope,2026-08-10T10:00:00Z,11.7.2,routine stable release,
+dep-catalog-southeastasia-20260810,catalog-api,southeastasia,2026-08-10T10:00:00Z,11.7.2,routine stable release,
+dep-search-eastus-20260810,search-api,eastus,2026-08-10T10:00:00Z,8.9.1,routine stable release,
+dep-search-westeurope-20260810,search-api,westeurope,2026-08-10T10:00:00Z,8.9.1,routine stable release,
+dep-search-southeastasia-20260810,search-api,southeastasia,2026-08-10T10:00:00Z,8.9.1,routine stable release,
+dep-identity-eastus-20260810,identity-api,eastus,2026-08-10T10:00:00Z,6.2.5,routine stable release,
+dep-identity-westeurope-20260810,identity-api,westeurope,2026-08-10T10:00:00Z,6.2.5,routine stable release,
+dep-identity-southeastasia-20260810,identity-api,southeastasia,2026-08-10T10:00:00Z,6.2.5,routine stable release,
+dep-checkout-eastus-044,checkout-api,eastus,2026-08-19T08:45:00Z,4.4.0,enabled synchronous fraud feature extraction on checkout submit,
+dep-checkout-eastus-rollback-043,checkout-api,eastus,2026-08-19T13:00:00Z,4.3.7,rolled back checkout-api 4.4.0,dep-checkout-eastus-044
+dep-catalog-westeurope-118,catalog-api,westeurope,2026-08-20T04:00:00Z,11.8.0,cache key normalization,

@@ -1,0 +1,243 @@
+task_id,title,assignee_id,assignee_name,status,project_id,project_name,due_date,created_at,updated_at,source_ref,description
+WK-1001,Finalize Atlas launch readiness checklist,USR-MAYA,Maya Chen,in_progress,PRJ-ATLAS,Atlas,2026-08-15,2026-07-01,2026-08-17T08:00:00Z,tracker/WK-1001,Coordinate Atlas work and record the outcome for the weekly operations review.
+WK-1002,Prepare Q3 support handoff notes,USR-MAYA,Maya Chen,open,PRJ-CEDAR,Cedar,2026-08-23,2026-08-12,2026-08-17T08:00:00Z,tracker/WK-1002,Coordinate Cedar work and record the outcome for the weekly operations review.
+WK-1003,Review Cedar access matrix,USR-MAYA,Maya Chen,open,PRJ-CEDAR,Cedar,2026-08-26,2026-08-13,2026-08-17T08:00:00Z,tracker/WK-1003,Coordinate Cedar work and record the outcome for the weekly operations review.
+WK-1004,Confirm Orion migration rollback owner,USR-MAYA,Maya Chen,open,PRJ-ORION,Orion,2026-08-20,2026-08-14,2026-08-17T08:00:00Z,tracker/WK-1004,Coordinate Orion work and record the outcome for the weekly operations review.
+WK-1005,Draft Nebula partner brief,USR-MAYA,Maya Chen,open,PRJ-NEBULA,Nebula,2026-08-28,2026-08-14,2026-08-17T08:00:00Z,tracker/WK-1005,Coordinate Nebula work and record the outcome for the weekly operations review.
+WK-1006,Book telemetry review with Devon Li,USR-MAYA,Maya Chen,open,PRJ-ATLAS,Atlas,2026-08-22,2026-08-15,2026-08-17T08:00:00Z,tracker/WK-1006,Coordinate Atlas work and record the outcome for the weekly operations review.
+WK-1007,Archive Delta retrospective board,USR-MAYA,Maya Chen,open,PRJ-DELTA,Delta,2026-08-30,2026-08-15,2026-08-17T08:00:00Z,tracker/WK-1007,Coordinate Delta work and record the outcome for the weekly operations review.
+WK-1008,Send RFD summary to Todd,USR-MAYA,Maya Chen,open,PRJ-ORION,Orion,2026-08-21,2026-08-15,2026-08-17T08:00:00Z,tracker/WK-1008,Coordinate Orion work and record the outcome for the weekly operations review.
+WK-1009,Draft Apollo onboarding email,USR-MAYA,Maya Chen,open,PRJ-APOLLO,Apollo,2026-08-25,2026-08-10,2026-08-17T08:00:00Z,tracker/WK-1009,Coordinate Apollo work and record the outcome for the weekly operations review.
+WK-1010,Validate Orion cutover runbook,USR-MAYA,Maya Chen,in_progress,PRJ-ORION,Orion,2026-08-24,2026-08-11,2026-08-17T08:00:00Z,tracker/WK-1010,Coordinate Orion work and record the outcome for the weekly operations review.
+WK-1011,Reconcile August vendor invoices,USR-MAYA,Maya Chen,completed,PRJ-OPS,Operations,2026-08-14,2026-08-14,2026-08-17T08:00:00Z,tracker/WK-1011,Coordinate Operations work and record the outcome for the weekly operations review.
+WK-1012,Prepare Cedar governance readout,USR-MAYA,Maya Chen,completed,PRJ-CEDAR,Cedar,2026-08-13,2026-08-13,2026-08-17T08:00:00Z,tracker/WK-1012,Coordinate Cedar work and record the outcome for the weekly operations review.
+WK-1013,Review support queue tagging rules,USR-MAYA,Maya Chen,completed,PRJ-CEDAR,Cedar,2026-08-12,2026-08-12,2026-08-17T08:00:00Z,tracker/WK-1013,Coordinate Cedar work and record the outcome for the weekly operations review.
+WK-1014,Consolidate product feedback tags,USR-MAYA,Maya Chen,open,PRJ-OPS,Operations,2026-08-27,2026-08-08,2026-08-17T08:00:00Z,tracker/WK-1014,Coordinate Operations work and record the outcome for the weekly operations review.
+WK-1015,Renew sandbox certificates,USR-MAYA,Maya Chen,open,PRJ-ATLAS,Atlas,2026-08-19,2026-08-16,2026-08-17T08:00:00Z,tracker/WK-1015,Coordinate Atlas work and record the outcome for the weekly operations review.
+WK-1016,Migrate status page ownership,USR-MAYA,Maya Chen,in_progress,PRJ-OPS,Operations,2026-08-29,2026-08-09,2026-08-17T08:00:00Z,tracker/WK-1016,Coordinate Operations work and record the outcome for the weekly operations review.
+WK-1017,Close Atlas pilot survey,USR-MAYA,Maya Chen,open,PRJ-ATLAS,Atlas,2026-08-31,2026-08-16,2026-08-17T08:00:00Z,tracker/WK-1017,Coordinate Atlas work and record the outcome for the weekly operations review.
+WK-1018,Draft Q4 capacity assumptions,USR-MAYA,Maya Chen,open,PRJ-OPS,Operations,2026-09-02,2026-08-16,2026-08-17T08:00:00Z,tracker/WK-1018,Coordinate Operations work and record the outcome for the weekly operations review.
+WK-1019,Review Nebula vendor questionnaire,USR-MAYA,Maya Chen,in_progress,PRJ-NEBULA,Nebula,2026-08-25,2026-08-07,2026-08-17T08:00:00Z,tracker/WK-1019,Coordinate Nebula work and record the outcome for the weekly operations review.
+WK-1020,Update RFD decision log,USR-MAYA,Maya Chen,in_progress,PRJ-ORION,Orion,2026-08-26,2026-08-06,2026-08-17T08:00:00Z,tracker/WK-1020,Coordinate Orion work and record the outcome for the weekly operations review.
+WK-1021,Publish Cedar escalation rota,USR-MAYA,Maya Chen,open,PRJ-CEDAR,Cedar,2026-08-30,2026-08-10,2026-08-17T08:00:00Z,tracker/WK-1021,Coordinate Cedar work and record the outcome for the weekly operations review.
+WK-1022,Schedule Atlas security review,USR-MAYA,Maya Chen,open,PRJ-ATLAS,Atlas,2026-08-24,2026-08-11,2026-08-17T08:00:00Z,tracker/WK-1022,Coordinate Atlas work and record the outcome for the weekly operations review.
+WK-2001,Prepare Q3 support handoff notes,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-08-20,2026-08-10,2026-08-13T10:00:00Z,tracker/WK-2001,Routine Cedar workstream item owned by Leo Park.
+WK-2002,Prepare Delta pilot feedback 1,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-08-10,2026-07-30,2026-08-03T10:00:00Z,tracker/WK-2002,Routine Delta workstream item owned by Amina Yusuf.
+WK-2003,Validate Cedar support rota 1,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-07-31,2026-07-19,2026-07-24T10:00:00Z,tracker/WK-2003,Routine Cedar workstream item owned by Owen Brooks.
+WK-2004,Document Delta release summary 1,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-07-21,2026-07-08,2026-07-14T10:00:00Z,tracker/WK-2004,Routine Delta workstream item owned by Sofia Reyes.
+WK-2005,Confirm Cedar access review 1,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-07-11,2026-06-27,2026-07-04T10:00:00Z,tracker/WK-2005,Routine Cedar workstream item owned by Kai Morgan.
+WK-2006,Schedule Delta handoff checklist 1,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-07-01,2026-06-16,2026-06-24T10:00:00Z,tracker/WK-2006,Routine Delta workstream item owned by Leo Park.
+WK-2007,Reconcile Cedar risk notes 1,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-06-21,2026-06-05,2026-06-14T10:00:00Z,tracker/WK-2007,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2008,Publish Delta pilot feedback 1,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-06-11,2026-05-25,2026-06-04T10:00:00Z,tracker/WK-2008,Routine Delta workstream item owned by Owen Brooks.
+WK-2009,Review Cedar support rota 1,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-06-01,2026-05-14,2026-05-25T10:00:00Z,tracker/WK-2009,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2010,Prepare Delta release summary 1,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-05-22,2026-05-03,2026-05-06T10:00:00Z,tracker/WK-2010,Routine Delta workstream item owned by Kai Morgan.
+WK-2011,Validate Cedar access review 1,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-05-12,2026-04-22,2026-04-26T10:00:00Z,tracker/WK-2011,Routine Cedar workstream item owned by Leo Park.
+WK-2012,Document Delta handoff checklist 1,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-08-30,2026-08-09,2026-08-14T10:00:00Z,tracker/WK-2012,Routine Delta workstream item owned by Amina Yusuf.
+WK-2013,Confirm Cedar risk notes 2,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-08-20,2026-07-29,2026-08-04T10:00:00Z,tracker/WK-2013,Routine Cedar workstream item owned by Owen Brooks.
+WK-2014,Schedule Delta pilot feedback 2,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-08-10,2026-07-18,2026-07-25T10:00:00Z,tracker/WK-2014,Routine Delta workstream item owned by Sofia Reyes.
+WK-2015,Reconcile Cedar support rota 2,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-07-31,2026-07-07,2026-07-15T10:00:00Z,tracker/WK-2015,Routine Cedar workstream item owned by Kai Morgan.
+WK-2016,Publish Delta release summary 2,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-07-21,2026-06-26,2026-07-05T10:00:00Z,tracker/WK-2016,Routine Delta workstream item owned by Leo Park.
+WK-2017,Review Cedar access review 2,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-07-11,2026-06-15,2026-06-25T10:00:00Z,tracker/WK-2017,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2018,Prepare Delta handoff checklist 2,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-07-01,2026-06-04,2026-06-15T10:00:00Z,tracker/WK-2018,Routine Delta workstream item owned by Owen Brooks.
+WK-2019,Validate Cedar risk notes 2,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-06-21,2026-05-24,2026-05-27T10:00:00Z,tracker/WK-2019,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2020,Document Delta pilot feedback 2,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-11,2026-05-13,2026-05-17T10:00:00Z,tracker/WK-2020,Routine Delta workstream item owned by Kai Morgan.
+WK-2021,Confirm Cedar support rota 2,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-06-01,2026-05-02,2026-05-07T10:00:00Z,tracker/WK-2021,Routine Cedar workstream item owned by Leo Park.
+WK-2022,Schedule Delta release summary 2,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-05-22,2026-04-21,2026-04-27T10:00:00Z,tracker/WK-2022,Routine Delta workstream item owned by Amina Yusuf.
+WK-2023,Reconcile Cedar access review 2,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-09-09,2026-08-08,2026-08-15T10:00:00Z,tracker/WK-2023,Routine Cedar workstream item owned by Owen Brooks.
+WK-2024,Publish Delta handoff checklist 2,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-08-30,2026-07-28,2026-08-05T10:00:00Z,tracker/WK-2024,Routine Delta workstream item owned by Sofia Reyes.
+WK-2025,Review Cedar risk notes 3,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-07-27,2026-07-17,2026-07-26T10:00:00Z,tracker/WK-2025,Routine Cedar workstream item owned by Kai Morgan.
+WK-2026,Prepare Delta pilot feedback 3,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-07-17,2026-07-06,2026-07-16T10:00:00Z,tracker/WK-2026,Routine Delta workstream item owned by Leo Park.
+WK-2027,Validate Cedar support rota 3,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-07-07,2026-06-25,2026-07-06T10:00:00Z,tracker/WK-2027,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2028,Document Delta release summary 3,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-06-27,2026-06-14,2026-06-17T10:00:00Z,tracker/WK-2028,Routine Delta workstream item owned by Owen Brooks.
+WK-2029,Confirm Cedar access review 3,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-06-17,2026-06-03,2026-06-07T10:00:00Z,tracker/WK-2029,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2030,Schedule Delta handoff checklist 3,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-07,2026-05-23,2026-05-28T10:00:00Z,tracker/WK-2030,Routine Delta workstream item owned by Kai Morgan.
+WK-2031,Reconcile Cedar risk notes 3,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-05-28,2026-05-12,2026-05-18T10:00:00Z,tracker/WK-2031,Routine Cedar workstream item owned by Leo Park.
+WK-2032,Publish Delta pilot feedback 3,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-05-18,2026-05-01,2026-05-08T10:00:00Z,tracker/WK-2032,Routine Delta workstream item owned by Amina Yusuf.
+WK-2033,Review Cedar support rota 3,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-05-08,2026-04-20,2026-04-28T10:00:00Z,tracker/WK-2033,Routine Cedar workstream item owned by Owen Brooks.
+WK-2034,Prepare Delta release summary 3,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-08-26,2026-08-07,2026-08-16T10:00:00Z,tracker/WK-2034,Routine Delta workstream item owned by Sofia Reyes.
+WK-2035,Validate Cedar access review 3,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-08-16,2026-07-27,2026-08-06T10:00:00Z,tracker/WK-2035,Routine Cedar workstream item owned by Kai Morgan.
+WK-2036,Document Delta handoff checklist 3,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-08-06,2026-07-16,2026-07-27T10:00:00Z,tracker/WK-2036,Routine Delta workstream item owned by Leo Park.
+WK-2037,Confirm Cedar risk notes 4,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-07-27,2026-07-05,2026-07-08T10:00:00Z,tracker/WK-2037,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2038,Schedule Delta pilot feedback 4,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-07-17,2026-06-24,2026-06-28T10:00:00Z,tracker/WK-2038,Routine Delta workstream item owned by Owen Brooks.
+WK-2039,Reconcile Cedar support rota 4,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-07-07,2026-06-13,2026-06-18T10:00:00Z,tracker/WK-2039,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2040,Publish Delta release summary 4,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-27,2026-06-02,2026-06-08T10:00:00Z,tracker/WK-2040,Routine Delta workstream item owned by Kai Morgan.
+WK-2041,Review Cedar access review 4,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-06-17,2026-05-22,2026-05-29T10:00:00Z,tracker/WK-2041,Routine Cedar workstream item owned by Leo Park.
+WK-2042,Prepare Delta handoff checklist 4,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-06-07,2026-05-11,2026-05-19T10:00:00Z,tracker/WK-2042,Routine Delta workstream item owned by Amina Yusuf.
+WK-2043,Validate Cedar risk notes 4,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-05-28,2026-04-30,2026-05-09T10:00:00Z,tracker/WK-2043,Routine Cedar workstream item owned by Owen Brooks.
+WK-2044,Document Delta pilot feedback 4,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-05-18,2026-04-19,2026-04-29T10:00:00Z,tracker/WK-2044,Routine Delta workstream item owned by Sofia Reyes.
+WK-2045,Confirm Cedar support rota 4,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-09-05,2026-08-06,2026-08-17T10:00:00Z,tracker/WK-2045,Routine Cedar workstream item owned by Kai Morgan.
+WK-2046,Schedule Delta release summary 4,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-08-26,2026-07-26,2026-07-29T10:00:00Z,tracker/WK-2046,Routine Delta workstream item owned by Leo Park.
+WK-2047,Reconcile Cedar access review 4,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-08-16,2026-07-15,2026-07-19T10:00:00Z,tracker/WK-2047,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2048,Publish Delta handoff checklist 4,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-06,2026-07-04,2026-07-09T10:00:00Z,tracker/WK-2048,Routine Delta workstream item owned by Owen Brooks.
+WK-2049,Review Cedar risk notes 5,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-07-03,2026-06-23,2026-06-29T10:00:00Z,tracker/WK-2049,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2050,Prepare Delta pilot feedback 5,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-23,2026-06-12,2026-06-19T10:00:00Z,tracker/WK-2050,Routine Delta workstream item owned by Kai Morgan.
+WK-2051,Validate Cedar support rota 5,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-06-13,2026-06-01,2026-06-09T10:00:00Z,tracker/WK-2051,Routine Cedar workstream item owned by Leo Park.
+WK-2052,Document Delta release summary 5,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-06-03,2026-05-21,2026-05-30T10:00:00Z,tracker/WK-2052,Routine Delta workstream item owned by Amina Yusuf.
+WK-2053,Confirm Cedar access review 5,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-05-24,2026-05-10,2026-05-20T10:00:00Z,tracker/WK-2053,Routine Cedar workstream item owned by Owen Brooks.
+WK-2054,Schedule Delta handoff checklist 5,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-05-14,2026-04-29,2026-05-10T10:00:00Z,tracker/WK-2054,Routine Delta workstream item owned by Sofia Reyes.
+WK-2055,Reconcile Cedar risk notes 5,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-05-04,2026-04-18,2026-04-21T10:00:00Z,tracker/WK-2055,Routine Cedar workstream item owned by Kai Morgan.
+WK-2056,Publish Delta pilot feedback 5,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-08-22,2026-08-05,2026-08-09T10:00:00Z,tracker/WK-2056,Routine Delta workstream item owned by Leo Park.
+WK-2057,Review Cedar support rota 5,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-08-12,2026-07-25,2026-07-30T10:00:00Z,tracker/WK-2057,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2058,Prepare Delta release summary 5,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-02,2026-07-14,2026-07-20T10:00:00Z,tracker/WK-2058,Routine Delta workstream item owned by Owen Brooks.
+WK-2059,Validate Cedar access review 5,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-07-23,2026-07-03,2026-07-10T10:00:00Z,tracker/WK-2059,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2060,Document Delta handoff checklist 5,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-07-13,2026-06-22,2026-06-30T10:00:00Z,tracker/WK-2060,Routine Delta workstream item owned by Kai Morgan.
+WK-2061,Confirm Cedar risk notes 6,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-07-03,2026-06-11,2026-06-20T10:00:00Z,tracker/WK-2061,Routine Cedar workstream item owned by Leo Park.
+WK-2062,Schedule Delta pilot feedback 6,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-06-23,2026-05-31,2026-06-10T10:00:00Z,tracker/WK-2062,Routine Delta workstream item owned by Amina Yusuf.
+WK-2063,Reconcile Cedar support rota 6,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-06-13,2026-05-20,2026-05-31T10:00:00Z,tracker/WK-2063,Routine Cedar workstream item owned by Owen Brooks.
+WK-2064,Publish Delta release summary 6,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-06-03,2026-05-09,2026-05-12T10:00:00Z,tracker/WK-2064,Routine Delta workstream item owned by Sofia Reyes.
+WK-2065,Review Cedar access review 6,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-05-24,2026-04-28,2026-05-02T10:00:00Z,tracker/WK-2065,Routine Cedar workstream item owned by Kai Morgan.
+WK-2066,Prepare Delta handoff checklist 6,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-05-14,2026-04-17,2026-04-22T10:00:00Z,tracker/WK-2066,Routine Delta workstream item owned by Leo Park.
+WK-2067,Validate Cedar risk notes 6,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-09-01,2026-08-04,2026-08-10T10:00:00Z,tracker/WK-2067,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2068,Document Delta pilot feedback 6,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-22,2026-07-24,2026-07-31T10:00:00Z,tracker/WK-2068,Routine Delta workstream item owned by Owen Brooks.
+WK-2069,Confirm Cedar support rota 6,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-08-12,2026-07-13,2026-07-21T10:00:00Z,tracker/WK-2069,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2070,Schedule Delta release summary 6,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-08-02,2026-07-02,2026-07-11T10:00:00Z,tracker/WK-2070,Routine Delta workstream item owned by Kai Morgan.
+WK-2071,Reconcile Cedar access review 6,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-07-23,2026-06-21,2026-07-01T10:00:00Z,tracker/WK-2071,Routine Cedar workstream item owned by Leo Park.
+WK-2072,Publish Delta handoff checklist 6,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-07-13,2026-06-10,2026-06-21T10:00:00Z,tracker/WK-2072,Routine Delta workstream item owned by Amina Yusuf.
+WK-2073,Review Cedar risk notes 7,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-06-09,2026-05-30,2026-06-02T10:00:00Z,tracker/WK-2073,Routine Cedar workstream item owned by Owen Brooks.
+WK-2074,Prepare Delta pilot feedback 7,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-05-30,2026-05-19,2026-05-23T10:00:00Z,tracker/WK-2074,Routine Delta workstream item owned by Sofia Reyes.
+WK-2075,Validate Cedar support rota 7,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-05-20,2026-05-08,2026-05-13T10:00:00Z,tracker/WK-2075,Routine Cedar workstream item owned by Kai Morgan.
+WK-2076,Document Delta release summary 7,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-05-10,2026-04-27,2026-05-03T10:00:00Z,tracker/WK-2076,Routine Delta workstream item owned by Leo Park.
+WK-2077,Confirm Cedar access review 7,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-04-30,2026-04-16,2026-04-23T10:00:00Z,tracker/WK-2077,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2078,Schedule Delta handoff checklist 7,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-18,2026-08-03,2026-08-11T10:00:00Z,tracker/WK-2078,Routine Delta workstream item owned by Owen Brooks.
+WK-2079,Reconcile Cedar risk notes 7,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-08-08,2026-07-23,2026-08-01T10:00:00Z,tracker/WK-2079,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2080,Publish Delta pilot feedback 7,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-07-29,2026-07-12,2026-07-22T10:00:00Z,tracker/WK-2080,Routine Delta workstream item owned by Kai Morgan.
+WK-2081,Review Cedar support rota 7,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-07-19,2026-07-01,2026-07-12T10:00:00Z,tracker/WK-2081,Routine Cedar workstream item owned by Leo Park.
+WK-2082,Prepare Delta release summary 7,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-07-09,2026-06-20,2026-06-23T10:00:00Z,tracker/WK-2082,Routine Delta workstream item owned by Amina Yusuf.
+WK-2083,Validate Cedar access review 7,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-06-29,2026-06-09,2026-06-13T10:00:00Z,tracker/WK-2083,Routine Cedar workstream item owned by Owen Brooks.
+WK-2084,Document Delta handoff checklist 7,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-06-19,2026-05-29,2026-06-03T10:00:00Z,tracker/WK-2084,Routine Delta workstream item owned by Sofia Reyes.
+WK-2085,Confirm Cedar risk notes 8,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-06-09,2026-05-18,2026-05-24T10:00:00Z,tracker/WK-2085,Routine Cedar workstream item owned by Kai Morgan.
+WK-2086,Schedule Delta pilot feedback 8,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-05-30,2026-05-07,2026-05-14T10:00:00Z,tracker/WK-2086,Routine Delta workstream item owned by Leo Park.
+WK-2087,Reconcile Cedar support rota 8,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-05-20,2026-04-26,2026-05-04T10:00:00Z,tracker/WK-2087,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2088,Publish Delta release summary 8,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-05-10,2026-04-15,2026-04-24T10:00:00Z,tracker/WK-2088,Routine Delta workstream item owned by Owen Brooks.
+WK-2089,Review Cedar access review 8,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-08-28,2026-08-02,2026-08-12T10:00:00Z,tracker/WK-2089,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2090,Prepare Delta handoff checklist 8,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-08-18,2026-07-22,2026-08-02T10:00:00Z,tracker/WK-2090,Routine Delta workstream item owned by Kai Morgan.
+WK-2091,Validate Cedar risk notes 8,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-08-08,2026-07-11,2026-07-14T10:00:00Z,tracker/WK-2091,Routine Cedar workstream item owned by Leo Park.
+WK-2092,Document Delta pilot feedback 8,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-07-29,2026-06-30,2026-07-04T10:00:00Z,tracker/WK-2092,Routine Delta workstream item owned by Amina Yusuf.
+WK-2093,Confirm Cedar support rota 8,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-07-19,2026-06-19,2026-06-24T10:00:00Z,tracker/WK-2093,Routine Cedar workstream item owned by Owen Brooks.
+WK-2094,Schedule Delta release summary 8,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-07-09,2026-06-08,2026-06-14T10:00:00Z,tracker/WK-2094,Routine Delta workstream item owned by Sofia Reyes.
+WK-2095,Reconcile Cedar access review 8,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-06-29,2026-05-28,2026-06-04T10:00:00Z,tracker/WK-2095,Routine Cedar workstream item owned by Kai Morgan.
+WK-2096,Publish Delta handoff checklist 8,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-06-19,2026-05-17,2026-05-25T10:00:00Z,tracker/WK-2096,Routine Delta workstream item owned by Leo Park.
+WK-2097,Review Cedar risk notes 9,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-05-16,2026-05-06,2026-05-15T10:00:00Z,tracker/WK-2097,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2098,Prepare Delta pilot feedback 9,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-05-06,2026-04-25,2026-05-05T10:00:00Z,tracker/WK-2098,Routine Delta workstream item owned by Owen Brooks.
+WK-2099,Validate Cedar support rota 9,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-04-26,2026-04-14,2026-04-25T10:00:00Z,tracker/WK-2099,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2100,Document Delta release summary 9,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-08-14,2026-08-01,2026-08-04T10:00:00Z,tracker/WK-2100,Routine Delta workstream item owned by Kai Morgan.
+WK-2101,Confirm Cedar access review 9,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-08-04,2026-07-21,2026-07-25T10:00:00Z,tracker/WK-2101,Routine Cedar workstream item owned by Leo Park.
+WK-2102,Schedule Delta handoff checklist 9,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-07-25,2026-07-10,2026-07-15T10:00:00Z,tracker/WK-2102,Routine Delta workstream item owned by Amina Yusuf.
+WK-2103,Reconcile Cedar risk notes 9,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-07-15,2026-06-29,2026-07-05T10:00:00Z,tracker/WK-2103,Routine Cedar workstream item owned by Owen Brooks.
+WK-2104,Publish Delta pilot feedback 9,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-07-05,2026-06-18,2026-06-25T10:00:00Z,tracker/WK-2104,Routine Delta workstream item owned by Sofia Reyes.
+WK-2105,Review Cedar support rota 9,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-06-25,2026-06-07,2026-06-15T10:00:00Z,tracker/WK-2105,Routine Cedar workstream item owned by Kai Morgan.
+WK-2106,Prepare Delta release summary 9,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-06-15,2026-05-27,2026-06-05T10:00:00Z,tracker/WK-2106,Routine Delta workstream item owned by Leo Park.
+WK-2107,Validate Cedar access review 9,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-06-05,2026-05-16,2026-05-26T10:00:00Z,tracker/WK-2107,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2108,Document Delta handoff checklist 9,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-05-26,2026-05-05,2026-05-16T10:00:00Z,tracker/WK-2108,Routine Delta workstream item owned by Owen Brooks.
+WK-2109,Confirm Cedar risk notes 10,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-05-16,2026-04-24,2026-04-27T10:00:00Z,tracker/WK-2109,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2110,Schedule Delta pilot feedback 10,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-05-06,2026-04-13,2026-04-17T10:00:00Z,tracker/WK-2110,Routine Delta workstream item owned by Kai Morgan.
+WK-2111,Reconcile Cedar support rota 10,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-08-24,2026-07-31,2026-08-05T10:00:00Z,tracker/WK-2111,Routine Cedar workstream item owned by Leo Park.
+WK-2112,Publish Delta release summary 10,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-08-14,2026-07-20,2026-07-26T10:00:00Z,tracker/WK-2112,Routine Delta workstream item owned by Amina Yusuf.
+WK-2113,Review Cedar access review 10,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-08-04,2026-07-09,2026-07-16T10:00:00Z,tracker/WK-2113,Routine Cedar workstream item owned by Owen Brooks.
+WK-2114,Prepare Delta handoff checklist 10,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-07-25,2026-06-28,2026-07-06T10:00:00Z,tracker/WK-2114,Routine Delta workstream item owned by Sofia Reyes.
+WK-2115,Validate Cedar risk notes 10,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-07-15,2026-06-17,2026-06-26T10:00:00Z,tracker/WK-2115,Routine Cedar workstream item owned by Kai Morgan.
+WK-2116,Document Delta pilot feedback 10,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-07-05,2026-06-06,2026-06-16T10:00:00Z,tracker/WK-2116,Routine Delta workstream item owned by Leo Park.
+WK-2117,Confirm Cedar support rota 10,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-06-25,2026-05-26,2026-06-06T10:00:00Z,tracker/WK-2117,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2118,Schedule Delta release summary 10,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-06-15,2026-05-15,2026-05-18T10:00:00Z,tracker/WK-2118,Routine Delta workstream item owned by Owen Brooks.
+WK-2119,Reconcile Cedar access review 10,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-06-05,2026-05-04,2026-05-08T10:00:00Z,tracker/WK-2119,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2120,Publish Delta handoff checklist 10,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-05-26,2026-04-23,2026-04-28T10:00:00Z,tracker/WK-2120,Routine Delta workstream item owned by Kai Morgan.
+WK-2121,Review Cedar risk notes 11,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-08-20,2026-08-10,2026-08-16T10:00:00Z,tracker/WK-2121,Routine Cedar workstream item owned by Leo Park.
+WK-2122,Prepare Delta pilot feedback 11,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-08-10,2026-07-30,2026-08-06T10:00:00Z,tracker/WK-2122,Routine Delta workstream item owned by Amina Yusuf.
+WK-2123,Validate Cedar support rota 11,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-07-31,2026-07-19,2026-07-27T10:00:00Z,tracker/WK-2123,Routine Cedar workstream item owned by Owen Brooks.
+WK-2124,Document Delta release summary 11,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-07-21,2026-07-08,2026-07-17T10:00:00Z,tracker/WK-2124,Routine Delta workstream item owned by Sofia Reyes.
+WK-2125,Confirm Cedar access review 11,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-07-11,2026-06-27,2026-07-07T10:00:00Z,tracker/WK-2125,Routine Cedar workstream item owned by Kai Morgan.
+WK-2126,Schedule Delta handoff checklist 11,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-07-01,2026-06-16,2026-06-27T10:00:00Z,tracker/WK-2126,Routine Delta workstream item owned by Leo Park.
+WK-2127,Reconcile Cedar risk notes 11,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-06-21,2026-06-05,2026-06-08T10:00:00Z,tracker/WK-2127,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2128,Publish Delta pilot feedback 11,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-06-11,2026-05-25,2026-05-29T10:00:00Z,tracker/WK-2128,Routine Delta workstream item owned by Owen Brooks.
+WK-2129,Review Cedar support rota 11,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-06-01,2026-05-14,2026-05-19T10:00:00Z,tracker/WK-2129,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2130,Prepare Delta release summary 11,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-05-22,2026-05-03,2026-05-09T10:00:00Z,tracker/WK-2130,Routine Delta workstream item owned by Kai Morgan.
+WK-2131,Validate Cedar access review 11,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-05-12,2026-04-22,2026-04-29T10:00:00Z,tracker/WK-2131,Routine Cedar workstream item owned by Leo Park.
+WK-2132,Document Delta handoff checklist 11,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-08-30,2026-08-09,2026-08-17T10:00:00Z,tracker/WK-2132,Routine Delta workstream item owned by Amina Yusuf.
+WK-2133,Confirm Cedar risk notes 12,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-08-20,2026-07-29,2026-08-07T10:00:00Z,tracker/WK-2133,Routine Cedar workstream item owned by Owen Brooks.
+WK-2134,Schedule Delta pilot feedback 12,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-08-10,2026-07-18,2026-07-28T10:00:00Z,tracker/WK-2134,Routine Delta workstream item owned by Sofia Reyes.
+WK-2135,Reconcile Cedar support rota 12,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-07-31,2026-07-07,2026-07-18T10:00:00Z,tracker/WK-2135,Routine Cedar workstream item owned by Kai Morgan.
+WK-2136,Publish Delta release summary 12,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-07-21,2026-06-26,2026-06-29T10:00:00Z,tracker/WK-2136,Routine Delta workstream item owned by Leo Park.
+WK-2137,Review Cedar access review 12,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-07-11,2026-06-15,2026-06-19T10:00:00Z,tracker/WK-2137,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2138,Prepare Delta handoff checklist 12,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-07-01,2026-06-04,2026-06-09T10:00:00Z,tracker/WK-2138,Routine Delta workstream item owned by Owen Brooks.
+WK-2139,Validate Cedar risk notes 12,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-06-21,2026-05-24,2026-05-30T10:00:00Z,tracker/WK-2139,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2140,Document Delta pilot feedback 12,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-11,2026-05-13,2026-05-20T10:00:00Z,tracker/WK-2140,Routine Delta workstream item owned by Kai Morgan.
+WK-2141,Confirm Cedar support rota 12,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-06-01,2026-05-02,2026-05-10T10:00:00Z,tracker/WK-2141,Routine Cedar workstream item owned by Leo Park.
+WK-2142,Schedule Delta release summary 12,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-05-22,2026-04-21,2026-04-30T10:00:00Z,tracker/WK-2142,Routine Delta workstream item owned by Amina Yusuf.
+WK-2143,Reconcile Cedar access review 12,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-09-09,2026-08-08,2026-08-18T10:00:00Z,tracker/WK-2143,Routine Cedar workstream item owned by Owen Brooks.
+WK-2144,Publish Delta handoff checklist 12,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-08-30,2026-07-28,2026-08-08T10:00:00Z,tracker/WK-2144,Routine Delta workstream item owned by Sofia Reyes.
+WK-2145,Review Cedar risk notes 13,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-07-27,2026-07-17,2026-07-20T10:00:00Z,tracker/WK-2145,Routine Cedar workstream item owned by Kai Morgan.
+WK-2146,Prepare Delta pilot feedback 13,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-07-17,2026-07-06,2026-07-10T10:00:00Z,tracker/WK-2146,Routine Delta workstream item owned by Leo Park.
+WK-2147,Validate Cedar support rota 13,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-07-07,2026-06-25,2026-06-30T10:00:00Z,tracker/WK-2147,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2148,Document Delta release summary 13,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-06-27,2026-06-14,2026-06-20T10:00:00Z,tracker/WK-2148,Routine Delta workstream item owned by Owen Brooks.
+WK-2149,Confirm Cedar access review 13,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-06-17,2026-06-03,2026-06-10T10:00:00Z,tracker/WK-2149,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2150,Schedule Delta handoff checklist 13,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-07,2026-05-23,2026-05-31T10:00:00Z,tracker/WK-2150,Routine Delta workstream item owned by Kai Morgan.
+WK-2151,Reconcile Cedar risk notes 13,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-05-28,2026-05-12,2026-05-21T10:00:00Z,tracker/WK-2151,Routine Cedar workstream item owned by Leo Park.
+WK-2152,Publish Delta pilot feedback 13,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-05-18,2026-05-01,2026-05-11T10:00:00Z,tracker/WK-2152,Routine Delta workstream item owned by Amina Yusuf.
+WK-2153,Review Cedar support rota 13,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-05-08,2026-04-20,2026-05-01T10:00:00Z,tracker/WK-2153,Routine Cedar workstream item owned by Owen Brooks.
+WK-2154,Prepare Delta release summary 13,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-08-26,2026-08-07,2026-08-10T10:00:00Z,tracker/WK-2154,Routine Delta workstream item owned by Sofia Reyes.
+WK-2155,Validate Cedar access review 13,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-08-16,2026-07-27,2026-07-31T10:00:00Z,tracker/WK-2155,Routine Cedar workstream item owned by Kai Morgan.
+WK-2156,Document Delta handoff checklist 13,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-08-06,2026-07-16,2026-07-21T10:00:00Z,tracker/WK-2156,Routine Delta workstream item owned by Leo Park.
+WK-2157,Confirm Cedar risk notes 14,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-07-27,2026-07-05,2026-07-11T10:00:00Z,tracker/WK-2157,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2158,Schedule Delta pilot feedback 14,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-07-17,2026-06-24,2026-07-01T10:00:00Z,tracker/WK-2158,Routine Delta workstream item owned by Owen Brooks.
+WK-2159,Reconcile Cedar support rota 14,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-07-07,2026-06-13,2026-06-21T10:00:00Z,tracker/WK-2159,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2160,Publish Delta release summary 14,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-27,2026-06-02,2026-06-11T10:00:00Z,tracker/WK-2160,Routine Delta workstream item owned by Kai Morgan.
+WK-2161,Review Cedar access review 14,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-06-17,2026-05-22,2026-06-01T10:00:00Z,tracker/WK-2161,Routine Cedar workstream item owned by Leo Park.
+WK-2162,Prepare Delta handoff checklist 14,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-06-07,2026-05-11,2026-05-22T10:00:00Z,tracker/WK-2162,Routine Delta workstream item owned by Amina Yusuf.
+WK-2163,Validate Cedar risk notes 14,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-05-28,2026-04-30,2026-05-03T10:00:00Z,tracker/WK-2163,Routine Cedar workstream item owned by Owen Brooks.
+WK-2164,Document Delta pilot feedback 14,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-05-18,2026-04-19,2026-04-23T10:00:00Z,tracker/WK-2164,Routine Delta workstream item owned by Sofia Reyes.
+WK-2165,Confirm Cedar support rota 14,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-09-05,2026-08-06,2026-08-11T10:00:00Z,tracker/WK-2165,Routine Cedar workstream item owned by Kai Morgan.
+WK-2166,Schedule Delta release summary 14,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-08-26,2026-07-26,2026-08-01T10:00:00Z,tracker/WK-2166,Routine Delta workstream item owned by Leo Park.
+WK-2167,Reconcile Cedar access review 14,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-08-16,2026-07-15,2026-07-22T10:00:00Z,tracker/WK-2167,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2168,Publish Delta handoff checklist 14,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-06,2026-07-04,2026-07-12T10:00:00Z,tracker/WK-2168,Routine Delta workstream item owned by Owen Brooks.
+WK-2169,Review Cedar risk notes 15,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-07-03,2026-06-23,2026-07-02T10:00:00Z,tracker/WK-2169,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2170,Prepare Delta pilot feedback 15,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-06-23,2026-06-12,2026-06-22T10:00:00Z,tracker/WK-2170,Routine Delta workstream item owned by Kai Morgan.
+WK-2171,Validate Cedar support rota 15,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-06-13,2026-06-01,2026-06-12T10:00:00Z,tracker/WK-2171,Routine Cedar workstream item owned by Leo Park.
+WK-2172,Document Delta release summary 15,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-06-03,2026-05-21,2026-05-24T10:00:00Z,tracker/WK-2172,Routine Delta workstream item owned by Amina Yusuf.
+WK-2173,Confirm Cedar access review 15,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-05-24,2026-05-10,2026-05-14T10:00:00Z,tracker/WK-2173,Routine Cedar workstream item owned by Owen Brooks.
+WK-2174,Schedule Delta handoff checklist 15,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-05-14,2026-04-29,2026-05-04T10:00:00Z,tracker/WK-2174,Routine Delta workstream item owned by Sofia Reyes.
+WK-2175,Reconcile Cedar risk notes 15,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-05-04,2026-04-18,2026-04-24T10:00:00Z,tracker/WK-2175,Routine Cedar workstream item owned by Kai Morgan.
+WK-2176,Publish Delta pilot feedback 15,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-08-22,2026-08-05,2026-08-12T10:00:00Z,tracker/WK-2176,Routine Delta workstream item owned by Leo Park.
+WK-2177,Review Cedar support rota 15,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-08-12,2026-07-25,2026-08-02T10:00:00Z,tracker/WK-2177,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2178,Prepare Delta release summary 15,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-02,2026-07-14,2026-07-23T10:00:00Z,tracker/WK-2178,Routine Delta workstream item owned by Owen Brooks.
+WK-2179,Validate Cedar access review 15,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-07-23,2026-07-03,2026-07-13T10:00:00Z,tracker/WK-2179,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2180,Document Delta handoff checklist 15,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-07-13,2026-06-22,2026-07-03T10:00:00Z,tracker/WK-2180,Routine Delta workstream item owned by Kai Morgan.
+WK-2181,Confirm Cedar risk notes 16,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-07-03,2026-06-11,2026-06-14T10:00:00Z,tracker/WK-2181,Routine Cedar workstream item owned by Leo Park.
+WK-2182,Schedule Delta pilot feedback 16,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-06-23,2026-05-31,2026-06-04T10:00:00Z,tracker/WK-2182,Routine Delta workstream item owned by Amina Yusuf.
+WK-2183,Reconcile Cedar support rota 16,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-06-13,2026-05-20,2026-05-25T10:00:00Z,tracker/WK-2183,Routine Cedar workstream item owned by Owen Brooks.
+WK-2184,Publish Delta release summary 16,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-06-03,2026-05-09,2026-05-15T10:00:00Z,tracker/WK-2184,Routine Delta workstream item owned by Sofia Reyes.
+WK-2185,Review Cedar access review 16,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-05-24,2026-04-28,2026-05-05T10:00:00Z,tracker/WK-2185,Routine Cedar workstream item owned by Kai Morgan.
+WK-2186,Prepare Delta handoff checklist 16,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-05-14,2026-04-17,2026-04-25T10:00:00Z,tracker/WK-2186,Routine Delta workstream item owned by Leo Park.
+WK-2187,Validate Cedar risk notes 16,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-09-01,2026-08-04,2026-08-13T10:00:00Z,tracker/WK-2187,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2188,Document Delta pilot feedback 16,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-22,2026-07-24,2026-08-03T10:00:00Z,tracker/WK-2188,Routine Delta workstream item owned by Owen Brooks.
+WK-2189,Confirm Cedar support rota 16,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-08-12,2026-07-13,2026-07-24T10:00:00Z,tracker/WK-2189,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2190,Schedule Delta release summary 16,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-08-02,2026-07-02,2026-07-05T10:00:00Z,tracker/WK-2190,Routine Delta workstream item owned by Kai Morgan.
+WK-2191,Reconcile Cedar access review 16,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-07-23,2026-06-21,2026-06-25T10:00:00Z,tracker/WK-2191,Routine Cedar workstream item owned by Leo Park.
+WK-2192,Publish Delta handoff checklist 16,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-07-13,2026-06-10,2026-06-15T10:00:00Z,tracker/WK-2192,Routine Delta workstream item owned by Amina Yusuf.
+WK-2193,Review Cedar risk notes 17,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-06-09,2026-05-30,2026-06-05T10:00:00Z,tracker/WK-2193,Routine Cedar workstream item owned by Owen Brooks.
+WK-2194,Prepare Delta pilot feedback 17,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-05-30,2026-05-19,2026-05-26T10:00:00Z,tracker/WK-2194,Routine Delta workstream item owned by Sofia Reyes.
+WK-2195,Validate Cedar support rota 17,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-05-20,2026-05-08,2026-05-16T10:00:00Z,tracker/WK-2195,Routine Cedar workstream item owned by Kai Morgan.
+WK-2196,Document Delta release summary 17,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-05-10,2026-04-27,2026-05-06T10:00:00Z,tracker/WK-2196,Routine Delta workstream item owned by Leo Park.
+WK-2197,Confirm Cedar access review 17,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-04-30,2026-04-16,2026-04-26T10:00:00Z,tracker/WK-2197,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2198,Schedule Delta handoff checklist 17,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-08-18,2026-08-03,2026-08-14T10:00:00Z,tracker/WK-2198,Routine Delta workstream item owned by Owen Brooks.
+WK-2199,Reconcile Cedar risk notes 17,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-08-08,2026-07-23,2026-07-26T10:00:00Z,tracker/WK-2199,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2200,Publish Delta pilot feedback 17,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-07-29,2026-07-12,2026-07-16T10:00:00Z,tracker/WK-2200,Routine Delta workstream item owned by Kai Morgan.
+WK-2201,Review Cedar support rota 17,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-07-19,2026-07-01,2026-07-06T10:00:00Z,tracker/WK-2201,Routine Cedar workstream item owned by Leo Park.
+WK-2202,Prepare Delta release summary 17,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-07-09,2026-06-20,2026-06-26T10:00:00Z,tracker/WK-2202,Routine Delta workstream item owned by Amina Yusuf.
+WK-2203,Validate Cedar access review 17,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-06-29,2026-06-09,2026-06-16T10:00:00Z,tracker/WK-2203,Routine Cedar workstream item owned by Owen Brooks.
+WK-2204,Document Delta handoff checklist 17,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-06-19,2026-05-29,2026-06-06T10:00:00Z,tracker/WK-2204,Routine Delta workstream item owned by Sofia Reyes.
+WK-2205,Confirm Cedar risk notes 18,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-06-09,2026-05-18,2026-05-27T10:00:00Z,tracker/WK-2205,Routine Cedar workstream item owned by Kai Morgan.
+WK-2206,Schedule Delta pilot feedback 18,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-05-30,2026-05-07,2026-05-17T10:00:00Z,tracker/WK-2206,Routine Delta workstream item owned by Leo Park.
+WK-2207,Reconcile Cedar support rota 18,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-05-20,2026-04-26,2026-05-07T10:00:00Z,tracker/WK-2207,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2208,Publish Delta release summary 18,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-05-10,2026-04-15,2026-04-18T10:00:00Z,tracker/WK-2208,Routine Delta workstream item owned by Owen Brooks.
+WK-2209,Review Cedar access review 18,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-08-28,2026-08-02,2026-08-06T10:00:00Z,tracker/WK-2209,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2210,Prepare Delta handoff checklist 18,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-08-18,2026-07-22,2026-07-27T10:00:00Z,tracker/WK-2210,Routine Delta workstream item owned by Kai Morgan.
+WK-2211,Validate Cedar risk notes 18,USR-LEO,Leo Park,open,PRJ-CEDAR,Cedar,2026-08-08,2026-07-11,2026-07-17T10:00:00Z,tracker/WK-2211,Routine Cedar workstream item owned by Leo Park.
+WK-2212,Document Delta pilot feedback 18,USR-AMINA,Amina Yusuf,in_progress,PRJ-DELTA,Delta,2026-07-29,2026-06-30,2026-07-07T10:00:00Z,tracker/WK-2212,Routine Delta workstream item owned by Amina Yusuf.
+WK-2213,Confirm Cedar support rota 18,USR-OWEN,Owen Brooks,completed,PRJ-CEDAR,Cedar,2026-07-19,2026-06-19,2026-06-27T10:00:00Z,tracker/WK-2213,Routine Cedar workstream item owned by Owen Brooks.
+WK-2214,Schedule Delta release summary 18,USR-SOFIA,Sofia Reyes,completed,PRJ-DELTA,Delta,2026-07-09,2026-06-08,2026-06-17T10:00:00Z,tracker/WK-2214,Routine Delta workstream item owned by Sofia Reyes.
+WK-2215,Reconcile Cedar access review 18,USR-KAI,Kai Morgan,open,PRJ-CEDAR,Cedar,2026-06-29,2026-05-28,2026-06-07T10:00:00Z,tracker/WK-2215,Routine Cedar workstream item owned by Kai Morgan.
+WK-2216,Publish Delta handoff checklist 18,USR-LEO,Leo Park,open,PRJ-DELTA,Delta,2026-06-19,2026-05-17,2026-05-28T10:00:00Z,tracker/WK-2216,Routine Delta workstream item owned by Leo Park.
+WK-2217,Review Cedar risk notes 19,USR-AMINA,Amina Yusuf,in_progress,PRJ-CEDAR,Cedar,2026-05-16,2026-05-06,2026-05-09T10:00:00Z,tracker/WK-2217,Routine Cedar workstream item owned by Amina Yusuf.
+WK-2218,Prepare Delta pilot feedback 19,USR-OWEN,Owen Brooks,completed,PRJ-DELTA,Delta,2026-05-06,2026-04-25,2026-04-29T10:00:00Z,tracker/WK-2218,Routine Delta workstream item owned by Owen Brooks.
+WK-2219,Validate Cedar support rota 19,USR-SOFIA,Sofia Reyes,completed,PRJ-CEDAR,Cedar,2026-04-26,2026-04-14,2026-04-19T10:00:00Z,tracker/WK-2219,Routine Cedar workstream item owned by Sofia Reyes.
+WK-2220,Document Delta release summary 19,USR-KAI,Kai Morgan,open,PRJ-DELTA,Delta,2026-08-14,2026-08-01,2026-08-07T10:00:00Z,tracker/WK-2220,Routine Delta workstream item owned by Kai Morgan.

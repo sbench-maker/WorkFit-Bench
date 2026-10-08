@@ -1,0 +1,17 @@
+{
+  "project": "ParcelPilot",
+  "wordpress_version": "7.0",
+  "php_version": "8.2",
+  "required_plugins": [
+    {"slug": "woocommerce", "version": "9.3", "required": true}
+  ],
+  "optional_integrations": [
+    {
+      "slug": "vendor-loyalty",
+      "version": "4.8",
+      "required": false,
+      "runtime_guard": "class_exists('Vendor_Loyalty_Card')",
+      "stub_package_available": false
+    }
+  ]
+}

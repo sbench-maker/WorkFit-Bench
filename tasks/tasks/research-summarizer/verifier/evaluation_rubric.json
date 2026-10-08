@@ -1,0 +1,122 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Usable brief and complete source scope",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown brief is readable, substantive, and covers all four supplied documents.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__factual_fidelity",
+      "title": "Material findings are factually faithful",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Decision-relevant numeric findings for each source are reported accurately and remain attributable to the correct source.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_material_findings_fidelity"
+      ]
+    },
+    {
+      "id": "completion__traceability_references",
+      "title": "Evidence traceability and reference integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each source has usable page or section anchors and a complete APA-style reference based only on supplied metadata, including an explicit undated treatment for the white paper.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_traceability_and_reference_integrity"
+      ]
+    },
+    {
+      "id": "completion__evidence_synthesis",
+      "title": "Weight-of-evidence synthesis",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The brief compares all four sources on agreement, disagreement, non-comparability, and shared evidence gaps, then states a weight-of-evidence conclusion.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    },
+    {
+      "id": "completion__decision_recommendation",
+      "title": "Decision recommendation and safeguards",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The brief gives an explicit rollout recommendation and safeguards, distinguishing reviewed AI drafts from fully automated posting.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Usable brief and complete source scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__factual_fidelity",
+        "title": "Material findings are factually faithful",
+        "required_score": 10
+      },
+      {
+        "id": "completion__traceability_references",
+        "title": "Evidence traceability and reference integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_synthesis",
+        "title": "Weight-of-evidence synthesis",
+        "required_score": 10
+      },
+      {
+        "id": "completion__decision_recommendation",
+        "title": "Decision recommendation and safeguards",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

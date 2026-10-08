@@ -1,0 +1,13 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "places_source.json": 260,
+    "contacts_source.json": 260
+  },
+  "intentional_edge_cases": [
+    "alternate spellings of the same location",
+    "separate franchise branches sharing one website domain",
+    "out-of-area listings and adjacent but ineligible categories",
+    "missing websites, missing emails, free-mail contacts, blocked inboxes, and duplicate-cased emails"
+  ]
+}

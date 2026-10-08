@@ -1,0 +1,103 @@
+{
+  "ticket_id": "BATCH-20260910-AM-07",
+  "account_id": "swing_alpha",
+  "as_of": "2026-09-10 10:05:00",
+  "instruction": "按 seq 顺序执行；失败项不得改写为其他数量或价格，也不得影响其他账户。全部提交后撮合一次，并回查账户、持仓、订单与成交。",
+  "items": [
+    {
+      "seq": 1,
+      "request_id": "REQ-001",
+      "action": "cancel",
+      "order_id": "OPEN-SA-CANCEL",
+      "note": "撤销盘前试单"
+    },
+    {
+      "seq": 2,
+      "request_id": "REQ-002",
+      "action": "sell",
+      "symbol": "600111",
+      "qty": 200,
+      "order_type": "limit",
+      "limit_price": 20.8,
+      "note": "减仓可卖老仓"
+    },
+    {
+      "seq": 3,
+      "request_id": "REQ-003",
+      "action": "sell",
+      "symbol": "600111",
+      "qty": 200,
+      "order_type": "limit",
+      "limit_price": 21.0,
+      "note": "继续减仓"
+    },
+    {
+      "seq": 4,
+      "request_id": "REQ-004",
+      "action": "buy",
+      "symbol": "300222",
+      "qty": 300,
+      "order_type": "limit",
+      "limit_price": 50.5,
+      "note": "回补成长仓"
+    },
+    {
+      "seq": 5,
+      "request_id": "REQ-005",
+      "action": "buy",
+      "symbol": "600444",
+      "qty": 200,
+      "order_type": "limit",
+      "limit_price": 11.0,
+      "note": "涨停板排队"
+    },
+    {
+      "seq": 6,
+      "request_id": "REQ-006",
+      "action": "buy",
+      "symbol": "600555",
+      "qty": 100,
+      "order_type": "limit",
+      "limit_price": 5.26,
+      "note": "ST 突破价试单"
+    },
+    {
+      "seq": 7,
+      "request_id": "REQ-007",
+      "action": "buy",
+      "symbol": "000666",
+      "qty": 100,
+      "order_type": "market",
+      "note": "连续竞价市价买入"
+    },
+    {
+      "seq": 8,
+      "request_id": "REQ-008",
+      "action": "buy",
+      "symbol": "600888",
+      "qty": 100,
+      "order_type": "market",
+      "note": "市价买入"
+    },
+    {
+      "seq": 9,
+      "request_id": "REQ-009",
+      "action": "sell",
+      "symbol": "600333",
+      "qty": 75,
+      "order_type": "limit",
+      "limit_price": 10.0,
+      "note": "清掉全部零股"
+    },
+    {
+      "seq": 10,
+      "request_id": "REQ-010",
+      "action": "buy",
+      "symbol": "000777",
+      "qty": 150,
+      "order_type": "limit",
+      "limit_price": 11.8,
+      "note": "补仓"
+    }
+  ]
+}

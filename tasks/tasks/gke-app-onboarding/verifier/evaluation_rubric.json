@@ -1,0 +1,112 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__containerization",
+      "title": "Production container contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The Dockerfile uses the required Node major version, installs production dependencies, includes the application code, starts the service on its declared port as a non-root user, and does not include the development staff fixture.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_container_build_contract"
+      ]
+    },
+    {
+      "id": "completion__workload_reliability",
+      "title": "Deployment identity, capacity, and health",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The Deployment targets the brief's workload, namespace, replicas, immutable image, resources, rolling-update policy, shutdown allowance, and distinct application health endpoints.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_deployment_identity_and_resources",
+        "test_health_and_rollout_contract"
+      ]
+    },
+    {
+      "id": "completion__configuration_security",
+      "title": "Runtime configuration and least privilege",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The workload references the existing ConfigMaps and Secret without embedding values, mounts staff data read-only, supplies writable cache storage, and applies the brief's pod/container security controls.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_runtime_configuration_and_data_mounts",
+        "test_pod_security_and_no_embedded_secrets"
+      ]
+    },
+    {
+      "id": "completion__internal_connectivity",
+      "title": "Internal service connectivity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "An internal ClusterIP Service selects the Deployment pods and routes port 80 to the actual application port, with no externally exposing resource.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_internal_service_wiring"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__containerization",
+        "title": "Production container contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__workload_reliability",
+        "title": "Deployment identity, capacity, and health",
+        "required_score": 10
+      },
+      {
+        "id": "completion__configuration_security",
+        "title": "Runtime configuration and least privilege",
+        "required_score": 10
+      },
+      {
+        "id": "completion__internal_connectivity",
+        "title": "Internal service connectivity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

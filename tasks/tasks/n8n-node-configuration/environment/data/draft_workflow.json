@@ -1,0 +1,430 @@
+{
+  "id": "wf-participant-intake-v7",
+  "name": "Participant Intake Review",
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "path": "participant",
+        "httpMethod": "GET",
+        "responseMode": "onReceived"
+      },
+      "id": "10000000-0000-4000-8000-000000000001",
+      "name": "Participant Intake",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{ $json.email }}",
+              "operation": "equals"
+            }
+          ]
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000002",
+      "name": "Email Present?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        240,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://catalog.mock.invalid/v1/studies",
+        "authentication": "none",
+        "sendBody": true,
+        "body": {
+          "contentType": "json",
+          "content": {
+            "study": "={{ $json.study_id }}"
+          }
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000003",
+      "name": "Fetch Study Metadata",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        500,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://eligibility.mock.invalid/v2/check",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth",
+        "credentials": {
+          "httpHeaderAuth": {
+            "id": "REPLACE_ME",
+            "name": "Research Eligibility API"
+          }
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000004",
+      "name": "Check Eligibility",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        760,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO enrollments (participant_id, study_id, email, decision) VALUES ('{{ $json.participant_id }}', '{{ $json.study_id }}', '{{ $json.email }}', '{{ $json.decision }}')",
+        "credentials": {
+          "postgres": {
+            "id": "REPLACE_ME",
+            "name": "Research Registry"
+          }
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000005",
+      "name": "Save Enrollment",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        1020,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "rules",
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "string": [
+                  {
+                    "value1": "={{ $json.decision }}",
+                    "operation": "equals",
+                    "value2": "approved"
+                  }
+                ]
+              }
+            },
+            {
+              "conditions": {
+                "string": [
+                  {
+                    "value1": "={{ $json.decision }}",
+                    "operation": "equals",
+                    "value2": "waitlist"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "10000000-0000-4000-8000-000000000006",
+      "name": "Route Decision",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        1280,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": []
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000007",
+      "name": "Build Approved Response",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1540,
+        -240
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": []
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000008",
+      "name": "Build Waitlist Response",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1540,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": []
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000009",
+      "name": "Build Invalid Response",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        500,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": []
+        }
+      },
+      "id": "10000000-0000-4000-8000-00000000000a",
+      "name": "Build Unexpected Response",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1540,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "10000000-0000-4000-8000-00000000000b",
+      "name": "Respond Approved",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        1800,
+        -240
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "10000000-0000-4000-8000-00000000000c",
+      "name": "Respond Waitlisted",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        1800,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "10000000-0000-4000-8000-00000000000d",
+      "name": "Respond Invalid",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        760,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "10000000-0000-4000-8000-00000000000e",
+      "name": "Respond Unexpected",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        1800,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "channel": "research-alerts",
+        "text": "Unexpected eligibility result",
+        "blocks": "={{ $('Build Unexpected Response').item.json.blocks }}",
+        "credentials": {
+          "slackApi": {
+            "id": "REPLACE_ME",
+            "name": "Research Workspace"
+          }
+        }
+      },
+      "id": "10000000-0000-4000-8000-00000000000f",
+      "name": "Notify Coordinator",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        1800,
+        160
+      ]
+    }
+  ],
+  "connections": {
+    "Participant Intake": {
+      "main": [
+        [
+          {
+            "node": "Email Present?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Email Present?": {
+      "main": [
+        [
+          {
+            "node": "Fetch Study Metadata",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Build Invalid Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Study Metadata": {
+      "main": [
+        [
+          {
+            "node": "Check Eligibility",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Eligibility": {
+      "main": [
+        [
+          {
+            "node": "Save Enrollment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Enrollment": {
+      "main": [
+        [
+          {
+            "node": "Route Decision",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Route Decision": {
+      "main": [
+        [
+          {
+            "node": "Build Approved Response",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Build Waitlist Response",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Build Unexpected Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Approved Response": {
+      "main": [
+        [
+          {
+            "node": "Respond Approved",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Waitlist Response": {
+      "main": [
+        [
+          {
+            "node": "Respond Waitlisted",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Invalid Response": {
+      "main": [
+        [
+          {
+            "node": "Respond Invalid",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Unexpected Response": {
+      "main": [
+        [
+          {
+            "node": "Respond Unexpected",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Notify Coordinator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Complete runnable agent project",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested project copy and full-suite evaluation exist, compile, and run through the documented offline entry point.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_is_complete_and_runnable"
+      ]
+    },
+    {
+      "id": "completion__orchestration_outcomes",
+      "title": "Incident orchestration outcomes",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every frozen incident is handled once, valid evidence paths reach the correct verified remediation, and designated uncertainty or failure paths escalate with a reason.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_incident_coverage",
+        "test_case_outcomes_and_resolutions"
+      ]
+    },
+    {
+      "id": "completion__bounded_safety",
+      "title": "Bounded execution and safe oversight",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Retries, repeated calls, and role/tool budgets remain bounded; production P1 mutations follow oversight; failed or uncertain investigations never claim unsafe success.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_budget_retry_and_loop_containment",
+        "test_oversight_and_failed_action_safety"
+      ]
+    },
+    {
+      "id": "completion__state_consistency",
+      "title": "Trace, summary, and selective-memory consistency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Ordered traces expose role decisions and failures, aggregate counts reconcile with runs, and memory stores one compact reusable record per resolved signature without raw execution content.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_trace_exposes_decisions_errors_and_termination",
+        "test_summary_and_selective_memory_reconcile"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Complete runnable agent project",
+        "required_score": 10
+      },
+      {
+        "id": "completion__orchestration_outcomes",
+        "title": "Incident orchestration outcomes",
+        "required_score": 10
+      },
+      {
+        "id": "completion__bounded_safety",
+        "title": "Bounded execution and safe oversight",
+        "required_score": 10
+      },
+      {
+        "id": "completion__state_consistency",
+        "title": "Trace, summary, and selective-memory consistency",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

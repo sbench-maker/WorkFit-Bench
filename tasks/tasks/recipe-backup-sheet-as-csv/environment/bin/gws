@@ -1,0 +1,121 @@
+#!/usr/bin/env python3
+"""Small offline mock of the gws commands used by the bundled recipe skill."""
+
+from __future__ import annotations
+
+import csv
+import json
+import os
+import sys
+from pathlib import Path
+
+
+DATA_DIR = Path(os.environ.get("GWS_SNAPSHOT_DIR", "/root/data"))
+
+
+def fail(message: str, code: int = 2) -> None:
+    print(f"gws: {message}", file=sys.stderr)
+    raise SystemExit(code)
+
+
+def option(args: list[str], name: str, default: str | None = None) -> str | None:
+    try:
+        return args[args.index(name) + 1]
+    except (ValueError, IndexError):
+        return default
+
+
+def params(args: list[str]) -> dict:
+    raw = option(args, "--params")
+    if raw is None:
+        fail("--params is required")
+    try:
+        value = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        fail(f"invalid --params JSON: {exc}")
+    if not isinstance(value, dict):
+        fail("--params must decode to an object")
+    return value
+
+
+def load_snapshot() -> tuple[dict, dict]:
+    try:
+        index = json.loads((DATA_DIR / "workspace_index.json").read_text(encoding="utf-8"))
+        sheets = json.loads((DATA_DIR / "sheet_cells.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        fail(f"cannot load offline snapshot: {exc}")
+    return index, sheets
+
+
+def check_spreadsheet_id(snapshot: dict, supplied: object) -> None:
+    if supplied != snapshot["spreadsheetId"]:
+        fail(f"spreadsheet not found: {supplied}", 1)
+
+
+def public_metadata(snapshot: dict) -> dict:
+    return {
+        "spreadsheetId": snapshot["spreadsheetId"],
+        "properties": snapshot["properties"],
+        "activeSheetId": snapshot["activeSheetId"],
+        "sheets": [{"properties": sheet["properties"]} for sheet in snapshot["sheets"]],
+    }
+
+
+def sheet_for_range(snapshot: dict, raw_range: str) -> dict:
+    title = raw_range.split("!", 1)[0].strip()
+    if len(title) >= 2 and title[0] == title[-1] == "'":
+        title = title[1:-1].replace("''", "'")
+    for sheet in snapshot["sheets"]:
+        if sheet["properties"]["title"] == title:
+            return sheet
+    fail(f"range refers to unknown sheet: {raw_range}", 1)
+
+
+def emit_csv(rows: list[list[str]]) -> None:
+    writer = csv.writer(sys.stdout, lineterminator="\n")
+    writer.writerows(rows)
+
+
+def main() -> None:
+    args = sys.argv[1:]
+    _, snapshot = load_snapshot()
+
+    if args[:3] == ["sheets", "spreadsheets", "get"]:
+        request = params(args[3:])
+        check_spreadsheet_id(snapshot, request.get("spreadsheetId"))
+        json.dump(public_metadata(snapshot), sys.stdout, ensure_ascii=False, indent=2)
+        sys.stdout.write("\n")
+        return
+
+    if args[:3] == ["drive", "files", "export"]:
+        request = params(args[3:])
+        check_spreadsheet_id(snapshot, request.get("fileId"))
+        if request.get("mimeType") != "text/csv":
+            fail("this offline export supports mimeType text/csv only")
+        active_id = snapshot["activeSheetId"]
+        sheet = next(sheet for sheet in snapshot["sheets"] if sheet["properties"]["sheetId"] == active_id)
+        emit_csv(sheet["values"])
+        return
+
+    if args[:2] == ["sheets", "+read"]:
+        spreadsheet_id = option(args[2:], "--spreadsheet")
+        raw_range = option(args[2:], "--range")
+        output_format = option(args[2:], "--format", "json")
+        check_spreadsheet_id(snapshot, spreadsheet_id)
+        if raw_range is None:
+            fail("--range is required")
+        sheet = sheet_for_range(snapshot, raw_range)
+        if output_format == "csv":
+            emit_csv(sheet["values"])
+        elif output_format == "json":
+            json.dump(sheet["values"], sys.stdout, ensure_ascii=False)
+            sys.stdout.write("\n")
+        else:
+            fail("--format must be csv or json")
+        return
+
+    fail("unsupported offline command")
+
+
+if __name__ == "__main__":
+    main()

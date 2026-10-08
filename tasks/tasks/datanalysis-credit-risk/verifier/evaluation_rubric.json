@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__sample_quality",
+      "title": "Sample cleaning and organization/month scope",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report reconciles cleaning counts, OOS separation, abnormal-month decisions, and organization/month quality coverage from the frozen applications extract.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__feature_evidence",
+      "title": "Feature diagnostic evidence",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Missingness, IV, PSI, null-importance, and material correlation evidence agrees with the screening base and frozen diagnostic exports, including strict-threshold boundaries.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_feature_evidence_missingness",
+        "test_feature_evidence_iv_and_psi",
+        "test_feature_evidence_null_importance",
+        "test_feature_evidence_correlations"
+      ]
+    },
+    {
+      "id": "completion__screening_decisions",
+      "title": "Gate decisions and final modeling variables",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each material rejection is assigned to the correct first failing gate and the final retained-variable set follows the policy order and correlation protection rule.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_drop_decisions_by_gate",
+        "test_final_variable_set"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__sample_quality",
+        "title": "Sample cleaning and organization/month scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__feature_evidence",
+        "title": "Feature diagnostic evidence",
+        "required_score": 10
+      },
+      {
+        "id": "completion__screening_decisions",
+        "title": "Gate decisions and final modeling variables",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

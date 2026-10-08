@@ -1,0 +1,15 @@
+{
+  "method": "deterministic fictional construction",
+  "seed": 64017,
+  "tables": {
+    "skillbench.customers": 240,
+    "skillbench.monthly_usage": 965,
+    "skillbench.support_cases": 1912
+  },
+  "intentional_edge_cases": [
+    "five late-arriving usage corrections identified by ingested_at",
+    "three zero-seat usage rows that cannot produce a valid utilization feature",
+    "four internal accounts and five closed accounts",
+    "open support cases with missing resolution hours"
+  ]
+}

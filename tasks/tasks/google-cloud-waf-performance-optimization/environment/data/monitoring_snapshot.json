@@ -1,0 +1,65 @@
+{
+  "snapshot_at": "2026-08-18T18:00:00Z",
+  "dashboards": [
+    {
+      "name": "platform-host-health",
+      "metrics": [
+        "cpu_utilization_pct",
+        "memory_utilization_pct",
+        "instance_count"
+      ]
+    }
+  ],
+  "alert_policies": [
+    {
+      "name": "high-cpu",
+      "condition": "cpu_utilization_pct > 85 for 15 minutes",
+      "services": [
+        "catalog-api",
+        "checkout-api",
+        "inventory-worker"
+      ]
+    },
+    {
+      "name": "high-memory",
+      "condition": "memory_utilization_pct > 90 for 15 minutes",
+      "services": [
+        "catalog-api",
+        "checkout-api"
+      ]
+    },
+    {
+      "name": "global-errors",
+      "condition": "error_pct > 5 for 10 minutes",
+      "services": [
+        "edge-gateway"
+      ]
+    }
+  ],
+  "distributed_tracing": {
+    "enabled": true,
+    "sampling_pct": 1,
+    "retention_days": 7,
+    "service_graph_dashboard": false
+  },
+  "continuous_profiling": {
+    "enabled": false
+  },
+  "load_testing": {
+    "cadence": "manual before major releases",
+    "ci_gate": false,
+    "last_test_ids": [
+      "RUN-STEADY",
+      "RUN-LAUNCH",
+      "RUN-BURST",
+      "RUN-FAILOVER"
+    ]
+  },
+  "known_unmonitored_signals": [
+    "journey p95 latency",
+    "journey completion rate",
+    "inventory oldest message age",
+    "Cloud SQL connection utilization",
+    "cache hit ratio"
+  ]
+}

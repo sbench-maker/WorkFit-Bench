@@ -1,0 +1,47 @@
+{
+  "loop_selection_order": [
+    {
+      "when": "strict_ci_pr_control",
+      "mode": "continuous-pr"
+    },
+    {
+      "when": "rfc_decomposition_required",
+      "mode": "rfc-dag"
+    },
+    {
+      "when": "exploratory_parallel_generation",
+      "mode": "infinite"
+    },
+    {
+      "when": "default",
+      "mode": "sequential"
+    }
+  ],
+  "recovery_policy": {
+    "progress_window_hours": 12,
+    "freeze_if_merge_stalled": true,
+    "freeze_if_repeated_root_items_at_least": 2,
+    "same_root_cause_limit": 2,
+    "max_total_attempts_per_item": 3,
+    "scope_reduction_before_replay_after_repeat": true,
+    "restart_budget_credits": 170,
+    "hard_stop_gates": [
+      "security",
+      "migration_roundtrip"
+    ],
+    "restart_requires_all_applicable_gates": true
+  },
+  "disposition_precedence": [
+    "preserve items already merged",
+    "send an unmerged item to human review when its total-attempt limit is exhausted",
+    "hold an unattempted item when a dependency needs human review or is held",
+    "isolate and reduce scope before replay when the same failure signature reaches the repeat limit",
+    "replay a smaller failing unit when the latest required gate failed and attempts remain",
+    "resume a stalled queue entry when its latest required gates all pass"
+  ],
+  "restart_order": "Schedule resumable and replayable items in topological waves; an item may share a wave only with items it does not depend on.",
+  "human_approval_required_for": [
+    "attempt limit exhausted",
+    "dependency chain blocked by an exhausted item"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3",
+    "ruby",
+    "rspec",
+    "mkdir",
+    "cp",
+    "cat"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ],
+  "runtime_components": {
+    "ruby": "Debian bookworm ruby-full",
+    "ruby_gems": {
+      "rack": "3.1.8",
+      "rack-test": "2.2.0",
+      "rspec": "3.13.0",
+      "capybara": "3.40.0"
+    }
+  }
+}

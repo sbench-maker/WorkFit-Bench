@@ -1,0 +1,28 @@
+{
+  "fixture_kind": "deterministic offline paper-page and public-API snapshot",
+  "paper_reference": "2608.04721v2",
+  "complete": true,
+  "objects": [
+    {
+      "operation": "paper markdown",
+      "file": "paper_page.md"
+    },
+    {
+      "operation": "paper metadata",
+      "file": "paper_metadata.json"
+    },
+    {
+      "operation": "linked models",
+      "file": "linked_models.json"
+    },
+    {
+      "operation": "linked datasets",
+      "file": "linked_datasets.json"
+    },
+    {
+      "operation": "linked spaces",
+      "file": "linked_spaces.json"
+    }
+  ],
+  "notes": "All entities are fictional and constructed for this offline task. No live service observations or external provenance are asserted."
+}

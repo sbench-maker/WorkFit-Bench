@@ -1,0 +1,2245 @@
+{
+  "snapshot_id": "remotion-mirror-2026-08-15",
+  "records": [
+    {
+      "objectID": "doc-000-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<AnimatedImage> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/animated-image",
+      "content": "Render animated image formats. AnimatedImage Render animated image formats Overview"
+    },
+    {
+      "objectID": "doc-000-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<AnimatedImage> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/animated-image",
+      "content": "Render animated image formats. Render animated image formats AnimatedImage Usage"
+    },
+    {
+      "objectID": "doc-000-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<AnimatedImage> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/animated-image",
+      "content": "Render animated image formats. animated image formats AnimatedImage Render Parameters"
+    },
+    {
+      "objectID": "doc-000-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<AnimatedImage> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/animated-image",
+      "content": "Render animated image formats. image formats AnimatedImage Render animated Return value"
+    },
+    {
+      "objectID": "doc-000-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<AnimatedImage> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/animated-image",
+      "content": "Render animated image formats. formats AnimatedImage Render animated image Behavior"
+    },
+    {
+      "objectID": "doc-000-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<AnimatedImage> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/animated-image",
+      "content": "Render animated image formats. AnimatedImage Render animated image formats Caveats"
+    },
+    {
+      "objectID": "doc-000-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<AnimatedImage> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/animated-image",
+      "content": "Render animated image formats. Render animated image formats AnimatedImage Examples"
+    },
+    {
+      "objectID": "doc-001-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Audio> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/audio",
+      "content": "Add audio to a composition. Audio Add audio to composition Overview"
+    },
+    {
+      "objectID": "doc-001-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Audio> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/audio",
+      "content": "Add audio to a composition. Add audio to composition Audio Usage"
+    },
+    {
+      "objectID": "doc-001-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Audio> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/audio",
+      "content": "Add audio to a composition. audio to composition Audio Add Parameters"
+    },
+    {
+      "objectID": "doc-001-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Audio> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/audio",
+      "content": "Add audio to a composition. to composition Audio Add audio Return value"
+    },
+    {
+      "objectID": "doc-001-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Audio> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/audio",
+      "content": "Add audio to a composition. composition Audio Add audio to Behavior"
+    },
+    {
+      "objectID": "doc-001-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Audio> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/audio",
+      "content": "Add audio to a composition. Audio Add audio to composition Caveats"
+    },
+    {
+      "objectID": "doc-001-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Audio> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/audio",
+      "content": "Add audio to a composition. Add audio to composition Audio Examples"
+    },
+    {
+      "objectID": "doc-002-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "calculateMetadata() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/calculate-metadata",
+      "content": "Resolve props and composition metadata before rendering. calculateMetadata Resolve props and composition metadata before rendering Overview"
+    },
+    {
+      "objectID": "doc-002-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "calculateMetadata() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/calculate-metadata",
+      "content": "Resolve props and composition metadata before rendering. Resolve props and composition metadata before rendering calculateMetadata Usage"
+    },
+    {
+      "objectID": "doc-002-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "calculateMetadata() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/calculate-metadata",
+      "content": "Resolve props and composition metadata before rendering. props and composition metadata before rendering calculateMetadata Resolve Parameters"
+    },
+    {
+      "objectID": "doc-002-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "calculateMetadata() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/calculate-metadata",
+      "content": "Resolve props and composition metadata before rendering. and composition metadata before rendering calculateMetadata Resolve props Return value"
+    },
+    {
+      "objectID": "doc-002-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "calculateMetadata() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/calculate-metadata",
+      "content": "Resolve props and composition metadata before rendering. composition metadata before rendering calculateMetadata Resolve props and Behavior"
+    },
+    {
+      "objectID": "doc-002-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "calculateMetadata() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/calculate-metadata",
+      "content": "Resolve props and composition metadata before rendering. metadata before rendering calculateMetadata Resolve props and composition Caveats"
+    },
+    {
+      "objectID": "doc-002-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "calculateMetadata() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/calculate-metadata",
+      "content": "Resolve props and composition metadata before rendering. before rendering calculateMetadata Resolve props and composition metadata Examples"
+    },
+    {
+      "objectID": "doc-003-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "cancelRender() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/cancel-render",
+      "content": "Fail a render intentionally when required asynchronous work cannot complete. cancelRender error abort delayRender rejection failure Overview"
+    },
+    {
+      "objectID": "doc-003-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "cancelRender() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/cancel-render",
+      "content": "Fail a render intentionally when required asynchronous work cannot complete. error abort delayRender rejection failure cancelRender Usage"
+    },
+    {
+      "objectID": "doc-003-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "cancelRender() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/cancel-render",
+      "content": "Fail a render intentionally when required asynchronous work cannot complete. abort delayRender rejection failure cancelRender error Parameters"
+    },
+    {
+      "objectID": "doc-003-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "cancelRender() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/cancel-render",
+      "content": "Fail a render intentionally when required asynchronous work cannot complete. delayRender rejection failure cancelRender error abort Return value"
+    },
+    {
+      "objectID": "doc-003-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "cancelRender() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/cancel-render",
+      "content": "Fail a render intentionally when required asynchronous work cannot complete. rejection failure cancelRender error abort delayRender Behavior"
+    },
+    {
+      "objectID": "doc-003-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "cancelRender() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/cancel-render",
+      "content": "Fail a render intentionally when required asynchronous work cannot complete. failure cancelRender error abort delayRender rejection Caveats"
+    },
+    {
+      "objectID": "doc-003-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "cancelRender() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/cancel-render",
+      "content": "Fail a render intentionally when required asynchronous work cannot complete. cancelRender error abort delayRender rejection failure Examples"
+    },
+    {
+      "objectID": "doc-004-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "<Composition> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/composition",
+      "content": "Register a composition and its dimensions. Composition Register composition and its dimensions Overview"
+    },
+    {
+      "objectID": "doc-004-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "<Composition> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/composition",
+      "content": "Register a composition and its dimensions. Register composition and its dimensions Composition Usage"
+    },
+    {
+      "objectID": "doc-004-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "<Composition> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/composition",
+      "content": "Register a composition and its dimensions. composition and its dimensions Composition Register Parameters"
+    },
+    {
+      "objectID": "doc-004-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "<Composition> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/composition",
+      "content": "Register a composition and its dimensions. and its dimensions Composition Register composition Return value"
+    },
+    {
+      "objectID": "doc-004-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "<Composition> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/composition",
+      "content": "Register a composition and its dimensions. its dimensions Composition Register composition and Behavior"
+    },
+    {
+      "objectID": "doc-004-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "<Composition> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/composition",
+      "content": "Register a composition and its dimensions. dimensions Composition Register composition and its Caveats"
+    },
+    {
+      "objectID": "doc-004-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Fundamentals",
+        "lvl2": "<Composition> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/composition",
+      "content": "Register a composition and its dimensions. Composition Register composition and its dimensions Examples"
+    },
+    {
+      "objectID": "doc-005-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "delayRender() and continueRender() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/delay-render",
+      "content": "Block rendering while asynchronous resources are prepared. delayRender continueRender handle async timeout preload Overview"
+    },
+    {
+      "objectID": "doc-005-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "delayRender() and continueRender() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/delay-render",
+      "content": "Block rendering while asynchronous resources are prepared. continueRender handle async timeout preload delayRender Usage"
+    },
+    {
+      "objectID": "doc-005-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "delayRender() and continueRender() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/delay-render",
+      "content": "Block rendering while asynchronous resources are prepared. handle async timeout preload delayRender continueRender Parameters"
+    },
+    {
+      "objectID": "doc-005-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "delayRender() and continueRender() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/delay-render",
+      "content": "Block rendering while asynchronous resources are prepared. async timeout preload delayRender continueRender handle Return value"
+    },
+    {
+      "objectID": "doc-005-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "delayRender() and continueRender() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/delay-render",
+      "content": "Block rendering while asynchronous resources are prepared. timeout preload delayRender continueRender handle async Behavior"
+    },
+    {
+      "objectID": "doc-005-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "delayRender() and continueRender() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/delay-render",
+      "content": "Block rendering while asynchronous resources are prepared. preload delayRender continueRender handle async timeout Caveats"
+    },
+    {
+      "objectID": "doc-005-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "delayRender() and continueRender() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/delay-render",
+      "content": "Block rendering while asynchronous resources are prepared. delayRender continueRender handle async timeout preload Examples"
+    },
+    {
+      "objectID": "doc-006-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Freeze> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/freeze",
+      "content": "Hold children on one frame. Freeze Hold children on one frame Overview"
+    },
+    {
+      "objectID": "doc-006-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Freeze> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/freeze",
+      "content": "Hold children on one frame. Hold children on one frame Freeze Usage"
+    },
+    {
+      "objectID": "doc-006-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Freeze> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/freeze",
+      "content": "Hold children on one frame. children on one frame Freeze Hold Parameters"
+    },
+    {
+      "objectID": "doc-006-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Freeze> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/freeze",
+      "content": "Hold children on one frame. on one frame Freeze Hold children Return value"
+    },
+    {
+      "objectID": "doc-006-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Freeze> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/freeze",
+      "content": "Hold children on one frame. one frame Freeze Hold children on Behavior"
+    },
+    {
+      "objectID": "doc-006-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Freeze> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/freeze",
+      "content": "Hold children on one frame. frame Freeze Hold children on one Caveats"
+    },
+    {
+      "objectID": "doc-006-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Freeze> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/freeze",
+      "content": "Hold children on one frame. Freeze Hold children on one frame Examples"
+    },
+    {
+      "objectID": "doc-007-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "getInputProps() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/get-input-props",
+      "content": "Read serialized props passed to a render. getInputProps Read serialized props passed to render Overview"
+    },
+    {
+      "objectID": "doc-007-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "getInputProps() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/get-input-props",
+      "content": "Read serialized props passed to a render. Read serialized props passed to render getInputProps Usage"
+    },
+    {
+      "objectID": "doc-007-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "getInputProps() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/get-input-props",
+      "content": "Read serialized props passed to a render. serialized props passed to render getInputProps Read Parameters"
+    },
+    {
+      "objectID": "doc-007-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "getInputProps() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/get-input-props",
+      "content": "Read serialized props passed to a render. props passed to render getInputProps Read serialized Return value"
+    },
+    {
+      "objectID": "doc-007-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "getInputProps() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/get-input-props",
+      "content": "Read serialized props passed to a render. passed to render getInputProps Read serialized props Behavior"
+    },
+    {
+      "objectID": "doc-007-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "getInputProps() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/get-input-props",
+      "content": "Read serialized props passed to a render. to render getInputProps Read serialized props passed Caveats"
+    },
+    {
+      "objectID": "doc-007-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "getInputProps() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/get-input-props",
+      "content": "Read serialized props passed to a render. render getInputProps Read serialized props passed to Examples"
+    },
+    {
+      "objectID": "doc-008-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Img> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/img",
+      "content": "Display an image and wait for it during rendering. Img Display an image and wait for it during rendering Overview"
+    },
+    {
+      "objectID": "doc-008-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Img> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/img",
+      "content": "Display an image and wait for it during rendering. Display an image and wait for it during rendering Img Usage"
+    },
+    {
+      "objectID": "doc-008-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Img> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/img",
+      "content": "Display an image and wait for it during rendering. an image and wait for it during rendering Img Display Parameters"
+    },
+    {
+      "objectID": "doc-008-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Img> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/img",
+      "content": "Display an image and wait for it during rendering. image and wait for it during rendering Img Display an Return value"
+    },
+    {
+      "objectID": "doc-008-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Img> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/img",
+      "content": "Display an image and wait for it during rendering. and wait for it during rendering Img Display an image Behavior"
+    },
+    {
+      "objectID": "doc-008-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Img> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/img",
+      "content": "Display an image and wait for it during rendering. wait for it during rendering Img Display an image and Caveats"
+    },
+    {
+      "objectID": "doc-008-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Img> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/img",
+      "content": "Display an image and wait for it during rendering. for it during rendering Img Display an image and wait Examples"
+    },
+    {
+      "objectID": "doc-009-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "Lambda overview — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/lambda",
+      "content": "Deploy and run renders on AWS Lambda. Lambda overview Deploy and run renders on AWS Lambda Overview"
+    },
+    {
+      "objectID": "doc-009-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "Lambda overview — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/lambda",
+      "content": "Deploy and run renders on AWS Lambda. overview Deploy and run renders on AWS Lambda Lambda Usage"
+    },
+    {
+      "objectID": "doc-009-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "Lambda overview — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/lambda",
+      "content": "Deploy and run renders on AWS Lambda. Deploy and run renders on AWS Lambda Lambda overview Parameters"
+    },
+    {
+      "objectID": "doc-009-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "Lambda overview — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/lambda",
+      "content": "Deploy and run renders on AWS Lambda. and run renders on AWS Lambda Lambda overview Deploy Return value"
+    },
+    {
+      "objectID": "doc-009-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "Lambda overview — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/lambda",
+      "content": "Deploy and run renders on AWS Lambda. run renders on AWS Lambda Lambda overview Deploy and Behavior"
+    },
+    {
+      "objectID": "doc-009-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "Lambda overview — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/lambda",
+      "content": "Deploy and run renders on AWS Lambda. renders on AWS Lambda Lambda overview Deploy and run Caveats"
+    },
+    {
+      "objectID": "doc-009-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "Lambda overview — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/lambda",
+      "content": "Deploy and run renders on AWS Lambda. on AWS Lambda Lambda overview Deploy and run renders Examples"
+    },
+    {
+      "objectID": "doc-010-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deleteRender() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deleterender",
+      "content": "Delete a Lambda render artifact. deleteRender Delete Lambda render artifact Overview"
+    },
+    {
+      "objectID": "doc-010-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deleteRender() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deleterender",
+      "content": "Delete a Lambda render artifact. Delete Lambda render artifact deleteRender Usage"
+    },
+    {
+      "objectID": "doc-010-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deleteRender() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deleterender",
+      "content": "Delete a Lambda render artifact. Lambda render artifact deleteRender Delete Parameters"
+    },
+    {
+      "objectID": "doc-010-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deleteRender() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deleterender",
+      "content": "Delete a Lambda render artifact. render artifact deleteRender Delete Lambda Return value"
+    },
+    {
+      "objectID": "doc-010-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deleteRender() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deleterender",
+      "content": "Delete a Lambda render artifact. artifact deleteRender Delete Lambda render Behavior"
+    },
+    {
+      "objectID": "doc-010-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deleteRender() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deleterender",
+      "content": "Delete a Lambda render artifact. deleteRender Delete Lambda render artifact Caveats"
+    },
+    {
+      "objectID": "doc-010-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deleteRender() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deleterender",
+      "content": "Delete a Lambda render artifact. Delete Lambda render artifact deleteRender Examples"
+    },
+    {
+      "objectID": "doc-011-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deployFunction() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deployfunction",
+      "content": "Deploy the Lambda rendering function. deployFunction Deploy the Lambda rendering function Overview"
+    },
+    {
+      "objectID": "doc-011-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deployFunction() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deployfunction",
+      "content": "Deploy the Lambda rendering function. Deploy the Lambda rendering function deployFunction Usage"
+    },
+    {
+      "objectID": "doc-011-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deployFunction() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deployfunction",
+      "content": "Deploy the Lambda rendering function. the Lambda rendering function deployFunction Deploy Parameters"
+    },
+    {
+      "objectID": "doc-011-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deployFunction() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deployfunction",
+      "content": "Deploy the Lambda rendering function. Lambda rendering function deployFunction Deploy the Return value"
+    },
+    {
+      "objectID": "doc-011-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deployFunction() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deployfunction",
+      "content": "Deploy the Lambda rendering function. rendering function deployFunction Deploy the Lambda Behavior"
+    },
+    {
+      "objectID": "doc-011-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deployFunction() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deployfunction",
+      "content": "Deploy the Lambda rendering function. function deployFunction Deploy the Lambda rendering Caveats"
+    },
+    {
+      "objectID": "doc-011-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deployFunction() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deployfunction",
+      "content": "Deploy the Lambda rendering function. deployFunction Deploy the Lambda rendering function Examples"
+    },
+    {
+      "objectID": "doc-012-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deploySite() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deploysite",
+      "content": "Upload a Remotion bundle for Lambda rendering. deploySite Upload Remotion bundle for Lambda rendering Overview"
+    },
+    {
+      "objectID": "doc-012-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deploySite() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deploysite",
+      "content": "Upload a Remotion bundle for Lambda rendering. Upload Remotion bundle for Lambda rendering deploySite Usage"
+    },
+    {
+      "objectID": "doc-012-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deploySite() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deploysite",
+      "content": "Upload a Remotion bundle for Lambda rendering. Remotion bundle for Lambda rendering deploySite Upload Parameters"
+    },
+    {
+      "objectID": "doc-012-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deploySite() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deploysite",
+      "content": "Upload a Remotion bundle for Lambda rendering. bundle for Lambda rendering deploySite Upload Remotion Return value"
+    },
+    {
+      "objectID": "doc-012-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deploySite() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deploysite",
+      "content": "Upload a Remotion bundle for Lambda rendering. for Lambda rendering deploySite Upload Remotion bundle Behavior"
+    },
+    {
+      "objectID": "doc-012-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deploySite() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deploysite",
+      "content": "Upload a Remotion bundle for Lambda rendering. Lambda rendering deploySite Upload Remotion bundle for Caveats"
+    },
+    {
+      "objectID": "doc-012-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "deploySite() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/deploysite",
+      "content": "Upload a Remotion bundle for Lambda rendering. rendering deploySite Upload Remotion bundle for Lambda Examples"
+    },
+    {
+      "objectID": "doc-013-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getFunctions() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getfunctions",
+      "content": "List deployed rendering functions. getFunctions List deployed rendering functions Overview"
+    },
+    {
+      "objectID": "doc-013-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getFunctions() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getfunctions",
+      "content": "List deployed rendering functions. List deployed rendering functions getFunctions Usage"
+    },
+    {
+      "objectID": "doc-013-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getFunctions() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getfunctions",
+      "content": "List deployed rendering functions. deployed rendering functions getFunctions List Parameters"
+    },
+    {
+      "objectID": "doc-013-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getFunctions() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getfunctions",
+      "content": "List deployed rendering functions. rendering functions getFunctions List deployed Return value"
+    },
+    {
+      "objectID": "doc-013-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getFunctions() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getfunctions",
+      "content": "List deployed rendering functions. functions getFunctions List deployed rendering Behavior"
+    },
+    {
+      "objectID": "doc-013-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getFunctions() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getfunctions",
+      "content": "List deployed rendering functions. getFunctions List deployed rendering functions Caveats"
+    },
+    {
+      "objectID": "doc-013-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getFunctions() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getfunctions",
+      "content": "List deployed rendering functions. List deployed rendering functions getFunctions Examples"
+    },
+    {
+      "objectID": "doc-014-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getRenderProgress() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getrenderprogress",
+      "content": "Poll the status and result of a Remotion Lambda render. getRenderProgress poll done outputFile fatalErrorEncountered errors Overview"
+    },
+    {
+      "objectID": "doc-014-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getRenderProgress() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getrenderprogress",
+      "content": "Poll the status and result of a Remotion Lambda render. poll done outputFile fatalErrorEncountered errors getRenderProgress Usage"
+    },
+    {
+      "objectID": "doc-014-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getRenderProgress() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getrenderprogress",
+      "content": "Poll the status and result of a Remotion Lambda render. done outputFile fatalErrorEncountered errors getRenderProgress poll Parameters"
+    },
+    {
+      "objectID": "doc-014-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getRenderProgress() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getrenderprogress",
+      "content": "Poll the status and result of a Remotion Lambda render. outputFile fatalErrorEncountered errors getRenderProgress poll done Return value"
+    },
+    {
+      "objectID": "doc-014-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getRenderProgress() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getrenderprogress",
+      "content": "Poll the status and result of a Remotion Lambda render. fatalErrorEncountered errors getRenderProgress poll done outputFile Behavior"
+    },
+    {
+      "objectID": "doc-014-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getRenderProgress() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getrenderprogress",
+      "content": "Poll the status and result of a Remotion Lambda render. errors getRenderProgress poll done outputFile fatalErrorEncountered Caveats"
+    },
+    {
+      "objectID": "doc-014-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "getRenderProgress() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/getrenderprogress",
+      "content": "Poll the status and result of a Remotion Lambda render. getRenderProgress poll done outputFile fatalErrorEncountered errors Examples"
+    },
+    {
+      "objectID": "doc-015-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "renderMediaOnLambda() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/rendermediaonlambda",
+      "content": "Start a Remotion Lambda render and receive identifiers used for progress polling. renderMediaOnLambda renderId bucketName region serverless start render Overview"
+    },
+    {
+      "objectID": "doc-015-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "renderMediaOnLambda() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/rendermediaonlambda",
+      "content": "Start a Remotion Lambda render and receive identifiers used for progress polling. renderId bucketName region serverless start render renderMediaOnLambda Usage"
+    },
+    {
+      "objectID": "doc-015-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "renderMediaOnLambda() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/rendermediaonlambda",
+      "content": "Start a Remotion Lambda render and receive identifiers used for progress polling. bucketName region serverless start render renderMediaOnLambda renderId Parameters"
+    },
+    {
+      "objectID": "doc-015-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "renderMediaOnLambda() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/rendermediaonlambda",
+      "content": "Start a Remotion Lambda render and receive identifiers used for progress polling. region serverless start render renderMediaOnLambda renderId bucketName Return value"
+    },
+    {
+      "objectID": "doc-015-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "renderMediaOnLambda() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/rendermediaonlambda",
+      "content": "Start a Remotion Lambda render and receive identifiers used for progress polling. serverless start render renderMediaOnLambda renderId bucketName region Behavior"
+    },
+    {
+      "objectID": "doc-015-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "renderMediaOnLambda() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/rendermediaonlambda",
+      "content": "Start a Remotion Lambda render and receive identifiers used for progress polling. start render renderMediaOnLambda renderId bucketName region serverless Caveats"
+    },
+    {
+      "objectID": "doc-015-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Lambda",
+        "lvl2": "renderMediaOnLambda() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/lambda/rendermediaonlambda",
+      "content": "Start a Remotion Lambda render and receive identifiers used for progress polling. renderMediaOnLambda renderId bucketName region serverless start render Examples"
+    },
+    {
+      "objectID": "doc-016-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Loop> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/loop",
+      "content": "Repeat children for a configured duration. Loop Repeat children for configured duration Overview"
+    },
+    {
+      "objectID": "doc-016-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Loop> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/loop",
+      "content": "Repeat children for a configured duration. Repeat children for configured duration Loop Usage"
+    },
+    {
+      "objectID": "doc-016-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Loop> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/loop",
+      "content": "Repeat children for a configured duration. children for configured duration Loop Repeat Parameters"
+    },
+    {
+      "objectID": "doc-016-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Loop> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/loop",
+      "content": "Repeat children for a configured duration. for configured duration Loop Repeat children Return value"
+    },
+    {
+      "objectID": "doc-016-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Loop> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/loop",
+      "content": "Repeat children for a configured duration. configured duration Loop Repeat children for Behavior"
+    },
+    {
+      "objectID": "doc-016-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Loop> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/loop",
+      "content": "Repeat children for a configured duration. duration Loop Repeat children for configured Caveats"
+    },
+    {
+      "objectID": "doc-016-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Loop> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/loop",
+      "content": "Repeat children for a configured duration. Loop Repeat children for configured duration Examples"
+    },
+    {
+      "objectID": "doc-017-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<OffthreadVideo> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/offthreadvideo",
+      "content": "Render video frames reliably and control interactive buffering behavior. OffthreadVideo pauseWhenBuffering buffering Player Studio render Chrome Overview"
+    },
+    {
+      "objectID": "doc-017-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<OffthreadVideo> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/offthreadvideo",
+      "content": "Render video frames reliably and control interactive buffering behavior. pauseWhenBuffering buffering Player Studio render Chrome OffthreadVideo Usage"
+    },
+    {
+      "objectID": "doc-017-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<OffthreadVideo> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/offthreadvideo",
+      "content": "Render video frames reliably and control interactive buffering behavior. buffering Player Studio render Chrome OffthreadVideo pauseWhenBuffering Parameters"
+    },
+    {
+      "objectID": "doc-017-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<OffthreadVideo> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/offthreadvideo",
+      "content": "Render video frames reliably and control interactive buffering behavior. Player Studio render Chrome OffthreadVideo pauseWhenBuffering buffering Return value"
+    },
+    {
+      "objectID": "doc-017-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<OffthreadVideo> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/offthreadvideo",
+      "content": "Render video frames reliably and control interactive buffering behavior. Studio render Chrome OffthreadVideo pauseWhenBuffering buffering Player Behavior"
+    },
+    {
+      "objectID": "doc-017-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<OffthreadVideo> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/offthreadvideo",
+      "content": "Render video frames reliably and control interactive buffering behavior. render Chrome OffthreadVideo pauseWhenBuffering buffering Player Studio Caveats"
+    },
+    {
+      "objectID": "doc-017-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<OffthreadVideo> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/offthreadvideo",
+      "content": "Render video frames reliably and control interactive buffering behavior. Chrome OffthreadVideo pauseWhenBuffering buffering Player Studio render Examples"
+    },
+    {
+      "objectID": "doc-018-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "<Player> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/player",
+      "content": "Embed an interactive Remotion composition. Player Embed an interactive Remotion composition Overview"
+    },
+    {
+      "objectID": "doc-018-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "<Player> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/player",
+      "content": "Embed an interactive Remotion composition. Embed an interactive Remotion composition Player Usage"
+    },
+    {
+      "objectID": "doc-018-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "<Player> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/player",
+      "content": "Embed an interactive Remotion composition. an interactive Remotion composition Player Embed Parameters"
+    },
+    {
+      "objectID": "doc-018-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "<Player> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/player",
+      "content": "Embed an interactive Remotion composition. interactive Remotion composition Player Embed an Return value"
+    },
+    {
+      "objectID": "doc-018-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "<Player> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/player",
+      "content": "Embed an interactive Remotion composition. Remotion composition Player Embed an interactive Behavior"
+    },
+    {
+      "objectID": "doc-018-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "<Player> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/player",
+      "content": "Embed an interactive Remotion composition. composition Player Embed an interactive Remotion Caveats"
+    },
+    {
+      "objectID": "doc-018-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "<Player> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/player",
+      "content": "Embed an interactive Remotion composition. Player Embed an interactive Remotion composition Examples"
+    },
+    {
+      "objectID": "doc-019-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "Player buffer state — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/player-buffer-state",
+      "content": "Observe whether interactive media is buffering. Player buffer state Observe whether interactive media is buffering Overview"
+    },
+    {
+      "objectID": "doc-019-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "Player buffer state — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/player-buffer-state",
+      "content": "Observe whether interactive media is buffering. buffer state Observe whether interactive media is buffering Player Usage"
+    },
+    {
+      "objectID": "doc-019-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "Player buffer state — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/player-buffer-state",
+      "content": "Observe whether interactive media is buffering. state Observe whether interactive media is buffering Player buffer Parameters"
+    },
+    {
+      "objectID": "doc-019-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "Player buffer state — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/player-buffer-state",
+      "content": "Observe whether interactive media is buffering. Observe whether interactive media is buffering Player buffer state Return value"
+    },
+    {
+      "objectID": "doc-019-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "Player buffer state — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/player-buffer-state",
+      "content": "Observe whether interactive media is buffering. whether interactive media is buffering Player buffer state Observe Behavior"
+    },
+    {
+      "objectID": "doc-019-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "Player buffer state — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/player-buffer-state",
+      "content": "Observe whether interactive media is buffering. interactive media is buffering Player buffer state Observe whether Caveats"
+    },
+    {
+      "objectID": "doc-019-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Player",
+        "lvl2": "Player buffer state — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/player-buffer-state",
+      "content": "Observe whether interactive media is buffering. media is buffering Player buffer state Observe whether interactive Examples"
+    },
+    {
+      "objectID": "doc-020-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "Premounting — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/premounting",
+      "content": "Mount timeline content before it becomes visible. Premounting Mount timeline content before it becomes visible Overview"
+    },
+    {
+      "objectID": "doc-020-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "Premounting — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/premounting",
+      "content": "Mount timeline content before it becomes visible. Mount timeline content before it becomes visible Premounting Usage"
+    },
+    {
+      "objectID": "doc-020-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "Premounting — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/premounting",
+      "content": "Mount timeline content before it becomes visible. timeline content before it becomes visible Premounting Mount Parameters"
+    },
+    {
+      "objectID": "doc-020-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "Premounting — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/premounting",
+      "content": "Mount timeline content before it becomes visible. content before it becomes visible Premounting Mount timeline Return value"
+    },
+    {
+      "objectID": "doc-020-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "Premounting — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/premounting",
+      "content": "Mount timeline content before it becomes visible. before it becomes visible Premounting Mount timeline content Behavior"
+    },
+    {
+      "objectID": "doc-020-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "Premounting — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/premounting",
+      "content": "Mount timeline content before it becomes visible. it becomes visible Premounting Mount timeline content before Caveats"
+    },
+    {
+      "objectID": "doc-020-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "Premounting — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/premounting",
+      "content": "Mount timeline content before it becomes visible. becomes visible Premounting Mount timeline content before it Examples"
+    },
+    {
+      "objectID": "doc-021-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderMedia() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/render-media",
+      "content": "Render a composition with the local Node.js renderer. renderMedia Render composition with the local Node js renderer Overview"
+    },
+    {
+      "objectID": "doc-021-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderMedia() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/render-media",
+      "content": "Render a composition with the local Node.js renderer. Render composition with the local Node js renderer renderMedia Usage"
+    },
+    {
+      "objectID": "doc-021-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderMedia() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/render-media",
+      "content": "Render a composition with the local Node.js renderer. composition with the local Node js renderer renderMedia Render Parameters"
+    },
+    {
+      "objectID": "doc-021-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderMedia() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/render-media",
+      "content": "Render a composition with the local Node.js renderer. with the local Node js renderer renderMedia Render composition Return value"
+    },
+    {
+      "objectID": "doc-021-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderMedia() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/render-media",
+      "content": "Render a composition with the local Node.js renderer. the local Node js renderer renderMedia Render composition with Behavior"
+    },
+    {
+      "objectID": "doc-021-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderMedia() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/render-media",
+      "content": "Render a composition with the local Node.js renderer. local Node js renderer renderMedia Render composition with the Caveats"
+    },
+    {
+      "objectID": "doc-021-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderMedia() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/render-media",
+      "content": "Render a composition with the local Node.js renderer. Node js renderer renderMedia Render composition with the local Examples"
+    },
+    {
+      "objectID": "doc-022-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderStill() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/render-still",
+      "content": "Render one frame to an image. renderStill Render one frame to an image Overview"
+    },
+    {
+      "objectID": "doc-022-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderStill() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/render-still",
+      "content": "Render one frame to an image. Render one frame to an image renderStill Usage"
+    },
+    {
+      "objectID": "doc-022-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderStill() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/render-still",
+      "content": "Render one frame to an image. one frame to an image renderStill Render Parameters"
+    },
+    {
+      "objectID": "doc-022-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderStill() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/render-still",
+      "content": "Render one frame to an image. frame to an image renderStill Render one Return value"
+    },
+    {
+      "objectID": "doc-022-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderStill() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/render-still",
+      "content": "Render one frame to an image. to an image renderStill Render one frame Behavior"
+    },
+    {
+      "objectID": "doc-022-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderStill() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/render-still",
+      "content": "Render one frame to an image. an image renderStill Render one frame to Caveats"
+    },
+    {
+      "objectID": "doc-022-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "renderStill() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/render-still",
+      "content": "Render one frame to an image. image renderStill Render one frame to an Examples"
+    },
+    {
+      "objectID": "doc-023-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "Render timeouts — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/renderer-timeout",
+      "content": "Configure renderer timeout behavior. Render timeouts Configure renderer timeout behavior Overview"
+    },
+    {
+      "objectID": "doc-023-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "Render timeouts — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/renderer-timeout",
+      "content": "Configure renderer timeout behavior. timeouts Configure renderer timeout behavior Render Usage"
+    },
+    {
+      "objectID": "doc-023-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "Render timeouts — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/renderer-timeout",
+      "content": "Configure renderer timeout behavior. Configure renderer timeout behavior Render timeouts Parameters"
+    },
+    {
+      "objectID": "doc-023-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "Render timeouts — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/renderer-timeout",
+      "content": "Configure renderer timeout behavior. renderer timeout behavior Render timeouts Configure Return value"
+    },
+    {
+      "objectID": "doc-023-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "Render timeouts — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/renderer-timeout",
+      "content": "Configure renderer timeout behavior. timeout behavior Render timeouts Configure renderer Behavior"
+    },
+    {
+      "objectID": "doc-023-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "Render timeouts — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/renderer-timeout",
+      "content": "Configure renderer timeout behavior. behavior Render timeouts Configure renderer timeout Caveats"
+    },
+    {
+      "objectID": "doc-023-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "Render timeouts — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/renderer-timeout",
+      "content": "Configure renderer timeout behavior. Render timeouts Configure renderer timeout behavior Examples"
+    },
+    {
+      "objectID": "doc-024-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "selectComposition() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/select-composition",
+      "content": "Resolve a composition before a local render. selectComposition Resolve composition before local render Overview"
+    },
+    {
+      "objectID": "doc-024-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "selectComposition() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/select-composition",
+      "content": "Resolve a composition before a local render. Resolve composition before local render selectComposition Usage"
+    },
+    {
+      "objectID": "doc-024-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "selectComposition() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/select-composition",
+      "content": "Resolve a composition before a local render. composition before local render selectComposition Resolve Parameters"
+    },
+    {
+      "objectID": "doc-024-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "selectComposition() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/select-composition",
+      "content": "Resolve a composition before a local render. before local render selectComposition Resolve composition Return value"
+    },
+    {
+      "objectID": "doc-024-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "selectComposition() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/select-composition",
+      "content": "Resolve a composition before a local render. local render selectComposition Resolve composition before Behavior"
+    },
+    {
+      "objectID": "doc-024-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "selectComposition() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/select-composition",
+      "content": "Resolve a composition before a local render. render selectComposition Resolve composition before local Caveats"
+    },
+    {
+      "objectID": "doc-024-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Rendering",
+        "lvl2": "selectComposition() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/select-composition",
+      "content": "Resolve a composition before a local render. selectComposition Resolve composition before local render Examples"
+    },
+    {
+      "objectID": "doc-025-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Sequence> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/sequence",
+      "content": "Offset, trim, and locally time children on the composition timeline. Sequence from durationInFrames local frame useCurrentFrame premountFor Overview"
+    },
+    {
+      "objectID": "doc-025-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Sequence> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/sequence",
+      "content": "Offset, trim, and locally time children on the composition timeline. from durationInFrames local frame useCurrentFrame premountFor Sequence Usage"
+    },
+    {
+      "objectID": "doc-025-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Sequence> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/sequence",
+      "content": "Offset, trim, and locally time children on the composition timeline. durationInFrames local frame useCurrentFrame premountFor Sequence from Parameters"
+    },
+    {
+      "objectID": "doc-025-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Sequence> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/sequence",
+      "content": "Offset, trim, and locally time children on the composition timeline. local frame useCurrentFrame premountFor Sequence from durationInFrames Return value"
+    },
+    {
+      "objectID": "doc-025-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Sequence> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/sequence",
+      "content": "Offset, trim, and locally time children on the composition timeline. useCurrentFrame premountFor Sequence from durationInFrames local frame Behavior"
+    },
+    {
+      "objectID": "doc-025-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Sequence> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/sequence",
+      "content": "Offset, trim, and locally time children on the composition timeline. premountFor Sequence from durationInFrames local frame useCurrentFrame Caveats"
+    },
+    {
+      "objectID": "doc-025-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Sequence> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/sequence",
+      "content": "Offset, trim, and locally time children on the composition timeline. Sequence from durationInFrames local frame useCurrentFrame premountFor Examples"
+    },
+    {
+      "objectID": "doc-026-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Series> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/series",
+      "content": "Play sequences consecutively without manual offsets. Series Play sequences consecutively without manual offsets Overview"
+    },
+    {
+      "objectID": "doc-026-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Series> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/series",
+      "content": "Play sequences consecutively without manual offsets. Play sequences consecutively without manual offsets Series Usage"
+    },
+    {
+      "objectID": "doc-026-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Series> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/series",
+      "content": "Play sequences consecutively without manual offsets. sequences consecutively without manual offsets Series Play Parameters"
+    },
+    {
+      "objectID": "doc-026-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Series> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/series",
+      "content": "Play sequences consecutively without manual offsets. consecutively without manual offsets Series Play sequences Return value"
+    },
+    {
+      "objectID": "doc-026-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Series> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/series",
+      "content": "Play sequences consecutively without manual offsets. without manual offsets Series Play sequences consecutively Behavior"
+    },
+    {
+      "objectID": "doc-026-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Series> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/series",
+      "content": "Play sequences consecutively without manual offsets. manual offsets Series Play sequences consecutively without Caveats"
+    },
+    {
+      "objectID": "doc-026-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Timeline",
+        "lvl2": "<Series> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/series",
+      "content": "Play sequences consecutively without manual offsets. offsets Series Play sequences consecutively without manual Examples"
+    },
+    {
+      "objectID": "doc-027-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Assets",
+        "lvl2": "staticFile() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/staticfile",
+      "content": "Reference files from the public directory using a deployment-safe URL. staticFile public base path URL encode spaces asset deployment Overview"
+    },
+    {
+      "objectID": "doc-027-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Assets",
+        "lvl2": "staticFile() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/staticfile",
+      "content": "Reference files from the public directory using a deployment-safe URL. public base path URL encode spaces asset deployment staticFile Usage"
+    },
+    {
+      "objectID": "doc-027-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Assets",
+        "lvl2": "staticFile() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/staticfile",
+      "content": "Reference files from the public directory using a deployment-safe URL. base path URL encode spaces asset deployment staticFile public Parameters"
+    },
+    {
+      "objectID": "doc-027-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Assets",
+        "lvl2": "staticFile() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/staticfile",
+      "content": "Reference files from the public directory using a deployment-safe URL. URL encode spaces asset deployment staticFile public base path Return value"
+    },
+    {
+      "objectID": "doc-027-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Assets",
+        "lvl2": "staticFile() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/staticfile",
+      "content": "Reference files from the public directory using a deployment-safe URL. spaces asset deployment staticFile public base path URL encode Behavior"
+    },
+    {
+      "objectID": "doc-027-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Assets",
+        "lvl2": "staticFile() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/staticfile",
+      "content": "Reference files from the public directory using a deployment-safe URL. asset deployment staticFile public base path URL encode spaces Caveats"
+    },
+    {
+      "objectID": "doc-027-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Assets",
+        "lvl2": "staticFile() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/staticfile",
+      "content": "Reference files from the public directory using a deployment-safe URL. deployment staticFile public base path URL encode spaces asset Examples"
+    },
+    {
+      "objectID": "doc-028-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useCurrentFrame() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/use-current-frame",
+      "content": "Read the current frame number in the local timeline. useCurrentFrame Read the current frame number in the local timeline Overview"
+    },
+    {
+      "objectID": "doc-028-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useCurrentFrame() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/use-current-frame",
+      "content": "Read the current frame number in the local timeline. Read the current frame number in the local timeline useCurrentFrame Usage"
+    },
+    {
+      "objectID": "doc-028-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useCurrentFrame() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/use-current-frame",
+      "content": "Read the current frame number in the local timeline. the current frame number in the local timeline useCurrentFrame Read Parameters"
+    },
+    {
+      "objectID": "doc-028-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useCurrentFrame() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/use-current-frame",
+      "content": "Read the current frame number in the local timeline. current frame number in the local timeline useCurrentFrame Read the Return value"
+    },
+    {
+      "objectID": "doc-028-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useCurrentFrame() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/use-current-frame",
+      "content": "Read the current frame number in the local timeline. frame number in the local timeline useCurrentFrame Read the current Behavior"
+    },
+    {
+      "objectID": "doc-028-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useCurrentFrame() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/use-current-frame",
+      "content": "Read the current frame number in the local timeline. number in the local timeline useCurrentFrame Read the current frame Caveats"
+    },
+    {
+      "objectID": "doc-028-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useCurrentFrame() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/use-current-frame",
+      "content": "Read the current frame number in the local timeline. in the local timeline useCurrentFrame Read the current frame number Examples"
+    },
+    {
+      "objectID": "doc-029-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useVideoConfig() — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/use-video-config",
+      "content": "Read the active composition's width, height, fps, and duration from a React component. composition metadata fps durationInFrames width height hook Overview"
+    },
+    {
+      "objectID": "doc-029-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useVideoConfig() — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/use-video-config",
+      "content": "Read the active composition's width, height, fps, and duration from a React component. metadata fps durationInFrames width height hook composition Usage"
+    },
+    {
+      "objectID": "doc-029-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useVideoConfig() — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/use-video-config",
+      "content": "Read the active composition's width, height, fps, and duration from a React component. fps durationInFrames width height hook composition metadata Parameters"
+    },
+    {
+      "objectID": "doc-029-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useVideoConfig() — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/use-video-config",
+      "content": "Read the active composition's width, height, fps, and duration from a React component. durationInFrames width height hook composition metadata fps Return value"
+    },
+    {
+      "objectID": "doc-029-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useVideoConfig() — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/use-video-config",
+      "content": "Read the active composition's width, height, fps, and duration from a React component. width height hook composition metadata fps durationInFrames Behavior"
+    },
+    {
+      "objectID": "doc-029-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useVideoConfig() — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/use-video-config",
+      "content": "Read the active composition's width, height, fps, and duration from a React component. height hook composition metadata fps durationInFrames width Caveats"
+    },
+    {
+      "objectID": "doc-029-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Hooks",
+        "lvl2": "useVideoConfig() — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/use-video-config",
+      "content": "Read the active composition's width, height, fps, and duration from a React component. hook composition metadata fps durationInFrames width height Examples"
+    },
+    {
+      "objectID": "doc-030-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Video> — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/video",
+      "content": "Play a browser video element on the timeline. Video Play browser video element on the timeline Overview"
+    },
+    {
+      "objectID": "doc-030-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Video> — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/video",
+      "content": "Play a browser video element on the timeline. Play browser video element on the timeline Video Usage"
+    },
+    {
+      "objectID": "doc-030-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Video> — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/video",
+      "content": "Play a browser video element on the timeline. browser video element on the timeline Video Play Parameters"
+    },
+    {
+      "objectID": "doc-030-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Video> — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/video",
+      "content": "Play a browser video element on the timeline. video element on the timeline Video Play browser Return value"
+    },
+    {
+      "objectID": "doc-030-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Video> — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/video",
+      "content": "Play a browser video element on the timeline. element on the timeline Video Play browser video Behavior"
+    },
+    {
+      "objectID": "doc-030-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Video> — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/video",
+      "content": "Play a browser video element on the timeline. on the timeline Video Play browser video element Caveats"
+    },
+    {
+      "objectID": "doc-030-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Media",
+        "lvl2": "<Video> — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/video",
+      "content": "Play a browser video element on the timeline. the timeline Video Play browser video element on Examples"
+    },
+    {
+      "objectID": "doc-031-0",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Configuration",
+        "lvl2": "Webpack override — Overview"
+      },
+      "url": "https://www.remotion.dev/docs/webpack-override",
+      "content": "Customize the Remotion bundler. Webpack override Customize the Remotion bundler Overview"
+    },
+    {
+      "objectID": "doc-031-1",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Configuration",
+        "lvl2": "Webpack override — Usage"
+      },
+      "url": "https://www.remotion.dev/docs/webpack-override",
+      "content": "Customize the Remotion bundler. override Customize the Remotion bundler Webpack Usage"
+    },
+    {
+      "objectID": "doc-031-2",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Configuration",
+        "lvl2": "Webpack override — Parameters"
+      },
+      "url": "https://www.remotion.dev/docs/webpack-override",
+      "content": "Customize the Remotion bundler. Customize the Remotion bundler Webpack override Parameters"
+    },
+    {
+      "objectID": "doc-031-3",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Configuration",
+        "lvl2": "Webpack override — Return value"
+      },
+      "url": "https://www.remotion.dev/docs/webpack-override",
+      "content": "Customize the Remotion bundler. the Remotion bundler Webpack override Customize Return value"
+    },
+    {
+      "objectID": "doc-031-4",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Configuration",
+        "lvl2": "Webpack override — Behavior"
+      },
+      "url": "https://www.remotion.dev/docs/webpack-override",
+      "content": "Customize the Remotion bundler. Remotion bundler Webpack override Customize the Behavior"
+    },
+    {
+      "objectID": "doc-031-5",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Configuration",
+        "lvl2": "Webpack override — Caveats"
+      },
+      "url": "https://www.remotion.dev/docs/webpack-override",
+      "content": "Customize the Remotion bundler. bundler Webpack override Customize the Remotion Caveats"
+    },
+    {
+      "objectID": "doc-031-6",
+      "hierarchy": {
+        "lvl0": "Docs",
+        "lvl1": "Configuration",
+        "lvl2": "Webpack override — Examples"
+      },
+      "url": "https://www.remotion.dev/docs/webpack-override",
+      "content": "Customize the Remotion bundler. Webpack override Customize the Remotion bundler Examples"
+    }
+  ]
+}

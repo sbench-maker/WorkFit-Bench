@@ -1,0 +1,11 @@
+{
+  "design": "proportions",
+  "control_response_rate": 0.34,
+  "treatment_response_rate": 0.5,
+  "alpha_two_sided": 0.05,
+  "target_power": 0.9,
+  "dropout_fraction": 0.18,
+  "effect_basis": "Internal anchor-based clinical panel estimate recorded for planning; not externally validated for the final protocol.",
+  "assumption_owner": "Dr. Mira Chen (fictional)",
+  "review_state": "requires biostatistician confirmation"
+}

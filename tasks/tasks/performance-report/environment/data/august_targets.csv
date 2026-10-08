@@ -1,0 +1,12 @@
+scope,metric,target,direction,unit
+Overall,leads,1750,at_least,count
+Overall,mqls,900,at_least,count
+Paid Search,leads,650,at_least,count
+Paid Search,cpa,300,at_most,USD per customer
+Paid Search,roas,16.0,at_least,ratio
+Paid Social,leads,330,at_least,count
+Paid Social,cpa,700,at_most,USD per customer
+Paid Social,roas,5.3,at_least,ratio
+Email,leads,400,at_least,count
+Organic Search,leads,360,at_least,count
+Paid total,spend,62000,at_most,USD

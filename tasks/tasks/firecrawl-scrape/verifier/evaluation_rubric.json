@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact",
+      "title": "Usable snapshot contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The snapshot has a readable manifest and resolvable Markdown files.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usable"
+      ]
+    },
+    {
+      "id": "completion__coverage",
+      "title": "Target URL coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every requested URL appears exactly once and maps to a distinct file.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_target_coverage"
+      ]
+    },
+    {
+      "id": "completion__content",
+      "title": "Complete rendered main content",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each file contains the page's real rendered documentation content without navigation or footer noise.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_rendered_main_content"
+      ]
+    },
+    {
+      "id": "completion__links_privacy",
+      "title": "Link fidelity and contact redaction",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Per-page links are faithful and personal contact details are absent from outputs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_links_and_redaction"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact",
+        "title": "Usable snapshot contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__coverage",
+        "title": "Target URL coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__content",
+        "title": "Complete rendered main content",
+        "required_score": 10
+      },
+      {
+        "id": "completion__links_privacy",
+        "title": "Link fidelity and contact redaction",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

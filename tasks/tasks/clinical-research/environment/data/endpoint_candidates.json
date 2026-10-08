@@ -1,0 +1,90 @@
+{
+  "indication": "persistent post-viral fatigue syndrome",
+  "profile": "drug",
+  "endpoints": [
+    {
+      "endpoint_id": "EP-01",
+      "name": "Clinically meaningful symptom recovery at week 16",
+      "type": "clinical outcome",
+      "is_surrogate": false,
+      "validated": true,
+      "scores": {
+        "clinical_relevance": 92,
+        "measurability": 82,
+        "regulatory_acceptance": 88,
+        "sensitivity_to_change": 84,
+        "burden": 90
+      }
+    },
+    {
+      "endpoint_id": "EP-02",
+      "name": "PFI-8 patient-reported function response at week 16",
+      "type": "patient-reported outcome",
+      "is_surrogate": false,
+      "validated": true,
+      "scores": {
+        "clinical_relevance": 86,
+        "measurability": 88,
+        "regulatory_acceptance": 82,
+        "sensitivity_to_change": 81,
+        "burden": 92
+      }
+    },
+    {
+      "endpoint_id": "EP-03",
+      "name": "Plasma NX-17 reduction at week 4",
+      "type": "biomarker surrogate",
+      "is_surrogate": true,
+      "validated": false,
+      "scores": {
+        "clinical_relevance": 62,
+        "measurability": 95,
+        "regulatory_acceptance": 72,
+        "sensitivity_to_change": 93,
+        "burden": 75
+      }
+    },
+    {
+      "endpoint_id": "EP-04",
+      "name": "Clinician global improvement at week 16",
+      "type": "clinical outcome",
+      "is_surrogate": false,
+      "validated": true,
+      "scores": {
+        "clinical_relevance": 78,
+        "measurability": 70,
+        "regulatory_acceptance": 74,
+        "sensitivity_to_change": 76,
+        "burden": 80
+      }
+    },
+    {
+      "endpoint_id": "EP-05",
+      "name": "Work or study days regained through week 16",
+      "type": "functional outcome",
+      "is_surrogate": false,
+      "validated": false,
+      "scores": {
+        "clinical_relevance": 84,
+        "measurability": 65,
+        "regulatory_acceptance": 60,
+        "sensitivity_to_change": 70,
+        "burden": 88
+      }
+    },
+    {
+      "endpoint_id": "EP-06",
+      "name": "Wearable-derived daily step change at week 8",
+      "type": "digital measure",
+      "is_surrogate": false,
+      "validated": false,
+      "scores": {
+        "clinical_relevance": 66,
+        "measurability": 80,
+        "regulatory_acceptance": 48,
+        "sensitivity_to_change": 88,
+        "burden": 85
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Complete, readable incident package",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The machine-readable incident handoff, recovered workspace, and updated guardian state all exist and can be opened.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__policy_response",
+      "title": "Policy-correct recovery state",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Restore-mode drift is recovered to its approved content, alert-only and missing-file cases remain for review, clean and ignored files are not changed, and current drift is not silently approved.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_policy_outcomes_and_baselines"
+      ]
+    },
+    {
+      "id": "completion__evidence_integrity",
+      "title": "Retained drift evidence and valid audit history",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The updated state preserves the original audit history, appends valid chained incident events, retains reviewable patches for detected drift, and quarantines pre-restore content without inventing unrelated evidence.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_audit_chain_and_incident_events",
+        "test_patches_and_quarantine_evidence"
+      ]
+    },
+    {
+      "id": "completion__incident_judgment",
+      "title": "Sound incident prioritization and human-review judgment",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The handoff distinguishes the restored critical drift from retained alert-only changes and the missing file, prioritizes the suspicious control-bypass changes, and gives proportionate human-review guidance without treating actor metadata as proof of authorship.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Complete, readable incident package",
+        "required_score": 10
+      },
+      {
+        "id": "completion__policy_response",
+        "title": "Policy-correct recovery state",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_integrity",
+        "title": "Retained drift evidence and valid audit history",
+        "required_score": 10
+      },
+      {
+        "id": "completion__incident_judgment",
+        "title": "Sound incident prioritization and human-review judgment",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

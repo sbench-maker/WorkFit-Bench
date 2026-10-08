@@ -1,0 +1,74 @@
+{
+  "product": "Arcway CRM",
+  "document_status": "current_approved_support_guidance",
+  "effective_at": "2026-09-05",
+  "issue": {
+    "public_name": "Saved contact import mapping cannot be loaded after its owner is deactivated",
+    "exact_error": "We couldn't load this import mapping. Ask an admin to duplicate the mapping and try again. (MAP-403)",
+    "affected": {
+      "application": "Arcway CRM web app",
+      "plans": [
+        "Business",
+        "Enterprise"
+      ],
+      "entry_point": "Contacts > Import > Use saved mapping",
+      "condition": "The selected saved mapping was created by a workspace member who has since been deactivated.",
+      "person_who_can_apply_workaround": "Workspace Admin"
+    },
+    "not_affected": [
+      "Fresh CSV imports that do not select a saved mapping",
+      "Contacts API imports",
+      "CSV column validation or file-encoding errors"
+    ],
+    "public_cause": "A saved mapping keeps its original owner's access reference. If that owner is deactivated, the mapping cannot be loaded.",
+    "approved_workaround": [
+      {
+        "order": 1,
+        "action": "Sign in as an active Workspace Admin."
+      },
+      {
+        "order": 2,
+        "action": "Go to Settings > Data management > Import mappings."
+      },
+      {
+        "order": 3,
+        "action": "Filter Owner status to Deactivated and locate the affected mapping."
+      },
+      {
+        "order": 4,
+        "action": "Open the mapping's actions menu and select Duplicate."
+      },
+      {
+        "order": 5,
+        "action": "Give the copy a distinct name, set its owner to an active Workspace Admin, and select Save."
+      },
+      {
+        "order": 6,
+        "action": "Return to Contacts > Import, upload the CSV, and select the duplicated mapping."
+      },
+      {
+        "order": 7,
+        "action": "Review the field preview and select Run import."
+      }
+    ],
+    "verification": [
+      "A green 'Import started' banner appears.",
+      "Activity > Imports shows the run as Completed and displays imported and skipped row counts."
+    ],
+    "escalation": {
+      "when": "The duplicate still produces MAP-403, or no active Workspace Admin can access Import mappings.",
+      "include": [
+        "failed import run ID (IMP-...)",
+        "mapping ID (MAP-...)",
+        "timestamp with time zone",
+        "browser name and version"
+      ],
+      "privacy_note": "Do not attach the source CSV unless Support specifically requests it through the secure upload flow."
+    },
+    "do_not_recommend": [
+      "Do not reactivate a former member just to regain access to the mapping.",
+      "Do not tell customers to change CSV headers for MAP-403.",
+      "Do not promise a fix date; no target release is approved."
+    ]
+  }
+}

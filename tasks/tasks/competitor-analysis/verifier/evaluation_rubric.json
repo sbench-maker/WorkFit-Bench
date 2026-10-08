@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Usable competitive-brief scope",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The JSON brief is readable and exposes direct-competitor profiles with position, strengths, weaknesses, pricing, and threats, plus differentiation opportunities and a positioning recommendation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__direct_set",
+      "title": "Direct competitor classification",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The five direct competitors match the frozen market definition, while component tools, self-host-only products, and non-overlapping enterprise or mobile products are not presented as direct.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_direct_competitor_set"
+      ]
+    },
+    {
+      "id": "completion__pricing_snapshot",
+      "title": "Current pricing accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each direct competitor's pricing reflects the Team offer in force on the snapshot date and does not substitute superseded or future announced prices.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_current_pricing_accuracy"
+      ]
+    },
+    {
+      "id": "completion__evidence_integrity",
+      "title": "Evidence and snapshot integrity",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Material claims use a substantive set of local citations that resolve to evidence in force at the snapshot date; any supplied value for a missing fact remains explicitly unknown.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Usable competitive-brief scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__direct_set",
+        "title": "Direct competitor classification",
+        "required_score": 10
+      },
+      {
+        "id": "completion__pricing_snapshot",
+        "title": "Current pricing accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_integrity",
+        "title": "Evidence and snapshot integrity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

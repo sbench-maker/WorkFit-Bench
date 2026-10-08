@@ -1,0 +1,19 @@
+{
+  "method": "deterministic local construction",
+  "source_record_count": 230,
+  "store_snapshot_record_count": 58,
+  "files": {
+    "github_items.jsonl": 68,
+    "linear_items.jsonl": 38,
+    "repo_documents.jsonl": 44,
+    "session_exports.jsonl": 74,
+    "document_imports.jsonl": 6,
+    "store_snapshot.jsonl": 58
+  },
+  "notes": [
+    "Project and topic spelling varies across exports.",
+    "Some authoritative records contain later field-level corrections.",
+    "A small number of equal-time conflicts and duplicate target entries require review.",
+    "Credential placeholders are synthetic removal markers, not usable credentials."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "request_id": "NB-PILOT-0924",
+  "presentation": {
+    "title": "Northstar Mobile Pilot Kickoff",
+    "audience": [
+      "Product",
+      "Support",
+      "Field Operations"
+    ],
+    "slides": [
+      {
+        "position": 1,
+        "layout": "TITLE",
+        "title": "Northstar Mobile Pilot Kickoff",
+        "subtitle": "Internal working session · 24 September 2026"
+      },
+      {
+        "position": 2,
+        "layout": "TITLE_AND_BODY",
+        "title": "Pilot goals",
+        "bullets": [
+          "Reduce site check-in time from 8 minutes to under 5 minutes",
+          "Reach at least 85% weekly active use across the 24 pilot technicians",
+          "Capture support issues within one business day"
+        ]
+      },
+      {
+        "position": 3,
+        "layout": "TITLE_AND_BODY",
+        "title": "First 30 days",
+        "bullets": [
+          "Days 1–3: provision accounts and run supervisor training",
+          "Days 4–10: launch at Harbor and Juniper sites",
+          "Days 11–21: review adoption and resolve blockers",
+          "Days 22–30: decide whether to expand to Alder site"
+        ]
+      }
+    ]
+  },
+  "sharing": {
+    "email": "pilot-ops@northstar.example",
+    "role": "writer",
+    "type": "user"
+  }
+}

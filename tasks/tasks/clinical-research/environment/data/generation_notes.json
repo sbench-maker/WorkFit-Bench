@@ -1,0 +1,17 @@
+{
+  "method": "deterministic local construction",
+  "fictional": true,
+  "files": {
+    "site_feasibility_crm.csv": 240,
+    "endpoint_candidates.json": 6
+  },
+  "relationships": [
+    "study_brief study_id defines the gate packet",
+    "selected CRM rows define the operating site footprint"
+  ],
+  "intentional_edge_cases": [
+    "unvalidated biomarker surrogate among candidate endpoints",
+    "non-selected CRM records with missing readiness fields",
+    "bottom-up selected-site enrollment forecast below current target"
+  ]
+}

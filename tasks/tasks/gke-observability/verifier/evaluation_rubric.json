@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__fleet_target_state",
+      "title": "Fleet coverage and target-state correctness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every exported cluster has an attributable plan with the policy-correct logging, monitoring, Managed Prometheus, Dataplane V2 metrics, and service target state, including accurate no-op decisions.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_cluster_coverage_and_decisions",
+        "test_cluster_target_states"
+      ]
+    },
+    {
+      "id": "completion__command_correctness",
+      "title": "Safe and effective cluster update commands",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each drifting cluster has an update command that targets the correct project and location and implements every required setting change, while compliant clusters receive no gratuitous update and commands contain no unsafe payload or placeholder.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_apply_commands_implement_drift",
+        "test_command_safety_and_noop_handling"
+      ]
+    },
+    {
+      "id": "completion__monitoring_design",
+      "title": "Production dashboard and alert coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Google Cloud Monitoring dashboards and alerts cover production control-plane latency, scheduling, workload CPU/memory and crash loops, composite node health, and the applicable PVC and GPU risks with correct conditions and scope.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_dashboard_and_baseline_alerts",
+        "test_composite_node_health_alert",
+        "test_conditional_alert_and_panel_scope"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__fleet_target_state",
+        "title": "Fleet coverage and target-state correctness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__command_correctness",
+        "title": "Safe and effective cluster update commands",
+        "required_score": 10
+      },
+      {
+        "id": "completion__monitoring_design",
+        "title": "Production dashboard and alert coverage",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

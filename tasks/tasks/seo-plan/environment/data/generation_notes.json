@@ -1,0 +1,20 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "keywords.csv": 240,
+    "existing_pages.csv": 120,
+    "internal_links.csv": 343,
+    "competitor_pages.csv": 200,
+    "team_capacity.csv": 12,
+    "launch_calendar.csv": 6
+  },
+  "intentional_edge_cases": [
+    "a commercially critical noindexed pricing page",
+    "a commercial feature page canonicalized to an informational article",
+    "a high-value orphan feature page",
+    "two indexable pages targeting the checklist cluster",
+    "future SAP general availability and a later private beta that must not be described as current",
+    "fresh, aging, and stale competitor observations",
+    "reduced July and December publishing availability"
+  ]
+}

@@ -1,0 +1,1682 @@
+[
+  {
+    "sku": "P-001",
+    "name": "Atlas Mug",
+    "price_cents": 2500,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-002",
+    "name": "Cedar Mug",
+    "price_cents": 1474,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-003",
+    "name": "Harbor Mug",
+    "price_cents": 1611,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-004",
+    "name": "Lumen Mug",
+    "price_cents": 1748,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-005",
+    "name": "North Mug",
+    "price_cents": 1885,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-006",
+    "name": "Orbit Mug",
+    "price_cents": 2022,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-007",
+    "name": "Pine Mug",
+    "price_cents": 2159,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-008",
+    "name": "Quartz Mug",
+    "price_cents": 2296,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-009",
+    "name": "Atlas Bottle",
+    "price_cents": 2433,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-010",
+    "name": "Cedar Bottle",
+    "price_cents": 2570,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-011",
+    "name": "Harbor Bottle",
+    "price_cents": 2707,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-012",
+    "name": "Lumen Bottle",
+    "price_cents": 2844,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-013",
+    "name": "North Bottle",
+    "price_cents": 2981,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-014",
+    "name": "Orbit Bottle",
+    "price_cents": 3118,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-015",
+    "name": "Pine Bottle",
+    "price_cents": 3255,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-016",
+    "name": "Quartz Bottle",
+    "price_cents": 3392,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-017",
+    "name": "Atlas Tote",
+    "price_cents": 3529,
+    "in_stock": false,
+    "category": "travel"
+  },
+  {
+    "sku": "P-018",
+    "name": "Cedar Tote",
+    "price_cents": 3666,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-019",
+    "name": "Harbor Tote",
+    "price_cents": 3803,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-020",
+    "name": "Lumen Tote",
+    "price_cents": 3940,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-021",
+    "name": "North Tote",
+    "price_cents": 4077,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-022",
+    "name": "Orbit Tote",
+    "price_cents": 4214,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-023",
+    "name": "Pine Tote",
+    "price_cents": 4351,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-024",
+    "name": "Quartz Tote",
+    "price_cents": 4488,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-025",
+    "name": "Atlas Notebook",
+    "price_cents": 4625,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-026",
+    "name": "Cedar Notebook",
+    "price_cents": 4762,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-027",
+    "name": "Harbor Notebook",
+    "price_cents": 4899,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-028",
+    "name": "Lumen Notebook",
+    "price_cents": 5036,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-029",
+    "name": "North Notebook",
+    "price_cents": 5173,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-030",
+    "name": "Orbit Notebook",
+    "price_cents": 5310,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-031",
+    "name": "Pine Notebook",
+    "price_cents": 5447,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-032",
+    "name": "Quartz Notebook",
+    "price_cents": 5584,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-033",
+    "name": "Atlas Lamp",
+    "price_cents": 5721,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-034",
+    "name": "Cedar Lamp",
+    "price_cents": 5858,
+    "in_stock": false,
+    "category": "office"
+  },
+  {
+    "sku": "P-035",
+    "name": "Harbor Lamp",
+    "price_cents": 5995,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-036",
+    "name": "Lumen Lamp",
+    "price_cents": 6132,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-037",
+    "name": "North Lamp",
+    "price_cents": 6269,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-038",
+    "name": "Orbit Lamp",
+    "price_cents": 6406,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-039",
+    "name": "Pine Lamp",
+    "price_cents": 6543,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-040",
+    "name": "Quartz Lamp",
+    "price_cents": 6680,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-041",
+    "name": "Atlas Tray",
+    "price_cents": 6817,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-042",
+    "name": "Trail Bottle",
+    "price_cents": 4000,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-043",
+    "name": "Harbor Tray",
+    "price_cents": 7091,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-044",
+    "name": "Lumen Tray",
+    "price_cents": 7228,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-045",
+    "name": "North Tray",
+    "price_cents": 7365,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-046",
+    "name": "Orbit Tray",
+    "price_cents": 7502,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-047",
+    "name": "Pine Tray",
+    "price_cents": 7639,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-048",
+    "name": "Quartz Tray",
+    "price_cents": 7776,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-049",
+    "name": "Atlas Pouch",
+    "price_cents": 7913,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-050",
+    "name": "Cedar Pouch",
+    "price_cents": 8050,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-051",
+    "name": "Harbor Pouch",
+    "price_cents": 1287,
+    "in_stock": false,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-052",
+    "name": "Lumen Pouch",
+    "price_cents": 1424,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-053",
+    "name": "North Pouch",
+    "price_cents": 1561,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-054",
+    "name": "Orbit Pouch",
+    "price_cents": 1698,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-055",
+    "name": "Pine Pouch",
+    "price_cents": 1835,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-056",
+    "name": "Quartz Pouch",
+    "price_cents": 1972,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-057",
+    "name": "Atlas Stand",
+    "price_cents": 2109,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-058",
+    "name": "Cedar Stand",
+    "price_cents": 2246,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-059",
+    "name": "Harbor Stand",
+    "price_cents": 2383,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-060",
+    "name": "Lumen Stand",
+    "price_cents": 2520,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-061",
+    "name": "North Stand",
+    "price_cents": 2657,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-062",
+    "name": "Orbit Stand",
+    "price_cents": 2794,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-063",
+    "name": "Pine Stand",
+    "price_cents": 2931,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-064",
+    "name": "Quartz Stand",
+    "price_cents": 3068,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-065",
+    "name": "Atlas Mug",
+    "price_cents": 3205,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-066",
+    "name": "Cedar Mug",
+    "price_cents": 3342,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-067",
+    "name": "Harbor Mug",
+    "price_cents": 3479,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-068",
+    "name": "Lumen Mug",
+    "price_cents": 3616,
+    "in_stock": false,
+    "category": "home"
+  },
+  {
+    "sku": "P-069",
+    "name": "North Mug",
+    "price_cents": 3753,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-070",
+    "name": "Orbit Mug",
+    "price_cents": 3890,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-071",
+    "name": "Pine Mug",
+    "price_cents": 4027,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-072",
+    "name": "Quartz Mug",
+    "price_cents": 4164,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-073",
+    "name": "Atlas Bottle",
+    "price_cents": 4301,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-074",
+    "name": "Cedar Bottle",
+    "price_cents": 4438,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-075",
+    "name": "Harbor Bottle",
+    "price_cents": 4575,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-076",
+    "name": "Lumen Bottle",
+    "price_cents": 4712,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-077",
+    "name": "North Bottle",
+    "price_cents": 4849,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-078",
+    "name": "Orbit Bottle",
+    "price_cents": 4986,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-079",
+    "name": "Pine Bottle",
+    "price_cents": 5123,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-080",
+    "name": "Quartz Bottle",
+    "price_cents": 5260,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-081",
+    "name": "Atlas Tote",
+    "price_cents": 5397,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-082",
+    "name": "Cedar Tote",
+    "price_cents": 5534,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-083",
+    "name": "Harbor Tote",
+    "price_cents": 5671,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-084",
+    "name": "Lumen Tote",
+    "price_cents": 5808,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-085",
+    "name": "North Tote",
+    "price_cents": 5945,
+    "in_stock": false,
+    "category": "travel"
+  },
+  {
+    "sku": "P-086",
+    "name": "Orbit Tote",
+    "price_cents": 6082,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-087",
+    "name": "Pine Tote",
+    "price_cents": 6219,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-088",
+    "name": "Quartz Tote",
+    "price_cents": 6356,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-089",
+    "name": "Atlas Notebook",
+    "price_cents": 6493,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-090",
+    "name": "Cedar Notebook",
+    "price_cents": 6630,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-091",
+    "name": "Harbor Notebook",
+    "price_cents": 6767,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-092",
+    "name": "Lumen Notebook",
+    "price_cents": 6904,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-093",
+    "name": "North Notebook",
+    "price_cents": 7041,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-094",
+    "name": "Orbit Notebook",
+    "price_cents": 7178,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-095",
+    "name": "Pine Notebook",
+    "price_cents": 7315,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-096",
+    "name": "Quartz Notebook",
+    "price_cents": 7452,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-097",
+    "name": "Atlas Lamp",
+    "price_cents": 7589,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-098",
+    "name": "Cedar Lamp",
+    "price_cents": 7726,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-099",
+    "name": "Harbor Lamp",
+    "price_cents": 7863,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-100",
+    "name": "Lumen Lamp",
+    "price_cents": 8000,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-101",
+    "name": "North Lamp",
+    "price_cents": 1237,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-102",
+    "name": "Orbit Lamp",
+    "price_cents": 1374,
+    "in_stock": false,
+    "category": "office"
+  },
+  {
+    "sku": "P-103",
+    "name": "Pine Lamp",
+    "price_cents": 1511,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-104",
+    "name": "Quartz Lamp",
+    "price_cents": 1648,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-105",
+    "name": "Atlas Tray",
+    "price_cents": 1785,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-106",
+    "name": "Cedar Tray",
+    "price_cents": 1922,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-107",
+    "name": "Harbor Tray",
+    "price_cents": 2059,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-108",
+    "name": "Lumen Tray",
+    "price_cents": 2196,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-109",
+    "name": "North Tray",
+    "price_cents": 2333,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-110",
+    "name": "Orbit Tray",
+    "price_cents": 2470,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-111",
+    "name": "Pine Tray",
+    "price_cents": 2607,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-112",
+    "name": "Quartz Tray",
+    "price_cents": 2744,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-113",
+    "name": "Atlas Pouch",
+    "price_cents": 2881,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-114",
+    "name": "Cedar Pouch",
+    "price_cents": 3018,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-115",
+    "name": "Harbor Pouch",
+    "price_cents": 3155,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-116",
+    "name": "Lumen Pouch",
+    "price_cents": 3292,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-117",
+    "name": "North Pouch",
+    "price_cents": 3429,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-118",
+    "name": "Orbit Pouch",
+    "price_cents": 3566,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-119",
+    "name": "Pine Pouch",
+    "price_cents": 3703,
+    "in_stock": false,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-120",
+    "name": "Quartz Pouch",
+    "price_cents": 3840,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-121",
+    "name": "Atlas Stand",
+    "price_cents": 3977,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-122",
+    "name": "Cedar Stand",
+    "price_cents": 4114,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-123",
+    "name": "Harbor Stand",
+    "price_cents": 4251,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-124",
+    "name": "Lumen Stand",
+    "price_cents": 4388,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-125",
+    "name": "North Stand",
+    "price_cents": 4525,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-126",
+    "name": "Orbit Stand",
+    "price_cents": 4662,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-127",
+    "name": "Pine Stand",
+    "price_cents": 4799,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-128",
+    "name": "Quartz Stand",
+    "price_cents": 4936,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-129",
+    "name": "Atlas Mug",
+    "price_cents": 5073,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-130",
+    "name": "Cedar Mug",
+    "price_cents": 5210,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-131",
+    "name": "Harbor Mug",
+    "price_cents": 5347,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-132",
+    "name": "Lumen Mug",
+    "price_cents": 5484,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-133",
+    "name": "North Mug",
+    "price_cents": 5621,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-134",
+    "name": "Orbit Mug",
+    "price_cents": 5758,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-135",
+    "name": "Pine Mug",
+    "price_cents": 5895,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-136",
+    "name": "Quartz Mug",
+    "price_cents": 6032,
+    "in_stock": false,
+    "category": "home"
+  },
+  {
+    "sku": "P-137",
+    "name": "Atlas Bottle",
+    "price_cents": 6169,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-138",
+    "name": "Cedar Bottle",
+    "price_cents": 6306,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-139",
+    "name": "Harbor Bottle",
+    "price_cents": 6443,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-140",
+    "name": "Lumen Bottle",
+    "price_cents": 6580,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-141",
+    "name": "North Bottle",
+    "price_cents": 6717,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-142",
+    "name": "Orbit Bottle",
+    "price_cents": 6854,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-143",
+    "name": "Pine Bottle",
+    "price_cents": 6991,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-144",
+    "name": "Quartz Bottle",
+    "price_cents": 7128,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-145",
+    "name": "Atlas Tote",
+    "price_cents": 7265,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-146",
+    "name": "Cedar Tote",
+    "price_cents": 7402,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-147",
+    "name": "Harbor Tote",
+    "price_cents": 7539,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-148",
+    "name": "Lumen Tote",
+    "price_cents": 7676,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-149",
+    "name": "North Tote",
+    "price_cents": 7813,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-150",
+    "name": "Orbit Tote",
+    "price_cents": 7950,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-151",
+    "name": "Pine Tote",
+    "price_cents": 8087,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-152",
+    "name": "Quartz Tote",
+    "price_cents": 1324,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-153",
+    "name": "Atlas Notebook",
+    "price_cents": 1461,
+    "in_stock": false,
+    "category": "travel"
+  },
+  {
+    "sku": "P-154",
+    "name": "Cedar Notebook",
+    "price_cents": 1598,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-155",
+    "name": "Harbor Notebook",
+    "price_cents": 1735,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-156",
+    "name": "Lumen Notebook",
+    "price_cents": 1872,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-157",
+    "name": "North Notebook",
+    "price_cents": 2009,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-158",
+    "name": "Orbit Notebook",
+    "price_cents": 2146,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-159",
+    "name": "Pine Notebook",
+    "price_cents": 2283,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-160",
+    "name": "Quartz Notebook",
+    "price_cents": 2420,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-161",
+    "name": "Atlas Lamp",
+    "price_cents": 2557,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-162",
+    "name": "Cedar Lamp",
+    "price_cents": 2694,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-163",
+    "name": "Harbor Lamp",
+    "price_cents": 2831,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-164",
+    "name": "Lumen Lamp",
+    "price_cents": 2968,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-165",
+    "name": "North Lamp",
+    "price_cents": 3105,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-166",
+    "name": "Orbit Lamp",
+    "price_cents": 3242,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-167",
+    "name": "Pine Lamp",
+    "price_cents": 3379,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-168",
+    "name": "Quartz Lamp",
+    "price_cents": 3516,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-169",
+    "name": "Atlas Tray",
+    "price_cents": 3653,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-170",
+    "name": "Cedar Tray",
+    "price_cents": 3790,
+    "in_stock": false,
+    "category": "office"
+  },
+  {
+    "sku": "P-171",
+    "name": "Harbor Tray",
+    "price_cents": 3927,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-172",
+    "name": "Lumen Tray",
+    "price_cents": 4064,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-173",
+    "name": "North Tray",
+    "price_cents": 4201,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-174",
+    "name": "Orbit Tray",
+    "price_cents": 4338,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-175",
+    "name": "Pine Tray",
+    "price_cents": 4475,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-176",
+    "name": "Quartz Tray",
+    "price_cents": 4612,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-177",
+    "name": "Atlas Pouch",
+    "price_cents": 4749,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-178",
+    "name": "Cedar Pouch",
+    "price_cents": 4886,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-179",
+    "name": "Harbor Pouch",
+    "price_cents": 5023,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-180",
+    "name": "Lumen Pouch",
+    "price_cents": 5160,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-181",
+    "name": "North Pouch",
+    "price_cents": 5297,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-182",
+    "name": "Orbit Pouch",
+    "price_cents": 5434,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-183",
+    "name": "Pine Pouch",
+    "price_cents": 5571,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-184",
+    "name": "Quartz Pouch",
+    "price_cents": 5708,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-185",
+    "name": "Atlas Stand",
+    "price_cents": 5845,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-186",
+    "name": "Cedar Stand",
+    "price_cents": 5982,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-187",
+    "name": "Harbor Stand",
+    "price_cents": 6119,
+    "in_stock": false,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-188",
+    "name": "Lumen Stand",
+    "price_cents": 6256,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-189",
+    "name": "North Stand",
+    "price_cents": 6393,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-190",
+    "name": "Orbit Stand",
+    "price_cents": 6530,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-191",
+    "name": "Pine Stand",
+    "price_cents": 6667,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-192",
+    "name": "Quartz Stand",
+    "price_cents": 6804,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-193",
+    "name": "Atlas Mug",
+    "price_cents": 6941,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-194",
+    "name": "Cedar Mug",
+    "price_cents": 7078,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-195",
+    "name": "Harbor Mug",
+    "price_cents": 7215,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-196",
+    "name": "Lumen Mug",
+    "price_cents": 7352,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-197",
+    "name": "North Mug",
+    "price_cents": 7489,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-198",
+    "name": "Orbit Mug",
+    "price_cents": 7626,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-199",
+    "name": "Pine Mug",
+    "price_cents": 7763,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-200",
+    "name": "Archive Tote",
+    "price_cents": 3000,
+    "in_stock": false,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-201",
+    "name": "Atlas Bottle",
+    "price_cents": 8037,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-202",
+    "name": "Cedar Bottle",
+    "price_cents": 1274,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-203",
+    "name": "Harbor Bottle",
+    "price_cents": 1411,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-204",
+    "name": "Lumen Bottle",
+    "price_cents": 1548,
+    "in_stock": false,
+    "category": "home"
+  },
+  {
+    "sku": "P-205",
+    "name": "North Bottle",
+    "price_cents": 1685,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-206",
+    "name": "Orbit Bottle",
+    "price_cents": 1822,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-207",
+    "name": "Pine Bottle",
+    "price_cents": 1959,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-208",
+    "name": "Quartz Bottle",
+    "price_cents": 2096,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-209",
+    "name": "Atlas Tote",
+    "price_cents": 2233,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-210",
+    "name": "Cedar Tote",
+    "price_cents": 2370,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-211",
+    "name": "Harbor Tote",
+    "price_cents": 2507,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-212",
+    "name": "Lumen Tote",
+    "price_cents": 2644,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-213",
+    "name": "North Tote",
+    "price_cents": 2781,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-214",
+    "name": "Orbit Tote",
+    "price_cents": 2918,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-215",
+    "name": "Pine Tote",
+    "price_cents": 3055,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-216",
+    "name": "Quartz Tote",
+    "price_cents": 3192,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-217",
+    "name": "Atlas Notebook",
+    "price_cents": 3329,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-218",
+    "name": "Cedar Notebook",
+    "price_cents": 3466,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-219",
+    "name": "Harbor Notebook",
+    "price_cents": 3603,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-220",
+    "name": "Lumen Notebook",
+    "price_cents": 3740,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-221",
+    "name": "North Notebook",
+    "price_cents": 3877,
+    "in_stock": false,
+    "category": "travel"
+  },
+  {
+    "sku": "P-222",
+    "name": "Orbit Notebook",
+    "price_cents": 4014,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-223",
+    "name": "Pine Notebook",
+    "price_cents": 4151,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-224",
+    "name": "Quartz Notebook",
+    "price_cents": 4288,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-225",
+    "name": "Atlas Lamp",
+    "price_cents": 4425,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-226",
+    "name": "Cedar Lamp",
+    "price_cents": 4562,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-227",
+    "name": "Harbor Lamp",
+    "price_cents": 4699,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-228",
+    "name": "Lumen Lamp",
+    "price_cents": 4836,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-229",
+    "name": "North Lamp",
+    "price_cents": 4973,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-230",
+    "name": "Orbit Lamp",
+    "price_cents": 5110,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-231",
+    "name": "Pine Lamp",
+    "price_cents": 5247,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-232",
+    "name": "Quartz Lamp",
+    "price_cents": 5384,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-233",
+    "name": "Atlas Tray",
+    "price_cents": 5521,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-234",
+    "name": "Cedar Tray",
+    "price_cents": 5658,
+    "in_stock": true,
+    "category": "office"
+  },
+  {
+    "sku": "P-235",
+    "name": "Harbor Tray",
+    "price_cents": 5795,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-236",
+    "name": "Lumen Tray",
+    "price_cents": 5932,
+    "in_stock": true,
+    "category": "home"
+  },
+  {
+    "sku": "P-237",
+    "name": "North Tray",
+    "price_cents": 6069,
+    "in_stock": true,
+    "category": "travel"
+  },
+  {
+    "sku": "P-238",
+    "name": "Orbit Tray",
+    "price_cents": 6206,
+    "in_stock": false,
+    "category": "office"
+  },
+  {
+    "sku": "P-239",
+    "name": "Pine Tray",
+    "price_cents": 6343,
+    "in_stock": true,
+    "category": "accessories"
+  },
+  {
+    "sku": "P-240",
+    "name": "Quartz Tray",
+    "price_cents": 6480,
+    "in_stock": true,
+    "category": "home"
+  }
+]

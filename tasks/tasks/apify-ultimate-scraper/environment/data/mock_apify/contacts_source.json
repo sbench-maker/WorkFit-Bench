@@ -1,0 +1,2658 @@
+[
+  {
+    "placeId": "plc_0001",
+    "domain": null,
+    "emails": [],
+    "phones": [
+      "+1-971-555-2000"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-1",
+    "twitterUrl": "https://social.example/company_1"
+  },
+  {
+    "placeId": "plc_0002",
+    "domain": "cascade-gatherings.example",
+    "emails": [
+      "hello@cascade-gatherings.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0003",
+    "domain": "cascade-gatherings.example",
+    "emails": [
+      "sales@cascade-gatherings.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0004",
+    "domain": "rose-city-rentals.example",
+    "emails": [
+      "info@rose-city-rentals.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0005",
+    "domain": "rose-city-rentals.example",
+    "emails": [
+      "contact@rose-city-rentals.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0006",
+    "domain": "rose-city-rentals.example",
+    "emails": [
+      "events@rose-city-rentals.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0007",
+    "domain": "juniper-mobile-bar.example",
+    "emails": [
+      "hello@juniper-mobile-bar.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-7",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0008",
+    "domain": "juniper-mobile-bar.example",
+    "emails": [
+      "sales@juniper-mobile-bar.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0009",
+    "domain": "juniper-mobile-bar.example",
+    "emails": [
+      "info@juniper-mobile-bar.example"
+    ],
+    "phones": [
+      "+1-971-555-2008"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0010",
+    "domain": "evergreen-event-co.example",
+    "emails": [
+      "contact@evergreen-event-co.example",
+      "CONTACT@EVERGREEN-EVENT-CO.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0011",
+    "domain": "evergreen-event-co.example",
+    "emails": [
+      "events@evergreen-event-co.example",
+      "lead10@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0012",
+    "domain": "evergreen-event-co.example",
+    "emails": [
+      "hello@evergreen-event-co.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_12"
+  },
+  {
+    "placeId": "plc_0013",
+    "domain": "meadow-velvet-party-rentals-13.example",
+    "emails": [
+      "sales@meadow-velvet-party-rentals-13.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-13",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0014",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0015",
+    "domain": "orchard-ivy-events-15.example",
+    "emails": [
+      "contact@orchard-ivy-events-15.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0016",
+    "domain": "pine-northstar-meeting-hall-16.example",
+    "emails": [
+      "events@pine-northstar-meeting-hall-16.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0017",
+    "domain": "quartz-spruce-bistro-17.example",
+    "emails": [
+      "hello@quartz-spruce-bistro-17.example"
+    ],
+    "phones": [
+      "+1-971-555-2016"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0018",
+    "domain": "river-amber-mobile-bar-18.example",
+    "emails": [
+      "vendor17@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0019",
+    "domain": "spruce-fern-kitchen-19.example",
+    "emails": [
+      "info@spruce-fern-kitchen-19.example",
+      "INFO@SPRUCE-FERN-KITCHEN-19.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-19",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0020",
+    "domain": "thistle-kindred-catering-20.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0021",
+    "domain": "union-pine-floral-studio-21.example",
+    "emails": [
+      "events@union-pine-floral-studio-21.example",
+      "lead20@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0022",
+    "domain": "velvet-union-party-rentals-22.example",
+    "emails": [
+      "hello@velvet-union-party-rentals-22.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0023",
+    "domain": "willow-cedar-weddings-23.example",
+    "emails": [
+      "sales@willow-cedar-weddings-23.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_23"
+  },
+  {
+    "placeId": "plc_0024",
+    "domain": "amber-harbor-events-24.example",
+    "emails": [
+      "noreply@amber-harbor-events-24.example",
+      "info@amber-harbor-events-24.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0025",
+    "domain": "bluebird-meadow-meeting-hall-25.example",
+    "emails": [
+      "contact@bluebird-meadow-meeting-hall-25.example"
+    ],
+    "phones": [
+      "+1-971-555-2024"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-25",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0026",
+    "domain": "cedar-river-bistro-26.example",
+    "emails": [
+      "events@cedar-river-bistro-26.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0027",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0028",
+    "domain": "ember-ember-kitchen-28.example",
+    "emails": [
+      "sales@ember-ember-kitchen-28.example",
+      "SALES@EMBER-EMBER-KITCHEN-28.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0029",
+    "domain": "fern-juniper-catering-29.example",
+    "emails": [
+      "info@fern-juniper-catering-29.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0030",
+    "domain": "golden-orchard-floral-studio-30.example",
+    "emails": [
+      "contact@golden-orchard-floral-studio-30.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0031",
+    "domain": "harbor-thistle-party-rentals-31.example",
+    "emails": [
+      "events@harbor-thistle-party-rentals-31.example",
+      "lead30@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-31",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0032",
+    "domain": "ivy-bluebird-weddings-32.example",
+    "emails": [
+      "hello@ivy-bluebird-weddings-32.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0033",
+    "domain": "juniper-golden-events-33.example",
+    "emails": [
+      "sales@juniper-golden-events-33.example"
+    ],
+    "phones": [
+      "+1-971-555-2032"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0034",
+    "domain": "kindred-lantern-meeting-hall-34.example",
+    "emails": [
+      "info@kindred-lantern-meeting-hall-34.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_34"
+  },
+  {
+    "placeId": "plc_0035",
+    "domain": "lantern-quartz-bistro-35.example",
+    "emails": [
+      "vendor34@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0036",
+    "domain": "meadow-velvet-mobile-bar-36.example",
+    "emails": [
+      "events@meadow-velvet-mobile-bar-36.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0037",
+    "domain": "northstar-dovetail-kitchen-37.example",
+    "emails": [
+      "hello@northstar-dovetail-kitchen-37.example",
+      "HELLO@NORTHSTAR-DOVETAIL-KITCHEN-37.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-37",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0038",
+    "domain": "orchard-ivy-catering-38.example",
+    "emails": [
+      "sales@orchard-ivy-catering-38.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0039",
+    "domain": "pine-northstar-floral-studio-39.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0040",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0041",
+    "domain": "river-amber-weddings-41.example",
+    "emails": [
+      "events@river-amber-weddings-41.example",
+      "lead40@examplemail.test"
+    ],
+    "phones": [
+      "+1-971-555-2040"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0042",
+    "domain": "spruce-fern-events-42.example",
+    "emails": [
+      "hello@spruce-fern-events-42.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0043",
+    "domain": "thistle-kindred-meeting-hall-43.example",
+    "emails": [
+      "sales@thistle-kindred-meeting-hall-43.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-43",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0044",
+    "domain": "union-pine-bistro-44.example",
+    "emails": [
+      "info@union-pine-bistro-44.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0045",
+    "domain": "velvet-union-mobile-bar-45.example",
+    "emails": [
+      "contact@velvet-union-mobile-bar-45.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_45"
+  },
+  {
+    "placeId": "plc_0046",
+    "domain": "willow-cedar-kitchen-46.example",
+    "emails": [
+      "events@willow-cedar-kitchen-46.example",
+      "EVENTS@WILLOW-CEDAR-KITCHEN-46.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0047",
+    "domain": "amber-harbor-catering-47.example",
+    "emails": [
+      "noreply@amber-harbor-catering-47.example",
+      "hello@amber-harbor-catering-47.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0048",
+    "domain": "bluebird-meadow-floral-studio-48.example",
+    "emails": [
+      "sales@bluebird-meadow-floral-studio-48.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0049",
+    "domain": "cedar-river-party-rentals-49.example",
+    "emails": [
+      "info@cedar-river-party-rentals-49.example"
+    ],
+    "phones": [
+      "+1-971-555-2048"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-49",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0050",
+    "domain": "dovetail-willow-weddings-50.example",
+    "emails": [
+      "contact@dovetail-willow-weddings-50.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0051",
+    "domain": "ember-ember-events-51.example",
+    "emails": [
+      "events@ember-ember-events-51.example",
+      "lead50@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0052",
+    "domain": "fern-juniper-meeting-hall-52.example",
+    "emails": [
+      "vendor51@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0053",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0054",
+    "domain": "harbor-thistle-mobile-bar-54.example",
+    "emails": [
+      "info@harbor-thistle-mobile-bar-54.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0055",
+    "domain": "ivy-bluebird-kitchen-55.example",
+    "emails": [
+      "contact@ivy-bluebird-kitchen-55.example",
+      "CONTACT@IVY-BLUEBIRD-KITCHEN-55.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-55",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0056",
+    "domain": "juniper-golden-catering-56.example",
+    "emails": [
+      "events@juniper-golden-catering-56.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_56"
+  },
+  {
+    "placeId": "plc_0057",
+    "domain": "kindred-lantern-floral-studio-57.example",
+    "emails": [
+      "hello@kindred-lantern-floral-studio-57.example"
+    ],
+    "phones": [
+      "+1-971-555-2056"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0058",
+    "domain": "lantern-quartz-party-rentals-58.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0059",
+    "domain": "meadow-velvet-weddings-59.example",
+    "emails": [
+      "info@meadow-velvet-weddings-59.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0060",
+    "domain": "northstar-dovetail-events-60.example",
+    "emails": [
+      "contact@northstar-dovetail-events-60.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0061",
+    "domain": "orchard-ivy-meeting-hall-61.example",
+    "emails": [
+      "events@orchard-ivy-meeting-hall-61.example",
+      "lead60@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-61",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0062",
+    "domain": "pine-northstar-bistro-62.example",
+    "emails": [
+      "hello@pine-northstar-bistro-62.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0063",
+    "domain": "quartz-spruce-mobile-bar-63.example",
+    "emails": [
+      "sales@quartz-spruce-mobile-bar-63.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0064",
+    "domain": "river-amber-kitchen-64.example",
+    "emails": [
+      "info@river-amber-kitchen-64.example",
+      "INFO@RIVER-AMBER-KITCHEN-64.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0065",
+    "domain": "spruce-fern-catering-65.example",
+    "emails": [
+      "contact@spruce-fern-catering-65.example"
+    ],
+    "phones": [
+      "+1-971-555-2064"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0066",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0067",
+    "domain": "union-pine-party-rentals-67.example",
+    "emails": [
+      "hello@union-pine-party-rentals-67.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-67",
+    "twitterUrl": "https://social.example/company_67"
+  },
+  {
+    "placeId": "plc_0068",
+    "domain": "velvet-union-weddings-68.example",
+    "emails": [
+      "sales@velvet-union-weddings-68.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0069",
+    "domain": "willow-cedar-events-69.example",
+    "emails": [
+      "vendor68@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0070",
+    "domain": "amber-harbor-meeting-hall-70.example",
+    "emails": [
+      "noreply@amber-harbor-meeting-hall-70.example",
+      "contact@amber-harbor-meeting-hall-70.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0071",
+    "domain": "bluebird-meadow-bistro-71.example",
+    "emails": [
+      "events@bluebird-meadow-bistro-71.example",
+      "lead70@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0072",
+    "domain": "cedar-river-mobile-bar-72.example",
+    "emails": [
+      "hello@cedar-river-mobile-bar-72.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0073",
+    "domain": "dovetail-willow-kitchen-73.example",
+    "emails": [
+      "sales@dovetail-willow-kitchen-73.example",
+      "SALES@DOVETAIL-WILLOW-KITCHEN-73.EXAMPLE"
+    ],
+    "phones": [
+      "+1-971-555-2072"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-73",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0074",
+    "domain": "ember-ember-catering-74.example",
+    "emails": [
+      "info@ember-ember-catering-74.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0075",
+    "domain": "fern-juniper-floral-studio-75.example",
+    "emails": [
+      "contact@fern-juniper-floral-studio-75.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0076",
+    "domain": "golden-orchard-party-rentals-76.example",
+    "emails": [
+      "events@golden-orchard-party-rentals-76.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0077",
+    "domain": "harbor-thistle-weddings-77.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0078",
+    "domain": "ivy-bluebird-events-78.example",
+    "emails": [
+      "sales@ivy-bluebird-events-78.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_78"
+  },
+  {
+    "placeId": "plc_0079",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-79",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0080",
+    "domain": "kindred-lantern-bistro-80.example",
+    "emails": [
+      "contact@kindred-lantern-bistro-80.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0081",
+    "domain": "lantern-quartz-mobile-bar-81.example",
+    "emails": [
+      "events@lantern-quartz-mobile-bar-81.example",
+      "lead80@examplemail.test"
+    ],
+    "phones": [
+      "+1-971-555-2080"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0082",
+    "domain": "meadow-velvet-kitchen-82.example",
+    "emails": [
+      "hello@meadow-velvet-kitchen-82.example",
+      "HELLO@MEADOW-VELVET-KITCHEN-82.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0083",
+    "domain": "northstar-dovetail-catering-83.example",
+    "emails": [
+      "sales@northstar-dovetail-catering-83.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0084",
+    "domain": "orchard-ivy-floral-studio-84.example",
+    "emails": [
+      "info@orchard-ivy-floral-studio-84.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0085",
+    "domain": "pine-northstar-party-rentals-85.example",
+    "emails": [
+      "contact@pine-northstar-party-rentals-85.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-85",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0086",
+    "domain": "quartz-spruce-weddings-86.example",
+    "emails": [
+      "vendor85@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0087",
+    "domain": "river-amber-events-87.example",
+    "emails": [
+      "hello@river-amber-events-87.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0088",
+    "domain": "spruce-fern-meeting-hall-88.example",
+    "emails": [
+      "sales@spruce-fern-meeting-hall-88.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0089",
+    "domain": "thistle-kindred-bistro-89.example",
+    "emails": [
+      "info@thistle-kindred-bistro-89.example"
+    ],
+    "phones": [
+      "+1-971-555-2088"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_89"
+  },
+  {
+    "placeId": "plc_0090",
+    "domain": "union-pine-mobile-bar-90.example",
+    "emails": [
+      "contact@union-pine-mobile-bar-90.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0091",
+    "domain": "velvet-union-kitchen-91.example",
+    "emails": [
+      "events@velvet-union-kitchen-91.example",
+      "EVENTS@VELVET-UNION-KITCHEN-91.EXAMPLE",
+      "lead90@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-91",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0092",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0093",
+    "domain": "amber-harbor-floral-studio-93.example",
+    "emails": [
+      "noreply@amber-harbor-floral-studio-93.example",
+      "sales@amber-harbor-floral-studio-93.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0094",
+    "domain": "bluebird-meadow-party-rentals-94.example",
+    "emails": [
+      "info@bluebird-meadow-party-rentals-94.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0095",
+    "domain": "cedar-river-weddings-95.example",
+    "emails": [
+      "contact@cedar-river-weddings-95.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0096",
+    "domain": "dovetail-willow-events-96.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0097",
+    "domain": "ember-ember-meeting-hall-97.example",
+    "emails": [
+      "hello@ember-ember-meeting-hall-97.example"
+    ],
+    "phones": [
+      "+1-971-555-2096"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-97",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0098",
+    "domain": "fern-juniper-bistro-98.example",
+    "emails": [
+      "sales@fern-juniper-bistro-98.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0099",
+    "domain": "golden-orchard-mobile-bar-99.example",
+    "emails": [
+      "info@golden-orchard-mobile-bar-99.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0100",
+    "domain": "harbor-thistle-kitchen-100.example",
+    "emails": [
+      "contact@harbor-thistle-kitchen-100.example",
+      "CONTACT@HARBOR-THISTLE-KITCHEN-100.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_100"
+  },
+  {
+    "placeId": "plc_0101",
+    "domain": "ivy-bluebird-catering-101.example",
+    "emails": [
+      "events@ivy-bluebird-catering-101.example",
+      "lead100@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0102",
+    "domain": "juniper-golden-floral-studio-102.example",
+    "emails": [
+      "hello@juniper-golden-floral-studio-102.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0103",
+    "domain": "kindred-lantern-party-rentals-103.example",
+    "emails": [
+      "vendor102@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-103",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0104",
+    "domain": "lantern-quartz-weddings-104.example",
+    "emails": [
+      "info@lantern-quartz-weddings-104.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0105",
+    "domain": null,
+    "emails": [],
+    "phones": [
+      "+1-971-555-2104"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0106",
+    "domain": "northstar-dovetail-meeting-hall-106.example",
+    "emails": [
+      "events@northstar-dovetail-meeting-hall-106.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0107",
+    "domain": "orchard-ivy-bistro-107.example",
+    "emails": [
+      "hello@orchard-ivy-bistro-107.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0108",
+    "domain": "pine-northstar-mobile-bar-108.example",
+    "emails": [
+      "sales@pine-northstar-mobile-bar-108.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0109",
+    "domain": "quartz-spruce-kitchen-109.example",
+    "emails": [
+      "info@quartz-spruce-kitchen-109.example",
+      "INFO@QUARTZ-SPRUCE-KITCHEN-109.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-109",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0110",
+    "domain": "river-amber-catering-110.example",
+    "emails": [
+      "contact@river-amber-catering-110.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0111",
+    "domain": "spruce-fern-floral-studio-111.example",
+    "emails": [
+      "events@spruce-fern-floral-studio-111.example",
+      "lead110@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_111"
+  },
+  {
+    "placeId": "plc_0112",
+    "domain": "thistle-kindred-party-rentals-112.example",
+    "emails": [
+      "hello@thistle-kindred-party-rentals-112.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0113",
+    "domain": "union-pine-weddings-113.example",
+    "emails": [
+      "sales@union-pine-weddings-113.example"
+    ],
+    "phones": [
+      "+1-971-555-2112"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0114",
+    "domain": "velvet-union-events-114.example",
+    "emails": [
+      "info@velvet-union-events-114.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0115",
+    "domain": "willow-cedar-meeting-hall-115.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-115",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0116",
+    "domain": "amber-harbor-bistro-116.example",
+    "emails": [
+      "noreply@amber-harbor-bistro-116.example",
+      "events@amber-harbor-bistro-116.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0117",
+    "domain": "bluebird-meadow-mobile-bar-117.example",
+    "emails": [
+      "hello@bluebird-meadow-mobile-bar-117.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0118",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0119",
+    "domain": "dovetail-willow-catering-119.example",
+    "emails": [
+      "info@dovetail-willow-catering-119.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0120",
+    "domain": "ember-ember-floral-studio-120.example",
+    "emails": [
+      "vendor119@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0121",
+    "domain": "fern-juniper-party-rentals-121.example",
+    "emails": [
+      "events@fern-juniper-party-rentals-121.example",
+      "lead120@examplemail.test"
+    ],
+    "phones": [
+      "+1-971-555-2120"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-121",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0122",
+    "domain": "golden-orchard-weddings-122.example",
+    "emails": [
+      "hello@golden-orchard-weddings-122.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_122"
+  },
+  {
+    "placeId": "plc_0123",
+    "domain": "harbor-thistle-events-123.example",
+    "emails": [
+      "sales@harbor-thistle-events-123.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0124",
+    "domain": "ivy-bluebird-meeting-hall-124.example",
+    "emails": [
+      "info@ivy-bluebird-meeting-hall-124.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0125",
+    "domain": "juniper-golden-bistro-125.example",
+    "emails": [
+      "contact@juniper-golden-bistro-125.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0126",
+    "domain": "kindred-lantern-mobile-bar-126.example",
+    "emails": [
+      "events@kindred-lantern-mobile-bar-126.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0127",
+    "domain": "lantern-quartz-kitchen-127.example",
+    "emails": [
+      "hello@lantern-quartz-kitchen-127.example",
+      "HELLO@LANTERN-QUARTZ-KITCHEN-127.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-127",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0128",
+    "domain": "meadow-velvet-catering-128.example",
+    "emails": [
+      "sales@meadow-velvet-catering-128.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0129",
+    "domain": "northstar-dovetail-floral-studio-129.example",
+    "emails": [
+      "info@northstar-dovetail-floral-studio-129.example"
+    ],
+    "phones": [
+      "+1-971-555-2128"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0130",
+    "domain": "orchard-ivy-party-rentals-130.example",
+    "emails": [
+      "contact@orchard-ivy-party-rentals-130.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0131",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0132",
+    "domain": "quartz-spruce-events-132.example",
+    "emails": [
+      "hello@quartz-spruce-events-132.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0133",
+    "domain": "river-amber-meeting-hall-133.example",
+    "emails": [
+      "sales@river-amber-meeting-hall-133.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-133",
+    "twitterUrl": "https://social.example/company_133"
+  },
+  {
+    "placeId": "plc_0134",
+    "domain": "spruce-fern-bistro-134.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0135",
+    "domain": "thistle-kindred-mobile-bar-135.example",
+    "emails": [
+      "contact@thistle-kindred-mobile-bar-135.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0136",
+    "domain": "union-pine-kitchen-136.example",
+    "emails": [
+      "events@union-pine-kitchen-136.example",
+      "EVENTS@UNION-PINE-KITCHEN-136.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0137",
+    "domain": "velvet-union-catering-137.example",
+    "emails": [
+      "vendor136@examplemail.test"
+    ],
+    "phones": [
+      "+1-971-555-2136"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0138",
+    "domain": "willow-cedar-floral-studio-138.example",
+    "emails": [
+      "sales@willow-cedar-floral-studio-138.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0139",
+    "domain": "amber-harbor-party-rentals-139.example",
+    "emails": [
+      "noreply@amber-harbor-party-rentals-139.example",
+      "info@amber-harbor-party-rentals-139.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-139",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0140",
+    "domain": "bluebird-meadow-weddings-140.example",
+    "emails": [
+      "contact@bluebird-meadow-weddings-140.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0141",
+    "domain": "cedar-river-events-141.example",
+    "emails": [
+      "events@cedar-river-events-141.example",
+      "lead140@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0142",
+    "domain": "dovetail-willow-meeting-hall-142.example",
+    "emails": [
+      "hello@dovetail-willow-meeting-hall-142.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0143",
+    "domain": "ember-ember-bistro-143.example",
+    "emails": [
+      "sales@ember-ember-bistro-143.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0144",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_144"
+  },
+  {
+    "placeId": "plc_0145",
+    "domain": "golden-orchard-kitchen-145.example",
+    "emails": [
+      "contact@golden-orchard-kitchen-145.example",
+      "CONTACT@GOLDEN-ORCHARD-KITCHEN-145.EXAMPLE"
+    ],
+    "phones": [
+      "+1-971-555-2144"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-145",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0146",
+    "domain": "harbor-thistle-catering-146.example",
+    "emails": [
+      "events@harbor-thistle-catering-146.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0147",
+    "domain": "ivy-bluebird-floral-studio-147.example",
+    "emails": [
+      "hello@ivy-bluebird-floral-studio-147.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0148",
+    "domain": "juniper-golden-party-rentals-148.example",
+    "emails": [
+      "sales@juniper-golden-party-rentals-148.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0149",
+    "domain": "kindred-lantern-weddings-149.example",
+    "emails": [
+      "info@kindred-lantern-weddings-149.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0150",
+    "domain": "lantern-quartz-events-150.example",
+    "emails": [
+      "contact@lantern-quartz-events-150.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0151",
+    "domain": "meadow-velvet-meeting-hall-151.example",
+    "emails": [
+      "events@meadow-velvet-meeting-hall-151.example",
+      "lead150@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-151",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0152",
+    "domain": "northstar-dovetail-bistro-152.example",
+    "emails": [
+      "hello@northstar-dovetail-bistro-152.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0153",
+    "domain": "orchard-ivy-mobile-bar-153.example",
+    "emails": [],
+    "phones": [
+      "+1-971-555-2152"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0154",
+    "domain": "pine-northstar-kitchen-154.example",
+    "emails": [
+      "vendor153@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0155",
+    "domain": "quartz-spruce-catering-155.example",
+    "emails": [
+      "contact@quartz-spruce-catering-155.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_155"
+  },
+  {
+    "placeId": "plc_0156",
+    "domain": "river-amber-floral-studio-156.example",
+    "emails": [
+      "events@river-amber-floral-studio-156.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0157",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-157",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0158",
+    "domain": "thistle-kindred-weddings-158.example",
+    "emails": [
+      "sales@thistle-kindred-weddings-158.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0159",
+    "domain": "union-pine-events-159.example",
+    "emails": [
+      "info@union-pine-events-159.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0160",
+    "domain": "velvet-union-meeting-hall-160.example",
+    "emails": [
+      "contact@velvet-union-meeting-hall-160.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0161",
+    "domain": "willow-cedar-bistro-161.example",
+    "emails": [
+      "events@willow-cedar-bistro-161.example",
+      "lead160@examplemail.test"
+    ],
+    "phones": [
+      "+1-971-555-2160"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0162",
+    "domain": "amber-harbor-mobile-bar-162.example",
+    "emails": [
+      "noreply@amber-harbor-mobile-bar-162.example",
+      "hello@amber-harbor-mobile-bar-162.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0163",
+    "domain": "bluebird-meadow-kitchen-163.example",
+    "emails": [
+      "sales@bluebird-meadow-kitchen-163.example",
+      "SALES@BLUEBIRD-MEADOW-KITCHEN-163.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-163",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0164",
+    "domain": "cedar-river-catering-164.example",
+    "emails": [
+      "info@cedar-river-catering-164.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0165",
+    "domain": "dovetail-willow-floral-studio-165.example",
+    "emails": [
+      "contact@dovetail-willow-floral-studio-165.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0166",
+    "domain": "ember-ember-party-rentals-166.example",
+    "emails": [
+      "events@ember-ember-party-rentals-166.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_166"
+  },
+  {
+    "placeId": "plc_0167",
+    "domain": "fern-juniper-weddings-167.example",
+    "emails": [
+      "hello@fern-juniper-weddings-167.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0168",
+    "domain": "golden-orchard-events-168.example",
+    "emails": [
+      "sales@golden-orchard-events-168.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0169",
+    "domain": "harbor-thistle-meeting-hall-169.example",
+    "emails": [
+      "info@harbor-thistle-meeting-hall-169.example"
+    ],
+    "phones": [
+      "+1-971-555-2168"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-169",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0170",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0171",
+    "domain": "juniper-golden-mobile-bar-171.example",
+    "emails": [
+      "vendor170@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0172",
+    "domain": "kindred-lantern-kitchen-172.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0173",
+    "domain": "lantern-quartz-catering-173.example",
+    "emails": [
+      "sales@lantern-quartz-catering-173.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0174",
+    "domain": "meadow-velvet-floral-studio-174.example",
+    "emails": [
+      "info@meadow-velvet-floral-studio-174.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0175",
+    "domain": "northstar-dovetail-party-rentals-175.example",
+    "emails": [
+      "contact@northstar-dovetail-party-rentals-175.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-175",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0176",
+    "domain": "orchard-ivy-weddings-176.example",
+    "emails": [
+      "events@orchard-ivy-weddings-176.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0177",
+    "domain": "pine-northstar-events-177.example",
+    "emails": [
+      "hello@pine-northstar-events-177.example"
+    ],
+    "phones": [
+      "+1-971-555-2176"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_177"
+  },
+  {
+    "placeId": "plc_0178",
+    "domain": "quartz-spruce-meeting-hall-178.example",
+    "emails": [
+      "sales@quartz-spruce-meeting-hall-178.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0179",
+    "domain": "river-amber-bistro-179.example",
+    "emails": [
+      "info@river-amber-bistro-179.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0180",
+    "domain": "spruce-fern-mobile-bar-180.example",
+    "emails": [
+      "contact@spruce-fern-mobile-bar-180.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0181",
+    "domain": "thistle-kindred-kitchen-181.example",
+    "emails": [
+      "events@thistle-kindred-kitchen-181.example",
+      "EVENTS@THISTLE-KINDRED-KITCHEN-181.EXAMPLE",
+      "lead180@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-181",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0182",
+    "domain": "union-pine-catering-182.example",
+    "emails": [
+      "hello@union-pine-catering-182.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0183",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0184",
+    "domain": "willow-cedar-party-rentals-184.example",
+    "emails": [
+      "info@willow-cedar-party-rentals-184.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0185",
+    "domain": "amber-harbor-weddings-185.example",
+    "emails": [
+      "noreply@amber-harbor-weddings-185.example",
+      "contact@amber-harbor-weddings-185.example"
+    ],
+    "phones": [
+      "+1-971-555-2184"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0186",
+    "domain": "bluebird-meadow-events-186.example",
+    "emails": [
+      "events@bluebird-meadow-events-186.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0187",
+    "domain": "cedar-river-meeting-hall-187.example",
+    "emails": [
+      "hello@cedar-river-meeting-hall-187.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-187",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0188",
+    "domain": "dovetail-willow-bistro-188.example",
+    "emails": [
+      "vendor187@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_188"
+  },
+  {
+    "placeId": "plc_0189",
+    "domain": "ember-ember-mobile-bar-189.example",
+    "emails": [
+      "info@ember-ember-mobile-bar-189.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0190",
+    "domain": "fern-juniper-kitchen-190.example",
+    "emails": [
+      "contact@fern-juniper-kitchen-190.example",
+      "CONTACT@FERN-JUNIPER-KITCHEN-190.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0191",
+    "domain": "golden-orchard-catering-191.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0192",
+    "domain": "harbor-thistle-floral-studio-192.example",
+    "emails": [
+      "hello@harbor-thistle-floral-studio-192.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0193",
+    "domain": "ivy-bluebird-party-rentals-193.example",
+    "emails": [
+      "sales@ivy-bluebird-party-rentals-193.example"
+    ],
+    "phones": [
+      "+1-971-555-2192"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-193",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0194",
+    "domain": "juniper-golden-weddings-194.example",
+    "emails": [
+      "info@juniper-golden-weddings-194.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0195",
+    "domain": "kindred-lantern-events-195.example",
+    "emails": [
+      "contact@kindred-lantern-events-195.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0196",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0197",
+    "domain": "meadow-velvet-bistro-197.example",
+    "emails": [
+      "hello@meadow-velvet-bistro-197.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0198",
+    "domain": "northstar-dovetail-mobile-bar-198.example",
+    "emails": [
+      "sales@northstar-dovetail-mobile-bar-198.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0199",
+    "domain": "orchard-ivy-kitchen-199.example",
+    "emails": [
+      "info@orchard-ivy-kitchen-199.example",
+      "INFO@ORCHARD-IVY-KITCHEN-199.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-199",
+    "twitterUrl": "https://social.example/company_199"
+  },
+  {
+    "placeId": "plc_0200",
+    "domain": "pine-northstar-catering-200.example",
+    "emails": [
+      "contact@pine-northstar-catering-200.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0201",
+    "domain": "quartz-spruce-floral-studio-201.example",
+    "emails": [
+      "events@quartz-spruce-floral-studio-201.example",
+      "lead200@examplemail.test"
+    ],
+    "phones": [
+      "+1-971-555-2200"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0202",
+    "domain": "river-amber-party-rentals-202.example",
+    "emails": [
+      "hello@river-amber-party-rentals-202.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0203",
+    "domain": "spruce-fern-weddings-203.example",
+    "emails": [
+      "sales@spruce-fern-weddings-203.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0204",
+    "domain": "thistle-kindred-events-204.example",
+    "emails": [
+      "info@thistle-kindred-events-204.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0205",
+    "domain": "union-pine-meeting-hall-205.example",
+    "emails": [
+      "vendor204@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-205",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0206",
+    "domain": "velvet-union-bistro-206.example",
+    "emails": [
+      "events@velvet-union-bistro-206.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0207",
+    "domain": "willow-cedar-mobile-bar-207.example",
+    "emails": [
+      "hello@willow-cedar-mobile-bar-207.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0208",
+    "domain": "amber-harbor-kitchen-208.example",
+    "emails": [
+      "noreply@amber-harbor-kitchen-208.example",
+      "sales@amber-harbor-kitchen-208.example",
+      "SALES@AMBER-HARBOR-KITCHEN-208.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0209",
+    "domain": null,
+    "emails": [],
+    "phones": [
+      "+1-971-555-2208"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0210",
+    "domain": "cedar-river-floral-studio-210.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_210"
+  },
+  {
+    "placeId": "plc_0211",
+    "domain": "dovetail-willow-party-rentals-211.example",
+    "emails": [
+      "events@dovetail-willow-party-rentals-211.example",
+      "lead210@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-211",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0212",
+    "domain": "ember-ember-weddings-212.example",
+    "emails": [
+      "hello@ember-ember-weddings-212.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0213",
+    "domain": "fern-juniper-events-213.example",
+    "emails": [
+      "sales@fern-juniper-events-213.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0214",
+    "domain": "golden-orchard-meeting-hall-214.example",
+    "emails": [
+      "info@golden-orchard-meeting-hall-214.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0215",
+    "domain": "harbor-thistle-bistro-215.example",
+    "emails": [
+      "contact@harbor-thistle-bistro-215.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0216",
+    "domain": "ivy-bluebird-mobile-bar-216.example",
+    "emails": [
+      "events@ivy-bluebird-mobile-bar-216.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0217",
+    "domain": "juniper-golden-kitchen-217.example",
+    "emails": [
+      "hello@juniper-golden-kitchen-217.example",
+      "HELLO@JUNIPER-GOLDEN-KITCHEN-217.EXAMPLE"
+    ],
+    "phones": [
+      "+1-971-555-2216"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-217",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0218",
+    "domain": "kindred-lantern-catering-218.example",
+    "emails": [
+      "sales@kindred-lantern-catering-218.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0219",
+    "domain": "lantern-quartz-floral-studio-219.example",
+    "emails": [
+      "info@lantern-quartz-floral-studio-219.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0220",
+    "domain": "meadow-velvet-party-rentals-220.example",
+    "emails": [
+      "contact@meadow-velvet-party-rentals-220.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0221",
+    "domain": "northstar-dovetail-weddings-221.example",
+    "emails": [
+      "events@northstar-dovetail-weddings-221.example",
+      "lead220@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_221"
+  },
+  {
+    "placeId": "plc_0222",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0223",
+    "domain": "pine-northstar-meeting-hall-223.example",
+    "emails": [
+      "sales@pine-northstar-meeting-hall-223.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-223",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0224",
+    "domain": "quartz-spruce-bistro-224.example",
+    "emails": [
+      "info@quartz-spruce-bistro-224.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0225",
+    "domain": "river-amber-mobile-bar-225.example",
+    "emails": [
+      "contact@river-amber-mobile-bar-225.example"
+    ],
+    "phones": [
+      "+1-971-555-2224"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0226",
+    "domain": "spruce-fern-kitchen-226.example",
+    "emails": [
+      "events@spruce-fern-kitchen-226.example",
+      "EVENTS@SPRUCE-FERN-KITCHEN-226.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0227",
+    "domain": "thistle-kindred-catering-227.example",
+    "emails": [
+      "hello@thistle-kindred-catering-227.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0228",
+    "domain": "union-pine-floral-studio-228.example",
+    "emails": [
+      "sales@union-pine-floral-studio-228.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0229",
+    "domain": "velvet-union-party-rentals-229.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-229",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_0230",
+    "domain": "willow-cedar-weddings-230.example",
+    "emails": [
+      "contact@willow-cedar-weddings-230.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_001",
+    "domain": "rose-city-rentals.example",
+    "emails": [
+      "noreply@rose-city-rentals.example",
+      "events@rose-city-rentals.example",
+      "lead230@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_002",
+    "domain": "evergreen-event-co.example",
+    "emails": [
+      "hello@evergreen-event-co.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_232"
+  },
+  {
+    "placeId": "plc_alt_003",
+    "domain": "spruce-fern-kitchen-19.example",
+    "emails": [
+      "sales@spruce-fern-kitchen-19.example"
+    ],
+    "phones": [
+      "+1-971-555-2232"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_004",
+    "domain": "cedar-river-bistro-26.example",
+    "emails": [
+      "info@cedar-river-bistro-26.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_005",
+    "domain": "juniper-golden-events-33.example",
+    "emails": [
+      "contact@juniper-golden-events-33.example",
+      "CONTACT@JUNIPER-GOLDEN-EVENTS-33.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-235",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_006",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_007",
+    "domain": "amber-harbor-catering-47.example",
+    "emails": [
+      "hello@amber-harbor-catering-47.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_008",
+    "domain": "harbor-thistle-mobile-bar-54.example",
+    "emails": [
+      "sales@harbor-thistle-mobile-bar-54.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_009",
+    "domain": "orchard-ivy-meeting-hall-61.example",
+    "emails": [
+      "vendor238@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_010",
+    "domain": "velvet-union-weddings-68.example",
+    "emails": [
+      "contact@velvet-union-weddings-68.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_011",
+    "domain": "fern-juniper-floral-studio-75.example",
+    "emails": [
+      "events@fern-juniper-floral-studio-75.example",
+      "lead240@examplemail.test"
+    ],
+    "phones": [
+      "+1-971-555-2240"
+    ],
+    "linkedInUrl": "https://linkedin.example/company/company-241",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_012",
+    "domain": "meadow-velvet-kitchen-82.example",
+    "emails": [
+      "hello@meadow-velvet-kitchen-82.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_013",
+    "domain": "thistle-kindred-bistro-89.example",
+    "emails": [
+      "sales@thistle-kindred-bistro-89.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_243"
+  },
+  {
+    "placeId": "plc_alt_014",
+    "domain": "dovetail-willow-events-96.example",
+    "emails": [
+      "info@dovetail-willow-events-96.example",
+      "INFO@DOVETAIL-WILLOW-EVENTS-96.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_015",
+    "domain": "kindred-lantern-party-rentals-103.example",
+    "emails": [
+      "contact@kindred-lantern-party-rentals-103.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_016",
+    "domain": "river-amber-catering-110.example",
+    "emails": [
+      "events@river-amber-catering-110.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_017",
+    "domain": "bluebird-meadow-mobile-bar-117.example",
+    "emails": [
+      "hello@bluebird-meadow-mobile-bar-117.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-247",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_018",
+    "domain": "ivy-bluebird-meeting-hall-124.example",
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_019",
+    "domain": null,
+    "emails": [],
+    "phones": [
+      "+1-971-555-2248"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_020",
+    "domain": "willow-cedar-floral-studio-138.example",
+    "emails": [
+      "contact@willow-cedar-floral-studio-138.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_021",
+    "domain": "golden-orchard-kitchen-145.example",
+    "emails": [
+      "events@golden-orchard-kitchen-145.example",
+      "lead250@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_022",
+    "domain": "northstar-dovetail-bistro-152.example",
+    "emails": [
+      "hello@northstar-dovetail-bistro-152.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_023",
+    "domain": "union-pine-events-159.example",
+    "emails": [
+      "sales@union-pine-events-159.example",
+      "SALES@UNION-PINE-EVENTS-159.EXAMPLE"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-253",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_024",
+    "domain": "ember-ember-party-rentals-166.example",
+    "emails": [
+      "noreply@ember-ember-party-rentals-166.example",
+      "info@ember-ember-party-rentals-166.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": "https://social.example/company_254"
+  },
+  {
+    "placeId": "plc_alt_025",
+    "domain": "lantern-quartz-catering-173.example",
+    "emails": [
+      "contact@lantern-quartz-catering-173.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_026",
+    "domain": "spruce-fern-mobile-bar-180.example",
+    "emails": [
+      "vendor255@examplemail.test"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_027",
+    "domain": "juniper-mobile-bar.example",
+    "emails": [
+      "hello@juniper-mobile-bar.example"
+    ],
+    "phones": [
+      "+1-971-555-2256"
+    ],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_028",
+    "domain": null,
+    "emails": [],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_029",
+    "domain": "union-pine-floral-studio-21.example",
+    "emails": [
+      "info@union-pine-floral-studio-21.example"
+    ],
+    "phones": [],
+    "linkedInUrl": "https://linkedin.example/company/company-259",
+    "twitterUrl": null
+  },
+  {
+    "placeId": "plc_alt_030",
+    "domain": "ember-ember-kitchen-28.example",
+    "emails": [
+      "contact@ember-ember-kitchen-28.example"
+    ],
+    "phones": [],
+    "linkedInUrl": null,
+    "twitterUrl": null
+  }
+]

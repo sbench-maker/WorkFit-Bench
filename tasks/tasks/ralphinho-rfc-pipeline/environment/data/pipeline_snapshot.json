@@ -1,0 +1,100 @@
+{
+  "rfc_id": "RFC-042",
+  "integration_branch": "integration/export-v2",
+  "integration_commit": "int-48",
+  "captured_at": "2026-08-15T13:00:00Z",
+  "units": [
+    {
+      "id": "WU-CONTRACT",
+      "requirements": ["R1"],
+      "modules": ["libs/export-contract"],
+      "depends_on": [],
+      "status": "merged",
+      "branch_base": "int-44",
+      "completed_gates": ["research", "implementation_plan", "implementation", "tests", "review", "merge_ready_report"],
+      "passed_tests": ["CT-01", "UT-01"]
+    },
+    {
+      "id": "WU-SCHEMA",
+      "requirements": ["R2"],
+      "modules": ["db/export-schema"],
+      "depends_on": ["WU-CONTRACT"],
+      "status": "merge_ready",
+      "branch_base": "int-48",
+      "completed_gates": ["research", "implementation_plan", "implementation", "tests", "review", "merge_ready_report"],
+      "passed_tests": ["DB-01", "DB-02", "UT-02"]
+    },
+    {
+      "id": "WU-POLICY",
+      "requirements": ["R3"],
+      "modules": ["services/policy"],
+      "depends_on": ["WU-CONTRACT"],
+      "status": "merge_ready",
+      "branch_base": "int-47",
+      "completed_gates": ["research", "implementation_plan", "implementation", "tests", "review", "merge_ready_report"],
+      "passed_tests": ["SEC-01", "SEC-02", "UT-03"]
+    },
+    {
+      "id": "WU-API",
+      "requirements": ["R7", "R8"],
+      "modules": ["services/export-api"],
+      "depends_on": ["WU-CONTRACT", "WU-SCHEMA", "WU-POLICY", "WU-WORKER"],
+      "status": "blocked",
+      "branch_base": "int-46",
+      "completed_gates": ["research", "implementation_plan"],
+      "passed_tests": ["UT-04"]
+    },
+    {
+      "id": "WU-WORKER",
+      "requirements": ["R4", "R5", "R6"],
+      "modules": ["workers/export-snapshot", "workers/export-redaction", "workers/export-package"],
+      "depends_on": ["WU-CONTRACT", "WU-SCHEMA"],
+      "status": "stalled",
+      "branch_base": "int-45",
+      "completed_gates": ["research", "implementation_plan", "implementation"],
+      "passed_tests": ["SNAP-02", "UT-05", "UT-06", "UT-07"],
+      "failed_tests": ["RED-02"],
+      "stall_reason": "mixed snapshot, redaction, and encryption changes cannot be reviewed or rolled back independently"
+    },
+    {
+      "id": "WU-AUDIT",
+      "requirements": ["R9"],
+      "modules": ["services/audit"],
+      "depends_on": ["WU-API", "WU-WORKER"],
+      "status": "blocked",
+      "branch_base": "int-46",
+      "completed_gates": ["research", "implementation_plan"],
+      "passed_tests": ["UT-08"]
+    },
+    {
+      "id": "WU-UI",
+      "requirements": ["R10"],
+      "modules": ["web/admin-exports"],
+      "depends_on": ["WU-API"],
+      "status": "blocked",
+      "branch_base": "int-46",
+      "completed_gates": ["research"],
+      "passed_tests": ["UT-09"]
+    },
+    {
+      "id": "WU-OPS",
+      "requirements": ["R11"],
+      "modules": ["ops/export-lifecycle"],
+      "depends_on": ["WU-SCHEMA", "WU-WORKER"],
+      "status": "planned",
+      "branch_base": "int-48",
+      "completed_gates": ["research"],
+      "passed_tests": []
+    },
+    {
+      "id": "WU-ROLLOUT",
+      "requirements": ["R12"],
+      "modules": ["config/feature-flags", "tests/export-system"],
+      "depends_on": ["WU-AUDIT", "WU-UI", "WU-OPS"],
+      "status": "blocked",
+      "branch_base": "int-48",
+      "completed_gates": ["research"],
+      "passed_tests": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+dependency_id,initiative_id,dependency_type,dependency_ref,dependency_name,prior_ready_date,current_ready_date,need_by_date,owner,status,contingency
+DEP-001,RM-003,external,EXT-TAX-7,Regional tax schema approval,2026-09-18,2026-09-18,2026-09-22,Elena Park,on_track,Ship the pre-approved minimal receipt fields if commentary is delayed.
+DEP-002,RM-005,technical,RM-001,Ledger conflict API,2026-09-21,2026-09-21,2026-09-28,Priya Nair,on_track,Use a local conflict queue behind a feature flag.
+DEP-003,RM-007,team,EXT-SRE-2,SRE retry telemetry,2026-09-24,2026-10-01,2026-09-30,Sofia Marin,at_risk,"Launch controls with aggregate metrics, then add per-hook detail."
+DEP-004,RM-011,external,EXT-DIR-4,Directory conformance suite,2026-10-20,2026-10-27,2026-11-03,Marco Li,on_track,Limit GA to the two certified directory profiles.
+DEP-005,RM-012,external,EXT-IDV-9,Identity vendor production certification,2026-10-05,2026-12-18,2026-10-20,Priya Nair,slipped,Continue internal dogfood on the mock adapter; do not expose production login until certification.
+DEP-006,RM-013,technical,RM-001,Ledger approval event model,2026-10-02,2026-10-02,2026-10-19,Elena Park,ready,No contingency needed; interface contract is frozen.
+DEP-007,RM-014,technical,RM-012,Passwordless device binding,,,2026-10-26,Amina Yusuf,blocked,"Keep mobile approval discovery active, but defer production build with RM-012."
+DEP-008,RM-015,external,EXT-CLOUD-3,Secondary-region storage tenancy,2026-10-12,2026-10-19,2026-10-27,Victor Chen,on_track,Use the contracted primary region for pilot tenants.
+DEP-009,RM-016,technical,RM-012,Passwordless risk claims,,,2026-11-02,Sofia Marin,blocked,Prototype policy evaluation with recorded claims; production remains gated.
+DEP-010,RM-017,team,EXT-LEGAL-5,Partner terms template,2026-10-16,2026-10-30,2026-11-09,Jon Bell,on_track,Run an invite-only beta under existing terms.
+DEP-011,RM-018,knowledge,EXT-CS-8,Customer-success risk taxonomy,2026-10-15,2026-10-22,2026-10-26,Caleb Ross,on_track,Seed with the approved top five churn drivers.
+DEP-012,RM-019,technical,RM-006,Complete usage-event history,2026-09-14,2026-09-14,2026-10-19,Victor Chen,ready,No contingency needed.
+DEP-013,RM-023,technical,RM-019,API usage isolation,,,2026-12-14,Sofia Marin,planned,Use fixed sandbox quotas for the first partner cohort.
+DEP-014,RM-025,external,EXT-KMS-6,Key escrow review,2026-12-11,2026-12-18,2027-01-04,Priya Nair,on_track,Limit preview to non-regulated tenants.
+DEP-015,RM-026,technical,RM-019,Usage dimension contracts,,,2026-12-21,Victor Chen,planned,Start with the frozen workspace and plan dimensions.
+DEP-016,RM-029,technical,RM-015,Residency-aware deletion service,,,2026-12-14,Elena Park,planned,Queue deletions for unsupported regions during preview.
+DEP-017,RM-031,technical,RM-019,API trace identifiers,,,2026-12-21,Sofia Marin,planned,Generate internal trace IDs until the public field ships.
+DEP-018,RM-032,team,EXT-TRUST-1,Community moderation policy,2026-12-18,2027-01-08,2027-01-11,Caleb Ross,on_track,Restrict sharing to verified organizations during beta.

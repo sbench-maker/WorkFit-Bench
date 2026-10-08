@@ -1,0 +1,10 @@
+[package]
+name = "acme-router-fixture"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "acme_router_fixture"
+path = "src/lib.rs"
+
+[dependencies]

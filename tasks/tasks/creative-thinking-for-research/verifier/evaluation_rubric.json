@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Usable four-card artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown memo exists, is readable, and contains exactly four identifiable, developed research cards.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__pack_traceability",
+      "title": "Pack grounding and traceability",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every card cites valid local IDs, challenges at least one soft or hidden assumption, names a cross-domain mechanism, and grounds the proposal in an observation or available enabler.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_pack_traceability_by_card"
+      ]
+    },
+    {
+      "id": "completion__structural_creative_depth",
+      "title": "Structural transfer and assumption transformation",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each direction maps a distant-domain mechanism through causal or relational correspondences, makes a consequential change to the Mosaic problem representation or constraints, and preserves a relevant boundary condition instead of relying on metaphor.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    },
+    {
+      "id": "completion__experimental_discrimination",
+      "title": "Falsifiability, discrimination, and feasibility",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each card gives a falsifiable prediction and a small experiment whose controls isolate the proposed mechanism, respects the hard deployment envelope or names a missing dependency, and identifies a specific kill risk with an observable failure signal.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Usable four-card artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__pack_traceability",
+        "title": "Pack grounding and traceability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__structural_creative_depth",
+        "title": "Structural transfer and assumption transformation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__experimental_discrimination",
+        "title": "Falsifiability, discrimination, and feasibility",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

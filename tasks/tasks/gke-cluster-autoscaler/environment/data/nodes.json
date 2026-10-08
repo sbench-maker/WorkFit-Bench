@@ -1,0 +1,442 @@
+{
+  "apiVersion": "v1",
+  "items": [
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.08",
+          "snapshot.example/memory-request-ratio": "0.11"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "apps-spot",
+          "kubernetes.io/hostname": "gke-apps-spot-a-001",
+          "topology.kubernetes.io/zone": "us-central1-a"
+        },
+        "name": "gke-apps-spot-a-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.04",
+          "snapshot.example/memory-request-ratio": "0.06"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "apps-spot",
+          "kubernetes.io/hostname": "gke-apps-spot-a-002",
+          "topology.kubernetes.io/zone": "us-central1-a"
+        },
+        "name": "gke-apps-spot-a-002"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.07",
+          "snapshot.example/memory-request-ratio": "0.09"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "apps-spot",
+          "kubernetes.io/hostname": "gke-apps-spot-b-001",
+          "topology.kubernetes.io/zone": "us-central1-b"
+        },
+        "name": "gke-apps-spot-b-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.13",
+          "snapshot.example/memory-request-ratio": "0.15"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "apps-ondemand",
+          "kubernetes.io/hostname": "gke-apps-ondemand-b-001",
+          "topology.kubernetes.io/zone": "us-central1-b"
+        },
+        "name": "gke-apps-ondemand-b-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.09",
+          "snapshot.example/memory-request-ratio": "0.10"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "legacy-pool",
+          "kubernetes.io/hostname": "gke-legacy-c-001",
+          "topology.kubernetes.io/zone": "us-central1-c"
+        },
+        "name": "gke-legacy-c-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "cluster-autoscaler.kubernetes.io/scale-down-disabled": "true",
+          "snapshot.example/cpu-request-ratio": "0.06",
+          "snapshot.example/memory-request-ratio": "0.08"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "apps-spot",
+          "kubernetes.io/hostname": "gke-apps-spot-c-001",
+          "topology.kubernetes.io/zone": "us-central1-c"
+        },
+        "name": "gke-apps-spot-c-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.15",
+          "snapshot.example/memory-request-ratio": "0.18"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "stateful-pool",
+          "kubernetes.io/hostname": "gke-stateful-a-001",
+          "topology.kubernetes.io/zone": "us-central1-a"
+        },
+        "name": "gke-stateful-a-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.10",
+          "snapshot.example/memory-request-ratio": "0.13"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "system-pool",
+          "kubernetes.io/hostname": "gke-system-a-001",
+          "topology.kubernetes.io/zone": "us-central1-a"
+        },
+        "name": "gke-system-a-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.05",
+          "snapshot.example/memory-request-ratio": "0.07"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "apps-spot",
+          "kubernetes.io/hostname": "gke-clean-b-001",
+          "topology.kubernetes.io/zone": "us-central1-b"
+        },
+        "name": "gke-clean-b-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.12",
+          "snapshot.example/memory-request-ratio": "0.14"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "apps-spot",
+          "kubernetes.io/hostname": "gke-buffer-c-001",
+          "topology.kubernetes.io/zone": "us-central1-c"
+        },
+        "name": "gke-buffer-c-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.72",
+          "snapshot.example/memory-request-ratio": "0.67"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "busy-pool",
+          "kubernetes.io/hostname": "gke-busy-a-001",
+          "topology.kubernetes.io/zone": "us-central1-a"
+        },
+        "name": "gke-busy-a-001"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.76",
+          "snapshot.example/memory-request-ratio": "0.72"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "busy-pool",
+          "kubernetes.io/hostname": "gke-busy-b-002",
+          "topology.kubernetes.io/zone": "us-central1-b"
+        },
+        "name": "gke-busy-b-002"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.80",
+          "snapshot.example/memory-request-ratio": "0.77"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "busy-pool",
+          "kubernetes.io/hostname": "gke-busy-c-003",
+          "topology.kubernetes.io/zone": "us-central1-c"
+        },
+        "name": "gke-busy-c-003"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.84",
+          "snapshot.example/memory-request-ratio": "0.82"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "busy-pool",
+          "kubernetes.io/hostname": "gke-busy-a-004",
+          "topology.kubernetes.io/zone": "us-central1-a"
+        },
+        "name": "gke-busy-a-004"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Node",
+      "metadata": {
+        "annotations": {
+          "snapshot.example/cpu-request-ratio": "0.88",
+          "snapshot.example/memory-request-ratio": "0.87"
+        },
+        "labels": {
+          "cloud.google.com/gke-nodepool": "busy-pool",
+          "kubernetes.io/hostname": "gke-busy-b-005",
+          "topology.kubernetes.io/zone": "us-central1-b"
+        },
+        "name": "gke-busy-b-005"
+      },
+      "status": {
+        "allocatable": {
+          "cpu": "8",
+          "memory": "30Gi",
+          "pods": "110"
+        },
+        "conditions": [
+          {
+            "status": "True",
+            "type": "Ready"
+          }
+        ]
+      }
+    }
+  ],
+  "kind": "NodeList"
+}

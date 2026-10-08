@@ -1,0 +1,4720 @@
+{
+  "fixture_version": "1.0",
+  "account": {
+    "email": "aisha.rahman@aster-ops.test",
+    "display_name": "Aisha Rahman",
+    "time_zone": "Asia/Shanghai"
+  },
+  "messages": [
+    {
+      "id": "msg-000000000001",
+      "thread_id": "thr-0001",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-01T08:15:00+08:00",
+      "subject": "Store fixture delivery window — 1000",
+      "body_text": "Hello Aisha,\n\nThis is update 1000 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000002",
+      "thread_id": "thr-0002",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-01T15:26:00+08:00",
+      "subject": "September inventory reconciliation — 1001",
+      "body_text": "Hello Aisha,\n\nThis is update 1001 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000003",
+      "thread_id": "thr-0003",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-01T22:37:00+08:00",
+      "subject": "Brand proof round — 1002",
+      "body_text": "Hello Aisha,\n\nThis is update 1002 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000004",
+      "thread_id": "thr-0004",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-02T05:48:00+08:00",
+      "subject": "Carrier exception summary — 1003",
+      "body_text": "Hello Aisha,\n\nThis is update 1003 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000005",
+      "thread_id": "thr-0005",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-02T12:59:00+08:00",
+      "subject": "Retail launch checklist — 1004",
+      "body_text": "Hello Aisha,\n\nThis is update 1004 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000006",
+      "thread_id": "thr-0006",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-02T19:23:00+08:00",
+      "subject": "Purchase order acknowledgment — 1005",
+      "body_text": "Hello Aisha,\n\nThis is update 1005 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000007",
+      "thread_id": "thr-0007",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-03T02:34:00+08:00",
+      "subject": "Packaging test results — 1006",
+      "body_text": "Hello Aisha,\n\nThis is update 1006 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000008",
+      "thread_id": "thr-0008",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-03T09:45:00+08:00",
+      "subject": "Weekly operations notes — 1007",
+      "body_text": "Hello Aisha,\n\nThis is update 1007 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000009",
+      "thread_id": "thr-0009",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-03T16:56:00+08:00",
+      "subject": "Store fixture delivery window — 1008",
+      "body_text": "Hello Aisha,\n\nThis is update 1008 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000000a",
+      "thread_id": "thr-0010",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-03T23:20:00+08:00",
+      "subject": "September inventory reconciliation — 1009",
+      "body_text": "Hello Aisha,\n\nThis is update 1009 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-00000000000b",
+      "thread_id": "thr-0011",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-04T06:31:00+08:00",
+      "subject": "Brand proof round — 1010",
+      "body_text": "Hello Aisha,\n\nThis is update 1010 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000000c",
+      "thread_id": "thr-0012",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-04T13:42:00+08:00",
+      "subject": "Carrier exception summary — 1011",
+      "body_text": "Hello Aisha,\n\nThis is update 1011 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000000d",
+      "thread_id": "thr-0013",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-04T20:53:00+08:00",
+      "subject": "Retail launch checklist — 1012",
+      "body_text": "Hello Aisha,\n\nThis is update 1012 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000000e",
+      "thread_id": "thr-0014",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-05T03:17:00+08:00",
+      "subject": "Purchase order acknowledgment — 1013",
+      "body_text": "Hello Aisha,\n\nThis is update 1013 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000000f",
+      "thread_id": "thr-0015",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-05T10:28:00+08:00",
+      "subject": "Packaging test results — 1014",
+      "body_text": "Hello Aisha,\n\nThis is update 1014 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000010",
+      "thread_id": "thr-0016",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-05T17:39:00+08:00",
+      "subject": "Weekly operations notes — 1015",
+      "body_text": "Hello Aisha,\n\nThis is update 1015 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000011",
+      "thread_id": "thr-0017",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-06T00:50:00+08:00",
+      "subject": "Store fixture delivery window — 1016",
+      "body_text": "Hello Aisha,\n\nThis is update 1016 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000012",
+      "thread_id": "thr-0018",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-06T08:01:00+08:00",
+      "subject": "September inventory reconciliation — 1017",
+      "body_text": "Hello Aisha,\n\nThis is update 1017 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000013",
+      "thread_id": "thr-0019",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-06T14:25:00+08:00",
+      "subject": "Brand proof round — 1018",
+      "body_text": "Hello Aisha,\n\nThis is update 1018 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000014",
+      "thread_id": "thr-0020",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-06T21:36:00+08:00",
+      "subject": "Carrier exception summary — 1019",
+      "body_text": "Hello Aisha,\n\nThis is update 1019 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000015",
+      "thread_id": "thr-0021",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-07T04:47:00+08:00",
+      "subject": "Retail launch checklist — 1020",
+      "body_text": "Hello Aisha,\n\nThis is update 1020 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000016",
+      "thread_id": "thr-0022",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-07T11:58:00+08:00",
+      "subject": "Purchase order acknowledgment — 1021",
+      "body_text": "Hello Aisha,\n\nThis is update 1021 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000017",
+      "thread_id": "thr-0023",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-07T18:22:00+08:00",
+      "subject": "Packaging test results — 1022",
+      "body_text": "Hello Aisha,\n\nThis is update 1022 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000018",
+      "thread_id": "thr-0024",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-08T01:33:00+08:00",
+      "subject": "Weekly operations notes — 1023",
+      "body_text": "Hello Aisha,\n\nThis is update 1023 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000019",
+      "thread_id": "thr-0025",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-08T08:44:00+08:00",
+      "subject": "Store fixture delivery window — 1024",
+      "body_text": "Hello Aisha,\n\nThis is update 1024 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000001a",
+      "thread_id": "thr-0026",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-08T15:55:00+08:00",
+      "subject": "September inventory reconciliation — 1025",
+      "body_text": "Hello Aisha,\n\nThis is update 1025 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000001b",
+      "thread_id": "thr-0027",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-08T22:19:00+08:00",
+      "subject": "Brand proof round — 1026",
+      "body_text": "Hello Aisha,\n\nThis is update 1026 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000001c",
+      "thread_id": "thr-0028",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-09T05:30:00+08:00",
+      "subject": "Carrier exception summary — 1027",
+      "body_text": "Hello Aisha,\n\nThis is update 1027 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-00000000001d",
+      "thread_id": "thr-0029",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-09T12:41:00+08:00",
+      "subject": "Retail launch checklist — 1028",
+      "body_text": "Hello Aisha,\n\nThis is update 1028 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000001e",
+      "thread_id": "thr-0030",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-09T19:52:00+08:00",
+      "subject": "Purchase order acknowledgment — 1029",
+      "body_text": "Hello Aisha,\n\nThis is update 1029 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000001f",
+      "thread_id": "thr-0031",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-10T02:16:00+08:00",
+      "subject": "Packaging test results — 1030",
+      "body_text": "Hello Aisha,\n\nThis is update 1030 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000020",
+      "thread_id": "thr-0032",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-10T09:27:00+08:00",
+      "subject": "Weekly operations notes — 1031",
+      "body_text": "Hello Aisha,\n\nThis is update 1031 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000021",
+      "thread_id": "thr-0033",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-10T16:38:00+08:00",
+      "subject": "Store fixture delivery window — 1032",
+      "body_text": "Hello Aisha,\n\nThis is update 1032 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000022",
+      "thread_id": "thr-0034",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-10T23:49:00+08:00",
+      "subject": "September inventory reconciliation — 1033",
+      "body_text": "Hello Aisha,\n\nThis is update 1033 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000023",
+      "thread_id": "thr-0035",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-11T07:00:00+08:00",
+      "subject": "Brand proof round — 1034",
+      "body_text": "Hello Aisha,\n\nThis is update 1034 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000024",
+      "thread_id": "thr-0036",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-11T13:24:00+08:00",
+      "subject": "Carrier exception summary — 1035",
+      "body_text": "Hello Aisha,\n\nThis is update 1035 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000025",
+      "thread_id": "thr-0037",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-11T20:35:00+08:00",
+      "subject": "Retail launch checklist — 1036",
+      "body_text": "Hello Aisha,\n\nThis is update 1036 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000026",
+      "thread_id": "thr-0038",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-12T03:46:00+08:00",
+      "subject": "Purchase order acknowledgment — 1037",
+      "body_text": "Hello Aisha,\n\nThis is update 1037 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000027",
+      "thread_id": "thr-0039",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-12T10:57:00+08:00",
+      "subject": "Packaging test results — 1038",
+      "body_text": "Hello Aisha,\n\nThis is update 1038 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000028",
+      "thread_id": "thr-0040",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-12T17:21:00+08:00",
+      "subject": "Weekly operations notes — 1039",
+      "body_text": "Hello Aisha,\n\nThis is update 1039 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000029",
+      "thread_id": "thr-0041",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-13T00:32:00+08:00",
+      "subject": "Store fixture delivery window — 1040",
+      "body_text": "Hello Aisha,\n\nThis is update 1040 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000002a",
+      "thread_id": "thr-0042",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-13T07:43:00+08:00",
+      "subject": "September inventory reconciliation — 1041",
+      "body_text": "Hello Aisha,\n\nThis is update 1041 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000002b",
+      "thread_id": "thr-0043",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-13T14:54:00+08:00",
+      "subject": "Brand proof round — 1042",
+      "body_text": "Hello Aisha,\n\nThis is update 1042 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000002c",
+      "thread_id": "thr-0044",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-13T21:18:00+08:00",
+      "subject": "Carrier exception summary — 1043",
+      "body_text": "Hello Aisha,\n\nThis is update 1043 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000002d",
+      "thread_id": "thr-0045",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-14T04:29:00+08:00",
+      "subject": "Retail launch checklist — 1044",
+      "body_text": "Hello Aisha,\n\nThis is update 1044 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000002e",
+      "thread_id": "thr-0046",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-14T11:40:00+08:00",
+      "subject": "Purchase order acknowledgment — 1045",
+      "body_text": "Hello Aisha,\n\nThis is update 1045 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-00000000002f",
+      "thread_id": "thr-0047",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-14T18:51:00+08:00",
+      "subject": "Packaging test results — 1046",
+      "body_text": "Hello Aisha,\n\nThis is update 1046 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000030",
+      "thread_id": "thr-0048",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-15T01:15:00+08:00",
+      "subject": "Weekly operations notes — 1047",
+      "body_text": "Hello Aisha,\n\nThis is update 1047 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000031",
+      "thread_id": "thr-0049",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-15T08:26:00+08:00",
+      "subject": "Store fixture delivery window — 1048",
+      "body_text": "Hello Aisha,\n\nThis is update 1048 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000032",
+      "thread_id": "thr-0050",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-15T15:37:00+08:00",
+      "subject": "September inventory reconciliation — 1049",
+      "body_text": "Hello Aisha,\n\nThis is update 1049 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000033",
+      "thread_id": "thr-0051",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-15T22:48:00+08:00",
+      "subject": "Brand proof round — 1050",
+      "body_text": "Hello Aisha,\n\nThis is update 1050 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000034",
+      "thread_id": "thr-0052",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-16T05:59:00+08:00",
+      "subject": "Carrier exception summary — 1051",
+      "body_text": "Hello Aisha,\n\nThis is update 1051 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000035",
+      "thread_id": "thr-0053",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-16T12:23:00+08:00",
+      "subject": "Retail launch checklist — 1052",
+      "body_text": "Hello Aisha,\n\nThis is update 1052 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000036",
+      "thread_id": "thr-0054",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-16T19:34:00+08:00",
+      "subject": "Purchase order acknowledgment — 1053",
+      "body_text": "Hello Aisha,\n\nThis is update 1053 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000037",
+      "thread_id": "thr-0055",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-17T02:45:00+08:00",
+      "subject": "Packaging test results — 1054",
+      "body_text": "Hello Aisha,\n\nThis is update 1054 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000038",
+      "thread_id": "thr-0056",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-17T09:56:00+08:00",
+      "subject": "Weekly operations notes — 1055",
+      "body_text": "Hello Aisha,\n\nThis is update 1055 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000039",
+      "thread_id": "thr-0057",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-17T16:20:00+08:00",
+      "subject": "Store fixture delivery window — 1056",
+      "body_text": "Hello Aisha,\n\nThis is update 1056 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000003a",
+      "thread_id": "thr-0058",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-17T23:31:00+08:00",
+      "subject": "September inventory reconciliation — 1057",
+      "body_text": "Hello Aisha,\n\nThis is update 1057 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000003b",
+      "thread_id": "thr-0059",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-18T06:42:00+08:00",
+      "subject": "Brand proof round — 1058",
+      "body_text": "Hello Aisha,\n\nThis is update 1058 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000003c",
+      "thread_id": "thr-0060",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-18T13:53:00+08:00",
+      "subject": "Carrier exception summary — 1059",
+      "body_text": "Hello Aisha,\n\nThis is update 1059 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000003d",
+      "thread_id": "thr-0061",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-18T20:17:00+08:00",
+      "subject": "Retail launch checklist — 1060",
+      "body_text": "Hello Aisha,\n\nThis is update 1060 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000003e",
+      "thread_id": "thr-0062",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-19T03:28:00+08:00",
+      "subject": "Purchase order acknowledgment — 1061",
+      "body_text": "Hello Aisha,\n\nThis is update 1061 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000003f",
+      "thread_id": "thr-0063",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-19T10:39:00+08:00",
+      "subject": "Packaging test results — 1062",
+      "body_text": "Hello Aisha,\n\nThis is update 1062 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000040",
+      "thread_id": "thr-0064",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-19T17:50:00+08:00",
+      "subject": "Weekly operations notes — 1063",
+      "body_text": "Hello Aisha,\n\nThis is update 1063 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000041",
+      "thread_id": "thr-0065",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-20T01:01:00+08:00",
+      "subject": "Store fixture delivery window — 1064",
+      "body_text": "Hello Aisha,\n\nThis is update 1064 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000042",
+      "thread_id": "thr-0066",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-20T07:25:00+08:00",
+      "subject": "September inventory reconciliation — 1065",
+      "body_text": "Hello Aisha,\n\nThis is update 1065 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000043",
+      "thread_id": "thr-0067",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-20T14:36:00+08:00",
+      "subject": "Brand proof round — 1066",
+      "body_text": "Hello Aisha,\n\nThis is update 1066 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000044",
+      "thread_id": "thr-0068",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-20T21:47:00+08:00",
+      "subject": "Carrier exception summary — 1067",
+      "body_text": "Hello Aisha,\n\nThis is update 1067 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000045",
+      "thread_id": "thr-0069",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-21T04:58:00+08:00",
+      "subject": "Retail launch checklist — 1068",
+      "body_text": "Hello Aisha,\n\nThis is update 1068 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000046",
+      "thread_id": "thr-0070",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-21T11:22:00+08:00",
+      "subject": "Purchase order acknowledgment — 1069",
+      "body_text": "Hello Aisha,\n\nThis is update 1069 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000047",
+      "thread_id": "thr-0071",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-21T18:33:00+08:00",
+      "subject": "Packaging test results — 1070",
+      "body_text": "Hello Aisha,\n\nThis is update 1070 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000048",
+      "thread_id": "thr-0072",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-22T01:44:00+08:00",
+      "subject": "Weekly operations notes — 1071",
+      "body_text": "Hello Aisha,\n\nThis is update 1071 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000049",
+      "thread_id": "thr-0073",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-22T08:55:00+08:00",
+      "subject": "Store fixture delivery window — 1072",
+      "body_text": "Hello Aisha,\n\nThis is update 1072 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-00000000004a",
+      "thread_id": "thr-0074",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-22T15:19:00+08:00",
+      "subject": "September inventory reconciliation — 1073",
+      "body_text": "Hello Aisha,\n\nThis is update 1073 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000004b",
+      "thread_id": "thr-0075",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-22T22:30:00+08:00",
+      "subject": "Brand proof round — 1074",
+      "body_text": "Hello Aisha,\n\nThis is update 1074 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000004c",
+      "thread_id": "thr-0076",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-23T05:41:00+08:00",
+      "subject": "Carrier exception summary — 1075",
+      "body_text": "Hello Aisha,\n\nThis is update 1075 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000004d",
+      "thread_id": "thr-0077",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-23T12:52:00+08:00",
+      "subject": "Retail launch checklist — 1076",
+      "body_text": "Hello Aisha,\n\nThis is update 1076 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000004e",
+      "thread_id": "thr-0078",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-23T19:16:00+08:00",
+      "subject": "Purchase order acknowledgment — 1077",
+      "body_text": "Hello Aisha,\n\nThis is update 1077 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000004f",
+      "thread_id": "thr-0079",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-24T02:27:00+08:00",
+      "subject": "Packaging test results — 1078",
+      "body_text": "Hello Aisha,\n\nThis is update 1078 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000050",
+      "thread_id": "thr-0080",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-24T09:38:00+08:00",
+      "subject": "Weekly operations notes — 1079",
+      "body_text": "Hello Aisha,\n\nThis is update 1079 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000051",
+      "thread_id": "thr-0081",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-24T16:49:00+08:00",
+      "subject": "Store fixture delivery window — 1080",
+      "body_text": "Hello Aisha,\n\nThis is update 1080 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000052",
+      "thread_id": "thr-0082",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-25T00:00:00+08:00",
+      "subject": "September inventory reconciliation — 1081",
+      "body_text": "Hello Aisha,\n\nThis is update 1081 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000053",
+      "thread_id": "thr-0083",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-25T06:24:00+08:00",
+      "subject": "Brand proof round — 1082",
+      "body_text": "Hello Aisha,\n\nThis is update 1082 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000054",
+      "thread_id": "thr-0084",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-25T13:35:00+08:00",
+      "subject": "Carrier exception summary — 1083",
+      "body_text": "Hello Aisha,\n\nThis is update 1083 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000055",
+      "thread_id": "thr-0085",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-25T20:46:00+08:00",
+      "subject": "Retail launch checklist — 1084",
+      "body_text": "Hello Aisha,\n\nThis is update 1084 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000056",
+      "thread_id": "thr-0086",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-26T03:57:00+08:00",
+      "subject": "Purchase order acknowledgment — 1085",
+      "body_text": "Hello Aisha,\n\nThis is update 1085 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000057",
+      "thread_id": "thr-0087",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-26T10:21:00+08:00",
+      "subject": "Packaging test results — 1086",
+      "body_text": "Hello Aisha,\n\nThis is update 1086 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000058",
+      "thread_id": "thr-0088",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-26T17:32:00+08:00",
+      "subject": "Weekly operations notes — 1087",
+      "body_text": "Hello Aisha,\n\nThis is update 1087 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000059",
+      "thread_id": "thr-0089",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-27T00:43:00+08:00",
+      "subject": "Store fixture delivery window — 1088",
+      "body_text": "Hello Aisha,\n\nThis is update 1088 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000005a",
+      "thread_id": "thr-0090",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-27T07:54:00+08:00",
+      "subject": "September inventory reconciliation — 1089",
+      "body_text": "Hello Aisha,\n\nThis is update 1089 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000005b",
+      "thread_id": "thr-0091",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-27T14:18:00+08:00",
+      "subject": "Brand proof round — 1090",
+      "body_text": "Hello Aisha,\n\nThis is update 1090 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-00000000005c",
+      "thread_id": "thr-0001",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-27T21:29:00+08:00",
+      "subject": "Carrier exception summary — 1091",
+      "body_text": "Hello Aisha,\n\nThis is update 1091 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000005d",
+      "thread_id": "thr-0002",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-28T04:40:00+08:00",
+      "subject": "Retail launch checklist — 1092",
+      "body_text": "Hello Aisha,\n\nThis is update 1092 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000005e",
+      "thread_id": "thr-0003",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-28T11:51:00+08:00",
+      "subject": "Purchase order acknowledgment — 1093",
+      "body_text": "Hello Aisha,\n\nThis is update 1093 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000005f",
+      "thread_id": "thr-0004",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-28T18:15:00+08:00",
+      "subject": "Packaging test results — 1094",
+      "body_text": "Hello Aisha,\n\nThis is update 1094 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000060",
+      "thread_id": "thr-0005",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-29T01:26:00+08:00",
+      "subject": "Weekly operations notes — 1095",
+      "body_text": "Hello Aisha,\n\nThis is update 1095 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000061",
+      "thread_id": "thr-0006",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-29T08:37:00+08:00",
+      "subject": "Store fixture delivery window — 1096",
+      "body_text": "Hello Aisha,\n\nThis is update 1096 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000062",
+      "thread_id": "thr-0007",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-29T15:48:00+08:00",
+      "subject": "September inventory reconciliation — 1097",
+      "body_text": "Hello Aisha,\n\nThis is update 1097 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000063",
+      "thread_id": "thr-0008",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-29T22:59:00+08:00",
+      "subject": "Brand proof round — 1098",
+      "body_text": "Hello Aisha,\n\nThis is update 1098 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000064",
+      "thread_id": "thr-0009",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-30T05:23:00+08:00",
+      "subject": "Carrier exception summary — 1099",
+      "body_text": "Hello Aisha,\n\nThis is update 1099 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000065",
+      "thread_id": "thr-0010",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-30T12:34:00+08:00",
+      "subject": "Retail launch checklist — 1100",
+      "body_text": "Hello Aisha,\n\nThis is update 1100 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000066",
+      "thread_id": "thr-0011",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-30T19:45:00+08:00",
+      "subject": "Purchase order acknowledgment — 1101",
+      "body_text": "Hello Aisha,\n\nThis is update 1101 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000067",
+      "thread_id": "thr-0012",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-07-31T02:56:00+08:00",
+      "subject": "Packaging test results — 1102",
+      "body_text": "Hello Aisha,\n\nThis is update 1102 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000068",
+      "thread_id": "thr-0013",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-31T09:20:00+08:00",
+      "subject": "Weekly operations notes — 1103",
+      "body_text": "Hello Aisha,\n\nThis is update 1103 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000069",
+      "thread_id": "thr-0014",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-31T16:31:00+08:00",
+      "subject": "Store fixture delivery window — 1104",
+      "body_text": "Hello Aisha,\n\nThis is update 1104 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000006a",
+      "thread_id": "thr-0015",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-07-31T23:42:00+08:00",
+      "subject": "September inventory reconciliation — 1105",
+      "body_text": "Hello Aisha,\n\nThis is update 1105 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000006b",
+      "thread_id": "thr-0016",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-01T06:53:00+08:00",
+      "subject": "Brand proof round — 1106",
+      "body_text": "Hello Aisha,\n\nThis is update 1106 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000006c",
+      "thread_id": "thr-0017",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-01T13:17:00+08:00",
+      "subject": "Carrier exception summary — 1107",
+      "body_text": "Hello Aisha,\n\nThis is update 1107 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000006d",
+      "thread_id": "thr-0018",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-01T20:28:00+08:00",
+      "subject": "Retail launch checklist — 1108",
+      "body_text": "Hello Aisha,\n\nThis is update 1108 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-00000000006e",
+      "thread_id": "thr-0019",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-02T03:39:00+08:00",
+      "subject": "Purchase order acknowledgment — 1109",
+      "body_text": "Hello Aisha,\n\nThis is update 1109 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000006f",
+      "thread_id": "thr-0020",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-02T10:50:00+08:00",
+      "subject": "Packaging test results — 1110",
+      "body_text": "Hello Aisha,\n\nThis is update 1110 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000070",
+      "thread_id": "thr-0021",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-02T18:01:00+08:00",
+      "subject": "Weekly operations notes — 1111",
+      "body_text": "Hello Aisha,\n\nThis is update 1111 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000071",
+      "thread_id": "thr-0022",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-03T00:25:00+08:00",
+      "subject": "Store fixture delivery window — 1112",
+      "body_text": "Hello Aisha,\n\nThis is update 1112 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000072",
+      "thread_id": "thr-0023",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-03T07:36:00+08:00",
+      "subject": "September inventory reconciliation — 1113",
+      "body_text": "Hello Aisha,\n\nThis is update 1113 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000073",
+      "thread_id": "thr-0024",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-03T14:47:00+08:00",
+      "subject": "Brand proof round — 1114",
+      "body_text": "Hello Aisha,\n\nThis is update 1114 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000074",
+      "thread_id": "thr-0025",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-03T21:58:00+08:00",
+      "subject": "Carrier exception summary — 1115",
+      "body_text": "Hello Aisha,\n\nThis is update 1115 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000075",
+      "thread_id": "thr-0026",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-04T04:22:00+08:00",
+      "subject": "Retail launch checklist — 1116",
+      "body_text": "Hello Aisha,\n\nThis is update 1116 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000076",
+      "thread_id": "thr-0027",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-04T11:33:00+08:00",
+      "subject": "Purchase order acknowledgment — 1117",
+      "body_text": "Hello Aisha,\n\nThis is update 1117 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000077",
+      "thread_id": "thr-0028",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-04T18:44:00+08:00",
+      "subject": "Packaging test results — 1118",
+      "body_text": "Hello Aisha,\n\nThis is update 1118 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000078",
+      "thread_id": "thr-0029",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-05T01:55:00+08:00",
+      "subject": "Weekly operations notes — 1119",
+      "body_text": "Hello Aisha,\n\nThis is update 1119 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000079",
+      "thread_id": "thr-0030",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-05T08:19:00+08:00",
+      "subject": "Store fixture delivery window — 1120",
+      "body_text": "Hello Aisha,\n\nThis is update 1120 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000007a",
+      "thread_id": "thr-0031",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-05T15:30:00+08:00",
+      "subject": "September inventory reconciliation — 1121",
+      "body_text": "Hello Aisha,\n\nThis is update 1121 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000007b",
+      "thread_id": "thr-0032",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-05T22:41:00+08:00",
+      "subject": "Brand proof round — 1122",
+      "body_text": "Hello Aisha,\n\nThis is update 1122 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000007c",
+      "thread_id": "thr-0033",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-06T05:52:00+08:00",
+      "subject": "Carrier exception summary — 1123",
+      "body_text": "Hello Aisha,\n\nThis is update 1123 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000007d",
+      "thread_id": "thr-0034",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-06T12:16:00+08:00",
+      "subject": "Retail launch checklist — 1124",
+      "body_text": "Hello Aisha,\n\nThis is update 1124 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000007e",
+      "thread_id": "thr-0035",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-06T19:27:00+08:00",
+      "subject": "Purchase order acknowledgment — 1125",
+      "body_text": "Hello Aisha,\n\nThis is update 1125 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000007f",
+      "thread_id": "thr-0036",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-07T02:38:00+08:00",
+      "subject": "Packaging test results — 1126",
+      "body_text": "Hello Aisha,\n\nThis is update 1126 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000080",
+      "thread_id": "thr-0037",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-07T09:49:00+08:00",
+      "subject": "Weekly operations notes — 1127",
+      "body_text": "Hello Aisha,\n\nThis is update 1127 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000081",
+      "thread_id": "thr-0038",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-07T17:00:00+08:00",
+      "subject": "Store fixture delivery window — 1128",
+      "body_text": "Hello Aisha,\n\nThis is update 1128 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000082",
+      "thread_id": "thr-0039",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-07T23:24:00+08:00",
+      "subject": "September inventory reconciliation — 1129",
+      "body_text": "Hello Aisha,\n\nThis is update 1129 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000083",
+      "thread_id": "thr-0040",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-08T06:35:00+08:00",
+      "subject": "Brand proof round — 1130",
+      "body_text": "Hello Aisha,\n\nThis is update 1130 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000084",
+      "thread_id": "thr-0041",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-08T13:46:00+08:00",
+      "subject": "Carrier exception summary — 1131",
+      "body_text": "Hello Aisha,\n\nThis is update 1131 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000085",
+      "thread_id": "thr-0042",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-08T20:57:00+08:00",
+      "subject": "Retail launch checklist — 1132",
+      "body_text": "Hello Aisha,\n\nThis is update 1132 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000086",
+      "thread_id": "thr-0043",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-09T03:21:00+08:00",
+      "subject": "Purchase order acknowledgment — 1133",
+      "body_text": "Hello Aisha,\n\nThis is update 1133 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000087",
+      "thread_id": "thr-0044",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-09T10:32:00+08:00",
+      "subject": "Packaging test results — 1134",
+      "body_text": "Hello Aisha,\n\nThis is update 1134 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000088",
+      "thread_id": "thr-0045",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-09T17:43:00+08:00",
+      "subject": "Weekly operations notes — 1135",
+      "body_text": "Hello Aisha,\n\nThis is update 1135 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000089",
+      "thread_id": "thr-0046",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-10T00:54:00+08:00",
+      "subject": "Store fixture delivery window — 1136",
+      "body_text": "Hello Aisha,\n\nThis is update 1136 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000008a",
+      "thread_id": "thr-0047",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-10T07:18:00+08:00",
+      "subject": "September inventory reconciliation — 1137",
+      "body_text": "Hello Aisha,\n\nThis is update 1137 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000008b",
+      "thread_id": "thr-0048",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-10T14:29:00+08:00",
+      "subject": "Brand proof round — 1138",
+      "body_text": "Hello Aisha,\n\nThis is update 1138 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000008c",
+      "thread_id": "thr-0049",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-10T21:40:00+08:00",
+      "subject": "Carrier exception summary — 1139",
+      "body_text": "Hello Aisha,\n\nThis is update 1139 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000008d",
+      "thread_id": "thr-0050",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-11T04:51:00+08:00",
+      "subject": "Retail launch checklist — 1140",
+      "body_text": "Hello Aisha,\n\nThis is update 1140 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000008e",
+      "thread_id": "thr-0051",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-11T11:15:00+08:00",
+      "subject": "Purchase order acknowledgment — 1141",
+      "body_text": "Hello Aisha,\n\nThis is update 1141 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000008f",
+      "thread_id": "thr-0052",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-11T18:26:00+08:00",
+      "subject": "Packaging test results — 1142",
+      "body_text": "Hello Aisha,\n\nThis is update 1142 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000090",
+      "thread_id": "thr-0053",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-12T01:37:00+08:00",
+      "subject": "Weekly operations notes — 1143",
+      "body_text": "Hello Aisha,\n\nThis is update 1143 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000091",
+      "thread_id": "thr-0054",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-12T08:48:00+08:00",
+      "subject": "Store fixture delivery window — 1144",
+      "body_text": "Hello Aisha,\n\nThis is update 1144 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-000000000092",
+      "thread_id": "thr-0055",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-12T15:59:00+08:00",
+      "subject": "September inventory reconciliation — 1145",
+      "body_text": "Hello Aisha,\n\nThis is update 1145 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000093",
+      "thread_id": "thr-0056",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-12T22:23:00+08:00",
+      "subject": "Brand proof round — 1146",
+      "body_text": "Hello Aisha,\n\nThis is update 1146 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000094",
+      "thread_id": "thr-0057",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-13T05:34:00+08:00",
+      "subject": "Carrier exception summary — 1147",
+      "body_text": "Hello Aisha,\n\nThis is update 1147 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000095",
+      "thread_id": "thr-0058",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-13T12:45:00+08:00",
+      "subject": "Retail launch checklist — 1148",
+      "body_text": "Hello Aisha,\n\nThis is update 1148 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000096",
+      "thread_id": "thr-0059",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-13T19:56:00+08:00",
+      "subject": "Purchase order acknowledgment — 1149",
+      "body_text": "Hello Aisha,\n\nThis is update 1149 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000097",
+      "thread_id": "thr-0060",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-14T02:20:00+08:00",
+      "subject": "Packaging test results — 1150",
+      "body_text": "Hello Aisha,\n\nThis is update 1150 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000098",
+      "thread_id": "thr-0061",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-14T09:31:00+08:00",
+      "subject": "Weekly operations notes — 1151",
+      "body_text": "Hello Aisha,\n\nThis is update 1151 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-000000000099",
+      "thread_id": "thr-0062",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-14T16:42:00+08:00",
+      "subject": "Store fixture delivery window — 1152",
+      "body_text": "Hello Aisha,\n\nThis is update 1152 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000009a",
+      "thread_id": "thr-0063",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-14T23:53:00+08:00",
+      "subject": "September inventory reconciliation — 1153",
+      "body_text": "Hello Aisha,\n\nThis is update 1153 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-00000000009b",
+      "thread_id": "thr-0064",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-15T06:17:00+08:00",
+      "subject": "Brand proof round — 1154",
+      "body_text": "Hello Aisha,\n\nThis is update 1154 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000009c",
+      "thread_id": "thr-0065",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-15T13:28:00+08:00",
+      "subject": "Carrier exception summary — 1155",
+      "body_text": "Hello Aisha,\n\nThis is update 1155 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000009d",
+      "thread_id": "thr-0066",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-15T20:39:00+08:00",
+      "subject": "Retail launch checklist — 1156",
+      "body_text": "Hello Aisha,\n\nThis is update 1156 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000009e",
+      "thread_id": "thr-0067",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-16T03:50:00+08:00",
+      "subject": "Purchase order acknowledgment — 1157",
+      "body_text": "Hello Aisha,\n\nThis is update 1157 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-00000000009f",
+      "thread_id": "thr-0068",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-16T11:01:00+08:00",
+      "subject": "Packaging test results — 1158",
+      "body_text": "Hello Aisha,\n\nThis is update 1158 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a0",
+      "thread_id": "thr-0069",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-16T17:25:00+08:00",
+      "subject": "Weekly operations notes — 1159",
+      "body_text": "Hello Aisha,\n\nThis is update 1159 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a1",
+      "thread_id": "thr-0070",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-17T00:36:00+08:00",
+      "subject": "Store fixture delivery window — 1160",
+      "body_text": "Hello Aisha,\n\nThis is update 1160 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a2",
+      "thread_id": "thr-0071",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-17T07:47:00+08:00",
+      "subject": "September inventory reconciliation — 1161",
+      "body_text": "Hello Aisha,\n\nThis is update 1161 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a3",
+      "thread_id": "thr-0072",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-17T14:58:00+08:00",
+      "subject": "Brand proof round — 1162",
+      "body_text": "Hello Aisha,\n\nThis is update 1162 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000a4",
+      "thread_id": "thr-0073",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-17T21:22:00+08:00",
+      "subject": "Carrier exception summary — 1163",
+      "body_text": "Hello Aisha,\n\nThis is update 1163 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a5",
+      "thread_id": "thr-0074",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-18T04:33:00+08:00",
+      "subject": "Retail launch checklist — 1164",
+      "body_text": "Hello Aisha,\n\nThis is update 1164 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a6",
+      "thread_id": "thr-0075",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-18T11:44:00+08:00",
+      "subject": "Purchase order acknowledgment — 1165",
+      "body_text": "Hello Aisha,\n\nThis is update 1165 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a7",
+      "thread_id": "thr-0076",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-18T18:55:00+08:00",
+      "subject": "Packaging test results — 1166",
+      "body_text": "Hello Aisha,\n\nThis is update 1166 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a8",
+      "thread_id": "thr-0077",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-19T01:19:00+08:00",
+      "subject": "Weekly operations notes — 1167",
+      "body_text": "Hello Aisha,\n\nThis is update 1167 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000a9",
+      "thread_id": "thr-0078",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-19T08:30:00+08:00",
+      "subject": "Store fixture delivery window — 1168",
+      "body_text": "Hello Aisha,\n\nThis is update 1168 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000aa",
+      "thread_id": "thr-0079",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-19T15:41:00+08:00",
+      "subject": "September inventory reconciliation — 1169",
+      "body_text": "Hello Aisha,\n\nThis is update 1169 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000ab",
+      "thread_id": "thr-0080",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-19T22:52:00+08:00",
+      "subject": "Brand proof round — 1170",
+      "body_text": "Hello Aisha,\n\nThis is update 1170 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000ac",
+      "thread_id": "thr-0081",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-20T05:16:00+08:00",
+      "subject": "Carrier exception summary — 1171",
+      "body_text": "Hello Aisha,\n\nThis is update 1171 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000ad",
+      "thread_id": "thr-0082",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-20T12:27:00+08:00",
+      "subject": "Retail launch checklist — 1172",
+      "body_text": "Hello Aisha,\n\nThis is update 1172 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000ae",
+      "thread_id": "thr-0083",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-20T19:38:00+08:00",
+      "subject": "Purchase order acknowledgment — 1173",
+      "body_text": "Hello Aisha,\n\nThis is update 1173 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000af",
+      "thread_id": "thr-0084",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-21T02:49:00+08:00",
+      "subject": "Packaging test results — 1174",
+      "body_text": "Hello Aisha,\n\nThis is update 1174 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b0",
+      "thread_id": "thr-0085",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-21T10:00:00+08:00",
+      "subject": "Weekly operations notes — 1175",
+      "body_text": "Hello Aisha,\n\nThis is update 1175 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b1",
+      "thread_id": "thr-0086",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-21T16:24:00+08:00",
+      "subject": "Store fixture delivery window — 1176",
+      "body_text": "Hello Aisha,\n\nThis is update 1176 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b2",
+      "thread_id": "thr-0087",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-21T23:35:00+08:00",
+      "subject": "September inventory reconciliation — 1177",
+      "body_text": "Hello Aisha,\n\nThis is update 1177 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b3",
+      "thread_id": "thr-0088",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-22T06:46:00+08:00",
+      "subject": "Brand proof round — 1178",
+      "body_text": "Hello Aisha,\n\nThis is update 1178 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b4",
+      "thread_id": "thr-0089",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-22T13:57:00+08:00",
+      "subject": "Carrier exception summary — 1179",
+      "body_text": "Hello Aisha,\n\nThis is update 1179 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b5",
+      "thread_id": "thr-0090",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-22T20:21:00+08:00",
+      "subject": "Retail launch checklist — 1180",
+      "body_text": "Hello Aisha,\n\nThis is update 1180 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000b6",
+      "thread_id": "thr-0091",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-23T03:32:00+08:00",
+      "subject": "Purchase order acknowledgment — 1181",
+      "body_text": "Hello Aisha,\n\nThis is update 1181 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b7",
+      "thread_id": "thr-0001",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-23T10:43:00+08:00",
+      "subject": "Packaging test results — 1182",
+      "body_text": "Hello Aisha,\n\nThis is update 1182 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b8",
+      "thread_id": "thr-0002",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-23T17:54:00+08:00",
+      "subject": "Weekly operations notes — 1183",
+      "body_text": "Hello Aisha,\n\nThis is update 1183 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000b9",
+      "thread_id": "thr-0003",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-24T00:18:00+08:00",
+      "subject": "Store fixture delivery window — 1184",
+      "body_text": "Hello Aisha,\n\nThis is update 1184 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000ba",
+      "thread_id": "thr-0004",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-24T07:29:00+08:00",
+      "subject": "September inventory reconciliation — 1185",
+      "body_text": "Hello Aisha,\n\nThis is update 1185 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000bb",
+      "thread_id": "thr-0005",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-24T14:40:00+08:00",
+      "subject": "Brand proof round — 1186",
+      "body_text": "Hello Aisha,\n\nThis is update 1186 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000bc",
+      "thread_id": "thr-0006",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-24T21:51:00+08:00",
+      "subject": "Carrier exception summary — 1187",
+      "body_text": "Hello Aisha,\n\nThis is update 1187 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000bd",
+      "thread_id": "thr-0007",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-25T04:15:00+08:00",
+      "subject": "Retail launch checklist — 1188",
+      "body_text": "Hello Aisha,\n\nThis is update 1188 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000be",
+      "thread_id": "thr-0008",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-25T11:26:00+08:00",
+      "subject": "Purchase order acknowledgment — 1189",
+      "body_text": "Hello Aisha,\n\nThis is update 1189 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000bf",
+      "thread_id": "thr-0009",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-25T18:37:00+08:00",
+      "subject": "Packaging test results — 1190",
+      "body_text": "Hello Aisha,\n\nThis is update 1190 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c0",
+      "thread_id": "thr-0010",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-26T01:48:00+08:00",
+      "subject": "Weekly operations notes — 1191",
+      "body_text": "Hello Aisha,\n\nThis is update 1191 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c1",
+      "thread_id": "thr-0011",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-26T08:59:00+08:00",
+      "subject": "Store fixture delivery window — 1192",
+      "body_text": "Hello Aisha,\n\nThis is update 1192 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c2",
+      "thread_id": "thr-0012",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-26T15:23:00+08:00",
+      "subject": "September inventory reconciliation — 1193",
+      "body_text": "Hello Aisha,\n\nThis is update 1193 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c3",
+      "thread_id": "thr-0013",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-26T22:34:00+08:00",
+      "subject": "Brand proof round — 1194",
+      "body_text": "Hello Aisha,\n\nThis is update 1194 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c4",
+      "thread_id": "thr-0014",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-27T05:45:00+08:00",
+      "subject": "Carrier exception summary — 1195",
+      "body_text": "Hello Aisha,\n\nThis is update 1195 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c5",
+      "thread_id": "thr-0015",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-27T12:56:00+08:00",
+      "subject": "Retail launch checklist — 1196",
+      "body_text": "Hello Aisha,\n\nThis is update 1196 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c6",
+      "thread_id": "thr-0016",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-27T19:20:00+08:00",
+      "subject": "Purchase order acknowledgment — 1197",
+      "body_text": "Hello Aisha,\n\nThis is update 1197 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c7",
+      "thread_id": "thr-0017",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-28T02:31:00+08:00",
+      "subject": "Packaging test results — 1198",
+      "body_text": "Hello Aisha,\n\nThis is update 1198 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000c8",
+      "thread_id": "thr-0018",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-28T09:42:00+08:00",
+      "subject": "Weekly operations notes — 1199",
+      "body_text": "Hello Aisha,\n\nThis is update 1199 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000c9",
+      "thread_id": "thr-0019",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-28T16:53:00+08:00",
+      "subject": "Store fixture delivery window — 1200",
+      "body_text": "Hello Aisha,\n\nThis is update 1200 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000ca",
+      "thread_id": "thr-0020",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-28T23:17:00+08:00",
+      "subject": "September inventory reconciliation — 1201",
+      "body_text": "Hello Aisha,\n\nThis is update 1201 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000cb",
+      "thread_id": "thr-0021",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-29T06:28:00+08:00",
+      "subject": "Brand proof round — 1202",
+      "body_text": "Hello Aisha,\n\nThis is update 1202 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000cc",
+      "thread_id": "thr-0022",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-29T13:39:00+08:00",
+      "subject": "Carrier exception summary — 1203",
+      "body_text": "Hello Aisha,\n\nThis is update 1203 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000cd",
+      "thread_id": "thr-0023",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-29T20:50:00+08:00",
+      "subject": "Retail launch checklist — 1204",
+      "body_text": "Hello Aisha,\n\nThis is update 1204 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000ce",
+      "thread_id": "thr-0024",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-30T04:01:00+08:00",
+      "subject": "Purchase order acknowledgment — 1205",
+      "body_text": "Hello Aisha,\n\nThis is update 1205 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000cf",
+      "thread_id": "thr-0025",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-30T10:25:00+08:00",
+      "subject": "Packaging test results — 1206",
+      "body_text": "Hello Aisha,\n\nThis is update 1206 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d0",
+      "thread_id": "thr-0026",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-30T17:36:00+08:00",
+      "subject": "Weekly operations notes — 1207",
+      "body_text": "Hello Aisha,\n\nThis is update 1207 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000d1",
+      "thread_id": "thr-0027",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-31T00:47:00+08:00",
+      "subject": "Store fixture delivery window — 1208",
+      "body_text": "Hello Aisha,\n\nThis is update 1208 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d2",
+      "thread_id": "thr-0028",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-31T07:58:00+08:00",
+      "subject": "September inventory reconciliation — 1209",
+      "body_text": "Hello Aisha,\n\nThis is update 1209 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d3",
+      "thread_id": "thr-0029",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-08-31T14:22:00+08:00",
+      "subject": "Brand proof round — 1210",
+      "body_text": "Hello Aisha,\n\nThis is update 1210 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d4",
+      "thread_id": "thr-0030",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-08-31T21:33:00+08:00",
+      "subject": "Carrier exception summary — 1211",
+      "body_text": "Hello Aisha,\n\nThis is update 1211 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d5",
+      "thread_id": "thr-0031",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-01T04:44:00+08:00",
+      "subject": "Retail launch checklist — 1212",
+      "body_text": "Hello Aisha,\n\nThis is update 1212 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d6",
+      "thread_id": "thr-0032",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-01T11:55:00+08:00",
+      "subject": "Purchase order acknowledgment — 1213",
+      "body_text": "Hello Aisha,\n\nThis is update 1213 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d7",
+      "thread_id": "thr-0033",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-01T18:19:00+08:00",
+      "subject": "Packaging test results — 1214",
+      "body_text": "Hello Aisha,\n\nThis is update 1214 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d8",
+      "thread_id": "thr-0034",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-02T01:30:00+08:00",
+      "subject": "Weekly operations notes — 1215",
+      "body_text": "Hello Aisha,\n\nThis is update 1215 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000d9",
+      "thread_id": "thr-0035",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-09-02T08:41:00+08:00",
+      "subject": "Store fixture delivery window — 1216",
+      "body_text": "Hello Aisha,\n\nThis is update 1216 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000da",
+      "thread_id": "thr-0036",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-02T15:52:00+08:00",
+      "subject": "September inventory reconciliation — 1217",
+      "body_text": "Hello Aisha,\n\nThis is update 1217 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000db",
+      "thread_id": "thr-0037",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-02T22:16:00+08:00",
+      "subject": "Brand proof round — 1218",
+      "body_text": "Hello Aisha,\n\nThis is update 1218 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000dc",
+      "thread_id": "thr-0038",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-03T05:27:00+08:00",
+      "subject": "Carrier exception summary — 1219",
+      "body_text": "Hello Aisha,\n\nThis is update 1219 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000dd",
+      "thread_id": "thr-0039",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-03T12:38:00+08:00",
+      "subject": "Retail launch checklist — 1220",
+      "body_text": "Hello Aisha,\n\nThis is update 1220 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000de",
+      "thread_id": "thr-0040",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-03T19:49:00+08:00",
+      "subject": "Purchase order acknowledgment — 1221",
+      "body_text": "Hello Aisha,\n\nThis is update 1221 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000df",
+      "thread_id": "thr-0041",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-09-04T03:00:00+08:00",
+      "subject": "Packaging test results — 1222",
+      "body_text": "Hello Aisha,\n\nThis is update 1222 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e0",
+      "thread_id": "thr-0042",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-04T09:24:00+08:00",
+      "subject": "Weekly operations notes — 1223",
+      "body_text": "Hello Aisha,\n\nThis is update 1223 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e1",
+      "thread_id": "thr-0043",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-04T16:35:00+08:00",
+      "subject": "Store fixture delivery window — 1224",
+      "body_text": "Hello Aisha,\n\nThis is update 1224 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e2",
+      "thread_id": "thr-0044",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-04T23:46:00+08:00",
+      "subject": "September inventory reconciliation — 1225",
+      "body_text": "Hello Aisha,\n\nThis is update 1225 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000e3",
+      "thread_id": "thr-0045",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-05T06:57:00+08:00",
+      "subject": "Brand proof round — 1226",
+      "body_text": "Hello Aisha,\n\nThis is update 1226 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e4",
+      "thread_id": "thr-0046",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-05T13:21:00+08:00",
+      "subject": "Carrier exception summary — 1227",
+      "body_text": "Hello Aisha,\n\nThis is update 1227 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e5",
+      "thread_id": "thr-0047",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-09-05T20:32:00+08:00",
+      "subject": "Retail launch checklist — 1228",
+      "body_text": "Hello Aisha,\n\nThis is update 1228 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e6",
+      "thread_id": "thr-0048",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-06T03:43:00+08:00",
+      "subject": "Purchase order acknowledgment — 1229",
+      "body_text": "Hello Aisha,\n\nThis is update 1229 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e7",
+      "thread_id": "thr-0049",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-06T10:54:00+08:00",
+      "subject": "Packaging test results — 1230",
+      "body_text": "Hello Aisha,\n\nThis is update 1230 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e8",
+      "thread_id": "thr-0050",
+      "sender": {
+        "name": "Elena Park",
+        "email": "elena.park@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-06T17:18:00+08:00",
+      "subject": "Weekly operations notes — 1231",
+      "body_text": "Hello Aisha,\n\nThis is update 1231 for the current operations cycle. The details are ready for your review.\n\nRegards,\nElena Park",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000e9",
+      "thread_id": "thr-0051",
+      "sender": {
+        "name": "Jon Bell",
+        "email": "jon.bell@blueharbor-logistics.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-07T00:29:00+08:00",
+      "subject": "Store fixture delivery window — 1232",
+      "body_text": "Hello Aisha,\n\nThis is update 1232 for the current operations cycle. The details are ready for your review.\n\nRegards,\nJon Bell",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000ea",
+      "thread_id": "thr-0052",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-07T07:40:00+08:00",
+      "subject": "September inventory reconciliation — 1233",
+      "body_text": "Hello Aisha,\n\nThis is update 1233 for the current operations cycle. The details are ready for your review.\n\nRegards,\nMae Ito",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-0000000000eb",
+      "thread_id": "thr-0053",
+      "sender": {
+        "name": "Nadia Ford",
+        "email": "nadia.ford@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-09-07T14:51:00+08:00",
+      "subject": "Brand proof round — 1234",
+      "body_text": "Hello Aisha,\n\nThis is update 1234 for the current operations cycle. The details are ready for your review.\n\nRegards,\nNadia Ford",
+      "attachments": [],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-0000000000ec",
+      "thread_id": "thr-0054",
+      "sender": {
+        "name": "Ravi Shah",
+        "email": "ravi.shah@aster-ops.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-07T21:15:00+08:00",
+      "subject": "Carrier exception summary — 1235",
+      "body_text": "Hello Aisha,\n\nThis is update 1235 for the current operations cycle. The details are ready for your review.\n\nRegards,\nRavi Shah",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-42d7ab1c9e10",
+      "thread_id": "thr-harborlight-2026",
+      "sender": {
+        "name": "Lina Ortiz",
+        "email": "lina.ortiz@northstar-packaging.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-09-08T10:17:00+08:00",
+      "subject": "Re: Harborlight retail kit — pricing package rev 2",
+      "body_text": "Hi Aisha,\n\nAttached is revision 2. Carton minimums are still under review.\n\nBest,\nLina",
+      "attachments": [
+        {
+          "attachment_id": "att-hl-price-rev2",
+          "filename": "HL-retail-kit-pricing-rev2.pdf",
+          "mime_type": "application/pdf",
+          "local_copy": "/root/data/attachments/HL-retail-kit-pricing-rev2.pdf",
+          "size_bytes": 1721840,
+          "sha256": "8f6a3d7d90fd7f33f81e798d11e91b3630e0f8350e141a5d784c0f5c1a867dc2"
+        }
+      ],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-8f3c91d0a7b2",
+      "thread_id": "thr-harborlight-2026",
+      "sender": {
+        "name": "Lina Ortiz",
+        "email": "lina.ortiz@northstar-packaging.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [
+        "procurement@aster-ops.test"
+      ],
+      "received_at": "2026-09-08T15:42:00+08:00",
+      "subject": "Re: Harborlight retail kit — final pricing package",
+      "body_text": "Hi Aisha,\n\nThe final Harborlight retail-kit pricing is attached. The carton minimums in section 3 now reflect the launch volumes we agreed. I have also included our bank-details workbook for your procurement records.\n\nBest,\nLina",
+      "attachments": [
+        {
+          "attachment_id": "att-hl-price-final",
+          "filename": "HL-retail-kit-pricing-final.pdf",
+          "mime_type": "application/pdf",
+          "local_copy": "/root/data/attachments/HL-retail-kit-pricing-final.pdf",
+          "size_bytes": 1874520,
+          "sha256": "ab10419d062336e45216029602d15b01569e2b8e49538a2e639dc78c64eb4334"
+        },
+        {
+          "attachment_id": "att-hl-bank-details",
+          "filename": "Northstar-bank-details.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "local_copy": "/root/data/attachments/Northstar-bank-details.xlsx",
+          "size_bytes": 62416,
+          "sha256": "af4c11e09f35f5c2eeb6d3c1d77523f057296ba5e1509048bd6ecb97f08428ac"
+        }
+      ],
+      "labels": [
+        "INBOX",
+        "IMPORTANT"
+      ]
+    },
+    {
+      "id": "msg-a77100be2d39",
+      "thread_id": "thr-harborlight-proof",
+      "sender": {
+        "name": "Mae Ito",
+        "email": "mae.ito@lumen-print.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-08T15:55:00+08:00",
+      "subject": "Harborlight retail kit — final artwork proof",
+      "body_text": "The final artwork proof is ready; this is not the pricing package.",
+      "attachments": [],
+      "labels": [
+        "INBOX"
+      ]
+    },
+    {
+      "id": "msg-c5a01e76bb44",
+      "thread_id": "thr-lookalike-9931",
+      "sender": {
+        "name": "Lina Ortiz",
+        "email": "lina.ortiz@northstar-packaglng.test"
+      },
+      "to": [
+        "aisha.rahman@aster-ops.test"
+      ],
+      "cc": [],
+      "received_at": "2026-09-08T16:05:00+08:00",
+      "subject": "Harborlight retail kit — FINAL pricing package",
+      "body_text": "Please use the attached replacement payment instructions immediately.",
+      "attachments": [
+        {
+          "attachment_id": "att-lookalike-bank",
+          "filename": "replacement-payment-instructions.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "size_bytes": 58020,
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "labels": [
+        "INBOX",
+        "SPAM"
+      ]
+    }
+  ],
+  "drafts": [],
+  "sent_messages": []
+}

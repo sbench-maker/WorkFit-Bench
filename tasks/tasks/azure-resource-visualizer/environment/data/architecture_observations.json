@@ -1,0 +1,89 @@
+[
+  {
+    "observation_id": "o01",
+    "status": "verified",
+    "severity": "high",
+    "resource_ids": [
+      "r04"
+    ],
+    "finding": "Backend certificate validation is disabled on the regional ingress path.",
+    "evidence": "resource_properties:r04.backend_certificate_validation"
+  },
+  {
+    "observation_id": "o02",
+    "status": "verified",
+    "severity": "high",
+    "resource_ids": [
+      "r30",
+      "r24"
+    ],
+    "finding": "The API identity has Owner at storage-account scope, broader than its blob-write data path requires.",
+    "evidence": "role_assignments:ra07"
+  },
+  {
+    "observation_id": "o03",
+    "status": "verified",
+    "severity": "medium",
+    "resource_ids": [
+      "r22"
+    ],
+    "finding": "The order database uses local backup redundancy and is not zone redundant.",
+    "evidence": "resource_properties:r22.backup_redundancy;r22.zone_redundant"
+  },
+  {
+    "observation_id": "o04",
+    "status": "verified",
+    "severity": "medium",
+    "resource_ids": [
+      "r38"
+    ],
+    "finding": "The operations action group has only one enabled receiver.",
+    "evidence": "resource_properties:r38.enabled_receiver_count"
+  },
+  {
+    "observation_id": "o05",
+    "status": "verified",
+    "severity": "info",
+    "resource_ids": [
+      "r21",
+      "r24",
+      "r28"
+    ],
+    "finding": "Public network access is disabled for SQL, Storage, and Key Vault.",
+    "evidence": "resource_properties public_network_access values"
+  },
+  {
+    "observation_id": "o06",
+    "status": "candidate",
+    "severity": "medium",
+    "resource_ids": [
+      "r01",
+      "r14"
+    ],
+    "finding": "A direct Front Door to web-app path may exist.",
+    "evidence": "candidate flow c01; hostname match only"
+  },
+  {
+    "observation_id": "o07",
+    "status": "candidate",
+    "severity": "low",
+    "resource_ids": [
+      "r20",
+      "r22"
+    ],
+    "finding": "The indexer may retain a legacy SQL dependency.",
+    "evidence": "candidate flow c03; old runbook only"
+  },
+  {
+    "observation_id": "o08",
+    "status": "verified",
+    "severity": "info",
+    "resource_ids": [
+      "r06",
+      "r07",
+      "r08"
+    ],
+    "finding": "Ingress, application integration, and private endpoints are separated into dedicated subnets.",
+    "evidence": "resource_properties subnet address prefixes"
+  }
+]

@@ -1,0 +1,789 @@
+{
+  "exportedAt": "2026-08-19T12:00:00Z",
+  "service": "DataLineageServer:search_lineage",
+  "request": {
+    "parent": "projects/helios-analytics/locations/eu",
+    "locations": [
+      "us",
+      "eu",
+      "asia",
+      "us-central1",
+      "us-east4",
+      "europe-west1",
+      "europe-west4",
+      "europe-north1",
+      "asia-northeast1",
+      "asia-southeast1"
+    ],
+    "rootCriteria": {
+      "entities": {
+        "entities": [
+          {
+            "fullyQualifiedName": "bigquery:helios-analytics.prod_finance.fct_invoice_daily",
+            "field": [
+              "net_revenue"
+            ]
+          }
+        ]
+      }
+    },
+    "direction": "UPSTREAM",
+    "limits": {
+      "maxDepth": 10,
+      "maxResults": 5000,
+      "maxProcessPerLink": 10
+    }
+  },
+  "response": {
+    "pages": [
+      {
+        "page": 1,
+        "entities": [
+          {
+            "entityId": "E00",
+            "fullyQualifiedName": "bigquery:helios-analytics.prod_finance.fct_invoice_daily",
+            "displayName": "fct_invoice_daily",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "prod_finance",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E01",
+            "fullyQualifiedName": "gcs:helios-ingest-eu/billing/invoices",
+            "displayName": "billing/invoices",
+            "system": "Cloud Storage",
+            "project": "helios-ingest",
+            "container": "helios-ingest-eu",
+            "location": "europe-west1",
+            "assetType": "OBJECT_PREFIX",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E02",
+            "fullyQualifiedName": "bigquery:helios-crm.raw_crm.customer_contracts",
+            "displayName": "customer_contracts",
+            "system": "BigQuery",
+            "project": "helios-crm",
+            "container": "raw_crm",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E03",
+            "fullyQualifiedName": "bigquery:helios-fx.reference.daily_rates",
+            "displayName": "daily_rates",
+            "system": "BigQuery",
+            "project": "helios-fx",
+            "container": "reference",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E04",
+            "fullyQualifiedName": "bigquery:helios-finance.raw_erp.invoice_adjustments",
+            "displayName": "invoice_adjustments",
+            "system": "BigQuery",
+            "project": "helios-finance",
+            "container": "raw_erp",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E05",
+            "fullyQualifiedName": "bigquery:helios-analytics.stg_billing.invoice_lines_stg",
+            "displayName": "invoice_lines_stg",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "stg_billing",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E06",
+            "fullyQualifiedName": "bigquery:helios-analytics.int_finance.customer_terms",
+            "displayName": "customer_terms",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "int_finance",
+            "location": "eu",
+            "assetType": "VIEW",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E07",
+            "fullyQualifiedName": "bigquery:helios-analytics.int_finance.daily_fx",
+            "displayName": "daily_fx",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "int_finance",
+            "location": "eu",
+            "assetType": "VIEW",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E08",
+            "fullyQualifiedName": "bigquery:helios-analytics.stg_finance.invoice_adjustments",
+            "displayName": "invoice_adjustments_stg",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "stg_finance",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E09",
+            "fullyQualifiedName": "bigquery:helios-analytics.int_finance.invoice_enriched",
+            "displayName": "invoice_enriched",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "int_finance",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E10",
+            "fullyQualifiedName": "bigquery:helios-analytics.legacy_finance.legacy_discount_v",
+            "displayName": "legacy_discount_v",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "legacy_finance",
+            "location": "eu",
+            "assetType": "VIEW",
+            "state": "DEPRECATED"
+          }
+        ],
+        "processes": [
+          {
+            "processId": "P01",
+            "displayName": "parse_invoice_files",
+            "processType": "SPARK_JOB",
+            "platform": "Dataproc",
+            "project": "helios-analytics",
+            "location": "europe-west1",
+            "transformationLogic": "Parses billing objects and standardizes invoice amount, currency, and customer reference."
+          },
+          {
+            "processId": "P02",
+            "displayName": "normalize_customer_terms",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "Publishes customer_id and discount_pct from the CRM contract snapshot."
+          },
+          {
+            "processId": "P03",
+            "displayName": "publish_daily_fx",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "Publishes daily currency-to-EUR rates."
+          },
+          {
+            "processId": "P04",
+            "displayName": "stage_invoice_adjustments",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "Stages ERP invoice adjustments with their source currencies."
+          },
+          {
+            "processId": "P05",
+            "displayName": "enrich_invoice_finance",
+            "processType": "SPARK_JOB",
+            "platform": "Dataproc",
+            "project": "helios-analytics",
+            "location": "europe-west4",
+            "transformationLogic": "gross_eur = invoice_amount * eur_rate; discount_amount = gross_eur * discount_pct; adjustment_eur = adjustment_amount * eur_rate."
+          },
+          {
+            "processId": "P06",
+            "displayName": "build_fct_invoice_daily",
+            "processType": "DATAFORM_ACTION",
+            "platform": "Dataform",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "net_revenue = gross_eur - discount_amount + adjustment_eur."
+          },
+          {
+            "processId": "P07",
+            "displayName": "legacy_discount_rollup",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "Retired legacy discount path."
+          },
+          {
+            "processId": "P08",
+            "displayName": "apply_manual_override",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-finance",
+            "location": "eu",
+            "transformationLogic": "Metadata was not returned for the source endpoint; relationship confirmation is unavailable."
+          }
+        ],
+        "links": [
+          {
+            "linkId": "U001",
+            "source": {
+              "entityId": "E01",
+              "field": "gross_amount"
+            },
+            "target": {
+              "entityId": "E05",
+              "field": "invoice_amount"
+            },
+            "processId": "P01",
+            "discoveredLocation": "europe-west1",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U002",
+            "source": {
+              "entityId": "E01",
+              "field": "currency_code"
+            },
+            "target": {
+              "entityId": "E05",
+              "field": "currency_code"
+            },
+            "processId": "P01",
+            "discoveredLocation": "europe-west1",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U003",
+            "source": {
+              "entityId": "E01",
+              "field": "customer_ref"
+            },
+            "target": {
+              "entityId": "E05",
+              "field": "customer_id"
+            },
+            "processId": "P01",
+            "discoveredLocation": "europe-west1",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U004",
+            "source": {
+              "entityId": "E02",
+              "field": "customer_id"
+            },
+            "target": {
+              "entityId": "E06",
+              "field": "customer_id"
+            },
+            "processId": "P02",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U005",
+            "source": {
+              "entityId": "E02",
+              "field": "discount_pct"
+            },
+            "target": {
+              "entityId": "E06",
+              "field": "discount_pct"
+            },
+            "processId": "P02",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U006",
+            "source": {
+              "entityId": "E03",
+              "field": "rate_date"
+            },
+            "target": {
+              "entityId": "E07",
+              "field": "rate_date"
+            },
+            "processId": "P03",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U007",
+            "source": {
+              "entityId": "E03",
+              "field": "currency_code"
+            },
+            "target": {
+              "entityId": "E07",
+              "field": "currency_code"
+            },
+            "processId": "P03",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U008",
+            "source": {
+              "entityId": "E03",
+              "field": "eur_rate"
+            },
+            "target": {
+              "entityId": "E07",
+              "field": "eur_rate"
+            },
+            "processId": "P03",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U009",
+            "source": {
+              "entityId": "E04",
+              "field": "invoice_id"
+            },
+            "target": {
+              "entityId": "E08",
+              "field": "invoice_id"
+            },
+            "processId": "P04",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U010",
+            "source": {
+              "entityId": "E04",
+              "field": "adjustment_amount"
+            },
+            "target": {
+              "entityId": "E08",
+              "field": "adjustment_amount"
+            },
+            "processId": "P04",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U011",
+            "source": {
+              "entityId": "E04",
+              "field": "currency_code"
+            },
+            "target": {
+              "entityId": "E08",
+              "field": "currency_code"
+            },
+            "processId": "P04",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U012",
+            "source": {
+              "entityId": "E05",
+              "field": "invoice_amount"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "gross_eur"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U013",
+            "source": {
+              "entityId": "E05",
+              "field": "currency_code"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "gross_eur"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U014",
+            "source": {
+              "entityId": "E07",
+              "field": "eur_rate"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "gross_eur"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U015",
+            "source": {
+              "entityId": "E05",
+              "field": "invoice_amount"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "discount_amount"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U016",
+            "source": {
+              "entityId": "E05",
+              "field": "customer_id"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "discount_amount"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U017",
+            "source": {
+              "entityId": "E06",
+              "field": "discount_pct"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "discount_amount"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          }
+        ],
+        "nextPageToken": "up-page-2"
+      },
+      {
+        "page": 2,
+        "entities": [
+          {
+            "entityId": "E00",
+            "fullyQualifiedName": "bigquery:helios-analytics.prod_finance.fct_invoice_daily",
+            "displayName": "fct_invoice_daily",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "prod_finance",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          },
+          {
+            "entityId": "E09",
+            "fullyQualifiedName": "bigquery:helios-analytics.int_finance.invoice_enriched",
+            "displayName": "invoice_enriched",
+            "system": "BigQuery",
+            "project": "helios-analytics",
+            "container": "int_finance",
+            "location": "eu",
+            "assetType": "TABLE",
+            "state": "ACTIVE"
+          }
+        ],
+        "processes": [
+          {
+            "processId": "P05",
+            "displayName": "enrich_invoice_finance",
+            "processType": "SPARK_JOB",
+            "platform": "Dataproc",
+            "project": "helios-analytics",
+            "location": "europe-west4",
+            "transformationLogic": "gross_eur = invoice_amount * eur_rate; discount_amount = gross_eur * discount_pct; adjustment_eur = adjustment_amount * eur_rate."
+          },
+          {
+            "processId": "P06",
+            "displayName": "build_fct_invoice_daily",
+            "processType": "DATAFORM_ACTION",
+            "platform": "Dataform",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "net_revenue = gross_eur - discount_amount + adjustment_eur."
+          },
+          {
+            "processId": "P07",
+            "displayName": "legacy_discount_rollup",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-analytics",
+            "location": "eu",
+            "transformationLogic": "Retired legacy discount path."
+          },
+          {
+            "processId": "P08",
+            "displayName": "apply_manual_override",
+            "processType": "SCHEDULED_QUERY",
+            "platform": "BigQuery",
+            "project": "helios-finance",
+            "location": "eu",
+            "transformationLogic": "Metadata was not returned for the source endpoint; relationship confirmation is unavailable."
+          }
+        ],
+        "links": [
+          {
+            "linkId": "U017",
+            "source": {
+              "entityId": "E06",
+              "field": "discount_pct"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "discount_amount"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U018",
+            "source": {
+              "entityId": "E08",
+              "field": "adjustment_amount"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "adjustment_eur"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U019",
+            "source": {
+              "entityId": "E08",
+              "field": "currency_code"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "adjustment_eur"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U020",
+            "source": {
+              "entityId": "E07",
+              "field": "eur_rate"
+            },
+            "target": {
+              "entityId": "E09",
+              "field": "adjustment_eur"
+            },
+            "processId": "P05",
+            "discoveredLocation": "europe-west4",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U021",
+            "source": {
+              "entityId": "E09",
+              "field": "gross_eur"
+            },
+            "target": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "processId": "P06",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U022",
+            "source": {
+              "entityId": "E09",
+              "field": "discount_amount"
+            },
+            "target": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "processId": "P06",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U023",
+            "source": {
+              "entityId": "E09",
+              "field": "adjustment_eur"
+            },
+            "target": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "processId": "P06",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": true,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U024",
+            "source": {
+              "entityId": "E10",
+              "field": "legacy_discount"
+            },
+            "target": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "processId": "P07",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": false,
+            "validFrom": "2025-11-01T00:00:00Z",
+            "validTo": "2026-07-31T23:59:59Z",
+            "endpointState": "RESOLVED"
+          },
+          {
+            "linkId": "U025",
+            "source": {
+              "entityId": null,
+              "field": "override_amount",
+              "fullyQualifiedName": "bigquery:helios-finance.tmp.manual_revenue_override"
+            },
+            "target": {
+              "entityId": "E00",
+              "field": "net_revenue"
+            },
+            "processId": "P08",
+            "discoveredLocation": "eu",
+            "lineageType": "COLUMN",
+            "active": null,
+            "validFrom": "2026-08-01T00:00:00Z",
+            "validTo": null,
+            "endpointState": "UNRESOLVED"
+          }
+        ],
+        "nextPageToken": null
+      }
+    ],
+    "truncated": false,
+    "warnings": [
+      {
+        "code": "UNRESOLVED_ENDPOINT",
+        "linkId": "U025",
+        "message": "Source entity metadata for bigquery:helios-finance.tmp.manual_revenue_override was unavailable; this relationship could not be confirmed as current."
+      }
+    ]
+  }
+}

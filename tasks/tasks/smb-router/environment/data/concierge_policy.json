@@ -1,0 +1,21 @@
+{
+  "recommendation_contract": "Choose one best next action, explain why, and ask before it runs.",
+  "required_connector_behavior": "If any required-all connector is absent, or no required-any option is active, keep the best action visible but mark it blocked and name what must be connected.",
+  "optional_connector_behavior": "A missing optional connector does not block the action, but the omitted input must be disclosed before confirmation.",
+  "zero_connector_behavior": "When no tools are connected, use smb-onboard as the immediate next step; for a specific request, also identify the connector its eventual action needs.",
+  "tiebreakers": [
+    "Urgent cash concerns take priority over marketing concerns.",
+    "An active customer complaint takes priority over a pipeline review.",
+    "If urgency is equal and the direction remains unclear, present no more than two choices and ask one clarifying question."
+  ],
+  "general_overview": {
+    "lead_with": "the stored top_headache",
+    "buckets": [
+      "money",
+      "customers",
+      "contracts",
+      "week"
+    ]
+  },
+  "outside_scope_behavior": "Say the request is outside the catalog; do not invent an action, and briefly redirect to the four supported buckets."
+}

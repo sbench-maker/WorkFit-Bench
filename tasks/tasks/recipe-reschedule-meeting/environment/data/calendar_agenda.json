@@ -1,0 +1,4327 @@
+{
+  "events": [
+    {
+      "id": "evt-0001",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-17T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-17T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0002",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-17T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-17T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0003",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-17T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-17T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0004",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-18T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-18T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0005",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-18T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-18T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0006",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-18T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-18T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0007",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-19T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-19T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0008",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-19T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-19T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0009",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-19T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-19T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0010",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-20T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-20T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0011",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-20T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-20T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0012",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-20T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-20T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0013",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-21T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-21T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0014",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-21T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-21T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0015",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-21T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-21T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0016",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-22T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-22T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0017",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-22T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-22T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0018",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "cancelled",
+      "start": {
+        "dateTime": "2026-08-22T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-22T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0019",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-23T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-23T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0020",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-23T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-23T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0021",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-23T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-23T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0022",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-24T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-24T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0023",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-24T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-24T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0024",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-24T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-24T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0025",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-25T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-25T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0026",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-25T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-25T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0027",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-25T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-25T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0028",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-26T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-26T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0029",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-26T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-26T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0030",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-26T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-26T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0031",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-27T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-27T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0032",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-27T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-27T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0033",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-27T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-27T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0034",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-28T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-28T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0035",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-28T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-28T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0036",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-28T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-28T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0037",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-29T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-29T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0038",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-29T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-29T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0039",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-29T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-29T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0040",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-30T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-30T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0041",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-30T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-30T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0042",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-30T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-30T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0043",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-31T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-31T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0044",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-31T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-31T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0045",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-08-31T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-08-31T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0046",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-01T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-01T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0047",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-01T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-01T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0048",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-01T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-01T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0049",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-02T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-02T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0050",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-02T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-02T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0051",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-02T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-02T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0052",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-03T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-03T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0053",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-03T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-03T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0054",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-03T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-03T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0055",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-04T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-04T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0056",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-04T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-04T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0057",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-04T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-04T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0058",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-05T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-05T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0059",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-05T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-05T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0060",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-05T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-05T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0061",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-06T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-06T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0062",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-06T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-06T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0063",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-06T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-06T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0064",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-07T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-07T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0065",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-07T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-07T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0066",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-07T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-07T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0067",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-08T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-08T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0068",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-08T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-08T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0069",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-08T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-08T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0070",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-09T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-09T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "aurora-color-09-1100",
+      "calendarId": "primary",
+      "summary": "Aurora Color Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-09T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-09T12:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      },
+      "recurringEventId": "series-aurora-color-review"
+    },
+    {
+      "id": "evt-0071",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-09T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-09T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0072",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-09T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-09T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0073",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-10T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-10T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0074",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-10T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-10T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0075",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-10T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-10T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0076",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-11T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-11T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0077",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-11T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-11T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0078",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-11T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-11T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0079",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-12T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-12T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0080",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-12T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-12T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0081",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-12T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-12T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0082",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-13T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-13T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0083",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-13T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-13T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0084",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-13T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-13T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0085",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-14T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-14T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0086",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-14T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-14T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0087",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-14T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-14T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0088",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-15T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-15T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0089",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-15T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-15T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0090",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-15T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-15T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0091",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-16T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "aurora-color-16-0900",
+      "calendarId": "primary",
+      "summary": "Aurora Color Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-16T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "aurora-color-16-1100",
+      "calendarId": "primary",
+      "summary": "Aurora Color Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-16T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T12:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      },
+      "recurringEventId": "series-aurora-color-review"
+    },
+    {
+      "id": "aurora-color-16-1100-cancelled",
+      "calendarId": "primary",
+      "summary": "Aurora Color Review",
+      "status": "cancelled",
+      "start": {
+        "dateTime": "2026-09-16T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T12:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "aurora-color-shared-calendar",
+      "calendarId": "studio-shared",
+      "summary": "Aurora Color Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-16T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T12:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "aurora-vendor-16-1100",
+      "calendarId": "primary",
+      "summary": "Aurora Color Review — Vendor Prep",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-16T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0092",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-16T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0093",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-16T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-16T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0094",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-17T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-17T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0095",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-17T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-17T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0096",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-17T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-17T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0097",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-18T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-18T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0098",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-18T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-18T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "aurora-color-18-1430-existing",
+      "calendarId": "primary",
+      "summary": "Aurora Color Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-18T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-18T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0099",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-18T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-18T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0100",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-19T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-19T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0101",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-19T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-19T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0102",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-19T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-19T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0103",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-20T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-20T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0104",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-20T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-20T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0105",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-20T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-20T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0106",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-21T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-21T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0107",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-21T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-21T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0108",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-21T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-21T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0109",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-22T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-22T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0110",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-22T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-22T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0111",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-22T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-22T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0112",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-23T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-23T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "aurora-color-23-1100",
+      "calendarId": "primary",
+      "summary": "Aurora Color Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-23T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-23T12:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      },
+      "recurringEventId": "series-aurora-color-review"
+    },
+    {
+      "id": "evt-0113",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-23T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-23T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0114",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-23T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-23T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0115",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-24T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-24T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0116",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-24T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-24T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0117",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-24T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-24T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0118",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-25T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-25T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0119",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-25T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-25T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0120",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "cancelled",
+      "start": {
+        "dateTime": "2026-09-25T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-25T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0121",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-26T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-26T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0122",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-26T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-26T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0123",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-26T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-26T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0124",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-27T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-27T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0125",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-27T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-27T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0126",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-27T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-27T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0127",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-28T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-28T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0128",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-28T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-28T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0129",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-28T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-28T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0130",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-29T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-29T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0131",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-29T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-29T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0132",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-29T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-29T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0133",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-30T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-30T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0134",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-30T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-30T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0135",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-09-30T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-30T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0136",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-01T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-01T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0137",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-01T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-01T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0138",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-01T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-01T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0139",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-02T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-02T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0140",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-02T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-02T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0141",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-02T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-02T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0142",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-03T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0143",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-03T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-03T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0144",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-03T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-03T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0145",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-04T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-04T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0146",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-04T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-04T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0147",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-04T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-04T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0148",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-05T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-05T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0149",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-05T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-05T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0150",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-05T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-05T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0151",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-06T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-06T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0152",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-06T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-06T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0153",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-06T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-06T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0154",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-07T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-07T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0155",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-07T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-07T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0156",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-07T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-07T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0157",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-08T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-08T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0158",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-08T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-08T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0159",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-08T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-08T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0160",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-09T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-09T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0161",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-09T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-09T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0162",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-09T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-09T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0163",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-10T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-10T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0164",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-10T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-10T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0165",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-10T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-10T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0166",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-11T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-11T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0167",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-11T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-11T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0168",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-11T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-11T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0169",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-12T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-12T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0170",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-12T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-12T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0171",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-12T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-12T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0172",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-13T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-13T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0173",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-13T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-13T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0174",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-13T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-13T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0175",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-14T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-14T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0176",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-14T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-14T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0177",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-14T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-14T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0178",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-15T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-15T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0179",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-15T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-15T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0180",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-15T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-15T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0181",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-16T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-16T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0182",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-16T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-16T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0183",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-16T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-16T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0184",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-17T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-17T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0185",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-17T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-17T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0186",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-17T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-17T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0187",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-18T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-18T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0188",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-18T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-18T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0189",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-18T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-18T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0190",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-19T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-19T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0191",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-19T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-19T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0192",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-19T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-19T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0193",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-20T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-20T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0194",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-20T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-20T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0195",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-20T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-20T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0196",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-21T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-21T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0197",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-21T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-21T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0198",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-21T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-21T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0199",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-22T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-22T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0200",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-22T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-22T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0201",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-22T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-22T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0202",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-23T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-23T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0203",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-23T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-23T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0204",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-23T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-23T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0205",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-24T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-24T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0206",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-24T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-24T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0207",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-24T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-24T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0208",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "cancelled",
+      "start": {
+        "dateTime": "2026-10-25T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-25T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0209",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-25T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-25T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0210",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-25T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-25T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0211",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-26T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-26T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0212",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-26T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-26T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0213",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-26T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-26T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0214",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-27T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-27T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0215",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-27T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-27T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0216",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-27T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-27T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0217",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-28T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-28T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0218",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-28T11:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-28T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0219",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-28T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-28T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0220",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-29T08:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-29T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0221",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-29T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-29T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0222",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-29T14:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-29T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0223",
+      "calendarId": "primary",
+      "summary": "Campaign Stand-up",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-30T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-30T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0224",
+      "calendarId": "primary",
+      "summary": "Northstar Trailer Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-30T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-30T13:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0225",
+      "calendarId": "primary",
+      "summary": "Production Staffing Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-30T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-30T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Mira Ortiz",
+        "email": "mira.ortiz@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0226",
+      "calendarId": "primary",
+      "summary": "Client Notes Triage",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-31T08:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-31T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Lena Cho",
+        "email": "lena.cho@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0227",
+      "calendarId": "primary",
+      "summary": "Motion Design Critique",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-31T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-31T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Owen Bell",
+        "email": "owen.bell@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0228",
+      "calendarId": "primary",
+      "summary": "Delivery Readiness",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-10-31T14:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-31T16:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Priya Shah",
+        "email": "priya.shah@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0229",
+      "calendarId": "primary",
+      "summary": "Rights and Clearances",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-01T08:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-01T08:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Theo Martin",
+        "email": "theo.martin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0230",
+      "calendarId": "primary",
+      "summary": "Studio Operations Review",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-01T11:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-01T12:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Nia Brooks",
+        "email": "nia.brooks@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0231",
+      "calendarId": "primary",
+      "summary": "Edit Bay Handoff",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-01T14:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-01T15:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Hugo Lin",
+        "email": "hugo.lin@northstar.invalid"
+      }
+    },
+    {
+      "id": "evt-0232",
+      "calendarId": "primary",
+      "summary": "Sound Mix Checkpoint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-02T08:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-02T10:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "organizer": {
+        "displayName": "Esme Cole",
+        "email": "esme.cole@northstar.invalid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+file_id,path,module,owner,language,change_risk,interfaces,direct_test_ids,notes
+FILE-001,libs/export-contract/src/state.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",,defines canonical state transitions
+FILE-002,libs/export-contract/src/formats.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",,defines jsonl and zip formats
+FILE-003,libs/export-contract/src/errors.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",,shared error codes
+FILE-004,db/export-schema/migrations/041_export_jobs.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",,forward migration
+FILE-005,db/export-schema/migrations/041_export_jobs_down.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",,rollback migration
+FILE-006,db/export-schema/models/export_job.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",,job persistence model
+FILE-007,services/policy/export_policy.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",,workspace role checks
+FILE-008,services/policy/service_accounts.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",,service-account denial path
+FILE-009,services/export-api/create.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",,idempotent create endpoint
+FILE-010,services/export-api/status.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",,status endpoint
+FILE-011,services/export-api/download.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",,signed download endpoint
+FILE-012,workers/export-snapshot/reader.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",,revision-pinned reader
+FILE-013,workers/export-snapshot/manifest.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",,snapshot manifest
+FILE-014,workers/export-redaction/policy.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",,sensitive field rules
+FILE-015,workers/export-redaction/transform.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",,deterministic redaction
+FILE-016,workers/export-package/archive.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",,streaming archive writer
+FILE-017,workers/export-package/envelope.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",,envelope encryption
+FILE-018,services/audit/export_events.go,services/audit,trust,go,tier2,ExportAuditEvent,,append-only event emission
+FILE-019,web/admin-exports/ExportPanel.tsx,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",,start and cancel controls
+FILE-020,web/admin-exports/ExportProgress.tsx,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",,polling and download UI
+FILE-021,ops/export-lifecycle/retention.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",,artifact expiry sweeper
+FILE-022,ops/export-lifecycle/metrics.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",,latency and failure metrics
+FILE-023,config/feature-flags/workspace_export_v2.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,,cohort rollout
+FILE-024,tests/export-system/test_full_export.py,tests/export-system,quality,python,tier2,ExportSystemSuite,,system happy path
+FILE-025,tests/export-system/test_rollback.py,tests/export-system,quality,python,tier2,ExportSystemSuite,,rollback rehearsal
+FILE-026,workers/export-redaction/support/generated_component_026.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-027,libs/export-contract/support/generated_component_027.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-028,services/audit/support/generated_component_028.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-029,services/policy/support/generated_component_029.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-030,ops/export-lifecycle/support/generated_component_030.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-031,workers/export-snapshot/support/generated_component_031.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-032,tests/export-system/support/generated_component_032.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-033,workers/export-package/support/generated_component_033.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-034,db/export-schema/support/generated_component_034.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-035,web/admin-exports/support/generated_component_035.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-036,services/export-api/support/generated_component_036.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-037,config/feature-flags/support/generated_component_037.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-038,workers/export-redaction/support/generated_component_038.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-039,libs/export-contract/support/generated_component_039.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-040,services/audit/support/generated_component_040.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-041,services/policy/support/generated_component_041.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-042,ops/export-lifecycle/support/generated_component_042.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-043,workers/export-snapshot/support/generated_component_043.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-044,tests/export-system/support/generated_component_044.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-045,workers/export-package/support/generated_component_045.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-046,db/export-schema/support/generated_component_046.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-047,web/admin-exports/support/generated_component_047.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-048,services/export-api/support/generated_component_048.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-049,config/feature-flags/support/generated_component_049.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-050,workers/export-redaction/support/generated_component_050.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-051,libs/export-contract/support/generated_component_051.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-052,services/audit/support/generated_component_052.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-053,services/policy/support/generated_component_053.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-054,ops/export-lifecycle/support/generated_component_054.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-055,workers/export-snapshot/support/generated_component_055.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-056,tests/export-system/support/generated_component_056.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-057,workers/export-package/support/generated_component_057.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-058,db/export-schema/support/generated_component_058.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-059,web/admin-exports/support/generated_component_059.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-060,services/export-api/support/generated_component_060.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-061,config/feature-flags/support/generated_component_061.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-062,workers/export-redaction/support/generated_component_062.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-063,libs/export-contract/support/generated_component_063.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-064,services/audit/support/generated_component_064.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-065,services/policy/support/generated_component_065.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-066,ops/export-lifecycle/support/generated_component_066.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-067,workers/export-snapshot/support/generated_component_067.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-068,tests/export-system/support/generated_component_068.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-069,workers/export-package/support/generated_component_069.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-070,db/export-schema/support/generated_component_070.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-071,web/admin-exports/support/generated_component_071.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-072,services/export-api/support/generated_component_072.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-073,config/feature-flags/support/generated_component_073.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-074,workers/export-redaction/support/generated_component_074.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-075,libs/export-contract/support/generated_component_075.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-076,services/audit/support/generated_component_076.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-077,services/policy/support/generated_component_077.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-078,ops/export-lifecycle/support/generated_component_078.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-079,workers/export-snapshot/support/generated_component_079.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-080,tests/export-system/support/generated_component_080.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-081,workers/export-package/support/generated_component_081.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-082,db/export-schema/support/generated_component_082.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-083,web/admin-exports/support/generated_component_083.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-084,services/export-api/support/generated_component_084.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-085,config/feature-flags/support/generated_component_085.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-086,workers/export-redaction/support/generated_component_086.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-087,libs/export-contract/support/generated_component_087.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-088,services/audit/support/generated_component_088.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-089,services/policy/support/generated_component_089.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-090,ops/export-lifecycle/support/generated_component_090.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-091,workers/export-snapshot/support/generated_component_091.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-092,tests/export-system/support/generated_component_092.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-093,workers/export-package/support/generated_component_093.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-094,db/export-schema/support/generated_component_094.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-095,web/admin-exports/support/generated_component_095.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-096,services/export-api/support/generated_component_096.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-097,config/feature-flags/support/generated_component_097.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-098,workers/export-redaction/support/generated_component_098.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-099,libs/export-contract/support/generated_component_099.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-100,services/audit/support/generated_component_100.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-101,services/policy/support/generated_component_101.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-102,ops/export-lifecycle/support/generated_component_102.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-103,workers/export-snapshot/support/generated_component_103.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-104,tests/export-system/support/generated_component_104.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-105,workers/export-package/support/generated_component_105.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-106,db/export-schema/support/generated_component_106.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-107,web/admin-exports/support/generated_component_107.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-108,services/export-api/support/generated_component_108.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-109,config/feature-flags/support/generated_component_109.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-110,workers/export-redaction/support/generated_component_110.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-111,libs/export-contract/support/generated_component_111.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-112,services/audit/support/generated_component_112.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-113,services/policy/support/generated_component_113.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-114,ops/export-lifecycle/support/generated_component_114.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-115,workers/export-snapshot/support/generated_component_115.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-116,tests/export-system/support/generated_component_116.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-117,workers/export-package/support/generated_component_117.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-118,db/export-schema/support/generated_component_118.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-119,web/admin-exports/support/generated_component_119.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-120,services/export-api/support/generated_component_120.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-121,config/feature-flags/support/generated_component_121.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-122,workers/export-redaction/support/generated_component_122.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-123,libs/export-contract/support/generated_component_123.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-124,services/audit/support/generated_component_124.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-125,services/policy/support/generated_component_125.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-126,ops/export-lifecycle/support/generated_component_126.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-127,workers/export-snapshot/support/generated_component_127.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-128,tests/export-system/support/generated_component_128.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-129,workers/export-package/support/generated_component_129.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-130,db/export-schema/support/generated_component_130.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-131,web/admin-exports/support/generated_component_131.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-132,services/export-api/support/generated_component_132.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-133,config/feature-flags/support/generated_component_133.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-134,workers/export-redaction/support/generated_component_134.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-135,libs/export-contract/support/generated_component_135.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-136,services/audit/support/generated_component_136.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-137,services/policy/support/generated_component_137.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-138,ops/export-lifecycle/support/generated_component_138.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-139,workers/export-snapshot/support/generated_component_139.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-140,tests/export-system/support/generated_component_140.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-141,workers/export-package/support/generated_component_141.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-142,db/export-schema/support/generated_component_142.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-143,web/admin-exports/support/generated_component_143.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-144,services/export-api/support/generated_component_144.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-145,config/feature-flags/support/generated_component_145.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-146,workers/export-redaction/support/generated_component_146.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-147,libs/export-contract/support/generated_component_147.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-148,services/audit/support/generated_component_148.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-149,services/policy/support/generated_component_149.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-150,ops/export-lifecycle/support/generated_component_150.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-151,workers/export-snapshot/support/generated_component_151.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-152,tests/export-system/support/generated_component_152.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-153,workers/export-package/support/generated_component_153.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-154,db/export-schema/support/generated_component_154.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-155,web/admin-exports/support/generated_component_155.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-156,services/export-api/support/generated_component_156.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-157,config/feature-flags/support/generated_component_157.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-158,workers/export-redaction/support/generated_component_158.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-159,libs/export-contract/support/generated_component_159.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-160,services/audit/support/generated_component_160.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-161,services/policy/support/generated_component_161.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-162,ops/export-lifecycle/support/generated_component_162.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-163,workers/export-snapshot/support/generated_component_163.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-164,tests/export-system/support/generated_component_164.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-165,workers/export-package/support/generated_component_165.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-166,db/export-schema/support/generated_component_166.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-167,web/admin-exports/support/generated_component_167.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-168,services/export-api/support/generated_component_168.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-169,config/feature-flags/support/generated_component_169.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-170,workers/export-redaction/support/generated_component_170.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-171,libs/export-contract/support/generated_component_171.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-172,services/audit/support/generated_component_172.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-173,services/policy/support/generated_component_173.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-174,ops/export-lifecycle/support/generated_component_174.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-175,workers/export-snapshot/support/generated_component_175.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-176,tests/export-system/support/generated_component_176.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-177,workers/export-package/support/generated_component_177.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-178,db/export-schema/support/generated_component_178.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-179,web/admin-exports/support/generated_component_179.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-180,services/export-api/support/generated_component_180.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-181,config/feature-flags/support/generated_component_181.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-182,workers/export-redaction/support/generated_component_182.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-183,libs/export-contract/support/generated_component_183.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-184,services/audit/support/generated_component_184.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-185,services/policy/support/generated_component_185.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-186,ops/export-lifecycle/support/generated_component_186.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-187,workers/export-snapshot/support/generated_component_187.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-188,tests/export-system/support/generated_component_188.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-189,workers/export-package/support/generated_component_189.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-190,db/export-schema/support/generated_component_190.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-191,web/admin-exports/support/generated_component_191.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-192,services/export-api/support/generated_component_192.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-193,config/feature-flags/support/generated_component_193.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-194,workers/export-redaction/support/generated_component_194.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-195,libs/export-contract/support/generated_component_195.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-196,services/audit/support/generated_component_196.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-197,services/policy/support/generated_component_197.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-198,ops/export-lifecycle/support/generated_component_198.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-199,workers/export-snapshot/support/generated_component_199.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-200,tests/export-system/support/generated_component_200.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-201,workers/export-package/support/generated_component_201.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-202,db/export-schema/support/generated_component_202.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-203,web/admin-exports/support/generated_component_203.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-204,services/export-api/support/generated_component_204.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-205,config/feature-flags/support/generated_component_205.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-206,workers/export-redaction/support/generated_component_206.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-207,libs/export-contract/support/generated_component_207.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-208,services/audit/support/generated_component_208.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-209,services/policy/support/generated_component_209.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-210,ops/export-lifecycle/support/generated_component_210.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-211,workers/export-snapshot/support/generated_component_211.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-212,tests/export-system/support/generated_component_212.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-213,workers/export-package/support/generated_component_213.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-214,db/export-schema/support/generated_component_214.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-215,web/admin-exports/support/generated_component_215.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-216,services/export-api/support/generated_component_216.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-217,config/feature-flags/support/generated_component_217.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-218,workers/export-redaction/support/generated_component_218.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-219,libs/export-contract/support/generated_component_219.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-220,services/audit/support/generated_component_220.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-221,services/policy/support/generated_component_221.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-222,ops/export-lifecycle/support/generated_component_222.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-223,workers/export-snapshot/support/generated_component_223.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-224,tests/export-system/support/generated_component_224.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-225,workers/export-package/support/generated_component_225.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-226,db/export-schema/support/generated_component_226.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-227,web/admin-exports/support/generated_component_227.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-228,services/export-api/support/generated_component_228.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it
+FILE-229,config/feature-flags/support/generated_component_229.yaml,config/feature-flags,release,yaml,tier1,workspace_export_v2,UT-11,adjacent support surface; inspect only if unit scope requires it
+FILE-230,workers/export-redaction/support/generated_component_230.py,workers/export-redaction,trust,python,tier3,"RedactionPolicy,RedactedSnapshot",UT-06,adjacent support surface; inspect only if unit scope requires it
+FILE-231,libs/export-contract/support/generated_component_231.ts,libs/export-contract,platform-api,typescript,tier1,"ExportState,ExportFormat",UT-01,adjacent support surface; inspect only if unit scope requires it
+FILE-232,services/audit/support/generated_component_232.go,services/audit,trust,go,tier2,ExportAuditEvent,UT-08,adjacent support surface; inspect only if unit scope requires it
+FILE-233,services/policy/support/generated_component_233.go,services/policy,identity,go,tier3,"CanCreateExport,CanDownloadExport",UT-03,adjacent support surface; inspect only if unit scope requires it
+FILE-234,ops/export-lifecycle/support/generated_component_234.py,ops/export-lifecycle,sre,python,tier2,"RetentionSweep,ExportMetrics",UT-10,adjacent support surface; inspect only if unit scope requires it
+FILE-235,workers/export-snapshot/support/generated_component_235.py,workers/export-snapshot,data-runtime,python,tier2,"WorkspaceRevision,SnapshotManifest",UT-05,adjacent support surface; inspect only if unit scope requires it
+FILE-236,tests/export-system/support/generated_component_236.py,tests/export-system,quality,python,tier2,ExportSystemSuite,UT-12,adjacent support surface; inspect only if unit scope requires it
+FILE-237,workers/export-package/support/generated_component_237.rs,workers/export-package,data-runtime,rust,tier3,"ArchiveManifest,EnvelopeCipher",UT-07,adjacent support surface; inspect only if unit scope requires it
+FILE-238,db/export-schema/support/generated_component_238.sql,db/export-schema,storage,sql,tier3,"export_jobs,export_artifacts",UT-02,adjacent support surface; inspect only if unit scope requires it
+FILE-239,web/admin-exports/support/generated_component_239.ts,web/admin-exports,admin-web,typescript,tier2,"ExportPanel,ExportProgress",UT-09,adjacent support surface; inspect only if unit scope requires it
+FILE-240,services/export-api/support/generated_component_240.go,services/export-api,platform-api,go,tier2,"POST /exports,GET /exports/{id}",UT-04,adjacent support surface; inspect only if unit scope requires it

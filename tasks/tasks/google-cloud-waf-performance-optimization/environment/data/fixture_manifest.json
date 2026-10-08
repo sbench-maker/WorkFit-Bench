@@ -1,0 +1,24 @@
+{
+  "method": "deterministic fictional construction",
+  "files": {
+    "architecture.json": 1,
+    "performance_requirements.json": 9,
+    "monitoring_snapshot.json": 1,
+    "load_test_summary.csv": 8,
+    "service_metrics.csv": 600,
+    "trace_samples.csv": 560
+  },
+  "join_keys": {
+    "run_id": [
+      "performance_requirements.json",
+      "load_test_summary.csv",
+      "service_metrics.csv",
+      "trace_samples.csv"
+    ],
+    "service_id": [
+      "architecture.json",
+      "service_metrics.csv",
+      "trace_samples.csv"
+    ]
+  }
+}

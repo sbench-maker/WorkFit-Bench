@@ -1,0 +1,13 @@
+vendor_id,name,founded_year,status,headquarters_region,core_job,deployment,target_customer_min_employees,target_customer_max_employees,primary_segment,eu_data_residency,active_customers_estimate,customer_count_confidence,go_to_market,positioning,evidence_id
+V01,BeaconForge,2015,private,EU,product_behavior_analytics,hosted_cloud,100,5000,B2B SaaS and regulated mid-market,yes,4800,medium,enterprise sales plus partners,governed analytics suite,VF-V01
+V02,TrailMetric,2017,private,EU,product_behavior_analytics,hosted_cloud,50,3000,digital B2B product teams,yes,3400,medium,product-led with sales assist,replay-led product diagnostics,VF-V02
+V03,QuantaLoop,2020,private,EU,product_behavior_analytics,hosted_cloud,20,2000,growth-stage SaaS,yes,1800,low,self-serve and inside sales,fast-start behavioral analytics,VF-V03
+V04,FunnelFox,2019,bootstrapped,EU,product_behavior_analytics,hosted_cloud,10,800,developer-led SaaS,yes,620,medium,developer community and self-serve,warehouse-native developer analytics,VF-V04
+V05,MetricNest,,private,EU,product_behavior_analytics,hosted_cloud,50,1500,privacy-sensitive B2B SaaS,yes,1200,medium,regional direct sales,privacy-first product analytics,VF-V05
+V06,DataHarbor,2014,public,US,customer_data_platform,hosted_cloud,200,10000,enterprise data teams,yes,7300,high,enterprise field sales,customer data infrastructure,VF-V06
+V07,SurveySprout,2018,private,EU,in_product_surveys,hosted_cloud,5,3000,research and product teams,yes,5100,medium,freemium self-serve,continuous user feedback,VF-V07
+V08,LedgerLens,2012,public,EU,business_intelligence,hosted_cloud,100,20000,finance and operations,yes,9800,high,partner-led enterprise sales,governed business intelligence,VF-V08
+V09,OpenPath,2021,community,EU,product_behavior_analytics,self_hosted_only,5,5000,engineering-led companies,yes,2300,low,open-source community,self-hosted event analytics,VF-V09
+V10,ClickArc,2016,private,EU,session_replay,hosted_cloud,10,5000,web experience teams,yes,6400,medium,product-led,visual session diagnostics,VF-V10
+V11,EnterSight,2009,public,US,product_behavior_analytics,hosted_cloud,5000,100000,global enterprises,yes,3100,medium,enterprise field sales,enterprise digital intelligence,VF-V11
+V12,MobilePulse,2018,private,US,mobile_app_analytics,hosted_cloud,20,2000,consumer mobile apps,no,2700,low,self-serve,mobile growth analytics,VF-V12

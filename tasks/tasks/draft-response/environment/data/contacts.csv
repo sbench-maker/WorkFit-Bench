@@ -1,0 +1,145 @@
+contact_id,account_id,name,title,stakeholder_level,technical_depth,preferred_channel,active
+CON-001-A,ACC-001,Elena Marquez,VP of Operations,Executive,Business,Email,true
+CON-001-B,ACC-001,Diego Soler,Dispatch Systems Lead,Technical manager,Technical,Support ticket,true
+CON-001-C,ACC-001,Nora Vidal,Procurement Director,Executive,Business,Email,true
+CON-002-A,ACC-002,Cleo Evans,Operations Manager,Manager,Business,Email,true
+CON-002-B,ACC-002,Dev Frost,IT Director,Executive,Technical,Support ticket,true
+CON-002-C,ACC-002,Eli Gupta,Finance Lead,Manager,Business,Email,true
+CON-003-A,ACC-003,Dev Gupta,Operations Manager,Manager,Business,Email,true
+CON-003-B,ACC-003,Eli Hale,IT Director,Executive,Technical,Support ticket,true
+CON-003-C,ACC-003,Faye Allen,Finance Lead,Manager,Business,Email,true
+CON-004-A,ACC-004,Eli Allen,Operations Manager,Manager,Business,Email,true
+CON-004-B,ACC-004,Faye Basu,IT Director,Executive,Technical,Support ticket,true
+CON-004-C,ACC-004,Gus Cruz,Finance Lead,Manager,Business,Email,true
+CON-005-A,ACC-005,Faye Cruz,Operations Manager,Manager,Business,Email,true
+CON-005-B,ACC-005,Gus Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-005-C,ACC-005,Hope Evans,Finance Lead,Manager,Business,Email,true
+CON-006-A,ACC-006,Gus Evans,Operations Manager,Manager,Business,Email,true
+CON-006-B,ACC-006,Hope Frost,IT Director,Executive,Technical,Support ticket,true
+CON-006-C,ACC-006,Ari Gupta,Finance Lead,Manager,Business,Email,true
+CON-007-A,ACC-007,Hope Gupta,Operations Manager,Manager,Business,Email,true
+CON-007-B,ACC-007,Ari Hale,IT Director,Executive,Technical,Support ticket,true
+CON-007-C,ACC-007,Bea Allen,Finance Lead,Manager,Business,Email,true
+CON-008-A,ACC-008,Ari Allen,Operations Manager,Manager,Business,Email,true
+CON-008-B,ACC-008,Bea Basu,IT Director,Executive,Technical,Support ticket,true
+CON-008-C,ACC-008,Cleo Cruz,Finance Lead,Manager,Business,Email,true
+CON-009-A,ACC-009,Bea Cruz,Operations Manager,Manager,Business,Email,true
+CON-009-B,ACC-009,Cleo Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-009-C,ACC-009,Dev Evans,Finance Lead,Manager,Business,Email,true
+CON-010-A,ACC-010,Cleo Evans,Operations Manager,Manager,Business,Email,true
+CON-010-B,ACC-010,Dev Frost,IT Director,Executive,Technical,Support ticket,true
+CON-010-C,ACC-010,Eli Gupta,Finance Lead,Manager,Business,Email,true
+CON-011-A,ACC-011,Dev Gupta,Operations Manager,Manager,Business,Email,true
+CON-011-B,ACC-011,Eli Hale,IT Director,Executive,Technical,Support ticket,true
+CON-011-C,ACC-011,Faye Allen,Finance Lead,Manager,Business,Email,true
+CON-012-A,ACC-012,Eli Allen,Operations Manager,Manager,Business,Email,true
+CON-012-B,ACC-012,Faye Basu,IT Director,Executive,Technical,Support ticket,true
+CON-012-C,ACC-012,Gus Cruz,Finance Lead,Manager,Business,Email,true
+CON-013-A,ACC-013,Faye Cruz,Operations Manager,Manager,Business,Email,true
+CON-013-B,ACC-013,Gus Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-013-C,ACC-013,Hope Evans,Finance Lead,Manager,Business,Email,true
+CON-014-A,ACC-014,Gus Evans,Operations Manager,Manager,Business,Email,true
+CON-014-B,ACC-014,Hope Frost,IT Director,Executive,Technical,Support ticket,true
+CON-014-C,ACC-014,Ari Gupta,Finance Lead,Manager,Business,Email,true
+CON-015-A,ACC-015,Hope Gupta,Operations Manager,Manager,Business,Email,true
+CON-015-B,ACC-015,Ari Hale,IT Director,Executive,Technical,Support ticket,true
+CON-015-C,ACC-015,Bea Allen,Finance Lead,Manager,Business,Email,true
+CON-016-A,ACC-016,Ari Allen,Operations Manager,Manager,Business,Email,true
+CON-016-B,ACC-016,Bea Basu,IT Director,Executive,Technical,Support ticket,true
+CON-016-C,ACC-016,Cleo Cruz,Finance Lead,Manager,Business,Email,true
+CON-017-A,ACC-017,Bea Cruz,Operations Manager,Manager,Business,Email,true
+CON-017-B,ACC-017,Cleo Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-017-C,ACC-017,Dev Evans,Finance Lead,Manager,Business,Email,false
+CON-018-A,ACC-018,Cleo Evans,Operations Manager,Manager,Business,Email,true
+CON-018-B,ACC-018,Dev Frost,IT Director,Executive,Technical,Support ticket,true
+CON-018-C,ACC-018,Eli Gupta,Finance Lead,Manager,Business,Email,true
+CON-019-A,ACC-019,Dev Gupta,Operations Manager,Manager,Business,Email,true
+CON-019-B,ACC-019,Eli Hale,IT Director,Executive,Technical,Support ticket,true
+CON-019-C,ACC-019,Faye Allen,Finance Lead,Manager,Business,Email,true
+CON-020-A,ACC-020,Eli Allen,Operations Manager,Manager,Business,Email,true
+CON-020-B,ACC-020,Faye Basu,IT Director,Executive,Technical,Support ticket,true
+CON-020-C,ACC-020,Gus Cruz,Finance Lead,Manager,Business,Email,true
+CON-021-A,ACC-021,Faye Cruz,Operations Manager,Manager,Business,Email,true
+CON-021-B,ACC-021,Gus Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-021-C,ACC-021,Hope Evans,Finance Lead,Manager,Business,Email,true
+CON-022-A,ACC-022,Gus Evans,Operations Manager,Manager,Business,Email,true
+CON-022-B,ACC-022,Hope Frost,IT Director,Executive,Technical,Support ticket,true
+CON-022-C,ACC-022,Ari Gupta,Finance Lead,Manager,Business,Email,true
+CON-023-A,ACC-023,Hope Gupta,Operations Manager,Manager,Business,Email,true
+CON-023-B,ACC-023,Ari Hale,IT Director,Executive,Technical,Support ticket,true
+CON-023-C,ACC-023,Bea Allen,Finance Lead,Manager,Business,Email,true
+CON-024-A,ACC-024,Ari Allen,Operations Manager,Manager,Business,Email,true
+CON-024-B,ACC-024,Bea Basu,IT Director,Executive,Technical,Support ticket,true
+CON-024-C,ACC-024,Cleo Cruz,Finance Lead,Manager,Business,Email,true
+CON-025-A,ACC-025,Bea Cruz,Operations Manager,Manager,Business,Email,true
+CON-025-B,ACC-025,Cleo Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-025-C,ACC-025,Dev Evans,Finance Lead,Manager,Business,Email,true
+CON-026-A,ACC-026,Cleo Evans,Operations Manager,Manager,Business,Email,true
+CON-026-B,ACC-026,Dev Frost,IT Director,Executive,Technical,Support ticket,true
+CON-026-C,ACC-026,Eli Gupta,Finance Lead,Manager,Business,Email,true
+CON-027-A,ACC-027,Dev Gupta,Operations Manager,Manager,Business,Email,true
+CON-027-B,ACC-027,Eli Hale,IT Director,Executive,Technical,Support ticket,true
+CON-027-C,ACC-027,Faye Allen,Finance Lead,Manager,Business,Email,true
+CON-028-A,ACC-028,Eli Allen,Operations Manager,Manager,Business,Email,true
+CON-028-B,ACC-028,Faye Basu,IT Director,Executive,Technical,Support ticket,true
+CON-028-C,ACC-028,Gus Cruz,Finance Lead,Manager,Business,Email,true
+CON-029-A,ACC-029,Faye Cruz,Operations Manager,Manager,Business,Email,true
+CON-029-B,ACC-029,Gus Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-029-C,ACC-029,Hope Evans,Finance Lead,Manager,Business,Email,true
+CON-030-A,ACC-030,Gus Evans,Operations Manager,Manager,Business,Email,true
+CON-030-B,ACC-030,Hope Frost,IT Director,Executive,Technical,Support ticket,true
+CON-030-C,ACC-030,Ari Gupta,Finance Lead,Manager,Business,Email,true
+CON-031-A,ACC-031,Hope Gupta,Operations Manager,Manager,Business,Email,true
+CON-031-B,ACC-031,Ari Hale,IT Director,Executive,Technical,Support ticket,true
+CON-031-C,ACC-031,Bea Allen,Finance Lead,Manager,Business,Email,true
+CON-032-A,ACC-032,Ari Allen,Operations Manager,Manager,Business,Email,true
+CON-032-B,ACC-032,Bea Basu,IT Director,Executive,Technical,Support ticket,true
+CON-032-C,ACC-032,Cleo Cruz,Finance Lead,Manager,Business,Email,true
+CON-033-A,ACC-033,Bea Cruz,Operations Manager,Manager,Business,Email,true
+CON-033-B,ACC-033,Cleo Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-033-C,ACC-033,Dev Evans,Finance Lead,Manager,Business,Email,true
+CON-034-A,ACC-034,Cleo Evans,Operations Manager,Manager,Business,Email,true
+CON-034-B,ACC-034,Dev Frost,IT Director,Executive,Technical,Support ticket,true
+CON-034-C,ACC-034,Eli Gupta,Finance Lead,Manager,Business,Email,false
+CON-035-A,ACC-035,Dev Gupta,Operations Manager,Manager,Business,Email,true
+CON-035-B,ACC-035,Eli Hale,IT Director,Executive,Technical,Support ticket,true
+CON-035-C,ACC-035,Faye Allen,Finance Lead,Manager,Business,Email,true
+CON-036-A,ACC-036,Eli Allen,Operations Manager,Manager,Business,Email,true
+CON-036-B,ACC-036,Faye Basu,IT Director,Executive,Technical,Support ticket,true
+CON-036-C,ACC-036,Gus Cruz,Finance Lead,Manager,Business,Email,true
+CON-037-A,ACC-037,Faye Cruz,Operations Manager,Manager,Business,Email,true
+CON-037-B,ACC-037,Gus Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-037-C,ACC-037,Hope Evans,Finance Lead,Manager,Business,Email,true
+CON-038-A,ACC-038,Gus Evans,Operations Manager,Manager,Business,Email,true
+CON-038-B,ACC-038,Hope Frost,IT Director,Executive,Technical,Support ticket,true
+CON-038-C,ACC-038,Ari Gupta,Finance Lead,Manager,Business,Email,true
+CON-039-A,ACC-039,Hope Gupta,Operations Manager,Manager,Business,Email,true
+CON-039-B,ACC-039,Ari Hale,IT Director,Executive,Technical,Support ticket,true
+CON-039-C,ACC-039,Bea Allen,Finance Lead,Manager,Business,Email,true
+CON-040-A,ACC-040,Ari Allen,Operations Manager,Manager,Business,Email,true
+CON-040-B,ACC-040,Bea Basu,IT Director,Executive,Technical,Support ticket,true
+CON-040-C,ACC-040,Cleo Cruz,Finance Lead,Manager,Business,Email,true
+CON-041-A,ACC-041,Bea Cruz,Operations Manager,Manager,Business,Email,true
+CON-041-B,ACC-041,Cleo Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-041-C,ACC-041,Dev Evans,Finance Lead,Manager,Business,Email,true
+CON-042-A,ACC-042,Cleo Evans,Operations Manager,Manager,Business,Email,true
+CON-042-B,ACC-042,Dev Frost,IT Director,Executive,Technical,Support ticket,true
+CON-042-C,ACC-042,Eli Gupta,Finance Lead,Manager,Business,Email,true
+CON-043-A,ACC-043,Dev Gupta,Operations Manager,Manager,Business,Email,true
+CON-043-B,ACC-043,Eli Hale,IT Director,Executive,Technical,Support ticket,true
+CON-043-C,ACC-043,Faye Allen,Finance Lead,Manager,Business,Email,true
+CON-044-A,ACC-044,Eli Allen,Operations Manager,Manager,Business,Email,true
+CON-044-B,ACC-044,Faye Basu,IT Director,Executive,Technical,Support ticket,true
+CON-044-C,ACC-044,Gus Cruz,Finance Lead,Manager,Business,Email,true
+CON-045-A,ACC-045,Faye Cruz,Operations Manager,Manager,Business,Email,true
+CON-045-B,ACC-045,Gus Dunn,IT Director,Executive,Technical,Support ticket,true
+CON-045-C,ACC-045,Hope Evans,Finance Lead,Manager,Business,Email,true
+CON-046-A,ACC-046,Gus Evans,Operations Manager,Manager,Business,Email,true
+CON-046-B,ACC-046,Hope Frost,IT Director,Executive,Technical,Support ticket,true
+CON-046-C,ACC-046,Ari Gupta,Finance Lead,Manager,Business,Email,true
+CON-047-A,ACC-047,Hope Gupta,Operations Manager,Manager,Business,Email,true
+CON-047-B,ACC-047,Ari Hale,IT Director,Executive,Technical,Support ticket,true
+CON-047-C,ACC-047,Bea Allen,Finance Lead,Manager,Business,Email,true
+CON-048-A,ACC-048,Ari Allen,Operations Manager,Manager,Business,Email,true
+CON-048-B,ACC-048,Bea Basu,IT Director,Executive,Technical,Support ticket,true
+CON-048-C,ACC-048,Cleo Cruz,Finance Lead,Manager,Business,Email,true

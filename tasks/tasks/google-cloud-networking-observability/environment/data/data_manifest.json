@@ -1,0 +1,16 @@
+{
+  "fixture_type": "deterministic fictional Google Cloud export",
+  "time_semantics": "All timestamps are UTC; the analysis window is [window_start, window_end).",
+  "files": {
+    "vpc_flow_logs.jsonl": 960,
+    "nat_logs.jsonl": 640,
+    "firewall_logs.jsonl": 320,
+    "network_metrics.jsonl": 240,
+    "source_inventory.csv": 4
+  },
+  "relationships": [
+    "internal IP joins source_inventory to VPC Flow and Cloud NAT records",
+    "project, time window, gateway, and destination join logs to network metrics",
+    "paired VPC rows share json_payload.flow_id and differ by json_payload.reporter"
+  ]
+}

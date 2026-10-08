@@ -1,0 +1,15 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "daily_metrics.csv": 240,
+    "posts.csv": 100,
+    "trending_topics.csv": 28,
+    "comments.csv": 32
+  },
+  "intentional_edge_cases": [
+    "one partial day for every platform",
+    "two named follower-growth spikes per platform",
+    "one spam comment per platform excluded from top comments",
+    "weighted engagement rates must be aggregated from counts rather than averaging daily rates"
+  ]
+}

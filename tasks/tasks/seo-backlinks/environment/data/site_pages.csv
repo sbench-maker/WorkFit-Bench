@@ -1,0 +1,14 @@
+site,path,http_status,topic
+cipherleaf.example,/,200,product
+cipherleaf.example,/research/cloud-controls-benchmark,200,cloud_controls
+cipherleaf.example,/guides/vendor-risk-evidence,200,vendor_risk
+cipherleaf.example,/templates/audit-evidence-map,200,audit_automation
+cipherleaf.example,/blog/security-questionnaires,200,vendor_risk
+cipherleaf.example,/resources/soc2-starter,404,audit_automation
+cipherleaf.example,/reports/2025-control-map,404,cloud_controls
+vaultspire.example,/,200,product
+vaultspire.example,/reports/state-of-audit-readiness,200,audit_automation
+vaultspire.example,/guides/continuous-compliance,200,cloud_controls
+vaultspire.example,/templates/vendor-assurance,200,vendor_risk
+vaultspire.example,/blog/evidence-collection,200,audit_automation
+vaultspire.example,/old/security-evidence-checklist,404,audit_automation

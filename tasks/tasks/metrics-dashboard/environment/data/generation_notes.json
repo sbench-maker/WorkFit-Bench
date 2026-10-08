@@ -1,0 +1,20 @@
+{
+  "method": "deterministic local construction",
+  "date_range": [
+    "2026-06-01",
+    "2026-08-31"
+  ],
+  "files": {
+    "account_roster.csv": 36,
+    "daily_product_usage.csv": 3312,
+    "daily_service_health.csv": 368,
+    "daily_mrr.csv": 3312,
+    "metric_targets.csv": 8
+  },
+  "intentional_data_conditions": [
+    "The 2026-08-31 export is partial and explicitly marked incomplete.",
+    "One subscription churns and one expands during the latest complete week.",
+    "Scheduler reliability degrades on 2026-08-27 through 2026-08-30.",
+    "Run success is correlated with the scheduler degradation."
+  ]
+}

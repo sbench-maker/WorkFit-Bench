@@ -1,0 +1,53 @@
+{
+  "policy_name": "Fictional pre-trade security review policy",
+  "audit_usable_when": {
+    "hasResult": true,
+    "isSupported": true,
+    "note": "If either value is false, ignore any risk level, tax, or risk-item fields carried in the snapshot."
+  },
+  "tax_bands_percent": [
+    {
+      "assessment": "ACCEPTABLE",
+      "rule": "value < 5"
+    },
+    {
+      "assessment": "WARNING",
+      "rule": "5 <= value <= 10"
+    },
+    {
+      "assessment": "CRITICAL",
+      "rule": "value > 10"
+    },
+    {
+      "assessment": "UNKNOWN",
+      "rule": "value is null"
+    }
+  ],
+  "disposition_rules_in_priority_order": [
+    {
+      "disposition": "DATA_UNAVAILABLE",
+      "when": "audit is not usable"
+    },
+    {
+      "disposition": "BLOCK",
+      "when": "riskLevel equals 5"
+    },
+    {
+      "disposition": "AVOID",
+      "when": "riskLevel equals 4 or either tax assessment is CRITICAL"
+    },
+    {
+      "disposition": "REVIEW",
+      "when": "riskLevel is 2 or 3, either tax assessment is WARNING, or any detected risk flag remains"
+    },
+    {
+      "disposition": "PROCEED_WITH_CAUTION",
+      "when": "none of the earlier rules applies"
+    }
+  ],
+  "reporting_notes": [
+    "LOW is a lower-risk result, not a guarantee that a token is safe.",
+    "Snapshots are point-in-time checks and contracts or liquidity conditions can change.",
+    "Limit the report to security findings; it is not investment advice."
+  ]
+}

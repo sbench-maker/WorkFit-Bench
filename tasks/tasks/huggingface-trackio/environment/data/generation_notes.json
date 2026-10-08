@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "record_count": 560,
+  "run_count": 7,
+  "step_range": [
+    0,
+    79
+  ],
+  "files": [
+    "run_specs.json",
+    "monitoring_policy.json",
+    "telemetry.csv"
+  ]
+}

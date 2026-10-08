@@ -1,0 +1,289 @@
+ticket_id,customer_id,opened_at,closed_at,team_id,policy_id,priority,channel,status,subject,tags
+500001,CUST-0012,2026-07-01 13:07:00,2026-07-01 15:14:00,6,4,P4,chat,resolved,Invoice export shows stale total,general
+500002,CUST-0023,2026-07-01 18:14:00,2026-07-01 21:08:00,5,4,P4,phone,closed,Webhook delivery delayed,general
+500003,CUST-0034,2026-07-01 23:21:00,2026-07-02 03:02:00,4,3,P3,portal,resolved,Mobile session closes unexpectedly,general
+500004,CUST-0045,2026-07-02 04:28:00,2026-07-02 08:56:00,3,4,P4,email,closed,Role change not reflected,general
+500005,CUST-0056,2026-07-02 09:35:00,,2,4,P4,chat,open,Attachment preview unavailable,general
+500006,CUST-0067,2026-07-02 14:42:00,2026-07-02 20:44:00,1,3,P3,phone,closed,Search filters reset,general
+500007,CUST-0006,2026-07-02 19:49:00,,6,4,P4,portal,pending,Scheduled report missing,general
+500008,CUST-0017,2026-07-03 00:56:00,2026-07-03 08:32:00,5,4,P4,email,closed,Login loop after password reset,auth|mobile
+500009,CUST-0028,2026-07-03 05:03:00,2026-07-03 13:26:00,4,2,P2,chat,resolved,Invoice export shows stale total,general
+500010,CUST-0039,2026-07-03 10:10:00,,3,4,P4,phone,open,Webhook delivery delayed,general
+500011,CUST-0050,2026-07-03 15:17:00,,2,4,P4,portal,new,Mobile session closes unexpectedly,general
+500012,CUST-0061,2026-07-03 20:24:00,2026-07-04 07:08:00,1,3,P3,email,closed,Role change not reflected,general
+500013,CUST-0072,2026-07-04 01:31:00,,6,4,P4,chat,open,Attachment preview unavailable,general
+500014,CUST-0011,2026-07-04 06:38:00,,5,4,P4,phone,pending,Search filters reset,general
+500015,CUST-0022,2026-07-04 11:45:00,,4,3,P3,portal,open,Scheduled report missing,general
+500016,CUST-0033,2026-07-04 16:52:00,2026-07-05 06:44:00,3,4,P4,email,closed,Login loop after password reset,auth|mobile
+500017,CUST-0044,2026-07-04 21:59:00,2026-07-05 12:38:00,2,4,P4,chat,resolved,Invoice export shows stale total,billing|export
+500018,CUST-0055,2026-07-05 02:06:00,2026-07-05 17:32:00,1,2,P2,phone,closed,Webhook delivery delayed,general
+500019,CUST-0066,2026-07-05 07:13:00,2026-07-05 23:26:00,6,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500020,CUST-0005,2026-07-05 12:20:00,,5,4,P4,email,open,Role change not reflected,general
+500021,CUST-0016,2026-07-05 17:27:00,,4,3,P3,chat,pending,Attachment preview unavailable,general
+500022,CUST-0027,2026-07-05 22:34:00,,3,4,P4,phone,new,Search filters reset,general
+500023,CUST-0038,2026-07-06 03:41:00,2026-07-06 23:02:00,2,4,P4,portal,resolved,Scheduled report missing,general
+500024,CUST-0049,2026-07-06 08:48:00,2026-07-07 04:56:00,1,3,P3,email,closed,Login loop after password reset,auth|mobile
+500025,CUST-0060,2026-07-06 13:55:00,,6,4,P4,chat,open,Invoice export shows stale total,general
+500026,CUST-0071,2026-07-06 18:02:00,,5,4,P4,phone,open,Webhook delivery delayed,general
+500027,CUST-0010,2026-07-06 23:09:00,2026-07-07 21:38:00,4,2,P2,portal,resolved,Mobile session closes unexpectedly,general
+500028,CUST-0021,2026-07-07 04:16:00,,3,4,P4,email,pending,Role change not reflected,general
+500029,CUST-0032,2026-07-07 09:23:00,2026-07-08 09:26:00,2,1,P1,chat,resolved,Attachment preview unavailable,general
+500030,CUST-0043,2026-07-07 14:30:00,,1,3,P3,phone,open,Search filters reset,general
+500031,CUST-0054,2026-07-07 19:37:00,2026-07-08 21:14:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500032,CUST-0065,2026-07-08 00:44:00,2026-07-09 03:08:00,5,4,P4,email,closed,Login loop after password reset,auth|mobile
+500033,CUST-0004,2026-07-08 05:51:00,,4,3,P3,chat,new,Invoice export shows stale total,general
+500034,CUST-0015,2026-07-08 10:58:00,2026-07-09 14:56:00,3,4,P4,phone,closed,Webhook delivery delayed,billing|export
+500035,CUST-0026,2026-07-08 15:05:00,,2,4,P4,portal,pending,Mobile session closes unexpectedly,general
+500036,CUST-0037,2026-07-08 20:12:00,2026-07-10 01:44:00,1,2,P2,email,closed,Role change not reflected,general
+500037,CUST-0048,2026-07-09 01:19:00,2026-07-10 07:38:00,6,4,P4,chat,resolved,Attachment preview unavailable,general
+500038,CUST-0059,2026-07-09 06:26:00,2026-07-10 13:32:00,5,4,P4,phone,closed,Search filters reset,general
+500039,CUST-0070,2026-07-09 11:33:00,,4,3,P3,portal,open,Scheduled report missing,general
+500040,CUST-0009,2026-07-09 16:40:00,,3,4,P4,email,open,Login loop after password reset,auth|mobile
+500041,CUST-0020,2026-07-09 21:47:00,2026-07-11 07:14:00,2,4,P4,chat,resolved,Invoice export shows stale total,general
+500042,CUST-0031,2026-07-10 02:54:00,,1,3,P3,phone,pending,Webhook delivery delayed,general
+500043,CUST-0042,2026-07-10 07:01:00,2026-07-11 18:02:00,6,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500044,CUST-0053,2026-07-10 12:08:00,,5,4,P4,email,new,Role change not reflected,general
+500045,CUST-0064,2026-07-10 17:15:00,,4,2,P2,chat,open,Attachment preview unavailable,general
+500046,CUST-0003,2026-07-10 22:22:00,2026-07-12 11:44:00,3,4,P4,phone,closed,Search filters reset,general
+500047,CUST-0014,2026-07-11 03:29:00,2026-07-12 17:38:00,2,4,P4,portal,resolved,Scheduled report missing,general
+500048,CUST-0025,2026-07-11 08:36:00,2026-07-12 23:32:00,1,3,P3,email,closed,Login loop after password reset,auth|mobile
+500049,CUST-0036,2026-07-11 13:43:00,,6,4,P4,chat,pending,Invoice export shows stale total,general
+500050,CUST-0047,2026-07-11 18:50:00,,5,4,P4,phone,open,Webhook delivery delayed,general
+500051,CUST-0058,2026-07-11 23:57:00,2026-07-13 17:14:00,4,3,P3,portal,resolved,Mobile session closes unexpectedly,billing|export
+500052,CUST-0069,2026-07-12 04:04:00,,3,4,P4,email,open,Role change not reflected,general
+500053,CUST-0008,2026-07-12 09:11:00,2026-07-14 04:02:00,2,4,P4,chat,resolved,Attachment preview unavailable,general
+500054,CUST-0019,2026-07-12 14:18:00,2026-07-14 09:56:00,1,2,P2,phone,closed,Search filters reset,general
+500055,CUST-0030,2026-07-12 19:25:00,,6,4,P4,portal,new,Scheduled report missing,general
+500056,CUST-0041,2026-07-13 00:32:00,,5,4,P4,email,pending,Login loop after password reset,auth|mobile
+500057,CUST-0052,2026-07-13 05:39:00,2026-07-15 03:38:00,4,3,P3,chat,resolved,Invoice export shows stale total,general
+500058,CUST-0063,2026-07-13 10:46:00,2026-07-15 09:32:00,3,1,P1,phone,closed,Webhook delivery delayed,general
+500059,CUST-0002,2026-07-13 15:53:00,2026-07-15 15:26:00,2,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500060,CUST-0013,2026-07-13 20:00:00,,1,3,P3,email,open,Role change not reflected,general
+500061,CUST-0024,2026-07-14 01:07:00,2026-07-16 02:14:00,6,4,P4,chat,resolved,Attachment preview unavailable,general
+500062,CUST-0035,2026-07-14 06:14:00,2026-07-16 08:08:00,5,4,P4,phone,closed,Search filters reset,general
+500063,CUST-0046,2026-07-14 11:21:00,,4,2,P2,portal,pending,Scheduled report missing,general
+500064,CUST-0057,2026-07-14 16:28:00,2026-07-16 19:56:00,3,4,P4,email,closed,Login loop after password reset,auth|mobile
+500065,CUST-0068,2026-07-14 21:35:00,,2,4,P4,chat,open,Invoice export shows stale total,general
+500066,CUST-0007,2026-07-15 02:42:00,,1,3,P3,phone,new,Webhook delivery delayed,general
+500067,CUST-0018,2026-07-15 07:49:00,2026-07-17 13:38:00,6,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500068,CUST-0029,2026-07-15 12:56:00,2026-07-17 19:32:00,5,4,P4,email,closed,Role change not reflected,billing|export
+500069,CUST-0040,2026-07-15 17:03:00,2026-07-18 00:26:00,4,3,P3,chat,resolved,Attachment preview unavailable,general
+500070,CUST-0051,2026-07-15 22:10:00,,3,4,P4,phone,pending,Search filters reset,general
+500071,CUST-0062,2026-07-16 03:17:00,2026-07-18 12:14:00,2,4,P4,portal,resolved,Scheduled report missing,general
+500072,CUST-0001,2026-07-16 08:24:00,2026-07-18 18:08:00,1,2,P2,email,closed,Login loop after password reset,auth|mobile
+500073,CUST-0012,2026-07-16 13:31:00,2026-07-19 00:02:00,6,4,P4,chat,resolved,Invoice export shows stale total,general
+500074,CUST-0023,2026-07-16 18:38:00,2026-07-19 05:56:00,5,4,P4,phone,closed,Webhook delivery delayed,general
+500075,CUST-0034,2026-07-16 23:45:00,,4,3,P3,portal,open,Mobile session closes unexpectedly,general
+500076,CUST-0045,2026-07-17 04:52:00,2026-07-19 17:44:00,3,4,P4,email,closed,Role change not reflected,general
+500077,CUST-0056,2026-07-17 09:59:00,,2,4,P4,chat,new,Attachment preview unavailable,general
+500078,CUST-0067,2026-07-17 14:06:00,,1,3,P3,phone,open,Search filters reset,general
+500079,CUST-0006,2026-07-17 19:13:00,2026-07-20 10:26:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500080,CUST-0017,2026-07-18 00:20:00,,5,4,P4,email,open,Login loop after password reset,auth|mobile
+500081,CUST-0028,2026-07-18 05:27:00,2026-07-20 22:14:00,4,2,P2,chat,resolved,Invoice export shows stale total,general
+500082,CUST-0039,2026-07-18 10:34:00,2026-07-21 04:08:00,3,4,P4,phone,closed,Webhook delivery delayed,general
+500083,CUST-0050,2026-07-18 15:41:00,2026-07-18 17:02:00,2,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500084,CUST-0061,2026-07-18 20:48:00,,1,3,P3,email,pending,Role change not reflected,general
+500085,CUST-0072,2026-07-19 01:55:00,,6,4,P4,chat,open,Attachment preview unavailable,billing|export
+500086,CUST-0011,2026-07-19 06:02:00,2026-07-19 09:44:00,5,4,P4,phone,closed,Search filters reset,general
+500087,CUST-0022,2026-07-19 11:09:00,2026-07-19 15:38:00,4,1,P1,portal,resolved,Scheduled report missing,general
+500088,CUST-0033,2026-07-19 16:16:00,,3,4,P4,email,new,Login loop after password reset,auth|mobile
+500089,CUST-0044,2026-07-19 21:23:00,2026-07-20 03:26:00,2,4,P4,chat,resolved,Invoice export shows stale total,general
+500090,CUST-0055,2026-07-20 02:30:00,,1,2,P2,phone,open,Webhook delivery delayed,general
+500091,CUST-0066,2026-07-20 07:37:00,,6,4,P4,portal,pending,Mobile session closes unexpectedly,general
+500092,CUST-0005,2026-07-20 12:44:00,2026-07-20 21:08:00,5,4,P4,email,closed,Role change not reflected,general
+500093,CUST-0016,2026-07-20 17:51:00,2026-07-21 03:02:00,4,3,P3,chat,resolved,Attachment preview unavailable,general
+500094,CUST-0027,2026-07-20 22:58:00,2026-07-21 08:56:00,3,4,P4,phone,closed,Search filters reset,general
+500095,CUST-0038,2026-07-21 03:05:00,,2,4,P4,portal,open,Scheduled report missing,general
+500096,CUST-0049,2026-07-21 08:12:00,2026-07-21 19:44:00,1,3,P3,email,closed,Login loop after password reset,auth|mobile
+500097,CUST-0060,2026-07-21 13:19:00,2026-07-22 01:38:00,6,4,P4,chat,resolved,Invoice export shows stale total,general
+500098,CUST-0071,2026-07-21 18:26:00,,5,4,P4,phone,pending,Webhook delivery delayed,general
+500099,CUST-0010,2026-07-21 23:33:00,,4,2,P2,portal,new,Mobile session closes unexpectedly,general
+500100,CUST-0021,2026-07-22 04:40:00,,3,4,P4,email,open,Role change not reflected,general
+500101,CUST-0032,2026-07-22 09:47:00,2026-07-23 01:14:00,2,4,P4,chat,resolved,Attachment preview unavailable,general
+500102,CUST-0043,2026-07-22 14:54:00,2026-07-23 07:08:00,1,3,P3,phone,closed,Search filters reset,billing|export
+500103,CUST-0054,2026-07-22 19:01:00,2026-07-23 12:02:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500104,CUST-0065,2026-07-23 00:08:00,,5,4,P4,email,open,Login loop after password reset,auth|mobile
+500105,CUST-0004,2026-07-23 05:15:00,,4,3,P3,chat,pending,Invoice export shows stale total,general
+500106,CUST-0015,2026-07-23 10:22:00,2026-07-24 05:44:00,3,4,P4,phone,closed,Webhook delivery delayed,general
+500107,CUST-0026,2026-07-23 15:29:00,2026-07-24 11:38:00,2,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500108,CUST-0037,2026-07-23 20:36:00,2026-07-24 17:32:00,1,2,P2,email,closed,Role change not reflected,general
+500109,CUST-0048,2026-07-24 01:43:00,2026-07-24 23:26:00,6,4,P4,chat,resolved,Attachment preview unavailable,general
+500110,CUST-0059,2026-07-24 06:50:00,,5,4,P4,phone,new,Search filters reset,general
+500111,CUST-0070,2026-07-24 11:57:00,2026-07-25 11:14:00,4,3,P3,portal,resolved,Scheduled report missing,general
+500112,CUST-0009,2026-07-24 16:04:00,,3,4,P4,email,pending,Login loop after password reset,auth|mobile
+500113,CUST-0020,2026-07-24 21:11:00,2026-07-25 22:02:00,2,4,P4,chat,resolved,Invoice export shows stale total,general
+500114,CUST-0031,2026-07-25 02:18:00,2026-07-26 03:56:00,1,3,P3,phone,closed,Webhook delivery delayed,general
+500115,CUST-0042,2026-07-25 07:25:00,,6,4,P4,portal,open,Mobile session closes unexpectedly,general
+500116,CUST-0053,2026-07-25 12:32:00,2026-07-26 15:44:00,5,1,P1,email,closed,Role change not reflected,general
+500117,CUST-0064,2026-07-25 17:39:00,,4,2,P2,chat,open,Attachment preview unavailable,general
+500118,CUST-0003,2026-07-25 22:46:00,2026-07-27 03:32:00,3,4,P4,phone,closed,Search filters reset,general
+500119,CUST-0014,2026-07-26 03:53:00,,2,4,P4,portal,pending,Scheduled report missing,billing|export
+500120,CUST-0025,2026-07-26 08:00:00,,1,3,P3,email,open,Login loop after password reset,auth|mobile
+500121,CUST-0036,2026-07-26 13:07:00,,6,4,P4,chat,new,Invoice export shows stale total,general
+500122,CUST-0047,2026-07-26 18:14:00,2026-07-28 02:08:00,5,4,P4,phone,closed,Webhook delivery delayed,general
+500123,CUST-0058,2026-07-26 23:21:00,2026-07-28 08:02:00,4,3,P3,portal,resolved,Mobile session closes unexpectedly,general
+500124,CUST-0069,2026-07-27 04:28:00,2026-07-28 13:56:00,3,4,P4,email,closed,Role change not reflected,general
+500125,CUST-0008,2026-07-27 09:35:00,,2,4,P4,chat,open,Attachment preview unavailable,general
+500126,CUST-0019,2026-07-27 14:42:00,,1,2,P2,phone,pending,Search filters reset,general
+500127,CUST-0030,2026-07-27 19:49:00,2026-07-29 07:38:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500128,CUST-0041,2026-07-28 00:56:00,2026-07-29 13:32:00,5,4,P4,email,closed,Login loop after password reset,auth|mobile
+500129,CUST-0052,2026-07-28 05:03:00,2026-07-29 18:26:00,4,3,P3,chat,resolved,Invoice export shows stale total,general
+500130,CUST-0063,2026-07-28 10:10:00,,3,4,P4,phone,open,Webhook delivery delayed,general
+500131,CUST-0002,2026-07-28 15:17:00,2026-07-30 06:14:00,2,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500132,CUST-0013,2026-07-28 20:24:00,,1,3,P3,email,new,Role change not reflected,general
+500133,CUST-0024,2026-07-29 01:31:00,,6,4,P4,chat,pending,Attachment preview unavailable,general
+500134,CUST-0035,2026-07-29 06:38:00,2026-07-30 23:56:00,5,4,P4,phone,closed,Search filters reset,general
+500135,CUST-0046,2026-07-29 11:45:00,,4,2,P2,portal,open,Scheduled report missing,general
+500136,CUST-0057,2026-07-29 16:52:00,2026-07-31 11:44:00,3,4,P4,email,closed,Login loop after password reset,billing|export
+500137,CUST-0068,2026-07-29 21:59:00,2026-07-31 17:38:00,2,4,P4,chat,resolved,Invoice export shows stale total,general
+500138,CUST-0007,2026-07-30 02:06:00,2026-07-31 22:32:00,1,3,P3,phone,closed,Webhook delivery delayed,general
+500139,CUST-0018,2026-07-30 07:13:00,2026-08-01 04:26:00,6,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500140,CUST-0029,2026-07-30 12:20:00,,5,4,P4,email,pending,Role change not reflected,general
+500141,CUST-0040,2026-07-30 17:27:00,2026-08-01 16:14:00,4,3,P3,chat,resolved,Attachment preview unavailable,general
+500142,CUST-0051,2026-07-30 22:34:00,2026-08-01 22:08:00,3,4,P4,phone,closed,Search filters reset,general
+500143,CUST-0062,2026-07-31 03:41:00,,2,4,P4,portal,new,Scheduled report missing,general
+500144,CUST-0001,2026-07-31 08:48:00,2026-08-02 09:56:00,1,2,P2,email,closed,Login loop after password reset,auth|mobile
+500145,CUST-0012,2026-07-31 13:55:00,,6,1,P1,chat,open,Invoice export shows stale total,general
+500146,CUST-0023,2026-07-31 18:02:00,2026-08-02 20:44:00,5,4,P4,phone,closed,Webhook delivery delayed,general
+500147,CUST-0034,2026-07-31 23:09:00,,4,3,P3,portal,pending,Mobile session closes unexpectedly,general
+500148,CUST-0045,2026-08-01 04:16:00,2026-08-03 08:32:00,3,4,P4,email,closed,Role change not reflected,general
+500149,CUST-0056,2026-08-01 09:23:00,2026-08-03 14:26:00,2,4,P4,chat,resolved,Attachment preview unavailable,general
+500150,CUST-0067,2026-08-01 14:30:00,,1,3,P3,phone,open,Search filters reset,general
+500151,CUST-0006,2026-08-01 19:37:00,2026-08-04 02:14:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500152,CUST-0017,2026-08-02 00:44:00,2026-08-04 08:08:00,5,4,P4,email,closed,Login loop after password reset,auth|mobile
+500153,CUST-0028,2026-08-02 05:51:00,2026-08-04 14:02:00,4,2,P2,chat,resolved,Invoice export shows stale total,billing|export
+500154,CUST-0039,2026-08-02 10:58:00,,3,4,P4,phone,new,Webhook delivery delayed,general
+500155,CUST-0050,2026-08-02 15:05:00,,2,4,P4,portal,open,Mobile session closes unexpectedly,general
+500156,CUST-0061,2026-08-02 20:12:00,,1,3,P3,email,open,Role change not reflected,general
+500157,CUST-0072,2026-08-03 01:19:00,2026-08-05 12:38:00,6,4,P4,chat,resolved,Attachment preview unavailable,general
+500158,CUST-0011,2026-08-03 06:26:00,2026-08-05 18:32:00,5,4,P4,phone,closed,Search filters reset,general
+500159,CUST-0022,2026-08-03 11:33:00,2026-08-06 00:26:00,4,3,P3,portal,resolved,Scheduled report missing,general
+500160,CUST-0033,2026-08-03 16:40:00,,3,4,P4,email,open,Login loop after password reset,auth|mobile
+500161,CUST-0044,2026-08-03 21:47:00,,2,4,P4,chat,pending,Invoice export shows stale total,general
+500162,CUST-0055,2026-08-04 02:54:00,2026-08-06 18:08:00,1,2,P2,phone,closed,Webhook delivery delayed,general
+500163,CUST-0066,2026-08-04 07:01:00,2026-08-06 23:02:00,6,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500164,CUST-0005,2026-08-04 12:08:00,2026-08-07 04:56:00,5,4,P4,email,closed,Role change not reflected,general
+500165,CUST-0016,2026-08-04 17:15:00,,4,3,P3,chat,new,Attachment preview unavailable,general
+500166,CUST-0027,2026-08-04 22:22:00,2026-08-04 23:44:00,3,4,P4,phone,closed,Search filters reset,general
+500167,CUST-0038,2026-08-05 03:29:00,2026-08-05 05:38:00,2,4,P4,portal,resolved,Scheduled report missing,general
+500168,CUST-0049,2026-08-05 08:36:00,,1,3,P3,email,pending,Login loop after password reset,auth|mobile
+500169,CUST-0060,2026-08-05 13:43:00,,6,4,P4,chat,open,Invoice export shows stale total,general
+500170,CUST-0071,2026-08-05 18:50:00,,5,4,P4,phone,open,Webhook delivery delayed,billing|export
+500171,CUST-0010,2026-08-05 23:57:00,2026-08-06 05:14:00,4,2,P2,portal,resolved,Mobile session closes unexpectedly,general
+500172,CUST-0021,2026-08-06 04:04:00,2026-08-06 10:08:00,3,4,P4,email,closed,Role change not reflected,general
+500173,CUST-0032,2026-08-06 09:11:00,2026-08-06 16:02:00,2,4,P4,chat,resolved,Attachment preview unavailable,general
+500174,CUST-0043,2026-08-06 14:18:00,2026-08-06 21:56:00,1,1,P1,phone,closed,Search filters reset,general
+500175,CUST-0054,2026-08-06 19:25:00,,6,4,P4,portal,pending,Scheduled report missing,general
+500176,CUST-0065,2026-08-07 00:32:00,,5,4,P4,email,new,Login loop after password reset,auth|mobile
+500177,CUST-0004,2026-08-07 05:39:00,2026-08-07 15:38:00,4,3,P3,chat,resolved,Invoice export shows stale total,general
+500178,CUST-0015,2026-08-07 10:46:00,2026-08-07 21:32:00,3,4,P4,phone,closed,Webhook delivery delayed,general
+500179,CUST-0026,2026-08-07 15:53:00,2026-08-08 03:26:00,2,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500180,CUST-0037,2026-08-07 20:00:00,,1,2,P2,email,open,Role change not reflected,general
+500181,CUST-0048,2026-08-08 01:07:00,2026-08-08 14:14:00,6,4,P4,chat,resolved,Attachment preview unavailable,general
+500182,CUST-0059,2026-08-08 06:14:00,,5,4,P4,phone,pending,Search filters reset,general
+500183,CUST-0070,2026-08-08 11:21:00,2026-08-09 02:02:00,4,3,P3,portal,resolved,Scheduled report missing,general
+500184,CUST-0009,2026-08-08 16:28:00,2026-08-09 07:56:00,3,4,P4,email,closed,Login loop after password reset,auth|mobile
+500185,CUST-0020,2026-08-08 21:35:00,,2,4,P4,chat,open,Invoice export shows stale total,general
+500186,CUST-0031,2026-08-09 02:42:00,2026-08-09 19:44:00,1,3,P3,phone,closed,Webhook delivery delayed,general
+500187,CUST-0042,2026-08-09 07:49:00,,6,4,P4,portal,new,Mobile session closes unexpectedly,billing|export
+500188,CUST-0053,2026-08-09 12:56:00,2026-08-10 07:32:00,5,4,P4,email,closed,Role change not reflected,general
+500189,CUST-0064,2026-08-09 17:03:00,,4,2,P2,chat,pending,Attachment preview unavailable,general
+500190,CUST-0003,2026-08-09 22:10:00,,3,4,P4,phone,open,Search filters reset,general
+500191,CUST-0014,2026-08-10 03:17:00,2026-08-11 00:14:00,2,4,P4,portal,resolved,Scheduled report missing,general
+500192,CUST-0025,2026-08-10 08:24:00,2026-08-11 06:08:00,1,3,P3,email,closed,Login loop after password reset,auth|mobile
+500193,CUST-0036,2026-08-10 13:31:00,2026-08-11 12:02:00,6,4,P4,chat,resolved,Invoice export shows stale total,general
+500194,CUST-0047,2026-08-10 18:38:00,2026-08-11 17:56:00,5,4,P4,phone,closed,Webhook delivery delayed,general
+500195,CUST-0058,2026-08-10 23:45:00,,4,3,P3,portal,open,Mobile session closes unexpectedly,general
+500196,CUST-0069,2026-08-11 04:52:00,,3,4,P4,email,pending,Role change not reflected,general
+500197,CUST-0008,2026-08-11 09:59:00,2026-08-12 11:38:00,2,4,P4,chat,resolved,Attachment preview unavailable,general
+500198,CUST-0019,2026-08-11 14:06:00,,1,2,P2,phone,new,Search filters reset,general
+500199,CUST-0030,2026-08-11 19:13:00,2026-08-12 22:26:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500200,CUST-0041,2026-08-12 00:20:00,,5,4,P4,email,open,Login loop after password reset,auth|mobile
+500201,CUST-0052,2026-08-12 05:27:00,2026-08-13 10:14:00,4,3,P3,chat,resolved,Invoice export shows stale total,general
+500202,CUST-0063,2026-08-12 10:34:00,2026-08-13 16:08:00,3,4,P4,phone,closed,Webhook delivery delayed,general
+500203,CUST-0002,2026-08-12 15:41:00,,2,1,P1,portal,pending,Mobile session closes unexpectedly,general
+500204,CUST-0013,2026-08-12 20:48:00,2026-08-14 03:56:00,1,3,P3,email,closed,Role change not reflected,billing|export
+500205,CUST-0024,2026-08-13 01:55:00,,6,4,P4,chat,open,Attachment preview unavailable,general
+500206,CUST-0035,2026-08-13 06:02:00,2026-08-14 14:44:00,5,4,P4,phone,closed,Search filters reset,general
+500207,CUST-0046,2026-08-13 11:09:00,2026-08-14 20:38:00,4,2,P2,portal,resolved,Scheduled report missing,general
+500208,CUST-0057,2026-08-13 16:16:00,,3,4,P4,email,open,Login loop after password reset,auth|mobile
+500209,CUST-0068,2026-08-13 21:23:00,,2,4,P4,chat,new,Invoice export shows stale total,general
+500210,CUST-0007,2026-08-14 02:30:00,,1,3,P3,phone,pending,Webhook delivery delayed,general
+500211,CUST-0018,2026-08-14 07:37:00,2026-08-15 20:14:00,6,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500212,CUST-0029,2026-08-14 12:44:00,2026-08-16 02:08:00,5,4,P4,email,closed,Role change not reflected,general
+500213,CUST-0040,2026-08-14 17:51:00,2026-08-16 08:02:00,4,3,P3,chat,resolved,Attachment preview unavailable,general
+500214,CUST-0051,2026-08-14 22:58:00,2026-08-16 13:56:00,3,4,P4,phone,closed,Search filters reset,general
+500215,CUST-0062,2026-08-15 03:05:00,,2,4,P4,portal,open,Scheduled report missing,general
+500216,CUST-0001,2026-08-15 08:12:00,2026-08-17 00:44:00,1,2,P2,email,closed,Login loop after password reset,auth|mobile
+500217,CUST-0012,2026-08-15 13:19:00,,6,4,P4,chat,pending,Invoice export shows stale total,general
+500218,CUST-0023,2026-08-15 18:26:00,2026-08-17 12:32:00,5,4,P4,phone,closed,Webhook delivery delayed,general
+500219,CUST-0034,2026-08-15 23:33:00,2026-08-17 18:26:00,4,3,P3,portal,resolved,Mobile session closes unexpectedly,general
+500220,CUST-0045,2026-08-16 04:40:00,,3,4,P4,email,new,Role change not reflected,general
+500221,CUST-0056,2026-08-16 09:47:00,,2,4,P4,chat,open,Attachment preview unavailable,billing|export
+500222,CUST-0067,2026-08-16 14:54:00,2026-08-18 12:08:00,1,3,P3,phone,closed,Search filters reset,general
+500223,CUST-0006,2026-08-16 19:01:00,2026-08-18 17:02:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500224,CUST-0017,2026-08-17 00:08:00,,5,4,P4,email,pending,Login loop after password reset,auth|mobile
+500225,CUST-0028,2026-08-17 05:15:00,,4,2,P2,chat,open,Invoice export shows stale total,general
+500226,CUST-0039,2026-08-17 10:22:00,2026-08-19 10:44:00,3,4,P4,phone,closed,Webhook delivery delayed,general
+500227,CUST-0050,2026-08-17 15:29:00,2026-08-19 16:38:00,2,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500228,CUST-0061,2026-08-17 20:36:00,2026-08-19 22:32:00,1,3,P3,email,closed,Role change not reflected,general
+500229,CUST-0072,2026-08-18 01:43:00,2026-08-20 04:26:00,6,4,P4,chat,resolved,Attachment preview unavailable,general
+500230,CUST-0011,2026-08-18 06:50:00,,5,4,P4,phone,open,Search filters reset,general
+500231,CUST-0022,2026-08-18 11:57:00,,4,3,P3,portal,new,Scheduled report missing,general
+500232,CUST-0033,2026-08-18 16:04:00,2026-08-20 21:08:00,3,1,P1,email,closed,Login loop after password reset,auth|mobile
+500233,CUST-0044,2026-08-18 21:11:00,2026-08-21 03:02:00,2,4,P4,chat,resolved,Invoice export shows stale total,general
+500234,CUST-0055,2026-08-19 02:18:00,,1,2,P2,phone,open,Webhook delivery delayed,general
+500235,CUST-0066,2026-08-19 07:25:00,,6,4,P4,portal,open,Mobile session closes unexpectedly,general
+500236,CUST-0005,2026-08-19 12:32:00,2026-08-21 20:44:00,5,4,P4,email,closed,Role change not reflected,general
+500237,CUST-0016,2026-08-19 17:39:00,2026-08-22 02:38:00,4,3,P3,chat,resolved,Attachment preview unavailable,general
+500238,CUST-0027,2026-08-19 22:46:00,,3,4,P4,phone,pending,Search filters reset,billing|export
+500239,CUST-0038,2026-08-20 03:53:00,2026-08-22 14:26:00,2,4,P4,portal,resolved,Scheduled report missing,general
+500240,CUST-0049,2026-08-20 08:00:00,,1,3,P3,email,open,Login loop after password reset,auth|mobile
+500241,CUST-0060,2026-08-20 13:07:00,2026-08-23 01:14:00,6,4,P4,chat,resolved,Invoice export shows stale total,general
+500242,CUST-0071,2026-08-20 18:14:00,,5,4,P4,phone,new,Webhook delivery delayed,general
+500243,CUST-0010,2026-08-20 23:21:00,2026-08-23 13:02:00,4,2,P2,portal,resolved,Mobile session closes unexpectedly,general
+500244,CUST-0021,2026-08-21 04:28:00,2026-08-23 18:56:00,3,4,P4,email,closed,Role change not reflected,general
+500245,CUST-0032,2026-08-21 09:35:00,,2,4,P4,chat,pending,Attachment preview unavailable,general
+500246,CUST-0043,2026-08-21 14:42:00,2026-08-24 06:44:00,1,3,P3,phone,closed,Search filters reset,general
+500247,CUST-0054,2026-08-21 19:49:00,,6,4,P4,portal,open,Scheduled report missing,general
+500248,CUST-0065,2026-08-22 00:56:00,2026-08-24 18:32:00,5,4,P4,email,closed,Login loop after password reset,auth|mobile
+500249,CUST-0004,2026-08-22 05:03:00,2026-08-22 06:26:00,4,3,P3,chat,resolved,Invoice export shows stale total,general
+500250,CUST-0015,2026-08-22 10:10:00,,3,4,P4,phone,open,Webhook delivery delayed,general
+500251,CUST-0026,2026-08-22 15:17:00,2026-08-22 18:14:00,2,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500252,CUST-0037,2026-08-22 20:24:00,,1,2,P2,email,pending,Role change not reflected,general
+500253,CUST-0048,2026-08-23 01:31:00,,6,4,P4,chat,new,Attachment preview unavailable,general
+500254,CUST-0059,2026-08-23 06:38:00,2026-08-23 11:56:00,5,4,P4,phone,closed,Search filters reset,general
+500255,CUST-0070,2026-08-23 11:45:00,,4,3,P3,portal,open,Scheduled report missing,billing|export
+500256,CUST-0009,2026-08-23 16:52:00,2026-08-23 23:44:00,3,4,P4,email,closed,Login loop after password reset,auth|mobile
+500257,CUST-0020,2026-08-23 21:59:00,2026-08-24 05:38:00,2,4,P4,chat,resolved,Invoice export shows stale total,general
+500258,CUST-0031,2026-08-24 02:06:00,2026-08-24 10:32:00,1,3,P3,phone,closed,Webhook delivery delayed,general
+500259,CUST-0042,2026-08-24 07:13:00,,6,4,P4,portal,pending,Mobile session closes unexpectedly,general
+500260,CUST-0053,2026-08-24 12:20:00,,5,4,P4,email,open,Role change not reflected,general
+500261,CUST-0064,2026-08-24 17:27:00,2026-08-25 04:14:00,4,1,P1,chat,resolved,Attachment preview unavailable,general
+500262,CUST-0003,2026-08-24 22:34:00,2026-08-25 10:08:00,3,4,P4,phone,closed,Search filters reset,general
+500263,CUST-0014,2026-08-25 03:41:00,2026-08-25 16:02:00,2,4,P4,portal,resolved,Scheduled report missing,general
+500264,CUST-0025,2026-08-25 08:48:00,,1,3,P3,email,new,Login loop after password reset,auth|mobile
+500265,CUST-0036,2026-08-25 13:55:00,,6,4,P4,chat,open,Invoice export shows stale total,general
+500266,CUST-0047,2026-08-25 18:02:00,,5,4,P4,phone,pending,Webhook delivery delayed,general
+500267,CUST-0058,2026-08-25 23:09:00,2026-08-26 14:38:00,4,3,P3,portal,resolved,Mobile session closes unexpectedly,general
+500268,CUST-0069,2026-08-26 04:16:00,2026-08-26 20:32:00,3,4,P4,email,closed,Role change not reflected,general
+500269,CUST-0008,2026-08-26 09:23:00,2026-08-27 02:26:00,2,4,P4,chat,resolved,Attachment preview unavailable,general
+500270,CUST-0019,2026-08-26 14:30:00,,1,2,P2,phone,open,Search filters reset,general
+500271,CUST-0030,2026-08-26 19:37:00,2026-08-27 14:14:00,6,4,P4,portal,resolved,Scheduled report missing,general
+500272,CUST-0041,2026-08-27 00:44:00,2026-08-27 20:08:00,5,4,P4,email,closed,Login loop after password reset,billing|export
+500273,CUST-0052,2026-08-27 05:51:00,,4,3,P3,chat,pending,Invoice export shows stale total,general
+500274,CUST-0063,2026-08-27 10:58:00,2026-08-28 07:56:00,3,4,P4,phone,closed,Webhook delivery delayed,general
+500275,CUST-0002,2026-08-27 15:05:00,,2,4,P4,portal,new,Mobile session closes unexpectedly,general
+500276,CUST-0013,2026-08-27 20:12:00,2026-08-28 18:44:00,1,3,P3,email,closed,Role change not reflected,general
+500277,CUST-0024,2026-08-28 01:19:00,2026-08-29 00:38:00,6,4,P4,chat,resolved,Attachment preview unavailable,general
+500278,CUST-0035,2026-08-28 06:26:00,2026-08-29 06:32:00,5,4,P4,phone,closed,Search filters reset,general
+500279,CUST-0046,2026-08-28 11:33:00,2026-08-29 12:26:00,4,2,P2,portal,resolved,Scheduled report missing,general
+500280,CUST-0057,2026-08-28 16:40:00,,3,4,P4,email,pending,Login loop after password reset,auth|mobile
+500281,CUST-0068,2026-08-28 21:47:00,2026-08-30 00:14:00,2,4,P4,chat,resolved,Invoice export shows stale total,general
+500282,CUST-0007,2026-08-29 02:54:00,2026-08-30 06:08:00,1,3,P3,phone,closed,Webhook delivery delayed,general
+500283,CUST-0018,2026-08-29 07:01:00,2026-08-30 11:02:00,6,4,P4,portal,resolved,Mobile session closes unexpectedly,general
+500284,CUST-0029,2026-08-29 12:08:00,2026-08-30 16:56:00,5,4,P4,email,closed,Role change not reflected,general
+500285,CUST-0040,2026-08-29 17:15:00,,4,3,P3,chat,open,Attachment preview unavailable,general
+500286,CUST-0051,2026-08-29 22:22:00,,3,4,P4,phone,new,Search filters reset,general
+500287,CUST-0062,2026-08-30 03:29:00,,2,4,P4,portal,pending,Scheduled report missing,general
+500288,CUST-0001,2026-08-30 08:36:00,2026-08-31 16:32:00,1,2,P2,email,closed,Login loop after password reset,auth|mobile

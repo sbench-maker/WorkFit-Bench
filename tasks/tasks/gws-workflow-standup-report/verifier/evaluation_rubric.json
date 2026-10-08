@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__agenda_accuracy",
+      "title": "Today's attended agenda and conflicts",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The agenda contains exactly the eligible report-day meetings with correct core details, chronological ordering, and evidence-based timed conflict flags.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__open_work_accuracy",
+      "title": "Still-open work and risk flags",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All and only actionable Tasks records appear with correct core facts, while overdue and blocked items are explicitly and correctly flagged.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_open_work_accuracy"
+      ]
+    },
+    {
+      "id": "completion__rollup_consistency",
+      "title": "Headline and owner/priority rollup consistency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Headline meeting/open/risk counts and owner- and priority-level task summaries reconcile with the eligible source records and report details.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_rollup_consistency"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__agenda_accuracy",
+        "title": "Today's attended agenda and conflicts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__open_work_accuracy",
+        "title": "Still-open work and risk flags",
+        "required_score": 10
+      },
+      {
+        "id": "completion__rollup_consistency",
+        "title": "Headline and owner/priority rollup consistency",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "slug": "atlas-search",
+      "display_name": "Atlas Search",
+      "aliases": [
+        "Atlas",
+        " ATLAS  search ",
+        "atlas_search"
+      ]
+    },
+    {
+      "slug": "beacon-billing",
+      "display_name": "Beacon Billing",
+      "aliases": [
+        "Beacon",
+        "BEACON billing",
+        "beacon_billing"
+      ]
+    },
+    {
+      "slug": "cedar-identity",
+      "display_name": "Cedar Identity",
+      "aliases": [
+        "Cedar",
+        " cedar  identity ",
+        "cedar_identity"
+      ]
+    },
+    {
+      "slug": "nimbus-deploy",
+      "display_name": "Nimbus Deploy",
+      "aliases": [
+        "Nimbus",
+        "NIMBUS deploy",
+        "nimbus_deploy"
+      ]
+    },
+    {
+      "slug": "quartz-analytics",
+      "display_name": "Quartz Analytics",
+      "aliases": [
+        "Quartz",
+        " quartz  analytics ",
+        "quartz_analytics"
+      ]
+    },
+    {
+      "slug": "river-mobile",
+      "display_name": "River Mobile",
+      "aliases": [
+        "River",
+        "RIVER mobile",
+        "river_mobile"
+      ]
+    }
+  ]
+}

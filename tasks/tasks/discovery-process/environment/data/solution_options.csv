@@ -1,0 +1,4 @@
+solution_id,solution_name,addresses_theme_ids,estimated_delivery_weeks,scalability,main_assumption,experiment_status
+S1,Guided import recovery,T_VALIDATION|T_TEMPLATE,4,high,Field-level errors and a repair file let first-time admins recover unaided.,completed
+S2,Concierge import service,T_VALIDATION|T_TEMPLATE|T_PERMISSIONS,2,low,Operations capacity can absorb manual imports without slowing launches.,not_tested
+S3,In-product spreadsheet editor,T_VALIDATION|T_TEMPLATE,12,high,Admins prefer editing every invalid cell inside the product.,not_tested

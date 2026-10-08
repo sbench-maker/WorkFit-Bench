@@ -1,0 +1,29 @@
+{
+  "method": "deterministic fictional construction",
+  "row_count": 240,
+  "capability_counts": {
+    "CAP-BASE": 46,
+    "CAP-CARRIER": 48,
+    "CAP-DASH": 36,
+    "CAP-HIGH": 28,
+    "CAP-REG": 24,
+    "CAP-INT": 18,
+    "CAP-BULK": 16,
+    "CAP-PERF": 14,
+    "CAP-ATTACH": 10
+  },
+  "route_counts": {
+    "standard_domestic": 112,
+    "high_value_domestic": 48,
+    "regulated_domestic": 24,
+    "international_standard": 24,
+    "international_regulated": 8,
+    "bulk_domestic": 24
+  },
+  "intentional_edge_cases": [
+    "standard domestic returns exactly at the USD 500 auto-approval boundary",
+    "regulated returns below USD 500 that still require compliance override",
+    "bulk requests exactly at the 10-line CSV threshold",
+    "international regulated cases requiring both customs and compliance handling"
+  ]
+}

@@ -1,0 +1,7 @@
+resource_id,resource,capacity,setup_days,measurable_behavior,restrictions
+R01,Instrumented clickable prototype,36,2,task starts; completions; abandonment step; elapsed time,adult research panel; no production release; synthetic content
+R02,Sandbox fake door,300,3,feature entry; intent click; next-step completion,demo accounts only; no live customer traffic
+R03,Moderated workflow simulation,12,2,task completion; errors; time on task; workaround used,fictional cases; no sensitive records
+R04,Constrained-device lab,20,3,upload completion; retries; elapsed time; bytes transferred,lab devices; synthetic media; network can be throttled
+R05,Concierge sandbox pilot,8,5,repeated use; queue resolution; return rate; handoff completion,research tenants only; no production data
+R06,Simulated checkout,80,3,plan selection; checkout start; confirmation click,display test-mode notice; capture no payment details

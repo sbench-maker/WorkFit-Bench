@@ -1,0 +1,478 @@
+activity_id,contact_id,occurred_at,activity_type,initiated_by,channel,detail
+ACT-00002,C-0001,2026-07-15,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00001,C-0001,2026-08-21,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00005,C-0002,2026-05-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00004,C-0002,2026-07-04,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00003,C-0002,2026-08-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00006,C-0003,2026-07-30,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00008,C-0004,2026-06-12,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00007,C-0004,2026-07-19,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00011,C-0005,2026-04-25,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00010,C-0005,2026-06-01,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00009,C-0005,2026-07-08,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00012,C-0006,2026-06-27,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00466,C-0007,2026-08-14,Event attended,Contact Initiated,Event,Joined the enterprise security roundtable.
+ACT-00465,C-0007,2026-08-27,Community reply,Contact Initiated,Community,Replied to a thread about audit retention policy.
+ACT-00014,C-0008,2026-04-29,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00013,C-0008,2026-06-05,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00015,C-0008,2026-08-20,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00016,C-0009,2026-05-25,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00018,C-0010,2026-04-07,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00017,C-0010,2026-05-14,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00019,C-0011,2026-05-03,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00021,C-0011,2026-07-18,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00020,C-0011,2026-08-24,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00022,C-0012,2026-04-22,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00023,C-0013,2026-04-11,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00024,C-0013,2026-08-02,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00027,C-0014,2026-06-15,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00026,C-0014,2026-07-22,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00025,C-0014,2026-08-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00028,C-0015,2026-08-17,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00030,C-0016,2026-06-30,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00029,C-0016,2026-08-06,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00033,C-0017,2026-05-13,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00032,C-0017,2026-06-19,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00031,C-0017,2026-07-26,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00034,C-0018,2026-07-15,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00036,C-0019,2026-05-28,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00035,C-0019,2026-07-04,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00039,C-0020,2026-04-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00038,C-0020,2026-05-17,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00037,C-0020,2026-06-23,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00040,C-0021,2026-06-12,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00042,C-0022,2026-04-25,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00041,C-0022,2026-06-01,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00044,C-0023,2026-04-14,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00043,C-0023,2026-05-21,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00045,C-0023,2026-08-05,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00046,C-0024,2026-05-10,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00047,C-0025,2026-04-29,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00048,C-0025,2026-08-20,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00049,C-0026,2026-04-18,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00051,C-0026,2026-07-03,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00050,C-0026,2026-08-09,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00052,C-0027,2026-04-07,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00054,C-0028,2026-07-18,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00053,C-0028,2026-08-24,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00057,C-0029,2026-05-31,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00056,C-0029,2026-07-07,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00055,C-0029,2026-08-13,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00058,C-0030,2026-08-02,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00060,C-0031,2026-06-15,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00059,C-0031,2026-07-22,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00063,C-0032,2026-04-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00062,C-0032,2026-06-04,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00061,C-0032,2026-07-11,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00064,C-0033,2026-06-30,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00066,C-0034,2026-05-13,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00065,C-0034,2026-06-19,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00068,C-0035,2026-05-02,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00067,C-0035,2026-06-08,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00069,C-0035,2026-08-23,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00070,C-0036,2026-05-28,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00468,C-0037,2026-06-23,Support ticket,Contact Initiated,Support,Asked about regional data residency.
+ACT-00467,C-0037,2026-07-18,Product event,Contact Initiated,Product,Completed an identity provider sandbox connection.
+ACT-00071,C-0038,2026-05-06,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00073,C-0038,2026-07-21,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00072,C-0038,2026-08-27,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00074,C-0039,2026-04-25,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00075,C-0040,2026-04-14,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00076,C-0040,2026-08-05,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00079,C-0041,2026-06-18,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00078,C-0041,2026-07-25,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00077,C-0041,2026-08-31,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00080,C-0042,2026-08-20,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00462,C-0043,2026-06-30,Documentation feedback,Contact Initiated,Docs,Suggested a clearer example for custom role mappings.
+ACT-00461,C-0043,2026-07-03,Support ticket,Contact Initiated,Support,Requested guidance on SSO rollout sequencing across three subsidiaries.
+ACT-00460,C-0043,2026-07-24,Event attended,Contact Initiated,Event,Attended identity governance office hours and asked about exporting audit evidence.
+ACT-00459,C-0043,2026-07-31,Community post,Contact Initiated,Community,Asked how SCIM group mapping handles nested groups during an identity rollout.
+ACT-00463,C-0043,2026-08-30,Sales follow-up,Team Initiated,Email,Account executive sent a technical validation recap.
+ACT-00464,C-0043,2026-08-31,Meeting outreach,Team Initiated,CRM,Solutions engineer proposed times for an architecture review.
+ACT-00083,C-0044,2026-05-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00082,C-0044,2026-06-22,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00081,C-0044,2026-07-29,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00084,C-0045,2026-07-18,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00086,C-0046,2026-05-31,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00085,C-0046,2026-07-07,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00089,C-0047,2026-04-13,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00088,C-0047,2026-05-20,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00087,C-0047,2026-06-26,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00090,C-0048,2026-06-15,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00092,C-0049,2026-04-28,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00091,C-0049,2026-06-04,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00094,C-0050,2026-04-17,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00093,C-0050,2026-05-24,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00095,C-0050,2026-08-08,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00096,C-0051,2026-05-13,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00097,C-0052,2026-05-02,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00098,C-0052,2026-08-23,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00099,C-0053,2026-04-21,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00101,C-0053,2026-07-06,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00100,C-0053,2026-08-12,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00102,C-0054,2026-04-10,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00104,C-0055,2026-07-21,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00103,C-0055,2026-08-27,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00107,C-0056,2026-06-03,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00106,C-0056,2026-07-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00105,C-0056,2026-08-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00108,C-0057,2026-08-05,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00110,C-0058,2026-06-18,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00109,C-0058,2026-07-25,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00113,C-0059,2026-05-01,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00112,C-0059,2026-06-07,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00111,C-0059,2026-07-14,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00114,C-0060,2026-07-03,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00116,C-0061,2026-05-16,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00115,C-0061,2026-06-22,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00118,C-0062,2026-05-05,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00117,C-0062,2026-06-11,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00119,C-0062,2026-08-26,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00120,C-0063,2026-05-31,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00122,C-0064,2026-04-13,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00121,C-0064,2026-05-20,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00123,C-0065,2026-05-09,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00125,C-0065,2026-07-24,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00124,C-0065,2026-08-30,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00126,C-0066,2026-04-28,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00470,C-0067,2026-05-12,Email reply,Contact Initiated,Email,Acknowledged receipt of the master services agreement.
+ACT-00469,C-0067,2026-09-01,Sales email,Team Initiated,Email,Account executive sent procurement documentation.
+ACT-00127,C-0068,2026-04-06,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00129,C-0068,2026-06-21,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00128,C-0068,2026-07-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00130,C-0069,2026-08-23,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00132,C-0070,2026-07-06,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00131,C-0070,2026-08-12,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00135,C-0071,2026-05-19,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00134,C-0071,2026-06-25,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00133,C-0071,2026-08-01,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00136,C-0072,2026-07-21,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00138,C-0073,2026-06-03,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00137,C-0073,2026-07-10,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00141,C-0074,2026-04-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00140,C-0074,2026-05-23,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00139,C-0074,2026-06-29,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00142,C-0075,2026-06-18,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00144,C-0076,2026-05-01,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00143,C-0076,2026-06-07,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00146,C-0077,2026-04-20,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00145,C-0077,2026-05-27,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00147,C-0077,2026-08-11,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00148,C-0078,2026-05-16,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00149,C-0079,2026-05-05,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00150,C-0079,2026-08-26,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00151,C-0080,2026-04-24,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00153,C-0080,2026-07-09,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00152,C-0080,2026-08-15,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00154,C-0081,2026-04-13,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00156,C-0082,2026-07-24,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00155,C-0082,2026-08-30,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00159,C-0083,2026-06-06,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00158,C-0083,2026-07-13,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00157,C-0083,2026-08-19,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00160,C-0084,2026-08-08,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00162,C-0085,2026-06-21,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00161,C-0085,2026-07-28,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00165,C-0086,2026-05-04,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00164,C-0086,2026-06-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00163,C-0086,2026-07-17,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00166,C-0087,2026-07-06,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00168,C-0088,2026-05-19,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00167,C-0088,2026-06-25,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00170,C-0089,2026-05-08,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00169,C-0089,2026-06-14,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00171,C-0089,2026-08-29,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00172,C-0090,2026-06-03,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00174,C-0091,2026-04-16,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00173,C-0091,2026-05-23,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00176,C-0092,2026-04-05,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00175,C-0092,2026-05-12,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00177,C-0092,2026-07-27,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00178,C-0093,2026-05-01,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00179,C-0094,2026-04-20,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00180,C-0094,2026-08-11,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00181,C-0095,2026-04-09,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00183,C-0095,2026-06-24,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00182,C-0095,2026-07-31,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00184,C-0096,2026-08-26,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00473,C-0097,2026-05-29,Product event,Contact Initiated,Product,Viewed a workspace administration walkthrough.
+ACT-00187,C-0098,2026-05-22,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00186,C-0098,2026-06-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00185,C-0098,2026-08-04,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00188,C-0099,2026-07-24,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00190,C-0100,2026-06-06,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00189,C-0100,2026-07-13,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00471,C-0101,2026-08-28,Community post,Contact Initiated,Community,Asked about streaming ingestion throughput.
+ACT-00191,C-0102,2026-06-21,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00193,C-0103,2026-05-04,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00192,C-0103,2026-06-10,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00195,C-0104,2026-04-23,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00194,C-0104,2026-05-30,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00196,C-0104,2026-08-14,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00197,C-0105,2026-05-19,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00198,C-0106,2026-05-08,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00199,C-0106,2026-08-29,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00200,C-0107,2026-04-27,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00202,C-0107,2026-07-12,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00201,C-0107,2026-08-18,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00203,C-0108,2026-04-16,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00204,C-0109,2026-04-05,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00205,C-0109,2026-07-27,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00208,C-0110,2026-06-09,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00207,C-0110,2026-07-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00206,C-0110,2026-08-22,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00209,C-0111,2026-08-11,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00211,C-0112,2026-06-24,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00210,C-0112,2026-07-31,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00214,C-0113,2026-05-07,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00213,C-0113,2026-06-13,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00212,C-0113,2026-07-20,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00215,C-0114,2026-07-09,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00217,C-0115,2026-05-22,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00216,C-0115,2026-06-28,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00219,C-0116,2026-05-11,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00218,C-0116,2026-06-17,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00220,C-0116,2026-09-01,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00221,C-0117,2026-06-06,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00223,C-0118,2026-04-19,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00222,C-0118,2026-05-26,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00225,C-0119,2026-04-08,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00224,C-0119,2026-05-15,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00226,C-0119,2026-07-30,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00227,C-0120,2026-05-04,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00228,C-0121,2026-04-23,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00229,C-0121,2026-08-14,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00230,C-0122,2026-04-12,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00232,C-0122,2026-06-27,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00231,C-0122,2026-08-03,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00233,C-0123,2026-08-29,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00235,C-0124,2026-07-12,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00234,C-0124,2026-08-18,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00238,C-0125,2026-05-25,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00237,C-0125,2026-07-01,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00236,C-0125,2026-08-07,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00239,C-0126,2026-07-27,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00474,C-0127,2026-05-29,Product event,Contact Initiated,Product,Viewed a workspace administration walkthrough.
+ACT-00242,C-0128,2026-04-22,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00241,C-0128,2026-05-29,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00240,C-0128,2026-07-05,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00243,C-0129,2026-06-24,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00245,C-0130,2026-05-07,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00244,C-0130,2026-06-13,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00247,C-0131,2026-04-26,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00246,C-0131,2026-06-02,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00248,C-0131,2026-08-17,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00249,C-0132,2026-05-22,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00250,C-0133,2026-05-11,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00251,C-0133,2026-09-01,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00252,C-0134,2026-04-30,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00254,C-0134,2026-07-15,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00253,C-0134,2026-08-21,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00255,C-0135,2026-04-19,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00256,C-0136,2026-04-08,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00257,C-0136,2026-07-30,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00260,C-0137,2026-06-12,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00259,C-0137,2026-07-19,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00258,C-0137,2026-08-25,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00261,C-0138,2026-08-14,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00263,C-0139,2026-06-27,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00262,C-0139,2026-08-03,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00266,C-0140,2026-05-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00265,C-0140,2026-06-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00264,C-0140,2026-07-23,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00267,C-0141,2026-07-12,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00269,C-0142,2026-05-25,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00268,C-0142,2026-07-01,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00272,C-0143,2026-04-07,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00271,C-0143,2026-05-14,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00270,C-0143,2026-06-20,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00273,C-0144,2026-06-09,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00275,C-0145,2026-04-22,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00274,C-0145,2026-05-29,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00277,C-0146,2026-04-11,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00276,C-0146,2026-05-18,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00278,C-0146,2026-08-02,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00279,C-0147,2026-05-07,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00280,C-0148,2026-04-26,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00281,C-0148,2026-08-17,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00282,C-0149,2026-04-15,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00284,C-0149,2026-06-30,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00283,C-0149,2026-08-06,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00285,C-0150,2026-09-01,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00287,C-0151,2026-07-15,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00286,C-0151,2026-08-21,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00290,C-0152,2026-05-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00289,C-0152,2026-07-04,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00288,C-0152,2026-08-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00291,C-0153,2026-07-30,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00293,C-0154,2026-06-12,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00292,C-0154,2026-07-19,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00296,C-0155,2026-04-25,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00295,C-0155,2026-06-01,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00294,C-0155,2026-07-08,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00297,C-0156,2026-06-27,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00475,C-0157,2026-05-29,Product event,Contact Initiated,Product,Viewed a workspace administration walkthrough.
+ACT-00299,C-0158,2026-04-29,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00298,C-0158,2026-06-05,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00300,C-0158,2026-08-20,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00301,C-0159,2026-05-25,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00303,C-0160,2026-04-07,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00302,C-0160,2026-05-14,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00304,C-0161,2026-05-03,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00306,C-0161,2026-07-18,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00305,C-0161,2026-08-24,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00307,C-0162,2026-04-22,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00308,C-0163,2026-04-11,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00309,C-0163,2026-08-02,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00312,C-0164,2026-06-15,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00311,C-0164,2026-07-22,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00310,C-0164,2026-08-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00313,C-0165,2026-08-17,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00315,C-0166,2026-06-30,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00314,C-0166,2026-08-06,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00318,C-0167,2026-05-13,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00317,C-0167,2026-06-19,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00316,C-0167,2026-07-26,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00319,C-0168,2026-07-15,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00321,C-0169,2026-05-28,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00320,C-0169,2026-07-04,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00324,C-0170,2026-04-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00323,C-0170,2026-05-17,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00322,C-0170,2026-06-23,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00325,C-0171,2026-06-12,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00327,C-0172,2026-04-25,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00326,C-0172,2026-06-01,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00329,C-0173,2026-04-14,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00328,C-0173,2026-05-21,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00330,C-0173,2026-08-05,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00472,C-0174,2026-08-18,Support ticket,Contact Initiated,Support,Asked about build cache configuration.
+ACT-00331,C-0175,2026-04-29,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00332,C-0175,2026-08-20,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00333,C-0176,2026-04-18,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00335,C-0176,2026-07-03,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00334,C-0176,2026-08-09,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00336,C-0177,2026-04-07,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00338,C-0178,2026-07-18,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00337,C-0178,2026-08-24,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00341,C-0179,2026-05-31,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00340,C-0179,2026-07-07,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00339,C-0179,2026-08-13,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00342,C-0180,2026-08-02,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00344,C-0181,2026-06-15,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00343,C-0181,2026-07-22,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00347,C-0182,2026-04-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00346,C-0182,2026-06-04,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00345,C-0182,2026-07-11,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00348,C-0183,2026-06-30,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00350,C-0184,2026-05-13,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00349,C-0184,2026-06-19,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00352,C-0185,2026-05-02,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00351,C-0185,2026-06-08,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00353,C-0185,2026-08-23,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00354,C-0186,2026-05-28,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00476,C-0187,2026-05-29,Product event,Contact Initiated,Product,Viewed a workspace administration walkthrough.
+ACT-00355,C-0188,2026-05-06,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00357,C-0188,2026-07-21,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00356,C-0188,2026-08-27,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00358,C-0189,2026-04-25,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00359,C-0190,2026-04-14,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00360,C-0190,2026-08-05,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00363,C-0191,2026-06-18,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00362,C-0191,2026-07-25,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00361,C-0191,2026-08-31,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00364,C-0192,2026-08-20,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00366,C-0193,2026-07-03,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00365,C-0193,2026-08-09,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00369,C-0194,2026-05-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00368,C-0194,2026-06-22,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00367,C-0194,2026-07-29,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00370,C-0195,2026-07-18,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00372,C-0196,2026-05-31,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00371,C-0196,2026-07-07,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00375,C-0197,2026-04-13,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00374,C-0197,2026-05-20,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00373,C-0197,2026-06-26,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00376,C-0198,2026-06-15,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00378,C-0199,2026-04-28,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00377,C-0199,2026-06-04,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00380,C-0200,2026-04-17,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00379,C-0200,2026-05-24,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00381,C-0200,2026-08-08,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00382,C-0201,2026-05-13,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00383,C-0202,2026-05-02,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00384,C-0202,2026-08-23,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00385,C-0203,2026-04-21,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00387,C-0203,2026-07-06,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00386,C-0203,2026-08-12,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00388,C-0204,2026-04-10,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00390,C-0205,2026-07-21,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00389,C-0205,2026-08-27,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00393,C-0206,2026-06-03,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00392,C-0206,2026-07-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00391,C-0206,2026-08-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00394,C-0207,2026-08-05,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00396,C-0208,2026-06-18,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00395,C-0208,2026-07-25,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00399,C-0209,2026-05-01,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00398,C-0209,2026-06-07,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00397,C-0209,2026-07-14,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00400,C-0210,2026-07-03,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00402,C-0211,2026-05-16,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00401,C-0211,2026-06-22,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00404,C-0212,2026-05-05,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00403,C-0212,2026-06-11,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00405,C-0212,2026-08-26,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00406,C-0213,2026-05-31,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00408,C-0214,2026-04-13,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00407,C-0214,2026-05-20,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00409,C-0215,2026-05-09,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00411,C-0215,2026-07-24,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00410,C-0215,2026-08-30,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00412,C-0216,2026-04-28,Community post,Team Initiated,Community,Asked about deployment controls in the community.
+ACT-00477,C-0217,2026-05-29,Product event,Contact Initiated,Product,Viewed a workspace administration walkthrough.
+ACT-00413,C-0218,2026-04-06,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00415,C-0218,2026-06-21,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00414,C-0218,2026-07-28,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00416,C-0219,2026-08-23,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00418,C-0220,2026-07-06,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00417,C-0220,2026-08-12,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00421,C-0221,2026-05-19,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00420,C-0221,2026-06-25,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00419,C-0221,2026-08-01,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00422,C-0222,2026-07-21,Support ticket,Team Initiated,Support,Opened a support request about workspace permissions.
+ACT-00424,C-0223,2026-06-03,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00423,C-0223,2026-07-10,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00427,C-0224,2026-04-16,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00426,C-0224,2026-05-23,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00425,C-0224,2026-06-29,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00428,C-0225,2026-06-18,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00430,C-0226,2026-05-01,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00429,C-0226,2026-06-07,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00432,C-0227,2026-04-20,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00431,C-0227,2026-05-27,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00433,C-0227,2026-08-11,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00434,C-0228,2026-05-16,Documentation feedback,Team Initiated,Docs,Commented on an integration guide.
+ACT-00435,C-0229,2026-05-05,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00436,C-0229,2026-08-26,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00437,C-0230,2026-04-24,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00439,C-0230,2026-07-09,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00438,C-0230,2026-08-15,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00440,C-0231,2026-04-13,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00442,C-0232,2026-07-24,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00441,C-0232,2026-08-30,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00445,C-0233,2026-06-06,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00444,C-0233,2026-07-13,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00443,C-0233,2026-08-19,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00446,C-0234,2026-08-08,Event attended,Team Initiated,Event,Attended the platform reliability briefing.
+ACT-00448,C-0235,2026-06-21,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00447,C-0235,2026-07-28,Product event,Contact Initiated,Product,Joined a product onboarding session.
+ACT-00451,C-0236,2026-05-04,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00450,C-0236,2026-06-10,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00449,C-0236,2026-07-17,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00452,C-0237,2026-07-06,Support ticket,Contact Initiated,Support,Opened a support request about workspace permissions.
+ACT-00454,C-0238,2026-05-19,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00453,C-0238,2026-06-25,Documentation feedback,Contact Initiated,Docs,Commented on an integration guide.
+ACT-00456,C-0239,2026-05-08,Product event,Team Initiated,Product,Joined a product onboarding session.
+ACT-00455,C-0239,2026-06-14,Event attended,Contact Initiated,Event,Attended the platform reliability briefing.
+ACT-00457,C-0239,2026-08-29,Community post,Contact Initiated,Community,Asked about deployment controls in the community.
+ACT-00458,C-0240,2026-06-03,Product event,Team Initiated,Product,Joined a product onboarding session.

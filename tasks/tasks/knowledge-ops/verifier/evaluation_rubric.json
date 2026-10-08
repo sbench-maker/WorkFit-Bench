@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__consolidation_scope",
+      "title": "Canonical topic coverage and provenance",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The artifact has exactly one consolidated record for every canonical topic and preserves every contributing source record ID on that topic.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_catalog_scope_and_provenance"
+      ]
+    },
+    {
+      "id": "completion__authoritative_resolution",
+      "title": "Authoritative values and canonical homes",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Non-conflicted topics retain the correct field-level values under source authority and recency, and every topic is assigned to the policy-defined canonical layer.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_authoritative_values_and_storage"
+      ]
+    },
+    {
+      "id": "completion__sync_decisions",
+      "title": "Safe sync actions and conflict evidence",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Create, update, noop, and review decisions agree with current target state; all and only blocked topics enter review with the relevant conflicting source or target IDs retained.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_sync_actions_and_conflict_evidence"
+      ]
+    },
+    {
+      "id": "completion__navigation_safety",
+      "title": "Safe text, relationships, and navigation index",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Credential markers are redacted, cross-references are correctly merged, and the project/kind topic index is complete and consistent with the catalog.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_redaction_relationships_and_index"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__consolidation_scope",
+        "title": "Canonical topic coverage and provenance",
+        "required_score": 10
+      },
+      {
+        "id": "completion__authoritative_resolution",
+        "title": "Authoritative values and canonical homes",
+        "required_score": 10
+      },
+      {
+        "id": "completion__sync_decisions",
+        "title": "Safe sync actions and conflict evidence",
+        "required_score": 10
+      },
+      {
+        "id": "completion__navigation_safety",
+        "title": "Safe text, relationships, and navigation index",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

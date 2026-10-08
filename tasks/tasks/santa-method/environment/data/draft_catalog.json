@@ -1,0 +1,3691 @@
+{
+  "catalog_name": "Nimbus SDK v7 Migration Catalog",
+  "release_version": "7.0.0",
+  "publication_state": "generated_draft",
+  "entries": [
+    {
+      "change_id": "CHG-0001",
+      "component": "auth",
+      "change_type": "rename",
+      "legacy_symbol": "auth.legacy_001",
+      "replacement_symbol": "auth.v7_001",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from auth.legacy_001 --to auth.v7_001",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace auth.legacy_001 with auth.v7_001 before upgrading."
+    },
+    {
+      "change_id": "CHG-0002",
+      "component": "cache",
+      "change_type": "rename",
+      "legacy_symbol": "cache.legacy_002",
+      "replacement_symbol": "cache.v7_002",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from cache.legacy_002 --to cache.v7_002",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Replace cache.legacy_002 with cache.v7_002 before upgrading."
+    },
+    {
+      "change_id": "CHG-0003",
+      "component": "events",
+      "change_type": "rename",
+      "legacy_symbol": "events.legacy_003",
+      "replacement_symbol": "events.v7_003",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from events.legacy_003 --to events.v7_003",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace events.legacy_003 with events.v7_003 before upgrading."
+    },
+    {
+      "change_id": "CHG-0004",
+      "component": "files",
+      "change_type": "rename",
+      "legacy_symbol": "files.legacy_004",
+      "replacement_symbol": "files.v7_004",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from files.legacy_004 --to files.v7_004",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace files.legacy_004 with files.v7_004 before upgrading."
+    },
+    {
+      "change_id": "CHG-0005",
+      "component": "jobs",
+      "change_type": "rename",
+      "legacy_symbol": "jobs.legacy_005",
+      "replacement_symbol": "jobs.v7_005",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from jobs.legacy_005 --to jobs.v7_005",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace jobs.legacy_005 with jobs.v7_005 before upgrading."
+    },
+    {
+      "change_id": "CHG-0006",
+      "component": "metrics",
+      "change_type": "rename",
+      "legacy_symbol": "metrics.legacy_006",
+      "replacement_symbol": "metrics.v7_006",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from metrics.legacy_006 --to metrics.v7_006",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace metrics.legacy_006 with metrics.v7_006 before upgrading."
+    },
+    {
+      "change_id": "CHG-0007",
+      "component": "streams",
+      "change_type": "rename",
+      "legacy_symbol": "streams.legacy_007",
+      "replacement_symbol": "streams.v7_007",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from streams.legacy_007 --to streams.v7_007",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace streams.legacy_007 with streams.v7_007 before upgrading."
+    },
+    {
+      "change_id": "CHG-0008",
+      "component": "webhooks",
+      "change_type": "rename",
+      "legacy_symbol": "webhooks.legacy_008",
+      "replacement_symbol": "webhooks.v7_008",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from webhooks.legacy_008 --to webhooks.v7_008",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace webhooks.legacy_008 with webhooks.v7_008 before upgrading."
+    },
+    {
+      "change_id": "CHG-0009",
+      "component": "auth",
+      "change_type": "removal",
+      "legacy_symbol": "auth.legacy_009",
+      "replacement_symbol": "auth.v7_009",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol auth.legacy_009 --use auth.v7_009",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to auth.legacy_009 and use auth.v7_009."
+    },
+    {
+      "change_id": "CHG-0010",
+      "component": "cache",
+      "change_type": "removal",
+      "legacy_symbol": "cache.legacy_010",
+      "replacement_symbol": "cache.v7_010",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol cache.legacy_010 --use cache.v7_010",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Remove calls to cache.legacy_010 and use cache.v7_010."
+    },
+    {
+      "change_id": "CHG-0011",
+      "component": "events",
+      "change_type": "removal",
+      "legacy_symbol": "events.legacy_011",
+      "replacement_symbol": "events.v7_011",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol events.legacy_011 --use events.v7_011",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to events.legacy_011 and use events.v7_011."
+    },
+    {
+      "change_id": "CHG-0012",
+      "component": "files",
+      "change_type": "removal",
+      "legacy_symbol": "files.legacy_012",
+      "replacement_symbol": "files.v7_012",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol files.legacy_012 --use files.v7_012",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to files.legacy_012 and use files.v7_012."
+    },
+    {
+      "change_id": "CHG-0013",
+      "component": "jobs",
+      "change_type": "removal",
+      "legacy_symbol": "jobs.legacy_013",
+      "replacement_symbol": "jobs.v7_013",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol jobs.legacy_013 --use jobs.v7_013",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to jobs.legacy_013 and use jobs.v7_013."
+    },
+    {
+      "change_id": "CHG-0014",
+      "component": "metrics",
+      "change_type": "removal",
+      "legacy_symbol": "metrics.legacy_014",
+      "replacement_symbol": "metrics.v7_014",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol metrics.legacy_014 --use metrics.v7_014",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to metrics.legacy_014 and use metrics.v7_014."
+    },
+    {
+      "change_id": "CHG-0015",
+      "component": "streams",
+      "change_type": "removal",
+      "legacy_symbol": "streams.legacy_015",
+      "replacement_symbol": "streams.v7_015",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol streams.legacy_015 --use streams.v7_015",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to streams.legacy_015 and use streams.v7_015."
+    },
+    {
+      "change_id": "CHG-0016",
+      "component": "webhooks",
+      "change_type": "removal",
+      "legacy_symbol": "webhooks.legacy_016",
+      "replacement_symbol": "webhooks.v7_016",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol webhooks.legacy_016 --use webhooks.v7_016",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to webhooks.legacy_016 and use webhooks.v7_016."
+    },
+    {
+      "change_id": "CHG-0017",
+      "component": "auth",
+      "change_type": "default_change",
+      "legacy_symbol": "auth.legacy_017",
+      "replacement_symbol": "auth.v7_017",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0017",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 7,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Set auth.v7_017.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0018",
+      "component": "cache",
+      "change_type": "default_change",
+      "legacy_symbol": "cache.legacy_018",
+      "replacement_symbol": "cache.v7_018",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set cache.v7_018.retry_limit=2",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 2,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set cache.v7_018.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0019",
+      "component": "events",
+      "change_type": "default_change",
+      "legacy_symbol": "events.legacy_019",
+      "replacement_symbol": "events.v7_019",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set events.v7_019.retry_limit=3",
+      "supported_regions": [
+        "ap-northeast",
+        "eu-west",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": false,
+      "retry_limit": 3,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set events.v7_019.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0020",
+      "component": "files",
+      "change_type": "default_change",
+      "legacy_symbol": "files.legacy_020",
+      "replacement_symbol": "files.v7_020",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set files.v7_020.retry_limit=4",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 4,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Set files.v7_020.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0021",
+      "component": "jobs",
+      "change_type": "default_change",
+      "legacy_symbol": "jobs.legacy_021",
+      "replacement_symbol": "jobs.v7_021",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set jobs.v7_021.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 5,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set jobs.v7_021.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0022",
+      "component": "metrics",
+      "change_type": "default_change",
+      "legacy_symbol": "metrics.legacy_022",
+      "replacement_symbol": "metrics.v7_022",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set metrics.v7_022.retry_limit=6",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 6,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Set metrics.v7_022.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0023",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_023",
+      "replacement_symbol": "streams.v7_023",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set streams.v7_023.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set streams.v7_023.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0024",
+      "component": "webhooks",
+      "change_type": "default_change",
+      "legacy_symbol": "webhooks.legacy_024",
+      "replacement_symbol": "webhooks.v7_024",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set webhooks.v7_024.retry_limit=2",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 2,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Set webhooks.v7_024.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0025",
+      "component": "auth",
+      "change_type": "permission_change",
+      "legacy_symbol": "auth.legacy_025",
+      "replacement_symbol": "auth.v7_025",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant auth.v7_025 --scope auth",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the auth.v7_025 permission in the auth scope."
+    },
+    {
+      "change_id": "CHG-0026",
+      "component": "cache",
+      "change_type": "permission_change",
+      "legacy_symbol": "cache.legacy_026",
+      "replacement_symbol": "cache.v7_026",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant cache.v7_026 --scope cache",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Grant the cache.v7_026 permission in the cache scope."
+    },
+    {
+      "change_id": "CHG-0027",
+      "component": "events",
+      "change_type": "permission_change",
+      "legacy_symbol": "events.legacy_027",
+      "replacement_symbol": "events.v7_027",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant events.v7_027 --scope events",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the events.v7_027 permission in the events scope."
+    },
+    {
+      "change_id": "CHG-0028",
+      "component": "files",
+      "change_type": "permission_change",
+      "legacy_symbol": "files.legacy_028",
+      "replacement_symbol": "files.v7_028",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant files.v7_028 --scope files",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Grant the files.v7_028 permission in the files scope."
+    },
+    {
+      "change_id": "CHG-0029",
+      "component": "jobs",
+      "change_type": "permission_change",
+      "legacy_symbol": "jobs.legacy_029",
+      "replacement_symbol": "jobs.v7_029",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant jobs.v7_029 --scope jobs",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the jobs.v7_029 permission in the jobs scope."
+    },
+    {
+      "change_id": "CHG-0030",
+      "component": "metrics",
+      "change_type": "permission_change",
+      "legacy_symbol": "metrics.legacy_030",
+      "replacement_symbol": "metrics.v7_030",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant metrics.v7_030 --scope metrics",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Grant the metrics.v7_030 permission in the metrics scope."
+    },
+    {
+      "change_id": "CHG-0031",
+      "component": "streams",
+      "change_type": "permission_change",
+      "legacy_symbol": "streams.legacy_031",
+      "replacement_symbol": "streams.v7_031",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant streams.v7_031 --scope streams",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "See the dashboard for regional availability.",
+      "summary": "Grant the streams.v7_031 permission in the streams scope."
+    },
+    {
+      "change_id": "CHG-0032",
+      "component": "webhooks",
+      "change_type": "permission_change",
+      "legacy_symbol": "webhooks.legacy_032",
+      "replacement_symbol": "webhooks.v7_032",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant webhooks.v7_032 --scope webhooks",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Grant the webhooks.v7_032 permission in the webhooks scope."
+    },
+    {
+      "change_id": "CHG-0033",
+      "component": "auth",
+      "change_type": "rename",
+      "legacy_symbol": "auth.legacy_033",
+      "replacement_symbol": "auth.v7_033",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from auth.legacy_033 --to auth.v7_033",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace auth.legacy_033 with auth.v7_033 before upgrading."
+    },
+    {
+      "change_id": "CHG-0034",
+      "component": "cache",
+      "change_type": "rename",
+      "legacy_symbol": "cache.legacy_034",
+      "replacement_symbol": "cache.v7_034",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0034",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace cache.legacy_034 with cache.v7_034 before upgrading."
+    },
+    {
+      "change_id": "CHG-0035",
+      "component": "events",
+      "change_type": "rename",
+      "legacy_symbol": "events.legacy_035",
+      "replacement_symbol": "events.v7_035",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from events.legacy_035 --to events.v7_035",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace events.legacy_035 with events.v7_035 before upgrading."
+    },
+    {
+      "change_id": "CHG-0036",
+      "component": "files",
+      "change_type": "rename",
+      "legacy_symbol": "files.legacy_036",
+      "replacement_symbol": "files.v7_036",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from files.legacy_036 --to files.v7_036",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace files.legacy_036 with files.v7_036 before upgrading."
+    },
+    {
+      "change_id": "CHG-0037",
+      "component": "jobs",
+      "change_type": "rename",
+      "legacy_symbol": "jobs.legacy_037",
+      "replacement_symbol": "jobs.v7_037",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from jobs.legacy_037 --to jobs.v7_037",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace jobs.legacy_037 with jobs.v7_037 before upgrading. This guarantees zero downtime."
+    },
+    {
+      "change_id": "CHG-0038",
+      "component": "metrics",
+      "change_type": "rename",
+      "legacy_symbol": "metrics.legacy_038",
+      "replacement_symbol": "metrics.v7_038",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from metrics.legacy_038 --to metrics.v7_038",
+      "supported_regions": [
+        "eu-west",
+        "sa-south"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace metrics.legacy_038 with metrics.v7_038 before upgrading."
+    },
+    {
+      "change_id": "CHG-0039",
+      "component": "streams",
+      "change_type": "rename",
+      "legacy_symbol": "streams.legacy_039",
+      "replacement_symbol": "streams.v7_039",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from streams.legacy_039 --to streams.v7_039",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace streams.legacy_039 with streams.v7_039 before upgrading."
+    },
+    {
+      "change_id": "CHG-0040",
+      "component": "webhooks",
+      "change_type": "rename",
+      "legacy_symbol": "webhooks.legacy_040",
+      "replacement_symbol": "webhooks.v7_040",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from webhooks.legacy_040 --to webhooks.v7_040",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Replace webhooks.legacy_040 with webhooks.v7_040 before upgrading."
+    },
+    {
+      "change_id": "CHG-0041",
+      "component": "auth",
+      "change_type": "removal",
+      "legacy_symbol": "auth.legacy_041",
+      "replacement_symbol": "auth.v7_auto_041",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol auth.legacy_041 --use auth.v7_041",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to auth.legacy_041 and use auth.v7_041."
+    },
+    {
+      "change_id": "CHG-0042",
+      "component": "cache",
+      "change_type": "removal",
+      "legacy_symbol": "cache.legacy_042",
+      "replacement_symbol": "cache.v7_042",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol cache.legacy_042 --use cache.v7_042",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Remove calls to cache.legacy_042 and use cache.v7_042."
+    },
+    {
+      "change_id": "CHG-0043",
+      "component": "events",
+      "change_type": "removal",
+      "legacy_symbol": "events.legacy_043",
+      "replacement_symbol": "events.v7_043",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol events.legacy_043 --use events.v7_043",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to events.legacy_043 and use events.v7_043."
+    },
+    {
+      "change_id": "CHG-0044",
+      "component": "files",
+      "change_type": "removal",
+      "legacy_symbol": "files.legacy_044",
+      "replacement_symbol": "files.v7_044",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol files.legacy_044 --use files.v7_044",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to files.legacy_044 and use files.v7_044."
+    },
+    {
+      "change_id": "CHG-0045",
+      "component": "jobs",
+      "change_type": "removal",
+      "legacy_symbol": "jobs.legacy_045",
+      "replacement_symbol": "jobs.v7_045",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol jobs.legacy_045 --use jobs.v7_045",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to jobs.legacy_045 and use jobs.v7_045."
+    },
+    {
+      "change_id": "CHG-0046",
+      "component": "metrics",
+      "change_type": "removal",
+      "legacy_symbol": "metrics.legacy_046",
+      "replacement_symbol": "metrics.v7_046",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol metrics.legacy_046 --use metrics.v7_046",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to metrics.legacy_046 and use metrics.v7_046."
+    },
+    {
+      "change_id": "CHG-0047",
+      "component": "streams",
+      "change_type": "removal",
+      "legacy_symbol": "streams.legacy_047",
+      "replacement_symbol": "streams.v7_047",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol streams.legacy_047 --use streams.v7_047",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to streams.legacy_047 and use streams.v7_047."
+    },
+    {
+      "change_id": "CHG-0048",
+      "component": "webhooks",
+      "change_type": "removal",
+      "legacy_symbol": "webhooks.legacy_048",
+      "replacement_symbol": "webhooks.v7_048",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol webhooks.legacy_048 --use webhooks.v7_048",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to webhooks.legacy_048 and use webhooks.v7_048."
+    },
+    {
+      "change_id": "CHG-0049",
+      "component": "auth",
+      "change_type": "default_change",
+      "legacy_symbol": "auth.legacy_049",
+      "replacement_symbol": "auth.v7_049",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set auth.v7_049.retry_limit=3",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 3,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set auth.v7_049.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0050",
+      "component": "cache",
+      "change_type": "default_change",
+      "legacy_symbol": "cache.legacy_050",
+      "replacement_symbol": "cache.v7_050",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set cache.v7_050.retry_limit=4",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 4,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Set cache.v7_050.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0051",
+      "component": "events",
+      "change_type": "default_change",
+      "legacy_symbol": "events.legacy_051",
+      "replacement_symbol": "events.v7_051",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0051",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 5,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set events.v7_051.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0052",
+      "component": "files",
+      "change_type": "default_change",
+      "legacy_symbol": "files.legacy_052",
+      "replacement_symbol": "files.v7_052",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set files.v7_052.retry_limit=6",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 6,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Set files.v7_052.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0053",
+      "component": "jobs",
+      "change_type": "default_change",
+      "legacy_symbol": "jobs.legacy_053",
+      "replacement_symbol": "jobs.v7_053",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set jobs.v7_053.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set jobs.v7_053.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0054",
+      "component": "metrics",
+      "change_type": "default_change",
+      "legacy_symbol": "metrics.legacy_054",
+      "replacement_symbol": "metrics.v7_054",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set metrics.v7_054.retry_limit=2",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 2,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set metrics.v7_054.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0055",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_055",
+      "replacement_symbol": "streams.v7_055",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set streams.v7_055.retry_limit=3",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 3,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set streams.v7_055.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0056",
+      "component": "webhooks",
+      "change_type": "default_change",
+      "legacy_symbol": "webhooks.legacy_056",
+      "replacement_symbol": "webhooks.v7_056",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set webhooks.v7_056.retry_limit=4",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 4,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Set webhooks.v7_056.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0057",
+      "component": "auth",
+      "change_type": "permission_change",
+      "legacy_symbol": "auth.legacy_057",
+      "replacement_symbol": "auth.v7_057",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant auth.v7_057 --scope auth",
+      "supported_regions": [
+        "ap-northeast",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the auth.v7_057 permission in the auth scope."
+    },
+    {
+      "change_id": "CHG-0058",
+      "component": "cache",
+      "change_type": "permission_change",
+      "legacy_symbol": "cache.legacy_058",
+      "replacement_symbol": "cache.v7_058",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant cache.v7_058 --scope cache",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Grant the cache.v7_058 permission in the cache scope."
+    },
+    {
+      "change_id": "CHG-0059",
+      "component": "events",
+      "change_type": "permission_change",
+      "legacy_symbol": "events.legacy_059",
+      "replacement_symbol": "events.v7_059",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant events.v7_059 --scope events",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the events.v7_059 permission in the events scope."
+    },
+    {
+      "change_id": "CHG-0060",
+      "component": "files",
+      "change_type": "permission_change",
+      "legacy_symbol": "files.legacy_060",
+      "replacement_symbol": "files.v7_060",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant files.v7_060 --scope files",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Grant the files.v7_060 permission in the files scope."
+    },
+    {
+      "change_id": "CHG-0061",
+      "component": "jobs",
+      "change_type": "permission_change",
+      "legacy_symbol": "jobs.legacy_061",
+      "replacement_symbol": "jobs.v7_061",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant jobs.v7_061 --scope jobs",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the jobs.v7_061 permission in the jobs scope."
+    },
+    {
+      "change_id": "CHG-0062",
+      "component": "metrics",
+      "change_type": "permission_change",
+      "legacy_symbol": "metrics.legacy_062",
+      "replacement_symbol": "metrics.v7_062",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant metrics.v7_062 --scope metrics",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "See the dashboard for regional availability.",
+      "summary": "Grant the metrics.v7_062 permission in the metrics scope."
+    },
+    {
+      "change_id": "CHG-0063",
+      "component": "streams",
+      "change_type": "permission_change",
+      "legacy_symbol": "streams.legacy_063",
+      "replacement_symbol": "streams.v7_063",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant streams.v7_063 --scope streams",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the streams.v7_063 permission in the streams scope."
+    },
+    {
+      "change_id": "CHG-0064",
+      "component": "webhooks",
+      "change_type": "permission_change",
+      "legacy_symbol": "webhooks.legacy_064",
+      "replacement_symbol": "webhooks.v7_064",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant webhooks.v7_064 --scope webhooks",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Grant the webhooks.v7_064 permission in the webhooks scope."
+    },
+    {
+      "change_id": "CHG-0065",
+      "component": "auth",
+      "change_type": "rename",
+      "legacy_symbol": "auth.legacy_065",
+      "replacement_symbol": "auth.v7_065",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from auth.legacy_065 --to auth.v7_065",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace auth.legacy_065 with auth.v7_065 before upgrading."
+    },
+    {
+      "change_id": "CHG-0066",
+      "component": "cache",
+      "change_type": "rename",
+      "legacy_symbol": "cache.legacy_066",
+      "replacement_symbol": "cache.v7_066",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from cache.legacy_066 --to cache.v7_066",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace cache.legacy_066 with cache.v7_066 before upgrading."
+    },
+    {
+      "change_id": "CHG-0067",
+      "component": "events",
+      "change_type": "rename",
+      "legacy_symbol": "events.legacy_067",
+      "replacement_symbol": "events.v7_067",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from events.legacy_067 --to events.v7_067",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace events.legacy_067 with events.v7_067 before upgrading."
+    },
+    {
+      "change_id": "CHG-0068",
+      "component": "files",
+      "change_type": "rename",
+      "legacy_symbol": "files.legacy_068",
+      "replacement_symbol": "files.v7_068",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0068",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace files.legacy_068 with files.v7_068 before upgrading."
+    },
+    {
+      "change_id": "CHG-0069",
+      "component": "jobs",
+      "change_type": "rename",
+      "legacy_symbol": "jobs.legacy_069",
+      "replacement_symbol": "jobs.v7_069",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from jobs.legacy_069 --to jobs.v7_069",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace jobs.legacy_069 with jobs.v7_069 before upgrading."
+    },
+    {
+      "change_id": "CHG-0070",
+      "component": "metrics",
+      "change_type": "rename",
+      "legacy_symbol": "metrics.legacy_070",
+      "replacement_symbol": "metrics.v7_070",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from metrics.legacy_070 --to metrics.v7_070",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Replace metrics.legacy_070 with metrics.v7_070 before upgrading."
+    },
+    {
+      "change_id": "CHG-0071",
+      "component": "streams",
+      "change_type": "rename",
+      "legacy_symbol": "streams.legacy_071",
+      "replacement_symbol": "streams.v7_071",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from streams.legacy_071 --to streams.v7_071",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace streams.legacy_071 with streams.v7_071 before upgrading."
+    },
+    {
+      "change_id": "CHG-0072",
+      "component": "webhooks",
+      "change_type": "rename",
+      "legacy_symbol": "webhooks.legacy_072",
+      "replacement_symbol": "webhooks.v7_072",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from webhooks.legacy_072 --to webhooks.v7_072",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Replace webhooks.legacy_072 with webhooks.v7_072 before upgrading."
+    },
+    {
+      "change_id": "CHG-0073",
+      "component": "auth",
+      "change_type": "removal",
+      "legacy_symbol": "auth.legacy_073",
+      "replacement_symbol": "auth.v7_073",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol auth.legacy_073 --use auth.v7_073",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to auth.legacy_073 and use auth.v7_073."
+    },
+    {
+      "change_id": "CHG-0074",
+      "component": "cache",
+      "change_type": "removal",
+      "legacy_symbol": "cache.legacy_074",
+      "replacement_symbol": "cache.v7_074",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol cache.legacy_074 --use cache.v7_074",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to cache.legacy_074 and use cache.v7_074. This guarantees zero downtime."
+    },
+    {
+      "change_id": "CHG-0075",
+      "component": "events",
+      "change_type": "removal",
+      "legacy_symbol": "events.legacy_075",
+      "replacement_symbol": "events.v7_075",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol events.legacy_075 --use events.v7_075",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to events.legacy_075 and use events.v7_075."
+    },
+    {
+      "change_id": "CHG-0076",
+      "component": "files",
+      "change_type": "removal",
+      "legacy_symbol": "files.legacy_076",
+      "replacement_symbol": "files.v7_076",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol files.legacy_076 --use files.v7_076",
+      "supported_regions": [
+        "eu-west",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to files.legacy_076 and use files.v7_076."
+    },
+    {
+      "change_id": "CHG-0077",
+      "component": "jobs",
+      "change_type": "removal",
+      "legacy_symbol": "jobs.legacy_077",
+      "replacement_symbol": "jobs.v7_077",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol jobs.legacy_077 --use jobs.v7_077",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to jobs.legacy_077 and use jobs.v7_077."
+    },
+    {
+      "change_id": "CHG-0078",
+      "component": "metrics",
+      "change_type": "removal",
+      "legacy_symbol": "metrics.legacy_078",
+      "replacement_symbol": "metrics.v7_078",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol metrics.legacy_078 --use metrics.v7_078",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to metrics.legacy_078 and use metrics.v7_078."
+    },
+    {
+      "change_id": "CHG-0079",
+      "component": "streams",
+      "change_type": "removal",
+      "legacy_symbol": "streams.legacy_079",
+      "replacement_symbol": "streams.v7_079",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol streams.legacy_079 --use streams.v7_079",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to streams.legacy_079 and use streams.v7_079."
+    },
+    {
+      "change_id": "CHG-0080",
+      "component": "webhooks",
+      "change_type": "removal",
+      "legacy_symbol": "webhooks.legacy_080",
+      "replacement_symbol": "webhooks.v7_080",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol webhooks.legacy_080 --use webhooks.v7_080",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to webhooks.legacy_080 and use webhooks.v7_080."
+    },
+    {
+      "change_id": "CHG-0081",
+      "component": "auth",
+      "change_type": "default_change",
+      "legacy_symbol": "auth.legacy_081",
+      "replacement_symbol": "auth.v7_081",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set auth.v7_081.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 5,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set auth.v7_081.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0082",
+      "component": "cache",
+      "change_type": "default_change",
+      "legacy_symbol": "cache.legacy_082",
+      "replacement_symbol": "cache.v7_auto_082",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set cache.v7_082.retry_limit=6",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 6,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Set cache.v7_082.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0083",
+      "component": "events",
+      "change_type": "default_change",
+      "legacy_symbol": "events.legacy_083",
+      "replacement_symbol": "events.v7_083",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set events.v7_083.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set events.v7_083.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0084",
+      "component": "files",
+      "change_type": "default_change",
+      "legacy_symbol": "files.legacy_084",
+      "replacement_symbol": "files.v7_084",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set files.v7_084.retry_limit=2",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 2,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Set files.v7_084.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0085",
+      "component": "jobs",
+      "change_type": "default_change",
+      "legacy_symbol": "jobs.legacy_085",
+      "replacement_symbol": "jobs.v7_085",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0085",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 3,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Set jobs.v7_085.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0086",
+      "component": "metrics",
+      "change_type": "default_change",
+      "legacy_symbol": "metrics.legacy_086",
+      "replacement_symbol": "metrics.v7_086",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set metrics.v7_086.retry_limit=4",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 4,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set metrics.v7_086.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0087",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_087",
+      "replacement_symbol": "streams.v7_087",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set streams.v7_087.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 7,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set streams.v7_087.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0088",
+      "component": "webhooks",
+      "change_type": "default_change",
+      "legacy_symbol": "webhooks.legacy_088",
+      "replacement_symbol": "webhooks.v7_088",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set webhooks.v7_088.retry_limit=6",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 6,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Set webhooks.v7_088.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0089",
+      "component": "auth",
+      "change_type": "permission_change",
+      "legacy_symbol": "auth.legacy_089",
+      "replacement_symbol": "auth.v7_089",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant auth.v7_089 --scope auth",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the auth.v7_089 permission in the auth scope."
+    },
+    {
+      "change_id": "CHG-0090",
+      "component": "cache",
+      "change_type": "permission_change",
+      "legacy_symbol": "cache.legacy_090",
+      "replacement_symbol": "cache.v7_090",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant cache.v7_090 --scope cache",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Grant the cache.v7_090 permission in the cache scope."
+    },
+    {
+      "change_id": "CHG-0091",
+      "component": "events",
+      "change_type": "permission_change",
+      "legacy_symbol": "events.legacy_091",
+      "replacement_symbol": "events.v7_091",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant events.v7_091 --scope events",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the events.v7_091 permission in the events scope."
+    },
+    {
+      "change_id": "CHG-0092",
+      "component": "files",
+      "change_type": "permission_change",
+      "legacy_symbol": "files.legacy_092",
+      "replacement_symbol": "files.v7_092",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant files.v7_092 --scope files",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Grant the files.v7_092 permission in the files scope."
+    },
+    {
+      "change_id": "CHG-0093",
+      "component": "jobs",
+      "change_type": "permission_change",
+      "legacy_symbol": "jobs.legacy_093",
+      "replacement_symbol": "jobs.v7_093",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant jobs.v7_093 --scope jobs",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "See the dashboard for regional availability.",
+      "summary": "Grant the jobs.v7_093 permission in the jobs scope."
+    },
+    {
+      "change_id": "CHG-0094",
+      "component": "metrics",
+      "change_type": "permission_change",
+      "legacy_symbol": "metrics.legacy_094",
+      "replacement_symbol": "metrics.v7_094",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant metrics.v7_094 --scope metrics",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Grant the metrics.v7_094 permission in the metrics scope."
+    },
+    {
+      "change_id": "CHG-0095",
+      "component": "streams",
+      "change_type": "permission_change",
+      "legacy_symbol": "streams.legacy_095",
+      "replacement_symbol": "streams.v7_095",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant streams.v7_095 --scope streams",
+      "supported_regions": [
+        "ap-northeast",
+        "eu-west",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the streams.v7_095 permission in the streams scope."
+    },
+    {
+      "change_id": "CHG-0096",
+      "component": "webhooks",
+      "change_type": "permission_change",
+      "legacy_symbol": "webhooks.legacy_096",
+      "replacement_symbol": "webhooks.v7_096",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant webhooks.v7_096 --scope webhooks",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Grant the webhooks.v7_096 permission in the webhooks scope."
+    },
+    {
+      "change_id": "CHG-0097",
+      "component": "auth",
+      "change_type": "rename",
+      "legacy_symbol": "auth.legacy_097",
+      "replacement_symbol": "auth.v7_097",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from auth.legacy_097 --to auth.v7_097",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace auth.legacy_097 with auth.v7_097 before upgrading."
+    },
+    {
+      "change_id": "CHG-0098",
+      "component": "cache",
+      "change_type": "rename",
+      "legacy_symbol": "cache.legacy_098",
+      "replacement_symbol": "cache.v7_098",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from cache.legacy_098 --to cache.v7_098",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace cache.legacy_098 with cache.v7_098 before upgrading."
+    },
+    {
+      "change_id": "CHG-0099",
+      "component": "events",
+      "change_type": "rename",
+      "legacy_symbol": "events.legacy_099",
+      "replacement_symbol": "events.v7_099",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from events.legacy_099 --to events.v7_099",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace events.legacy_099 with events.v7_099 before upgrading."
+    },
+    {
+      "change_id": "CHG-0100",
+      "component": "files",
+      "change_type": "rename",
+      "legacy_symbol": "files.legacy_100",
+      "replacement_symbol": "files.v7_100",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from files.legacy_100 --to files.v7_100",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Replace files.legacy_100 with files.v7_100 before upgrading."
+    },
+    {
+      "change_id": "CHG-0101",
+      "component": "jobs",
+      "change_type": "rename",
+      "legacy_symbol": "jobs.legacy_101",
+      "replacement_symbol": "jobs.v7_101",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from jobs.legacy_101 --to jobs.v7_101",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace jobs.legacy_101 with jobs.v7_101 before upgrading."
+    },
+    {
+      "change_id": "CHG-0102",
+      "component": "metrics",
+      "change_type": "rename",
+      "legacy_symbol": "metrics.legacy_102",
+      "replacement_symbol": "metrics.v7_102",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0102",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Replace metrics.legacy_102 with metrics.v7_102 before upgrading."
+    },
+    {
+      "change_id": "CHG-0103",
+      "component": "streams",
+      "change_type": "rename",
+      "legacy_symbol": "streams.legacy_103",
+      "replacement_symbol": "streams.v7_103",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from streams.legacy_103 --to streams.v7_103",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace streams.legacy_103 with streams.v7_103 before upgrading."
+    },
+    {
+      "change_id": "CHG-0104",
+      "component": "webhooks",
+      "change_type": "rename",
+      "legacy_symbol": "webhooks.legacy_104",
+      "replacement_symbol": "webhooks.v7_104",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from webhooks.legacy_104 --to webhooks.v7_104",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace webhooks.legacy_104 with webhooks.v7_104 before upgrading."
+    },
+    {
+      "change_id": "CHG-0105",
+      "component": "auth",
+      "change_type": "removal",
+      "legacy_symbol": "auth.legacy_105",
+      "replacement_symbol": "auth.v7_105",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol auth.legacy_105 --use auth.v7_105",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to auth.legacy_105 and use auth.v7_105."
+    },
+    {
+      "change_id": "CHG-0106",
+      "component": "cache",
+      "change_type": "removal",
+      "legacy_symbol": "cache.legacy_106",
+      "replacement_symbol": "cache.v7_106",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol cache.legacy_106 --use cache.v7_106",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to cache.legacy_106 and use cache.v7_106."
+    },
+    {
+      "change_id": "CHG-0107",
+      "component": "events",
+      "change_type": "removal",
+      "legacy_symbol": "events.legacy_107",
+      "replacement_symbol": "events.v7_107",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol events.legacy_107 --use events.v7_107",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to events.legacy_107 and use events.v7_107."
+    },
+    {
+      "change_id": "CHG-0108",
+      "component": "files",
+      "change_type": "removal",
+      "legacy_symbol": "files.legacy_108",
+      "replacement_symbol": "files.v7_108",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol files.legacy_108 --use files.v7_108",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to files.legacy_108 and use files.v7_108."
+    },
+    {
+      "change_id": "CHG-0109",
+      "component": "jobs",
+      "change_type": "removal",
+      "legacy_symbol": "jobs.legacy_109",
+      "replacement_symbol": "jobs.v7_109",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol jobs.legacy_109 --use jobs.v7_109",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to jobs.legacy_109 and use jobs.v7_109."
+    },
+    {
+      "change_id": "CHG-0110",
+      "component": "metrics",
+      "change_type": "removal",
+      "legacy_symbol": "metrics.legacy_110",
+      "replacement_symbol": "metrics.v7_110",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol metrics.legacy_110 --use metrics.v7_110",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Remove calls to metrics.legacy_110 and use metrics.v7_110."
+    },
+    {
+      "change_id": "CHG-0111",
+      "component": "streams",
+      "change_type": "removal",
+      "legacy_symbol": "streams.legacy_111",
+      "replacement_symbol": "streams.v7_111",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol streams.legacy_111 --use streams.v7_111",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to streams.legacy_111 and use streams.v7_111. This guarantees zero downtime."
+    },
+    {
+      "change_id": "CHG-0112",
+      "component": "webhooks",
+      "change_type": "removal",
+      "legacy_symbol": "webhooks.legacy_112",
+      "replacement_symbol": "webhooks.v7_112",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol webhooks.legacy_112 --use webhooks.v7_112",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to webhooks.legacy_112 and use webhooks.v7_112."
+    },
+    {
+      "change_id": "CHG-0113",
+      "component": "auth",
+      "change_type": "default_change",
+      "legacy_symbol": "auth.legacy_113",
+      "replacement_symbol": "auth.v7_113",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set auth.v7_113.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set auth.v7_113.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0114",
+      "component": "cache",
+      "change_type": "default_change",
+      "legacy_symbol": "cache.legacy_114",
+      "replacement_symbol": "cache.v7_114",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set cache.v7_114.retry_limit=2",
+      "supported_regions": [
+        "eu-west",
+        "sa-south"
+      ],
+      "requires_restart": false,
+      "retry_limit": 2,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set cache.v7_114.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0115",
+      "component": "events",
+      "change_type": "default_change",
+      "legacy_symbol": "events.legacy_115",
+      "replacement_symbol": "events.v7_115",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set events.v7_115.retry_limit=3",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 3,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set events.v7_115.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0116",
+      "component": "files",
+      "change_type": "default_change",
+      "legacy_symbol": "files.legacy_116",
+      "replacement_symbol": "files.v7_116",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set files.v7_116.retry_limit=4",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 6,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Set files.v7_116.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0117",
+      "component": "jobs",
+      "change_type": "default_change",
+      "legacy_symbol": "jobs.legacy_117",
+      "replacement_symbol": "jobs.v7_117",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set jobs.v7_117.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 5,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Set jobs.v7_117.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0118",
+      "component": "metrics",
+      "change_type": "default_change",
+      "legacy_symbol": "metrics.legacy_118",
+      "replacement_symbol": "metrics.v7_118",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set metrics.v7_118.retry_limit=6",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 6,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set metrics.v7_118.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0119",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_119",
+      "replacement_symbol": "streams.v7_119",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0119",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set streams.v7_119.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0120",
+      "component": "webhooks",
+      "change_type": "default_change",
+      "legacy_symbol": "webhooks.legacy_120",
+      "replacement_symbol": "webhooks.v7_120",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set webhooks.v7_120.retry_limit=2",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 2,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Set webhooks.v7_120.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0121",
+      "component": "auth",
+      "change_type": "permission_change",
+      "legacy_symbol": "auth.legacy_121",
+      "replacement_symbol": "auth.v7_121",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant auth.v7_121 --scope auth",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the auth.v7_121 permission in the auth scope."
+    },
+    {
+      "change_id": "CHG-0122",
+      "component": "cache",
+      "change_type": "permission_change",
+      "legacy_symbol": "cache.legacy_122",
+      "replacement_symbol": "cache.v7_122",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant cache.v7_122 --scope cache",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Grant the cache.v7_122 permission in the cache scope."
+    },
+    {
+      "change_id": "CHG-0123",
+      "component": "events",
+      "change_type": "permission_change",
+      "legacy_symbol": "events.legacy_123",
+      "replacement_symbol": "events.v7_auto_123",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant events.v7_123 --scope events",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the events.v7_123 permission in the events scope."
+    },
+    {
+      "change_id": "CHG-0124",
+      "component": "files",
+      "change_type": "permission_change",
+      "legacy_symbol": "files.legacy_124",
+      "replacement_symbol": "files.v7_124",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant files.v7_124 --scope files",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "See the dashboard for regional availability.",
+      "summary": "Grant the files.v7_124 permission in the files scope."
+    },
+    {
+      "change_id": "CHG-0125",
+      "component": "jobs",
+      "change_type": "permission_change",
+      "legacy_symbol": "jobs.legacy_125",
+      "replacement_symbol": "jobs.v7_125",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant jobs.v7_125 --scope jobs",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the jobs.v7_125 permission in the jobs scope."
+    },
+    {
+      "change_id": "CHG-0126",
+      "component": "metrics",
+      "change_type": "permission_change",
+      "legacy_symbol": "metrics.legacy_126",
+      "replacement_symbol": "metrics.v7_126",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant metrics.v7_126 --scope metrics",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Grant the metrics.v7_126 permission in the metrics scope."
+    },
+    {
+      "change_id": "CHG-0127",
+      "component": "streams",
+      "change_type": "permission_change",
+      "legacy_symbol": "streams.legacy_127",
+      "replacement_symbol": "streams.v7_127",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant streams.v7_127 --scope streams",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the streams.v7_127 permission in the streams scope."
+    },
+    {
+      "change_id": "CHG-0128",
+      "component": "webhooks",
+      "change_type": "permission_change",
+      "legacy_symbol": "webhooks.legacy_128",
+      "replacement_symbol": "webhooks.v7_128",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant webhooks.v7_128 --scope webhooks",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Grant the webhooks.v7_128 permission in the webhooks scope."
+    },
+    {
+      "change_id": "CHG-0129",
+      "component": "auth",
+      "change_type": "rename",
+      "legacy_symbol": "auth.legacy_129",
+      "replacement_symbol": "auth.v7_129",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from auth.legacy_129 --to auth.v7_129",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace auth.legacy_129 with auth.v7_129 before upgrading."
+    },
+    {
+      "change_id": "CHG-0130",
+      "component": "cache",
+      "change_type": "rename",
+      "legacy_symbol": "cache.legacy_130",
+      "replacement_symbol": "cache.v7_130",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from cache.legacy_130 --to cache.v7_130",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Replace cache.legacy_130 with cache.v7_130 before upgrading."
+    },
+    {
+      "change_id": "CHG-0131",
+      "component": "events",
+      "change_type": "rename",
+      "legacy_symbol": "events.legacy_131",
+      "replacement_symbol": "events.v7_131",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from events.legacy_131 --to events.v7_131",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace events.legacy_131 with events.v7_131 before upgrading."
+    },
+    {
+      "change_id": "CHG-0132",
+      "component": "files",
+      "change_type": "rename",
+      "legacy_symbol": "files.legacy_132",
+      "replacement_symbol": "files.v7_132",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from files.legacy_132 --to files.v7_132",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Replace files.legacy_132 with files.v7_132 before upgrading."
+    },
+    {
+      "change_id": "CHG-0133",
+      "component": "jobs",
+      "change_type": "rename",
+      "legacy_symbol": "jobs.legacy_133",
+      "replacement_symbol": "jobs.v7_133",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from jobs.legacy_133 --to jobs.v7_133",
+      "supported_regions": [
+        "ap-northeast",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace jobs.legacy_133 with jobs.v7_133 before upgrading."
+    },
+    {
+      "change_id": "CHG-0134",
+      "component": "metrics",
+      "change_type": "rename",
+      "legacy_symbol": "metrics.legacy_134",
+      "replacement_symbol": "metrics.v7_134",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from metrics.legacy_134 --to metrics.v7_134",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace metrics.legacy_134 with metrics.v7_134 before upgrading."
+    },
+    {
+      "change_id": "CHG-0135",
+      "component": "streams",
+      "change_type": "rename",
+      "legacy_symbol": "streams.legacy_135",
+      "replacement_symbol": "streams.v7_135",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from streams.legacy_135 --to streams.v7_135",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace streams.legacy_135 with streams.v7_135 before upgrading."
+    },
+    {
+      "change_id": "CHG-0136",
+      "component": "webhooks",
+      "change_type": "rename",
+      "legacy_symbol": "webhooks.legacy_136",
+      "replacement_symbol": "webhooks.v7_136",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0136",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace webhooks.legacy_136 with webhooks.v7_136 before upgrading."
+    },
+    {
+      "change_id": "CHG-0137",
+      "component": "auth",
+      "change_type": "removal",
+      "legacy_symbol": "auth.legacy_137",
+      "replacement_symbol": "auth.v7_137",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol auth.legacy_137 --use auth.v7_137",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to auth.legacy_137 and use auth.v7_137."
+    },
+    {
+      "change_id": "CHG-0138",
+      "component": "cache",
+      "change_type": "removal",
+      "legacy_symbol": "cache.legacy_138",
+      "replacement_symbol": "cache.v7_138",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol cache.legacy_138 --use cache.v7_138",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to cache.legacy_138 and use cache.v7_138."
+    },
+    {
+      "change_id": "CHG-0139",
+      "component": "events",
+      "change_type": "removal",
+      "legacy_symbol": "events.legacy_139",
+      "replacement_symbol": "events.v7_139",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol events.legacy_139 --use events.v7_139",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to events.legacy_139 and use events.v7_139."
+    },
+    {
+      "change_id": "CHG-0140",
+      "component": "files",
+      "change_type": "removal",
+      "legacy_symbol": "files.legacy_140",
+      "replacement_symbol": "files.v7_140",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol files.legacy_140 --use files.v7_140",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to files.legacy_140 and use files.v7_140."
+    },
+    {
+      "change_id": "CHG-0141",
+      "component": "jobs",
+      "change_type": "removal",
+      "legacy_symbol": "jobs.legacy_141",
+      "replacement_symbol": "jobs.v7_141",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol jobs.legacy_141 --use jobs.v7_141",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to jobs.legacy_141 and use jobs.v7_141."
+    },
+    {
+      "change_id": "CHG-0142",
+      "component": "metrics",
+      "change_type": "removal",
+      "legacy_symbol": "metrics.legacy_142",
+      "replacement_symbol": "metrics.v7_142",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol metrics.legacy_142 --use metrics.v7_142",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Remove calls to metrics.legacy_142 and use metrics.v7_142."
+    },
+    {
+      "change_id": "CHG-0143",
+      "component": "streams",
+      "change_type": "removal",
+      "legacy_symbol": "streams.legacy_143",
+      "replacement_symbol": "streams.v7_143",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol streams.legacy_143 --use streams.v7_143",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to streams.legacy_143 and use streams.v7_143."
+    },
+    {
+      "change_id": "CHG-0144",
+      "component": "webhooks",
+      "change_type": "removal",
+      "legacy_symbol": "webhooks.legacy_144",
+      "replacement_symbol": "webhooks.v7_144",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol webhooks.legacy_144 --use webhooks.v7_144",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to webhooks.legacy_144 and use webhooks.v7_144."
+    },
+    {
+      "change_id": "CHG-0145",
+      "component": "auth",
+      "change_type": "default_change",
+      "legacy_symbol": "auth.legacy_145",
+      "replacement_symbol": "auth.v7_145",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set auth.v7_145.retry_limit=3",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 5,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Set auth.v7_145.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0146",
+      "component": "cache",
+      "change_type": "default_change",
+      "legacy_symbol": "cache.legacy_146",
+      "replacement_symbol": "cache.v7_146",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set cache.v7_146.retry_limit=4",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 4,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set cache.v7_146.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0147",
+      "component": "events",
+      "change_type": "default_change",
+      "legacy_symbol": "events.legacy_147",
+      "replacement_symbol": "events.v7_147",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set events.v7_147.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 5,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set events.v7_147.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0148",
+      "component": "files",
+      "change_type": "default_change",
+      "legacy_symbol": "files.legacy_148",
+      "replacement_symbol": "files.v7_148",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set files.v7_148.retry_limit=6",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 6,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Set files.v7_148.retry_limit explicitly to 6. This guarantees zero downtime."
+    },
+    {
+      "change_id": "CHG-0149",
+      "component": "jobs",
+      "change_type": "default_change",
+      "legacy_symbol": "jobs.legacy_149",
+      "replacement_symbol": "jobs.v7_149",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set jobs.v7_149.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set jobs.v7_149.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0150",
+      "component": "metrics",
+      "change_type": "default_change",
+      "legacy_symbol": "metrics.legacy_150",
+      "replacement_symbol": "metrics.v7_150",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set metrics.v7_150.retry_limit=2",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 2,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Set metrics.v7_150.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0151",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_151",
+      "replacement_symbol": "streams.v7_151",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set streams.v7_151.retry_limit=3",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 3,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set streams.v7_151.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0152",
+      "component": "webhooks",
+      "change_type": "default_change",
+      "legacy_symbol": "webhooks.legacy_152",
+      "replacement_symbol": "webhooks.v7_152",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set webhooks.v7_152.retry_limit=4",
+      "supported_regions": [
+        "eu-west",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": true,
+      "retry_limit": 4,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Set webhooks.v7_152.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0153",
+      "component": "auth",
+      "change_type": "permission_change",
+      "legacy_symbol": "auth.legacy_153",
+      "replacement_symbol": "auth.v7_153",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0153",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the auth.v7_153 permission in the auth scope."
+    },
+    {
+      "change_id": "CHG-0154",
+      "component": "cache",
+      "change_type": "permission_change",
+      "legacy_symbol": "cache.legacy_154",
+      "replacement_symbol": "cache.v7_154",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant cache.v7_154 --scope cache",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Grant the cache.v7_154 permission in the cache scope."
+    },
+    {
+      "change_id": "CHG-0155",
+      "component": "events",
+      "change_type": "permission_change",
+      "legacy_symbol": "events.legacy_155",
+      "replacement_symbol": "events.v7_155",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant events.v7_155 --scope events",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "See the dashboard for regional availability.",
+      "summary": "Grant the events.v7_155 permission in the events scope."
+    },
+    {
+      "change_id": "CHG-0156",
+      "component": "files",
+      "change_type": "permission_change",
+      "legacy_symbol": "files.legacy_156",
+      "replacement_symbol": "files.v7_156",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant files.v7_156 --scope files",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Grant the files.v7_156 permission in the files scope."
+    },
+    {
+      "change_id": "CHG-0157",
+      "component": "jobs",
+      "change_type": "permission_change",
+      "legacy_symbol": "jobs.legacy_157",
+      "replacement_symbol": "jobs.v7_157",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant jobs.v7_157 --scope jobs",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the jobs.v7_157 permission in the jobs scope."
+    },
+    {
+      "change_id": "CHG-0158",
+      "component": "metrics",
+      "change_type": "permission_change",
+      "legacy_symbol": "metrics.legacy_158",
+      "replacement_symbol": "metrics.v7_158",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant metrics.v7_158 --scope metrics",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Grant the metrics.v7_158 permission in the metrics scope."
+    },
+    {
+      "change_id": "CHG-0159",
+      "component": "streams",
+      "change_type": "permission_change",
+      "legacy_symbol": "streams.legacy_159",
+      "replacement_symbol": "streams.v7_159",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant streams.v7_159 --scope streams",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the streams.v7_159 permission in the streams scope."
+    },
+    {
+      "change_id": "CHG-0160",
+      "component": "webhooks",
+      "change_type": "permission_change",
+      "legacy_symbol": "webhooks.legacy_160",
+      "replacement_symbol": "webhooks.v7_160",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant webhooks.v7_160 --scope webhooks",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Grant the webhooks.v7_160 permission in the webhooks scope."
+    },
+    {
+      "change_id": "CHG-0161",
+      "component": "auth",
+      "change_type": "rename",
+      "legacy_symbol": "auth.legacy_161",
+      "replacement_symbol": "auth.v7_161",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from auth.legacy_161 --to auth.v7_161",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace auth.legacy_161 with auth.v7_161 before upgrading."
+    },
+    {
+      "change_id": "CHG-0162",
+      "component": "cache",
+      "change_type": "rename",
+      "legacy_symbol": "cache.legacy_162",
+      "replacement_symbol": "cache.v7_162",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from cache.legacy_162 --to cache.v7_162",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Replace cache.legacy_162 with cache.v7_162 before upgrading."
+    },
+    {
+      "change_id": "CHG-0163",
+      "component": "events",
+      "change_type": "rename",
+      "legacy_symbol": "events.legacy_163",
+      "replacement_symbol": "events.v7_163",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from events.legacy_163 --to events.v7_163",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace events.legacy_163 with events.v7_163 before upgrading."
+    },
+    {
+      "change_id": "CHG-0164",
+      "component": "files",
+      "change_type": "rename",
+      "legacy_symbol": "files.legacy_164",
+      "replacement_symbol": "files.v7_auto_164",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from files.legacy_164 --to files.v7_164",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace files.legacy_164 with files.v7_164 before upgrading."
+    },
+    {
+      "change_id": "CHG-0165",
+      "component": "jobs",
+      "change_type": "rename",
+      "legacy_symbol": "jobs.legacy_165",
+      "replacement_symbol": "jobs.v7_165",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from jobs.legacy_165 --to jobs.v7_165",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace jobs.legacy_165 with jobs.v7_165 before upgrading."
+    },
+    {
+      "change_id": "CHG-0166",
+      "component": "metrics",
+      "change_type": "rename",
+      "legacy_symbol": "metrics.legacy_166",
+      "replacement_symbol": "metrics.v7_166",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from metrics.legacy_166 --to metrics.v7_166",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace metrics.legacy_166 with metrics.v7_166 before upgrading."
+    },
+    {
+      "change_id": "CHG-0167",
+      "component": "streams",
+      "change_type": "rename",
+      "legacy_symbol": "streams.legacy_167",
+      "replacement_symbol": "streams.v7_167",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from streams.legacy_167 --to streams.v7_167",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace streams.legacy_167 with streams.v7_167 before upgrading."
+    },
+    {
+      "change_id": "CHG-0168",
+      "component": "webhooks",
+      "change_type": "rename",
+      "legacy_symbol": "webhooks.legacy_168",
+      "replacement_symbol": "webhooks.v7_168",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from webhooks.legacy_168 --to webhooks.v7_168",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace webhooks.legacy_168 with webhooks.v7_168 before upgrading."
+    },
+    {
+      "change_id": "CHG-0169",
+      "component": "auth",
+      "change_type": "removal",
+      "legacy_symbol": "auth.legacy_169",
+      "replacement_symbol": "auth.v7_169",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol auth.legacy_169 --use auth.v7_169",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to auth.legacy_169 and use auth.v7_169."
+    },
+    {
+      "change_id": "CHG-0170",
+      "component": "cache",
+      "change_type": "removal",
+      "legacy_symbol": "cache.legacy_170",
+      "replacement_symbol": "cache.v7_170",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0170",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Remove calls to cache.legacy_170 and use cache.v7_170."
+    },
+    {
+      "change_id": "CHG-0171",
+      "component": "events",
+      "change_type": "removal",
+      "legacy_symbol": "events.legacy_171",
+      "replacement_symbol": "events.v7_171",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol events.legacy_171 --use events.v7_171",
+      "supported_regions": [
+        "ap-northeast",
+        "eu-west",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to events.legacy_171 and use events.v7_171."
+    },
+    {
+      "change_id": "CHG-0172",
+      "component": "files",
+      "change_type": "removal",
+      "legacy_symbol": "files.legacy_172",
+      "replacement_symbol": "files.v7_172",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol files.legacy_172 --use files.v7_172",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to files.legacy_172 and use files.v7_172."
+    },
+    {
+      "change_id": "CHG-0173",
+      "component": "jobs",
+      "change_type": "removal",
+      "legacy_symbol": "jobs.legacy_173",
+      "replacement_symbol": "jobs.v7_173",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol jobs.legacy_173 --use jobs.v7_173",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to jobs.legacy_173 and use jobs.v7_173."
+    },
+    {
+      "change_id": "CHG-0174",
+      "component": "metrics",
+      "change_type": "removal",
+      "legacy_symbol": "metrics.legacy_174",
+      "replacement_symbol": "metrics.v7_174",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol metrics.legacy_174 --use metrics.v7_174",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to metrics.legacy_174 and use metrics.v7_174."
+    },
+    {
+      "change_id": "CHG-0175",
+      "component": "streams",
+      "change_type": "removal",
+      "legacy_symbol": "streams.legacy_175",
+      "replacement_symbol": "streams.v7_175",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol streams.legacy_175 --use streams.v7_175",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to streams.legacy_175 and use streams.v7_175."
+    },
+    {
+      "change_id": "CHG-0176",
+      "component": "webhooks",
+      "change_type": "removal",
+      "legacy_symbol": "webhooks.legacy_176",
+      "replacement_symbol": "webhooks.v7_176",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol webhooks.legacy_176 --use webhooks.v7_176",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to webhooks.legacy_176 and use webhooks.v7_176."
+    },
+    {
+      "change_id": "CHG-0177",
+      "component": "auth",
+      "change_type": "default_change",
+      "legacy_symbol": "auth.legacy_177",
+      "replacement_symbol": "auth.v7_177",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set auth.v7_177.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 5,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Set auth.v7_177.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0178",
+      "component": "cache",
+      "change_type": "default_change",
+      "legacy_symbol": "cache.legacy_178",
+      "replacement_symbol": "cache.v7_178",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set cache.v7_178.retry_limit=6",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 6,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set cache.v7_178.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0179",
+      "component": "events",
+      "change_type": "default_change",
+      "legacy_symbol": "events.legacy_179",
+      "replacement_symbol": "events.v7_179",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set events.v7_179.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set events.v7_179.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0180",
+      "component": "files",
+      "change_type": "default_change",
+      "legacy_symbol": "files.legacy_180",
+      "replacement_symbol": "files.v7_180",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set files.v7_180.retry_limit=2",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 2,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Set files.v7_180.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0181",
+      "component": "jobs",
+      "change_type": "default_change",
+      "legacy_symbol": "jobs.legacy_181",
+      "replacement_symbol": "jobs.v7_181",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set jobs.v7_181.retry_limit=3",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 3,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set jobs.v7_181.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0182",
+      "component": "metrics",
+      "change_type": "default_change",
+      "legacy_symbol": "metrics.legacy_182",
+      "replacement_symbol": "metrics.v7_182",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set metrics.v7_182.retry_limit=4",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 4,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Set metrics.v7_182.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0183",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_183",
+      "replacement_symbol": "streams.v7_183",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set streams.v7_183.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 5,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set streams.v7_183.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0184",
+      "component": "webhooks",
+      "change_type": "default_change",
+      "legacy_symbol": "webhooks.legacy_184",
+      "replacement_symbol": "webhooks.v7_184",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set webhooks.v7_184.retry_limit=6",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 6,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Set webhooks.v7_184.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0185",
+      "component": "auth",
+      "change_type": "permission_change",
+      "legacy_symbol": "auth.legacy_185",
+      "replacement_symbol": "auth.v7_185",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant auth.v7_185 --scope auth",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the auth.v7_185 permission in the auth scope. This guarantees zero downtime."
+    },
+    {
+      "change_id": "CHG-0186",
+      "component": "cache",
+      "change_type": "permission_change",
+      "legacy_symbol": "cache.legacy_186",
+      "replacement_symbol": "cache.v7_186",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant cache.v7_186 --scope cache",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "See the dashboard for regional availability.",
+      "summary": "Grant the cache.v7_186 permission in the cache scope."
+    },
+    {
+      "change_id": "CHG-0187",
+      "component": "events",
+      "change_type": "permission_change",
+      "legacy_symbol": "events.legacy_187",
+      "replacement_symbol": "events.v7_187",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0187",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the events.v7_187 permission in the events scope."
+    },
+    {
+      "change_id": "CHG-0188",
+      "component": "files",
+      "change_type": "permission_change",
+      "legacy_symbol": "files.legacy_188",
+      "replacement_symbol": "files.v7_188",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant files.v7_188 --scope files",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Grant the files.v7_188 permission in the files scope."
+    },
+    {
+      "change_id": "CHG-0189",
+      "component": "jobs",
+      "change_type": "permission_change",
+      "legacy_symbol": "jobs.legacy_189",
+      "replacement_symbol": "jobs.v7_189",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant jobs.v7_189 --scope jobs",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Grant the jobs.v7_189 permission in the jobs scope."
+    },
+    {
+      "change_id": "CHG-0190",
+      "component": "metrics",
+      "change_type": "permission_change",
+      "legacy_symbol": "metrics.legacy_190",
+      "replacement_symbol": "metrics.v7_190",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant metrics.v7_190 --scope metrics",
+      "supported_regions": [
+        "eu-west",
+        "sa-south"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Grant the metrics.v7_190 permission in the metrics scope."
+    },
+    {
+      "change_id": "CHG-0191",
+      "component": "streams",
+      "change_type": "permission_change",
+      "legacy_symbol": "streams.legacy_191",
+      "replacement_symbol": "streams.v7_191",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant streams.v7_191 --scope streams",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Grant the streams.v7_191 permission in the streams scope."
+    },
+    {
+      "change_id": "CHG-0192",
+      "component": "webhooks",
+      "change_type": "permission_change",
+      "legacy_symbol": "webhooks.legacy_192",
+      "replacement_symbol": "webhooks.v7_192",
+      "effective_version": "7.0.0",
+      "command": "nimbus access grant webhooks.v7_192 --scope webhooks",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Grant the webhooks.v7_192 permission in the webhooks scope."
+    },
+    {
+      "change_id": "CHG-0193",
+      "component": "auth",
+      "change_type": "rename",
+      "legacy_symbol": "auth.legacy_193",
+      "replacement_symbol": "auth.v7_193",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from auth.legacy_193 --to auth.v7_193",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace auth.legacy_193 with auth.v7_193 before upgrading."
+    },
+    {
+      "change_id": "CHG-0194",
+      "component": "cache",
+      "change_type": "rename",
+      "legacy_symbol": "cache.legacy_194",
+      "replacement_symbol": "cache.v7_194",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from cache.legacy_194 --to cache.v7_194",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace cache.legacy_194 with cache.v7_194 before upgrading."
+    },
+    {
+      "change_id": "CHG-0195",
+      "component": "events",
+      "change_type": "rename",
+      "legacy_symbol": "events.legacy_195",
+      "replacement_symbol": "events.v7_195",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from events.legacy_195 --to events.v7_195",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace events.legacy_195 with events.v7_195 before upgrading."
+    },
+    {
+      "change_id": "CHG-0196",
+      "component": "files",
+      "change_type": "rename",
+      "legacy_symbol": "files.legacy_196",
+      "replacement_symbol": "files.v7_196",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from files.legacy_196 --to files.v7_196",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Replace files.legacy_196 with files.v7_196 before upgrading."
+    },
+    {
+      "change_id": "CHG-0197",
+      "component": "jobs",
+      "change_type": "rename",
+      "legacy_symbol": "jobs.legacy_197",
+      "replacement_symbol": "jobs.v7_197",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from jobs.legacy_197 --to jobs.v7_197",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Replace jobs.legacy_197 with jobs.v7_197 before upgrading."
+    },
+    {
+      "change_id": "CHG-0198",
+      "component": "metrics",
+      "change_type": "rename",
+      "legacy_symbol": "metrics.legacy_198",
+      "replacement_symbol": "metrics.v7_198",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from metrics.legacy_198 --to metrics.v7_198",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Replace metrics.legacy_198 with metrics.v7_198 before upgrading."
+    },
+    {
+      "change_id": "CHG-0199",
+      "component": "streams",
+      "change_type": "rename",
+      "legacy_symbol": "streams.legacy_199",
+      "replacement_symbol": "streams.v7_199",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from streams.legacy_199 --to streams.v7_199",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Replace streams.legacy_199 with streams.v7_199 before upgrading."
+    },
+    {
+      "change_id": "CHG-0200",
+      "component": "webhooks",
+      "change_type": "rename",
+      "legacy_symbol": "webhooks.legacy_200",
+      "replacement_symbol": "webhooks.v7_200",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate rename --from webhooks.legacy_200 --to webhooks.v7_200",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Replace webhooks.legacy_200 with webhooks.v7_200 before upgrading."
+    },
+    {
+      "change_id": "CHG-0201",
+      "component": "auth",
+      "change_type": "removal",
+      "legacy_symbol": "auth.legacy_201",
+      "replacement_symbol": "auth.v7_201",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol auth.legacy_201 --use auth.v7_201",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to auth.legacy_201 and use auth.v7_201."
+    },
+    {
+      "change_id": "CHG-0202",
+      "component": "cache",
+      "change_type": "removal",
+      "legacy_symbol": "cache.legacy_202",
+      "replacement_symbol": "cache.v7_202",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol cache.legacy_202 --use cache.v7_202",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Remove calls to cache.legacy_202 and use cache.v7_202."
+    },
+    {
+      "change_id": "CHG-0203",
+      "component": "events",
+      "change_type": "removal",
+      "legacy_symbol": "events.legacy_203",
+      "replacement_symbol": "events.v7_203",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol events.legacy_203 --use events.v7_203",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to events.legacy_203 and use events.v7_203."
+    },
+    {
+      "change_id": "CHG-0204",
+      "component": "files",
+      "change_type": "removal",
+      "legacy_symbol": "files.legacy_204",
+      "replacement_symbol": "files.v7_204",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate apply --change CHG-0204",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to files.legacy_204 and use files.v7_204."
+    },
+    {
+      "change_id": "CHG-0205",
+      "component": "jobs",
+      "change_type": "removal",
+      "legacy_symbol": "jobs.legacy_205",
+      "replacement_symbol": "jobs.v7_auto_205",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol jobs.legacy_205 --use jobs.v7_205",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, ap-northeast.",
+      "summary": "Remove calls to jobs.legacy_205 and use jobs.v7_205."
+    },
+    {
+      "change_id": "CHG-0206",
+      "component": "metrics",
+      "change_type": "removal",
+      "legacy_symbol": "metrics.legacy_206",
+      "replacement_symbol": "metrics.v7_206",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol metrics.legacy_206 --use metrics.v7_206",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Remove calls to metrics.legacy_206 and use metrics.v7_206."
+    },
+    {
+      "change_id": "CHG-0207",
+      "component": "streams",
+      "change_type": "removal",
+      "legacy_symbol": "streams.legacy_207",
+      "replacement_symbol": "streams.v7_207",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol streams.legacy_207 --use streams.v7_207",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Remove calls to streams.legacy_207 and use streams.v7_207."
+    },
+    {
+      "change_id": "CHG-0208",
+      "component": "webhooks",
+      "change_type": "removal",
+      "legacy_symbol": "webhooks.legacy_208",
+      "replacement_symbol": "webhooks.v7_208",
+      "effective_version": "7.0.0",
+      "command": "nimbus migrate remove --symbol webhooks.legacy_208 --use webhooks.v7_208",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": null,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west.",
+      "summary": "Remove calls to webhooks.legacy_208 and use webhooks.v7_208."
+    },
+    {
+      "change_id": "CHG-0209",
+      "component": "auth",
+      "change_type": "default_change",
+      "legacy_symbol": "auth.legacy_209",
+      "replacement_symbol": "auth.v7_209",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set auth.v7_209.retry_limit=7",
+      "supported_regions": [
+        "ap-northeast",
+        "sa-south",
+        "us-central"
+      ],
+      "requires_restart": false,
+      "retry_limit": 7,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set auth.v7_209.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0210",
+      "component": "cache",
+      "change_type": "default_change",
+      "legacy_symbol": "cache.legacy_210",
+      "replacement_symbol": "cache.v7_210",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set cache.v7_210.retry_limit=2",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 2,
+      "notice": "Restart workers after applying this change. Supported regions: eu-west.",
+      "summary": "Set cache.v7_210.retry_limit explicitly to 2."
+    },
+    {
+      "change_id": "CHG-0211",
+      "component": "events",
+      "change_type": "default_change",
+      "legacy_symbol": "events.legacy_211",
+      "replacement_symbol": "events.v7_211",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set events.v7_211.retry_limit=3",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 3,
+      "notice": "No worker restart is required. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set events.v7_211.retry_limit explicitly to 3."
+    },
+    {
+      "change_id": "CHG-0212",
+      "component": "files",
+      "change_type": "default_change",
+      "legacy_symbol": "files.legacy_212",
+      "replacement_symbol": "files.v7_212",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set files.v7_212.retry_limit=4",
+      "supported_regions": [
+        "us-central",
+        "eu-west"
+      ],
+      "requires_restart": true,
+      "retry_limit": 4,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west.",
+      "summary": "Set files.v7_212.retry_limit explicitly to 4."
+    },
+    {
+      "change_id": "CHG-0213",
+      "component": "jobs",
+      "change_type": "default_change",
+      "legacy_symbol": "jobs.legacy_213",
+      "replacement_symbol": "jobs.v7_213",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set jobs.v7_213.retry_limit=5",
+      "supported_regions": [
+        "us-central",
+        "ap-northeast"
+      ],
+      "requires_restart": false,
+      "retry_limit": 5,
+      "notice": "No worker restart is required. Supported regions: us-central, ap-northeast.",
+      "summary": "Set jobs.v7_213.retry_limit explicitly to 5."
+    },
+    {
+      "change_id": "CHG-0214",
+      "component": "metrics",
+      "change_type": "default_change",
+      "legacy_symbol": "metrics.legacy_214",
+      "replacement_symbol": "metrics.v7_214",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set metrics.v7_214.retry_limit=6",
+      "supported_regions": [
+        "eu-west"
+      ],
+      "requires_restart": false,
+      "retry_limit": 6,
+      "notice": "No worker restart is required. Supported regions: eu-west.",
+      "summary": "Set metrics.v7_214.retry_limit explicitly to 6."
+    },
+    {
+      "change_id": "CHG-0215",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_215",
+      "replacement_symbol": "streams.v7_215",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set streams.v7_215.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 7,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Set streams.v7_215.retry_limit explicitly to 7."
+    },
+    {
+      "change_id": "CHG-0215",
+      "component": "streams",
+      "change_type": "default_change",
+      "legacy_symbol": "streams.legacy_215",
+      "replacement_symbol": "streams.v7_215",
+      "effective_version": "7.0.0",
+      "command": "nimbus config set streams.v7_215.retry_limit=7",
+      "supported_regions": [
+        "us-central",
+        "eu-west",
+        "ap-northeast"
+      ],
+      "requires_restart": true,
+      "retry_limit": 7,
+      "notice": "Restart workers after applying this change. Supported regions: us-central, eu-west, ap-northeast.",
+      "summary": "Duplicate generated entry awaiting release review."
+    }
+  ]
+}

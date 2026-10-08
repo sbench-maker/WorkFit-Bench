@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "reporting_date": "2026-06-30",
+  "files": {
+    "historical_tickets.json": 240,
+    "knowledge_base.json": 12
+  },
+  "intentional_edge_cases": [
+    "bug reports that already include every requested diagnostic",
+    "refunds inside and outside the automatic threshold",
+    "refund tool results that are pending rather than succeeded",
+    "tickets with three unresolved customer follow-ups",
+    "account takeover, privacy export, abuse, chargeback, and legal threats",
+    "no tool capable of sending a customer reply"
+  ]
+}

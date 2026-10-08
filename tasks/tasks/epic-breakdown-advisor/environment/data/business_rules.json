@@ -1,0 +1,45 @@
+{
+  "currency": "USD",
+  "rules": [
+    {
+      "rule_id": "RULE-AUTO",
+      "applies_when": "domestic AND standard AND declared_value_usd <= 500",
+      "required_outcome": "authorize automatically"
+    },
+    {
+      "rule_id": "RULE-HIGH",
+      "applies_when": "standard AND declared_value_usd > 500",
+      "required_outcome": "procurement manager approval before pickup booking"
+    },
+    {
+      "rule_id": "RULE-REG",
+      "applies_when": "item_class = regulated at any value",
+      "required_outcome": "compliance approval and specialist carrier; this overrides automatic and manager-only routes"
+    },
+    {
+      "rule_id": "RULE-INT",
+      "applies_when": "region != domestic",
+      "required_outcome": "accepted customs declaration before pickup booking"
+    },
+    {
+      "rule_id": "RULE-BULK",
+      "applies_when": "line_items >= 10",
+      "required_outcome": "CSV is allowed; valid rows are accepted and invalid rows remain rejected with row-level reasons"
+    },
+    {
+      "rule_id": "RULE-CARRIER",
+      "applies_when": "domestic AND standard AND authorized",
+      "required_outcome": "automatic carrier booking may be used; regulated and international cases remain manually arranged"
+    },
+    {
+      "rule_id": "RULE-SLA",
+      "applies_when": "all open returns",
+      "required_outcome": "flag authorization after 24 hours and pickup scheduling after 48 hours"
+    },
+    {
+      "rule_id": "RULE-PERF",
+      "applies_when": "basic submission and status read at 200 concurrent sessions",
+      "required_outcome": "95th percentile response time <= 2 seconds"
+    }
+  ]
+}

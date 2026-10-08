@@ -1,0 +1,17 @@
+feature,original_gain,permuted_gain,gain_difference
+i_income_monthly,180,25,155
+i_income_shadow,170,20,150
+i_debt_ratio,160,30,130
+i_debt_shadow,155,22,133
+i_loan_to_income,130,28,102
+i_lti_shadow,92,21,71
+i_credit_age_months,80,35,45
+i_recent_delinquencies,120,18,102
+i_bank_balance_avg,75,24,51
+i_optional_social_score,105,30,75
+i_sparse_device_signal,88,33,55
+i_low_iv_random,38,17,21
+i_org_weak_signal,68,25,43
+i_drifting_utilization,110,26,84
+i_noise_hash,44,19,25
+i_stable_capacity,118,31,87

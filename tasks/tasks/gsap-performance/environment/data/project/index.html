@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northstar incident wall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="incident-board">
+    <button type="button" data-action="open-drawer">Open incident</button>
+    <div class="cursor-halo" aria-hidden="true"></div>
+    <section class="incident-grid" aria-label="Active incidents">
+      <!-- The host renders 240 .incident-card elements from its local incident store. -->
+    </section>
+    <aside class="detail-drawer" data-state="closed" aria-hidden="true">
+      <button type="button" data-action="close-drawer">Close</button>
+    </aside>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

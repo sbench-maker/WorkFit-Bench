@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_contract",
+      "title": "Completed project and CLI contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested project exists, runs through its existing CLI, and returns the documented top-level and result structure.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_cli_contract"
+      ]
+    },
+    {
+      "id": "completion__discovery_hydration",
+      "title": "Discovery-first selective hydration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "A query is sent to search before exactly the three selected usable pages are scraped, using the mock service contract.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_discovery_precedes_selective_hydration"
+      ]
+    },
+    {
+      "id": "completion__ranking_failure",
+      "title": "Ranking and page-failure isolation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Selected results preserve search order, retain discovery metadata, and one scrape failure does not block successful pages.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_ranking_and_individual_failure_isolation"
+      ]
+    },
+    {
+      "id": "completion__configuration_security",
+      "title": "Deployment configuration and credential safety",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The configured self-hosted base URL and bearer credential are used, trailing slashes are safe, and no credential is committed or leaked.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_runtime_configuration_and_credential_safety"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_contract",
+        "title": "Completed project and CLI contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__discovery_hydration",
+        "title": "Discovery-first selective hydration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__ranking_failure",
+        "title": "Ranking and page-failure isolation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__configuration_security",
+        "title": "Deployment configuration and credential safety",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

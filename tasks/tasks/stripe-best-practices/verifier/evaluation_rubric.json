@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Runnable repository and preserved public contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The completed checkout-service repository contains the supplied fixture, importable implementation, documented public entry point, and requested handoff file.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__checkout_sessions",
+      "title": "Correct one-time Checkout Session creation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Pending orders create reconciled one-time Checkout Sessions with configured URLs, order references, distinct tracking labels, and dynamic payment-method eligibility; invalid order states create nothing.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_checkout_session_semantics",
+        "test_checkout_rejects_nonpending_orders"
+      ]
+    },
+    {
+      "id": "completion__configuration_boundary",
+      "title": "Credential boundary and API version configuration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The service fails closed without its two deployment-provided values, passes the supplied API key to a client pinned to the mock's current API version, and contains no credential-shaped value in deliverable text.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_configuration_boundary"
+      ]
+    },
+    {
+      "id": "completion__webhook_trust",
+      "title": "Webhook authenticity and order binding",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Only authentic, timely, paid Checkout events whose order ID, amount, and currency agree with local state can fulfill a pending order; rejected events leave state unchanged.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_webhook_authenticity_and_order_binding"
+      ]
+    },
+    {
+      "id": "completion__retry_safe_transitions",
+      "title": "Persistent idempotency and terminal-state safety",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Repeated event delivery remains idempotent after rebuilding the service, records an event once, and later events do not regress paid or cancelled terminal orders.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_retry_safe_state_transitions"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Runnable repository and preserved public contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__checkout_sessions",
+        "title": "Correct one-time Checkout Session creation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__configuration_boundary",
+        "title": "Credential boundary and API version configuration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__webhook_trust",
+        "title": "Webhook authenticity and order binding",
+        "required_score": 10
+      },
+      {
+        "id": "completion__retry_safe_transitions",
+        "title": "Persistent idempotency and terminal-state safety",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

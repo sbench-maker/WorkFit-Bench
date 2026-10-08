@@ -1,0 +1,38 @@
+{
+  "fixture_kind": "deterministic fictional portfolio snapshot",
+  "as_of_date": "2026-09-09",
+  "complete": true,
+  "files": {
+    "current_roadmap.csv": {
+      "records": 32,
+      "complete": true
+    },
+    "initiative_effort.csv": {
+      "records": 224,
+      "complete": true
+    },
+    "weekly_capacity.csv": {
+      "records": 126,
+      "complete": true
+    },
+    "dependencies.csv": {
+      "records": 18,
+      "complete": true
+    },
+    "change_request.json": {
+      "records": 1,
+      "complete": true
+    },
+    "planning_brief.md": {
+      "complete": true
+    }
+  },
+  "join_keys": {
+    "initiative_id": [
+      "current_roadmap.csv",
+      "initiative_effort.csv",
+      "dependencies.csv"
+    ]
+  },
+  "known_truncation": []
+}

@@ -1,0 +1,9 @@
+run_id,profile,journey,offered_rps,completed_rps,completion_pct,p50_ms,p95_ms,p99_ms,error_pct,queue_oldest_age_s,duration_min
+RUN-STEADY,steady,browse,310,308.8,99.6,82,175,245,0.25,0.3,30
+RUN-STEADY,steady,checkout,75,74.5,99.3,190,410,590,0.55,0.4,30
+RUN-LAUNCH,launch_forecast,browse,648,636.3,98.2,138,322,480,0.8,8.7,30
+RUN-LAUNCH,launch_forecast,checkout,162,150.7,93.0,420,920,1410,2.8,12.4,30
+RUN-BURST,15_minute_burst,browse,810,761.4,94.0,260,610,920,3.4,39.0,15
+RUN-BURST,15_minute_burst,checkout,202.5,168.1,83.0,710,1480,2380,8.2,45.0,15
+RUN-FAILOVER,single_zone_capacity_loss,browse,648,609.1,94.0,225,520,790,3.1,24.0,20
+RUN-FAILOVER,single_zone_capacity_loss,checkout,162,139.3,86.0,590,1180,1840,6.4,28.0,20

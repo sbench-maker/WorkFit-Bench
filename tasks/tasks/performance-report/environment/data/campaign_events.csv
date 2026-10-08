@@ -1,0 +1,9 @@
+event_id,start_date,end_date,channel,campaign_id,event_type,detail
+EVT-01,2026-08-05,2026-08-05,Paid Social,SOC-2026-08,creative_launch,Customer-proof video and new hook launched.
+EVT-02,2026-08-08,2026-08-10,Paid Search,SEA-2026-08,site_incident,Demo form latency caused intermittent submission failures.
+EVT-03,2026-08-11,2026-08-11,Paid Search,SEA-2026-08,site_fix,Latency fix deployed; shorter form released for traffic from August 12.
+EVT-04,2026-08-14,2026-08-18,Paid Social,SOC-2026-08,tracking_gap,Server-side purchase events captured an estimated 60% of paid-social revenue; lead and customer counts are unaffected.
+EVT-05,2026-08-16,2026-08-20,Email,EML-2026-08,webinar_push,Three-message webinar invitation sequence ran.
+EVT-06,2026-08-21,2026-08-21,Organic Search,ORG-2026-08,content_indexed,Operations Benchmark Guide began ranking and receiving search traffic.
+EVT-07,2026-08-24,2026-08-31,Paid Social,SOC-2026-08,creative_fatigue,Frequency alert triggered; the existing audience saw the same creative repeatedly.
+EVT-08,2026-08-28,2026-08-28,Organic Search,ORG-2026-08,syndication_spike,"A partner newsletter linked to the guide, creating a one-day traffic spike."

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "inputs": [
+    {"path": "/root/data/RUN_REQUIREMENTS.md", "status": "complete"},
+    {"path": "/root/data/raw_preference_pairs.jsonl", "status": "complete", "records": 240},
+    {"path": "/root/data/prompt_group_assignments.csv", "status": "complete", "records_excluding_header": 40},
+    {"path": "/root/data/hardware_profile.json", "status": "complete"},
+    {"path": "/root/data/model/fictional-tiny-instruct/config.json", "status": "complete"},
+    {"path": "/root/data/model/fictional-tiny-instruct/tokenizer_config.json", "status": "complete"}
+  ],
+  "truncated": false,
+  "note": "All task inputs are deterministic fictional fixtures and are available locally."
+}

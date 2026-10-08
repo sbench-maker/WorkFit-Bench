@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.3.3",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "openpyxl",
+      "import_name": "openpyxl",
+      "version": "3.1.5",
+      "used_by": [
+        "agent",
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "pandas",
+      "import_name": "pandas",
+      "version": "2.2.3",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "numpy",
+      "import_name": "numpy",
+      "version": "1.26.4",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "toad",
+      "import_name": "toad",
+      "version": "0.1.5",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "lightgbm",
+      "import_name": "lightgbm",
+      "version": "4.5.0",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "scikit-learn",
+      "import_name": "sklearn",
+      "version": "1.5.2",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "joblib",
+      "import_name": "joblib",
+      "version": "1.4.2",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "tqdm",
+      "import_name": "tqdm",
+      "version": "4.66.5",
+      "used_by": [
+        "agent"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

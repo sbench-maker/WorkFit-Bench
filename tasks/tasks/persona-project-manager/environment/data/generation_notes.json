@@ -1,0 +1,18 @@
+{
+  "method": "deterministic local construction",
+  "fictional": true,
+  "row_counts": {
+    "project_tasks.csv": 240,
+    "task_status_events.csv": 373,
+    "calendar_events.csv": 233,
+    "documents.csv": 60,
+    "email_log.csv": 100
+  },
+  "intentional_edge_cases": [
+    "unauthorized, duplicate, stale, cross-project, and explicit-reopen task events",
+    "a recurring meeting whose chosen time must be free on three dates",
+    "a sensitive meeting with an otherwise available optional observer",
+    "an already-scheduled request and a recent blocker escalation",
+    "superseded, restricted, and draft document versions"
+  ]
+}

@@ -1,0 +1,5 @@
+Service,TargetP95Ms,MaxErrorRate
+checkout-api,260,0.03
+catalog-api,180,0.025
+search-api,240,0.035
+identity-api,210,0.02

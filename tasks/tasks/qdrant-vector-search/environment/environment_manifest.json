@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "qdrant-client",
+      "import_name": "qdrant_client",
+      "version": "1.12.1",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

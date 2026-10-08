@@ -1,0 +1,19 @@
+{
+  "fixtureType": "deterministic fictional offline mock",
+  "complete": true,
+  "snapshotTime": "2026-09-10T08:00:00Z",
+  "files": {
+    "smart_money_signals.json": {
+      "records": 240,
+      "recordPath": "data"
+    },
+    "open_positions.json": {
+      "records": 21,
+      "recordPath": "positions"
+    },
+    "desk_policy.json": {
+      "records": 1
+    }
+  },
+  "notes": "All records are fictional and the snapshot is complete; image paths are inert fixture values."
+}

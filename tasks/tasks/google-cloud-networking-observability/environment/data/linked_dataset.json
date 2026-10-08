@@ -1,0 +1,8 @@
+{
+  "project_id": "quartz-cart-ops",
+  "dataset_id": "netops_logs",
+  "table_id": "_AllLogs",
+  "available": true,
+  "export_scope": "VPC Flow, Cloud NAT, and firewall logs for the incident window",
+  "fixture_notice": "Local fictional snapshot; no remote service is required."
+}

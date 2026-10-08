@@ -1,0 +1,4257 @@
+[
+  {
+    "caseId": "valid-000",
+    "kind": "valid_single",
+    "requestId": " req-0000 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-000",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "PKG-000": 1
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 1
+  },
+  {
+    "caseId": "valid-001",
+    "kind": "valid_single",
+    "requestId": " req-0001 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-001",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "PKG-001": 3
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 2
+  },
+  {
+    "caseId": "valid-002",
+    "kind": "valid_single",
+    "requestId": " req-0002 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-002",
+        "quantity": 3
+      }
+    ],
+    "stock": {
+      "PKG-002": 5
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 3
+  },
+  {
+    "caseId": "valid-003",
+    "kind": "valid_single",
+    "requestId": " req-0003 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-003",
+        "quantity": 4
+      }
+    ],
+    "stock": {
+      "PKG-003": 7
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 4
+  },
+  {
+    "caseId": "valid-004",
+    "kind": "valid_single",
+    "requestId": " req-0004 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-004",
+        "quantity": 5
+      }
+    ],
+    "stock": {
+      "PKG-004": 9
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 5
+  },
+  {
+    "caseId": "valid-005",
+    "kind": "valid_single",
+    "requestId": " req-0005 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-005",
+        "quantity": 6
+      }
+    ],
+    "stock": {
+      "PKG-005": 6
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 6
+  },
+  {
+    "caseId": "valid-006",
+    "kind": "valid_single",
+    "requestId": " req-0006 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-006",
+        "quantity": 7
+      }
+    ],
+    "stock": {
+      "PKG-006": 8
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 7
+  },
+  {
+    "caseId": "valid-007",
+    "kind": "valid_single",
+    "requestId": " req-0007 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-007",
+        "quantity": 8
+      }
+    ],
+    "stock": {
+      "PKG-007": 10
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 8
+  },
+  {
+    "caseId": "valid-008",
+    "kind": "valid_single",
+    "requestId": " req-0008 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-008",
+        "quantity": 9
+      }
+    ],
+    "stock": {
+      "PKG-008": 12
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 9
+  },
+  {
+    "caseId": "valid-009",
+    "kind": "valid_single",
+    "requestId": " req-0009 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-009",
+        "quantity": 10
+      }
+    ],
+    "stock": {
+      "PKG-009": 14
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 10
+  },
+  {
+    "caseId": "valid-010",
+    "kind": "valid_single",
+    "requestId": " req-0010 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-010",
+        "quantity": 11
+      }
+    ],
+    "stock": {
+      "PKG-010": 11
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 11
+  },
+  {
+    "caseId": "valid-011",
+    "kind": "valid_single",
+    "requestId": " req-0011 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-011",
+        "quantity": 12
+      }
+    ],
+    "stock": {
+      "PKG-011": 13
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 12
+  },
+  {
+    "caseId": "valid-012",
+    "kind": "valid_single",
+    "requestId": " req-0012 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-012",
+        "quantity": 13
+      }
+    ],
+    "stock": {
+      "PKG-012": 15
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 13
+  },
+  {
+    "caseId": "valid-013",
+    "kind": "valid_single",
+    "requestId": " req-0013 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-013",
+        "quantity": 14
+      }
+    ],
+    "stock": {
+      "PKG-013": 17
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 14
+  },
+  {
+    "caseId": "valid-014",
+    "kind": "valid_single",
+    "requestId": " req-0014 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-014",
+        "quantity": 15
+      }
+    ],
+    "stock": {
+      "PKG-014": 19
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 15
+  },
+  {
+    "caseId": "valid-015",
+    "kind": "valid_single",
+    "requestId": " req-0015 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-015",
+        "quantity": 16
+      }
+    ],
+    "stock": {
+      "PKG-015": 16
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 16
+  },
+  {
+    "caseId": "valid-016",
+    "kind": "valid_single",
+    "requestId": " req-0016 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-016",
+        "quantity": 17
+      }
+    ],
+    "stock": {
+      "PKG-016": 18
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 17
+  },
+  {
+    "caseId": "valid-017",
+    "kind": "valid_single",
+    "requestId": " req-0017 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-017",
+        "quantity": 18
+      }
+    ],
+    "stock": {
+      "PKG-017": 20
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 18
+  },
+  {
+    "caseId": "valid-018",
+    "kind": "valid_single",
+    "requestId": " req-0018 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-018",
+        "quantity": 19
+      }
+    ],
+    "stock": {
+      "PKG-018": 22
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 19
+  },
+  {
+    "caseId": "valid-019",
+    "kind": "valid_single",
+    "requestId": " req-0019 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-019",
+        "quantity": 20
+      }
+    ],
+    "stock": {
+      "PKG-019": 24
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 20
+  },
+  {
+    "caseId": "valid-020",
+    "kind": "valid_single",
+    "requestId": " req-0020 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-020",
+        "quantity": 21
+      }
+    ],
+    "stock": {
+      "PKG-020": 21
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 21
+  },
+  {
+    "caseId": "valid-021",
+    "kind": "valid_single",
+    "requestId": " req-0021 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-021",
+        "quantity": 22
+      }
+    ],
+    "stock": {
+      "PKG-021": 23
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 22
+  },
+  {
+    "caseId": "valid-022",
+    "kind": "valid_single",
+    "requestId": " req-0022 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-022",
+        "quantity": 23
+      }
+    ],
+    "stock": {
+      "PKG-022": 25
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 23
+  },
+  {
+    "caseId": "valid-023",
+    "kind": "valid_single",
+    "requestId": " req-0023 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-000",
+        "quantity": 24
+      }
+    ],
+    "stock": {
+      "PKG-000": 27
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 24
+  },
+  {
+    "caseId": "valid-024",
+    "kind": "valid_single",
+    "requestId": " req-0024 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-001",
+        "quantity": 25
+      }
+    ],
+    "stock": {
+      "PKG-001": 29
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 25
+  },
+  {
+    "caseId": "valid-025",
+    "kind": "valid_single",
+    "requestId": " req-0025 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-002",
+        "quantity": 26
+      }
+    ],
+    "stock": {
+      "PKG-002": 26
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 26
+  },
+  {
+    "caseId": "valid-026",
+    "kind": "valid_single",
+    "requestId": " req-0026 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-003",
+        "quantity": 27
+      }
+    ],
+    "stock": {
+      "PKG-003": 28
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 27
+  },
+  {
+    "caseId": "valid-027",
+    "kind": "valid_single",
+    "requestId": " req-0027 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-004",
+        "quantity": 28
+      }
+    ],
+    "stock": {
+      "PKG-004": 30
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 28
+  },
+  {
+    "caseId": "valid-028",
+    "kind": "valid_single",
+    "requestId": " req-0028 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-005",
+        "quantity": 29
+      }
+    ],
+    "stock": {
+      "PKG-005": 32
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 29
+  },
+  {
+    "caseId": "valid-029",
+    "kind": "valid_single",
+    "requestId": " req-0029 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-006",
+        "quantity": 30
+      }
+    ],
+    "stock": {
+      "PKG-006": 34
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 30
+  },
+  {
+    "caseId": "valid-030",
+    "kind": "valid_single",
+    "requestId": " req-0030 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-007",
+        "quantity": 31
+      }
+    ],
+    "stock": {
+      "PKG-007": 31
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 31
+  },
+  {
+    "caseId": "valid-031",
+    "kind": "valid_single",
+    "requestId": " req-0031 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-008",
+        "quantity": 32
+      }
+    ],
+    "stock": {
+      "PKG-008": 33
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 32
+  },
+  {
+    "caseId": "valid-032",
+    "kind": "valid_single",
+    "requestId": " req-0032 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-009",
+        "quantity": 33
+      }
+    ],
+    "stock": {
+      "PKG-009": 35
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 33
+  },
+  {
+    "caseId": "valid-033",
+    "kind": "valid_single",
+    "requestId": " req-0033 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-010",
+        "quantity": 34
+      }
+    ],
+    "stock": {
+      "PKG-010": 37
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 34
+  },
+  {
+    "caseId": "valid-034",
+    "kind": "valid_single",
+    "requestId": " req-0034 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-011",
+        "quantity": 35
+      }
+    ],
+    "stock": {
+      "PKG-011": 39
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 35
+  },
+  {
+    "caseId": "valid-035",
+    "kind": "valid_single",
+    "requestId": " req-0035 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-012",
+        "quantity": 36
+      }
+    ],
+    "stock": {
+      "PKG-012": 36
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 36
+  },
+  {
+    "caseId": "valid-036",
+    "kind": "valid_single",
+    "requestId": " req-0036 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-013",
+        "quantity": 37
+      }
+    ],
+    "stock": {
+      "PKG-013": 38
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 37
+  },
+  {
+    "caseId": "valid-037",
+    "kind": "valid_single",
+    "requestId": " req-0037 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-014",
+        "quantity": 38
+      }
+    ],
+    "stock": {
+      "PKG-014": 40
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 38
+  },
+  {
+    "caseId": "valid-038",
+    "kind": "valid_single",
+    "requestId": " req-0038 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-015",
+        "quantity": 39
+      }
+    ],
+    "stock": {
+      "PKG-015": 42
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 39
+  },
+  {
+    "caseId": "valid-039",
+    "kind": "valid_single",
+    "requestId": " req-0039 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-016",
+        "quantity": 40
+      }
+    ],
+    "stock": {
+      "PKG-016": 44
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 40
+  },
+  {
+    "caseId": "valid-040",
+    "kind": "valid_single",
+    "requestId": " req-0040 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-017",
+        "quantity": 41
+      }
+    ],
+    "stock": {
+      "PKG-017": 41
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 41
+  },
+  {
+    "caseId": "valid-041",
+    "kind": "valid_single",
+    "requestId": " req-0041 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-018",
+        "quantity": 42
+      }
+    ],
+    "stock": {
+      "PKG-018": 43
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 42
+  },
+  {
+    "caseId": "valid-042",
+    "kind": "valid_single",
+    "requestId": " req-0042 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-019",
+        "quantity": 43
+      }
+    ],
+    "stock": {
+      "PKG-019": 45
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 43
+  },
+  {
+    "caseId": "valid-043",
+    "kind": "valid_single",
+    "requestId": " req-0043 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-020",
+        "quantity": 44
+      }
+    ],
+    "stock": {
+      "PKG-020": 47
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 44
+  },
+  {
+    "caseId": "valid-044",
+    "kind": "valid_single",
+    "requestId": " req-0044 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-021",
+        "quantity": 45
+      }
+    ],
+    "stock": {
+      "PKG-021": 49
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 45
+  },
+  {
+    "caseId": "valid-045",
+    "kind": "valid_single",
+    "requestId": " req-0045 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-022",
+        "quantity": 46
+      }
+    ],
+    "stock": {
+      "PKG-022": 46
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 46
+  },
+  {
+    "caseId": "valid-046",
+    "kind": "valid_single",
+    "requestId": " req-0046 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-000",
+        "quantity": 47
+      }
+    ],
+    "stock": {
+      "PKG-000": 48
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 47
+  },
+  {
+    "caseId": "valid-047",
+    "kind": "valid_single",
+    "requestId": " req-0047 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-001",
+        "quantity": 48
+      }
+    ],
+    "stock": {
+      "PKG-001": 50
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 48
+  },
+  {
+    "caseId": "valid-048",
+    "kind": "valid_single",
+    "requestId": " req-0048 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-002",
+        "quantity": 49
+      }
+    ],
+    "stock": {
+      "PKG-002": 52
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 49
+  },
+  {
+    "caseId": "valid-049",
+    "kind": "valid_single",
+    "requestId": " req-0049 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-003",
+        "quantity": 50
+      }
+    ],
+    "stock": {
+      "PKG-003": 54
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 50
+  },
+  {
+    "caseId": "valid-050",
+    "kind": "valid_single",
+    "requestId": " req-0050 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-004",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "PKG-004": 1
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 1
+  },
+  {
+    "caseId": "valid-051",
+    "kind": "valid_single",
+    "requestId": " req-0051 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-005",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "PKG-005": 3
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 2
+  },
+  {
+    "caseId": "valid-052",
+    "kind": "valid_single",
+    "requestId": " req-0052 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-006",
+        "quantity": 3
+      }
+    ],
+    "stock": {
+      "PKG-006": 5
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 3
+  },
+  {
+    "caseId": "valid-053",
+    "kind": "valid_single",
+    "requestId": " req-0053 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-007",
+        "quantity": 4
+      }
+    ],
+    "stock": {
+      "PKG-007": 7
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 4
+  },
+  {
+    "caseId": "valid-054",
+    "kind": "valid_single",
+    "requestId": " req-0054 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-008",
+        "quantity": 5
+      }
+    ],
+    "stock": {
+      "PKG-008": 9
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 5
+  },
+  {
+    "caseId": "valid-055",
+    "kind": "valid_single",
+    "requestId": " req-0055 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-009",
+        "quantity": 6
+      }
+    ],
+    "stock": {
+      "PKG-009": 6
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 6
+  },
+  {
+    "caseId": "valid-056",
+    "kind": "valid_single",
+    "requestId": " req-0056 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-010",
+        "quantity": 7
+      }
+    ],
+    "stock": {
+      "PKG-010": 8
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 7
+  },
+  {
+    "caseId": "valid-057",
+    "kind": "valid_single",
+    "requestId": " req-0057 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-011",
+        "quantity": 8
+      }
+    ],
+    "stock": {
+      "PKG-011": 10
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 8
+  },
+  {
+    "caseId": "valid-058",
+    "kind": "valid_single",
+    "requestId": " req-0058 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-012",
+        "quantity": 9
+      }
+    ],
+    "stock": {
+      "PKG-012": 12
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 9
+  },
+  {
+    "caseId": "valid-059",
+    "kind": "valid_single",
+    "requestId": " req-0059 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-013",
+        "quantity": 10
+      }
+    ],
+    "stock": {
+      "PKG-013": 14
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 10
+  },
+  {
+    "caseId": "valid-060",
+    "kind": "valid_single",
+    "requestId": " req-0060 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-014",
+        "quantity": 11
+      }
+    ],
+    "stock": {
+      "PKG-014": 11
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 11
+  },
+  {
+    "caseId": "valid-061",
+    "kind": "valid_single",
+    "requestId": " req-0061 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-015",
+        "quantity": 12
+      }
+    ],
+    "stock": {
+      "PKG-015": 13
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 12
+  },
+  {
+    "caseId": "valid-062",
+    "kind": "valid_single",
+    "requestId": " req-0062 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-016",
+        "quantity": 13
+      }
+    ],
+    "stock": {
+      "PKG-016": 15
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 13
+  },
+  {
+    "caseId": "valid-063",
+    "kind": "valid_single",
+    "requestId": " req-0063 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-017",
+        "quantity": 14
+      }
+    ],
+    "stock": {
+      "PKG-017": 17
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 14
+  },
+  {
+    "caseId": "valid-064",
+    "kind": "valid_single",
+    "requestId": " req-0064 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-018",
+        "quantity": 15
+      }
+    ],
+    "stock": {
+      "PKG-018": 19
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 15
+  },
+  {
+    "caseId": "valid-065",
+    "kind": "valid_single",
+    "requestId": " req-0065 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-019",
+        "quantity": 16
+      }
+    ],
+    "stock": {
+      "PKG-019": 16
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 16
+  },
+  {
+    "caseId": "valid-066",
+    "kind": "valid_single",
+    "requestId": " req-0066 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-020",
+        "quantity": 17
+      }
+    ],
+    "stock": {
+      "PKG-020": 18
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 17
+  },
+  {
+    "caseId": "valid-067",
+    "kind": "valid_single",
+    "requestId": " req-0067 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-021",
+        "quantity": 18
+      }
+    ],
+    "stock": {
+      "PKG-021": 20
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 18
+  },
+  {
+    "caseId": "valid-068",
+    "kind": "valid_single",
+    "requestId": " req-0068 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-022",
+        "quantity": 19
+      }
+    ],
+    "stock": {
+      "PKG-022": 22
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 19
+  },
+  {
+    "caseId": "valid-069",
+    "kind": "valid_single",
+    "requestId": " req-0069 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-000",
+        "quantity": 20
+      }
+    ],
+    "stock": {
+      "PKG-000": 24
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 20
+  },
+  {
+    "caseId": "valid-070",
+    "kind": "valid_single",
+    "requestId": " req-0070 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-001",
+        "quantity": 21
+      }
+    ],
+    "stock": {
+      "PKG-001": 21
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 21
+  },
+  {
+    "caseId": "valid-071",
+    "kind": "valid_single",
+    "requestId": " req-0071 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-002",
+        "quantity": 22
+      }
+    ],
+    "stock": {
+      "PKG-002": 23
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 22
+  },
+  {
+    "caseId": "valid-072",
+    "kind": "valid_single",
+    "requestId": " req-0072 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-003",
+        "quantity": 23
+      }
+    ],
+    "stock": {
+      "PKG-003": 25
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 23
+  },
+  {
+    "caseId": "valid-073",
+    "kind": "valid_single",
+    "requestId": " req-0073 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-004",
+        "quantity": 24
+      }
+    ],
+    "stock": {
+      "PKG-004": 27
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 24
+  },
+  {
+    "caseId": "valid-074",
+    "kind": "valid_single",
+    "requestId": " req-0074 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "PKG-005",
+        "quantity": 25
+      }
+    ],
+    "stock": {
+      "PKG-005": 29
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 25
+  },
+  {
+    "caseId": "valid-075",
+    "kind": "valid_single",
+    "requestId": " req-0075 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "pkg-006",
+        "quantity": 26
+      }
+    ],
+    "stock": {
+      "PKG-006": 26
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 26
+  },
+  {
+    "caseId": "valid-076",
+    "kind": "valid_single",
+    "requestId": " req-0076 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "PKG-007",
+        "quantity": 27
+      }
+    ],
+    "stock": {
+      "PKG-007": 28
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 27
+  },
+  {
+    "caseId": "valid-077",
+    "kind": "valid_single",
+    "requestId": " req-0077 ",
+    "warehouseCode": " East",
+    "lines": [
+      {
+        "sku": "pkg-008",
+        "quantity": 28
+      }
+    ],
+    "stock": {
+      "PKG-008": 30
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 28
+  },
+  {
+    "caseId": "valid-078",
+    "kind": "valid_single",
+    "requestId": " req-0078 ",
+    "warehouseCode": " north ",
+    "lines": [
+      {
+        "sku": "PKG-009",
+        "quantity": 29
+      }
+    ],
+    "stock": {
+      "PKG-009": 32
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 29
+  },
+  {
+    "caseId": "valid-079",
+    "kind": "valid_single",
+    "requestId": " req-0079 ",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "pkg-010",
+        "quantity": 30
+      }
+    ],
+    "stock": {
+      "PKG-010": 34
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 30
+  },
+  {
+    "caseId": "invalid-quantity-000",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-000",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-001",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-001",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-002",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-002",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-003",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-003",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-004",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-004",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-005",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-005",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-006",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-006",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-007",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-007",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-008",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-008",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-009",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-009",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-010",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-010",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-011",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-011",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-012",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-012",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-013",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-013",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-014",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-014",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-015",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-015",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-016",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-016",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-017",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-017",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-018",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-018",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-019",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-019",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-020",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-020",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-021",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-021",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-022",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-022",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-023",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-023",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-024",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-024",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-025",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-025",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-026",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-026",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-027",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-027",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-028",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-028",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-029",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-029",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-030",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-030",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-031",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-031",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-032",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-032",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-033",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-033",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-034",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-034",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-035",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-035",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-036",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-036",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 0
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-037",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-037",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": -1
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-038",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-038",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 51
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-quantity-039",
+    "kind": "invalid_quantity",
+    "requestId": "req-iq-039",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "BOX-EDGE",
+        "quantity": 75
+      }
+    ],
+    "stock": {
+      "BOX-EDGE": 100
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "duplicate-000",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-000",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-00 ",
+        "quantity": 1
+      },
+      {
+        "sku": "MIX-00",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "MIX-00": 2
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 2,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-001",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-001",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-01 ",
+        "quantity": 2
+      },
+      {
+        "sku": "MIX-01",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "MIX-01": 4
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 4,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-002",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-002",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-02 ",
+        "quantity": 3
+      },
+      {
+        "sku": "MIX-02",
+        "quantity": 3
+      }
+    ],
+    "stock": {
+      "MIX-02": 6
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 6,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-003",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-003",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-03 ",
+        "quantity": 4
+      },
+      {
+        "sku": "MIX-03",
+        "quantity": 4
+      }
+    ],
+    "stock": {
+      "MIX-03": 8
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 8,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-004",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-004",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-04 ",
+        "quantity": 5
+      },
+      {
+        "sku": "MIX-04",
+        "quantity": 5
+      }
+    ],
+    "stock": {
+      "MIX-04": 10
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 10,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-005",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-005",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-05 ",
+        "quantity": 6
+      },
+      {
+        "sku": "MIX-05",
+        "quantity": 6
+      }
+    ],
+    "stock": {
+      "MIX-05": 12
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 12,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-006",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-006",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-06 ",
+        "quantity": 7
+      },
+      {
+        "sku": "MIX-06",
+        "quantity": 7
+      }
+    ],
+    "stock": {
+      "MIX-06": 14
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 14,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-007",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-007",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-07 ",
+        "quantity": 8
+      },
+      {
+        "sku": "MIX-07",
+        "quantity": 8
+      }
+    ],
+    "stock": {
+      "MIX-07": 16
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 16,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-008",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-008",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-08 ",
+        "quantity": 9
+      },
+      {
+        "sku": "MIX-08",
+        "quantity": 9
+      }
+    ],
+    "stock": {
+      "MIX-08": 18
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 18,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-009",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-009",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-09 ",
+        "quantity": 10
+      },
+      {
+        "sku": "MIX-09",
+        "quantity": 10
+      }
+    ],
+    "stock": {
+      "MIX-09": 20
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 20,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-010",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-010",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-10 ",
+        "quantity": 11
+      },
+      {
+        "sku": "MIX-10",
+        "quantity": 11
+      }
+    ],
+    "stock": {
+      "MIX-10": 22
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 22,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-011",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-011",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-00 ",
+        "quantity": 12
+      },
+      {
+        "sku": "MIX-00",
+        "quantity": 12
+      }
+    ],
+    "stock": {
+      "MIX-00": 24
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 24,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-012",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-012",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-01 ",
+        "quantity": 13
+      },
+      {
+        "sku": "MIX-01",
+        "quantity": 13
+      }
+    ],
+    "stock": {
+      "MIX-01": 26
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 26,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-013",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-013",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-02 ",
+        "quantity": 14
+      },
+      {
+        "sku": "MIX-02",
+        "quantity": 14
+      }
+    ],
+    "stock": {
+      "MIX-02": 28
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 28,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-014",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-014",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-03 ",
+        "quantity": 15
+      },
+      {
+        "sku": "MIX-03",
+        "quantity": 15
+      }
+    ],
+    "stock": {
+      "MIX-03": 30
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 30,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-015",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-015",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-04 ",
+        "quantity": 16
+      },
+      {
+        "sku": "MIX-04",
+        "quantity": 16
+      }
+    ],
+    "stock": {
+      "MIX-04": 32
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 32,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-016",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-016",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-05 ",
+        "quantity": 17
+      },
+      {
+        "sku": "MIX-05",
+        "quantity": 17
+      }
+    ],
+    "stock": {
+      "MIX-05": 34
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 34,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-017",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-017",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-06 ",
+        "quantity": 18
+      },
+      {
+        "sku": "MIX-06",
+        "quantity": 18
+      }
+    ],
+    "stock": {
+      "MIX-06": 36
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 36,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-018",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-018",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-07 ",
+        "quantity": 19
+      },
+      {
+        "sku": "MIX-07",
+        "quantity": 19
+      }
+    ],
+    "stock": {
+      "MIX-07": 38
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 38,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-019",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-019",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-08 ",
+        "quantity": 20
+      },
+      {
+        "sku": "MIX-08",
+        "quantity": 20
+      }
+    ],
+    "stock": {
+      "MIX-08": 40
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 40,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-020",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-020",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-09 ",
+        "quantity": 21
+      },
+      {
+        "sku": "MIX-09",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "MIX-09": 22
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 22,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-021",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-021",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-10 ",
+        "quantity": 22
+      },
+      {
+        "sku": "MIX-10",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "MIX-10": 24
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 24,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-022",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-022",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-00 ",
+        "quantity": 23
+      },
+      {
+        "sku": "MIX-00",
+        "quantity": 3
+      }
+    ],
+    "stock": {
+      "MIX-00": 26
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 26,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-023",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-023",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-01 ",
+        "quantity": 24
+      },
+      {
+        "sku": "MIX-01",
+        "quantity": 4
+      }
+    ],
+    "stock": {
+      "MIX-01": 28
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 28,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-024",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-024",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-02 ",
+        "quantity": 25
+      },
+      {
+        "sku": "MIX-02",
+        "quantity": 5
+      }
+    ],
+    "stock": {
+      "MIX-02": 30
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 30,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-025",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-025",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-03 ",
+        "quantity": 1
+      },
+      {
+        "sku": "MIX-03",
+        "quantity": 6
+      }
+    ],
+    "stock": {
+      "MIX-03": 7
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 7,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-026",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-026",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-04 ",
+        "quantity": 2
+      },
+      {
+        "sku": "MIX-04",
+        "quantity": 7
+      }
+    ],
+    "stock": {
+      "MIX-04": 9
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 9,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-027",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-027",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-05 ",
+        "quantity": 3
+      },
+      {
+        "sku": "MIX-05",
+        "quantity": 8
+      }
+    ],
+    "stock": {
+      "MIX-05": 11
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 11,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-028",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-028",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-06 ",
+        "quantity": 4
+      },
+      {
+        "sku": "MIX-06",
+        "quantity": 9
+      }
+    ],
+    "stock": {
+      "MIX-06": 13
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 13,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-029",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-029",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-07 ",
+        "quantity": 5
+      },
+      {
+        "sku": "MIX-07",
+        "quantity": 10
+      }
+    ],
+    "stock": {
+      "MIX-07": 15
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 15,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-030",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-030",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-08 ",
+        "quantity": 6
+      },
+      {
+        "sku": "MIX-08",
+        "quantity": 11
+      }
+    ],
+    "stock": {
+      "MIX-08": 17
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 17,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-031",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-031",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-09 ",
+        "quantity": 7
+      },
+      {
+        "sku": "MIX-09",
+        "quantity": 12
+      }
+    ],
+    "stock": {
+      "MIX-09": 19
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 19,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-032",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-032",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-10 ",
+        "quantity": 8
+      },
+      {
+        "sku": "MIX-10",
+        "quantity": 13
+      }
+    ],
+    "stock": {
+      "MIX-10": 21
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 21,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-033",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-033",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-00 ",
+        "quantity": 9
+      },
+      {
+        "sku": "MIX-00",
+        "quantity": 14
+      }
+    ],
+    "stock": {
+      "MIX-00": 23
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 23,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-034",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-034",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-01 ",
+        "quantity": 10
+      },
+      {
+        "sku": "MIX-01",
+        "quantity": 15
+      }
+    ],
+    "stock": {
+      "MIX-01": 25
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 25,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-035",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-035",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-02 ",
+        "quantity": 11
+      },
+      {
+        "sku": "MIX-02",
+        "quantity": 16
+      }
+    ],
+    "stock": {
+      "MIX-02": 27
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 27,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-036",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-036",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-03 ",
+        "quantity": 12
+      },
+      {
+        "sku": "MIX-03",
+        "quantity": 17
+      }
+    ],
+    "stock": {
+      "MIX-03": 29
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 29,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-037",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-037",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-04 ",
+        "quantity": 13
+      },
+      {
+        "sku": "MIX-04",
+        "quantity": 18
+      }
+    ],
+    "stock": {
+      "MIX-04": 31
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 31,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-038",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-038",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-05 ",
+        "quantity": 14
+      },
+      {
+        "sku": "MIX-05",
+        "quantity": 19
+      }
+    ],
+    "stock": {
+      "MIX-05": 33
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 33,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "duplicate-039",
+    "kind": "case_insensitive_duplicate",
+    "requestId": "req-dup-039",
+    "warehouseCode": " west ",
+    "lines": [
+      {
+        "sku": " mix-06 ",
+        "quantity": 15
+      },
+      {
+        "sku": "MIX-06",
+        "quantity": 20
+      }
+    ],
+    "stock": {
+      "MIX-06": 35
+    },
+    "expectedSuccess": true,
+    "expectedTotalUnits": 35,
+    "expectedDistinctLookups": 1
+  },
+  {
+    "caseId": "shortage-000",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-000",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-00",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "LOW-00": 0
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-001",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-001",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-01",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "LOW-01": 1
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-002",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-002",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-02",
+        "quantity": 3
+      }
+    ],
+    "stock": {
+      "LOW-02": 2
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-003",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-003",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-03",
+        "quantity": 4
+      }
+    ],
+    "stock": {
+      "LOW-03": 3
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-004",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-004",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-04",
+        "quantity": 5
+      }
+    ],
+    "stock": {
+      "LOW-04": 4
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-005",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-005",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-05",
+        "quantity": 6
+      }
+    ],
+    "stock": {
+      "LOW-05": 5
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-006",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-006",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-06",
+        "quantity": 7
+      }
+    ],
+    "stock": {
+      "LOW-06": 6
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-007",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-007",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-07",
+        "quantity": 8
+      }
+    ],
+    "stock": {
+      "LOW-07": 7
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-008",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-008",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-08",
+        "quantity": 9
+      }
+    ],
+    "stock": {
+      "LOW-08": 8
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-009",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-009",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-09",
+        "quantity": 10
+      }
+    ],
+    "stock": {
+      "LOW-09": 9
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-010",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-010",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-10",
+        "quantity": 11
+      }
+    ],
+    "stock": {
+      "LOW-10": 10
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-011",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-011",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-11",
+        "quantity": 12
+      }
+    ],
+    "stock": {
+      "LOW-11": 11
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-012",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-012",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-12",
+        "quantity": 13
+      }
+    ],
+    "stock": {
+      "LOW-12": 12
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-013",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-013",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-00",
+        "quantity": 14
+      }
+    ],
+    "stock": {
+      "LOW-00": 13
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-014",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-014",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-01",
+        "quantity": 15
+      }
+    ],
+    "stock": {
+      "LOW-01": 14
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-015",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-015",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-02",
+        "quantity": 16
+      }
+    ],
+    "stock": {
+      "LOW-02": 15
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-016",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-016",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-03",
+        "quantity": 17
+      }
+    ],
+    "stock": {
+      "LOW-03": 16
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-017",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-017",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-04",
+        "quantity": 18
+      }
+    ],
+    "stock": {
+      "LOW-04": 17
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-018",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-018",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-05",
+        "quantity": 19
+      }
+    ],
+    "stock": {
+      "LOW-05": 18
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-019",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-019",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-06",
+        "quantity": 20
+      }
+    ],
+    "stock": {
+      "LOW-06": 19
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-020",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-020",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-07",
+        "quantity": 21
+      }
+    ],
+    "stock": {
+      "LOW-07": 20
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-021",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-021",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-08",
+        "quantity": 22
+      }
+    ],
+    "stock": {
+      "LOW-08": 21
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-022",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-022",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-09",
+        "quantity": 23
+      }
+    ],
+    "stock": {
+      "LOW-09": 22
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-023",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-023",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-10",
+        "quantity": 24
+      }
+    ],
+    "stock": {
+      "LOW-10": 23
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-024",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-024",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-11",
+        "quantity": 25
+      }
+    ],
+    "stock": {
+      "LOW-11": 24
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-025",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-025",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-12",
+        "quantity": 26
+      }
+    ],
+    "stock": {
+      "LOW-12": 25
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-026",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-026",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-00",
+        "quantity": 27
+      }
+    ],
+    "stock": {
+      "LOW-00": 26
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-027",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-027",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-01",
+        "quantity": 28
+      }
+    ],
+    "stock": {
+      "LOW-01": 27
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-028",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-028",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-02",
+        "quantity": 29
+      }
+    ],
+    "stock": {
+      "LOW-02": 28
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-029",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-029",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-03",
+        "quantity": 30
+      }
+    ],
+    "stock": {
+      "LOW-03": 29
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-030",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-030",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-04",
+        "quantity": 31
+      }
+    ],
+    "stock": {
+      "LOW-04": 30
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-031",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-031",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-05",
+        "quantity": 32
+      }
+    ],
+    "stock": {
+      "LOW-05": 31
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-032",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-032",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-06",
+        "quantity": 33
+      }
+    ],
+    "stock": {
+      "LOW-06": 32
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-033",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-033",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-07",
+        "quantity": 34
+      }
+    ],
+    "stock": {
+      "LOW-07": 33
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-034",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-034",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-08",
+        "quantity": 35
+      }
+    ],
+    "stock": {
+      "LOW-08": 34
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-035",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-035",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-09",
+        "quantity": 36
+      }
+    ],
+    "stock": {
+      "LOW-09": 35
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-036",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-036",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-10",
+        "quantity": 37
+      }
+    ],
+    "stock": {
+      "LOW-10": 36
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-037",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-037",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-11",
+        "quantity": 38
+      }
+    ],
+    "stock": {
+      "LOW-11": 37
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-038",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-038",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-12",
+        "quantity": 39
+      }
+    ],
+    "stock": {
+      "LOW-12": 38
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "shortage-039",
+    "kind": "insufficient_inventory",
+    "requestId": "req-low-039",
+    "warehouseCode": "south",
+    "lines": [
+      {
+        "sku": "LOW-00",
+        "quantity": 40
+      }
+    ],
+    "stock": {
+      "LOW-00": 39
+    },
+    "expectedSuccess": false,
+    "expectedCommitCalls": 0
+  },
+  {
+    "caseId": "invalid-field-000",
+    "kind": "invalid_required_field",
+    "requestId": "   ",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-001",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-001",
+    "warehouseCode": "",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-002",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-002",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "  ",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-003",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-003",
+    "warehouseCode": "east",
+    "lines": null,
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-004",
+    "kind": "invalid_required_field",
+    "requestId": "   ",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-005",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-005",
+    "warehouseCode": "",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-006",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-006",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "  ",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-007",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-007",
+    "warehouseCode": "east",
+    "lines": null,
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-008",
+    "kind": "invalid_required_field",
+    "requestId": "   ",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-009",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-009",
+    "warehouseCode": "",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-010",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-010",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "  ",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-011",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-011",
+    "warehouseCode": "east",
+    "lines": null,
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-012",
+    "kind": "invalid_required_field",
+    "requestId": "   ",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-013",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-013",
+    "warehouseCode": "",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-014",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-014",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "  ",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-015",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-015",
+    "warehouseCode": "east",
+    "lines": null,
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-016",
+    "kind": "invalid_required_field",
+    "requestId": "   ",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-017",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-017",
+    "warehouseCode": "",
+    "lines": [
+      {
+        "sku": "BAG-1",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-018",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-018",
+    "warehouseCode": "east",
+    "lines": [
+      {
+        "sku": "  ",
+        "quantity": 1
+      }
+    ],
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "invalid-field-019",
+    "kind": "invalid_required_field",
+    "requestId": "req-field-019",
+    "warehouseCode": "east",
+    "lines": null,
+    "stock": {
+      "BAG-1": 10
+    },
+    "expectedSuccess": false,
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-000",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-000",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-00",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-00": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-001",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-001",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-01",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-01": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-002",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-002",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-02",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-02": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-003",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-003",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-03",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-03": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-004",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-004",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-04",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-04": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-005",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-005",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-05",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-05": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-006",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-006",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-06",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-06": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-007",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-007",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-07",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-07": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-008",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-008",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-08",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-08": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-009",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-009",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-09",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-09": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-010",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-010",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-10",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-10": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-011",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-011",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-11",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-11": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-012",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-012",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-12",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-12": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-013",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-013",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-13",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-13": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-014",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-014",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-14",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-14": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-015",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-015",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-15",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-15": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-016",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-016",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-16",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-16": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-017",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-017",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-17",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-17": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-018",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-018",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-18",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-18": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  },
+  {
+    "caseId": "cancelled-019",
+    "kind": "pre_cancelled",
+    "requestId": "req-cancel-019",
+    "warehouseCode": "north",
+    "lines": [
+      {
+        "sku": "CAN-19",
+        "quantity": 2
+      }
+    ],
+    "stock": {
+      "CAN-19": 10
+    },
+    "expectedException": "OperationCanceledException",
+    "expectedGatewayCalls": 0
+  }
+]

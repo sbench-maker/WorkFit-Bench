@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "reporting_cutoff": "2026-09-07T18:00:00",
+  "complete": true,
+  "files": {
+    "incidents.csv": {
+      "records": 4,
+      "complete": true
+    },
+    "incident_timeline.csv": {
+      "records": 22,
+      "complete": true
+    },
+    "action_items.csv": {
+      "records": 12,
+      "complete": true
+    },
+    "queue_snapshots.csv": {
+      "records": 7,
+      "complete": true
+    },
+    "support_tickets.csv": {
+      "records": 240,
+      "complete": true
+    },
+    "internal_messages.jsonl": {
+      "records": 120,
+      "complete": true
+    },
+    "reporting_context.md": {
+      "complete": true
+    }
+  },
+  "notes": "This manifest describes input completeness only; it does not contain expected conclusions."
+}

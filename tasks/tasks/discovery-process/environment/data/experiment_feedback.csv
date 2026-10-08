@@ -1,0 +1,25 @@
+feedback_id,experiment_participant_id,variant,sentiment,comment
+F001,E001,control,negative,I still could not tell which field caused the row error.
+F002,E002,control,negative,I still could not tell which field caused the row error.
+F003,E003,control,negative,I still could not tell which field caused the row error.
+F004,E004,control,negative,I still could not tell which field caused the row error.
+F005,E005,control,negative,I still could not tell which field caused the row error.
+F006,E006,control,negative,I still could not tell which field caused the row error.
+F007,E007,control,negative,I still could not tell which field caused the row error.
+F008,E008,control,negative,I still could not tell which field caused the row error.
+F009,E009,control,mixed,I eventually fixed it by comparing the template manually.
+F010,E010,control,mixed,I eventually fixed it by comparing the template manually.
+F011,E011,control,mixed,I eventually fixed it by comparing the template manually.
+F012,E012,control,mixed,I eventually fixed it by comparing the template manually.
+F013,E061,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F014,E062,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F015,E063,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F016,E064,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F017,E065,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F018,E066,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F019,E067,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F020,E068,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F021,E069,guided_repair,positive,The failed-row file showed exactly what I needed to repair.
+F022,E070,guided_repair,mixed,"The field labels helped, but the date example needs clearer wording."
+F023,E071,guided_repair,mixed,"The field labels helped, but the date example needs clearer wording."
+F024,E072,guided_repair,mixed,"The field labels helped, but the date example needs clearer wording."

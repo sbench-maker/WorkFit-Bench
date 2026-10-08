@@ -1,0 +1,251 @@
+{
+  "release": "Aurora UI 3.4.0",
+  "audit_scope": "All components in registry/components.json; fixture is complete and not truncated.",
+  "token_usage_rule": "Audited visual properties in component CSS must use var(--token-name). Literal values are violations even when their value equals an existing token, unless registered below.",
+  "audited_properties": {
+    "color": [
+      "color",
+      "background-color",
+      "border-color"
+    ],
+    "spacing": [
+      "padding",
+      "margin",
+      "gap",
+      "row-gap",
+      "column-gap"
+    ],
+    "radius": [
+      "border-radius"
+    ],
+    "fontSize": [
+      "font-size"
+    ],
+    "lineHeight": [
+      "line-height"
+    ],
+    "fontWeight": [
+      "font-weight"
+    ],
+    "shadow": [
+      "box-shadow"
+    ],
+    "duration": [
+      "transition-duration",
+      "animation-duration"
+    ]
+  },
+  "component_kind_policies": {
+    "action": {
+      "allowed_variants": [
+        "primary",
+        "secondary",
+        "ghost",
+        "danger"
+      ],
+      "allowed_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "required_states": [
+        "default",
+        "hover",
+        "active",
+        "focus-visible",
+        "disabled",
+        "loading"
+      ],
+      "required_accessibility": [
+        "keyboard_activation",
+        "accessible_name",
+        "focus_visible"
+      ]
+    },
+    "form_control": {
+      "allowed_variants": [
+        "outline",
+        "filled"
+      ],
+      "allowed_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "required_states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "disabled",
+        "error"
+      ],
+      "required_accessibility": [
+        "label_association",
+        "error_announcement",
+        "focus_visible"
+      ]
+    },
+    "choice_control": {
+      "allowed_variants": [
+        "default"
+      ],
+      "allowed_sizes": [
+        "sm",
+        "md"
+      ],
+      "required_states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "disabled",
+        "checked"
+      ],
+      "required_accessibility": [
+        "keyboard_toggle",
+        "label_association",
+        "focus_visible"
+      ]
+    },
+    "semantic_status": {
+      "allowed_variants": [
+        "neutral",
+        "info",
+        "success",
+        "warning",
+        "danger"
+      ],
+      "allowed_sizes": [
+        "sm",
+        "md"
+      ],
+      "required_states": [
+        "default"
+      ],
+      "required_accessibility": [
+        "non_color_cue"
+      ]
+    },
+    "overlay": {
+      "allowed_variants": [
+        "default"
+      ],
+      "allowed_sizes": [],
+      "required_states": [
+        "closed",
+        "opening",
+        "open",
+        "closing"
+      ],
+      "required_accessibility": [
+        "escape_dismiss",
+        "focus_trap",
+        "return_focus",
+        "accessible_name"
+      ]
+    },
+    "tooltip": {
+      "allowed_variants": [
+        "default",
+        "inverse"
+      ],
+      "allowed_sizes": [],
+      "required_states": [
+        "closed",
+        "open"
+      ],
+      "required_accessibility": [
+        "hover_and_focus",
+        "escape_dismiss",
+        "describedby_link"
+      ]
+    },
+    "navigation": {
+      "allowed_variants": [
+        "default",
+        "underline",
+        "pills"
+      ],
+      "allowed_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "required_states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled"
+      ],
+      "required_accessibility": [
+        "arrow_keys",
+        "home_end",
+        "roving_tabindex",
+        "focus_visible"
+      ]
+    },
+    "display": {
+      "allowed_variants": [
+        "default",
+        "outlined",
+        "elevated"
+      ],
+      "allowed_sizes": [],
+      "required_states": [
+        "default"
+      ],
+      "required_accessibility": [
+        "semantic_structure"
+      ]
+    },
+    "data_display": {
+      "allowed_variants": [
+        "default",
+        "striped"
+      ],
+      "allowed_sizes": [
+        "sm",
+        "md"
+      ],
+      "required_states": [
+        "default",
+        "loading",
+        "empty",
+        "error"
+      ],
+      "required_accessibility": [
+        "header_association",
+        "caption_or_label",
+        "sort_announcement"
+      ]
+    },
+    "feedback": {
+      "allowed_variants": [
+        "default"
+      ],
+      "allowed_sizes": [],
+      "required_states": [
+        "default"
+      ],
+      "required_accessibility": [
+        "reduced_motion"
+      ]
+    }
+  },
+  "public_name_aliases": {
+    "quiet": "ghost",
+    "large": "lg",
+    "critical": "danger",
+    "medium": "md",
+    "line": "underline"
+  },
+  "registered_literal_exceptions": [
+    {
+      "file": "src/components/Avatar/Avatar.css",
+      "property": "border-radius",
+      "value": "50%",
+      "reason": "Geometry-dependent circular crop; no fixed radius token is equivalent."
+    }
+  ],
+  "migration_rule": "Public naming changes require a deprecated alias for one minor release before removal."
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_behavior",
+      "title": "Usable hardened copy and preserved behavior",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Both requested artifacts are readable, and the hardened site retains all three routes, the 240-record local feed, navigation, filtering, greeting, chart, and user-triggered location behavior.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifacts_are_readable",
+        "test_user_visible_contract_is_preserved"
+      ]
+    },
+    {
+      "id": "completion__browser_security",
+      "title": "Browser security hardening",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The hardened copy prevents untrusted text from reaching execution sinks, avoids insecure or unpinned active resources, enforces an effective response-header policy, and requests location only in context.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_content_injection_defenses",
+        "test_active_resources_transport_and_integrity",
+        "test_response_security_policy",
+        "test_location_permission_is_contextual"
+      ]
+    },
+    {
+      "id": "completion__compatibility_quality",
+      "title": "Compatibility and production quality",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every route uses robust HTML5 metadata and valid core nesting, while brittle browser sniffing, parser-blocking APIs, production debug logging, and exposed source maps are removed.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_html5_documents_are_modern_and_valid",
+        "test_modern_runtime_and_production_output"
+      ]
+    },
+    {
+      "id": "completion__audit_coverage_accuracy",
+      "title": "Audit coverage and fix-state accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The JSON audit covers each material issue family evidenced by the snapshot, identifies relevant files or locations, and accurately distinguishes remediated code issues from the external session-cookie decision.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_audit_material_findings_coverage",
+        "test_audit_evidence_and_dispositions"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_behavior",
+        "title": "Usable hardened copy and preserved behavior",
+        "required_score": 10
+      },
+      {
+        "id": "completion__browser_security",
+        "title": "Browser security hardening",
+        "required_score": 10
+      },
+      {
+        "id": "completion__compatibility_quality",
+        "title": "Compatibility and production quality",
+        "required_score": 10
+      },
+      {
+        "id": "completion__audit_coverage_accuracy",
+        "title": "Audit coverage and fix-state accuracy",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

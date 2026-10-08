@@ -1,0 +1,37 @@
+[
+  {
+    "id": "aster-research/cedarswitch-1.3b-int4",
+    "paper_id": "2608.04721v2",
+    "revision": "v2",
+    "role": "reported device checkpoint",
+    "quantization": "int4"
+  },
+  {
+    "id": "aster-research/cedarswitch-1.3b-fp16",
+    "paper_id": "2608.04721v2",
+    "revision": "v2",
+    "role": "quality reproduction checkpoint",
+    "quantization": "fp16"
+  },
+  {
+    "id": "aster-research/cedarswitch-router-ablation",
+    "paper_id": "2608.04721v2",
+    "revision": "v2",
+    "role": "no-budget-loss ablation",
+    "quantization": "fp16"
+  },
+  {
+    "id": "community-nlp/cedarswitch-es-adapter",
+    "paper_id": "2608.04721v1",
+    "revision": "v1",
+    "role": "community Spanish adapter",
+    "quantization": "int8"
+  },
+  {
+    "id": "benchforge/dense-ticket-1.3b",
+    "paper_id": "2608.04721v2",
+    "revision": "v2",
+    "role": "dense baseline",
+    "quantization": "int4"
+  }
+]

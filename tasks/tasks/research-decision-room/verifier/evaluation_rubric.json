@@ -1,0 +1,122 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_viability",
+      "title": "Self-contained interactive artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested index.html exists, is readable as a substantial single-page document, contains an interactive control, and does not depend on remote assets.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__evidence_fidelity",
+      "title": "Evidence fidelity and traceability",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The dashboard traces claims to a representative mix of supplied interviews, usability observations, tickets, surveys, analytics, sales notes, and stakeholder context while preserving decision-critical quotes and metrics.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__decision_scope",
+      "title": "Decision-room scope completeness",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The artifact covers evidence, themes, the three named alternatives, a recommendation, a concise decision memo, experiments, and limitations.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__internal_consistency",
+      "title": "Cross-section and experiment consistency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The recommendation remains identifiable across the artifact, experiments contain concrete measurable thresholds, and any numeric opportunity totals reconcile with their component scores.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_cross_section_consistency"
+      ]
+    },
+    {
+      "id": "completion__decision_judgment",
+      "title": "Evidence-backed recommendation and uncertainty judgment",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The recommended September move reasonably weighs cross-source evidence, account-size differences, sprint constraints, and uncertainty; it states what could change the decision and proposes a reversible learning step.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_viability",
+        "title": "Self-contained interactive artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_fidelity",
+        "title": "Evidence fidelity and traceability",
+        "required_score": 10
+      },
+      {
+        "id": "completion__decision_scope",
+        "title": "Decision-room scope completeness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__internal_consistency",
+        "title": "Cross-section and experiment consistency",
+        "required_score": 10
+      },
+      {
+        "id": "completion__decision_judgment",
+        "title": "Evidence-backed recommendation and uncertainty judgment",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

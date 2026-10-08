@@ -1,0 +1,30 @@
+{
+  "fixture": "Northstar incident wall motion controller",
+  "card_count": 240,
+  "viewport": {"width_px": 1280, "height_px": 720},
+  "interactions": {
+    "card_reveal": {
+      "start": {"y_px": 24, "opacity": 0},
+      "end": {"y_px": 0, "opacity": 1},
+      "duration_seconds": 0.42,
+      "ease": "power2.out",
+      "repeat": false
+    },
+    "cursor_halo": {
+      "coordinates": "latest pointer position within incident-board",
+      "duration_seconds": 0.18,
+      "ease": "power3.out"
+    },
+    "detail_drawer": {
+      "width_px": 360,
+      "closed_x_px": 360,
+      "open_x_px": 0,
+      "duration_seconds": 0.32,
+      "ease": "power2.out"
+    },
+    "reduced_motion": {
+      "duration_seconds": 0,
+      "content_remains_reachable": true
+    }
+  }
+}

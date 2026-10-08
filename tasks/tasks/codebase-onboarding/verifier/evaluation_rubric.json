@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__grounded_reconnaissance",
+      "title": "Current stack and day-one commands are grounded",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The guide identifies the repository's actual application shape and directs the engineer to commands that exist in current configuration rather than the stale prototype note.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__instruction_preservation",
+      "title": "Project instructions are preserved and refreshed",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The new CLAUDE.md retains all three existing project-specific safety rules and adds current, actionable repository guidance without adopting the obsolete prototype stack.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_claude_preserves_existing_project_rules",
+        "test_claude_adds_current_repository_guidance"
+      ]
+    },
+    {
+      "id": "completion__request_lifecycle",
+      "title": "Approval request lifecycle is accurate",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The guide gives a coherent end-to-end approval path from the web request through validation, authorization, locking, domain policy, the transactional outbox and commit, response serialization, and post-commit worker behavior, without relocating provisioning into the request handler.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__grounded_reconnaissance",
+        "title": "Current stack and day-one commands are grounded",
+        "required_score": 10
+      },
+      {
+        "id": "completion__instruction_preservation",
+        "title": "Project instructions are preserved and refreshed",
+        "required_score": 10
+      },
+      {
+        "id": "completion__request_lifecycle",
+        "title": "Approval request lifecycle is accurate",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

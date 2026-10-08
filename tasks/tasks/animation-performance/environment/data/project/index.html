@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meridian Ops motion states</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+  <main class="state-gallery">
+    <header class="gallery-header">
+      <span class="brand-mark">Meridian Ops</span>
+      <button class="safe-button" type="button">Refresh</button>
+    </header>
+
+    <section class="specimen" aria-labelledby="panel-heading">
+      <h2 id="panel-heading">Navigation panel</h2>
+      <div class="stage stage--panel">
+        <aside class="side-panel" data-state="closed" aria-label="Closed navigation">
+          <strong>Closed specimen</strong>
+        </aside>
+        <aside class="side-panel" data-state="open" aria-label="Open navigation">
+          <strong>Open specimen</strong>
+        </aside>
+      </div>
+    </section>
+
+    <section class="specimen" aria-labelledby="dialog-heading">
+      <h2 id="dialog-heading">Confirmation dialog</h2>
+      <div class="stage stage--dialog">
+        <div class="dialog" data-state="hidden" aria-hidden="true">
+          <div class="dialog__card">Hidden specimen</div>
+        </div>
+        <div class="dialog" data-state="visible">
+          <div class="dialog__card">Visible specimen</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specimen" aria-labelledby="toast-heading">
+      <h2 id="toast-heading">Sync toast</h2>
+      <div class="stage stage--toast">
+        <div class="toast" data-state="hidden">Hidden specimen</div>
+        <div class="toast" data-state="visible">Visible specimen</div>
+      </div>
+    </section>
+
+    <section class="specimen" aria-labelledby="progress-heading">
+      <h2 id="progress-heading">Upload progress</h2>
+      <div class="progress" data-progress="empty"><span class="progress__fill"></span></div>
+      <div class="progress" data-progress="half"><span class="progress__fill"></span></div>
+      <div class="progress" data-progress="complete"><span class="progress__fill"></span></div>
+    </section>
+
+    <section class="specimen" aria-labelledby="status-heading">
+      <h2 id="status-heading">Connection status</h2>
+      <span class="status-badge">Needs attention</span>
+      <span class="live-dot" aria-label="Live"></span>
+    </section>
+  </main>
+</body>
+</html>

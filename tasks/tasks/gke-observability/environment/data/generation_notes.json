@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "snapshot": "2026-08-17T09:00:00Z",
+  "files": {
+    "clusters.json": 18,
+    "metric_inventory.csv": 252
+  },
+  "intentional_edge_cases": [
+    "regional and zonal clusters",
+    "compliant clusters that require explicit no-op decisions",
+    "production control-plane metric gaps",
+    "GPU and persistent-volume conditional coverage",
+    "non-production over-collection that should be reduced",
+    "a Dataplane V2-ineligible production cluster"
+  ]
+}

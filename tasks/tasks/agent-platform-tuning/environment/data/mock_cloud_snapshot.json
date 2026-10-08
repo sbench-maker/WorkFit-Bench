@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "clock": "2026-09-10T09:00:00Z",
+  "project": "northwind-agent-lab",
+  "project_number": "731905420116",
+  "location": "europe-west4",
+  "enabled_services": [
+    "aiplatform.googleapis.com",
+    "storage.googleapis.com"
+  ],
+  "accessible_buckets": [
+    "gs://northwind-agent-tuning-eu"
+  ],
+  "model_contract": {
+    "display_name": "Llama 3.1 8B Instruct",
+    "base_model": "meta/llama-3.1-8b-instruct",
+    "tuning_mode": "PEFT_ADAPTER",
+    "epochs": 3,
+    "learning_rate": 0.0002,
+    "adapter_size": 16,
+    "tokens_per_character": 0.317,
+    "cost_per_million_tokens_usd": 0.67
+  }
+}

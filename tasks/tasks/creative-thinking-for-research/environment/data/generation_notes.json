@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "snapshot_date": "2026-08-31",
+  "fictional": true,
+  "row_counts": {
+    "lab_observations.csv": 72,
+    "assumptions.csv": 48,
+    "mechanism_cards.jsonl": 72,
+    "enablers.csv": 40,
+    "prior_ideas.csv": 28
+  },
+  "join_keys": [
+    "evidence_ids -> obs_id",
+    "related_assumption_ids -> assumption_id"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__upstream_accuracy",
+      "title": "Upstream lineage accuracy",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report correctly traces the four confirmed current source branches through their important staging and enrichment assets and processing jobs into net_revenue, including the direct calculation inputs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__downstream_accuracy",
+      "title": "Downstream lineage accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report correctly traces net_revenue through both immediate products to all four confirmed current final consumers and names the material processing jobs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_downstream_lineage_accuracy"
+      ]
+    },
+    {
+      "id": "completion__scope_and_boundaries",
+      "title": "Search scope and lineage boundaries",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report states the focal column and frozen search parameters, covers both direction queries and all captured locations, and accurately flags the inactive legacy paths and unresolved override endpoint.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_scope_limits_and_edge_cases"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__upstream_accuracy",
+        "title": "Upstream lineage accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__downstream_accuracy",
+        "title": "Downstream lineage accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__scope_and_boundaries",
+        "title": "Search scope and lineage boundaries",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

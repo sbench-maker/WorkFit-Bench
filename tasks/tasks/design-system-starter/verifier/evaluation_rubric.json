@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__token_foundations",
+      "title": "Token foundations and approved palette",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "W3C-shaped tokens preserve the approved palette and provide the foundation categories and scale breadth specified by the local brief.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_token_foundations"
+      ]
+    },
+    {
+      "id": "completion__theme_contract",
+      "title": "Light/dark semantic theme contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Light and dark semantic roles resolve to the approved colors, meet the relevant contrast thresholds, and are exposed as CSS variables with explicit and system-preference theme behavior.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_theme_contract"
+      ]
+    },
+    {
+      "id": "completion__component_contracts",
+      "title": "Component scope and consumer contracts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All requested components cover the inventory's observed variants and sizes, while Button and TextInput preserve native element props and forwarded refs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_component_scope",
+        "test_native_control_contracts"
+      ]
+    },
+    {
+      "id": "completion__accessible_behavior",
+      "title": "Accessible component behavior",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The component implementations work together to provide the keyboard, focus, labeling, validation, live-region, and dialog behaviors described in the handoff, without relying on color alone.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__token_foundations",
+        "title": "Token foundations and approved palette",
+        "required_score": 10
+      },
+      {
+        "id": "completion__theme_contract",
+        "title": "Light/dark semantic theme contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__component_contracts",
+        "title": "Component scope and consumer contracts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__accessible_behavior",
+        "title": "Accessible component behavior",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "workspaceRoot": "/srv/atlas-agent/workspace",
+  "targets": [
+    {
+      "path": "SOUL.md",
+      "mode": "restore"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "restore"
+    },
+    {
+      "path": "USER.md",
+      "mode": "alert"
+    },
+    {
+      "path": "TOOLS.md",
+      "mode": "alert"
+    },
+    {
+      "path": "IDENTITY.md",
+      "mode": "alert"
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "mode": "alert"
+    },
+    {
+      "path": "MEMORY.md",
+      "mode": "alert"
+    },
+    {
+      "pattern": "memory/*.md",
+      "mode": "ignore"
+    }
+  ]
+}

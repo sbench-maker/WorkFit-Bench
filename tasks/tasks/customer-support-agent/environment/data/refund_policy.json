@@ -1,0 +1,32 @@
+{
+  "policy_version": "2026-06",
+  "automatic_refund": {
+    "all_conditions_required": {
+      "purchase_age_days_lte": 14,
+      "amount_usd_lte": 50,
+      "currency": "USD",
+      "allowed_reasons": [
+        "duplicate_charge",
+        "service_failure"
+      ],
+      "charge_status": "settled",
+      "payment_method": "card",
+      "identity_verified": true,
+      "prior_refund": false,
+      "risk_flags": []
+    },
+    "required_sequence": [
+      "billing.lookup_charge",
+      "billing.issue_refund",
+      "verify result status"
+    ],
+    "completion_rule": "A refund is complete only when billing.issue_refund returns succeeded."
+  },
+  "escalate_when": [
+    "any automatic condition is not met",
+    "charge data is missing or conflicting",
+    "refund result is pending or failed",
+    "the message includes a legal, chargeback, security, or privacy risk flag"
+  ],
+  "customer_communication": "Never quote an amount or account state before lookup. The helpdesk tool can save drafts but cannot send them."
+}

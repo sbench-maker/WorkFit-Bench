@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__route_eligibility",
+      "title": "Payment-route eligibility and ranking",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The comparison includes all active methods that satisfy both limit types for 0.018 BTC, excludes suspended or limit-ineligible methods from the usable set, and recommends the lowest quoted BUY route.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__economics_and_fallback",
+      "title": "Current economics and direct fallback",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The current payment quotations, 0.018 BTC cost estimates, indicative market reference, and lowest-cost direct fallback are numerically correct.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_current_prices_costs_and_fallback"
+      ]
+    },
+    {
+      "id": "completion__wallet_funding",
+      "title": "Wallet funding shortfall and deposit fit",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The artifact reconciles the existing wallet balance to the purchase cost and offers only deposit methods whose status and limits permit that shortfall.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_wallet_shortfall_and_deposit_options"
+      ]
+    },
+    {
+      "id": "completion__market_support",
+      "title": "Requested market support",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The artifact positively confirms that an Australian AUD/BTC BUY request is supported by the applicable frozen capability response.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__route_eligibility",
+        "title": "Payment-route eligibility and ranking",
+        "required_score": 10
+      },
+      {
+        "id": "completion__economics_and_fallback",
+        "title": "Current economics and direct fallback",
+        "required_score": 10
+      },
+      {
+        "id": "completion__wallet_funding",
+        "title": "Wallet funding shortfall and deposit fit",
+        "required_score": 10
+      },
+      {
+        "id": "completion__market_support",
+        "title": "Requested market support",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

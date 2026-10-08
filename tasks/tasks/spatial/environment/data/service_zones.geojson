@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "name": "Larkhaven service zones",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC::CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ZN-NORTH",
+      "properties": {
+        "zone_id": "ZN-NORTH",
+        "zone_name": "North Studio District",
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.52,
+              37.72
+            ],
+            [
+              -122.46,
+              37.72
+            ],
+            [
+              -122.46,
+              37.78
+            ],
+            [
+              -122.52,
+              37.78
+            ],
+            [
+              -122.52,
+              37.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZN-CENTRAL",
+      "properties": {
+        "zone_id": "ZN-CENTRAL",
+        "zone_name": "Central Market District",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.49,
+              37.7
+            ],
+            [
+              -122.42,
+              37.7
+            ],
+            [
+              -122.42,
+              37.76
+            ],
+            [
+              -122.49,
+              37.76
+            ],
+            [
+              -122.49,
+              37.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZN-SOUTH",
+      "properties": {
+        "zone_id": "ZN-SOUTH",
+        "zone_name": "South Works District",
+        "priority": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.52,
+              37.66
+            ],
+            [
+              -122.46,
+              37.66
+            ],
+            [
+              -122.46,
+              37.72
+            ],
+            [
+              -122.52,
+              37.72
+            ],
+            [
+              -122.52,
+              37.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZN-EAST",
+      "properties": {
+        "zone_id": "ZN-EAST",
+        "zone_name": "East Gallery District",
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.46,
+              37.66
+            ],
+            [
+              -122.4,
+              37.66
+            ],
+            [
+              -122.4,
+              37.72
+            ],
+            [
+              -122.46,
+              37.72
+            ],
+            [
+              -122.46,
+              37.66
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

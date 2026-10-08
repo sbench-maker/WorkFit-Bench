@@ -1,0 +1,16 @@
+{
+  "snapshot_date": "2026-06-30",
+  "fictional": true,
+  "network_required": false,
+  "files": {
+    "referring_domains.csv": 58,
+    "backlinks.csv": 379,
+    "site_pages.csv": 13,
+    "outbound_links.csv": 14,
+    "site_context.json": 2
+  },
+  "join_keys": [
+    "backlinks.source_domain = referring_domains.domain",
+    "backlinks.(destination_site,destination_path) = site_pages.(site,path)"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "reporting_at": "2026-08-18T15:00:00Z",
+  "business_calendar": {
+    "timezone": "UTC",
+    "weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "start_hour": 9,
+    "end_hour": 17,
+    "holidays_file": "holidays.csv"
+  },
+  "account_resolution": "Use account_id when it resolves. Otherwise use an exact corporate email-domain match only when it identifies one account; ambiguous or unmatched domains require review and stay out of handoff.",
+  "fit_scoring": {
+    "employee_count": [
+      {
+        "min": 50,
+        "max": 1000,
+        "points": 15
+      },
+      {
+        "min": 1001,
+        "max": null,
+        "points": 10
+      },
+      {
+        "min": 10,
+        "max": 49,
+        "points": 5
+      }
+    ],
+    "industry": {
+      "SaaS": 10,
+      "Fintech": 10,
+      "Healthcare": 8
+    },
+    "title_level": {
+      "C-Level": 15,
+      "VP": 15,
+      "Director": 10,
+      "Manager": 5,
+      "Individual": 0,
+      "Intern": 0
+    },
+    "target_country": {
+      "US": 10,
+      "Canada": 10,
+      "UK": 10
+    },
+    "uses_complementary_tool": 10
+  },
+  "engagement_scoring": {
+    "lookback_days": 60,
+    "demo_request": {
+      "points_each": 30,
+      "cap": 30
+    },
+    "trial_signup": {
+      "points_each": 25,
+      "cap": 25
+    },
+    "pricing_view": {
+      "points_each": 10,
+      "cap": 20
+    },
+    "case_study_download": {
+      "points_each": 10,
+      "cap": 10
+    },
+    "webinar_attended": {
+      "points_each": 10,
+      "cap": 10
+    },
+    "email_click": {
+      "points_each": 3,
+      "cap": 9
+    },
+    "blog_view": {
+      "points_each": 1,
+      "cap": 5
+    }
+  },
+  "negative_scoring": {
+    "personal_email_domains": [
+      "mailbox.example"
+    ],
+    "personal_email_points": -10,
+    "unsubscribed_points": -20,
+    "intern_points": -25,
+    "inactive_30_days_points": -10,
+    "inactive_30_days_definition": "No activity type listed in engagement_scoring occurred in the 30 days ending at reporting_at."
+  },
+  "disqualifiers": {
+    "email_domains": [
+      "rival-crm.example"
+    ],
+    "boolean_fields": [
+      "hard_bounce",
+      "spam_complaint"
+    ]
+  },
+  "lifecycle_exclusions": {
+    "existing_customer": "Keep the Customer stage and exclude from MQL routing when the contact or resolved account is already a customer."
+  },
+  "mql_rule": {
+    "minimum_fit": 25,
+    "minimum_engagement": 25,
+    "minimum_total": 65,
+    "existing_mql_policy": "retain until a sales disposition unless disqualified"
+  },
+  "routing": {
+    "priority": [
+      "eligible_current_owner",
+      "eligible_named_account_owner",
+      "healthcare_specialist",
+      "enterprise_pool",
+      "territory_pool",
+      "general_pool",
+      "queue"
+    ],
+    "territories": {
+      "west": [
+        "US"
+      ],
+      "east": [
+        "US"
+      ],
+      "central": [
+        "US"
+      ],
+      "international": [
+        "Canada",
+        "UK",
+        "Germany",
+        "Singapore"
+      ]
+    },
+    "us_region_by_account_id_modulo": {
+      "0": "west",
+      "1": "east",
+      "2": "central"
+    },
+    "enterprise_employee_min": 1001,
+    "queue_owner_id": "QUEUE-REVOPS",
+    "selection": "Among eligible members of the selected pool, choose the lowest projected load ratio, then the oldest last_assigned_at, then rep_id. Process leads by handoff timestamp then lead_id, incrementing projected load after each assignment.",
+    "continuity_exception": "For a new handoff, if a current or named owner is unavailable or at capacity, use the next rule and require human review. An already-owned MQL is already included in open_mqls, so retain its current owner at capacity when that owner is available unless the 48-business-hour reassignment threshold has passed."
+  },
+  "sla": {
+    "first_contact_business_hours": 4,
+    "reassign_after_business_hours": 48,
+    "sales_contact_activity_types": [
+      "sales_email",
+      "sales_call",
+      "meeting"
+    ],
+    "new_mql_handoff_timestamp": "most recent qualifying engagement activity; fall back to created_at"
+  },
+  "output_contract": {
+    "format": "JSON",
+    "one_decision_per_contact": true,
+    "required_decision_content": [
+      "lead identifier",
+      "resolved account or unresolved state",
+      "fit, engagement, negative, and total scores",
+      "resulting lifecycle stage",
+      "assigned owner or queue",
+      "routing reason",
+      "handoff timestamp when applicable",
+      "first-contact due time when applicable",
+      "SLA status",
+      "next action",
+      "human-review flag and reason"
+    ]
+  }
+}

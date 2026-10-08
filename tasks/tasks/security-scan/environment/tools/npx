@@ -1,0 +1,11 @@
+#!/bin/sh
+# Offline compatibility entry point for the one vendored package in this image.
+if [ "$1" = "--no-install" ]; then
+  shift
+fi
+if [ "$1" != "ecc-agentshield" ]; then
+  echo "offline npx: only ecc-agentshield is vendored" >&2
+  exit 127
+fi
+shift
+exec ecc-agentshield "$@"

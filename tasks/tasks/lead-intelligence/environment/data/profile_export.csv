@@ -1,0 +1,330 @@
+profile_record_id,person_id,source,source_verified,observed_at,full_name,title,company_id,location,email,x_handle,linkedin_slug,follower_count
+PR-P001-CRM,P001,crm,true,2026-06-15,Imani Quill,CTO,C001,San Francisco Bay Area,imani_quill@example.test,,imani-quill,
+PR-P001-SOC,P001,x,true,2026-08-28,Imani Quill,CTO,C001,San Francisco Bay Area,,imani_quill,imani-quill,88000
+PR-P002-CRM,P002,crm,true,2026-06-15,Nadia Voss,CTO,C001,San Francisco Bay Area,nadia_voss@example.test,,nadia-voss,
+PR-P002-SOC,P002,x,true,2026-08-28,Nadia Voss,CTO,C001,San Francisco Bay Area,,nadia_voss,nadia-voss,71000
+PR-P003-CRM,P003,crm,true,2026-06-15,Theo Marin,Engineering Manager,C002,Seattle,theo_marin@example.test,,theo-marin,
+PR-P003-SOC,P003,x,true,2026-08-28,Theo Marin,VP Engineering,C002,Seattle,,theo_marin,theo-marin,24000
+PR-P004-CRM,P004,crm,true,2026-06-15,Priya Bell,CTO,C003,San Francisco Bay Area,priya_bell@example.test,,priya-bell,
+PR-P004-SOC,P004,x,true,2026-08-28,Priya Bell,CTO,C003,San Francisco Bay Area,,priya_bell,priya-bell,12500
+PR-P005-CRM,P005,crm,true,2026-06-15,Jonah Kade,Head of Engineering,C001,Portland,jonah_kade@example.test,,jonah-kade,
+PR-P005-SOC,P005,x,true,2026-08-28,Jonah Kade,Head of Engineering,C001,Portland,,jonah_kade,jonah-kade,56000
+PR-P006-CRM,P006,crm,true,2026-06-15,Lena Orr,VP Engineering,C004,San Francisco Bay Area,lena_orr@example.test,,lena-orr,
+PR-P006-SOC,P006,x,true,2026-08-28,Lena Orr,VP Engineering,C004,San Francisco Bay Area,,lena_orr,lena-orr,5600
+PR-P007-CRM,P007,crm,true,2026-06-15,Mateo Finch,CTO,C002,New York,mateo_finch@example.test,,mateo-finch,
+PR-P007-SOC,P007,x,true,2026-08-28,Mateo Finch,CTO,C002,New York,,mateo_finch,mateo-finch,3200
+PR-P008-CRM,P008,crm,true,2026-06-15,Aria Moss,VP Engineering,C003,Seattle,aria_moss@example.test,,aria-moss,
+PR-P008-SOC,P008,x,true,2026-08-28,Aria Moss,VP Engineering,C003,Seattle,,aria_moss,aria-moss,900
+PR-P009-CRM,P009,crm,true,2026-06-15,Dev Shah,Head of Engineering,C001,San Francisco Bay Area,dev_shah@example.test,,dev-shah,
+PR-P009-SOC,P009,x,true,2026-08-28,Dev Shah,Head of Engineering,C001,San Francisco Bay Area,,dev_shah,dev-shah,22000
+PR-P010-CRM,P010,crm,true,2026-06-15,Camille Frost,CTO,C005,Portland,camille_frost@example.test,,camille-frost,
+PR-P010-SOC,P010,x,true,2026-08-28,Camille Frost,CTO,C005,Portland,,camille_frost,camille-frost,7200
+PR-P011-CRM,P011,crm,true,2026-06-15,Owen Pike,Engineering Manager,C002,San Francisco Bay Area,owen_pike@example.test,,owen-pike,
+PR-P011-SOC,P011,linkedin,true,2026-08-28,Owen Pike,Director of Engineering,C002,San Francisco Bay Area,,,owen-pike,82000
+PR-P012-CRM,P012,crm,true,2026-06-15,Sora Bennett,VP Engineering,C004,New York,sora_bennett@example.test,,sora-bennett,
+PR-P012-SOC,P012,x,true,2026-08-28,Sora Bennett,VP Engineering,C004,New York,,sora_bennett,sora-bennett,26000
+PR-P013-CRM,P013,crm,true,2026-06-15,Keira Noll,Head of Engineering,C003,San Francisco Bay Area,keira_noll@example.test,,,
+PR-P013-SOC,P013,x,true,2026-08-28,Keira Noll,Head of Engineering,C003,San Francisco Bay Area,,keira_noll,,6500
+PR-P014-CRM,P014,crm,true,2026-06-15,Elias Ward,CTO,C006,Boston,,,elias-ward,
+PR-P014-SOC,P014,x,true,2026-08-28,Elias Ward,CTO,C006,Boston,,elias_ward,elias-ward,1800
+PR-P015-CRM,P015,crm,true,2026-06-15,Rina Vale,VP Engineering,C002,Remote,rina_vale@example.test,,rina-vale,
+PR-P015-SOC,P015,x,true,2026-08-28,Rina Vale,VP Engineering,C002,Remote,,rina_vale,rina-vale,53000
+PR-P016-CRM,P016,crm,true,2026-06-15,Tomas Wynn,Developer Advocate,C001,San Francisco Bay Area,tomas_wynn@example.test,,tomas-wynn,
+PR-P016-SOC,P016,x,true,2026-08-28,Tomas Wynn,CTO,C001,San Francisco Bay Area,,tomas_wynn,tomas-wynn,750
+PR-P017-CRM,P017,crm,true,2026-06-15,Mei Calder,Director of Engineering,C003,Seattle,mei_calder@example.test,,mei-calder,
+PR-P017-SOC,P017,x,true,2026-08-28,Mei Calder,Director of Engineering,C003,Seattle,,mei_calder,mei-calder,9200
+PR-P017-UNVERIFIED,P017,linkedin,false,2026-08-31,Mei Calder,CTO,C001,San Francisco Bay Area,,mei_calder,mei-calder,250000
+PR-P018-CRM,P018,crm,true,2026-06-15,Luca Hart,Head of Engineering,C004,San Francisco Bay Area,luca_hart@example.test,,luca-hart,
+PR-P018-SOC,P018,x,true,2026-08-28,Luca Hart,Head of Engineering,C004,San Francisco Bay Area,,luca_hart,luca-hart,2400
+PR-P019-CRM,P019,crm,true,2026-06-15,Zane Ives,CTO,C005,Seattle,zane_ives@example.test,,zane-ives,
+PR-P019-SOC,P019,x,true,2026-08-28,Zane Ives,CTO,C005,Seattle,,zane_ives,zane-ives,46000
+PR-P020-CRM,P020,crm,true,2026-06-15,Anika Crow,VP Engineering,C006,San Francisco Bay Area,anika_crow@example.test,,anika-crow,
+PR-P020-SOC,P020,x,true,2026-08-28,Anika Crow,VP Engineering,C006,San Francisco Bay Area,,anika_crow,anika-crow,5200
+PR-P021-CRM,P021,crm,true,2026-08-20,Mira Sol,CTO,C001,San Francisco Bay Area,mira_sol@example.test,mira_sol,mira-sol,30000
+PR-P022-CRM,P022,crm,true,2026-08-20,Avery Cove,Founder,C051,Remote,avery_cove@example.test,,avery-cove,17998
+PR-P023-CRM,P023,crm,true,2026-08-20,Blair Dale,Developer Advocate,C062,Austin,blair_dale@example.test,blair_dale,blair-dale,1663
+PR-P024-CRM,P024,crm,true,2026-06-15,Casey Elm,VP Engineering,C009,Portland,casey_elm@example.test,,casey-elm,
+PR-P024-SOC,P024,x,true,2026-08-28,Casey Elm,VP Engineering,C009,Portland,,casey_elm,casey-elm,3402
+PR-P025-CRM,P025,crm,true,2026-08-20,Drew Field,CEO,C020,Toronto,drew_field@example.test,drew_field,drew-field,5215
+PR-P026-CRM,P026,crm,true,2026-08-20,Emery Gray,Product Manager,C031,Berlin,emery_gray@example.test,emery_gray,,7102
+PR-P027-CRM,P027,crm,true,2026-08-20,Flynn Hale,CTO,C042,Seattle,flynn_hale@example.test,flynn_hale,flynn-hale,9063
+PR-P028-CRM,P028,crm,true,2026-06-15,Greer Irwin,Director of Engineering,C053,Boston,,,greer-irwin,
+PR-P028-SOC,P028,x,true,2026-08-28,Greer Irwin,Director of Engineering,C053,Boston,,greer_irwin,greer-irwin,11098
+PR-P029-CRM,P029,crm,true,2026-08-20,Hayden Jett,Other,C064,London,hayden_jett@example.test,hayden_jett,hayden-jett,13207
+PR-P030-CRM,P030,crm,true,2026-08-20,Indra Knox,Engineering Manager,C011,San Francisco Bay Area,indra_knox@example.test,indra_knox,indra-knox,15390
+PR-P031-CRM,P031,crm,true,2026-08-20,Jules Lane,Head of Engineering,C022,New York,jules_lane@example.test,jules_lane,jules-lane,17647
+PR-P032-CRM,P032,crm,true,2026-06-15,Kai Morrow,Developer Advocate,C033,Remote,kai_morrow@example.test,,kai-morrow,
+PR-P032-SOC,P032,x,true,2026-08-28,Kai Morrow,Founder,C033,Remote,,kai_morrow,kai-morrow,1978
+PR-P033-CRM,P033,crm,true,2026-08-20,Logan North,Developer Advocate,C044,Austin,logan_north@example.test,,logan-north,4383
+PR-P034-CRM,P034,crm,true,2026-08-20,Morgan Oak,VP Engineering,C055,Portland,morgan_oak@example.test,morgan_oak,morgan-oak,6862
+PR-P034-UNVERIFIED,P034,linkedin,false,2026-08-31,Morgan Oak,CTO,C001,San Francisco Bay Area,,morgan_oak,morgan-oak,250000
+PR-P035-CRM,P035,crm,true,2026-08-20,Noor Page,CEO,C002,Toronto,noor_page@example.test,noor_page,noor-page,9415
+PR-P036-CRM,P036,crm,true,2026-06-15,Parker Reed,Product Manager,C013,Berlin,parker_reed@example.test,,parker-reed,
+PR-P036-SOC,P036,x,true,2026-08-28,Parker Reed,Product Manager,C013,Berlin,,parker_reed,parker-reed,12042
+PR-P037-CRM,P037,crm,true,2026-08-20,Quinn Stone,CTO,C024,Seattle,quinn_stone@example.test,quinn_stone,quinn-stone,14743
+PR-P038-CRM,P038,crm,true,2026-08-20,Remy Tern,Director of Engineering,C035,Boston,remy_tern@example.test,remy_tern,remy-tern,17518
+PR-P039-CRM,P039,crm,true,2026-08-20,Sage West,Other,C046,London,sage_west@example.test,sage_west,,2367
+PR-P040-CRM,P040,crm,true,2026-06-15,Tatum Ash,Engineering Manager,C057,San Francisco Bay Area,tatum_ash@example.test,,tatum-ash,
+PR-P040-SOC,P040,x,true,2026-08-28,Tatum Ash,Engineering Manager,C057,San Francisco Bay Area,,tatum_ash,tatum-ash,5290
+PR-P041-CRM,P041,crm,true,2026-08-20,Uma Brock,Head of Engineering,C004,New York,uma_brock@example.test,uma_brock,uma-brock,8287
+PR-P042-CRM,P042,crm,true,2026-08-20,Vega Cove,Founder,C015,Remote,,vega_cove,vega-cove,11358
+PR-P043-CRM,P043,crm,true,2026-08-20,Wren Dale,Developer Advocate,C026,Austin,wren_dale@example.test,wren_dale,wren-dale,14503
+PR-P044-CRM,P044,crm,true,2026-06-15,Yael Elm,VP Engineering,C037,Portland,yael_elm@example.test,,yael-elm,
+PR-P044-SOC,P044,linkedin,true,2026-08-28,Yael Elm,VP Engineering,C037,Portland,,,yael-elm,17722
+PR-P045-CRM,P045,crm,true,2026-08-20,Alden Field,CEO,C048,Toronto,alden_field@example.test,alden_field,alden-field,3015
+PR-P046-CRM,P046,crm,true,2026-08-20,Briar Gray,Product Manager,C059,Berlin,briar_gray@example.test,briar_gray,briar-gray,6382
+PR-P047-CRM,P047,crm,true,2026-08-20,Cleo Hale,CTO,C006,Seattle,cleo_hale@example.test,cleo_hale,cleo-hale,9823
+PR-P048-CRM,P048,crm,true,2026-06-15,Dara Irwin,Developer Advocate,C017,Boston,dara_irwin@example.test,,dara-irwin,
+PR-P048-SOC,P048,x,true,2026-08-28,Dara Irwin,Director of Engineering,C017,Boston,,dara_irwin,dara-irwin,13338
+PR-P049-CRM,P049,crm,true,2026-08-20,Evan Jett,Other,C028,London,evan_jett@example.test,evan_jett,evan-jett,16927
+PR-P050-CRM,P050,crm,true,2026-08-20,Faye Knox,Engineering Manager,C039,San Francisco Bay Area,faye_knox@example.test,faye_knox,faye-knox,2590
+PR-P051-CRM,P051,crm,true,2026-08-20,Galen Lane,Head of Engineering,C050,New York,galen_lane@example.test,galen_lane,galen-lane,6327
+PR-P051-UNVERIFIED,P051,linkedin,false,2026-08-31,Galen Lane,CTO,C001,San Francisco Bay Area,,galen_lane,galen-lane,250000
+PR-P052-CRM,P052,crm,true,2026-06-15,Avery North,Founder,C061,Remote,avery_north@example.test,,,
+PR-P052-SOC,P052,x,true,2026-08-28,Avery North,Founder,C061,Remote,,avery_north,,10138
+PR-P053-CRM,P053,crm,true,2026-08-20,Blair Oak,Developer Advocate,C008,Austin,blair_oak@example.test,blair_oak,blair-oak,14023
+PR-P054-CRM,P054,crm,true,2026-08-20,Casey Page,VP Engineering,C019,Portland,casey_page@example.test,casey_page,casey-page,17982
+PR-P055-CRM,P055,crm,true,2026-08-20,Drew Reed,CEO,C030,Toronto,drew_reed@example.test,,drew-reed,4015
+PR-P056-CRM,P056,crm,true,2026-06-15,Emery Stone,Product Manager,C041,Berlin,,,emery-stone,
+PR-P056-SOC,P056,x,true,2026-08-28,Emery Stone,Product Manager,C041,Berlin,,emery_stone,emery-stone,8122
+PR-P057-CRM,P057,crm,true,2026-08-20,Flynn Tern,CTO,C052,Seattle,flynn_tern@example.test,flynn_tern,flynn-tern,12303
+PR-P058-CRM,P058,crm,true,2026-08-20,Greer West,Director of Engineering,C063,Boston,greer_west@example.test,greer_west,greer-west,16558
+PR-P059-CRM,P059,crm,true,2026-08-20,Hayden Ash,Other,C010,London,hayden_ash@example.test,hayden_ash,hayden-ash,2887
+PR-P060-CRM,P060,crm,true,2026-06-15,Indra Brock,Engineering Manager,C021,San Francisco Bay Area,indra_brock@example.test,,indra-brock,
+PR-P060-SOC,P060,x,true,2026-08-28,Indra Brock,Engineering Manager,C021,San Francisco Bay Area,,indra_brock,indra-brock,7290
+PR-P061-CRM,P061,crm,true,2026-08-20,Jules Cove,Head of Engineering,C032,New York,jules_cove@example.test,jules_cove,jules-cove,11767
+PR-P062-CRM,P062,crm,true,2026-08-20,Kai Dale,Founder,C043,Remote,kai_dale@example.test,kai_dale,kai-dale,16318
+PR-P063-CRM,P063,crm,true,2026-08-20,Logan Elm,Developer Advocate,C054,Austin,logan_elm@example.test,logan_elm,logan-elm,2943
+PR-P064-CRM,P064,crm,true,2026-06-15,Morgan Field,Developer Advocate,C001,Portland,morgan_field@example.test,,morgan-field,
+PR-P064-SOC,P064,x,true,2026-08-28,Morgan Field,VP Engineering,C001,Portland,,morgan_field,morgan-field,7642
+PR-P065-CRM,P065,crm,true,2026-08-20,Noor Gray,CEO,C012,Toronto,noor_gray@example.test,noor_gray,,12415
+PR-P066-CRM,P066,crm,true,2026-08-20,Parker Hale,Product Manager,C023,Berlin,parker_hale@example.test,,parker-hale,17262
+PR-P067-CRM,P067,crm,true,2026-08-20,Quinn Irwin,CTO,C034,Seattle,quinn_irwin@example.test,quinn_irwin,quinn-irwin,4183
+PR-P068-CRM,P068,crm,true,2026-06-15,Remy Jett,Director of Engineering,C045,Boston,remy_jett@example.test,,remy-jett,
+PR-P068-SOC,P068,x,true,2026-08-28,Remy Jett,Director of Engineering,C045,Boston,,remy_jett,remy-jett,9178
+PR-P068-UNVERIFIED,P068,linkedin,false,2026-08-31,Remy Jett,CTO,C001,San Francisco Bay Area,,remy_jett,remy-jett,250000
+PR-P069-CRM,P069,crm,true,2026-08-20,Sage Knox,Other,C056,London,sage_knox@example.test,sage_knox,sage-knox,14247
+PR-P070-CRM,P070,crm,true,2026-08-20,Tatum Lane,Engineering Manager,C003,San Francisco Bay Area,,tatum_lane,tatum-lane,1390
+PR-P071-CRM,P071,crm,true,2026-08-20,Uma Morrow,Head of Engineering,C014,New York,uma_morrow@example.test,uma_morrow,uma-morrow,6607
+PR-P072-CRM,P072,crm,true,2026-06-15,Vega North,Founder,C025,Remote,vega_north@example.test,,vega-north,
+PR-P072-SOC,P072,x,true,2026-08-28,Vega North,Founder,C025,Remote,,vega_north,vega-north,11898
+PR-P073-CRM,P073,crm,true,2026-08-20,Wren Oak,Developer Advocate,C036,Austin,wren_oak@example.test,wren_oak,wren-oak,17263
+PR-P074-CRM,P074,crm,true,2026-08-20,Yael Page,VP Engineering,C047,Portland,yael_page@example.test,yael_page,yael-page,4702
+PR-P075-CRM,P075,crm,true,2026-08-20,Alden Reed,CEO,C058,Toronto,alden_reed@example.test,alden_reed,alden-reed,10215
+PR-P076-CRM,P076,crm,true,2026-06-15,Briar Stone,Product Manager,C005,Berlin,briar_stone@example.test,,briar-stone,
+PR-P076-SOC,P076,x,true,2026-08-28,Briar Stone,Product Manager,C005,Berlin,,briar_stone,briar-stone,15802
+PR-P077-CRM,P077,crm,true,2026-08-20,Cleo Tern,CTO,C016,Seattle,cleo_tern@example.test,,cleo-tern,3463
+PR-P078-CRM,P078,crm,true,2026-08-20,Dara West,Director of Engineering,C027,Boston,dara_west@example.test,dara_west,,9198
+PR-P079-CRM,P079,crm,true,2026-08-20,Evan Ash,Other,C038,London,evan_ash@example.test,evan_ash,evan-ash,15007
+PR-P080-CRM,P080,crm,true,2026-06-15,Faye Brock,Developer Advocate,C049,San Francisco Bay Area,faye_brock@example.test,,faye-brock,
+PR-P080-SOC,P080,x,true,2026-08-28,Faye Brock,Engineering Manager,C049,San Francisco Bay Area,,faye_brock,faye-brock,2890
+PR-P081-CRM,P081,crm,true,2026-08-20,Galen Cove,Head of Engineering,C060,New York,galen_cove@example.test,galen_cove,galen-cove,8847
+PR-P082-CRM,P082,crm,true,2026-08-20,Avery Elm,Founder,C007,Remote,avery_elm@example.test,avery_elm,avery-elm,14878
+PR-P083-CRM,P083,crm,true,2026-08-20,Blair Field,Developer Advocate,C018,Austin,blair_field@example.test,blair_field,blair-field,2983
+PR-P084-CRM,P084,crm,true,2026-06-15,Casey Gray,VP Engineering,C029,Portland,,,casey-gray,
+PR-P084-SOC,P084,x,true,2026-08-28,Casey Gray,VP Engineering,C029,Portland,,casey_gray,casey-gray,9162
+PR-P085-CRM,P085,crm,true,2026-08-20,Drew Hale,CEO,C040,Toronto,drew_hale@example.test,drew_hale,drew-hale,15415
+PR-P085-UNVERIFIED,P085,linkedin,false,2026-08-31,Drew Hale,CTO,C001,San Francisco Bay Area,,drew_hale,drew-hale,250000
+PR-P086-CRM,P086,crm,true,2026-08-20,Emery Irwin,Product Manager,C051,Berlin,emery_irwin@example.test,emery_irwin,emery-irwin,3742
+PR-P087-CRM,P087,crm,true,2026-08-20,Flynn Jett,CTO,C062,Seattle,flynn_jett@example.test,flynn_jett,flynn-jett,10143
+PR-P088-CRM,P088,crm,true,2026-06-15,Greer Knox,Director of Engineering,C009,Boston,greer_knox@example.test,,greer-knox,
+PR-P088-SOC,P088,linkedin,true,2026-08-28,Greer Knox,Director of Engineering,C009,Boston,,,greer-knox,16618
+PR-P089-CRM,P089,crm,true,2026-08-20,Hayden Lane,Other,C020,London,hayden_lane@example.test,hayden_lane,hayden-lane,5167
+PR-P090-CRM,P090,crm,true,2026-08-20,Indra Morrow,Engineering Manager,C031,San Francisco Bay Area,indra_morrow@example.test,indra_morrow,indra-morrow,11790
+PR-P091-CRM,P091,crm,true,2026-08-20,Jules North,Head of Engineering,C042,New York,jules_north@example.test,jules_north,,487
+PR-P092-CRM,P092,crm,true,2026-06-15,Kai Oak,Founder,C053,Remote,kai_oak@example.test,,kai-oak,
+PR-P092-SOC,P092,x,true,2026-08-28,Kai Oak,Founder,C053,Remote,,kai_oak,kai-oak,7258
+PR-P093-CRM,P093,crm,true,2026-08-20,Logan Page,Developer Advocate,C064,Austin,logan_page@example.test,logan_page,logan-page,14103
+PR-P094-CRM,P094,crm,true,2026-08-20,Morgan Reed,VP Engineering,C011,Portland,morgan_reed@example.test,morgan_reed,morgan-reed,3022
+PR-P095-CRM,P095,crm,true,2026-08-20,Noor Stone,CEO,C022,Toronto,noor_stone@example.test,noor_stone,noor-stone,10015
+PR-P096-CRM,P096,crm,true,2026-06-15,Parker Tern,Developer Advocate,C033,Berlin,parker_tern@example.test,,parker-tern,
+PR-P096-SOC,P096,x,true,2026-08-28,Parker Tern,Product Manager,C033,Berlin,,parker_tern,parker-tern,17082
+PR-P097-CRM,P097,crm,true,2026-08-20,Quinn West,CTO,C044,Seattle,quinn_west@example.test,quinn_west,quinn-west,6223
+PR-P098-CRM,P098,crm,true,2026-08-20,Remy Ash,Director of Engineering,C055,Boston,,remy_ash,remy-ash,13438
+PR-P099-CRM,P099,crm,true,2026-08-20,Sage Brock,Other,C002,London,sage_brock@example.test,,sage-brock,2727
+PR-P100-CRM,P100,crm,true,2026-06-15,Tatum Cove,Engineering Manager,C013,San Francisco Bay Area,tatum_cove@example.test,,tatum-cove,
+PR-P100-SOC,P100,x,true,2026-08-28,Tatum Cove,Engineering Manager,C013,San Francisco Bay Area,,tatum_cove,tatum-cove,10090
+PR-P101-CRM,P101,crm,true,2026-08-20,Uma Dale,Head of Engineering,C024,New York,uma_dale@example.test,uma_dale,uma-dale,17527
+PR-P102-CRM,P102,crm,true,2026-08-20,Vega Elm,Founder,C035,Remote,vega_elm@example.test,vega_elm,vega-elm,7038
+PR-P102-UNVERIFIED,P102,linkedin,false,2026-08-31,Vega Elm,CTO,C001,San Francisco Bay Area,,vega_elm,vega-elm,250000
+PR-P103-CRM,P103,crm,true,2026-08-20,Wren Field,Developer Advocate,C046,Austin,wren_field@example.test,wren_field,wren-field,14623
+PR-P104-CRM,P104,crm,true,2026-06-15,Yael Gray,VP Engineering,C057,Portland,yael_gray@example.test,,,
+PR-P104-SOC,P104,x,true,2026-08-28,Yael Gray,VP Engineering,C057,Portland,,yael_gray,,4282
+PR-P105-CRM,P105,crm,true,2026-08-20,Alden Hale,CEO,C004,Toronto,alden_hale@example.test,alden_hale,alden-hale,12015
+PR-P106-CRM,P106,crm,true,2026-08-20,Briar Irwin,Product Manager,C015,Berlin,briar_irwin@example.test,briar_irwin,briar-irwin,1822
+PR-P107-CRM,P107,crm,true,2026-08-20,Cleo Jett,CTO,C026,Seattle,cleo_jett@example.test,cleo_jett,cleo-jett,9703
+PR-P108-CRM,P108,crm,true,2026-06-15,Dara Knox,Director of Engineering,C037,Boston,dara_knox@example.test,,dara-knox,
+PR-P108-SOC,P108,x,true,2026-08-28,Dara Knox,Director of Engineering,C037,Boston,,dara_knox,dara-knox,17658
+PR-P109-CRM,P109,crm,true,2026-08-20,Evan Lane,Other,C048,London,evan_lane@example.test,evan_lane,evan-lane,7687
+PR-P110-CRM,P110,crm,true,2026-08-20,Faye Morrow,Engineering Manager,C059,San Francisco Bay Area,faye_morrow@example.test,,faye-morrow,15790
+PR-P111-CRM,P111,crm,true,2026-08-20,Galen North,Head of Engineering,C006,New York,galen_north@example.test,galen_north,galen-north,5967
+PR-P112-CRM,P112,crm,true,2026-06-15,Avery Page,Developer Advocate,C017,Remote,,,avery-page,
+PR-P112-SOC,P112,x,true,2026-08-28,Avery Page,Founder,C017,Remote,,avery_page,avery-page,14218
+PR-P113-CRM,P113,crm,true,2026-08-20,Blair Reed,Developer Advocate,C028,Austin,blair_reed@example.test,blair_reed,blair-reed,4543
+PR-P114-CRM,P114,crm,true,2026-08-20,Casey Stone,VP Engineering,C039,Portland,casey_stone@example.test,casey_stone,casey-stone,12942
+PR-P115-CRM,P115,crm,true,2026-08-20,Drew Tern,CEO,C050,Toronto,drew_tern@example.test,drew_tern,drew-tern,3415
+PR-P116-CRM,P116,crm,true,2026-06-15,Emery West,Product Manager,C061,Berlin,emery_west@example.test,,emery-west,
+PR-P116-SOC,P116,x,true,2026-08-28,Emery West,Product Manager,C061,Berlin,,emery_west,emery-west,11962
+PR-P117-CRM,P117,crm,true,2026-08-20,Flynn Ash,CTO,C008,Seattle,flynn_ash@example.test,flynn_ash,,2583
+PR-P118-CRM,P118,crm,true,2026-08-20,Greer Brock,Director of Engineering,C019,Boston,greer_brock@example.test,greer_brock,greer-brock,11278
+PR-P119-CRM,P119,crm,true,2026-08-20,Hayden Cove,Other,C030,London,hayden_cove@example.test,hayden_cove,hayden-cove,2047
+PR-P119-UNVERIFIED,P119,linkedin,false,2026-08-31,Hayden Cove,CTO,C001,San Francisco Bay Area,,hayden_cove,hayden-cove,250000
+PR-P120-CRM,P120,crm,true,2026-06-15,Indra Dale,Engineering Manager,C041,San Francisco Bay Area,indra_dale@example.test,,indra-dale,
+PR-P120-SOC,P120,x,true,2026-08-28,Indra Dale,Engineering Manager,C041,San Francisco Bay Area,,indra_dale,indra-dale,10890
+PR-P121-CRM,P121,crm,true,2026-08-20,Jules Elm,Head of Engineering,C052,New York,jules_elm@example.test,,jules-elm,1807
+PR-P122-CRM,P122,crm,true,2026-08-20,Kai Field,Founder,C063,Remote,kai_field@example.test,kai_field,kai-field,10798
+PR-P123-CRM,P123,crm,true,2026-08-20,Logan Gray,Developer Advocate,C010,Austin,logan_gray@example.test,logan_gray,logan-gray,1863
+PR-P124-CRM,P124,crm,true,2026-06-15,Morgan Hale,VP Engineering,C021,Portland,morgan_hale@example.test,,morgan-hale,
+PR-P124-SOC,P124,x,true,2026-08-28,Morgan Hale,VP Engineering,C021,Portland,,morgan_hale,morgan-hale,11002
+PR-P125-CRM,P125,crm,true,2026-08-20,Noor Irwin,CEO,C032,Toronto,noor_irwin@example.test,noor_irwin,noor-irwin,2215
+PR-P126-CRM,P126,crm,true,2026-08-20,Parker Jett,Product Manager,C043,Berlin,,parker_jett,parker-jett,11502
+PR-P127-CRM,P127,crm,true,2026-08-20,Quinn Knox,CTO,C054,Seattle,quinn_knox@example.test,quinn_knox,quinn-knox,2863
+PR-P128-CRM,P128,crm,true,2026-06-15,Remy Lane,Developer Advocate,C001,Boston,remy_lane@example.test,,remy-lane,
+PR-P128-SOC,P128,x,true,2026-08-28,Remy Lane,Director of Engineering,C001,Boston,,remy_lane,remy-lane,12298
+PR-P129-CRM,P129,crm,true,2026-08-20,Sage Morrow,Other,C012,London,sage_morrow@example.test,sage_morrow,sage-morrow,3807
+PR-P130-CRM,P130,crm,true,2026-08-20,Tatum North,Engineering Manager,C023,San Francisco Bay Area,tatum_north@example.test,tatum_north,,13390
+PR-P131-CRM,P131,crm,true,2026-08-20,Uma Oak,Head of Engineering,C034,New York,uma_oak@example.test,uma_oak,uma-oak,5047
+PR-P132-CRM,P132,crm,true,2026-06-15,Vega Page,Founder,C045,Remote,vega_page@example.test,,vega-page,
+PR-P132-SOC,P132,linkedin,true,2026-08-28,Vega Page,Founder,C045,Remote,,,vega-page,14778
+PR-P133-CRM,P133,crm,true,2026-08-20,Wren Reed,Developer Advocate,C056,Austin,wren_reed@example.test,wren_reed,wren-reed,6583
+PR-P134-CRM,P134,crm,true,2026-08-20,Yael Stone,VP Engineering,C003,Portland,yael_stone@example.test,yael_stone,yael-stone,16462
+PR-P135-CRM,P135,crm,true,2026-08-20,Alden Tern,CEO,C014,Toronto,alden_tern@example.test,alden_tern,alden-tern,8415
+PR-P136-CRM,P136,crm,true,2026-06-15,Briar West,Product Manager,C025,Berlin,briar_west@example.test,,briar-west,
+PR-P136-SOC,P136,x,true,2026-08-28,Briar West,Product Manager,C025,Berlin,,briar_west,briar-west,442
+PR-P136-UNVERIFIED,P136,linkedin,false,2026-08-31,Briar West,CTO,C001,San Francisco Bay Area,,briar_west,briar-west,250000
+PR-P137-CRM,P137,crm,true,2026-08-20,Cleo Ash,CTO,C036,Seattle,cleo_ash@example.test,cleo_ash,cleo-ash,10543
+PR-P138-CRM,P138,crm,true,2026-08-20,Dara Brock,Director of Engineering,C047,Boston,dara_brock@example.test,dara_brock,dara-brock,2718
+PR-P139-CRM,P139,crm,true,2026-08-20,Evan Cove,Other,C058,London,evan_cove@example.test,evan_cove,evan-cove,12967
+PR-P140-CRM,P140,crm,true,2026-06-15,Faye Dale,Engineering Manager,C005,San Francisco Bay Area,,,faye-dale,
+PR-P140-SOC,P140,x,true,2026-08-28,Faye Dale,Engineering Manager,C005,San Francisco Bay Area,,faye_dale,faye-dale,5290
+PR-P141-CRM,P141,crm,true,2026-08-20,Galen Elm,Head of Engineering,C016,New York,galen_elm@example.test,galen_elm,galen-elm,15687
+PR-P142-CRM,P142,crm,true,2026-08-20,Avery Gray,Founder,C027,Remote,avery_gray@example.test,avery_gray,avery-gray,8158
+PR-P143-CRM,P143,crm,true,2026-08-20,Blair Hale,Developer Advocate,C038,Austin,blair_hale@example.test,,,703
+PR-P144-CRM,P144,crm,true,2026-06-15,Casey Irwin,Developer Advocate,C049,Portland,casey_irwin@example.test,,casey-irwin,
+PR-P144-SOC,P144,x,true,2026-08-28,Casey Irwin,VP Engineering,C049,Portland,,casey_irwin,casey-irwin,11322
+PR-P145-CRM,P145,crm,true,2026-08-20,Drew Jett,CEO,C060,Toronto,drew_jett@example.test,drew_jett,drew-jett,4015
+PR-P146-CRM,P146,crm,true,2026-08-20,Emery Knox,Product Manager,C007,Berlin,emery_knox@example.test,emery_knox,emery-knox,14782
+PR-P147-CRM,P147,crm,true,2026-08-20,Flynn Lane,CTO,C018,Seattle,flynn_lane@example.test,flynn_lane,flynn-lane,7623
+PR-P148-CRM,P148,crm,true,2026-06-15,Greer Morrow,Director of Engineering,C029,Boston,greer_morrow@example.test,,greer-morrow,
+PR-P148-SOC,P148,x,true,2026-08-28,Greer Morrow,Director of Engineering,C029,Boston,,greer_morrow,greer-morrow,538
+PR-P149-CRM,P149,crm,true,2026-08-20,Hayden North,Other,C040,London,hayden_north@example.test,hayden_north,hayden-north,11527
+PR-P150-CRM,P150,crm,true,2026-08-20,Indra Oak,Engineering Manager,C051,San Francisco Bay Area,indra_oak@example.test,indra_oak,indra-oak,4590
+PR-P151-CRM,P151,crm,true,2026-08-20,Jules Page,Head of Engineering,C062,New York,jules_page@example.test,jules_page,jules-page,15727
+PR-P152-CRM,P152,crm,true,2026-06-15,Kai Reed,Founder,C009,Remote,kai_reed@example.test,,kai-reed,
+PR-P152-SOC,P152,x,true,2026-08-28,Kai Reed,Founder,C009,Remote,,kai_reed,kai-reed,8938
+PR-P153-CRM,P153,crm,true,2026-08-20,Logan Stone,Developer Advocate,C020,Austin,logan_stone@example.test,logan_stone,logan-stone,2223
+PR-P153-UNVERIFIED,P153,linkedin,false,2026-08-31,Logan Stone,CTO,C001,San Francisco Bay Area,,logan_stone,logan-stone,250000
+PR-P154-CRM,P154,crm,true,2026-08-20,Morgan Tern,VP Engineering,C031,Portland,,,morgan-tern,13582
+PR-P155-CRM,P155,crm,true,2026-08-20,Noor West,CEO,C042,Toronto,noor_west@example.test,noor_west,noor-west,7015
+PR-P156-CRM,P156,crm,true,2026-06-15,Parker Ash,Product Manager,C053,Berlin,parker_ash@example.test,,,
+PR-P156-SOC,P156,x,true,2026-08-28,Parker Ash,Product Manager,C053,Berlin,,parker_ash,,522
+PR-P157-CRM,P157,crm,true,2026-08-20,Quinn Brock,CTO,C064,Seattle,quinn_brock@example.test,quinn_brock,quinn-brock,12103
+PR-P158-CRM,P158,crm,true,2026-08-20,Remy Cove,Director of Engineering,C011,Boston,remy_cove@example.test,remy_cove,remy-cove,5758
+PR-P159-CRM,P159,crm,true,2026-08-20,Sage Dale,Other,C022,London,sage_dale@example.test,sage_dale,sage-dale,17487
+PR-P160-CRM,P160,crm,true,2026-06-15,Tatum Elm,Developer Advocate,C033,San Francisco Bay Area,tatum_elm@example.test,,tatum-elm,
+PR-P160-SOC,P160,x,true,2026-08-28,Tatum Elm,Engineering Manager,C033,San Francisco Bay Area,,tatum_elm,tatum-elm,11290
+PR-P161-CRM,P161,crm,true,2026-08-20,Uma Field,Head of Engineering,C044,New York,uma_field@example.test,uma_field,uma-field,5167
+PR-P162-CRM,P162,crm,true,2026-08-20,Vega Gray,Founder,C055,Remote,vega_gray@example.test,vega_gray,vega-gray,17118
+PR-P163-CRM,P163,crm,true,2026-08-20,Wren Hale,Developer Advocate,C002,Austin,wren_hale@example.test,wren_hale,wren-hale,11143
+PR-P164-CRM,P164,crm,true,2026-06-15,Yael Irwin,VP Engineering,C013,Portland,yael_irwin@example.test,,yael-irwin,
+PR-P164-SOC,P164,x,true,2026-08-28,Yael Irwin,VP Engineering,C013,Portland,,yael_irwin,yael-irwin,5242
+PR-P165-CRM,P165,crm,true,2026-08-20,Alden Jett,CEO,C024,Toronto,alden_jett@example.test,,alden-jett,17415
+PR-P166-CRM,P166,crm,true,2026-08-20,Briar Knox,Product Manager,C035,Berlin,briar_knox@example.test,briar_knox,briar-knox,11662
+PR-P167-CRM,P167,crm,true,2026-08-20,Cleo Lane,CTO,C046,Seattle,cleo_lane@example.test,cleo_lane,cleo-lane,5983
+PR-P168-CRM,P168,crm,true,2026-06-15,Dara Morrow,Director of Engineering,C057,Boston,,,dara-morrow,
+PR-P168-SOC,P168,x,true,2026-08-28,Dara Morrow,Director of Engineering,C057,Boston,,dara_morrow,dara-morrow,378
+PR-P169-CRM,P169,crm,true,2026-08-20,Evan North,Other,C004,London,evan_north@example.test,evan_north,,12847
+PR-P170-CRM,P170,crm,true,2026-08-20,Faye Oak,Engineering Manager,C015,San Francisco Bay Area,faye_oak@example.test,faye_oak,faye-oak,7390
+PR-P170-UNVERIFIED,P170,linkedin,false,2026-08-31,Faye Oak,CTO,C001,San Francisco Bay Area,,faye_oak,faye-oak,250000
+PR-P171-CRM,P171,crm,true,2026-08-20,Galen Page,Head of Engineering,C026,New York,galen_page@example.test,galen_page,galen-page,2007
+PR-P172-CRM,P172,crm,true,2026-06-15,Avery Stone,Founder,C037,Remote,avery_stone@example.test,,avery-stone,
+PR-P172-SOC,P172,x,true,2026-08-28,Avery Stone,Founder,C037,Remote,,avery_stone,avery-stone,14698
+PR-P173-CRM,P173,crm,true,2026-08-20,Blair Tern,Developer Advocate,C048,Austin,blair_tern@example.test,blair_tern,blair-tern,9463
+PR-P174-CRM,P174,crm,true,2026-08-20,Casey West,VP Engineering,C059,Portland,casey_west@example.test,casey_west,casey-west,4302
+PR-P175-CRM,P175,crm,true,2026-08-20,Drew Ash,CEO,C006,Toronto,drew_ash@example.test,drew_ash,drew-ash,17215
+PR-P176-CRM,P176,crm,true,2026-06-15,Emery Brock,Developer Advocate,C017,Berlin,emery_brock@example.test,,emery-brock,
+PR-P176-SOC,P176,linkedin,true,2026-08-28,Emery Brock,Product Manager,C017,Berlin,,,emery-brock,12202
+PR-P177-CRM,P177,crm,true,2026-08-20,Flynn Cove,CTO,C028,Seattle,flynn_cove@example.test,flynn_cove,flynn-cove,7263
+PR-P178-CRM,P178,crm,true,2026-08-20,Greer Dale,Director of Engineering,C039,Boston,greer_dale@example.test,greer_dale,greer-dale,2398
+PR-P179-CRM,P179,crm,true,2026-08-20,Hayden Elm,Other,C050,London,hayden_elm@example.test,hayden_elm,hayden-elm,15607
+PR-P180-CRM,P180,crm,true,2026-06-15,Indra Field,Engineering Manager,C061,San Francisco Bay Area,indra_field@example.test,,indra-field,
+PR-P180-SOC,P180,x,true,2026-08-28,Indra Field,Engineering Manager,C061,San Francisco Bay Area,,indra_field,indra-field,10890
+PR-P181-CRM,P181,crm,true,2026-08-20,Jules Gray,Head of Engineering,C008,New York,jules_gray@example.test,jules_gray,jules-gray,6247
+PR-P182-CRM,P182,crm,true,2026-08-20,Kai Hale,Founder,C019,Remote,,kai_hale,,1678
+PR-P183-CRM,P183,crm,true,2026-08-20,Logan Irwin,Developer Advocate,C030,Austin,logan_irwin@example.test,logan_irwin,logan-irwin,15183
+PR-P184-CRM,P184,crm,true,2026-06-15,Morgan Jett,VP Engineering,C041,Portland,morgan_jett@example.test,,morgan-jett,
+PR-P184-SOC,P184,x,true,2026-08-28,Morgan Jett,VP Engineering,C041,Portland,,morgan_jett,morgan-jett,10762
+PR-P185-CRM,P185,crm,true,2026-08-20,Noor Knox,CEO,C052,Toronto,noor_knox@example.test,noor_knox,noor-knox,6415
+PR-P186-CRM,P186,crm,true,2026-08-20,Parker Lane,Product Manager,C063,Berlin,parker_lane@example.test,parker_lane,parker-lane,2142
+PR-P187-CRM,P187,crm,true,2026-08-20,Quinn Morrow,CTO,C010,Seattle,quinn_morrow@example.test,,quinn-morrow,15943
+PR-P187-UNVERIFIED,P187,linkedin,false,2026-08-31,Quinn Morrow,CTO,C001,San Francisco Bay Area,,,quinn-morrow,250000
+PR-P188-CRM,P188,crm,true,2026-06-15,Remy North,Director of Engineering,C021,Boston,remy_north@example.test,,remy-north,
+PR-P188-SOC,P188,x,true,2026-08-28,Remy North,Director of Engineering,C021,Boston,,remy_north,remy-north,11818
+PR-P189-CRM,P189,crm,true,2026-08-20,Sage Oak,Other,C032,London,sage_oak@example.test,sage_oak,sage-oak,7767
+PR-P190-CRM,P190,crm,true,2026-08-20,Tatum Page,Engineering Manager,C043,San Francisco Bay Area,tatum_page@example.test,tatum_page,tatum-page,3790
+PR-P191-CRM,P191,crm,true,2026-08-20,Uma Reed,Head of Engineering,C054,New York,uma_reed@example.test,uma_reed,uma-reed,17887
+PR-P192-CRM,P192,crm,true,2026-06-15,Vega Stone,Developer Advocate,C001,Remote,vega_stone@example.test,,vega-stone,
+PR-P192-SOC,P192,x,true,2026-08-28,Vega Stone,Founder,C001,Remote,,vega_stone,vega-stone,14058
+PR-P193-CRM,P193,crm,true,2026-08-20,Wren Tern,Developer Advocate,C012,Austin,wren_tern@example.test,wren_tern,wren-tern,10303
+PR-P194-CRM,P194,crm,true,2026-08-20,Yael West,VP Engineering,C023,Portland,yael_west@example.test,yael_west,yael-west,6622
+PR-P195-CRM,P195,crm,true,2026-08-20,Alden Ash,CEO,C034,Toronto,alden_ash@example.test,alden_ash,,3015
+PR-P196-CRM,P196,crm,true,2026-06-15,Briar Brock,Product Manager,C045,Berlin,,,briar-brock,
+PR-P196-SOC,P196,x,true,2026-08-28,Briar Brock,Product Manager,C045,Berlin,,briar_brock,briar-brock,17482
+PR-P197-CRM,P197,crm,true,2026-08-20,Cleo Cove,CTO,C056,Seattle,cleo_cove@example.test,cleo_cove,cleo-cove,14023
+PR-P198-CRM,P198,crm,true,2026-08-20,Dara Dale,Director of Engineering,C003,Boston,dara_dale@example.test,,dara-dale,10638
+PR-P199-CRM,P199,crm,true,2026-08-20,Evan Elm,Other,C014,London,evan_elm@example.test,evan_elm,evan-elm,7327
+PR-P200-CRM,P200,crm,true,2026-06-15,Faye Field,Engineering Manager,C025,San Francisco Bay Area,faye_field@example.test,,faye-field,
+PR-P200-SOC,P200,x,true,2026-08-28,Faye Field,Engineering Manager,C025,San Francisco Bay Area,,faye_field,faye-field,4090
+PR-P201-CRM,P201,crm,true,2026-08-20,Galen Gray,Head of Engineering,C036,New York,galen_gray@example.test,galen_gray,galen-gray,927
+PR-P202-CRM,P202,crm,true,2026-08-20,Avery Irwin,Founder,C047,Remote,avery_irwin@example.test,avery_irwin,avery-irwin,15838
+PR-P203-CRM,P203,crm,true,2026-08-20,Blair Jett,Developer Advocate,C058,Austin,blair_jett@example.test,blair_jett,blair-jett,12823
+PR-P204-CRM,P204,crm,true,2026-06-15,Casey Knox,VP Engineering,C005,Portland,casey_knox@example.test,,casey-knox,
+PR-P204-SOC,P204,x,true,2026-08-28,Casey Knox,VP Engineering,C005,Portland,,casey_knox,casey-knox,9882
+PR-P204-UNVERIFIED,P204,linkedin,false,2026-08-31,Casey Knox,CTO,C001,San Francisco Bay Area,,casey_knox,casey-knox,250000
+PR-P205-CRM,P205,crm,true,2026-08-20,Drew Lane,CEO,C016,Toronto,drew_lane@example.test,drew_lane,drew-lane,7015
+PR-P206-CRM,P206,crm,true,2026-08-20,Emery Morrow,Product Manager,C027,Berlin,emery_morrow@example.test,emery_morrow,emery-morrow,4222
+PR-P207-CRM,P207,crm,true,2026-08-20,Flynn North,CTO,C038,Seattle,flynn_north@example.test,flynn_north,flynn-north,1503
+PR-P208-CRM,P208,crm,true,2026-06-15,Greer Oak,Developer Advocate,C049,Boston,greer_oak@example.test,,,
+PR-P208-SOC,P208,x,true,2026-08-28,Greer Oak,Director of Engineering,C049,Boston,,greer_oak,,16858
+PR-P209-CRM,P209,crm,true,2026-08-20,Hayden Page,Other,C060,London,hayden_page@example.test,,hayden-page,14287
+PR-P210-CRM,P210,crm,true,2026-08-20,Indra Reed,Engineering Manager,C007,San Francisco Bay Area,,indra_reed,indra-reed,11790
+PR-P211-CRM,P211,crm,true,2026-08-20,Jules Stone,Head of Engineering,C018,New York,jules_stone@example.test,jules_stone,jules-stone,9367
+PR-P212-CRM,P212,crm,true,2026-06-15,Kai Tern,Founder,C029,Remote,kai_tern@example.test,,kai-tern,
+PR-P212-SOC,P212,x,true,2026-08-28,Kai Tern,Founder,C029,Remote,,kai_tern,kai-tern,7018
+PR-P213-CRM,P213,crm,true,2026-08-20,Logan West,Developer Advocate,C040,Austin,logan_west@example.test,logan_west,logan-west,4743
+PR-P214-CRM,P214,crm,true,2026-08-20,Morgan Ash,VP Engineering,C051,Portland,morgan_ash@example.test,morgan_ash,morgan-ash,2542
+PR-P215-CRM,P215,crm,true,2026-08-20,Noor Brock,CEO,C062,Toronto,noor_brock@example.test,noor_brock,noor-brock,415
+PR-P216-CRM,P216,crm,true,2026-06-15,Parker Cove,Product Manager,C009,Berlin,parker_cove@example.test,,parker-cove,
+PR-P216-SOC,P216,x,true,2026-08-28,Parker Cove,Product Manager,C009,Berlin,,parker_cove,parker-cove,16362
+PR-P217-CRM,P217,crm,true,2026-08-20,Quinn Dale,CTO,C020,Seattle,quinn_dale@example.test,quinn_dale,quinn-dale,14383
+PR-P218-CRM,P218,crm,true,2026-08-20,Remy Elm,Director of Engineering,C031,Boston,remy_elm@example.test,remy_elm,remy-elm,12478
+PR-P219-CRM,P219,crm,true,2026-08-20,Sage Field,Other,C042,London,sage_field@example.test,sage_field,sage-field,10647
+PR-P220-CRM,P220,crm,true,2026-06-15,Tatum Gray,Engineering Manager,C053,San Francisco Bay Area,tatum_gray@example.test,,tatum-gray,
+PR-P220-SOC,P220,linkedin,true,2026-08-28,Tatum Gray,Engineering Manager,C053,San Francisco Bay Area,,,tatum-gray,8890
+PR-P221-CRM,P221,crm,true,2026-08-20,Uma Hale,Head of Engineering,C064,New York,uma_hale@example.test,uma_hale,,7207
+PR-P221-UNVERIFIED,P221,linkedin,false,2026-08-31,Uma Hale,CTO,C001,San Francisco Bay Area,,uma_hale,,250000
+PR-P222-CRM,P222,crm,true,2026-08-20,Vega Irwin,Founder,C011,Remote,vega_irwin@example.test,vega_irwin,vega-irwin,5598
+PR-P223-CRM,P223,crm,true,2026-08-20,Wren Jett,Developer Advocate,C022,Austin,wren_jett@example.test,wren_jett,wren-jett,4063
+PR-P224-CRM,P224,crm,true,2026-06-15,Yael Knox,Developer Advocate,C033,Portland,,,yael-knox,
+PR-P224-SOC,P224,x,true,2026-08-28,Yael Knox,VP Engineering,C033,Portland,,yael_knox,yael-knox,2602
+PR-P225-CRM,P225,crm,true,2026-08-20,Alden Lane,CEO,C044,Toronto,alden_lane@example.test,alden_lane,alden-lane,1215
+PR-P226-CRM,P226,crm,true,2026-08-20,Briar Morrow,Product Manager,C055,Berlin,briar_morrow@example.test,briar_morrow,briar-morrow,17902
+PR-P227-CRM,P227,crm,true,2026-08-20,Cleo North,CTO,C002,Seattle,cleo_north@example.test,cleo_north,cleo-north,16663
+PR-P228-CRM,P228,crm,true,2026-06-15,Dara Oak,Director of Engineering,C013,Boston,dara_oak@example.test,,dara-oak,
+PR-P228-SOC,P228,x,true,2026-08-28,Dara Oak,Director of Engineering,C013,Boston,,dara_oak,dara-oak,15498
+PR-P229-CRM,P229,crm,true,2026-08-20,Evan Page,Other,C024,London,evan_page@example.test,evan_page,evan-page,14407
+PR-P230-CRM,P230,crm,true,2026-08-20,Faye Reed,Engineering Manager,C035,San Francisco Bay Area,faye_reed@example.test,faye_reed,faye-reed,13390
+PR-P231-CRM,P231,crm,true,2026-08-20,Galen Stone,Head of Engineering,C046,New York,galen_stone@example.test,,galen-stone,12447
+PR-P232-CRM,P232,crm,true,2026-06-15,Avery West,Founder,C057,Remote,avery_west@example.test,,avery-west,
+PR-P232-SOC,P232,x,true,2026-08-28,Avery West,Founder,C057,Remote,,avery_west,avery-west,11578
+PR-P233-CRM,P233,crm,true,2026-08-20,Blair Ash,Developer Advocate,C004,Austin,blair_ash@example.test,blair_ash,blair-ash,10783
+PR-P234-CRM,P234,crm,true,2026-08-20,Casey Brock,VP Engineering,C015,Portland,casey_brock@example.test,casey_brock,,10062
+PR-P235-CRM,P235,crm,true,2026-08-20,Drew Cove,CEO,C026,Toronto,drew_cove@example.test,drew_cove,drew-cove,9415
+PR-P236-CRM,P236,crm,true,2026-06-15,Emery Dale,Product Manager,C037,Berlin,emery_dale@example.test,,emery-dale,
+PR-P236-SOC,P236,x,true,2026-08-28,Emery Dale,Product Manager,C037,Berlin,,emery_dale,emery-dale,8842
+PR-P237-CRM,P237,crm,true,2026-08-20,Flynn Elm,CTO,C048,Seattle,flynn_elm@example.test,flynn_elm,flynn-elm,8343
+PR-P238-CRM,P238,crm,true,2026-08-20,Greer Field,Director of Engineering,C059,Boston,,greer_field,greer-field,7918
+PR-P238-UNVERIFIED,P238,linkedin,false,2026-08-31,Greer Field,CTO,C001,San Francisco Bay Area,,greer_field,greer-field,250000
+PR-P239-CRM,P239,crm,true,2026-08-20,Hayden Gray,Other,C006,London,hayden_gray@example.test,hayden_gray,hayden-gray,7567
+PR-P240-CRM,P240,crm,true,2026-06-15,Indra Hale,Developer Advocate,C017,San Francisco Bay Area,indra_hale@example.test,,indra-hale,
+PR-P240-SOC,P240,x,true,2026-08-28,Indra Hale,Engineering Manager,C017,San Francisco Bay Area,,indra_hale,indra-hale,7290

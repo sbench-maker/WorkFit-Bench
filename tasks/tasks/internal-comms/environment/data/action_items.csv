@@ -1,0 +1,13 @@
+action_id,incident_id,action,owner,priority,due_date,status_at_cutoff,completed_at,notes
+ACT-301,INC-2047,Automate rollback and add it to the on-call playbook,Jon Bell,High,2026-09-05,Completed,2026-09-05,Rollback rehearsal passed.
+ACT-302,INC-2047,Reconcile linked incident tickets,Priya Nair,Medium,2026-09-07,Completed,2026-09-07,69 resolved or closed; 3 await user confirmation.
+ACT-303,INC-2047,Add pre-change routing-rule validation,Luis Ortega,High,2026-09-10,Planned,,Test precedence and disabled-target rules before deployment.
+ACT-304,INC-2047,Audit contractor coverage in SSO alerts,Avery Scott,High,2026-09-11,Planned,,Compare employee and contractor synthetic populations.
+ACT-305,INC-2047,Run employee status-page publishing drill,Maya Chen,Medium,2026-09-12,Planned,,Target publication within five minutes of declaration.
+ACT-306,INC-2047,Validate vendor patch for the recovery connector,Jon Bell,High,2026-09-13,Blocked - vendor,,Connector stays disabled until validation succeeds.
+ACT-307,INC-2047,Publish post-incident review,Maya Chen,High,2026-09-06,Completed,2026-09-06,"Review includes impact, confirmed cause, and owners."
+ACT-308,INC-2047,Add recovery-connector synthetic check,Avery Scott,High,2026-09-09,Planned,,Alert if any production route targets a disabled connector.
+ACT-309,INC-2047,Review quarterly identity-platform capacity,Luis Ortega,Low,2026-10-02,Backlog,,Not a next-week commitment.
+ACT-310,INC-2050,Compare Singapore VPN gateway latency,Jon Bell,Medium,2026-09-08,Planned,,Confirm the regional gateway remains stable.
+ACT-311,,Refresh new-hire device checklist,Priya Nair,Low,2026-09-18,In progress,,Routine service improvement.
+ACT-312,INC-2052,Collect vendor timeline for mobile-sync delay,Luis Ortega,Low,2026-09-09,Planned,,Cause remains under investigation.

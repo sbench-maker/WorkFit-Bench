@@ -1,0 +1,20 @@
+{
+  "method": "deterministic local construction",
+  "fictional": true,
+  "snapshot_end": "2026-08-28",
+  "files": {
+    "support_tickets.csv": 220,
+    "survey_responses.csv": 72,
+    "sales_notes.csv": 18,
+    "workflow_metrics.csv": 8,
+    "interview_notes.md": 14,
+    "usability_sessions.md": 6,
+    "stakeholder_notes.md": 5
+  },
+  "design_notes": [
+    "Support records intentionally overrepresent help-seeking users.",
+    "Small-account survey respondents lean toward reminders while larger accounts lean toward status visibility.",
+    "Reminder metrics are observational and have no holdout group.",
+    "Stakeholder notes are explicitly separated from participant evidence."
+  ]
+}

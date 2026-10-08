@@ -1,0 +1,364 @@
+[
+  {
+    "update_id": "U001",
+    "introduced_in_master_id": "M002",
+    "recorded_at": "2025-01-22",
+    "importance": "normal",
+    "applies_to": [
+      "all"
+    ],
+    "content_key": "growth_experiment_01",
+    "summary": "Added conversion experiment impact with verified lift."
+  },
+  {
+    "update_id": "U002",
+    "introduced_in_master_id": "M003",
+    "recorded_at": "2025-05-15",
+    "importance": "normal",
+    "applies_to": [
+      "product_management"
+    ],
+    "content_key": "api_reliability_02",
+    "summary": "Added API reliability result and incident reduction metric."
+  },
+  {
+    "update_id": "U003",
+    "introduced_in_master_id": "M004",
+    "recorded_at": "2025-08-29",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering"
+    ],
+    "content_key": "forecast_model_03",
+    "summary": "Updated forecast model accuracy after validation."
+  },
+  {
+    "update_id": "U004",
+    "introduced_in_master_id": "M005",
+    "recorded_at": "2025-12-13",
+    "importance": "normal",
+    "applies_to": [
+      "data_science"
+    ],
+    "content_key": "team_leadership_04",
+    "summary": "Added mentoring and cross-functional leadership evidence."
+  },
+  {
+    "update_id": "U005",
+    "introduced_in_master_id": "M006",
+    "recorded_at": "2026-02-22",
+    "importance": "normal",
+    "applies_to": [
+      "product_management",
+      "data_science"
+    ],
+    "content_key": "privacy_review_05",
+    "summary": "Added privacy review ownership and launch outcome."
+  },
+  {
+    "update_id": "U006",
+    "introduced_in_master_id": "M007",
+    "recorded_at": "2026-05-25",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering",
+      "data_science"
+    ],
+    "content_key": "cost_optimization_06",
+    "summary": "Updated infrastructure cost reduction metric."
+  },
+  {
+    "update_id": "U007",
+    "introduced_in_master_id": "M008",
+    "recorded_at": "2026-07-23",
+    "importance": "critical",
+    "applies_to": [
+      "all"
+    ],
+    "content_key": "research_program_07",
+    "summary": "Added user research program and adoption decision."
+  },
+  {
+    "update_id": "U008",
+    "introduced_in_master_id": "M002",
+    "recorded_at": "2025-01-29",
+    "importance": "normal",
+    "applies_to": [
+      "product_management"
+    ],
+    "content_key": "ml_monitoring_08",
+    "summary": "Added drift-monitoring launch and alert-quality result."
+  },
+  {
+    "update_id": "U009",
+    "introduced_in_master_id": "M003",
+    "recorded_at": "2025-05-13",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering"
+    ],
+    "content_key": "growth_experiment_09",
+    "summary": "Added conversion experiment impact with verified lift."
+  },
+  {
+    "update_id": "U010",
+    "introduced_in_master_id": "M004",
+    "recorded_at": "2025-08-27",
+    "importance": "normal",
+    "applies_to": [
+      "data_science"
+    ],
+    "content_key": "api_reliability_10",
+    "summary": "Added API reliability result and incident reduction metric."
+  },
+  {
+    "update_id": "U011",
+    "introduced_in_master_id": "M005",
+    "recorded_at": "2025-12-11",
+    "importance": "normal",
+    "applies_to": [
+      "product_management",
+      "data_science"
+    ],
+    "content_key": "forecast_model_11",
+    "summary": "Updated forecast model accuracy after validation."
+  },
+  {
+    "update_id": "U012",
+    "introduced_in_master_id": "M006",
+    "recorded_at": "2026-02-20",
+    "importance": "critical",
+    "applies_to": [
+      "software_engineering",
+      "data_science"
+    ],
+    "content_key": "team_leadership_12",
+    "summary": "Added mentoring and cross-functional leadership evidence."
+  },
+  {
+    "update_id": "U013",
+    "introduced_in_master_id": "M007",
+    "recorded_at": "2026-05-23",
+    "importance": "normal",
+    "applies_to": [
+      "all"
+    ],
+    "content_key": "privacy_review_13",
+    "summary": "Added privacy review ownership and launch outcome."
+  },
+  {
+    "update_id": "U014",
+    "introduced_in_master_id": "M008",
+    "recorded_at": "2026-07-21",
+    "importance": "normal",
+    "applies_to": [
+      "product_management"
+    ],
+    "content_key": "cost_optimization_14",
+    "summary": "Updated infrastructure cost reduction metric."
+  },
+  {
+    "update_id": "U015",
+    "introduced_in_master_id": "M002",
+    "recorded_at": "2025-01-27",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering"
+    ],
+    "content_key": "research_program_15",
+    "summary": "Added user research program and adoption decision."
+  },
+  {
+    "update_id": "U016",
+    "introduced_in_master_id": "M003",
+    "recorded_at": "2025-05-20",
+    "importance": "normal",
+    "applies_to": [
+      "data_science"
+    ],
+    "content_key": "ml_monitoring_16",
+    "summary": "Added drift-monitoring launch and alert-quality result."
+  },
+  {
+    "update_id": "U017",
+    "introduced_in_master_id": "M004",
+    "recorded_at": "2025-09-03",
+    "importance": "normal",
+    "applies_to": [
+      "product_management",
+      "data_science"
+    ],
+    "content_key": "growth_experiment_17",
+    "summary": "Added conversion experiment impact with verified lift."
+  },
+  {
+    "update_id": "U018",
+    "introduced_in_master_id": "M005",
+    "recorded_at": "2025-12-09",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering",
+      "data_science"
+    ],
+    "content_key": "api_reliability_18",
+    "summary": "Added API reliability result and incident reduction metric."
+  },
+  {
+    "update_id": "U019",
+    "introduced_in_master_id": "M006",
+    "recorded_at": "2026-02-18",
+    "importance": "critical",
+    "applies_to": [
+      "all"
+    ],
+    "content_key": "forecast_model_19",
+    "summary": "Updated forecast model accuracy after validation."
+  },
+  {
+    "update_id": "U020",
+    "introduced_in_master_id": "M007",
+    "recorded_at": "2026-05-21",
+    "importance": "normal",
+    "applies_to": [
+      "product_management"
+    ],
+    "content_key": "team_leadership_20",
+    "summary": "Added mentoring and cross-functional leadership evidence."
+  },
+  {
+    "update_id": "U021",
+    "introduced_in_master_id": "M008",
+    "recorded_at": "2026-07-19",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering"
+    ],
+    "content_key": "privacy_review_21",
+    "summary": "Added privacy review ownership and launch outcome."
+  },
+  {
+    "update_id": "U022",
+    "introduced_in_master_id": "M002",
+    "recorded_at": "2025-01-25",
+    "importance": "normal",
+    "applies_to": [
+      "data_science"
+    ],
+    "content_key": "cost_optimization_22",
+    "summary": "Updated infrastructure cost reduction metric."
+  },
+  {
+    "update_id": "U023",
+    "introduced_in_master_id": "M003",
+    "recorded_at": "2025-05-18",
+    "importance": "normal",
+    "applies_to": [
+      "product_management",
+      "data_science"
+    ],
+    "content_key": "research_program_23",
+    "summary": "Added user research program and adoption decision."
+  },
+  {
+    "update_id": "U024",
+    "introduced_in_master_id": "M004",
+    "recorded_at": "2025-09-01",
+    "importance": "critical",
+    "applies_to": [
+      "software_engineering",
+      "data_science"
+    ],
+    "content_key": "ml_monitoring_24",
+    "summary": "Added drift-monitoring launch and alert-quality result."
+  },
+  {
+    "update_id": "U025",
+    "introduced_in_master_id": "M005",
+    "recorded_at": "2025-12-16",
+    "importance": "normal",
+    "applies_to": [
+      "all"
+    ],
+    "content_key": "growth_experiment_25",
+    "summary": "Added conversion experiment impact with verified lift."
+  },
+  {
+    "update_id": "U026",
+    "introduced_in_master_id": "M006",
+    "recorded_at": "2026-02-25",
+    "importance": "normal",
+    "applies_to": [
+      "product_management"
+    ],
+    "content_key": "api_reliability_26",
+    "summary": "Added API reliability result and incident reduction metric."
+  },
+  {
+    "update_id": "U027",
+    "introduced_in_master_id": "M007",
+    "recorded_at": "2026-05-19",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering"
+    ],
+    "content_key": "forecast_model_27",
+    "summary": "Updated forecast model accuracy after validation."
+  },
+  {
+    "update_id": "U028",
+    "introduced_in_master_id": "M008",
+    "recorded_at": "2026-07-17",
+    "importance": "normal",
+    "applies_to": [
+      "data_science"
+    ],
+    "content_key": "team_leadership_28",
+    "summary": "Added mentoring and cross-functional leadership evidence."
+  },
+  {
+    "update_id": "U029",
+    "introduced_in_master_id": "M002",
+    "recorded_at": "2025-01-23",
+    "importance": "critical",
+    "applies_to": [
+      "product_management",
+      "data_science"
+    ],
+    "content_key": "privacy_review_29",
+    "summary": "Added privacy review ownership and launch outcome."
+  },
+  {
+    "update_id": "U030",
+    "introduced_in_master_id": "M003",
+    "recorded_at": "2025-05-16",
+    "importance": "normal",
+    "applies_to": [
+      "software_engineering",
+      "data_science"
+    ],
+    "content_key": "cost_optimization_30",
+    "summary": "Updated infrastructure cost reduction metric."
+  },
+  {
+    "update_id": "U031",
+    "introduced_in_master_id": "M004",
+    "recorded_at": "2025-08-30",
+    "importance": "critical",
+    "applies_to": [
+      "all"
+    ],
+    "content_key": "research_program_31",
+    "summary": "Added user research program and adoption decision."
+  },
+  {
+    "update_id": "U032",
+    "introduced_in_master_id": "M005",
+    "recorded_at": "2025-12-14",
+    "importance": "normal",
+    "applies_to": [
+      "product_management"
+    ],
+    "content_key": "ml_monitoring_32",
+    "summary": "Added drift-monitoring launch and alert-quality result."
+  }
+]

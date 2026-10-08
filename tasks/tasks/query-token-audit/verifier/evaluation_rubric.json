@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__request_scope_identity",
+      "title": "Queue coverage and identity integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every queued swap is reviewed exactly once and remains tied to the correct chain, contract, and audit request.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_request_scope_and_identity"
+      ]
+    },
+    {
+      "id": "completion__risk_disposition",
+      "title": "Risk level and pre-trade disposition",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Usable audits expose the correct risk level and receive the action dictated by the ordered desk policy, including risk-level and tax-based escalation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_risk_levels_and_dispositions"
+      ]
+    },
+    {
+      "id": "completion__tax_interpretation",
+      "title": "Buy and sell tax interpretation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Usable audits preserve buy and sell tax values and classify acceptable, warning, critical, boundary, and unknown values correctly.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_tax_assessments_and_values"
+      ]
+    },
+    {
+      "id": "completion__audit_validity",
+      "title": "Unavailable and unsupported audit handling",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Unavailable or unsupported audits are marked unavailable and do not expose the stale-looking risk, tax, or risk-item fields retained in those snapshots.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_audit_validity_handling"
+      ]
+    },
+    {
+      "id": "completion__summary_reconciliation",
+      "title": "Queue-summary reconciliation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The summary's queue total, usable and unavailable counts, and disposition counts reconcile exactly to the submitted detailed reviews.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_summary_reconciliation"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__request_scope_identity",
+        "title": "Queue coverage and identity integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_disposition",
+        "title": "Risk level and pre-trade disposition",
+        "required_score": 10
+      },
+      {
+        "id": "completion__tax_interpretation",
+        "title": "Buy and sell tax interpretation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__audit_validity",
+        "title": "Unavailable and unsupported audit handling",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summary_reconciliation",
+        "title": "Queue-summary reconciliation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

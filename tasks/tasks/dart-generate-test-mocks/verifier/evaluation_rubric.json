@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__runnable_mock_suite",
+      "title": "Runnable generated-mock test suite",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The finished project includes generated Mockito mock source and a test suite that passes against the supplied production code without a live database.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_generated_mock_suite_are_usable"
+      ]
+    },
+    {
+      "id": "completion__decision_rule_protection",
+      "title": "Reservation decision regression protection",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The tests detect regressions in validation, idempotency, stock-state decisions, and the exact-availability boundary documented in the fixture.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_decision_rule_mutations_are_detected"
+      ]
+    },
+    {
+      "id": "completion__database_interaction_protection",
+      "title": "Database interaction and recovery regression protection",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The tests detect materially wrong database writes, persisted values, call ordering, audit data, and compensation behavior on asynchronous failures.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_database_interaction_mutations_are_detected"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__runnable_mock_suite",
+        "title": "Runnable generated-mock test suite",
+        "required_score": 10
+      },
+      {
+        "id": "completion__decision_rule_protection",
+        "title": "Reservation decision regression protection",
+        "required_score": 10
+      },
+      {
+        "id": "completion__database_interaction_protection",
+        "title": "Database interaction and recovery regression protection",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

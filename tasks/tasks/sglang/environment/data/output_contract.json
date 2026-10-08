@@ -1,0 +1,37 @@
+{
+  "artifact": "/root/results/output.json",
+  "top_level": [
+    "decisions",
+    "summary",
+    "runtime_metrics"
+  ],
+  "decision_fields": [
+    "ticket_id",
+    "rule_id",
+    "category",
+    "priority",
+    "team",
+    "requires_human",
+    "action",
+    "reason"
+  ],
+  "summary_fields": [
+    "processed",
+    "by_category",
+    "by_priority",
+    "human_review_count"
+  ],
+  "runtime_metrics_fields": [
+    "requests",
+    "constrained_requests",
+    "schema_validation_failures",
+    "prompt_chars",
+    "cache_hit_chars",
+    "cache_hit_rate"
+  ],
+  "notes": [
+    "One decision per primary ticket, with no duplicates.",
+    "reason is a short audit note grounded in the matched ticket signal; do not copy the entire ticket.",
+    "Metrics must come from the completed batch run, not an estimate."
+  ]
+}

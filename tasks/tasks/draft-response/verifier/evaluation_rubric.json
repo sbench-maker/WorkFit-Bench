@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__customer_specific_facts",
+      "title": "Customer-specific factual fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The sendable email accurately conveys the target customer, operational impact, affected behavior, validated workaround, unaffected functions, missed update, incident ownership, and next-update checkpoint found in the frozen records.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_customer_specific_facts"
+      ]
+    },
+    {
+      "id": "completion__authorization_safety",
+      "title": "Authorized commitments and confidentiality boundaries",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The customer-facing portion withholds confidential internal details, does not invent a fix time, credit, or roadmap commitment, treats the credit and automatic-retry requests accurately, and distinguishes the next communication update from a resolution ETA.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_authorization_and_confidentiality_boundaries"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__customer_specific_facts",
+        "title": "Customer-specific factual fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__authorization_safety",
+        "title": "Authorized commitments and confidentiality boundaries",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

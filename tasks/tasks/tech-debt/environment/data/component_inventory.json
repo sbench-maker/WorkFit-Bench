@@ -1,0 +1,50 @@
+[
+  {
+    "component": "checkout",
+    "owner": "Orders",
+    "criticality": "tier_1",
+    "change_frequency_30d": 18
+  },
+  {
+    "component": "order_api",
+    "owner": "Orders",
+    "criticality": "tier_1",
+    "change_frequency_30d": 25
+  },
+  {
+    "component": "dispatcher",
+    "owner": "Fulfillment",
+    "criticality": "tier_1",
+    "change_frequency_30d": 14
+  },
+  {
+    "component": "storage",
+    "owner": "Platform",
+    "criticality": "tier_2",
+    "change_frequency_30d": 9
+  },
+  {
+    "component": "delivery",
+    "owner": "Platform",
+    "criticality": "tier_1",
+    "change_frequency_30d": 7
+  },
+  {
+    "component": "documentation",
+    "owner": "Platform",
+    "criticality": "tier_3",
+    "change_frequency_30d": 3
+  },
+  {
+    "component": "test_suite",
+    "owner": "Orders",
+    "criticality": "tier_2",
+    "change_frequency_30d": 21
+  },
+  {
+    "component": "http_client",
+    "owner": "Platform",
+    "criticality": "tier_2",
+    "change_frequency_30d": 4
+  }
+]

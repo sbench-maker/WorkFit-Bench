@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Usable decision-brief scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON is readable and exposes every catalogued customer problem and proposed initiative, including the withdrawn item as an exclusion rather than silently dropping it.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability_and_scope"
+      ]
+    },
+    {
+      "id": "completion__opportunity_prioritization",
+      "title": "Customer-problem Opportunity prioritization",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Opportunity Scores and problem ranks correctly reflect the declared filtering, latest-valid de-duplication, normalization, segment weights, and tie breaks.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_problem_opportunity_scores",
+        "test_problem_ranking"
+      ]
+    },
+    {
+      "id": "completion__rice_comparison",
+      "title": "Initiative RICE comparison",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every eligible initiative has the correct RICE value and candidate rank from mapped problem opportunity, reach, confidence, and effort; the withdrawn idea is not inserted into that ranking.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_initiative_rice_scores",
+        "test_candidate_rice_ranking"
+      ]
+    },
+    {
+      "id": "completion__q4_portfolio",
+      "title": "Feasible Q4 recommendation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The recommended set follows the declared ranked walk and remains within 14 person-months, includes dependencies, respects mutual exclusivity, and excludes the withdrawn idea.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_q4_selected_set",
+        "test_q4_constraints_and_withdrawn_exclusion"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Usable decision-brief scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__opportunity_prioritization",
+        "title": "Customer-problem Opportunity prioritization",
+        "required_score": 10
+      },
+      {
+        "id": "completion__rice_comparison",
+        "title": "Initiative RICE comparison",
+        "required_score": 10
+      },
+      {
+        "id": "completion__q4_portfolio",
+        "title": "Feasible Q4 recommendation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

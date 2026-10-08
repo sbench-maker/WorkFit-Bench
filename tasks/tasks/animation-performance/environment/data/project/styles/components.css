@@ -1,0 +1,163 @@
+.stage--panel {
+  min-height: 180px;
+}
+
+.side-panel {
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  width: 288px;
+  padding: 22px;
+  color: white;
+  background: #27334a;
+  box-shadow: 8px 0 24px rgb(20 31 48 / 20%);
+  transition: left var(--motion-normal) cubic-bezier(.2, .8, .2, 1), opacity var(--motion-normal) ease;
+}
+
+.side-panel[data-state="closed"] {
+  left: -288px;
+  opacity: 0;
+}
+
+.side-panel[data-state="open"] {
+  left: 0;
+  opacity: 1;
+}
+
+.stage--dialog {
+  min-height: 210px;
+}
+
+.dialog {
+  position: absolute;
+  inset: 0;
+  top: 18px;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  opacity: 0;
+  pointer-events: none;
+  background: rgb(20 31 48 / 22%);
+  transition: top var(--motion-normal) ease, opacity var(--motion-normal) ease;
+}
+
+.dialog[data-state="visible"] {
+  top: 0;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dialog__card {
+  width: min(420px, 100%);
+  border-radius: 16px;
+  padding: 24px;
+  background: white;
+  box-shadow: 0 16px 42px rgb(20 31 48 / 18%);
+  transform: scale(.96);
+  transition: transform var(--motion-normal) ease;
+}
+
+.dialog[data-state="visible"] .dialog__card {
+  transform: scale(1);
+}
+
+.stage--toast {
+  min-height: 130px;
+}
+
+.toast {
+  position: absolute;
+  right: 20px;
+  bottom: -8px;
+  max-width: 360px;
+  border-radius: 12px;
+  padding: 14px 18px;
+  color: white;
+  background: var(--ink);
+  opacity: 0;
+  transform: scale(.98);
+  transition: bottom var(--motion-normal) ease, opacity var(--motion-normal) ease, transform var(--motion-normal) ease;
+}
+
+.toast[data-state="visible"] {
+  bottom: 20px;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.progress {
+  width: 240px;
+  height: 10px;
+  margin-block: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #dfe5f3;
+}
+
+.progress__fill {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 420ms ease;
+}
+
+.progress[data-progress="half"] .progress__fill {
+  width: 50%;
+}
+
+.progress[data-progress="complete"] .progress__fill {
+  width: 100%;
+}
+
+.status-badge {
+  position: relative;
+  display: inline-block;
+  margin-right: 14px;
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: white;
+  background: var(--danger);
+  animation: badge-bounce 900ms ease-in-out infinite;
+}
+
+@keyframes badge-bounce {
+  0%, 100% { top: 0; }
+  50% { top: -6px; }
+}
+
+.live-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #2ca66f;
+  animation: live-pulse 1100ms ease-in-out infinite alternate;
+}
+
+@keyframes live-pulse {
+  from { opacity: .35; transform: scale(.78); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 680px) {
+  .side-panel {
+    width: 84vw;
+  }
+
+  .side-panel[data-state="closed"] {
+    left: -84vw;
+  }
+
+  .toast {
+    right: 12px;
+    bottom: -4px;
+    left: 12px;
+    max-width: none;
+  }
+
+  .toast[data-state="visible"] {
+    bottom: 12px;
+  }
+}

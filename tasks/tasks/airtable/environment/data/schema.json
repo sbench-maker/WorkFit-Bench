@@ -1,0 +1,151 @@
+{
+  "tables": [
+    {
+      "id": "tblIssues01",
+      "name": "Issues",
+      "primaryFieldId": "fldExternalId",
+      "fields": [
+        {
+          "id": "fldExternalId",
+          "name": "External ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldTitle",
+          "name": "Title",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldStatus",
+          "name": "Status",
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel001",
+                "name": "Backlog"
+              },
+              {
+                "id": "sel002",
+                "name": "Ready"
+              },
+              {
+                "id": "sel003",
+                "name": "In Progress"
+              },
+              {
+                "id": "sel004",
+                "name": "Blocked"
+              },
+              {
+                "id": "sel005",
+                "name": "Done"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fldPriority",
+          "name": "Priority",
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel001",
+                "name": "P0"
+              },
+              {
+                "id": "sel002",
+                "name": "P1"
+              },
+              {
+                "id": "sel003",
+                "name": "P2"
+              },
+              {
+                "id": "sel004",
+                "name": "P3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fldOwner",
+          "name": "Owner Email",
+          "type": "email"
+        },
+        {
+          "id": "fldLabels",
+          "name": "Labels",
+          "type": "multipleSelects",
+          "options": {
+            "choices": [
+              {
+                "id": "sel001",
+                "name": "api"
+              },
+              {
+                "id": "sel002",
+                "name": "frontend"
+              },
+              {
+                "id": "sel003",
+                "name": "accessibility"
+              },
+              {
+                "id": "sel004",
+                "name": "backend"
+              },
+              {
+                "id": "sel005",
+                "name": "performance"
+              },
+              {
+                "id": "sel006",
+                "name": "mobile"
+              },
+              {
+                "id": "sel007",
+                "name": "security"
+              },
+              {
+                "id": "sel008",
+                "name": "triage"
+              },
+              {
+                "id": "sel009",
+                "name": "sprint-0"
+              },
+              {
+                "id": "sel010",
+                "name": "sprint-1"
+              },
+              {
+                "id": "sel011",
+                "name": "sprint-2"
+              },
+              {
+                "id": "sel012",
+                "name": "sprint-3"
+              },
+              {
+                "id": "sel013",
+                "name": "import"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fldSourceAt",
+          "name": "Source Updated At",
+          "type": "dateTime"
+        },
+        {
+          "id": "fldReopen",
+          "name": "Reopen Approved",
+          "type": "checkbox"
+        }
+      ]
+    }
+  ]
+}

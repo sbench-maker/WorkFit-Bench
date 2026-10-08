@@ -1,0 +1,22 @@
+#!/bin/bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+BUILD_DIR="$ROOT/build"
+
+for arg in "$@"; do
+  if [ "$arg" = "clean" ]; then
+    rm -rf "$BUILD_DIR"
+  fi
+done
+
+mkdir -p "$BUILD_DIR/classes"
+find "$ROOT/app/src/main/java" -name '*.java' -type f | LC_ALL=C sort > "$BUILD_DIR/sources.list"
+if [ ! -s "$BUILD_DIR/sources.list" ]; then
+  echo "No Java sources found" >&2
+  exit 1
+fi
+
+javac --release 17 -encoding UTF-8 -d "$BUILD_DIR/classes" @"$BUILD_DIR/sources.list"
+jar --create --file "$BUILD_DIR/shopwave-mobile.jar" -C "$BUILD_DIR/classes" .
+echo "BUILD SUCCESSFUL"

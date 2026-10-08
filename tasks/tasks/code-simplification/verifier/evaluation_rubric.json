@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_delivery",
+      "title": "Usable refactor deliverables",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The revised pricing module and short refactor notes exist at the requested paths, are readable, and the module can be loaded in the supplied project.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_delivery"
+      ]
+    },
+    {
+      "id": "completion__quote_behavior",
+      "title": "Quote and error behavior preservation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Across the frozen regression matrix, successful return values, exception types and messages, and non-mutation of order inputs remain unchanged.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_quote_results_and_errors"
+      ]
+    },
+    {
+      "id": "completion__audit_side_effects",
+      "title": "Audit side-effect preservation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Audit events retain their exact contents and ordering on both successful and rejected orders.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_audit_event_sequences"
+      ]
+    },
+    {
+      "id": "completion__drop_in_contract",
+      "title": "Drop-in public API compatibility",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The module continues to expose calculate_order_quote and accepts the established order and optional audit_events calling forms.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_drop_in_public_contract"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_delivery",
+        "title": "Usable refactor deliverables",
+        "required_score": 10
+      },
+      {
+        "id": "completion__quote_behavior",
+        "title": "Quote and error behavior preservation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__audit_side_effects",
+        "title": "Audit side-effect preservation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__drop_in_contract",
+        "title": "Drop-in public API compatibility",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

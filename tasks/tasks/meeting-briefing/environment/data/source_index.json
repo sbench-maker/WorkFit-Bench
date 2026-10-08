@@ -1,0 +1,31 @@
+{
+  "snapshot_as_of": "2026-09-09T10:00:00+08:00",
+  "fictional_fixture": true,
+  "sources": [
+    {
+      "name": "calendar",
+      "file": "calendar_events.json",
+      "record_count": 40,
+      "coverage": "2026-07-01 through 2026-09-15; cancelled events retained"
+    },
+    {
+      "name": "email",
+      "file": "emails.jsonl",
+      "record_count": 120,
+      "coverage": "tagged account exports through snapshot time"
+    },
+    {
+      "name": "chat",
+      "file": "chat_messages.jsonl",
+      "record_count": 100,
+      "coverage": "selected internal channels through snapshot time; deleted messages are unavailable"
+    },
+    {
+      "name": "documents",
+      "file": "documents.jsonl",
+      "record_count": 32,
+      "coverage": "repository index and extracted text; missing attachments are described in their index records"
+    }
+  ],
+  "sensitivity_note": "Sensitivity and allowed_audience fields govern how information may be repeated. Legal-privileged negotiation authority may inform internal preparation but must never be presented as safe to disclose to the vendor."
+}

@@ -1,0 +1,346 @@
+transaction_id,date,transaction_type,payee_memo,description,amount_usd,account,category,pl_section,attachment_id,posting_status,source_reference
+QB-0001,2026-03-04,Sales Receipt,Web Store Batch,Online Sales batch 01,3605.36,Sales,Online Sales,Revenue,ATT-03-R-ONL-001,posted,
+QB-0002,2026-03-09,Sales Receipt,Marketplace Batch,Online Sales batch 02,2464.10,Sales,Online Sales,Revenue,ATT-03-R-ONL-002,posted,
+QB-0003,2026-03-14,Sales Receipt,Studio Online,Online Sales batch 03,3216.30,Sales,Online Sales,Revenue,ATT-03-R-ONL-003,posted,
+QB-0004,2026-03-19,Sales Receipt,Web Store Batch,Online Sales batch 04,2075.03,Sales,Online Sales,Revenue,ATT-03-R-ONL-004,posted,
+QB-0005,2026-03-24,Sales Receipt,Marketplace Batch,Online Sales batch 05,2827.23,Sales,Online Sales,Revenue,ATT-03-R-ONL-005,posted,
+QB-0006,2026-03-01,Sales Receipt,Studio Online,Online Sales batch 06,3579.43,Sales,Online Sales,Revenue,ATT-03-R-ONL-006,posted,
+QB-0007,2026-03-06,Sales Receipt,Web Store Batch,Online Sales batch 07,2438.16,Sales,Online Sales,Revenue,ATT-03-R-ONL-007,posted,
+QB-0008,2026-03-11,Sales Receipt,Marketplace Batch,Online Sales batch 08,3190.36,Sales,Online Sales,Revenue,ATT-03-R-ONL-008,posted,
+QB-0009,2026-03-16,Sales Receipt,Studio Online,Online Sales batch 09,2049.09,Sales,Online Sales,Revenue,ATT-03-R-ONL-009,posted,
+QB-0010,2026-03-21,Sales Receipt,Web Store Batch,Online Sales batch 10,2801.29,Sales,Online Sales,Revenue,ATT-03-R-ONL-010,posted,
+QB-0011,2026-03-26,Sales Receipt,Marketplace Batch,Online Sales batch 11,3553.49,Sales,Online Sales,Revenue,ATT-03-R-ONL-011,posted,
+QB-0012,2026-03-03,Sales Receipt,Studio Online,Online Sales batch 12,2412.22,Sales,Online Sales,Revenue,ATT-03-R-ONL-012,posted,
+QB-0013,2026-03-08,Sales Receipt,Web Store Batch,Online Sales batch 13,3164.41,Sales,Online Sales,Revenue,ATT-03-R-ONL-013,posted,
+QB-0014,2026-03-13,Sales Receipt,Marketplace Batch,Online Sales batch 14,3916.61,Sales,Online Sales,Revenue,ATT-03-R-ONL-014,posted,
+QB-0015,2026-03-18,Sales Receipt,Studio Online,Online Sales batch 15,2775.34,Sales,Online Sales,Revenue,ATT-03-R-ONL-015,posted,
+QB-0016,2026-03-23,Sales Receipt,Web Store Batch,Online Sales batch 16,3527.54,Sales,Online Sales,Revenue,ATT-03-R-ONL-016,posted,
+QB-0017,2026-03-28,Sales Receipt,Marketplace Batch,Online Sales batch 17,2386.28,Sales,Online Sales,Revenue,ATT-03-R-ONL-017,posted,
+QB-0018,2026-03-05,Sales Receipt,Studio Online,Online Sales batch 18,3138.47,Sales,Online Sales,Revenue,ATT-03-R-ONL-018,posted,
+QB-0019,2026-03-10,Sales Receipt,Web Store Batch,Online Sales batch 19,3890.67,Sales,Online Sales,Revenue,ATT-03-R-ONL-019,posted,
+QB-0020,2026-03-15,Sales Receipt,Marketplace Batch,Online Sales batch 20,2749.41,Sales,Online Sales,Revenue,ATT-03-R-ONL-020,posted,
+QB-0021,2026-03-20,Sales Receipt,Studio Online,Online Sales batch 21,3501.60,Sales,Online Sales,Revenue,ATT-03-R-ONL-021,posted,
+QB-0022,2026-03-25,Sales Receipt,Web Store Batch,Online Sales batch 22,2360.34,Sales,Online Sales,Revenue,ATT-03-R-ONL-022,posted,
+QB-0023,2026-03-02,Sales Receipt,Marketplace Batch,Online Sales batch 23,3112.54,Sales,Online Sales,Revenue,ATT-03-R-ONL-023,posted,
+QB-0024,2026-03-07,Sales Receipt,Studio Online,Online Sales batch 24,3864.73,Sales,Online Sales,Revenue,ATT-03-R-ONL-024,posted,
+QB-0025,2026-03-04,Sales Receipt,Juniper Row,Wholesale Revenue batch 01,2773.19,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-001,posted,
+QB-0026,2026-03-09,Sales Receipt,Cedar House,Wholesale Revenue batch 02,1965.11,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-002,posted,
+QB-0027,2026-03-14,Sales Receipt,Northlight Design,Wholesale Revenue batch 03,2497.71,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-003,posted,
+QB-0028,2026-03-19,Sales Receipt,Juniper Row,Wholesale Revenue batch 04,1689.63,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-004,posted,
+QB-0029,2026-03-24,Sales Receipt,Cedar House,Wholesale Revenue batch 05,2222.22,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-005,posted,
+QB-0030,2026-03-01,Sales Receipt,Northlight Design,Wholesale Revenue batch 06,2754.82,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-006,posted,
+QB-0031,2026-03-06,Sales Receipt,Juniper Row,Wholesale Revenue batch 07,1946.74,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-007,posted,
+QB-0032,2026-03-11,Sales Receipt,Cedar House,Wholesale Revenue batch 08,2479.33,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-008,posted,
+QB-0033,2026-03-16,Sales Receipt,Northlight Design,Wholesale Revenue batch 09,1671.25,Sales,Wholesale Revenue,Revenue,ATT-03-R-WHO-009,posted,
+QB-0034,2026-03-04,Sales Receipt,Design Consultation,Design Services batch 01,1609.53,Sales,Design Services,Revenue,ATT-03-R-DES-001,posted,
+QB-0035,2026-03-09,Sales Receipt,Room Plan Client,Design Services batch 02,2008.47,Sales,Design Services,Revenue,ATT-03-R-DES-002,posted,
+QB-0036,2026-03-14,Sales Receipt,Trade Design Desk,Design Services batch 03,1403.18,Sales,Design Services,Revenue,ATT-03-R-DES-003,posted,
+QB-0037,2026-03-19,Sales Receipt,Design Consultation,Design Services batch 04,1802.12,Sales,Design Services,Revenue,ATT-03-R-DES-004,posted,
+QB-0038,2026-03-24,Sales Receipt,Room Plan Client,Design Services batch 05,1196.83,Sales,Design Services,Revenue,ATT-03-R-DES-005,posted,
+QB-0039,2026-03-01,Sales Receipt,Trade Design Desk,Design Services batch 06,1595.76,Sales,Design Services,Revenue,ATT-03-R-DES-006,posted,
+QB-0040,2026-03-06,Sales Receipt,Design Consultation,Design Services batch 07,1994.70,Sales,Design Services,Revenue,ATT-03-R-DES-007,posted,
+QB-0041,2026-03-11,Sales Receipt,Room Plan Client,Design Services batch 08,1389.41,Sales,Design Services,Revenue,ATT-03-R-DES-008,posted,
+QB-0042,2026-03-13,Expense,Silver Fir Lumber,Materials charge 01,-3403.02,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-001,posted,
+QB-0043,2026-03-20,Expense,Woven Field Textiles,Materials charge 02,-4292.09,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-002,posted,
+QB-0044,2026-03-27,Expense,Copperline Hardware,Materials charge 03,-2943.15,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-003,posted,
+QB-0045,2026-03-06,Expense,Silver Fir Lumber,Materials charge 04,-3832.22,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-004,posted,
+QB-0046,2026-03-13,Expense,Woven Field Textiles,Materials charge 05,-2483.27,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-005,posted,
+QB-0047,2026-03-20,Expense,Copperline Hardware,Materials charge 06,-3372.35,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-006,posted,
+QB-0048,2026-03-27,Expense,Silver Fir Lumber,Materials charge 07,-4261.42,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-007,posted,
+QB-0049,2026-03-06,Expense,Woven Field Textiles,Materials charge 08,-2912.48,Operating Checking,Materials,Cost of Goods Sold,ATT-03-E-MAT-008,posted,
+QB-0050,2026-03-14,Expense,Westline Freight,Freight In charge 01,-1863.82,Operating Checking,Freight In,Cost of Goods Sold,ATT-03-E-FRE-001,posted,
+QB-0051,2026-03-21,Expense,Parcel Harbor,Freight In charge 02,-1223.13,Operating Checking,Freight In,Cost of Goods Sold,ATT-03-E-FRE-002,posted,
+QB-0052,2026-03-28,Expense,Westline Freight,Freight In charge 03,-1645.39,Operating Checking,Freight In,Cost of Goods Sold,ATT-03-E-FRE-003,posted,
+QB-0053,2026-03-07,Expense,Parcel Harbor,Freight In charge 04,-2067.66,Operating Checking,Freight In,Cost of Goods Sold,ATT-03-E-FRE-004,posted,
+QB-0054,2026-03-20,Expense,Workshop Payroll,Production Labor charge 01,-1026.67,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-001,posted,
+QB-0055,2026-03-27,Expense,Finishing Crew,Production Labor charge 02,-1381.12,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-002,posted,
+QB-0056,2026-03-06,Expense,Workshop Payroll,Production Labor charge 03,-1735.56,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-003,posted,
+QB-0057,2026-03-13,Expense,Finishing Crew,Production Labor charge 04,-1197.78,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-004,posted,
+QB-0058,2026-03-20,Expense,Workshop Payroll,Production Labor charge 05,-1552.22,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-005,posted,
+QB-0059,2026-03-27,Expense,Finishing Crew,Production Labor charge 06,-1014.44,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-006,posted,
+QB-0060,2026-03-06,Expense,Workshop Payroll,Production Labor charge 07,-1368.88,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-007,posted,
+QB-0061,2026-03-13,Expense,Finishing Crew,Production Labor charge 08,-1723.33,Operating Checking,Production Labor,Cost of Goods Sold,ATT-03-E-PRO-008,posted,
+QB-0062,2026-03-11,Expense,Harbor Payroll Services,Payroll charge 01,-3787.88,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-001,posted,
+QB-0063,2026-03-18,Expense,Harbor Payroll Services,Payroll charge 02,-2676.77,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-002,posted,
+QB-0064,2026-03-25,Expense,Harbor Payroll Services,Payroll charge 03,-3409.10,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-003,posted,
+QB-0065,2026-03-04,Expense,Harbor Payroll Services,Payroll charge 04,-2297.98,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-004,posted,
+QB-0066,2026-03-11,Expense,Harbor Payroll Services,Payroll charge 05,-3030.31,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-005,posted,
+QB-0067,2026-03-18,Expense,Harbor Payroll Services,Payroll charge 06,-3762.62,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-006,posted,
+QB-0068,2026-03-25,Expense,Harbor Payroll Services,Payroll charge 07,-2651.51,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-007,posted,
+QB-0069,2026-03-04,Expense,Harbor Payroll Services,Payroll charge 08,-3383.83,Operating Checking,Payroll,Operating Expense,ATT-03-E-PAY-008,posted,
+QB-0070,2026-03-08,Expense,Pier 8 Properties,Rent charge 01,-1867.93,Operating Checking,Rent,Operating Expense,ATT-03-E-REN-001,posted,
+QB-0071,2026-03-15,Expense,Pier 8 Properties,Rent charge 02,-2415.10,Operating Checking,Rent,Operating Expense,ATT-03-E-REN-002,posted,
+QB-0072,2026-03-22,Expense,Pier 8 Properties,Rent charge 03,-1584.90,Operating Checking,Rent,Operating Expense,ATT-03-E-REN-003,posted,
+QB-0073,2026-03-01,Expense,Pier 8 Properties,Rent charge 04,-2132.07,Operating Checking,Rent,Operating Expense,ATT-03-E-REN-004,posted,
+QB-0074,2026-03-13,Expense,Northstar Ads,Marketing charge 01,-1528.61,Operating Checking,Marketing,Operating Expense,ATT-03-E-MAR-001,posted,
+QB-0075,2026-03-20,Expense,Local Home Journal,Marketing charge 02,-1927.97,Operating Checking,Marketing,Operating Expense,ATT-03-E-MAR-002,posted,
+QB-0076,2026-03-27,Expense,Northstar Ads,Marketing charge 03,-1322.03,Operating Checking,Marketing,Operating Expense,ATT-03-E-MAR-003,posted,
+QB-0077,2026-03-06,Expense,Local Home Journal,Marketing charge 04,-1721.39,Operating Checking,Marketing,Operating Expense,ATT-03-E-MAR-004,posted,
+QB-0078,2026-03-12,Expense,CraftDesk,Software charge 01,-558.42,Operating Checking,Software,Operating Expense,ATT-03-E-SOF-001,posted,
+QB-0079,2026-03-19,Expense,LedgerCloud,Software charge 02,-730.70,Operating Checking,Software,Operating Expense,ATT-03-E-SOF-002,posted,
+QB-0080,2026-03-26,Expense,DesignSuite,Software charge 03,-469.30,Operating Checking,Software,Operating Expense,ATT-03-E-SOF-003,posted,
+QB-0081,2026-03-05,Expense,CraftDesk,Software charge 04,-641.58,Operating Checking,Software,Operating Expense,ATT-03-E-SOF-004,posted,
+QB-0082,2026-03-13,Expense,Bay City Utilities,Utilities charge 01,-423.31,Operating Checking,Utilities,Operating Expense,ATT-03-E-UTI-001,posted,
+QB-0083,2026-03-20,Expense,Bay City Utilities,Utilities charge 02,-533.90,Operating Checking,Utilities,Operating Expense,ATT-03-E-UTI-002,posted,
+QB-0084,2026-03-27,Expense,Bay City Utilities,Utilities charge 03,-366.10,Operating Checking,Utilities,Operating Expense,ATT-03-E-UTI-003,posted,
+QB-0085,2026-03-06,Expense,Bay City Utilities,Utilities charge 04,-476.69,Operating Checking,Utilities,Operating Expense,ATT-03-E-UTI-004,posted,
+QB-0086,2026-03-13,Expense,Lantern Mutual,Insurance charge 01,-282.21,Operating Checking,Insurance,Operating Expense,ATT-03-E-INS-001,posted,
+QB-0087,2026-03-20,Expense,Lantern Mutual,Insurance charge 02,-355.94,Operating Checking,Insurance,Operating Expense,ATT-03-E-INS-002,posted,
+QB-0088,2026-03-27,Expense,Lantern Mutual,Insurance charge 03,-244.06,Operating Checking,Insurance,Operating Expense,ATT-03-E-INS-003,posted,
+QB-0089,2026-03-06,Expense,Lantern Mutual,Insurance charge 04,-317.79,Operating Checking,Insurance,Operating Expense,ATT-03-E-INS-004,posted,
+QB-0090,2026-03-21,Expense,Basin Accounting,Professional Fees charge 01,-724.77,Operating Checking,Professional Fees,Operating Expense,ATT-03-E-PRO-001,posted,
+QB-0091,2026-03-28,Expense,Moss Legal,Professional Fees charge 02,-932.88,Operating Checking,Professional Fees,Operating Expense,ATT-03-E-PRO-002,posted,
+QB-0092,2026-03-07,Expense,Basin Accounting,Professional Fees charge 03,-617.12,Operating Checking,Professional Fees,Operating Expense,ATT-03-E-PRO-003,posted,
+QB-0093,2026-03-14,Expense,Moss Legal,Professional Fees charge 04,-825.23,Operating Checking,Professional Fees,Operating Expense,ATT-03-E-PRO-004,posted,
+QB-0094,2026-03-10,Expense,Coastal Rail,Travel charge 01,-436.97,Operating Checking,Travel,Operating Expense,ATT-03-E-TRA-001,posted,
+QB-0095,2026-03-17,Expense,Harborview Hotel,Travel charge 02,-292.41,Operating Checking,Travel,Operating Expense,ATT-03-E-TRA-002,posted,
+QB-0096,2026-03-24,Expense,Coastal Rail,Travel charge 03,-387.67,Operating Checking,Travel,Operating Expense,ATT-03-E-TRA-003,posted,
+QB-0097,2026-03-03,Expense,Harborview Hotel,Travel charge 04,-482.95,Operating Checking,Travel,Operating Expense,ATT-03-E-TRA-004,posted,
+QB-0098,2026-03-19,Expense,Paper & Pine Supply,Office Supplies charge 01,-348.42,Operating Checking,Office Supplies,Operating Expense,ATT-03-E-OFF-001,posted,
+QB-0099,2026-03-26,Expense,Paper & Pine Supply,Office Supplies charge 02,-238.92,Operating Checking,Office Supplies,Operating Expense,ATT-03-E-OFF-002,posted,
+QB-0100,2026-03-05,Expense,Paper & Pine Supply,Office Supplies charge 03,-311.08,Operating Checking,Office Supplies,Operating Expense,ATT-03-E-OFF-003,posted,
+QB-0101,2026-03-12,Expense,Paper & Pine Supply,Office Supplies charge 04,-201.58,Operating Checking,Office Supplies,Operating Expense,ATT-03-E-OFF-004,posted,
+QB-0102,2026-03-17,Expense,Processor Fee Clearing,Merchant Fees charge 01,-361.09,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-001,posted,
+QB-0103,2026-03-24,Expense,Processor Fee Clearing,Merchant Fees charge 02,-459.88,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-002,posted,
+QB-0104,2026-03-03,Expense,Processor Fee Clearing,Merchant Fees charge 03,-309.99,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-003,posted,
+QB-0105,2026-03-10,Expense,Processor Fee Clearing,Merchant Fees charge 04,-408.77,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-004,posted,
+QB-0106,2026-03-17,Expense,Processor Fee Clearing,Merchant Fees charge 05,-507.56,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-005,posted,
+QB-0107,2026-03-24,Expense,Processor Fee Clearing,Merchant Fees charge 06,-357.67,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-006,posted,
+QB-0108,2026-03-03,Expense,Processor Fee Clearing,Merchant Fees charge 07,-456.46,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-007,posted,
+QB-0109,2026-03-10,Expense,Processor Fee Clearing,Merchant Fees charge 08,-306.58,Operating Checking,Merchant Fees,Operating Expense,ATT-03-E-MER-008,posted,
+QB-0110,2026-04-05,Sales Receipt,Web Store Batch,Online Sales batch 01,2240.34,Sales,Online Sales,Revenue,ATT-04-R-ONL-001,posted,
+QB-0111,2026-04-10,Sales Receipt,Marketplace Batch,Online Sales batch 02,3023.11,Sales,Online Sales,Revenue,ATT-04-R-ONL-002,posted,
+QB-0112,2026-04-15,Sales Receipt,Studio Online,Online Sales batch 03,3805.88,Sales,Online Sales,Revenue,ATT-04-R-ONL-003,posted,
+QB-0113,2026-04-20,Sales Receipt,Web Store Batch,Online Sales batch 04,2618.23,Sales,Online Sales,Revenue,ATT-04-R-ONL-004,posted,
+QB-0114,2026-04-25,Sales Receipt,Marketplace Batch,Online Sales batch 05,3401.00,Sales,Online Sales,Revenue,ATT-04-R-ONL-005,posted,
+QB-0115,2026-04-02,Sales Receipt,Studio Online,Online Sales batch 06,2213.35,Sales,Online Sales,Revenue,ATT-04-R-ONL-006,posted,
+QB-0116,2026-04-07,Sales Receipt,Web Store Batch,Online Sales batch 07,2996.12,Sales,Online Sales,Revenue,ATT-04-R-ONL-007,posted,
+QB-0117,2026-04-12,Sales Receipt,Marketplace Batch,Online Sales batch 08,3778.88,Sales,Online Sales,Revenue,ATT-04-R-ONL-008,posted,
+QB-0118,2026-04-17,Sales Receipt,Studio Online,Online Sales batch 09,2591.24,Sales,Online Sales,Revenue,ATT-04-R-ONL-009,posted,
+QB-0119,2026-04-22,Sales Receipt,Web Store Batch,Online Sales batch 10,3374.00,Sales,Online Sales,Revenue,ATT-04-R-ONL-010,posted,
+QB-0120,2026-04-27,Sales Receipt,Marketplace Batch,Online Sales batch 11,2186.36,Sales,Online Sales,Revenue,ATT-04-R-ONL-011,posted,
+QB-0121,2026-04-04,Sales Receipt,Studio Online,Online Sales batch 12,2969.12,Sales,Online Sales,Revenue,ATT-04-R-ONL-012,posted,
+QB-0122,2026-04-09,Sales Receipt,Web Store Batch,Online Sales batch 13,3751.89,Sales,Online Sales,Revenue,ATT-04-R-ONL-013,posted,
+QB-0123,2026-04-14,Sales Receipt,Marketplace Batch,Online Sales batch 14,2564.23,Sales,Online Sales,Revenue,ATT-04-R-ONL-014,posted,
+QB-0124,2026-04-19,Sales Receipt,Studio Online,Online Sales batch 15,3347.00,Sales,Online Sales,Revenue,ATT-04-R-ONL-015,posted,
+QB-0125,2026-04-24,Sales Receipt,Web Store Batch,Online Sales batch 16,2159.35,Sales,Online Sales,Revenue,ATT-04-R-ONL-016,posted,
+QB-0126,2026-04-01,Sales Receipt,Marketplace Batch,Online Sales batch 17,2942.12,Sales,Online Sales,Revenue,ATT-04-R-ONL-017,posted,
+QB-0127,2026-04-06,Sales Receipt,Studio Online,Online Sales batch 18,3724.89,Sales,Online Sales,Revenue,ATT-04-R-ONL-018,posted,
+QB-0128,2026-04-11,Sales Receipt,Web Store Batch,Online Sales batch 19,2537.24,Sales,Online Sales,Revenue,ATT-04-R-ONL-019,posted,
+QB-0129,2026-04-16,Sales Receipt,Marketplace Batch,Online Sales batch 20,3320.01,Sales,Online Sales,Revenue,ATT-04-R-ONL-020,posted,
+QB-0130,2026-04-21,Sales Receipt,Studio Online,Online Sales batch 21,2132.36,Sales,Online Sales,Revenue,ATT-04-R-ONL-021,posted,
+QB-0131,2026-04-26,Sales Receipt,Web Store Batch,Online Sales batch 22,2915.13,Sales,Online Sales,Revenue,ATT-04-R-ONL-022,posted,
+QB-0132,2026-04-03,Sales Receipt,Marketplace Batch,Online Sales batch 23,3697.90,Sales,Online Sales,Revenue,ATT-04-R-ONL-023,posted,
+QB-0133,2026-04-08,Sales Receipt,Studio Online,Online Sales batch 24,2510.25,Sales,Online Sales,Revenue,ATT-04-R-ONL-024,posted,
+QB-0134,2026-04-18,Sales Receipt,Birchline Hotels,Custom lobby furniture project,18400.00,Sales,Wholesale Revenue,Revenue,ATT-WHOLE-001,posted,
+QB-0135,2026-04-05,Sales Receipt,Juniper Row,Wholesale Revenue batch 01,1600.01,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-001,posted,
+QB-0136,2026-04-10,Sales Receipt,Cedar House,Wholesale Revenue batch 02,2088.43,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-002,posted,
+QB-0137,2026-04-15,Sales Receipt,Northlight Design,Wholesale Revenue batch 03,1347.37,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-003,posted,
+QB-0138,2026-04-20,Sales Receipt,Juniper Row,Wholesale Revenue batch 04,1835.79,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-004,posted,
+QB-0139,2026-04-25,Sales Receipt,Cedar House,Wholesale Revenue batch 05,2324.22,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-005,posted,
+QB-0140,2026-04-02,Sales Receipt,Northlight Design,Wholesale Revenue batch 06,1583.15,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-006,posted,
+QB-0141,2026-04-07,Sales Receipt,Juniper Row,Wholesale Revenue batch 07,2071.57,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-007,posted,
+QB-0142,2026-04-12,Sales Receipt,Cedar House,Wholesale Revenue batch 08,1330.52,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-008,posted,
+QB-0143,2026-04-17,Sales Receipt,Northlight Design,Wholesale Revenue batch 09,1818.94,Sales,Wholesale Revenue,Revenue,ATT-04-R-WHO-009,posted,
+QB-0144,2026-04-05,Sales Receipt,Design Consultation,Design Services batch 01,1894.64,Sales,Design Services,Revenue,ATT-04-R-DES-001,posted,
+QB-0145,2026-04-10,Sales Receipt,Room Plan Client,Design Services batch 02,1272.52,Sales,Design Services,Revenue,ATT-04-R-DES-002,posted,
+QB-0146,2026-04-15,Sales Receipt,Trade Design Desk,Design Services batch 03,1682.55,Sales,Design Services,Revenue,ATT-04-R-DES-003,posted,
+QB-0147,2026-04-20,Sales Receipt,Design Consultation,Design Services batch 04,2092.58,Sales,Design Services,Revenue,ATT-04-R-DES-004,posted,
+QB-0148,2026-04-25,Sales Receipt,Room Plan Client,Design Services batch 05,1470.45,Sales,Design Services,Revenue,ATT-04-R-DES-005,posted,
+QB-0149,2026-04-02,Sales Receipt,Trade Design Desk,Design Services batch 06,1880.49,Sales,Design Services,Revenue,ATT-04-R-DES-006,posted,
+QB-0150,2026-04-07,Sales Receipt,Design Consultation,Design Services batch 07,1258.37,Sales,Design Services,Revenue,ATT-04-R-DES-007,posted,
+QB-0151,2026-04-12,Sales Receipt,Room Plan Client,Design Services batch 08,1668.40,Sales,Design Services,Revenue,ATT-04-R-DES-008,posted,
+QB-0152,2026-04-16,Expense,Silver Fir Lumber,Birchline project hardwood,-3450.00,Operating Checking,Materials,Cost of Goods Sold,,posted,
+QB-0153,2026-04-14,Expense,Silver Fir Lumber,Materials charge 01,-3802.49,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-001,posted,
+QB-0154,2026-04-21,Expense,Woven Field Textiles,Materials charge 02,-2495.38,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-002,posted,
+QB-0155,2026-04-28,Expense,Copperline Hardware,Materials charge 03,-3356.88,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-003,posted,
+QB-0156,2026-04-07,Expense,Silver Fir Lumber,Materials charge 04,-4218.37,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-004,posted,
+QB-0157,2026-04-14,Expense,Woven Field Textiles,Materials charge 05,-2911.27,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-005,posted,
+QB-0158,2026-04-21,Expense,Copperline Hardware,Materials charge 06,-3772.77,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-006,posted,
+QB-0159,2026-04-28,Expense,Silver Fir Lumber,Materials charge 07,-2465.67,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-007,posted,
+QB-0160,2026-04-07,Expense,Woven Field Textiles,Materials charge 08,-3327.17,Operating Checking,Materials,Cost of Goods Sold,ATT-04-E-MAT-008,posted,
+QB-0161,2026-04-15,Expense,Westline Freight,Freight In charge 01,-1945.89,Operating Checking,Freight In,Cost of Goods Sold,ATT-04-E-FRE-001,posted,
+QB-0162,2026-04-22,Expense,Parcel Harbor,Freight In charge 02,-1355.42,Operating Checking,Freight In,Cost of Goods Sold,ATT-04-E-FRE-002,posted,
+QB-0163,2026-04-01,Expense,Westline Freight,Freight In charge 03,-1744.58,Operating Checking,Freight In,Cost of Goods Sold,ATT-04-E-FRE-003,posted,
+QB-0164,2026-04-08,Expense,Parcel Harbor,Freight In charge 04,-1154.11,Operating Checking,Freight In,Cost of Goods Sold,ATT-04-E-FRE-004,posted,
+QB-0165,2026-04-21,Expense,Workshop Payroll,Production Labor charge 01,-1419.68,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-001,posted,
+QB-0166,2026-04-28,Expense,Finishing Crew,Production Labor charge 02,-1827.31,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-002,posted,
+QB-0167,2026-04-07,Expense,Workshop Payroll,Production Labor charge 03,-1208.84,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-003,posted,
+QB-0168,2026-04-14,Expense,Finishing Crew,Production Labor charge 04,-1616.47,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-004,posted,
+QB-0169,2026-04-21,Expense,Workshop Payroll,Production Labor charge 05,-2024.08,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-005,posted,
+QB-0170,2026-04-28,Expense,Finishing Crew,Production Labor charge 06,-1405.61,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-006,posted,
+QB-0171,2026-04-07,Expense,Workshop Payroll,Production Labor charge 07,-1813.24,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-007,posted,
+QB-0172,2026-04-14,Expense,Finishing Crew,Production Labor charge 08,-1194.77,Operating Checking,Production Labor,Cost of Goods Sold,ATT-04-E-PRO-008,posted,
+QB-0173,2026-04-12,Expense,Harbor Payroll Services,Payroll charge 01,-2715.33,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-001,posted,
+QB-0174,2026-04-19,Expense,Harbor Payroll Services,Payroll charge 02,-3553.04,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-002,posted,
+QB-0175,2026-04-26,Expense,Harbor Payroll Services,Payroll charge 03,-2282.03,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-003,posted,
+QB-0176,2026-04-05,Expense,Harbor Payroll Services,Payroll charge 04,-3119.74,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-004,posted,
+QB-0177,2026-04-12,Expense,Harbor Payroll Services,Payroll charge 05,-3957.44,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-005,posted,
+QB-0178,2026-04-19,Expense,Harbor Payroll Services,Payroll charge 06,-2686.43,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-006,posted,
+QB-0179,2026-04-26,Expense,Harbor Payroll Services,Payroll charge 07,-3524.14,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-007,posted,
+QB-0180,2026-04-05,Expense,Harbor Payroll Services,Payroll charge 08,-4361.85,Operating Checking,Payroll,Operating Expense,ATT-04-E-PAY-008,posted,
+QB-0181,2026-04-09,Expense,Pier 8 Properties,Rent charge 01,-1886.18,Operating Checking,Rent,Operating Expense,ATT-04-E-REN-001,posted,
+QB-0182,2026-04-16,Expense,Pier 8 Properties,Rent charge 02,-2357.73,Operating Checking,Rent,Operating Expense,ATT-04-E-REN-002,posted,
+QB-0183,2026-04-23,Expense,Pier 8 Properties,Rent charge 03,-1642.27,Operating Checking,Rent,Operating Expense,ATT-04-E-REN-003,posted,
+QB-0184,2026-04-02,Expense,Pier 8 Properties,Rent charge 04,-2113.82,Operating Checking,Rent,Operating Expense,ATT-04-E-REN-004,posted,
+QB-0185,2026-04-05,Expense,Northstar Ads,April search campaign A,-640.00,Operating Checking,Marketing,Operating Expense,ATT-MKT-051,posted,
+QB-0186,2026-04-07,Expense,Northstar Ads,April search campaign B,-640.00,Operating Checking,Marketing,Operating Expense,ATT-MKT-052,posted,
+QB-0187,2026-04-22,Expense,Local Home Journal,Sponsored spring issue,-420.00,Operating Checking,,Operating Expense,,posted,
+QB-0188,2026-04-14,Expense,Northstar Ads,Marketing charge 01,-959.32,Operating Checking,Marketing,Operating Expense,ATT-04-E-MAR-001,posted,
+QB-0189,2026-04-21,Expense,Local Home Journal,Marketing charge 02,-629.56,Operating Checking,Marketing,Operating Expense,ATT-04-E-MAR-002,posted,
+QB-0190,2026-04-28,Expense,Northstar Ads,Marketing charge 03,-846.89,Operating Checking,Marketing,Operating Expense,ATT-04-E-MAR-003,posted,
+QB-0191,2026-04-07,Expense,Local Home Journal,Marketing charge 04,-1064.23,Operating Checking,Marketing,Operating Expense,ATT-04-E-MAR-004,posted,
+QB-0192,2026-04-08,Expense,DesignSuite,Annual plug-in renewal,-248.75,Operating Checking,Software,Operating Expense,ATT-SW-041,posted,
+QB-0193,2026-04-13,Expense,CraftDesk,Software charge 01,-564.71,Operating Checking,Software,Operating Expense,ATT-04-E-SOF-001,posted,
+QB-0194,2026-04-20,Expense,LedgerCloud,Software charge 02,-712.24,Operating Checking,Software,Operating Expense,ATT-04-E-SOF-002,posted,
+QB-0195,2026-04-27,Expense,DesignSuite,Software charge 03,-488.38,Operating Checking,Software,Operating Expense,ATT-04-E-SOF-003,posted,
+QB-0196,2026-04-06,Expense,CraftDesk,Software charge 04,-635.92,Operating Checking,Software,Operating Expense,ATT-04-E-SOF-004,posted,
+QB-0197,2026-04-14,Expense,Bay City Utilities,Workshop electricity,-310.00,Operating Checking,,Operating Expense,,posted,
+QB-0198,2026-04-14,Expense,Bay City Utilities,Utilities charge 01,-391.95,Operating Checking,Utilities,Operating Expense,ATT-04-E-UTI-001,posted,
+QB-0199,2026-04-21,Expense,Bay City Utilities,Utilities charge 02,-257.22,Operating Checking,Utilities,Operating Expense,ATT-04-E-UTI-002,posted,
+QB-0200,2026-04-28,Expense,Bay City Utilities,Utilities charge 03,-346.02,Operating Checking,Utilities,Operating Expense,ATT-04-E-UTI-003,posted,
+QB-0201,2026-04-07,Expense,Bay City Utilities,Utilities charge 04,-434.81,Operating Checking,Utilities,Operating Expense,ATT-04-E-UTI-004,posted,
+QB-0202,2026-04-14,Expense,Lantern Mutual,Insurance charge 01,-328.91,Operating Checking,Insurance,Operating Expense,ATT-04-E-INS-001,posted,
+QB-0203,2026-04-21,Expense,Lantern Mutual,Insurance charge 02,-215.85,Operating Checking,Insurance,Operating Expense,ATT-04-E-INS-002,posted,
+QB-0204,2026-04-28,Expense,Lantern Mutual,Insurance charge 03,-290.36,Operating Checking,Insurance,Operating Expense,ATT-04-E-INS-003,posted,
+QB-0205,2026-04-07,Expense,Lantern Mutual,Insurance charge 04,-364.88,Operating Checking,Insurance,Operating Expense,ATT-04-E-INS-004,posted,
+QB-0206,2026-04-20,Expense,Basin Accounting,April tax filing and close support,-2300.00,Operating Checking,Professional Fees,Operating Expense,,posted,
+QB-0207,2026-04-26,Expense,Moss Legal,Contract review,-375.00,Operating Checking,,Operating Expense,ATT-PRO-088,posted,
+QB-0208,2026-04-22,Expense,Basin Accounting,Professional Fees charge 01,-454.30,Operating Checking,Professional Fees,Operating Expense,ATT-04-E-PRO-001,posted,
+QB-0209,2026-04-01,Expense,Moss Legal,Professional Fees charge 02,-565.95,Operating Checking,Professional Fees,Operating Expense,ATT-04-E-PRO-002,posted,
+QB-0210,2026-04-08,Expense,Basin Accounting,Professional Fees charge 03,-396.55,Operating Checking,Professional Fees,Operating Expense,ATT-04-E-PRO-003,posted,
+QB-0211,2026-04-15,Expense,Moss Legal,Professional Fees charge 04,-508.20,Operating Checking,Professional Fees,Operating Expense,ATT-04-E-PRO-004,posted,
+QB-0212,2026-04-11,Expense,Harborview Hotel,West Coast Design Expo lodging,-2200.00,Operating Checking,Travel,Operating Expense,,posted,
+QB-0213,2026-04-11,Expense,Coastal Rail,Travel charge 01,-389.01,Operating Checking,Travel,Operating Expense,ATT-04-E-TRA-001,posted,
+QB-0214,2026-04-18,Expense,Harborview Hotel,Travel charge 02,-274.90,Operating Checking,Travel,Operating Expense,ATT-04-E-TRA-002,posted,
+QB-0215,2026-04-25,Expense,Coastal Rail,Travel charge 03,-350.10,Operating Checking,Travel,Operating Expense,ATT-04-E-TRA-003,posted,
+QB-0216,2026-04-04,Expense,Harborview Hotel,Travel charge 04,-235.99,Operating Checking,Travel,Operating Expense,ATT-04-E-TRA-004,posted,
+QB-0217,2026-04-09,Expense,Paper & Pine Supply,Packing labels - north studio,-125.00,Operating Checking,Office Supplies,Operating Expense,,posted,
+QB-0218,2026-04-11,Expense,Paper & Pine Supply,Packing labels - south studio,-125.00,Operating Checking,Office Supplies,Operating Expense,ATT-OFF-101,posted,
+QB-0219,2026-04-24,Expense,Paper & Pine Supply,Showroom sample binders,-145.00,Operating Checking,,Operating Expense,ATT-OFF-102,posted,
+QB-0220,2026-04-20,Expense,Paper & Pine Supply,Office Supplies charge 01,-112.45,Operating Checking,Office Supplies,Operating Expense,ATT-04-E-OFF-001,posted,
+QB-0221,2026-04-27,Expense,Paper & Pine Supply,Office Supplies charge 02,-151.28,Operating Checking,Office Supplies,Operating Expense,ATT-04-E-OFF-002,posted,
+QB-0222,2026-04-06,Expense,Paper & Pine Supply,Office Supplies charge 03,-190.09,Operating Checking,Office Supplies,Operating Expense,ATT-04-E-OFF-003,posted,
+QB-0223,2026-04-13,Expense,Paper & Pine Supply,Office Supplies charge 04,-131.18,Operating Checking,Office Supplies,Operating Expense,ATT-04-E-OFF-004,posted,
+QB-0224,2026-04-18,Expense,Processor Fee Clearing,Merchant Fees charge 01,-474.97,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-001,posted,
+QB-0225,2026-04-25,Expense,Processor Fee Clearing,Merchant Fees charge 02,-305.07,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-002,posted,
+QB-0226,2026-04-04,Expense,Processor Fee Clearing,Merchant Fees charge 03,-417.05,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-003,posted,
+QB-0227,2026-04-11,Expense,Processor Fee Clearing,Merchant Fees charge 04,-529.03,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-004,posted,
+QB-0228,2026-04-18,Expense,Processor Fee Clearing,Merchant Fees charge 05,-359.12,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-005,posted,
+QB-0229,2026-04-25,Expense,Processor Fee Clearing,Merchant Fees charge 06,-471.10,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-006,posted,
+QB-0230,2026-04-04,Expense,Processor Fee Clearing,Merchant Fees charge 07,-583.08,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-007,posted,
+QB-0231,2026-04-11,Expense,Processor Fee Clearing,Merchant Fees charge 08,-413.18,Operating Checking,Merchant Fees,Operating Expense,ATT-04-E-MER-008,posted,
+QB-0232,2026-04-10,Expense,DesignSuite,Annual plug-in renewal duplicate import,-248.75,Operating Checking,Software,Operating Expense,ATT-SW-041-DUP,posted,
+QB-0233,2026-04-01,Deposit,Stripe,Stripe payout ST-SET-0001,557.62,Operating Checking,Processor Clearing,,ATT-PAYOUT-0001,posted,ST-SET-0001
+QB-0234,2026-04-07,Deposit,Stripe,Stripe payout ST-SET-0002,612.16,Operating Checking,Processor Clearing,,ATT-PAYOUT-0002,posted,ST-SET-0002
+QB-0235,2026-04-15,Deposit,Stripe,Stripe payout ST-SET-0003,631.69,Operating Checking,Processor Clearing,,ATT-PAYOUT-0003,posted,ST-SET-0003
+QB-0236,2026-04-23,Deposit,Stripe,Stripe payout ST-SET-0004,651.23,Operating Checking,Processor Clearing,,ATT-PAYOUT-0004,posted,ST-SET-0004
+QB-0237,2026-04-30,Deposit,Stripe,Stripe payout ST-SET-0005,670.77,Operating Checking,Processor Clearing,,ATT-PAYOUT-0005,posted,ST-SET-0005
+QB-0238,2026-04-05,Deposit,Stripe,Stripe payout ST-SET-0006,690.31,Operating Checking,Processor Clearing,,ATT-PAYOUT-0006,posted,ST-SET-0006
+QB-0239,2026-04-13,Deposit,Stripe,Stripe payout ST-SET-0007,709.84,Operating Checking,Processor Clearing,,ATT-PAYOUT-0007,posted,ST-SET-0007
+QB-0240,2026-04-21,Deposit,Stripe,Stripe payout ST-SET-0008,713.94,Operating Checking,Processor Clearing,,ATT-PAYOUT-0008,posted,ST-SET-0008
+QB-0241,2026-04-29,Deposit,Stripe,Stripe payout ST-SET-0009,733.47,Operating Checking,Processor Clearing,,ATT-PAYOUT-0009,posted,ST-SET-0009
+QB-0242,2026-04-09,Deposit,Stripe,Stripe payout ST-SET-0010,753.01,Operating Checking,Processor Clearing,,ATT-PAYOUT-0010,posted,ST-SET-0010
+QB-0243,2026-04-12,Deposit,Stripe,Stripe payout ST-SET-0011,772.55,Operating Checking,Processor Clearing,,ATT-PAYOUT-0011,posted,ST-SET-0011
+QB-0244,2026-04-20,Deposit,Stripe,Stripe payout ST-SET-0012,792.08,Operating Checking,Processor Clearing,,ATT-PAYOUT-0012,posted,ST-SET-0012
+QB-0245,2026-04-28,Deposit,Stripe,Stripe payout ST-SET-0013,811.62,Operating Checking,Processor Clearing,,ATT-PAYOUT-0013,posted,ST-SET-0013
+QB-0246,2026-04-07,Deposit,Stripe,Stripe payout ST-SET-0014,794.73,Operating Checking,Processor Clearing,,ATT-PAYOUT-0014,posted,ST-SET-0014
+QB-0247,2026-04-15,Deposit,Stripe,Stripe payout ST-SET-0015,835.25,Operating Checking,Processor Clearing,,ATT-PAYOUT-0015,posted,ST-SET-0015
+QB-0248,2026-04-18,Deposit,Stripe,Stripe payout ST-SET-0016,854.79,Operating Checking,Processor Clearing,,ATT-PAYOUT-0016,posted,ST-SET-0016
+QB-0249,2026-04-26,Deposit,Stripe,Stripe payout ST-SET-0017,874.33,Operating Checking,Processor Clearing,,ATT-PAYOUT-0017,posted,ST-SET-0017
+QB-0250,2026-04-05,Deposit,Stripe,Stripe payout ST-SET-0018,893.86,Operating Checking,Processor Clearing,,ATT-PAYOUT-0018,posted,ST-SET-0018
+QB-0251,2026-04-14,Deposit,Stripe,Stripe payout ST-SET-0019,913.40,Operating Checking,Processor Clearing,,ATT-PAYOUT-0019,posted,ST-SET-0019
+QB-0252,2026-04-22,Deposit,Stripe,Stripe payout ST-SET-0020,932.94,Operating Checking,Processor Clearing,,ATT-PAYOUT-0020,posted,ST-SET-0020
+QB-0253,2026-04-25,Deposit,Stripe,Stripe payout ST-SET-0021,952.47,Operating Checking,Processor Clearing,,ATT-PAYOUT-0021,posted,ST-SET-0021
+QB-0254,2026-04-04,Deposit,Stripe,Stripe payout ST-SET-0022,956.57,Operating Checking,Processor Clearing,,ATT-PAYOUT-0022,posted,ST-SET-0022
+QB-0255,2026-04-12,Deposit,Stripe,Stripe payout ST-SET-0023,976.10,Operating Checking,Processor Clearing,,ATT-PAYOUT-0023,posted,ST-SET-0023
+QB-0256,2026-04-20,Deposit,Stripe,Stripe payout ST-SET-0024,995.64,Operating Checking,Processor Clearing,,ATT-PAYOUT-0024,posted,ST-SET-0024
+QB-0257,2026-04-28,Deposit,Stripe,Stripe payout ST-SET-0025,1015.18,Operating Checking,Processor Clearing,,ATT-PAYOUT-0025,posted,ST-SET-0025
+QB-0258,2026-04-02,Deposit,Stripe,Stripe payout ST-SET-0026,1034.71,Operating Checking,Processor Clearing,,ATT-PAYOUT-0026,posted,ST-SET-0026
+QB-0259,2026-04-10,Deposit,Stripe,Stripe payout ST-SET-0027,1016.39,Operating Checking,Processor Clearing,,ATT-PAYOUT-0027,posted,ST-SET-0027
+QB-0260,2026-04-19,Deposit,Stripe,Stripe payout ST-SET-0028,1073.79,Operating Checking,Processor Clearing,,ATT-PAYOUT-0028,posted,ST-SET-0028
+QB-0261,2026-04-27,Deposit,Stripe,Stripe payout ST-SET-0029,1077.88,Operating Checking,Processor Clearing,,ATT-PAYOUT-0029,posted,ST-SET-0029
+QB-0262,2026-04-06,Deposit,Stripe,Stripe payout ST-SET-0030,1097.42,Operating Checking,Processor Clearing,,ATT-PAYOUT-0030,posted,ST-SET-0030
+QB-0263,2026-04-09,Deposit,Stripe,Stripe payout ST-SET-0031,1116.96,Operating Checking,Processor Clearing,,ATT-PAYOUT-0031,posted,ST-SET-0031
+QB-0264,2026-04-17,Deposit,Stripe,Stripe payout ST-SET-0032,1136.49,Operating Checking,Processor Clearing,,ATT-PAYOUT-0032,posted,ST-SET-0032
+QB-0265,2026-04-25,Deposit,Stripe,Stripe payout ST-SET-0033,1156.03,Operating Checking,Processor Clearing,,ATT-PAYOUT-0033,posted,ST-SET-0033
+QB-0266,2026-04-04,Deposit,Stripe,Stripe payout ST-SET-0034,1175.57,Operating Checking,Processor Clearing,,ATT-PAYOUT-0034,posted,ST-SET-0034
+QB-0267,2026-04-12,Deposit,Stripe,Stripe payout ST-SET-0035,1195.10,Operating Checking,Processor Clearing,,ATT-PAYOUT-0035,posted,ST-SET-0035
+QB-0268,2026-04-15,Deposit,Stripe,Stripe payout ST-SET-0036,1199.20,Operating Checking,Processor Clearing,,ATT-PAYOUT-0036,posted,ST-SET-0036
+QB-0269,2026-04-24,Deposit,Stripe,Stripe payout ST-SET-0037,1218.73,Operating Checking,Processor Clearing,,ATT-PAYOUT-0037,posted,ST-SET-0037
+QB-0270,2026-04-03,Deposit,Stripe,Stripe payout ST-SET-0038,1238.27,Operating Checking,Processor Clearing,,ATT-PAYOUT-0038,posted,ST-SET-0038
+QB-0271,2026-04-11,Deposit,Stripe,Stripe payout ST-SET-0039,1257.81,Operating Checking,Processor Clearing,,ATT-PAYOUT-0039,posted,ST-SET-0039
+QB-0272,2026-04-19,Deposit,Stripe,Stripe payout ST-SET-0040,1238.06,Operating Checking,Processor Clearing,,ATT-PAYOUT-0040,posted,ST-SET-0040
+QB-0273,2026-04-22,Deposit,Stripe,Stripe payout ST-SET-0041,1296.88,Operating Checking,Processor Clearing,,ATT-PAYOUT-0041,posted,ST-SET-0041
+QB-0274,2026-04-01,Deposit,Stripe,Stripe payout ST-SET-0042,1316.42,Operating Checking,Processor Clearing,,ATT-PAYOUT-0042,posted,ST-SET-0042
+QB-0275,2026-04-09,Deposit,Stripe,Stripe payout ST-SET-0043,1320.51,Operating Checking,Processor Clearing,,ATT-PAYOUT-0043,posted,ST-SET-0043
+QB-0276,2026-04-17,Deposit,Stripe,Stripe payout ST-SET-0044,1340.05,Operating Checking,Processor Clearing,,ATT-PAYOUT-0044,posted,ST-SET-0044
+QB-0277,2026-04-25,Deposit,Stripe,Stripe payout ST-SET-0045,1359.59,Operating Checking,Processor Clearing,,ATT-PAYOUT-0045,posted,ST-SET-0045
+QB-0278,2026-04-01,Deposit,Stripe,Stripe payout ST-SET-0046,1379.12,Operating Checking,Processor Clearing,,ATT-PAYOUT-0046,posted,ST-SET-0046
+QB-0279,2026-04-08,Deposit,Stripe,Stripe payout ST-SET-0047,1398.66,Operating Checking,Processor Clearing,,ATT-PAYOUT-0047,posted,ST-SET-0047
+QB-0280,2026-04-16,Deposit,Stripe,Stripe payout ST-SET-0048,1418.20,Operating Checking,Processor Clearing,,ATT-PAYOUT-0048,posted,ST-SET-0048
+QB-0281,2026-04-24,Deposit,Stripe,Stripe payout ST-SET-0049,1437.74,Operating Checking,Processor Clearing,,ATT-PAYOUT-0049,posted,ST-SET-0049
+QB-0282,2026-04-03,Deposit,Stripe,Stripe payout ST-SET-0050,1441.83,Operating Checking,Processor Clearing,,ATT-PAYOUT-0050,posted,ST-SET-0050
+QB-0283,2026-04-06,Deposit,Stripe,Stripe payout ST-SET-0051,1461.36,Operating Checking,Processor Clearing,,ATT-PAYOUT-0051,posted,ST-SET-0051
+QB-0284,2026-04-14,Deposit,Stripe,Stripe payout ST-SET-0052,1480.90,Operating Checking,Processor Clearing,,ATT-PAYOUT-0052,posted,ST-SET-0052
+QB-0285,2026-04-22,Deposit,Stripe,Stripe payout ST-SET-0053,1459.72,Operating Checking,Processor Clearing,,ATT-PAYOUT-0053,posted,ST-SET-0053
+QB-0286,2026-04-30,Deposit,Stripe,Stripe payout ST-SET-0054,1519.98,Operating Checking,Processor Clearing,,ATT-PAYOUT-0054,posted,ST-SET-0054
+QB-0287,2026-04-10,Deposit,Stripe,Stripe payout ST-SET-0055,1539.51,Operating Checking,Processor Clearing,,ATT-PAYOUT-0055,posted,ST-SET-0055
+QB-0288,2026-04-13,Deposit,Stripe,Stripe payout ST-SET-0056,1559.05,Operating Checking,Processor Clearing,,ATT-PAYOUT-0056,posted,ST-SET-0056
+QB-0289,2026-04-21,Deposit,Stripe,Stripe payout ST-SET-0057,1563.14,Operating Checking,Processor Clearing,,ATT-PAYOUT-0057,posted,ST-SET-0057
+QB-0290,2026-04-29,Deposit,Stripe,Stripe payout ST-SET-0058,1582.68,Operating Checking,Processor Clearing,,ATT-PAYOUT-0058,posted,ST-SET-0058
+QB-0291,2026-04-08,Deposit,Stripe,Stripe payout ST-SET-0059,1602.22,Operating Checking,Processor Clearing,,ATT-PAYOUT-0059,posted,ST-SET-0059
+QB-0292,2026-04-16,Deposit,Stripe,Stripe payout ST-SET-0060,1621.75,Operating Checking,Processor Clearing,,ATT-PAYOUT-0060,posted,ST-SET-0060
+QB-0293,2026-04-19,Deposit,Stripe,Stripe payout ST-SET-0061,1641.29,Operating Checking,Processor Clearing,,ATT-PAYOUT-0061,posted,ST-SET-0061
+QB-0294,2026-04-27,Deposit,Stripe,Stripe payout ST-SET-0062,1660.83,Operating Checking,Processor Clearing,,ATT-PAYOUT-0062,posted,ST-SET-0062
+QB-0295,2026-04-06,Deposit,Stripe,Stripe payout ST-SET-0063,1680.37,Operating Checking,Processor Clearing,,ATT-PAYOUT-0063,posted,ST-SET-0063
+QB-0296,2026-04-15,Deposit,Stripe,Stripe payout ST-SET-0064,1684.46,Operating Checking,Processor Clearing,,ATT-PAYOUT-0064,posted,ST-SET-0064
+QB-0297,2026-04-23,Deposit,Stripe,Stripe payout ST-SET-0065,1704.00,Operating Checking,Processor Clearing,,ATT-PAYOUT-0065,posted,ST-SET-0065
+QB-0298,2026-04-26,Deposit,Stripe,Stripe payout ST-SET-0066,1681.38,Operating Checking,Processor Clearing,,ATT-PAYOUT-0066,posted,ST-SET-0066
+QB-0299,2026-04-05,Deposit,Stripe,Stripe payout ST-SET-0067,1743.07,Operating Checking,Processor Clearing,,ATT-PAYOUT-0067,posted,ST-SET-0067
+QB-0300,2026-04-13,Deposit,Stripe,Stripe payout ST-SET-0068,1762.61,Operating Checking,Processor Clearing,,ATT-PAYOUT-0068,posted,ST-SET-0068
+QB-0301,2026-04-21,Deposit,Stripe,Stripe payout ST-SET-0069,1782.14,Operating Checking,Processor Clearing,,ATT-PAYOUT-0069,posted,ST-SET-0069
+QB-0302,2026-04-29,Deposit,Stripe,Stripe payout ST-SET-0070,1801.68,Operating Checking,Processor Clearing,,ATT-PAYOUT-0070,posted,ST-SET-0070
+QB-0303,2026-04-03,Deposit,Stripe,Stripe payout ST-SET-0071,1805.77,Operating Checking,Processor Clearing,,ATT-PAYOUT-0071,posted,ST-SET-0071
+QB-0304,2026-04-11,Deposit,Stripe,Stripe payout ST-SET-0072,1825.31,Operating Checking,Processor Clearing,,ATT-PAYOUT-0072,posted,ST-SET-0072
+QB-0305,2026-04-20,Deposit,Square,Square payout SQ-SET-0073,1848.64,Operating Checking,Processor Clearing,,ATT-PAYOUT-0073,posted,SQ-SET-0073
+QB-0306,2026-04-28,Deposit,Square,Square payout SQ-SET-0074,1868.22,Operating Checking,Processor Clearing,,ATT-PAYOUT-0074,posted,SQ-SET-0074
+QB-0307,2026-04-07,Deposit,Square,Square payout SQ-SET-0075,1887.80,Operating Checking,Processor Clearing,,ATT-PAYOUT-0075,posted,SQ-SET-0075
+QB-0308,2026-04-10,Deposit,Square,Square payout SQ-SET-0076,1907.38,Operating Checking,Processor Clearing,,ATT-PAYOUT-0076,posted,SQ-SET-0076
+QB-0309,2026-04-18,Deposit,Square,Square payout SQ-SET-0077,1926.95,Operating Checking,Processor Clearing,,ATT-PAYOUT-0077,posted,SQ-SET-0077
+QB-0310,2026-04-26,Deposit,Square,Square payout SQ-SET-0078,1931.05,Operating Checking,Processor Clearing,,ATT-PAYOUT-0078,posted,SQ-SET-0078
+QB-0311,2026-04-05,Deposit,Square,Square payout SQ-SET-0079,1907.05,Operating Checking,Processor Clearing,,ATT-PAYOUT-0079,posted,SQ-SET-0079
+QB-0312,2026-04-13,Deposit,Square,Square payout SQ-SET-0080,1970.21,Operating Checking,Processor Clearing,,ATT-PAYOUT-0080,posted,SQ-SET-0080
+QB-0313,2026-04-16,Deposit,Square,Square payout SQ-SET-0081,1989.79,Operating Checking,Processor Clearing,,ATT-PAYOUT-0081,posted,SQ-SET-0081
+QB-0314,2026-04-25,Deposit,Square,Square payout SQ-SET-0082,2009.36,Operating Checking,Processor Clearing,,ATT-PAYOUT-0082,posted,SQ-SET-0082
+QB-0315,2026-04-04,Deposit,Square,Square payout SQ-SET-0083,2028.94,Operating Checking,Processor Clearing,,ATT-PAYOUT-0083,posted,SQ-SET-0083
+QB-0316,2026-04-12,Deposit,Square,Square payout SQ-SET-0084,2048.52,Operating Checking,Processor Clearing,,ATT-PAYOUT-0084,posted,SQ-SET-0084
+QB-0317,2026-04-20,Deposit,Square,Square payout SQ-SET-0085,2052.62,Operating Checking,Processor Clearing,,ATT-PAYOUT-0085,posted,SQ-SET-0085
+QB-0318,2026-04-23,Deposit,Square,Square payout SQ-SET-0086,2072.20,Operating Checking,Processor Clearing,,ATT-PAYOUT-0086,posted,SQ-SET-0086
+QB-0319,2026-04-02,Deposit,Square,Square payout SQ-SET-0087,2091.77,Operating Checking,Processor Clearing,,ATT-PAYOUT-0087,posted,SQ-SET-0087
+QB-0320,2026-04-10,Deposit,Square,Square payout SQ-SET-0088,2111.35,Operating Checking,Processor Clearing,,ATT-PAYOUT-0088,posted,SQ-SET-0088
+QB-0321,2026-04-18,Deposit,Square,Square payout SQ-SET-0089,2130.93,Operating Checking,Processor Clearing,,ATT-PAYOUT-0089,posted,SQ-SET-0089
+QB-0322,2026-04-26,Deposit,Square,Square payout SQ-SET-0090,2150.51,Operating Checking,Processor Clearing,,ATT-PAYOUT-0090,posted,SQ-SET-0090
+QB-0323,2026-04-01,Deposit,Square,Square payout SQ-SET-0091,2170.08,Operating Checking,Processor Clearing,,ATT-PAYOUT-0091,posted,SQ-SET-0091
+QB-0324,2026-04-09,Deposit,Square,Square payout SQ-SET-0092,2129.17,Operating Checking,Processor Clearing,,ATT-PAYOUT-0092,posted,SQ-SET-0092
+QB-0325,2026-04-17,Deposit,Square,Square payout SQ-SET-0093,2193.76,Operating Checking,Processor Clearing,,ATT-PAYOUT-0093,posted,SQ-SET-0093
+QB-0326,2026-04-25,Deposit,Square,Square payout SQ-SET-0094,2213.34,Operating Checking,Processor Clearing,,ATT-PAYOUT-0094,posted,SQ-SET-0094
+QB-0327,2026-04-04,Deposit,Square,Square payout SQ-SET-0095,2232.92,Operating Checking,Processor Clearing,,ATT-PAYOUT-0095,posted,SQ-SET-0095
+QB-0328,2026-04-07,Deposit,Square,Square payout SQ-SET-0096,2252.49,Operating Checking,Processor Clearing,,ATT-PAYOUT-0096,posted,SQ-SET-0096
+QB-0329,2026-04-15,Deposit,Square,Square payout SQ-SET-0097,2272.07,Operating Checking,Processor Clearing,,ATT-PAYOUT-0097,posted,SQ-SET-0097
+QB-0330,2026-04-23,Deposit,Square,Square payout SQ-SET-0098,2291.65,Operating Checking,Processor Clearing,,ATT-PAYOUT-0098,posted,SQ-SET-0098
+QB-0331,2026-04-02,Deposit,Square,Square payout SQ-SET-0099,2295.75,Operating Checking,Processor Clearing,,ATT-PAYOUT-0099,posted,SQ-SET-0099
+QB-0332,2026-04-11,Deposit,Square,Square payout SQ-SET-0100,2315.33,Operating Checking,Processor Clearing,,ATT-PAYOUT-0100,posted,SQ-SET-0100
+QB-0333,2026-04-14,Deposit,Square,Square payout SQ-SET-0101,2334.90,Operating Checking,Processor Clearing,,ATT-PAYOUT-0101,posted,SQ-SET-0101
+QB-0334,2026-04-22,Deposit,Square,Square payout SQ-SET-0102,2354.48,Operating Checking,Processor Clearing,,ATT-PAYOUT-0102,posted,SQ-SET-0102
+QB-0335,2026-04-01,Deposit,Square,Square payout SQ-SET-0103,2374.06,Operating Checking,Processor Clearing,,ATT-PAYOUT-0103,posted,SQ-SET-0103
+QB-0336,2026-04-09,Deposit,Square,Square payout SQ-SET-0104,2394.89,Operating Checking,Processor Clearing,,ATT-PAYOUT-0104,posted,SQ-SET-0104
+QB-0337,2026-04-17,Deposit,Square,Square payout SQ-SET-0105,2363.37,Operating Checking,Processor Clearing,,ATT-PAYOUT-0105,posted,SQ-SET-0105
+QB-0338,2026-04-20,Deposit,Square,Square payout SQ-SET-0106,2425.26,Operating Checking,Processor Clearing,,ATT-PAYOUT-0106,posted,SQ-SET-0106
+QB-0339,2026-04-28,Deposit,Square,Square payout SQ-SET-0107,2435.90,Operating Checking,Processor Clearing,,ATT-PAYOUT-0107,posted,SQ-SET-0107
+QB-0340,2026-04-03,Deposit,Cash sales,Weekend showroom cash deposit,684.50,Operating Checking,Direct Deposit Review,,ATT-DIRECT-001,posted,
+QB-0341,2026-04-06,Deposit,Cedar House,Wholesale customer wire,1842.50,Operating Checking,Direct Deposit Review,,ATT-DIRECT-002,posted,
+QB-0342,2026-04-12,Deposit,Owner contribution,Owner capital transfer,2500.00,Operating Checking,Direct Deposit Review,,ATT-DIRECT-003,posted,
+QB-0343,2026-04-17,Deposit,Insurance carrier,Damaged shipment reimbursement,913.75,Operating Checking,Direct Deposit Review,,ATT-DIRECT-004,posted,
+QB-0344,2026-04-23,Deposit,Juniper Row,Direct ACH customer payment,1326.40,Operating Checking,Direct Deposit Review,,ATT-DIRECT-005,posted,
+QB-0345,2026-04-29,Deposit,Cash sales,Month-end showroom cash deposit,749.80,Operating Checking,Direct Deposit Review,,ATT-DIRECT-006,posted,

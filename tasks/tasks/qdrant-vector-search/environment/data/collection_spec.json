@@ -1,0 +1,40 @@
+{
+  "collection_name": "support_rag_chunks",
+  "vector_name": "dense",
+  "vector_size": 12,
+  "distance": "Cosine",
+  "payload_indexes": [
+    {
+      "field": "tenant_id",
+      "schema": "keyword"
+    },
+    {
+      "field": "product",
+      "schema": "keyword"
+    },
+    {
+      "field": "language",
+      "schema": "keyword"
+    },
+    {
+      "field": "status",
+      "schema": "keyword"
+    },
+    {
+      "field": "doc_type",
+      "schema": "keyword"
+    },
+    {
+      "field": "region",
+      "schema": "keyword"
+    },
+    {
+      "field": "valid_from_epoch",
+      "schema": "integer"
+    },
+    {
+      "field": "valid_to_epoch",
+      "schema": "integer"
+    }
+  ]
+}

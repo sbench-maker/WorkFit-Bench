@@ -1,0 +1,15 @@
+Cluster-wide:
+  Health: Healthy
+NodeGroups:
+  Name: apps-spot
+  Health: Healthy (ready=6 cloudProviderTarget=6 minSize=0 maxSize=20)
+  Name: apps-ondemand
+  Health: Healthy (ready=1 cloudProviderTarget=1 minSize=0 maxSize=10)
+  Name: legacy-pool
+  Health: Healthy (ready=1 cloudProviderTarget=1 minSize=1 maxSize=4)
+  Name: stateful-pool
+  Health: Healthy (ready=1 cloudProviderTarget=1 minSize=0 maxSize=6)
+  Name: system-pool
+  Health: Healthy (ready=1 cloudProviderTarget=1 minSize=0 maxSize=3)
+  Name: busy-pool
+  Health: Healthy (ready=5 cloudProviderTarget=5 minSize=2 maxSize=20)

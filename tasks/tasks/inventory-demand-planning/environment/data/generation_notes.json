@@ -1,0 +1,22 @@
+{
+  "method": "deterministic fictional construction",
+  "seed": 58137,
+  "row_counts": {
+    "sku_master.csv": 36,
+    "weekly_demand.csv": 2160,
+    "inventory_snapshot.csv": 36,
+    "open_purchase_orders.csv": 28,
+    "vendors.csv": 4
+  },
+  "relationships": [
+    "sku_master.vendor_id joins vendors.vendor_id",
+    "all SKU-level files join on sku_id"
+  ],
+  "intentional_data_conditions": [
+    "promotional spikes must not inflate baseline forecasts",
+    "stockout-censored weeks must not depress baseline forecasts",
+    "cancelled and received purchase orders must not enter inventory position",
+    "some order requirements fall below MOQ and some inventory positions require no order",
+    "lead-time variability differs materially by vendor"
+  ]
+}

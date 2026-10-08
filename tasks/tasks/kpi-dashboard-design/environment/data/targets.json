@@ -1,0 +1,67 @@
+{
+  "company": "Northstar Cloud (fictional)",
+  "reporting_month": "2025-08",
+  "currency": "USD",
+  "targets": [
+    {
+      "metric": "mrr_growth_pct",
+      "label": "MRR growth",
+      "direction": "min",
+      "threshold": 2.0,
+      "alert_enabled": true,
+      "severity": "warning",
+      "owner": "Revenue Operations",
+      "action": "Review the MRR bridge and at-risk renewals."
+    },
+    {
+      "metric": "logo_churn_pct",
+      "label": "Gross logo churn",
+      "direction": "max",
+      "threshold": 2.5,
+      "alert_enabled": true,
+      "severity": "critical",
+      "owner": "Customer Success",
+      "action": "Open retention reviews for the largest churn reasons."
+    },
+    {
+      "metric": "gross_revenue_churn_pct",
+      "label": "Gross revenue churn",
+      "direction": "max",
+      "threshold": 3.0,
+      "alert_enabled": true,
+      "severity": "critical",
+      "owner": "Customer Success",
+      "action": "Inspect the high-MRR cancellations and assign save plans."
+    },
+    {
+      "metric": "cac_usd",
+      "label": "CAC",
+      "direction": "max",
+      "threshold": 2600.0,
+      "alert_enabled": true,
+      "severity": "warning",
+      "owner": "Growth",
+      "action": "Reallocate spend from weak acquisition channels."
+    },
+    {
+      "metric": "ltv_cac_ratio",
+      "label": "LTV/CAC",
+      "direction": "min",
+      "threshold": 3.0,
+      "alert_enabled": true,
+      "severity": "critical",
+      "owner": "Finance",
+      "action": "Review unit economics before increasing spend."
+    },
+    {
+      "metric": "arpa_usd",
+      "label": "ARPA",
+      "direction": "min",
+      "threshold": 1450.0,
+      "alert_enabled": false,
+      "severity": "info",
+      "owner": "Finance",
+      "action": "Track in the monthly pricing review; do not page on this metric."
+    }
+  ]
+}

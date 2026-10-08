@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ADR-001",
+    "status": "accepted",
+    "topic": "frontend",
+    "decision": "React 18 with TypeScript and Vite in apps/web",
+    "replaces": null
+  },
+  {
+    "id": "ADR-002",
+    "status": "accepted",
+    "topic": "api",
+    "decision": "Python 3.12 with FastAPI in services/api",
+    "replaces": null
+  },
+  {
+    "id": "ADR-003",
+    "status": "accepted",
+    "topic": "database",
+    "decision": "PostgreSQL 16 for durable metadata",
+    "replaces": "ADR-003-DRAFT"
+  },
+  {
+    "id": "ADR-003-DRAFT",
+    "status": "superseded",
+    "topic": "database",
+    "decision": "SQLite for all environments",
+    "replaces": null
+  },
+  {
+    "id": "ADR-004",
+    "status": "accepted",
+    "topic": "queue",
+    "decision": "Redis 7 backs the local run queue",
+    "replaces": null
+  },
+  {
+    "id": "ADR-005",
+    "status": "accepted",
+    "topic": "auth",
+    "decision": "OIDC through a local mock identity provider for Sprint 1",
+    "replaces": "ADR-005-DRAFT"
+  },
+  {
+    "id": "ADR-005-DRAFT",
+    "status": "superseded",
+    "topic": "auth",
+    "decision": "Locally managed passwords",
+    "replaces": null
+  },
+  {
+    "id": "ADR-006",
+    "status": "accepted",
+    "topic": "testing",
+    "decision": "Pytest for API tests and Playwright for browser E2E tests",
+    "replaces": null
+  },
+  {
+    "id": "ADR-007",
+    "status": "accepted",
+    "topic": "monorepo",
+    "decision": "npm workspaces monorepo with apps/web and services/api",
+    "replaces": null
+  },
+  {
+    "id": "ADR-008",
+    "status": "accepted",
+    "topic": "run_state",
+    "decision": "Run states are queued, running, succeeded, failed, or cancelled",
+    "replaces": null
+  },
+  {
+    "id": "ADR-009",
+    "status": "proposed",
+    "topic": "observability",
+    "decision": "Adopt a hosted tracing vendor in Sprint 2",
+    "replaces": null
+  },
+  {
+    "id": "ADR-010",
+    "status": "rejected",
+    "topic": "provider",
+    "decision": "Call a live model provider from the browser",
+    "replaces": null
+  }
+]

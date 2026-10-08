@@ -1,0 +1,41 @@
+name,available_since,capability,limit,evidence_ids,enabler_id
+feature-stage quantile sketch,2026-05-12,Produces a 2.2 KB signed summary of stage-wise residual distributions in 38 ms.,At most six sketches per hour within the 2 W envelope.,OBS-002;OBS-006,ENB-001
+dormant adapter bank,2026-04-03,Stores 24 compressed 250 KB adapters and retrieves candidates by a 96-byte cue.,Simultaneously active adapters are limited to three.,OBS-004;OBS-007,ENB-002
+zone-time bulletin layer,2026-06-20,"Writes signed 160-byte messages keyed by aisle, zone, and shift with configurable expiry.",No raw features or images may enter a bulletin.,OBS-003;OBS-009,ENB-003
+local disagreement parity,2026-07-08,Computes a 3 KB parity-style signature across eight protected diagnostic probes.,Requires at least three non-identical model responses.,OBS-005;OBS-014,ENB-004
+selective second-pass gate,2026-03-19,Runs a second adapter only on gated frames while keeping p95 below 80 ms at six percent activation.,Higher activation violates the safety deadline.,OBS-016,ENB-005
+peer capability registry,2026-07-29,Advertises compact signed competence ranges and adapter fingerprints without weights.,Registry entries expire after 24 hours.,OBS-012;OBS-015,ENB-006
+asynchronous peer relay,2026-08-02,Relays messages up to 4 KB among nearby robots without the central coordinator.,Delivery is best effort and can be delayed by 12 minutes.,OBS-015,ENB-007
+safe micro-perturbation harness,2026-06-11,Measures recovery from bounded synthetic feature perturbations during idle cycles.,Cannot run during active safety alerts.,OBS-010;OBS-016,ENB-008
+prototype expiry cache 1,2026-04-19,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-028,ENB-009
+prototype audit log 2,2026-05-24,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-039,ENB-010
+prototype adapter index 3,2026-06-02,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-050,ENB-011
+prototype peer relay 4,2026-07-07,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-061,ENB-012
+prototype sparse gate 5,2026-08-12,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-072,ENB-013
+prototype local probe 6,2026-02-17,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-011,ENB-014
+prototype regime cue 7,2026-03-22,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-022,ENB-015
+prototype signed sketch 8,2026-04-27,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-033,ENB-016
+prototype expiry cache 9,2026-05-05,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-044,ENB-017
+prototype audit log 10,2026-06-10,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-055,ENB-018
+prototype adapter index 11,2026-07-15,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-066,ENB-019
+prototype peer relay 12,2026-08-20,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-005,ENB-020
+prototype sparse gate 13,2026-02-25,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-016,ENB-021
+prototype local probe 14,2026-03-03,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-027,ENB-022
+prototype regime cue 15,2026-04-08,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-038,ENB-023
+prototype signed sketch 16,2026-05-13,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-049,ENB-024
+prototype expiry cache 17,2026-06-18,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-060,ENB-025
+prototype audit log 18,2026-07-23,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-071,ENB-026
+prototype adapter index 19,2026-08-01,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-010,ENB-027
+prototype peer relay 20,2026-02-06,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-021,ENB-028
+prototype sparse gate 21,2026-03-11,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-032,ENB-029
+prototype local probe 22,2026-04-16,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-043,ENB-030
+prototype regime cue 23,2026-05-21,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-054,ENB-031
+prototype signed sketch 24,2026-06-26,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-065,ENB-032
+prototype expiry cache 25,2026-07-04,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-004,ENB-033
+prototype audit log 26,2026-08-09,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-015,ENB-034
+prototype adapter index 27,2026-02-14,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-026,ENB-035
+prototype peer relay 28,2026-03-19,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-037,ENB-036
+prototype sparse gate 29,2026-04-24,"Indexes a compact state artifact by site, time, and model fingerprint.",Entries require explicit expiry to avoid stale state.,OBS-048,ENB-037
+prototype local probe 30,2026-05-02,Runs a low-duty-cycle check during idle compute windows.,Power cost is acceptable only below ten activations per hour.,OBS-059,ENB-038
+prototype regime cue 31,2026-06-07,Exchanges signed metadata without a synchronization barrier.,The mechanism has not been validated under correlated failures.,OBS-070,ENB-039
+prototype signed sketch 32,2026-07-12,Exposes a bounded local diagnostic without retaining frames.,Prototype supports only short fixed-size payloads.,OBS-009,ENB-040

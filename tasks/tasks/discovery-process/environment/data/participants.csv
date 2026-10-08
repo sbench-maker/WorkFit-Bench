@@ -1,0 +1,13 @@
+participant_id,linked_account_id,interview_order,status,employee_band,admin_experience,role,consent_to_quote_anonymously
+P01,A001,1,completed,50-199,first_time,HR coordinator,true
+P02,A002,2,completed,200-499,first_time,L&D manager,true
+P03,A003,3,completed,50-199,first_time,People operations lead,true
+P04,A004,4,completed,200-499,first_time,HR coordinator,true
+P05,A005,5,completed,50-199,first_time,L&D manager,true
+P06,A006,6,completed,200-499,first_time,People operations lead,true
+P07,A007,7,completed,50-199,first_time,HR coordinator,true
+P08,A008,8,completed,200-499,first_time,L&D manager,true
+P09,A009,9,completed,50-199,first_time,People operations lead,true
+P10,A010,10,completed,200-499,first_time,HR coordinator,true
+P11,A331,11,completed,500+,experienced,Global HRIS director,true
+P12,A012,12,no_show,50-199,first_time,HR coordinator,false

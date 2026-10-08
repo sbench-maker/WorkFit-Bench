@@ -1,0 +1,45 @@
+[
+  {
+    "id": "aster-research/aurora-support-eval",
+    "paper_id": "2608.04721v2",
+    "revision": "v2",
+    "role": "redacted evaluation subset",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "rows": 3000
+  },
+  {
+    "id": "aster-research/cedar-terminology-lexicon",
+    "paper_id": "2608.04721v2",
+    "revision": "v2",
+    "role": "synthetic terminology spans",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "rows": 12400
+  },
+  {
+    "id": "benchforge/ticket-latency-prompts",
+    "paper_id": "2608.04721v2",
+    "revision": "v2",
+    "role": "device benchmark prompts",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "rows": 1000
+  },
+  {
+    "id": "community-nlp/aurora-es-longform",
+    "paper_id": "2608.04721v1",
+    "revision": "v1",
+    "role": "community long-ticket derivative",
+    "languages": [
+      "es"
+    ],
+    "rows": 620
+  }
+]

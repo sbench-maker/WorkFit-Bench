@@ -1,0 +1,83 @@
+{
+  "campaign": "Portland Metro Event Vendor Outreach",
+  "search": {
+    "search_terms": [
+      "catering service",
+      "event planner",
+      "mobile bar service",
+      "event rentals"
+    ],
+    "location_query": "Portland, Oregon metropolitan area",
+    "language": "en",
+    "maximum_places": 260
+  },
+  "qualification": {
+    "eligible_city_state": [
+      "Portland, OR",
+      "Beaverton, OR",
+      "Gresham, OR"
+    ],
+    "eligible_categories": [
+      "Caterer",
+      "Event planner",
+      "Mobile caterer",
+      "Wedding service",
+      "Bar service",
+      "Party equipment rental"
+    ],
+    "minimum_rating": 4.3,
+    "minimum_reviews": 20,
+    "website_required": true,
+    "business_email_required": true,
+    "email_must_match_website_domain": true,
+    "blocked_local_parts": [
+      "noreply",
+      "privacy",
+      "abuse",
+      "postmaster"
+    ],
+    "free_email_domains": [
+      "examplemail.test"
+    ],
+    "email_preference": [
+      "sales",
+      "events",
+      "hello",
+      "info",
+      "contact",
+      "other"
+    ]
+  },
+  "deduplication": {
+    "one_record_per_normalized_name_and_street_address": true,
+    "winner_order": [
+      "highest reviews_count",
+      "highest rating",
+      "lexicographically smallest place_id"
+    ],
+    "keep_different_street_addresses_even_when_website_domain_matches": true
+  },
+  "crm_fields": [
+    "place_id",
+    "business_name",
+    "address",
+    "city",
+    "state",
+    "category",
+    "rating",
+    "reviews_count",
+    "website",
+    "phone",
+    "email",
+    "linkedin_url"
+  ],
+  "delivery": {
+    "format": "JSON",
+    "include_run_summary": true,
+    "summary_needs": [
+      "actor and dataset references",
+      "stage counts",
+      "brief note on enrichment exclusions"
+    ]
+  }
+}

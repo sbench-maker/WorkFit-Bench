@@ -1,0 +1,5 @@
+browser/ = side-panel-core@bedrock.invalid
+chromeos/ = ash-windowing@bedrock.invalid
+ui/ = side-panel-ui@bedrock.invalid
+tests/ = browser-test-infra@bedrock.invalid
+build/ = build-reviewers@bedrock.invalid

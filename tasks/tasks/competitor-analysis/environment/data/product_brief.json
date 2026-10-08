@@ -1,0 +1,51 @@
+{
+  "snapshot_date": "2026-06-30",
+  "product_id": "nimble_signal",
+  "name": "NimbleSignal",
+  "stage": "private_beta",
+  "evidence_id": "PB-001",
+  "market": "Hosted product-behavior analytics for EU mid-market B2B SaaS",
+  "target_customer": {
+    "employee_range": [
+      100,
+      2000
+    ],
+    "buyers": [
+      "product",
+      "growth",
+      "customer success"
+    ],
+    "core_jobs": [
+      "event analytics",
+      "funnels and retention",
+      "session replay"
+    ]
+  },
+  "planned_launch": "2026-10-01",
+  "planned_pricing": {
+    "team_monthly_usd": 349,
+    "billing": "monthly",
+    "included_events": 2000000,
+    "minimum_contract_months": 1,
+    "evidence_id": "PB-002"
+  },
+  "validated_capabilities": [
+    "event_analytics",
+    "funnels",
+    "retention",
+    "session_replay",
+    "eu_data_residency",
+    "consent_controls",
+    "data_warehouse_sync",
+    "web_sdk"
+  ],
+  "beta_capabilities": [
+    "ai_insights",
+    "experimentation"
+  ],
+  "constraints": [
+    "eight-person go-to-market team",
+    "no mobile SDK planned before 2027",
+    "SOC 2 audit expected in 2026-Q4"
+  ]
+}

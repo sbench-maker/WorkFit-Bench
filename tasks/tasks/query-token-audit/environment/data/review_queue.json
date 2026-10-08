@@ -1,0 +1,2402 @@
+[
+  {
+    "review_id": "SWAP-0001",
+    "audit_request_id": "fb8e5a3e-3c3f-4b25-8a0d-d257fa9c94c9",
+    "submitted_at": "2026-08-03T09:00:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x8d8d75c3d7bef976575ca8da99c99afd17cc58b7",
+    "symbol_hint": "FX001",
+    "notional_usd": 175.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0002",
+    "audit_request_id": "12906893-0775-406e-87ab-2f8967b7f253",
+    "submitted_at": "2026-08-03T09:07:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xd2c6e955dd64212e199a09bb5625b426a41d8f5e",
+    "symbol_hint": "FX002",
+    "notional_usd": 1152.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0003",
+    "audit_request_id": "94a5fd08-bdf7-4f63-8c50-196c546813ec",
+    "submitted_at": "2026-08-03T09:14:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x3c318b39c56022cba4498a7c4db14e3547e29402",
+    "symbol_hint": "FX003",
+    "notional_usd": 2129.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0004",
+    "audit_request_id": "1b006040-5b2e-44e7-ab0a-15bfe86299de",
+    "submitted_at": "2026-08-03T09:21:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "FLAe9mhZ2MQNgsgZAqHTGuTTj38bdEFB",
+    "symbol_hint": "FX004",
+    "notional_usd": 3106.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0005",
+    "audit_request_id": "13864b66-83ef-4e24-8435-fff4cc69c7d2",
+    "submitted_at": "2026-08-03T09:28:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xa42cad3169fa4fb3bbbb0f3665ac13a950432551",
+    "symbol_hint": "FX005",
+    "notional_usd": 4084.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0006",
+    "audit_request_id": "ced53c29-7e57-4df5-b62c-732e202eb7f4",
+    "submitted_at": "2026-08-03T09:35:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xd76daa1a570cfbd1891e1a12749a74688638e86e",
+    "symbol_hint": "FX006",
+    "notional_usd": 5060.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0007",
+    "audit_request_id": "b1972ca2-68c6-46db-88f8-f31a0eaef9b3",
+    "submitted_at": "2026-08-03T09:42:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x11176274793cc1a43439b102883098ea32a310c6",
+    "symbol_hint": "FX007",
+    "notional_usd": 6037.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0008",
+    "audit_request_id": "7149516c-1703-44c1-8db3-c1a45dd9df46",
+    "submitted_at": "2026-08-03T09:49:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "He7j89B5CiMM7rh3oh4xFTUNLYQ6bBYL",
+    "symbol_hint": "FX008",
+    "notional_usd": 7014.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0009",
+    "audit_request_id": "35620701-2bc6-424f-a9d7-f406004f9b11",
+    "submitted_at": "2026-08-03T09:56:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xcbb92470e442dc228578b2b666d0245464924581",
+    "symbol_hint": "FX009",
+    "notional_usd": 7991.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0010",
+    "audit_request_id": "c7c90c42-9e06-45cf-9e3d-3cf00498cee3",
+    "submitted_at": "2026-08-03T10:03:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xdaf39ec1f4f20fd86b9e8a03a9cf82f464b2fe91",
+    "symbol_hint": "FX010",
+    "notional_usd": 8969.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0011",
+    "audit_request_id": "f199ba4d-0be7-4467-ab7a-f2b1c9095ef5",
+    "submitted_at": "2026-08-03T10:10:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x5a575fc63272567413f7cecf6acc057e54b9eba4",
+    "symbol_hint": "FX011",
+    "notional_usd": 9945.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0012",
+    "audit_request_id": "a73cda35-98ff-4f6f-8988-0344a8c1d3c3",
+    "submitted_at": "2026-08-03T10:17:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "gvARuN4F4xTdMbJL5z2DWNaYMh1bnkEZ",
+    "symbol_hint": "FX012",
+    "notional_usd": 10922.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0013",
+    "audit_request_id": "f68793e0-564d-4286-a79f-ec4a24f1fcb7",
+    "submitted_at": "2026-08-03T10:24:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xe64684443c03874ce10edf05c5ec5ebac2ea210a",
+    "symbol_hint": "FX013",
+    "notional_usd": 11899.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0014",
+    "audit_request_id": "46162de6-d22b-4baf-995b-b80f15f487bb",
+    "submitted_at": "2026-08-03T10:31:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xe9866e89d220bfeaa7f1f6e426665d5c54f524cd",
+    "symbol_hint": "FX014",
+    "notional_usd": 12876.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0015",
+    "audit_request_id": "50013631-d3ea-4fd8-a222-24a88e049473",
+    "submitted_at": "2026-08-03T10:38:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x7cccb246a8213e893bb122276a3dbcfe3b0a98ec",
+    "symbol_hint": "FX015",
+    "notional_usd": 13854.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0016",
+    "audit_request_id": "0702ea08-0121-4c1d-a5cd-81f514487fd3",
+    "submitted_at": "2026-08-03T10:45:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "1WCnupo2H7QZT5oPSm6xruDaaNQLpaAt",
+    "symbol_hint": "FX016",
+    "notional_usd": 14830.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0017",
+    "audit_request_id": "63c23b76-d964-45ea-b191-ba7a5861f6d3",
+    "submitted_at": "2026-08-03T10:52:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xbacb5e1be5eb630fd60879e5b10b9dac50ec64ce",
+    "symbol_hint": "FX017",
+    "notional_usd": 15807.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0018",
+    "audit_request_id": "7ebb52a9-c56f-48b1-801e-177a7fa2ac14",
+    "submitted_at": "2026-08-03T10:59:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x97e2fa623a237d6af34cabb8048f1bca19475a55",
+    "symbol_hint": "FX018",
+    "notional_usd": 16784.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0019",
+    "audit_request_id": "18955a03-820d-4009-bac0-238309361988",
+    "submitted_at": "2026-08-03T11:06:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xecca0f74663fa541af32dd8221a58bb7dbb5e71c",
+    "symbol_hint": "FX019",
+    "notional_usd": 17761.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0020",
+    "audit_request_id": "9b472ec8-09a6-45b5-82b8-909ed3c29696",
+    "submitted_at": "2026-08-03T11:13:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "MLcq6sViBz17MX3mApQc9TaTfmnCjtHd",
+    "symbol_hint": "FX020",
+    "notional_usd": 18739.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0021",
+    "audit_request_id": "0f3905b0-7304-4833-b8cb-7668982d6ae8",
+    "submitted_at": "2026-08-03T11:20:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xa663d188705c74089eae146266fedf38441b3c8a",
+    "symbol_hint": "FX021",
+    "notional_usd": 19715.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0022",
+    "audit_request_id": "114dcb8c-2ea0-425e-84e7-e49e4638f66f",
+    "submitted_at": "2026-08-03T11:27:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x39d49b867567c40a8d494e0212e1a1ba4d881202",
+    "symbol_hint": "FX022",
+    "notional_usd": 20692.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0023",
+    "audit_request_id": "5f5d33b7-4257-4e4a-bafc-1ecff30456aa",
+    "submitted_at": "2026-08-03T11:34:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xfafee997bde666ec8e9aa7910a822617e645b82f",
+    "symbol_hint": "FX023",
+    "notional_usd": 21669.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0024",
+    "audit_request_id": "e221ab44-33d9-41a1-add9-b3f3fa7cfab5",
+    "submitted_at": "2026-08-03T11:41:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "nx8jyYnRR94SwhE6cpdVJb98DCqMs1Nm",
+    "symbol_hint": "FX024",
+    "notional_usd": 22646.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0025",
+    "audit_request_id": "86468a91-8f9b-4cee-a252-d3e853c3252f",
+    "submitted_at": "2026-08-03T11:48:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xa93dc812fa0a3e9235e2d42a66c9079e09a090d7",
+    "symbol_hint": "FX025",
+    "notional_usd": 23624.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0026",
+    "audit_request_id": "88d4c4fa-7b7a-4032-8a68-89751f984e03",
+    "submitted_at": "2026-08-03T11:55:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x48c39d0a2e5c9765133f30c1ef50844da64b5833",
+    "symbol_hint": "FX026",
+    "notional_usd": 24600.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0027",
+    "audit_request_id": "3a9ea031-2b4e-48de-80e6-60bb9efdfdd6",
+    "submitted_at": "2026-08-03T12:02:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x2f258af78d9e3225d108358c7ea45cc121355e24",
+    "symbol_hint": "FX027",
+    "notional_usd": 25577.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0028",
+    "audit_request_id": "c401e4dc-8bf8-48e1-b983-14727fcc15b9",
+    "submitted_at": "2026-08-03T12:09:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "rVMpABFHC55qT4Q46PrSYTjMsGoh7LEU",
+    "symbol_hint": "FX028",
+    "notional_usd": 26554.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0029",
+    "audit_request_id": "2ef91f0a-deb6-45cb-9bf1-ce53bfbe3f6d",
+    "submitted_at": "2026-08-03T12:16:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x7d326760ec03db472a22877e77a4d5fa93be463c",
+    "symbol_hint": "FX029",
+    "notional_usd": 27531.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0030",
+    "audit_request_id": "ebecf3ec-5f19-44b5-bb2b-ef318c422aef",
+    "submitted_at": "2026-08-03T12:23:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xd4c52a2bf1656b79510495386be46f114202d44a",
+    "symbol_hint": "FX030",
+    "notional_usd": 28509.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0031",
+    "audit_request_id": "b65aba6a-c70e-4df7-8d4d-f61afa16cddc",
+    "submitted_at": "2026-08-03T12:30:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x0672153c3f37d579e0858b437cf09b408baa6728",
+    "symbol_hint": "FX031",
+    "notional_usd": 29485.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0032",
+    "audit_request_id": "fbb69911-57e6-4aeb-80ba-85d11186bb42",
+    "submitted_at": "2026-08-03T12:37:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "yPygL2HChFgSkBJrHrhN2DzbJN4fDyox",
+    "symbol_hint": "FX032",
+    "notional_usd": 30462.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0033",
+    "audit_request_id": "6a65f5e4-4cc0-4cdc-a94d-1792c42915ff",
+    "submitted_at": "2026-08-03T12:44:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xea2f52caaff764c5e43514afed9767a777616179",
+    "symbol_hint": "FX033",
+    "notional_usd": 31439.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0034",
+    "audit_request_id": "9f138166-9f13-42d5-9b30-9868907500a6",
+    "submitted_at": "2026-08-03T12:51:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x4f687a8a4da28a67c2c7bb9403961408d815c5cc",
+    "symbol_hint": "FX034",
+    "notional_usd": 32416.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0035",
+    "audit_request_id": "2bf8c62b-2cf9-46c5-9ceb-36679d2894a2",
+    "submitted_at": "2026-08-03T12:58:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x63542f57b708c8d9b135cff63b006e30fd7ccf95",
+    "symbol_hint": "FX035",
+    "notional_usd": 33394.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0036",
+    "audit_request_id": "4371225d-c29d-4f68-aaeb-b39b72a02d1d",
+    "submitted_at": "2026-08-03T13:05:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "cJWeA2ovZqRsup44TLmW722zjpLDyb4V",
+    "symbol_hint": "FX036",
+    "notional_usd": 34370.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0037",
+    "audit_request_id": "35cbad6b-e3a3-44ac-9f8e-302c5e6b97fe",
+    "submitted_at": "2026-08-03T13:12:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x4ee56178d176ac39b650bba9d47307d168f0f7c0",
+    "symbol_hint": "FX037",
+    "notional_usd": 35347.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0038",
+    "audit_request_id": "75a97120-5d79-4c97-9df6-3de3a5f69efc",
+    "submitted_at": "2026-08-03T13:19:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x0d63e79e2227d76a3c6466139ab83e77a9fd1d04",
+    "symbol_hint": "FX038",
+    "notional_usd": 36324.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0039",
+    "audit_request_id": "73379439-3045-4e7c-8f3a-3148ef02e566",
+    "submitted_at": "2026-08-03T13:26:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x06369dbec6dc60eb9bb6be47f5adb4adfb905291",
+    "symbol_hint": "FX039",
+    "notional_usd": 37301.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0040",
+    "audit_request_id": "cb8c34a6-1363-4868-91a3-ccb815d6ab01",
+    "submitted_at": "2026-08-03T13:33:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "5bttj6sG8uuAJt91u2eNP11K7pqu5q2R",
+    "symbol_hint": "FX040",
+    "notional_usd": 38279.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0041",
+    "audit_request_id": "f4b85230-5d75-43f4-bbce-53eec991ec20",
+    "submitted_at": "2026-08-03T13:40:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x0294f68e0ade0870357791d03406c0e66b2f3fa6",
+    "symbol_hint": "FX041",
+    "notional_usd": 39255.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0042",
+    "audit_request_id": "752fe405-6462-406f-9fc4-7a455a6ad679",
+    "submitted_at": "2026-08-03T13:47:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x80f2c8cd06024c89d794244aff66ec2fa69de42f",
+    "symbol_hint": "FX042",
+    "notional_usd": 40232.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0043",
+    "audit_request_id": "2b407368-8eef-415e-8635-4fddd19c4998",
+    "submitted_at": "2026-08-03T13:54:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xc56a767710f2ef28ac7a74e8013dd753bb2aa62a",
+    "symbol_hint": "FX043",
+    "notional_usd": 41209.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0044",
+    "audit_request_id": "e6963f83-6d9d-4052-a594-b114cb94f40f",
+    "submitted_at": "2026-08-03T14:01:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "kFhVRqLe83yHXDxECr8W6JmdR9gbqXHk",
+    "symbol_hint": "FX044",
+    "notional_usd": 42186.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0045",
+    "audit_request_id": "459c245d-6c35-4290-80c8-953b2f270291",
+    "submitted_at": "2026-08-03T14:08:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xdf8914fe2c332f9baf72dd767f7f4996acdd4380",
+    "symbol_hint": "FX045",
+    "notional_usd": 43164.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0046",
+    "audit_request_id": "5add23a6-868e-4854-aa57-ef29fc8a0716",
+    "submitted_at": "2026-08-03T14:15:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xed37d78ea0d3d297d45fdd49a98cc03b97ccfed7",
+    "symbol_hint": "FX046",
+    "notional_usd": 44140.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0047",
+    "audit_request_id": "3edbcfab-2705-4516-9950-7ca2f33cd27d",
+    "submitted_at": "2026-08-03T14:22:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xf07fe4473ffac736dae2df3426b5b710b0bca75f",
+    "symbol_hint": "FX047",
+    "notional_usd": 45117.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0048",
+    "audit_request_id": "df9a7c20-a9f5-4c18-a9dc-61d7b96a0844",
+    "submitted_at": "2026-08-03T14:29:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "fx44SmmKQYjQNc6EiadTfCwQ4o9swS3k",
+    "symbol_hint": "FX048",
+    "notional_usd": 46094.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0049",
+    "audit_request_id": "90237858-d90a-4c31-b97d-44280e0357ec",
+    "submitted_at": "2026-08-03T14:36:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xd97b4829e6a0b2e0b5c338c40a5e01c11df1bff7",
+    "symbol_hint": "FX049",
+    "notional_usd": 47071.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0050",
+    "audit_request_id": "5c396220-4e0d-4426-8317-dbdcf2085bc2",
+    "submitted_at": "2026-08-03T14:43:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xe3c4f08be0be7823a9f48053f048e7bb2d41f545",
+    "symbol_hint": "FX050",
+    "notional_usd": 549.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0051",
+    "audit_request_id": "731b1f86-628d-4b53-9cca-0dd5dea9444f",
+    "submitted_at": "2026-08-03T14:50:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x822dceb118814d871b65b0bd15ebd40283662cfb",
+    "symbol_hint": "FX051",
+    "notional_usd": 1525.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0052",
+    "audit_request_id": "78ebd889-b03c-489b-90f5-02b2aa8883a7",
+    "submitted_at": "2026-08-03T14:57:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "P3iNhmg4pS3W4t1zgJoFwytBaPKtSAQF",
+    "symbol_hint": "FX052",
+    "notional_usd": 2502.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0053",
+    "audit_request_id": "f319616d-3bf9-4858-8b4c-0fdc6db52b13",
+    "submitted_at": "2026-08-03T15:04:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x2a3b4f67649d4ce5ccf11fc17ac7dd6d39fcba26",
+    "symbol_hint": "FX053",
+    "notional_usd": 3479.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0054",
+    "audit_request_id": "d7c9e2a5-66da-45b0-b8f2-f429b23da11b",
+    "submitted_at": "2026-08-03T15:11:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xe61772b5e2434b97c53b84a3549294d16121b31a",
+    "symbol_hint": "FX054",
+    "notional_usd": 4456.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0055",
+    "audit_request_id": "de25bc1a-fc1f-440f-b129-b0ef725aa53b",
+    "submitted_at": "2026-08-03T15:18:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x63b86e14d2bdf543c132787307848f93b55c5a3f",
+    "symbol_hint": "FX055",
+    "notional_usd": 5434.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0056",
+    "audit_request_id": "7643f628-f877-461e-a91d-09bb42a7cc67",
+    "submitted_at": "2026-08-03T15:25:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "mMizy2BL8caJDsgs6sGemMt6pYgyNBTv",
+    "symbol_hint": "FX056",
+    "notional_usd": 6410.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0057",
+    "audit_request_id": "2479c091-b7e7-4206-bcb1-50f07a86db5e",
+    "submitted_at": "2026-08-03T15:32:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xab6ec04baf543033d52772b6d515cdcc83db04a1",
+    "symbol_hint": "FX057",
+    "notional_usd": 7387.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0058",
+    "audit_request_id": "d7bba651-bcd1-49c1-9503-2c1dc837c447",
+    "submitted_at": "2026-08-03T15:39:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xf0aef33064a63219c65d4094224f24a9ece2829e",
+    "symbol_hint": "FX058",
+    "notional_usd": 8364.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0059",
+    "audit_request_id": "d65b2ba2-2b8f-4db8-9d68-15b41463592f",
+    "submitted_at": "2026-08-03T15:46:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xe8cd20c8bbebf6b067acbd3b9418579075edae3b",
+    "symbol_hint": "FX059",
+    "notional_usd": 9341.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0060",
+    "audit_request_id": "7dfe9a9e-12d0-4531-bd65-1b9292aa603d",
+    "submitted_at": "2026-08-03T15:53:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "g8pcCsw77uJ28MW4LfBhHETEaqiBSEXC",
+    "symbol_hint": "FX060",
+    "notional_usd": 10319.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0061",
+    "audit_request_id": "33ede7d8-7b90-4a64-883a-81058648604a",
+    "submitted_at": "2026-08-03T16:00:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xf6deb826ae010c6e377f85e8a77a74ff75920616",
+    "symbol_hint": "FX061",
+    "notional_usd": 11295.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0062",
+    "audit_request_id": "363bdd81-b269-4d2e-9027-01c273701ea6",
+    "submitted_at": "2026-08-03T16:07:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x326260b45c87b1ac4798607d21391da6b3ca26ed",
+    "symbol_hint": "FX062",
+    "notional_usd": 12272.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0063",
+    "audit_request_id": "fbddaaa6-0f71-4156-9b4d-35f6c552ac18",
+    "submitted_at": "2026-08-03T16:14:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xdfb9f9d86d59d82b6e1ca6b8536763118fbf991f",
+    "symbol_hint": "FX063",
+    "notional_usd": 13249.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0064",
+    "audit_request_id": "28a780cb-1b5e-471c-a2af-b597672ae49d",
+    "submitted_at": "2026-08-03T16:21:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "i5MhHvdqWrRLuHhH2ZUqK1UAqmCo9BxC",
+    "symbol_hint": "FX064",
+    "notional_usd": 14226.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0065",
+    "audit_request_id": "fa02f27a-ec71-4ce7-ab27-a124af8b63f6",
+    "submitted_at": "2026-08-03T16:28:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x892b3340308d0f93dd90fde4f1551c71fdd95b36",
+    "symbol_hint": "FX065",
+    "notional_usd": 15204.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0066",
+    "audit_request_id": "c9151d97-1734-4434-8a07-1e2d852730dd",
+    "submitted_at": "2026-08-03T16:35:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x16ef840ca835edb1b00c2f0d6993e64ca59fc4f2",
+    "symbol_hint": "FX066",
+    "notional_usd": 16180.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0067",
+    "audit_request_id": "3b7ef5f5-dced-4e43-b996-f0c67e1a2a31",
+    "submitted_at": "2026-08-03T16:42:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x98c77fd032a70585ce97322467d7d9166548ea81",
+    "symbol_hint": "FX067",
+    "notional_usd": 17157.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0068",
+    "audit_request_id": "48927077-1b6c-4bf6-9fcf-7ed4641b8963",
+    "submitted_at": "2026-08-03T16:49:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "1CrHNhhdsDBzTkDDshgNagKP7zAMgrzZ",
+    "symbol_hint": "FX068",
+    "notional_usd": 18134.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0069",
+    "audit_request_id": "4f4fe083-e341-4264-ac74-fb92f358b2ce",
+    "submitted_at": "2026-08-03T16:56:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x166c8f0961ea0d37de4c213e5d20589c4935aed7",
+    "symbol_hint": "FX069",
+    "notional_usd": 19111.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0070",
+    "audit_request_id": "1b34910b-276a-40ff-a5fc-009748e5741e",
+    "submitted_at": "2026-08-03T17:03:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xb90b1d0e891baca87c50f33756c8d59e41443c9a",
+    "symbol_hint": "FX070",
+    "notional_usd": 20089.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0071",
+    "audit_request_id": "f419cd3a-28ee-4ef6-addd-385c24367121",
+    "submitted_at": "2026-08-03T17:10:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xe58514ed9b0e395e3d7eda4c09b23f466ace8f07",
+    "symbol_hint": "FX071",
+    "notional_usd": 21065.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0072",
+    "audit_request_id": "fd2cf3ee-0b39-44c3-9eab-a3378bc6950c",
+    "submitted_at": "2026-08-03T17:17:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "C1MMfq9jNQ1bQhLMAmGbtAdT1BdV1gDS",
+    "symbol_hint": "FX072",
+    "notional_usd": 22042.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0073",
+    "audit_request_id": "eebd75cc-df6b-4661-bbce-6b6f610d2712",
+    "submitted_at": "2026-08-03T17:24:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x7fed88bdeec4c50e10b5ee30e9589093fae8a771",
+    "symbol_hint": "FX073",
+    "notional_usd": 23019.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0074",
+    "audit_request_id": "63625d45-645c-43d8-a57f-99fa31c5643c",
+    "submitted_at": "2026-08-03T17:31:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x0246b519577423b01fff90a83a059d9905aa6dca",
+    "symbol_hint": "FX074",
+    "notional_usd": 23996.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0075",
+    "audit_request_id": "9bdc8ebc-bb61-4140-ab3c-6fa1e530ae1a",
+    "submitted_at": "2026-08-03T17:38:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x703c7634516308b802ef34b39fdc2e7eebdac644",
+    "symbol_hint": "FX075",
+    "notional_usd": 24974.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0076",
+    "audit_request_id": "46ef892b-cd3d-4332-87fe-cf16bc7034fe",
+    "submitted_at": "2026-08-03T17:45:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "Sy12AZdY6idkhK1eepdwe4iwNj6ut38V",
+    "symbol_hint": "FX076",
+    "notional_usd": 25950.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0077",
+    "audit_request_id": "a77876ba-3a5d-4874-9507-42c872a4c288",
+    "submitted_at": "2026-08-03T17:52:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xd7e12211e98ef9b935ae39d9fcbc18e606c32570",
+    "symbol_hint": "FX077",
+    "notional_usd": 26927.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0078",
+    "audit_request_id": "0ed41d95-4fb7-44bb-a991-6d3f06fad2a1",
+    "submitted_at": "2026-08-03T17:59:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x5da7124bf9b303599ab3295f02feec916910e618",
+    "symbol_hint": "FX078",
+    "notional_usd": 27904.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0079",
+    "audit_request_id": "fb2b225b-de36-4181-8592-156a1dab3b2b",
+    "submitted_at": "2026-08-03T18:06:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x28fdbf7be9c4c4eff5979fc4b96420fc95380e3f",
+    "symbol_hint": "FX079",
+    "notional_usd": 28881.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0080",
+    "audit_request_id": "c91d5eff-694f-46fb-9430-739ff6b4f785",
+    "submitted_at": "2026-08-03T18:13:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "oq9GdXp8PGw4JTVDwwb1B1GEs9W6ANQP",
+    "symbol_hint": "FX080",
+    "notional_usd": 29859.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0081",
+    "audit_request_id": "698262b2-7861-4cc5-9c63-cc3b1b269a85",
+    "submitted_at": "2026-08-03T18:20:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x1b58c5fc490760193016e96b98272f532118b096",
+    "symbol_hint": "FX081",
+    "notional_usd": 30835.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0082",
+    "audit_request_id": "b88aa776-7cf8-4b37-a00a-b983677dee68",
+    "submitted_at": "2026-08-03T18:27:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x30226cec704ffb6c26839ff02b16b41afe993838",
+    "symbol_hint": "FX082",
+    "notional_usd": 31812.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0083",
+    "audit_request_id": "136160ce-e382-48b8-b386-a3f82a48b072",
+    "submitted_at": "2026-08-03T18:34:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x6a1c422bd71886ed53df1ac717513a8c4bd5b143",
+    "symbol_hint": "FX083",
+    "notional_usd": 32789.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0084",
+    "audit_request_id": "dd5281e1-63ee-484c-b286-8f062ea91048",
+    "submitted_at": "2026-08-03T18:41:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "w7GEu5d2VNYxzoqjdyHFaYj19RrGJ5gg",
+    "symbol_hint": "FX084",
+    "notional_usd": 33766.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0085",
+    "audit_request_id": "d756863b-e034-434e-9c2b-335f10932a04",
+    "submitted_at": "2026-08-03T18:48:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x7a87c7df61c8ce53c4d4159ea2eddeae6d660c67",
+    "symbol_hint": "FX085",
+    "notional_usd": 34744.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0086",
+    "audit_request_id": "68fb1af1-a055-4eb5-bee8-4b5dd370d2eb",
+    "submitted_at": "2026-08-03T18:55:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xbffbebb686cb3359eecbae2c0f8a8b568693582a",
+    "symbol_hint": "FX086",
+    "notional_usd": 35720.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0087",
+    "audit_request_id": "8a2bce3f-fd1a-4d95-bbff-b5c40595229a",
+    "submitted_at": "2026-08-03T19:02:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xb23478e68d63e2678accc2c896b69be882454f15",
+    "symbol_hint": "FX087",
+    "notional_usd": 36697.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0088",
+    "audit_request_id": "f4cd33da-70e9-496c-9e12-cf9ec38a1cfb",
+    "submitted_at": "2026-08-03T19:09:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "knHDUhtoqqDzcPwwUJaE6RUPg9p3iSE8",
+    "symbol_hint": "FX088",
+    "notional_usd": 37674.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0089",
+    "audit_request_id": "7dfd563c-9513-4d34-86bb-23c8062c181c",
+    "submitted_at": "2026-08-03T19:16:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xc8a09f3826c5ba73e044fe54cc7b7dd41b7e9f8c",
+    "symbol_hint": "FX089",
+    "notional_usd": 38651.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0090",
+    "audit_request_id": "a5e5a706-9dd2-41a8-97a7-88bc4d61c707",
+    "submitted_at": "2026-08-03T19:23:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x986298ff0b45ebd1452ee2007c22ded2eb0890ac",
+    "symbol_hint": "FX090",
+    "notional_usd": 39629.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0091",
+    "audit_request_id": "ee9527d8-bf79-4fbe-837e-b46270d49526",
+    "submitted_at": "2026-08-03T19:30:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xcf8a50c8783065b26c32c590ba39b507017bf5bb",
+    "symbol_hint": "FX091",
+    "notional_usd": 40605.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0092",
+    "audit_request_id": "42c4b38f-4cb5-4da9-99c4-cada6abed6bb",
+    "submitted_at": "2026-08-03T19:37:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "K56gaApJWHbnwTXW2HP7oj7MoXGMuoza",
+    "symbol_hint": "FX092",
+    "notional_usd": 41582.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0093",
+    "audit_request_id": "3878c16a-37f4-4f53-8f56-90d1eacff2f9",
+    "submitted_at": "2026-08-03T19:44:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xa1f3113019ebb78edc6d0f67d11ff9c68f314d7d",
+    "symbol_hint": "FX093",
+    "notional_usd": 42559.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0094",
+    "audit_request_id": "0fa3d97a-a635-40dd-89a3-d96af6ee454a",
+    "submitted_at": "2026-08-03T19:51:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x9c87ba63b2e98370e8765546538c6da83fbe8f56",
+    "symbol_hint": "FX094",
+    "notional_usd": 43536.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0095",
+    "audit_request_id": "ef69f0cd-0f26-4813-a9bf-1fb4034ff7e1",
+    "submitted_at": "2026-08-03T19:58:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xa950b9b242d97b74c3fc949517c81dafcebb4ce2",
+    "symbol_hint": "FX095",
+    "notional_usd": 44514.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0096",
+    "audit_request_id": "cc79bd03-3014-4818-826b-3976f66f7687",
+    "submitted_at": "2026-08-03T20:05:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "cMiE69t7SkFHwkv65KWFXZ3FKUn5kXu2",
+    "symbol_hint": "FX096",
+    "notional_usd": 45490.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0097",
+    "audit_request_id": "d737ce11-39ba-4305-a9a1-ad2d62b1e22e",
+    "submitted_at": "2026-08-03T20:12:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x677deec89dd40e4a63cea1593132a6ac5b8e1836",
+    "symbol_hint": "FX097",
+    "notional_usd": 46467.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0098",
+    "audit_request_id": "b36b08e0-c716-4059-aab3-31abcd7742b2",
+    "submitted_at": "2026-08-03T20:19:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xd086660deeebaf8f570ff165ff7a08e0c87d2cff",
+    "symbol_hint": "FX098",
+    "notional_usd": 47444.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0099",
+    "audit_request_id": "9167f2b7-affc-4de6-984b-7e12915e1792",
+    "submitted_at": "2026-08-03T20:26:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xa0ab48b7292fa89cc498074c2b5e517ae8ba372a",
+    "symbol_hint": "FX099",
+    "notional_usd": 921.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0100",
+    "audit_request_id": "da9f9fb7-b771-41b4-aab9-88af503d5e87",
+    "submitted_at": "2026-08-03T20:33:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "P4oBYiBoKLMScGHnE8HqVNUFNmsEpsNL",
+    "symbol_hint": "FX100",
+    "notional_usd": 1899.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0101",
+    "audit_request_id": "a66ee99d-4214-454b-96ab-3dc0a5480da9",
+    "submitted_at": "2026-08-03T20:40:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x0a166137ca672ed3b003092d4c1c4635f5926490",
+    "symbol_hint": "FX101",
+    "notional_usd": 2875.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0102",
+    "audit_request_id": "8d01b729-1916-44eb-a450-0164de96de79",
+    "submitted_at": "2026-08-03T20:47:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x1fdedaa91e9cdbb52eaf2af6621adf2a267e8f4b",
+    "symbol_hint": "FX102",
+    "notional_usd": 3852.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0103",
+    "audit_request_id": "811dbc29-4819-49f6-96f7-4b666ff6d1ee",
+    "submitted_at": "2026-08-03T20:54:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x582580bdc99d19d9ed00ffa0859a65997f612986",
+    "symbol_hint": "FX103",
+    "notional_usd": 4829.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0104",
+    "audit_request_id": "be802726-bf8c-4780-89a4-55e60411232d",
+    "submitted_at": "2026-08-03T21:01:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "tGbHDodGpaurM5Cqkk36XZ3XNoSRMJxF",
+    "symbol_hint": "FX104",
+    "notional_usd": 5806.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0105",
+    "audit_request_id": "4b8d8a09-c5b3-4692-aab1-a2f7f8d42288",
+    "submitted_at": "2026-08-03T21:08:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x86238f6e67948be4dbac46457b4af7d45749ff0e",
+    "symbol_hint": "FX105",
+    "notional_usd": 6784.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0106",
+    "audit_request_id": "19b7c338-d770-4437-a9eb-ad8e8233a910",
+    "submitted_at": "2026-08-03T21:15:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x9ef7dfd573f6677af4a5ccf270791c4ba34a391e",
+    "symbol_hint": "FX106",
+    "notional_usd": 7760.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0107",
+    "audit_request_id": "049a04a2-e0c8-4cac-8705-894d429f08e1",
+    "submitted_at": "2026-08-03T21:22:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xeed1dcbd3f323d9a9d632dc5512c528757251e8d",
+    "symbol_hint": "FX107",
+    "notional_usd": 8737.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0108",
+    "audit_request_id": "4e0e7dc2-4ae0-4b8c-aa59-e10f5cf5ea85",
+    "submitted_at": "2026-08-03T21:29:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "BiZbQDN5aJsMVNdma9andNADtaMXDDGH",
+    "symbol_hint": "FX108",
+    "notional_usd": 9714.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0109",
+    "audit_request_id": "c7509742-82d4-4c49-a513-b51d33551664",
+    "submitted_at": "2026-08-03T21:36:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x0dfc1cf960a398b0b7ec9d503071e6c62bd38d60",
+    "symbol_hint": "FX109",
+    "notional_usd": 10691.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0110",
+    "audit_request_id": "e1a02f25-9820-483a-92e5-558336e12282",
+    "submitted_at": "2026-08-03T21:43:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x3cc3d1578251988361ece16953cb2050ddf67a29",
+    "symbol_hint": "FX110",
+    "notional_usd": 11669.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0111",
+    "audit_request_id": "5cfc0caa-26fa-4967-8d35-8b37b83f7d29",
+    "submitted_at": "2026-08-03T21:50:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x339d732157a48720131b8b848f767c58bae06586",
+    "symbol_hint": "FX111",
+    "notional_usd": 12645.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0112",
+    "audit_request_id": "1d782544-6560-4e9d-8e98-e9cf97a0fe1d",
+    "submitted_at": "2026-08-03T21:57:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "SAN6QLs9NtnxMp424K52W4hgqe5XaUou",
+    "symbol_hint": "FX112",
+    "notional_usd": 13622.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0113",
+    "audit_request_id": "a2c72dca-f1dc-4416-aae5-196439d041fc",
+    "submitted_at": "2026-08-03T22:04:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x2ece2d4f61940d5b082b6d0e002f4107dcc8b2fb",
+    "symbol_hint": "FX113",
+    "notional_usd": 14599.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0114",
+    "audit_request_id": "bf024854-9a4c-4d57-9ade-f81f72118ee2",
+    "submitted_at": "2026-08-03T22:11:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x048c0dd49052a5b2071deebe89925de86e3f212f",
+    "symbol_hint": "FX114",
+    "notional_usd": 15576.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0115",
+    "audit_request_id": "169fb393-2651-439b-ad2a-518c27981f26",
+    "submitted_at": "2026-08-03T22:18:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xfc50f0f347bb361d41c504bdd334857e5575464d",
+    "symbol_hint": "FX115",
+    "notional_usd": 16554.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0116",
+    "audit_request_id": "67dea4d8-68c5-49f5-b3a4-56b7de326088",
+    "submitted_at": "2026-08-03T22:25:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "wAbHBQyST3umU5c4KWDN7AD494iYZBm6",
+    "symbol_hint": "FX116",
+    "notional_usd": 17530.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0117",
+    "audit_request_id": "1cfff503-1cfc-4fa2-81c9-ca9957876251",
+    "submitted_at": "2026-08-03T22:32:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x94f031f0937f0f820eece5e05d2103f768fa331c",
+    "symbol_hint": "FX117",
+    "notional_usd": 18507.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0118",
+    "audit_request_id": "13f81026-a271-465c-9d31-f7f4c0ee038d",
+    "submitted_at": "2026-08-03T22:39:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x111161e9112b336b2d91cc44c10bce22942af914",
+    "symbol_hint": "FX118",
+    "notional_usd": 19484.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0119",
+    "audit_request_id": "d4d5dc90-537d-41c1-9536-c830880d75d7",
+    "submitted_at": "2026-08-03T22:46:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xf2c4490488209d776ae2827d114c747349d4ba83",
+    "symbol_hint": "FX119",
+    "notional_usd": 20461.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0120",
+    "audit_request_id": "686fb2b8-7f4a-4f29-babd-8e0e5baaed25",
+    "submitted_at": "2026-08-03T22:53:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "P8Lr5J71yQEBRPtBKWqbZtpituYmK2wW",
+    "symbol_hint": "FX120",
+    "notional_usd": 21439.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0121",
+    "audit_request_id": "c4e392e0-6af0-4507-8df0-1b69821fedfc",
+    "submitted_at": "2026-08-03T23:00:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xe589618c48a3e368365b03d27de3a5b7ae3879fa",
+    "symbol_hint": "FX121",
+    "notional_usd": 22415.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0122",
+    "audit_request_id": "e9c9a163-5d46-4cb4-941f-c8317ddd52d5",
+    "submitted_at": "2026-08-03T23:07:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x7a6024f64576ce70506677ee94f958a7d0e87a95",
+    "symbol_hint": "FX122",
+    "notional_usd": 23392.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0123",
+    "audit_request_id": "8273b133-b8ee-4ba4-9db7-1d0841570ca8",
+    "submitted_at": "2026-08-03T23:14:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x56b8c64c390bcee59fb5a94012abe00040ef8597",
+    "symbol_hint": "FX123",
+    "notional_usd": 24369.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0124",
+    "audit_request_id": "352ef49e-54e2-40ad-ad8e-112931cf7242",
+    "submitted_at": "2026-08-03T23:21:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "g9rZ7ntuLacrphVxTHb4mBep5NNp2Ajy",
+    "symbol_hint": "FX124",
+    "notional_usd": 25346.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0125",
+    "audit_request_id": "e6e1541f-9d17-4c1b-945b-0a8544528c48",
+    "submitted_at": "2026-08-03T23:28:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x87b1753c6c542eed9731ce81d1dfd4c82efda749",
+    "symbol_hint": "FX125",
+    "notional_usd": 26324.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0126",
+    "audit_request_id": "43573ad9-e56b-4676-a67e-d791e300a4bd",
+    "submitted_at": "2026-08-03T23:35:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xb50d7241d429d37c35e84f616642b5b2e7d99d7b",
+    "symbol_hint": "FX126",
+    "notional_usd": 27300.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0127",
+    "audit_request_id": "c5245dd5-146e-4f97-8707-b25d19ed67be",
+    "submitted_at": "2026-08-03T23:42:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xce9e1690c92a5ef332ed7413ac431383d6355e5e",
+    "symbol_hint": "FX127",
+    "notional_usd": 28277.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0128",
+    "audit_request_id": "907e2fca-272f-49da-beff-011b495a0a22",
+    "submitted_at": "2026-08-03T23:49:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "57FY64ei8Bt5u1AT4epRJ2ZHp9Km9Ayt",
+    "symbol_hint": "FX128",
+    "notional_usd": 29254.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0129",
+    "audit_request_id": "077498fd-fe4e-451a-a0f5-289349fb6775",
+    "submitted_at": "2026-08-03T23:56:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x853161a933dd8bd683b56344bd127911b359d677",
+    "symbol_hint": "FX129",
+    "notional_usd": 30231.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0130",
+    "audit_request_id": "3890e9bf-263e-49f2-be30-0f6401f0664b",
+    "submitted_at": "2026-08-04T00:03:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x4a9d0356b9e838942b1863f98e440526f8588f46",
+    "symbol_hint": "FX130",
+    "notional_usd": 31209.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0131",
+    "audit_request_id": "c1fe15de-6d8a-47b0-ac38-9a864b66f49d",
+    "submitted_at": "2026-08-04T00:10:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xac6f1bec78f8533a9dc82551b22ae86424668c6d",
+    "symbol_hint": "FX131",
+    "notional_usd": 32185.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0132",
+    "audit_request_id": "79762e1b-d7ba-468c-a094-e5373f99449f",
+    "submitted_at": "2026-08-04T00:17:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "AWrHMg3vCMfmwP9Fb9WeCofgUeahLJ9x",
+    "symbol_hint": "FX132",
+    "notional_usd": 33162.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0133",
+    "audit_request_id": "85c79701-dd8d-43c0-aaeb-1bd7b8577f04",
+    "submitted_at": "2026-08-04T00:24:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xf8e7394b01e4853cf5e675792b44c9917707beba",
+    "symbol_hint": "FX133",
+    "notional_usd": 34139.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0134",
+    "audit_request_id": "cef3f419-50b4-400e-a056-64391ed2e73f",
+    "submitted_at": "2026-08-04T00:31:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xa84afaf5166eecb7afb596ee8fb074c5dec47ea5",
+    "symbol_hint": "FX134",
+    "notional_usd": 35116.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0135",
+    "audit_request_id": "b7bd9454-b0c9-4753-b223-9dbc7b7e3b00",
+    "submitted_at": "2026-08-04T00:38:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xdaae6509fbfa8622b11932a7970a56c57a3ef28a",
+    "symbol_hint": "FX135",
+    "notional_usd": 36094.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0136",
+    "audit_request_id": "80aa7dbc-ea90-4fc6-b13a-728d2efd8491",
+    "submitted_at": "2026-08-04T00:45:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "vNifpcPiturwB7tW9r58qAyAkFZfZHeS",
+    "symbol_hint": "FX136",
+    "notional_usd": 37070.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0137",
+    "audit_request_id": "39a0d46a-4c2c-4985-816f-2f13c797a123",
+    "submitted_at": "2026-08-04T00:52:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x1a9cb899c48e7be230c27d7dd8b374441002c041",
+    "symbol_hint": "FX137",
+    "notional_usd": 38047.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0138",
+    "audit_request_id": "199601bb-9893-41e6-aaf5-d49b7d981349",
+    "submitted_at": "2026-08-04T00:59:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x1111b906573f3d18b2401cc3ed159a8d27d0466d",
+    "symbol_hint": "FX138",
+    "notional_usd": 39024.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0139",
+    "audit_request_id": "fa67dd20-5e57-4876-8da8-978b9011a632",
+    "submitted_at": "2026-08-04T01:06:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x958c25a132b977c27bdd8ce24bdf4d785c260ced",
+    "symbol_hint": "FX139",
+    "notional_usd": 40001.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0140",
+    "audit_request_id": "1665c913-e035-421f-97bc-8471e7626c30",
+    "submitted_at": "2026-08-04T01:13:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "YSrFUr4NFy9tTGrnjHCFSJUG73Fu9Mmf",
+    "symbol_hint": "FX140",
+    "notional_usd": 40979.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0141",
+    "audit_request_id": "b30ba2ee-c6de-48b4-8ecb-53e07e53b5e1",
+    "submitted_at": "2026-08-04T01:20:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xb1385a422a91a354c05908737ddfe716308e30d3",
+    "symbol_hint": "FX141",
+    "notional_usd": 41955.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0142",
+    "audit_request_id": "7c342eee-2b68-4180-b7d1-6acfe958413c",
+    "submitted_at": "2026-08-04T01:27:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x8e64cda263e0f5d1f86901d225bc3aae063118ec",
+    "symbol_hint": "FX142",
+    "notional_usd": 42932.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0143",
+    "audit_request_id": "fb0345cd-2e86-4d98-a035-c161dc74351d",
+    "submitted_at": "2026-08-04T01:34:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xabaa73f5bb848766af2c086d69349f71e1b3b236",
+    "symbol_hint": "FX143",
+    "notional_usd": 43909.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0144",
+    "audit_request_id": "a3793f31-c6cb-4213-a614-d720bd303aff",
+    "submitted_at": "2026-08-04T01:41:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "RRkrVRnNuRbaN6ZFhrvE4PHjTKzbsuKN",
+    "symbol_hint": "FX144",
+    "notional_usd": 44886.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0145",
+    "audit_request_id": "3a480f0a-7d22-4994-8955-9f6563f7ecc3",
+    "submitted_at": "2026-08-04T01:48:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x43e4210d423bfa8feaa4a733c651ec37ff569771",
+    "symbol_hint": "FX145",
+    "notional_usd": 45864.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0146",
+    "audit_request_id": "5f663d8c-776f-4b6c-88ac-c29ffbe1d0aa",
+    "submitted_at": "2026-08-04T01:55:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xbc627a67369e7e627ce9776ca83adeee1a927b52",
+    "symbol_hint": "FX146",
+    "notional_usd": 46840.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0147",
+    "audit_request_id": "08960826-d165-4e1a-8b80-c1b9fe92e080",
+    "submitted_at": "2026-08-04T02:02:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x61bfbe297ca91ce81c1e76c00e3fb0de4d06cb30",
+    "symbol_hint": "FX147",
+    "notional_usd": 317.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0148",
+    "audit_request_id": "3e8a3696-c276-488a-a4f8-0bd6ec7dd15f",
+    "submitted_at": "2026-08-04T02:09:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "DyUvJKAtoxpeEGh7TrfgBFbAMQ5uvQvn",
+    "symbol_hint": "FX148",
+    "notional_usd": 1294.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0149",
+    "audit_request_id": "4d358e57-e7ab-4255-a086-9eedc5ec3f91",
+    "submitted_at": "2026-08-04T02:16:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x02807ccaae9c79f1d3c3e9f6e42b6e2392a51e1d",
+    "symbol_hint": "FX149",
+    "notional_usd": 2271.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0150",
+    "audit_request_id": "6359cace-4771-497e-a4f4-16c9af2ec77b",
+    "submitted_at": "2026-08-04T02:23:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xa420983eefcd0b3ba66368c611d9379c572ec00e",
+    "symbol_hint": "FX150",
+    "notional_usd": 3249.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0151",
+    "audit_request_id": "112c367a-2197-426c-aacd-66a021e895b2",
+    "submitted_at": "2026-08-04T02:30:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x5e8e35ab41b7d0a70887028cb27756c5f2820799",
+    "symbol_hint": "FX151",
+    "notional_usd": 4225.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0152",
+    "audit_request_id": "65e2d3f5-82c8-4743-8a27-5b1ba76e0752",
+    "submitted_at": "2026-08-04T02:37:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "d9VMhBYNkHJe3PS5snNm8DWs2Yy5PgZz",
+    "symbol_hint": "FX152",
+    "notional_usd": 5202.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0153",
+    "audit_request_id": "a10f614b-5776-4b6f-9b05-cb2019fdf4d0",
+    "submitted_at": "2026-08-04T02:44:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xe06bffbd6275e0880912dd7d5e09d7f7868f7488",
+    "symbol_hint": "FX153",
+    "notional_usd": 6179.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0154",
+    "audit_request_id": "7439defc-557c-4c26-9826-fb328ef1b5e6",
+    "submitted_at": "2026-08-04T02:51:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x70b00b6419d1fee6372b6dfb08f89bc0b30b23ba",
+    "symbol_hint": "FX154",
+    "notional_usd": 7156.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0155",
+    "audit_request_id": "e3d65e37-1823-448f-af74-d7d524ad14b9",
+    "submitted_at": "2026-08-04T02:58:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x305997e88351162bf437748b4377097fd6bc2068",
+    "symbol_hint": "FX155",
+    "notional_usd": 8134.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0156",
+    "audit_request_id": "566fc78b-3e6c-450e-8e6c-3b5f8e14c43e",
+    "submitted_at": "2026-08-04T03:05:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "tcoGUwVdgPuo1Jfhat27L677ymL3pw6S",
+    "symbol_hint": "FX156",
+    "notional_usd": 9110.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0157",
+    "audit_request_id": "f4cc15c0-aa3a-480a-9987-3d154d3e87eb",
+    "submitted_at": "2026-08-04T03:12:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xb66ec6a82850753b7af2c777cd88e780596f9d9e",
+    "symbol_hint": "FX157",
+    "notional_usd": 10087.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0158",
+    "audit_request_id": "ca71f86c-aacc-4685-8373-cae96db72019",
+    "submitted_at": "2026-08-04T03:19:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x015c8815f41b923d01cba02481466d6843da6c7b",
+    "symbol_hint": "FX158",
+    "notional_usd": 11064.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0159",
+    "audit_request_id": "57320c1e-3ad7-422c-9445-3bafb7b61e1a",
+    "submitted_at": "2026-08-04T03:26:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x50ea719ace0348694aae0d523e0d027ebc4b7330",
+    "symbol_hint": "FX159",
+    "notional_usd": 12041.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0160",
+    "audit_request_id": "861e7977-2b41-4815-945c-11dbd1bd4a24",
+    "submitted_at": "2026-08-04T03:33:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "YeJpBRdNcocPJYoKwe9uFEbdGF7Nz8da",
+    "symbol_hint": "FX160",
+    "notional_usd": 13019.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0161",
+    "audit_request_id": "3d0b1e1f-d337-455c-b809-06e3997677d5",
+    "submitted_at": "2026-08-04T03:40:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xb0c099ff7416c2d03cd9a799bde3df14bac0a0a5",
+    "symbol_hint": "FX161",
+    "notional_usd": 13995.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0162",
+    "audit_request_id": "d24e901e-2f82-46e3-ab89-6864af001a76",
+    "submitted_at": "2026-08-04T03:47:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x23364989f70bc5cee44a8bc49bbca86def2264fd",
+    "symbol_hint": "FX162",
+    "notional_usd": 14972.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0163",
+    "audit_request_id": "960204ad-512b-4718-ac17-0cd743b56c78",
+    "submitted_at": "2026-08-04T03:54:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xfef658f7b2d0974fff1e4d54dd336dd3b0886d22",
+    "symbol_hint": "FX163",
+    "notional_usd": 15949.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0164",
+    "audit_request_id": "71d2b4c2-4458-40a3-b139-5afea78fd8bf",
+    "submitted_at": "2026-08-04T04:01:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "9LvEa1Dn9U7dX8NnjDKV3gFDgmhNGS9c",
+    "symbol_hint": "FX164",
+    "notional_usd": 16926.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0165",
+    "audit_request_id": "90cbab22-3d92-4acc-b18d-687e1823528b",
+    "submitted_at": "2026-08-04T04:08:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x3f542a56c5d861db7b9ea4372cc2684ab5e423df",
+    "symbol_hint": "FX165",
+    "notional_usd": 17904.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0166",
+    "audit_request_id": "2501b7a9-e8f7-43bc-8fec-d51efe452983",
+    "submitted_at": "2026-08-04T04:15:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xd0e6ce415a2f5e89a9d1dd588a8cfd4975f6f386",
+    "symbol_hint": "FX166",
+    "notional_usd": 18880.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0167",
+    "audit_request_id": "cddee7b7-5488-4275-b500-16b924062c87",
+    "submitted_at": "2026-08-04T04:22:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x512388d5adb99678b9004078265421c99a70fea1",
+    "symbol_hint": "FX167",
+    "notional_usd": 19857.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0168",
+    "audit_request_id": "0ad63f68-6443-4ec8-b034-8f9f4bb9c050",
+    "submitted_at": "2026-08-04T04:29:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "8E6n2ZBqaeEyZb4JxmPwV95MuxZ169dB",
+    "symbol_hint": "FX168",
+    "notional_usd": 20834.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0169",
+    "audit_request_id": "8c9a7009-5f80-4b5f-bb3d-83d4a4dfa65d",
+    "submitted_at": "2026-08-04T04:36:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x85fc6b92b60b919ad7d78b1faa6dccde90428e1a",
+    "symbol_hint": "FX169",
+    "notional_usd": 21811.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0170",
+    "audit_request_id": "f909757f-46a8-4681-b413-2bfd7c4a1b36",
+    "submitted_at": "2026-08-04T04:43:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x1134acf68ea7d6f5b771976b935832099dc376a6",
+    "symbol_hint": "FX170",
+    "notional_usd": 22789.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0171",
+    "audit_request_id": "7726e6eb-1656-4dc8-9c58-5114f841baf0",
+    "submitted_at": "2026-08-04T04:50:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xaec011c802735e79a91e11c4df3988194794b8ae",
+    "symbol_hint": "FX171",
+    "notional_usd": 23765.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0172",
+    "audit_request_id": "8c68b796-631d-4621-a08d-a355799ff036",
+    "submitted_at": "2026-08-04T04:57:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "dqHth8HJ67tvqNb7tmK4Dv7kqnJ7W4gm",
+    "symbol_hint": "FX172",
+    "notional_usd": 24742.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0173",
+    "audit_request_id": "fcd9cce0-c9d3-4b60-a801-df2aa739d7fd",
+    "submitted_at": "2026-08-04T05:04:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xc8d21867f93925b6ea64fb270618bbb824e37cb1",
+    "symbol_hint": "FX173",
+    "notional_usd": 25719.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0174",
+    "audit_request_id": "1fcf62d8-1496-4dea-836d-3200223d1638",
+    "submitted_at": "2026-08-04T05:11:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xa2fe833e5e59f9124165efd1febab05433fb39a7",
+    "symbol_hint": "FX174",
+    "notional_usd": 26696.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0175",
+    "audit_request_id": "c04d8269-c6df-4844-b0e3-ef63109096d7",
+    "submitted_at": "2026-08-04T05:18:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x4d2b95008a7e07f7ab8d7a881f05dd55229444ff",
+    "symbol_hint": "FX175",
+    "notional_usd": 27674.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0176",
+    "audit_request_id": "d7d3dfee-9e1b-499b-9f28-a89c38e98b3b",
+    "submitted_at": "2026-08-04T05:25:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "Jac5NjcGMCQoTHL4PDeLjE9XHDyMjGKh",
+    "symbol_hint": "FX176",
+    "notional_usd": 28650.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0177",
+    "audit_request_id": "7ec63e6d-2906-4c18-8ea4-f5f14abb7c2f",
+    "submitted_at": "2026-08-04T05:32:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xe98d36e6fd14a92d60d6241560cb5cdd08b3c790",
+    "symbol_hint": "FX177",
+    "notional_usd": 29627.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0178",
+    "audit_request_id": "fac742a4-408b-4563-81f3-6bdc0375b5f8",
+    "submitted_at": "2026-08-04T05:39:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x124c6b0edae50fa6c7f78fc6d93280c028a95609",
+    "symbol_hint": "FX178",
+    "notional_usd": 30604.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0179",
+    "audit_request_id": "fe6058bb-be21-4639-8f3f-117e24862833",
+    "submitted_at": "2026-08-04T05:46:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x751596c107c76e2076a453853045f63d23d793cb",
+    "symbol_hint": "FX179",
+    "notional_usd": 31581.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0180",
+    "audit_request_id": "ee3570f4-13ad-4926-a12d-8fff5e712f45",
+    "submitted_at": "2026-08-04T05:53:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "AZ5FA8LzN5vyMhzv7UVuXVmEfDBamDbH",
+    "symbol_hint": "FX180",
+    "notional_usd": 32559.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0181",
+    "audit_request_id": "ba08bc11-59dc-42a0-a4ca-174a4a1b222f",
+    "submitted_at": "2026-08-04T06:00:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x55f2a31fc209c0563488fee0113313b523937a79",
+    "symbol_hint": "FX181",
+    "notional_usd": 33535.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0182",
+    "audit_request_id": "c2bfe965-72b5-4b66-9f26-13f838c9a9f0",
+    "submitted_at": "2026-08-04T06:07:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x74f2206791c2423b224c2e3bde9b9593b221bd4d",
+    "symbol_hint": "FX182",
+    "notional_usd": 34512.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0183",
+    "audit_request_id": "86973e37-5b8b-444b-a6eb-125374315ed0",
+    "submitted_at": "2026-08-04T06:14:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x5edfa35c558d8cb0538903f95fcb90973308ec9b",
+    "symbol_hint": "FX183",
+    "notional_usd": 35489.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0184",
+    "audit_request_id": "bef4845b-b45e-4e1e-b33b-db878c4fd912",
+    "submitted_at": "2026-08-04T06:21:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "Kq3nUN46PL9i3HqnTHnWEu48NYcQPPAM",
+    "symbol_hint": "FX184",
+    "notional_usd": 36466.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0185",
+    "audit_request_id": "2588c9a4-da02-400c-9118-6d495ac61ec8",
+    "submitted_at": "2026-08-04T06:28:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x6fb84b214d45bc8e397aa9191fd90b4679b1b35d",
+    "symbol_hint": "FX185",
+    "notional_usd": 37444.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0186",
+    "audit_request_id": "94642227-24af-44d7-b644-4bc3cc6a6dee",
+    "submitted_at": "2026-08-04T06:35:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x1138e18f22053c8f0f12004f2689ec386deaf506",
+    "symbol_hint": "FX186",
+    "notional_usd": 38420.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0187",
+    "audit_request_id": "6e8b6929-24c2-4afe-93d1-be2e3cb1d7e1",
+    "submitted_at": "2026-08-04T06:42:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x7df43b0a0d5176bf52adc985afcf0cc27a99dcff",
+    "symbol_hint": "FX187",
+    "notional_usd": 39397.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0188",
+    "audit_request_id": "da76a0d6-05a9-4996-badc-59aaf6b990b4",
+    "submitted_at": "2026-08-04T06:49:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "34SD8VdMKTbQmgLSqF1w7dCxZ5WY8ndh",
+    "symbol_hint": "FX188",
+    "notional_usd": 40374.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0189",
+    "audit_request_id": "0cd6f9a3-77a6-4b4d-b625-12648d6eda10",
+    "submitted_at": "2026-08-04T06:56:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xff76747a7c5a887d2495664bf07295d1a9f47169",
+    "symbol_hint": "FX189",
+    "notional_usd": 41351.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0190",
+    "audit_request_id": "f469dcb1-277c-4846-81fd-40722db70e4b",
+    "submitted_at": "2026-08-04T07:03:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x7a0ae25f862d1cb0130ca5272acfa02f67e51da6",
+    "symbol_hint": "FX190",
+    "notional_usd": 42329.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0191",
+    "audit_request_id": "fe6ce8ef-82de-40c4-ba60-e868a2d51110",
+    "submitted_at": "2026-08-04T07:10:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xd488c370cb9b9b3d8a479a21af096f75615ce57c",
+    "symbol_hint": "FX191",
+    "notional_usd": 43305.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0192",
+    "audit_request_id": "829d718b-2c40-4281-9440-3db56b352e98",
+    "submitted_at": "2026-08-04T07:17:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "aDABFePga9Xk61VSbCX3kdHamRjo1Jnh",
+    "symbol_hint": "FX192",
+    "notional_usd": 44282.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0193",
+    "audit_request_id": "2137bb0e-d4a9-4957-9869-2ba299ee439c",
+    "submitted_at": "2026-08-04T07:24:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x8fb3c61dcdd1e9a6a5c901128f0465b854974a9f",
+    "symbol_hint": "FX193",
+    "notional_usd": 45259.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0194",
+    "audit_request_id": "4aba825d-e767-46d0-a3fe-cb79e61a7d73",
+    "submitted_at": "2026-08-04T07:31:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x3d125415913b5893a7ed44768affeafad33947ab",
+    "symbol_hint": "FX194",
+    "notional_usd": 46236.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0195",
+    "audit_request_id": "0bc1a728-703e-4ea6-b512-ad44f8803d3b",
+    "submitted_at": "2026-08-04T07:38:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xbdc0bcb98b987c8f0888c19a25d3856ac1b740f9",
+    "symbol_hint": "FX195",
+    "notional_usd": 47214.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0196",
+    "audit_request_id": "03c681ce-e758-4bfb-8df2-3e7ea3fae694",
+    "submitted_at": "2026-08-04T07:45:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "94Yv9dbScCpCmXgQE6CWC8Ba7fE3Sg6e",
+    "symbol_hint": "FX196",
+    "notional_usd": 690.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0197",
+    "audit_request_id": "c4fe8984-64b8-4bf4-ba74-901cade0b42a",
+    "submitted_at": "2026-08-04T07:52:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x5da22b81bf69f28ff0654def3344a5e813302d6b",
+    "symbol_hint": "FX197",
+    "notional_usd": 1667.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0198",
+    "audit_request_id": "177b7312-2544-4221-a6be-9f02810e32d0",
+    "submitted_at": "2026-08-04T07:59:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x6c8a3df62ba20586f4e36553e95ce5f511481750",
+    "symbol_hint": "FX198",
+    "notional_usd": 2644.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0199",
+    "audit_request_id": "3f1771a1-da81-463e-8d7f-9a344a5a2b75",
+    "submitted_at": "2026-08-04T08:06:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x51975bbad5f2d5394fae4dda2f2762c346235772",
+    "symbol_hint": "FX199",
+    "notional_usd": 3621.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0200",
+    "audit_request_id": "0b3c0cc8-be61-4ef7-828e-4c0ff5b958ac",
+    "submitted_at": "2026-08-04T08:13:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "RyiAruHr2QcGCa8ZUncnSFfwG3ju7HrK",
+    "symbol_hint": "FX200",
+    "notional_usd": 4599.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0201",
+    "audit_request_id": "2ce11412-1640-479e-a533-970990f2be7f",
+    "submitted_at": "2026-08-04T08:20:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xfb338a754bc02b49af565a936894b2a83a9c3298",
+    "symbol_hint": "FX201",
+    "notional_usd": 5575.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0202",
+    "audit_request_id": "5afc8394-bd65-460c-bbdd-a29a05d48dbe",
+    "submitted_at": "2026-08-04T08:27:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x076fd5ce40a95a7fe36c9dc44547bbc74b7be7bd",
+    "symbol_hint": "FX202",
+    "notional_usd": 6552.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0203",
+    "audit_request_id": "d159d50d-6f03-43b8-b323-4d195d71f203",
+    "submitted_at": "2026-08-04T08:34:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x6e4135f615407c6a846c70909cea10c4205d5cd6",
+    "symbol_hint": "FX203",
+    "notional_usd": 7529.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0204",
+    "audit_request_id": "ea46fea2-7da5-40d1-87ad-eb49566ea473",
+    "submitted_at": "2026-08-04T08:41:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "E87BsMqpZB4RyeQj3EQM6wG63963gkMc",
+    "symbol_hint": "FX204",
+    "notional_usd": 8506.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0205",
+    "audit_request_id": "f0b24493-2836-49a1-bacd-9ed2a968486d",
+    "submitted_at": "2026-08-04T08:48:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xa2a8ffcebf05804cdf19a7dbec85a13ce96db729",
+    "symbol_hint": "FX205",
+    "notional_usd": 9484.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0206",
+    "audit_request_id": "f8adc33d-951f-463c-88f1-91a16acafa27",
+    "submitted_at": "2026-08-04T08:55:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x6e845113e9777d4e7b5d46994c2f57ad7cd27a5e",
+    "symbol_hint": "FX206",
+    "notional_usd": 10460.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0207",
+    "audit_request_id": "1e7b17df-fd5c-44a6-85f4-a550ba31e111",
+    "submitted_at": "2026-08-04T09:02:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xcecbb5c889fd6e0ecf8cb9173e128f6ef7bee58d",
+    "symbol_hint": "FX207",
+    "notional_usd": 11437.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0208",
+    "audit_request_id": "0aa0352e-0be3-46ab-b7b7-c6d13f122dc8",
+    "submitted_at": "2026-08-04T09:09:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "Edq2QNNJgAR7VeXer4WmG8UP9TJKU1iJ",
+    "symbol_hint": "FX208",
+    "notional_usd": 12414.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0209",
+    "audit_request_id": "9fdf5665-647b-4bc7-a76e-29575f44e35b",
+    "submitted_at": "2026-08-04T09:16:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xad82ae831ce0857d39c3bc04aab5822b31821eb7",
+    "symbol_hint": "FX209",
+    "notional_usd": 13391.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0210",
+    "audit_request_id": "681c6dc0-6974-4462-b8b5-ee2d45e2a7f7",
+    "submitted_at": "2026-08-04T09:23:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xed8ce9b1afb089effa954866568f3d4fef9c6b2c",
+    "symbol_hint": "FX210",
+    "notional_usd": 14369.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0211",
+    "audit_request_id": "b8763218-ef11-4dad-b61d-d5cd3423b031",
+    "submitted_at": "2026-08-04T09:30:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x89fe5d1ef25c6fe8691f07fc374eb3c9c4941be3",
+    "symbol_hint": "FX211",
+    "notional_usd": 15345.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0212",
+    "audit_request_id": "cfaeacc3-e172-496d-9316-43447c8f7275",
+    "submitted_at": "2026-08-04T09:37:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "umoRuNGogJtQfD9QvryGbRf11TRV9pHt",
+    "symbol_hint": "FX212",
+    "notional_usd": 16322.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0213",
+    "audit_request_id": "a07fc034-c2ac-4643-a6ff-437cc315f1a3",
+    "submitted_at": "2026-08-04T09:44:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xec2380aaae7773c560d715b8ffa024fb0568b9e9",
+    "symbol_hint": "FX213",
+    "notional_usd": 17299.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0214",
+    "audit_request_id": "232e44e3-240f-4502-be3e-262953ce00df",
+    "submitted_at": "2026-08-04T09:51:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x06f9b84b9a7e24dba70e82cb2b37873ca77332b5",
+    "symbol_hint": "FX214",
+    "notional_usd": 18276.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0215",
+    "audit_request_id": "c5c0adce-7daa-44fe-92f6-a77165c139db",
+    "submitted_at": "2026-08-04T09:58:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x8f092b06c74e3877ade8357b3ae07c99b3e9948f",
+    "symbol_hint": "FX215",
+    "notional_usd": 19254.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0216",
+    "audit_request_id": "0ea42fb3-0353-4255-83d7-bc73656fe29c",
+    "submitted_at": "2026-08-04T10:05:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "3gYQQNsQS4ELLV2MYAbwJT38hLKzTKVr",
+    "symbol_hint": "FX216",
+    "notional_usd": 20230.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0217",
+    "audit_request_id": "de14e935-9951-457b-9d05-b9e758f9bb9b",
+    "submitted_at": "2026-08-04T10:12:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xab610fb173544cca6d8ed6c5f84b5afaf0f28719",
+    "symbol_hint": "FX217",
+    "notional_usd": 21207.25,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0218",
+    "audit_request_id": "121940be-4e21-4cef-8209-9bf279782247",
+    "submitted_at": "2026-08-04T10:19:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x31665b52cea049764811e6f537e6bfc65c79c5d7",
+    "symbol_hint": "FX218",
+    "notional_usd": 22184.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0219",
+    "audit_request_id": "e105517d-8f9d-4fda-bc92-51cac2726852",
+    "submitted_at": "2026-08-04T10:26:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x795f455327627ba749afeea5b411fff39ee33425",
+    "symbol_hint": "FX219",
+    "notional_usd": 23161.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0220",
+    "audit_request_id": "ca6ad430-96c5-49fd-b5ba-7d4251ff0253",
+    "submitted_at": "2026-08-04T10:33:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "b9FGA7xMJmCexM7MviKBN2iJ5nDLhGNM",
+    "symbol_hint": "FX220",
+    "notional_usd": 24139.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0221",
+    "audit_request_id": "5ffe5ae0-5754-4afa-82c7-90b3df6bd631",
+    "submitted_at": "2026-08-04T10:40:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x40c3931df28ddf77d6a9be02cb17c5c27c3059e9",
+    "symbol_hint": "FX221",
+    "notional_usd": 25115.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0222",
+    "audit_request_id": "62837f66-38d6-45b1-9ea9-7c3088200f85",
+    "submitted_at": "2026-08-04T10:47:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x128949be2e227f1adbbe0cf5cd5bf6dfb4f158cf",
+    "symbol_hint": "FX222",
+    "notional_usd": 26092.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0223",
+    "audit_request_id": "7db680af-6e66-483d-be50-0f90894e1a2b",
+    "submitted_at": "2026-08-04T10:54:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xbfd6af81cdeee80d07bc5da159b7cd2a9cd5647c",
+    "symbol_hint": "FX223",
+    "notional_usd": 27069.5,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0224",
+    "audit_request_id": "e09dc26c-f528-40b4-add5-c0a4006a9951",
+    "submitted_at": "2026-08-04T11:01:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "oMz2KCxBL8yocxr48tDrwYoswQLj66om",
+    "symbol_hint": "FX224",
+    "notional_usd": 28046.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0225",
+    "audit_request_id": "84acfdff-f331-42e2-a100-74fff4b5173b",
+    "submitted_at": "2026-08-04T11:08:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xb2f0790d39316e4b313180635ccc6fb445e3a6c3",
+    "symbol_hint": "FX225",
+    "notional_usd": 29024.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0226",
+    "audit_request_id": "bd2e59c0-c6e8-40b2-be68-11375c61951d",
+    "submitted_at": "2026-08-04T11:15:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xcc8dd4359ae0be9459390a9d14c45d6aee91e03e",
+    "symbol_hint": "FX226",
+    "notional_usd": 30000.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0227",
+    "audit_request_id": "37e46d69-7871-4216-b801-c3c71336d45c",
+    "submitted_at": "2026-08-04T11:22:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x352e2051945025567344e081dfd9facf38a67bf3",
+    "symbol_hint": "FX227",
+    "notional_usd": 30977.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0228",
+    "audit_request_id": "98129654-d6ee-430f-af82-b0148cbc15be",
+    "submitted_at": "2026-08-04T11:29:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "HQNA3KUBiH3w9nLAbPo63YMB7QrgS7jp",
+    "symbol_hint": "FX228",
+    "notional_usd": 31954.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0229",
+    "audit_request_id": "d8335ba3-950d-4145-8388-b545c751fc7a",
+    "submitted_at": "2026-08-04T11:36:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xaf2f75c4b47cb8aeea6d3500304c4577a18f5cad",
+    "symbol_hint": "FX229",
+    "notional_usd": 32931.75,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0230",
+    "audit_request_id": "678ebd54-14a6-4549-97e7-8eb576da4c62",
+    "submitted_at": "2026-08-04T11:43:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xb00533e9ad4ed828edc1dcb49901e3b3e9a19871",
+    "symbol_hint": "FX230",
+    "notional_usd": 33909.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0231",
+    "audit_request_id": "3d89a2e7-8efb-4190-941a-c879866d20ce",
+    "submitted_at": "2026-08-04T11:50:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0xf4f812505957c6a40e88797e39f5f1b91fcf8029",
+    "symbol_hint": "FX231",
+    "notional_usd": 34885.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0232",
+    "audit_request_id": "27e0b8e1-59da-4a9a-bc22-5c2f19e2e084",
+    "submitted_at": "2026-08-04T11:57:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "NyEL3vDY1rPGxnVR2xwABWuqxvpZE4YL",
+    "symbol_hint": "FX232",
+    "notional_usd": 35862.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0233",
+    "audit_request_id": "0e18bc0c-8565-473b-9925-09d50a1f50a8",
+    "submitted_at": "2026-08-04T12:04:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0xf73fe062a43c36b1aad4b4395e84f2266f8ffd72",
+    "symbol_hint": "FX233",
+    "notional_usd": 36839.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0234",
+    "audit_request_id": "783ee981-d30a-4d5c-842e-8cc3cbd3d5d0",
+    "submitted_at": "2026-08-04T12:11:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0x50c76051f1662fba9829309de84a96f432522371",
+    "symbol_hint": "FX234",
+    "notional_usd": 37816.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0235",
+    "audit_request_id": "f7ca2ec1-45b7-459f-bbd5-665b5cc4ce6f",
+    "submitted_at": "2026-08-04T12:18:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x7f2bba4c64357c8b8761d446b0d169502bedacde",
+    "symbol_hint": "FX235",
+    "notional_usd": 38794.0,
+    "side": "SWAP_IN"
+  },
+  {
+    "review_id": "SWAP-0236",
+    "audit_request_id": "62047686-2aa9-412a-83da-31e3af50dc4f",
+    "submitted_at": "2026-08-04T12:25:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "TVjWCbo3ii5WAYBoReFCXUhhLYMLZTRM",
+    "symbol_hint": "FX236",
+    "notional_usd": 39770.0,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0237",
+    "audit_request_id": "4d797d9c-acf2-46f9-9e40-986ba53ee36f",
+    "submitted_at": "2026-08-04T12:32:00Z",
+    "binanceChainId": "56",
+    "contractAddress": "0x8433720939f8cdb6abfb5d1de3ae293b9d690725",
+    "symbol_hint": "FX237",
+    "notional_usd": 40747.25,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0238",
+    "audit_request_id": "462e6146-efd7-4892-8424-4b34902913e7",
+    "submitted_at": "2026-08-04T12:39:00Z",
+    "binanceChainId": "8453",
+    "contractAddress": "0xb2fd2d216fb736098e6e56acdd6c09b845938164",
+    "symbol_hint": "FX238",
+    "notional_usd": 41724.5,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0239",
+    "audit_request_id": "8a83b3d6-7c3b-4b68-a018-d011577eafd6",
+    "submitted_at": "2026-08-04T12:46:00Z",
+    "binanceChainId": "1",
+    "contractAddress": "0x26115e1b79f4a3786d95d14d74d0c6d4d9688fbb",
+    "symbol_hint": "FX239",
+    "notional_usd": 42701.75,
+    "side": "BUY"
+  },
+  {
+    "review_id": "SWAP-0240",
+    "audit_request_id": "4be6955d-7bfc-484f-ae35-11a75ba50047",
+    "submitted_at": "2026-08-04T12:53:00Z",
+    "binanceChainId": "CT_501",
+    "contractAddress": "Tv8AHPeaX4bKxJQFFJDn2VTijXC7QGYn",
+    "symbol_hint": "FX240",
+    "notional_usd": 43679.0,
+    "side": "BUY"
+  }
+]

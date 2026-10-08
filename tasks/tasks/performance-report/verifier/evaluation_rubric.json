@@ -1,0 +1,126 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Readable report and requested scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown report exists, is readable, covers both comparison months and all four supplied channels, and includes the explicitly requested September decision section.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_readable_and_in_scope"
+      ]
+    },
+    {
+      "id": "completion__metric_accuracy",
+      "title": "Overall and channel metric accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "July/August totals, changes, channel efficiency metrics, and target comparisons agree with the frozen daily data and targets after representation-neutral normalization.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_overall_kpis_and_comparisons",
+        "test_channel_results_and_targets"
+      ]
+    },
+    {
+      "id": "completion__attribution_handling",
+      "title": "Tracking-gap and revenue treatment",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report quantifies the Paid Social coverage gap, keeps reported and coverage-adjusted revenue/ROAS distinct, and reaches the correct target interpretation without presenting the estimate as observed revenue.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_attribution_gap_is_quantified"
+      ]
+    },
+    {
+      "id": "completion__trend_interpretation",
+      "title": "Event-linked trend interpretation",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report identifies the decision-relevant inflections in each channel, connects them to dated campaign/event evidence with appropriately cautious causal language, and distinguishes sustained movement from the webinar concentration, syndication spike, and tracking artifact.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    },
+    {
+      "id": "completion__decision_support",
+      "title": "Prioritized September decision support",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report gives exactly three September priorities, each tied to a diagnosed channel issue and a practical follow-up measure or action.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Readable report and requested scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__metric_accuracy",
+        "title": "Overall and channel metric accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__attribution_handling",
+        "title": "Tracking-gap and revenue treatment",
+        "required_score": 10
+      },
+      {
+        "id": "completion__trend_interpretation",
+        "title": "Event-linked trend interpretation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__decision_support",
+        "title": "Prioritized September decision support",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

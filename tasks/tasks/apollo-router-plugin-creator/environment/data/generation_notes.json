@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "records": 240,
+  "fixture": "router_checkout/fixtures/policy_cases.csv",
+  "relationships": "Every case derives its expected tier and effective ceiling from router_checkout/policy/query_budget_policy.json.",
+  "intentional_edge_cases": [
+    "case-insensitive header names and mixed-case tier values",
+    "missing, blank, and unknown tier values",
+    "costs immediately below, at, and above the effective ceiling",
+    "mutation ceilings lower than some tier ceilings",
+    "disabled plugin requests that must pass through"
+  ],
+  "provenance": "fictional local fixture"
+}

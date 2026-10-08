@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__checkpoint_scope_integrity",
+      "title": "Complete checkpoint and excluded-tensor integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every source checkpoint row appears once with its original shape, and tensors marked ineligible are preserved exactly.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_checkpoint_scope_and_excluded_integrity"
+      ]
+    },
+    {
+      "id": "completion__activation_aware_2_4_correctness",
+      "title": "Correct activation-aware 2:4 pruning",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Eligible rows keep the two greatest weight-times-aggregated-activation scores in each consecutive group of four, preserve retained source values, zero the rest, and honor deterministic ties.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_activation_aware_pruning_standard_groups",
+        "test_activation_aware_pruning_conflicts_and_ties"
+      ]
+    },
+    {
+      "id": "completion__summary_reconciliation",
+      "title": "Layer and validation summary reconciliation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The concise layer summaries and global validation metrics cover the full model and reconcile with the delivered checkpoint, sparsity pattern, calibration coverage, and exclusions.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_summary_reconciles_with_checkpoint"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__checkpoint_scope_integrity",
+        "title": "Complete checkpoint and excluded-tensor integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__activation_aware_2_4_correctness",
+        "title": "Correct activation-aware 2:4 pruning",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summary_reconciliation",
+        "title": "Layer and validation summary reconciliation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

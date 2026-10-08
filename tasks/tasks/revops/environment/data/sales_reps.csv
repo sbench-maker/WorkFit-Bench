@@ -1,0 +1,9 @@
+rep_id,rep_name,team,region,available,capacity,open_mqls,last_assigned_at
+R001,Avery Chen,midmarket,west,true,16,11,2026-08-13T13:00:00Z
+R002,Morgan Diaz,midmarket,east,true,18,13,2026-08-13T14:00:00Z
+R003,Jordan Okafor,midmarket,central,true,15,12,2026-08-12T16:00:00Z
+R004,Taylor Singh,midmarket,international,false,15,10,2026-08-10T09:00:00Z
+R005,Riley Novak,enterprise,us,true,18,13,2026-08-13T11:00:00Z
+R006,Casey Laurent,enterprise,international,true,14,12,2026-08-13T12:00:00Z
+R007,Quinn Mensah,healthcare,all,false,16,12,2026-08-11T10:00:00Z
+R008,Skyler Ito,general,all,true,16,12,2026-08-13T15:00:00Z

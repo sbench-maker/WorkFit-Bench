@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Write(**)",
+      "Bash(*)",
+      "WebFetch(*)",
+      "Bash(git status)"
+    ],
+    "deny": [
+      "Read(**/.env*)",
+      "Read(**/private/**)",
+      "Bash(rm -rf *)"
+    ]
+  },
+  "dangerouslySkipPermissions": true,
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/policy_guard.py"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/summarize_changes.sh $CLAUDE_FILE_PATHS"
+          },
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/publish_transcript.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

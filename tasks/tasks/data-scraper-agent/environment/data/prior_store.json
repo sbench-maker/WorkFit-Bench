@@ -1,0 +1,621 @@
+{
+  "records": [
+    {
+      "model_id": "mdl-0013",
+      "name": "NorthstarML Cinder 2.9.1",
+      "vendor": "NorthstarML",
+      "version": "2.9.1",
+      "updated_at": "2026-07-05",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 200000,
+      "input_price_per_million": 0.35,
+      "license": "commercial",
+      "description": "Cinder inference endpoint for text-generation, structured-output, batch workloads; 200,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/northstarml-cinder-0013",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0016",
+      "name": "AsterCompute Nova 1.8.2",
+      "vendor": "AsterCompute",
+      "version": "1.8.2",
+      "updated_at": "2026-07-20",
+      "status": "active",
+      "capabilities": [
+        "structured-output",
+        "reasoning"
+      ],
+      "context_tokens": 32768,
+      "input_price_per_million": 1.15,
+      "license": "commercial",
+      "description": "Nova inference endpoint for structured-output, reasoning workloads; 32,768-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/astercompute-nova-0016",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0020",
+      "name": "LumenStack Helix 1.0.9",
+      "vendor": "LumenStack",
+      "version": "1.0.9",
+      "updated_at": "2026-09-07",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 128000,
+      "input_price_per_million": 1.55,
+      "license": "permissive",
+      "description": "Helix inference endpoint for text-generation, structured-output, batch workloads; 128,000-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/lumenstack-helix-0020",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0021",
+      "name": "NorthstarML Cinder 2.3.7",
+      "vendor": "NorthstarML",
+      "version": "2.3.7",
+      "updated_at": "2026-05-23",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 0.85,
+      "license": "commercial",
+      "description": "Cinder inference endpoint for tool-use, structured-output workloads; 65,536-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/northstarml-cinder-0021",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0025",
+      "name": "QuantaHarbor Spruce 2.5.5",
+      "vendor": "QuantaHarbor",
+      "version": "2.5.5",
+      "updated_at": "2026-07-06",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 200000,
+      "input_price_per_million": 1.15,
+      "license": "permissive",
+      "description": "Spruce inference endpoint for tool-use, reasoning, batch workloads; 200,000-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/quantaharbor-spruce-0025",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0056",
+      "name": "AsterCompute Nova 1.8.2",
+      "vendor": "AsterCompute",
+      "version": "1.8.2",
+      "updated_at": "2026-07-26",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 128000,
+      "input_price_per_million": 1.55,
+      "license": "commercial",
+      "description": "Nova inference endpoint for tool-use, structured-output workloads; 128,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/astercompute-nova-0056",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0063",
+      "name": "ValeAI Meridian 4.9.1",
+      "vendor": "ValeAI",
+      "version": "4.9.1",
+      "updated_at": "2026-06-02",
+      "status": "ga",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 0.18,
+      "license": "commercial",
+      "description": "Meridian inference endpoint for tool-use, structured-output workloads; 65,536-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/valeai-meridian-0063",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0070",
+      "name": "CedarLabs Drift 3.0.0",
+      "vendor": "CedarLabs",
+      "version": "3.0.0",
+      "updated_at": "2026-08-18",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 32768,
+      "input_price_per_million": 1.15,
+      "license": "permissive",
+      "description": "Drift inference endpoint for tool-use, structured-output workloads; 32,768-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/cedarlabs-drift-0070",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0076",
+      "name": "LumenStack Helix 1.8.9",
+      "vendor": "LumenStack",
+      "version": "1.8.9",
+      "updated_at": "2026-07-20",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 32768,
+      "input_price_per_million": 0.35,
+      "license": "commercial",
+      "description": "Helix inference endpoint for text-generation, structured-output, batch workloads; 32,768-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/lumenstack-helix-0076",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0081",
+      "name": "QuantaHarbor Spruce 2.3.7",
+      "vendor": "QuantaHarbor",
+      "version": "2.3.7",
+      "updated_at": "2026-08-26",
+      "status": "ga",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 0.18,
+      "license": "commercial",
+      "description": "Spruce inference endpoint for tool-use, reasoning, batch workloads; 65,536-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/quantaharbor-spruce-0081",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0088",
+      "name": "AsterCompute Nova 1.4.6",
+      "vendor": "AsterCompute",
+      "version": "1.4.6",
+      "updated_at": "2026-07-21",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 32768,
+      "input_price_per_million": 1.15,
+      "license": "commercial",
+      "description": "Nova inference endpoint for tool-use, reasoning, batch workloads; 32,768-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/astercompute-nova-0088",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0093",
+      "name": "NorthstarML Cinder 2.9.1",
+      "vendor": "NorthstarML",
+      "version": "2.9.1",
+      "updated_at": "2026-05-24",
+      "status": "active",
+      "capabilities": [
+        "structured-output",
+        "reasoning"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 0.85,
+      "license": "commercial",
+      "description": "Cinder inference endpoint for structured-output, reasoning workloads; 65,536-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/northstarml-cinder-0093",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0098",
+      "name": "EchoWorks Atlas 0.9.0",
+      "vendor": "EchoWorks",
+      "version": "0.9.0",
+      "updated_at": "2026-08-05",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 128000,
+      "input_price_per_million": 0.55,
+      "license": "commercial",
+      "description": "Atlas inference endpoint for tool-use, structured-output workloads; 128,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/echoworks-atlas-0098",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0105",
+      "name": "QuantaHarbor Spruce 2.5.5",
+      "vendor": "QuantaHarbor",
+      "version": "2.5.5",
+      "updated_at": "2026-06-12",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 1.67,
+      "license": "permissive",
+      "description": "Spruce inference endpoint for tool-use, structured-output workloads; 65,536-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/quantaharbor-spruce-0105",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0111",
+      "name": "ValeAI Meridian 0.9.0",
+      "vendor": "ValeAI",
+      "version": "0.9.0",
+      "updated_at": "2026-09-04",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 0.85,
+      "license": "commercial",
+      "description": "Meridian inference endpoint for text-generation, structured-output, batch workloads; 65,536-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/valeai-meridian-0111",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0121",
+      "name": "QuantaHarbor Spruce 2.3.7",
+      "vendor": "QuantaHarbor",
+      "version": "2.3.7",
+      "updated_at": "2026-08-14",
+      "status": "active",
+      "capabilities": [
+        "structured-output",
+        "reasoning"
+      ],
+      "context_tokens": 200000,
+      "input_price_per_million": 0.48,
+      "license": "commercial",
+      "description": "Spruce inference endpoint for structured-output, reasoning workloads; 200,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/quantaharbor-spruce-0121",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0123",
+      "name": "NimbusForge Prism 0.9.0",
+      "vendor": "NimbusForge",
+      "version": "0.9.0",
+      "updated_at": "2026-09-05",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 1.8,
+      "license": "commercial",
+      "description": "Prism inference endpoint for tool-use, reasoning, batch workloads; 65,536-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/nimbusforge-prism-0123",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0128",
+      "name": "AsterCompute Nova 1.4.9",
+      "vendor": "AsterCompute",
+      "version": "1.4.9",
+      "updated_at": "2026-07-27",
+      "status": "active",
+      "capabilities": [
+        "structured-output",
+        "reasoning"
+      ],
+      "context_tokens": 128000,
+      "input_price_per_million": 1.42,
+      "license": "commercial",
+      "description": "Nova inference endpoint for structured-output, reasoning workloads; 128,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/astercompute-nova-0128",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0130",
+      "name": "EchoWorks Atlas 0.9.0",
+      "vendor": "EchoWorks",
+      "version": "0.9.0",
+      "updated_at": "2026-07-31",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 32768,
+      "input_price_per_million": 0.35,
+      "license": "permissive",
+      "description": "Atlas inference endpoint for tool-use, reasoning, batch workloads; 32,768-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/echoworks-atlas-0130",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0133",
+      "name": "NorthstarML Cinder 2.9.1",
+      "vendor": "NorthstarML",
+      "version": "2.9.1",
+      "updated_at": "2026-09-02",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 200000,
+      "input_price_per_million": 1.28,
+      "license": "commercial",
+      "description": "Cinder inference endpoint for tool-use, structured-output workloads; 200,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/northstarml-cinder-0133",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0135",
+      "name": "ValeAI Meridian 0.9.0",
+      "vendor": "ValeAI",
+      "version": "0.9.0",
+      "updated_at": "2026-06-03",
+      "status": "ga",
+      "capabilities": [
+        "structured-output",
+        "reasoning"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 0.18,
+      "license": "permissive",
+      "description": "Meridian inference endpoint for structured-output, reasoning workloads; 65,536-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/valeai-meridian-0135",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0146",
+      "name": "EchoWorks Atlas 3.8.2",
+      "vendor": "EchoWorks",
+      "version": "3.8.2",
+      "updated_at": "2026-06-11",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 128000,
+      "input_price_per_million": 1.42,
+      "license": "commercial",
+      "description": "Atlas inference endpoint for text-generation, structured-output, batch workloads; 128,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/echoworks-atlas-0146",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0151",
+      "name": "ValeAI Meridian 4.3.7",
+      "vendor": "ValeAI",
+      "version": "4.3.7",
+      "updated_at": "2026-08-05",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 200000,
+      "input_price_per_million": 1.15,
+      "license": "commercial",
+      "description": "Meridian inference endpoint for tool-use, reasoning, batch workloads; 200,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/valeai-meridian-0151",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0160",
+      "name": "AsterCompute Nova 1.0.9",
+      "vendor": "AsterCompute",
+      "version": "1.0.9",
+      "updated_at": "2026-08-09",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 32768,
+      "input_price_per_million": 1.15,
+      "license": "permissive",
+      "description": "Nova inference endpoint for text-generation, structured-output, batch workloads; 32,768-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/astercompute-nova-0160",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0165",
+      "name": "NorthstarML Cinder 2.5.5",
+      "vendor": "NorthstarML",
+      "version": "2.5.5",
+      "updated_at": "2026-05-25",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 0.85,
+      "license": "permissive",
+      "description": "Cinder inference endpoint for tool-use, reasoning, batch workloads; 65,536-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/northstarml-cinder-0165",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0175",
+      "name": "ValeAI Meridian 4.5.5",
+      "vendor": "ValeAI",
+      "version": "4.5.5",
+      "updated_at": "2026-05-22",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 200000,
+      "input_price_per_million": 0.35,
+      "license": "permissive",
+      "description": "Meridian inference endpoint for tool-use, structured-output workloads; 200,000-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/valeai-meridian-0175",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0188",
+      "name": "LumenStack Helix 1.4.6",
+      "vendor": "LumenStack",
+      "version": "1.4.6",
+      "updated_at": "2026-06-21",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 128000,
+      "input_price_per_million": 0.55,
+      "license": "commercial",
+      "description": "Helix inference endpoint for text-generation, structured-output, batch workloads; 128,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/lumenstack-helix-0188",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0193",
+      "name": "QuantaHarbor Spruce 2.9.1",
+      "vendor": "QuantaHarbor",
+      "version": "2.9.1",
+      "updated_at": "2026-08-15",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "reasoning",
+        "batch"
+      ],
+      "context_tokens": 200000,
+      "input_price_per_million": 0.35,
+      "license": "commercial",
+      "description": "Spruce inference endpoint for tool-use, reasoning, batch workloads; 200,000-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/quantaharbor-spruce-0193",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0195",
+      "name": "NimbusForge Prism 4.5.5",
+      "vendor": "NimbusForge",
+      "version": "4.5.5",
+      "updated_at": "2026-09-06",
+      "status": "active",
+      "capabilities": [
+        "text-generation",
+        "structured-output",
+        "batch"
+      ],
+      "context_tokens": 65536,
+      "input_price_per_million": 1.8,
+      "license": "permissive",
+      "description": "Prism inference endpoint for text-generation, structured-output, batch workloads; 65,536-token context and permissive use terms.",
+      "canonical_url": "https://models.example.test/catalog/nimbusforge-prism-0195",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    },
+    {
+      "model_id": "mdl-0196",
+      "name": "LumenStack Helix 1.8.2",
+      "vendor": "LumenStack",
+      "version": "1.8.2",
+      "updated_at": "2026-05-27",
+      "status": "active",
+      "capabilities": [
+        "tool-use",
+        "structured-output"
+      ],
+      "context_tokens": 32768,
+      "input_price_per_million": 1.15,
+      "license": "commercial",
+      "description": "Helix inference endpoint for tool-use, structured-output workloads; 32,768-token context and commercial use terms.",
+      "canonical_url": "https://models.example.test/catalog/lumenstack-helix-0196",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-08-01",
+      "decision": "new"
+    }
+  ],
+  "snapshot_at": "2026-08-01"
+}

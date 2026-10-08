@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "local-docs": {
+      "description": "Read-only documentation index bundled with the repository",
+      "command": "python3",
+      "args": [
+        "-m",
+        "helio_docs_mcp",
+        "--read-only"
+      ],
+      "env": {
+        "DOCS_ROOT": "${CLAUDE_PROJECT_DIR}/docs"
+      }
+    },
+    "repo-index": {
+      "description": "Builds a source index on demand",
+      "command": "npx",
+      "args": [
+        "-y",
+        "fictional-repo-indexer@latest"
+      ]
+    },
+    "release-bridge": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "python3 ${CLAUDE_PROJECT_DIR}/scripts/release_bridge.py --stdio"
+      ],
+      "env": {
+        "RELEASE_CHANNEL": "${HELIO_RELEASE_CHANNEL}"
+      }
+    }
+  }
+}

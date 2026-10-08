@@ -1,0 +1,72 @@
+[
+  {
+    "change_id": "CHG-01",
+    "change": "stable relationship export",
+    "status": "available",
+    "asset_id": "ASSET-RELATIONSHIP-EXPORT",
+    "implication": "Ticket links, service ownership, and handoff paths can now be evaluated offline."
+  },
+  {
+    "change_id": "CHG-02",
+    "change": "authorization-label simulator",
+    "status": "available",
+    "asset_id": "ASSET-AUTHZ-SIMULATOR",
+    "implication": "Candidate generation and disclosure behavior can be tested for multiple requester roles."
+  },
+  {
+    "change_id": "CHG-03",
+    "change": "service rename ledger",
+    "status": "available",
+    "asset_id": "ASSET-SERVICE-LEDGER",
+    "implication": "Temporal alias normalization can be compared with a static dictionary."
+  },
+  {
+    "change_id": "CHG-04",
+    "change": "expanded offline replay",
+    "status": "available",
+    "asset_id": "ASSET-OFFLINE-REPLAY",
+    "implication": "Two hundred forty frozen query cases now cover cross-team and restricted slices."
+  },
+  {
+    "change_id": "CHG-05",
+    "change": "local small encoder",
+    "status": "available",
+    "asset_id": "ASSET-LOCAL-ENCODER",
+    "implication": "Batch semantic comparisons are possible without network calls, within a 24 GPU-hour cap."
+  },
+  {
+    "change_id": "CHG-06",
+    "change": "per-stage latency profiler",
+    "status": "available",
+    "asset_id": "ASSET-LATENCY-PROFILER",
+    "implication": "Selective reranking and candidate-growth costs can be measured by stage."
+  },
+  {
+    "change_id": "CHG-07",
+    "change": "masked-result notice component",
+    "status": "available",
+    "asset_id": "ASSET-MASKED-RESULT-UI",
+    "implication": "The interface can disclose that evidence was withheld without revealing its content."
+  },
+  {
+    "change_id": "CHG-08",
+    "change": "relationship freshness timestamps",
+    "status": "available",
+    "asset_id": "ASSET-RELATIONSHIP-EXPORT",
+    "implication": "Stale ownership and handoff edges can be gated or weighted instead of treated equally."
+  },
+  {
+    "change_id": "CHG-09",
+    "change": "internal review capacity",
+    "status": "available",
+    "asset_id": "ASSET-OFFLINE-REPLAY",
+    "implication": "Two operators and one security reviewer can inspect at most thirty replay cases."
+  },
+  {
+    "change_id": "CHG-10",
+    "change": "production experiment window",
+    "status": "unavailable",
+    "asset_id": null,
+    "implication": "The pilot cannot use production traffic or recruit external participants."
+  }
+]

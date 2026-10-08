@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__workflow_preservation",
+      "title": "Workflow preservation and artifact contract",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The output is a readable deployable workflow export that retains the supplied workflow identity, node inventory, node identities, positions, and connection graph while remaining inactive.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_export_preserves_workflow_contract"
+      ]
+    },
+    {
+      "id": "completion__operation_dependencies",
+      "title": "Operation-specific and conditional node configuration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Versioned node parameters correctly implement the webhook, unary IF, GET query, POST JSON body, and response-building requirements without stale hidden fields.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_operation_specific_and_conditional_configuration"
+      ]
+    },
+    {
+      "id": "completion__database_security_release",
+      "title": "Database safety and review readiness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The database UPSERT binds dynamic values, is explicitly transactional, keeps downstream execution alive, and the inactive export contains no fabricated credential bindings.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_database_security_and_review_readiness"
+      ]
+    },
+    {
+      "id": "completion__routing_responses",
+      "title": "Routing and response behavior",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Approved, waitlist, invalid, and unexpected inputs have identifiable handling, correct explicit HTTP outcomes, a non-dropping Switch fallback, and a correctly shaped coordinator alert.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_routing_and_response_behavior"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__workflow_preservation",
+        "title": "Workflow preservation and artifact contract",
+        "required_score": 10
+      },
+      {
+        "id": "completion__operation_dependencies",
+        "title": "Operation-specific and conditional node configuration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__database_security_release",
+        "title": "Database safety and review readiness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__routing_responses",
+        "title": "Routing and response behavior",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

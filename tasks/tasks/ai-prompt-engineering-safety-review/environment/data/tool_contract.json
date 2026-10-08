@@ -1,0 +1,31 @@
+{
+  "interface_version": "2026-07",
+  "model_permissions": "The model may propose an action but has no authority to execute tools.",
+  "tools": [
+    {
+      "name": "search_help_center",
+      "effect": "read_only",
+      "human_approval": false
+    },
+    {
+      "name": "issue_refund",
+      "effect": "financial",
+      "human_approval": true
+    },
+    {
+      "name": "disable_login",
+      "effect": "account_restriction",
+      "human_approval": true
+    },
+    {
+      "name": "close_account",
+      "effect": "irreversible",
+      "human_approval": true
+    },
+    {
+      "name": "change_email",
+      "effect": "identity_change",
+      "human_approval": true
+    }
+  ]
+}

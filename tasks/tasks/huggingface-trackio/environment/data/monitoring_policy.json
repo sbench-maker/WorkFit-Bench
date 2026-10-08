@@ -1,0 +1,53 @@
+{
+  "project": "vision-nightly",
+  "required_metrics": {
+    "every_step": [
+      "train_loss",
+      "learning_rate",
+      "grad_norm",
+      "tokens_per_second"
+    ],
+    "when_observed": [
+      "val_loss",
+      "val_accuracy"
+    ]
+  },
+  "diagnostics": {
+    "nonfinite_loss": {
+      "level": "error",
+      "trigger": "any non-finite train_loss"
+    },
+    "divergence": {
+      "level": "error",
+      "threshold": 2.0,
+      "consecutive_steps": 3,
+      "trend": "strictly_increasing"
+    },
+    "validation_plateau": {
+      "level": "warn",
+      "evaluation_points": 3,
+      "minimum_required_improvement": 0.015,
+      "maximum_range": 0.02,
+      "earliest_step": 40
+    }
+  },
+  "alert_behavior": "Emit the first alert of each diagnostic type per run; do not repeat it.",
+  "decision_priority": [
+    {
+      "decision": "STOP",
+      "condition": "one or more error alerts"
+    },
+    {
+      "decision": "INVESTIGATE",
+      "condition": "one or more warn alerts and no error alerts"
+    },
+    {
+      "decision": "CONTINUE",
+      "condition": "no warn or error alerts"
+    }
+  ],
+  "privacy": {
+    "remote_sync": false,
+    "webhooks": false
+  }
+}

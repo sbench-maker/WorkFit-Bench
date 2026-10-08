@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "site/data/activity.json": 240
+  },
+  "relationships": [
+    "Activity IDs are unique and all records are rendered by activity.html."
+  ],
+  "intentional_edge_cases": [
+    "Three plain-text activity fields contain HTML-shaped text.",
+    "The optional name and q query parameters are untrusted plain text.",
+    "The session-cookie policy is owned outside this repository."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "workspace": "Northstar Product Operations",
+  "clock": "2026-09-09T09:00:00Z",
+  "next_presentation_number": 43,
+  "next_permission_number": 8,
+  "presentations": [
+    {
+      "presentationId": "prs_0041",
+      "title": "Northstar Mobile Pilot Kickoff",
+      "createdAt": "2026-07-11T14:20:00Z",
+      "slides": [
+        {
+          "objectId": "slide_prs_0041_1",
+          "layout": "TITLE",
+          "pageElements": [
+            {
+              "objectId": "slide_prs_0041_1_title",
+              "placeholderType": "TITLE",
+              "text": "Northstar Mobile Pilot Kickoff"
+            },
+            {
+              "objectId": "slide_prs_0041_1_subtitle",
+              "placeholderType": "SUBTITLE",
+              "text": "Superseded concept review · July 2026"
+            }
+          ]
+        },
+        {
+          "objectId": "slide_prs_0041_2",
+          "layout": "TITLE_AND_BODY",
+          "pageElements": [
+            {
+              "objectId": "slide_prs_0041_2_title",
+              "placeholderType": "TITLE",
+              "text": "Concept assumptions"
+            },
+            {
+              "objectId": "slide_prs_0041_2_body",
+              "placeholderType": "BODY",
+              "text": "Unvalidated scope\nDesktop-only workflow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "presentationId": "prs_0042",
+      "title": "Field Enablement Weekly",
+      "createdAt": "2026-08-28T08:30:00Z",
+      "slides": [
+        {
+          "objectId": "slide_prs_0042_1",
+          "layout": "TITLE",
+          "pageElements": [
+            {
+              "objectId": "slide_prs_0042_1_title",
+              "placeholderType": "TITLE",
+              "text": "Field Enablement Weekly"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "permissionId": "perm_0006",
+      "fileId": "prs_0041",
+      "role": "reader",
+      "type": "user",
+      "emailAddress": "archive-owner@northstar.example"
+    },
+    {
+      "permissionId": "perm_0007",
+      "fileId": "prs_0042",
+      "role": "writer",
+      "type": "user",
+      "emailAddress": "field-leads@northstar.example"
+    }
+  ],
+  "events": []
+}

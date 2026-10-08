@@ -1,0 +1,10 @@
+{
+  "construction": "deterministic fictional planning snapshot",
+  "files": {
+    "assumptions.csv": 20,
+    "research_observations.csv": 240,
+    "experiment_resources.csv": 6
+  },
+  "join_key": "assumption_id",
+  "completeness": "All 20 assumptions have 12 research observations; no input rows are truncated."
+}

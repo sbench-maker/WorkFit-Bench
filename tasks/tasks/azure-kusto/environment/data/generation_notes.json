@@ -1,0 +1,14 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "request_telemetry.csv": 10440,
+    "deployments.csv": 15,
+    "service_objectives.csv": 4
+  },
+  "snapshot_start": "2026-08-18T00:00:00Z",
+  "snapshot_end_exclusive": "2026-08-21T00:00:00Z",
+  "notes": [
+    "Fictional service names and telemetry only.",
+    "Includes routine variation and isolated background failures."
+  ]
+}

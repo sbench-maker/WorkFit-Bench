@@ -1,0 +1,201 @@
+competitor_page_id,competitor_id,competitor_name,page_slug,page_type,cluster_id,title,content_depth_score,schema_types,proof_signal,observed_on,evidence_status
+CP01001,COMP01,NumericOne,/feature/financial-close-software-1,feature,C01,Financial Close Software — NumericOne Feature,1,none,author_bio,2026-08-31,current
+CP01002,COMP01,NumericOne,/solution/close-management-2,solution,C04,Close Management Software — NumericOne Solution,3,SoftwareApplication,customer_quote,2026-08-14,current
+CP01003,COMP01,NumericOne,/blog/close-process-3,blog,C07,Month End Close Process — NumericOne Blog,5,BlogPosting,methodology,2026-07-28,current
+CP01004,COMP01,NumericOne,/comparison/quickbooks-close-4,comparison,C10,Quickbooks Month End Close — NumericOne Comparison,2,Article,named_reviewer,2026-07-11,current
+CP01005,COMP01,NumericOne,/integration/close-automation-5,integration,C13,Financial Close Automation — NumericOne Integration,4,none,original_data,2026-06-24,current
+CP01006,COMP01,NumericOne,/guide/intercompany-reconciliation-6,guide,C16,Intercompany Reconciliation Software — NumericOne Guide,1,Article,none,2026-06-07,current
+CP01007,COMP01,NumericOne,/case-study/numericone-comparison-7,case-study,C19,Numericone Alternative — NumericOne Case-Study,3,Article|Organization,author_bio,2026-05-21,current
+CP01008,COMP01,NumericOne,/template/ledgerbeam-comparison-8,template,C22,Ledgerbeam Alternative — NumericOne Template,5,CreativeWork,customer_quote,2026-05-04,current
+CP01009,COMP01,NumericOne,/feature/financial-close-software-9,feature,C01,Financial Close Software — NumericOne Feature,2,none,methodology,2026-04-17,current
+CP01010,COMP01,NumericOne,/solution/close-management-10,solution,C04,Close Management Software — NumericOne Solution,4,SoftwareApplication,named_reviewer,2026-03-31,aging
+CP01011,COMP01,NumericOne,/blog/close-process-11,blog,C07,Month End Close Process — NumericOne Blog,1,BlogPosting,original_data,2026-03-14,aging
+CP01012,COMP01,NumericOne,/comparison/quickbooks-close-12,comparison,C10,Quickbooks Month End Close — NumericOne Comparison,3,Article,none,2026-02-25,aging
+CP01013,COMP01,NumericOne,/integration/close-automation-13,integration,C13,Financial Close Automation — NumericOne Integration,5,none,author_bio,2026-02-08,aging
+CP01014,COMP01,NumericOne,/guide/intercompany-reconciliation-14,guide,C16,Intercompany Reconciliation Software — NumericOne Guide,2,Article,customer_quote,2026-01-22,aging
+CP01015,COMP01,NumericOne,/case-study/numericone-comparison-15,case-study,C19,Numericone Alternative — NumericOne Case-Study,4,Article|Organization,methodology,2026-01-05,aging
+CP01016,COMP01,NumericOne,/template/ledgerbeam-comparison-16,template,C22,Ledgerbeam Alternative — NumericOne Template,1,CreativeWork,named_reviewer,2025-12-19,stale
+CP01017,COMP01,NumericOne,/feature/financial-close-software-17,feature,C01,Financial Close Software — NumericOne Feature,3,none,original_data,2025-12-02,stale
+CP01018,COMP01,NumericOne,/solution/close-management-18,solution,C04,Close Management Software — NumericOne Solution,5,SoftwareApplication,none,2025-11-15,stale
+CP01019,COMP01,NumericOne,/blog/close-process-19,blog,C07,Month End Close Process — NumericOne Blog,2,BlogPosting,author_bio,2025-10-29,stale
+CP01020,COMP01,NumericOne,/comparison/quickbooks-close-20,comparison,C10,Quickbooks Month End Close — NumericOne Comparison,4,Article,customer_quote,2025-10-12,stale
+CP01021,COMP01,NumericOne,/integration/close-automation-21,integration,C13,Financial Close Automation — NumericOne Integration,1,none,methodology,2026-08-21,current
+CP01022,COMP01,NumericOne,/guide/intercompany-reconciliation-22,guide,C16,Intercompany Reconciliation Software — NumericOne Guide,3,Article,named_reviewer,2026-08-04,current
+CP01023,COMP01,NumericOne,/case-study/numericone-comparison-23,case-study,C19,Numericone Alternative — NumericOne Case-Study,5,Article|Organization,original_data,2026-07-18,current
+CP01024,COMP01,NumericOne,/template/ledgerbeam-comparison-24,template,C22,Ledgerbeam Alternative — NumericOne Template,2,CreativeWork,none,2026-07-01,current
+CP01025,COMP01,NumericOne,/feature/financial-close-software-25,feature,C01,Financial Close Software — NumericOne Feature,4,none,author_bio,2026-06-14,current
+CP01026,COMP01,NumericOne,/solution/close-management-26,solution,C04,Close Management Software — NumericOne Solution,1,SoftwareApplication,customer_quote,2026-05-28,current
+CP01027,COMP01,NumericOne,/blog/close-process-27,blog,C07,Month End Close Process — NumericOne Blog,3,BlogPosting,methodology,2026-05-11,current
+CP01028,COMP01,NumericOne,/comparison/quickbooks-close-28,comparison,C10,Quickbooks Month End Close — NumericOne Comparison,5,Article,named_reviewer,2026-04-24,current
+CP01029,COMP01,NumericOne,/integration/close-automation-29,integration,C13,Financial Close Automation — NumericOne Integration,2,none,original_data,2026-04-07,current
+CP01030,COMP01,NumericOne,/guide/intercompany-reconciliation-30,guide,C16,Intercompany Reconciliation Software — NumericOne Guide,4,Article,none,2026-03-21,aging
+CP01031,COMP01,NumericOne,/case-study/numericone-comparison-31,case-study,C19,Numericone Alternative — NumericOne Case-Study,1,Article|Organization,author_bio,2026-03-04,aging
+CP01032,COMP01,NumericOne,/template/ledgerbeam-comparison-32,template,C22,Ledgerbeam Alternative — NumericOne Template,3,CreativeWork,customer_quote,2026-02-15,aging
+CP01033,COMP01,NumericOne,/feature/financial-close-software-33,feature,C01,Financial Close Software — NumericOne Feature,5,none,methodology,2026-01-29,aging
+CP01034,COMP01,NumericOne,/solution/close-management-34,solution,C04,Close Management Software — NumericOne Solution,2,SoftwareApplication,named_reviewer,2026-01-12,aging
+CP01035,COMP01,NumericOne,/blog/close-process-35,blog,C07,Month End Close Process — NumericOne Blog,4,BlogPosting,original_data,2025-12-26,stale
+CP01036,COMP01,NumericOne,/comparison/quickbooks-close-36,comparison,C10,Quickbooks Month End Close — NumericOne Comparison,1,Article,none,2025-12-09,stale
+CP01037,COMP01,NumericOne,/integration/close-automation-37,integration,C13,Financial Close Automation — NumericOne Integration,3,none,author_bio,2025-11-22,stale
+CP01038,COMP01,NumericOne,/guide/intercompany-reconciliation-38,guide,C16,Intercompany Reconciliation Software — NumericOne Guide,5,Article,customer_quote,2025-11-05,stale
+CP01039,COMP01,NumericOne,/case-study/numericone-comparison-39,case-study,C19,Numericone Alternative — NumericOne Case-Study,2,Article|Organization,methodology,2025-10-19,stale
+CP01040,COMP01,NumericOne,/template/ledgerbeam-comparison-40,template,C22,Ledgerbeam Alternative — NumericOne Template,4,CreativeWork,named_reviewer,2026-08-28,current
+CP02001,COMP02,ReconFlow,/solution/account-reconciliation-1,solution,C03,Account Reconciliation Software — ReconFlow Solution,2,SoftwareApplication,methodology,2026-08-08,current
+CP02002,COMP02,ReconFlow,/blog/close-checklist-2,blog,C06,Month End Close Checklist — ReconFlow Blog,4,BlogPosting,named_reviewer,2026-07-22,current
+CP02003,COMP02,ReconFlow,/comparison/netsuite-close-3,comparison,C09,Netsuite Month End Close — ReconFlow Comparison,1,Article,original_data,2026-07-05,current
+CP02004,COMP02,ReconFlow,/integration/audit-readiness-4,integration,C12,Audit Ready Close — ReconFlow Integration,3,none,none,2026-06-18,current
+CP02005,COMP02,ReconFlow,/guide/flux-analysis-5,guide,C15,Flux Analysis Software — ReconFlow Guide,5,Article,author_bio,2026-06-01,current
+CP02006,COMP02,ReconFlow,/case-study/close-benchmark-6,case-study,C18,Month End Close Benchmark — ReconFlow Case-Study,2,Article|Organization,customer_quote,2026-05-15,current
+CP02007,COMP02,ReconFlow,/template/monthendly-comparison-7,template,C21,Monthendly Alternative — ReconFlow Template,4,CreativeWork,methodology,2026-04-28,current
+CP02008,COMP02,ReconFlow,/feature/close-glossary-8,feature,C24,Financial Close Glossary — ReconFlow Feature,1,none,named_reviewer,2026-04-11,current
+CP02009,COMP02,ReconFlow,/solution/account-reconciliation-9,solution,C03,Account Reconciliation Software — ReconFlow Solution,3,SoftwareApplication,original_data,2026-03-25,aging
+CP02010,COMP02,ReconFlow,/blog/close-checklist-10,blog,C06,Month End Close Checklist — ReconFlow Blog,5,BlogPosting,none,2026-03-08,aging
+CP02011,COMP02,ReconFlow,/comparison/netsuite-close-11,comparison,C09,Netsuite Month End Close — ReconFlow Comparison,2,Article,author_bio,2026-02-19,aging
+CP02012,COMP02,ReconFlow,/integration/audit-readiness-12,integration,C12,Audit Ready Close — ReconFlow Integration,4,none,customer_quote,2026-02-02,aging
+CP02013,COMP02,ReconFlow,/guide/flux-analysis-13,guide,C15,Flux Analysis Software — ReconFlow Guide,1,Article,methodology,2026-01-16,aging
+CP02014,COMP02,ReconFlow,/case-study/close-benchmark-14,case-study,C18,Month End Close Benchmark — ReconFlow Case-Study,3,Article|Organization,named_reviewer,2025-12-30,stale
+CP02015,COMP02,ReconFlow,/template/monthendly-comparison-15,template,C21,Monthendly Alternative — ReconFlow Template,5,CreativeWork,original_data,2025-12-13,stale
+CP02016,COMP02,ReconFlow,/feature/close-glossary-16,feature,C24,Financial Close Glossary — ReconFlow Feature,2,none,none,2025-11-26,stale
+CP02017,COMP02,ReconFlow,/solution/account-reconciliation-17,solution,C03,Account Reconciliation Software — ReconFlow Solution,4,SoftwareApplication,author_bio,2025-11-09,stale
+CP02018,COMP02,ReconFlow,/blog/close-checklist-18,blog,C06,Month End Close Checklist — ReconFlow Blog,1,BlogPosting,customer_quote,2025-10-23,stale
+CP02019,COMP02,ReconFlow,/comparison/netsuite-close-19,comparison,C09,Netsuite Month End Close — ReconFlow Comparison,3,Article,methodology,2025-10-06,stale
+CP02020,COMP02,ReconFlow,/integration/audit-readiness-20,integration,C12,Audit Ready Close — ReconFlow Integration,5,none,named_reviewer,2026-08-15,current
+CP02021,COMP02,ReconFlow,/guide/flux-analysis-21,guide,C15,Flux Analysis Software — ReconFlow Guide,2,Article,original_data,2026-07-29,current
+CP02022,COMP02,ReconFlow,/case-study/close-benchmark-22,case-study,C18,Month End Close Benchmark — ReconFlow Case-Study,4,Article|Organization,none,2026-07-12,current
+CP02023,COMP02,ReconFlow,/template/monthendly-comparison-23,template,C21,Monthendly Alternative — ReconFlow Template,1,CreativeWork,author_bio,2026-06-25,current
+CP02024,COMP02,ReconFlow,/feature/close-glossary-24,feature,C24,Financial Close Glossary — ReconFlow Feature,3,none,customer_quote,2026-06-08,current
+CP02025,COMP02,ReconFlow,/solution/account-reconciliation-25,solution,C03,Account Reconciliation Software — ReconFlow Solution,5,SoftwareApplication,methodology,2026-05-22,current
+CP02026,COMP02,ReconFlow,/blog/close-checklist-26,blog,C06,Month End Close Checklist — ReconFlow Blog,2,BlogPosting,named_reviewer,2026-05-05,current
+CP02027,COMP02,ReconFlow,/comparison/netsuite-close-27,comparison,C09,Netsuite Month End Close — ReconFlow Comparison,4,Article,original_data,2026-04-18,current
+CP02028,COMP02,ReconFlow,/integration/audit-readiness-28,integration,C12,Audit Ready Close — ReconFlow Integration,1,none,none,2026-04-01,aging
+CP02029,COMP02,ReconFlow,/guide/flux-analysis-29,guide,C15,Flux Analysis Software — ReconFlow Guide,3,Article,author_bio,2026-03-15,aging
+CP02030,COMP02,ReconFlow,/case-study/close-benchmark-30,case-study,C18,Month End Close Benchmark — ReconFlow Case-Study,5,Article|Organization,customer_quote,2026-02-26,aging
+CP02031,COMP02,ReconFlow,/template/monthendly-comparison-31,template,C21,Monthendly Alternative — ReconFlow Template,2,CreativeWork,methodology,2026-02-09,aging
+CP02032,COMP02,ReconFlow,/feature/close-glossary-32,feature,C24,Financial Close Glossary — ReconFlow Feature,4,none,named_reviewer,2026-01-23,aging
+CP02033,COMP02,ReconFlow,/solution/account-reconciliation-33,solution,C03,Account Reconciliation Software — ReconFlow Solution,1,SoftwareApplication,original_data,2026-01-06,aging
+CP02034,COMP02,ReconFlow,/blog/close-checklist-34,blog,C06,Month End Close Checklist — ReconFlow Blog,3,BlogPosting,none,2025-12-20,stale
+CP02035,COMP02,ReconFlow,/comparison/netsuite-close-35,comparison,C09,Netsuite Month End Close — ReconFlow Comparison,5,Article,author_bio,2025-12-03,stale
+CP02036,COMP02,ReconFlow,/integration/audit-readiness-36,integration,C12,Audit Ready Close — ReconFlow Integration,2,none,customer_quote,2025-11-16,stale
+CP02037,COMP02,ReconFlow,/guide/flux-analysis-37,guide,C15,Flux Analysis Software — ReconFlow Guide,4,Article,methodology,2025-10-30,stale
+CP02038,COMP02,ReconFlow,/case-study/close-benchmark-38,case-study,C18,Month End Close Benchmark — ReconFlow Case-Study,1,Article|Organization,named_reviewer,2025-10-13,stale
+CP02039,COMP02,ReconFlow,/template/monthendly-comparison-39,template,C21,Monthendly Alternative — ReconFlow Template,3,CreativeWork,original_data,2026-08-22,current
+CP02040,COMP02,ReconFlow,/feature/close-glossary-40,feature,C24,Financial Close Glossary — ReconFlow Feature,5,none,none,2026-08-05,current
+CP03001,COMP03,MonthEndly,/blog/multi-entity-close-1,blog,C05,Multi Entity Close Software — MonthEndly Blog,3,BlogPosting,original_data,2026-07-16,current
+CP03002,COMP03,MonthEndly,/comparison/balance-sheet-reconciliation-2,comparison,C08,Balance Sheet Reconciliation — MonthEndly Comparison,5,Article,none,2026-06-29,current
+CP03003,COMP03,MonthEndly,/integration/sap-close-3,integration,C11,Sap Financial Close Automation — MonthEndly Integration,2,none,author_bio,2026-06-12,current
+CP03004,COMP03,MonthEndly,/guide/close-reporting-4,guide,C14,Month End Close Reporting — MonthEndly Guide,4,Article,customer_quote,2026-05-26,current
+CP03005,COMP03,MonthEndly,/case-study/close-roi-5,case-study,C17,Financial Close Roi Calculator — MonthEndly Case-Study,1,Article|Organization,methodology,2026-05-09,current
+CP03006,COMP03,MonthEndly,/template/reconflow-comparison-6,template,C20,Reconflow Alternative — MonthEndly Template,3,CreativeWork,named_reviewer,2026-04-22,current
+CP03007,COMP03,MonthEndly,/feature/clearclose-comparison-7,feature,C23,Clearclose Alternative — MonthEndly Feature,5,none,original_data,2026-04-05,current
+CP03008,COMP03,MonthEndly,/solution/month-end-close-software-8,solution,C02,Month End Close Software — MonthEndly Solution,2,SoftwareApplication,none,2026-03-19,aging
+CP03009,COMP03,MonthEndly,/blog/multi-entity-close-9,blog,C05,Multi Entity Close Software — MonthEndly Blog,4,BlogPosting,author_bio,2026-03-02,aging
+CP03010,COMP03,MonthEndly,/comparison/balance-sheet-reconciliation-10,comparison,C08,Balance Sheet Reconciliation — MonthEndly Comparison,1,Article,customer_quote,2026-02-13,aging
+CP03011,COMP03,MonthEndly,/integration/sap-close-11,integration,C11,Sap Financial Close Automation — MonthEndly Integration,3,none,methodology,2026-01-27,aging
+CP03012,COMP03,MonthEndly,/guide/close-reporting-12,guide,C14,Month End Close Reporting — MonthEndly Guide,5,Article,named_reviewer,2026-01-10,aging
+CP03013,COMP03,MonthEndly,/case-study/close-roi-13,case-study,C17,Financial Close Roi Calculator — MonthEndly Case-Study,2,Article|Organization,original_data,2025-12-24,stale
+CP03014,COMP03,MonthEndly,/template/reconflow-comparison-14,template,C20,Reconflow Alternative — MonthEndly Template,4,CreativeWork,none,2025-12-07,stale
+CP03015,COMP03,MonthEndly,/feature/clearclose-comparison-15,feature,C23,Clearclose Alternative — MonthEndly Feature,1,none,author_bio,2025-11-20,stale
+CP03016,COMP03,MonthEndly,/solution/month-end-close-software-16,solution,C02,Month End Close Software — MonthEndly Solution,3,SoftwareApplication,customer_quote,2025-11-03,stale
+CP03017,COMP03,MonthEndly,/blog/multi-entity-close-17,blog,C05,Multi Entity Close Software — MonthEndly Blog,5,BlogPosting,methodology,2025-10-17,stale
+CP03018,COMP03,MonthEndly,/comparison/balance-sheet-reconciliation-18,comparison,C08,Balance Sheet Reconciliation — MonthEndly Comparison,2,Article,named_reviewer,2026-08-26,current
+CP03019,COMP03,MonthEndly,/integration/sap-close-19,integration,C11,Sap Financial Close Automation — MonthEndly Integration,4,none,original_data,2026-08-09,current
+CP03020,COMP03,MonthEndly,/guide/close-reporting-20,guide,C14,Month End Close Reporting — MonthEndly Guide,1,Article,none,2026-07-23,current
+CP03021,COMP03,MonthEndly,/case-study/close-roi-21,case-study,C17,Financial Close Roi Calculator — MonthEndly Case-Study,3,Article|Organization,author_bio,2026-07-06,current
+CP03022,COMP03,MonthEndly,/template/reconflow-comparison-22,template,C20,Reconflow Alternative — MonthEndly Template,5,CreativeWork,customer_quote,2026-06-19,current
+CP03023,COMP03,MonthEndly,/feature/clearclose-comparison-23,feature,C23,Clearclose Alternative — MonthEndly Feature,2,none,methodology,2026-06-02,current
+CP03024,COMP03,MonthEndly,/solution/month-end-close-software-24,solution,C02,Month End Close Software — MonthEndly Solution,4,SoftwareApplication,named_reviewer,2026-05-16,current
+CP03025,COMP03,MonthEndly,/blog/multi-entity-close-25,blog,C05,Multi Entity Close Software — MonthEndly Blog,1,BlogPosting,original_data,2026-04-29,current
+CP03026,COMP03,MonthEndly,/comparison/balance-sheet-reconciliation-26,comparison,C08,Balance Sheet Reconciliation — MonthEndly Comparison,3,Article,none,2026-04-12,current
+CP03027,COMP03,MonthEndly,/integration/sap-close-27,integration,C11,Sap Financial Close Automation — MonthEndly Integration,5,none,author_bio,2026-03-26,aging
+CP03028,COMP03,MonthEndly,/guide/close-reporting-28,guide,C14,Month End Close Reporting — MonthEndly Guide,2,Article,customer_quote,2026-03-09,aging
+CP03029,COMP03,MonthEndly,/case-study/close-roi-29,case-study,C17,Financial Close Roi Calculator — MonthEndly Case-Study,4,Article|Organization,methodology,2026-02-20,aging
+CP03030,COMP03,MonthEndly,/template/reconflow-comparison-30,template,C20,Reconflow Alternative — MonthEndly Template,1,CreativeWork,named_reviewer,2026-02-03,aging
+CP03031,COMP03,MonthEndly,/feature/clearclose-comparison-31,feature,C23,Clearclose Alternative — MonthEndly Feature,3,none,original_data,2026-01-17,aging
+CP03032,COMP03,MonthEndly,/solution/month-end-close-software-32,solution,C02,Month End Close Software — MonthEndly Solution,5,SoftwareApplication,none,2025-12-31,stale
+CP03033,COMP03,MonthEndly,/blog/multi-entity-close-33,blog,C05,Multi Entity Close Software — MonthEndly Blog,2,BlogPosting,author_bio,2025-12-14,stale
+CP03034,COMP03,MonthEndly,/comparison/balance-sheet-reconciliation-34,comparison,C08,Balance Sheet Reconciliation — MonthEndly Comparison,4,Article,customer_quote,2025-11-27,stale
+CP03035,COMP03,MonthEndly,/integration/sap-close-35,integration,C11,Sap Financial Close Automation — MonthEndly Integration,1,none,methodology,2025-11-10,stale
+CP03036,COMP03,MonthEndly,/guide/close-reporting-36,guide,C14,Month End Close Reporting — MonthEndly Guide,3,Article,named_reviewer,2025-10-24,stale
+CP03037,COMP03,MonthEndly,/case-study/close-roi-37,case-study,C17,Financial Close Roi Calculator — MonthEndly Case-Study,5,Article|Organization,original_data,2025-10-07,stale
+CP03038,COMP03,MonthEndly,/template/reconflow-comparison-38,template,C20,Reconflow Alternative — MonthEndly Template,2,CreativeWork,none,2026-08-16,current
+CP03039,COMP03,MonthEndly,/feature/clearclose-comparison-39,feature,C23,Clearclose Alternative — MonthEndly Feature,4,none,author_bio,2026-07-30,current
+CP03040,COMP03,MonthEndly,/solution/month-end-close-software-40,solution,C02,Month End Close Software — MonthEndly Solution,1,SoftwareApplication,customer_quote,2026-07-13,current
+CP04001,COMP04,LedgerBeam,/comparison/close-process-1,comparison,C07,Month End Close Process — LedgerBeam Comparison,4,Article,author_bio,2026-06-23,current
+CP04002,COMP04,LedgerBeam,/integration/quickbooks-close-2,integration,C10,Quickbooks Month End Close — LedgerBeam Integration,1,none,customer_quote,2026-06-06,current
+CP04003,COMP04,LedgerBeam,/guide/close-automation-3,guide,C13,Financial Close Automation — LedgerBeam Guide,3,Article,methodology,2026-05-20,current
+CP04004,COMP04,LedgerBeam,/case-study/intercompany-reconciliation-4,case-study,C16,Intercompany Reconciliation Software — LedgerBeam Case-Study,5,Article|Organization,named_reviewer,2026-05-03,current
+CP04005,COMP04,LedgerBeam,/template/numericone-comparison-5,template,C19,Numericone Alternative — LedgerBeam Template,2,CreativeWork,original_data,2026-04-16,current
+CP04006,COMP04,LedgerBeam,/feature/ledgerbeam-comparison-6,feature,C22,Ledgerbeam Alternative — LedgerBeam Feature,4,none,none,2026-03-30,aging
+CP04007,COMP04,LedgerBeam,/solution/financial-close-software-7,solution,C01,Financial Close Software — LedgerBeam Solution,1,SoftwareApplication,author_bio,2026-03-13,aging
+CP04008,COMP04,LedgerBeam,/blog/close-management-8,blog,C04,Close Management Software — LedgerBeam Blog,3,BlogPosting,customer_quote,2026-02-24,aging
+CP04009,COMP04,LedgerBeam,/comparison/close-process-9,comparison,C07,Month End Close Process — LedgerBeam Comparison,5,Article,methodology,2026-02-07,aging
+CP04010,COMP04,LedgerBeam,/integration/quickbooks-close-10,integration,C10,Quickbooks Month End Close — LedgerBeam Integration,2,none,named_reviewer,2026-01-21,aging
+CP04011,COMP04,LedgerBeam,/guide/close-automation-11,guide,C13,Financial Close Automation — LedgerBeam Guide,4,Article,original_data,2026-01-04,aging
+CP04012,COMP04,LedgerBeam,/case-study/intercompany-reconciliation-12,case-study,C16,Intercompany Reconciliation Software — LedgerBeam Case-Study,1,Article|Organization,none,2025-12-18,stale
+CP04013,COMP04,LedgerBeam,/template/numericone-comparison-13,template,C19,Numericone Alternative — LedgerBeam Template,3,CreativeWork,author_bio,2025-12-01,stale
+CP04014,COMP04,LedgerBeam,/feature/ledgerbeam-comparison-14,feature,C22,Ledgerbeam Alternative — LedgerBeam Feature,5,none,customer_quote,2025-11-14,stale
+CP04015,COMP04,LedgerBeam,/solution/financial-close-software-15,solution,C01,Financial Close Software — LedgerBeam Solution,2,SoftwareApplication,methodology,2025-10-28,stale
+CP04016,COMP04,LedgerBeam,/blog/close-management-16,blog,C04,Close Management Software — LedgerBeam Blog,4,BlogPosting,named_reviewer,2025-10-11,stale
+CP04017,COMP04,LedgerBeam,/comparison/close-process-17,comparison,C07,Month End Close Process — LedgerBeam Comparison,1,Article,original_data,2026-08-20,current
+CP04018,COMP04,LedgerBeam,/integration/quickbooks-close-18,integration,C10,Quickbooks Month End Close — LedgerBeam Integration,3,none,none,2026-08-03,current
+CP04019,COMP04,LedgerBeam,/guide/close-automation-19,guide,C13,Financial Close Automation — LedgerBeam Guide,5,Article,author_bio,2026-07-17,current
+CP04020,COMP04,LedgerBeam,/case-study/intercompany-reconciliation-20,case-study,C16,Intercompany Reconciliation Software — LedgerBeam Case-Study,2,Article|Organization,customer_quote,2026-06-30,current
+CP04021,COMP04,LedgerBeam,/template/numericone-comparison-21,template,C19,Numericone Alternative — LedgerBeam Template,4,CreativeWork,methodology,2026-06-13,current
+CP04022,COMP04,LedgerBeam,/feature/ledgerbeam-comparison-22,feature,C22,Ledgerbeam Alternative — LedgerBeam Feature,1,none,named_reviewer,2026-05-27,current
+CP04023,COMP04,LedgerBeam,/solution/financial-close-software-23,solution,C01,Financial Close Software — LedgerBeam Solution,3,SoftwareApplication,original_data,2026-05-10,current
+CP04024,COMP04,LedgerBeam,/blog/close-management-24,blog,C04,Close Management Software — LedgerBeam Blog,5,BlogPosting,none,2026-04-23,current
+CP04025,COMP04,LedgerBeam,/comparison/close-process-25,comparison,C07,Month End Close Process — LedgerBeam Comparison,2,Article,author_bio,2026-04-06,current
+CP04026,COMP04,LedgerBeam,/integration/quickbooks-close-26,integration,C10,Quickbooks Month End Close — LedgerBeam Integration,4,none,customer_quote,2026-03-20,aging
+CP04027,COMP04,LedgerBeam,/guide/close-automation-27,guide,C13,Financial Close Automation — LedgerBeam Guide,1,Article,methodology,2026-03-03,aging
+CP04028,COMP04,LedgerBeam,/case-study/intercompany-reconciliation-28,case-study,C16,Intercompany Reconciliation Software — LedgerBeam Case-Study,3,Article|Organization,named_reviewer,2026-02-14,aging
+CP04029,COMP04,LedgerBeam,/template/numericone-comparison-29,template,C19,Numericone Alternative — LedgerBeam Template,5,CreativeWork,original_data,2026-01-28,aging
+CP04030,COMP04,LedgerBeam,/feature/ledgerbeam-comparison-30,feature,C22,Ledgerbeam Alternative — LedgerBeam Feature,2,none,none,2026-01-11,aging
+CP04031,COMP04,LedgerBeam,/solution/financial-close-software-31,solution,C01,Financial Close Software — LedgerBeam Solution,4,SoftwareApplication,author_bio,2025-12-25,stale
+CP04032,COMP04,LedgerBeam,/blog/close-management-32,blog,C04,Close Management Software — LedgerBeam Blog,1,BlogPosting,customer_quote,2025-12-08,stale
+CP04033,COMP04,LedgerBeam,/comparison/close-process-33,comparison,C07,Month End Close Process — LedgerBeam Comparison,3,Article,methodology,2025-11-21,stale
+CP04034,COMP04,LedgerBeam,/integration/quickbooks-close-34,integration,C10,Quickbooks Month End Close — LedgerBeam Integration,5,none,named_reviewer,2025-11-04,stale
+CP04035,COMP04,LedgerBeam,/guide/close-automation-35,guide,C13,Financial Close Automation — LedgerBeam Guide,2,Article,original_data,2025-10-18,stale
+CP04036,COMP04,LedgerBeam,/case-study/intercompany-reconciliation-36,case-study,C16,Intercompany Reconciliation Software — LedgerBeam Case-Study,4,Article|Organization,none,2026-08-27,current
+CP04037,COMP04,LedgerBeam,/template/numericone-comparison-37,template,C19,Numericone Alternative — LedgerBeam Template,1,CreativeWork,author_bio,2026-08-10,current
+CP04038,COMP04,LedgerBeam,/feature/ledgerbeam-comparison-38,feature,C22,Ledgerbeam Alternative — LedgerBeam Feature,3,none,customer_quote,2026-07-24,current
+CP04039,COMP04,LedgerBeam,/solution/financial-close-software-39,solution,C01,Financial Close Software — LedgerBeam Solution,5,SoftwareApplication,methodology,2026-07-07,current
+CP04040,COMP04,LedgerBeam,/blog/close-management-40,blog,C04,Close Management Software — LedgerBeam Blog,2,BlogPosting,named_reviewer,2026-06-20,current
+CP05001,COMP05,ClearClose,/integration/netsuite-close-1,integration,C09,Netsuite Month End Close — ClearClose Integration,5,none,methodology,2026-05-31,current
+CP05002,COMP05,ClearClose,/guide/audit-readiness-2,guide,C12,Audit Ready Close — ClearClose Guide,2,Article,named_reviewer,2026-05-14,current
+CP05003,COMP05,ClearClose,/case-study/flux-analysis-3,case-study,C15,Flux Analysis Software — ClearClose Case-Study,4,Article|Organization,original_data,2026-04-27,current
+CP05004,COMP05,ClearClose,/template/close-benchmark-4,template,C18,Month End Close Benchmark — ClearClose Template,1,CreativeWork,none,2026-04-10,current
+CP05005,COMP05,ClearClose,/feature/monthendly-comparison-5,feature,C21,Monthendly Alternative — ClearClose Feature,3,none,author_bio,2026-03-24,aging
+CP05006,COMP05,ClearClose,/solution/close-glossary-6,solution,C24,Financial Close Glossary — ClearClose Solution,5,SoftwareApplication,customer_quote,2026-03-07,aging
+CP05007,COMP05,ClearClose,/blog/account-reconciliation-7,blog,C03,Account Reconciliation Software — ClearClose Blog,2,BlogPosting,methodology,2026-02-18,aging
+CP05008,COMP05,ClearClose,/comparison/close-checklist-8,comparison,C06,Month End Close Checklist — ClearClose Comparison,4,Article,named_reviewer,2026-02-01,aging
+CP05009,COMP05,ClearClose,/integration/netsuite-close-9,integration,C09,Netsuite Month End Close — ClearClose Integration,1,none,original_data,2026-01-15,aging
+CP05010,COMP05,ClearClose,/guide/audit-readiness-10,guide,C12,Audit Ready Close — ClearClose Guide,3,Article,none,2025-12-29,stale
+CP05011,COMP05,ClearClose,/case-study/flux-analysis-11,case-study,C15,Flux Analysis Software — ClearClose Case-Study,5,Article|Organization,author_bio,2025-12-12,stale
+CP05012,COMP05,ClearClose,/template/close-benchmark-12,template,C18,Month End Close Benchmark — ClearClose Template,2,CreativeWork,customer_quote,2025-11-25,stale
+CP05013,COMP05,ClearClose,/feature/monthendly-comparison-13,feature,C21,Monthendly Alternative — ClearClose Feature,4,none,methodology,2025-11-08,stale
+CP05014,COMP05,ClearClose,/solution/close-glossary-14,solution,C24,Financial Close Glossary — ClearClose Solution,1,SoftwareApplication,named_reviewer,2025-10-22,stale
+CP05015,COMP05,ClearClose,/blog/account-reconciliation-15,blog,C03,Account Reconciliation Software — ClearClose Blog,3,BlogPosting,original_data,2026-08-31,current
+CP05016,COMP05,ClearClose,/comparison/close-checklist-16,comparison,C06,Month End Close Checklist — ClearClose Comparison,5,Article,none,2026-08-14,current
+CP05017,COMP05,ClearClose,/integration/netsuite-close-17,integration,C09,Netsuite Month End Close — ClearClose Integration,2,none,author_bio,2026-07-28,current
+CP05018,COMP05,ClearClose,/guide/audit-readiness-18,guide,C12,Audit Ready Close — ClearClose Guide,4,Article,customer_quote,2026-07-11,current
+CP05019,COMP05,ClearClose,/case-study/flux-analysis-19,case-study,C15,Flux Analysis Software — ClearClose Case-Study,1,Article|Organization,methodology,2026-06-24,current
+CP05020,COMP05,ClearClose,/template/close-benchmark-20,template,C18,Month End Close Benchmark — ClearClose Template,3,CreativeWork,named_reviewer,2026-06-07,current
+CP05021,COMP05,ClearClose,/feature/monthendly-comparison-21,feature,C21,Monthendly Alternative — ClearClose Feature,5,none,original_data,2026-05-21,current
+CP05022,COMP05,ClearClose,/solution/close-glossary-22,solution,C24,Financial Close Glossary — ClearClose Solution,2,SoftwareApplication,none,2026-05-04,current
+CP05023,COMP05,ClearClose,/blog/account-reconciliation-23,blog,C03,Account Reconciliation Software — ClearClose Blog,4,BlogPosting,author_bio,2026-04-17,current
+CP05024,COMP05,ClearClose,/comparison/close-checklist-24,comparison,C06,Month End Close Checklist — ClearClose Comparison,1,Article,customer_quote,2026-03-31,aging
+CP05025,COMP05,ClearClose,/integration/netsuite-close-25,integration,C09,Netsuite Month End Close — ClearClose Integration,3,none,methodology,2026-03-14,aging
+CP05026,COMP05,ClearClose,/guide/audit-readiness-26,guide,C12,Audit Ready Close — ClearClose Guide,5,Article,named_reviewer,2026-02-25,aging
+CP05027,COMP05,ClearClose,/case-study/flux-analysis-27,case-study,C15,Flux Analysis Software — ClearClose Case-Study,2,Article|Organization,original_data,2026-02-08,aging
+CP05028,COMP05,ClearClose,/template/close-benchmark-28,template,C18,Month End Close Benchmark — ClearClose Template,4,CreativeWork,none,2026-01-22,aging
+CP05029,COMP05,ClearClose,/feature/monthendly-comparison-29,feature,C21,Monthendly Alternative — ClearClose Feature,1,none,author_bio,2026-01-05,aging
+CP05030,COMP05,ClearClose,/solution/close-glossary-30,solution,C24,Financial Close Glossary — ClearClose Solution,3,SoftwareApplication,customer_quote,2025-12-19,stale
+CP05031,COMP05,ClearClose,/blog/account-reconciliation-31,blog,C03,Account Reconciliation Software — ClearClose Blog,5,BlogPosting,methodology,2025-12-02,stale
+CP05032,COMP05,ClearClose,/comparison/close-checklist-32,comparison,C06,Month End Close Checklist — ClearClose Comparison,2,Article,named_reviewer,2025-11-15,stale
+CP05033,COMP05,ClearClose,/integration/netsuite-close-33,integration,C09,Netsuite Month End Close — ClearClose Integration,4,none,original_data,2025-10-29,stale
+CP05034,COMP05,ClearClose,/guide/audit-readiness-34,guide,C12,Audit Ready Close — ClearClose Guide,1,Article,none,2025-10-12,stale
+CP05035,COMP05,ClearClose,/case-study/flux-analysis-35,case-study,C15,Flux Analysis Software — ClearClose Case-Study,3,Article|Organization,author_bio,2026-08-21,current
+CP05036,COMP05,ClearClose,/template/close-benchmark-36,template,C18,Month End Close Benchmark — ClearClose Template,5,CreativeWork,customer_quote,2026-08-04,current
+CP05037,COMP05,ClearClose,/feature/monthendly-comparison-37,feature,C21,Monthendly Alternative — ClearClose Feature,2,none,methodology,2026-07-18,current
+CP05038,COMP05,ClearClose,/solution/close-glossary-38,solution,C24,Financial Close Glossary — ClearClose Solution,4,SoftwareApplication,named_reviewer,2026-07-01,current
+CP05039,COMP05,ClearClose,/blog/account-reconciliation-39,blog,C03,Account Reconciliation Software — ClearClose Blog,1,BlogPosting,original_data,2026-06-14,current
+CP05040,COMP05,ClearClose,/comparison/close-checklist-40,comparison,C06,Month End Close Checklist — ClearClose Comparison,3,Article,none,2026-05-28,current

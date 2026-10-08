@@ -1,0 +1,2115 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "CodeQL",
+          "version": "2.18.4",
+          "rules": [
+            {
+              "id": "SEC-SQL-001",
+              "name": "SQL injection",
+              "shortDescription": {
+                "text": "SQL injection"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-CMD-002",
+              "name": "Command injection",
+              "shortDescription": {
+                "text": "Command injection"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-AUTH-003",
+              "name": "Missing authorization",
+              "shortDescription": {
+                "text": "Missing authorization"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-SSRF-004",
+              "name": "Server-side request forgery",
+              "shortDescription": {
+                "text": "Server-side request forgery"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "SEC-CRYPTO-005",
+              "name": "Weak cryptography",
+              "shortDescription": {
+                "text": "Weak cryptography"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "SEC-LOG-006",
+              "name": "Sensitive logging",
+              "shortDescription": {
+                "text": "Sensitive logging"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              }
+            },
+            {
+              "id": "SEC-PATH-007",
+              "name": "Path traversal",
+              "shortDescription": {
+                "text": "Path traversal"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "SEC-XSS-008",
+              "name": "Cross-site scripting",
+              "shortDescription": {
+                "text": "Cross-site scripting"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-DESER-009",
+              "name": "Unsafe deserialization",
+              "shortDescription": {
+                "text": "Unsafe deserialization"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-CORS-010",
+              "name": "Permissive CORS",
+              "shortDescription": {
+                "text": "Permissive CORS"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              }
+            }
+          ]
+        }
+      },
+      "originalUriBaseIds": {
+        "SRCROOT": {
+          "uri": "/opt/runner/work/nimbus-api/nimbus-api/"
+        }
+      },
+      "automationDetails": {
+        "id": "baseline/codeql/shard-1"
+      },
+      "results": [
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/identity/session.py"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 3,
+                  "endLine": 83,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0002-primary"
+          },
+          "ruleId": "SEC-CRYPTO-005"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/api/reports.py"
+                },
+                "region": {
+                  "startLine": 232,
+                  "startColumn": 7,
+                  "endLine": 232,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0006-match"
+          },
+          "ruleId": "SEC-AUTH-003"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/query/builder.py"
+                },
+                "region": {
+                  "startLine": 306,
+                  "startColumn": 9,
+                  "endLine": 306,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "Potentially sensitive data is written to an application log. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/core/commands.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 13,
+                  "endLine": 34,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0012-match"
+          },
+          "ruleId": "SEC-LOG-006"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "A broad cross-origin policy is configured. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/tests/helpers/fixtures.py"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 15,
+                  "endLine": 108,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0014-primary"
+          },
+          "ruleId": "SEC-CORS-010"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/client.py"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 2,
+                  "endLine": 257,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0018-match"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/workers/settlement/batch.py"
+                },
+                "region": {
+                  "startLine": 332,
+                  "startColumn": 4,
+                  "endLine": 332,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0020-primary"
+          },
+          "ruleId": "SEC-AUTH-003"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unparameterized SQL reaches a database query. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/jobs/export.py"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 8,
+                  "endLine": 59,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "ruleId": "SEC-SQL-001"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api/admin.py",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 10,
+                  "endLine": 134,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0026-primary"
+          },
+          "ruleId": "SEC-CRYPTO-005"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A request target is derived from untrusted input. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/models/account.py"
+                },
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 14,
+                  "endLine": 283,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0030-match"
+          },
+          "ruleId": "SEC-SSRF-004"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unescaped input is rendered into an HTML response. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/core/database.py"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 16,
+                  "endLine": 357,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "ruleId": "SEC-XSS-008"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/payments/refunds.py"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 3,
+                  "endLine": 85,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0036-match"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unparameterized SQL reaches a database query. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/core/serializer.py"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 5,
+                  "endLine": 159,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0038-primary"
+          },
+          "ruleId": "SEC-SQL-001"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/admin%20gateway/handler.py"
+                },
+                "region": {
+                  "startLine": 308,
+                  "startColumn": 9,
+                  "endLine": 308,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0042-match"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/render.py"
+                },
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 11,
+                  "endLine": 382,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0044-primary"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "legacy-0044"
+          },
+          "ruleId": "SEC-AUTH-003"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "User-controlled text reaches a shell command. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/identity/session.py"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 15,
+                  "endLine": 110,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "ruleId": "SEC-CMD-002"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "Potentially sensitive data is written to an application log. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/jobs/payment%20worker.py"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 17,
+                  "endLine": 185,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0050-primary"
+          },
+          "ruleId": "SEC-LOG-006"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/query/builder.py"
+                },
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 4,
+                  "endLine": 333,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0054-match"
+          },
+          "ruleId": "SEC-CRYPTO-005"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/payments/capture.py"
+                },
+                "region": {
+                  "startLine": 408,
+                  "startColumn": 6,
+                  "endLine": 408,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/tests/helpers/fixtures.py"
+                },
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 10,
+                  "endLine": 136,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0060-match"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "error",
+          "message": {
+            "markdown": "**Security finding:** Unparameterized SQL reaches a database query. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/storage/archive.py"
+                },
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 12,
+                  "endLine": 210,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0062-primary"
+          },
+          "ruleId": "SEC-SQL-001"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "A broad cross-origin policy is configured. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/workers/webhook/delivery.py"
+                },
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 16,
+                  "endLine": 359,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0066-match"
+          },
+          "ruleId": "SEC-CORS-010"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A request target is derived from untrusted input. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/billing/invoice.py"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "endLine": 12,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0068-primary"
+          },
+          "ruleId": "SEC-SSRF-004"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/api/reports.py"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 5,
+                  "endLine": 161,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "ruleId": "SEC-AUTH-003"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/audit/logger.py"
+                },
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 7,
+                  "endLine": 235,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0074-primary"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/core/commands.py",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 384,
+                  "startColumn": 11,
+                  "endLine": 384,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0078-match"
+          },
+          "ruleId": "SEC-CRYPTO-005"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/web/redirects.py"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 13,
+                  "endLine": 38,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unescaped input is rendered into an HTML response. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/client.py"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 17,
+                  "endLine": 186,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0084-match"
+          },
+          "ruleId": "SEC-XSS-008"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "User-controlled text reaches a shell command. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/workers/settlement/batch.py"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 2,
+                  "endLine": 261,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0086-primary"
+          },
+          "ruleId": "SEC-CMD-002"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unparameterized SQL reaches a database query. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/render.py"
+                },
+                "region": {
+                  "startLine": 410,
+                  "startColumn": 6,
+                  "endLine": 410,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0090-match"
+          },
+          "ruleId": "SEC-SQL-001"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/api/admin.py"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 8,
+                  "endLine": 63,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0092-primary"
+          },
+          "ruleId": "SEC-CRYPTO-005"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/jobs/payment%20worker.py"
+                },
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 12,
+                  "endLine": 212,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "ruleId": "SEC-AUTH-003"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/core/database.py"
+                },
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 14,
+                  "endLine": 286,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0098-primary"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "Potentially sensitive data is written to an application log. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/payments/capture.py"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 1,
+                  "endLine": 14,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0102-match"
+          },
+          "ruleId": "SEC-LOG-006"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "A broad cross-origin policy is configured. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/core/crypto.py",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 3,
+                  "endLine": 88,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "ruleId": "SEC-CORS-010"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/storage/uploads.py"
+                },
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 7,
+                  "endLine": 237,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0108-match"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/cors.py"
+                },
+                "region": {
+                  "startLine": 312,
+                  "startColumn": 9,
+                  "endLine": 312,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0110-primary"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "legacy-0110"
+          },
+          "ruleId": "SEC-AUTH-003"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unparameterized SQL reaches a database query. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/identity/session.py"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 13,
+                  "endLine": 39,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0114-match"
+          },
+          "ruleId": "SEC-SQL-001"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/jobs/reconcile.py"
+                },
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 15,
+                  "endLine": 114,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0116-primary"
+          },
+          "ruleIndex": 4
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A request target is derived from untrusted input. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/query/builder.py"
+                },
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 2,
+                  "endLine": 263,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "ruleId": "SEC-SSRF-004"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unescaped input is rendered into an HTML response. Trace variant 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/models/ledger.py"
+                },
+                "region": {
+                  "startLine": 337,
+                  "startColumn": 4,
+                  "endLine": 337,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "low"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0122-primary"
+          },
+          "ruleId": "SEC-XSS-008"
+        }
+      ]
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "CodeQL",
+          "version": "2.18.4",
+          "rules": [
+            {
+              "id": "SEC-SQL-001",
+              "name": "SQL injection",
+              "shortDescription": {
+                "text": "SQL injection"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-CMD-002",
+              "name": "Command injection",
+              "shortDescription": {
+                "text": "Command injection"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-AUTH-003",
+              "name": "Missing authorization",
+              "shortDescription": {
+                "text": "Missing authorization"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-SSRF-004",
+              "name": "Server-side request forgery",
+              "shortDescription": {
+                "text": "Server-side request forgery"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "SEC-CRYPTO-005",
+              "name": "Weak cryptography",
+              "shortDescription": {
+                "text": "Weak cryptography"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "SEC-LOG-006",
+              "name": "Sensitive logging",
+              "shortDescription": {
+                "text": "Sensitive logging"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              }
+            },
+            {
+              "id": "SEC-PATH-007",
+              "name": "Path traversal",
+              "shortDescription": {
+                "text": "Path traversal"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "SEC-XSS-008",
+              "name": "Cross-site scripting",
+              "shortDescription": {
+                "text": "Cross-site scripting"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-DESER-009",
+              "name": "Unsafe deserialization",
+              "shortDescription": {
+                "text": "Unsafe deserialization"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "SEC-CORS-010",
+              "name": "Permissive CORS",
+              "shortDescription": {
+                "text": "Permissive CORS"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              }
+            }
+          ]
+        }
+      },
+      "originalUriBaseIds": {
+        "SRCROOT": {
+          "uri": "/opt/runner/work/nimbus-api/nimbus-api/"
+        }
+      },
+      "automationDetails": {
+        "id": "baseline/codeql/shard-2"
+      },
+      "results": [
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/jobs/reconcile.py"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 5,
+                  "endLine": 157,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0004-primary"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "User-controlled text reaches a shell command. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/models/ledger.py"
+                },
+                "region": {
+                  "startLine": 381,
+                  "startColumn": 11,
+                  "endLine": 381,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0010-primary"
+          },
+          "ruleId": "SEC-CMD-002"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A request target is derived from untrusted input. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/storage/archive.py"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 17,
+                  "endLine": 183,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "ruleId": "SEC-SSRF-004"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/client.py"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 2,
+                  "endLine": 257,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0018-match"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/billing/invoice.py"
+                },
+                "region": {
+                  "startLine": 406,
+                  "startColumn": 6,
+                  "endLine": 406,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0022-primary"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "legacy-0022"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "A broad cross-origin policy is configured. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/audit/logger.py"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 12,
+                  "endLine": 208,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0028-primary"
+          },
+          "ruleId": "SEC-CORS-010"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "User-controlled text reaches a shell command. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/security/policy.py"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 1,
+                  "endLine": 10,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0034-primary"
+          },
+          "ruleId": "SEC-CMD-002"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/payments/refunds.py"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 3,
+                  "endLine": 85,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0036-match"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/tools/migration/runner.py"
+                },
+                "region": {
+                  "startLine": 234,
+                  "startColumn": 7,
+                  "endLine": 234,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "ruleId": "SEC-CRYPTO-005"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unescaped input is rendered into an HTML response. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/api/auth.py"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0046-primary"
+          },
+          "ruleId": "SEC-XSS-008"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "A broad cross-origin policy is configured. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api/webhooks.py",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 2,
+                  "endLine": 259,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0052-primary"
+          },
+          "ruleId": "SEC-CORS-010"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A deprecated cryptographic primitive is used. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/query/builder.py"
+                },
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 4,
+                  "endLine": 333,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0054-match"
+          },
+          "ruleId": "SEC-CRYPTO-005"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/core/crypto.py"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 8,
+                  "endLine": 61,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0058-primary"
+          },
+          "ruleIndex": 2
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "Potentially sensitive data is written to an application log. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/cors.py"
+                },
+                "region": {
+                  "startLine": 284,
+                  "startColumn": 14,
+                  "endLine": 284,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "ruleId": "SEC-LOG-006"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unescaped input is rendered into an HTML response. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/jobs/reconcile.py"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 3,
+                  "endLine": 87,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0070-primary"
+          },
+          "ruleId": "SEC-XSS-008"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "A privileged operation lacks an authorization check. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/api/reports.py"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 5,
+                  "endLine": 161,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "ruleId": "SEC-AUTH-003"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Unparameterized SQL reaches a database query. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/models/account.py"
+                },
+                "region": {
+                  "startLine": 310,
+                  "startColumn": 9,
+                  "endLine": 310,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0076-primary"
+          },
+          "ruleId": "SEC-SQL-001"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A request target is derived from untrusted input. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/payments/refunds.py"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 15,
+                  "endLine": 112,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0082-primary"
+          },
+          "ruleId": "SEC-SSRF-004"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "Potentially sensitive data is written to an application log. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/admin%20gateway/handler.py"
+                },
+                "region": {
+                  "startLine": 335,
+                  "startColumn": 4,
+                  "endLine": 335,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "ruleId": "SEC-LOG-006"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unparameterized SQL reaches a database query. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/http/render.py"
+                },
+                "region": {
+                  "startLine": 410,
+                  "startColumn": 6,
+                  "endLine": 410,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0090-match"
+          },
+          "ruleId": "SEC-SQL-001"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/services/notifications/template.py"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 10,
+                  "endLine": 137,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0094-primary"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "User-controlled text reaches a shell command. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/lib/security/policy.py"
+                },
+                "region": {
+                  "startLine": 361,
+                  "startColumn": 16,
+                  "endLine": 361,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0100-primary"
+          },
+          "ruleId": "SEC-CMD-002"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "A request target is derived from untrusted input. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/tools/migration/runner.py"
+                },
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 5,
+                  "endLine": 163,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0106-primary"
+          },
+          "ruleId": "SEC-SSRF-004"
+        },
+        {
+          "level": "error",
+          "message": {
+            "text": "Untrusted data reaches an unsafe deserializer. Trace variant 1."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/storage/uploads.py"
+                },
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 7,
+                  "endLine": 237,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "high"
+          },
+          "fingerprints": {
+            "matchBasedId/v1": "nmb-0108-match"
+          },
+          "ruleId": "SEC-DESER-009"
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "An untrusted path is used without containment validation. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/api/auth.py"
+                },
+                "region": {
+                  "startLine": 386,
+                  "startColumn": 11,
+                  "endLine": 386,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "ruleId": "SEC-PATH-007"
+        },
+        {
+          "level": "note",
+          "message": {
+            "text": "A broad cross-origin policy is configured. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/api/reports.py"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 17,
+                  "endLine": 188,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0118-primary"
+          },
+          "ruleId": "SEC-CORS-010"
+        },
+        {
+          "level": "error",
+          "message": {
+            "markdown": "**Security finding:** User-controlled text reaches a shell command. Trace variant 5."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/opt/runner/work/nimbus-api/nimbus-api/src/core/commands.py"
+                },
+                "region": {
+                  "startLine": 411,
+                  "startColumn": 6,
+                  "endLine": 411,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "confidence": "medium"
+          },
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "nmb-0124-primary"
+          },
+          "ruleId": "SEC-CMD-002"
+        }
+      ]
+    }
+  ]
+}

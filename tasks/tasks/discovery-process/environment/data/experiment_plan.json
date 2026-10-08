@@ -1,0 +1,13 @@
+{
+  "experiment_id": "EXP_IMPORT_01",
+  "population": "120 first-time HR/L&D administrators from 50-499 employee organizations",
+  "randomization": "1:1 between current import and guided repair prototype",
+  "variants": {
+    "control": "Current generic validation banner",
+    "guided_repair": "Field-level errors, repairable failed-row file, and next-step checklist"
+  },
+  "primary_metric": "valid import completed unaided within 15 minutes, intention-to-treat",
+  "guardrail_metric": "any invalid employee record admitted",
+  "minimum_absolute_uplift_percentage_points": 20.0,
+  "maximum_guardrail_increase_percentage_points": 2.0
+}

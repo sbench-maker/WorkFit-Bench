@@ -1,0 +1,70 @@
+{
+  "project": "Northstar Offline Studio",
+  "release": "R7",
+  "as_of": "2026-08-14T18:00:00Z",
+  "valid_states": [
+    "backlog",
+    "ready",
+    "running",
+    "review",
+    "blocked",
+    "merged",
+    "archived"
+  ],
+  "state_precedence": [
+    "archived",
+    "merged",
+    "blocked",
+    "review",
+    "running",
+    "ready",
+    "backlog"
+  ],
+  "state_rules": {
+    "archived": "archived_reason is non-empty",
+    "merged": "a merge evidence row has status pass",
+    "blocked": "an open blocker marked state_blocking=true exists or a required gate has status fail",
+    "review": "all acceptance checks pass, every required gate passes, at least one changed file exists, and a passing handoff exists",
+    "running": "at least one changed file exists or a running heartbeat exists, but review conditions are incomplete",
+    "ready": "acceptance criteria, one owner, branch, worktree, and scope are all present, with no changed file",
+    "backlog": "the item is not fully shaped for Ready"
+  },
+  "gate_kinds": [
+    "test",
+    "eval",
+    "diff_review",
+    "risk_review",
+    "content_check",
+    "handoff"
+  ],
+  "gate_resolution": "For each required gate, use the latest evidence at or before as_of. Missing evidence is pending; fail is state-blocking.",
+  "ownership": {
+    "component_primary": {
+      "platform": "atlas",
+      "api": "nova",
+      "web": "ember",
+      "security": "shield",
+      "docs": "quill",
+      "quality": "lumen",
+      "ml": "sage",
+      "mobile": "orion",
+      "billing": "orion",
+      "cli": "lumen"
+    },
+    "missing_owner_rule": "Assign the component primary owner."
+  },
+  "boundary_rules": {
+    "missing_branch": "agent/{card_id}-{slug}",
+    "missing_worktree": "/worktrees/{card_id}",
+    "unsafe_shared_worktree": "Replace worktree '.' with /worktrees/{card_id} before the card can resume.",
+    "scope_contract": "Use the declared scope_files; forbidden_files remain excluded.",
+    "overlap": "An open overlap blocker prevents Review and merge until its next action is completed."
+  },
+  "merge_policy": {
+    "candidate_state": "review",
+    "dependency_rule": "A card may enter the integration sequence only when each dependency is already merged or appears earlier in the same sequence.",
+    "ordering": "Repeatedly select available cards by priority P0, P1, P2, P3, then card_id.",
+    "ready_now": "review card whose dependencies are already merged",
+    "pending_dependency": "review card with an unmerged dependency"
+  }
+}

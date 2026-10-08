@@ -1,0 +1,206 @@
+line_id,budget_year,draft_category,description,quantity,unit_cost,proposed_amount,task_id,supporting_status
+C0001,1,materials_and_supplies,"Edge-node cabling and test consumables, month 1",1,130.00,130.00,T1,complete
+C0002,1,materials_and_supplies,"Encrypted storage media and labels, month 1",1,90.00,90.00,T1,complete
+C0003,1,other_direct,"Automated security testing service, month 1",1,218.00,218.00,T1,complete
+C0004,1,computer_services,"Secure compute and encrypted backup, month 1",1,420.00,420.00,T1,complete
+C0005,1,materials_and_supplies,"Edge-node cabling and test consumables, month 2",1,134.00,134.00,T1,complete
+C0006,1,materials_and_supplies,"Encrypted storage media and labels, month 2",1,93.00,93.00,T1,complete
+C0007,1,other_direct,"Automated security testing service, month 2",1,224.00,224.00,T1,complete
+C0008,1,computer_services,"Secure compute and encrypted backup, month 2",1,435.00,435.00,T1,complete
+C0009,1,materials_and_supplies,"Edge-node cabling and test consumables, month 3",1,138.00,138.00,T1,complete
+C0010,1,materials_and_supplies,"Encrypted storage media and labels, month 3",1,96.00,96.00,T1,complete
+C0011,1,other_direct,"Automated security testing service, month 3",1,230.00,230.00,T1,complete
+C0012,1,computer_services,"Secure compute and encrypted backup, month 3",1,450.00,450.00,T1,complete
+C0013,1,materials_and_supplies,"Edge-node cabling and test consumables, month 4",1,142.00,142.00,T1,complete
+C0014,1,materials_and_supplies,"Encrypted storage media and labels, month 4",1,99.00,99.00,T1,complete
+C0015,1,other_direct,"Automated security testing service, month 4",1,236.00,236.00,T1,complete
+C0016,1,computer_services,"Secure compute and encrypted backup, month 4",1,405.00,405.00,T1,complete
+C0017,1,materials_and_supplies,"Edge-node cabling and test consumables, month 5",1,146.00,146.00,T1,complete
+C0018,1,materials_and_supplies,"Encrypted storage media and labels, month 5",1,102.00,102.00,T1,complete
+C0019,1,other_direct,"Automated security testing service, month 5",1,242.00,242.00,T1,complete
+C0020,1,computer_services,"Secure compute and encrypted backup, month 5",1,420.00,420.00,T1,complete
+C0021,1,materials_and_supplies,"Edge-node cabling and test consumables, month 6",1,150.00,150.00,T1,complete
+C0022,1,materials_and_supplies,"Encrypted storage media and labels, month 6",1,105.00,105.00,T1,complete
+C0023,1,other_direct,"Automated security testing service, month 6",1,248.00,248.00,T1,complete
+C0024,1,computer_services,"Secure compute and encrypted backup, month 6",1,435.00,435.00,T1,complete
+C0025,1,materials_and_supplies,"Edge-node cabling and test consumables, month 7",1,154.00,154.00,T1,complete
+C0026,1,materials_and_supplies,"Encrypted storage media and labels, month 7",1,108.00,108.00,T1,complete
+C0027,1,other_direct,"Automated security testing service, month 7",1,254.00,254.00,T1,complete
+C0028,1,computer_services,"Secure compute and encrypted backup, month 7",1,450.00,450.00,T1,complete
+C0029,1,materials_and_supplies,"Edge-node cabling and test consumables, month 8",1,158.00,158.00,T1,complete
+C0030,1,materials_and_supplies,"Encrypted storage media and labels, month 8",1,111.00,111.00,T1,complete
+C0031,1,other_direct,"Automated security testing service, month 8",1,260.00,260.00,T1,complete
+C0032,1,computer_services,"Secure compute and encrypted backup, month 8",1,405.00,405.00,T1,complete
+C0033,1,materials_and_supplies,"Edge-node cabling and test consumables, month 9",1,162.00,162.00,T1,complete
+C0034,1,materials_and_supplies,"Encrypted storage media and labels, month 9",1,114.00,114.00,T1,complete
+C0035,1,other_direct,"Automated security testing service, month 9",1,266.00,266.00,T1,complete
+C0036,1,computer_services,"Secure compute and encrypted backup, month 9",1,420.00,420.00,T1,complete
+C0037,1,materials_and_supplies,"Edge-node cabling and test consumables, month 10",1,166.00,166.00,T1,complete
+C0038,1,materials_and_supplies,"Encrypted storage media and labels, month 10",1,117.00,117.00,T1,complete
+C0039,1,other_direct,"Automated security testing service, month 10",1,272.00,272.00,T1,complete
+C0040,1,computer_services,"Secure compute and encrypted backup, month 10",1,435.00,435.00,T1,complete
+C0041,1,materials_and_supplies,"Edge-node cabling and test consumables, month 11",1,170.00,170.00,T1,complete
+C0042,1,materials_and_supplies,"Encrypted storage media and labels, month 11",1,120.00,120.00,T1,complete
+C0043,1,other_direct,"Automated security testing service, month 11",1,278.00,278.00,T1,complete
+C0044,1,computer_services,"Secure compute and encrypted backup, month 11",1,450.00,450.00,T1,complete
+C0045,1,materials_and_supplies,"Edge-node cabling and test consumables, month 12",1,174.00,174.00,T1,complete
+C0046,1,materials_and_supplies,"Encrypted storage media and labels, month 12",1,123.00,123.00,T1,complete
+C0047,1,other_direct,"Automated security testing service, month 12",1,284.00,284.00,T1,complete
+C0048,1,computer_services,"Secure compute and encrypted backup, month 12",1,405.00,405.00,T1,complete
+C0049,1,participant_support,"Community-college workshop stipend, participant 1",1,800.00,800.00,BI1,complete
+C0050,1,participant_support,"Community-college workshop travel, participant 1",1,450.00,450.00,BI1,complete
+C0051,1,participant_support,"Community-college workshop stipend, participant 2",1,800.00,800.00,BI1,complete
+C0052,1,participant_support,"Community-college workshop travel, participant 2",1,450.00,450.00,BI1,complete
+C0053,1,participant_support,"Community-college workshop stipend, participant 3",1,800.00,800.00,BI1,complete
+C0054,1,participant_support,"Community-college workshop travel, participant 3",1,450.00,450.00,BI1,complete
+C0055,1,participant_support,"Community-college workshop stipend, participant 4",1,800.00,800.00,BI1,complete
+C0056,1,participant_support,"Community-college workshop travel, participant 4",1,450.00,450.00,BI1,complete
+C0057,1,participant_support,"Community-college workshop stipend, participant 5",1,800.00,800.00,BI1,complete
+C0058,1,participant_support,"Community-college workshop travel, participant 5",1,450.00,450.00,BI1,complete
+C0059,1,participant_support,"Community-college workshop stipend, participant 6",1,800.00,800.00,BI1,complete
+C0060,1,participant_support,"Community-college workshop travel, participant 6",1,450.00,450.00,BI1,complete
+C0061,1,participant_support,"Community-college workshop stipend, participant 7",1,800.00,800.00,BI1,complete
+C0062,1,participant_support,"Community-college workshop travel, participant 7",1,450.00,450.00,BI1,complete
+C0063,1,participant_support,"Community-college workshop stipend, participant 8",1,800.00,800.00,BI1,complete
+C0064,1,participant_support,"Community-college workshop travel, participant 8",1,450.00,450.00,BI1,complete
+C0065,2,materials_and_supplies,"Edge-node cabling and test consumables, month 1",1,138.00,138.00,T2,complete
+C0066,2,materials_and_supplies,"Encrypted storage media and labels, month 1",1,95.00,95.00,T2,complete
+C0067,2,other_direct,"Automated security testing service, month 1",1,225.00,225.00,T2,complete
+C0068,2,computer_services,"Secure compute and encrypted backup, month 1",1,440.00,440.00,T2,complete
+C0069,2,materials_and_supplies,"Edge-node cabling and test consumables, month 2",1,142.00,142.00,T2,complete
+C0070,2,materials_and_supplies,"Encrypted storage media and labels, month 2",1,98.00,98.00,T2,complete
+C0071,2,other_direct,"Automated security testing service, month 2",1,231.00,231.00,T2,complete
+C0072,2,computer_services,"Secure compute and encrypted backup, month 2",1,455.00,455.00,T2,complete
+C0073,2,materials_and_supplies,"Edge-node cabling and test consumables, month 3",1,146.00,146.00,T2,complete
+C0074,2,materials_and_supplies,"Encrypted storage media and labels, month 3",1,101.00,101.00,T2,complete
+C0075,2,other_direct,"Automated security testing service, month 3",1,237.00,237.00,T2,complete
+C0076,2,computer_services,"Secure compute and encrypted backup, month 3",1,470.00,470.00,T2,complete
+C0077,2,materials_and_supplies,"Edge-node cabling and test consumables, month 4",1,150.00,150.00,T2,complete
+C0078,2,materials_and_supplies,"Encrypted storage media and labels, month 4",1,104.00,104.00,T2,complete
+C0079,2,other_direct,"Automated security testing service, month 4",1,243.00,243.00,T2,complete
+C0080,2,computer_services,"Secure compute and encrypted backup, month 4",1,425.00,425.00,T2,complete
+C0081,2,materials_and_supplies,"Edge-node cabling and test consumables, month 5",1,154.00,154.00,T2,complete
+C0082,2,materials_and_supplies,"Encrypted storage media and labels, month 5",1,107.00,107.00,T2,complete
+C0083,2,other_direct,"Automated security testing service, month 5",1,249.00,249.00,T2,complete
+C0084,2,computer_services,"Secure compute and encrypted backup, month 5",1,440.00,440.00,T2,complete
+C0085,2,materials_and_supplies,"Edge-node cabling and test consumables, month 6",1,158.00,158.00,T2,complete
+C0086,2,materials_and_supplies,"Encrypted storage media and labels, month 6",1,110.00,110.00,T2,complete
+C0087,2,other_direct,"Automated security testing service, month 6",1,255.00,255.00,T2,complete
+C0088,2,computer_services,"Secure compute and encrypted backup, month 6",1,455.00,455.00,T2,complete
+C0089,2,materials_and_supplies,"Edge-node cabling and test consumables, month 7",1,162.00,162.00,T2,complete
+C0090,2,materials_and_supplies,"Encrypted storage media and labels, month 7",1,113.00,113.00,T2,complete
+C0091,2,other_direct,"Automated security testing service, month 7",1,261.00,247.00,T2,complete
+C0092,2,computer_services,"Secure compute and encrypted backup, month 7",1,470.00,470.00,T2,complete
+C0093,2,materials_and_supplies,"Edge-node cabling and test consumables, month 8",1,166.00,166.00,T2,complete
+C0094,2,materials_and_supplies,"Encrypted storage media and labels, month 8",1,116.00,116.00,T2,complete
+C0095,2,other_direct,"Automated security testing service, month 8",1,267.00,267.00,T2,complete
+C0096,2,computer_services,"Secure compute and encrypted backup, month 8",1,425.00,425.00,T2,complete
+C0097,2,materials_and_supplies,"Edge-node cabling and test consumables, month 9",1,170.00,170.00,T2,complete
+C0098,2,materials_and_supplies,"Encrypted storage media and labels, month 9",1,119.00,119.00,T2,complete
+C0099,2,other_direct,"Automated security testing service, month 9",1,273.00,273.00,T2,complete
+C0100,2,computer_services,"Secure compute and encrypted backup, month 9",1,440.00,440.00,T2,complete
+C0101,2,materials_and_supplies,"Edge-node cabling and test consumables, month 10",1,174.00,174.00,T2,complete
+C0102,2,materials_and_supplies,"Encrypted storage media and labels, month 10",1,122.00,122.00,T2,complete
+C0103,2,other_direct,"Automated security testing service, month 10",1,279.00,279.00,T2,complete
+C0104,2,computer_services,"Secure compute and encrypted backup, month 10",1,455.00,455.00,T2,complete
+C0105,2,materials_and_supplies,"Edge-node cabling and test consumables, month 11",1,178.00,178.00,T2,complete
+C0106,2,materials_and_supplies,"Encrypted storage media and labels, month 11",1,125.00,125.00,T2,complete
+C0107,2,other_direct,"Automated security testing service, month 11",1,285.00,285.00,T2,complete
+C0108,2,computer_services,"Secure compute and encrypted backup, month 11",1,470.00,470.00,T2,complete
+C0109,2,materials_and_supplies,"Edge-node cabling and test consumables, month 12",1,182.00,182.00,T2,complete
+C0110,2,materials_and_supplies,"Encrypted storage media and labels, month 12",1,128.00,128.00,T2,complete
+C0111,2,other_direct,"Automated security testing service, month 12",1,291.00,291.00,T2,complete
+C0112,2,computer_services,"Secure compute and encrypted backup, month 12",1,425.00,425.00,T2,complete
+C0113,2,participant_support,"Community-college workshop stipend, participant 1",1,800.00,800.00,BI1,complete
+C0114,2,participant_support,"Community-college workshop travel, participant 1",1,450.00,450.00,BI1,complete
+C0115,2,participant_support,"Community-college workshop stipend, participant 2",1,800.00,800.00,BI1,complete
+C0116,2,participant_support,"Community-college workshop travel, participant 2",1,450.00,450.00,BI1,complete
+C0117,2,participant_support,"Community-college workshop stipend, participant 3",1,800.00,800.00,BI1,complete
+C0118,2,participant_support,"Community-college workshop travel, participant 3",1,450.00,450.00,BI1,complete
+C0119,2,participant_support,"Community-college workshop stipend, participant 4",1,800.00,800.00,BI1,complete
+C0120,2,participant_support,"Community-college workshop travel, participant 4",1,450.00,450.00,BI1,complete
+C0121,2,participant_support,"Community-college workshop stipend, participant 5",1,800.00,800.00,BI1,complete
+C0122,2,participant_support,"Community-college workshop travel, participant 5",1,450.00,450.00,BI1,complete
+C0123,2,participant_support,"Community-college workshop stipend, participant 6",1,800.00,800.00,BI1,complete
+C0124,2,participant_support,"Community-college workshop travel, participant 6",1,450.00,450.00,BI1,complete
+C0125,2,participant_support,"Community-college workshop stipend, participant 7",1,800.00,800.00,BI1,complete
+C0126,2,participant_support,"Community-college workshop travel, participant 7",1,450.00,450.00,BI1,complete
+C0127,2,participant_support,"Community-college workshop stipend, participant 8",1,800.00,800.00,BI1,complete
+C0128,2,participant_support,"Community-college workshop travel, participant 8",1,450.00,450.00,BI1,complete
+C0129,3,materials_and_supplies,"Edge-node cabling and test consumables, month 1",1,146.00,146.00,T3,complete
+C0130,3,materials_and_supplies,"Encrypted storage media and labels, month 1",1,100.00,100.00,T3,complete
+C0131,3,other_direct,"Automated security testing service, month 1",1,232.00,232.00,T3,complete
+C0132,3,computer_services,"Secure compute and encrypted backup, month 1",1,460.00,460.00,T3,complete
+C0133,3,materials_and_supplies,"Edge-node cabling and test consumables, month 2",1,150.00,150.00,T3,complete
+C0134,3,materials_and_supplies,"Encrypted storage media and labels, month 2",1,103.00,103.00,T3,complete
+C0135,3,other_direct,"Automated security testing service, month 2",1,238.00,238.00,T3,complete
+C0136,3,computer_services,"Secure compute and encrypted backup, month 2",1,475.00,475.00,T3,complete
+C0137,3,materials_and_supplies,"Edge-node cabling and test consumables, month 3",1,154.00,154.00,T3,complete
+C0138,3,materials_and_supplies,"Encrypted storage media and labels, month 3",1,106.00,106.00,T3,complete
+C0139,3,other_direct,"Automated security testing service, month 3",1,244.00,244.00,T3,complete
+C0140,3,computer_services,"Secure compute and encrypted backup, month 3",1,490.00,490.00,T3,complete
+C0141,3,materials_and_supplies,"Edge-node cabling and test consumables, month 4",1,158.00,158.00,T3,complete
+C0142,3,materials_and_supplies,"Encrypted storage media and labels, month 4",1,109.00,109.00,T3,complete
+C0143,3,other_direct,"Automated security testing service, month 4",1,250.00,250.00,T3,complete
+C0144,3,computer_services,"Secure compute and encrypted backup, month 4",1,445.00,445.00,T3,complete
+C0145,3,materials_and_supplies,"Edge-node cabling and test consumables, month 5",1,162.00,162.00,T3,complete
+C0146,3,materials_and_supplies,"Encrypted storage media and labels, month 5",1,112.00,112.00,T3,complete
+C0147,3,other_direct,"Automated security testing service, month 5",1,256.00,256.00,T3,complete
+C0148,3,computer_services,"Secure compute and encrypted backup, month 5",1,460.00,460.00,T3,complete
+C0149,3,materials_and_supplies,"Edge-node cabling and test consumables, month 6",1,166.00,166.00,T3,complete
+C0150,3,materials_and_supplies,"Encrypted storage media and labels, month 6",1,115.00,115.00,T3,complete
+C0151,3,other_direct,"Automated security testing service, month 6",1,262.00,262.00,T3,complete
+C0152,3,computer_services,"Secure compute and encrypted backup, month 6",1,475.00,475.00,T3,complete
+C0153,3,materials_and_supplies,"Edge-node cabling and test consumables, month 7",1,170.00,170.00,T3,complete
+C0154,3,materials_and_supplies,"Encrypted storage media and labels, month 7",1,118.00,118.00,T3,complete
+C0155,3,other_direct,"Automated security testing service, month 7",1,268.00,268.00,T3,complete
+C0156,3,computer_services,"Secure compute and encrypted backup, month 7",1,490.00,490.00,T3,complete
+C0157,3,materials_and_supplies,"Edge-node cabling and test consumables, month 8",1,174.00,174.00,T3,complete
+C0158,3,materials_and_supplies,"Encrypted storage media and labels, month 8",1,121.00,121.00,T3,complete
+C0159,3,other_direct,"Automated security testing service, month 8",1,274.00,274.00,T3,complete
+C0160,3,computer_services,"Secure compute and encrypted backup, month 8",1,445.00,445.00,T3,complete
+C0161,3,materials_and_supplies,"Edge-node cabling and test consumables, month 9",1,178.00,178.00,T3,complete
+C0162,3,materials_and_supplies,"Encrypted storage media and labels, month 9",1,124.00,124.00,T3,complete
+C0163,3,other_direct,"Automated security testing service, month 9",1,280.00,280.00,T3,complete
+C0164,3,computer_services,"Secure compute and encrypted backup, month 9",1,460.00,460.00,T3,complete
+C0165,3,materials_and_supplies,"Edge-node cabling and test consumables, month 10",1,182.00,182.00,T3,complete
+C0166,3,materials_and_supplies,"Encrypted storage media and labels, month 10",1,127.00,127.00,T3,complete
+C0167,3,other_direct,"Automated security testing service, month 10",1,286.00,286.00,T3,complete
+C0168,3,computer_services,"Secure compute and encrypted backup, month 10",1,475.00,475.00,T3,complete
+C0169,3,materials_and_supplies,"Edge-node cabling and test consumables, month 11",1,186.00,186.00,T3,complete
+C0170,3,materials_and_supplies,"Encrypted storage media and labels, month 11",1,130.00,130.00,T3,complete
+C0171,3,other_direct,"Automated security testing service, month 11",1,292.00,292.00,T3,complete
+C0172,3,computer_services,"Secure compute and encrypted backup, month 11",1,490.00,490.00,T3,complete
+C0173,3,materials_and_supplies,"Edge-node cabling and test consumables, month 12",1,190.00,190.00,T3,complete
+C0174,3,materials_and_supplies,"Encrypted storage media and labels, month 12",1,133.00,133.00,T3,complete
+C0175,3,other_direct,"Automated security testing service, month 12",1,298.00,298.00,T3,complete
+C0176,3,computer_services,"Secure compute and encrypted backup, month 12",1,445.00,445.00,T3,complete
+C0177,3,participant_support,"Community-college workshop stipend, participant 1",1,800.00,800.00,BI1,complete
+C0178,3,participant_support,"Community-college workshop travel, participant 1",1,450.00,450.00,BI1,complete
+C0179,3,participant_support,"Community-college workshop stipend, participant 2",1,800.00,800.00,BI1,complete
+C0180,3,participant_support,"Community-college workshop travel, participant 2",1,450.00,450.00,BI1,complete
+C0181,3,participant_support,"Community-college workshop stipend, participant 3",1,800.00,800.00,BI1,complete
+C0182,3,participant_support,"Community-college workshop travel, participant 3",1,450.00,450.00,BI1,complete
+C0183,3,participant_support,"Community-college workshop stipend, participant 4",1,800.00,800.00,BI1,complete
+C0184,3,participant_support,"Community-college workshop travel, participant 4",1,450.00,450.00,BI1,complete
+C0185,3,participant_support,"Community-college workshop stipend, participant 5",1,800.00,800.00,BI1,complete
+C0186,3,participant_support,"Community-college workshop travel, participant 5",1,450.00,450.00,BI1,complete
+C0187,3,participant_support,"Community-college workshop stipend, participant 6",1,800.00,800.00,BI1,complete
+C0188,3,participant_support,"Community-college workshop travel, participant 6",1,450.00,450.00,BI1,complete
+C0189,3,participant_support,"Community-college workshop stipend, participant 7",1,800.00,800.00,BI1,complete
+C0190,3,participant_support,"Community-college workshop travel, participant 7",1,450.00,450.00,BI1,complete
+C0191,3,participant_support,"Community-college workshop stipend, participant 8",1,800.00,800.00,BI1,complete
+C0192,3,participant_support,"Community-college workshop travel, participant 8",1,450.00,450.00,BI1,complete
+C0193,1,materials_and_supplies,Rugged synchronized sensor array,2,7200.00,14400.00,T1,complete
+C0194,1,materials_and_supplies,Analysis laptop,1,4500.00,4500.00,T1,complete
+C0195,2,travel,National Secure Energy Systems Conference dissemination trip,3,1800.00,5400.00,D1,complete
+C0196,2,travel,Municipal testbed installation visits,4,800.00,3200.00,T3,complete
+C0197,3,travel,Municipal testbed validation visits,4,850.00,3400.00,T3,complete
+C0198,3,other_direct,Open-access publication charges,2,3000.00,6000.00,D1,complete
+C0199,1,consultant,Adversarial controls consultant,4,1800.00,7200.00,T2,rate_memo_cv_and_commitment_missing
+C0200,2,consultant,Adversarial controls consultant,4,1800.00,7200.00,T2,rate_memo_cv_and_commitment_missing
+C0201,3,consultant,Adversarial controls consultant,4,1800.00,7200.00,T2,rate_memo_cv_and_commitment_missing
+C0202,1,travel,Alcohol for project kickoff reception,1,780.00,780.00,M1,complete
+C0203,1,subaward,Cygnus Technical College cyber-physical validation subaward,1,42000.00,42000.00,T3,scope_and_detailed_budget_present_letter_missing
+C0204,2,subaward,Cygnus Technical College cyber-physical validation subaward,1,46000.00,46000.00,T3,scope_and_detailed_budget_present_letter_missing
+C0205,3,subaward,Cygnus Technical College cyber-physical validation subaward,1,38000.00,38000.00,T3,scope_and_detailed_budget_present_letter_missing

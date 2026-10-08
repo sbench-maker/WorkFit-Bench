@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__finding_correctness",
+      "title": "Material vulnerability coverage and severity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The assessment identifies the material permission, instruction-injection, MCP, hook, exfiltration, error-suppression, and agent-definition weaknesses in the frozen configuration, ties them to the correct files, and assigns defensible severity levels.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_material_findings_and_severity"
+      ]
+    },
+    {
+      "id": "completion__remediation_quality",
+      "title": "Actionable and security-preserving remediation",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Remediations are specific enough for the repository team to act on, reduce the cited attack path without recommending blanket disablement of safe controls, and keep credential-like values out of evidence and examples.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__safe_control_precision",
+      "title": "Safe-control recognition and false-positive control",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The report recognizes the existing deny rules, pre-tool guard, restricted local MCP setup, and least-privilege agents without misclassifying safe-only definitions as vulnerabilities.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_existing_safe_controls_recognized",
+        "test_safe_only_files_not_reported_as_vulnerabilities"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__finding_correctness",
+        "title": "Material vulnerability coverage and severity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__remediation_quality",
+        "title": "Actionable and security-preserving remediation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__safe_control_precision",
+        "title": "Safe-control recognition and false-positive control",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

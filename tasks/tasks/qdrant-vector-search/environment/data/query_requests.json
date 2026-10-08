@@ -1,0 +1,1352 @@
+[
+  {
+    "query_id": "Q001",
+    "question": "How should support recover a locked account?",
+    "query_vector": [
+      0.91538703,
+      0.02149637,
+      0.02328773,
+      0.0250791,
+      0.01791364,
+      0.39589145,
+      0.02149637,
+      0.02328773,
+      0.0250791,
+      0.01791364,
+      0.019705,
+      0.03224455
+    ],
+    "limit": 4,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "acme-finch"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "OrbitDesk"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1767225600
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1767225600
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "acme-finch",
+      "product": "OrbitDesk",
+      "language": "en",
+      "as_of_epoch": 1767225600,
+      "as_of": "2026-01-01"
+    }
+  },
+  {
+    "query_id": "Q002",
+    "question": "What steps apply to an incorrect invoice?",
+    "query_vector": [
+      0.02105821,
+      0.90023832,
+      0.02456791,
+      0.01754851,
+      0.01930336,
+      0.02105821,
+      0.39133167,
+      0.02456791,
+      0.01754851,
+      0.1772399,
+      0.02105821,
+      0.03860671
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "acme-finch"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "PulsePay"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1772323200
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1772323200
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "faq"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "us"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "acme-finch",
+      "product": "PulsePay",
+      "language": "en",
+      "as_of_epoch": 1772323200,
+      "as_of": "2026-03-01"
+    }
+  },
+  {
+    "query_id": "Q003",
+    "question": "How do we diagnose a failing webhook integration?",
+    "query_vector": [
+      0.02294354,
+      0.02470843,
+      0.90009266,
+      0.01941376,
+      0.02117865,
+      0.02294354,
+      0.02470843,
+      0.38827527,
+      0.01941376,
+      0.02117865,
+      0.18178342,
+      0.04588708
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "acme-finch"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "AtlasShip"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "es"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1788220800
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1788220800
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "runbook"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "eu"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "acme-finch",
+      "product": "AtlasShip",
+      "language": "es",
+      "as_of_epoch": 1788220800,
+      "as_of": "2026-09-01"
+    }
+  },
+  {
+    "query_id": "Q004",
+    "question": "What retention and export policy applies?",
+    "query_vector": [
+      0.02455608,
+      0.01754005,
+      0.01929406,
+      0.02104806,
+      0.89980477,
+      0.02455608,
+      0.01754005,
+      0.01929406,
+      0.3893892,
+      0.02280207,
+      0.18241656,
+      0.04385014
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "acme-finch"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "NimbusForms"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1793491200
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1793491200
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "policy"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "apac"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "acme-finch",
+      "product": "NimbusForms",
+      "language": "en",
+      "as_of_epoch": 1793491200,
+      "as_of": "2026-11-01"
+    }
+  },
+  {
+    "query_id": "Q005",
+    "question": "What should support check when requests become slow?",
+    "query_vector": [
+      0.01755951,
+      0.01931546,
+      0.02107142,
+      0.90080301,
+      0.02458332,
+      0.38630928,
+      0.01931546,
+      0.02107142,
+      0.02282737,
+      0.18261893,
+      0.01755951,
+      0.05092259
+    ],
+    "limit": 4,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "cobalt-grove"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "OrbitDesk"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1769904000
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1769904000
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "guide"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "cobalt-grove",
+      "product": "OrbitDesk",
+      "language": "en",
+      "as_of_epoch": 1769904000,
+      "as_of": "2026-02-01"
+    }
+  },
+  {
+    "query_id": "Q006",
+    "question": "How should support recover a locked account?",
+    "query_vector": [
+      0.91365153,
+      0.02145561,
+      0.02324358,
+      0.02503155,
+      0.01787968,
+      0.01966765,
+      0.39692884,
+      0.02324358,
+      0.02503155,
+      0.01787968,
+      0.01966765,
+      0.05900294
+    ],
+    "limit": 4,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "cobalt-grove"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "PulsePay"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1782864000
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1782864000
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "global"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "cobalt-grove",
+      "product": "PulsePay",
+      "language": "en",
+      "as_of_epoch": 1782864000,
+      "as_of": "2026-07-01"
+    }
+  },
+  {
+    "query_id": "Q007",
+    "question": "What steps apply to an incorrect invoice?",
+    "query_vector": [
+      0.02101022,
+      0.89818693,
+      0.02451192,
+      0.01750852,
+      0.01925937,
+      0.02101022,
+      0.02276107,
+      0.39219079,
+      0.01750852,
+      0.01925937,
+      0.17858688,
+      0.06478151
+    ],
+    "limit": 2,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "cobalt-grove"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "AtlasShip"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "es"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1777593600
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1777593600
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "runbook"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "cobalt-grove",
+      "product": "AtlasShip",
+      "language": "es",
+      "as_of_epoch": 1777593600,
+      "as_of": "2026-05-01"
+    }
+  },
+  {
+    "query_id": "Q008",
+    "question": "How do we diagnose a failing webhook integration?",
+    "query_vector": [
+      0.02289918,
+      0.02466066,
+      0.89835246,
+      0.01937623,
+      0.0211377,
+      0.02289918,
+      0.02466066,
+      0.01761475,
+      0.38928607,
+      0.17967049,
+      0.02289918,
+      0.07222049
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "cobalt-grove"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "NimbusForms"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1764547200
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1764547200
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "faq"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "us"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "cobalt-grove",
+      "product": "NimbusForms",
+      "language": "en",
+      "as_of_epoch": 1764547200,
+      "as_of": "2025-12-01"
+    }
+  },
+  {
+    "query_id": "Q009",
+    "question": "What retention and export policy applies?",
+    "query_vector": [
+      0.0244878,
+      0.01749129,
+      0.01924042,
+      0.02098954,
+      0.89730303,
+      0.39180483,
+      0.01749129,
+      0.01924042,
+      0.02098954,
+      0.02273867,
+      0.18190939,
+      0.06996515
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "lumen-harbor"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "OrbitDesk"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1796083200
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1796083200
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "policy"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "apac"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "lumen-harbor",
+      "product": "OrbitDesk",
+      "language": "en",
+      "as_of_epoch": 1796083200,
+      "as_of": "2026-12-01"
+    }
+  },
+  {
+    "query_id": "Q010",
+    "question": "What should support check when requests become slow?",
+    "query_vector": [
+      0.01753803,
+      0.01929183,
+      0.02104564,
+      0.89970098,
+      0.02455324,
+      0.01753803,
+      0.38759048,
+      0.02104564,
+      0.02279944,
+      0.02455324,
+      0.17538031,
+      0.07716734
+    ],
+    "limit": 4,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "lumen-harbor"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "PulsePay"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "es"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1785542400
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1785542400
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "runbook"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "eu"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "lumen-harbor",
+      "product": "PulsePay",
+      "language": "es",
+      "as_of_epoch": 1785542400,
+      "as_of": "2026-08-01"
+    }
+  },
+  {
+    "query_id": "Q011",
+    "question": "How should support recover a locked account?",
+    "query_vector": [
+      0.91127311,
+      0.02139976,
+      0.02318307,
+      0.02496639,
+      0.01783313,
+      0.01961645,
+      0.02139976,
+      0.39767887,
+      0.02496639,
+      0.01783313,
+      0.01961645,
+      0.08559904
+    ],
+    "limit": 5,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "lumen-harbor"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "AtlasShip"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1775001600
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1775001600
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "lumen-harbor",
+      "product": "AtlasShip",
+      "language": "en",
+      "as_of_epoch": 1775001600,
+      "as_of": "2026-04-01"
+    }
+  },
+  {
+    "query_id": "Q012",
+    "question": "What steps apply to an incorrect invoice?",
+    "query_vector": [
+      0.02102715,
+      0.89891057,
+      0.02453167,
+      0.01752262,
+      0.01927489,
+      0.02102715,
+      0.02277941,
+      0.02453167,
+      0.38549771,
+      0.17697849,
+      0.02102715,
+      0.09111764
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "lumen-harbor"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "NimbusForms"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1761955200
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1761955200
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "guide"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "global"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "lumen-harbor",
+      "product": "NimbusForms",
+      "language": "en",
+      "as_of_epoch": 1761955200,
+      "as_of": "2025-11-01"
+    }
+  },
+  {
+    "query_id": "Q013",
+    "question": "How do we diagnose a failing webhook integration?",
+    "query_vector": [
+      0.02281808,
+      0.02457332,
+      0.89517089,
+      0.01930761,
+      0.02106284,
+      0.39141786,
+      0.02457332,
+      0.01755237,
+      0.01930761,
+      0.17903418,
+      0.02281808,
+      0.09829327
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "acme-finch"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "OrbitDesk"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1780272000
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1780272000
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "faq"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "us"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "acme-finch",
+      "product": "OrbitDesk",
+      "language": "en",
+      "as_of_epoch": 1780272000,
+      "as_of": "2026-06-01"
+    }
+  },
+  {
+    "query_id": "Q014",
+    "question": "What retention and export policy applies?",
+    "query_vector": [
+      0.02448162,
+      0.01748687,
+      0.01923556,
+      0.02098425,
+      0.89707663,
+      0.02448162,
+      0.01748687,
+      0.38645991,
+      0.02098425,
+      0.02273294,
+      0.18186349,
+      0.09617781
+    ],
+    "limit": 2,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "cobalt-grove"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "AtlasShip"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1798761600
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1798761600
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "policy"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "apac"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "cobalt-grove",
+      "product": "AtlasShip",
+      "language": "en",
+      "as_of_epoch": 1798761600,
+      "as_of": "2027-01-01"
+    }
+  },
+  {
+    "query_id": "Q015",
+    "question": "What steps apply to an incorrect invoice?",
+    "query_vector": [
+      0.01755032,
+      0.89682114,
+      0.02106038,
+      0.02281541,
+      0.02457044,
+      0.01755032,
+      0.38786198,
+      0.02106038,
+      0.02281541,
+      0.02457044,
+      0.17550316,
+      0.10354686
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "lumen-harbor"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "PulsePay"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1767225600
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1767225600
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "policy"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "apac"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "lumen-harbor",
+      "product": "PulsePay",
+      "language": "en",
+      "as_of_epoch": 1767225600,
+      "as_of": "2026-01-01"
+    }
+  },
+  {
+    "query_id": "Q016",
+    "question": "What should support check when requests become slow?",
+    "query_vector": [
+      0.01945973,
+      0.0212288,
+      0.02299787,
+      0.90930023,
+      0.01769067,
+      0.01945973,
+      0.0212288,
+      0.02299787,
+      0.39627092,
+      0.01769067,
+      0.01945973,
+      0.1114512
+    ],
+    "limit": 5,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "acme-finch"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "NimbusForms"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1788220800
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1788220800
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "acme-finch",
+      "product": "NimbusForms",
+      "language": "en",
+      "as_of_epoch": 1788220800,
+      "as_of": "2026-09-01"
+    }
+  },
+  {
+    "query_id": "Q017",
+    "question": "What steps apply to an incorrect invoice?",
+    "query_vector": [
+      0.02093718,
+      0.89506444,
+      0.02442671,
+      0.01744765,
+      0.01919241,
+      0.38733783,
+      0.02268194,
+      0.02442671,
+      0.01744765,
+      0.01919241,
+      0.17796603,
+      0.11689925
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "cobalt-grove"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "OrbitDesk"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "es"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1767225600
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1767225600
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "runbook"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "eu"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "cobalt-grove",
+      "product": "OrbitDesk",
+      "language": "es",
+      "as_of_epoch": 1767225600,
+      "as_of": "2026-01-01"
+    }
+  },
+  {
+    "query_id": "Q018",
+    "question": "How do we diagnose a failing webhook integration?",
+    "query_vector": [
+      0.02279544,
+      0.02454894,
+      0.8942828,
+      0.01928845,
+      0.02104195,
+      0.02279544,
+      0.02454894,
+      0.38576905,
+      0.01928845,
+      0.17885656,
+      0.02279544,
+      0.12449819
+    ],
+    "limit": 3,
+    "filter": {
+      "must": [
+        {
+          "key": "tenant_id",
+          "match": {
+            "value": "lumen-harbor"
+          }
+        },
+        {
+          "key": "product",
+          "match": {
+            "value": "AtlasShip"
+          }
+        },
+        {
+          "key": "language",
+          "match": {
+            "value": "en"
+          }
+        },
+        {
+          "key": "status",
+          "match": {
+            "value": "published"
+          }
+        },
+        {
+          "key": "valid_from_epoch",
+          "range": {
+            "lte": 1767225600
+          }
+        },
+        {
+          "key": "valid_to_epoch",
+          "range": {
+            "gte": 1767225600
+          }
+        },
+        {
+          "key": "doc_type",
+          "match": {
+            "value": "guide"
+          }
+        },
+        {
+          "key": "region",
+          "match": {
+            "value": "moon"
+          }
+        }
+      ]
+    },
+    "request_context": {
+      "tenant_id": "lumen-harbor",
+      "product": "AtlasShip",
+      "language": "en",
+      "as_of_epoch": 1767225600,
+      "as_of": "2026-01-01"
+    }
+  }
+]

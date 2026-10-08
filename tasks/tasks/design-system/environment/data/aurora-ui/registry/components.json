@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "name": "Button",
+      "kind": "action",
+      "release_tier": "core",
+      "usage_count_30d": 1840,
+      "source": "src/components/Button/Button.tsx",
+      "style": "src/components/Button/Button.css",
+      "documentation": "docs/components/Button.md"
+    },
+    {
+      "name": "IconButton",
+      "kind": "action",
+      "release_tier": "core",
+      "usage_count_30d": 980,
+      "source": "src/components/IconButton/IconButton.tsx",
+      "style": "src/components/IconButton/IconButton.css",
+      "documentation": "docs/components/IconButton.md"
+    },
+    {
+      "name": "TextInput",
+      "kind": "form_control",
+      "release_tier": "core",
+      "usage_count_30d": 1320,
+      "source": "src/components/TextInput/TextInput.tsx",
+      "style": "src/components/TextInput/TextInput.css",
+      "documentation": "docs/components/TextInput.md"
+    },
+    {
+      "name": "Select",
+      "kind": "form_control",
+      "release_tier": "core",
+      "usage_count_30d": 870,
+      "source": "src/components/Select/Select.tsx",
+      "style": "src/components/Select/Select.css",
+      "documentation": "docs/components/Select.md"
+    },
+    {
+      "name": "Checkbox",
+      "kind": "choice_control",
+      "release_tier": "core",
+      "usage_count_30d": 640,
+      "source": "src/components/Checkbox/Checkbox.tsx",
+      "style": "src/components/Checkbox/Checkbox.css",
+      "documentation": "docs/components/Checkbox.md"
+    },
+    {
+      "name": "Radio",
+      "kind": "choice_control",
+      "release_tier": "core",
+      "usage_count_30d": 410,
+      "source": "src/components/Radio/Radio.tsx",
+      "style": "src/components/Radio/Radio.css",
+      "documentation": "docs/components/Radio.md"
+    },
+    {
+      "name": "Switch",
+      "kind": "choice_control",
+      "release_tier": "core",
+      "usage_count_30d": 520,
+      "source": "src/components/Switch/Switch.tsx",
+      "style": "src/components/Switch/Switch.css",
+      "documentation": "docs/components/Switch.md"
+    },
+    {
+      "name": "Badge",
+      "kind": "semantic_status",
+      "release_tier": "core",
+      "usage_count_30d": 760,
+      "source": "src/components/Badge/Badge.tsx",
+      "style": "src/components/Badge/Badge.css",
+      "documentation": "docs/components/Badge.md"
+    },
+    {
+      "name": "Alert",
+      "kind": "semantic_status",
+      "release_tier": "core",
+      "usage_count_30d": 330,
+      "source": "src/components/Alert/Alert.tsx",
+      "style": "src/components/Alert/Alert.css",
+      "documentation": "docs/components/Alert.md"
+    },
+    {
+      "name": "Toast",
+      "kind": "semantic_status",
+      "release_tier": "core",
+      "usage_count_30d": 290,
+      "source": "src/components/Toast/Toast.tsx",
+      "style": "src/components/Toast/Toast.css",
+      "documentation": "docs/components/Toast.md"
+    },
+    {
+      "name": "Modal",
+      "kind": "overlay",
+      "release_tier": "core",
+      "usage_count_30d": 620,
+      "source": "src/components/Modal/Modal.tsx",
+      "style": "src/components/Modal/Modal.css",
+      "documentation": "docs/components/Modal.md"
+    },
+    {
+      "name": "Tooltip",
+      "kind": "tooltip",
+      "release_tier": "core",
+      "usage_count_30d": 540,
+      "source": "src/components/Tooltip/Tooltip.tsx",
+      "style": "src/components/Tooltip/Tooltip.css",
+      "documentation": "docs/components/Tooltip.md"
+    },
+    {
+      "name": "Tabs",
+      "kind": "navigation",
+      "release_tier": "core",
+      "usage_count_30d": 740,
+      "source": "src/components/Tabs/Tabs.tsx",
+      "style": "src/components/Tabs/Tabs.css",
+      "documentation": "docs/components/Tabs.md"
+    },
+    {
+      "name": "Card",
+      "kind": "display",
+      "release_tier": "core",
+      "usage_count_30d": 1100,
+      "source": "src/components/Card/Card.tsx",
+      "style": "src/components/Card/Card.css",
+      "documentation": "docs/components/Card.md"
+    },
+    {
+      "name": "Table",
+      "kind": "data_display",
+      "release_tier": "core",
+      "usage_count_30d": 450,
+      "source": "src/components/Table/Table.tsx",
+      "style": "src/components/Table/Table.css",
+      "documentation": "docs/components/Table.md"
+    },
+    {
+      "name": "Avatar",
+      "kind": "display",
+      "release_tier": "supporting",
+      "usage_count_30d": 680,
+      "source": "src/components/Avatar/Avatar.tsx",
+      "style": "src/components/Avatar/Avatar.css",
+      "documentation": "docs/components/Avatar.md"
+    },
+    {
+      "name": "Skeleton",
+      "kind": "feedback",
+      "release_tier": "supporting",
+      "usage_count_30d": 210,
+      "source": "src/components/Skeleton/Skeleton.tsx",
+      "style": "src/components/Skeleton/Skeleton.css",
+      "documentation": "docs/components/Skeleton.md"
+    },
+    {
+      "name": "Breadcrumb",
+      "kind": "navigation",
+      "release_tier": "supporting",
+      "usage_count_30d": 360,
+      "source": "src/components/Breadcrumb/Breadcrumb.tsx",
+      "style": "src/components/Breadcrumb/Breadcrumb.css",
+      "documentation": "docs/components/Breadcrumb.md"
+    }
+  ]
+}

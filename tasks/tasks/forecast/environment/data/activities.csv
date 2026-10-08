@@ -1,0 +1,618 @@
+activity_id,deal_id,activity_date,activity_type,outcome
+ACT-00001,OPP-0001,2026-10-22,Legal review,Next step agreed
+ACT-00002,OPP-0001,2026-10-28,Demo,Follow-up scheduled
+ACT-00003,OPP-0001,2026-11-03,Email reply,Completed
+ACT-00004,OPP-0002,2026-10-21,Customer call,Follow-up scheduled
+ACT-00005,OPP-0002,2026-10-28,Security review,Completed
+ACT-00006,OPP-0002,2026-11-04,Legal review,Awaiting customer
+ACT-00007,OPP-0002,2026-11-11,Demo,Next step agreed
+ACT-00008,OPP-0003,2026-10-23,Security review,Follow-up scheduled
+ACT-00009,OPP-0003,2026-10-31,Legal review,Completed
+ACT-00010,OPP-0004,2026-10-21,Email reply,Completed
+ACT-00011,OPP-0004,2026-10-30,Customer call,Awaiting customer
+ACT-00012,OPP-0004,2026-11-08,Security review,Next step agreed
+ACT-00013,OPP-0006,2026-10-31,Demo,Awaiting customer
+ACT-00014,OPP-0006,2026-11-05,Email reply,Next step agreed
+ACT-00015,OPP-0007,2026-10-30,Security review,Next step agreed
+ACT-00016,OPP-0007,2026-11-05,Legal review,Follow-up scheduled
+ACT-00017,OPP-0007,2026-11-11,Demo,Completed
+ACT-00018,OPP-0008,2026-10-12,Email reply,Follow-up scheduled
+ACT-00019,OPP-0008,2026-10-19,Customer call,Completed
+ACT-00020,OPP-0008,2026-10-26,Security review,Awaiting customer
+ACT-00021,OPP-0008,2026-11-02,Legal review,Next step agreed
+ACT-00022,OPP-0010,2026-10-12,Demo,Completed
+ACT-00023,OPP-0010,2026-10-21,Email reply,Awaiting customer
+ACT-00024,OPP-0010,2026-10-30,Customer call,Next step agreed
+ACT-00025,OPP-0011,2026-09-30,Security review,Awaiting customer
+ACT-00026,OPP-0011,2026-10-10,Legal review,Next step agreed
+ACT-00027,OPP-0011,2026-10-20,Demo,Follow-up scheduled
+ACT-00028,OPP-0011,2026-10-30,Email reply,Completed
+ACT-00029,OPP-0012,2026-10-26,Legal review,Awaiting customer
+ACT-00030,OPP-0012,2026-10-31,Demo,Next step agreed
+ACT-00031,OPP-0013,2026-10-31,Customer call,Next step agreed
+ACT-00032,OPP-0013,2026-11-06,Security review,Follow-up scheduled
+ACT-00033,OPP-0013,2026-11-12,Legal review,Completed
+ACT-00034,OPP-0014,2026-10-20,Demo,Follow-up scheduled
+ACT-00035,OPP-0014,2026-10-27,Email reply,Completed
+ACT-00036,OPP-0014,2026-11-03,Customer call,Awaiting customer
+ACT-00037,OPP-0014,2026-11-10,Security review,Next step agreed
+ACT-00038,OPP-0015,2026-11-01,Email reply,Follow-up scheduled
+ACT-00039,OPP-0015,2026-11-09,Customer call,Completed
+ACT-00040,OPP-0016,2026-10-22,Legal review,Completed
+ACT-00041,OPP-0016,2026-10-31,Demo,Awaiting customer
+ACT-00042,OPP-0016,2026-11-09,Email reply,Next step agreed
+ACT-00043,OPP-0017,2026-10-14,Customer call,Awaiting customer
+ACT-00044,OPP-0017,2026-10-24,Security review,Next step agreed
+ACT-00045,OPP-0017,2026-11-03,Legal review,Follow-up scheduled
+ACT-00046,OPP-0017,2026-11-13,Demo,Completed
+ACT-00047,OPP-0018,2026-11-02,Security review,Awaiting customer
+ACT-00048,OPP-0018,2026-11-07,Legal review,Next step agreed
+ACT-00049,OPP-0020,2026-10-16,Legal review,Follow-up scheduled
+ACT-00050,OPP-0020,2026-10-23,Demo,Completed
+ACT-00051,OPP-0020,2026-10-30,Email reply,Awaiting customer
+ACT-00052,OPP-0020,2026-11-06,Customer call,Next step agreed
+ACT-00053,OPP-0021,2026-11-04,Demo,Follow-up scheduled
+ACT-00054,OPP-0021,2026-11-12,Email reply,Completed
+ACT-00055,OPP-0022,2026-10-13,Security review,Completed
+ACT-00056,OPP-0022,2026-10-22,Legal review,Awaiting customer
+ACT-00057,OPP-0022,2026-10-31,Demo,Next step agreed
+ACT-00058,OPP-0023,2026-10-09,Email reply,Awaiting customer
+ACT-00059,OPP-0023,2026-10-19,Customer call,Next step agreed
+ACT-00060,OPP-0023,2026-10-29,Security review,Follow-up scheduled
+ACT-00061,OPP-0023,2026-11-08,Legal review,Completed
+ACT-00062,OPP-0024,2026-10-23,Customer call,Awaiting customer
+ACT-00063,OPP-0024,2026-10-28,Security review,Next step agreed
+ACT-00064,OPP-0025,2026-10-24,Demo,Next step agreed
+ACT-00065,OPP-0025,2026-10-30,Email reply,Follow-up scheduled
+ACT-00066,OPP-0025,2026-11-05,Customer call,Completed
+ACT-00067,OPP-0026,2026-10-23,Security review,Follow-up scheduled
+ACT-00068,OPP-0026,2026-10-30,Legal review,Completed
+ACT-00069,OPP-0026,2026-11-06,Demo,Awaiting customer
+ACT-00070,OPP-0026,2026-11-13,Email reply,Next step agreed
+ACT-00071,OPP-0027,2026-10-25,Legal review,Follow-up scheduled
+ACT-00072,OPP-0027,2026-11-02,Demo,Completed
+ACT-00073,OPP-0028,2026-10-23,Customer call,Completed
+ACT-00074,OPP-0028,2026-11-01,Security review,Awaiting customer
+ACT-00075,OPP-0028,2026-11-10,Legal review,Next step agreed
+ACT-00076,OPP-0030,2026-11-02,Email reply,Awaiting customer
+ACT-00077,OPP-0030,2026-11-07,Customer call,Next step agreed
+ACT-00078,OPP-0031,2026-10-15,Legal review,Next step agreed
+ACT-00079,OPP-0031,2026-10-21,Demo,Follow-up scheduled
+ACT-00080,OPP-0031,2026-10-27,Email reply,Completed
+ACT-00081,OPP-0033,2026-11-04,Security review,Follow-up scheduled
+ACT-00082,OPP-0033,2026-11-12,Legal review,Completed
+ACT-00083,OPP-0034,2026-10-14,Email reply,Completed
+ACT-00084,OPP-0034,2026-10-23,Customer call,Awaiting customer
+ACT-00085,OPP-0034,2026-11-01,Security review,Next step agreed
+ACT-00086,OPP-0035,2026-10-10,Legal review,Awaiting customer
+ACT-00087,OPP-0035,2026-10-20,Demo,Next step agreed
+ACT-00088,OPP-0035,2026-10-30,Email reply,Follow-up scheduled
+ACT-00089,OPP-0035,2026-11-09,Customer call,Completed
+ACT-00090,OPP-0036,2026-10-24,Demo,Awaiting customer
+ACT-00091,OPP-0036,2026-10-29,Email reply,Next step agreed
+ACT-00092,OPP-0037,2026-10-25,Security review,Next step agreed
+ACT-00093,OPP-0037,2026-10-31,Legal review,Follow-up scheduled
+ACT-00094,OPP-0037,2026-11-06,Demo,Completed
+ACT-00095,OPP-0039,2026-10-26,Customer call,Follow-up scheduled
+ACT-00096,OPP-0039,2026-11-03,Security review,Completed
+ACT-00097,OPP-0040,2026-10-24,Demo,Completed
+ACT-00098,OPP-0040,2026-11-02,Email reply,Awaiting customer
+ACT-00099,OPP-0040,2026-11-11,Customer call,Next step agreed
+ACT-00100,OPP-0041,2026-10-01,Security review,Awaiting customer
+ACT-00101,OPP-0041,2026-10-11,Legal review,Next step agreed
+ACT-00102,OPP-0041,2026-10-21,Demo,Follow-up scheduled
+ACT-00103,OPP-0041,2026-10-31,Email reply,Completed
+ACT-00104,OPP-0042,2026-11-03,Legal review,Awaiting customer
+ACT-00105,OPP-0042,2026-11-08,Demo,Next step agreed
+ACT-00106,OPP-0043,2026-10-16,Customer call,Next step agreed
+ACT-00107,OPP-0043,2026-10-22,Security review,Follow-up scheduled
+ACT-00108,OPP-0043,2026-10-28,Legal review,Completed
+ACT-00109,OPP-0045,2026-11-05,Email reply,Follow-up scheduled
+ACT-00110,OPP-0045,2026-11-13,Customer call,Completed
+ACT-00111,OPP-0046,2026-10-15,Legal review,Completed
+ACT-00112,OPP-0046,2026-10-24,Demo,Awaiting customer
+ACT-00113,OPP-0046,2026-11-02,Email reply,Next step agreed
+ACT-00114,OPP-0047,2026-10-11,Customer call,Awaiting customer
+ACT-00115,OPP-0047,2026-10-21,Security review,Next step agreed
+ACT-00116,OPP-0047,2026-10-31,Legal review,Follow-up scheduled
+ACT-00117,OPP-0047,2026-11-10,Demo,Completed
+ACT-00118,OPP-0048,2026-10-25,Security review,Awaiting customer
+ACT-00119,OPP-0048,2026-10-30,Legal review,Next step agreed
+ACT-00120,OPP-0049,2026-10-26,Email reply,Next step agreed
+ACT-00121,OPP-0049,2026-11-01,Customer call,Follow-up scheduled
+ACT-00122,OPP-0049,2026-11-07,Security review,Completed
+ACT-00123,OPP-0050,2026-10-06,Legal review,Follow-up scheduled
+ACT-00124,OPP-0050,2026-10-13,Demo,Completed
+ACT-00125,OPP-0050,2026-10-20,Email reply,Awaiting customer
+ACT-00126,OPP-0050,2026-10-27,Customer call,Next step agreed
+ACT-00127,OPP-0052,2026-10-25,Security review,Completed
+ACT-00128,OPP-0052,2026-11-03,Legal review,Awaiting customer
+ACT-00129,OPP-0052,2026-11-12,Demo,Next step agreed
+ACT-00130,OPP-0055,2026-10-17,Demo,Next step agreed
+ACT-00131,OPP-0055,2026-10-23,Email reply,Follow-up scheduled
+ACT-00132,OPP-0055,2026-10-29,Customer call,Completed
+ACT-00133,OPP-0056,2026-10-16,Security review,Follow-up scheduled
+ACT-00134,OPP-0056,2026-10-23,Legal review,Completed
+ACT-00135,OPP-0056,2026-10-30,Demo,Awaiting customer
+ACT-00136,OPP-0056,2026-11-06,Email reply,Next step agreed
+ACT-00137,OPP-0058,2026-10-16,Customer call,Completed
+ACT-00138,OPP-0058,2026-10-25,Security review,Awaiting customer
+ACT-00139,OPP-0058,2026-11-03,Legal review,Next step agreed
+ACT-00140,OPP-0059,2026-10-12,Demo,Awaiting customer
+ACT-00141,OPP-0059,2026-10-22,Email reply,Next step agreed
+ACT-00142,OPP-0059,2026-11-01,Customer call,Follow-up scheduled
+ACT-00143,OPP-0059,2026-11-11,Security review,Completed
+ACT-00144,OPP-0060,2026-10-26,Email reply,Awaiting customer
+ACT-00145,OPP-0060,2026-10-31,Customer call,Next step agreed
+ACT-00146,OPP-0061,2026-10-27,Legal review,Next step agreed
+ACT-00147,OPP-0061,2026-11-02,Demo,Follow-up scheduled
+ACT-00148,OPP-0061,2026-11-08,Email reply,Completed
+ACT-00149,OPP-0062,2026-10-07,Customer call,Follow-up scheduled
+ACT-00150,OPP-0062,2026-10-14,Security review,Completed
+ACT-00151,OPP-0062,2026-10-21,Legal review,Awaiting customer
+ACT-00152,OPP-0062,2026-10-28,Demo,Next step agreed
+ACT-00153,OPP-0063,2026-10-28,Security review,Follow-up scheduled
+ACT-00154,OPP-0063,2026-11-05,Legal review,Completed
+ACT-00155,OPP-0064,2026-10-26,Email reply,Completed
+ACT-00156,OPP-0064,2026-11-04,Customer call,Awaiting customer
+ACT-00157,OPP-0064,2026-11-13,Security review,Next step agreed
+ACT-00158,OPP-0065,2026-10-03,Legal review,Awaiting customer
+ACT-00159,OPP-0065,2026-10-13,Demo,Next step agreed
+ACT-00160,OPP-0065,2026-10-23,Email reply,Follow-up scheduled
+ACT-00161,OPP-0065,2026-11-02,Customer call,Completed
+ACT-00162,OPP-0066,2026-11-05,Demo,Awaiting customer
+ACT-00163,OPP-0066,2026-11-10,Email reply,Next step agreed
+ACT-00164,OPP-0067,2026-10-18,Security review,Next step agreed
+ACT-00165,OPP-0067,2026-10-24,Legal review,Follow-up scheduled
+ACT-00166,OPP-0067,2026-10-30,Demo,Completed
+ACT-00167,OPP-0068,2026-10-17,Email reply,Follow-up scheduled
+ACT-00168,OPP-0068,2026-10-24,Customer call,Completed
+ACT-00169,OPP-0068,2026-10-31,Security review,Awaiting customer
+ACT-00170,OPP-0068,2026-11-07,Legal review,Next step agreed
+ACT-00171,OPP-0069,2026-10-19,Customer call,Follow-up scheduled
+ACT-00172,OPP-0069,2026-10-27,Security review,Completed
+ACT-00173,OPP-0070,2026-10-17,Demo,Completed
+ACT-00174,OPP-0070,2026-10-26,Email reply,Awaiting customer
+ACT-00175,OPP-0070,2026-11-04,Customer call,Next step agreed
+ACT-00176,OPP-0071,2026-10-13,Security review,Awaiting customer
+ACT-00177,OPP-0071,2026-10-23,Legal review,Next step agreed
+ACT-00178,OPP-0071,2026-11-02,Demo,Follow-up scheduled
+ACT-00179,OPP-0071,2026-11-12,Email reply,Completed
+ACT-00180,OPP-0072,2026-10-27,Legal review,Awaiting customer
+ACT-00181,OPP-0072,2026-11-01,Demo,Next step agreed
+ACT-00182,OPP-0073,2026-10-28,Customer call,Next step agreed
+ACT-00183,OPP-0073,2026-11-03,Security review,Follow-up scheduled
+ACT-00184,OPP-0073,2026-11-09,Legal review,Completed
+ACT-00185,OPP-0074,2026-10-08,Demo,Follow-up scheduled
+ACT-00186,OPP-0074,2026-10-15,Email reply,Completed
+ACT-00187,OPP-0074,2026-10-22,Customer call,Awaiting customer
+ACT-00188,OPP-0074,2026-10-29,Security review,Next step agreed
+ACT-00189,OPP-0075,2026-10-29,Email reply,Follow-up scheduled
+ACT-00190,OPP-0075,2026-11-06,Customer call,Completed
+ACT-00191,OPP-0077,2026-10-04,Customer call,Awaiting customer
+ACT-00192,OPP-0077,2026-10-14,Security review,Next step agreed
+ACT-00193,OPP-0077,2026-10-24,Legal review,Follow-up scheduled
+ACT-00194,OPP-0077,2026-11-03,Demo,Completed
+ACT-00195,OPP-0078,2026-11-06,Security review,Awaiting customer
+ACT-00196,OPP-0078,2026-11-11,Legal review,Next step agreed
+ACT-00197,OPP-0079,2026-10-19,Email reply,Next step agreed
+ACT-00198,OPP-0079,2026-10-25,Customer call,Follow-up scheduled
+ACT-00199,OPP-0079,2026-10-31,Security review,Completed
+ACT-00200,OPP-0080,2026-10-18,Legal review,Follow-up scheduled
+ACT-00201,OPP-0080,2026-10-25,Demo,Completed
+ACT-00202,OPP-0080,2026-11-01,Email reply,Awaiting customer
+ACT-00203,OPP-0080,2026-11-08,Customer call,Next step agreed
+ACT-00204,OPP-0081,2026-10-20,Demo,Follow-up scheduled
+ACT-00205,OPP-0081,2026-10-28,Email reply,Completed
+ACT-00206,OPP-0082,2026-10-18,Security review,Completed
+ACT-00207,OPP-0082,2026-10-27,Legal review,Awaiting customer
+ACT-00208,OPP-0082,2026-11-05,Demo,Next step agreed
+ACT-00209,OPP-0083,2026-10-14,Email reply,Awaiting customer
+ACT-00210,OPP-0083,2026-10-24,Customer call,Next step agreed
+ACT-00211,OPP-0083,2026-11-03,Security review,Follow-up scheduled
+ACT-00212,OPP-0083,2026-11-13,Legal review,Completed
+ACT-00213,OPP-0084,2026-10-28,Customer call,Awaiting customer
+ACT-00214,OPP-0084,2026-11-02,Security review,Next step agreed
+ACT-00215,OPP-0085,2026-10-29,Demo,Next step agreed
+ACT-00216,OPP-0085,2026-11-04,Email reply,Follow-up scheduled
+ACT-00217,OPP-0085,2026-11-10,Customer call,Completed
+ACT-00218,OPP-0086,2026-10-09,Security review,Follow-up scheduled
+ACT-00219,OPP-0086,2026-10-16,Legal review,Completed
+ACT-00220,OPP-0086,2026-10-23,Demo,Awaiting customer
+ACT-00221,OPP-0086,2026-10-30,Email reply,Next step agreed
+ACT-00222,OPP-0087,2026-10-30,Legal review,Follow-up scheduled
+ACT-00223,OPP-0087,2026-11-07,Demo,Completed
+ACT-00224,OPP-0088,2026-10-09,Customer call,Completed
+ACT-00225,OPP-0088,2026-10-18,Security review,Awaiting customer
+ACT-00226,OPP-0088,2026-10-27,Legal review,Next step agreed
+ACT-00227,OPP-0089,2026-10-05,Demo,Awaiting customer
+ACT-00228,OPP-0089,2026-10-15,Email reply,Next step agreed
+ACT-00229,OPP-0089,2026-10-25,Customer call,Follow-up scheduled
+ACT-00230,OPP-0089,2026-11-04,Security review,Completed
+ACT-00231,OPP-0091,2026-10-20,Legal review,Next step agreed
+ACT-00232,OPP-0091,2026-10-26,Demo,Follow-up scheduled
+ACT-00233,OPP-0091,2026-11-01,Email reply,Completed
+ACT-00234,OPP-0092,2026-10-19,Customer call,Follow-up scheduled
+ACT-00235,OPP-0092,2026-10-26,Security review,Completed
+ACT-00236,OPP-0092,2026-11-02,Legal review,Awaiting customer
+ACT-00237,OPP-0092,2026-11-09,Demo,Next step agreed
+ACT-00238,OPP-0093,2026-10-21,Security review,Follow-up scheduled
+ACT-00239,OPP-0093,2026-10-29,Legal review,Completed
+ACT-00240,OPP-0094,2026-10-19,Email reply,Completed
+ACT-00241,OPP-0094,2026-10-28,Customer call,Awaiting customer
+ACT-00242,OPP-0094,2026-11-06,Security review,Next step agreed
+ACT-00243,OPP-0096,2026-10-29,Demo,Awaiting customer
+ACT-00244,OPP-0096,2026-11-03,Email reply,Next step agreed
+ACT-00245,OPP-0097,2026-10-30,Security review,Next step agreed
+ACT-00246,OPP-0097,2026-11-05,Legal review,Follow-up scheduled
+ACT-00247,OPP-0097,2026-11-11,Demo,Completed
+ACT-00248,OPP-0098,2026-10-10,Email reply,Follow-up scheduled
+ACT-00249,OPP-0098,2026-10-17,Customer call,Completed
+ACT-00250,OPP-0098,2026-10-24,Security review,Awaiting customer
+ACT-00251,OPP-0098,2026-10-31,Legal review,Next step agreed
+ACT-00252,OPP-0099,2026-10-31,Customer call,Follow-up scheduled
+ACT-00253,OPP-0099,2026-11-08,Security review,Completed
+ACT-00254,OPP-0100,2026-10-10,Demo,Completed
+ACT-00255,OPP-0100,2026-10-19,Email reply,Awaiting customer
+ACT-00256,OPP-0100,2026-10-28,Customer call,Next step agreed
+ACT-00257,OPP-0101,2026-10-06,Security review,Awaiting customer
+ACT-00258,OPP-0101,2026-10-16,Legal review,Next step agreed
+ACT-00259,OPP-0101,2026-10-26,Demo,Follow-up scheduled
+ACT-00260,OPP-0101,2026-11-05,Email reply,Completed
+ACT-00261,OPP-0102,2026-11-08,Legal review,Awaiting customer
+ACT-00262,OPP-0102,2026-11-13,Demo,Next step agreed
+ACT-00263,OPP-0103,2026-10-21,Customer call,Next step agreed
+ACT-00264,OPP-0103,2026-10-27,Security review,Follow-up scheduled
+ACT-00265,OPP-0103,2026-11-02,Legal review,Completed
+ACT-00266,OPP-0104,2026-10-20,Demo,Follow-up scheduled
+ACT-00267,OPP-0104,2026-10-27,Email reply,Completed
+ACT-00268,OPP-0104,2026-11-03,Customer call,Awaiting customer
+ACT-00269,OPP-0104,2026-11-10,Security review,Next step agreed
+ACT-00270,OPP-0106,2026-10-20,Legal review,Completed
+ACT-00271,OPP-0106,2026-10-29,Demo,Awaiting customer
+ACT-00272,OPP-0106,2026-11-07,Email reply,Next step agreed
+ACT-00273,OPP-0107,2026-09-27,Customer call,Awaiting customer
+ACT-00274,OPP-0107,2026-10-07,Security review,Next step agreed
+ACT-00275,OPP-0107,2026-10-17,Legal review,Follow-up scheduled
+ACT-00276,OPP-0107,2026-10-27,Demo,Completed
+ACT-00277,OPP-0108,2026-10-30,Security review,Awaiting customer
+ACT-00278,OPP-0108,2026-11-04,Legal review,Next step agreed
+ACT-00279,OPP-0109,2026-10-31,Email reply,Next step agreed
+ACT-00280,OPP-0109,2026-11-06,Customer call,Follow-up scheduled
+ACT-00281,OPP-0109,2026-11-12,Security review,Completed
+ACT-00282,OPP-0110,2026-10-11,Legal review,Follow-up scheduled
+ACT-00283,OPP-0110,2026-10-18,Demo,Completed
+ACT-00284,OPP-0110,2026-10-25,Email reply,Awaiting customer
+ACT-00285,OPP-0110,2026-11-01,Customer call,Next step agreed
+ACT-00286,OPP-0111,2026-11-01,Demo,Follow-up scheduled
+ACT-00287,OPP-0111,2026-11-09,Email reply,Completed
+ACT-00288,OPP-0112,2026-10-11,Security review,Completed
+ACT-00289,OPP-0112,2026-10-20,Legal review,Awaiting customer
+ACT-00290,OPP-0112,2026-10-29,Demo,Next step agreed
+ACT-00291,OPP-0113,2026-10-07,Email reply,Awaiting customer
+ACT-00292,OPP-0113,2026-10-17,Customer call,Next step agreed
+ACT-00293,OPP-0113,2026-10-27,Security review,Follow-up scheduled
+ACT-00294,OPP-0113,2026-11-06,Legal review,Completed
+ACT-00295,OPP-0115,2026-10-22,Demo,Next step agreed
+ACT-00296,OPP-0115,2026-10-28,Email reply,Follow-up scheduled
+ACT-00297,OPP-0115,2026-11-03,Customer call,Completed
+ACT-00298,OPP-0116,2026-10-21,Security review,Follow-up scheduled
+ACT-00299,OPP-0116,2026-10-28,Legal review,Completed
+ACT-00300,OPP-0116,2026-11-04,Demo,Awaiting customer
+ACT-00301,OPP-0116,2026-11-11,Email reply,Next step agreed
+ACT-00302,OPP-0117,2026-10-23,Legal review,Follow-up scheduled
+ACT-00303,OPP-0117,2026-10-31,Demo,Completed
+ACT-00304,OPP-0118,2026-10-21,Customer call,Completed
+ACT-00305,OPP-0118,2026-10-30,Security review,Awaiting customer
+ACT-00306,OPP-0118,2026-11-08,Legal review,Next step agreed
+ACT-00307,OPP-0119,2026-09-28,Demo,Awaiting customer
+ACT-00308,OPP-0119,2026-10-08,Email reply,Next step agreed
+ACT-00309,OPP-0119,2026-10-18,Customer call,Follow-up scheduled
+ACT-00310,OPP-0119,2026-10-28,Security review,Completed
+ACT-00311,OPP-0120,2026-10-31,Email reply,Awaiting customer
+ACT-00312,OPP-0120,2026-11-05,Customer call,Next step agreed
+ACT-00313,OPP-0121,2026-11-01,Legal review,Next step agreed
+ACT-00314,OPP-0121,2026-11-07,Demo,Follow-up scheduled
+ACT-00315,OPP-0121,2026-11-13,Email reply,Completed
+ACT-00316,OPP-0122,2026-10-12,Customer call,Follow-up scheduled
+ACT-00317,OPP-0122,2026-10-19,Security review,Completed
+ACT-00318,OPP-0122,2026-10-26,Legal review,Awaiting customer
+ACT-00319,OPP-0122,2026-11-02,Demo,Next step agreed
+ACT-00320,OPP-0123,2026-11-02,Security review,Follow-up scheduled
+ACT-00321,OPP-0123,2026-11-10,Legal review,Completed
+ACT-00322,OPP-0124,2026-10-12,Email reply,Completed
+ACT-00323,OPP-0124,2026-10-21,Customer call,Awaiting customer
+ACT-00324,OPP-0124,2026-10-30,Security review,Next step agreed
+ACT-00325,OPP-0125,2026-10-08,Legal review,Awaiting customer
+ACT-00326,OPP-0125,2026-10-18,Demo,Next step agreed
+ACT-00327,OPP-0125,2026-10-28,Email reply,Follow-up scheduled
+ACT-00328,OPP-0125,2026-11-07,Customer call,Completed
+ACT-00329,OPP-0126,2026-10-22,Demo,Awaiting customer
+ACT-00330,OPP-0126,2026-10-27,Email reply,Next step agreed
+ACT-00331,OPP-0127,2026-10-23,Security review,Next step agreed
+ACT-00332,OPP-0127,2026-10-29,Legal review,Follow-up scheduled
+ACT-00333,OPP-0127,2026-11-04,Demo,Completed
+ACT-00334,OPP-0128,2026-10-22,Email reply,Follow-up scheduled
+ACT-00335,OPP-0128,2026-10-29,Customer call,Completed
+ACT-00336,OPP-0128,2026-11-05,Security review,Awaiting customer
+ACT-00337,OPP-0128,2026-11-12,Legal review,Next step agreed
+ACT-00338,OPP-0129,2026-10-24,Customer call,Follow-up scheduled
+ACT-00339,OPP-0129,2026-11-01,Security review,Completed
+ACT-00340,OPP-0130,2026-10-22,Demo,Completed
+ACT-00341,OPP-0130,2026-10-31,Email reply,Awaiting customer
+ACT-00342,OPP-0130,2026-11-09,Customer call,Next step agreed
+ACT-00343,OPP-0131,2026-09-29,Security review,Awaiting customer
+ACT-00344,OPP-0131,2026-10-09,Legal review,Next step agreed
+ACT-00345,OPP-0131,2026-10-19,Demo,Follow-up scheduled
+ACT-00346,OPP-0131,2026-10-29,Email reply,Completed
+ACT-00347,OPP-0134,2026-10-13,Demo,Follow-up scheduled
+ACT-00348,OPP-0134,2026-10-20,Email reply,Completed
+ACT-00349,OPP-0134,2026-10-27,Customer call,Awaiting customer
+ACT-00350,OPP-0134,2026-11-03,Security review,Next step agreed
+ACT-00351,OPP-0135,2026-11-03,Email reply,Follow-up scheduled
+ACT-00352,OPP-0135,2026-11-11,Customer call,Completed
+ACT-00353,OPP-0136,2026-10-13,Legal review,Completed
+ACT-00354,OPP-0136,2026-10-22,Demo,Awaiting customer
+ACT-00355,OPP-0136,2026-10-31,Email reply,Next step agreed
+ACT-00356,OPP-0137,2026-10-09,Customer call,Awaiting customer
+ACT-00357,OPP-0137,2026-10-19,Security review,Next step agreed
+ACT-00358,OPP-0137,2026-10-29,Legal review,Follow-up scheduled
+ACT-00359,OPP-0137,2026-11-08,Demo,Completed
+ACT-00360,OPP-0138,2026-10-23,Security review,Awaiting customer
+ACT-00361,OPP-0138,2026-10-28,Legal review,Next step agreed
+ACT-00362,OPP-0139,2026-10-24,Email reply,Next step agreed
+ACT-00363,OPP-0139,2026-10-30,Customer call,Follow-up scheduled
+ACT-00364,OPP-0139,2026-11-05,Security review,Completed
+ACT-00365,OPP-0140,2026-10-23,Legal review,Follow-up scheduled
+ACT-00366,OPP-0140,2026-10-30,Demo,Completed
+ACT-00367,OPP-0140,2026-11-06,Email reply,Awaiting customer
+ACT-00368,OPP-0140,2026-11-13,Customer call,Next step agreed
+ACT-00369,OPP-0141,2026-10-25,Demo,Follow-up scheduled
+ACT-00370,OPP-0141,2026-11-02,Email reply,Completed
+ACT-00371,OPP-0142,2026-10-23,Security review,Completed
+ACT-00372,OPP-0142,2026-11-01,Legal review,Awaiting customer
+ACT-00373,OPP-0142,2026-11-10,Demo,Next step agreed
+ACT-00374,OPP-0143,2026-09-30,Email reply,Awaiting customer
+ACT-00375,OPP-0143,2026-10-10,Customer call,Next step agreed
+ACT-00376,OPP-0143,2026-10-20,Security review,Follow-up scheduled
+ACT-00377,OPP-0143,2026-10-30,Legal review,Completed
+ACT-00378,OPP-0144,2026-11-02,Customer call,Awaiting customer
+ACT-00379,OPP-0144,2026-11-07,Security review,Next step agreed
+ACT-00380,OPP-0145,2026-10-15,Demo,Next step agreed
+ACT-00381,OPP-0145,2026-10-21,Email reply,Follow-up scheduled
+ACT-00382,OPP-0145,2026-10-27,Customer call,Completed
+ACT-00383,OPP-0146,2026-10-14,Security review,Follow-up scheduled
+ACT-00384,OPP-0146,2026-10-21,Legal review,Completed
+ACT-00385,OPP-0146,2026-10-28,Demo,Awaiting customer
+ACT-00386,OPP-0146,2026-11-04,Email reply,Next step agreed
+ACT-00387,OPP-0147,2026-11-04,Legal review,Follow-up scheduled
+ACT-00388,OPP-0147,2026-11-12,Demo,Completed
+ACT-00389,OPP-0148,2026-10-14,Customer call,Completed
+ACT-00390,OPP-0148,2026-10-23,Security review,Awaiting customer
+ACT-00391,OPP-0148,2026-11-01,Legal review,Next step agreed
+ACT-00392,OPP-0149,2026-10-10,Demo,Awaiting customer
+ACT-00393,OPP-0149,2026-10-20,Email reply,Next step agreed
+ACT-00394,OPP-0149,2026-10-30,Customer call,Follow-up scheduled
+ACT-00395,OPP-0149,2026-11-09,Security review,Completed
+ACT-00396,OPP-0150,2026-10-24,Email reply,Awaiting customer
+ACT-00397,OPP-0150,2026-10-29,Customer call,Next step agreed
+ACT-00398,OPP-0151,2026-10-25,Legal review,Next step agreed
+ACT-00399,OPP-0151,2026-10-31,Demo,Follow-up scheduled
+ACT-00400,OPP-0151,2026-11-06,Email reply,Completed
+ACT-00401,OPP-0153,2026-10-26,Security review,Follow-up scheduled
+ACT-00402,OPP-0153,2026-11-03,Legal review,Completed
+ACT-00403,OPP-0154,2026-10-24,Email reply,Completed
+ACT-00404,OPP-0154,2026-11-02,Customer call,Awaiting customer
+ACT-00405,OPP-0154,2026-11-11,Security review,Next step agreed
+ACT-00406,OPP-0155,2026-10-01,Legal review,Awaiting customer
+ACT-00407,OPP-0155,2026-10-11,Demo,Next step agreed
+ACT-00408,OPP-0155,2026-10-21,Email reply,Follow-up scheduled
+ACT-00409,OPP-0155,2026-10-31,Customer call,Completed
+ACT-00410,OPP-0156,2026-11-03,Demo,Awaiting customer
+ACT-00411,OPP-0156,2026-11-08,Email reply,Next step agreed
+ACT-00412,OPP-0157,2026-10-16,Security review,Next step agreed
+ACT-00413,OPP-0157,2026-10-22,Legal review,Follow-up scheduled
+ACT-00414,OPP-0157,2026-10-28,Demo,Completed
+ACT-00415,OPP-0158,2026-10-15,Email reply,Follow-up scheduled
+ACT-00416,OPP-0158,2026-10-22,Customer call,Completed
+ACT-00417,OPP-0158,2026-10-29,Security review,Awaiting customer
+ACT-00418,OPP-0158,2026-11-05,Legal review,Next step agreed
+ACT-00419,OPP-0159,2026-11-05,Customer call,Follow-up scheduled
+ACT-00420,OPP-0159,2026-11-13,Security review,Completed
+ACT-00421,OPP-0160,2026-10-15,Demo,Completed
+ACT-00422,OPP-0160,2026-10-24,Email reply,Awaiting customer
+ACT-00423,OPP-0160,2026-11-02,Customer call,Next step agreed
+ACT-00424,OPP-0161,2026-10-11,Security review,Awaiting customer
+ACT-00425,OPP-0161,2026-10-21,Legal review,Next step agreed
+ACT-00426,OPP-0161,2026-10-31,Demo,Follow-up scheduled
+ACT-00427,OPP-0161,2026-11-10,Email reply,Completed
+ACT-00428,OPP-0162,2026-10-25,Legal review,Awaiting customer
+ACT-00429,OPP-0162,2026-10-30,Demo,Next step agreed
+ACT-00430,OPP-0164,2026-10-06,Demo,Follow-up scheduled
+ACT-00431,OPP-0164,2026-10-13,Email reply,Completed
+ACT-00432,OPP-0164,2026-10-20,Customer call,Awaiting customer
+ACT-00433,OPP-0164,2026-10-27,Security review,Next step agreed
+ACT-00434,OPP-0165,2026-10-27,Email reply,Follow-up scheduled
+ACT-00435,OPP-0165,2026-11-04,Customer call,Completed
+ACT-00436,OPP-0166,2026-10-25,Legal review,Completed
+ACT-00437,OPP-0166,2026-11-03,Demo,Awaiting customer
+ACT-00438,OPP-0166,2026-11-12,Email reply,Next step agreed
+ACT-00439,OPP-0167,2026-10-02,Customer call,Awaiting customer
+ACT-00440,OPP-0167,2026-10-12,Security review,Next step agreed
+ACT-00441,OPP-0167,2026-10-22,Legal review,Follow-up scheduled
+ACT-00442,OPP-0167,2026-11-01,Demo,Completed
+ACT-00443,OPP-0168,2026-11-04,Security review,Awaiting customer
+ACT-00444,OPP-0168,2026-11-09,Legal review,Next step agreed
+ACT-00445,OPP-0169,2026-10-17,Email reply,Next step agreed
+ACT-00446,OPP-0169,2026-10-23,Customer call,Follow-up scheduled
+ACT-00447,OPP-0169,2026-10-29,Security review,Completed
+ACT-00448,OPP-0170,2026-10-16,Legal review,Follow-up scheduled
+ACT-00449,OPP-0170,2026-10-23,Demo,Completed
+ACT-00450,OPP-0170,2026-10-30,Email reply,Awaiting customer
+ACT-00451,OPP-0170,2026-11-06,Customer call,Next step agreed
+ACT-00452,OPP-0172,2026-10-16,Security review,Completed
+ACT-00453,OPP-0172,2026-10-25,Legal review,Awaiting customer
+ACT-00454,OPP-0172,2026-11-03,Demo,Next step agreed
+ACT-00455,OPP-0173,2026-10-12,Email reply,Awaiting customer
+ACT-00456,OPP-0173,2026-10-22,Customer call,Next step agreed
+ACT-00457,OPP-0173,2026-11-01,Security review,Follow-up scheduled
+ACT-00458,OPP-0173,2026-11-11,Legal review,Completed
+ACT-00459,OPP-0175,2026-10-27,Demo,Next step agreed
+ACT-00460,OPP-0175,2026-11-02,Email reply,Follow-up scheduled
+ACT-00461,OPP-0175,2026-11-08,Customer call,Completed
+ACT-00462,OPP-0177,2026-10-28,Legal review,Follow-up scheduled
+ACT-00463,OPP-0177,2026-11-05,Demo,Completed
+ACT-00464,OPP-0178,2026-10-26,Customer call,Completed
+ACT-00465,OPP-0178,2026-11-04,Security review,Awaiting customer
+ACT-00466,OPP-0178,2026-11-13,Legal review,Next step agreed
+ACT-00467,OPP-0179,2026-10-03,Demo,Awaiting customer
+ACT-00468,OPP-0179,2026-10-13,Email reply,Next step agreed
+ACT-00469,OPP-0179,2026-10-23,Customer call,Follow-up scheduled
+ACT-00470,OPP-0179,2026-11-02,Security review,Completed
+ACT-00471,OPP-0181,2026-10-18,Legal review,Next step agreed
+ACT-00472,OPP-0181,2026-10-24,Demo,Follow-up scheduled
+ACT-00473,OPP-0181,2026-10-30,Email reply,Completed
+ACT-00474,OPP-0182,2026-10-17,Customer call,Follow-up scheduled
+ACT-00475,OPP-0182,2026-10-24,Security review,Completed
+ACT-00476,OPP-0182,2026-10-31,Legal review,Awaiting customer
+ACT-00477,OPP-0182,2026-11-07,Demo,Next step agreed
+ACT-00478,OPP-0183,2026-10-19,Security review,Follow-up scheduled
+ACT-00479,OPP-0183,2026-10-27,Legal review,Completed
+ACT-00480,OPP-0184,2026-10-17,Email reply,Completed
+ACT-00481,OPP-0184,2026-10-26,Customer call,Awaiting customer
+ACT-00482,OPP-0184,2026-11-04,Security review,Next step agreed
+ACT-00483,OPP-0186,2026-10-27,Demo,Awaiting customer
+ACT-00484,OPP-0186,2026-11-01,Email reply,Next step agreed
+ACT-00485,OPP-0187,2026-10-28,Security review,Next step agreed
+ACT-00486,OPP-0187,2026-11-03,Legal review,Follow-up scheduled
+ACT-00487,OPP-0187,2026-11-09,Demo,Completed
+ACT-00488,OPP-0188,2026-10-08,Email reply,Follow-up scheduled
+ACT-00489,OPP-0188,2026-10-15,Customer call,Completed
+ACT-00490,OPP-0188,2026-10-22,Security review,Awaiting customer
+ACT-00491,OPP-0188,2026-10-29,Legal review,Next step agreed
+ACT-00492,OPP-0189,2026-10-29,Customer call,Follow-up scheduled
+ACT-00493,OPP-0189,2026-11-06,Security review,Completed
+ACT-00494,OPP-0191,2026-10-04,Security review,Awaiting customer
+ACT-00495,OPP-0191,2026-10-14,Legal review,Next step agreed
+ACT-00496,OPP-0191,2026-10-24,Demo,Follow-up scheduled
+ACT-00497,OPP-0191,2026-11-03,Email reply,Completed
+ACT-00498,OPP-0193,2026-10-19,Customer call,Next step agreed
+ACT-00499,OPP-0193,2026-10-25,Security review,Follow-up scheduled
+ACT-00500,OPP-0193,2026-10-31,Legal review,Completed
+ACT-00501,OPP-0194,2026-10-18,Demo,Follow-up scheduled
+ACT-00502,OPP-0194,2026-10-25,Email reply,Completed
+ACT-00503,OPP-0194,2026-11-01,Customer call,Awaiting customer
+ACT-00504,OPP-0194,2026-11-08,Security review,Next step agreed
+ACT-00505,OPP-0195,2026-10-20,Email reply,Follow-up scheduled
+ACT-00506,OPP-0195,2026-10-28,Customer call,Completed
+ACT-00507,OPP-0196,2026-10-18,Legal review,Completed
+ACT-00508,OPP-0196,2026-10-27,Demo,Awaiting customer
+ACT-00509,OPP-0196,2026-11-05,Email reply,Next step agreed
+ACT-00510,OPP-0197,2026-10-14,Customer call,Awaiting customer
+ACT-00511,OPP-0197,2026-10-24,Security review,Next step agreed
+ACT-00512,OPP-0197,2026-11-03,Legal review,Follow-up scheduled
+ACT-00513,OPP-0197,2026-11-13,Demo,Completed
+ACT-00514,OPP-0198,2026-10-28,Security review,Awaiting customer
+ACT-00515,OPP-0198,2026-11-02,Legal review,Next step agreed
+ACT-00516,OPP-0199,2026-10-29,Email reply,Next step agreed
+ACT-00517,OPP-0199,2026-11-04,Customer call,Follow-up scheduled
+ACT-00518,OPP-0199,2026-11-10,Security review,Completed
+ACT-00519,OPP-0203,2026-10-05,Email reply,Awaiting customer
+ACT-00520,OPP-0203,2026-10-15,Customer call,Next step agreed
+ACT-00521,OPP-0203,2026-10-25,Security review,Follow-up scheduled
+ACT-00522,OPP-0203,2026-11-04,Legal review,Completed
+ACT-00523,OPP-0204,2026-11-07,Customer call,Awaiting customer
+ACT-00524,OPP-0204,2026-11-12,Security review,Next step agreed
+ACT-00525,OPP-0205,2026-10-20,Demo,Next step agreed
+ACT-00526,OPP-0205,2026-10-26,Email reply,Follow-up scheduled
+ACT-00527,OPP-0205,2026-11-01,Customer call,Completed
+ACT-00528,OPP-0206,2026-10-19,Security review,Follow-up scheduled
+ACT-00529,OPP-0206,2026-10-26,Legal review,Completed
+ACT-00530,OPP-0206,2026-11-02,Demo,Awaiting customer
+ACT-00531,OPP-0206,2026-11-09,Email reply,Next step agreed
+ACT-00532,OPP-0207,2026-10-21,Legal review,Follow-up scheduled
+ACT-00533,OPP-0207,2026-10-29,Demo,Completed
+ACT-00534,OPP-0208,2026-10-19,Customer call,Completed
+ACT-00535,OPP-0208,2026-10-28,Security review,Awaiting customer
+ACT-00536,OPP-0208,2026-11-06,Legal review,Next step agreed
+ACT-00537,OPP-0210,2026-10-29,Email reply,Awaiting customer
+ACT-00538,OPP-0210,2026-11-03,Customer call,Next step agreed
+ACT-00539,OPP-0211,2026-10-30,Legal review,Next step agreed
+ACT-00540,OPP-0211,2026-11-05,Demo,Follow-up scheduled
+ACT-00541,OPP-0211,2026-11-11,Email reply,Completed
+ACT-00542,OPP-0213,2026-10-31,Security review,Follow-up scheduled
+ACT-00543,OPP-0213,2026-11-08,Legal review,Completed
+ACT-00544,OPP-0214,2026-10-10,Email reply,Completed
+ACT-00545,OPP-0214,2026-10-19,Customer call,Awaiting customer
+ACT-00546,OPP-0214,2026-10-28,Security review,Next step agreed
+ACT-00547,OPP-0215,2026-10-06,Legal review,Awaiting customer
+ACT-00548,OPP-0215,2026-10-16,Demo,Next step agreed
+ACT-00549,OPP-0215,2026-10-26,Email reply,Follow-up scheduled
+ACT-00550,OPP-0215,2026-11-05,Customer call,Completed
+ACT-00551,OPP-0216,2026-11-08,Demo,Awaiting customer
+ACT-00552,OPP-0216,2026-11-13,Email reply,Next step agreed
+ACT-00553,OPP-0217,2026-10-21,Security review,Next step agreed
+ACT-00554,OPP-0217,2026-10-27,Legal review,Follow-up scheduled
+ACT-00555,OPP-0217,2026-11-02,Demo,Completed
+ACT-00556,OPP-0218,2026-10-20,Email reply,Follow-up scheduled
+ACT-00557,OPP-0218,2026-10-27,Customer call,Completed
+ACT-00558,OPP-0218,2026-11-03,Security review,Awaiting customer
+ACT-00559,OPP-0218,2026-11-10,Legal review,Next step agreed
+ACT-00560,OPP-0219,2026-10-22,Customer call,Follow-up scheduled
+ACT-00561,OPP-0219,2026-10-30,Security review,Completed
+ACT-00562,OPP-0220,2026-10-20,Demo,Completed
+ACT-00563,OPP-0220,2026-10-29,Email reply,Awaiting customer
+ACT-00564,OPP-0220,2026-11-07,Customer call,Next step agreed
+ACT-00565,OPP-0221,2026-09-27,Security review,Awaiting customer
+ACT-00566,OPP-0221,2026-10-07,Legal review,Next step agreed
+ACT-00567,OPP-0221,2026-10-17,Demo,Follow-up scheduled
+ACT-00568,OPP-0221,2026-10-27,Email reply,Completed
+ACT-00569,OPP-0222,2026-10-30,Legal review,Awaiting customer
+ACT-00570,OPP-0222,2026-11-04,Demo,Next step agreed
+ACT-00571,OPP-0224,2026-10-11,Demo,Follow-up scheduled
+ACT-00572,OPP-0224,2026-10-18,Email reply,Completed
+ACT-00573,OPP-0224,2026-10-25,Customer call,Awaiting customer
+ACT-00574,OPP-0224,2026-11-01,Security review,Next step agreed
+ACT-00575,OPP-0226,2026-10-11,Legal review,Completed
+ACT-00576,OPP-0226,2026-10-20,Demo,Awaiting customer
+ACT-00577,OPP-0226,2026-10-29,Email reply,Next step agreed
+ACT-00578,OPP-0227,2026-10-07,Customer call,Awaiting customer
+ACT-00579,OPP-0227,2026-10-17,Security review,Next step agreed
+ACT-00580,OPP-0227,2026-10-27,Legal review,Follow-up scheduled
+ACT-00581,OPP-0227,2026-11-06,Demo,Completed
+ACT-00582,OPP-0229,2026-10-22,Email reply,Next step agreed
+ACT-00583,OPP-0229,2026-10-28,Customer call,Follow-up scheduled
+ACT-00584,OPP-0229,2026-11-03,Security review,Completed
+ACT-00585,OPP-0230,2026-10-21,Legal review,Follow-up scheduled
+ACT-00586,OPP-0230,2026-10-28,Demo,Completed
+ACT-00587,OPP-0230,2026-11-04,Email reply,Awaiting customer
+ACT-00588,OPP-0230,2026-11-11,Customer call,Next step agreed
+ACT-00589,OPP-0231,2026-10-23,Demo,Follow-up scheduled
+ACT-00590,OPP-0231,2026-10-31,Email reply,Completed
+ACT-00591,OPP-0232,2026-10-21,Security review,Completed
+ACT-00592,OPP-0232,2026-10-30,Legal review,Awaiting customer
+ACT-00593,OPP-0232,2026-11-08,Demo,Next step agreed
+ACT-00594,OPP-0233,2026-09-28,Email reply,Awaiting customer
+ACT-00595,OPP-0233,2026-10-08,Customer call,Next step agreed
+ACT-00596,OPP-0233,2026-10-18,Security review,Follow-up scheduled
+ACT-00597,OPP-0233,2026-10-28,Legal review,Completed
+ACT-00598,OPP-0234,2026-10-31,Customer call,Awaiting customer
+ACT-00599,OPP-0234,2026-11-05,Security review,Next step agreed
+ACT-00600,OPP-0235,2026-11-01,Demo,Next step agreed
+ACT-00601,OPP-0235,2026-11-07,Email reply,Follow-up scheduled
+ACT-00602,OPP-0235,2026-11-13,Customer call,Completed
+ACT-00603,OPP-0236,2026-10-12,Security review,Follow-up scheduled
+ACT-00604,OPP-0236,2026-10-19,Legal review,Completed
+ACT-00605,OPP-0236,2026-10-26,Demo,Awaiting customer
+ACT-00606,OPP-0236,2026-11-02,Email reply,Next step agreed
+ACT-00607,OPP-0237,2026-11-02,Legal review,Follow-up scheduled
+ACT-00608,OPP-0237,2026-11-10,Demo,Completed
+ACT-00609,OPP-0238,2026-10-12,Customer call,Completed
+ACT-00610,OPP-0238,2026-10-21,Security review,Awaiting customer
+ACT-00611,OPP-0238,2026-10-30,Legal review,Next step agreed
+ACT-00612,OPP-0239,2026-10-08,Demo,Awaiting customer
+ACT-00613,OPP-0239,2026-10-18,Email reply,Next step agreed
+ACT-00614,OPP-0239,2026-10-28,Customer call,Follow-up scheduled
+ACT-00615,OPP-0239,2026-11-07,Security review,Completed
+ACT-00616,OPP-0240,2026-10-22,Email reply,Awaiting customer
+ACT-00617,OPP-0240,2026-10-27,Customer call,Next step agreed

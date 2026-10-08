@@ -1,0 +1,15 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "calendar_events.json": 240,
+    "calendar_agenda.json": 240,
+    "reschedule_request.json": 1
+  },
+  "intentional_edge_cases": [
+    "recurring event occurrences with similar summaries",
+    "a cancelled same-time event",
+    "a similarly named vendor-prep event",
+    "an event in a non-primary calendar",
+    "a requested time expressed in another IANA timezone"
+  ]
+}

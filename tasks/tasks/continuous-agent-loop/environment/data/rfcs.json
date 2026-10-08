@@ -1,0 +1,20 @@
+[
+  {
+    "rfc_id": "RFC-ALPHA",
+    "title": "Typed compatibility layer",
+    "release_priority": 1,
+    "acceptance": "Existing client calls remain source compatible while typed adapters are introduced."
+  },
+  {
+    "rfc_id": "RFC-BETA",
+    "title": "Streaming ledger synchronization",
+    "release_priority": 2,
+    "acceptance": "Resumable streams preserve ordering and idempotency across reconnects."
+  },
+  {
+    "rfc_id": "RFC-GAMMA",
+    "title": "Retry telemetry and migration safety",
+    "release_priority": 3,
+    "acceptance": "Retry telemetry is bounded and schema migrations round-trip without loss."
+  }
+]

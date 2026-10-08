@@ -1,0 +1,65 @@
+company_id,company_name,vertical,employee_count,funding_stage,hq_location,recent_event,event_date,event_detail
+C001,Northstar Labs,ci_cd,128,series_a,San Francisco Bay Area,product_launch,2026-08-20,launched a deployment-policy workspace
+C002,Kite Labs,developer_tools,211,series_b,Seattle,hiring,2026-08-13,opened platform engineering roles
+C003,Harbor Labs,observability,294,growth,Portland,integration,2026-08-06,released a source-control integration
+C004,Juniper Labs,devsecops,377,bootstrapped,New York,funding,2026-07-30,announced a fictional growth round
+C005,Cinder Labs,cloud_infrastructure,460,seed,Boston,benchmark,2026-07-23,published an internal reliability benchmark
+C006,Mosaic Labs,ai_tooling,543,series_a,Toronto,community,2026-07-16,started an engineering reliability forum
+C007,Quarry Labs,fintech,626,series_b,Remote,product_launch,2026-07-09,launched a deployment-policy workspace
+C008,Beacon Labs,healthcare,709,growth,London,hiring,2026-07-02,opened platform engineering roles
+C009,Drift Labs,ci_cd,792,bootstrapped,Berlin,integration,2026-06-25,released a source-control integration
+C010,Lantern Labs,developer_tools,875,seed,San Francisco Bay Area,funding,2026-06-18,announced a fictional growth round
+C011,Spruce Labs,observability,958,series_a,Seattle,benchmark,2026-06-11,published an internal reliability benchmark
+C012,Tandem Labs,devsecops,1041,series_b,Portland,community,2026-06-04,started an engineering reliability forum
+C013,Copper Labs,cloud_infrastructure,1124,growth,New York,product_launch,2026-05-28,launched a deployment-policy workspace
+C014,Nimbus Labs,ai_tooling,1207,bootstrapped,Boston,hiring,2026-05-21,opened platform engineering roles
+C015,Rivet Labs,fintech,1290,seed,Toronto,integration,2026-05-14,released a source-control integration
+C016,Lattice Labs,healthcare,1373,series_a,Remote,funding,2026-05-07,announced a fictional growth round
+C017,Northstar Systems,ci_cd,1456,series_b,London,benchmark,2026-04-30,published an internal reliability benchmark
+C018,Kite Systems,developer_tools,1539,growth,Berlin,community,2026-04-23,started an engineering reliability forum
+C019,Harbor Systems,observability,1622,bootstrapped,San Francisco Bay Area,product_launch,2026-04-16,launched a deployment-policy workspace
+C020,Juniper Systems,devsecops,1705,seed,Seattle,hiring,2026-04-09,opened platform engineering roles
+C021,Cinder Systems,cloud_infrastructure,1788,series_a,Portland,integration,2026-04-02,released a source-control integration
+C022,Mosaic Systems,ai_tooling,1871,series_b,New York,funding,2026-08-23,announced a fictional growth round
+C023,Quarry Systems,fintech,104,growth,Boston,benchmark,2026-08-16,published an internal reliability benchmark
+C024,Beacon Systems,healthcare,187,bootstrapped,Toronto,community,2026-08-09,started an engineering reliability forum
+C025,Drift Systems,ci_cd,270,seed,Remote,product_launch,2026-08-02,launched a deployment-policy workspace
+C026,Lantern Systems,developer_tools,353,series_a,London,hiring,2026-07-26,opened platform engineering roles
+C027,Spruce Systems,observability,436,series_b,Berlin,integration,2026-07-19,released a source-control integration
+C028,Tandem Systems,devsecops,519,growth,San Francisco Bay Area,funding,2026-07-12,announced a fictional growth round
+C029,Copper Systems,cloud_infrastructure,602,bootstrapped,Seattle,benchmark,2026-07-05,published an internal reliability benchmark
+C030,Nimbus Systems,ai_tooling,685,seed,Portland,community,2026-06-28,started an engineering reliability forum
+C031,Rivet Systems,fintech,768,series_a,New York,product_launch,2026-06-21,launched a deployment-policy workspace
+C032,Lattice Systems,healthcare,851,series_b,Boston,hiring,2026-06-14,opened platform engineering roles
+C033,Northstar Stack,ci_cd,934,growth,Toronto,integration,2026-06-07,released a source-control integration
+C034,Kite Stack,developer_tools,1017,bootstrapped,Remote,funding,2026-05-31,announced a fictional growth round
+C035,Harbor Stack,observability,1100,seed,London,benchmark,2026-05-24,published an internal reliability benchmark
+C036,Juniper Stack,devsecops,1183,series_a,Berlin,community,2026-05-17,started an engineering reliability forum
+C037,Cinder Stack,cloud_infrastructure,1266,series_b,San Francisco Bay Area,product_launch,2026-05-10,launched a deployment-policy workspace
+C038,Mosaic Stack,ai_tooling,1349,growth,Seattle,hiring,2026-05-03,opened platform engineering roles
+C039,Quarry Stack,fintech,1432,bootstrapped,Portland,integration,2026-04-26,released a source-control integration
+C040,Beacon Stack,healthcare,1515,seed,New York,funding,2026-04-19,announced a fictional growth round
+C041,Drift Stack,ci_cd,1598,series_a,Boston,benchmark,2026-04-12,published an internal reliability benchmark
+C042,Lantern Stack,developer_tools,1681,series_b,Toronto,community,2026-04-05,started an engineering reliability forum
+C043,Spruce Stack,observability,1764,growth,Remote,product_launch,2026-08-26,launched a deployment-policy workspace
+C044,Tandem Stack,devsecops,1847,bootstrapped,London,hiring,2026-08-19,opened platform engineering roles
+C045,Copper Stack,cloud_infrastructure,80,seed,Berlin,integration,2026-08-12,released a source-control integration
+C046,Nimbus Stack,ai_tooling,163,series_a,San Francisco Bay Area,funding,2026-08-05,announced a fictional growth round
+C047,Rivet Stack,fintech,246,series_b,Seattle,benchmark,2026-07-29,published an internal reliability benchmark
+C048,Lattice Stack,healthcare,329,growth,Portland,community,2026-07-22,started an engineering reliability forum
+C049,Northstar Works,ci_cd,412,bootstrapped,New York,product_launch,2026-07-15,launched a deployment-policy workspace
+C050,Kite Works,developer_tools,495,seed,Boston,hiring,2026-07-08,opened platform engineering roles
+C051,Harbor Works,observability,578,series_a,Toronto,integration,2026-07-01,released a source-control integration
+C052,Juniper Works,devsecops,661,series_b,Remote,funding,2026-06-24,announced a fictional growth round
+C053,Cinder Works,cloud_infrastructure,744,growth,London,benchmark,2026-06-17,published an internal reliability benchmark
+C054,Mosaic Works,ai_tooling,827,bootstrapped,Berlin,community,2026-06-10,started an engineering reliability forum
+C055,Quarry Works,fintech,910,seed,San Francisco Bay Area,product_launch,2026-06-03,launched a deployment-policy workspace
+C056,Beacon Works,healthcare,993,series_a,Seattle,hiring,2026-05-27,opened platform engineering roles
+C057,Drift Works,ci_cd,1076,series_b,Portland,integration,2026-05-20,released a source-control integration
+C058,Lantern Works,developer_tools,1159,growth,New York,funding,2026-05-13,announced a fictional growth round
+C059,Spruce Works,observability,1242,bootstrapped,Boston,benchmark,2026-05-06,published an internal reliability benchmark
+C060,Tandem Works,devsecops,1325,seed,Toronto,community,2026-04-29,started an engineering reliability forum
+C061,Copper Works,cloud_infrastructure,1408,series_a,Remote,product_launch,2026-04-22,launched a deployment-policy workspace
+C062,Nimbus Works,ai_tooling,1491,series_b,London,hiring,2026-04-15,opened platform engineering roles
+C063,Rivet Works,fintech,1574,growth,Berlin,integration,2026-04-08,released a source-control integration
+C064,Lattice Works,healthcare,1657,bootstrapped,San Francisco Bay Area,funding,2026-04-01,announced a fictional growth round

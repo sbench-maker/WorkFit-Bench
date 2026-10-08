@@ -1,0 +1,5 @@
+{
+  "listen_port": 9090,
+  "readiness_path": "/ready",
+  "max_batch": 50
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Usable discovery decision record",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON exists, is readable, and exposes the problem, research scope, synthesis, funnel, experiment, decision, and next-step content requested for review.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__research_scope",
+      "title": "Research scope and saturation",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The record uses all and only completed target interviews, identifies excluded participant records, and reports saturation consistently with interview order and coded themes.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__theme_synthesis",
+      "title": "Prioritized qualitative and support synthesis",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The three leading pain points are ranked from distinct target interviews, intensity, strategic fit, and deduplicated support evidence, with traceable source IDs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__funnel_evidence",
+      "title": "Target-segment funnel evidence",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Eligible account counts, import-outcome activation groups, and the clean-versus-validation activation gap agree with the frozen funnel and target policy.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__experiment_decision",
+      "title": "Experiment result and policy decision",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Both randomized arms use intention-to-treat denominators, primary and guardrail outcomes are correct, thresholds are evaluated correctly, and the resulting roadmap call selects the supported solution.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Usable discovery decision record",
+        "required_score": 10
+      },
+      {
+        "id": "completion__research_scope",
+        "title": "Research scope and saturation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__theme_synthesis",
+        "title": "Prioritized qualitative and support synthesis",
+        "required_score": 10
+      },
+      {
+        "id": "completion__funnel_evidence",
+        "title": "Target-segment funnel evidence",
+        "required_score": 10
+      },
+      {
+        "id": "completion__experiment_decision",
+        "title": "Experiment result and policy decision",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

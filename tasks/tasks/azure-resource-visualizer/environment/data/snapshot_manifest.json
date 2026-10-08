@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generated": "deterministically from authoring/generate_data.py",
+  "files": {
+    "resource_group.json": 1,
+    "resources.json": 40,
+    "external_resources.json": 3,
+    "resource_properties.json": 254,
+    "verified_flows.json": 40,
+    "role_assignments.json": 17,
+    "architecture_observations.json": 8
+  },
+  "complete": true,
+  "truncated_files": [],
+  "join_keys": {
+    "resource_id": [
+      "resources.json",
+      "resource_properties.json"
+    ],
+    "relationship_endpoints": [
+      "resources.json",
+      "external_resources.json",
+      "verified_flows.json"
+    ],
+    "rbac_endpoints": [
+      "resources.json",
+      "external_resources.json",
+      "role_assignments.json"
+    ]
+  }
+}

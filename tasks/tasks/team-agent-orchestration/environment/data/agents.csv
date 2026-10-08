@@ -1,0 +1,10 @@
+agent_id,display_name,harness,status,capacity,specialty
+atlas,Atlas,Codex,active,2,platform
+nova,Nova,Claude Code,active,3,api
+ember,Ember,Devin,active,2,web
+shield,Shield,Codex,active,2,security
+quill,Quill,Claude Code,active,2,docs
+lumen,Lumen,Codex,active,3,quality
+sage,Sage,Hermes,active,2,ml
+orion,Orion,Devin,active,3,mobile
+drift,Drift,tmux,inactive,0,legacy

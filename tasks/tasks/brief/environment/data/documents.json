@@ -1,0 +1,164 @@
+[
+  {
+    "document_id": "DOC-IRP-04",
+    "title": "Privacy Incident Response Playbook v4",
+    "document_type": "policy",
+    "date": "2026-03-15",
+    "status": "approved",
+    "body": "For a credible unauthorized-access event, Legal and the DPO make notification determinations. Use the earliest supported organizational awareness time provisionally while facts are validated. For EEA personal data, escalate the 72-hour supervisory-authority assessment immediately; notification is not automatic if the event is unlikely to risk individual rights and freedoms. Preserve logs, token configurations, exports, communications, and snapshots. External statements require Legal and Communications approval.",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "document_id": "DOC-DATAMAP-12",
+    "title": "Cobalt Metrics tenant data map",
+    "document_type": "data map",
+    "date": "2026-09-08",
+    "status": "reconciled",
+    "body": "Affected account allocation: Helio Schools 6,200 rows (3,100 EEA; 11 flagged notes); Aster Cooperative 1,150 rows (0 EEA; 4 flagged notes); Meridian College 2,740 rows (1,760 EEA; 6 flagged notes); Pinnacle Training 8,330 rows (0 EEA; 6 flagged notes). Total 18,420 rows and 27 flagged notes. Data fields: name, email, organization ID, product-usage event, and support content.",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "document_id": "DOC-TECH-09",
+    "title": "Cobalt incident technical chronology",
+    "document_type": "technical note",
+    "date": "2026-09-08",
+    "status": "rolling",
+    "body": "Supported activity window: 2026-08-29 16:04 UTC to 2026-09-08 07:10 UTC. First retained suspicious OAuth event: 02:58 UTC on 8 September. Vendor analyst escalation: 03:15. Vendor confirmation: 05:30. Token disabled: 07:10. Application-layer logs for 29-30 August and full production audit export are incomplete. Root cause unknown.",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "document_id": "DOC-HOLD-01",
+    "title": "Legal hold LH-CM-01",
+    "document_type": "draft legal hold",
+    "date": "2026-09-08",
+    "status": "draft - not issued",
+    "body": "Proposed custodians: security operations, platform engineering, privacy, legal, communications, and relevant customer-success staff. Preserve Cobalt communications, logs, configuration, exports, snapshots, and messages.",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "document_id": "DOC-COMMS-02",
+    "title": "Customer holding statement",
+    "document_type": "communications draft",
+    "date": "2026-09-08",
+    "status": "superseded - do not use",
+    "body": "Outdated draft states fewer than 10,000 records and no sensitive content. Both statements conflict with the reconciled ledger and support-note review.",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "document_id": "DOC-CONTACT-07",
+    "title": "Incident contact roster",
+    "document_type": "contact roster",
+    "date": "2025-12-01",
+    "status": "stale - ownership roles only",
+    "body": "Internal roles: deputy general counsel (legal lead), data protection officer (privacy decision), incident commander (response coordination), security operations lead (containment/evidence), communications manager (statements), risk manager (carrier). Outside-counsel portal details are not included in this export.",
+    "matter_id": "INC-CM-2026-0908"
+  },
+  {
+    "document_id": "DOC-ROUTINE-001",
+    "title": "Routine legal operations note 1",
+    "document_type": "playbook",
+    "date": "2026-01-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-950"
+  },
+  {
+    "document_id": "DOC-ROUTINE-002",
+    "title": "Routine legal operations note 2",
+    "document_type": "memo",
+    "date": "2026-02-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-951"
+  },
+  {
+    "document_id": "DOC-ROUTINE-003",
+    "title": "Routine legal operations note 3",
+    "document_type": "template",
+    "date": "2026-03-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-952"
+  },
+  {
+    "document_id": "DOC-ROUTINE-004",
+    "title": "Routine legal operations note 4",
+    "document_type": "playbook",
+    "date": "2026-04-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-953"
+  },
+  {
+    "document_id": "DOC-ROUTINE-005",
+    "title": "Routine legal operations note 5",
+    "document_type": "memo",
+    "date": "2026-05-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-954"
+  },
+  {
+    "document_id": "DOC-ROUTINE-006",
+    "title": "Routine legal operations note 6",
+    "document_type": "template",
+    "date": "2026-06-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-955"
+  },
+  {
+    "document_id": "DOC-ROUTINE-007",
+    "title": "Routine legal operations note 7",
+    "document_type": "playbook",
+    "date": "2026-07-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-956"
+  },
+  {
+    "document_id": "DOC-ROUTINE-008",
+    "title": "Routine legal operations note 8",
+    "document_type": "memo",
+    "date": "2026-08-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-957"
+  },
+  {
+    "document_id": "DOC-ROUTINE-009",
+    "title": "Routine legal operations note 9",
+    "document_type": "template",
+    "date": "2026-01-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-958"
+  },
+  {
+    "document_id": "DOC-ROUTINE-010",
+    "title": "Routine legal operations note 10",
+    "document_type": "playbook",
+    "date": "2026-02-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-959"
+  },
+  {
+    "document_id": "DOC-ROUTINE-011",
+    "title": "Routine legal operations note 11",
+    "document_type": "memo",
+    "date": "2026-03-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-960"
+  },
+  {
+    "document_id": "DOC-ROUTINE-012",
+    "title": "Routine legal operations note 12",
+    "document_type": "template",
+    "date": "2026-04-15",
+    "status": "approved",
+    "body": "This fictional document concerns an unrelated routine legal workflow and contains no incident facts.",
+    "matter_id": "MAT-961"
+  }
+]

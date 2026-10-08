@@ -1,0 +1,70 @@
+{
+  "version": "2026-Q3",
+  "scope": "priority_page_ids from site_profile.json",
+  "component_rules": {
+    "citability": {
+      "aggregation": "mean page points, maximum 100",
+      "page_points": [
+        {"field": "best_passage_word_count", "condition": "between 134 and 167 inclusive", "points": 30},
+        {"field": "best_passage_start_pct", "condition": "less than or equal to 30", "points": 20},
+        {"field": "direct_answer_words", "condition": "between 40 and 60 inclusive", "points": 20},
+        {"field": "specific_fact_count", "condition": "greater than or equal to 2", "points": 15},
+        {"field": "attributed_claim_count", "condition": "greater than or equal to 1", "points": 15}
+      ]
+    },
+    "structure": {
+      "aggregation": "mean page points, maximum 100",
+      "page_points": [
+        {"field": "h1_count", "condition": "equals 1", "points": 30},
+        {"field": "heading_levels_valid", "condition": "is true", "points": 30},
+        {"field": "question_heading_count", "condition": "greater than or equal to 1", "points": 20},
+        {"fields": ["table_count", "list_count"], "condition": "either is greater than or equal to 1", "points": 20}
+      ]
+    },
+    "authority": {
+      "aggregation": "mean page points, maximum 100",
+      "page_points": [
+        {"field": "author_credentials", "condition": "non-empty", "points": 25},
+        {"field": "days_since_update", "condition": "less than or equal to 90", "points": 25},
+        {"field": "primary_source_count", "condition": "greater than or equal to 1", "points": 25},
+        {"field": "first_hand_evidence", "condition": "is true", "points": 25}
+      ]
+    },
+    "technical": {
+      "formula": "0.35 * eligibility_pct + 0.40 * ssr_ready_pct + 0.25 * platform_crawler_access_pct",
+      "eligibility": "status_code equals 200, indexable is true, and canonical_path equals path",
+      "ssr_ready": "server_word_count / rendered_word_count is at least 0.80",
+      "platform_crawlers": {
+        "Google AI Overviews": "Googlebot",
+        "ChatGPT": "OAI-SearchBot",
+        "Perplexity": "PerplexityBot"
+      }
+    },
+    "brand": {
+      "confirmed_only": true,
+      "source_targets": {
+        "reddit": 20,
+        "youtube": 8,
+        "linkedin": 20,
+        "wikipedia": 1
+      },
+      "platform_source_weights": {
+        "Google AI Overviews": {"youtube": 0.5, "linkedin": 0.5},
+        "ChatGPT": {"wikipedia": 0.5, "reddit": 0.5},
+        "Perplexity": {"wikipedia": 0.3, "reddit": 0.7}
+      },
+      "source_score": "minimum of 100 and 100 * confirmed_count / source_target"
+    },
+    "visibility": "100 * cited observations / all observations for the platform"
+  },
+  "platform_weights": {
+    "Google AI Overviews": {"citability": 0.25, "structure": 0.15, "authority": 0.15, "technical": 0.25, "brand": 0.10, "visibility": 0.10},
+    "ChatGPT": {"citability": 0.25, "structure": 0.10, "authority": 0.15, "technical": 0.20, "brand": 0.15, "visibility": 0.15},
+    "Perplexity": {"citability": 0.20, "structure": 0.10, "authority": 0.15, "technical": 0.20, "brand": 0.20, "visibility": 0.15}
+  },
+  "policy_notes": [
+    "The root llms.txt file is reported and quality-checked but contributes zero points to citation readiness because the team has no evidence in this snapshot that the named AI-search platforms consume it.",
+    "Recommendations must distinguish access for search-oriented crawlers from access for training-oriented crawlers.",
+    "A cited observation is descriptive evidence from this frozen snapshot, not proof that one optimization caused the citation."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_completeness",
+      "title": "Usable six-touch sequence artifact",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown deliverable is readable, substantial, covers all six numbered email slots, and includes a text representation of the flow.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__campaign_fidelity",
+      "title": "Campaign facts and destination integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The sequence uses the supplied three-part activation definition, only approved destinations, and avoids expressly disallowed offers or product promises.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_campaign_facts_and_destinations"
+      ]
+    },
+    {
+      "id": "completion__journey_control",
+      "title": "Implementable journey control",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Branches target the earliest incomplete activation step, apply exits and sales transfer before sends, cover every supplied suppression and re-entry concern, and are clear enough to configure without contradictory paths.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_completeness",
+        "title": "Usable six-touch sequence artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__campaign_fidelity",
+        "title": "Campaign facts and destination integrity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__journey_control",
+        "title": "Implementable journey control",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

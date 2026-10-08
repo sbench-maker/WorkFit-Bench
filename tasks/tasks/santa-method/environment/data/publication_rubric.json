@@ -1,0 +1,40 @@
+{
+  "rubric_id": "nimbus-publication-rubric-1.0",
+  "purpose": "Gate the customer-facing Nimbus SDK v7 migration catalog for publication.",
+  "criteria": [
+    {
+      "id": "source_fidelity",
+      "pass_condition": "Every published field and command agrees with authoritative_changes.csv."
+    },
+    {
+      "id": "complete_coverage",
+      "pass_condition": "Every authoritative change_id appears exactly once; no unknown IDs appear."
+    },
+    {
+      "id": "required_notices",
+      "pass_condition": "Each entry preserves its required restart and regional notice."
+    },
+    {
+      "id": "safe_claims",
+      "pass_condition": "No unsupported guarantees or universal availability claims are published."
+    },
+    {
+      "id": "internal_consistency",
+      "pass_condition": "Structured fields, summary, release version, and approval state do not conflict."
+    }
+  ],
+  "blocked_phrases": [
+    "guarantees zero downtime",
+    "zero-risk migration",
+    "works in every region"
+  ],
+  "review_protocol": {
+    "reviewers_per_round": 2,
+    "same_inputs_and_rubric": true,
+    "reviewers_must_be_distinct_and_context_isolated": true,
+    "both_must_pass_to_publish": true,
+    "fresh_reviewers_after_changes": true,
+    "maximum_rounds": 3,
+    "failed_rounds_require_issue_specific_repairs": true
+  }
+}

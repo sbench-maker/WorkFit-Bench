@@ -1,0 +1,126 @@
+{
+  "fixture_notice": "All entities and observations in this offline snapshot are fictional and locally constructed.",
+  "snapshot_date": "2026-08-31",
+  "planning_horizon": "12 months; month 1 begins 2026-09-01",
+  "company": {
+    "name": "ClosePilot",
+    "business_type": "B2B SaaS",
+    "product": "financial close workflow and account reconciliation platform",
+    "audience": [
+      "controllers",
+      "accounting managers",
+      "finance systems leads at 200-3000 employee companies"
+    ],
+    "markets": [
+      "United States",
+      "Canada"
+    ],
+    "primary_conversion": "qualified demo start",
+    "commercial_goal": "increase qualified organic demo starts while protecting claim accuracy"
+  },
+  "current_product_capabilities": [
+    "close checklist orchestration",
+    "account reconciliation",
+    "variance and flux analysis",
+    "close reporting",
+    "NetSuite integration",
+    "QuickBooks Online integration",
+    "audit trail exports"
+  ],
+  "not_currently_supported": [
+    "SAP connector until general availability in month 8",
+    "intercompany reconciliation is only an invite-only beta in month 11",
+    "autonomous journal posting"
+  ],
+  "baseline": {
+    "organic_sessions_90d": 118121,
+    "qualified_demo_starts_90d": 1443,
+    "indexed_pages": 103,
+    "tracked_keywords_top_10": 18,
+    "pricing_page_organic_sessions_90d": 920,
+    "pricing_page_qualified_demo_starts_90d": 31
+  },
+  "targets": {
+    "month_3": {
+      "organic_sessions_90d_growth_pct": 8,
+      "qualified_demo_starts_90d_growth_pct": 12,
+      "tracked_keywords_top_10": 24
+    },
+    "month_6": {
+      "organic_sessions_90d_growth_pct": 22,
+      "qualified_demo_starts_90d_growth_pct": 32,
+      "tracked_keywords_top_10": 38
+    },
+    "month_12": {
+      "organic_sessions_90d_growth_pct": 55,
+      "qualified_demo_starts_90d_growth_pct": 75,
+      "tracked_keywords_top_10": 65
+    }
+  },
+  "planning_rules": [
+    "Prioritize qualified-demo potential over raw traffic volume.",
+    "Use only rows marked current for present-tense competitor claims; aging or stale observations may be labeled as research gaps.",
+    "A public page must not present a planned or beta capability as generally available before its launch state allows it.",
+    "Every proposed page should have one primary keyword cluster and a distinct search intent to limit cannibalization.",
+    "Roadmap work may not exceed any role's monthly capacity in team_capacity.csv.",
+    "Leave at least 10 percent of each role's capacity unallocated for BAU and review."
+  ],
+  "effort_catalog_hours": {
+    "new_commercial_page": {
+      "writer": 18,
+      "seo": 5,
+      "developer": 4,
+      "design": 3
+    },
+    "comparison_page": {
+      "writer": 16,
+      "seo": 5,
+      "developer": 2,
+      "design": 2
+    },
+    "article_or_guide": {
+      "writer": 12,
+      "seo": 3,
+      "developer": 1,
+      "design": 1
+    },
+    "template_or_tool": {
+      "writer": 20,
+      "seo": 5,
+      "developer": 8,
+      "design": 5
+    },
+    "refresh_existing_page": {
+      "writer": 9,
+      "seo": 3,
+      "developer": 2,
+      "design": 1
+    },
+    "technical_fix_batch": {
+      "writer": 0,
+      "seo": 6,
+      "developer": 18,
+      "design": 0
+    },
+    "schema_batch": {
+      "writer": 0,
+      "seo": 5,
+      "developer": 12,
+      "design": 0
+    },
+    "measurement_setup": {
+      "writer": 0,
+      "seo": 10,
+      "developer": 8,
+      "design": 0
+    }
+  },
+  "required_kpis": [
+    "organic sessions",
+    "qualified demo starts from organic",
+    "top-10 non-branded keywords",
+    "indexed eligible pages",
+    "pricing and comparison page conversion",
+    "Core Web Vitals pass rate"
+  ]
+}

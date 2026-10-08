@@ -1,0 +1,19 @@
+{
+  "method": "deterministic local construction",
+  "seed": 62026,
+  "fictional": true,
+  "files": {
+    "preloan_applications.csv": 3136,
+    "feature_catalog.csv": 17,
+    "iv_by_org.csv": 112,
+    "psi_by_org_transition.csv": 480,
+    "null_importance.csv": 16
+  },
+  "intentional_edge_cases": [
+    "duplicate application keys and invalid labels",
+    "two OOS organizations",
+    "one low-volume and one low-bad-count month",
+    "missingness and diagnostic values on strict threshold boundaries",
+    "high-correlation pairs including a pair protected by gain rank"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "fixture": "Meridian Ops responsive state gallery",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width_px": 1280,
+      "height_px": 800
+    },
+    {
+      "id": "compact",
+      "width_px": 390,
+      "height_px": 844
+    }
+  ],
+  "components": [
+    {
+      "id": "side-panel",
+      "states": ["closed", "open"],
+      "desktop": {
+        "width_px": 288,
+        "closed_x_offset": "negative self width",
+        "open_x_offset_px": 0
+      },
+      "compact": {
+        "width": "84vw",
+        "closed_x_offset": "negative self width",
+        "open_x_offset_px": 0
+      },
+      "notes": "The closed panel is fully off canvas; the open panel begins at the viewport's left edge."
+    },
+    {
+      "id": "dialog",
+      "states": ["hidden", "visible"],
+      "desktop": {
+        "hidden_y_offset_px": 18,
+        "visible_y_offset_px": 0
+      },
+      "compact": {
+        "hidden_y_offset_px": 18,
+        "visible_y_offset_px": 0
+      },
+      "notes": "The hidden overlay is transparent and non-interactive; the visible overlay covers the viewport."
+    },
+    {
+      "id": "toast",
+      "states": ["hidden", "visible"],
+      "desktop": {
+        "anchor_bottom_px": 20,
+        "hidden_y_offset_px": 28,
+        "hidden_scale": 0.98,
+        "visible_y_offset_px": 0,
+        "visible_scale": 1
+      },
+      "compact": {
+        "anchor_bottom_px": 12,
+        "hidden_y_offset_px": 16,
+        "hidden_scale": 0.98,
+        "visible_y_offset_px": 0,
+        "visible_scale": 1
+      },
+      "notes": "The scale cue is intentional and must remain combined with the vertical entrance."
+    },
+    {
+      "id": "progress",
+      "states": ["empty", "half", "complete"],
+      "desktop": {
+        "track_width_px": 240,
+        "visible_fill_fractions": [0, 0.5, 1]
+      },
+      "compact": {
+        "track_width_px": 240,
+        "visible_fill_fractions": [0, 0.5, 1]
+      },
+      "notes": "The fill grows from the left edge without shifting the track."
+    },
+    {
+      "id": "status-badge",
+      "states": ["idle", "attention"],
+      "desktop": {
+        "attention_peak_y_offset_px": -6
+      },
+      "compact": {
+        "attention_peak_y_offset_px": -6
+      },
+      "notes": "The attention bounce returns to its original position at the end of the cycle."
+    }
+  ],
+  "accessibility": {
+    "reduced_motion": "Remove nonessential transitions and animations while keeping every state legible and reachable."
+  }
+}

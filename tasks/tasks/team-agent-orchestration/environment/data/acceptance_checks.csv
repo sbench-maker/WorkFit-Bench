@@ -1,0 +1,36 @@
+acceptance_id,card_id,criterion,status,review_note
+A0101,C01,Freeze event schema outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0102,C01,Freeze event schema outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0201,C02,Ship ingestion API outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0202,C02,Ship ingestion API outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0203,C02,Ship ingestion API outcome 3 is demonstrably complete,pass,Verified in frozen snapshot
+A0301,C03,Build operator dashboard outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0302,C03,Build operator dashboard outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0401,C04,Harden session tokens outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0402,C04,Harden session tokens outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0501,C05,Publish API migration guide outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0502,C05,Publish API migration guide outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0601,C06,Add tenant migration runner outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0602,C06,Add tenant migration runner outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0603,C06,Add tenant migration runner outcome 3 is demonstrably complete,pending,Awaiting rollback-path coverage
+A0701,C07,Expand contract test matrix outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0702,C07,Expand contract test matrix outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0801,C08,Calibrate ranking evaluator outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0802,C08,Calibrate ranking evaluator outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A0901,C09,Wire release feature flags outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A0902,C09,Wire release feature flags outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A1101,C11,Draft release notes outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1102,C11,Draft release notes outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A1201,C12,Instrument ingestion telemetry outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1202,C12,Instrument ingestion telemetry outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A1301,C13,Retire v5 adapter outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1401,C14,Normalize CSV importer outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1402,C14,Normalize CSV importer outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A1501,C15,Generate client SDK outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1502,C15,Generate client SDK outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A1601,C16,Add audit log retention switch outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1602,C16,Add audit log retention switch outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A1701,C17,Implement billing webhook outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1702,C17,Implement billing webhook outcome 2 is demonstrably complete,pass,Verified in frozen snapshot
+A1801,C18,Package admin CLI outcome 1 is demonstrably complete,pass,Verified in frozen snapshot
+A1802,C18,Package admin CLI outcome 2 is demonstrably complete,pass,Verified in frozen snapshot

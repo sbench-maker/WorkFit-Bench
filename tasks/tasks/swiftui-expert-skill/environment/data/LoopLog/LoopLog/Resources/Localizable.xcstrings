@@ -1,0 +1,99 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "activity_count" : {
+      "comment" : "Number of activities visible in the feed.",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld activities" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "アクティビティ%lld件" } }
+      }
+    },
+    "activity_feed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Activity Feed" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "アクティビティ" } }
+      }
+    },
+    "favorite" : {
+      "comment" : "Button that marks an activity as a favorite.",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Favorite" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "お気に入りに追加" } }
+      }
+    },
+    "favorites_only" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Favorites only" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "お気に入りのみ" } }
+      }
+    },
+    "newest_first" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Newest first" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "新しい順" } }
+      }
+    },
+    "no_matching_activities" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No matching activities" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "一致するアクティビティはありません" } }
+      }
+    },
+    "oldest_first" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Oldest first" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "古い順" } }
+      }
+    },
+    "remove_favorite" : {
+      "comment" : "Button that removes an activity from favorites.",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Remove favorite" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "お気に入りから削除" } }
+      }
+    },
+    "search_activities" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search activities" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "アクティビティを検索" } }
+      }
+    },
+    "activity_type" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Activity type" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "アクティビティの種類" } }
+      }
+    },
+    "distance" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Distance" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "距離" } }
+      }
+    },
+    "date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Date" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "日付" } }
+      }
+    },
+    "hike" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hike" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ハイキング" } }
+      }
+    },
+    "ride" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ride" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "サイクリング" } }
+      }
+    },
+    "run" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Run" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ランニング" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

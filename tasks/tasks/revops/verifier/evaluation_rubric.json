@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_coverage",
+      "title": "Usable artifact and complete contact coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The JSON handoff plan is readable and contains exactly one identifiable decision for every contact in the frozen CRM snapshot.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_contact_coverage"
+      ]
+    },
+    {
+      "id": "completion__scoring_lifecycle",
+      "title": "Lead scoring and lifecycle outcomes",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Fit, engagement, negative signals, disqualifiers, account resolution, and resulting lifecycle outcomes follow the supplied CRM facts and operating policy.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_scoring_and_lifecycle_by_batch"
+      ]
+    },
+    {
+      "id": "completion__routing_capacity",
+      "title": "Routing, continuity, and capacity decisions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "MQL ownership follows routing precedence, preserves eligible continuity, respects availability and projected capacity, and queues cases only when no eligible rep remains.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_routing_and_review_flags_by_batch"
+      ]
+    },
+    {
+      "id": "completion__sla_actions",
+      "title": "Business-calendar SLA deadlines and actions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Handoff times, first-contact deadlines, observed contact status, escalation state, and next actions are consistent with the supplied calendar and activity history.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_sla_and_actions_by_batch"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_coverage",
+        "title": "Usable artifact and complete contact coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__scoring_lifecycle",
+        "title": "Lead scoring and lifecycle outcomes",
+        "required_score": 10
+      },
+      {
+        "id": "completion__routing_capacity",
+        "title": "Routing, continuity, and capacity decisions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__sla_actions",
+        "title": "Business-calendar SLA deadlines and actions",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

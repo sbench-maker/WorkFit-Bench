@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__execution_contract",
+      "title": "Runnable and data-driven deliverable",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The named pipeline runs offline, creates readable score and metric artifacts, and recomputes from a relocated corrected fixture instead of embedding visible answers.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_pipeline_is_runnable",
+        "test_pipeline_honors_fixture_contract"
+      ]
+    },
+    {
+      "id": "completion__remote_workflow",
+      "title": "Cloud-side BigFrames workflow",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The pipeline reads the three BigQuery tables through DataFrame APIs, joins them remotely, enables requested partial ordering, and invokes remote model operations without downloading source tables.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_remote_bigframes_workflow"
+      ]
+    },
+    {
+      "id": "completion__model_training",
+      "title": "Training cohort and logistic model correctness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The persisted logistic model uses the documented deduplicated June-August cohort, label distribution, and complete feature contract.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_training_cohort_and_model_contract"
+      ]
+    },
+    {
+      "id": "completion__evaluation_metrics",
+      "title": "Evaluation metric fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "metrics.json identifies the model and accurately reports row count, ROC AUC, accuracy, and log loss returned by its evaluation.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_evaluation_metrics"
+      ]
+    },
+    {
+      "id": "completion__scoring_output",
+      "title": "September scoring coverage and probabilities",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "churn_scores.csv covers every eligible September account exactly once, excludes ineligible accounts, contains correct probabilities, and is ordered by descending risk.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_scoring_scope_and_order",
+        "test_score_probabilities"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__execution_contract",
+        "title": "Runnable and data-driven deliverable",
+        "required_score": 10
+      },
+      {
+        "id": "completion__remote_workflow",
+        "title": "Cloud-side BigFrames workflow",
+        "required_score": 10
+      },
+      {
+        "id": "completion__model_training",
+        "title": "Training cohort and logistic model correctness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evaluation_metrics",
+        "title": "Evaluation metric fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__scoring_output",
+        "title": "September scoring coverage and probabilities",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

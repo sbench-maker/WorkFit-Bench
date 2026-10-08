@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__stale_deal_audit",
+      "title": "Stale-deal classification and evidence",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every and only open deal without qualifying activity in the configured 14-day window is reported, with correct stage, last activity, associated contacts, and amount.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_stale_deal_classification_and_evidence"
+      ]
+    },
+    {
+      "id": "completion__missing_field_audit",
+      "title": "Required-field gap correctness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The plan reports exactly the configured required-field gaps for open deals and contacts associated with those deals, treating zero as present and paired next-step/notes correctly.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_missing_field_classification_and_coverage"
+      ]
+    },
+    {
+      "id": "completion__duplicate_candidate_coverage",
+      "title": "Duplicate candidate coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All contact groups meeting the supplied normalized-email or normalized-company-and-name policy are included, while deliberate near-match decoys are excluded.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_duplicate_candidate_groups"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__stale_deal_audit",
+        "title": "Stale-deal classification and evidence",
+        "required_score": 10
+      },
+      {
+        "id": "completion__missing_field_audit",
+        "title": "Required-field gap correctness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__duplicate_candidate_coverage",
+        "title": "Duplicate candidate coverage",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Usable SKU plan and complete scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON is readable and contains a recognizable planning record for every supplied SKU.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability",
+        "test_sku_coverage"
+      ]
+    },
+    {
+      "id": "completion__forecast_correctness",
+      "title": "Clean four-week demand forecasts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Four-week SKU forecasts follow the supplied policy for stable, trending, seasonal, and intermittent demand while excluding promotional and stockout-censored observations.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_forecast_calculations"
+      ]
+    },
+    {
+      "id": "completion__safety_stock_correctness",
+      "title": "Lead-time-aware safety stock",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Safety stock is recalculated by SKU from eligible demand variability, target service level, and both average and variable new lead time.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_safety_stock_calculations"
+      ]
+    },
+    {
+      "id": "completion__replenishment_correctness",
+      "title": "Executable replenishment recommendations",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Inventory position correctly includes eligible open POs, commitments, and backorders, and recommended orders satisfy target stock, case-pack, MOQ, and zero-need rules.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_replenishment_math"
+      ]
+    },
+    {
+      "id": "completion__risk_flag_correctness",
+      "title": "Pre-arrival stockout risk identification",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The deliverable identifies exactly the SKUs projected to stock out before replenishment can arrive, accounting for qualifying PO arrivals.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_pre_arrival_risk_flags"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Usable SKU plan and complete scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__forecast_correctness",
+        "title": "Clean four-week demand forecasts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__safety_stock_correctness",
+        "title": "Lead-time-aware safety stock",
+        "required_score": 10
+      },
+      {
+        "id": "completion__replenishment_correctness",
+        "title": "Executable replenishment recommendations",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_flag_correctness",
+        "title": "Pre-arrival stockout risk identification",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "56178ec2-cbeb-5dd3-b3ed-d62fdd571cc6",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 1.25,
+    "startedAt": "2025-01-15T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "e266bd46-6393-54d0-9a0f-93ef6c4e1454",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 4.95,
+    "startedAt": "2025-01-15T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d25cf1f1-85f2-541f-9ddf-3f79230bc2ef",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 8.65,
+    "startedAt": "2025-01-15T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "de209d4e-4487-5f18-b73d-0f206137d059",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 12.35,
+    "startedAt": "2025-01-15T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "80fc5974-5898-5ab1-a288-381eaf14c9b2",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 16.05,
+    "startedAt": "2025-01-15T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "bbfc6acd-f763-5bf9-abb3-51f5b70568f1",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 19.75,
+    "startedAt": "2025-01-15T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d88e7b19-aad6-50e9-bc0d-b3ada26b7f80",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 23.45,
+    "startedAt": "2025-01-14T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "538a55e0-1c04-57db-b39b-dbfcbee43a73",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 27.15,
+    "startedAt": "2025-01-14T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "287b795f-bfb2-5770-bdce-f2f69e2c8c61",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 30.85,
+    "startedAt": "2025-01-14T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "88be787e-fb12-50a8-9089-1cb94ea9501f",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 34.55,
+    "startedAt": "2025-01-14T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6f0869e5-20b0-558f-9edc-98ce1a42dac1",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 38.25,
+    "startedAt": "2025-01-14T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "672897a2-0e11-527d-9df2-4774063d6033",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 41.95,
+    "startedAt": "2025-01-14T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "6b6bbb92-ee0e-519e-9243-5e6792c1c86b",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 45.65,
+    "startedAt": "2025-01-14T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e3a60741-e115-5eb0-bdbc-3987b67d9e0a",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 49.35,
+    "startedAt": "2025-01-14T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b19f26d3-3964-5656-adff-6597bba86a79",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 53.05,
+    "startedAt": "2025-01-14T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "893ba081-5828-54aa-a575-00c793dd4763",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 56.75,
+    "startedAt": "2025-01-14T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7c2ab3fd-2857-595d-a61b-b3d9eb6c33de",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 60.45,
+    "startedAt": "2025-01-14T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c489984c-3ea1-5c6b-a734-9ab0cf7c422b",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 64.15,
+    "startedAt": "2025-01-14T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "10972a50-e04e-5d31-8ffe-3b1a4cf98619",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 67.85,
+    "startedAt": "2025-01-14T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5775f657-0eab-58f6-8d19-ff87b739cc40",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 71.55,
+    "startedAt": "2025-01-14T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7dfda0a9-4439-5fcc-ad05-24fc7f5481cc",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 75.25,
+    "startedAt": "2025-01-14T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "60bb6d24-ac83-55ec-9e45-e9d599392369",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 78.95,
+    "startedAt": "2025-01-14T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c3d99bf5-9d0f-51de-9177-215d2e803358",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 82.65,
+    "startedAt": "2025-01-13T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "ade42ad2-ba19-5ce8-8dba-83f9df0b4d7c",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 86.35,
+    "startedAt": "2025-01-13T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2fd48c68-e4ee-5e84-96db-391459f7ff89",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 90.05,
+    "startedAt": "2025-01-13T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "537da6f7-2cb2-50a8-9cae-e91228835321",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 93.75,
+    "startedAt": "2025-01-13T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "5b145186-cd41-5076-8490-9284838ead23",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 97.45,
+    "startedAt": "2025-01-13T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5cb55bd2-a163-50b1-8775-f8ab53c462a6",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 4.65,
+    "startedAt": "2025-01-13T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "24894b9e-6f5b-5999-8872-80849ae12799",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 8.35,
+    "startedAt": "2025-01-13T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "34584e6f-0605-54d2-a973-96f5ee9e38d0",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 12.05,
+    "startedAt": "2025-01-13T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0c26234a-e140-5e1c-9470-85b944b6672e",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 15.75,
+    "startedAt": "2025-01-13T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b22596e2-ac00-52cb-b12d-50fee3fe970a",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 19.45,
+    "startedAt": "2025-01-13T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "749fd390-8eb1-575b-910c-04dc6bbbb25a",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 23.15,
+    "startedAt": "2025-01-13T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "29cce519-e219-5090-a623-5688a112d6d9",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 26.85,
+    "startedAt": "2025-01-13T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "dbb82044-57d1-5d67-9213-6269fbdf524c",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 30.55,
+    "startedAt": "2025-01-13T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "349c4bee-b3f2-51ef-bdbd-f575be9a9603",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 34.25,
+    "startedAt": "2025-01-13T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ff951019-24f6-5693-a1fa-b610b44f5b1f",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 37.95,
+    "startedAt": "2025-01-13T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "f2ed7e36-5d0a-5b2c-b31d-d481fb703c62",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 41.65,
+    "startedAt": "2025-01-13T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "92b52f1a-3b19-5062-b5d6-60a088fe755b",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 45.35,
+    "startedAt": "2025-01-12T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "798cb580-0109-5375-a346-e235bba05dd6",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 49.05,
+    "startedAt": "2025-01-12T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d115c4cf-fdc6-55a7-8f41-d7f198d78090",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 52.75,
+    "startedAt": "2025-01-12T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "162458f4-21bc-5b6e-884f-1955831fba6c",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 56.45,
+    "startedAt": "2025-01-12T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d91ecf15-b6a3-5554-9dd3-7cf83abb1c3b",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 60.15,
+    "startedAt": "2025-01-12T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0dd067c3-ac08-5210-82e8-7ca2f752a1fb",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 63.85,
+    "startedAt": "2025-01-12T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8fcd9444-125c-5e0b-a17b-179a2df80e2a",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 67.55,
+    "startedAt": "2025-01-12T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "05c54276-deba-5fc5-be16-22916ca25cdc",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 71.25,
+    "startedAt": "2025-01-12T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ab284fd4-6566-5af7-9caf-8e767e2f5403",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 74.95,
+    "startedAt": "2025-01-12T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3af438d3-94fc-5924-8a5d-28d6a3565394",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 78.65,
+    "startedAt": "2025-01-12T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "0ef7c0dc-4dfc-50cc-b0b5-c0690c95c360",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 82.35,
+    "startedAt": "2025-01-12T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "873bb8eb-8b66-5914-aacd-e225d57e4b3b",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 86.05,
+    "startedAt": "2025-01-12T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "15650230-3b85-57c7-963a-0a3bd4599f1d",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 89.75,
+    "startedAt": "2025-01-12T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c616d160-442c-59ec-a741-314c62e17a90",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 93.45,
+    "startedAt": "2025-01-12T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2b399f92-3c62-5371-9f10-264dff5f994e",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 97.15,
+    "startedAt": "2025-01-12T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "00ef1d6b-831b-5b43-9f96-f33589aabafb",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 4.35,
+    "startedAt": "2025-01-12T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3e9eae6f-9a47-52c0-9b7b-931bad42c0fe",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 8.05,
+    "startedAt": "2025-01-11T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8dcd835d-7985-513d-ad66-dce00d8fab58",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 11.75,
+    "startedAt": "2025-01-11T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "edd7aef1-f6e4-5b6e-a309-2ec6915f3e15",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 15.45,
+    "startedAt": "2025-01-11T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6d829e37-ec03-5936-af23-48b496877e76",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 19.15,
+    "startedAt": "2025-01-11T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "55590168-1d41-5f14-8cfa-c1e438b4cf9e",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 22.85,
+    "startedAt": "2025-01-11T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "3d1fda71-3838-54a1-9ed8-9fdb22c691f3",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 26.55,
+    "startedAt": "2025-01-11T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7dcb7d80-bc0c-502e-9b00-dec54d2d3a41",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 30.25,
+    "startedAt": "2025-01-11T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "845a76f2-4621-5524-8795-904a36b5683f",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 33.95,
+    "startedAt": "2025-01-11T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "99ab5035-1d52-57b5-80ee-bdbe1c9bd750",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 37.65,
+    "startedAt": "2025-01-11T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "46dbf543-7bab-53b4-b743-2bbad901c188",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 41.35,
+    "startedAt": "2025-01-11T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "33351d8e-ba0d-5883-9ead-9d8b9ac3db8c",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 45.05,
+    "startedAt": "2025-01-11T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d96678db-fe47-5c95-a993-0213d4d2a1f1",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 48.75,
+    "startedAt": "2025-01-11T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0fc3c7ae-9df1-5ff7-825a-7723182a2f53",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 52.45,
+    "startedAt": "2025-01-11T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "872afd56-5268-5f7c-9279-a412225cb7dd",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 56.15,
+    "startedAt": "2025-01-11T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3d62e8ef-fd32-5679-a2b2-159f46b62e14",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 59.85,
+    "startedAt": "2025-01-11T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e9e4320e-2246-5ca9-a7fe-046c2e7ee7cb",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 63.55,
+    "startedAt": "2025-01-11T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "cb729595-fc22-5388-95b2-165aba7945e2",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 67.25,
+    "startedAt": "2025-01-10T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "adb4a11d-625c-5862-91f6-43252d787d56",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 70.95,
+    "startedAt": "2025-01-10T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e4a7ef60-6de4-5bca-95e1-23292878d2dd",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 74.65,
+    "startedAt": "2025-01-10T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7e64f2c1-a9f5-53ff-8d2d-a29cbe1552ce",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 78.35,
+    "startedAt": "2025-01-10T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ddf198d2-f482-53af-9a86-14197f1d14ee",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 82.05,
+    "startedAt": "2025-01-10T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6741f4ec-053d-5d5d-8b4d-a14c28819b6e",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 85.75,
+    "startedAt": "2025-01-10T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e99df2b5-372d-5ae7-bb68-3d6c3ce8ec31",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 89.45,
+    "startedAt": "2025-01-10T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c5476a4a-38db-5944-89d1-5f64b2633526",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 93.15,
+    "startedAt": "2025-01-10T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "046465e4-3191-506d-bd9d-3f80a3a06f1b",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 96.85,
+    "startedAt": "2025-01-10T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "67643175-581b-55a5-bc61-78ecc67fd6b2",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 4.05,
+    "startedAt": "2025-01-10T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ccf5d349-c27f-5f00-87b8-cbbbaee2741c",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 7.75,
+    "startedAt": "2025-01-10T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "c9b854d1-933f-5988-b2f9-ace3005c0f98",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 11.45,
+    "startedAt": "2025-01-10T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "89b5cf9b-4c9a-59dc-a8ca-c14b09f0d00e",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 15.15,
+    "startedAt": "2025-01-10T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "cef6eaa2-7477-5cd1-8a4f-4579fb950740",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 18.85,
+    "startedAt": "2025-01-10T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f42eef42-63f2-5353-a012-f6d2c86f91bb",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 22.55,
+    "startedAt": "2025-01-10T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "89ced68c-2fa0-5b04-abb2-dbef13c166a5",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 26.25,
+    "startedAt": "2025-01-10T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3c4a6529-6091-52bb-b20a-83f3529c7f70",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 29.95,
+    "startedAt": "2025-01-09T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f14002a3-33fe-5465-a4e9-14efe5754b5e",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 33.65,
+    "startedAt": "2025-01-09T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8539b623-7c13-58a7-b19f-fd8f34468da0",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 37.35,
+    "startedAt": "2025-01-09T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "3d2281ab-f26a-52db-974e-3366a0950c5f",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 41.05,
+    "startedAt": "2025-01-09T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6d4772be-fe80-5ed2-85cc-c48574a4354a",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 44.75,
+    "startedAt": "2025-01-09T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0f589722-5b78-53e3-9567-22f4f52f9349",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 48.45,
+    "startedAt": "2025-01-09T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "80758440-761d-5761-a13e-25d69d22c571",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 52.15,
+    "startedAt": "2025-01-09T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3878ae42-15b1-597f-b692-37ae347d2b3f",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 55.85,
+    "startedAt": "2025-01-09T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "93daa08c-88ed-512a-978b-60f9d3220817",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 59.55,
+    "startedAt": "2025-01-09T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3d8aabcc-a88e-5639-a806-a2b2bd5c798e",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 63.25,
+    "startedAt": "2025-01-09T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fc503b22-46b9-5c07-90f7-2c2125e575d0",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 66.95,
+    "startedAt": "2025-01-09T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "00eec12d-54fd-5b83-a975-f8c93b2feb62",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 70.65,
+    "startedAt": "2025-01-09T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "bbff328f-eb5a-53c3-b596-820c634a0470",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 74.35,
+    "startedAt": "2025-01-09T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9dc6bb84-7269-55ae-b1ba-a0c7871eb066",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 78.05,
+    "startedAt": "2025-01-09T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "0c87e9e8-fce8-512f-9db6-1eed5b2c2802",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 81.75,
+    "startedAt": "2025-01-09T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "21c68a45-0d56-5b9a-bcea-ed4bff30ec48",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 85.45,
+    "startedAt": "2025-01-09T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1be482f6-a782-5df8-9c3e-ed1de5e0559e",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 89.15,
+    "startedAt": "2025-01-08T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "c65e70de-9595-50ab-ba16-3225a64a00e1",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 92.85,
+    "startedAt": "2025-01-08T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5ec799fb-84ad-5f61-a51f-db0ecc177c62",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 96.55,
+    "startedAt": "2025-01-08T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3110216e-4c90-5d3c-bb25-cbb659fd2a0d",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 3.75,
+    "startedAt": "2025-01-08T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e7b03a4e-ff1b-5d21-b65e-4a8611319de1",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 7.45,
+    "startedAt": "2025-01-08T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "74068fdc-6fe3-52ae-96ba-5fae8f746940",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 11.15,
+    "startedAt": "2025-01-08T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "25fb1e82-db97-5515-a099-81495c020a80",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 14.85,
+    "startedAt": "2025-01-08T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "cda60fe2-860d-5fe7-bf0b-02871431cbdc",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 18.55,
+    "startedAt": "2025-01-08T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "dcdbdbae-2ac6-5e2f-9deb-256eeda463c9",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 22.25,
+    "startedAt": "2025-01-08T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "4db1c4b1-fa33-5309-bdb6-ec669f690bc0",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 25.95,
+    "startedAt": "2025-01-08T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "4dbd2c3e-93d1-5294-8b86-ff21106e0939",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 29.65,
+    "startedAt": "2025-01-08T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f91f3a66-5f5b-5b8d-9f41-893a7a29e3ac",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 33.35,
+    "startedAt": "2025-01-08T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "14089c01-b52d-5c43-9a02-74132959cb2e",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 37.05,
+    "startedAt": "2025-01-08T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "80f0912c-d6b4-5409-ab41-035792ecabf3",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 40.75,
+    "startedAt": "2025-01-08T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e3acfc3e-76e5-57de-a2f2-3d45087ebaef",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 44.45,
+    "startedAt": "2025-01-08T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5365a912-ffbc-5710-aa1d-e65f78eff5b0",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 48.15,
+    "startedAt": "2025-01-08T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8dd7e0f3-4959-544b-a2a5-3443fd682bad",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 51.85,
+    "startedAt": "2025-01-07T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f746772d-f487-57b7-aeb0-bdf8e8a5254d",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 55.55,
+    "startedAt": "2025-01-07T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "542d2fe3-a1c1-5ffc-a0b6-3e3748f99a53",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 59.25,
+    "startedAt": "2025-01-07T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "93202e14-2976-5192-afc7-180edd8b8008",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 62.95,
+    "startedAt": "2025-01-07T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "9ff3f39e-9e45-5948-a4c1-82ff6dabdf8b",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 66.65,
+    "startedAt": "2025-01-07T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "4b685462-61f3-58d2-b5c4-00ea6b430536",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 70.35,
+    "startedAt": "2025-01-07T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "dd8807d8-31c3-5a0b-8097-11ca97b11f45",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 74.05,
+    "startedAt": "2025-01-07T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "7a5f9be1-7bf2-5251-8c7c-7a18149778ee",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 77.75,
+    "startedAt": "2025-01-07T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ba722adb-c6d9-5dc2-9310-46448488784e",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 81.45,
+    "startedAt": "2025-01-07T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c4aba634-e6e5-5832-9105-004a3da96a7d",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 85.15,
+    "startedAt": "2025-01-07T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "faff550a-b602-5137-b70e-fb1bcf8de258",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 88.85,
+    "startedAt": "2025-01-07T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2b969f37-1e73-5428-8b63-de63e150186c",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 92.55,
+    "startedAt": "2025-01-07T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "75769754-d8ec-5c10-a2d0-38265c4feadd",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 96.25,
+    "startedAt": "2025-01-07T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3701e3ab-b59d-54e9-a83f-226776af4640",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 3.45,
+    "startedAt": "2025-01-07T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d6da774f-f887-5f69-b7cb-42f7f925c732",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 7.15,
+    "startedAt": "2025-01-07T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "7a12fc8d-05ca-5c3a-abfe-a150701cf771",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 10.85,
+    "startedAt": "2025-01-07T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "34058ec5-5813-50ca-ba39-0cc9facd7031",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 14.55,
+    "startedAt": "2025-01-06T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "56cd4704-fc5b-5d0e-87a3-f42a4246c606",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 18.25,
+    "startedAt": "2025-01-06T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "21412d13-55a8-5ab5-b93e-cd84d70a5681",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 21.95,
+    "startedAt": "2025-01-06T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "23bdbcaf-04fd-5fbe-bea1-a2dbc6cd9cb3",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 25.65,
+    "startedAt": "2025-01-06T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "58163895-751d-56e2-b89b-39363fcdd995",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 29.35,
+    "startedAt": "2025-01-06T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5c393379-7d21-5aa4-bf5d-e8bbbde47268",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 33.05,
+    "startedAt": "2025-01-06T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "509a0b97-3277-5bc7-b2b8-e3133fe1b7c5",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 36.75,
+    "startedAt": "2025-01-06T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d5c322b9-7c3f-5c96-b961-36ffa2020f2e",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 40.45,
+    "startedAt": "2025-01-06T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "dcd36dbb-08a4-56b8-8a1b-1c0a87976bd6",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 44.15,
+    "startedAt": "2025-01-06T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5bf96863-6f5b-556d-b83f-47937a5c713b",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 47.85,
+    "startedAt": "2025-01-06T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "c83d9e77-52e2-5faf-af3d-773307d62551",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 51.55,
+    "startedAt": "2025-01-06T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3ddc9c1c-e6d7-58e1-8030-428dfb2d4b5f",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 55.25,
+    "startedAt": "2025-01-06T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "794fc438-5471-57bf-982c-ff49b0b57e1a",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 58.95,
+    "startedAt": "2025-01-06T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "dbddfe94-32a3-5fc1-972d-2edc3f2629c3",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 62.65,
+    "startedAt": "2025-01-06T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "55160965-a4bb-50d5-8771-203a129314c4",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 66.35,
+    "startedAt": "2025-01-06T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "def93784-7469-5fc3-9307-d2a47c954206",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 70.05,
+    "startedAt": "2025-01-06T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b08d6469-5738-5f55-8afb-436cce36057f",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 73.75,
+    "startedAt": "2025-01-05T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fe628f30-2eb0-58cd-80f5-8ef9072a27f6",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 77.45,
+    "startedAt": "2025-01-05T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3db4eea5-3b22-5ac3-a611-839005e4d8f7",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 81.15,
+    "startedAt": "2025-01-05T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "bbf553ff-c988-5a67-9f64-9c5760454b3b",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 84.85,
+    "startedAt": "2025-01-05T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "eea609e0-f588-5508-aa19-8d69e8e34e86",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 88.55,
+    "startedAt": "2025-01-05T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "6e739106-67e6-56f2-9e39-0499ba4e75dd",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 92.25,
+    "startedAt": "2025-01-05T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "36ef0ae1-d74c-530c-bfe4-e5e519451646",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 95.95,
+    "startedAt": "2025-01-05T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3cbbf873-ce89-57c9-8a9b-23afc1fc3f6d",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 3.15,
+    "startedAt": "2025-01-05T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "52d56c3d-5809-5c35-bd6d-49bacbf4d711",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 6.85,
+    "startedAt": "2025-01-05T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f03cc8e6-9074-5d0f-b9a4-c862cc62ceb0",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 10.55,
+    "startedAt": "2025-01-05T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3eabbd76-c02e-5246-aa9d-abe0a1e8f1c7",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 14.25,
+    "startedAt": "2025-01-05T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a910344e-c801-5a78-83c8-b4adc2a117ea",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 17.95,
+    "startedAt": "2025-01-05T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ebe34b40-c527-5093-9667-086a9b433a4c",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 21.65,
+    "startedAt": "2025-01-05T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e51855d8-ccf0-55b9-822e-4add1f59d976",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 25.35,
+    "startedAt": "2025-01-05T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7af58fd5-bf55-555d-9954-bedd288d86da",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 29.05,
+    "startedAt": "2025-01-05T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "bc1e14f9-9f72-52a8-b5ea-bd3b9e7eb2d5",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 32.75,
+    "startedAt": "2025-01-05T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "3bfa262d-0de5-5a03-8e69-2c28585b7d1c",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 36.45,
+    "startedAt": "2025-01-04T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1f608be5-17ce-56a8-a905-11bcda2ece08",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 40.15,
+    "startedAt": "2025-01-04T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0b4baf93-b944-59b9-aa76-65316afa99ea",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 43.85,
+    "startedAt": "2025-01-04T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "b3c29498-a970-566e-9be8-503bf3e3d970",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 47.55,
+    "startedAt": "2025-01-04T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "141b2516-6001-5b41-8952-39b6954a00d3",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 51.25,
+    "startedAt": "2025-01-04T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fd61cf4c-8a2e-5676-bb92-45b5c436f6da",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 54.95,
+    "startedAt": "2025-01-04T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "54504f73-ebec-5eb2-88f0-9978c25fc0a8",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 58.65,
+    "startedAt": "2025-01-04T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "619f2bb4-5cdf-550d-827a-1dc46eae378e",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 62.35,
+    "startedAt": "2025-01-04T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a73999fd-f417-52cb-804f-1302850f3ac8",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 66.05,
+    "startedAt": "2025-01-04T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "42d8285e-19e3-5e98-b2fa-fe79da5c509a",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 69.75,
+    "startedAt": "2025-01-04T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "15c17854-6da1-5af4-9798-02ca76db78d9",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 73.45,
+    "startedAt": "2025-01-04T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "071b918f-a891-5e70-a104-3e0725d21e02",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 77.15,
+    "startedAt": "2025-01-04T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f572ba8c-23e0-51b8-b6c8-fbbae6ff5693",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 80.85,
+    "startedAt": "2025-01-04T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fd08aee6-f37a-55aa-92bc-1e95b832c8d9",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 84.55,
+    "startedAt": "2025-01-04T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "53881461-d70d-5cee-af16-fcd5ba495466",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 88.25,
+    "startedAt": "2025-01-04T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1749a571-a581-5d00-ab05-71e8e35165bb",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 91.95,
+    "startedAt": "2025-01-04T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d394999f-0197-5bcc-8f67-dcc15099ed34",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 95.65,
+    "startedAt": "2025-01-03T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f0ccc7fd-9e22-5284-bf54-984c66864c7a",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 2.85,
+    "startedAt": "2025-01-03T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6fd72598-7b73-5051-9f06-183f06dfd4a7",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 6.55,
+    "startedAt": "2025-01-03T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "da057bdc-26a3-58e2-a92d-f854dc83a095",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 10.25,
+    "startedAt": "2025-01-03T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "232b5404-8c23-5237-b78f-50f7b96721ff",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 13.95,
+    "startedAt": "2025-01-03T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e5273fd5-4f40-5a1d-b0a3-45330c766ca3",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 17.65,
+    "startedAt": "2025-01-03T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "85b9a702-d2f7-5086-9b4f-22913f6fed27",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 21.35,
+    "startedAt": "2025-01-03T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2dba68e3-5e20-543e-bdbc-38409787ac76",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 25.05,
+    "startedAt": "2025-01-03T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b2689285-4741-59e5-8037-771db6c387d0",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 28.75,
+    "startedAt": "2025-01-03T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "6e4b9d67-2851-5386-bc1f-b1c9a7396e84",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 32.45,
+    "startedAt": "2025-01-03T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6021c867-af71-547a-ad60-b491b26c0e41",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 36.15,
+    "startedAt": "2025-01-03T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "11b79592-a24e-5335-8478-978856c2fbeb",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 39.85,
+    "startedAt": "2025-01-03T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "55c7a0e7-4043-5a88-85b2-29625a091ebe",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 43.55,
+    "startedAt": "2025-01-03T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2292c599-6525-5a65-824d-0233662465d6",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 47.25,
+    "startedAt": "2025-01-03T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0bf83130-4305-5e68-9afe-ecbf23143a56",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 50.95,
+    "startedAt": "2025-01-03T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6bea6463-01ca-51d9-b4b1-4b725495a67c",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 54.65,
+    "startedAt": "2025-01-03T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ce0dd127-e790-5e8a-ab86-b12190ecbce2",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 58.35,
+    "startedAt": "2025-01-02T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "fc0b62d9-652e-513a-a629-71f7b0a5e477",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 62.05,
+    "startedAt": "2025-01-02T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d067355a-8646-591d-8eae-727758119314",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 65.75,
+    "startedAt": "2025-01-02T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "af2393f0-8064-5ffb-84ac-3f0ed3fbfc89",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 69.45,
+    "startedAt": "2025-01-02T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "a810f6d2-5c09-59a2-b4f7-448990842414",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 73.15,
+    "startedAt": "2025-01-02T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9f682e9d-670a-54b5-8945-ea28548dac25",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 76.85,
+    "startedAt": "2025-01-02T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3554f9f6-1e0d-533f-8c9b-8765fa456a34",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 80.55,
+    "startedAt": "2025-01-02T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2ec6a9ed-5e26-5e5f-9539-65d4a84af4ba",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 84.25,
+    "startedAt": "2025-01-02T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b0484aa4-aa7d-5465-b473-2b48c119c972",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 87.95,
+    "startedAt": "2025-01-02T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ca824f24-617b-5b95-8a19-3fa290cc6e72",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 91.65,
+    "startedAt": "2025-01-02T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2aa40edc-9f1c-5013-a1a9-e5f90d99a4a0",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 95.35,
+    "startedAt": "2025-01-02T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "dc31942d-5a23-5cf4-b877-b9dec63fa1c8",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 2.55,
+    "startedAt": "2025-01-02T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "648f344e-16b1-5dce-a606-4513e0862eaf",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 6.25,
+    "startedAt": "2025-01-02T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3a380521-93f6-501f-becc-37fc541f8e5a",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 9.95,
+    "startedAt": "2025-01-02T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "19ab2aaa-cbaa-5520-a90d-431c14e8bfbe",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 13.65,
+    "startedAt": "2025-01-02T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "a9d6d93e-0130-5198-9695-ae0dddde0797",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 17.35,
+    "startedAt": "2025-01-02T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9e081108-478f-5383-90f2-5d2cb4266255",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 21.05,
+    "startedAt": "2025-01-01T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a07dd5d4-3fcd-5c9c-9e5c-3bc909aa0e28",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 24.75,
+    "startedAt": "2025-01-01T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0ae1293e-e7da-559f-a36d-da7098e625d5",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 28.45,
+    "startedAt": "2025-01-01T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "08d011b9-5457-570d-9142-d4e4d1da8f73",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 32.15,
+    "startedAt": "2025-01-01T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6bda98c3-1fdd-5242-a773-c3c1be80242a",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 35.85,
+    "startedAt": "2025-01-01T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "92ac1e8b-b8d0-5fca-ab7f-6751f86a353e",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 39.55,
+    "startedAt": "2025-01-01T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6a69d99f-9066-5ee2-a5a5-f02bfda45fea",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 43.25,
+    "startedAt": "2025-01-01T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "076102ac-3be0-5369-9c3a-df700c30c9e6",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 46.95,
+    "startedAt": "2025-01-01T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5ee94c4d-16b4-5468-aa72-f24e1471ec3f",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 50.65,
+    "startedAt": "2025-01-01T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d20e5de3-2d73-5540-bcd3-4a150f7a11a3",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 54.35,
+    "startedAt": "2025-01-01T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "cbb5c0a8-5a51-54a8-8dde-10fb694f1f17",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 58.05,
+    "startedAt": "2025-01-01T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fb05b15d-aa51-5bd9-a49b-82018fc0ab56",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 61.75,
+    "startedAt": "2025-01-01T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0b51a8ca-5b49-5020-86da-747edf7d7086",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 65.45,
+    "startedAt": "2025-01-01T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "29063f6c-4440-5147-80d5-7fd9f29830bb",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 69.15,
+    "startedAt": "2025-01-01T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e485d97d-eaf5-5723-8ced-e3ce1f5da728",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 72.85,
+    "startedAt": "2025-01-01T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e74c908d-fd28-5661-ac75-b36aeeab6f03",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 76.55,
+    "startedAt": "2025-01-01T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "63150610-0aa8-567e-8e10-aaf298383379",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 80.25,
+    "startedAt": "2024-12-31T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d7e4a34d-1806-5ca7-b857-048f1e830bcd",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 83.95,
+    "startedAt": "2024-12-31T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "202c19f9-8e00-5e69-a813-9bef73b6d4d2",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 87.65,
+    "startedAt": "2024-12-31T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8bf0890d-177d-54e2-a1cc-0ff766de7d6d",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 91.35,
+    "startedAt": "2024-12-31T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b647c5fc-336f-57cc-bb09-bf97145b5af0",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 95.05,
+    "startedAt": "2024-12-31T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "9d23da6e-344d-541b-b939-59cdabccfe90",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 2.25,
+    "startedAt": "2024-12-31T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3799e159-5984-5c38-98d3-6c6d3a98e9b6",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 5.95,
+    "startedAt": "2024-12-31T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b5d4b5a5-ed12-5949-912d-3428edf085da",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 9.65,
+    "startedAt": "2024-12-31T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "93a6f0bc-093a-50b0-a150-185055c1439f",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 13.35,
+    "startedAt": "2024-12-31T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "937f4570-468a-5a65-b662-aa9f4a43f7ef",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 17.05,
+    "startedAt": "2024-12-31T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7bc6fb58-25aa-514f-8f71-e81e766a3403",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 20.75,
+    "startedAt": "2024-12-31T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8697eb1f-f628-5fa0-9eb0-28f7d15e0109",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 24.45,
+    "startedAt": "2024-12-31T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7e8b0588-369a-56cb-be51-6db42c90efce",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 28.15,
+    "startedAt": "2024-12-31T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "012d7c77-29e1-5dbb-92d3-4631be5b8d9d",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 31.85,
+    "startedAt": "2024-12-31T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "88af8113-b32a-5854-91a0-8175e1398d50",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 35.55,
+    "startedAt": "2024-12-31T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "52b99555-1e02-5945-9f94-ad62566fe4df",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 39.25,
+    "startedAt": "2024-12-31T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "b38589c5-dc99-5d8f-a374-8d37dc052a5d",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 42.95,
+    "startedAt": "2024-12-30T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2924fbc9-880f-57af-87ac-e18f6602b2ea",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 46.65,
+    "startedAt": "2024-12-30T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e8298929-d4aa-513b-91e8-de3a1fdc82bb",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 50.35,
+    "startedAt": "2024-12-30T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9c37a508-c05d-586c-a83f-522cee97cb4b",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 54.05,
+    "startedAt": "2024-12-30T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a74b3871-56f2-546e-a7ab-3eb592a0590b",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 57.75,
+    "startedAt": "2024-12-30T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c5937a1a-7e1c-56c6-96e3-6b776d964203",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 61.45,
+    "startedAt": "2024-12-30T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "75ea1d04-7f14-5501-a5c9-5eb2642bbb0e",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 65.15,
+    "startedAt": "2024-12-30T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0d926fde-2afe-53d6-a788-c86ef2d0cca2",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 68.85,
+    "startedAt": "2024-12-30T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "827ba4f4-9148-50f7-8548-87c829c32c96",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 72.55,
+    "startedAt": "2024-12-30T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c1b2c9e1-d30f-53f0-968a-b7d3f808fd1b",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 76.25,
+    "startedAt": "2024-12-30T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "04d09f05-aa7a-5bff-bd4f-9a687c9d589f",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 79.95,
+    "startedAt": "2024-12-30T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "161fbabf-e2a1-54ef-8e29-08a693e377fc",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 83.65,
+    "startedAt": "2024-12-30T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "27d03670-22ec-5305-a374-d878d9a728f2",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 87.35,
+    "startedAt": "2024-12-30T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6dd7ce3e-e2bb-5ac7-b426-224e81e007b9",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 91.05,
+    "startedAt": "2024-12-30T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c80df765-ae3a-54ce-b980-21bbd91d0a22",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 94.75,
+    "startedAt": "2024-12-30T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e2790245-87ac-51b2-8272-a7f58413181f",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 1.95,
+    "startedAt": "2024-12-30T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7226da02-90e3-5fa1-a847-312946795c1b",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 5.65,
+    "startedAt": "2024-12-29T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0ca0f201-679b-5fbb-bf08-215fbfc2caf1",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 9.35,
+    "startedAt": "2024-12-29T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b307671b-911b-5a03-a446-850e5b5aa2a6",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 13.05,
+    "startedAt": "2024-12-29T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "57c7aa1c-738c-5433-b8dd-01015fc1bdbf",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 16.75,
+    "startedAt": "2024-12-29T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c4d8d219-153a-5fd0-8482-909d7b17d22a",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 20.45,
+    "startedAt": "2024-12-29T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fa34c84b-1a86-5dc4-81c7-b18c436e0b21",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 24.15,
+    "startedAt": "2024-12-29T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "092c0800-9dc0-5a6b-9e3f-11c3ed7de81f",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 27.85,
+    "startedAt": "2024-12-29T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ee94a5e3-3ea4-571e-bba1-e95d39087a81",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 31.55,
+    "startedAt": "2024-12-29T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1d9de52e-9f9d-5cba-a48c-0ac959a875ad",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 35.25,
+    "startedAt": "2024-12-29T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "75160a04-634b-5f2f-8973-16c4c9a59976",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 38.95,
+    "startedAt": "2024-12-29T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e1405988-a92a-54f7-a2ea-056867a24dc7",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 42.65,
+    "startedAt": "2024-12-29T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f701f55e-50c3-5ebc-b473-3e4f15283670",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 46.35,
+    "startedAt": "2024-12-29T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3b327103-4d19-5056-8762-45f982a8ea94",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 50.05,
+    "startedAt": "2024-12-29T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f244f493-7fd6-545e-a3fc-edd0afa6f364",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 53.75,
+    "startedAt": "2024-12-29T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "e1af9da2-7967-5f56-a9fc-ebe366a734a3",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 57.45,
+    "startedAt": "2024-12-29T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9a1b2a90-5271-599b-a51e-9b55e40e25f8",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 61.15,
+    "startedAt": "2024-12-29T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c1bd6be2-95d5-5dd7-9744-1d5ecc4874cf",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 64.85,
+    "startedAt": "2024-12-28T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "b8b283a6-c846-5598-bf9f-ecf4e7cbf406",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 68.55,
+    "startedAt": "2024-12-28T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c07efc9f-4993-5fa7-b953-fe167f50b85d",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 72.25,
+    "startedAt": "2024-12-28T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f50a8c9d-6303-5813-91b6-a853dd5da0c5",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 75.95,
+    "startedAt": "2024-12-28T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2e42257c-eadd-5835-b848-da66b1568302",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 79.65,
+    "startedAt": "2024-12-28T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b61e9978-20db-50e8-8fdd-dea02ed0a6a9",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 83.35,
+    "startedAt": "2024-12-28T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "68be7ea8-c133-52da-b476-bc15b5405087",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 87.05,
+    "startedAt": "2024-12-28T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "afa64e1c-5459-5596-8d6e-81fa0d4863b2",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 90.75,
+    "startedAt": "2024-12-28T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "418740a7-987b-54c7-8b44-9f597f89ed61",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 94.45,
+    "startedAt": "2024-12-28T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "35dfb2ef-9cff-5bf1-b2d9-46c090b2c888",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 1.65,
+    "startedAt": "2024-12-28T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9b021710-30cc-529e-8ad8-9a3a4f12b8ab",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 5.35,
+    "startedAt": "2024-12-28T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "24b0382c-987a-5789-a559-252f37676b60",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 9.05,
+    "startedAt": "2024-12-28T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "ff8d47e9-c58e-5dbf-aa79-c4e542bef3c0",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 12.75,
+    "startedAt": "2024-12-28T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b3987479-f5ff-5f3d-a91a-23a6865a0a79",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 16.45,
+    "startedAt": "2024-12-28T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "03d1adf0-a18b-5c51-b9c2-e8e2a5a09430",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 20.15,
+    "startedAt": "2024-12-28T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3ee45150-b80c-5f5a-acfc-915767842e0c",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 23.85,
+    "startedAt": "2024-12-28T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f4f972cc-bffd-5ed0-885b-65c470c4482e",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 27.55,
+    "startedAt": "2024-12-27T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "27e0d50e-b7e9-52f7-9c56-c382952c0165",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 31.25,
+    "startedAt": "2024-12-27T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "01f2207e-85e4-53be-b6ce-1ebcbc1322fa",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 34.95,
+    "startedAt": "2024-12-27T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3b3124fe-5495-50b7-a3b2-63cb6a2bf1b8",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 38.65,
+    "startedAt": "2024-12-27T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "26410b8e-a62e-51c1-ad56-17603b0d4d75",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 42.35,
+    "startedAt": "2024-12-27T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "418fae56-00b5-57de-b333-87e51c4abd88",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 46.05,
+    "startedAt": "2024-12-27T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5eb94141-fc75-5968-829c-540197efdd54",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 49.75,
+    "startedAt": "2024-12-27T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "c044bd9a-8e77-535b-a7f4-8da979151b84",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 53.45,
+    "startedAt": "2024-12-27T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c430b3bc-f88b-5e87-9ce3-5a4fcd148886",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 57.15,
+    "startedAt": "2024-12-27T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "233eb84f-f03d-57c8-858c-532c580e01e5",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 60.85,
+    "startedAt": "2024-12-27T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "050f3e7f-1c3c-57e9-966b-6656a76ad3f2",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 64.55,
+    "startedAt": "2024-12-27T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f796bd51-569d-5696-8048-76dd702a6dce",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 68.25,
+    "startedAt": "2024-12-27T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f36354c1-1eb5-5b8e-bbf2-1c7f04b43696",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 71.95,
+    "startedAt": "2024-12-27T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d5171a0e-4aba-5c6c-988a-d22ce84ac5ed",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 75.65,
+    "startedAt": "2024-12-27T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "44e2250f-8fff-54ab-abfe-1932b7aedf33",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 79.35,
+    "startedAt": "2024-12-27T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "33c76dee-c6da-53c2-b994-1a26c0e0462b",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 83.05,
+    "startedAt": "2024-12-27T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "16573ed2-050d-58d9-b5a1-da10334f03ad",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 86.75,
+    "startedAt": "2024-12-26T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "18839686-1aee-5c77-9aa7-078df1bc89df",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 90.45,
+    "startedAt": "2024-12-26T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "7bebdd46-3f6b-5f6f-8ab4-32186ec4f261",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 94.15,
+    "startedAt": "2024-12-26T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1a512d6f-e4ab-5f58-a8cf-e0606fcb18af",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 1.35,
+    "startedAt": "2024-12-26T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7b791c35-4418-5b6c-94da-c3d7ea992ebb",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 5.05,
+    "startedAt": "2024-12-26T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5c51b25e-260c-5fe7-b5d2-919fa7ba3adc",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 8.75,
+    "startedAt": "2024-12-26T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2144a42c-40a7-566e-9046-fe3750164d55",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 12.45,
+    "startedAt": "2024-12-26T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9d819306-c7c2-574a-8c9f-c02f03ce97dd",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 16.15,
+    "startedAt": "2024-12-26T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "400531ed-3371-5a4b-a063-e8b8b19ed6ea",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 19.85,
+    "startedAt": "2024-12-26T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "590bf28b-708b-5416-9246-9bbd375b6701",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 23.55,
+    "startedAt": "2024-12-26T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "31647b93-8dae-536e-871a-0755f6ad5f0a",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 27.25,
+    "startedAt": "2024-12-26T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b362ab8a-1862-5774-a5c7-1a1a605045fa",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 30.95,
+    "startedAt": "2024-12-26T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "4ecc081c-954a-5658-9b54-ff2844f2c3fd",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 34.65,
+    "startedAt": "2024-12-26T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "0379d6bb-fb1a-5212-a7f3-bfd8d3f49ff7",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 38.35,
+    "startedAt": "2024-12-26T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9d55f8da-b1cd-5099-bc2e-62a13ed874d2",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 42.05,
+    "startedAt": "2024-12-26T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3bc27448-46e9-516c-bd2e-3ea69c68afdd",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 45.75,
+    "startedAt": "2024-12-26T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c45fd0ed-c727-57ea-a2f3-fc4951d60bc1",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 49.45,
+    "startedAt": "2024-12-25T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "90f8f03f-ca7c-553d-9300-70e09b103cce",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 53.15,
+    "startedAt": "2024-12-25T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ab6cd6c7-fe44-56b1-af06-282ee177f70b",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 56.85,
+    "startedAt": "2024-12-25T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "240a6aed-2f74-501e-b1f2-5575aae6d99e",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 60.55,
+    "startedAt": "2024-12-25T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e2beb50b-1790-5201-849f-476e10653054",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 64.25,
+    "startedAt": "2024-12-25T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "156dc1c1-7efe-5865-b36c-15ffb4fed71c",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 67.95,
+    "startedAt": "2024-12-25T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7b53d082-04cf-5bfc-840b-6f9b6076857c",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 71.65,
+    "startedAt": "2024-12-25T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "49c0be3e-8036-543f-b884-a23b861d7bb5",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 75.35,
+    "startedAt": "2024-12-25T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "e933e02a-eb0d-5ebe-b0ed-1b417e5fbddf",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 79.05,
+    "startedAt": "2024-12-25T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "bfadfecb-2a22-57f2-8ea4-4d414c1bd12f",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 82.75,
+    "startedAt": "2024-12-25T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "43308f89-eef4-582d-8950-fa60d512bbbd",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 86.45,
+    "startedAt": "2024-12-25T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e56c530b-702b-5994-84d5-037da374ac37",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 90.15,
+    "startedAt": "2024-12-25T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "13160bee-bad7-56e2-abbf-355826229c59",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 93.85,
+    "startedAt": "2024-12-25T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3f2259b2-a178-5775-a9bf-18d053d6b0fe",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 97.55,
+    "startedAt": "2024-12-25T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "92b74279-ee3d-508f-9c95-abd84a651af4",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 4.75,
+    "startedAt": "2024-12-25T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0838eae1-60f0-5599-8d43-143618f0b5ea",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 8.45,
+    "startedAt": "2024-12-25T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "4b3f726f-7249-5248-b59e-350f63bef4dd",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 12.15,
+    "startedAt": "2024-12-24T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6f87c81e-f11a-5ace-ae57-a4d0caa1c100",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 15.85,
+    "startedAt": "2024-12-24T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e055c213-d4da-5f40-a1c4-33adc57a94e5",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 19.55,
+    "startedAt": "2024-12-24T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "b544a7be-e092-598c-b2c5-03efb1862b63",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 23.25,
+    "startedAt": "2024-12-24T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "98ae7b2f-76f9-54c5-ba0a-59ccf2966ac9",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 26.95,
+    "startedAt": "2024-12-24T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6630fb22-5df0-5f0c-8381-e2daf56af5ed",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 30.65,
+    "startedAt": "2024-12-24T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6be5e0f5-9d3b-59e9-9cfa-da0842081834",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 34.35,
+    "startedAt": "2024-12-24T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ad6fb017-9f0c-5a3d-8339-4b2b0e7e0698",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 38.05,
+    "startedAt": "2024-12-24T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "df114809-8b27-5ec3-9675-1941cff113ef",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 41.75,
+    "startedAt": "2024-12-24T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "af3e8f41-0945-51bd-bc5f-fa53b327babb",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 45.45,
+    "startedAt": "2024-12-24T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a46372ce-9ba9-5b6e-8554-cb5ba4902623",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 49.15,
+    "startedAt": "2024-12-24T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "2b4b8754-af17-5dc8-9a42-29bf5c081e7a",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 52.85,
+    "startedAt": "2024-12-24T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2ad51108-786f-52fc-9d7e-89888898cdfe",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 56.55,
+    "startedAt": "2024-12-24T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "145cd455-0db3-5085-8839-e5cfcf360b7c",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 60.25,
+    "startedAt": "2024-12-24T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "7e7a9398-2fac-53b9-8dd0-2214b18cbe93",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 63.95,
+    "startedAt": "2024-12-24T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5c0dc11e-de19-59ce-8307-17fd8c53dfb7",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 67.65,
+    "startedAt": "2024-12-24T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b17d1eb1-678a-5abb-95c3-c396c64dccd2",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 71.35,
+    "startedAt": "2024-12-23T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5e09bd24-0dc1-5bb1-8737-2a6ea4ce6d18",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 75.05,
+    "startedAt": "2024-12-23T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b0554ae7-aa38-5a52-953a-90ab19c67362",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 78.75,
+    "startedAt": "2024-12-23T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c881ef73-0801-5d22-90ad-a06a72ef367f",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 82.45,
+    "startedAt": "2024-12-23T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c27248fa-2285-5fc0-b1dd-bc1b18d21ea9",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 86.15,
+    "startedAt": "2024-12-23T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "757316c8-fc38-5626-b0f8-098a866368fd",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 89.85,
+    "startedAt": "2024-12-23T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "5540b101-8480-550e-840b-0a1e99891f0c",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 93.55,
+    "startedAt": "2024-12-23T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "4333ac7f-814d-58a7-87fb-32978b9b2deb",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 97.25,
+    "startedAt": "2024-12-23T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "774abff3-8589-5fcd-98d9-f9400975d782",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 4.45,
+    "startedAt": "2024-12-23T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "9e5948c5-3139-50a7-9184-78815f75ba12",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 8.15,
+    "startedAt": "2024-12-23T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "63a6740b-5f47-5d4f-8082-b8db40291ece",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 11.85,
+    "startedAt": "2024-12-23T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "705582d2-668e-5466-a66b-400cb1d630b8",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 15.55,
+    "startedAt": "2024-12-23T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "075bba30-4b60-54be-9aa0-6fd60f6e397a",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 19.25,
+    "startedAt": "2024-12-23T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "05a34df3-c428-5407-b23e-2f22ef8d56f6",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 22.95,
+    "startedAt": "2024-12-23T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8ef3ac7c-88fe-57d1-bf1a-ffaa003e11ab",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 26.65,
+    "startedAt": "2024-12-23T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9cb3e5ce-0340-56da-8cdc-524f8540cf84",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 30.35,
+    "startedAt": "2024-12-23T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6fcc4336-bc76-54a1-b153-e09e627146db",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 34.05,
+    "startedAt": "2024-12-22T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "2444dbe0-cacb-546d-b428-f77756fc289a",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 37.75,
+    "startedAt": "2024-12-22T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "81bc48c5-4f60-54ad-bbac-0595977e669e",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 41.45,
+    "startedAt": "2024-12-22T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e5c92967-e21e-5c52-b362-11722425707a",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 45.15,
+    "startedAt": "2024-12-22T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "5863c412-265d-5779-bdcf-acdab1b1deb0",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 48.85,
+    "startedAt": "2024-12-22T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e3e87ad8-c4b6-5bf5-b8a4-b7b04aa7d5fe",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 52.55,
+    "startedAt": "2024-12-22T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "31e77541-afd2-55c1-8154-3bb489dc6d34",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 56.25,
+    "startedAt": "2024-12-22T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "73486a5e-15b4-5e1b-991c-e50f8d34d50c",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 59.95,
+    "startedAt": "2024-12-22T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e116c204-8260-5076-997b-a822f5adba24",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 63.65,
+    "startedAt": "2024-12-22T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "15590cc3-5600-562e-bfe6-023184e1785a",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 67.35,
+    "startedAt": "2024-12-22T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "12fa630b-1076-55c8-8816-deba982e1347",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 71.05,
+    "startedAt": "2024-12-22T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c0c0922e-b1d9-5352-b9af-2a0f9f3b5b34",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 74.75,
+    "startedAt": "2024-12-22T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "cc6b5542-fc8a-5b00-9842-59d12e9c2055",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 78.45,
+    "startedAt": "2024-12-22T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a0197379-8fd7-5d92-b3bd-c1ac8bd55706",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 82.15,
+    "startedAt": "2024-12-22T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2e83a16e-57e4-5311-9e58-b817d3391e3d",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 85.85,
+    "startedAt": "2024-12-22T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "377ddbe0-b69a-5c79-8910-78da90c61bd7",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 89.55,
+    "startedAt": "2024-12-22T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "de54aa7e-8f83-53b0-8c69-3ce5e050b2c9",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 93.25,
+    "startedAt": "2024-12-21T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "eb8cb50e-8ba7-5ef4-b6bf-cf189c2c3e76",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 96.95,
+    "startedAt": "2024-12-21T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9dc6f06f-b851-56a2-a2ca-b0e7e5d6b182",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 4.15,
+    "startedAt": "2024-12-21T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0cdfe1f8-a84a-560d-b2a6-e81f3cef4007",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 7.85,
+    "startedAt": "2024-12-21T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "89cd483a-1204-5c59-a6b2-21a707f06c3f",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 11.55,
+    "startedAt": "2024-12-21T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "377acc21-a009-5131-83cb-c657fb229196",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 15.25,
+    "startedAt": "2024-12-21T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "345b8790-0d89-544c-a2c2-299091de6e19",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 18.95,
+    "startedAt": "2024-12-21T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "b3402383-9377-535e-adcd-33071302efdd",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 22.65,
+    "startedAt": "2024-12-21T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "cce5720f-b055-5f9f-986e-a1fe99535b35",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 26.35,
+    "startedAt": "2024-12-21T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "4eb82d69-801f-5a7b-866d-1bf3a658ef95",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 30.05,
+    "startedAt": "2024-12-21T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "f2cfa870-f1af-589c-b117-31c8c12c8958",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 33.75,
+    "startedAt": "2024-12-21T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1d33f1ca-70d7-5548-b00d-694197399586",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 37.45,
+    "startedAt": "2024-12-21T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "60ebd1a9-4803-583a-b2d5-821464d42a2d",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 41.15,
+    "startedAt": "2024-12-21T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "b7883120-24dd-5944-884f-6a032b39b7b4",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 44.85,
+    "startedAt": "2024-12-21T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "91911a94-b604-54a7-aa49-8a2517d921ab",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 48.55,
+    "startedAt": "2024-12-21T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "60665fbf-6040-5119-a258-ee031ae62b09",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 52.25,
+    "startedAt": "2024-12-21T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "57bbc9d6-cd5d-5950-93d7-6b135fb1c15d",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 55.95,
+    "startedAt": "2024-12-20T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fe3ee5f5-9836-5b82-a9d3-378ce76c12c9",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 59.65,
+    "startedAt": "2024-12-20T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "6323e470-5688-5903-9be6-5019c1df868c",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 63.35,
+    "startedAt": "2024-12-20T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8c2c314a-e618-5301-8b6c-140bccbb80bb",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 67.05,
+    "startedAt": "2024-12-20T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c8c1a62a-a3e0-5da9-9be3-8db1139b8ba3",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 70.75,
+    "startedAt": "2024-12-20T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "7883615a-f6ff-56d4-84e7-921e5e34439f",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 74.45,
+    "startedAt": "2024-12-20T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e74f1c5a-f368-56e8-9b4d-1353136a7a90",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 78.15,
+    "startedAt": "2024-12-20T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6244aa79-3c92-5dac-8f8b-072077a3ced4",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 81.85,
+    "startedAt": "2024-12-20T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "5740f2fa-67e9-511a-9493-b859945c890a",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 85.55,
+    "startedAt": "2024-12-20T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "4d420238-5e65-5e01-847d-3f99b40535fa",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 89.25,
+    "startedAt": "2024-12-20T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "da6fd072-cae3-5bbd-a99c-7f91c653ea5f",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 92.95,
+    "startedAt": "2024-12-20T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0321da58-fbde-5227-b9dc-a152ccf7d0b4",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 96.65,
+    "startedAt": "2024-12-20T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "69c0a1d3-b0f7-5204-90e9-9a4f1dab8073",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 3.85,
+    "startedAt": "2024-12-20T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "69a3888d-0fac-5088-a909-ad0720a9cb3c",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 7.55,
+    "startedAt": "2024-12-20T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1b1e8401-96b2-546e-8a17-a2a153206018",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 11.25,
+    "startedAt": "2024-12-20T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1e896494-5ad8-5b75-92a2-9d2616b22e56",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 14.95,
+    "startedAt": "2024-12-20T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "ea533f13-1f5c-5783-bd03-5b106cf62712",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 18.65,
+    "startedAt": "2024-12-19T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d2d3608b-b2b8-5ded-afd9-963ef37be316",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 22.35,
+    "startedAt": "2024-12-19T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6480b99f-85c7-5db3-9f61-6486ea2d5cdf",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 26.05,
+    "startedAt": "2024-12-19T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "bd6cf4b9-48b4-50ee-abc5-76ff0ea75d5b",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 29.75,
+    "startedAt": "2024-12-19T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "03dfc98a-ad01-509e-9e22-daa8d73f901f",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 33.45,
+    "startedAt": "2024-12-19T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "48f059f0-823a-55d9-a059-35eba5ee4e4f",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 37.15,
+    "startedAt": "2024-12-19T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1e907e2f-e396-57ef-9f72-1f8f447812ef",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 40.85,
+    "startedAt": "2024-12-19T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "77b5ccb0-1701-5e64-a51b-854a42327533",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 44.55,
+    "startedAt": "2024-12-19T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "8ad4ab7c-b09a-5a52-890d-f058a7f0870a",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 48.25,
+    "startedAt": "2024-12-19T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "73ebf280-b82d-5646-b538-6b4502498058",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 51.95,
+    "startedAt": "2024-12-19T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "21f7d638-4454-5466-a3d8-d3c241c806ec",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 55.65,
+    "startedAt": "2024-12-19T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "0fb5ce43-2bf5-5c02-aba6-f87f83f6b31f",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 59.35,
+    "startedAt": "2024-12-19T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "752da686-2420-5d6c-ba4d-d07b3b521907",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 63.05,
+    "startedAt": "2024-12-19T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6f314fc2-8bd8-55d9-987e-146442b812be",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 66.75,
+    "startedAt": "2024-12-19T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "07d6afa5-54fe-5f67-a2bf-89919d71b147",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 70.45,
+    "startedAt": "2024-12-19T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0d9fc2d2-7a9c-5330-a011-5b542053cdda",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 74.15,
+    "startedAt": "2024-12-19T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "7d92a9d8-1375-5131-ba30-d873155a5055",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 77.85,
+    "startedAt": "2024-12-18T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9234e216-776a-5e75-8c3a-7cc089c1429b",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 81.55,
+    "startedAt": "2024-12-18T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "520a32a9-14f3-5288-bae6-4b30db2cafdc",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 85.25,
+    "startedAt": "2024-12-18T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "95416724-65b0-5ba1-a2d5-496bbe623dd3",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 88.95,
+    "startedAt": "2024-12-18T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d9dfbd63-6642-5fa3-9c56-00a2a759a2ec",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 92.65,
+    "startedAt": "2024-12-18T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "36f065d1-6d7e-51c9-bf35-bad68279c3f7",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 96.35,
+    "startedAt": "2024-12-18T17:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "115408c7-75b5-504a-8601-eed1778e96ec",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 3.55,
+    "startedAt": "2024-12-18T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "2111b25f-b4d1-5414-8d7c-decb45d4cdb4",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 7.25,
+    "startedAt": "2024-12-18T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "618af2d2-2715-5062-9541-137de3edb1fa",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 10.95,
+    "startedAt": "2024-12-18T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "14b78015-ae8c-58cd-92f4-7b49c437e496",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 14.65,
+    "startedAt": "2024-12-18T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6d363178-5047-5a9e-a623-7935a35a9d45",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 18.35,
+    "startedAt": "2024-12-18T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "4b7b4bec-9758-59f1-a158-3527d2e2c38b",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 22.05,
+    "startedAt": "2024-12-18T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f1a42189-45f6-59e1-9a0e-e6e957870e7d",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 25.75,
+    "startedAt": "2024-12-18T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1e555645-2229-5994-91b9-50e769a3d7a4",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 29.45,
+    "startedAt": "2024-12-18T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "96373f0c-d44d-55c3-9421-a723fbe2ac57",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 33.15,
+    "startedAt": "2024-12-18T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ec93edea-9932-509b-8f6f-fe5cb9048e40",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 36.85,
+    "startedAt": "2024-12-18T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "f44dba27-0eed-5039-a9e9-7722eec82d2b",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 40.55,
+    "startedAt": "2024-12-17T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "54d71ebe-7be0-5efa-9338-bd83f8d2e256",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 44.25,
+    "startedAt": "2024-12-17T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "630c70c1-dcd3-508c-90d1-249b33cfc4c4",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 47.95,
+    "startedAt": "2024-12-17T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0fedb69e-b915-5534-88f9-9a0ab00f7554",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 51.65,
+    "startedAt": "2024-12-17T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "ad488669-48b3-5889-8047-c4519c70f92f",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 55.35,
+    "startedAt": "2024-12-17T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0966ecb8-1673-5a50-b95b-4fc745175c0e",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 59.05,
+    "startedAt": "2024-12-17T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9535eba0-014a-56a5-baa3-a57197a12e05",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 62.75,
+    "startedAt": "2024-12-17T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "3e6ddcf0-5b3f-5e0e-aca3-523ab115c242",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 66.45,
+    "startedAt": "2024-12-17T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a1d207dd-c1a7-56ea-a015-689093a939ed",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 70.15,
+    "startedAt": "2024-12-17T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "781d1f54-7f3b-5234-872a-dae493f6bd52",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 73.85,
+    "startedAt": "2024-12-17T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8b260393-0def-5b03-a4d8-90db52a864a5",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 77.55,
+    "startedAt": "2024-12-17T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "28e1cb35-29ad-5791-863d-37e8657df581",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 81.25,
+    "startedAt": "2024-12-17T08:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "6f1a93a3-a7bb-59de-8586-b6f2f7369bec",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 84.95,
+    "startedAt": "2024-12-17T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8a03c077-fe18-5415-9537-77e470bef1ad",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 88.65,
+    "startedAt": "2024-12-17T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "98515255-9fc8-5df9-88f3-670f0466b21a",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 92.35,
+    "startedAt": "2024-12-17T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "29125b68-b783-5038-9abf-d26b80a4b03f",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 96.05,
+    "startedAt": "2024-12-17T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a0d41e0b-7de5-56ad-b627-2e7f4527d36f",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 3.25,
+    "startedAt": "2024-12-16T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "58970630-2c05-556c-b6c1-7ee1ae14c755",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 6.95,
+    "startedAt": "2024-12-16T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "21974d4d-77a3-5f2c-a972-4be57abd4660",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 10.65,
+    "startedAt": "2024-12-16T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "0701e9f0-fd35-502d-ac37-9f96a5183cbf",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 14.35,
+    "startedAt": "2024-12-16T20:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "0c80aed9-0784-5136-8c47-5f11c0376254",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 18.05,
+    "startedAt": "2024-12-16T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1f332bc2-c746-5031-a597-070153052b07",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 21.75,
+    "startedAt": "2024-12-16T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "326a0538-7a61-52bd-a3b2-bb396eabc862",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 25.45,
+    "startedAt": "2024-12-16T14:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "5bfb4f02-7852-50b1-b575-85f8cfe0efc2",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 29.15,
+    "startedAt": "2024-12-16T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "11540d3e-699f-5808-9122-2137862597db",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 32.85,
+    "startedAt": "2024-12-16T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "01b358b3-16cb-57b5-9bbb-d663351d007c",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 36.55,
+    "startedAt": "2024-12-16T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "a86789e7-0575-5019-979c-0f71fc48211e",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 40.25,
+    "startedAt": "2024-12-16T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "9856b38d-e3cc-5107-bb26-39760657bbde",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 43.95,
+    "startedAt": "2024-12-16T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "6dbfee01-4ba6-5a75-9a1c-07700b2e8b68",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 47.65,
+    "startedAt": "2024-12-16T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "fc1c1392-0768-5cf8-a761-f08ce52b00b1",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 51.35,
+    "startedAt": "2024-12-16T05:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "d5adaf0d-c7b5-5571-80b0-7322210cd722",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 55.05,
+    "startedAt": "2024-12-16T02:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "bb30f36d-b684-5e9e-8a90-110997156e97",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 58.75,
+    "startedAt": "2024-12-16T02:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "580d3847-881b-5cd8-8e94-b632b24ec2dd",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 62.45,
+    "startedAt": "2024-12-15T23:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "bb55bd05-065c-524a-8f1c-69e18ea1e756",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 66.15,
+    "startedAt": "2024-12-15T23:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "ef2f53d2-13e6-5229-9898-b2c5252f5edf",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 69.85,
+    "startedAt": "2024-12-15T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "880e6645-db15-5fee-b63d-9740fffeed92",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 73.55,
+    "startedAt": "2024-12-15T20:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "105de8d7-f587-5901-8042-3ae3e9e8ae11",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 77.25,
+    "startedAt": "2024-12-15T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "1edef046-bb3e-592f-8db9-7e5f09ccf69d",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 80.95,
+    "startedAt": "2024-12-15T17:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "52495edd-c989-519d-b109-aee98ecde9b5",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 84.65,
+    "startedAt": "2024-12-15T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "31dce830-e4e8-534c-8c1b-7cb34430ddbb",
+    "title": "Hill Repeats",
+    "kind": "hike",
+    "distanceKilometers": 88.35,
+    "startedAt": "2024-12-15T14:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c13d4dee-c7f9-597d-b08b-b8a22cc0c8d2",
+    "title": "Harbor Trail",
+    "kind": "ride",
+    "distanceKilometers": 92.05,
+    "startedAt": "2024-12-15T11:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "c903bbe3-6b8c-5145-9a66-8cf8f60fd4d0",
+    "title": "Park Circuit",
+    "kind": "run",
+    "distanceKilometers": 95.75,
+    "startedAt": "2024-12-15T11:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "e2c52db3-67d4-59e8-b222-48d3649d6527",
+    "title": "River Path",
+    "kind": "hike",
+    "distanceKilometers": 2.95,
+    "startedAt": "2024-12-15T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "8979dd8e-386b-55f7-930e-36d56bf57f85",
+    "title": "Cedar Loop",
+    "kind": "hike",
+    "distanceKilometers": 6.65,
+    "startedAt": "2024-12-15T08:00:00Z",
+    "isFavorite": false
+  },
+  {
+    "id": "e279bc30-5079-59a5-a577-bb95a14e35e5",
+    "title": "River Path",
+    "kind": "ride",
+    "distanceKilometers": 10.35,
+    "startedAt": "2024-12-15T05:00:00Z",
+    "isFavorite": true
+  },
+  {
+    "id": "0a00f53d-2d6f-5cad-a393-4520c0bb6059",
+    "title": "Morning Spin",
+    "kind": "run",
+    "distanceKilometers": 14.05,
+    "startedAt": "2024-12-15T05:00:00Z",
+    "isFavorite": false
+  }
+]

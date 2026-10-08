@@ -1,0 +1,289 @@
+email_id,thread_id,contact_id,sent_at,direction,subject,body
+E001-1,T001,C001,2026-08-29T10:00:00,outbound,Next steps for Neorlake Systems,Attached is the revised enterprise security addendum and the September onboarding outline.
+E001-2,T001,C001,2026-09-02T14:30:00,inbound,Next steps for Neorlake Systems,Legal accepted the data-retention language; procurement still needs the annual invoice split.
+E001-3,T001,C001,2026-09-04T09:45:00,outbound,Next steps for Neorlake Systems,We can provide the invoice split today. Does a September 22 kickoff still work for your team?
+E001-4,T001,C001,2026-09-09T15:20:00,inbound,Next steps for Neorlake Systems,September 22 works. Please confirm whether the implementation lead can join the kickoff.
+E002-1,T002,C002,2026-08-27T11:15:00,outbound,Next steps for ArborPeak Logistics,Here is the fleet integration map and the phased deployment estimate.
+E002-2,T002,C002,2026-09-01T16:00:00,inbound,Next steps for ArborPeak Logistics,The operations group wants phase one limited to the western depots.
+E002-3,T002,C002,2026-09-05T10:40:00,outbound,Next steps for ArborPeak Logistics,I updated the scope to 12 western depots and included the API support line item.
+E002-4,T002,C002,2026-09-08T12:20:00,inbound,Next steps for ArborPeak Logistics,A tentative decision review is on hold for September 16; finance is checking the support line.
+E003-1,T003,C003,2026-08-25T09:20:00,outbound,Next steps for LumenGrid Analytics,"The proposal includes the analytics workspace, SSO, and quarterly enablement sessions."
+E003-2,T003,C003,2026-08-31T13:10:00,inbound,Next steps for LumenGrid Analytics,"The pilot results look good, but our CFO asked for a two-year price comparison."
+E003-3,T003,C003,2026-09-03T16:50:00,outbound,Next steps for LumenGrid Analytics,I sent the one-year and two-year pricing table with the volume assumptions called out.
+E003-4,T003,C003,2026-09-05T09:00:00,inbound,Next steps for LumenGrid Analytics,Can you clarify whether the two-year option keeps the year-two seat price fixed?
+E004-1,T004,C004,2026-08-28T10:10:00,outbound,Next steps for Quillstone Health,The clinical operations team requested the uptime history and escalation process.
+E004-2,T004,C004,2026-09-02T15:30:00,inbound,Next steps for Quillstone Health,Security review is complete; the remaining item is confirmation of weekend escalation coverage.
+E004-3,T004,C004,2026-09-06T09:25:00,outbound,Next steps for Quillstone Health,"Weekend severity-one coverage is included, with a 30-minute response target."
+E004-4,T004,C004,2026-09-07T14:10:00,inbound,Next steps for Quillstone Health,"Thanks, I will circulate that detail before the steering meeting."
+E005-1,T005,C005,2026-08-24T08:45:00,outbound,Next steps for Copperwave Foods,The proposal covers 38 sites and separates implementation from recurring subscription fees.
+E005-2,T005,C005,2026-08-30T11:20:00,inbound,Next steps for Copperwave Foods,We need the rollout to start with the six distribution centers before adding retail sites.
+E005-3,T005,C005,2026-09-02T17:05:00,outbound,Next steps for Copperwave Foods,I revised the rollout sequence and held the original implementation fee through September.
+E005-4,T005,C005,2026-09-06T10:00:00,inbound,Next steps for Copperwave Foods,Can the first six centers be live before the November inventory freeze?
+E006-1,T006,C006,2026-08-21T09:00:00,outbound,Next steps for SilverWorks 01,"Sharing the overview we discussed, including rollout options and support coverage."
+E006-2,T006,C006,2026-08-24T09:00:00,inbound,Next steps for SilverWorks 01,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E006-3,T006,C006,2026-08-28T09:00:00,outbound,Next steps for SilverWorks 01,I can answer questions and reserve time for a short decision call this week.
+E006-4,T006,C006,2026-08-31T09:00:00,inbound,Next steps for SilverWorks 01,The team is still evaluating the next step and will confirm any remaining questions.
+E007-1,T007,C007,2026-08-20T09:00:00,outbound,Next steps for NorthDynamics 02,"Sharing the overview we discussed, including rollout options and support coverage."
+E007-2,T007,C007,2026-08-23T09:00:00,inbound,Next steps for NorthDynamics 02,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E007-3,T007,C007,2026-08-27T09:00:00,outbound,Next steps for NorthDynamics 02,I can answer questions and reserve time for a short decision call this week.
+E007-4,T007,C007,2026-08-30T09:00:00,inbound,Next steps for NorthDynamics 02,The team is still evaluating the next step and will confirm any remaining questions.
+E008-1,T008,C008,2026-08-19T09:00:00,outbound,Next steps for BrightIndustries 03,"Sharing the overview we discussed, including rollout options and support coverage."
+E008-2,T008,C008,2026-08-22T09:00:00,inbound,Next steps for BrightIndustries 03,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E008-3,T008,C008,2026-08-26T09:00:00,outbound,Next steps for BrightIndustries 03,I can answer questions and reserve time for a short decision call this week.
+E008-4,T008,C008,2026-08-29T09:00:00,inbound,Next steps for BrightIndustries 03,The team is still evaluating the next step and will confirm any remaining questions.
+E009-1,T009,C009,2026-08-27T09:00:00,outbound,Next steps for CedarLabs 04,"Sharing the overview we discussed, including rollout options and support coverage."
+E009-2,T009,C009,2026-08-30T09:00:00,inbound,Next steps for CedarLabs 04,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E009-3,T009,C009,2026-09-03T09:00:00,outbound,Next steps for CedarLabs 04,I can answer questions and reserve time for a short decision call this week.
+E009-4,T009,C009,2026-09-06T09:00:00,inbound,Next steps for CedarLabs 04,The team is still evaluating the next step and will confirm any remaining questions.
+E010-1,T010,C010,2026-08-26T09:00:00,outbound,Next steps for HarborPartners 05,"Sharing the overview we discussed, including rollout options and support coverage."
+E010-2,T010,C010,2026-08-29T09:00:00,inbound,Next steps for HarborPartners 05,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E010-3,T010,C010,2026-09-02T09:00:00,outbound,Next steps for HarborPartners 05,I can answer questions and reserve time for a short decision call this week.
+E010-4,T010,C010,2026-09-05T09:00:00,inbound,Next steps for HarborPartners 05,The team is still evaluating the next step and will confirm any remaining questions.
+E011-1,T011,C011,2026-08-25T09:00:00,outbound,Next steps for MosaicCollective 06,"Sharing the overview we discussed, including rollout options and support coverage."
+E011-2,T011,C011,2026-08-28T09:00:00,inbound,Next steps for MosaicCollective 06,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E011-3,T011,C011,2026-09-01T09:00:00,outbound,Next steps for MosaicCollective 06,I can answer questions and reserve time for a short decision call this week.
+E011-4,T011,C011,2026-09-04T09:00:00,inbound,Next steps for MosaicCollective 06,The team is still evaluating the next step and will confirm any remaining questions.
+E012-1,T012,C012,2026-08-24T09:00:00,outbound,Next steps for SummitGroup 07,"Sharing the overview we discussed, including rollout options and support coverage."
+E012-2,T012,C012,2026-08-27T09:00:00,inbound,Next steps for SummitGroup 07,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E012-3,T012,C012,2026-08-31T09:00:00,outbound,Next steps for SummitGroup 07,I can answer questions and reserve time for a short decision call this week.
+E012-4,T012,C012,2026-09-03T09:00:00,inbound,Next steps for SummitGroup 07,The team is still evaluating the next step and will confirm any remaining questions.
+E013-1,T013,C013,2026-08-23T09:00:00,outbound,Next steps for VelvetNetworks 08,"Sharing the overview we discussed, including rollout options and support coverage."
+E013-2,T013,C013,2026-08-26T09:00:00,inbound,Next steps for VelvetNetworks 08,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E013-3,T013,C013,2026-08-30T09:00:00,outbound,Next steps for VelvetNetworks 08,I can answer questions and reserve time for a short decision call this week.
+E013-4,T013,C013,2026-09-02T09:00:00,inbound,Next steps for VelvetNetworks 08,The team is still evaluating the next step and will confirm any remaining questions.
+E014-1,T014,C014,2026-08-22T09:00:00,outbound,Next steps for BlueWorks 09,"Sharing the overview we discussed, including rollout options and support coverage."
+E014-2,T014,C014,2026-08-25T09:00:00,inbound,Next steps for BlueWorks 09,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E014-3,T014,C014,2026-08-29T09:00:00,outbound,Next steps for BlueWorks 09,I can answer questions and reserve time for a short decision call this week.
+E014-4,T014,C014,2026-09-01T09:00:00,inbound,Next steps for BlueWorks 09,The team is still evaluating the next step and will confirm any remaining questions.
+E015-1,T015,C015,2026-08-21T09:00:00,outbound,Next steps for EverDynamics 10,"Sharing the overview we discussed, including rollout options and support coverage."
+E015-2,T015,C015,2026-08-24T09:00:00,inbound,Next steps for EverDynamics 10,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E015-3,T015,C015,2026-08-28T09:00:00,outbound,Next steps for EverDynamics 10,I can answer questions and reserve time for a short decision call this week.
+E015-4,T015,C015,2026-08-31T09:00:00,inbound,Next steps for EverDynamics 10,The team is still evaluating the next step and will confirm any remaining questions.
+E016-1,T016,C016,2026-08-20T09:00:00,outbound,Next steps for GraniteIndustries 11,"Sharing the overview we discussed, including rollout options and support coverage."
+E016-2,T016,C016,2026-08-23T09:00:00,inbound,Next steps for GraniteIndustries 11,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E016-3,T016,C016,2026-08-27T09:00:00,outbound,Next steps for GraniteIndustries 11,I can answer questions and reserve time for a short decision call this week.
+E016-4,T016,C016,2026-08-30T09:00:00,inbound,Next steps for GraniteIndustries 11,The team is still evaluating the next step and will confirm any remaining questions.
+E017-1,T017,C017,2026-08-19T09:00:00,outbound,Next steps for WillowLabs 12,"Sharing the overview we discussed, including rollout options and support coverage."
+E017-2,T017,C017,2026-08-22T09:00:00,inbound,Next steps for WillowLabs 12,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E017-3,T017,C017,2026-08-26T09:00:00,outbound,Next steps for WillowLabs 12,I can answer questions and reserve time for a short decision call this week.
+E017-4,T017,C017,2026-08-29T09:00:00,inbound,Next steps for WillowLabs 12,The team is still evaluating the next step and will confirm any remaining questions.
+E018-1,T018,C018,2026-08-27T09:00:00,outbound,Next steps for JuniperPartners 13,"Sharing the overview we discussed, including rollout options and support coverage."
+E018-2,T018,C018,2026-08-30T09:00:00,inbound,Next steps for JuniperPartners 13,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E018-3,T018,C018,2026-09-03T09:00:00,outbound,Next steps for JuniperPartners 13,I can answer questions and reserve time for a short decision call this week.
+E018-4,T018,C018,2026-09-06T09:00:00,inbound,Next steps for JuniperPartners 13,The team is still evaluating the next step and will confirm any remaining questions.
+E019-1,T019,C019,2026-08-26T09:00:00,outbound,Next steps for PineCollective 14,"Sharing the overview we discussed, including rollout options and support coverage."
+E019-2,T019,C019,2026-08-29T09:00:00,inbound,Next steps for PineCollective 14,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E019-3,T019,C019,2026-09-02T09:00:00,outbound,Next steps for PineCollective 14,I can answer questions and reserve time for a short decision call this week.
+E019-4,T019,C019,2026-09-05T09:00:00,inbound,Next steps for PineCollective 14,The team is still evaluating the next step and will confirm any remaining questions.
+E020-1,T020,C020,2026-08-25T09:00:00,outbound,Next steps for ClearGroup 15,"Sharing the overview we discussed, including rollout options and support coverage."
+E020-2,T020,C020,2026-08-28T09:00:00,inbound,Next steps for ClearGroup 15,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E020-3,T020,C020,2026-09-01T09:00:00,outbound,Next steps for ClearGroup 15,I can answer questions and reserve time for a short decision call this week.
+E020-4,T020,C020,2026-09-04T09:00:00,inbound,Next steps for ClearGroup 15,The team is still evaluating the next step and will confirm any remaining questions.
+E021-1,T021,C021,2026-08-24T09:00:00,outbound,Next steps for RedwoodNetworks 16,"Sharing the overview we discussed, including rollout options and support coverage."
+E021-2,T021,C021,2026-08-27T09:00:00,inbound,Next steps for RedwoodNetworks 16,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E021-3,T021,C021,2026-08-31T09:00:00,outbound,Next steps for RedwoodNetworks 16,I can answer questions and reserve time for a short decision call this week.
+E021-4,T021,C021,2026-09-03T09:00:00,inbound,Next steps for RedwoodNetworks 16,The team is still evaluating the next step and will confirm any remaining questions.
+E022-1,T022,C022,2026-08-23T09:00:00,outbound,Next steps for SilverWorks 17,"Sharing the overview we discussed, including rollout options and support coverage."
+E022-2,T022,C022,2026-08-26T09:00:00,inbound,Next steps for SilverWorks 17,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E022-3,T022,C022,2026-08-30T09:00:00,outbound,Next steps for SilverWorks 17,I can answer questions and reserve time for a short decision call this week.
+E022-4,T022,C022,2026-09-02T09:00:00,inbound,Next steps for SilverWorks 17,The team is still evaluating the next step and will confirm any remaining questions.
+E023-1,T023,C023,2026-08-22T09:00:00,outbound,Next steps for NorthDynamics 18,"Sharing the overview we discussed, including rollout options and support coverage."
+E023-2,T023,C023,2026-08-25T09:00:00,inbound,Next steps for NorthDynamics 18,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E023-3,T023,C023,2026-08-29T09:00:00,outbound,Next steps for NorthDynamics 18,I can answer questions and reserve time for a short decision call this week.
+E023-4,T023,C023,2026-09-01T09:00:00,inbound,Next steps for NorthDynamics 18,The team is still evaluating the next step and will confirm any remaining questions.
+E024-1,T024,C024,2026-08-21T09:00:00,outbound,Next steps for BrightIndustries 19,"Sharing the overview we discussed, including rollout options and support coverage."
+E024-2,T024,C024,2026-08-24T09:00:00,inbound,Next steps for BrightIndustries 19,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E024-3,T024,C024,2026-08-28T09:00:00,outbound,Next steps for BrightIndustries 19,I can answer questions and reserve time for a short decision call this week.
+E024-4,T024,C024,2026-08-31T09:00:00,inbound,Next steps for BrightIndustries 19,The team is still evaluating the next step and will confirm any remaining questions.
+E025-1,T025,C025,2026-08-20T09:00:00,outbound,Next steps for CedarLabs 20,"Sharing the overview we discussed, including rollout options and support coverage."
+E025-2,T025,C025,2026-08-23T09:00:00,inbound,Next steps for CedarLabs 20,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E025-3,T025,C025,2026-08-27T09:00:00,outbound,Next steps for CedarLabs 20,I can answer questions and reserve time for a short decision call this week.
+E025-4,T025,C025,2026-08-30T09:00:00,inbound,Next steps for CedarLabs 20,The team is still evaluating the next step and will confirm any remaining questions.
+E026-1,T026,C026,2026-08-19T09:00:00,outbound,Next steps for HarborPartners 21,"Sharing the overview we discussed, including rollout options and support coverage."
+E026-2,T026,C026,2026-08-22T09:00:00,inbound,Next steps for HarborPartners 21,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E026-3,T026,C026,2026-08-26T09:00:00,outbound,Next steps for HarborPartners 21,I can answer questions and reserve time for a short decision call this week.
+E026-4,T026,C026,2026-08-29T09:00:00,inbound,Next steps for HarborPartners 21,The team is still evaluating the next step and will confirm any remaining questions.
+E027-1,T027,C027,2026-08-27T09:00:00,outbound,Next steps for MosaicCollective 22,"Sharing the overview we discussed, including rollout options and support coverage."
+E027-2,T027,C027,2026-08-30T09:00:00,inbound,Next steps for MosaicCollective 22,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E027-3,T027,C027,2026-09-03T09:00:00,outbound,Next steps for MosaicCollective 22,I can answer questions and reserve time for a short decision call this week.
+E027-4,T027,C027,2026-09-06T09:00:00,inbound,Next steps for MosaicCollective 22,The team is still evaluating the next step and will confirm any remaining questions.
+E028-1,T028,C028,2026-08-26T09:00:00,outbound,Next steps for SummitGroup 23,"Sharing the overview we discussed, including rollout options and support coverage."
+E028-2,T028,C028,2026-08-29T09:00:00,inbound,Next steps for SummitGroup 23,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E028-3,T028,C028,2026-09-02T09:00:00,outbound,Next steps for SummitGroup 23,I can answer questions and reserve time for a short decision call this week.
+E028-4,T028,C028,2026-09-05T09:00:00,inbound,Next steps for SummitGroup 23,The team is still evaluating the next step and will confirm any remaining questions.
+E029-1,T029,C029,2026-08-25T09:00:00,outbound,Next steps for VelvetNetworks 24,"Sharing the overview we discussed, including rollout options and support coverage."
+E029-2,T029,C029,2026-08-28T09:00:00,inbound,Next steps for VelvetNetworks 24,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E029-3,T029,C029,2026-09-01T09:00:00,outbound,Next steps for VelvetNetworks 24,I can answer questions and reserve time for a short decision call this week.
+E029-4,T029,C029,2026-09-04T09:00:00,inbound,Next steps for VelvetNetworks 24,The team is still evaluating the next step and will confirm any remaining questions.
+E030-1,T030,C030,2026-08-24T09:00:00,outbound,Next steps for BlueWorks 25,"Sharing the overview we discussed, including rollout options and support coverage."
+E030-2,T030,C030,2026-08-27T09:00:00,inbound,Next steps for BlueWorks 25,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E030-3,T030,C030,2026-08-31T09:00:00,outbound,Next steps for BlueWorks 25,I can answer questions and reserve time for a short decision call this week.
+E030-4,T030,C030,2026-09-03T09:00:00,inbound,Next steps for BlueWorks 25,The team is still evaluating the next step and will confirm any remaining questions.
+E031-1,T031,C031,2026-08-23T09:00:00,outbound,Next steps for EverDynamics 26,"Sharing the overview we discussed, including rollout options and support coverage."
+E031-2,T031,C031,2026-08-26T09:00:00,inbound,Next steps for EverDynamics 26,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E031-3,T031,C031,2026-08-30T09:00:00,outbound,Next steps for EverDynamics 26,I can answer questions and reserve time for a short decision call this week.
+E031-4,T031,C031,2026-09-02T09:00:00,inbound,Next steps for EverDynamics 26,The team is still evaluating the next step and will confirm any remaining questions.
+E032-1,T032,C032,2026-08-22T09:00:00,outbound,Next steps for GraniteIndustries 27,"Sharing the overview we discussed, including rollout options and support coverage."
+E032-2,T032,C032,2026-08-25T09:00:00,inbound,Next steps for GraniteIndustries 27,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E032-3,T032,C032,2026-08-29T09:00:00,outbound,Next steps for GraniteIndustries 27,I can answer questions and reserve time for a short decision call this week.
+E032-4,T032,C032,2026-09-01T09:00:00,inbound,Next steps for GraniteIndustries 27,The team is still evaluating the next step and will confirm any remaining questions.
+E033-1,T033,C033,2026-08-21T09:00:00,outbound,Next steps for WillowLabs 28,"Sharing the overview we discussed, including rollout options and support coverage."
+E033-2,T033,C033,2026-08-24T09:00:00,inbound,Next steps for WillowLabs 28,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E033-3,T033,C033,2026-08-28T09:00:00,outbound,Next steps for WillowLabs 28,I can answer questions and reserve time for a short decision call this week.
+E033-4,T033,C033,2026-08-31T09:00:00,inbound,Next steps for WillowLabs 28,The team is still evaluating the next step and will confirm any remaining questions.
+E034-1,T034,C034,2026-08-20T09:00:00,outbound,Next steps for JuniperPartners 29,"Sharing the overview we discussed, including rollout options and support coverage."
+E034-2,T034,C034,2026-08-23T09:00:00,inbound,Next steps for JuniperPartners 29,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E034-3,T034,C034,2026-08-27T09:00:00,outbound,Next steps for JuniperPartners 29,I can answer questions and reserve time for a short decision call this week.
+E034-4,T034,C034,2026-08-30T09:00:00,inbound,Next steps for JuniperPartners 29,The team is still evaluating the next step and will confirm any remaining questions.
+E035-1,T035,C035,2026-08-19T09:00:00,outbound,Next steps for PineCollective 30,"Sharing the overview we discussed, including rollout options and support coverage."
+E035-2,T035,C035,2026-08-22T09:00:00,inbound,Next steps for PineCollective 30,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E035-3,T035,C035,2026-08-26T09:00:00,outbound,Next steps for PineCollective 30,I can answer questions and reserve time for a short decision call this week.
+E035-4,T035,C035,2026-08-29T09:00:00,inbound,Next steps for PineCollective 30,The team is still evaluating the next step and will confirm any remaining questions.
+E036-1,T036,C036,2026-08-27T09:00:00,outbound,Next steps for ClearGroup 31,"Sharing the overview we discussed, including rollout options and support coverage."
+E036-2,T036,C036,2026-08-30T09:00:00,inbound,Next steps for ClearGroup 31,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E036-3,T036,C036,2026-09-03T09:00:00,outbound,Next steps for ClearGroup 31,I can answer questions and reserve time for a short decision call this week.
+E036-4,T036,C036,2026-09-06T09:00:00,inbound,Next steps for ClearGroup 31,The team is still evaluating the next step and will confirm any remaining questions.
+E037-1,T037,C037,2026-08-26T09:00:00,outbound,Next steps for RedwoodNetworks 32,"Sharing the overview we discussed, including rollout options and support coverage."
+E037-2,T037,C037,2026-08-29T09:00:00,inbound,Next steps for RedwoodNetworks 32,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E037-3,T037,C037,2026-09-02T09:00:00,outbound,Next steps for RedwoodNetworks 32,I can answer questions and reserve time for a short decision call this week.
+E037-4,T037,C037,2026-09-05T09:00:00,inbound,Next steps for RedwoodNetworks 32,The team is still evaluating the next step and will confirm any remaining questions.
+E038-1,T038,C038,2026-08-25T09:00:00,outbound,Next steps for SilverWorks 33,"Sharing the overview we discussed, including rollout options and support coverage."
+E038-2,T038,C038,2026-08-28T09:00:00,inbound,Next steps for SilverWorks 33,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E038-3,T038,C038,2026-09-01T09:00:00,outbound,Next steps for SilverWorks 33,I can answer questions and reserve time for a short decision call this week.
+E038-4,T038,C038,2026-09-04T09:00:00,inbound,Next steps for SilverWorks 33,The team is still evaluating the next step and will confirm any remaining questions.
+E039-1,T039,C039,2026-08-24T09:00:00,outbound,Next steps for NorthDynamics 34,"Sharing the overview we discussed, including rollout options and support coverage."
+E039-2,T039,C039,2026-08-27T09:00:00,inbound,Next steps for NorthDynamics 34,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E039-3,T039,C039,2026-08-31T09:00:00,outbound,Next steps for NorthDynamics 34,I can answer questions and reserve time for a short decision call this week.
+E039-4,T039,C039,2026-09-03T09:00:00,inbound,Next steps for NorthDynamics 34,The team is still evaluating the next step and will confirm any remaining questions.
+E040-1,T040,C040,2026-08-23T09:00:00,outbound,Next steps for BrightIndustries 35,"Sharing the overview we discussed, including rollout options and support coverage."
+E040-2,T040,C040,2026-08-26T09:00:00,inbound,Next steps for BrightIndustries 35,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E040-3,T040,C040,2026-08-30T09:00:00,outbound,Next steps for BrightIndustries 35,I can answer questions and reserve time for a short decision call this week.
+E040-4,T040,C040,2026-09-02T09:00:00,inbound,Next steps for BrightIndustries 35,The team is still evaluating the next step and will confirm any remaining questions.
+E041-1,T041,C041,2026-08-22T09:00:00,outbound,Next steps for CedarLabs 36,"Sharing the overview we discussed, including rollout options and support coverage."
+E041-2,T041,C041,2026-08-25T09:00:00,inbound,Next steps for CedarLabs 36,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E041-3,T041,C041,2026-08-29T09:00:00,outbound,Next steps for CedarLabs 36,I can answer questions and reserve time for a short decision call this week.
+E041-4,T041,C041,2026-09-01T09:00:00,inbound,Next steps for CedarLabs 36,The team is still evaluating the next step and will confirm any remaining questions.
+E042-1,T042,C042,2026-08-21T09:00:00,outbound,Next steps for HarborPartners 37,"Sharing the overview we discussed, including rollout options and support coverage."
+E042-2,T042,C042,2026-08-24T09:00:00,inbound,Next steps for HarborPartners 37,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E042-3,T042,C042,2026-08-28T09:00:00,outbound,Next steps for HarborPartners 37,I can answer questions and reserve time for a short decision call this week.
+E042-4,T042,C042,2026-08-31T09:00:00,inbound,Next steps for HarborPartners 37,The team is still evaluating the next step and will confirm any remaining questions.
+E043-1,T043,C043,2026-08-20T09:00:00,outbound,Next steps for MosaicCollective 38,"Sharing the overview we discussed, including rollout options and support coverage."
+E043-2,T043,C043,2026-08-23T09:00:00,inbound,Next steps for MosaicCollective 38,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E043-3,T043,C043,2026-08-27T09:00:00,outbound,Next steps for MosaicCollective 38,I can answer questions and reserve time for a short decision call this week.
+E043-4,T043,C043,2026-08-30T09:00:00,inbound,Next steps for MosaicCollective 38,The team is still evaluating the next step and will confirm any remaining questions.
+E044-1,T044,C044,2026-08-19T09:00:00,outbound,Next steps for SummitGroup 39,"Sharing the overview we discussed, including rollout options and support coverage."
+E044-2,T044,C044,2026-08-22T09:00:00,inbound,Next steps for SummitGroup 39,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E044-3,T044,C044,2026-08-26T09:00:00,outbound,Next steps for SummitGroup 39,I can answer questions and reserve time for a short decision call this week.
+E044-4,T044,C044,2026-08-29T09:00:00,inbound,Next steps for SummitGroup 39,The team is still evaluating the next step and will confirm any remaining questions.
+E045-1,T045,C045,2026-08-27T09:00:00,outbound,Next steps for VelvetNetworks 40,"Sharing the overview we discussed, including rollout options and support coverage."
+E045-2,T045,C045,2026-08-30T09:00:00,inbound,Next steps for VelvetNetworks 40,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E045-3,T045,C045,2026-09-03T09:00:00,outbound,Next steps for VelvetNetworks 40,I can answer questions and reserve time for a short decision call this week.
+E045-4,T045,C045,2026-09-06T09:00:00,inbound,Next steps for VelvetNetworks 40,The team is still evaluating the next step and will confirm any remaining questions.
+E046-1,T046,C046,2026-08-26T09:00:00,outbound,Next steps for BlueWorks 41,"Sharing the overview we discussed, including rollout options and support coverage."
+E046-2,T046,C046,2026-08-29T09:00:00,inbound,Next steps for BlueWorks 41,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E046-3,T046,C046,2026-09-02T09:00:00,outbound,Next steps for BlueWorks 41,I can answer questions and reserve time for a short decision call this week.
+E046-4,T046,C046,2026-09-05T09:00:00,inbound,Next steps for BlueWorks 41,The team is still evaluating the next step and will confirm any remaining questions.
+E047-1,T047,C047,2026-08-25T09:00:00,outbound,Next steps for EverDynamics 42,"Sharing the overview we discussed, including rollout options and support coverage."
+E047-2,T047,C047,2026-08-28T09:00:00,inbound,Next steps for EverDynamics 42,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E047-3,T047,C047,2026-09-01T09:00:00,outbound,Next steps for EverDynamics 42,I can answer questions and reserve time for a short decision call this week.
+E047-4,T047,C047,2026-09-04T09:00:00,inbound,Next steps for EverDynamics 42,The team is still evaluating the next step and will confirm any remaining questions.
+E048-1,T048,C048,2026-08-24T09:00:00,outbound,Next steps for GraniteIndustries 43,"Sharing the overview we discussed, including rollout options and support coverage."
+E048-2,T048,C048,2026-08-27T09:00:00,inbound,Next steps for GraniteIndustries 43,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E048-3,T048,C048,2026-08-31T09:00:00,outbound,Next steps for GraniteIndustries 43,I can answer questions and reserve time for a short decision call this week.
+E048-4,T048,C048,2026-09-03T09:00:00,inbound,Next steps for GraniteIndustries 43,The team is still evaluating the next step and will confirm any remaining questions.
+E049-1,T049,C049,2026-08-23T09:00:00,outbound,Next steps for WillowLabs 44,"Sharing the overview we discussed, including rollout options and support coverage."
+E049-2,T049,C049,2026-08-26T09:00:00,inbound,Next steps for WillowLabs 44,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E049-3,T049,C049,2026-08-30T09:00:00,outbound,Next steps for WillowLabs 44,I can answer questions and reserve time for a short decision call this week.
+E049-4,T049,C049,2026-09-02T09:00:00,inbound,Next steps for WillowLabs 44,The team is still evaluating the next step and will confirm any remaining questions.
+E050-1,T050,C050,2026-08-22T09:00:00,outbound,Next steps for JuniperPartners 45,"Sharing the overview we discussed, including rollout options and support coverage."
+E050-2,T050,C050,2026-08-25T09:00:00,inbound,Next steps for JuniperPartners 45,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E050-3,T050,C050,2026-08-29T09:00:00,outbound,Next steps for JuniperPartners 45,I can answer questions and reserve time for a short decision call this week.
+E050-4,T050,C050,2026-09-01T09:00:00,inbound,Next steps for JuniperPartners 45,The team is still evaluating the next step and will confirm any remaining questions.
+E051-1,T051,C051,2026-08-21T09:00:00,outbound,Next steps for PineCollective 46,"Sharing the overview we discussed, including rollout options and support coverage."
+E051-2,T051,C051,2026-08-24T09:00:00,inbound,Next steps for PineCollective 46,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E051-3,T051,C051,2026-08-28T09:00:00,outbound,Next steps for PineCollective 46,I can answer questions and reserve time for a short decision call this week.
+E051-4,T051,C051,2026-08-31T09:00:00,inbound,Next steps for PineCollective 46,The team is still evaluating the next step and will confirm any remaining questions.
+E052-1,T052,C052,2026-08-20T09:00:00,outbound,Next steps for ClearGroup 47,"Sharing the overview we discussed, including rollout options and support coverage."
+E052-2,T052,C052,2026-08-23T09:00:00,inbound,Next steps for ClearGroup 47,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E052-3,T052,C052,2026-08-27T09:00:00,outbound,Next steps for ClearGroup 47,I can answer questions and reserve time for a short decision call this week.
+E052-4,T052,C052,2026-08-30T09:00:00,inbound,Next steps for ClearGroup 47,The team is still evaluating the next step and will confirm any remaining questions.
+E053-1,T053,C053,2026-08-19T09:00:00,outbound,Next steps for RedwoodNetworks 48,"Sharing the overview we discussed, including rollout options and support coverage."
+E053-2,T053,C053,2026-08-22T09:00:00,inbound,Next steps for RedwoodNetworks 48,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E053-3,T053,C053,2026-08-26T09:00:00,outbound,Next steps for RedwoodNetworks 48,I can answer questions and reserve time for a short decision call this week.
+E053-4,T053,C053,2026-08-29T09:00:00,inbound,Next steps for RedwoodNetworks 48,The team is still evaluating the next step and will confirm any remaining questions.
+E054-1,T054,C054,2026-08-27T09:00:00,outbound,Next steps for SilverWorks 49,"Sharing the overview we discussed, including rollout options and support coverage."
+E054-2,T054,C054,2026-08-30T09:00:00,inbound,Next steps for SilverWorks 49,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E054-3,T054,C054,2026-09-03T09:00:00,outbound,Next steps for SilverWorks 49,I can answer questions and reserve time for a short decision call this week.
+E054-4,T054,C054,2026-09-06T09:00:00,inbound,Next steps for SilverWorks 49,The team is still evaluating the next step and will confirm any remaining questions.
+E055-1,T055,C055,2026-08-26T09:00:00,outbound,Next steps for NorthDynamics 50,"Sharing the overview we discussed, including rollout options and support coverage."
+E055-2,T055,C055,2026-08-29T09:00:00,inbound,Next steps for NorthDynamics 50,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E055-3,T055,C055,2026-09-02T09:00:00,outbound,Next steps for NorthDynamics 50,I can answer questions and reserve time for a short decision call this week.
+E055-4,T055,C055,2026-09-05T09:00:00,inbound,Next steps for NorthDynamics 50,The team is still evaluating the next step and will confirm any remaining questions.
+E056-1,T056,C056,2026-08-25T09:00:00,outbound,Next steps for BrightIndustries 51,"Sharing the overview we discussed, including rollout options and support coverage."
+E056-2,T056,C056,2026-08-28T09:00:00,inbound,Next steps for BrightIndustries 51,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E056-3,T056,C056,2026-09-01T09:00:00,outbound,Next steps for BrightIndustries 51,I can answer questions and reserve time for a short decision call this week.
+E056-4,T056,C056,2026-09-04T09:00:00,inbound,Next steps for BrightIndustries 51,The team is still evaluating the next step and will confirm any remaining questions.
+E057-1,T057,C057,2026-08-24T09:00:00,outbound,Next steps for CedarLabs 52,"Sharing the overview we discussed, including rollout options and support coverage."
+E057-2,T057,C057,2026-08-27T09:00:00,inbound,Next steps for CedarLabs 52,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E057-3,T057,C057,2026-08-31T09:00:00,outbound,Next steps for CedarLabs 52,I can answer questions and reserve time for a short decision call this week.
+E057-4,T057,C057,2026-09-03T09:00:00,inbound,Next steps for CedarLabs 52,The team is still evaluating the next step and will confirm any remaining questions.
+E058-1,T058,C058,2026-08-23T09:00:00,outbound,Next steps for HarborPartners 53,"Sharing the overview we discussed, including rollout options and support coverage."
+E058-2,T058,C058,2026-08-26T09:00:00,inbound,Next steps for HarborPartners 53,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E058-3,T058,C058,2026-08-30T09:00:00,outbound,Next steps for HarborPartners 53,I can answer questions and reserve time for a short decision call this week.
+E058-4,T058,C058,2026-09-02T09:00:00,inbound,Next steps for HarborPartners 53,The team is still evaluating the next step and will confirm any remaining questions.
+E059-1,T059,C059,2026-08-22T09:00:00,outbound,Next steps for MosaicCollective 54,"Sharing the overview we discussed, including rollout options and support coverage."
+E059-2,T059,C059,2026-08-25T09:00:00,inbound,Next steps for MosaicCollective 54,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E059-3,T059,C059,2026-08-29T09:00:00,outbound,Next steps for MosaicCollective 54,I can answer questions and reserve time for a short decision call this week.
+E059-4,T059,C059,2026-09-01T09:00:00,inbound,Next steps for MosaicCollective 54,The team is still evaluating the next step and will confirm any remaining questions.
+E060-1,T060,C060,2026-08-21T09:00:00,outbound,Next steps for SummitGroup 55,"Sharing the overview we discussed, including rollout options and support coverage."
+E060-2,T060,C060,2026-08-24T09:00:00,inbound,Next steps for SummitGroup 55,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E060-3,T060,C060,2026-08-28T09:00:00,outbound,Next steps for SummitGroup 55,I can answer questions and reserve time for a short decision call this week.
+E060-4,T060,C060,2026-08-31T09:00:00,inbound,Next steps for SummitGroup 55,The team is still evaluating the next step and will confirm any remaining questions.
+E061-1,T061,C061,2026-08-20T09:00:00,outbound,Next steps for VelvetNetworks 56,"Sharing the overview we discussed, including rollout options and support coverage."
+E061-2,T061,C061,2026-08-23T09:00:00,inbound,Next steps for VelvetNetworks 56,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E061-3,T061,C061,2026-08-27T09:00:00,outbound,Next steps for VelvetNetworks 56,I can answer questions and reserve time for a short decision call this week.
+E061-4,T061,C061,2026-08-30T09:00:00,inbound,Next steps for VelvetNetworks 56,The team is still evaluating the next step and will confirm any remaining questions.
+E062-1,T062,C062,2026-08-19T09:00:00,outbound,Next steps for BlueWorks 57,"Sharing the overview we discussed, including rollout options and support coverage."
+E062-2,T062,C062,2026-08-22T09:00:00,inbound,Next steps for BlueWorks 57,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E062-3,T062,C062,2026-08-26T09:00:00,outbound,Next steps for BlueWorks 57,I can answer questions and reserve time for a short decision call this week.
+E062-4,T062,C062,2026-08-29T09:00:00,inbound,Next steps for BlueWorks 57,The team is still evaluating the next step and will confirm any remaining questions.
+E063-1,T063,C063,2026-08-27T09:00:00,outbound,Next steps for EverDynamics 58,"Sharing the overview we discussed, including rollout options and support coverage."
+E063-2,T063,C063,2026-08-30T09:00:00,inbound,Next steps for EverDynamics 58,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E063-3,T063,C063,2026-09-03T09:00:00,outbound,Next steps for EverDynamics 58,I can answer questions and reserve time for a short decision call this week.
+E063-4,T063,C063,2026-09-06T09:00:00,inbound,Next steps for EverDynamics 58,The team is still evaluating the next step and will confirm any remaining questions.
+E064-1,T064,C064,2026-08-26T09:00:00,outbound,Next steps for GraniteIndustries 59,"Sharing the overview we discussed, including rollout options and support coverage."
+E064-2,T064,C064,2026-08-29T09:00:00,inbound,Next steps for GraniteIndustries 59,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E064-3,T064,C064,2026-09-02T09:00:00,outbound,Next steps for GraniteIndustries 59,I can answer questions and reserve time for a short decision call this week.
+E064-4,T064,C064,2026-09-05T09:00:00,inbound,Next steps for GraniteIndustries 59,The team is still evaluating the next step and will confirm any remaining questions.
+E065-1,T065,C065,2026-08-25T09:00:00,outbound,Next steps for WillowLabs 60,"Sharing the overview we discussed, including rollout options and support coverage."
+E065-2,T065,C065,2026-08-28T09:00:00,inbound,Next steps for WillowLabs 60,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E065-3,T065,C065,2026-09-01T09:00:00,outbound,Next steps for WillowLabs 60,I can answer questions and reserve time for a short decision call this week.
+E065-4,T065,C065,2026-09-04T09:00:00,inbound,Next steps for WillowLabs 60,The team is still evaluating the next step and will confirm any remaining questions.
+E066-1,T066,C066,2026-08-24T09:00:00,outbound,Next steps for JuniperPartners 61,"Sharing the overview we discussed, including rollout options and support coverage."
+E066-2,T066,C066,2026-08-27T09:00:00,inbound,Next steps for JuniperPartners 61,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E066-3,T066,C066,2026-08-31T09:00:00,outbound,Next steps for JuniperPartners 61,I can answer questions and reserve time for a short decision call this week.
+E066-4,T066,C066,2026-09-03T09:00:00,inbound,Next steps for JuniperPartners 61,The team is still evaluating the next step and will confirm any remaining questions.
+E067-1,T067,C067,2026-08-23T09:00:00,outbound,Next steps for PineCollective 62,"Sharing the overview we discussed, including rollout options and support coverage."
+E067-2,T067,C067,2026-08-26T09:00:00,inbound,Next steps for PineCollective 62,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E067-3,T067,C067,2026-08-30T09:00:00,outbound,Next steps for PineCollective 62,I can answer questions and reserve time for a short decision call this week.
+E067-4,T067,C067,2026-09-02T09:00:00,inbound,Next steps for PineCollective 62,The team is still evaluating the next step and will confirm any remaining questions.
+E068-1,T068,C068,2026-08-22T09:00:00,outbound,Next steps for ClearGroup 63,"Sharing the overview we discussed, including rollout options and support coverage."
+E068-2,T068,C068,2026-08-25T09:00:00,inbound,Next steps for ClearGroup 63,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E068-3,T068,C068,2026-08-29T09:00:00,outbound,Next steps for ClearGroup 63,I can answer questions and reserve time for a short decision call this week.
+E068-4,T068,C068,2026-09-01T09:00:00,inbound,Next steps for ClearGroup 63,The team is still evaluating the next step and will confirm any remaining questions.
+E069-1,T069,C069,2026-08-21T09:00:00,outbound,Next steps for RedwoodNetworks 64,"Sharing the overview we discussed, including rollout options and support coverage."
+E069-2,T069,C069,2026-08-24T09:00:00,inbound,Next steps for RedwoodNetworks 64,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E069-3,T069,C069,2026-08-28T09:00:00,outbound,Next steps for RedwoodNetworks 64,I can answer questions and reserve time for a short decision call this week.
+E069-4,T069,C069,2026-08-31T09:00:00,inbound,Next steps for RedwoodNetworks 64,The team is still evaluating the next step and will confirm any remaining questions.
+E070-1,T070,C070,2026-08-20T09:00:00,outbound,Next steps for SilverWorks 65,"Sharing the overview we discussed, including rollout options and support coverage."
+E070-2,T070,C070,2026-08-23T09:00:00,inbound,Next steps for SilverWorks 65,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E070-3,T070,C070,2026-08-27T09:00:00,outbound,Next steps for SilverWorks 65,I can answer questions and reserve time for a short decision call this week.
+E070-4,T070,C070,2026-08-30T09:00:00,inbound,Next steps for SilverWorks 65,The team is still evaluating the next step and will confirm any remaining questions.
+E071-1,T071,C071,2026-08-19T09:00:00,outbound,Next steps for NorthDynamics 66,"Sharing the overview we discussed, including rollout options and support coverage."
+E071-2,T071,C071,2026-08-22T09:00:00,inbound,Next steps for NorthDynamics 66,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E071-3,T071,C071,2026-08-26T09:00:00,outbound,Next steps for NorthDynamics 66,I can answer questions and reserve time for a short decision call this week.
+E071-4,T071,C071,2026-08-29T09:00:00,inbound,Next steps for NorthDynamics 66,The team is still evaluating the next step and will confirm any remaining questions.
+E072-1,T072,C072,2026-08-27T09:00:00,outbound,Next steps for BrightIndustries 67,"Sharing the overview we discussed, including rollout options and support coverage."
+E072-2,T072,C072,2026-08-30T09:00:00,inbound,Next steps for BrightIndustries 67,"Thanks. We are reviewing timing, stakeholders, and the commercial outline internally."
+E072-3,T072,C072,2026-09-03T09:00:00,outbound,Next steps for BrightIndustries 67,I can answer questions and reserve time for a short decision call this week.
+E072-4,T072,C072,2026-09-06T09:00:00,inbound,Next steps for BrightIndustries 67,The team is still evaluating the next step and will confirm any remaining questions.

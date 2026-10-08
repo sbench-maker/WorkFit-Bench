@@ -1,0 +1,49 @@
+{
+  "cluster": {
+    "autoscaling_profile": "balanced",
+    "gke_version": "1.34.7-gke.1023000",
+    "location": "us-central1",
+    "name": "atlas-prod",
+    "project": "cobalt-retail-ops"
+  },
+  "low_utilization_definition": "both snapshot request ratios below 0.20",
+  "node_pools": [
+    {
+      "current_nodes": 6,
+      "max_nodes": 20,
+      "min_nodes": 0,
+      "name": "apps-spot"
+    },
+    {
+      "current_nodes": 1,
+      "max_nodes": 10,
+      "min_nodes": 0,
+      "name": "apps-ondemand"
+    },
+    {
+      "current_nodes": 1,
+      "max_nodes": 4,
+      "min_nodes": 1,
+      "name": "legacy-pool"
+    },
+    {
+      "current_nodes": 1,
+      "max_nodes": 6,
+      "min_nodes": 0,
+      "name": "stateful-pool"
+    },
+    {
+      "current_nodes": 1,
+      "max_nodes": 3,
+      "min_nodes": 0,
+      "name": "system-pool"
+    },
+    {
+      "current_nodes": 5,
+      "max_nodes": 20,
+      "min_nodes": 2,
+      "name": "busy-pool"
+    }
+  ],
+  "snapshot_time": "2026-02-18T09:00:00Z"
+}

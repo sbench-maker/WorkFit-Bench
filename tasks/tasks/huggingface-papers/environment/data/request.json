@@ -1,0 +1,9 @@
+{
+  "submitted_reference": "2608.04721v2",
+  "requested_revision": 2,
+  "decision_context": {
+    "use_case": "English and Spanish customer-support ticket summarization",
+    "physical_memory_limit_gb": 8,
+    "deployment_mode": "single-request on-device inference"
+  }
+}

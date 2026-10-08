@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /account/
+Disallow: /internal/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Disallow: /guides/
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /compare/
+
+User-agent: CCBot
+Disallow: /

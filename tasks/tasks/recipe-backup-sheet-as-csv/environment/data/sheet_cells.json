@@ -1,0 +1,2871 @@
+{
+  "spreadsheetId": "1CedarTableRecipeCatalog_Frozen_2025",
+  "properties": {
+    "title": "Cedar Table — Recipe Catalog",
+    "locale": "en_US",
+    "timeZone": "America/Chicago"
+  },
+  "activeSheetId": 214500731,
+  "sheets": [
+    {
+      "properties": {
+        "sheetId": 214500731,
+        "title": "Recipe Catalog",
+        "index": 0,
+        "sheetType": "GRID",
+        "hidden": false,
+        "gridProperties": {
+          "rowCount": 241,
+          "columnCount": 8
+        }
+      },
+      "values": [
+        [
+          "Recipe Code",
+          "Recipe Name",
+          "Category",
+          "Yield",
+          "Prep Minutes",
+          "Dietary Tags",
+          "Chef Notes",
+          "Last Reviewed"
+        ],
+        [
+          "RC-0001",
+          "Crisp Lemon Cookies",
+          "Desserts",
+          "18 cookies",
+          "17",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2024-01-19"
+        ],
+        [
+          "RC-0002",
+          "Smoky Apple Bowl",
+          "Mains",
+          "6 servings",
+          "24",
+          "gluten-free",
+          "",
+          "2024-01-30"
+        ],
+        [
+          "RC-0003",
+          "Toasted Coconut Stew",
+          "Mains",
+          "8 servings",
+          "31",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2024-02-10"
+        ],
+        [
+          "RC-0004",
+          "Golden Lentil Tart",
+          "Bakery",
+          "6 slices",
+          "38",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2024-02-21"
+        ],
+        [
+          "RC-0005",
+          "Garden Chickpea Salad",
+          "Salads",
+          "4 servings",
+          "45",
+          "",
+          "Taste for salt after reducing.",
+          "2024-03-03"
+        ],
+        [
+          "RC-0006",
+          "Creamy Sesame Dip",
+          "Appetizers",
+          "6 servings",
+          "52",
+          "gluten-free",
+          "Make one day ahead for best texture.",
+          "2024-03-14"
+        ],
+        [
+          "RC-0007",
+          "Miso, Sesame Noodles",
+          "Mains",
+          "8 servings",
+          "59",
+          "vegetarian",
+          "Toss while warm; finish with \"house\" chili oil.",
+          "2024-03-25"
+        ],
+        [
+          "RC-0008",
+          "Slow-Cooked Tomato Soup",
+          "Soups",
+          "2 servings",
+          "66",
+          "vegan",
+          "Chill before portioning.",
+          "2024-04-05"
+        ],
+        [
+          "RC-0009",
+          "Herbed Squash Cookies",
+          "Desserts",
+          "12 cookies",
+          "73",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-04-16"
+        ],
+        [
+          "RC-0010",
+          "Zesty Carrot Bowl",
+          "Mains",
+          "6 servings",
+          "80",
+          "gluten-free",
+          "Hold garnish until service.",
+          "2024-04-27"
+        ],
+        [
+          "RC-0011",
+          "Spiced Tomato Stew",
+          "Mains",
+          "8 servings",
+          "11",
+          "vegetarian",
+          "Chill before portioning.",
+          "2024-05-08"
+        ],
+        [
+          "RC-0012",
+          "Roasted Squash Tart",
+          "Bakery",
+          "6 slices",
+          "18",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2024-05-19"
+        ],
+        [
+          "RC-0013",
+          "Crisp Carrot Salad",
+          "Salads",
+          "4 servings",
+          "25",
+          "",
+          "Best served warm.",
+          "2024-05-30"
+        ],
+        [
+          "RC-0014",
+          "Smoky Lemon Dip",
+          "Appetizers",
+          "6 servings",
+          "32",
+          "gluten-free",
+          "Use the shallow prep trays.",
+          "2024-06-10"
+        ],
+        [
+          "RC-0015",
+          "Toasted Apple Pasta",
+          "Mains",
+          "8 servings",
+          "39",
+          "vegetarian",
+          "",
+          "2024-06-21"
+        ],
+        [
+          "RC-0016",
+          "Golden Coconut Soup",
+          "Soups",
+          "2 servings",
+          "46",
+          "vegan",
+          "Finish with fresh herbs.",
+          "2024-07-02"
+        ],
+        [
+          "RC-0017",
+          "Garden Lentil Dip",
+          "Appetizers",
+          "4 servings",
+          "53",
+          "",
+          "Scale sauce separately for large batches.",
+          "2024-07-13"
+        ],
+        [
+          "RC-0018",
+          "Grandma's \"Sunday\" Ragù",
+          "Mains",
+          "6 servings",
+          "60",
+          "gluten-free",
+          "Brown the onions deeply.\nRest overnight before service.",
+          "2024-07-24"
+        ],
+        [
+          "RC-0019",
+          "Bright Sesame Soup",
+          "Soups",
+          "8 servings",
+          "67",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2024-08-04"
+        ],
+        [
+          "RC-0020",
+          "Slow-Cooked Mushroom Cookies",
+          "Desserts",
+          "24 cookies",
+          "74",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2024-08-15"
+        ],
+        [
+          "RC-0021",
+          "Herbed Tomato Bowl",
+          "Mains",
+          "4 servings",
+          "81",
+          "",
+          "Taste for salt after reducing.",
+          "2024-08-26"
+        ],
+        [
+          "RC-0022",
+          "Zesty Sesame Stew",
+          "Mains",
+          "6 servings",
+          "12",
+          "gluten-free",
+          "Make one day ahead for best texture.",
+          "2024-09-06"
+        ],
+        [
+          "RC-0023",
+          "Spiced Mushroom Tart",
+          "Bakery",
+          "12 slices",
+          "19",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2024-09-17"
+        ],
+        [
+          "RC-0024",
+          "Roasted Tomato Salad",
+          "Salads",
+          "2 servings",
+          "26",
+          "vegan",
+          "Chill before portioning.",
+          "2024-09-28"
+        ],
+        [
+          "RC-0025",
+          "Crisp Squash Dip",
+          "Appetizers",
+          "4 servings",
+          "33",
+          "",
+          "Pairs with the seasonal side.",
+          "2024-10-09"
+        ],
+        [
+          "RC-0026",
+          "Smoky Carrot Pasta",
+          "Mains",
+          "6 servings",
+          "40",
+          "gluten-free",
+          "Best served warm.",
+          "2024-10-20"
+        ],
+        [
+          "RC-0027",
+          "Toasted Lemon Soup",
+          "Soups",
+          "8 servings",
+          "47",
+          "vegetarian",
+          "Chill before portioning.",
+          "2024-10-31"
+        ],
+        [
+          "RC-0028",
+          "Golden Apple Cookies",
+          "Desserts",
+          "18 cookies",
+          "54",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2024-11-11"
+        ],
+        [
+          "RC-0029",
+          "Crème brûlée à l’orange",
+          "Mains",
+          "4 servings",
+          "61",
+          "",
+          "Torch à la minute.",
+          "2024-11-22"
+        ],
+        [
+          "RC-0030",
+          "Creamy Lentil Stew",
+          "Mains",
+          "6 servings",
+          "68",
+          "gluten-free",
+          "Use the shallow prep trays.",
+          "2024-12-03"
+        ],
+        [
+          "RC-0031",
+          "Bright Chickpea Tart",
+          "Bakery",
+          "12 slices",
+          "75",
+          "vegetarian",
+          "",
+          "2024-12-14"
+        ],
+        [
+          "RC-0032",
+          "Slow-Cooked Sesame Salad",
+          "Salads",
+          "2 servings",
+          "82",
+          "vegan",
+          "Finish with fresh herbs.",
+          "2024-12-25"
+        ],
+        [
+          "RC-0033",
+          "Herbed Lentil Dip",
+          "Appetizers",
+          "4 servings",
+          "13",
+          "",
+          "Scale sauce separately for large batches.",
+          "2025-01-05"
+        ],
+        [
+          "RC-0034",
+          "Zesty Chickpea Tart",
+          "Bakery",
+          "10 slices",
+          "20",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2025-01-16"
+        ],
+        [
+          "RC-0035",
+          "Spiced Sesame Salad",
+          "Salads",
+          "8 servings",
+          "27",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2025-01-27"
+        ],
+        [
+          "RC-0036",
+          "Roasted Mushroom Dip",
+          "Appetizers",
+          "2 servings",
+          "34",
+          "vegan",
+          "Scale sauce separately for large batches.",
+          "2025-02-07"
+        ],
+        [
+          "RC-0037",
+          "Crisp Tomato Pasta",
+          "Mains",
+          "4 servings",
+          "41",
+          "",
+          "Taste for salt after reducing.",
+          "2025-02-18"
+        ],
+        [
+          "RC-0038",
+          "Smoky Squash Soup",
+          "Soups",
+          "6 servings",
+          "48",
+          "gluten-free",
+          "Make one day ahead for best texture.",
+          "2025-03-01"
+        ],
+        [
+          "RC-0039",
+          "Toasted Carrot Cookies",
+          "Desserts",
+          "12 cookies",
+          "55",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2025-03-12"
+        ],
+        [
+          "RC-0040",
+          "Golden Lemon Bowl",
+          "Mains",
+          "2 servings",
+          "62",
+          "vegan",
+          "Chill before portioning.",
+          "2025-03-23"
+        ],
+        [
+          "RC-0041",
+          "Garden Apple Stew",
+          "Mains",
+          "4 servings",
+          "69",
+          "",
+          "Pairs with the seasonal side.",
+          "2025-04-03"
+        ],
+        [
+          "RC-0042",
+          "Creamy Coconut Tart",
+          "Bakery",
+          "10 slices",
+          "76",
+          "vegetarian",
+          "Best served warm.",
+          "2025-04-14"
+        ],
+        [
+          "RC-0043",
+          "Bright Lentil Salad",
+          "Salads",
+          "8 servings",
+          "83",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2025-04-25"
+        ],
+        [
+          "RC-0044",
+          "Slow-Cooked Apple Dip",
+          "Appetizers",
+          "2 servings",
+          "14",
+          "vegan",
+          "",
+          "2025-05-06"
+        ],
+        [
+          "RC-0045",
+          "Herbed Coconut Pasta",
+          "Mains",
+          "4 servings",
+          "21",
+          "",
+          "Best served warm.",
+          "2025-05-17"
+        ],
+        [
+          "RC-0046",
+          "Zesty Lentil Soup",
+          "Soups",
+          "6 servings",
+          "28",
+          "gluten-free",
+          "Use the shallow prep trays.",
+          "2025-05-28"
+        ],
+        [
+          "RC-0047",
+          "Spiced Chickpea Cookies",
+          "Desserts",
+          "24 cookies",
+          "35",
+          "vegetarian",
+          "",
+          "2025-06-08"
+        ],
+        [
+          "RC-0048",
+          "Roasted Sesame Bowl",
+          "Mains",
+          "2 servings",
+          "42",
+          "vegan",
+          "Finish with fresh herbs.",
+          "2025-06-19"
+        ],
+        [
+          "RC-0049",
+          "Crisp Mushroom Stew",
+          "Mains",
+          "4 servings",
+          "49",
+          "",
+          "Scale sauce separately for large batches.",
+          "2025-06-30"
+        ],
+        [
+          "RC-0050",
+          "Niçoise Bean & Olive Salad",
+          "Bakery",
+          "10 slices",
+          "56",
+          "vegan, gluten-free",
+          "Taste for salt after reducing.",
+          "2025-07-11"
+        ],
+        [
+          "RC-0051",
+          "Toasted Squash Bowl",
+          "Mains",
+          "8 servings",
+          "63",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2025-07-22"
+        ],
+        [
+          "RC-0052",
+          "Golden Carrot Stew",
+          "Mains",
+          "2 servings",
+          "70",
+          "vegan",
+          "Hold garnish until service.",
+          "2025-08-02"
+        ],
+        [
+          "RC-0053",
+          "Garden Lemon Tart",
+          "Bakery",
+          "8 slices",
+          "77",
+          "vegetarian",
+          "Chill before portioning.",
+          "2025-08-13"
+        ],
+        [
+          "RC-0054",
+          "Creamy Apple Salad",
+          "Salads",
+          "6 servings",
+          "84",
+          "gluten-free",
+          "Make one day ahead for best texture.",
+          "2025-08-24"
+        ],
+        [
+          "RC-0055",
+          "Bright Carrot Dip",
+          "Appetizers",
+          "8 servings",
+          "15",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2025-09-04"
+        ],
+        [
+          "RC-0056",
+          "Slow-Cooked Lemon Pasta",
+          "Mains",
+          "2 servings",
+          "22",
+          "vegan",
+          "Chill before portioning.",
+          "2025-09-15"
+        ],
+        [
+          "RC-0057",
+          "Herbed Apple Soup",
+          "Soups",
+          "4 servings",
+          "29",
+          "",
+          "Pairs with the seasonal side.",
+          "2024-01-15"
+        ],
+        [
+          "RC-0058",
+          "Zesty Coconut Cookies",
+          "Desserts",
+          "18 cookies",
+          "36",
+          "vegetarian",
+          "Best served warm.",
+          "2024-01-26"
+        ],
+        [
+          "RC-0059",
+          "Spiced Lentil Bowl",
+          "Mains",
+          "8 servings",
+          "43",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2024-02-06"
+        ],
+        [
+          "RC-0060",
+          "Roasted Chickpea Stew",
+          "Mains",
+          "2 servings",
+          "50",
+          "vegan",
+          "",
+          "2024-02-17"
+        ],
+        [
+          "RC-0061",
+          "Crisp Sesame Tart",
+          "Bakery",
+          "8 slices",
+          "57",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2024-02-28"
+        ],
+        [
+          "RC-0062",
+          "Smoky Mushroom Salad",
+          "Salads",
+          "6 servings",
+          "64",
+          "gluten-free",
+          "Scale sauce separately for large batches.",
+          "2024-03-10"
+        ],
+        [
+          "RC-0063",
+          "Toasted Tomato Dip",
+          "Appetizers",
+          "8 servings",
+          "71",
+          "vegetarian",
+          "",
+          "2024-03-21"
+        ],
+        [
+          "RC-0064",
+          "Golden Squash Pasta",
+          "Mains",
+          "2 servings",
+          "78",
+          "vegan",
+          "Finish with fresh herbs.",
+          ""
+        ],
+        [
+          "RC-0065",
+          "Garden Carrot Soup",
+          "Soups",
+          "4 servings",
+          "85",
+          "",
+          "Scale sauce separately for large batches.",
+          "2024-04-12"
+        ],
+        [
+          "RC-0066",
+          "Creamy Tomato Cookies",
+          "Desserts",
+          "12 cookies",
+          "16",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2024-04-23"
+        ],
+        [
+          "RC-0067",
+          "Bright Squash Bowl",
+          "Mains",
+          "8 servings",
+          "23",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-05-04"
+        ],
+        [
+          "RC-0068",
+          "Slow-Cooked Carrot Soup",
+          "Soups",
+          "2 servings",
+          "30",
+          "vegan",
+          "Hold garnish until service.",
+          "2024-05-15"
+        ],
+        [
+          "RC-0069",
+          "Herbed Lemon Cookies",
+          "Desserts",
+          "12 cookies",
+          "37",
+          "vegetarian",
+          "Chill before portioning.",
+          "2024-05-26"
+        ],
+        [
+          "RC-0070",
+          "Zesty Apple Bowl",
+          "Mains",
+          "6 servings",
+          "44",
+          "gluten-free",
+          "Pairs with the seasonal side.",
+          "2024-06-06"
+        ],
+        [
+          "RC-0071",
+          "Spiced Coconut Stew",
+          "Mains",
+          "8 servings",
+          "51",
+          "vegetarian",
+          "Best served warm.",
+          "2024-06-17"
+        ],
+        [
+          "RC-0072",
+          "Roasted Lentil Tart",
+          "Bakery",
+          "6 slices",
+          "58",
+          "vegetarian",
+          "Chill before portioning.",
+          "2024-06-28"
+        ],
+        [
+          "RC-0073",
+          "Crisp Chickpea Salad",
+          "Salads",
+          "4 servings",
+          "65",
+          "",
+          "Pairs with the seasonal side.",
+          "2024-07-09"
+        ],
+        [
+          "RC-0074",
+          "Smoky Sesame Dip",
+          "Appetizers",
+          "6 servings",
+          "72",
+          "gluten-free",
+          "Best served warm.",
+          "2024-07-20"
+        ],
+        [
+          "RC-0075",
+          "Toasted Mushroom Pasta",
+          "Mains",
+          "8 servings",
+          "79",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2024-07-31"
+        ],
+        [
+          "RC-0076",
+          "Golden Tomato Soup",
+          "Soups",
+          "2 servings",
+          "10",
+          "vegan",
+          "",
+          "2024-08-11"
+        ],
+        [
+          "RC-0077",
+          "Garden Sesame Cookies",
+          "Desserts",
+          "24 cookies",
+          "17",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2024-08-22"
+        ],
+        [
+          "RC-0078",
+          "Creamy Mushroom Bowl",
+          "Mains",
+          "6 servings",
+          "24",
+          "gluten-free",
+          "Scale sauce separately for large batches.",
+          "2024-09-02"
+        ],
+        [
+          "RC-0079",
+          "Bright Tomato Stew",
+          "Mains",
+          "8 servings",
+          "31",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2024-09-13"
+        ],
+        [
+          "RC-0080",
+          "Slow-Cooked Squash Tart",
+          "Bakery",
+          "6 slices",
+          "38",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-09-24"
+        ],
+        [
+          "RC-0081",
+          "Smoky Tomato–Peach Galette",
+          "Salads",
+          "4 servings",
+          "45",
+          "",
+          "",
+          "2024-10-05"
+        ],
+        [
+          "RC-0082",
+          "Zesty Lemon Dip",
+          "Appetizers",
+          "6 servings",
+          "52",
+          "gluten-free",
+          "Taste for salt after reducing.",
+          "2024-10-16"
+        ],
+        [
+          "RC-0083",
+          "Spiced Apple Pasta",
+          "Mains",
+          "8 servings",
+          "59",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-10-27"
+        ],
+        [
+          "RC-0084",
+          "Roasted Coconut Soup",
+          "Soups",
+          "2 servings",
+          "66",
+          "vegan",
+          "Hold garnish until service.",
+          "2024-11-07"
+        ],
+        [
+          "RC-0085",
+          "Crisp Lentil Dip",
+          "Appetizers",
+          "4 servings",
+          "73",
+          "",
+          "Chill before portioning.",
+          "2024-11-18"
+        ],
+        [
+          "RC-0086",
+          "Smoky Chickpea Pasta",
+          "Mains",
+          "6 servings",
+          "80",
+          "gluten-free",
+          "Pairs with the seasonal side.",
+          "2024-11-29"
+        ],
+        [
+          "RC-0087",
+          "Toasted Sesame Soup",
+          "Soups",
+          "8 servings",
+          "11",
+          "vegetarian",
+          "Best served warm.",
+          "2024-12-10"
+        ],
+        [
+          "RC-0088",
+          "Golden Lentil Cookies",
+          "Desserts",
+          "18 cookies",
+          "18",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2024-12-21"
+        ],
+        [
+          "RC-0089",
+          "Garden Chickpea Bowl",
+          "Mains",
+          "4 servings",
+          "25",
+          "",
+          "",
+          "2025-01-01"
+        ],
+        [
+          "RC-0090",
+          "Creamy Sesame Stew",
+          "Mains",
+          "6 servings",
+          "32",
+          "gluten-free",
+          "Best served warm.",
+          "2025-01-12"
+        ],
+        [
+          "RC-0091",
+          "Bright Mushroom Tart",
+          "Bakery",
+          "12 slices",
+          "39",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2025-01-23"
+        ],
+        [
+          "RC-0092",
+          "Slow-Cooked Tomato Salad",
+          "Salads",
+          "2 servings",
+          "46",
+          "vegan",
+          "",
+          "2025-02-03"
+        ],
+        [
+          "RC-0093",
+          "Herbed Squash Dip",
+          "Appetizers",
+          "4 servings",
+          "53",
+          "",
+          "Finish with fresh herbs.",
+          "2025-02-14"
+        ],
+        [
+          "RC-0094",
+          "Zesty Carrot Pasta",
+          "Mains",
+          "6 servings",
+          "60",
+          "gluten-free",
+          "Scale sauce separately for large batches.",
+          "2025-02-25"
+        ],
+        [
+          "RC-0095",
+          "Spiced Lemon Soup",
+          "Soups",
+          "8 servings",
+          "67",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2025-03-08"
+        ],
+        [
+          "RC-0096",
+          "Roasted Apple Cookies",
+          "Desserts",
+          "12 cookies",
+          "74",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2025-03-19"
+        ],
+        [
+          "RC-0097",
+          "Crisp Coconut Bowl 2",
+          "Mains",
+          "4 servings",
+          "81",
+          "",
+          "Hold garnish until service.",
+          "2025-03-30"
+        ],
+        [
+          "RC-0098",
+          "Smoky Lentil Stew 2",
+          "Mains",
+          "6 servings",
+          "12",
+          "gluten-free",
+          "Chill before portioning.",
+          "2025-04-10"
+        ],
+        [
+          "RC-0099",
+          "Toasted Apple Tart 2",
+          "Bakery",
+          "12 slices",
+          "19",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2025-04-21"
+        ],
+        [
+          "RC-0100",
+          "Golden Coconut Salad 2",
+          "Salads",
+          "2 servings",
+          "26",
+          "vegan",
+          "Hold garnish until service.",
+          "2025-05-02"
+        ],
+        [
+          "RC-0101",
+          "Garden Lentil Dip 2",
+          "Appetizers",
+          "4 servings",
+          "33",
+          "",
+          "Chill before portioning.",
+          "2025-05-13"
+        ],
+        [
+          "RC-0102",
+          "Creamy Chickpea Tart 2",
+          "Bakery",
+          "10 slices",
+          "40",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2025-05-24"
+        ],
+        [
+          "RC-0103",
+          "Bright Sesame Salad 2",
+          "Salads",
+          "8 servings",
+          "47",
+          "vegetarian",
+          "Best served warm.",
+          "2025-06-04"
+        ],
+        [
+          "RC-0104",
+          "Slow-Cooked Mushroom Dip 2",
+          "Appetizers",
+          "2 servings",
+          "54",
+          "vegan",
+          "Use the shallow prep trays.",
+          "2025-06-15"
+        ],
+        [
+          "RC-0105",
+          "Herbed Tomato Pasta 2",
+          "Mains",
+          "4 servings",
+          "61",
+          "",
+          "",
+          "2025-06-26"
+        ],
+        [
+          "RC-0106",
+          "Zesty Squash Soup 2",
+          "Soups",
+          "6 servings",
+          "68",
+          "gluten-free",
+          "Finish with fresh herbs.",
+          "2025-07-07"
+        ],
+        [
+          "RC-0107",
+          "Spiced Carrot Cookies 2",
+          "Desserts",
+          "24 cookies",
+          "75",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2025-07-18"
+        ],
+        [
+          "RC-0108",
+          "Roasted Lemon Bowl 2",
+          "Mains",
+          "2 servings",
+          "82",
+          "vegan",
+          "",
+          "2025-07-29"
+        ],
+        [
+          "RC-0109",
+          "Crisp Apple Stew 2",
+          "Mains",
+          "4 servings",
+          "13",
+          "",
+          "Finish with fresh herbs.",
+          "2025-08-09"
+        ],
+        [
+          "RC-0110",
+          "Smoky Carrot Tart 2",
+          "Bakery",
+          "10 slices",
+          "20",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2025-08-20"
+        ],
+        [
+          "RC-0111",
+          "Toasted Lemon Salad 2",
+          "Salads",
+          "8 servings",
+          "27",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2025-08-31"
+        ],
+        [
+          "RC-0112",
+          "Café de Olla Overnight Oats",
+          "Appetizers",
+          "2 servings",
+          "34",
+          "vegan",
+          "Use prep tub 0012; retain the printed code.",
+          "2025-09-11"
+        ],
+        [
+          "RC-0113",
+          "Garden Coconut Pasta 2",
+          "Mains",
+          "4 servings",
+          "41",
+          "",
+          "Hold garnish until service.",
+          "2024-01-11"
+        ],
+        [
+          "RC-0114",
+          "Creamy Lentil Soup 2",
+          "Soups",
+          "6 servings",
+          "48",
+          "gluten-free",
+          "Chill before portioning.",
+          "2024-01-22"
+        ],
+        [
+          "RC-0115",
+          "Bright Chickpea Cookies 2",
+          "Desserts",
+          "18 cookies",
+          "55",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2024-02-02"
+        ],
+        [
+          "RC-0116",
+          "Slow-Cooked Sesame Bowl 2",
+          "Mains",
+          "2 servings",
+          "62",
+          "vegan",
+          "Best served warm.",
+          "2024-02-13"
+        ],
+        [
+          "RC-0117",
+          "Herbed Mushroom Stew 2",
+          "Mains",
+          "4 servings",
+          "69",
+          "",
+          "Chill before portioning.",
+          "2024-02-24"
+        ],
+        [
+          "RC-0118",
+          "Zesty Tomato Tart 2",
+          "Bakery",
+          "10 slices",
+          "76",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2024-03-06"
+        ],
+        [
+          "RC-0119",
+          "Spiced Squash Bowl 2",
+          "Mains",
+          "8 servings",
+          "83",
+          "vegetarian",
+          "Best served warm.",
+          "2024-03-17"
+        ],
+        [
+          "RC-0120",
+          "Roasted Carrot Stew 2",
+          "Mains",
+          "2 servings",
+          "14",
+          "vegan",
+          "Use the shallow prep trays.",
+          "2024-03-28"
+        ],
+        [
+          "RC-0121",
+          "Crisp Tomato Tart 2",
+          "Bakery",
+          "8 slices",
+          "21",
+          "vegetarian",
+          "",
+          "2024-04-08"
+        ],
+        [
+          "RC-0122",
+          "Smoky Squash Salad 2",
+          "Salads",
+          "6 servings",
+          "28",
+          "gluten-free",
+          "Finish with fresh herbs.",
+          "2024-04-19"
+        ],
+        [
+          "RC-0123",
+          "Toasted Carrot Dip 2",
+          "Appetizers",
+          "8 servings",
+          "35",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2024-04-30"
+        ],
+        [
+          "RC-0124",
+          "Golden Lemon Pasta 2",
+          "Mains",
+          "2 servings",
+          "42",
+          "vegan",
+          "Taste for salt after reducing.",
+          "2024-05-11"
+        ],
+        [
+          "RC-0125",
+          "Garden Apple Soup 2",
+          "Soups",
+          "4 servings",
+          "49",
+          "",
+          "Make one day ahead for best texture.",
+          "2024-05-22"
+        ],
+        [
+          "RC-0126",
+          "Creamy Coconut Cookies 2",
+          "Desserts",
+          "12 cookies",
+          "56",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2024-06-02"
+        ],
+        [
+          "RC-0127",
+          "Bright Lentil Bowl 2",
+          "Mains",
+          "8 servings",
+          "63",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2024-06-13"
+        ],
+        [
+          "RC-0128",
+          "Slow-Cooked Chickpea Stew 2",
+          "Mains",
+          "2 servings",
+          "70",
+          "vegan",
+          "Make one day ahead for best texture.",
+          "2024-06-24"
+        ],
+        [
+          "RC-0129",
+          "Herbed Sesame Tart 2",
+          "Bakery",
+          "8 slices",
+          "77",
+          "vegetarian",
+          "Hold garnish until service.",
+          ""
+        ],
+        [
+          "RC-0130",
+          "Zesty Mushroom Salad 2",
+          "Salads",
+          "6 servings",
+          "84",
+          "gluten-free",
+          "Chill before portioning.",
+          "2024-07-16"
+        ],
+        [
+          "RC-0131",
+          "Spiced Tomato Dip 2",
+          "Appetizers",
+          "8 servings",
+          "15",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2024-07-27"
+        ],
+        [
+          "RC-0132",
+          "Roasted Sesame Pasta 2",
+          "Mains",
+          "2 servings",
+          "22",
+          "vegan",
+          "Best served warm.",
+          "2024-08-07"
+        ],
+        [
+          "RC-0133",
+          "Crisp Mushroom Soup 2",
+          "Soups",
+          "4 servings",
+          "29",
+          "",
+          "Use the shallow prep trays.",
+          "2024-08-18"
+        ],
+        [
+          "RC-0134",
+          "Smoky Tomato Cookies 2",
+          "Desserts",
+          "24 cookies",
+          "36",
+          "vegetarian",
+          "",
+          "2024-08-29"
+        ],
+        [
+          "RC-0135",
+          "Toasted Squash Bowl 2",
+          "Mains",
+          "8 servings",
+          "43",
+          "vegetarian",
+          "Best served warm.",
+          "2024-09-09"
+        ],
+        [
+          "RC-0136",
+          "Golden Carrot Soup 2",
+          "Soups",
+          "2 servings",
+          "50",
+          "vegan",
+          "Use the shallow prep trays.",
+          "2024-09-20"
+        ],
+        [
+          "RC-0137",
+          "Garden Lemon Cookies 2",
+          "Desserts",
+          "24 cookies",
+          "57",
+          "vegetarian",
+          "",
+          "2024-10-01"
+        ],
+        [
+          "RC-0138",
+          "Creamy Apple Bowl 2",
+          "Mains",
+          "6 servings",
+          "64",
+          "gluten-free",
+          "Finish with fresh herbs.",
+          "2024-10-12"
+        ],
+        [
+          "RC-0139",
+          "Bright Coconut Stew 2",
+          "Mains",
+          "8 servings",
+          "71",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2024-10-23"
+        ],
+        [
+          "RC-0140",
+          "Slow-Cooked Lentil Tart 2",
+          "Bakery",
+          "6 slices",
+          "78",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2024-11-03"
+        ],
+        [
+          "RC-0141",
+          "Herbed Chickpea Salad 2",
+          "Salads",
+          "4 servings",
+          "85",
+          "",
+          "Make one day ahead for best texture.",
+          "2024-11-14"
+        ],
+        [
+          "RC-0142",
+          "Zesty Sesame Dip 2",
+          "Appetizers",
+          "6 servings",
+          "16",
+          "gluten-free",
+          "Hold garnish until service.",
+          "2024-11-25"
+        ],
+        [
+          "RC-0143",
+          "Ginger \"Two-Way\" Dumplings",
+          "Mains",
+          "8 servings",
+          "23",
+          "vegetarian",
+          "Steam for lunch service.\nPan-sear for dinner service.",
+          "2024-12-06"
+        ],
+        [
+          "RC-0144",
+          "Roasted Chickpea Soup 2",
+          "Soups",
+          "2 servings",
+          "30",
+          "vegan",
+          "Make one day ahead for best texture.",
+          "2024-12-17"
+        ],
+        [
+          "RC-0145",
+          "Crisp Sesame Cookies 2",
+          "Desserts",
+          "18 cookies",
+          "37",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2024-12-28"
+        ],
+        [
+          "RC-0146",
+          "Smoky Mushroom Bowl 2",
+          "Mains",
+          "6 servings",
+          "44",
+          "gluten-free",
+          "Chill before portioning.",
+          "2025-01-08"
+        ],
+        [
+          "RC-0147",
+          "Toasted Tomato Stew 2",
+          "Mains",
+          "8 servings",
+          "51",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2025-01-19"
+        ],
+        [
+          "RC-0148",
+          "Golden Squash Tart 2",
+          "Bakery",
+          "6 slices",
+          "58",
+          "vegetarian",
+          "Best served warm.",
+          "2025-01-30"
+        ],
+        [
+          "RC-0149",
+          "Garden Carrot Salad 2",
+          "Salads",
+          "4 servings",
+          "65",
+          "",
+          "Use the shallow prep trays.",
+          "2025-02-10"
+        ],
+        [
+          "RC-0150",
+          "Creamy Lemon Dip 2",
+          "Appetizers",
+          "6 servings",
+          "72",
+          "gluten-free",
+          "",
+          "2025-02-21"
+        ],
+        [
+          "RC-0151",
+          "Bright Apple Pasta 2",
+          "Mains",
+          "8 servings",
+          "79",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2025-03-04"
+        ],
+        [
+          "RC-0152",
+          "Slow-Cooked Coconut Soup 2",
+          "Soups",
+          "2 servings",
+          "10",
+          "vegan",
+          "Scale sauce separately for large batches.",
+          "2025-03-15"
+        ],
+        [
+          "RC-0153",
+          "Herbed Lentil Dip 2",
+          "Appetizers",
+          "4 servings",
+          "17",
+          "",
+          "",
+          "2025-03-26"
+        ],
+        [
+          "RC-0154",
+          "Zesty Apple Pasta 2",
+          "Mains",
+          "6 servings",
+          "24",
+          "gluten-free",
+          "Finish with fresh herbs.",
+          "2025-04-06"
+        ],
+        [
+          "RC-0155",
+          "Spiced Coconut Soup 2",
+          "Soups",
+          "8 servings",
+          "31",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2025-04-17"
+        ],
+        [
+          "RC-0156",
+          "Roasted Lentil Cookies 2",
+          "Desserts",
+          "12 cookies",
+          "38",
+          "vegetarian",
+          "Taste for salt after reducing.",
+          "2025-04-28"
+        ],
+        [
+          "RC-0157",
+          "Crisp Chickpea Bowl 2",
+          "Mains",
+          "4 servings",
+          "45",
+          "",
+          "Make one day ahead for best texture.",
+          "2025-05-09"
+        ],
+        [
+          "RC-0158",
+          "Smoky Sesame Stew 2",
+          "Mains",
+          "6 servings",
+          "52",
+          "gluten-free",
+          "Hold garnish until service.",
+          "2025-05-20"
+        ],
+        [
+          "RC-0159",
+          "Toasted Mushroom Tart 2",
+          "Bakery",
+          "12 slices",
+          "59",
+          "vegetarian",
+          "Chill before portioning.",
+          "2025-05-31"
+        ],
+        [
+          "RC-0160",
+          "Golden Tomato Salad 2",
+          "Salads",
+          "2 servings",
+          "66",
+          "vegan",
+          "Pairs with the seasonal side.",
+          "2025-06-11"
+        ],
+        [
+          "RC-0161",
+          "Garden Squash Dip 2",
+          "Appetizers",
+          "4 servings",
+          "73",
+          "",
+          "Best served warm.",
+          "2025-06-22"
+        ],
+        [
+          "RC-0162",
+          "Creamy Carrot Pasta 2",
+          "Mains",
+          "6 servings",
+          "80",
+          "gluten-free",
+          "Chill before portioning.",
+          "2025-07-03"
+        ],
+        [
+          "RC-0163",
+          "Bright Lemon Soup 2",
+          "Soups",
+          "8 servings",
+          "11",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2025-07-14"
+        ],
+        [
+          "RC-0164",
+          "Slow-Cooked Apple Cookies 2",
+          "Desserts",
+          "24 cookies",
+          "18",
+          "vegetarian",
+          "Best served warm.",
+          "2025-07-25"
+        ],
+        [
+          "RC-0165",
+          "Herbed Carrot Bowl 2",
+          "Mains",
+          "4 servings",
+          "25",
+          "",
+          "Use the shallow prep trays.",
+          "2025-08-05"
+        ],
+        [
+          "RC-0166",
+          "Zesty Lemon Stew 2",
+          "Mains",
+          "6 servings",
+          "32",
+          "gluten-free",
+          "",
+          "2025-08-16"
+        ],
+        [
+          "RC-0167",
+          "Spiced Apple Tart 2",
+          "Bakery",
+          "12 slices",
+          "39",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2025-08-27"
+        ],
+        [
+          "RC-0168",
+          "Roasted Coconut Salad 2",
+          "Salads",
+          "2 servings",
+          "46",
+          "vegan",
+          "Scale sauce separately for large batches.",
+          "2025-09-07"
+        ],
+        [
+          "RC-0169",
+          "Crisp Lentil Dip 2",
+          "Appetizers",
+          "4 servings",
+          "53",
+          "",
+          "Taste for salt after reducing.",
+          "2025-09-18"
+        ],
+        [
+          "RC-0170",
+          "Smoky Chickpea Tart 2",
+          "Bakery",
+          "10 slices",
+          "60",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-01-18"
+        ],
+        [
+          "RC-0171",
+          "Toasted Sesame Salad 2",
+          "Salads",
+          "8 servings",
+          "67",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2024-01-29"
+        ],
+        [
+          "RC-0172",
+          "Golden Mushroom Dip 2",
+          "Appetizers",
+          "2 servings",
+          "74",
+          "vegan",
+          "Taste for salt after reducing.",
+          "2024-02-09"
+        ],
+        [
+          "RC-0173",
+          "Garden Tomato Pasta 2",
+          "Mains",
+          "4 servings",
+          "81",
+          "",
+          "Make one day ahead for best texture.",
+          "2024-02-20"
+        ],
+        [
+          "RC-0174",
+          "Lemon, Dill & Caper Fish",
+          "Soups",
+          "6 servings",
+          "12",
+          "gluten-free",
+          "Label the dairy-free pan \"DF\" before adding sauce.",
+          "2024-03-02"
+        ],
+        [
+          "RC-0175",
+          "Bright Carrot Cookies 2",
+          "Desserts",
+          "18 cookies",
+          "19",
+          "vegetarian",
+          "Chill before portioning.",
+          "2024-03-13"
+        ],
+        [
+          "RC-0176",
+          "Slow-Cooked Tomato Bowl 2",
+          "Mains",
+          "2 servings",
+          "26",
+          "vegan",
+          "Pairs with the seasonal side.",
+          "2024-03-24"
+        ],
+        [
+          "RC-0177",
+          "Herbed Squash Stew 2",
+          "Mains",
+          "4 servings",
+          "33",
+          "",
+          "Best served warm.",
+          "2024-04-04"
+        ],
+        [
+          "RC-0178",
+          "Zesty Carrot Tart 2",
+          "Bakery",
+          "10 slices",
+          "40",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2024-04-15"
+        ],
+        [
+          "RC-0179",
+          "Spiced Lemon Salad 2",
+          "Salads",
+          "8 servings",
+          "47",
+          "vegetarian",
+          "",
+          "2024-04-26"
+        ],
+        [
+          "RC-0180",
+          "Roasted Apple Dip 2",
+          "Appetizers",
+          "2 servings",
+          "54",
+          "vegan",
+          "Best served warm.",
+          "2024-05-07"
+        ],
+        [
+          "RC-0181",
+          "Crisp Coconut Pasta 2",
+          "Mains",
+          "4 servings",
+          "61",
+          "",
+          "Use the shallow prep trays.",
+          "2024-05-18"
+        ],
+        [
+          "RC-0182",
+          "Smoky Lentil Soup 2",
+          "Soups",
+          "6 servings",
+          "68",
+          "gluten-free",
+          "",
+          "2024-05-29"
+        ],
+        [
+          "RC-0183",
+          "Toasted Chickpea Cookies 2",
+          "Desserts",
+          "12 cookies",
+          "75",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2024-06-09"
+        ],
+        [
+          "RC-0184",
+          "Golden Sesame Bowl 2",
+          "Mains",
+          "2 servings",
+          "82",
+          "vegan",
+          "Scale sauce separately for large batches.",
+          "2024-06-20"
+        ],
+        [
+          "RC-0185",
+          "Garden Mushroom Stew 2",
+          "Mains",
+          "4 servings",
+          "13",
+          "",
+          "Taste for salt after reducing.",
+          "2024-07-01"
+        ],
+        [
+          "RC-0186",
+          "Creamy Tomato Tart 2",
+          "Bakery",
+          "10 slices",
+          "20",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-07-12"
+        ],
+        [
+          "RC-0187",
+          "Bright Sesame Bowl 2",
+          "Mains",
+          "8 servings",
+          "27",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2024-07-23"
+        ],
+        [
+          "RC-0188",
+          "Slow-Cooked Mushroom Stew 2",
+          "Mains",
+          "2 servings",
+          "34",
+          "vegan",
+          "Chill before portioning.",
+          "2024-08-03"
+        ],
+        [
+          "RC-0189",
+          "Herbed Tomato Tart 2",
+          "Bakery",
+          "8 slices",
+          "41",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-08-14"
+        ],
+        [
+          "RC-0190",
+          "Zesty Squash Salad 2",
+          "Salads",
+          "6 servings",
+          "48",
+          "gluten-free",
+          "Hold garnish until service.",
+          "2024-08-25"
+        ],
+        [
+          "RC-0191",
+          "Spiced Carrot Dip 2",
+          "Appetizers",
+          "8 servings",
+          "55",
+          "vegetarian",
+          "Chill before portioning.",
+          "2024-09-05"
+        ],
+        [
+          "RC-0192",
+          "Roasted Lemon Pasta 2",
+          "Mains",
+          "2 servings",
+          "62",
+          "vegan",
+          "Pairs with the seasonal side.",
+          "2024-09-16"
+        ],
+        [
+          "RC-0193",
+          "Crisp Apple Soup 3",
+          "Soups",
+          "4 servings",
+          "69",
+          "",
+          "Best served warm.",
+          "2024-09-27"
+        ],
+        [
+          "RC-0194",
+          "Smoky Coconut Cookies 3",
+          "Desserts",
+          "24 cookies",
+          "76",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2024-10-08"
+        ],
+        [
+          "RC-0195",
+          "Toasted Lentil Bowl 3",
+          "Mains",
+          "8 servings",
+          "83",
+          "vegetarian",
+          "",
+          "2024-10-19"
+        ],
+        [
+          "RC-0196",
+          "Golden Chickpea Stew 3",
+          "Mains",
+          "2 servings",
+          "14",
+          "vegan",
+          "Finish with fresh herbs.",
+          "2024-10-30"
+        ],
+        [
+          "RC-0197",
+          "Garden Sesame Tart 3",
+          "Bakery",
+          "8 slices",
+          "21",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2024-11-10"
+        ],
+        [
+          "RC-0198",
+          "Creamy Lentil Salad 3",
+          "Salads",
+          "6 servings",
+          "28",
+          "gluten-free",
+          "",
+          "2024-11-21"
+        ],
+        [
+          "RC-0199",
+          "Bright Chickpea Dip 3",
+          "Appetizers",
+          "8 servings",
+          "35",
+          "vegetarian",
+          "Finish with fresh herbs.",
+          "2024-12-02"
+        ],
+        [
+          "RC-0200",
+          "Slow-Cooked Sesame Pasta 3",
+          "Mains",
+          "2 servings",
+          "42",
+          "vegan",
+          "Scale sauce separately for large batches.",
+          "2024-12-13"
+        ],
+        [
+          "RC-0201",
+          "Herbed Mushroom Soup 3",
+          "Soups",
+          "4 servings",
+          "49",
+          "",
+          "Taste for salt after reducing.",
+          "2024-12-24"
+        ],
+        [
+          "RC-0202",
+          "Zesty Tomato Cookies 3",
+          "Desserts",
+          "18 cookies",
+          "56",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2025-01-04"
+        ],
+        [
+          "RC-0203",
+          "Spiced Squash Bowl 3",
+          "Mains",
+          "8 servings",
+          "63",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2025-01-15"
+        ],
+        [
+          "RC-0204",
+          "Roasted Carrot Soup 3",
+          "Soups",
+          "2 servings",
+          "70",
+          "vegan",
+          "Chill before portioning.",
+          "2025-01-26"
+        ],
+        [
+          "RC-0205",
+          "Crisp Lemon Cookies 3",
+          "Desserts",
+          "18 cookies",
+          "77",
+          "vegetarian",
+          "Day 1: prepare filling.\n\nDay 2: fold and bake.",
+          "2025-02-06"
+        ],
+        [
+          "RC-0206",
+          "Smoky Apple Bowl 3",
+          "Mains",
+          "6 servings",
+          "84",
+          "gluten-free",
+          "Best served warm.",
+          "2025-02-17"
+        ],
+        [
+          "RC-0207",
+          "Toasted Coconut Stew 3",
+          "Mains",
+          "8 servings",
+          "15",
+          "vegetarian",
+          "Chill before portioning.",
+          "2025-02-28"
+        ],
+        [
+          "RC-0208",
+          "Golden Lentil Tart 3",
+          "Bakery",
+          "6 slices",
+          "22",
+          "vegetarian",
+          "Pairs with the seasonal side.",
+          "2025-03-11"
+        ],
+        [
+          "RC-0209",
+          "Garden Apple Salad 3",
+          "Salads",
+          "4 servings",
+          "29",
+          "",
+          "Best served warm.",
+          "2025-03-22"
+        ],
+        [
+          "RC-0210",
+          "Creamy Coconut Dip 3",
+          "Appetizers",
+          "6 servings",
+          "36",
+          "gluten-free",
+          "Use the shallow prep trays.",
+          "2025-04-02"
+        ],
+        [
+          "RC-0211",
+          "Bright Lentil Pasta 3",
+          "Mains",
+          "8 servings",
+          "43",
+          "vegetarian",
+          "",
+          "2025-04-13"
+        ],
+        [
+          "RC-0212",
+          "Slow-Cooked Chickpea Soup 3",
+          "Soups",
+          "2 servings",
+          "50",
+          "vegan",
+          "Finish with fresh herbs.",
+          "2025-04-24"
+        ],
+        [
+          "RC-0213",
+          "Herbed Sesame Cookies 3",
+          "Desserts",
+          "12 cookies",
+          "57",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2025-05-05"
+        ],
+        [
+          "RC-0214",
+          "Zesty Mushroom Bowl 3",
+          "Mains",
+          "6 servings",
+          "64",
+          "gluten-free",
+          "Taste for salt after reducing.",
+          "2025-05-16"
+        ],
+        [
+          "RC-0215",
+          "Spiced Tomato Stew 3",
+          "Mains",
+          "8 servings",
+          "71",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2025-05-27"
+        ],
+        [
+          "RC-0216",
+          "Roasted Squash Tart 3",
+          "Bakery",
+          "6 slices",
+          "78",
+          "vegetarian",
+          "Scale sauce separately for large batches.",
+          "2025-06-07"
+        ],
+        [
+          "RC-0217",
+          "Crisp Carrot Salad 3",
+          "Salads",
+          "4 servings",
+          "85",
+          "",
+          "Taste for salt after reducing.",
+          "2025-06-18"
+        ],
+        [
+          "RC-0218",
+          "Smoky Lemon Dip 3",
+          "Appetizers",
+          "6 servings",
+          "16",
+          "gluten-free",
+          "Make one day ahead for best texture.",
+          ""
+        ],
+        [
+          "RC-0219",
+          "Toasted Apple Pasta 3",
+          "Mains",
+          "8 servings",
+          "23",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2025-07-10"
+        ],
+        [
+          "RC-0220",
+          "Golden Carrot Soup 3",
+          "Soups",
+          "2 servings",
+          "30",
+          "vegan",
+          "Chill before portioning.",
+          "2025-07-21"
+        ],
+        [
+          "RC-0221",
+          "Garden Lemon Dip 3",
+          "Appetizers",
+          "4 servings",
+          "37",
+          "",
+          "Pairs with the seasonal side.",
+          "2025-08-01"
+        ],
+        [
+          "RC-0222",
+          "Creamy Apple Pasta 3",
+          "Mains",
+          "6 servings",
+          "44",
+          "gluten-free",
+          "Best served warm.",
+          "2025-08-12"
+        ],
+        [
+          "RC-0223",
+          "Bright Coconut Soup 3",
+          "Soups",
+          "8 servings",
+          "51",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2025-08-23"
+        ],
+        [
+          "RC-0224",
+          "Slow-Cooked Lentil Cookies 3",
+          "Desserts",
+          "24 cookies",
+          "58",
+          "vegetarian",
+          "",
+          "2025-09-03"
+        ],
+        [
+          "RC-0225",
+          "Herbed Chickpea Bowl 3",
+          "Mains",
+          "4 servings",
+          "65",
+          "",
+          "Best served warm.",
+          "2025-09-14"
+        ],
+        [
+          "RC-0226",
+          "Zesty Sesame Stew 3",
+          "Mains",
+          "6 servings",
+          "72",
+          "gluten-free",
+          "Use the shallow prep trays.",
+          "2024-01-14"
+        ],
+        [
+          "RC-0227",
+          "Spiced Mushroom Tart 3",
+          "Bakery",
+          "12 slices",
+          "79",
+          "vegetarian",
+          "",
+          "2024-01-25"
+        ],
+        [
+          "RC-0228",
+          "Roasted Tomato Salad 3",
+          "Salads",
+          "2 servings",
+          "10",
+          "vegan",
+          "Finish with fresh herbs.",
+          "2024-02-05"
+        ],
+        [
+          "RC-0229",
+          "Crisp Squash Dip 3",
+          "Appetizers",
+          "4 servings",
+          "17",
+          "",
+          "Scale sauce separately for large batches.",
+          "2024-02-16"
+        ],
+        [
+          "RC-0230",
+          "Smoky Carrot Pasta 3",
+          "Mains",
+          "6 servings",
+          "24",
+          "",
+          "Chef review pending — do not infer dietary tags.",
+          "2024-02-27"
+        ],
+        [
+          "RC-0231",
+          "Toasted Tomato Soup 3",
+          "Soups",
+          "8 servings",
+          "31",
+          "vegetarian",
+          "Make one day ahead for best texture.",
+          "2024-03-09"
+        ],
+        [
+          "RC-0232",
+          "Golden Squash Cookies 3",
+          "Desserts",
+          "18 cookies",
+          "38",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2024-03-20"
+        ],
+        [
+          "RC-0233",
+          "Garden Carrot Bowl 3",
+          "Mains",
+          "4 servings",
+          "45",
+          "",
+          "Chill before portioning.",
+          "2024-03-31"
+        ],
+        [
+          "RC-0234",
+          "Creamy Lemon Stew 3",
+          "Mains",
+          "6 servings",
+          "52",
+          "gluten-free",
+          "Make one day ahead for best texture.",
+          "2024-04-11"
+        ],
+        [
+          "RC-0235",
+          "Bright Apple Tart 3",
+          "Bakery",
+          "12 slices",
+          "59",
+          "vegetarian",
+          "Hold garnish until service.",
+          "2024-04-22"
+        ],
+        [
+          "RC-0236",
+          "Slow-Cooked Coconut Salad 3",
+          "Salads",
+          "2 servings",
+          "66",
+          "vegan",
+          "Chill before portioning.",
+          "2024-05-03"
+        ],
+        [
+          "RC-0237",
+          "Herbed Lentil Dip 3",
+          "Appetizers",
+          "4 servings",
+          "73",
+          "",
+          "Pairs with the seasonal side.",
+          "2024-05-14"
+        ],
+        [
+          "RC-0238",
+          "Zesty Chickpea Tart 3",
+          "Bakery",
+          "10 slices",
+          "80",
+          "vegetarian",
+          "Best served warm.",
+          "2024-05-25"
+        ],
+        [
+          "RC-0239",
+          "Spiced Sesame Salad 3",
+          "Salads",
+          "8 servings",
+          "11",
+          "vegetarian",
+          "Use the shallow prep trays.",
+          "2024-06-05"
+        ],
+        [
+          "RC-0240",
+          "Roasted Mushroom Dip 3",
+          "Appetizers",
+          "2 servings",
+          "18",
+          "vegan",
+          "",
+          "2024-06-16"
+        ]
+      ]
+    },
+    {
+      "properties": {
+        "sheetId": 88120744,
+        "title": "Category Reference",
+        "index": 1,
+        "sheetType": "GRID",
+        "hidden": false,
+        "gridProperties": {
+          "rowCount": 7,
+          "columnCount": 3
+        }
+      },
+      "values": [
+        [
+          "Category",
+          "Station",
+          "Owner"
+        ],
+        [
+          "Appetizers",
+          "Garde Manger",
+          "A. Stone"
+        ],
+        [
+          "Bakery",
+          "Bake Shop",
+          "D. Vale"
+        ],
+        [
+          "Desserts",
+          "Pastry",
+          "M. Flores"
+        ],
+        [
+          "Mains",
+          "Hot Line",
+          "K. Reed"
+        ],
+        [
+          "Salads",
+          "Garde Manger",
+          "A. Stone"
+        ],
+        [
+          "Soups",
+          "Soup Station",
+          "J. Lin"
+        ]
+      ]
+    },
+    {
+      "properties": {
+        "sheetId": 904311257,
+        "title": "Archive 2023",
+        "index": 2,
+        "sheetType": "GRID",
+        "hidden": true,
+        "gridProperties": {
+          "rowCount": 37,
+          "columnCount": 8
+        }
+      },
+      "values": [
+        [
+          "Recipe Code",
+          "Recipe Name",
+          "Category",
+          "Yield",
+          "Prep Minutes",
+          "Dietary Tags",
+          "Chef Notes",
+          "Last Reviewed"
+        ],
+        [
+          "AR-0001",
+          "Retired Crisp Lemon Cookies",
+          "Desserts",
+          "18 cookies",
+          "17",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0002",
+          "Retired Smoky Apple Bowl",
+          "Mains",
+          "6 servings",
+          "24",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0003",
+          "Retired Toasted Coconut Stew",
+          "Mains",
+          "8 servings",
+          "31",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0004",
+          "Retired Golden Lentil Tart",
+          "Bakery",
+          "6 slices",
+          "38",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0005",
+          "Retired Garden Chickpea Salad",
+          "Salads",
+          "4 servings",
+          "45",
+          "",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0006",
+          "Retired Creamy Sesame Dip",
+          "Appetizers",
+          "6 servings",
+          "52",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0007",
+          "Retired Miso, Sesame Noodles",
+          "Mains",
+          "8 servings",
+          "59",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0008",
+          "Retired Slow-Cooked Tomato Soup",
+          "Soups",
+          "2 servings",
+          "66",
+          "vegan",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0009",
+          "Retired Herbed Squash Cookies",
+          "Desserts",
+          "12 cookies",
+          "73",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0010",
+          "Retired Zesty Carrot Bowl",
+          "Mains",
+          "6 servings",
+          "80",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0011",
+          "Retired Spiced Tomato Stew",
+          "Mains",
+          "8 servings",
+          "11",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0012",
+          "Retired Roasted Squash Tart",
+          "Bakery",
+          "6 slices",
+          "18",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0013",
+          "Retired Crisp Carrot Salad",
+          "Salads",
+          "4 servings",
+          "25",
+          "",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0014",
+          "Retired Smoky Lemon Dip",
+          "Appetizers",
+          "6 servings",
+          "32",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0015",
+          "Retired Toasted Apple Pasta",
+          "Mains",
+          "8 servings",
+          "39",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0016",
+          "Retired Golden Coconut Soup",
+          "Soups",
+          "2 servings",
+          "46",
+          "vegan",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0017",
+          "Retired Garden Lentil Dip",
+          "Appetizers",
+          "4 servings",
+          "53",
+          "",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0018",
+          "Retired Grandma's \"Sunday\" Ragù",
+          "Mains",
+          "6 servings",
+          "60",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0019",
+          "Retired Bright Sesame Soup",
+          "Soups",
+          "8 servings",
+          "67",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0020",
+          "Retired Slow-Cooked Mushroom Cookies",
+          "Desserts",
+          "24 cookies",
+          "74",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0021",
+          "Retired Herbed Tomato Bowl",
+          "Mains",
+          "4 servings",
+          "81",
+          "",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0022",
+          "Retired Zesty Sesame Stew",
+          "Mains",
+          "6 servings",
+          "12",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0023",
+          "Retired Spiced Mushroom Tart",
+          "Bakery",
+          "12 slices",
+          "19",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0024",
+          "Retired Roasted Tomato Salad",
+          "Salads",
+          "2 servings",
+          "26",
+          "vegan",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0025",
+          "Retired Crisp Squash Dip",
+          "Appetizers",
+          "4 servings",
+          "33",
+          "",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0026",
+          "Retired Smoky Carrot Pasta",
+          "Mains",
+          "6 servings",
+          "40",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0027",
+          "Retired Toasted Lemon Soup",
+          "Soups",
+          "8 servings",
+          "47",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0028",
+          "Retired Golden Apple Cookies",
+          "Desserts",
+          "18 cookies",
+          "54",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0029",
+          "Retired Crème brûlée à l’orange",
+          "Mains",
+          "4 servings",
+          "61",
+          "",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0030",
+          "Retired Creamy Lentil Stew",
+          "Mains",
+          "6 servings",
+          "68",
+          "gluten-free",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0031",
+          "Retired Bright Chickpea Tart",
+          "Bakery",
+          "12 slices",
+          "75",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0032",
+          "Retired Slow-Cooked Sesame Salad",
+          "Salads",
+          "2 servings",
+          "82",
+          "vegan",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0033",
+          "Retired Herbed Lentil Dip",
+          "Appetizers",
+          "4 servings",
+          "13",
+          "",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0034",
+          "Retired Zesty Chickpea Tart",
+          "Bakery",
+          "10 slices",
+          "20",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0035",
+          "Retired Spiced Sesame Salad",
+          "Salads",
+          "8 servings",
+          "27",
+          "vegetarian",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ],
+        [
+          "AR-0036",
+          "Retired Roasted Mushroom Dip",
+          "Appetizers",
+          "2 servings",
+          "34",
+          "vegan",
+          "Archived after the spring menu review.",
+          "2023-12-15"
+        ]
+      ]
+    }
+  ]
+}

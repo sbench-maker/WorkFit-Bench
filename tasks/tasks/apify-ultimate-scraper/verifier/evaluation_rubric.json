@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__qualified_scope",
+      "title": "Qualified lead scope",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The artifact contains exactly the locations that satisfy the campaign's geographic, category, rating, review, website, and business-email requirements after location-level deduplication.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_qualified_lead_scope"
+      ]
+    },
+    {
+      "id": "completion__business_fidelity",
+      "title": "Business field fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each delivered lead carries the requested CRM business fields and their values agree with the selected source listing.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_business_field_fidelity"
+      ]
+    },
+    {
+      "id": "completion__contact_dedup_integrity",
+      "title": "Contact and deduplication integrity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Delivered emails are usable website-domain contacts, duplicate location representations are collapsed using the brief's winner rule, and distinct branches sharing a domain remain separate.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_contact_and_dedup_integrity"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__qualified_scope",
+        "title": "Qualified lead scope",
+        "required_score": 10
+      },
+      {
+        "id": "completion__business_fidelity",
+        "title": "Business field fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__contact_dedup_integrity",
+        "title": "Contact and deduplication integrity",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

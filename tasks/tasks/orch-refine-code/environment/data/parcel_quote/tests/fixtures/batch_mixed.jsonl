@@ -1,0 +1,5 @@
+{"request_id":"CASE-0001","origin_zone":1,"destination_zone":3,"service":"ground","weight_grams":1,"declared_value_cents":0,"residential":true,"fragile":true,"coupon":null}
+{"request_id":"CASE-0003","origin_zone":3,"destination_zone":4,"service":"drone","weight_grams":500,"declared_value_cents":15838,"residential":false,"fragile":false,"coupon":"FLOOR300"}
+{"request_id":"CASE-0002","origin_zone":6,"destination_zone":6,"service":"priority","weight_grams":499,"declared_value_cents":7919,"residential":true,"fragile":false,"coupon":"SAVE15"}
+{not-json
+{"request_id":"CASE-0004","origin_zone":8,"destination_zone":4,"service":"ground","weight_grams":501,"declared_value_cents":23757,"residential":false,"fragile":false}

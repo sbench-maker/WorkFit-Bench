@@ -1,0 +1,44 @@
+{
+  "request_id": "CR-2026-09-09-01",
+  "received_on": "2026-09-09",
+  "decision": "Add a committed audit evidence export for the Orion enterprise renewal.",
+  "new_initiative": {
+    "initiative_id": "RM-033",
+    "name": "Audit evidence export",
+    "description": "Export signed admin, access, and retention events as a review-ready evidence bundle.",
+    "theme": "Trust",
+    "owner": "Elena Park",
+    "status": "Not Started",
+    "hard_deadline": "2026-11-20",
+    "moscow": "Must",
+    "reach_accounts_h2": 9,
+    "impact": 3.0,
+    "confidence": 1.0,
+    "effort_by_team": {
+      "Platform": 18,
+      "Web": 16,
+      "Data": 14,
+      "Design": 6
+    },
+    "dependencies": [
+      {
+        "name": "Audit schema v3",
+        "owner": "Victor Chen",
+        "ready_date": "2026-09-28",
+        "status": "ready"
+      },
+      {
+        "name": "Evidence wording approval",
+        "owner": "Elena Park",
+        "ready_date": "2026-10-02",
+        "status": "ready"
+      }
+    ]
+  },
+  "business_reason": "The Orion renewal worth 1.8M fictional annual contract units requires delivery before its 2026-11-20 audit window.",
+  "stakeholders_to_notify": [
+    "Orion account team",
+    "Identity program sponsors",
+    "Growth analytics sponsors"
+  ]
+}

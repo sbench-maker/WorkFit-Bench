@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__portfolio_scope_status",
+      "title": "Portfolio scope and status fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every frozen initiative plus the requested addition appears once in the updated roadmap with a source-traceable ID and a status consistent with the packet's frozen state.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_portfolio_scope_and_status"
+      ]
+    },
+    {
+      "id": "completion__planning_constraints",
+      "title": "Deadlines, dependencies, and capacity are feasible",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The updated horizon assignments place the audit export by its deadline, propagate the vendor slip through dependent work, preserve all hard deadlines, respect dependency order, and stay within every team/horizon capacity.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_deadlines_dependencies_and_capacity"
+      ]
+    },
+    {
+      "id": "completion__change_accounting",
+      "title": "Before/after change accounting",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The change record identifies the addition and every initiative whose updated horizon differs from the source, with its prior and new state aligned to the roadmap itself.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_before_after_change_accounting"
+      ]
+    },
+    {
+      "id": "completion__risk_actionability",
+      "title": "Risk and dependency communication is actionable",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The updated roadmap names material blocked and at-risk chains with their blockers, owners, timing, affected stakeholders, and a mitigation or checkpoint.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__portfolio_scope_status",
+        "title": "Portfolio scope and status fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__planning_constraints",
+        "title": "Deadlines, dependencies, and capacity are feasible",
+        "required_score": 10
+      },
+      {
+        "id": "completion__change_accounting",
+        "title": "Before/after change accounting",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_actionability",
+        "title": "Risk and dependency communication is actionable",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "repository": "NimbusPay API",
+  "exports": [
+    {
+      "snapshot": "baseline",
+      "scanner": "codeql",
+      "file": "baseline/codeql.sarif",
+      "repository_prefix": "/opt/runner/work/nimbus-api/nimbus-api/"
+    },
+    {
+      "snapshot": "baseline",
+      "scanner": "semgrep",
+      "file": "baseline/semgrep.sarif",
+      "repository_prefix": "file:///builds/security/nimbus-api/"
+    },
+    {
+      "snapshot": "current",
+      "scanner": "codeql",
+      "file": "current/codeql.sarif",
+      "repository_prefix": "file:///github/workspace/"
+    },
+    {
+      "snapshot": "current",
+      "scanner": "semgrep",
+      "file": "current/semgrep.sarif",
+      "repository_prefix": "C:\\ci\\nimbus-api\\"
+    }
+  ],
+  "comparison_policy": {
+    "identity_precedence": [
+      "partialFingerprints.primaryLocationLineHash/v1",
+      "fingerprints.matchBasedId/v1",
+      "ruleId + normalized repository path + startLine"
+    ],
+    "path_handling": "Resolve uriBaseId, URL-decode, normalize separators and dot segments, then remove the export's repository_prefix.",
+    "deduplication": "Within each snapshot, keep one finding per identity and retain the highest reported severity.",
+    "severity_order_high_to_low": [
+      "error",
+      "warning",
+      "note",
+      "none"
+    ],
+    "gate": "fail only when the deduplicated new set contains one or more error-level findings"
+  }
+}

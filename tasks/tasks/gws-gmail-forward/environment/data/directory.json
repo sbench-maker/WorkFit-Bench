@@ -1,0 +1,484 @@
+{
+  "contacts": [
+    {
+      "contact_id": "contact-001",
+      "display_name": "Aisha Rahman",
+      "email": "aisha.rahman@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-002",
+      "display_name": "Mina Chen",
+      "email": "mina.chen@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-003",
+      "display_name": "Devon Lee",
+      "email": "devon.lee@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-004",
+      "display_name": "Procurement Archive",
+      "email": "procurement-archive@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-005",
+      "display_name": "Lina Ortiz",
+      "email": "lina.ortiz@northstar-packaging.test",
+      "team": "Approved vendor",
+      "active": true,
+      "approved_internal_recipient": false
+    },
+    {
+      "contact_id": "contact-006",
+      "display_name": "Noor Patel",
+      "email": "noor.patel6@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-007",
+      "display_name": "Noor Reed",
+      "email": "noor.reed7@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-008",
+      "display_name": "Noor Kim",
+      "email": "noor.kim8@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-009",
+      "display_name": "Noor Santos",
+      "email": "noor.santos9@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-010",
+      "display_name": "Noor Bauer",
+      "email": "noor.bauer10@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-011",
+      "display_name": "Noor Ng",
+      "email": "noor.ng11@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-012",
+      "display_name": "Noor Mori",
+      "email": "noor.mori12@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-013",
+      "display_name": "Eli Patel",
+      "email": "eli.patel13@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-014",
+      "display_name": "Eli Reed",
+      "email": "eli.reed14@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-015",
+      "display_name": "Eli Kim",
+      "email": "eli.kim15@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-016",
+      "display_name": "Eli Santos",
+      "email": "eli.santos16@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-017",
+      "display_name": "Eli Bauer",
+      "email": "eli.bauer17@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-018",
+      "display_name": "Eli Ng",
+      "email": "eli.ng18@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-019",
+      "display_name": "Eli Mori",
+      "email": "eli.mori19@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-020",
+      "display_name": "Priya Patel",
+      "email": "priya.patel20@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-021",
+      "display_name": "Priya Reed",
+      "email": "priya.reed21@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-022",
+      "display_name": "Priya Kim",
+      "email": "priya.kim22@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-023",
+      "display_name": "Priya Santos",
+      "email": "priya.santos23@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-024",
+      "display_name": "Priya Bauer",
+      "email": "priya.bauer24@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-025",
+      "display_name": "Priya Ng",
+      "email": "priya.ng25@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-026",
+      "display_name": "Priya Mori",
+      "email": "priya.mori26@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-027",
+      "display_name": "Mateo Patel",
+      "email": "mateo.patel27@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-028",
+      "display_name": "Mateo Reed",
+      "email": "mateo.reed28@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-029",
+      "display_name": "Mateo Kim",
+      "email": "mateo.kim29@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-030",
+      "display_name": "Mateo Santos",
+      "email": "mateo.santos30@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-031",
+      "display_name": "Mateo Bauer",
+      "email": "mateo.bauer31@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-032",
+      "display_name": "Mateo Ng",
+      "email": "mateo.ng32@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-033",
+      "display_name": "Mateo Mori",
+      "email": "mateo.mori33@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-034",
+      "display_name": "Sora Patel",
+      "email": "sora.patel34@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-035",
+      "display_name": "Sora Reed",
+      "email": "sora.reed35@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-036",
+      "display_name": "Sora Kim",
+      "email": "sora.kim36@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-037",
+      "display_name": "Sora Santos",
+      "email": "sora.santos37@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-038",
+      "display_name": "Sora Bauer",
+      "email": "sora.bauer38@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-039",
+      "display_name": "Sora Ng",
+      "email": "sora.ng39@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-040",
+      "display_name": "Sora Mori",
+      "email": "sora.mori40@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-041",
+      "display_name": "Inez Patel",
+      "email": "inez.patel41@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-042",
+      "display_name": "Inez Reed",
+      "email": "inez.reed42@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-043",
+      "display_name": "Inez Kim",
+      "email": "inez.kim43@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-044",
+      "display_name": "Inez Santos",
+      "email": "inez.santos44@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-045",
+      "display_name": "Inez Bauer",
+      "email": "inez.bauer45@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-046",
+      "display_name": "Inez Ng",
+      "email": "inez.ng46@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-047",
+      "display_name": "Inez Mori",
+      "email": "inez.mori47@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-048",
+      "display_name": "Owen Patel",
+      "email": "owen.patel48@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-049",
+      "display_name": "Owen Reed",
+      "email": "owen.reed49@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-050",
+      "display_name": "Owen Kim",
+      "email": "owen.kim50@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-051",
+      "display_name": "Owen Santos",
+      "email": "owen.santos51@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-052",
+      "display_name": "Owen Bauer",
+      "email": "owen.bauer52@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-053",
+      "display_name": "Owen Ng",
+      "email": "owen.ng53@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-054",
+      "display_name": "Owen Mori",
+      "email": "owen.mori54@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-055",
+      "display_name": "Talia Patel",
+      "email": "talia.patel55@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-056",
+      "display_name": "Talia Reed",
+      "email": "talia.reed56@aster-ops.test",
+      "team": "Finance",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-057",
+      "display_name": "Talia Kim",
+      "email": "talia.kim57@aster-ops.test",
+      "team": "Procurement",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-058",
+      "display_name": "Talia Santos",
+      "email": "talia.santos58@aster-ops.test",
+      "team": "Logistics",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-059",
+      "display_name": "Talia Bauer",
+      "email": "talia.bauer59@aster-ops.test",
+      "team": "Brand",
+      "active": true,
+      "approved_internal_recipient": true
+    },
+    {
+      "contact_id": "contact-060",
+      "display_name": "Talia Ng",
+      "email": "talia.ng60@aster-ops.test",
+      "team": "Retail Operations",
+      "active": true,
+      "approved_internal_recipient": true
+    }
+  ]
+}

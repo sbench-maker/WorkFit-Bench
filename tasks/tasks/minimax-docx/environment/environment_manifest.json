@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3",
+    "dotnet",
+    "soffice",
+    "pandoc",
+    "zip",
+    "unzip"
+  ],
+  "command_version_contract": {
+    "bash": "Debian bookworm package version installed in python:3.12.11-slim-bookworm",
+    "python3": "3.12.11",
+    "dotnet": "8.0.408 SDK",
+    "soffice": "Debian bookworm libreoffice-writer build",
+    "pandoc": "Debian bookworm pandoc build",
+    "zip": "Debian bookworm zip build",
+    "unzip": "Debian bookworm unzip build"
+  },
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "python-docx",
+      "import_name": "docx",
+      "version": "1.2.0",
+      "used_by": [
+        "agent"
+      ]
+    },
+    {
+      "distribution": "lxml",
+      "import_name": "lxml",
+      "version": "5.4.0",
+      "used_by": [
+        "agent"
+      ]
+    }
+  ],
+  "dotnet_package_cache": [
+    {
+      "package": "DocumentFormat.OpenXml",
+      "version": "3.5.1"
+    },
+    {
+      "package": "System.CommandLine",
+      "version": "2.0.5"
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

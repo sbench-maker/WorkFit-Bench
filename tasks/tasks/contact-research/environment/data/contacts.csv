@@ -1,0 +1,241 @@
+contact_id,full_name,email,title,account_id,company,linkedin_handle,x_handle,github_handle,crm_contact_ref,relationship_status
+C-0001,Harper Kowalski,harper.kowalski.1@junipermetric.example,Engineering Manager,A-001,Juniper Metric,harper-kowalski-1,,,CRM-C-0001,Known
+C-0002,Riley Ellis,riley.ellis.2@cinderworks.example,Security Architect,A-002,Cinder Works,riley-ellis-2,,,CRM-C-0002,Engaged
+C-0003,Emery Nguyen,emery.nguyen.3@astercloud.example,VP of Engineering,A-003,Aster Cloud,emery-nguyen-3,,,CRM-C-0003,Dormant
+C-0004,Morgan Garcia,morgan.garcia.4@harborline.example,Developer Advocate,A-004,Harborline,morgan-garcia-4,@morgangarcia4,,CRM-C-0004,New
+C-0005,Casey Singh,casey.singh.5@mosaicforge.example,IT Director,A-005,Mosaic Forge,casey-singh-5,,caseysingh-5,CRM-C-0005,Known
+C-0006,Jordan Ibrahim,jordan.ibrahim.6@latticeharbor.example,Product Manager,A-006,Lattice Harbor,jordan-ibrahim-6,,,CRM-C-0006,Engaged
+C-0007,Rina Patel,rina.patel@northstargrid.example,VP of Security,A-007,Northstar Grid,rina-patel,@rinapatel,,CRM-C-0007,Known
+C-0008,Finley Lopez,finley.lopez.8@copperpeak.example,Platform Engineer,A-008,Copper Peak,finley-lopez-8,@finleylopez8,,CRM-C-0008,New
+C-0009,Quinn Foster,quinn.foster.9@quarrylabs.example,Engineering Manager,A-009,Quarry Labs,quinn-foster-9,,,CRM-C-0009,Known
+C-0010,Drew Okafor,drew.okafor.10@sablesystems.example,Security Architect,A-010,Sable Systems,drew-okafor-10,,drewokafor-10,CRM-C-0010,Engaged
+C-0011,Kai Hart,kai.hart.11@orbitfoundry.example,VP of Engineering,A-011,Orbit Foundry,kai-hart-11,,,CRM-C-0011,Dormant
+C-0012,Avery Bennett,avery.bennett.12@maplecircuit.example,Developer Advocate,A-012,Maple Circuit,avery-bennett-12,@averybennett12,,CRM-C-0012,New
+C-0013,Harper Kowalski,harper.kowalski.13@summitledger.example,IT Director,A-013,Summit Ledger,harper-kowalski-13,,,CRM-C-0013,Known
+C-0014,Riley Ellis,riley.ellis.14@bluemeridian.example,Product Manager,A-014,Blue Meridian,riley-ellis-14,,,CRM-C-0014,Engaged
+C-0015,Emery Nguyen,emery.nguyen.15@pinesignal.example,Customer Success Director,A-015,Pine Signal,emery-nguyen-15,,emerynguyen-15,CRM-C-0015,Dormant
+C-0016,Morgan Garcia,morgan.garcia.16@cobaltthread.example,Platform Engineer,A-016,Cobalt Thread,morgan-garcia-16,@morgangarcia16,,CRM-C-0016,New
+C-0017,Casey Singh,casey.singh.17@driftline.example,Engineering Manager,A-017,Driftline,casey-singh-17,,,CRM-C-0017,Known
+C-0018,Jordan Ibrahim,jordan.ibrahim.18@elmrobotics.example,Security Architect,A-018,Elm Robotics,jordan-ibrahim-18,,,CRM-C-0018,Engaged
+C-0019,Sasha Duarte,sasha.duarte.19@fablestack.example,VP of Engineering,A-019,Fable Stack,sasha-duarte-19,,,CRM-C-0019,Dormant
+C-0020,Finley Lopez,finley.lopez.20@graniteloop.example,Developer Advocate,A-020,Granite Loop,finley-lopez-20,@finleylopez20,finleylopez-20,CRM-C-0020,New
+C-0021,Quinn Foster,quinn.foster.21@helixharbor.example,IT Director,A-021,Helix Harbor,quinn-foster-21,,,CRM-C-0021,Known
+C-0022,Drew Okafor,drew.okafor.22@ivoryrelay.example,Product Manager,A-022,Ivory Relay,drew-okafor-22,,,CRM-C-0022,Engaged
+C-0023,Kai Hart,kai.hart.23@kiteframe.example,Customer Success Director,A-023,Kiteframe,kai-hart-23,,,CRM-C-0023,Dormant
+C-0024,Avery Bennett,avery.bennett.24@lucentfield.example,Platform Engineer,A-024,Lucent Field,avery-bennett-24,@averybennett24,,CRM-C-0024,New
+C-0025,Harper Kowalski,harper.kowalski.25@nimblecurrent.example,Engineering Manager,A-025,Nimble Current,harper-kowalski-25,,harperkowalski-25,CRM-C-0025,Known
+C-0026,Riley Ellis,riley.ellis.26@opalnetwork.example,Security Architect,A-026,Opal Network,riley-ellis-26,,,CRM-C-0026,Engaged
+C-0027,Emery Nguyen,emery.nguyen.27@prairielogic.example,VP of Engineering,A-027,Prairie Logic,emery-nguyen-27,,,CRM-C-0027,Dormant
+C-0028,Morgan Garcia,morgan.garcia.28@quartzrun.example,Developer Advocate,A-028,Quartz Run,morgan-garcia-28,@morgangarcia28,,CRM-C-0028,New
+C-0029,Casey Singh,casey.singh.29@riverglass.example,IT Director,A-029,Riverglass,casey-singh-29,,,CRM-C-0029,Known
+C-0030,Jordan Ibrahim,jordan.ibrahim.30@tandemarc.example,Product Manager,A-030,Tandem Arc,jordan-ibrahim-30,,jordanibrahim-30,CRM-C-0030,Engaged
+C-0031,Sasha Duarte,sasha.duarte.31@junipermetric.example,Customer Success Director,A-001,Juniper Metric,sasha-duarte-31,,,CRM-C-0031,Dormant
+C-0032,Finley Lopez,finley.lopez.32@cinderworks.example,Platform Engineer,A-002,Cinder Works,finley-lopez-32,@finleylopez32,,CRM-C-0032,New
+C-0033,Quinn Foster,quinn.foster.33@astercloud.example,Engineering Manager,A-003,Aster Cloud,quinn-foster-33,,,CRM-C-0033,Known
+C-0034,Drew Okafor,drew.okafor.34@harborline.example,Security Architect,A-004,Harborline,drew-okafor-34,,,CRM-C-0034,Engaged
+C-0035,Kai Hart,kai.hart.35@mosaicforge.example,VP of Engineering,A-005,Mosaic Forge,kai-hart-35,,kaihart-35,CRM-C-0035,Dormant
+C-0036,Avery Bennett,avery.bennett.36@latticeharbor.example,Developer Advocate,A-006,Lattice Harbor,avery-bennett-36,@averybennett36,,CRM-C-0036,New
+C-0037,Theo Barnes,theo.barnes@northstargrid.example,Enterprise Architect,A-007,Northstar Grid,theo-barnes,,theobarnes,CRM-C-0037,Known
+C-0038,Riley Ellis,riley.ellis.38@copperpeak.example,Product Manager,A-008,Copper Peak,riley-ellis-38,,,CRM-C-0038,Engaged
+C-0039,Emery Nguyen,emery.nguyen.39@quarrylabs.example,Customer Success Director,A-009,Quarry Labs,emery-nguyen-39,,,CRM-C-0039,Dormant
+C-0040,Morgan Garcia,morgan.garcia.40@sablesystems.example,Platform Engineer,A-010,Sable Systems,morgan-garcia-40,@morgangarcia40,morgangarcia-40,CRM-C-0040,New
+C-0041,Casey Singh,casey.singh.41@orbitfoundry.example,Engineering Manager,A-011,Orbit Foundry,casey-singh-41,,,CRM-C-0041,Known
+C-0042,Jordan Ibrahim,jordan.ibrahim.42@maplecircuit.example,Security Architect,A-012,Maple Circuit,jordan-ibrahim-42,,,CRM-C-0042,Engaged
+C-0043,Maya Chen,maya.chen@northstargrid.example,Director of Platform Engineering,A-007,Northstar Grid,maya-chen-ng,@mayacodes,maya-chen,CRM-C-0043,Engaged
+C-0044,Finley Lopez,finley.lopez.44@bluemeridian.example,Developer Advocate,A-014,Blue Meridian,finley-lopez-44,@finleylopez44,,CRM-C-0044,New
+C-0045,Quinn Foster,quinn.foster.45@pinesignal.example,IT Director,A-015,Pine Signal,quinn-foster-45,,quinnfoster-45,CRM-C-0045,Known
+C-0046,Drew Okafor,drew.okafor.46@cobaltthread.example,Product Manager,A-016,Cobalt Thread,drew-okafor-46,,,CRM-C-0046,Engaged
+C-0047,Kai Hart,kai.hart.47@driftline.example,Customer Success Director,A-017,Driftline,kai-hart-47,,,CRM-C-0047,Dormant
+C-0048,Avery Bennett,avery.bennett.48@elmrobotics.example,Platform Engineer,A-018,Elm Robotics,avery-bennett-48,@averybennett48,,CRM-C-0048,New
+C-0049,Harper Kowalski,harper.kowalski.49@fablestack.example,Engineering Manager,A-019,Fable Stack,harper-kowalski-49,,,CRM-C-0049,Known
+C-0050,Riley Ellis,riley.ellis.50@graniteloop.example,Security Architect,A-020,Granite Loop,riley-ellis-50,,rileyellis-50,CRM-C-0050,Engaged
+C-0051,Emery Nguyen,emery.nguyen.51@helixharbor.example,VP of Engineering,A-021,Helix Harbor,emery-nguyen-51,,,CRM-C-0051,Dormant
+C-0052,Morgan Garcia,morgan.garcia.52@ivoryrelay.example,Developer Advocate,A-022,Ivory Relay,morgan-garcia-52,@morgangarcia52,,CRM-C-0052,New
+C-0053,Casey Singh,casey.singh.53@kiteframe.example,IT Director,A-023,Kiteframe,casey-singh-53,,,CRM-C-0053,Known
+C-0054,Jordan Ibrahim,jordan.ibrahim.54@lucentfield.example,Product Manager,A-024,Lucent Field,jordan-ibrahim-54,,,CRM-C-0054,Engaged
+C-0055,Sasha Duarte,sasha.duarte.55@nimblecurrent.example,Customer Success Director,A-025,Nimble Current,sasha-duarte-55,,sashaduarte-55,CRM-C-0055,Dormant
+C-0056,Finley Lopez,finley.lopez.56@opalnetwork.example,Platform Engineer,A-026,Opal Network,finley-lopez-56,@finleylopez56,,CRM-C-0056,New
+C-0057,Quinn Foster,quinn.foster.57@prairielogic.example,Engineering Manager,A-027,Prairie Logic,quinn-foster-57,,,CRM-C-0057,Known
+C-0058,Drew Okafor,drew.okafor.58@quartzrun.example,Security Architect,A-028,Quartz Run,drew-okafor-58,,,CRM-C-0058,Engaged
+C-0059,Kai Hart,kai.hart.59@riverglass.example,VP of Engineering,A-029,Riverglass,kai-hart-59,,,CRM-C-0059,Dormant
+C-0060,Avery Bennett,avery.bennett.60@tandemarc.example,Developer Advocate,A-030,Tandem Arc,avery-bennett-60,@averybennett60,averybennett-60,CRM-C-0060,New
+C-0061,Harper Kowalski,harper.kowalski.61@junipermetric.example,IT Director,A-001,Juniper Metric,harper-kowalski-61,,,CRM-C-0061,Known
+C-0062,Riley Ellis,riley.ellis.62@cinderworks.example,Product Manager,A-002,Cinder Works,riley-ellis-62,,,CRM-C-0062,Engaged
+C-0063,Emery Nguyen,emery.nguyen.63@astercloud.example,Customer Success Director,A-003,Aster Cloud,emery-nguyen-63,,,CRM-C-0063,Dormant
+C-0064,Morgan Garcia,morgan.garcia.64@harborline.example,Platform Engineer,A-004,Harborline,morgan-garcia-64,@morgangarcia64,,CRM-C-0064,New
+C-0065,Casey Singh,casey.singh.65@mosaicforge.example,Engineering Manager,A-005,Mosaic Forge,casey-singh-65,,caseysingh-65,CRM-C-0065,Known
+C-0066,Jordan Ibrahim,jordan.ibrahim.66@latticeharbor.example,Security Architect,A-006,Lattice Harbor,jordan-ibrahim-66,,,CRM-C-0066,Engaged
+C-0067,Luca Owens,luca.owens@northstargrid.example,Procurement Manager,A-007,Northstar Grid,luca-owens,,,CRM-C-0067,Known
+C-0068,Finley Lopez,finley.lopez.68@copperpeak.example,Developer Advocate,A-008,Copper Peak,finley-lopez-68,@finleylopez68,,CRM-C-0068,New
+C-0069,Quinn Foster,quinn.foster.69@quarrylabs.example,IT Director,A-009,Quarry Labs,quinn-foster-69,,,CRM-C-0069,Known
+C-0070,Drew Okafor,drew.okafor.70@sablesystems.example,Product Manager,A-010,Sable Systems,drew-okafor-70,,drewokafor-70,CRM-C-0070,Engaged
+C-0071,Kai Hart,kai.hart.71@orbitfoundry.example,Customer Success Director,A-011,Orbit Foundry,kai-hart-71,,,CRM-C-0071,Dormant
+C-0072,Avery Bennett,avery.bennett.72@maplecircuit.example,Platform Engineer,A-012,Maple Circuit,avery-bennett-72,@averybennett72,,CRM-C-0072,New
+C-0073,Harper Kowalski,harper.kowalski.73@summitledger.example,Engineering Manager,A-013,Summit Ledger,harper-kowalski-73,,,CRM-C-0073,Known
+C-0074,Riley Ellis,riley.ellis.74@bluemeridian.example,Security Architect,A-014,Blue Meridian,riley-ellis-74,,,CRM-C-0074,Engaged
+C-0075,Emery Nguyen,emery.nguyen.75@pinesignal.example,VP of Engineering,A-015,Pine Signal,emery-nguyen-75,,emerynguyen-75,CRM-C-0075,Dormant
+C-0076,Morgan Garcia,morgan.garcia.76@cobaltthread.example,Developer Advocate,A-016,Cobalt Thread,morgan-garcia-76,@morgangarcia76,,CRM-C-0076,New
+C-0077,Casey Singh,casey.singh.77@driftline.example,IT Director,A-017,Driftline,casey-singh-77,,,CRM-C-0077,Known
+C-0078,Jordan Ibrahim,jordan.ibrahim.78@elmrobotics.example,Product Manager,A-018,Elm Robotics,jordan-ibrahim-78,,,CRM-C-0078,Engaged
+C-0079,Sasha Duarte,sasha.duarte.79@fablestack.example,Customer Success Director,A-019,Fable Stack,sasha-duarte-79,,,CRM-C-0079,Dormant
+C-0080,Finley Lopez,finley.lopez.80@graniteloop.example,Platform Engineer,A-020,Granite Loop,finley-lopez-80,@finleylopez80,finleylopez-80,CRM-C-0080,New
+C-0081,Quinn Foster,quinn.foster.81@helixharbor.example,Engineering Manager,A-021,Helix Harbor,quinn-foster-81,,,CRM-C-0081,Known
+C-0082,Drew Okafor,drew.okafor.82@ivoryrelay.example,Security Architect,A-022,Ivory Relay,drew-okafor-82,,,CRM-C-0082,Engaged
+C-0083,Kai Hart,kai.hart.83@kiteframe.example,VP of Engineering,A-023,Kiteframe,kai-hart-83,,,CRM-C-0083,Dormant
+C-0084,Avery Bennett,avery.bennett.84@lucentfield.example,Developer Advocate,A-024,Lucent Field,avery-bennett-84,@averybennett84,,CRM-C-0084,New
+C-0085,Harper Kowalski,harper.kowalski.85@nimblecurrent.example,IT Director,A-025,Nimble Current,harper-kowalski-85,,harperkowalski-85,CRM-C-0085,Known
+C-0086,Riley Ellis,riley.ellis.86@opalnetwork.example,Product Manager,A-026,Opal Network,riley-ellis-86,,,CRM-C-0086,Engaged
+C-0087,Emery Nguyen,emery.nguyen.87@prairielogic.example,Customer Success Director,A-027,Prairie Logic,emery-nguyen-87,,,CRM-C-0087,Dormant
+C-0088,Morgan Garcia,morgan.garcia.88@quartzrun.example,Platform Engineer,A-028,Quartz Run,morgan-garcia-88,@morgangarcia88,,CRM-C-0088,New
+C-0089,Casey Singh,casey.singh.89@riverglass.example,Engineering Manager,A-029,Riverglass,casey-singh-89,,,CRM-C-0089,Known
+C-0090,Jordan Ibrahim,jordan.ibrahim.90@tandemarc.example,Security Architect,A-030,Tandem Arc,jordan-ibrahim-90,,jordanibrahim-90,CRM-C-0090,Engaged
+C-0091,Sasha Duarte,sasha.duarte.91@junipermetric.example,VP of Engineering,A-001,Juniper Metric,sasha-duarte-91,,,CRM-C-0091,Dormant
+C-0092,Finley Lopez,finley.lopez.92@cinderworks.example,Developer Advocate,A-002,Cinder Works,finley-lopez-92,@finleylopez92,,CRM-C-0092,New
+C-0093,Quinn Foster,quinn.foster.93@astercloud.example,IT Director,A-003,Aster Cloud,quinn-foster-93,,,CRM-C-0093,Known
+C-0094,Drew Okafor,drew.okafor.94@harborline.example,Product Manager,A-004,Harborline,drew-okafor-94,,,CRM-C-0094,Engaged
+C-0095,Kai Hart,kai.hart.95@mosaicforge.example,Customer Success Director,A-005,Mosaic Forge,kai-hart-95,,kaihart-95,CRM-C-0095,Dormant
+C-0096,Avery Bennett,avery.bennett.96@latticeharbor.example,Platform Engineer,A-006,Lattice Harbor,avery-bennett-96,@averybennett96,,CRM-C-0096,New
+C-0097,Harper Kowalski,harper.kowalski.97@northstargrid.example,Engineering Manager,A-007,Northstar Grid,harper-kowalski-97,,,CRM-C-0097,Known
+C-0098,Riley Ellis,riley.ellis.98@copperpeak.example,Security Architect,A-008,Copper Peak,riley-ellis-98,,,CRM-C-0098,Engaged
+C-0099,Emery Nguyen,emery.nguyen.99@quarrylabs.example,VP of Engineering,A-009,Quarry Labs,emery-nguyen-99,,,CRM-C-0099,Dormant
+C-0100,Morgan Garcia,morgan.garcia.100@sablesystems.example,Developer Advocate,A-010,Sable Systems,morgan-garcia-100,@morgangarcia100,morgangarcia-100,CRM-C-0100,New
+C-0101,Maya Chen,maya.chen@astercloud.example,Data Platform Manager,A-003,Aster Cloud,maya-chen-ac,,,CRM-C-0101,New
+C-0102,Jordan Ibrahim,jordan.ibrahim.102@maplecircuit.example,Product Manager,A-012,Maple Circuit,jordan-ibrahim-102,,,CRM-C-0102,Engaged
+C-0103,Sasha Duarte,sasha.duarte.103@summitledger.example,Customer Success Director,A-013,Summit Ledger,sasha-duarte-103,,,CRM-C-0103,Dormant
+C-0104,Finley Lopez,finley.lopez.104@bluemeridian.example,Platform Engineer,A-014,Blue Meridian,finley-lopez-104,@finleylopez104,,CRM-C-0104,New
+C-0105,Quinn Foster,quinn.foster.105@pinesignal.example,Engineering Manager,A-015,Pine Signal,quinn-foster-105,,quinnfoster-105,CRM-C-0105,Known
+C-0106,Drew Okafor,drew.okafor.106@cobaltthread.example,Security Architect,A-016,Cobalt Thread,drew-okafor-106,,,CRM-C-0106,Engaged
+C-0107,Kai Hart,kai.hart.107@driftline.example,VP of Engineering,A-017,Driftline,kai-hart-107,,,CRM-C-0107,Dormant
+C-0108,Avery Bennett,avery.bennett.108@elmrobotics.example,Developer Advocate,A-018,Elm Robotics,avery-bennett-108,@averybennett108,,CRM-C-0108,New
+C-0109,Harper Kowalski,harper.kowalski.109@fablestack.example,IT Director,A-019,Fable Stack,harper-kowalski-109,,,CRM-C-0109,Known
+C-0110,Riley Ellis,riley.ellis.110@graniteloop.example,Product Manager,A-020,Granite Loop,riley-ellis-110,,rileyellis-110,CRM-C-0110,Engaged
+C-0111,Emery Nguyen,emery.nguyen.111@helixharbor.example,Customer Success Director,A-021,Helix Harbor,emery-nguyen-111,,,CRM-C-0111,Dormant
+C-0112,Morgan Garcia,morgan.garcia.112@ivoryrelay.example,Platform Engineer,A-022,Ivory Relay,morgan-garcia-112,@morgangarcia112,,CRM-C-0112,New
+C-0113,Casey Singh,casey.singh.113@kiteframe.example,Engineering Manager,A-023,Kiteframe,casey-singh-113,,,CRM-C-0113,Known
+C-0114,Jordan Ibrahim,jordan.ibrahim.114@lucentfield.example,Security Architect,A-024,Lucent Field,jordan-ibrahim-114,,,CRM-C-0114,Engaged
+C-0115,Sasha Duarte,sasha.duarte.115@nimblecurrent.example,VP of Engineering,A-025,Nimble Current,sasha-duarte-115,,sashaduarte-115,CRM-C-0115,Dormant
+C-0116,Finley Lopez,finley.lopez.116@opalnetwork.example,Developer Advocate,A-026,Opal Network,finley-lopez-116,@finleylopez116,,CRM-C-0116,New
+C-0117,Quinn Foster,quinn.foster.117@prairielogic.example,IT Director,A-027,Prairie Logic,quinn-foster-117,,,CRM-C-0117,Known
+C-0118,Drew Okafor,drew.okafor.118@quartzrun.example,Product Manager,A-028,Quartz Run,drew-okafor-118,,,CRM-C-0118,Engaged
+C-0119,Kai Hart,kai.hart.119@riverglass.example,Customer Success Director,A-029,Riverglass,kai-hart-119,,,CRM-C-0119,Dormant
+C-0120,Avery Bennett,avery.bennett.120@tandemarc.example,Platform Engineer,A-030,Tandem Arc,avery-bennett-120,@averybennett120,averybennett-120,CRM-C-0120,New
+C-0121,Harper Kowalski,harper.kowalski.121@junipermetric.example,Engineering Manager,A-001,Juniper Metric,harper-kowalski-121,,,CRM-C-0121,Known
+C-0122,Riley Ellis,riley.ellis.122@cinderworks.example,Security Architect,A-002,Cinder Works,riley-ellis-122,,,CRM-C-0122,Engaged
+C-0123,Emery Nguyen,emery.nguyen.123@astercloud.example,VP of Engineering,A-003,Aster Cloud,emery-nguyen-123,,,CRM-C-0123,Dormant
+C-0124,Morgan Garcia,morgan.garcia.124@harborline.example,Developer Advocate,A-004,Harborline,morgan-garcia-124,@morgangarcia124,,CRM-C-0124,New
+C-0125,Casey Singh,casey.singh.125@mosaicforge.example,IT Director,A-005,Mosaic Forge,casey-singh-125,,caseysingh-125,CRM-C-0125,Known
+C-0126,Jordan Ibrahim,jordan.ibrahim.126@latticeharbor.example,Product Manager,A-006,Lattice Harbor,jordan-ibrahim-126,,,CRM-C-0126,Engaged
+C-0127,Sasha Duarte,sasha.duarte.127@northstargrid.example,Customer Success Director,A-007,Northstar Grid,sasha-duarte-127,,,CRM-C-0127,Dormant
+C-0128,Finley Lopez,finley.lopez.128@copperpeak.example,Platform Engineer,A-008,Copper Peak,finley-lopez-128,@finleylopez128,,CRM-C-0128,New
+C-0129,Quinn Foster,quinn.foster.129@quarrylabs.example,Engineering Manager,A-009,Quarry Labs,quinn-foster-129,,,CRM-C-0129,Known
+C-0130,Drew Okafor,drew.okafor.130@sablesystems.example,Security Architect,A-010,Sable Systems,drew-okafor-130,,drewokafor-130,CRM-C-0130,Engaged
+C-0131,Kai Hart,kai.hart.131@orbitfoundry.example,VP of Engineering,A-011,Orbit Foundry,kai-hart-131,,,CRM-C-0131,Dormant
+C-0132,Avery Bennett,avery.bennett.132@maplecircuit.example,Developer Advocate,A-012,Maple Circuit,avery-bennett-132,@averybennett132,,CRM-C-0132,New
+C-0133,Harper Kowalski,harper.kowalski.133@summitledger.example,IT Director,A-013,Summit Ledger,harper-kowalski-133,,,CRM-C-0133,Known
+C-0134,Riley Ellis,riley.ellis.134@bluemeridian.example,Product Manager,A-014,Blue Meridian,riley-ellis-134,,,CRM-C-0134,Engaged
+C-0135,Emery Nguyen,emery.nguyen.135@pinesignal.example,Customer Success Director,A-015,Pine Signal,emery-nguyen-135,,emerynguyen-135,CRM-C-0135,Dormant
+C-0136,Morgan Garcia,morgan.garcia.136@cobaltthread.example,Platform Engineer,A-016,Cobalt Thread,morgan-garcia-136,@morgangarcia136,,CRM-C-0136,New
+C-0137,Casey Singh,casey.singh.137@driftline.example,Engineering Manager,A-017,Driftline,casey-singh-137,,,CRM-C-0137,Known
+C-0138,Jordan Ibrahim,jordan.ibrahim.138@elmrobotics.example,Security Architect,A-018,Elm Robotics,jordan-ibrahim-138,,,CRM-C-0138,Engaged
+C-0139,Sasha Duarte,sasha.duarte.139@fablestack.example,VP of Engineering,A-019,Fable Stack,sasha-duarte-139,,,CRM-C-0139,Dormant
+C-0140,Finley Lopez,finley.lopez.140@graniteloop.example,Developer Advocate,A-020,Granite Loop,finley-lopez-140,@finleylopez140,finleylopez-140,CRM-C-0140,New
+C-0141,Quinn Foster,quinn.foster.141@helixharbor.example,IT Director,A-021,Helix Harbor,quinn-foster-141,,,CRM-C-0141,Known
+C-0142,Drew Okafor,drew.okafor.142@ivoryrelay.example,Product Manager,A-022,Ivory Relay,drew-okafor-142,,,CRM-C-0142,Engaged
+C-0143,Kai Hart,kai.hart.143@kiteframe.example,Customer Success Director,A-023,Kiteframe,kai-hart-143,,,CRM-C-0143,Dormant
+C-0144,Avery Bennett,avery.bennett.144@lucentfield.example,Platform Engineer,A-024,Lucent Field,avery-bennett-144,@averybennett144,,CRM-C-0144,New
+C-0145,Harper Kowalski,harper.kowalski.145@nimblecurrent.example,Engineering Manager,A-025,Nimble Current,harper-kowalski-145,,harperkowalski-145,CRM-C-0145,Known
+C-0146,Riley Ellis,riley.ellis.146@opalnetwork.example,Security Architect,A-026,Opal Network,riley-ellis-146,,,CRM-C-0146,Engaged
+C-0147,Emery Nguyen,emery.nguyen.147@prairielogic.example,VP of Engineering,A-027,Prairie Logic,emery-nguyen-147,,,CRM-C-0147,Dormant
+C-0148,Morgan Garcia,morgan.garcia.148@quartzrun.example,Developer Advocate,A-028,Quartz Run,morgan-garcia-148,@morgangarcia148,,CRM-C-0148,New
+C-0149,Casey Singh,casey.singh.149@riverglass.example,IT Director,A-029,Riverglass,casey-singh-149,,,CRM-C-0149,Known
+C-0150,Jordan Ibrahim,jordan.ibrahim.150@tandemarc.example,Product Manager,A-030,Tandem Arc,jordan-ibrahim-150,,jordanibrahim-150,CRM-C-0150,Engaged
+C-0151,Sasha Duarte,sasha.duarte.151@junipermetric.example,Customer Success Director,A-001,Juniper Metric,sasha-duarte-151,,,CRM-C-0151,Dormant
+C-0152,Finley Lopez,finley.lopez.152@cinderworks.example,Platform Engineer,A-002,Cinder Works,finley-lopez-152,@finleylopez152,,CRM-C-0152,New
+C-0153,Quinn Foster,quinn.foster.153@astercloud.example,Engineering Manager,A-003,Aster Cloud,quinn-foster-153,,,CRM-C-0153,Known
+C-0154,Drew Okafor,drew.okafor.154@harborline.example,Security Architect,A-004,Harborline,drew-okafor-154,,,CRM-C-0154,Engaged
+C-0155,Kai Hart,kai.hart.155@mosaicforge.example,VP of Engineering,A-005,Mosaic Forge,kai-hart-155,,kaihart-155,CRM-C-0155,Dormant
+C-0156,Avery Bennett,avery.bennett.156@latticeharbor.example,Developer Advocate,A-006,Lattice Harbor,avery-bennett-156,@averybennett156,,CRM-C-0156,New
+C-0157,Harper Kowalski,harper.kowalski.157@northstargrid.example,IT Director,A-007,Northstar Grid,harper-kowalski-157,,,CRM-C-0157,Known
+C-0158,Riley Ellis,riley.ellis.158@copperpeak.example,Product Manager,A-008,Copper Peak,riley-ellis-158,,,CRM-C-0158,Engaged
+C-0159,Emery Nguyen,emery.nguyen.159@quarrylabs.example,Customer Success Director,A-009,Quarry Labs,emery-nguyen-159,,,CRM-C-0159,Dormant
+C-0160,Morgan Garcia,morgan.garcia.160@sablesystems.example,Platform Engineer,A-010,Sable Systems,morgan-garcia-160,@morgangarcia160,morgangarcia-160,CRM-C-0160,New
+C-0161,Casey Singh,casey.singh.161@orbitfoundry.example,Engineering Manager,A-011,Orbit Foundry,casey-singh-161,,,CRM-C-0161,Known
+C-0162,Jordan Ibrahim,jordan.ibrahim.162@maplecircuit.example,Security Architect,A-012,Maple Circuit,jordan-ibrahim-162,,,CRM-C-0162,Engaged
+C-0163,Sasha Duarte,sasha.duarte.163@summitledger.example,VP of Engineering,A-013,Summit Ledger,sasha-duarte-163,,,CRM-C-0163,Dormant
+C-0164,Finley Lopez,finley.lopez.164@bluemeridian.example,Developer Advocate,A-014,Blue Meridian,finley-lopez-164,@finleylopez164,,CRM-C-0164,New
+C-0165,Quinn Foster,quinn.foster.165@pinesignal.example,IT Director,A-015,Pine Signal,quinn-foster-165,,quinnfoster-165,CRM-C-0165,Known
+C-0166,Drew Okafor,drew.okafor.166@cobaltthread.example,Product Manager,A-016,Cobalt Thread,drew-okafor-166,,,CRM-C-0166,Engaged
+C-0167,Kai Hart,kai.hart.167@driftline.example,Customer Success Director,A-017,Driftline,kai-hart-167,,,CRM-C-0167,Dormant
+C-0168,Avery Bennett,avery.bennett.168@elmrobotics.example,Platform Engineer,A-018,Elm Robotics,avery-bennett-168,@averybennett168,,CRM-C-0168,New
+C-0169,Harper Kowalski,harper.kowalski.169@fablestack.example,Engineering Manager,A-019,Fable Stack,harper-kowalski-169,,,CRM-C-0169,Known
+C-0170,Riley Ellis,riley.ellis.170@graniteloop.example,Security Architect,A-020,Granite Loop,riley-ellis-170,,rileyellis-170,CRM-C-0170,Engaged
+C-0171,Emery Nguyen,emery.nguyen.171@helixharbor.example,VP of Engineering,A-021,Helix Harbor,emery-nguyen-171,,,CRM-C-0171,Dormant
+C-0172,Morgan Garcia,morgan.garcia.172@ivoryrelay.example,Developer Advocate,A-022,Ivory Relay,morgan-garcia-172,@morgangarcia172,,CRM-C-0172,New
+C-0173,Casey Singh,casey.singh.173@kiteframe.example,IT Director,A-023,Kiteframe,casey-singh-173,,,CRM-C-0173,Known
+C-0174,Maya Chen,maya.chen@bluemeridian.example,Engineering Manager,A-014,Blue Meridian,maya-chen-bm,@mayacbuilds,,CRM-C-0174,Dormant
+C-0175,Sasha Duarte,sasha.duarte.175@nimblecurrent.example,Customer Success Director,A-025,Nimble Current,sasha-duarte-175,,sashaduarte-175,CRM-C-0175,Dormant
+C-0176,Finley Lopez,finley.lopez.176@opalnetwork.example,Platform Engineer,A-026,Opal Network,finley-lopez-176,@finleylopez176,,CRM-C-0176,New
+C-0177,Quinn Foster,quinn.foster.177@prairielogic.example,Engineering Manager,A-027,Prairie Logic,quinn-foster-177,,,CRM-C-0177,Known
+C-0178,Drew Okafor,drew.okafor.178@quartzrun.example,Security Architect,A-028,Quartz Run,drew-okafor-178,,,CRM-C-0178,Engaged
+C-0179,Kai Hart,kai.hart.179@riverglass.example,VP of Engineering,A-029,Riverglass,kai-hart-179,,,CRM-C-0179,Dormant
+C-0180,Avery Bennett,avery.bennett.180@tandemarc.example,Developer Advocate,A-030,Tandem Arc,avery-bennett-180,@averybennett180,averybennett-180,CRM-C-0180,New
+C-0181,Harper Kowalski,harper.kowalski.181@junipermetric.example,IT Director,A-001,Juniper Metric,harper-kowalski-181,,,CRM-C-0181,Known
+C-0182,Riley Ellis,riley.ellis.182@cinderworks.example,Product Manager,A-002,Cinder Works,riley-ellis-182,,,CRM-C-0182,Engaged
+C-0183,Emery Nguyen,emery.nguyen.183@astercloud.example,Customer Success Director,A-003,Aster Cloud,emery-nguyen-183,,,CRM-C-0183,Dormant
+C-0184,Morgan Garcia,morgan.garcia.184@harborline.example,Platform Engineer,A-004,Harborline,morgan-garcia-184,@morgangarcia184,,CRM-C-0184,New
+C-0185,Casey Singh,casey.singh.185@mosaicforge.example,Engineering Manager,A-005,Mosaic Forge,casey-singh-185,,caseysingh-185,CRM-C-0185,Known
+C-0186,Jordan Ibrahim,jordan.ibrahim.186@latticeharbor.example,Security Architect,A-006,Lattice Harbor,jordan-ibrahim-186,,,CRM-C-0186,Engaged
+C-0187,Sasha Duarte,sasha.duarte.187@northstargrid.example,VP of Engineering,A-007,Northstar Grid,sasha-duarte-187,,,CRM-C-0187,Dormant
+C-0188,Finley Lopez,finley.lopez.188@copperpeak.example,Developer Advocate,A-008,Copper Peak,finley-lopez-188,@finleylopez188,,CRM-C-0188,New
+C-0189,Quinn Foster,quinn.foster.189@quarrylabs.example,IT Director,A-009,Quarry Labs,quinn-foster-189,,,CRM-C-0189,Known
+C-0190,Drew Okafor,drew.okafor.190@sablesystems.example,Product Manager,A-010,Sable Systems,drew-okafor-190,,drewokafor-190,CRM-C-0190,Engaged
+C-0191,Kai Hart,kai.hart.191@orbitfoundry.example,Customer Success Director,A-011,Orbit Foundry,kai-hart-191,,,CRM-C-0191,Dormant
+C-0192,Avery Bennett,avery.bennett.192@maplecircuit.example,Platform Engineer,A-012,Maple Circuit,avery-bennett-192,@averybennett192,,CRM-C-0192,New
+C-0193,Harper Kowalski,harper.kowalski.193@summitledger.example,Engineering Manager,A-013,Summit Ledger,harper-kowalski-193,,,CRM-C-0193,Known
+C-0194,Riley Ellis,riley.ellis.194@bluemeridian.example,Security Architect,A-014,Blue Meridian,riley-ellis-194,,,CRM-C-0194,Engaged
+C-0195,Emery Nguyen,emery.nguyen.195@pinesignal.example,VP of Engineering,A-015,Pine Signal,emery-nguyen-195,,emerynguyen-195,CRM-C-0195,Dormant
+C-0196,Morgan Garcia,morgan.garcia.196@cobaltthread.example,Developer Advocate,A-016,Cobalt Thread,morgan-garcia-196,@morgangarcia196,,CRM-C-0196,New
+C-0197,Casey Singh,casey.singh.197@driftline.example,IT Director,A-017,Driftline,casey-singh-197,,,CRM-C-0197,Known
+C-0198,Jordan Ibrahim,jordan.ibrahim.198@elmrobotics.example,Product Manager,A-018,Elm Robotics,jordan-ibrahim-198,,,CRM-C-0198,Engaged
+C-0199,Sasha Duarte,sasha.duarte.199@fablestack.example,Customer Success Director,A-019,Fable Stack,sasha-duarte-199,,,CRM-C-0199,Dormant
+C-0200,Finley Lopez,finley.lopez.200@graniteloop.example,Platform Engineer,A-020,Granite Loop,finley-lopez-200,@finleylopez200,finleylopez-200,CRM-C-0200,New
+C-0201,Quinn Foster,quinn.foster.201@helixharbor.example,Engineering Manager,A-021,Helix Harbor,quinn-foster-201,,,CRM-C-0201,Known
+C-0202,Drew Okafor,drew.okafor.202@ivoryrelay.example,Security Architect,A-022,Ivory Relay,drew-okafor-202,,,CRM-C-0202,Engaged
+C-0203,Kai Hart,kai.hart.203@kiteframe.example,VP of Engineering,A-023,Kiteframe,kai-hart-203,,,CRM-C-0203,Dormant
+C-0204,Avery Bennett,avery.bennett.204@lucentfield.example,Developer Advocate,A-024,Lucent Field,avery-bennett-204,@averybennett204,,CRM-C-0204,New
+C-0205,Harper Kowalski,harper.kowalski.205@nimblecurrent.example,IT Director,A-025,Nimble Current,harper-kowalski-205,,harperkowalski-205,CRM-C-0205,Known
+C-0206,Riley Ellis,riley.ellis.206@opalnetwork.example,Product Manager,A-026,Opal Network,riley-ellis-206,,,CRM-C-0206,Engaged
+C-0207,Emery Nguyen,emery.nguyen.207@prairielogic.example,Customer Success Director,A-027,Prairie Logic,emery-nguyen-207,,,CRM-C-0207,Dormant
+C-0208,Morgan Garcia,morgan.garcia.208@quartzrun.example,Platform Engineer,A-028,Quartz Run,morgan-garcia-208,@morgangarcia208,,CRM-C-0208,New
+C-0209,Casey Singh,casey.singh.209@riverglass.example,Engineering Manager,A-029,Riverglass,casey-singh-209,,,CRM-C-0209,Known
+C-0210,Jordan Ibrahim,jordan.ibrahim.210@tandemarc.example,Security Architect,A-030,Tandem Arc,jordan-ibrahim-210,,jordanibrahim-210,CRM-C-0210,Engaged
+C-0211,Sasha Duarte,sasha.duarte.211@junipermetric.example,VP of Engineering,A-001,Juniper Metric,sasha-duarte-211,,,CRM-C-0211,Dormant
+C-0212,Finley Lopez,finley.lopez.212@cinderworks.example,Developer Advocate,A-002,Cinder Works,finley-lopez-212,@finleylopez212,,CRM-C-0212,New
+C-0213,Quinn Foster,quinn.foster.213@astercloud.example,IT Director,A-003,Aster Cloud,quinn-foster-213,,,CRM-C-0213,Known
+C-0214,Drew Okafor,drew.okafor.214@harborline.example,Product Manager,A-004,Harborline,drew-okafor-214,,,CRM-C-0214,Engaged
+C-0215,Kai Hart,kai.hart.215@mosaicforge.example,Customer Success Director,A-005,Mosaic Forge,kai-hart-215,,kaihart-215,CRM-C-0215,Dormant
+C-0216,Avery Bennett,avery.bennett.216@latticeharbor.example,Platform Engineer,A-006,Lattice Harbor,avery-bennett-216,@averybennett216,,CRM-C-0216,New
+C-0217,Harper Kowalski,harper.kowalski.217@northstargrid.example,Engineering Manager,A-007,Northstar Grid,harper-kowalski-217,,,CRM-C-0217,Known
+C-0218,Riley Ellis,riley.ellis.218@copperpeak.example,Security Architect,A-008,Copper Peak,riley-ellis-218,,,CRM-C-0218,Engaged
+C-0219,Emery Nguyen,emery.nguyen.219@quarrylabs.example,VP of Engineering,A-009,Quarry Labs,emery-nguyen-219,,,CRM-C-0219,Dormant
+C-0220,Morgan Garcia,morgan.garcia.220@sablesystems.example,Developer Advocate,A-010,Sable Systems,morgan-garcia-220,@morgangarcia220,morgangarcia-220,CRM-C-0220,New
+C-0221,Casey Singh,casey.singh.221@orbitfoundry.example,IT Director,A-011,Orbit Foundry,casey-singh-221,,,CRM-C-0221,Known
+C-0222,Jordan Ibrahim,jordan.ibrahim.222@maplecircuit.example,Product Manager,A-012,Maple Circuit,jordan-ibrahim-222,,,CRM-C-0222,Engaged
+C-0223,Sasha Duarte,sasha.duarte.223@summitledger.example,Customer Success Director,A-013,Summit Ledger,sasha-duarte-223,,,CRM-C-0223,Dormant
+C-0224,Finley Lopez,finley.lopez.224@bluemeridian.example,Platform Engineer,A-014,Blue Meridian,finley-lopez-224,@finleylopez224,,CRM-C-0224,New
+C-0225,Quinn Foster,quinn.foster.225@pinesignal.example,Engineering Manager,A-015,Pine Signal,quinn-foster-225,,quinnfoster-225,CRM-C-0225,Known
+C-0226,Drew Okafor,drew.okafor.226@cobaltthread.example,Security Architect,A-016,Cobalt Thread,drew-okafor-226,,,CRM-C-0226,Engaged
+C-0227,Kai Hart,kai.hart.227@driftline.example,VP of Engineering,A-017,Driftline,kai-hart-227,,,CRM-C-0227,Dormant
+C-0228,Avery Bennett,avery.bennett.228@elmrobotics.example,Developer Advocate,A-018,Elm Robotics,avery-bennett-228,@averybennett228,,CRM-C-0228,New
+C-0229,Harper Kowalski,harper.kowalski.229@fablestack.example,IT Director,A-019,Fable Stack,harper-kowalski-229,,,CRM-C-0229,Known
+C-0230,Riley Ellis,riley.ellis.230@graniteloop.example,Product Manager,A-020,Granite Loop,riley-ellis-230,,rileyellis-230,CRM-C-0230,Engaged
+C-0231,Emery Nguyen,emery.nguyen.231@helixharbor.example,Customer Success Director,A-021,Helix Harbor,emery-nguyen-231,,,CRM-C-0231,Dormant
+C-0232,Morgan Garcia,morgan.garcia.232@ivoryrelay.example,Platform Engineer,A-022,Ivory Relay,morgan-garcia-232,@morgangarcia232,,CRM-C-0232,New
+C-0233,Casey Singh,casey.singh.233@kiteframe.example,Engineering Manager,A-023,Kiteframe,casey-singh-233,,,CRM-C-0233,Known
+C-0234,Jordan Ibrahim,jordan.ibrahim.234@lucentfield.example,Security Architect,A-024,Lucent Field,jordan-ibrahim-234,,,CRM-C-0234,Engaged
+C-0235,Sasha Duarte,sasha.duarte.235@nimblecurrent.example,VP of Engineering,A-025,Nimble Current,sasha-duarte-235,,sashaduarte-235,CRM-C-0235,Dormant
+C-0236,Finley Lopez,finley.lopez.236@opalnetwork.example,Developer Advocate,A-026,Opal Network,finley-lopez-236,@finleylopez236,,CRM-C-0236,New
+C-0237,Quinn Foster,quinn.foster.237@prairielogic.example,IT Director,A-027,Prairie Logic,quinn-foster-237,,,CRM-C-0237,Known
+C-0238,Drew Okafor,drew.okafor.238@quartzrun.example,Product Manager,A-028,Quartz Run,drew-okafor-238,,,CRM-C-0238,Engaged
+C-0239,Kai Hart,kai.hart.239@riverglass.example,Customer Success Director,A-029,Riverglass,kai-hart-239,,,CRM-C-0239,Dormant
+C-0240,Avery Bennett,avery.bennett.240@tandemarc.example,Platform Engineer,A-030,Tandem Arc,avery-bennett-240,@averybennett240,averybennett-240,CRM-C-0240,New

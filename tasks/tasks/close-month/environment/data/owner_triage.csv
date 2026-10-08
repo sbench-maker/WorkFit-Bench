@@ -1,0 +1,14 @@
+flag_id,issue_type,qb_transaction_id,paired_transaction_id,owner_decision,approval_status,final_category,excluded_transaction_id,recommended_action
+FLG-001,missing_receipt,QB-0152,,request_receipt,open,,,Request and attach the receipt before the accountant review.
+FLG-002,missing_receipt,QB-0187,,request_receipt,open,,,Request and attach the receipt before the accountant review.
+FLG-003,missing_receipt,QB-0197,,receipt_attached_after_review,approved,,,Receipt located in the owner inbox; attach it in QuickBooks.
+FLG-004,missing_receipt,QB-0206,,request_receipt,open,,,Request and attach the receipt before the accountant review.
+FLG-005,missing_receipt,QB-0212,,request_receipt,open,,,Request and attach the receipt before the accountant review.
+FLG-006,missing_receipt,QB-0217,,request_receipt,open,,,Request and attach the receipt before the accountant review.
+FLG-007,possible_duplicate,QB-0185,QB-0186,keep_both,approved,,,Keep both charges; invoices confirm separate campaign placements.
+FLG-008,possible_duplicate,QB-0192,QB-0232,exclude_confirmed,approved,,QB-0232,Exclude the duplicate import from the adjusted close; retain both source rows.
+FLG-009,possible_duplicate,QB-0217,QB-0218,needs_follow_up,open,,,Leave both posted and obtain the second packing-label invoice.
+FLG-010,uncategorized,QB-0187,,categorize,approved,Marketing,,Categorize as Marketing.
+FLG-011,uncategorized,QB-0197,,categorize,approved,Utilities,,Categorize as Utilities.
+FLG-012,uncategorized,QB-0207,,categorize,approved,Professional Fees,,Categorize as Professional Fees.
+FLG-013,uncategorized,QB-0219,,categorize,approved,Office Supplies,,Categorize as Office Supplies.

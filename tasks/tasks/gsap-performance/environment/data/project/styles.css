@@ -1,0 +1,59 @@
+:root {
+  --ink: #152238;
+  --surface: #eef3f9;
+  --accent: #4b63d8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--surface);
+  font: 15px/1.45 system-ui, sans-serif;
+}
+
+.incident-board {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.incident-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.incident-card {
+  position: relative;
+  min-height: 118px;
+  border-radius: 14px;
+  padding: 16px;
+  background: white;
+  box-shadow: 0 8px 22px rgb(30 48 74 / 9%);
+}
+
+.cursor-halo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.detail-drawer {
+  position: fixed;
+  inset-block: 0;
+  right: 0;
+  width: 360px;
+  padding: 24px;
+  background: white;
+  box-shadow: -12px 0 32px rgb(30 48 74 / 16%);
+}

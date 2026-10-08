@@ -1,0 +1,11 @@
+// Documentation-only Gradle descriptor for the offline fixture.
+// The checked-in ./gradlew launcher performs a dependency-free JDK build.
+plugins {
+    id 'java'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}

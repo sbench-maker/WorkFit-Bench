@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-09-01",
+  "source_type": "fictional offline Common Room export",
+  "notes": "All entities and signals are synthetic fixtures for local analysis; no live service is required.",
+  "windows": {
+    "contact_initiated_activity_days": 60,
+    "website_visit_days": 84
+  },
+  "row_counts": {
+    "accounts": 30,
+    "contacts": 240,
+    "activities": 477,
+    "website_visits": 484,
+    "sparks": 83,
+    "scores": 240,
+    "segments": 302,
+    "opportunities": 31
+  }
+}

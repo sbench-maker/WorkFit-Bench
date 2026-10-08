@@ -1,0 +1,13 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "app/fixtures/staff-directory.sample.json": 240,
+    "traffic-profile.csv": 240
+  },
+  "intentional_edge_cases": [
+    "inactive fictional staff records are retained in the local development sample",
+    "the development sample sits inside the build context but must stay out of the production image",
+    "readiness depends on mounted staff data while liveness does not",
+    "the cache path requires a writable mount when the root filesystem is read-only"
+  ]
+}

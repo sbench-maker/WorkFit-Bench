@@ -1,0 +1,48 @@
+{
+  "service": "ParcelPilot",
+  "reporting_date": "2026-08-31",
+  "scope": "repository, tests, dependencies, documentation, delivery controls, and maintenance evidence",
+  "score_model": {
+    "impact": "1 negligible drag; 3 recurring team/customer friction; 5 material customer or delivery harm",
+    "risk": "1 bounded and unlikely; 3 credible regression/incident; 5 repeated or severe failure exposure",
+    "effort": "1 up to 2 engineer-days; 2 is 3-5 days; 3 is 6-10 days; 4 is 11-20 days; 5 exceeds 20 days",
+    "priority_formula": "(impact + risk) * (6 - effort)"
+  },
+  "capacity_windows": [
+    {
+      "phase": "now",
+      "horizon": "next sprint",
+      "capacity_engineer_days": 8,
+      "notes": "reserve for containment and small high-leverage fixes"
+    },
+    {
+      "phase": "next",
+      "horizon": "following 30 days",
+      "capacity_engineer_days": 20,
+      "notes": "may be split into independently shippable slices"
+    },
+    {
+      "phase": "later",
+      "horizon": "quarter backlog",
+      "capacity_engineer_days": 18,
+      "notes": "discovery may precede commitment"
+    }
+  ],
+  "feature_commitments": [
+    {
+      "window": "next sprint",
+      "commitment": "carrier ETA badges",
+      "reserved_engineer_days": 22
+    },
+    {
+      "window": "following 30 days",
+      "commitment": "returns portal pilot",
+      "reserved_engineer_days": 48
+    }
+  ],
+  "notes": [
+    "Findings should distinguish observed evidence from inference.",
+    "A phase can contain several work items, but its estimated days must stay within that phase's debt capacity.",
+    "Dependencies are fictional; dependency_status.json is the authoritative offline status snapshot."
+  ]
+}

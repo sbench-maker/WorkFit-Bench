@@ -1,0 +1,158 @@
+Transcript ID: CI-2026-0821-07
+Interview date: Friday, August 21, 2026
+Time: 10:00-10:17 a.m. Mountain Daylight Time
+Product discovery topic: RelayDesk CRM
+Recording status: complete transcript
+
+[00:00] Maya Chen, Product Manager at RelayDesk: Thanks for joining. I lead the workflow team for RelayDesk CRM.
+[00:12] Elena Ruiz, Revenue Operations Manager at Cedar & Finch Home Services: Happy to help.
+[00:18] Dev Shah, Customer Researcher at RelayDesk: I am here to ask follow-up questions and take notes.
+[00:25] Maya: Is it still okay for us to record and use the conversation for product discovery?
+[00:31] Elena: Yes, that is fine.
+[00:38] Maya: Could you start with your company and team?
+[00:44] Elena: Cedar & Finch installs and repairs heating and electrical systems for homes.
+[00:53] Elena: We have about 65 employees across three branches in Colorado.
+[01:04] Elena: Revenue operations supports sales, dispatch, and the service managers.
+[01:12] Elena: I have been in this role for three years.
+[01:20] Dev: How many people use your customer system?
+[01:25] Elena: Eighteen sales reps, six dispatch coordinators, and four managers use it most days.
+[01:34] Elena: Technicians see customer details in a separate field-service app.
+[01:41] Maya: What do you use today?
+[01:46] Elena: TrackSpring is our CRM.
+[01:51] Elena: We also keep a shared spreadsheet called the Renewals Board.
+[02:00] Elena: Team chat fills the gaps when an assignment is urgent.
+[02:07] Dev: Walk us through a new request.
+[02:12] Elena: Requests come from the website, phone calls, and partner emails.
+[02:20] Elena: A dispatcher checks the address and creates a lead in TrackSpring.
+[02:29] Elena: TrackSpring assigns the lead by sales territory.
+[02:36] Elena: That sounds simple, but the territory is only one part of the decision.
+[02:44] Maya: What else matters?
+[02:47] Elena: The rep needs the right certification for the job, and someone needs to be available.
+[02:57] Elena: The CRM does not know either of those things.
+[03:03] Elena: Dispatch checks a spreadsheet, then asks in team chat who can take it.
+[03:12] Dev: How often does the first assignment change?
+[03:16] Elena: Around one request in four gets reassigned on a busy day.
+[03:24] Elena: The customer repeats details, and we can lose ten or fifteen minutes.
+[03:31] Maya: What are you trying to achieve in that moment?
+[03:35] Elena: Put the request with a qualified person before the customer hangs up.
+[03:43] Elena: The outcome is one clear owner without a handoff.
+[03:49] Dev: How important is that?
+[03:52] Elena: Mission critical. It affects whether the appointment gets booked.
+[04:00] Dev: How satisfied are you with the current process?
+[04:04] Elena: Poor. Maybe two out of five, but “not satisfied” says it better.
+[04:13] Elena: The spreadsheet helps, yet it is often one shift behind.
+[04:20] Maya: Is speed or perfect matching more important?
+[04:24] Elena: A safe match first, then speed. The wrong certification is not acceptable.
+[04:35] Dev: What happens after a lead is assigned?
+[04:40] Elena: Reps call, visit the home if needed, and update the opportunity.
+[04:48] Elena: Every Monday at nine, managers review the pipeline.
+[04:55] Elena: They need the true stage, the next step, and who owes it.
+[05:02] Elena: Otherwise the meeting turns into asking fourteen people for updates.
+[05:09] Maya: Earlier you said eighteen sales reps.
+[05:13] Elena: Let me correct that. We have fourteen active sellers and four sales managers.
+[05:21] Elena: I counted the managers as reps before. Please use fourteen active sellers.
+[05:29] Dev: What is the desired outcome for the Monday review?
+[05:33] Elena: A reliable next step for every live deal, without chasing people during the meeting.
+[05:43] Dev: Importance and satisfaction?
+[05:46] Elena: High importance. Satisfaction is mixed.
+[05:52] Elena: The dashboard is easy to filter, but its data is only as fresh as the notes.
+[06:00] Elena: We spend about half the meeting checking whether the stage is still true.
+[06:10] Maya: What do you like about the dashboard?
+[06:14] Elena: Saved views are excellent.
+[06:18] Elena: I can show just one branch, service line, or owner in seconds.
+[06:24] Elena: That job is important and I am very satisfied with the filtering itself.
+[06:33] Elena: I do not want to lose those views if we change systems.
+[06:41] Dev: Where do the stale notes come from?
+[06:45] Elena: Mostly from field visits.
+[06:50] Elena: A rep may be in a basement or a rural area with no signal.
+[06:58] Elena: TrackSpring's mobile app lets them type, but the draft can disappear when they reconnect.
+[07:07] Elena: After losing a long note twice, people wait until the evening.
+[07:15] Maya: What are they trying to do on mobile?
+[07:19] Elena: Record the customer's needs and promised next step while the visit is fresh.
+[07:27] Elena: They want the note saved once, even without a connection.
+[07:33] Dev: How important is that job?
+[07:36] Elena: Critical for field reps and for the manager who reads the record later.
+[07:43] Dev: Satisfaction today?
+[07:46] Elena: Very low. Nobody trusts offline drafts.
+[07:54] Maya: Would faster typing solve it?
+[07:57] Elena: No. Reliability matters more than shaving off a few taps.
+[08:07] Dev: You mentioned the Renewals Board. Why does it exist?
+[08:12] Elena: Renewals are visible in TrackSpring, but dispatch needs a simple weekly list.
+[08:19] Elena: We export the saved renewals view every Friday and paste it into the board.
+[08:27] Elena: Dispatch adds access notes and the preferred appointment window there.
+[08:34] Maya: Is the export itself a problem?
+[08:37] Elena: It takes ten minutes. I would not prioritize fixing it.
+[08:44] Elena: The saved view gives us the right accounts, so that part works well.
+[08:51] Dev: What outcome does that support?
+[08:54] Elena: Give dispatch a clean list of renewals to contact for the next week.
+[09:01] Elena: It is high importance, and I am satisfied with finding and filtering the accounts.
+[09:10] Elena: I am only neutral about copying them to the spreadsheet.
+[09:18] Maya: What else works well?
+[09:21] Elena: Email and calendar sync.
+[09:24] Elena: Calls still need notes, but messages and meetings attach to the account by themselves.
+[09:32] Elena: That saves each rep at least a few minutes per customer.
+[09:39] Dev: What job does the sync help with?
+[09:42] Elena: Keep a complete customer history without entering the same activity twice.
+[09:51] Elena: It is very important, and I am very satisfied with it.
+[09:59] Maya: Any account-data issues?
+[10:02] Elena: Duplicates are the other painful part.
+[10:06] Elena: A web form may use “Sam Lee,” while a phone call uses “Samuel Lee.”
+[10:13] Elena: Families also share a phone number, so we cannot merge only on the number.
+[10:20] Elena: Regular users can flag a duplicate, but only an admin can merge it.
+[10:29] Elena: A merge may wait two business days if I am in branch meetings.
+[10:36] Dev: What are you trying to accomplish?
+[10:39] Elena: Keep one trustworthy account history without merging two different people.
+[10:48] Dev: Importance and satisfaction?
+[10:51] Elena: Medium-high importance and low satisfaction.
+[10:57] Elena: It causes confusion, but it does not stop as many bookings as bad routing.
+[11:06] Maya: Do reminders help people keep records fresh?
+[11:11] Elena: Sometimes, but there are too many.
+[11:15] Elena: A rep can get the same overdue-task reminder by email, mobile push, and in-app alert.
+[11:23] Elena: Most people mute the push alerts, including useful ones.
+[11:30] Dev: What would a better outcome be?
+[11:33] Elena: One clear reminder in the place the rep chooses.
+[11:40] Elena: Importance is medium. Satisfaction is low because the noise trains people to ignore it.
+[11:49] Maya: If you could fix one thing, what comes first?
+[11:53] Elena: Correct routing, then trustworthy offline notes.
+[12:00] Elena: I do not need another dashboard. I need the right owner before the customer hangs up.
+[12:10] Dev: That is different from what we heard in the sales survey.
+[12:14] Elena: The survey probably went to managers. Dispatch feels the routing pain first.
+[12:22] Maya: Is price holding you back from trying a different CRM?
+[12:26] Elena: Not at the moment.
+[12:28] Elena: Switching cost and rep adoption worry me more than license price.
+[12:36] Elena: If routing used certification and availability, and offline notes were safe, I could make the case.
+[12:45] Dev: Would an annual pricing tier help?
+[12:48] Elena: Maybe someday, but that is not a blocker and not a follow-up from this call.
+[12:56] Maya: We have discussed a training webinar too.
+[13:00] Elena: Training will not fix a draft that disappears.
+[13:06] Elena: Please do not treat a webinar as the answer to this interview.
+[13:14] Dev: Could support write a duplicate-merging FAQ?
+[13:18] Elena: It might be useful later, but do not spend time on it yet.
+[13:24] Maya: Understood. Let us agree on actual next steps.
+[13:30] Maya: I will send you the first routing-rule mock-up next Tuesday, August 25.
+[13:38] Maya: It will show territory, certification, and availability together.
+[13:46] Elena: I can review that with our dispatch lead.
+[13:52] Dev: I will schedule a mobile workflow test with two field reps for Thursday, August 27.
+[14:00] Dev: Elena, I will send the calendar options today, but the session date is the 27th.
+[14:08] Elena: I will send five anonymized duplicate-account examples by Friday, August 28.
+[14:16] Elena: I will remove customer names and contact details first.
+[14:23] Maya: After our engineering review, I will confirm offline-draft feasibility by September 4.
+[14:32] Dev: Should we also create a quarterly customer council?
+[14:36] Elena: Let us leave that as a brainstorm, not an action item.
+[14:42] Maya: Agreed. No owner or date for a council.
+[14:48] Dev: I have four commitments: routing mock-up, mobile test, duplicate examples, and the feasibility answer.
+[14:56] Elena: That matches my notes.
+[15:02] Maya: Before we close, what would make a pilot feel successful?
+[15:07] Elena: For a month, almost every request should reach a qualified owner without reassignment.
+[15:15] Elena: Reps should be able to save notes in a dead zone and see them after reconnecting.
+[15:24] Elena: Managers should still have branch filters and automatic email history.
+[15:31] Dev: Is there a target number for “almost every request”?
+[15:36] Elena: We have not agreed on a percentage, so do not invent one.
+[15:43] Maya: Any security or approval requirement for a pilot?
+[15:48] Elena: Our IT manager will review it, but we did not discuss the review details today.
+[15:56] Dev: Anything else we should capture?
+[16:00] Elena: The people doing the handoff need to be in the design sessions, not only managers.
+[16:08] Elena: Dispatch and field reps see different failures.
+[16:15] Maya: Thank you. We will use the four follow-ups we confirmed.
+[16:21] Elena: Great. Thanks for listening.
+[16:25] Dev: Recording stopped.

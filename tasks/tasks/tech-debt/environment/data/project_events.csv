@@ -1,0 +1,241 @@
+event_id,occurred_on,event_type,component,severity,minutes_lost,customer_orders_affected,linked_ticket_id,summary
+EV-0001,2026-01-05,incident,checkout,high,145,37,MT-101,Captured total differed from quoted total
+EV-0002,2026-01-10,support_escalation,checkout,medium,62,12,MT-101,Manual adjustment requested for rounding mismatch
+EV-0003,2026-01-15,deploy_failure,delivery,critical,210,88,MT-104,Manual release failed after database migration
+EV-0004,2026-01-20,recovery_work,delivery,high,175,45,MT-104,Rollback reconstructed from shell history
+EV-0005,2026-01-25,ci_retry,test_suite,medium,28,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0006,2026-01-30,ci_investigation,test_suite,low,19,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0007,2026-02-04,onboarding_delay,documentation,medium,74,0,MT-112,Runbook health URL and configured port disagreed
+EV-0008,2026-02-09,support_escalation,dispatcher,high,95,25,MT-115,Worker stalled while retry sleep blocked processing
+EV-0009,2026-02-14,incident,dispatcher,high,128,34,MT-116,Process restart lost queued shipment notifications
+EV-0010,2026-02-19,change_delay,order_api,medium,132,0,MT-119,Small validation change required edits across process_order
+EV-0011,2026-02-24,review_rework,storage,medium,83,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0012,2026-03-01,dependency_review,http_client,high,56,0,MT-124,Unsupported client blocked transport policy update
+EV-0013,2026-03-07,incident,checkout,high,161,39,MT-101,Captured total differed from quoted total
+EV-0014,2026-03-12,support_escalation,checkout,medium,69,14,MT-101,Manual adjustment requested for rounding mismatch
+EV-0015,2026-03-17,deploy_failure,delivery,critical,235,90,MT-104,Manual release failed after database migration
+EV-0016,2026-03-22,recovery_work,delivery,high,191,42,MT-104,Rollback reconstructed from shell history
+EV-0017,2026-03-27,ci_retry,test_suite,medium,35,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0018,2026-04-01,ci_investigation,test_suite,low,23,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0019,2026-04-06,onboarding_delay,documentation,medium,81,0,MT-112,Runbook health URL and configured port disagreed
+EV-0020,2026-04-11,support_escalation,dispatcher,high,111,27,MT-115,Worker stalled while retry sleep blocked processing
+EV-0021,2026-04-16,incident,dispatcher,high,144,31,MT-116,Process restart lost queued shipment notifications
+EV-0022,2026-04-21,change_delay,order_api,medium,139,0,MT-119,Small validation change required edits across process_order
+EV-0023,2026-04-26,review_rework,storage,medium,90,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0024,2026-05-01,dependency_review,http_client,high,72,0,MT-124,Unsupported client blocked transport policy update
+EV-0025,2026-05-07,incident,checkout,high,174,41,MT-101,Captured total differed from quoted total
+EV-0026,2026-05-12,support_escalation,checkout,medium,75,11,MT-101,Manual adjustment requested for rounding mismatch
+EV-0027,2026-05-17,deploy_failure,delivery,critical,261,87,MT-104,Manual release failed after database migration
+EV-0028,2026-05-22,recovery_work,delivery,high,204,44,MT-104,Rollback reconstructed from shell history
+EV-0029,2026-05-27,ci_retry,test_suite,medium,41,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0030,2026-06-01,ci_investigation,test_suite,low,27,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0031,2026-06-06,onboarding_delay,documentation,medium,87,0,MT-112,Runbook health URL and configured port disagreed
+EV-0032,2026-06-11,support_escalation,dispatcher,high,124,24,MT-115,Worker stalled while retry sleep blocked processing
+EV-0033,2026-06-16,incident,dispatcher,high,157,33,MT-116,Process restart lost queued shipment notifications
+EV-0034,2026-06-21,change_delay,order_api,medium,145,0,MT-119,Small validation change required edits across process_order
+EV-0035,2026-06-26,review_rework,storage,medium,96,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0036,2026-07-01,dependency_review,http_client,high,85,0,MT-124,Unsupported client blocked transport policy update
+EV-0037,2026-07-07,incident,checkout,high,145,38,MT-101,Captured total differed from quoted total
+EV-0038,2026-07-12,support_escalation,checkout,medium,62,13,MT-101,Manual adjustment requested for rounding mismatch
+EV-0039,2026-07-17,deploy_failure,delivery,critical,210,89,MT-104,Manual release failed after database migration
+EV-0040,2026-07-22,recovery_work,delivery,high,175,46,MT-104,Rollback reconstructed from shell history
+EV-0041,2026-07-27,ci_retry,test_suite,medium,28,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0042,2026-08-01,ci_investigation,test_suite,low,19,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0043,2026-08-06,onboarding_delay,documentation,medium,74,0,MT-112,Runbook health URL and configured port disagreed
+EV-0044,2026-08-11,support_escalation,dispatcher,high,95,26,MT-115,Worker stalled while retry sleep blocked processing
+EV-0045,2026-08-16,incident,dispatcher,high,128,35,MT-116,Process restart lost queued shipment notifications
+EV-0046,2026-08-21,change_delay,order_api,medium,132,0,MT-119,Small validation change required edits across process_order
+EV-0047,2026-08-26,review_rework,storage,medium,83,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0048,2026-01-08,dependency_review,http_client,high,56,0,MT-124,Unsupported client blocked transport policy update
+EV-0049,2026-01-14,incident,checkout,high,161,40,MT-101,Captured total differed from quoted total
+EV-0050,2026-01-19,support_escalation,checkout,medium,69,15,MT-101,Manual adjustment requested for rounding mismatch
+EV-0051,2026-01-24,deploy_failure,delivery,critical,235,86,MT-104,Manual release failed after database migration
+EV-0052,2026-01-29,recovery_work,delivery,high,191,43,MT-104,Rollback reconstructed from shell history
+EV-0053,2026-02-03,ci_retry,test_suite,medium,35,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0054,2026-02-08,ci_investigation,test_suite,low,23,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0055,2026-02-13,onboarding_delay,documentation,medium,81,0,MT-112,Runbook health URL and configured port disagreed
+EV-0056,2026-02-18,support_escalation,dispatcher,high,111,23,MT-115,Worker stalled while retry sleep blocked processing
+EV-0057,2026-02-23,incident,dispatcher,high,144,32,MT-116,Process restart lost queued shipment notifications
+EV-0058,2026-02-28,change_delay,order_api,medium,139,0,MT-119,Small validation change required edits across process_order
+EV-0059,2026-03-05,review_rework,storage,medium,90,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0060,2026-03-10,dependency_review,http_client,high,72,0,MT-124,Unsupported client blocked transport policy update
+EV-0061,2026-03-16,incident,checkout,high,174,37,MT-101,Captured total differed from quoted total
+EV-0062,2026-03-21,support_escalation,checkout,medium,75,12,MT-101,Manual adjustment requested for rounding mismatch
+EV-0063,2026-03-26,deploy_failure,delivery,critical,261,88,MT-104,Manual release failed after database migration
+EV-0064,2026-03-31,recovery_work,delivery,high,204,45,MT-104,Rollback reconstructed from shell history
+EV-0065,2026-04-05,ci_retry,test_suite,medium,41,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0066,2026-04-10,ci_investigation,test_suite,low,27,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0067,2026-04-15,onboarding_delay,documentation,medium,87,0,MT-112,Runbook health URL and configured port disagreed
+EV-0068,2026-04-20,support_escalation,dispatcher,high,124,25,MT-115,Worker stalled while retry sleep blocked processing
+EV-0069,2026-04-25,incident,dispatcher,high,157,34,MT-116,Process restart lost queued shipment notifications
+EV-0070,2026-04-30,change_delay,order_api,medium,145,0,MT-119,Small validation change required edits across process_order
+EV-0071,2026-05-05,review_rework,storage,medium,96,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0072,2026-05-10,dependency_review,http_client,high,85,0,MT-124,Unsupported client blocked transport policy update
+EV-0073,2026-05-16,incident,checkout,high,145,39,MT-101,Captured total differed from quoted total
+EV-0074,2026-05-21,support_escalation,checkout,medium,62,14,MT-101,Manual adjustment requested for rounding mismatch
+EV-0075,2026-05-26,deploy_failure,delivery,critical,210,90,MT-104,Manual release failed after database migration
+EV-0076,2026-05-31,recovery_work,delivery,high,175,42,MT-104,Rollback reconstructed from shell history
+EV-0077,2026-06-05,ci_retry,test_suite,medium,28,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0078,2026-06-10,ci_investigation,test_suite,low,19,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0079,2026-06-15,onboarding_delay,documentation,medium,74,0,MT-112,Runbook health URL and configured port disagreed
+EV-0080,2026-06-20,support_escalation,dispatcher,high,95,27,MT-115,Worker stalled while retry sleep blocked processing
+EV-0081,2026-06-25,incident,dispatcher,high,128,31,MT-116,Process restart lost queued shipment notifications
+EV-0082,2026-06-30,change_delay,order_api,medium,132,0,MT-119,Small validation change required edits across process_order
+EV-0083,2026-07-05,review_rework,storage,medium,83,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0084,2026-07-10,dependency_review,http_client,high,56,0,MT-124,Unsupported client blocked transport policy update
+EV-0085,2026-07-16,incident,checkout,high,161,41,MT-101,Captured total differed from quoted total
+EV-0086,2026-07-21,support_escalation,checkout,medium,69,11,MT-101,Manual adjustment requested for rounding mismatch
+EV-0087,2026-07-26,deploy_failure,delivery,critical,235,87,MT-104,Manual release failed after database migration
+EV-0088,2026-07-31,recovery_work,delivery,high,191,44,MT-104,Rollback reconstructed from shell history
+EV-0089,2026-08-05,ci_retry,test_suite,medium,35,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0090,2026-08-10,ci_investigation,test_suite,low,23,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0091,2026-08-15,onboarding_delay,documentation,medium,81,0,MT-112,Runbook health URL and configured port disagreed
+EV-0092,2026-08-20,support_escalation,dispatcher,high,111,24,MT-115,Worker stalled while retry sleep blocked processing
+EV-0093,2026-08-25,incident,dispatcher,high,144,33,MT-116,Process restart lost queued shipment notifications
+EV-0094,2026-01-07,change_delay,order_api,medium,139,0,MT-119,Small validation change required edits across process_order
+EV-0095,2026-01-12,review_rework,storage,medium,90,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0096,2026-01-17,dependency_review,http_client,high,72,0,MT-124,Unsupported client blocked transport policy update
+EV-0097,2026-01-23,incident,checkout,high,174,38,MT-101,Captured total differed from quoted total
+EV-0098,2026-01-28,support_escalation,checkout,medium,75,13,MT-101,Manual adjustment requested for rounding mismatch
+EV-0099,2026-02-02,deploy_failure,delivery,critical,261,89,MT-104,Manual release failed after database migration
+EV-0100,2026-02-07,recovery_work,delivery,high,204,46,MT-104,Rollback reconstructed from shell history
+EV-0101,2026-02-12,ci_retry,test_suite,medium,41,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0102,2026-02-17,ci_investigation,test_suite,low,27,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0103,2026-02-22,onboarding_delay,documentation,medium,87,0,MT-112,Runbook health URL and configured port disagreed
+EV-0104,2026-02-27,support_escalation,dispatcher,high,124,26,MT-115,Worker stalled while retry sleep blocked processing
+EV-0105,2026-03-04,incident,dispatcher,high,157,35,MT-116,Process restart lost queued shipment notifications
+EV-0106,2026-03-09,change_delay,order_api,medium,145,0,MT-119,Small validation change required edits across process_order
+EV-0107,2026-03-14,review_rework,storage,medium,96,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0108,2026-03-19,dependency_review,http_client,high,85,0,MT-124,Unsupported client blocked transport policy update
+EV-0109,2026-03-25,incident,checkout,high,145,40,MT-101,Captured total differed from quoted total
+EV-0110,2026-03-30,support_escalation,checkout,medium,62,15,MT-101,Manual adjustment requested for rounding mismatch
+EV-0111,2026-04-04,deploy_failure,delivery,critical,210,86,MT-104,Manual release failed after database migration
+EV-0112,2026-04-09,recovery_work,delivery,high,175,43,MT-104,Rollback reconstructed from shell history
+EV-0113,2026-04-14,ci_retry,test_suite,medium,28,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0114,2026-04-19,ci_investigation,test_suite,low,19,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0115,2026-04-24,onboarding_delay,documentation,medium,74,0,MT-112,Runbook health URL and configured port disagreed
+EV-0116,2026-04-29,support_escalation,dispatcher,high,95,23,MT-115,Worker stalled while retry sleep blocked processing
+EV-0117,2026-05-04,incident,dispatcher,high,128,32,MT-116,Process restart lost queued shipment notifications
+EV-0118,2026-05-09,change_delay,order_api,medium,132,0,MT-119,Small validation change required edits across process_order
+EV-0119,2026-05-14,review_rework,storage,medium,83,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0120,2026-05-19,dependency_review,http_client,high,56,0,MT-124,Unsupported client blocked transport policy update
+EV-0121,2026-05-25,incident,checkout,high,161,37,MT-101,Captured total differed from quoted total
+EV-0122,2026-05-30,support_escalation,checkout,medium,69,12,MT-101,Manual adjustment requested for rounding mismatch
+EV-0123,2026-06-04,deploy_failure,delivery,critical,235,88,MT-104,Manual release failed after database migration
+EV-0124,2026-06-09,recovery_work,delivery,high,191,45,MT-104,Rollback reconstructed from shell history
+EV-0125,2026-06-14,ci_retry,test_suite,medium,35,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0126,2026-06-19,ci_investigation,test_suite,low,23,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0127,2026-06-24,onboarding_delay,documentation,medium,81,0,MT-112,Runbook health URL and configured port disagreed
+EV-0128,2026-06-29,support_escalation,dispatcher,high,111,25,MT-115,Worker stalled while retry sleep blocked processing
+EV-0129,2026-07-04,incident,dispatcher,high,144,34,MT-116,Process restart lost queued shipment notifications
+EV-0130,2026-07-09,change_delay,order_api,medium,139,0,MT-119,Small validation change required edits across process_order
+EV-0131,2026-07-14,review_rework,storage,medium,90,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0132,2026-07-19,dependency_review,http_client,high,72,0,MT-124,Unsupported client blocked transport policy update
+EV-0133,2026-07-25,incident,checkout,high,174,39,MT-101,Captured total differed from quoted total
+EV-0134,2026-07-30,support_escalation,checkout,medium,75,14,MT-101,Manual adjustment requested for rounding mismatch
+EV-0135,2026-08-04,deploy_failure,delivery,critical,261,90,MT-104,Manual release failed after database migration
+EV-0136,2026-08-09,recovery_work,delivery,high,204,42,MT-104,Rollback reconstructed from shell history
+EV-0137,2026-08-14,ci_retry,test_suite,medium,41,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0138,2026-08-19,ci_investigation,test_suite,low,27,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0139,2026-08-24,onboarding_delay,documentation,medium,87,0,MT-112,Runbook health URL and configured port disagreed
+EV-0140,2026-01-06,support_escalation,dispatcher,high,124,27,MT-115,Worker stalled while retry sleep blocked processing
+EV-0141,2026-01-11,incident,dispatcher,high,157,31,MT-116,Process restart lost queued shipment notifications
+EV-0142,2026-01-16,change_delay,order_api,medium,145,0,MT-119,Small validation change required edits across process_order
+EV-0143,2026-01-21,review_rework,storage,medium,96,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0144,2026-01-26,dependency_review,http_client,high,85,0,MT-124,Unsupported client blocked transport policy update
+EV-0145,2026-02-01,incident,checkout,high,145,41,MT-101,Captured total differed from quoted total
+EV-0146,2026-02-06,support_escalation,checkout,medium,62,11,MT-101,Manual adjustment requested for rounding mismatch
+EV-0147,2026-02-11,deploy_failure,delivery,critical,210,87,MT-104,Manual release failed after database migration
+EV-0148,2026-02-16,recovery_work,delivery,high,175,44,MT-104,Rollback reconstructed from shell history
+EV-0149,2026-02-21,ci_retry,test_suite,medium,28,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0150,2026-02-26,ci_investigation,test_suite,low,19,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0151,2026-03-03,onboarding_delay,documentation,medium,74,0,MT-112,Runbook health URL and configured port disagreed
+EV-0152,2026-03-08,support_escalation,dispatcher,high,95,24,MT-115,Worker stalled while retry sleep blocked processing
+EV-0153,2026-03-13,incident,dispatcher,high,128,33,MT-116,Process restart lost queued shipment notifications
+EV-0154,2026-03-18,change_delay,order_api,medium,132,0,MT-119,Small validation change required edits across process_order
+EV-0155,2026-03-23,review_rework,storage,medium,83,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0156,2026-03-28,dependency_review,http_client,high,56,0,MT-124,Unsupported client blocked transport policy update
+EV-0157,2026-04-03,incident,checkout,high,161,38,MT-101,Captured total differed from quoted total
+EV-0158,2026-04-08,support_escalation,checkout,medium,69,13,MT-101,Manual adjustment requested for rounding mismatch
+EV-0159,2026-04-13,deploy_failure,delivery,critical,235,89,MT-104,Manual release failed after database migration
+EV-0160,2026-04-18,recovery_work,delivery,high,191,46,MT-104,Rollback reconstructed from shell history
+EV-0161,2026-04-23,ci_retry,test_suite,medium,35,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0162,2026-04-28,ci_investigation,test_suite,low,23,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0163,2026-05-03,onboarding_delay,documentation,medium,81,0,MT-112,Runbook health URL and configured port disagreed
+EV-0164,2026-05-08,support_escalation,dispatcher,high,111,26,MT-115,Worker stalled while retry sleep blocked processing
+EV-0165,2026-05-13,incident,dispatcher,high,144,35,MT-116,Process restart lost queued shipment notifications
+EV-0166,2026-05-18,change_delay,order_api,medium,139,0,MT-119,Small validation change required edits across process_order
+EV-0167,2026-05-23,review_rework,storage,medium,90,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0168,2026-05-28,dependency_review,http_client,high,72,0,MT-124,Unsupported client blocked transport policy update
+EV-0169,2026-06-03,incident,checkout,high,174,40,MT-101,Captured total differed from quoted total
+EV-0170,2026-06-08,support_escalation,checkout,medium,75,15,MT-101,Manual adjustment requested for rounding mismatch
+EV-0171,2026-06-13,deploy_failure,delivery,critical,261,86,MT-104,Manual release failed after database migration
+EV-0172,2026-06-18,recovery_work,delivery,high,204,43,MT-104,Rollback reconstructed from shell history
+EV-0173,2026-06-23,ci_retry,test_suite,medium,41,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0174,2026-06-28,ci_investigation,test_suite,low,27,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0175,2026-07-03,onboarding_delay,documentation,medium,87,0,MT-112,Runbook health URL and configured port disagreed
+EV-0176,2026-07-08,support_escalation,dispatcher,high,124,23,MT-115,Worker stalled while retry sleep blocked processing
+EV-0177,2026-07-13,incident,dispatcher,high,157,32,MT-116,Process restart lost queued shipment notifications
+EV-0178,2026-07-18,change_delay,order_api,medium,145,0,MT-119,Small validation change required edits across process_order
+EV-0179,2026-07-23,review_rework,storage,medium,96,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0180,2026-07-28,dependency_review,http_client,high,85,0,MT-124,Unsupported client blocked transport policy update
+EV-0181,2026-08-03,incident,checkout,high,145,37,MT-101,Captured total differed from quoted total
+EV-0182,2026-08-08,support_escalation,checkout,medium,62,12,MT-101,Manual adjustment requested for rounding mismatch
+EV-0183,2026-08-13,deploy_failure,delivery,critical,210,88,MT-104,Manual release failed after database migration
+EV-0184,2026-08-18,recovery_work,delivery,high,175,45,MT-104,Rollback reconstructed from shell history
+EV-0185,2026-08-23,ci_retry,test_suite,medium,28,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0186,2026-01-05,ci_investigation,test_suite,low,19,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0187,2026-01-10,onboarding_delay,documentation,medium,74,0,MT-112,Runbook health URL and configured port disagreed
+EV-0188,2026-01-15,support_escalation,dispatcher,high,95,25,MT-115,Worker stalled while retry sleep blocked processing
+EV-0189,2026-01-20,incident,dispatcher,high,128,34,MT-116,Process restart lost queued shipment notifications
+EV-0190,2026-01-25,change_delay,order_api,medium,132,0,MT-119,Small validation change required edits across process_order
+EV-0191,2026-01-30,review_rework,storage,medium,83,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0192,2026-02-04,dependency_review,http_client,high,56,0,MT-124,Unsupported client blocked transport policy update
+EV-0193,2026-02-10,incident,checkout,high,161,39,MT-101,Captured total differed from quoted total
+EV-0194,2026-02-15,support_escalation,checkout,medium,69,14,MT-101,Manual adjustment requested for rounding mismatch
+EV-0195,2026-02-20,deploy_failure,delivery,critical,235,90,MT-104,Manual release failed after database migration
+EV-0196,2026-02-25,recovery_work,delivery,high,191,42,MT-104,Rollback reconstructed from shell history
+EV-0197,2026-03-02,ci_retry,test_suite,medium,35,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0198,2026-03-07,ci_investigation,test_suite,low,23,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0199,2026-03-12,onboarding_delay,documentation,medium,81,0,MT-112,Runbook health URL and configured port disagreed
+EV-0200,2026-03-17,support_escalation,dispatcher,high,111,27,MT-115,Worker stalled while retry sleep blocked processing
+EV-0201,2026-03-22,incident,dispatcher,high,144,31,MT-116,Process restart lost queued shipment notifications
+EV-0202,2026-03-27,change_delay,order_api,medium,139,0,MT-119,Small validation change required edits across process_order
+EV-0203,2026-04-01,review_rework,storage,medium,90,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0204,2026-04-06,dependency_review,http_client,high,72,0,MT-124,Unsupported client blocked transport policy update
+EV-0205,2026-04-12,incident,checkout,high,174,41,MT-101,Captured total differed from quoted total
+EV-0206,2026-04-17,support_escalation,checkout,medium,75,11,MT-101,Manual adjustment requested for rounding mismatch
+EV-0207,2026-04-22,deploy_failure,delivery,critical,261,87,MT-104,Manual release failed after database migration
+EV-0208,2026-04-27,recovery_work,delivery,high,204,44,MT-104,Rollback reconstructed from shell history
+EV-0209,2026-05-02,ci_retry,test_suite,medium,41,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0210,2026-05-07,ci_investigation,test_suite,low,27,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0211,2026-05-12,onboarding_delay,documentation,medium,87,0,MT-112,Runbook health URL and configured port disagreed
+EV-0212,2026-05-17,support_escalation,dispatcher,high,124,24,MT-115,Worker stalled while retry sleep blocked processing
+EV-0213,2026-05-22,incident,dispatcher,high,157,33,MT-116,Process restart lost queued shipment notifications
+EV-0214,2026-05-27,change_delay,order_api,medium,145,0,MT-119,Small validation change required edits across process_order
+EV-0215,2026-06-01,review_rework,storage,medium,96,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0216,2026-06-06,dependency_review,http_client,high,85,0,MT-124,Unsupported client blocked transport policy update
+EV-0217,2026-06-12,incident,checkout,high,145,38,MT-101,Captured total differed from quoted total
+EV-0218,2026-06-17,support_escalation,checkout,medium,62,13,MT-101,Manual adjustment requested for rounding mismatch
+EV-0219,2026-06-22,deploy_failure,delivery,critical,210,89,MT-104,Manual release failed after database migration
+EV-0220,2026-06-27,recovery_work,delivery,high,175,46,MT-104,Rollback reconstructed from shell history
+EV-0221,2026-07-02,ci_retry,test_suite,medium,28,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0222,2026-07-07,ci_investigation,test_suite,low,19,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0223,2026-07-12,onboarding_delay,documentation,medium,74,0,MT-112,Runbook health URL and configured port disagreed
+EV-0224,2026-07-17,support_escalation,dispatcher,high,95,26,MT-115,Worker stalled while retry sleep blocked processing
+EV-0225,2026-07-22,incident,dispatcher,high,128,35,MT-116,Process restart lost queued shipment notifications
+EV-0226,2026-07-27,change_delay,order_api,medium,132,0,MT-119,Small validation change required edits across process_order
+EV-0227,2026-08-01,review_rework,storage,medium,83,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0228,2026-08-06,dependency_review,http_client,high,56,0,MT-124,Unsupported client blocked transport policy update
+EV-0229,2026-08-12,incident,checkout,high,161,40,MT-101,Captured total differed from quoted total
+EV-0230,2026-08-17,support_escalation,checkout,medium,69,15,MT-101,Manual adjustment requested for rounding mismatch
+EV-0231,2026-08-22,deploy_failure,delivery,critical,235,86,MT-104,Manual release failed after database migration
+EV-0232,2026-08-27,recovery_work,delivery,high,191,43,MT-104,Rollback reconstructed from shell history
+EV-0233,2026-01-09,ci_retry,test_suite,medium,35,0,MT-108,Dispatcher timing test failed then passed on retry
+EV-0234,2026-01-14,ci_investigation,test_suite,low,23,0,MT-108,Engineer inspected nondeterministic queue assertion
+EV-0235,2026-01-19,onboarding_delay,documentation,medium,81,0,MT-112,Runbook health URL and configured port disagreed
+EV-0236,2026-01-24,support_escalation,dispatcher,high,111,23,MT-115,Worker stalled while retry sleep blocked processing
+EV-0237,2026-01-29,incident,dispatcher,high,144,32,MT-116,Process restart lost queued shipment notifications
+EV-0238,2026-02-03,change_delay,order_api,medium,139,0,MT-119,Small validation change required edits across process_order
+EV-0239,2026-02-08,review_rework,storage,medium,90,0,MT-121,Shared connection behavior differed between tests and worker
+EV-0240,2026-02-13,dependency_review,http_client,high,72,0,MT-124,Unsupported client blocked transport policy update

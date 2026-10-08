@@ -1,0 +1,241 @@
+case_id,enabled,header_name,header_value,operation,cost,expected_tier,expected_limit,expected_allowed,expected_status,expected_error_code,cohort
+case-001,false,-,,mutation,43,standard,60,true,200,-,mobile
+case-002,true,X-Client-Tier, PARTNER ,query,143,partner,160,true,200,-,partner-api
+case-003,true,X-CLIENT-TIER,Internal,query,283,internal,300,true,200,-,batch
+case-004,true,x-client-tier,unknown,query,63,standard,80,true,200,-,console
+case-005,true,X-Client-Tier,,mutation,43,standard,60,true,200,-,mobile
+case-006,true,X-CLIENT-TIER,  ,query,63,standard,80,true,200,-,partner-api
+case-007,true,x-client-tier,standard,query,79,standard,80,true,200,-,batch
+case-008,true,X-Client-Tier, PARTNER ,query,159,partner,160,true,200,-,console
+case-009,true,X-CLIENT-TIER,Internal,mutation,59,internal,60,true,200,-,mobile
+case-010,true,x-client-tier,unknown,query,79,standard,80,true,200,-,partner-api
+case-011,true,X-Client-Tier,,query,79,standard,80,true,200,-,batch
+case-012,true,X-CLIENT-TIER,  ,query,79,standard,80,true,200,-,console
+case-013,true,x-client-tier,standard,mutation,60,standard,60,true,200,-,mobile
+case-014,true,X-Client-Tier, PARTNER ,query,160,partner,160,true,200,-,partner-api
+case-015,true,X-CLIENT-TIER,Internal,query,300,internal,300,true,200,-,batch
+case-016,true,x-client-tier,unknown,query,80,standard,80,true,200,-,console
+case-017,true,X-Client-Tier,,mutation,60,standard,60,true,200,-,mobile
+case-018,true,X-CLIENT-TIER,  ,query,80,standard,80,true,200,-,partner-api
+case-019,true,x-client-tier,standard,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-020,false,X-Client-Tier, PARTNER ,query,161,partner,160,true,200,-,console
+case-021,true,X-CLIENT-TIER,Internal,mutation,61,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-022,true,x-client-tier,unknown,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-023,true,X-Client-Tier,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-024,true,-,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-025,true,x-client-tier,standard,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-026,true,X-Client-Tier, PARTNER ,query,169,partner,160,false,200,QUERY_COST_EXCEEDED,partner-api
+case-027,true,X-CLIENT-TIER,Internal,query,309,internal,300,false,200,QUERY_COST_EXCEEDED,batch
+case-028,true,x-client-tier,unknown,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-029,true,X-Client-Tier,,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-030,true,X-CLIENT-TIER,  ,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-031,true,x-client-tier,standard,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-032,true,X-Client-Tier, PARTNER ,query,201,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-033,true,X-CLIENT-TIER,Internal,mutation,101,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-034,true,x-client-tier,unknown,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-035,true,X-Client-Tier,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-036,true,X-CLIENT-TIER,  ,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-037,true,x-client-tier,standard,mutation,43,standard,60,true,200,-,mobile
+case-038,true,X-Client-Tier, PARTNER ,query,143,partner,160,true,200,-,partner-api
+case-039,false,X-CLIENT-TIER,Internal,query,283,internal,300,true,200,-,batch
+case-040,true,x-client-tier,unknown,query,63,standard,80,true,200,-,console
+case-041,true,X-Client-Tier,,mutation,43,standard,60,true,200,-,mobile
+case-042,true,X-CLIENT-TIER,  ,query,63,standard,80,true,200,-,partner-api
+case-043,true,x-client-tier,standard,query,79,standard,80,true,200,-,batch
+case-044,true,X-Client-Tier, PARTNER ,query,159,partner,160,true,200,-,console
+case-045,true,X-CLIENT-TIER,Internal,mutation,59,internal,60,true,200,-,mobile
+case-046,true,x-client-tier,unknown,query,79,standard,80,true,200,-,partner-api
+case-047,true,-,,query,79,standard,80,true,200,-,batch
+case-048,true,X-CLIENT-TIER,  ,query,79,standard,80,true,200,-,console
+case-049,true,x-client-tier,standard,mutation,60,standard,60,true,200,-,mobile
+case-050,true,X-Client-Tier, PARTNER ,query,160,partner,160,true,200,-,partner-api
+case-051,true,X-CLIENT-TIER,Internal,query,300,internal,300,true,200,-,batch
+case-052,true,x-client-tier,unknown,query,80,standard,80,true,200,-,console
+case-053,true,X-Client-Tier,,mutation,60,standard,60,true,200,-,mobile
+case-054,true,X-CLIENT-TIER,  ,query,80,standard,80,true,200,-,partner-api
+case-055,true,x-client-tier,standard,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-056,true,X-Client-Tier, PARTNER ,query,161,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-057,true,X-CLIENT-TIER,Internal,mutation,61,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-058,false,x-client-tier,unknown,query,81,standard,80,true,200,-,partner-api
+case-059,true,X-Client-Tier,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-060,true,X-CLIENT-TIER,  ,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-061,true,x-client-tier,standard,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-062,true,X-Client-Tier, PARTNER ,query,169,partner,160,false,200,QUERY_COST_EXCEEDED,partner-api
+case-063,true,X-CLIENT-TIER,Internal,query,309,internal,300,false,200,QUERY_COST_EXCEEDED,batch
+case-064,true,x-client-tier,unknown,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-065,true,X-Client-Tier,,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-066,true,X-CLIENT-TIER,  ,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-067,true,x-client-tier,standard,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-068,true,X-Client-Tier, PARTNER ,query,201,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-069,true,X-CLIENT-TIER,Internal,mutation,101,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-070,true,-,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-071,true,X-Client-Tier,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-072,true,X-CLIENT-TIER,  ,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-073,true,x-client-tier,standard,mutation,43,standard,60,true,200,-,mobile
+case-074,true,X-Client-Tier, PARTNER ,query,143,partner,160,true,200,-,partner-api
+case-075,true,X-CLIENT-TIER,Internal,query,283,internal,300,true,200,-,batch
+case-076,true,x-client-tier,unknown,query,63,standard,80,true,200,-,console
+case-077,false,X-Client-Tier,,mutation,43,standard,60,true,200,-,mobile
+case-078,true,X-CLIENT-TIER,  ,query,63,standard,80,true,200,-,partner-api
+case-079,true,x-client-tier,standard,query,79,standard,80,true,200,-,batch
+case-080,true,X-Client-Tier, PARTNER ,query,159,partner,160,true,200,-,console
+case-081,true,X-CLIENT-TIER,Internal,mutation,59,internal,60,true,200,-,mobile
+case-082,true,x-client-tier,unknown,query,79,standard,80,true,200,-,partner-api
+case-083,true,X-Client-Tier,,query,79,standard,80,true,200,-,batch
+case-084,true,X-CLIENT-TIER,  ,query,79,standard,80,true,200,-,console
+case-085,true,x-client-tier,standard,mutation,60,standard,60,true,200,-,mobile
+case-086,true,X-Client-Tier, PARTNER ,query,160,partner,160,true,200,-,partner-api
+case-087,true,X-CLIENT-TIER,Internal,query,300,internal,300,true,200,-,batch
+case-088,true,x-client-tier,unknown,query,80,standard,80,true,200,-,console
+case-089,true,X-Client-Tier,,mutation,60,standard,60,true,200,-,mobile
+case-090,true,X-CLIENT-TIER,  ,query,80,standard,80,true,200,-,partner-api
+case-091,true,x-client-tier,standard,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-092,true,X-Client-Tier, PARTNER ,query,161,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-093,true,-,,mutation,61,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-094,true,x-client-tier,unknown,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-095,true,X-Client-Tier,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-096,false,X-CLIENT-TIER,  ,query,81,standard,80,true,200,-,console
+case-097,true,x-client-tier,standard,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-098,true,X-Client-Tier, PARTNER ,query,169,partner,160,false,200,QUERY_COST_EXCEEDED,partner-api
+case-099,true,X-CLIENT-TIER,Internal,query,309,internal,300,false,200,QUERY_COST_EXCEEDED,batch
+case-100,true,x-client-tier,unknown,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-101,true,X-Client-Tier,,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-102,true,X-CLIENT-TIER,  ,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-103,true,x-client-tier,standard,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-104,true,X-Client-Tier, PARTNER ,query,201,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-105,true,X-CLIENT-TIER,Internal,mutation,101,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-106,true,x-client-tier,unknown,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-107,true,X-Client-Tier,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-108,true,X-CLIENT-TIER,  ,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-109,true,x-client-tier,standard,mutation,43,standard,60,true,200,-,mobile
+case-110,true,X-Client-Tier, PARTNER ,query,143,partner,160,true,200,-,partner-api
+case-111,true,X-CLIENT-TIER,Internal,query,283,internal,300,true,200,-,batch
+case-112,true,x-client-tier,unknown,query,63,standard,80,true,200,-,console
+case-113,true,X-Client-Tier,,mutation,43,standard,60,true,200,-,mobile
+case-114,true,X-CLIENT-TIER,  ,query,63,standard,80,true,200,-,partner-api
+case-115,false,x-client-tier,standard,query,79,standard,80,true,200,-,batch
+case-116,true,-,,query,79,standard,80,true,200,-,console
+case-117,true,X-CLIENT-TIER,Internal,mutation,59,internal,60,true,200,-,mobile
+case-118,true,x-client-tier,unknown,query,79,standard,80,true,200,-,partner-api
+case-119,true,X-Client-Tier,,query,79,standard,80,true,200,-,batch
+case-120,true,X-CLIENT-TIER,  ,query,79,standard,80,true,200,-,console
+case-121,true,x-client-tier,standard,mutation,60,standard,60,true,200,-,mobile
+case-122,true,X-Client-Tier, PARTNER ,query,160,partner,160,true,200,-,partner-api
+case-123,true,X-CLIENT-TIER,Internal,query,300,internal,300,true,200,-,batch
+case-124,true,x-client-tier,unknown,query,80,standard,80,true,200,-,console
+case-125,true,X-Client-Tier,,mutation,60,standard,60,true,200,-,mobile
+case-126,true,X-CLIENT-TIER,  ,query,80,standard,80,true,200,-,partner-api
+case-127,true,x-client-tier,standard,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-128,true,X-Client-Tier, PARTNER ,query,161,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-129,true,X-CLIENT-TIER,Internal,mutation,61,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-130,true,x-client-tier,unknown,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-131,true,X-Client-Tier,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-132,true,X-CLIENT-TIER,  ,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-133,true,x-client-tier,standard,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-134,false,X-Client-Tier, PARTNER ,query,169,partner,160,true,200,-,partner-api
+case-135,true,X-CLIENT-TIER,Internal,query,309,internal,300,false,200,QUERY_COST_EXCEEDED,batch
+case-136,true,x-client-tier,unknown,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-137,true,X-Client-Tier,,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-138,true,X-CLIENT-TIER,  ,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-139,true,-,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-140,true,X-Client-Tier, PARTNER ,query,201,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-141,true,X-CLIENT-TIER,Internal,mutation,101,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-142,true,x-client-tier,unknown,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-143,true,X-Client-Tier,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-144,true,X-CLIENT-TIER,  ,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-145,true,x-client-tier,standard,mutation,43,standard,60,true,200,-,mobile
+case-146,true,X-Client-Tier, PARTNER ,query,143,partner,160,true,200,-,partner-api
+case-147,true,X-CLIENT-TIER,Internal,query,283,internal,300,true,200,-,batch
+case-148,true,x-client-tier,unknown,query,63,standard,80,true,200,-,console
+case-149,true,X-Client-Tier,,mutation,43,standard,60,true,200,-,mobile
+case-150,true,X-CLIENT-TIER,  ,query,63,standard,80,true,200,-,partner-api
+case-151,true,x-client-tier,standard,query,79,standard,80,true,200,-,batch
+case-152,true,X-Client-Tier, PARTNER ,query,159,partner,160,true,200,-,console
+case-153,false,X-CLIENT-TIER,Internal,mutation,59,internal,60,true,200,-,mobile
+case-154,true,x-client-tier,unknown,query,79,standard,80,true,200,-,partner-api
+case-155,true,X-Client-Tier,,query,79,standard,80,true,200,-,batch
+case-156,true,X-CLIENT-TIER,  ,query,79,standard,80,true,200,-,console
+case-157,true,x-client-tier,standard,mutation,60,standard,60,true,200,-,mobile
+case-158,true,X-Client-Tier, PARTNER ,query,160,partner,160,true,200,-,partner-api
+case-159,true,X-CLIENT-TIER,Internal,query,300,internal,300,true,200,-,batch
+case-160,true,x-client-tier,unknown,query,80,standard,80,true,200,-,console
+case-161,true,X-Client-Tier,,mutation,60,standard,60,true,200,-,mobile
+case-162,true,-,,query,80,standard,80,true,200,-,partner-api
+case-163,true,x-client-tier,standard,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-164,true,X-Client-Tier, PARTNER ,query,161,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-165,true,X-CLIENT-TIER,Internal,mutation,61,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-166,true,x-client-tier,unknown,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-167,true,X-Client-Tier,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-168,true,X-CLIENT-TIER,  ,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-169,true,x-client-tier,standard,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-170,true,X-Client-Tier, PARTNER ,query,169,partner,160,false,200,QUERY_COST_EXCEEDED,partner-api
+case-171,true,X-CLIENT-TIER,Internal,query,309,internal,300,false,200,QUERY_COST_EXCEEDED,batch
+case-172,false,x-client-tier,unknown,query,89,standard,80,true,200,-,console
+case-173,true,X-Client-Tier,,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-174,true,X-CLIENT-TIER,  ,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-175,true,x-client-tier,standard,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-176,true,X-Client-Tier, PARTNER ,query,201,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-177,true,X-CLIENT-TIER,Internal,mutation,101,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-178,true,x-client-tier,unknown,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-179,true,X-Client-Tier,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-180,true,X-CLIENT-TIER,  ,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-181,true,x-client-tier,standard,mutation,43,standard,60,true,200,-,mobile
+case-182,true,X-Client-Tier, PARTNER ,query,143,partner,160,true,200,-,partner-api
+case-183,true,X-CLIENT-TIER,Internal,query,283,internal,300,true,200,-,batch
+case-184,true,x-client-tier,unknown,query,63,standard,80,true,200,-,console
+case-185,true,-,,mutation,43,standard,60,true,200,-,mobile
+case-186,true,X-CLIENT-TIER,  ,query,63,standard,80,true,200,-,partner-api
+case-187,true,x-client-tier,standard,query,79,standard,80,true,200,-,batch
+case-188,true,X-Client-Tier, PARTNER ,query,159,partner,160,true,200,-,console
+case-189,true,X-CLIENT-TIER,Internal,mutation,59,internal,60,true,200,-,mobile
+case-190,true,x-client-tier,unknown,query,79,standard,80,true,200,-,partner-api
+case-191,false,X-Client-Tier,,query,79,standard,80,true,200,-,batch
+case-192,true,X-CLIENT-TIER,  ,query,79,standard,80,true,200,-,console
+case-193,true,x-client-tier,standard,mutation,60,standard,60,true,200,-,mobile
+case-194,true,X-Client-Tier, PARTNER ,query,160,partner,160,true,200,-,partner-api
+case-195,true,X-CLIENT-TIER,Internal,query,300,internal,300,true,200,-,batch
+case-196,true,x-client-tier,unknown,query,80,standard,80,true,200,-,console
+case-197,true,X-Client-Tier,,mutation,60,standard,60,true,200,-,mobile
+case-198,true,X-CLIENT-TIER,  ,query,80,standard,80,true,200,-,partner-api
+case-199,true,x-client-tier,standard,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-200,true,X-Client-Tier, PARTNER ,query,161,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-201,true,X-CLIENT-TIER,Internal,mutation,61,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-202,true,x-client-tier,unknown,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-203,true,X-Client-Tier,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-204,true,X-CLIENT-TIER,  ,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-205,true,x-client-tier,standard,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-206,true,X-Client-Tier, PARTNER ,query,169,partner,160,false,200,QUERY_COST_EXCEEDED,partner-api
+case-207,true,X-CLIENT-TIER,Internal,query,309,internal,300,false,200,QUERY_COST_EXCEEDED,batch
+case-208,true,-,,query,89,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-209,true,X-Client-Tier,,mutation,69,standard,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-210,false,X-CLIENT-TIER,  ,query,89,standard,80,true,200,-,partner-api
+case-211,true,x-client-tier,standard,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-212,true,X-Client-Tier, PARTNER ,query,201,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-213,true,X-CLIENT-TIER,Internal,mutation,101,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-214,true,x-client-tier,unknown,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-215,true,X-Client-Tier,,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-216,true,X-CLIENT-TIER,  ,query,121,standard,80,false,200,QUERY_COST_EXCEEDED,console
+case-217,true,x-client-tier,standard,mutation,43,standard,60,true,200,-,mobile
+case-218,true,X-Client-Tier, PARTNER ,query,143,partner,160,true,200,-,partner-api
+case-219,true,X-CLIENT-TIER,Internal,query,283,internal,300,true,200,-,batch
+case-220,true,x-client-tier,unknown,query,63,standard,80,true,200,-,console
+case-221,true,X-Client-Tier,,mutation,43,standard,60,true,200,-,mobile
+case-222,true,X-CLIENT-TIER,  ,query,63,standard,80,true,200,-,partner-api
+case-223,true,x-client-tier,standard,query,79,standard,80,true,200,-,batch
+case-224,true,X-Client-Tier, PARTNER ,query,159,partner,160,true,200,-,console
+case-225,true,X-CLIENT-TIER,Internal,mutation,59,internal,60,true,200,-,mobile
+case-226,true,x-client-tier,unknown,query,79,standard,80,true,200,-,partner-api
+case-227,true,X-Client-Tier,,query,79,standard,80,true,200,-,batch
+case-228,true,X-CLIENT-TIER,  ,query,79,standard,80,true,200,-,console
+case-229,false,x-client-tier,standard,mutation,60,standard,60,true,200,-,mobile
+case-230,true,X-Client-Tier, PARTNER ,query,160,partner,160,true,200,-,partner-api
+case-231,true,-,,query,80,standard,80,true,200,-,batch
+case-232,true,x-client-tier,unknown,query,80,standard,80,true,200,-,console
+case-233,true,X-Client-Tier,,mutation,60,standard,60,true,200,-,mobile
+case-234,true,X-CLIENT-TIER,  ,query,80,standard,80,true,200,-,partner-api
+case-235,true,x-client-tier,standard,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-236,true,X-Client-Tier, PARTNER ,query,161,partner,160,false,200,QUERY_COST_EXCEEDED,console
+case-237,true,X-CLIENT-TIER,Internal,mutation,61,internal,60,false,200,QUERY_COST_EXCEEDED,mobile
+case-238,true,x-client-tier,unknown,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,partner-api
+case-239,true,X-Client-Tier,,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,batch
+case-240,true,X-CLIENT-TIER,  ,query,81,standard,80,false,200,QUERY_COST_EXCEEDED,console

@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__audit_scope_fidelity",
+      "title": "Audit-item coverage and source fidelity",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every Burp audit item is represented once with the correct severity, confidence, and affected URL.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__evidence_based_disposition",
+      "title": "Evidence-based finding dispositions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Confirmed behavior, traffic-contradicted scanner leads, and inconclusive findings are distinguished consistently with the captured evidence.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_evidence_based_dispositions"
+      ]
+    },
+    {
+      "id": "completion__traffic_evidence_integrity",
+      "title": "Traffic evidence integrity and safe excerpts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Findings contain traceable, substantive traffic evidence where capture exists, do not cite nonexistent traffic records, and include no body excerpt over 1000 characters.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_traffic_evidence_integrity_and_excerpt_limits"
+      ]
+    },
+    {
+      "id": "completion__capture_limitations",
+      "title": "Capture and encoding limitations",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The artifact warns that the administrative host is absent from proxy capture and that a gzip-encoded script body cannot be corroborated from the text index.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_capture_and_encoding_limitations"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__audit_scope_fidelity",
+        "title": "Audit-item coverage and source fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__evidence_based_disposition",
+        "title": "Evidence-based finding dispositions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__traffic_evidence_integrity",
+        "title": "Traffic evidence integrity and safe excerpts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__capture_limitations",
+        "title": "Capture and encoding limitations",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

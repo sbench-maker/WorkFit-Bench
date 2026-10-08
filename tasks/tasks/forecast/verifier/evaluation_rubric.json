@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__forecast_math",
+      "title": "Headline and scenario forecast math",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Quota, booked revenue, scoped open pipeline, weighted forecast, gap, coverage, and best/likely/worst amounts follow the frozen data and supplied policies.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    },
+    {
+      "id": "completion__stage_rollup",
+      "title": "Stage rollup reconciliation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every in-scope stage reports the correct opportunity count, pipeline value, and stage-weighted value.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_stage_rollup_reconciles"
+      ]
+    },
+    {
+      "id": "completion__commit_upside",
+      "title": "Commit versus upside decisions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All and only in-quarter open opportunities are classified once, policy-qualified deals are committed, and both category totals reconcile to their deal lists.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_commit_upside_partition",
+        "test_commit_policy_decisions",
+        "test_commit_upside_totals"
+      ]
+    },
+    {
+      "id": "completion__risk_coverage",
+      "title": "Material risk coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The deal-level risk flags cover each policy-defined stale, overdue, compressed-timeline, sponsor, and security issue without leaking closed or out-of-quarter deals into the call.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_risk_flag_coverage",
+        "test_risk_flags_stay_in_scope"
+      ]
+    },
+    {
+      "id": "completion__action_prioritization",
+      "title": "Prioritized next actions",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The output contains a short prioritized action list tied to named financially material or time-sensitive deal risks and the likely quota gap.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__forecast_math",
+        "title": "Headline and scenario forecast math",
+        "required_score": 10
+      },
+      {
+        "id": "completion__stage_rollup",
+        "title": "Stage rollup reconciliation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__commit_upside",
+        "title": "Commit versus upside decisions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_coverage",
+        "title": "Material risk coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__action_prioritization",
+        "title": "Prioritized next actions",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

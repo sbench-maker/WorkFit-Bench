@@ -1,0 +1,24 @@
+{
+  "component_notes": {
+    "Alert": "Use polite status announcements except urgent error messages, which are assertive.",
+    "Button": "Loading and disabled controls cannot activate; icon-only usage needs an accessible name.",
+    "FormField": "Associate label, hint, and error content with its child input using stable IDs.",
+    "Modal": "Provide title labeling, Escape close, initial focus, a Tab focus loop, close-button naming, and focus restoration.",
+    "TextInput": "Keep native input types and attributes; invalid state must be expressible without color alone."
+  },
+  "consolidation_rule": "Support every distinct visual intent and size observed for each canonical component; states are behavior, not separate variants.",
+  "hierarchy": {
+    "atoms": [
+      "Button",
+      "TextInput"
+    ],
+    "molecules": [
+      "FormField",
+      "Alert"
+    ],
+    "organisms": [
+      "Modal"
+    ]
+  },
+  "release": "v0.1 starter"
+}

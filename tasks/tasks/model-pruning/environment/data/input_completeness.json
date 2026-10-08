@@ -1,0 +1,10 @@
+{
+  "checkpoint_rows_complete": true,
+  "tensor_manifest_complete": true,
+  "calibration_activations_complete": true,
+  "expected_checkpoint_rows": 240,
+  "expected_eligible_tensors": 28,
+  "expected_excluded_tensors": 2,
+  "expected_calibration_rows": 3584,
+  "truncated_inputs": []
+}

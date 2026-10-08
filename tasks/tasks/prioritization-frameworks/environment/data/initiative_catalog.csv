@@ -1,0 +1,15 @@
+initiative_id,initiative_name,planning_status,confidence_pct,effort_person_months,dependency_ids,exclusive_group
+I01,Failure timeline diagnostics,candidate,80,3.2,,
+I02,Role policy simulator,candidate,85,2.6,,
+I03,Legacy connector starter kit,candidate,65,4.0,,
+I04,Guided first-workflow builder,candidate,90,2.4,,onboarding_acceleration
+I05,Risk-based approval gates,candidate,75,3.0,,
+I06,Audit evidence export,candidate,88,2.2,,
+I07,Usage budget alerts,candidate,80,1.6,,
+I08,Shared workflow drafts,candidate,70,2.0,,
+I09,Unified reliability center,candidate,78,5.2,,
+I10,Enterprise governance pack,candidate,62,4.8,I02;I05,
+I11,Contextual template recommendations,candidate,72,1.8,,onboarding_acceleration
+I12,Run-event instrumentation foundation,candidate,95,1.4,,
+I13,Suggested fixes for failed runs,candidate,55,3.4,I01,
+I14,One-click workflow auto-repair,withdrawn,99,0.8,,

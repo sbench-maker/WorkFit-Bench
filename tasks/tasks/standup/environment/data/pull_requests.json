@@ -1,0 +1,1655 @@
+[
+  {
+    "pr_id": "relay-service#318",
+    "number": 318,
+    "repository": "relay-service",
+    "title": "Add bounded webhook retry policy",
+    "author_id": "u_mchen",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T18:20:00Z",
+    "merged_at_utc": "2026-09-08T06:15:00Z",
+    "updated_at_utc": "2026-09-08T06:15:00Z",
+    "linked_ticket": "OPS-482",
+    "head_sha": "a11ce483",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-08T05:05:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#912",
+    "number": 912,
+    "repository": "admin-console",
+    "title": "Role permission audit panel",
+    "author_id": "u_mchen",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-08T08:02:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-09T00:40:00Z",
+    "linked_ticket": "APP-771",
+    "head_sha": "b00b1772",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-09T00:40:00Z",
+        "state": "changes_requested"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#640",
+    "number": 640,
+    "repository": "mobile-shell",
+    "title": "Normalize cache keys across devices",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T20:15:00Z",
+    "merged_at_utc": "2026-09-08T05:45:00Z",
+    "updated_at_utc": "2026-09-08T05:45:00Z",
+    "linked_ticket": "MOB-640",
+    "head_sha": "6400beef",
+    "reviews": [
+      {
+        "user_id": "u_mchen",
+        "submitted_at_utc": "2026-09-08T05:25:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#911",
+    "number": 911,
+    "repository": "admin-console",
+    "title": "Clean up legacy audit filter",
+    "author_id": "u_mchen",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T10:00:00Z",
+    "merged_at_utc": "2026-09-07T15:55:00Z",
+    "updated_at_utc": "2026-09-07T15:55:00Z",
+    "linked_ticket": "APP-755",
+    "head_sha": "a11ce001",
+    "reviews": []
+  },
+  {
+    "pr_id": "relay-service#1000",
+    "number": 1000,
+    "repository": "relay-service",
+    "title": "Refine batch cursor",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": true,
+    "created_at_utc": "2026-09-01T00:00:00Z",
+    "merged_at_utc": "2026-09-01T02:00:00Z",
+    "updated_at_utc": "2026-09-01T02:00:00Z",
+    "linked_ticket": "OPS-1000",
+    "head_sha": "c0000000",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-01T01:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1001",
+    "number": 1001,
+    "repository": "admin-console",
+    "title": "Refine audit export",
+    "author_id": "u_nia",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-01T23:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-02T03:00:00Z",
+    "linked_ticket": "APP-1001",
+    "head_sha": "c0000001",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-02T01:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1002",
+    "number": 1002,
+    "repository": "mobile-shell",
+    "title": "Refine queue metric",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-02T22:00:00Z",
+    "merged_at_utc": "2026-09-03T02:00:00Z",
+    "updated_at_utc": "2026-09-03T02:00:00Z",
+    "linked_ticket": "DATA-1002",
+    "head_sha": "c0000002",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-03T01:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1003",
+    "number": 1003,
+    "repository": "event-router",
+    "title": "Refine cache warmer",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-03T21:00:00Z",
+    "merged_at_utc": "2026-09-04T02:00:00Z",
+    "updated_at_utc": "2026-09-04T02:00:00Z",
+    "linked_ticket": "MOB-1003",
+    "head_sha": "c0000003",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-04T01:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1004",
+    "number": 1004,
+    "repository": "test-tools",
+    "title": "Refine schema guard",
+    "author_id": "u_leo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-04T20:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-05T00:00:00Z",
+    "linked_ticket": "QA-1004",
+    "head_sha": "c0000004",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-05T01:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1005",
+    "number": 1005,
+    "repository": "relay-service",
+    "title": "Refine test shard",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-05T19:00:00Z",
+    "merged_at_utc": "2026-09-06T02:00:00Z",
+    "updated_at_utc": "2026-09-06T02:00:00Z",
+    "linked_ticket": "DOC-1005",
+    "head_sha": "c0000005",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-05T20:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1006",
+    "number": 1006,
+    "repository": "admin-console",
+    "title": "Refine batch cursor",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-06T18:00:00Z",
+    "merged_at_utc": "2026-09-07T02:00:00Z",
+    "updated_at_utc": "2026-09-07T02:00:00Z",
+    "linked_ticket": "OPS-1006",
+    "head_sha": "c0000006",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-06T20:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1007",
+    "number": 1007,
+    "repository": "mobile-shell",
+    "title": "Refine audit export",
+    "author_id": "u_priya",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-07T17:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-07T21:00:00Z",
+    "linked_ticket": "APP-1007",
+    "head_sha": "c0000007",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-07T20:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1008",
+    "number": 1008,
+    "repository": "event-router",
+    "title": "Refine queue metric",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-01T08:00:00Z",
+    "merged_at_utc": "2026-09-01T18:00:00Z",
+    "updated_at_utc": "2026-09-01T18:00:00Z",
+    "linked_ticket": "DATA-1008",
+    "head_sha": "c0000008",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-01T12:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1009",
+    "number": 1009,
+    "repository": "test-tools",
+    "title": "Refine cache warmer",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-02T07:00:00Z",
+    "merged_at_utc": "2026-09-02T18:00:00Z",
+    "updated_at_utc": "2026-09-02T18:00:00Z",
+    "linked_ticket": "MOB-1009",
+    "head_sha": "c0000009",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-02T12:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1010",
+    "number": 1010,
+    "repository": "relay-service",
+    "title": "Refine schema guard",
+    "author_id": "u_theo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-03T06:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-03T10:00:00Z",
+    "linked_ticket": "QA-1010",
+    "head_sha": "c000000a",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-03T07:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1011",
+    "number": 1011,
+    "repository": "admin-console",
+    "title": "Refine test shard",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": true,
+    "created_at_utc": "2026-09-04T05:00:00Z",
+    "merged_at_utc": "2026-09-04T18:00:00Z",
+    "updated_at_utc": "2026-09-04T18:00:00Z",
+    "linked_ticket": "DOC-1011",
+    "head_sha": "c000000b",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-04T07:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1012",
+    "number": 1012,
+    "repository": "mobile-shell",
+    "title": "Refine batch cursor",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-05T04:00:00Z",
+    "merged_at_utc": "2026-09-05T18:00:00Z",
+    "updated_at_utc": "2026-09-05T18:00:00Z",
+    "linked_ticket": "OPS-1012",
+    "head_sha": "c000000c",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-05T07:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1013",
+    "number": 1013,
+    "repository": "event-router",
+    "title": "Refine audit export",
+    "author_id": "u_jun",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-06T03:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-06T07:00:00Z",
+    "linked_ticket": "APP-1013",
+    "head_sha": "c000000d",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-06T07:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1014",
+    "number": 1014,
+    "repository": "test-tools",
+    "title": "Refine queue metric",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T02:00:00Z",
+    "merged_at_utc": "2026-09-07T18:00:00Z",
+    "updated_at_utc": "2026-09-07T18:00:00Z",
+    "linked_ticket": "DATA-1014",
+    "head_sha": "c000000e",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-07T07:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1015",
+    "number": 1015,
+    "repository": "relay-service",
+    "title": "Refine cache warmer",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-08T01:00:00Z",
+    "merged_at_utc": "2026-09-08T18:00:00Z",
+    "updated_at_utc": "2026-09-08T18:00:00Z",
+    "linked_ticket": "MOB-1015",
+    "head_sha": "c000000f",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-08T02:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1016",
+    "number": 1016,
+    "repository": "admin-console",
+    "title": "Refine schema guard",
+    "author_id": "u_nia",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-01T16:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-01T20:00:00Z",
+    "linked_ticket": "QA-1016",
+    "head_sha": "c0000010",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-01T18:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1017",
+    "number": 1017,
+    "repository": "mobile-shell",
+    "title": "Refine test shard",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-02T15:00:00Z",
+    "merged_at_utc": "2026-09-03T10:00:00Z",
+    "updated_at_utc": "2026-09-03T10:00:00Z",
+    "linked_ticket": "DOC-1017",
+    "head_sha": "c0000011",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-02T18:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1018",
+    "number": 1018,
+    "repository": "event-router",
+    "title": "Refine batch cursor",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-03T14:00:00Z",
+    "merged_at_utc": "2026-09-04T10:00:00Z",
+    "updated_at_utc": "2026-09-04T10:00:00Z",
+    "linked_ticket": "OPS-1018",
+    "head_sha": "c0000012",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-03T18:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1019",
+    "number": 1019,
+    "repository": "test-tools",
+    "title": "Refine audit export",
+    "author_id": "u_leo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-04T13:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-04T17:00:00Z",
+    "linked_ticket": "APP-1019",
+    "head_sha": "c0000013",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-04T18:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1020",
+    "number": 1020,
+    "repository": "relay-service",
+    "title": "Refine queue metric",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-05T12:00:00Z",
+    "merged_at_utc": "2026-09-05T14:00:00Z",
+    "updated_at_utc": "2026-09-05T14:00:00Z",
+    "linked_ticket": "DATA-1020",
+    "head_sha": "c0000014",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-05T13:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1021",
+    "number": 1021,
+    "repository": "admin-console",
+    "title": "Refine cache warmer",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-06T11:00:00Z",
+    "merged_at_utc": "2026-09-06T14:00:00Z",
+    "updated_at_utc": "2026-09-06T14:00:00Z",
+    "linked_ticket": "MOB-1021",
+    "head_sha": "c0000015",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-06T13:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1022",
+    "number": 1022,
+    "repository": "mobile-shell",
+    "title": "Refine schema guard",
+    "author_id": "u_priya",
+    "status": "open",
+    "draft": true,
+    "created_at_utc": "2026-09-07T10:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-07T14:00:00Z",
+    "linked_ticket": "QA-1022",
+    "head_sha": "c0000016",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-07T13:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1023",
+    "number": 1023,
+    "repository": "event-router",
+    "title": "Refine test shard",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-01T01:00:00Z",
+    "merged_at_utc": "2026-09-01T06:00:00Z",
+    "updated_at_utc": "2026-09-01T06:00:00Z",
+    "linked_ticket": "DOC-1023",
+    "head_sha": "c0000017",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-01T05:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1024",
+    "number": 1024,
+    "repository": "test-tools",
+    "title": "Refine batch cursor",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-02T00:00:00Z",
+    "merged_at_utc": "2026-09-02T06:00:00Z",
+    "updated_at_utc": "2026-09-02T06:00:00Z",
+    "linked_ticket": "OPS-1024",
+    "head_sha": "c0000018",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-02T05:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1025",
+    "number": 1025,
+    "repository": "relay-service",
+    "title": "Refine audit export",
+    "author_id": "u_theo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-02T23:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-03T03:00:00Z",
+    "linked_ticket": "APP-1025",
+    "head_sha": "c0000019",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-03T00:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1026",
+    "number": 1026,
+    "repository": "admin-console",
+    "title": "Refine queue metric",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-03T22:00:00Z",
+    "merged_at_utc": "2026-09-04T06:00:00Z",
+    "updated_at_utc": "2026-09-04T06:00:00Z",
+    "linked_ticket": "DATA-1026",
+    "head_sha": "c000001a",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-04T00:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1027",
+    "number": 1027,
+    "repository": "mobile-shell",
+    "title": "Refine cache warmer",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-04T21:00:00Z",
+    "merged_at_utc": "2026-09-05T06:00:00Z",
+    "updated_at_utc": "2026-09-05T06:00:00Z",
+    "linked_ticket": "MOB-1027",
+    "head_sha": "c000001b",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-05T00:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1028",
+    "number": 1028,
+    "repository": "event-router",
+    "title": "Refine schema guard",
+    "author_id": "u_jun",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-05T20:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-06T00:00:00Z",
+    "linked_ticket": "QA-1028",
+    "head_sha": "c000001c",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-06T00:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1029",
+    "number": 1029,
+    "repository": "test-tools",
+    "title": "Refine test shard",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-06T19:00:00Z",
+    "merged_at_utc": "2026-09-07T06:00:00Z",
+    "updated_at_utc": "2026-09-07T06:00:00Z",
+    "linked_ticket": "DOC-1029",
+    "head_sha": "c000001d",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-07T00:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1030",
+    "number": 1030,
+    "repository": "relay-service",
+    "title": "Refine batch cursor",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T18:00:00Z",
+    "merged_at_utc": "2026-09-08T06:00:00Z",
+    "updated_at_utc": "2026-09-08T06:00:00Z",
+    "linked_ticket": "OPS-1030",
+    "head_sha": "c000001e",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-07T19:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1031",
+    "number": 1031,
+    "repository": "admin-console",
+    "title": "Refine audit export",
+    "author_id": "u_nia",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-01T09:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-01T13:00:00Z",
+    "linked_ticket": "APP-1031",
+    "head_sha": "c000001f",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-01T11:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1032",
+    "number": 1032,
+    "repository": "mobile-shell",
+    "title": "Refine queue metric",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-02T08:00:00Z",
+    "merged_at_utc": "2026-09-02T22:00:00Z",
+    "updated_at_utc": "2026-09-02T22:00:00Z",
+    "linked_ticket": "DATA-1032",
+    "head_sha": "c0000020",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-02T11:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1033",
+    "number": 1033,
+    "repository": "event-router",
+    "title": "Refine cache warmer",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": true,
+    "created_at_utc": "2026-09-03T07:00:00Z",
+    "merged_at_utc": "2026-09-03T22:00:00Z",
+    "updated_at_utc": "2026-09-03T22:00:00Z",
+    "linked_ticket": "MOB-1033",
+    "head_sha": "c0000021",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-03T11:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1034",
+    "number": 1034,
+    "repository": "test-tools",
+    "title": "Refine schema guard",
+    "author_id": "u_leo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-04T06:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-04T10:00:00Z",
+    "linked_ticket": "QA-1034",
+    "head_sha": "c0000022",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-04T11:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1035",
+    "number": 1035,
+    "repository": "relay-service",
+    "title": "Refine test shard",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-05T05:00:00Z",
+    "merged_at_utc": "2026-09-05T22:00:00Z",
+    "updated_at_utc": "2026-09-05T22:00:00Z",
+    "linked_ticket": "DOC-1035",
+    "head_sha": "c0000023",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-05T06:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1036",
+    "number": 1036,
+    "repository": "admin-console",
+    "title": "Refine batch cursor",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-06T04:00:00Z",
+    "merged_at_utc": "2026-09-06T22:00:00Z",
+    "updated_at_utc": "2026-09-06T22:00:00Z",
+    "linked_ticket": "OPS-1036",
+    "head_sha": "c0000024",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-06T06:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1037",
+    "number": 1037,
+    "repository": "mobile-shell",
+    "title": "Refine audit export",
+    "author_id": "u_priya",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-07T03:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-07T07:00:00Z",
+    "linked_ticket": "APP-1037",
+    "head_sha": "c0000025",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-07T06:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1038",
+    "number": 1038,
+    "repository": "event-router",
+    "title": "Refine queue metric",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-08T02:00:00Z",
+    "merged_at_utc": "2026-09-08T22:00:00Z",
+    "updated_at_utc": "2026-09-08T22:00:00Z",
+    "linked_ticket": "DATA-1038",
+    "head_sha": "c0000026",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-08T06:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1039",
+    "number": 1039,
+    "repository": "test-tools",
+    "title": "Refine cache warmer",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-01T17:00:00Z",
+    "merged_at_utc": "2026-09-02T14:00:00Z",
+    "updated_at_utc": "2026-09-02T14:00:00Z",
+    "linked_ticket": "MOB-1039",
+    "head_sha": "c0000027",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-01T22:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1040",
+    "number": 1040,
+    "repository": "relay-service",
+    "title": "Refine schema guard",
+    "author_id": "u_theo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-02T16:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-02T20:00:00Z",
+    "linked_ticket": "QA-1040",
+    "head_sha": "c0000028",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-02T17:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1041",
+    "number": 1041,
+    "repository": "admin-console",
+    "title": "Refine test shard",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-03T15:00:00Z",
+    "merged_at_utc": "2026-09-03T18:00:00Z",
+    "updated_at_utc": "2026-09-03T18:00:00Z",
+    "linked_ticket": "DOC-1041",
+    "head_sha": "c0000029",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-03T17:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1042",
+    "number": 1042,
+    "repository": "mobile-shell",
+    "title": "Refine batch cursor",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-04T14:00:00Z",
+    "merged_at_utc": "2026-09-04T18:00:00Z",
+    "updated_at_utc": "2026-09-04T18:00:00Z",
+    "linked_ticket": "OPS-1042",
+    "head_sha": "c000002a",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-04T17:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1043",
+    "number": 1043,
+    "repository": "event-router",
+    "title": "Refine audit export",
+    "author_id": "u_jun",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-05T13:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-05T17:00:00Z",
+    "linked_ticket": "APP-1043",
+    "head_sha": "c000002b",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-05T17:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1044",
+    "number": 1044,
+    "repository": "test-tools",
+    "title": "Refine queue metric",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": true,
+    "created_at_utc": "2026-09-06T12:00:00Z",
+    "merged_at_utc": "2026-09-06T18:00:00Z",
+    "updated_at_utc": "2026-09-06T18:00:00Z",
+    "linked_ticket": "DATA-1044",
+    "head_sha": "c000002c",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-06T17:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1045",
+    "number": 1045,
+    "repository": "relay-service",
+    "title": "Refine cache warmer",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T11:00:00Z",
+    "merged_at_utc": "2026-09-07T18:00:00Z",
+    "updated_at_utc": "2026-09-07T18:00:00Z",
+    "linked_ticket": "MOB-1045",
+    "head_sha": "c000002d",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-07T12:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1046",
+    "number": 1046,
+    "repository": "admin-console",
+    "title": "Refine schema guard",
+    "author_id": "u_nia",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-01T02:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-01T06:00:00Z",
+    "linked_ticket": "QA-1046",
+    "head_sha": "c000002e",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-01T04:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1047",
+    "number": 1047,
+    "repository": "mobile-shell",
+    "title": "Refine test shard",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-02T01:00:00Z",
+    "merged_at_utc": "2026-09-02T10:00:00Z",
+    "updated_at_utc": "2026-09-02T10:00:00Z",
+    "linked_ticket": "DOC-1047",
+    "head_sha": "c000002f",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-02T04:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1048",
+    "number": 1048,
+    "repository": "event-router",
+    "title": "Refine batch cursor",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-03T00:00:00Z",
+    "merged_at_utc": "2026-09-03T10:00:00Z",
+    "updated_at_utc": "2026-09-03T10:00:00Z",
+    "linked_ticket": "OPS-1048",
+    "head_sha": "c0000030",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-03T04:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1049",
+    "number": 1049,
+    "repository": "test-tools",
+    "title": "Refine audit export",
+    "author_id": "u_leo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-03T23:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-04T03:00:00Z",
+    "linked_ticket": "APP-1049",
+    "head_sha": "c0000031",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-04T04:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1050",
+    "number": 1050,
+    "repository": "relay-service",
+    "title": "Refine queue metric",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-04T22:00:00Z",
+    "merged_at_utc": "2026-09-05T10:00:00Z",
+    "updated_at_utc": "2026-09-05T10:00:00Z",
+    "linked_ticket": "DATA-1050",
+    "head_sha": "c0000032",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-04T23:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1051",
+    "number": 1051,
+    "repository": "admin-console",
+    "title": "Refine cache warmer",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-05T21:00:00Z",
+    "merged_at_utc": "2026-09-06T10:00:00Z",
+    "updated_at_utc": "2026-09-06T10:00:00Z",
+    "linked_ticket": "MOB-1051",
+    "head_sha": "c0000033",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-05T23:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1052",
+    "number": 1052,
+    "repository": "mobile-shell",
+    "title": "Refine schema guard",
+    "author_id": "u_priya",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-06T20:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-07T00:00:00Z",
+    "linked_ticket": "QA-1052",
+    "head_sha": "c0000034",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-06T23:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1053",
+    "number": 1053,
+    "repository": "event-router",
+    "title": "Refine test shard",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T19:00:00Z",
+    "merged_at_utc": "2026-09-08T10:00:00Z",
+    "updated_at_utc": "2026-09-08T10:00:00Z",
+    "linked_ticket": "DOC-1053",
+    "head_sha": "c0000035",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-07T23:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1054",
+    "number": 1054,
+    "repository": "test-tools",
+    "title": "Refine batch cursor",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-01T10:00:00Z",
+    "merged_at_utc": "2026-09-02T02:00:00Z",
+    "updated_at_utc": "2026-09-02T02:00:00Z",
+    "linked_ticket": "OPS-1054",
+    "head_sha": "c0000036",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-01T15:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1055",
+    "number": 1055,
+    "repository": "relay-service",
+    "title": "Refine audit export",
+    "author_id": "u_theo",
+    "status": "open",
+    "draft": true,
+    "created_at_utc": "2026-09-02T09:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-02T13:00:00Z",
+    "linked_ticket": "APP-1055",
+    "head_sha": "c0000037",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-02T10:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1056",
+    "number": 1056,
+    "repository": "admin-console",
+    "title": "Refine queue metric",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-03T08:00:00Z",
+    "merged_at_utc": "2026-09-04T02:00:00Z",
+    "updated_at_utc": "2026-09-04T02:00:00Z",
+    "linked_ticket": "DATA-1056",
+    "head_sha": "c0000038",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-03T10:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1057",
+    "number": 1057,
+    "repository": "mobile-shell",
+    "title": "Refine cache warmer",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-04T07:00:00Z",
+    "merged_at_utc": "2026-09-05T02:00:00Z",
+    "updated_at_utc": "2026-09-05T02:00:00Z",
+    "linked_ticket": "MOB-1057",
+    "head_sha": "c0000039",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-04T10:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1058",
+    "number": 1058,
+    "repository": "event-router",
+    "title": "Refine schema guard",
+    "author_id": "u_jun",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-05T06:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-05T10:00:00Z",
+    "linked_ticket": "QA-1058",
+    "head_sha": "c000003a",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-05T10:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1059",
+    "number": 1059,
+    "repository": "test-tools",
+    "title": "Refine test shard",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-06T05:00:00Z",
+    "merged_at_utc": "2026-09-07T02:00:00Z",
+    "updated_at_utc": "2026-09-07T02:00:00Z",
+    "linked_ticket": "DOC-1059",
+    "head_sha": "c000003b",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-06T10:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1060",
+    "number": 1060,
+    "repository": "relay-service",
+    "title": "Refine batch cursor",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T04:00:00Z",
+    "merged_at_utc": "2026-09-07T06:00:00Z",
+    "updated_at_utc": "2026-09-07T06:00:00Z",
+    "linked_ticket": "OPS-1060",
+    "head_sha": "c000003c",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-07T05:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1061",
+    "number": 1061,
+    "repository": "admin-console",
+    "title": "Refine audit export",
+    "author_id": "u_nia",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-08T03:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-08T07:00:00Z",
+    "linked_ticket": "APP-1061",
+    "head_sha": "c000003d",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-08T05:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1062",
+    "number": 1062,
+    "repository": "mobile-shell",
+    "title": "Refine queue metric",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-01T18:00:00Z",
+    "merged_at_utc": "2026-09-01T22:00:00Z",
+    "updated_at_utc": "2026-09-01T22:00:00Z",
+    "linked_ticket": "DATA-1062",
+    "head_sha": "c000003e",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-01T21:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1063",
+    "number": 1063,
+    "repository": "event-router",
+    "title": "Refine cache warmer",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-02T17:00:00Z",
+    "merged_at_utc": "2026-09-02T22:00:00Z",
+    "updated_at_utc": "2026-09-02T22:00:00Z",
+    "linked_ticket": "MOB-1063",
+    "head_sha": "c000003f",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-02T21:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1064",
+    "number": 1064,
+    "repository": "test-tools",
+    "title": "Refine schema guard",
+    "author_id": "u_leo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-03T16:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-03T20:00:00Z",
+    "linked_ticket": "QA-1064",
+    "head_sha": "c0000040",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-03T21:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1065",
+    "number": 1065,
+    "repository": "relay-service",
+    "title": "Refine test shard",
+    "author_id": "u_theo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-04T15:00:00Z",
+    "merged_at_utc": "2026-09-04T22:00:00Z",
+    "updated_at_utc": "2026-09-04T22:00:00Z",
+    "linked_ticket": "DOC-1065",
+    "head_sha": "c0000041",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-04T16:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1066",
+    "number": 1066,
+    "repository": "admin-console",
+    "title": "Refine batch cursor",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": true,
+    "created_at_utc": "2026-09-05T14:00:00Z",
+    "merged_at_utc": "2026-09-05T22:00:00Z",
+    "updated_at_utc": "2026-09-05T22:00:00Z",
+    "linked_ticket": "OPS-1066",
+    "head_sha": "c0000042",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-05T16:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1067",
+    "number": 1067,
+    "repository": "mobile-shell",
+    "title": "Refine audit export",
+    "author_id": "u_priya",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-06T13:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-06T17:00:00Z",
+    "linked_ticket": "APP-1067",
+    "head_sha": "c0000043",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-06T16:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1068",
+    "number": 1068,
+    "repository": "event-router",
+    "title": "Refine queue metric",
+    "author_id": "u_jun",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-07T12:00:00Z",
+    "merged_at_utc": "2026-09-07T22:00:00Z",
+    "updated_at_utc": "2026-09-07T22:00:00Z",
+    "linked_ticket": "DATA-1068",
+    "head_sha": "c0000044",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-07T16:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1069",
+    "number": 1069,
+    "repository": "test-tools",
+    "title": "Refine cache warmer",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-01T03:00:00Z",
+    "merged_at_utc": "2026-09-01T14:00:00Z",
+    "updated_at_utc": "2026-09-01T14:00:00Z",
+    "linked_ticket": "MOB-1069",
+    "head_sha": "c0000045",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-01T08:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "relay-service#1070",
+    "number": 1070,
+    "repository": "relay-service",
+    "title": "Refine schema guard",
+    "author_id": "u_theo",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-02T02:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-02T06:00:00Z",
+    "linked_ticket": "QA-1070",
+    "head_sha": "c0000046",
+    "reviews": [
+      {
+        "user_id": "u_priya",
+        "submitted_at_utc": "2026-09-02T03:00:00Z",
+        "state": "commented"
+      }
+    ]
+  },
+  {
+    "pr_id": "admin-console#1071",
+    "number": 1071,
+    "repository": "admin-console",
+    "title": "Refine test shard",
+    "author_id": "u_nia",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-03T01:00:00Z",
+    "merged_at_utc": "2026-09-03T14:00:00Z",
+    "updated_at_utc": "2026-09-03T14:00:00Z",
+    "linked_ticket": "DOC-1071",
+    "head_sha": "c0000047",
+    "reviews": [
+      {
+        "user_id": "u_jun",
+        "submitted_at_utc": "2026-09-03T03:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "mobile-shell#1072",
+    "number": 1072,
+    "repository": "mobile-shell",
+    "title": "Refine batch cursor",
+    "author_id": "u_priya",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-04T00:00:00Z",
+    "merged_at_utc": "2026-09-04T14:00:00Z",
+    "updated_at_utc": "2026-09-04T14:00:00Z",
+    "linked_ticket": "OPS-1072",
+    "head_sha": "c0000048",
+    "reviews": [
+      {
+        "user_id": "u_leo",
+        "submitted_at_utc": "2026-09-04T03:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "event-router#1073",
+    "number": 1073,
+    "repository": "event-router",
+    "title": "Refine audit export",
+    "author_id": "u_jun",
+    "status": "open",
+    "draft": false,
+    "created_at_utc": "2026-09-04T23:00:00Z",
+    "merged_at_utc": null,
+    "updated_at_utc": "2026-09-05T03:00:00Z",
+    "linked_ticket": "APP-1073",
+    "head_sha": "c0000049",
+    "reviews": [
+      {
+        "user_id": "u_theo",
+        "submitted_at_utc": "2026-09-05T03:00:00Z",
+        "state": "approved"
+      }
+    ]
+  },
+  {
+    "pr_id": "test-tools#1074",
+    "number": 1074,
+    "repository": "test-tools",
+    "title": "Refine queue metric",
+    "author_id": "u_leo",
+    "status": "merged",
+    "draft": false,
+    "created_at_utc": "2026-09-05T22:00:00Z",
+    "merged_at_utc": "2026-09-06T14:00:00Z",
+    "updated_at_utc": "2026-09-06T14:00:00Z",
+    "linked_ticket": "DATA-1074",
+    "head_sha": "c000004a",
+    "reviews": [
+      {
+        "user_id": "u_nia",
+        "submitted_at_utc": "2026-09-06T03:00:00Z",
+        "state": "approved"
+      }
+    ]
+  }
+]

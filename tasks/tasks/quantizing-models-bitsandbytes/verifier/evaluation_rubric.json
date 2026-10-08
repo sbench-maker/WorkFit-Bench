@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_and_coverage",
+      "title": "Readable, traceable queue coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON is readable and contains exactly one model- and GPU-traceable plan for every queued request.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_is_readable_and_covers_queue"
+      ]
+    },
+    {
+      "id": "completion__mode_and_placement",
+      "title": "Least-memory feasible mode and placement",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each request has the correct accept/reject outcome, least-memory accuracy-compatible precision, and native or CPU-offload placement under the supplied memory and latency policy.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_mode_and_placement_decisions"
+      ]
+    },
+    {
+      "id": "completion__resource_accounting",
+      "title": "Memory and accuracy accounting",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Available GPU weight space, total weight memory, GPU residency, CPU spill, and expected accuracy loss are internally correct for the plan's declared mode and placement; rejected work does not invent deployment figures.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_memory_and_accuracy_values"
+      ]
+    },
+    {
+      "id": "completion__runtime_configuration",
+      "title": "Compatible bitsandbytes and loading configuration",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Accepted plans carry configuration consistent with their declared mode, target GPU, and model, including safe offload limits where needed.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_bitsandbytes_and_load_configuration"
+      ]
+    },
+    {
+      "id": "completion__summary_consistency",
+      "title": "Reconciled deployment summary",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Counts by status, mode, and placement and aggregate memory totals reconcile to the submitted request-level plans.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_and_coverage",
+        "title": "Readable, traceable queue coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__mode_and_placement",
+        "title": "Least-memory feasible mode and placement",
+        "required_score": 10
+      },
+      {
+        "id": "completion__resource_accounting",
+        "title": "Memory and accuracy accounting",
+        "required_score": 10
+      },
+      {
+        "id": "completion__runtime_configuration",
+        "title": "Compatible bitsandbytes and loading configuration",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summary_consistency",
+        "title": "Reconciled deployment summary",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

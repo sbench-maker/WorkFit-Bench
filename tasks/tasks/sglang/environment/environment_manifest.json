@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3"
+  ],
+  "command_versions": {
+    "bash": "5.2",
+    "python3": "3.12.11"
+  },
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "iniconfig",
+      "import_name": "iniconfig",
+      "version": "2.1.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "packaging",
+      "import_name": "packaging",
+      "version": "25.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "pluggy",
+      "import_name": "pluggy",
+      "version": "1.6.0",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "pygments",
+      "import_name": "pygments",
+      "version": "2.19.2",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "sglang-offline-runtime",
+      "import_name": "sglang",
+      "version": "1.0.0",
+      "used_by": [
+        "agent",
+        "verifier"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ]
+}

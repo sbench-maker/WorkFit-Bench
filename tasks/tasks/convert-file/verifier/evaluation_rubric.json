@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__record_fidelity",
+      "title": "Complete record and value fidelity",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every source event appears exactly once and all values, including nulls, empty text, Unicode, timestamps, decimals, booleans, and large integers, retain their meaning.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_record_fidelity"
+      ]
+    },
+    {
+      "id": "completion__schema_preservation",
+      "title": "Column and logical-type preservation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All source columns, and no invented columns, are present with compatible logical field types for downstream use.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_schema_preservation"
+      ]
+    },
+    {
+      "id": "completion__month_partitioning",
+      "title": "Campaign-month partitioning",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The dataset is physically partitioned by campaign_month, covers all source months, and places no row in the wrong month partition.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_month_partitioning"
+      ]
+    },
+    {
+      "id": "completion__zstd_compression",
+      "title": "Zstandard Parquet compression",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every populated Parquet column chunk uses Zstandard compression.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_zstd_compression"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__record_fidelity",
+        "title": "Complete record and value fidelity",
+        "required_score": 10
+      },
+      {
+        "id": "completion__schema_preservation",
+        "title": "Column and logical-type preservation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__month_partitioning",
+        "title": "Campaign-month partitioning",
+        "required_score": 10
+      },
+      {
+        "id": "completion__zstd_compression",
+        "title": "Zstandard Parquet compression",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

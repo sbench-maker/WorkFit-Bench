@@ -1,0 +1,241 @@
+item_id,title,product_area,work_type,requester_group,strategic_theme,discovery_status,customer_commitment,fixed_deadline,reach_90d,reach_basis,evidence_confidence,impact_signal_1_to_5,effort_engineer_weeks,revenue_at_risk_k,dependency_count,compliance_must_do,usage_instrumented,notes
+BL-001,Extend audit trail for onboarding,Onboarding,tech_debt,Sales,Operational scale,ready,none,,,unknown,low,3,12,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-002,Stabilize role policy for automation,Automation,compliance,Support,Retention,discovery,none,,,unknown,low,5,7,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-003,Instrument workspace for reporting,Reporting,experiment,Engineering,Enterprise readiness,candidate,none,,639,telemetry,medium,2,2,0,3,false,true,
+BL-004,Govern audit trail for integrations,Integrations,reliability,Product,Activation,ready,none,,,unknown,low,4,13,0,0,false,false,
+BL-005,Accelerate role policy for admin,Admin,feature,Sales,Operational scale,discovery,none,,,unknown,low,1,8,0,1,false,false,
+BL-006,Simplify workspace for reliability,Reliability,tech_debt,Support,Retention,candidate,none,,,unknown,low,3,3,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-007,Extend audit trail for onboarding,Onboarding,compliance,Engineering,Retention,ready,none,,,unknown,low,5,14,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-008,Stabilize role policy for automation,Automation,experiment,Product,Enterprise readiness,discovery,none,,,unknown,low,2,9,0,0,false,true,
+BL-009,Instrument workspace for reporting,Reporting,reliability,Support,Activation,candidate,none,,1677,telemetry,medium,4,4,0,1,false,true,
+BL-010,Govern audit trail for integrations,Integrations,feature,Engineering,Operational scale,ready,none,,,unknown,low,1,15,0,2,false,false,
+BL-011,Accelerate role policy for admin,Admin,tech_debt,Product,Retention,discovery,informal,,,unknown,low,3,10,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-012,Simplify workspace for reliability,Reliability,compliance,Sales,Enterprise readiness,candidate,none,,,unknown,low,5,5,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-013,Extend audit trail for onboarding,Onboarding,experiment,Support,Activation,ready,none,,2369,telemetry,high,2,16,0,1,false,true,
+BL-014,Stabilize role policy for automation,Automation,reliability,Engineering,Activation,discovery,none,,2542,telemetry,high,4,11,0,2,false,true,
+BL-015,Instrument workspace for reporting,Reporting,feature,Product,Operational scale,candidate,none,,,unknown,low,1,6,0,3,false,false,
+BL-016,Govern audit trail for integrations,Integrations,tech_debt,Sales,Retention,ready,none,,,unknown,low,3,1,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-017,Accelerate role policy for admin,Admin,compliance,Support,Enterprise readiness,discovery,none,,,unknown,low,5,12,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-018,Simplify workspace for reliability,Reliability,experiment,Product,Activation,candidate,contractual,2027-03-15,2,customer_count,medium,2,7,147,2,false,false,
+BL-019,Extend audit trail for onboarding,Onboarding,reliability,Sales,Operational scale,ready,none,,3407,telemetry,high,4,2,0,3,false,true,
+BL-020,Stabilize role policy for automation,Automation,feature,Support,Retention,discovery,none,,,unknown,low,1,13,0,0,false,false,
+BL-021,Instrument workspace for reporting,Reporting,tech_debt,Engineering,Retention,candidate,none,,,unknown,low,3,8,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-022,Govern audit trail for integrations,Integrations,compliance,Product,Enterprise readiness,ready,informal,,,unknown,low,5,3,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-023,Accelerate role policy for admin,Admin,experiment,Sales,Activation,discovery,none,,,unknown,low,2,14,0,3,false,false,
+BL-024,Simplify workspace for reliability,Reliability,reliability,Support,Operational scale,candidate,none,,,unknown,low,4,9,0,0,false,false,
+BL-025,Extend audit trail for onboarding,Onboarding,feature,Engineering,Retention,ready,none,,,unknown,low,1,4,0,1,false,false,
+BL-026,Stabilize role policy for automation,Automation,tech_debt,Product,Enterprise readiness,discovery,none,,,unknown,low,3,15,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-027,Instrument workspace for reporting,Reporting,compliance,Support,Activation,candidate,none,,,unknown,low,5,10,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-028,Govern audit trail for integrations,Integrations,experiment,Engineering,Activation,ready,none,,,unknown,low,2,5,0,0,false,false,
+BL-029,Accelerate role policy for admin,Admin,reliability,Product,Operational scale,discovery,none,,,unknown,low,4,16,0,1,false,false,
+BL-030,Simplify workspace for reliability,Reliability,feature,Sales,Retention,candidate,none,,,unknown,low,1,11,0,2,false,false,
+BL-031,Extend audit trail for onboarding,Onboarding,tech_debt,Support,Enterprise readiness,ready,none,,,unknown,low,3,6,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-032,Stabilize role policy for automation,Automation,compliance,Engineering,Activation,discovery,none,,,unknown,low,5,1,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-033,Instrument workspace for reporting,Reporting,experiment,Product,Operational scale,candidate,informal,,929,telemetry,medium,2,12,0,1,false,true,
+BL-034,Govern audit trail for integrations,Integrations,reliability,Sales,Retention,ready,none,,,unknown,low,4,7,0,2,false,false,
+BL-035,Accelerate role policy for admin,Admin,feature,Support,Retention,discovery,none,,,unknown,low,1,2,0,3,false,false,
+BL-036,Simplify workspace for reliability,Reliability,tech_debt,Product,Enterprise readiness,candidate,none,,,unknown,low,3,13,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-037,Extend audit trail for admin,Admin,compliance,Sales,Activation,ready,none,2027-01-31,,unknown,low,5,8,0,1,true,false,Mandatory control gap; deadline applies regardless of score.
+BL-038,Stabilize role policy for automation,Automation,experiment,Support,Operational scale,discovery,none,,1794,telemetry,high,2,3,0,2,false,true,
+BL-039,Instrument workspace for reporting,Reporting,reliability,Engineering,Retention,candidate,none,,1967,telemetry,medium,4,14,0,3,false,true,
+BL-040,Govern audit trail for integrations,Integrations,feature,Product,Enterprise readiness,ready,none,,,unknown,low,1,9,0,0,false,false,
+BL-041,Accelerate role policy for admin,Admin,tech_debt,Sales,Activation,discovery,none,,,unknown,low,3,4,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-042,Simplify workspace for reliability,Reliability,compliance,Support,Activation,candidate,contractual,2027-03-15,8,customer_count,medium,5,15,163,2,false,false,Reach is not meaningful; risk reduction work.
+BL-043,Extend audit trail for onboarding,Onboarding,experiment,Engineering,Operational scale,ready,none,,2659,telemetry,high,2,10,0,3,false,true,
+BL-044,Stabilize role policy for automation,Automation,reliability,Product,Retention,discovery,informal,,,unknown,low,4,5,0,0,false,true,
+BL-045,Instrument workspace for reporting,Reporting,feature,Support,Enterprise readiness,candidate,none,,,unknown,low,1,16,0,1,false,false,
+BL-046,Govern audit trail for integrations,Integrations,tech_debt,Engineering,Activation,ready,none,,,unknown,low,3,11,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-047,Accelerate role policy for admin,Admin,compliance,Product,Operational scale,discovery,none,,,unknown,low,5,6,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-048,Simplify workspace for reliability,Reliability,experiment,Sales,Retention,candidate,none,,,unknown,low,2,1,0,0,false,false,
+BL-049,Extend audit trail for onboarding,Onboarding,reliability,Support,Retention,ready,none,,3697,telemetry,high,4,12,0,1,false,true,
+BL-050,Stabilize role policy for automation,Automation,feature,Engineering,Enterprise readiness,discovery,none,,,unknown,low,1,7,0,2,false,false,
+BL-051,Instrument workspace for reporting,Reporting,tech_debt,Product,Activation,candidate,none,,,unknown,low,3,2,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-052,Govern audit trail for integrations,Integrations,compliance,Sales,Operational scale,ready,none,,,unknown,low,5,13,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-053,Accelerate role policy for admin,Admin,experiment,Support,Retention,discovery,none,,,unknown,low,2,8,0,1,false,false,
+BL-054,Simplify workspace for reliability,Reliability,reliability,Product,Enterprise readiness,candidate,none,,,unknown,low,4,3,0,2,false,false,
+BL-055,Extend audit trail for onboarding,Onboarding,feature,Sales,Activation,ready,informal,,,unknown,low,1,14,0,3,false,false,
+BL-056,Stabilize role policy for automation,Automation,tech_debt,Support,Activation,discovery,none,,,unknown,low,3,9,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-057,Instrument workspace for reporting,Reporting,compliance,Engineering,Operational scale,candidate,none,,,unknown,low,5,4,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-058,Govern audit trail for integrations,Integrations,experiment,Product,Retention,ready,none,,,unknown,low,2,15,0,2,false,false,
+BL-059,Accelerate role policy for admin,Admin,reliability,Sales,Enterprise readiness,discovery,none,,,unknown,low,4,10,0,3,false,false,
+BL-060,Simplify workspace for reliability,Reliability,feature,Support,Activation,candidate,none,,,unknown,low,1,5,0,0,false,false,
+BL-061,Extend audit trail for onboarding,Onboarding,tech_debt,Engineering,Operational scale,ready,none,,,unknown,low,3,16,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-062,Stabilize role policy for automation,Automation,compliance,Product,Retention,discovery,none,,,unknown,low,5,11,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-063,Instrument workspace for reporting,Reporting,experiment,Support,Retention,candidate,none,,1219,telemetry,medium,2,6,0,3,false,true,
+BL-064,Govern audit trail for integrations,Integrations,reliability,Engineering,Enterprise readiness,ready,none,,,unknown,low,4,1,0,0,false,false,
+BL-065,Accelerate role policy for admin,Admin,feature,Product,Activation,discovery,none,,,unknown,low,1,12,0,1,false,false,
+BL-066,Simplify workspace for reliability,Reliability,tech_debt,Sales,Operational scale,candidate,informal,,,unknown,low,3,7,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-067,Extend audit trail for onboarding,Onboarding,compliance,Support,Retention,ready,none,,,unknown,low,5,2,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-068,Stabilize role policy for automation,Automation,experiment,Engineering,Enterprise readiness,discovery,none,,,unknown,low,2,13,0,0,false,true,
+BL-069,Instrument workspace for reporting,Reporting,reliability,Product,Activation,candidate,none,,2257,telemetry,medium,4,8,0,1,false,true,
+BL-070,Govern audit trail for integrations,Integrations,feature,Sales,Activation,ready,none,,,unknown,low,1,3,0,2,false,false,
+BL-071,Accelerate role policy for admin,Admin,tech_debt,Support,Operational scale,discovery,none,,,unknown,low,3,14,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-072,Simplify workspace for reliability,Reliability,compliance,Product,Retention,candidate,none,,,unknown,low,5,9,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-073,Extend audit trail for onboarding,Onboarding,experiment,Sales,Enterprise readiness,ready,contractual,2027-03-15,3,telemetry,high,2,4,92,1,false,true,
+BL-074,Stabilize role policy for automation,Automation,reliability,Support,Activation,discovery,none,,3122,telemetry,high,4,15,0,2,false,true,
+BL-075,Instrument workspace for reporting,Reporting,feature,Engineering,Operational scale,candidate,none,,,unknown,low,1,10,0,3,false,false,
+BL-076,Govern audit trail for integrations,Integrations,tech_debt,Product,Retention,ready,none,,,unknown,low,3,5,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-077,Accelerate role policy for admin,Admin,compliance,Sales,Retention,discovery,informal,,,unknown,low,5,16,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-078,Simplify workspace for reliability,Reliability,experiment,Support,Enterprise readiness,candidate,none,,,unknown,low,2,11,0,2,false,false,
+BL-079,Extend audit trail for onboarding,Onboarding,reliability,Engineering,Activation,ready,none,,3987,telemetry,high,4,6,0,3,false,true,
+BL-080,Stabilize role policy for automation,Automation,feature,Product,Operational scale,discovery,none,,,unknown,low,1,1,0,0,false,false,
+BL-081,Instrument workspace for reporting,Reporting,tech_debt,Support,Retention,candidate,none,,,unknown,low,3,12,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-082,Govern audit trail for integrations,Integrations,compliance,Engineering,Enterprise readiness,ready,none,,,unknown,low,5,7,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-083,Accelerate role policy for admin,Admin,experiment,Product,Activation,discovery,none,,,unknown,low,2,2,0,3,false,false,
+BL-084,Simplify workspace for reliability,Reliability,reliability,Sales,Activation,candidate,none,,,unknown,low,4,13,0,0,false,false,
+BL-085,Extend audit trail for onboarding,Onboarding,feature,Support,Operational scale,ready,none,,,unknown,low,1,8,0,1,false,false,
+BL-086,Stabilize role policy for automation,Automation,tech_debt,Engineering,Retention,discovery,none,,,unknown,low,3,3,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-087,Instrument workspace for reporting,Reporting,compliance,Product,Enterprise readiness,candidate,none,,,unknown,low,5,14,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-088,Govern audit trail for integrations,Integrations,experiment,Sales,Activation,ready,informal,,,unknown,low,2,9,0,0,false,false,
+BL-089,Accelerate role policy for admin,Admin,reliability,Support,Operational scale,discovery,none,,,unknown,low,4,4,0,1,false,false,
+BL-090,Simplify workspace for reliability,Reliability,feature,Product,Retention,candidate,none,,,unknown,low,1,15,0,2,false,false,
+BL-091,Extend audit trail for onboarding,Onboarding,tech_debt,Sales,Retention,ready,none,,,unknown,low,3,10,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-092,Stabilize role policy for automation,Automation,compliance,Support,Enterprise readiness,discovery,none,,,unknown,low,5,5,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-093,Instrument workspace for reporting,Reporting,experiment,Engineering,Activation,candidate,none,,1509,telemetry,medium,2,16,0,1,false,true,
+BL-094,Govern audit trail for integrations,Integrations,reliability,Product,Operational scale,ready,contractual,2027-03-15,6,customer_count,medium,4,11,51,2,false,false,
+BL-095,Accelerate role policy for admin,Admin,feature,Sales,Retention,discovery,none,,,unknown,low,1,6,0,3,false,false,
+BL-096,Simplify workspace for reliability,Reliability,tech_debt,Support,Enterprise readiness,candidate,none,,,unknown,low,3,1,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-097,Extend audit trail for onboarding,Onboarding,compliance,Engineering,Activation,ready,none,,,unknown,low,5,12,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-098,Stabilize role policy for automation,Automation,experiment,Product,Activation,discovery,none,,2374,telemetry,high,2,7,0,2,false,true,
+BL-099,Instrument workspace for reporting,Reporting,reliability,Support,Operational scale,candidate,informal,,2547,telemetry,medium,4,2,0,3,false,true,
+BL-100,Govern audit trail for integrations,Integrations,feature,Engineering,Retention,ready,none,,,unknown,low,1,13,0,0,false,false,
+BL-101,Accelerate role policy for admin,Admin,tech_debt,Product,Enterprise readiness,discovery,none,,,unknown,low,3,8,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-102,Simplify workspace for reliability,Reliability,compliance,Sales,Activation,candidate,none,,,unknown,low,5,3,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-103,Extend audit trail for onboarding,Onboarding,experiment,Support,Operational scale,ready,none,,3239,telemetry,high,2,14,0,3,false,true,
+BL-104,Stabilize role policy for automation,Automation,reliability,Engineering,Retention,discovery,none,,,unknown,low,4,9,0,0,false,true,
+BL-105,Instrument workspace for reporting,Reporting,feature,Product,Retention,candidate,none,,,unknown,low,1,4,0,1,false,false,
+BL-106,Govern audit trail for integrations,Integrations,tech_debt,Sales,Enterprise readiness,ready,none,,,unknown,low,3,15,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-107,Accelerate role policy for admin,Admin,compliance,Support,Activation,discovery,none,,,unknown,low,5,10,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-108,Simplify workspace for reliability,Reliability,experiment,Product,Operational scale,candidate,none,,,unknown,low,2,5,0,0,false,false,
+BL-109,Extend audit trail for onboarding,Onboarding,reliability,Sales,Retention,ready,none,,4277,telemetry,high,4,16,0,1,false,true,
+BL-110,Stabilize role policy for automation,Automation,feature,Support,Enterprise readiness,discovery,informal,,,unknown,low,1,11,0,2,false,false,
+BL-111,Instrument workspace for admin,Admin,compliance,Engineering,Activation,candidate,none,2027-01-31,,unknown,low,3,6,0,3,true,false,Mandatory control gap; deadline applies regardless of score.
+BL-112,Govern audit trail for integrations,Integrations,compliance,Product,Activation,ready,none,,,unknown,low,5,1,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-113,Accelerate role policy for admin,Admin,experiment,Sales,Operational scale,discovery,none,,,unknown,low,2,12,0,1,false,false,
+BL-114,Simplify workspace for reliability,Reliability,reliability,Support,Retention,candidate,none,,,unknown,low,4,7,0,2,false,false,
+BL-115,Extend audit trail for onboarding,Onboarding,feature,Engineering,Enterprise readiness,ready,none,,,unknown,low,1,2,0,3,false,false,
+BL-116,Stabilize role policy for automation,Automation,tech_debt,Product,Activation,discovery,none,,,unknown,low,3,13,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-117,Instrument workspace for reporting,Reporting,compliance,Support,Operational scale,candidate,none,,,unknown,low,5,8,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-118,Govern audit trail for integrations,Integrations,experiment,Engineering,Retention,ready,none,,,unknown,low,2,3,0,2,false,false,
+BL-119,Accelerate role policy for admin,Admin,reliability,Product,Retention,discovery,none,,,unknown,low,4,14,0,3,false,false,
+BL-120,Simplify workspace for reliability,Reliability,feature,Sales,Enterprise readiness,candidate,none,,,unknown,low,1,9,0,0,false,false,
+BL-121,Extend audit trail for onboarding,Onboarding,tech_debt,Support,Activation,ready,informal,,,unknown,low,3,4,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-122,Stabilize role policy for automation,Automation,compliance,Engineering,Operational scale,discovery,none,,,unknown,low,5,15,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-123,Instrument workspace for reporting,Reporting,experiment,Product,Retention,candidate,none,,1799,telemetry,medium,2,10,0,3,false,true,
+BL-124,Govern audit trail for integrations,Integrations,reliability,Sales,Enterprise readiness,ready,none,,,unknown,low,4,5,0,0,false,false,
+BL-125,Accelerate role policy for admin,Admin,feature,Support,Activation,discovery,none,,,unknown,low,1,16,0,1,false,false,
+BL-126,Simplify workspace for reliability,Reliability,tech_debt,Product,Activation,candidate,contractual,2027-03-15,2,customer_count,medium,3,11,219,2,false,false,Reach is not meaningful; risk reduction work.
+BL-127,Extend audit trail for onboarding,Onboarding,compliance,Sales,Operational scale,ready,none,,,unknown,low,5,6,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-128,Stabilize role policy for automation,Automation,experiment,Support,Retention,discovery,none,,,unknown,low,2,1,0,0,false,true,
+BL-129,Instrument workspace for reporting,Reporting,reliability,Engineering,Enterprise readiness,candidate,none,,2837,telemetry,medium,4,12,0,1,false,true,
+BL-130,Govern audit trail for integrations,Integrations,feature,Product,Activation,ready,none,,,unknown,low,1,7,0,2,false,false,
+BL-131,Accelerate role policy for admin,Admin,tech_debt,Sales,Operational scale,discovery,none,,,unknown,low,3,2,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-132,Simplify workspace for reliability,Reliability,compliance,Support,Retention,candidate,informal,,,unknown,low,5,13,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-133,Extend audit trail for onboarding,Onboarding,experiment,Engineering,Retention,ready,none,,3529,telemetry,high,2,8,0,1,false,true,
+BL-134,Stabilize role policy for automation,Automation,reliability,Product,Enterprise readiness,discovery,none,,3702,telemetry,high,4,3,0,2,false,true,
+BL-135,Instrument workspace for reporting,Reporting,feature,Support,Activation,candidate,none,,,unknown,low,1,14,0,3,false,false,
+BL-136,Govern audit trail for integrations,Integrations,tech_debt,Engineering,Operational scale,ready,none,,,unknown,low,3,9,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-137,Accelerate role policy for admin,Admin,compliance,Product,Retention,discovery,none,,,unknown,low,5,4,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-138,Simplify workspace for reliability,Reliability,experiment,Sales,Enterprise readiness,candidate,none,,,unknown,low,2,15,0,2,false,false,
+BL-139,Extend audit trail for onboarding,Onboarding,reliability,Support,Activation,ready,none,,4567,telemetry,high,4,10,0,3,false,true,
+BL-140,Stabilize role policy for automation,Automation,feature,Engineering,Activation,discovery,none,,,unknown,low,1,5,0,0,false,false,
+BL-141,Instrument workspace for reporting,Reporting,tech_debt,Product,Operational scale,candidate,none,,,unknown,low,3,16,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-142,Govern audit trail for integrations,Integrations,compliance,Sales,Retention,ready,none,,,unknown,low,5,11,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-143,Accelerate role policy for admin,Admin,experiment,Support,Enterprise readiness,discovery,informal,,,unknown,low,2,6,0,3,false,false,
+BL-144,Simplify workspace for reliability,Reliability,reliability,Product,Activation,candidate,none,,,unknown,low,4,1,0,0,false,false,
+BL-145,Extend audit trail for onboarding,Onboarding,feature,Sales,Operational scale,ready,none,,,unknown,low,1,12,0,1,false,false,
+BL-146,Stabilize role policy for automation,Automation,tech_debt,Support,Retention,discovery,none,,,unknown,low,3,7,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-147,Instrument workspace for reporting,Reporting,compliance,Engineering,Retention,candidate,none,,,unknown,low,5,2,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-148,Govern audit trail for integrations,Integrations,experiment,Product,Enterprise readiness,ready,none,,,unknown,low,2,13,0,0,false,false,
+BL-149,Accelerate role policy for admin,Admin,reliability,Sales,Activation,discovery,none,,,unknown,low,4,8,0,1,false,false,
+BL-150,Simplify workspace for reliability,Reliability,feature,Support,Operational scale,candidate,none,,,unknown,low,1,3,0,2,false,false,
+BL-151,Extend audit trail for onboarding,Onboarding,tech_debt,Engineering,Retention,ready,none,,,unknown,low,3,14,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-152,Stabilize role policy for automation,Automation,compliance,Product,Enterprise readiness,discovery,none,,,unknown,low,5,9,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-153,Instrument workspace for reporting,Reporting,experiment,Support,Activation,candidate,none,,2089,telemetry,medium,2,4,0,1,false,true,
+BL-154,Govern audit trail for integrations,Integrations,reliability,Engineering,Activation,ready,contractual,2027-03-15,3,customer_count,medium,4,15,91,2,false,false,
+BL-155,Accelerate role policy for admin,Admin,feature,Product,Operational scale,discovery,none,,,unknown,low,1,10,0,3,false,false,
+BL-156,Simplify workspace for reliability,Reliability,tech_debt,Sales,Retention,candidate,none,,,unknown,low,3,5,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-157,Extend audit trail for onboarding,Onboarding,compliance,Support,Enterprise readiness,ready,none,,,unknown,low,5,16,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-158,Stabilize role policy for automation,Automation,experiment,Engineering,Activation,discovery,none,,2954,telemetry,high,2,11,0,2,false,true,
+BL-159,Instrument workspace for reporting,Reporting,reliability,Product,Operational scale,candidate,none,,3127,telemetry,medium,4,6,0,3,false,true,
+BL-160,Govern audit trail for integrations,Integrations,feature,Sales,Retention,ready,none,,,unknown,low,1,1,0,0,false,false,
+BL-161,Accelerate role policy for admin,Admin,tech_debt,Support,Retention,discovery,none,,,unknown,low,3,12,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-162,Simplify workspace for reliability,Reliability,compliance,Product,Enterprise readiness,candidate,none,,,unknown,low,5,7,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-163,Extend audit trail for onboarding,Onboarding,experiment,Sales,Activation,ready,none,,3819,telemetry,high,2,2,0,3,false,true,
+BL-164,Stabilize role policy for automation,Automation,reliability,Support,Operational scale,discovery,none,,,unknown,low,4,13,0,0,false,true,
+BL-165,Instrument workspace for reporting,Reporting,feature,Engineering,Retention,candidate,informal,,,unknown,low,1,8,0,1,false,false,
+BL-166,Govern audit trail for integrations,Integrations,tech_debt,Product,Enterprise readiness,ready,none,,,unknown,low,3,3,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-167,Accelerate role policy for admin,Admin,compliance,Sales,Activation,discovery,none,,,unknown,low,5,14,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-168,Simplify workspace for reliability,Reliability,experiment,Support,Activation,candidate,none,,,unknown,low,2,9,0,0,false,false,
+BL-169,Extend audit trail for onboarding,Onboarding,reliability,Engineering,Operational scale,ready,none,,4857,telemetry,high,4,4,0,1,false,true,
+BL-170,Stabilize role policy for automation,Automation,feature,Product,Retention,discovery,none,,,unknown,low,1,15,0,2,false,false,
+BL-171,Instrument workspace for reporting,Reporting,tech_debt,Support,Enterprise readiness,candidate,none,,,unknown,low,3,10,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-172,Govern audit trail for integrations,Integrations,compliance,Engineering,Activation,ready,none,,,unknown,low,5,5,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-173,Accelerate role policy for admin,Admin,experiment,Product,Operational scale,discovery,none,,,unknown,low,2,16,0,1,false,false,
+BL-174,Simplify workspace for reliability,Reliability,reliability,Sales,Retention,candidate,none,,,unknown,low,4,11,0,2,false,false,
+BL-175,Extend audit trail for onboarding,Onboarding,feature,Support,Retention,ready,none,,,unknown,low,1,6,0,3,false,false,
+BL-176,Stabilize role policy for automation,Automation,tech_debt,Engineering,Enterprise readiness,discovery,informal,,,unknown,low,3,1,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-177,Instrument workspace for reporting,Reporting,compliance,Product,Activation,candidate,none,,,unknown,low,5,12,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-178,Govern audit trail for integrations,Integrations,experiment,Sales,Operational scale,ready,none,,,unknown,low,2,7,0,2,false,false,
+BL-179,Accelerate role policy for admin,Admin,reliability,Support,Retention,discovery,none,,,unknown,low,4,2,0,3,false,false,
+BL-180,Simplify workspace for reliability,Reliability,feature,Product,Enterprise readiness,candidate,none,,,unknown,low,1,13,0,0,false,false,
+BL-181,Extend audit trail for onboarding,Onboarding,tech_debt,Sales,Activation,ready,contractual,2027-03-15,3,customer_count,medium,3,8,164,1,false,false,Reach is not meaningful; risk reduction work.
+BL-182,Stabilize role policy for automation,Automation,compliance,Support,Activation,discovery,none,,,unknown,low,5,3,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-183,Instrument workspace for reporting,Reporting,experiment,Engineering,Operational scale,candidate,none,,2379,telemetry,medium,2,14,0,3,false,true,
+BL-184,Govern audit trail for integrations,Integrations,reliability,Product,Retention,ready,none,,,unknown,low,4,9,0,0,false,false,
+BL-185,Accelerate role policy for admin,Admin,feature,Sales,Enterprise readiness,discovery,none,,,unknown,low,1,4,0,1,false,false,
+BL-186,Simplify workspace for reliability,Reliability,tech_debt,Support,Activation,candidate,none,,,unknown,low,3,15,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-187,Extend audit trail for onboarding,Onboarding,compliance,Engineering,Operational scale,ready,informal,,,unknown,low,5,10,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-188,Stabilize role policy for automation,Automation,experiment,Product,Retention,discovery,none,,,unknown,low,2,5,0,0,false,true,
+BL-189,Instrument workspace for reporting,Reporting,reliability,Support,Retention,candidate,none,,3417,telemetry,medium,4,16,0,1,false,true,
+BL-190,Govern audit trail for integrations,Integrations,feature,Engineering,Enterprise readiness,ready,none,,,unknown,low,1,11,0,2,false,false,
+BL-191,Accelerate role policy for admin,Admin,tech_debt,Product,Activation,discovery,none,,,unknown,low,3,6,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-192,Simplify workspace for reliability,Reliability,compliance,Sales,Operational scale,candidate,none,,,unknown,low,5,1,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-193,Extend audit trail for onboarding,Onboarding,experiment,Support,Retention,ready,none,,4109,telemetry,high,2,12,0,1,false,true,
+BL-194,Stabilize role policy for automation,Automation,reliability,Engineering,Enterprise readiness,discovery,none,,4282,telemetry,high,4,7,0,2,false,true,
+BL-195,Instrument workspace for reporting,Reporting,feature,Product,Activation,candidate,none,,,unknown,low,1,2,0,3,false,false,
+BL-196,Govern audit trail for integrations,Integrations,tech_debt,Sales,Activation,ready,none,,,unknown,low,3,13,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-197,Accelerate role policy for admin,Admin,compliance,Support,Operational scale,discovery,none,,,unknown,low,5,8,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-198,Simplify workspace for reliability,Reliability,experiment,Product,Retention,candidate,informal,,,unknown,low,2,3,0,2,false,false,
+BL-199,Extend audit trail for onboarding,Onboarding,reliability,Sales,Enterprise readiness,ready,none,,247,telemetry,high,4,14,0,3,false,true,
+BL-200,Stabilize role policy for automation,Automation,feature,Support,Activation,discovery,none,,,unknown,low,1,9,0,0,false,false,
+BL-201,Instrument workspace for reporting,Reporting,tech_debt,Engineering,Operational scale,candidate,none,,,unknown,low,3,4,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-202,Govern audit trail for integrations,Integrations,compliance,Product,Retention,ready,none,,,unknown,low,5,15,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-203,Accelerate role policy for admin,Admin,compliance,Sales,Retention,discovery,none,2027-01-31,,unknown,low,2,10,0,3,true,false,Mandatory control gap; deadline applies regardless of score.
+BL-204,Simplify workspace for reliability,Reliability,reliability,Support,Enterprise readiness,candidate,none,,,unknown,low,4,5,0,0,false,false,
+BL-205,Extend audit trail for onboarding,Onboarding,feature,Engineering,Activation,ready,none,,,unknown,low,1,16,0,1,false,false,
+BL-206,Stabilize role policy for automation,Automation,tech_debt,Product,Operational scale,discovery,none,,,unknown,low,3,11,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-207,Instrument workspace for reporting,Reporting,compliance,Support,Retention,candidate,none,,,unknown,low,5,6,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-208,Govern audit trail for integrations,Integrations,experiment,Engineering,Enterprise readiness,ready,none,,,unknown,low,2,1,0,0,false,false,
+BL-209,Accelerate role policy for admin,Admin,reliability,Product,Activation,discovery,informal,,,unknown,low,4,12,0,1,false,false,
+BL-210,Simplify workspace for reliability,Reliability,feature,Sales,Activation,candidate,none,,,unknown,low,1,7,0,2,false,false,
+BL-211,Extend audit trail for onboarding,Onboarding,tech_debt,Support,Operational scale,ready,none,,,unknown,low,3,2,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-212,Stabilize role policy for automation,Automation,compliance,Engineering,Retention,discovery,none,,,unknown,low,5,13,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-213,Instrument workspace for reporting,Reporting,experiment,Product,Enterprise readiness,candidate,none,,2669,telemetry,medium,2,8,0,1,false,true,
+BL-214,Govern audit trail for integrations,Integrations,reliability,Sales,Activation,ready,none,,,unknown,low,4,3,0,2,false,false,
+BL-215,Accelerate role policy for admin,Admin,feature,Support,Operational scale,discovery,none,,,unknown,low,1,14,0,3,false,false,
+BL-216,Simplify workspace for reliability,Reliability,tech_debt,Product,Retention,candidate,none,,,unknown,low,3,9,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-217,Extend audit trail for onboarding,Onboarding,compliance,Sales,Retention,ready,contractual,2027-03-15,3,customer_count,medium,5,4,188,1,false,false,Reach is not meaningful; risk reduction work.
+BL-218,Stabilize role policy for automation,Automation,experiment,Support,Enterprise readiness,discovery,none,,3534,telemetry,high,2,15,0,2,false,true,
+BL-219,Instrument workspace for reporting,Reporting,reliability,Engineering,Activation,candidate,none,,3707,telemetry,medium,4,10,0,3,false,true,
+BL-220,Govern audit trail for integrations,Integrations,feature,Product,Operational scale,ready,informal,,,unknown,low,1,5,0,0,false,false,
+BL-221,Accelerate role policy for admin,Admin,tech_debt,Sales,Retention,discovery,none,,,unknown,low,3,16,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-222,Simplify workspace for reliability,Reliability,compliance,Support,Enterprise readiness,candidate,none,,,unknown,low,5,11,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-223,Extend audit trail for onboarding,Onboarding,experiment,Engineering,Activation,ready,none,,4399,telemetry,high,2,6,0,3,false,true,
+BL-224,Stabilize role policy for automation,Automation,reliability,Product,Activation,discovery,none,,,unknown,low,4,1,0,0,false,true,
+BL-225,Instrument workspace for reporting,Reporting,feature,Support,Operational scale,candidate,none,,,unknown,low,1,12,0,1,false,false,
+BL-226,Govern audit trail for integrations,Integrations,tech_debt,Engineering,Retention,ready,none,,,unknown,low,3,7,0,2,false,false,Reach is not meaningful; risk reduction work.
+BL-227,Accelerate role policy for admin,Admin,compliance,Product,Enterprise readiness,discovery,none,,,unknown,low,5,2,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-228,Simplify workspace for reliability,Reliability,experiment,Sales,Activation,candidate,none,,,unknown,low,2,13,0,0,false,false,
+BL-229,Extend audit trail for onboarding,Onboarding,reliability,Support,Operational scale,ready,none,,537,telemetry,high,4,8,0,1,false,true,
+BL-230,Stabilize role policy for automation,Automation,feature,Engineering,Retention,discovery,none,,,unknown,low,1,3,0,2,false,false,
+BL-231,Instrument workspace for reporting,Reporting,tech_debt,Product,Retention,candidate,informal,,,unknown,low,3,14,0,3,false,false,Reach is not meaningful; risk reduction work.
+BL-232,Govern audit trail for integrations,Integrations,compliance,Sales,Enterprise readiness,ready,none,,,unknown,low,5,9,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-233,Accelerate role policy for admin,Admin,experiment,Support,Activation,discovery,none,,,unknown,low,2,4,0,1,false,false,
+BL-234,Simplify workspace for reliability,Reliability,reliability,Product,Operational scale,candidate,none,,,unknown,low,4,15,0,2,false,false,
+BL-235,Extend audit trail for onboarding,Onboarding,feature,Sales,Retention,ready,none,,,unknown,low,1,10,0,3,false,false,
+BL-236,Stabilize role policy for automation,Automation,tech_debt,Support,Enterprise readiness,discovery,none,,,unknown,low,3,5,0,0,false,false,Reach is not meaningful; risk reduction work.
+BL-237,Instrument workspace for reporting,Reporting,compliance,Engineering,Activation,candidate,none,,,unknown,low,5,16,0,1,false,false,Reach is not meaningful; risk reduction work.
+BL-238,Govern audit trail for integrations,Integrations,experiment,Product,Activation,ready,none,,,unknown,low,2,11,0,2,false,false,
+BL-239,Accelerate role policy for admin,Admin,reliability,Sales,Operational scale,discovery,none,,,unknown,low,4,6,0,3,false,false,
+BL-240,Simplify workspace for reliability,Reliability,feature,Support,Retention,candidate,none,,,unknown,low,1,1,0,0,false,false,

@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__source_resolution",
+      "title": "Correct versioned source and traceable support",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The note identifies the official FluxCache Python 4.2 documentation target and supports each requested topic with valid current-snapshot section IDs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_official_versioned_library_selection",
+        "test_snapshot_section_citation_coverage"
+      ]
+    },
+    {
+      "id": "completion__install_and_client_setup",
+      "title": "Correct installation and secure async client setup",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The note gives a 4.2-compatible asyncio installation constraint and a client setup using the documented async class, environment-backed credential, bounded pool, and request timeout without embedding a credential value.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_install_constraint",
+        "test_secure_async_client_configuration"
+      ]
+    },
+    {
+      "id": "completion__transaction_resilience",
+      "title": "Accurate transaction retry behavior",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The note shows a stable idempotency key and accurately describes the bounded retry policy, allowed transient errors, backoff behavior, and non-retryable errors.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_retry_policy",
+        "test_transaction_retry_boundary"
+      ]
+    },
+    {
+      "id": "completion__migration_and_lifecycle",
+      "title": "Complete v3 migration and shutdown guidance",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The note removes the material v3 async names, maps them to 4.2 replacements, and gives safe automatic and manual shutdown behavior.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_v3_migration_map",
+        "test_shutdown_lifecycle"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__source_resolution",
+        "title": "Correct versioned source and traceable support",
+        "required_score": 10
+      },
+      {
+        "id": "completion__install_and_client_setup",
+        "title": "Correct installation and secure async client setup",
+        "required_score": 10
+      },
+      {
+        "id": "completion__transaction_resilience",
+        "title": "Accurate transaction retry behavior",
+        "required_score": 10
+      },
+      {
+        "id": "completion__migration_and_lifecycle",
+        "title": "Complete v3 migration and shutdown guidance",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

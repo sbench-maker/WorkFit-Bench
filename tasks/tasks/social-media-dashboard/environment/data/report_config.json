@@ -1,0 +1,39 @@
+{
+  "creator": {
+    "name": "Mira Chen",
+    "role": "Independent design-systems creator",
+    "brand_label": "Mira Studio Analytics"
+  },
+  "generated_at": "2026-09-08T11:30:00Z",
+  "complete_through": "2026-09-07",
+  "partial_date": "2026-09-08",
+  "default_platform": "X",
+  "platform_order": [
+    "X",
+    "LinkedIn",
+    "YouTube",
+    "Instagram"
+  ],
+  "comparison_windows": {
+    "current_7d": [
+      "2026-09-01",
+      "2026-09-07"
+    ],
+    "prior_7d": [
+      "2026-08-25",
+      "2026-08-31"
+    ],
+    "growth_30d": [
+      "2026-08-09",
+      "2026-09-07"
+    ]
+  },
+  "definitions": {
+    "engagement_rate": "sum(likes + comments + reposts + saves) / sum(impressions) * 100",
+    "follower_week_delta": "followers_end on 2026-09-07 minus followers_end on 2026-08-31",
+    "top_post": "highest clicks among complete posts published during current_7d",
+    "top_comments": "approved comments ranked by likes + 2 * replies, descending",
+    "trending_topics": "rank ascending within each platform"
+  },
+  "data_quality_note": "Rows dated 2026-09-08 are a partial-day snapshot and must not be included in KPI comparisons or the 30-day chart."
+}

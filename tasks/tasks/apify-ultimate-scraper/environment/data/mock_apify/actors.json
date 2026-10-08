@@ -1,0 +1,104 @@
+{
+  "compass/crawler-google-places": {
+    "title": "Google Places Crawler (offline fixture)",
+    "isDeprecated": false,
+    "currentPricingInfo": {
+      "pricingModel": "FREE",
+      "pricePerEvent": 0
+    },
+    "inputSchema": {
+      "type": "object",
+      "required": [
+        "searchStringsArray",
+        "locationQuery",
+        "language",
+        "maxCrawledPlaces"
+      ],
+      "properties": {
+        "searchStringsArray": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "locationQuery": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+            "en"
+          ]
+        },
+        "maxCrawledPlaces": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 300
+        }
+      }
+    }
+  },
+  "compass/enrich-google-maps-dataset-with-contacts": {
+    "title": "Google Maps Dataset Contact Enricher (offline fixture)",
+    "isDeprecated": false,
+    "currentPricingInfo": {
+      "pricingModel": "FREE",
+      "pricePerEvent": 0
+    },
+    "inputSchema": {
+      "type": "object",
+      "required": [
+        "datasetId",
+        "maxRequestsPerCrawl"
+      ],
+      "properties": {
+        "datasetId": {
+          "type": "string"
+        },
+        "maxRequestsPerCrawl": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 300
+        }
+      }
+    }
+  },
+  "compass/google-maps-extractor": {
+    "title": "Detailed Google Maps Extractor",
+    "isDeprecated": false,
+    "currentPricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "pricePerEvent": 0.02
+    },
+    "inputSchema": {
+      "type": "object",
+      "required": [
+        "startUrls"
+      ],
+      "properties": {
+        "startUrls": {
+          "type": "array"
+        }
+      }
+    }
+  },
+  "vdrmota/contact-info-scraper": {
+    "title": "Website Contact Info Scraper",
+    "isDeprecated": false,
+    "currentPricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "pricePerEvent": 0.01
+    },
+    "inputSchema": {
+      "type": "object",
+      "required": [
+        "startUrls"
+      ],
+      "properties": {
+        "startUrls": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

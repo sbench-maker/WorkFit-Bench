@@ -1,0 +1,5 @@
+incident_id,title,severity,started_at,restored_at,status_at_cutoff,affected_apps,unique_employees_affected,root_cause_status,confirmed_root_cause,mitigation,no_data_loss,owner
+INC-2044,Meeting-room controller update failures,Sev-3,2026-08-29T14:20:00,2026-08-29T15:05:00,Closed,1,12,Confirmed,A controller package was missing one device-family dependency.,Reissued the complete package.,yes,Avery Scott
+INC-2047,Employee SSO failures across SaaS applications,Sev-1,2026-09-04T09:08:00,2026-09-04T10:02:00,Resolved; follow-up actions open,11,184,Confirmed,A precedence error in the CHG-882 routing rule sent employee traffic to the disabled recovery connector.,Rolled back CHG-882 and restored the previous route.,yes,Maya Chen
+INC-2050,Brief VPN latency in Singapore,Sev-3,2026-09-06T03:14:00,2026-09-06T03:31:00,Closed,1,9,Unconfirmed,,Shifted sessions to the alternate regional gateway.,yes,Jon Bell
+INC-2052,Email mobile-sync delay,Sev-4,2026-09-07T17:25:00,2026-09-07T17:38:00,Monitoring,1,6,Under investigation,,Vendor service recovered without team action.,yes,Luis Ortega

@@ -1,0 +1,37 @@
+acceptance_id,unit_id,check_kind,requirement,required
+AC-001,WU-01,behavior,Version invoice contract satisfies its primary RFC behavior,true
+AC-002,WU-01,regression,existing version invoice contract paths remain compatible,true
+AC-003,WU-01,operability,operators can observe or safely control version invoice contract,true
+AC-004,WU-02,behavior,Introduce regional ledger model satisfies its primary RFC behavior,true
+AC-005,WU-02,regression,existing introduce regional ledger model paths remain compatible,true
+AC-006,WU-02,operability,operators can observe or safely control introduce regional ledger model,true
+AC-007,WU-03,behavior,Add jurisdiction tax engine satisfies its primary RFC behavior,true
+AC-008,WU-03,regression,existing add jurisdiction tax engine paths remain compatible,true
+AC-009,WU-03,operability,operators can observe or safely control add jurisdiction tax engine,true
+AC-010,WU-04,behavior,Build ledger migration runner satisfies its primary RFC behavior,true
+AC-011,WU-04,regression,existing build ledger migration runner paths remain compatible,true
+AC-012,WU-04,operability,operators can observe or safely control build ledger migration runner,true
+AC-013,WU-05,behavior,Expose regional invoice API satisfies its primary RFC behavior,true
+AC-014,WU-05,regression,existing expose regional invoice api paths remain compatible,true
+AC-015,WU-05,operability,operators can observe or safely control expose regional invoice api,true
+AC-016,WU-06,behavior,Create historical backfill worker satisfies its primary RFC behavior,true
+AC-017,WU-06,regression,existing create historical backfill worker paths remain compatible,true
+AC-018,WU-06,operability,operators can observe or safely control create historical backfill worker,true
+AC-019,WU-07,behavior,Update invoice administration UI satisfies its primary RFC behavior,true
+AC-020,WU-07,regression,existing update invoice administration ui paths remain compatible,true
+AC-021,WU-07,operability,operators can observe or safely control update invoice administration ui,true
+AC-022,WU-08,behavior,Add billing observability satisfies its primary RFC behavior,true
+AC-023,WU-08,regression,existing add billing observability paths remain compatible,true
+AC-024,WU-08,operability,operators can observe or safely control add billing observability,true
+AC-025,WU-09,behavior,Implement guarded regional rollout satisfies its primary RFC behavior,true
+AC-026,WU-09,regression,existing implement guarded regional rollout paths remain compatible,true
+AC-027,WU-09,operability,operators can observe or safely control implement guarded regional rollout,true
+AC-028,WU-10,behavior,Publish operator runbook satisfies its primary RFC behavior,true
+AC-029,WU-10,regression,existing publish operator runbook paths remain compatible,true
+AC-030,WU-10,operability,operators can observe or safely control publish operator runbook,true
+AC-031,WU-11,behavior,Expand invoice fixture harness satisfies its primary RFC behavior,true
+AC-032,WU-11,regression,existing expand invoice fixture harness paths remain compatible,true
+AC-033,WU-11,operability,operators can observe or safely control expand invoice fixture harness,true
+AC-034,WU-12,behavior,Establish performance baseline satisfies its primary RFC behavior,true
+AC-035,WU-12,regression,existing establish performance baseline paths remain compatible,true
+AC-036,WU-12,operability,operators can observe or safely control establish performance baseline,true

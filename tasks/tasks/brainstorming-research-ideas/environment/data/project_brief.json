@@ -1,0 +1,41 @@
+{
+  "fixture_notice": "All entities and observations in this packet are fictional and locally constructed.",
+  "snapshot_date": "2026-08-15",
+  "project": "Lantern internal-ticket retrieval",
+  "starting_point": "Find a high-impact research direction for helping on-call engineers retrieve the smallest useful set of past incident tickets, ownership clues, and decisions when an active incident begins.",
+  "current_system": "Keyword search over ticket titles and comments followed by an always-on cross-encoder reranker. Results are filtered using ticket-level access labels before display.",
+  "decision_context": "The team must choose one two-week offline pilot. Improving same-team average recall alone is not enough: cross-team unblocker discovery, permission safety, response time, and operator trust all matter.",
+  "baseline": {
+    "overall_top5_recall": 0.62,
+    "cross_team_blocker_top5_recall": 0.38,
+    "same_team_top5_recall": 0.71,
+    "duplicate_result_rate": 0.19,
+    "p95_latency_ms": 753,
+    "operator_trust_score_out_of_5": 2.7
+  },
+  "pilot_constraints": {
+    "duration_days_max": 14,
+    "engineering_person_days_max": 18,
+    "security_reviewer_hours_max": 8,
+    "gpu_hours_max": 24,
+    "network_access": false,
+    "production_traffic": false,
+    "external_participants": false,
+    "unauthorized_content_exposure_tolerance": 0,
+    "latency_target_p95_ms": 700
+  },
+  "available_asset_ids": [
+    "ASSET-OFFLINE-REPLAY",
+    "ASSET-RELATIONSHIP-EXPORT",
+    "ASSET-AUTHZ-SIMULATOR",
+    "ASSET-SERVICE-LEDGER",
+    "ASSET-LOCAL-ENCODER",
+    "ASSET-LATENCY-PROFILER",
+    "ASSET-MASKED-RESULT-UI"
+  ],
+  "decision_questions": [
+    "Which failure boundary is both important and tractable with the available packet?",
+    "What new capability or combination changes what can be tested now?",
+    "Which proposal remains useful after privacy, latency, and simplicity objections?"
+  ]
+}

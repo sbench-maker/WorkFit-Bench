@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "network_mode": "no-network",
+  "agent_user": "agent",
+  "required_commands": [
+    "bash",
+    "python3",
+    "cargo",
+    "rustc",
+    "cp",
+    "mkdir",
+    "cat"
+  ],
+  "required_python_packages": [
+    {
+      "distribution": "pytest",
+      "import_name": "pytest",
+      "version": "8.4.1",
+      "used_by": [
+        "verifier"
+      ]
+    },
+    {
+      "distribution": "PyYAML",
+      "import_name": "yaml",
+      "version": "6.0.2",
+      "used_by": [
+        "verifier"
+      ]
+    }
+  ],
+  "agent_readable_paths": [
+    "/root/data"
+  ],
+  "agent_writable_paths": [
+    "/root/results"
+  ],
+  "tool_versions": {
+    "rustc": "1.89.0",
+    "cargo": "1.89.0",
+    "python": "Debian bookworm python3"
+  }
+}

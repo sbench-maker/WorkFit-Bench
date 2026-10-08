@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_scope",
+      "title": "Usable artifact and note coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "output.json is readable, contains exactly one identifiable result for every indexed source file, gives every valid note all requested schema fields, and includes a reviewer summary.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_and_note_scope"
+      ]
+    },
+    {
+      "id": "completion__extraction_correctness",
+      "title": "Source-faithful values and nulls",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every valid note's extracted values, units, and explicit null reasons agree with the source text and schema, including post-bronchodilator selection, partial dates, redactions, unclear mentions, and omitted fields.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_extracted_values_and_nulls"
+      ]
+    },
+    {
+      "id": "completion__assertion_and_refusal_safety",
+      "title": "Assertion context and malformed-input safety",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Negated, possible, historical, hypothetical, patient, and family-member findings retain the correct independent context, and the concatenated two-note source is refused rather than merged.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_assertion_context_and_malformed_note",
+        "test_multi_note_source_is_refused"
+      ]
+    },
+    {
+      "id": "completion__provenance_validation",
+      "title": "Verbatim provenance and validation flags",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every populated value has a nonempty source location and verbatim evidence present in its own note; the invalid date, out-of-range values, unit mismatch, and unavailable terminology system are surfaced without changing source values.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_provenance_and_field_validation"
+      ]
+    },
+    {
+      "id": "completion__summary_consistency",
+      "title": "Reviewer-summary consistency",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Completion, refusal, populated/null, null-reason, and validation totals in the reviewer summary reconcile with the indexed batch and detailed records.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_summary_reconciles_with_records"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_scope",
+        "title": "Usable artifact and note coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__extraction_correctness",
+        "title": "Source-faithful values and nulls",
+        "required_score": 10
+      },
+      {
+        "id": "completion__assertion_and_refusal_safety",
+        "title": "Assertion context and malformed-input safety",
+        "required_score": 10
+      },
+      {
+        "id": "completion__provenance_validation",
+        "title": "Verbatim provenance and validation flags",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summary_consistency",
+        "title": "Reviewer-summary consistency",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

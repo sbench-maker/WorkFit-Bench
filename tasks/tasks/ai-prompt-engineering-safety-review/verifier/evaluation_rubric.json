@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_usability",
+      "title": "Complete and usable review artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested Markdown report is readable and exposes risk-ranked findings, a substantive replacement prompt, and focused test recommendations.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_usability"
+      ]
+    },
+    {
+      "id": "completion__risk_diagnosis",
+      "title": "Correct diagnosis of material prompt risks",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The review identifies the material injection, unauthorized-action, privacy, bias, imminent-harm, and malformed-input failures grounded in the supplied prompt, policies, tool contract, and corpus.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_risk_diagnosis"
+      ]
+    },
+    {
+      "id": "completion__replacement_safeguards",
+      "title": "Production safeguards in the replacement prompt",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The replacement prompt implements fixed trust boundaries, injection resistance, privacy minimization, fair classification, human action gates, precise safety escalation, deterministic JSON output, and invalid-input handling.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_replacement_safeguards"
+      ]
+    },
+    {
+      "id": "completion__test_strategy",
+      "title": "Focused and operationally useful validation strategy",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The recommended tests state observable expected outcomes, use meaningful positive and negative controls from the corpus, and define practical deployment gates while preserving ordinary triage behavior.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_usability",
+        "title": "Complete and usable review artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__risk_diagnosis",
+        "title": "Correct diagnosis of material prompt risks",
+        "required_score": 10
+      },
+      {
+        "id": "completion__replacement_safeguards",
+        "title": "Production safeguards in the replacement prompt",
+        "required_score": 10
+      },
+      {
+        "id": "completion__test_strategy",
+        "title": "Focused and operationally useful validation strategy",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

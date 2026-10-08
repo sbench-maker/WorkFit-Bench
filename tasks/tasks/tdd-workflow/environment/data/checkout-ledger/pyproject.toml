@@ -1,0 +1,20 @@
+[build-system]
+requires = []
+build-backend = ""
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+  "unit: isolated pricing behavior",
+  "integration: in-process adapter behavior",
+  "e2e: live local HTTP behavior",
+]
+
+[tool.coverage.run]
+branch = false
+source = ["checkout_quote"]
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = ["if __name__ == .__main__.:"]

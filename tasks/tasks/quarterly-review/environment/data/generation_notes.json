@@ -1,0 +1,19 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "financial_ledger.csv": 1065,
+    "paypal_activity.csv": 88,
+    "crm_customers.csv": 50,
+    "crm_deals.csv": 220
+  },
+  "join_keys": [
+    "financial_ledger.customer_id -> crm_customers.customer_id",
+    "paypal_activity.invoice_id -> financial_ledger.invoice_id"
+  ],
+  "intentional_edge_cases": [
+    "PayPal refunds and processing fees have different accounting treatment",
+    "three Q1 PayPal transactions settle in Q2 and one Q2 transaction settles in July",
+    "one customer exceeds 20 percent of Q2 revenue",
+    "four open CRM deals have potentially stale stages after a documented sync interruption"
+  ]
+}

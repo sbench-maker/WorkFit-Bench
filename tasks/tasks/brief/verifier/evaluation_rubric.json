@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__incident_facts",
+      "title": "Accurate incident scope and facts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The brief reports the supported incident identity, reconciled population, regional counts, affected and excluded data categories, support-note flag, and unresolved root cause from the frozen exports.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_incident_facts"
+      ]
+    },
+    {
+      "id": "completion__timeline_reconciliation",
+      "title": "Reconciled incident chronology",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The brief distinguishes the supported activity-window boundary, first suspicious use, analyst escalation, vendor confirmation/provisional awareness, containment, and initial notice rather than treating conflicting timestamps as interchangeable.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_timeline_reconciliation"
+      ]
+    },
+    {
+      "id": "completion__agreement_obligations",
+      "title": "Implicated agreements and time-sensitive terms",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All agreements implicated by the affected vendor, customer accounts, and insurance response are connected to their material notice, cooperation, liability, or consent terms.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_agreement_and_deadline_coverage"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__incident_facts",
+        "title": "Accurate incident scope and facts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__timeline_reconciliation",
+        "title": "Reconciled incident chronology",
+        "required_score": 10
+      },
+      {
+        "id": "completion__agreement_obligations",
+        "title": "Implicated agreements and time-sensitive terms",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

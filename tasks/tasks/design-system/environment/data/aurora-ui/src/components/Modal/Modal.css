@@ -1,0 +1,20 @@
+.modal {
+  color: var(--color-text-primary);
+  background-color: var(--color-surface-default);
+  border: 1px solid var(--color-border-default);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  transition-duration: var(--duration-fast);
+  padding: 24px;
+  background-color: rgba(23, 32, 51, 0.72);
+}
+
+.modal:focus-visible {
+  outline: 2px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+.modal[data-disabled='true'] {
+  opacity: 0.48;
+  pointer-events: none;
+}

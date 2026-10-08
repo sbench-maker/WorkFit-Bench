@@ -1,0 +1,91 @@
+{
+  "decision_date": "2026-10-15",
+  "delivery_start": "2027-01-01",
+  "delivery_end": "2027-12-31",
+  "annual_budget_usd": {
+    "PJM": 8800000,
+    "ERCOT": 8900000
+  },
+  "eligibility": {
+    "minimum_credit_rating": "BBB-",
+    "credit_rating_order_best_to_worst": [
+      "AAA",
+      "AA+",
+      "AA",
+      "AA-",
+      "A+",
+      "A",
+      "A-",
+      "BBB+",
+      "BBB",
+      "BBB-",
+      "BB+",
+      "BB",
+      "BB-"
+    ],
+    "allowed_term_months": [
+      12
+    ],
+    "minimum_quote_valid_through": "2026-10-20",
+    "minimum_volume_tolerance_pct": 10,
+    "maximum_early_termination_cap_usd": 700000,
+    "prohibited_open_clause_codes": [
+      "unlimited_volume_deviation_penalty",
+      "unilateral_material_adverse_change_termination"
+    ],
+    "required_price_fields_by_product": {
+      "fixed_full_requirements": [
+        "fixed_energy_usd_mwh"
+      ],
+      "block_and_index": [
+        "fixed_energy_usd_mwh",
+        "index_adder_usd_mwh"
+      ],
+      "index": [
+        "index_adder_usd_mwh"
+      ]
+    }
+  },
+  "cost_conventions": {
+    "interval_kw_multiplier": 4,
+    "annual_mwh": "sum(interval_kwh * represented_days) / 1000",
+    "load_factor": "annual_kwh / (peak_kw * 8760)",
+    "network_cost": "annual_mwh * (distribution_usd_mwh + riders_usd_mwh) + peak_kw * demand_rate_usd_kw_month * 12 + capacity_tag_kw * capacity_rate_usd_kw_year + transmission_tag_kw * transmission_rate_usd_kw_year",
+    "index_price_clamp": "max(index_floor_usd_mwh, min(market_scenario_price, index_cap_usd_mwh)); a blank floor or cap means no bound",
+    "supply_cost_fixed": "annual_mwh * (fixed_energy_usd_mwh + ancillary_usd_mwh + rec_usd_mwh)",
+    "supply_cost_index": "sum(period_mwh * (clamped_scenario_price + index_adder_usd_mwh + ancillary_usd_mwh + rec_usd_mwh))",
+    "supply_cost_block_and_index": "sum(period_mwh * (fixed_share * fixed_energy_usd_mwh + (1-fixed_share) * (clamped_scenario_price + index_adder_usd_mwh) + ancillary_usd_mwh + rec_usd_mwh))",
+    "total_delivered_cost": "supply cost plus the market's site-level network costs",
+    "rounding": "retain full precision in calculations; round displayed dollar totals to the nearest dollar, MWh and kW to 0.001, and percentages to 0.01"
+  },
+  "award_constraints": {
+    "market_award_shares_sum_pct": 100,
+    "minimum_distinct_suppliers_per_market": 2,
+    "maximum_supplier_share_per_market_pct": 60,
+    "fixed_hedge_pct_range_by_market": {
+      "PJM": [
+        60,
+        80
+      ],
+      "ERCOT": [
+        70,
+        85
+      ]
+    },
+    "fixed_hedge_definition": "sum(award_share_pct * offer_fixed_share_pct / 100)"
+  },
+  "review_guidance": {
+    "finance_review": [
+      "negative credit outlook",
+      "collateral calls",
+      "high-case budget exposure"
+    ],
+    "legal_review": [
+      "open contract exceptions",
+      "change-in-law pass-through",
+      "force majeure scope",
+      "credit support form"
+    ],
+    "note": "Review flags do not by themselves make an offer ineligible unless an eligibility rule says so."
+  }
+}

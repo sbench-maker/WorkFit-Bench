@@ -1,0 +1,18 @@
+feature,description,source_family
+i_income_monthly,income monthly,income
+i_income_shadow,income shadow,income
+i_debt_ratio,debt ratio,bureau
+i_debt_shadow,debt shadow,bureau
+i_loan_to_income,loan to income,income
+i_lti_shadow,ltshadow,income
+i_credit_age_months,credit age months,bureau
+i_recent_delinquencies,recent delinquencies,bureau
+i_bank_balance_avg,bank balance avg,banking
+i_optional_social_score,optional social score,digital
+i_sparse_device_signal,sparse device signal,digital
+i_low_iv_random,low iv random,banking
+i_org_weak_signal,org weak signal,banking
+i_drifting_utilization,drifting utilization,banking
+i_noise_hash,noise hash,digital
+i_stable_capacity,stable capacity,income
+i_constant_channel,constant channel,banking

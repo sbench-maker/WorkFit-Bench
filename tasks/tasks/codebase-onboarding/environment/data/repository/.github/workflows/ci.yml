@@ -1,0 +1,12 @@
+name: checks
+on: [pull_request]
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: make lint
+      - run: make test
+      - run: npm --prefix web ci
+      - run: npm --prefix web run build

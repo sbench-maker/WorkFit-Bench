@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+"""Small offline subset of the gws Calendar CLI used by the bundled recipe."""
+
+from __future__ import annotations
+
+import copy
+import json
+import os
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+
+DATA_DIR = Path(os.environ.get("TASK_DATA_DIR", "/root/data"))
+RESULTS_DIR = Path(os.environ.get("TASK_RESULTS_DIR", "/root/results"))
+SOURCE = DATA_DIR / "calendar_events.json"
+STATE = RESULTS_DIR / "calendar_state.json"
+RECEIPT = RESULTS_DIR / "output.json"
+FIXTURE_ZONES = {
+    "America/New_York": timezone(timedelta(hours=-4)),
+    "America/Los_Angeles": timezone(timedelta(hours=-7)),
+}
+
+
+def fail(message: str, code: int = 2) -> None:
+    print(json.dumps({"error": message}), file=sys.stderr)
+    raise SystemExit(code)
+
+
+def load_state() -> dict:
+    path = STATE if STATE.is_file() else SOURCE
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def value_after(flag: str) -> str:
+    try:
+        return sys.argv[sys.argv.index(flag) + 1]
+    except (ValueError, IndexError):
+        fail(f"missing {flag}")
+    raise AssertionError
+
+
+def parse_json_flag(flag: str) -> dict:
+    try:
+        value = json.loads(value_after(flag))
+    except json.JSONDecodeError as exc:
+        fail(f"invalid JSON for {flag}: {exc}")
+    if not isinstance(value, dict):
+        fail(f"{flag} must be a JSON object")
+    return value
+
+
+def main() -> None:
+    args = sys.argv[1:]
+    if args == ["calendar", "+agenda"]:
+        state = load_state()
+        rows = []
+        for item in state["events"]:
+            if item.get("calendarId") != "primary":
+                continue
+            rows.append(
+                {
+                    key: copy.deepcopy(item[key])
+                    for key in ("id", "summary", "status", "start", "end", "organizer", "recurringEventId")
+                    if key in item
+                }
+            )
+        print(json.dumps({"calendarId": "primary", "events": rows}, ensure_ascii=False, indent=2))
+        return
+
+    if len(args) < 3 or args[:2] != ["calendar", "events"] or args[2] not in {"get", "patch"}:
+        fail("supported commands: calendar +agenda; calendar events get; calendar events patch")
+
+    action = args[2]
+    params = parse_json_flag("--params")
+    if params.get("calendarId") != "primary":
+        fail("this offline account exposes calendarId primary only")
+    event_id = params.get("eventId")
+    state = load_state()
+    matches = [item for item in state["events"] if item.get("calendarId") == "primary" and item.get("id") == event_id]
+    if len(matches) != 1:
+        fail("event was not found in the primary calendar", 1)
+    current = matches[0]
+
+    if action == "get":
+        print(json.dumps(current, ensure_ascii=False, indent=2))
+        return
+
+    body = parse_json_flag("--json")
+    if set(body) - {"start", "end"}:
+        fail("the offline patch accepts only start and end fields")
+    if not all(isinstance(body.get(name), dict) for name in ("start", "end")):
+        fail("patch requires start and end objects")
+    for name in ("start", "end"):
+        if not isinstance(body[name].get("dateTime"), str) or not isinstance(body[name].get("timeZone"), str):
+            fail(f"{name} requires dateTime and timeZone")
+    try:
+        start = datetime.fromisoformat(body["start"]["dateTime"])
+        end = datetime.fromisoformat(body["end"]["dateTime"])
+        if start.tzinfo is None:
+            start = start.replace(tzinfo=FIXTURE_ZONES[body["start"]["timeZone"]])
+        if end.tzinfo is None:
+            end = end.replace(tzinfo=FIXTURE_ZONES[body["end"]["timeZone"]])
+    except (ValueError, KeyError) as exc:
+        fail(f"invalid dateTime: {exc}")
+    if end <= start:
+        fail("end must follow start")
+
+    before = copy.deepcopy(current)
+    current["start"] = copy.deepcopy(body["start"])
+    current["end"] = copy.deepcopy(body["end"])
+    current["updated"] = "2026-09-09T09:05:00-04:00"
+    STATE.parent.mkdir(parents=True, exist_ok=True)
+    STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    send_updates = params.get("sendUpdates", "none")
+    recipients = [row["email"] for row in current.get("attendees", [])] if send_updates == "all" else []
+    receipt = {
+        "schemaVersion": "1.0",
+        "status": "updated",
+        "operation": "calendar.events.patch",
+        "calendarId": "primary",
+        "eventId": event_id,
+        "sendUpdates": send_updates,
+        "before": before,
+        "after": copy.deepcopy(current),
+        "notifications": [{"recipient": email, "delivery": "queued"} for email in recipients],
+    }
+    RECEIPT.write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(receipt, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

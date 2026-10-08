@@ -1,0 +1,221 @@
+ticket_id,opened_at,segment,account_size,category,summary,customer_words,channel,resolution_minutes,reopen_count
+T-001,2026-08-14,finance_approver,small,status_unknown,Hiring manager asks whether finance has received the request,We are piecing the status together from old emails.,chat,87,0
+T-002,2026-08-25,recruiter,mid_market,status_unknown,Request appears pending without a visible current step,"Did finance get this, or is it still with the manager?",chat,100,0
+T-003,2026-08-10,hiring_manager,enterprise,status_unknown,Team checks email to reconstruct the approval state,"I can see pending, but pending with whom?",chat,113,0
+T-004,2026-08-21,hr_operations,small,status_unknown,Recruiter cannot tell which approval stage is active,We are piecing the status together from old emails.,chat,126,0
+T-005,2026-08-06,finance_approver,mid_market,status_unknown,Hiring manager asks whether finance has received the request,"Did finance get this, or is it still with the manager?",chat,139,0
+T-006,2026-08-17,recruiter,enterprise,status_unknown,Request appears pending without a visible current step,"I can see pending, but pending with whom?",chat,152,0
+T-007,2026-08-28,hiring_manager,small,status_unknown,Team checks email to reconstruct the approval state,We are piecing the status together from old emails.,chat,74,0
+T-008,2026-08-13,hr_operations,mid_market,status_unknown,Recruiter cannot tell which approval stage is active,"Did finance get this, or is it still with the manager?",chat,87,0
+T-009,2026-08-24,finance_approver,enterprise,status_unknown,Hiring manager asks whether finance has received the request,"I can see pending, but pending with whom?",chat,100,1
+T-010,2026-08-09,recruiter,small,status_unknown,Request appears pending without a visible current step,We are piecing the status together from old emails.,chat,113,0
+T-011,2026-08-20,hiring_manager,mid_market,status_unknown,Team checks email to reconstruct the approval state,"Did finance get this, or is it still with the manager?",chat,126,0
+T-012,2026-08-05,hr_operations,enterprise,status_unknown,Recruiter cannot tell which approval stage is active,"I can see pending, but pending with whom?",chat,139,0
+T-013,2026-08-16,finance_approver,small,status_unknown,Hiring manager asks whether finance has received the request,We are piecing the status together from old emails.,chat,152,0
+T-014,2026-08-27,recruiter,mid_market,status_unknown,Request appears pending without a visible current step,"Did finance get this, or is it still with the manager?",chat,74,0
+T-015,2026-08-12,hiring_manager,enterprise,status_unknown,Team checks email to reconstruct the approval state,"I can see pending, but pending with whom?",chat,87,0
+T-016,2026-08-23,hr_operations,small,status_unknown,Recruiter cannot tell which approval stage is active,We are piecing the status together from old emails.,chat,100,0
+T-017,2026-08-08,finance_approver,mid_market,status_unknown,Hiring manager asks whether finance has received the request,,chat,113,0
+T-018,2026-08-19,recruiter,enterprise,status_unknown,Request appears pending without a visible current step,"I can see pending, but pending with whom?",chat,126,1
+T-019,2026-08-04,hiring_manager,small,status_unknown,Team checks email to reconstruct the approval state,We are piecing the status together from old emails.,chat,139,0
+T-020,2026-08-15,hr_operations,mid_market,status_unknown,Recruiter cannot tell which approval stage is active,"Did finance get this, or is it still with the manager?",chat,152,0
+T-021,2026-08-26,finance_approver,enterprise,status_unknown,Hiring manager asks whether finance has received the request,"I can see pending, but pending with whom?",chat,74,0
+T-022,2026-08-11,recruiter,small,status_unknown,Request appears pending without a visible current step,We are piecing the status together from old emails.,chat,87,0
+T-023,2026-08-22,hiring_manager,mid_market,status_unknown,Team checks email to reconstruct the approval state,"Did finance get this, or is it still with the manager?",chat,100,0
+T-024,2026-08-07,hr_operations,enterprise,status_unknown,Recruiter cannot tell which approval stage is active,"I can see pending, but pending with whom?",chat,113,0
+T-025,2026-08-18,finance_approver,small,status_unknown,Hiring manager asks whether finance has received the request,We are piecing the status together from old emails.,chat,126,0
+T-026,2026-08-03,recruiter,mid_market,status_unknown,Request appears pending without a visible current step,"Did finance get this, or is it still with the manager?",chat,139,0
+T-027,2026-08-14,hiring_manager,enterprise,status_unknown,Team checks email to reconstruct the approval state,"I can see pending, but pending with whom?",chat,152,1
+T-028,2026-08-25,hr_operations,small,status_unknown,Recruiter cannot tell which approval stage is active,We are piecing the status together from old emails.,chat,74,0
+T-029,2026-08-10,finance_approver,mid_market,status_unknown,Hiring manager asks whether finance has received the request,"Did finance get this, or is it still with the manager?",chat,87,0
+T-030,2026-08-21,recruiter,enterprise,status_unknown,Request appears pending without a visible current step,"I can see pending, but pending with whom?",chat,100,0
+T-031,2026-08-06,hiring_manager,small,status_unknown,Team checks email to reconstruct the approval state,We are piecing the status together from old emails.,chat,113,0
+T-032,2026-08-17,hr_operations,mid_market,status_unknown,Recruiter cannot tell which approval stage is active,"Did finance get this, or is it still with the manager?",chat,126,0
+T-033,2026-08-28,finance_approver,enterprise,status_unknown,Hiring manager asks whether finance has received the request,"I can see pending, but pending with whom?",chat,139,0
+T-034,2026-08-13,recruiter,small,status_unknown,Request appears pending without a visible current step,,chat,152,0
+T-035,2026-08-24,hiring_manager,mid_market,status_unknown,Team checks email to reconstruct the approval state,"Did finance get this, or is it still with the manager?",chat,74,0
+T-036,2026-08-09,hr_operations,enterprise,status_unknown,Recruiter cannot tell which approval stage is active,"I can see pending, but pending with whom?",chat,87,1
+T-037,2026-08-20,finance_approver,small,status_unknown,Hiring manager asks whether finance has received the request,We are piecing the status together from old emails.,chat,100,0
+T-038,2026-08-05,recruiter,mid_market,status_unknown,Request appears pending without a visible current step,"Did finance get this, or is it still with the manager?",chat,113,0
+T-039,2026-08-16,hiring_manager,enterprise,status_unknown,Team checks email to reconstruct the approval state,"I can see pending, but pending with whom?",chat,126,0
+T-040,2026-08-27,hr_operations,small,status_unknown,Recruiter cannot tell which approval stage is active,We are piecing the status together from old emails.,chat,139,0
+T-041,2026-08-12,finance_approver,mid_market,status_unknown,Hiring manager asks whether finance has received the request,"Did finance get this, or is it still with the manager?",chat,152,0
+T-042,2026-08-23,recruiter,enterprise,status_unknown,Request appears pending without a visible current step,"I can see pending, but pending with whom?",chat,74,0
+T-043,2026-08-08,hiring_manager,small,status_unknown,Team checks email to reconstruct the approval state,We are piecing the status together from old emails.,chat,87,0
+T-044,2026-08-19,hr_operations,mid_market,status_unknown,Recruiter cannot tell which approval stage is active,"Did finance get this, or is it still with the manager?",chat,100,0
+T-045,2026-08-04,finance_approver,enterprise,status_unknown,Hiring manager asks whether finance has received the request,"I can see pending, but pending with whom?",chat,113,1
+T-046,2026-08-15,recruiter,small,status_unknown,Request appears pending without a visible current step,We are piecing the status together from old emails.,chat,126,0
+T-047,2026-08-26,hiring_manager,mid_market,status_unknown,Team checks email to reconstruct the approval state,"Did finance get this, or is it still with the manager?",chat,139,0
+T-048,2026-08-11,hr_operations,enterprise,status_unknown,Recruiter cannot tell which approval stage is active,"I can see pending, but pending with whom?",chat,152,0
+T-049,2026-08-22,finance_approver,small,status_unknown,Hiring manager asks whether finance has received the request,We are piecing the status together from old emails.,chat,74,0
+T-050,2026-08-07,recruiter,mid_market,status_unknown,Request appears pending without a visible current step,"Did finance get this, or is it still with the manager?",chat,87,0
+T-051,2026-08-18,hiring_manager,enterprise,status_unknown,Team checks email to reconstruct the approval state,,chat,100,0
+T-052,2026-08-03,hr_operations,small,status_unknown,Recruiter cannot tell which approval stage is active,We are piecing the status together from old emails.,chat,113,0
+T-053,2026-08-14,finance_approver,mid_market,status_unknown,Hiring manager asks whether finance has received the request,"Did finance get this, or is it still with the manager?",chat,126,0
+T-054,2026-08-25,recruiter,enterprise,status_unknown,Request appears pending without a visible current step,"I can see pending, but pending with whom?",chat,139,1
+T-055,2026-08-10,hiring_manager,small,status_unknown,Team checks email to reconstruct the approval state,We are piecing the status together from old emails.,chat,152,0
+T-056,2026-08-21,hr_operations,mid_market,status_unknown,Recruiter cannot tell which approval stage is active,"Did finance get this, or is it still with the manager?",chat,74,0
+T-057,2026-08-06,finance_approver,enterprise,status_unknown,Hiring manager asks whether finance has received the request,"I can see pending, but pending with whom?",chat,87,0
+T-058,2026-08-17,recruiter,small,status_unknown,Request appears pending without a visible current step,We are piecing the status together from old emails.,chat,100,0
+T-059,2026-08-28,hiring_manager,mid_market,status_unknown,Team checks email to reconstruct the approval state,"Did finance get this, or is it still with the manager?",chat,113,0
+T-060,2026-08-13,hr_operations,enterprise,status_unknown,Recruiter cannot tell which approval stage is active,"I can see pending, but pending with whom?",chat,126,0
+T-061,2026-08-24,finance_approver,small,status_unknown,Hiring manager asks whether finance has received the request,We are piecing the status together from old emails.,chat,139,0
+T-062,2026-08-09,recruiter,mid_market,status_unknown,Request appears pending without a visible current step,"Did finance get this, or is it still with the manager?",chat,152,0
+T-063,2026-08-20,hiring_manager,enterprise,status_unknown,Team checks email to reconstruct the approval state,"I can see pending, but pending with whom?",chat,74,1
+T-064,2026-08-05,hr_operations,small,status_unknown,Recruiter cannot tell which approval stage is active,We are piecing the status together from old emails.,chat,87,0
+T-065,2026-08-16,finance_approver,mid_market,status_unknown,Hiring manager asks whether finance has received the request,"Did finance get this, or is it still with the manager?",chat,100,0
+T-066,2026-08-27,recruiter,enterprise,status_unknown,Request appears pending without a visible current step,"I can see pending, but pending with whom?",chat,113,0
+T-067,2026-08-12,hiring_manager,small,status_unknown,Team checks email to reconstruct the approval state,We are piecing the status together from old emails.,chat,126,0
+T-068,2026-08-23,hr_operations,mid_market,status_unknown,Recruiter cannot tell which approval stage is active,,chat,139,0
+T-069,2026-08-08,finance_approver,enterprise,status_unknown,Hiring manager asks whether finance has received the request,"I can see pending, but pending with whom?",chat,152,0
+T-070,2026-08-19,recruiter,small,status_unknown,Request appears pending without a visible current step,We are piecing the status together from old emails.,chat,74,0
+T-071,2026-08-04,hiring_manager,mid_market,status_unknown,Team checks email to reconstruct the approval state,"Did finance get this, or is it still with the manager?",chat,87,0
+T-072,2026-08-15,hr_operations,enterprise,status_unknown,Recruiter cannot tell which approval stage is active,"I can see pending, but pending with whom?",chat,100,1
+T-073,2026-08-26,finance_approver,small,status_unknown,Hiring manager asks whether finance has received the request,We are piecing the status together from old emails.,chat,113,0
+T-074,2026-08-11,recruiter,mid_market,status_unknown,Request appears pending without a visible current step,"Did finance get this, or is it still with the manager?",chat,126,0
+T-075,2026-08-22,hiring_manager,enterprise,status_unknown,Team checks email to reconstruct the approval state,"I can see pending, but pending with whom?",chat,139,0
+T-076,2026-08-07,hr_operations,small,status_unknown,Recruiter cannot tell which approval stage is active,We are piecing the status together from old emails.,chat,152,0
+T-077,2026-08-18,finance_approver,mid_market,status_unknown,Hiring manager asks whether finance has received the request,"Did finance get this, or is it still with the manager?",chat,74,0
+T-078,2026-08-03,recruiter,enterprise,status_unknown,Request appears pending without a visible current step,"I can see pending, but pending with whom?",chat,87,0
+T-079,2026-08-14,hr_operations,enterprise,ownership_confusion,Recruiter asks support to identify the current assignee,The owner is away and the request has nowhere to go.,chat,122,0
+T-080,2026-08-25,finance_approver,small,ownership_confusion,Requester does not know who must act next,I thought the other manager was handling it.,chat,135,0
+T-081,2026-08-10,recruiter,mid_market,ownership_confusion,Approval stalled after an approver went out of office,Nobody knows whose turn it is after a handoff.,chat,148,1
+T-082,2026-08-21,hiring_manager,enterprise,ownership_confusion,Two managers each assumed the other owned the next step,The owner is away and the request has nowhere to go.,chat,161,0
+T-083,2026-08-06,hr_operations,small,ownership_confusion,Recruiter asks support to identify the current assignee,I thought the other manager was handling it.,chat,174,0
+T-084,2026-08-17,finance_approver,mid_market,ownership_confusion,Requester does not know who must act next,Nobody knows whose turn it is after a handoff.,chat,96,0
+T-085,2026-08-28,recruiter,enterprise,ownership_confusion,Approval stalled after an approver went out of office,,chat,109,0
+T-086,2026-08-13,hiring_manager,small,ownership_confusion,Two managers each assumed the other owned the next step,I thought the other manager was handling it.,chat,122,0
+T-087,2026-08-24,hr_operations,mid_market,ownership_confusion,Recruiter asks support to identify the current assignee,Nobody knows whose turn it is after a handoff.,chat,135,0
+T-088,2026-08-09,finance_approver,enterprise,ownership_confusion,Requester does not know who must act next,The owner is away and the request has nowhere to go.,chat,148,0
+T-089,2026-08-20,recruiter,small,ownership_confusion,Approval stalled after an approver went out of office,I thought the other manager was handling it.,chat,161,0
+T-090,2026-08-05,hiring_manager,mid_market,ownership_confusion,Two managers each assumed the other owned the next step,Nobody knows whose turn it is after a handoff.,chat,174,1
+T-091,2026-08-16,hr_operations,enterprise,ownership_confusion,Recruiter asks support to identify the current assignee,The owner is away and the request has nowhere to go.,chat,96,0
+T-092,2026-08-27,finance_approver,small,ownership_confusion,Requester does not know who must act next,I thought the other manager was handling it.,chat,109,0
+T-093,2026-08-12,recruiter,mid_market,ownership_confusion,Approval stalled after an approver went out of office,Nobody knows whose turn it is after a handoff.,chat,122,0
+T-094,2026-08-23,hiring_manager,enterprise,ownership_confusion,Two managers each assumed the other owned the next step,The owner is away and the request has nowhere to go.,chat,135,0
+T-095,2026-08-08,hr_operations,small,ownership_confusion,Recruiter asks support to identify the current assignee,I thought the other manager was handling it.,chat,148,0
+T-096,2026-08-19,finance_approver,mid_market,ownership_confusion,Requester does not know who must act next,Nobody knows whose turn it is after a handoff.,chat,161,0
+T-097,2026-08-04,recruiter,enterprise,ownership_confusion,Approval stalled after an approver went out of office,The owner is away and the request has nowhere to go.,chat,174,0
+T-098,2026-08-15,hiring_manager,small,ownership_confusion,Two managers each assumed the other owned the next step,I thought the other manager was handling it.,chat,96,0
+T-099,2026-08-26,hr_operations,mid_market,ownership_confusion,Recruiter asks support to identify the current assignee,Nobody knows whose turn it is after a handoff.,chat,109,1
+T-100,2026-08-11,finance_approver,enterprise,ownership_confusion,Requester does not know who must act next,The owner is away and the request has nowhere to go.,chat,122,0
+T-101,2026-08-22,recruiter,small,ownership_confusion,Approval stalled after an approver went out of office,I thought the other manager was handling it.,chat,135,0
+T-102,2026-08-07,hiring_manager,mid_market,ownership_confusion,Two managers each assumed the other owned the next step,,chat,148,0
+T-103,2026-08-18,hr_operations,enterprise,ownership_confusion,Recruiter asks support to identify the current assignee,The owner is away and the request has nowhere to go.,chat,161,0
+T-104,2026-08-03,finance_approver,small,ownership_confusion,Requester does not know who must act next,I thought the other manager was handling it.,chat,174,0
+T-105,2026-08-14,recruiter,mid_market,ownership_confusion,Approval stalled after an approver went out of office,Nobody knows whose turn it is after a handoff.,chat,96,0
+T-106,2026-08-25,hiring_manager,enterprise,ownership_confusion,Two managers each assumed the other owned the next step,The owner is away and the request has nowhere to go.,chat,109,0
+T-107,2026-08-10,hr_operations,small,ownership_confusion,Recruiter asks support to identify the current assignee,I thought the other manager was handling it.,chat,122,0
+T-108,2026-08-21,finance_approver,mid_market,ownership_confusion,Requester does not know who must act next,Nobody knows whose turn it is after a handoff.,chat,135,1
+T-109,2026-08-06,recruiter,enterprise,ownership_confusion,Approval stalled after an approver went out of office,The owner is away and the request has nowhere to go.,chat,148,0
+T-110,2026-08-17,hiring_manager,small,ownership_confusion,Two managers each assumed the other owned the next step,I thought the other manager was handling it.,chat,161,0
+T-111,2026-08-28,hr_operations,mid_market,ownership_confusion,Recruiter asks support to identify the current assignee,Nobody knows whose turn it is after a handoff.,chat,174,0
+T-112,2026-08-13,finance_approver,enterprise,ownership_confusion,Requester does not know who must act next,The owner is away and the request has nowhere to go.,chat,96,0
+T-113,2026-08-24,recruiter,small,ownership_confusion,Approval stalled after an approver went out of office,I thought the other manager was handling it.,chat,109,0
+T-114,2026-08-09,hiring_manager,mid_market,ownership_confusion,Two managers each assumed the other owned the next step,Nobody knows whose turn it is after a handoff.,chat,122,0
+T-115,2026-08-20,hr_operations,enterprise,ownership_confusion,Recruiter asks support to identify the current assignee,The owner is away and the request has nowhere to go.,chat,135,0
+T-116,2026-08-05,finance_approver,small,ownership_confusion,Requester does not know who must act next,I thought the other manager was handling it.,chat,148,0
+T-117,2026-08-16,recruiter,mid_market,ownership_confusion,Approval stalled after an approver went out of office,Nobody knows whose turn it is after a handoff.,chat,161,1
+T-118,2026-08-27,hiring_manager,enterprise,ownership_confusion,Two managers each assumed the other owned the next step,The owner is away and the request has nowhere to go.,chat,174,0
+T-119,2026-08-12,hr_operations,small,ownership_confusion,Recruiter asks support to identify the current assignee,,chat,96,0
+T-120,2026-08-23,finance_approver,mid_market,ownership_confusion,Requester does not know who must act next,Nobody knows whose turn it is after a handoff.,chat,109,0
+T-121,2026-08-08,finance_approver,mid_market,notification_noise,Reminder email lacks enough context to decide,A reminder without context is just another notification.,chat,68,0
+T-122,2026-08-19,recruiter,enterprise,notification_noise,Customer asks for a weekly digest instead of individual nudges,Can these be bundled into one digest?,chat,81,0
+T-123,2026-08-04,hiring_manager,small,notification_noise,Hiring manager muted approval emails after duplicate notices,Please stop sending the same reminder every morning.,chat,94,0
+T-124,2026-08-15,hr_operations,mid_market,notification_noise,Approver reports receiving repeated reminders after delegating,A reminder without context is just another notification.,chat,107,0
+T-125,2026-08-26,finance_approver,enterprise,notification_noise,Reminder email lacks enough context to decide,Can these be bundled into one digest?,chat,120,0
+T-126,2026-08-11,recruiter,small,notification_noise,Customer asks for a weekly digest instead of individual nudges,Please stop sending the same reminder every morning.,chat,42,0
+T-127,2026-08-22,hiring_manager,mid_market,notification_noise,Hiring manager muted approval emails after duplicate notices,A reminder without context is just another notification.,chat,55,0
+T-128,2026-08-07,hr_operations,enterprise,notification_noise,Approver reports receiving repeated reminders after delegating,Can these be bundled into one digest?,chat,68,0
+T-129,2026-08-18,finance_approver,small,notification_noise,Reminder email lacks enough context to decide,Please stop sending the same reminder every morning.,chat,81,0
+T-130,2026-08-03,recruiter,mid_market,notification_noise,Customer asks for a weekly digest instead of individual nudges,A reminder without context is just another notification.,chat,94,0
+T-131,2026-08-14,hiring_manager,enterprise,notification_noise,Hiring manager muted approval emails after duplicate notices,Can these be bundled into one digest?,chat,107,0
+T-132,2026-08-25,hr_operations,small,notification_noise,Approver reports receiving repeated reminders after delegating,Please stop sending the same reminder every morning.,chat,120,0
+T-133,2026-08-10,finance_approver,mid_market,notification_noise,Reminder email lacks enough context to decide,A reminder without context is just another notification.,chat,42,0
+T-134,2026-08-21,recruiter,enterprise,notification_noise,Customer asks for a weekly digest instead of individual nudges,Can these be bundled into one digest?,chat,55,0
+T-135,2026-08-06,hiring_manager,small,notification_noise,Hiring manager muted approval emails after duplicate notices,Please stop sending the same reminder every morning.,chat,68,0
+T-136,2026-08-17,hr_operations,mid_market,notification_noise,Approver reports receiving repeated reminders after delegating,,chat,81,0
+T-137,2026-08-28,finance_approver,enterprise,notification_noise,Reminder email lacks enough context to decide,Can these be bundled into one digest?,chat,94,0
+T-138,2026-08-13,recruiter,small,notification_noise,Customer asks for a weekly digest instead of individual nudges,Please stop sending the same reminder every morning.,chat,107,0
+T-139,2026-08-24,hiring_manager,mid_market,notification_noise,Hiring manager muted approval emails after duplicate notices,A reminder without context is just another notification.,chat,120,0
+T-140,2026-08-09,hr_operations,enterprise,notification_noise,Approver reports receiving repeated reminders after delegating,Can these be bundled into one digest?,chat,42,0
+T-141,2026-08-20,finance_approver,small,notification_noise,Reminder email lacks enough context to decide,Please stop sending the same reminder every morning.,chat,55,0
+T-142,2026-08-05,recruiter,mid_market,notification_noise,Customer asks for a weekly digest instead of individual nudges,A reminder without context is just another notification.,chat,68,0
+T-143,2026-08-16,hiring_manager,enterprise,notification_noise,Hiring manager muted approval emails after duplicate notices,Can these be bundled into one digest?,chat,81,0
+T-144,2026-08-27,hr_operations,small,notification_noise,Approver reports receiving repeated reminders after delegating,Please stop sending the same reminder every morning.,chat,94,0
+T-145,2026-08-12,finance_approver,mid_market,notification_noise,Reminder email lacks enough context to decide,A reminder without context is just another notification.,chat,107,0
+T-146,2026-08-23,recruiter,enterprise,notification_noise,Customer asks for a weekly digest instead of individual nudges,Can these be bundled into one digest?,chat,120,0
+T-147,2026-08-08,hiring_manager,small,notification_noise,Hiring manager muted approval emails after duplicate notices,Please stop sending the same reminder every morning.,chat,42,0
+T-148,2026-08-19,hr_operations,mid_market,notification_noise,Approver reports receiving repeated reminders after delegating,A reminder without context is just another notification.,chat,55,0
+T-149,2026-08-04,finance_approver,enterprise,notification_noise,Reminder email lacks enough context to decide,Can these be bundled into one digest?,chat,68,0
+T-150,2026-08-15,recruiter,small,notification_noise,Customer asks for a weekly digest instead of individual nudges,Please stop sending the same reminder every morning.,chat,81,0
+T-151,2026-08-26,hiring_manager,mid_market,notification_noise,Hiring manager muted approval emails after duplicate notices,A reminder without context is just another notification.,chat,94,0
+T-152,2026-08-11,hr_operations,enterprise,notification_noise,Approver reports receiving repeated reminders after delegating,Can these be bundled into one digest?,chat,107,0
+T-153,2026-08-22,finance_approver,small,notification_noise,Reminder email lacks enough context to decide,,chat,120,0
+T-154,2026-08-07,recruiter,mid_market,notification_noise,Customer asks for a weekly digest instead of individual nudges,A reminder without context is just another notification.,chat,42,0
+T-155,2026-08-18,hiring_manager,enterprise,notification_noise,Hiring manager muted approval emails after duplicate notices,Can these be bundled into one digest?,chat,55,0
+T-156,2026-08-03,hr_operations,small,notification_noise,Approver reports receiving repeated reminders after delegating,Please stop sending the same reminder every morning.,chat,68,0
+T-157,2026-08-14,finance_approver,mid_market,notification_noise,Reminder email lacks enough context to decide,A reminder without context is just another notification.,chat,81,0
+T-158,2026-08-25,recruiter,enterprise,notification_noise,Customer asks for a weekly digest instead of individual nudges,Can these be bundled into one digest?,chat,94,0
+T-159,2026-08-10,hr_operations,small,missing_context,Email does not show compensation range or requested start date,The email tells me to act but not what changed.,chat,126,0
+T-160,2026-08-21,finance_approver,mid_market,missing_context,Approver opens the application to understand why approval is needed,I need the amount and deadline before I can approve.,chat,139,0
+T-161,2026-08-06,recruiter,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,The email tells me to act but not what changed.,chat,61,0
+T-162,2026-08-17,hiring_manager,small,missing_context,Email does not show compensation range or requested start date,I need the amount and deadline before I can approve.,chat,74,0
+T-163,2026-08-28,hr_operations,mid_market,missing_context,Approver opens the application to understand why approval is needed,The email tells me to act but not what changed.,chat,87,0
+T-164,2026-08-13,finance_approver,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,I need the amount and deadline before I can approve.,chat,100,0
+T-165,2026-08-24,recruiter,small,missing_context,Email does not show compensation range or requested start date,The email tells me to act but not what changed.,chat,113,0
+T-166,2026-08-09,hiring_manager,mid_market,missing_context,Approver opens the application to understand why approval is needed,I need the amount and deadline before I can approve.,chat,126,0
+T-167,2026-08-20,hr_operations,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,The email tells me to act but not what changed.,chat,139,0
+T-168,2026-08-05,finance_approver,small,missing_context,Email does not show compensation range or requested start date,I need the amount and deadline before I can approve.,chat,61,0
+T-169,2026-08-16,recruiter,mid_market,missing_context,Approver opens the application to understand why approval is needed,The email tells me to act but not what changed.,chat,74,0
+T-170,2026-08-27,hiring_manager,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,,chat,87,0
+T-171,2026-08-12,hr_operations,small,missing_context,Email does not show compensation range or requested start date,The email tells me to act but not what changed.,chat,100,0
+T-172,2026-08-23,finance_approver,mid_market,missing_context,Approver opens the application to understand why approval is needed,I need the amount and deadline before I can approve.,chat,113,0
+T-173,2026-08-08,recruiter,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,The email tells me to act but not what changed.,chat,126,0
+T-174,2026-08-19,hiring_manager,small,missing_context,Email does not show compensation range or requested start date,I need the amount and deadline before I can approve.,chat,139,0
+T-175,2026-08-04,hr_operations,mid_market,missing_context,Approver opens the application to understand why approval is needed,The email tells me to act but not what changed.,chat,61,0
+T-176,2026-08-15,finance_approver,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,I need the amount and deadline before I can approve.,chat,74,0
+T-177,2026-08-26,recruiter,small,missing_context,Email does not show compensation range or requested start date,The email tells me to act but not what changed.,chat,87,0
+T-178,2026-08-11,hiring_manager,mid_market,missing_context,Approver opens the application to understand why approval is needed,I need the amount and deadline before I can approve.,chat,100,0
+T-179,2026-08-22,hr_operations,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,The email tells me to act but not what changed.,chat,113,0
+T-180,2026-08-07,finance_approver,small,missing_context,Email does not show compensation range or requested start date,I need the amount and deadline before I can approve.,chat,126,0
+T-181,2026-08-18,recruiter,mid_market,missing_context,Approver opens the application to understand why approval is needed,The email tells me to act but not what changed.,chat,139,0
+T-182,2026-08-03,hiring_manager,enterprise,missing_context,Notification omits the changed fields that triggered reapproval,I need the amount and deadline before I can approve.,chat,61,0
+T-183,2026-08-14,hr_operations,small,missing_context,Email does not show compensation range or requested start date,The email tells me to act but not what changed.,chat,74,0
+T-184,2026-08-25,hiring_manager,enterprise,mobile_action,Manager can read the reminder on mobile but cannot see the full request,I opened it on my phone and gave up.,chat,109,0
+T-185,2026-08-10,hr_operations,small,mobile_action,Mobile approver abandons after the request opens in a wide table,The message is mobile-friendly; the request is not.,chat,122,0
+T-186,2026-08-21,finance_approver,mid_market,mobile_action,Approval link is hard to complete from a phone,I opened it on my phone and gave up.,chat,135,0
+T-187,2026-08-06,recruiter,enterprise,mobile_action,Manager can read the reminder on mobile but cannot see the full request,,chat,148,0
+T-188,2026-08-17,hiring_manager,small,mobile_action,Mobile approver abandons after the request opens in a wide table,I opened it on my phone and gave up.,chat,161,0
+T-189,2026-08-28,hr_operations,mid_market,mobile_action,Approval link is hard to complete from a phone,The message is mobile-friendly; the request is not.,chat,83,0
+T-190,2026-08-13,finance_approver,enterprise,mobile_action,Manager can read the reminder on mobile but cannot see the full request,I opened it on my phone and gave up.,chat,96,0
+T-191,2026-08-24,recruiter,small,mobile_action,Mobile approver abandons after the request opens in a wide table,The message is mobile-friendly; the request is not.,chat,109,0
+T-192,2026-08-09,hiring_manager,mid_market,mobile_action,Approval link is hard to complete from a phone,I opened it on my phone and gave up.,chat,122,0
+T-193,2026-08-20,hr_operations,enterprise,mobile_action,Manager can read the reminder on mobile but cannot see the full request,The message is mobile-friendly; the request is not.,chat,135,0
+T-194,2026-08-05,finance_approver,small,mobile_action,Mobile approver abandons after the request opens in a wide table,I opened it on my phone and gave up.,chat,148,0
+T-195,2026-08-16,recruiter,mid_market,mobile_action,Approval link is hard to complete from a phone,The message is mobile-friendly; the request is not.,chat,161,0
+T-196,2026-08-27,hiring_manager,enterprise,mobile_action,Manager can read the reminder on mobile but cannot see the full request,I opened it on my phone and gave up.,chat,83,0
+T-197,2026-08-12,hr_operations,small,mobile_action,Mobile approver abandons after the request opens in a wide table,The message is mobile-friendly; the request is not.,chat,96,0
+T-198,2026-08-23,finance_approver,mid_market,mobile_action,Approval link is hard to complete from a phone,I opened it on my phone and gave up.,chat,109,0
+T-199,2026-08-08,recruiter,enterprise,mobile_action,Manager can read the reminder on mobile but cannot see the full request,The message is mobile-friendly; the request is not.,chat,122,0
+T-200,2026-08-19,hiring_manager,small,mobile_action,Mobile approver abandons after the request opens in a wide table,I opened it on my phone and gave up.,chat,135,0
+T-201,2026-08-04,hr_operations,mid_market,mobile_action,Approval link is hard to complete from a phone,The message is mobile-friendly; the request is not.,chat,148,0
+T-202,2026-08-15,finance_approver,enterprise,audit_history,Customer needs a record of who approved each stage,We need to show who approved what and when.,chat,210,0
+T-203,2026-08-26,recruiter,small,audit_history,Audit review cannot distinguish reminder time from approval time,The history is not usable for our quarterly audit.,chat,132,0
+T-204,2026-08-11,hiring_manager,mid_market,audit_history,HR operations cannot export approval timestamps,,chat,145,0
+T-205,2026-08-22,hr_operations,enterprise,audit_history,Customer needs a record of who approved each stage,The history is not usable for our quarterly audit.,chat,158,0
+T-206,2026-08-07,finance_approver,small,audit_history,Audit review cannot distinguish reminder time from approval time,We need to show who approved what and when.,chat,171,0
+T-207,2026-08-18,recruiter,mid_market,audit_history,HR operations cannot export approval timestamps,The history is not usable for our quarterly audit.,chat,184,0
+T-208,2026-08-03,hiring_manager,enterprise,audit_history,Customer needs a record of who approved each stage,We need to show who approved what and when.,chat,197,0
+T-209,2026-08-14,hr_operations,small,audit_history,Audit review cannot distinguish reminder time from approval time,The history is not usable for our quarterly audit.,chat,210,0
+T-210,2026-08-25,finance_approver,mid_market,audit_history,HR operations cannot export approval timestamps,We need to show who approved what and when.,chat,132,0
+T-211,2026-08-10,recruiter,enterprise,audit_history,Customer needs a record of who approved each stage,The history is not usable for our quarterly audit.,chat,145,0
+T-212,2026-08-21,hiring_manager,small,audit_history,Audit review cannot distinguish reminder time from approval time,We need to show who approved what and when.,chat,158,0
+T-213,2026-08-06,hr_operations,mid_market,audit_history,HR operations cannot export approval timestamps,The history is not usable for our quarterly audit.,chat,171,0
+T-214,2026-08-17,finance_approver,enterprise,audit_history,Customer needs a record of who approved each stage,We need to show who approved what and when.,chat,184,0
+T-215,2026-08-28,recruiter,enterprise,unrelated,Customer reports a typo in a candidate email template,There is a typo in the candidate email.,chat,93,0
+T-216,2026-08-13,hiring_manager,small,unrelated,User asks how to archive a filled requisition,Where can I archive this requisition?,chat,106,0
+T-217,2026-08-24,hr_operations,mid_market,unrelated,Customer reports a typo in a candidate email template,There is a typo in the candidate email.,chat,28,0
+T-218,2026-08-09,finance_approver,enterprise,unrelated,User asks how to archive a filled requisition,Where can I archive this requisition?,chat,41,0
+T-219,2026-08-20,recruiter,small,unrelated,Customer reports a typo in a candidate email template,There is a typo in the candidate email.,chat,54,0
+T-220,2026-08-05,hiring_manager,mid_market,unrelated,User asks how to archive a filled requisition,Where can I archive this requisition?,chat,67,0

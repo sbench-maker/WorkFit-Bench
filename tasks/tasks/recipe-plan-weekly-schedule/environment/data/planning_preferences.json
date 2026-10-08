@@ -1,0 +1,71 @@
+{
+  "target_week": {
+    "start": "2026-10-05",
+    "end": "2026-10-09"
+  },
+  "timezone": "America/New_York",
+  "working_hours": {
+    "Monday": {
+      "start": "08:30",
+      "end": "17:30"
+    },
+    "Tuesday": {
+      "start": "08:30",
+      "end": "17:30"
+    },
+    "Wednesday": {
+      "start": "08:30",
+      "end": "17:30"
+    },
+    "Thursday": {
+      "start": "08:30",
+      "end": "17:30"
+    },
+    "Friday": {
+      "start": "08:30",
+      "end": "15:00"
+    }
+  },
+  "protected_time": [
+    {
+      "name": "Lunch",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "start": "12:00",
+      "end": "13:00"
+    }
+  ],
+  "availability_rules": {
+    "blocking_statuses": [
+      "confirmed",
+      "tentative"
+    ],
+    "non_blocking_statuses": [
+      "cancelled"
+    ],
+    "blocking_transparency": "opaque",
+    "non_blocking_transparency": "transparent",
+    "buffer_before_minutes": 15,
+    "buffer_after_minutes": 15,
+    "all_day_opaque_blocks_workday": true
+  },
+  "request": {
+    "summary": "Atlas Focus Block",
+    "count": 6,
+    "duration_minutes": 75,
+    "start_increment_minutes": 15,
+    "minimum_distinct_days": 4,
+    "maximum_per_day": 2,
+    "preference_order": [
+      "morning",
+      "earlier_start",
+      "spread_across_week"
+    ],
+    "morning_definition": "event ends by 12:00 local time"
+  }
+}

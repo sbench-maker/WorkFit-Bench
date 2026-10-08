@@ -1,0 +1,57 @@
+{
+  "fixture_notice": "All entities and records in this offline export are fictional and locally constructed.",
+  "organization": "Northstar Learning",
+  "matter_id": "INC-CM-2026-0908",
+  "briefing_cutoff": "2026-09-09T09:00:00Z",
+  "working_timezone": "UTC",
+  "record_counts": {
+    "email": 84,
+    "chat": 140,
+    "contracts": 32,
+    "documents": 18,
+    "calendar": 18
+  },
+  "sources": [
+    {
+      "name": "email",
+      "status": "available",
+      "coverage": "through 2026-09-09T08:30:00Z"
+    },
+    {
+      "name": "chat",
+      "status": "available",
+      "coverage": "through 2026-09-09T08:45:00Z"
+    },
+    {
+      "name": "documents",
+      "status": "available",
+      "coverage": "exported matter folder"
+    },
+    {
+      "name": "calendar",
+      "status": "available",
+      "coverage": "2026-09-09 through 2026-09-12"
+    },
+    {
+      "name": "CLM",
+      "status": "available_with_gap",
+      "coverage": "agreement metadata and clause text",
+      "gap": "DPA-VEND-001 Annex B security controls attachment is missing"
+    },
+    {
+      "name": "CRM",
+      "status": "unavailable",
+      "gap": "offline export job failed before task freeze"
+    },
+    {
+      "name": "production audit logs",
+      "status": "incomplete",
+      "gap": "29-30 August application logs and full production audit export unavailable at cutoff"
+    },
+    {
+      "name": "outside-counsel portal",
+      "status": "not_connected",
+      "gap": "no portal export supplied"
+    }
+  ]
+}

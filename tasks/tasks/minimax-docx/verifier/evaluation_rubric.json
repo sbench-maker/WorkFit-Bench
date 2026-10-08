@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_integrity",
+      "title": "Usable Word artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested DOCX exists, opens as a valid Office package, and contains the document and visual parts needed for the packet.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_integrity"
+      ]
+    },
+    {
+      "id": "completion__release_fact_accuracy",
+      "title": "Authoritative release facts",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Release identity, timing, components, monitoring thresholds, endpoint, observation period, and artifact digest agree with release_facts.json, with obsolete draft values removed.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_release_fact_accuracy"
+      ]
+    },
+    {
+      "id": "completion__scope_preservation",
+      "title": "Operational and approval scope preservation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every deployment, verification, and rollback step from the draft remains present exactly once, and every approval row reflects the authoritative decision state.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_scope_preservation"
+      ]
+    },
+    {
+      "id": "completion__template_and_navigation",
+      "title": "Template fidelity and Word navigation",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Page geometry, corporate header/footer, semantic style properties, live pagination, heading outline levels, and updateable TOC behavior match the supplied template and requested navigation needs.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_integrity",
+        "title": "Usable Word artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__release_fact_accuracy",
+        "title": "Authoritative release facts",
+        "required_score": 10
+      },
+      {
+        "id": "completion__scope_preservation",
+        "title": "Operational and approval scope preservation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__template_and_navigation",
+        "title": "Template fidelity and Word navigation",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "repo_id": "repo-ledger",
+    "name": "ledger-core",
+    "path": "/workspaces/ledger-core",
+    "enabled": true,
+    "components": [
+      "ledger"
+    ],
+    "keywords": [
+      "ledger",
+      "reconciliation",
+      "settlement",
+      "posting",
+      "journal",
+      "balance"
+    ]
+  },
+  {
+    "repo_id": "repo-gateway",
+    "name": "payment-gateway",
+    "path": "/workspaces/payment-gateway",
+    "enabled": true,
+    "components": [
+      "gateway"
+    ],
+    "keywords": [
+      "gateway",
+      "checkout",
+      "payment",
+      "card",
+      "webhook",
+      "token",
+      "capture"
+    ]
+  },
+  {
+    "repo_id": "repo-risk",
+    "name": "risk-engine",
+    "path": "/workspaces/risk-engine",
+    "enabled": true,
+    "components": [
+      "risk"
+    ],
+    "keywords": [
+      "risk",
+      "fraud",
+      "rule",
+      "screening",
+      "velocity",
+      "chargeback",
+      "device"
+    ]
+  },
+  {
+    "repo_id": "repo-console",
+    "name": "ops-console",
+    "path": "/workspaces/ops-console",
+    "enabled": true,
+    "components": [
+      "console"
+    ],
+    "keywords": [
+      "console",
+      "dashboard",
+      "admin",
+      "report",
+      "export",
+      "accessibility",
+      "filter"
+    ]
+  },
+  {
+    "repo_id": "repo-platform",
+    "name": "delivery-platform",
+    "path": "/workspaces/delivery-platform",
+    "enabled": true,
+    "components": [
+      "platform"
+    ],
+    "keywords": [
+      "platform",
+      "ci",
+      "build",
+      "dependency",
+      "observability",
+      "release",
+      "deployment",
+      "cache"
+    ]
+  },
+  {
+    "repo_id": "repo-legacy",
+    "name": "legacy-archive",
+    "path": "/workspaces/legacy-archive",
+    "enabled": false,
+    "components": [
+      "legacy"
+    ],
+    "keywords": [
+      "legacy",
+      "archive"
+    ]
+  }
+]

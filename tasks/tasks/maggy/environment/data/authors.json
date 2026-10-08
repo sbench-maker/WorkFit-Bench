@@ -1,0 +1,128 @@
+[
+  {
+    "author_id": "USR-001",
+    "display_name": "Teammate 01",
+    "team": "payments",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-002",
+    "display_name": "Teammate 02",
+    "team": "finance",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-003",
+    "display_name": "Teammate 03",
+    "team": "risk",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-004",
+    "display_name": "Teammate 04",
+    "team": "experience",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-005",
+    "display_name": "Teammate 05",
+    "team": "platform",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-006",
+    "display_name": "Teammate 06",
+    "team": "support",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-007",
+    "display_name": "Teammate 07",
+    "team": "payments",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-008",
+    "display_name": "Teammate 08",
+    "team": "finance",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-009",
+    "display_name": "Teammate 09",
+    "team": "risk",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-010",
+    "display_name": "Teammate 10",
+    "team": "experience",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-011",
+    "display_name": "Teammate 11",
+    "team": "platform",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-012",
+    "display_name": "Teammate 12",
+    "team": "support",
+    "trusted_for_execution": true,
+    "trust_note": "verified employee"
+  },
+  {
+    "author_id": "USR-013",
+    "display_name": "Teammate 13",
+    "team": "payments",
+    "trusted_for_execution": false,
+    "trust_note": "external or pending verification"
+  },
+  {
+    "author_id": "USR-014",
+    "display_name": "Teammate 14",
+    "team": "finance",
+    "trusted_for_execution": false,
+    "trust_note": "external or pending verification"
+  },
+  {
+    "author_id": "USR-015",
+    "display_name": "Teammate 15",
+    "team": "risk",
+    "trusted_for_execution": false,
+    "trust_note": "external or pending verification"
+  },
+  {
+    "author_id": "USR-016",
+    "display_name": "Teammate 16",
+    "team": "experience",
+    "trusted_for_execution": false,
+    "trust_note": "external or pending verification"
+  },
+  {
+    "author_id": "USR-017",
+    "display_name": "Teammate 17",
+    "team": "platform",
+    "trusted_for_execution": false,
+    "trust_note": "external or pending verification"
+  },
+  {
+    "author_id": "USR-018",
+    "display_name": "Teammate 18",
+    "team": "support",
+    "trusted_for_execution": false,
+    "trust_note": "external or pending verification"
+  }
+]

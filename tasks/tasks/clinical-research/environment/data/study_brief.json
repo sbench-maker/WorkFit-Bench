@@ -1,0 +1,24 @@
+{
+  "fixture_notice": "All entities and figures in this planning snapshot are fictional and locally constructed.",
+  "study_id": "AURORA-2",
+  "phase": 2,
+  "profile": "drug",
+  "indication": "persistent post-viral fatigue syndrome",
+  "sponsor_department": "Fictional Northstar Therapeutics, Clinical Development",
+  "primary_objective": "Estimate whether NVT-201 improves clinically meaningful symptom recovery at week 16 versus placebo.",
+  "design": "parallel-group randomized double-blind placebo-controlled trial",
+  "allocation_ratio": "1:1",
+  "intercurrent_event_strategy": "treatment-policy for discontinuation and rescue therapy; death handled as a composite non-response",
+  "target_enrollment": 440,
+  "enrollment_months": 13,
+  "visits_per_patient": 10,
+  "invasive_procedures": 2,
+  "planned_budget_usd": 14500000,
+  "primary_endpoint_instrument_in_place": true,
+  "owners": {
+    "principal_investigator": "Dr. Arun Patel (fictional)",
+    "medical_monitor": "Dr. Lena Ortiz (fictional)",
+    "biostatistician": "Dr. Mira Chen (fictional)",
+    "regulatory_owner": "Rowan Blake (fictional)"
+  }
+}

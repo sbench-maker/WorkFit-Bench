@@ -1,0 +1,241 @@
+person_id,consent_status,lifecycle_stage,account_owner,last_engagement_date,engagement_type,engagement_note
+P001,do_not_contact,prospect,Noah Reed,2026-08-28,demo_request,requested a release-review walkthrough
+P002,opt_in,prospect,Iris Park,2026-08-27,demo_request,requested a release-review walkthrough
+P003,opt_in,prospect,Maya Chen,2026-08-25,content_reply,replied to a CI reliability note
+P004,opt_in,prospect,Noah Reed,2026-08-23,webinar_attendance,attended the release-risk roundtable
+P005,opt_in,prospect,Iris Park,2026-08-20,content_reply,replied to a CI reliability note
+P006,opt_in,prospect,Maya Chen,2026-08-18,demo_request,requested a release-review walkthrough
+P007,opt_in,prospect,Noah Reed,2026-08-14,demo_request,requested a release-review walkthrough
+P008,opt_in,prospect,Iris Park,2026-08-28,content_reply,replied to a CI reliability note
+P009,opt_in,prospect,Maya Chen,2026-07-28,demo_request,requested a release-review walkthrough
+P010,opt_in,prospect,Noah Reed,2026-08-21,content_reply,replied to a CI reliability note
+P011,opt_in,prospect,Iris Park,2026-08-26,demo_request,requested a release-review walkthrough
+P012,opt_in,prospect,Maya Chen,2026-08-10,content_like,liked a release-readiness post
+P013,opt_in,prospect,Noah Reed,2026-08-29,none,no recorded engagement
+P014,opt_in,prospect,Iris Park,2026-08-27,demo_request,requested a release-review walkthrough
+P015,opt_in,prospect,Maya Chen,2026-07-21,content_reply,replied to a CI reliability note
+P016,opt_in,current_customer,Noah Reed,2026-08-25,content_reply,replied to a CI reliability note
+P017,opt_in,prospect,Iris Park,2026-08-22,demo_request,requested a release-review walkthrough
+P018,opt_in,prospect,Maya Chen,2026-08-10,webinar_attendance,attended the release-risk roundtable
+P019,opt_in,prospect,Noah Reed,2026-06-26,demo_request,requested a release-review walkthrough
+P020,opt_in,prospect,Iris Park,2026-08-05,content_reply,replied to a CI reliability note
+P021,opt_in,active_opportunity,Maya Chen,2026-08-28,demo_request,requested a release-review walkthrough
+P022,opt_in,prospect,Noah Reed,2026-05-14,content_like,liked a release-readiness post
+P023,opt_in,prospect,Iris Park,2026-05-01,none,no recorded engagement
+P024,opt_in,prospect,Maya Chen,2026-04-18,content_like,liked a release-readiness post
+P025,opt_in,prospect,Noah Reed,2026-04-05,none,no recorded engagement
+P026,opt_in,prospect,Iris Park,2026-03-23,email_open,opened a product update
+P027,opt_in,prospect,Maya Chen,2026-03-10,content_like,liked a release-readiness post
+P028,opt_in,prospect,Noah Reed,2026-06-25,none,no recorded engagement
+P029,opt_in,prospect,Iris Park,2026-06-12,content_like,liked a release-readiness post
+P030,opt_in,prospect,Maya Chen,2026-05-30,none,no recorded engagement
+P031,opt_in,prospect,Noah Reed,2026-05-17,email_open,opened a product update
+P032,opt_in,prospect,Iris Park,2026-05-04,content_like,liked a release-readiness post
+P033,opt_in,prospect,Maya Chen,2026-04-21,none,no recorded engagement
+P034,opt_in,prospect,Noah Reed,2026-04-08,content_like,liked a release-readiness post
+P035,opt_in,prospect,Iris Park,2026-03-26,none,no recorded engagement
+P036,opt_in,prospect,Maya Chen,2026-03-13,email_open,opened a product update
+P037,do_not_contact,prospect,Noah Reed,2026-06-28,content_like,liked a release-readiness post
+P038,opt_in,prospect,Iris Park,2026-06-15,none,no recorded engagement
+P039,opt_in,prospect,Maya Chen,2026-06-02,content_like,liked a release-readiness post
+P040,opt_in,prospect,Noah Reed,2026-05-20,none,no recorded engagement
+P041,opt_in,prospect,Iris Park,2026-05-07,email_open,opened a product update
+P042,opt_in,prospect,Maya Chen,2026-04-24,content_like,liked a release-readiness post
+P043,opt_in,prospect,Noah Reed,2026-04-11,none,no recorded engagement
+P044,opt_in,prospect,Iris Park,2026-03-29,content_like,liked a release-readiness post
+P045,opt_in,prospect,Maya Chen,2026-03-16,none,no recorded engagement
+P046,opt_in,prospect,Noah Reed,2026-03-03,email_open,opened a product update
+P047,opt_in,prospect,Iris Park,2026-06-18,content_like,liked a release-readiness post
+P048,opt_in,prospect,Maya Chen,2026-06-05,none,no recorded engagement
+P049,opt_in,prospect,Noah Reed,2026-05-23,content_like,liked a release-readiness post
+P050,opt_in,prospect,Iris Park,2026-05-10,none,no recorded engagement
+P051,opt_in,prospect,Maya Chen,2026-04-27,email_open,opened a product update
+P052,opt_in,prospect,Noah Reed,2026-04-14,content_like,liked a release-readiness post
+P053,opt_in,active_opportunity,Iris Park,2026-04-01,none,no recorded engagement
+P054,opt_in,prospect,Maya Chen,2026-03-19,content_like,liked a release-readiness post
+P055,opt_in,prospect,Noah Reed,2026-03-06,none,no recorded engagement
+P056,opt_in,prospect,Iris Park,2026-06-21,email_open,opened a product update
+P057,opt_in,prospect,Maya Chen,2026-06-08,content_like,liked a release-readiness post
+P058,opt_in,prospect,Noah Reed,2026-05-26,none,no recorded engagement
+P059,opt_in,prospect,Iris Park,2026-05-13,content_like,liked a release-readiness post
+P060,opt_in,prospect,Maya Chen,2026-04-30,none,no recorded engagement
+P061,opt_in,prospect,Noah Reed,2026-04-17,email_open,opened a product update
+P062,opt_in,prospect,Iris Park,2026-04-04,content_like,liked a release-readiness post
+P063,opt_in,prospect,Maya Chen,2026-03-22,none,no recorded engagement
+P064,opt_in,prospect,Noah Reed,2026-03-09,content_like,liked a release-readiness post
+P065,opt_in,prospect,Iris Park,2026-06-24,none,no recorded engagement
+P066,opt_in,prospect,Maya Chen,2026-06-11,email_open,opened a product update
+P067,opt_in,prospect,Noah Reed,2026-05-29,content_like,liked a release-readiness post
+P068,opt_in,prospect,Iris Park,2026-05-16,none,no recorded engagement
+P069,opt_in,prospect,Maya Chen,2026-05-03,content_like,liked a release-readiness post
+P070,opt_in,prospect,Noah Reed,2026-04-20,none,no recorded engagement
+P071,opt_in,prospect,Iris Park,2026-04-07,email_open,opened a product update
+P072,opt_in,prospect,Maya Chen,2026-03-25,content_like,liked a release-readiness post
+P073,opt_in,prospect,Noah Reed,2026-03-12,none,no recorded engagement
+P074,do_not_contact,prospect,Iris Park,2026-06-27,content_like,liked a release-readiness post
+P075,opt_in,prospect,Maya Chen,2026-06-14,none,no recorded engagement
+P076,opt_in,prospect,Noah Reed,2026-06-01,email_open,opened a product update
+P077,opt_in,prospect,Iris Park,2026-05-19,content_like,liked a release-readiness post
+P078,opt_in,prospect,Maya Chen,2026-05-06,none,no recorded engagement
+P079,opt_in,current_customer,Noah Reed,2026-04-23,content_like,liked a release-readiness post
+P080,opt_in,prospect,Iris Park,2026-04-10,none,no recorded engagement
+P081,opt_in,prospect,Maya Chen,2026-03-28,email_open,opened a product update
+P082,opt_in,prospect,Noah Reed,2026-03-15,content_like,liked a release-readiness post
+P083,opt_in,prospect,Iris Park,2026-03-02,none,no recorded engagement
+P084,opt_in,prospect,Maya Chen,2026-06-17,content_like,liked a release-readiness post
+P085,opt_in,prospect,Noah Reed,2026-06-04,none,no recorded engagement
+P086,opt_in,prospect,Iris Park,2026-05-22,email_open,opened a product update
+P087,opt_in,prospect,Maya Chen,2026-05-09,content_like,liked a release-readiness post
+P088,opt_in,prospect,Noah Reed,2026-04-26,none,no recorded engagement
+P089,opt_in,prospect,Iris Park,2026-04-13,content_like,liked a release-readiness post
+P090,opt_in,prospect,Maya Chen,2026-03-31,none,no recorded engagement
+P091,opt_in,prospect,Noah Reed,2026-03-18,email_open,opened a product update
+P092,opt_in,prospect,Iris Park,2026-03-05,content_like,liked a release-readiness post
+P093,opt_in,prospect,Maya Chen,2026-06-20,none,no recorded engagement
+P094,opt_in,prospect,Noah Reed,2026-06-07,content_like,liked a release-readiness post
+P095,opt_in,prospect,Iris Park,2026-05-25,none,no recorded engagement
+P096,opt_in,prospect,Maya Chen,2026-05-12,email_open,opened a product update
+P097,opt_in,prospect,Noah Reed,2026-04-29,content_like,liked a release-readiness post
+P098,opt_in,prospect,Iris Park,2026-04-16,none,no recorded engagement
+P099,opt_in,prospect,Maya Chen,2026-04-03,content_like,liked a release-readiness post
+P100,opt_in,prospect,Noah Reed,2026-03-21,none,no recorded engagement
+P101,opt_in,prospect,Iris Park,2026-03-08,email_open,opened a product update
+P102,opt_in,prospect,Maya Chen,2026-06-23,content_like,liked a release-readiness post
+P103,opt_in,prospect,Noah Reed,2026-06-10,none,no recorded engagement
+P104,opt_in,prospect,Iris Park,2026-05-28,content_like,liked a release-readiness post
+P105,opt_in,prospect,Maya Chen,2026-05-15,none,no recorded engagement
+P106,opt_in,active_opportunity,Noah Reed,2026-05-02,email_open,opened a product update
+P107,opt_in,prospect,Iris Park,2026-04-19,content_like,liked a release-readiness post
+P108,opt_in,prospect,Maya Chen,2026-04-06,none,no recorded engagement
+P109,opt_in,prospect,Noah Reed,2026-03-24,content_like,liked a release-readiness post
+P110,opt_in,prospect,Iris Park,2026-03-11,none,no recorded engagement
+P111,do_not_contact,prospect,Maya Chen,2026-06-26,email_open,opened a product update
+P112,opt_in,prospect,Noah Reed,2026-06-13,content_like,liked a release-readiness post
+P113,opt_in,prospect,Iris Park,2026-05-31,none,no recorded engagement
+P114,opt_in,prospect,Maya Chen,2026-05-18,content_like,liked a release-readiness post
+P115,opt_in,prospect,Noah Reed,2026-05-05,none,no recorded engagement
+P116,opt_in,prospect,Iris Park,2026-04-22,email_open,opened a product update
+P117,opt_in,prospect,Maya Chen,2026-04-09,content_like,liked a release-readiness post
+P118,opt_in,prospect,Noah Reed,2026-03-27,none,no recorded engagement
+P119,opt_in,prospect,Iris Park,2026-03-14,content_like,liked a release-readiness post
+P120,opt_in,prospect,Maya Chen,2026-06-29,none,no recorded engagement
+P121,opt_in,prospect,Noah Reed,2026-06-16,email_open,opened a product update
+P122,opt_in,prospect,Iris Park,2026-06-03,content_like,liked a release-readiness post
+P123,opt_in,prospect,Maya Chen,2026-05-21,none,no recorded engagement
+P124,opt_in,prospect,Noah Reed,2026-05-08,content_like,liked a release-readiness post
+P125,opt_in,prospect,Iris Park,2026-04-25,none,no recorded engagement
+P126,opt_in,prospect,Maya Chen,2026-04-12,email_open,opened a product update
+P127,opt_in,prospect,Noah Reed,2026-03-30,content_like,liked a release-readiness post
+P128,opt_in,prospect,Iris Park,2026-03-17,none,no recorded engagement
+P129,opt_in,prospect,Maya Chen,2026-03-04,content_like,liked a release-readiness post
+P130,opt_in,prospect,Noah Reed,2026-06-19,none,no recorded engagement
+P131,opt_in,prospect,Iris Park,2026-06-06,email_open,opened a product update
+P132,opt_in,prospect,Maya Chen,2026-05-24,content_like,liked a release-readiness post
+P133,opt_in,prospect,Noah Reed,2026-05-11,none,no recorded engagement
+P134,opt_in,prospect,Iris Park,2026-04-28,content_like,liked a release-readiness post
+P135,opt_in,prospect,Maya Chen,2026-04-15,none,no recorded engagement
+P136,opt_in,prospect,Noah Reed,2026-04-02,email_open,opened a product update
+P137,opt_in,prospect,Iris Park,2026-03-20,content_like,liked a release-readiness post
+P138,opt_in,prospect,Maya Chen,2026-03-07,none,no recorded engagement
+P139,opt_in,prospect,Noah Reed,2026-06-22,content_like,liked a release-readiness post
+P140,opt_in,prospect,Iris Park,2026-06-09,none,no recorded engagement
+P141,opt_in,prospect,Maya Chen,2026-05-27,email_open,opened a product update
+P142,opt_in,prospect,Noah Reed,2026-05-14,content_like,liked a release-readiness post
+P143,opt_in,prospect,Iris Park,2026-05-01,none,no recorded engagement
+P144,opt_in,prospect,Maya Chen,2026-04-18,content_like,liked a release-readiness post
+P145,opt_in,prospect,Noah Reed,2026-04-05,none,no recorded engagement
+P146,opt_in,prospect,Iris Park,2026-03-23,email_open,opened a product update
+P147,opt_in,prospect,Maya Chen,2026-03-10,content_like,liked a release-readiness post
+P148,do_not_contact,prospect,Noah Reed,2026-06-25,none,no recorded engagement
+P149,opt_in,prospect,Iris Park,2026-06-12,content_like,liked a release-readiness post
+P150,opt_in,prospect,Maya Chen,2026-05-30,none,no recorded engagement
+P151,opt_in,prospect,Noah Reed,2026-05-17,email_open,opened a product update
+P152,opt_in,prospect,Iris Park,2026-05-04,content_like,liked a release-readiness post
+P153,opt_in,prospect,Maya Chen,2026-04-21,none,no recorded engagement
+P154,opt_in,prospect,Noah Reed,2026-04-08,content_like,liked a release-readiness post
+P155,opt_in,prospect,Iris Park,2026-03-26,none,no recorded engagement
+P156,opt_in,prospect,Maya Chen,2026-03-13,email_open,opened a product update
+P157,opt_in,prospect,Noah Reed,2026-06-28,content_like,liked a release-readiness post
+P158,opt_in,current_customer,Iris Park,2026-06-15,none,no recorded engagement
+P159,opt_in,active_opportunity,Maya Chen,2026-06-02,content_like,liked a release-readiness post
+P160,opt_in,prospect,Noah Reed,2026-05-20,none,no recorded engagement
+P161,opt_in,prospect,Iris Park,2026-05-07,email_open,opened a product update
+P162,opt_in,prospect,Maya Chen,2026-04-24,content_like,liked a release-readiness post
+P163,opt_in,prospect,Noah Reed,2026-04-11,none,no recorded engagement
+P164,opt_in,prospect,Iris Park,2026-03-29,content_like,liked a release-readiness post
+P165,opt_in,prospect,Maya Chen,2026-03-16,none,no recorded engagement
+P166,opt_in,prospect,Noah Reed,2026-03-03,email_open,opened a product update
+P167,opt_in,prospect,Iris Park,2026-06-18,content_like,liked a release-readiness post
+P168,opt_in,prospect,Maya Chen,2026-06-05,none,no recorded engagement
+P169,opt_in,prospect,Noah Reed,2026-05-23,content_like,liked a release-readiness post
+P170,opt_in,prospect,Iris Park,2026-05-10,none,no recorded engagement
+P171,opt_in,prospect,Maya Chen,2026-04-27,email_open,opened a product update
+P172,opt_in,prospect,Noah Reed,2026-04-14,content_like,liked a release-readiness post
+P173,opt_in,prospect,Iris Park,2026-04-01,none,no recorded engagement
+P174,opt_in,prospect,Maya Chen,2026-03-19,content_like,liked a release-readiness post
+P175,opt_in,prospect,Noah Reed,2026-03-06,none,no recorded engagement
+P176,opt_in,prospect,Iris Park,2026-06-21,email_open,opened a product update
+P177,opt_in,prospect,Maya Chen,2026-06-08,content_like,liked a release-readiness post
+P178,opt_in,prospect,Noah Reed,2026-05-26,none,no recorded engagement
+P179,opt_in,prospect,Iris Park,2026-05-13,content_like,liked a release-readiness post
+P180,opt_in,prospect,Maya Chen,2026-04-30,none,no recorded engagement
+P181,opt_in,prospect,Noah Reed,2026-04-17,email_open,opened a product update
+P182,opt_in,prospect,Iris Park,2026-04-04,content_like,liked a release-readiness post
+P183,opt_in,prospect,Maya Chen,2026-03-22,none,no recorded engagement
+P184,opt_in,prospect,Noah Reed,2026-03-09,content_like,liked a release-readiness post
+P185,do_not_contact,prospect,Iris Park,2026-06-24,none,no recorded engagement
+P186,opt_in,prospect,Maya Chen,2026-06-11,email_open,opened a product update
+P187,opt_in,prospect,Noah Reed,2026-05-29,content_like,liked a release-readiness post
+P188,opt_in,prospect,Iris Park,2026-05-16,none,no recorded engagement
+P189,opt_in,prospect,Maya Chen,2026-05-03,content_like,liked a release-readiness post
+P190,opt_in,prospect,Noah Reed,2026-04-20,none,no recorded engagement
+P191,opt_in,prospect,Iris Park,2026-04-07,email_open,opened a product update
+P192,opt_in,prospect,Maya Chen,2026-03-25,content_like,liked a release-readiness post
+P193,opt_in,prospect,Noah Reed,2026-03-12,none,no recorded engagement
+P194,opt_in,prospect,Iris Park,2026-06-27,content_like,liked a release-readiness post
+P195,opt_in,prospect,Maya Chen,2026-06-14,none,no recorded engagement
+P196,opt_in,prospect,Noah Reed,2026-06-01,email_open,opened a product update
+P197,opt_in,prospect,Iris Park,2026-05-19,content_like,liked a release-readiness post
+P198,opt_in,prospect,Maya Chen,2026-05-06,none,no recorded engagement
+P199,opt_in,prospect,Noah Reed,2026-04-23,content_like,liked a release-readiness post
+P200,opt_in,prospect,Iris Park,2026-04-10,none,no recorded engagement
+P201,opt_in,prospect,Maya Chen,2026-03-28,email_open,opened a product update
+P202,opt_in,prospect,Noah Reed,2026-03-15,content_like,liked a release-readiness post
+P203,opt_in,prospect,Iris Park,2026-03-02,none,no recorded engagement
+P204,opt_in,prospect,Maya Chen,2026-06-17,content_like,liked a release-readiness post
+P205,opt_in,prospect,Noah Reed,2026-06-04,none,no recorded engagement
+P206,opt_in,prospect,Iris Park,2026-05-22,email_open,opened a product update
+P207,opt_in,prospect,Maya Chen,2026-05-09,content_like,liked a release-readiness post
+P208,opt_in,prospect,Noah Reed,2026-04-26,none,no recorded engagement
+P209,opt_in,prospect,Iris Park,2026-04-13,content_like,liked a release-readiness post
+P210,opt_in,prospect,Maya Chen,2026-03-31,none,no recorded engagement
+P211,opt_in,prospect,Noah Reed,2026-03-18,email_open,opened a product update
+P212,opt_in,active_opportunity,Iris Park,2026-03-05,content_like,liked a release-readiness post
+P213,opt_in,prospect,Maya Chen,2026-06-20,none,no recorded engagement
+P214,opt_in,prospect,Noah Reed,2026-06-07,content_like,liked a release-readiness post
+P215,opt_in,prospect,Iris Park,2026-05-25,none,no recorded engagement
+P216,opt_in,prospect,Maya Chen,2026-05-12,email_open,opened a product update
+P217,opt_in,prospect,Noah Reed,2026-04-29,content_like,liked a release-readiness post
+P218,opt_in,prospect,Iris Park,2026-04-16,none,no recorded engagement
+P219,opt_in,prospect,Maya Chen,2026-04-03,content_like,liked a release-readiness post
+P220,opt_in,prospect,Noah Reed,2026-03-21,none,no recorded engagement
+P221,opt_in,prospect,Iris Park,2026-03-08,email_open,opened a product update
+P222,do_not_contact,prospect,Maya Chen,2026-06-23,content_like,liked a release-readiness post
+P223,opt_in,prospect,Noah Reed,2026-06-10,none,no recorded engagement
+P224,opt_in,prospect,Iris Park,2026-05-28,content_like,liked a release-readiness post
+P225,opt_in,prospect,Maya Chen,2026-05-15,none,no recorded engagement
+P226,opt_in,prospect,Noah Reed,2026-05-02,email_open,opened a product update
+P227,opt_in,prospect,Iris Park,2026-04-19,content_like,liked a release-readiness post
+P228,opt_in,prospect,Maya Chen,2026-04-06,none,no recorded engagement
+P229,opt_in,prospect,Noah Reed,2026-03-24,content_like,liked a release-readiness post
+P230,opt_in,prospect,Iris Park,2026-03-11,none,no recorded engagement
+P231,opt_in,prospect,Maya Chen,2026-06-26,email_open,opened a product update
+P232,opt_in,prospect,Noah Reed,2026-06-13,content_like,liked a release-readiness post
+P233,opt_in,prospect,Iris Park,2026-05-31,none,no recorded engagement
+P234,opt_in,prospect,Maya Chen,2026-05-18,content_like,liked a release-readiness post
+P235,opt_in,prospect,Noah Reed,2026-05-05,none,no recorded engagement
+P236,opt_in,prospect,Iris Park,2026-04-22,email_open,opened a product update
+P237,opt_in,current_customer,Maya Chen,2026-04-09,content_like,liked a release-readiness post
+P238,opt_in,prospect,Noah Reed,2026-03-27,none,no recorded engagement
+P239,opt_in,prospect,Iris Park,2026-03-14,content_like,liked a release-readiness post
+P240,opt_in,prospect,Maya Chen,2026-06-29,none,no recorded engagement

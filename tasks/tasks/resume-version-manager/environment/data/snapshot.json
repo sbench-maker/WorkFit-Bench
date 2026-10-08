@@ -1,0 +1,18 @@
+{
+  "snapshot_id": "RVM-2026-08-31",
+  "as_of": "2026-08-31",
+  "archive_cutoff": "2026-02-28",
+  "open_application_statuses": [
+    "applied",
+    "screen",
+    "interview",
+    "offer"
+  ],
+  "record_counts": {
+    "master_revisions": 8,
+    "tailored_versions": 96,
+    "applications": 240,
+    "content_updates": 32
+  },
+  "notice": "All entities in this snapshot are fictional and locally constructed."
+}

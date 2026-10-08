@@ -1,0 +1,58 @@
+{
+  "http_status": 200,
+  "scope": "/subscriptions/00000000-0000-4000-8000-000000000202",
+  "type": "Microsoft.CostManagement/forecast",
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "BillingMonth",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      },
+      {
+        "name": "CostStatus",
+        "type": "String"
+      },
+      {
+        "name": "Cost",
+        "type": "Number"
+      }
+    ],
+    "rows": [
+      [
+        "2026-08",
+        "USD",
+        "Actual",
+        6900
+      ],
+      [
+        "2026-08",
+        "USD",
+        "Forecast",
+        3200
+      ],
+      [
+        "2026-09",
+        "USD",
+        "Forecast",
+        10250
+      ],
+      [
+        "2026-10",
+        "USD",
+        "Forecast",
+        9900
+      ],
+      [
+        "2026-11",
+        "USD",
+        "Forecast",
+        10600
+      ]
+    ]
+  }
+}

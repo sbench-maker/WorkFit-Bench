@@ -1,0 +1,61 @@
+{
+  "status": "planned_empty_repository",
+  "planned_paths": [
+    {
+      "path": "apps/web/src/main.tsx",
+      "purpose": "web entry point"
+    },
+    {
+      "path": "apps/web/src/routes/",
+      "purpose": "authenticated application routes"
+    },
+    {
+      "path": "apps/web/src/features/datasets/",
+      "purpose": "dataset upload flow"
+    },
+    {
+      "path": "apps/web/src/features/runs/",
+      "purpose": "launch and status views"
+    },
+    {
+      "path": "services/api/app/main.py",
+      "purpose": "FastAPI entry point"
+    },
+    {
+      "path": "services/api/app/auth/",
+      "purpose": "OIDC and role checks"
+    },
+    {
+      "path": "services/api/app/datasets/",
+      "purpose": "JSONL validation and versioning"
+    },
+    {
+      "path": "services/api/app/runs/",
+      "purpose": "run orchestration and state"
+    },
+    {
+      "path": "services/api/app/audit/",
+      "purpose": "redacted audit events"
+    },
+    {
+      "path": "services/api/tests/",
+      "purpose": "Pytest API tests"
+    },
+    {
+      "path": "tests/e2e/",
+      "purpose": "Playwright tests"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "purpose": "quality gates"
+    },
+    {
+      "path": "compose.yaml",
+      "purpose": "local full stack"
+    },
+    {
+      "path": "docs/",
+      "purpose": "project and sprint memory"
+    }
+  ]
+}

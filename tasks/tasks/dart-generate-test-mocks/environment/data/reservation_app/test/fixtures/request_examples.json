@@ -1,0 +1,12 @@
+[
+  {"request_id":"req-invalid-zero","sku":"NEB-100","quantity":0,"scenario":"invalid quantity"},
+  {"request_id":"req-invalid-negative","sku":"NEB-100","quantity":-3,"scenario":"invalid quantity"},
+  {"request_id":"req-duplicate","sku":"NEB-100","quantity":2,"scenario":"existing reservation"},
+  {"request_id":"req-missing","sku":"VOID-404","quantity":1,"scenario":"unknown sku"},
+  {"request_id":"req-inactive","sku":"OLD-210","quantity":1,"scenario":"inactive stock"},
+  {"request_id":"req-short","sku":"NEB-100","quantity":8,"scenario":"insufficient stock"},
+  {"request_id":"req-boundary","sku":"NEB-100","quantity":7,"scenario":"exact availability"},
+  {"request_id":"req-approved","sku":"NEB-100","quantity":3,"scenario":"approval"},
+  {"request_id":"req-insert-error","sku":"NEB-100","quantity":2,"scenario":"insert failure"},
+  {"request_id":"req-update-error","sku":"NEB-100","quantity":2,"scenario":"initial update failure"}
+]

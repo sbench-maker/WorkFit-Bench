@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__gap_accuracy",
+      "title": "Accurate usable-gap identification",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Reported usable gaps cover the target week's real 75-minute opportunities without treating buffered commitments, protected lunch, or the opaque all-day absence as free time, while correctly handling cancelled, transparent, overnight, tentative, and cross-timezone events.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_usable_gap_accuracy"
+      ]
+    },
+    {
+      "id": "completion__proposed_schedule",
+      "title": "Policy-compliant focus-block additions",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Exactly six correctly titled 75-minute blocks are placed on valid 15-minute boundaries inside usable gaps, with no collisions, at least four distinct days, and no more than two blocks on a day.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_proposed_schedule_compliance"
+      ]
+    },
+    {
+      "id": "completion__agenda_transition",
+      "title": "Correct updated-agenda state transition",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The updated workweek agenda preserves each active source event at its original time, includes every proposed addition, avoids duplicate commitments, does not present a cancelled item as active, and stays within the requested week.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__gap_accuracy",
+        "title": "Accurate usable-gap identification",
+        "required_score": 10
+      },
+      {
+        "id": "completion__proposed_schedule",
+        "title": "Policy-compliant focus-block additions",
+        "required_score": 10
+      },
+      {
+        "id": "completion__agenda_transition",
+        "title": "Correct updated-agenda state transition",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

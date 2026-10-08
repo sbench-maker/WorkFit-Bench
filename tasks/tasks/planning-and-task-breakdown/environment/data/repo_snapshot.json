@@ -1,0 +1,30 @@
+{
+  "fixture": "fictional OrbitDesk monorepo snapshot",
+  "snapshot_date": "2026-08-17",
+  "package_manager": "pnpm 9.12.0",
+  "runtime": "Node.js 22.14.0",
+  "in_scope_paths": [
+    "repo/package.json",
+    "repo/pnpm-workspace.yaml",
+    "repo/docs/architecture.md",
+    "repo/apps/api/src/db/migrations/202608010900_add_search_rebuild_jobs.sql",
+    "repo/apps/api/src/routes/project-notifications.ts",
+    "repo/apps/api/src/services/activity-feed.ts",
+    "repo/apps/api/src/services/audit-log.ts",
+    "repo/apps/api/src/services/outbox.ts",
+    "repo/apps/api/test/project-notifications.test.ts",
+    "repo/apps/worker/src/jobs/rebuild-search-index.ts",
+    "repo/apps/worker/src/mail/consumer.ts",
+    "repo/apps/worker/test/rebuild-search-index.test.ts",
+    "repo/apps/web/src/api/project-notifications.ts",
+    "repo/apps/web/src/pages/settings/ProjectNotificationsPage.tsx",
+    "repo/apps/web/src/components/SettingsPanel.tsx",
+    "repo/apps/web/src/components/TimezoneSelect.tsx",
+    "repo/apps/web/test/ProjectNotificationsPage.test.tsx",
+    "repo/packages/config/src/feature-flags.ts",
+    "repo/packages/db/src/schema.ts",
+    "repo/packages/events/src/events.ts",
+    "repo/packages/permissions/src/project-role.ts"
+  ],
+  "note": "The snapshot is deliberately partial; the plan should identify new files where the established boundaries require them."
+}

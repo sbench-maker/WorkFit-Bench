@@ -1,0 +1,13 @@
+.root {
+  min-height: 40px;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  font: inherit;
+  font-weight: var(--font-weight-semibold);
+}
+.primary { color: var(--color-surface-raised); background: var(--color-brand-600); }
+.primary:hover { background: var(--color-brand-700); }
+.secondary { color: var(--color-text); background: var(--color-surface-raised); border-color: var(--color-border); }
+.danger { color: var(--color-surface-raised); background: var(--color-danger-600); }
+.root:focus-visible { outline: 3px solid color-mix(in srgb, var(--color-brand-600) 40%, transparent); }

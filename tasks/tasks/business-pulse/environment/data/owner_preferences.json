@@ -1,0 +1,8 @@
+{
+  "monthly_revenue_target_usd": 225000,
+  "receivable_attention_days_past_due": 30,
+  "material_failed_or_pending_payment_usd": 500,
+  "stale_open_deal_days_without_activity": 7,
+  "commitments_max_items": 5,
+  "currency": "USD"
+}

@@ -1,0 +1,68 @@
+{
+  "project": "vision-nightly",
+  "runs": [
+    {
+      "run_id": "baseline-r3",
+      "group": "baseline",
+      "config": {
+        "learning_rate": 0.0002,
+        "batch_size": 16,
+        "seed": 31
+      }
+    },
+    {
+      "run_id": "cosine-tuned-r1",
+      "group": "tuned",
+      "config": {
+        "learning_rate": 0.00012,
+        "batch_size": 32,
+        "seed": 32
+      }
+    },
+    {
+      "run_id": "high-lr-r2",
+      "group": "stress",
+      "config": {
+        "learning_rate": 0.0018,
+        "batch_size": 16,
+        "seed": 33
+      }
+    },
+    {
+      "run_id": "shard-17-r1",
+      "group": "data-check",
+      "config": {
+        "learning_rate": 0.00018,
+        "batch_size": 16,
+        "seed": 34
+      }
+    },
+    {
+      "run_id": "frozen-head-r4",
+      "group": "ablation",
+      "config": {
+        "learning_rate": 0.00015,
+        "batch_size": 24,
+        "seed": 35
+      }
+    },
+    {
+      "run_id": "noisy-batch-r2",
+      "group": "robustness",
+      "config": {
+        "learning_rate": 0.00022,
+        "batch_size": 12,
+        "seed": 36
+      }
+    },
+    {
+      "run_id": "eval-gap-r1",
+      "group": "pipeline-check",
+      "config": {
+        "learning_rate": 0.00016,
+        "batch_size": 20,
+        "seed": 37
+      }
+    }
+  ]
+}

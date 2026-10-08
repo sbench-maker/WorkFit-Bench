@@ -1,0 +1,722 @@
+[
+  {
+    "resource_id": "r01",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Cdn/profiles/afd-helio-prod",
+    "name": "afd-helio-prod",
+    "type": "Microsoft.Cdn/profiles",
+    "kind": "",
+    "location": "global",
+    "sku": "Premium_AzureFrontDoor",
+    "purpose": "Customer ingress and global routing",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r02",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/frontdoorWebApplicationFirewallPolicies/waf-helio-prod",
+    "name": "waf-helio-prod",
+    "type": "Microsoft.Network/frontdoorWebApplicationFirewallPolicies",
+    "kind": "",
+    "location": "global",
+    "sku": "Premium",
+    "purpose": "Front Door web application firewall",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r03",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/publicIPAddresses/pip-appgw-helio-prod",
+    "name": "pip-appgw-helio-prod",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Application Gateway public address",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r04",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/applicationGateways/appgw-helio-prod",
+    "name": "appgw-helio-prod",
+    "type": "Microsoft.Network/applicationGateways",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "WAF_v2",
+    "purpose": "Regional ingress and TLS termination",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r05",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/virtualNetworks/vnet-helio-prod",
+    "name": "vnet-helio-prod",
+    "type": "Microsoft.Network/virtualNetworks",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Production virtual network",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r06",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/virtualNetworks/subnets/snet-edge",
+    "name": "snet-edge",
+    "type": "Microsoft.Network/virtualNetworks/subnets",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Not applicable",
+    "purpose": "Ingress subnet",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r07",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/virtualNetworks/subnets/snet-app",
+    "name": "snet-app",
+    "type": "Microsoft.Network/virtualNetworks/subnets",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Not applicable",
+    "purpose": "Application integration subnet",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r08",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/virtualNetworks/subnets/snet-data",
+    "name": "snet-data",
+    "type": "Microsoft.Network/virtualNetworks/subnets",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Not applicable",
+    "purpose": "Private endpoint subnet",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r09",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-edge-helio-prod",
+    "name": "nsg-edge-helio-prod",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Ingress subnet filtering",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r10",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-app-helio-prod",
+    "name": "nsg-app-helio-prod",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Application subnet filtering",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r11",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-data-helio-prod",
+    "name": "nsg-data-helio-prod",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Private endpoint subnet filtering",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r12",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/routeTables/rt-app-helio-prod",
+    "name": "rt-app-helio-prod",
+    "type": "Microsoft.Network/routeTables",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Application subnet routes",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r13",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Web/serverfarms/plan-web-helio-prod",
+    "name": "plan-web-helio-prod",
+    "type": "Microsoft.Web/serverfarms",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "P1v3",
+    "purpose": "Web application compute plan",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r14",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Web/sites/app-web-helio-prod",
+    "name": "app-web-helio-prod",
+    "type": "Microsoft.Web/sites",
+    "kind": "app",
+    "location": "canadacentral",
+    "sku": "P1v3",
+    "purpose": "Customer storefront",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r15",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Web/serverfarms/plan-api-helio-prod",
+    "name": "plan-api-helio-prod",
+    "type": "Microsoft.Web/serverfarms",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "EP1",
+    "purpose": "API and function compute plan",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r16",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Web/sites/app-api-helio-prod",
+    "name": "app-api-helio-prod",
+    "type": "Microsoft.Web/sites",
+    "kind": "app",
+    "location": "canadacentral",
+    "sku": "P1v3",
+    "purpose": "Order and catalog API",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r17",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Web/sites/func-orders-helio-prod",
+    "name": "func-orders-helio-prod",
+    "type": "Microsoft.Web/sites",
+    "kind": "functionapp",
+    "location": "canadacentral",
+    "sku": "EP1",
+    "purpose": "Order orchestration function",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r18",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Web/sites/func-events-helio-prod",
+    "name": "func-events-helio-prod",
+    "type": "Microsoft.Web/sites",
+    "kind": "functionapp",
+    "location": "canadacentral",
+    "sku": "EP1",
+    "purpose": "Event projection function",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r19",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.App/managedEnvironments/cae-workers-helio-prod",
+    "name": "cae-workers-helio-prod",
+    "type": "Microsoft.App/managedEnvironments",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Consumption",
+    "purpose": "Container Apps environment",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r20",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.App/containerApps/ca-search-indexer-helio-prod",
+    "name": "ca-search-indexer-helio-prod",
+    "type": "Microsoft.App/containerApps",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "D4",
+    "purpose": "Catalog search indexer",
+    "logical_layer": "Compute",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r21",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Sql/servers/sql-helio-prod",
+    "name": "sql-helio-prod",
+    "type": "Microsoft.Sql/servers",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "v12",
+    "purpose": "Logical SQL server",
+    "logical_layer": "Data & Messaging",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r22",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Sql/servers/databases/sqldb-orders-helio-prod",
+    "name": "sqldb-orders-helio-prod",
+    "type": "Microsoft.Sql/servers/databases",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "GeneralPurpose_Gen5_2",
+    "purpose": "Transactional order database",
+    "logical_layer": "Data & Messaging",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r23",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.DocumentDB/databaseAccounts/cosmos-catalog-helio-prod",
+    "name": "cosmos-catalog-helio-prod",
+    "type": "Microsoft.DocumentDB/databaseAccounts",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Serverless",
+    "purpose": "Catalog document store",
+    "logical_layer": "Data & Messaging",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r24",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Storage/storageAccounts/sthelioprod",
+    "name": "sthelioprod",
+    "type": "Microsoft.Storage/storageAccounts",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard_ZRS",
+    "purpose": "Receipts, exports, and function state",
+    "logical_layer": "Data & Messaging",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r25",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.ServiceBus/namespaces/sb-helio-prod",
+    "name": "sb-helio-prod",
+    "type": "Microsoft.ServiceBus/namespaces",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Premium",
+    "purpose": "Order event messaging",
+    "logical_layer": "Data & Messaging",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r26",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.ServiceBus/namespaces/queues/orders",
+    "name": "orders",
+    "type": "Microsoft.ServiceBus/namespaces/queues",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Premium",
+    "purpose": "Order work queue",
+    "logical_layer": "Data & Messaging",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r27",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Cache/Redis/redis-helio-prod",
+    "name": "redis-helio-prod",
+    "type": "Microsoft.Cache/Redis",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Premium_P1",
+    "purpose": "API response cache",
+    "logical_layer": "Data & Messaging",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r28",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.KeyVault/vaults/kv-helio-prod",
+    "name": "kv-helio-prod",
+    "type": "Microsoft.KeyVault/vaults",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Premium",
+    "purpose": "Application secret and certificate references",
+    "logical_layer": "Security & Identity",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r29",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-web-helio-prod",
+    "name": "id-web-helio-prod",
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Not applicable",
+    "purpose": "Storefront managed identity",
+    "logical_layer": "Security & Identity",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r30",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-api-helio-prod",
+    "name": "id-api-helio-prod",
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Not applicable",
+    "purpose": "API managed identity",
+    "logical_layer": "Security & Identity",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r31",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-jobs-helio-prod",
+    "name": "id-jobs-helio-prod",
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Not applicable",
+    "purpose": "Shared background-jobs identity",
+    "logical_layer": "Security & Identity",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r32",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/privateEndpoints/pe-sql-helio-prod",
+    "name": "pe-sql-helio-prod",
+    "type": "Microsoft.Network/privateEndpoints",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "SQL private endpoint",
+    "logical_layer": "Security & Identity",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r33",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/privateEndpoints/pe-storage-helio-prod",
+    "name": "pe-storage-helio-prod",
+    "type": "Microsoft.Network/privateEndpoints",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Storage private endpoint",
+    "logical_layer": "Security & Identity",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r34",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/privateEndpoints/pe-kv-helio-prod",
+    "name": "pe-kv-helio-prod",
+    "type": "Microsoft.Network/privateEndpoints",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "Standard",
+    "purpose": "Key Vault private endpoint",
+    "logical_layer": "Security & Identity",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r35",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.OperationalInsights/workspaces/log-helio-prod",
+    "name": "log-helio-prod",
+    "type": "Microsoft.OperationalInsights/workspaces",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "PerGB2018",
+    "purpose": "Central application and platform logs",
+    "logical_layer": "Observability",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r36",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Insights/components/appi-web-helio-prod",
+    "name": "appi-web-helio-prod",
+    "type": "Microsoft.Insights/components",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "WorkspaceBased",
+    "purpose": "Storefront application telemetry",
+    "logical_layer": "Observability",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r37",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Insights/components/appi-api-helio-prod",
+    "name": "appi-api-helio-prod",
+    "type": "Microsoft.Insights/components",
+    "kind": "",
+    "location": "canadacentral",
+    "sku": "WorkspaceBased",
+    "purpose": "API and job telemetry",
+    "logical_layer": "Observability",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r38",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Insights/actionGroups/ag-ops-helio-prod",
+    "name": "ag-ops-helio-prod",
+    "type": "Microsoft.Insights/actionGroups",
+    "kind": "",
+    "location": "global",
+    "sku": "Global",
+    "purpose": "Operations alert routing",
+    "logical_layer": "Observability",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r39",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Insights/metricAlerts/alert-api-latency-helio-prod",
+    "name": "alert-api-latency-helio-prod",
+    "type": "Microsoft.Insights/metricAlerts",
+    "kind": "",
+    "location": "global",
+    "sku": "Global",
+    "purpose": "API latency alert",
+    "logical_layer": "Observability",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  },
+  {
+    "resource_id": "r40",
+    "arm_id": "/subscriptions/sub-helio-fictitious/resourceGroups/rg-helio-prod/providers/Microsoft.Network/privateDnsZones/pdns-sql-helio-prod",
+    "name": "pdns-sql-helio-prod",
+    "type": "Microsoft.Network/privateDnsZones",
+    "kind": "",
+    "location": "global",
+    "sku": "Global",
+    "purpose": "SQL private endpoint name resolution",
+    "logical_layer": "Edge & Network",
+    "provisioning_state": "Succeeded",
+    "resource_group": "rg-helio-prod",
+    "tags": {
+      "environment": "prod",
+      "system": "helio-commerce",
+      "managed_by": "platform"
+    }
+  }
+]

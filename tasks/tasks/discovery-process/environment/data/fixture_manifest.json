@@ -1,0 +1,21 @@
+{
+  "method": "deterministic local construction",
+  "fictional": true,
+  "files": {
+    "participants.csv": 12,
+    "interview_observations.csv": 25,
+    "interview_transcripts.txt": 132,
+    "account_funnel.csv": 360,
+    "support_tickets.csv": 260,
+    "solution_options.csv": 3,
+    "experiment_results.csv": 120,
+    "experiment_feedback.csv": 24
+  },
+  "intentional_edge_cases": [
+    "one completed interview outside the target segment",
+    "one target-segment interview no-show",
+    "six internal analytics accounts excluded by policy",
+    "ten merged duplicate support tickets",
+    "one incomplete session per experiment arm retained by intention-to-treat"
+  ]
+}

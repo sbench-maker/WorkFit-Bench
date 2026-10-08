@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__historical_costs",
+      "title": "Latest complete month cost accuracy",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The July 2026 portfolio total and complete service breakdown reconcile to all paginated ActualCost query rows.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_historical_cost_breakdown"
+      ]
+    },
+    {
+      "id": "completion__forecast_budget_outlook",
+      "title": "Forecast and budget outlook correctness",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All subscriptions are covered; Actual and Forecast components, projected totals, and budgets are correct for August-November, while unavailable forecast values are not invented.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_subscription_forecast_and_budget_outlook"
+      ]
+    },
+    {
+      "id": "completion__priority_risk_coverage",
+      "title": "Material budget-risk coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The shortlist includes the two subscriptions with the largest cumulative positive budget overages and the new subscription whose forecast is unavailable.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_priority_risk_coverage"
+      ]
+    },
+    {
+      "id": "completion__followup_evidence",
+      "title": "Evidence-backed FinOps follow-up",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Priority risks are explained with concrete subscription/month/amount evidence and actionable owner-facing follow-up, while the unavailable forecast is framed as an evidence gap rather than a fabricated estimate.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__historical_costs",
+        "title": "Latest complete month cost accuracy",
+        "required_score": 10
+      },
+      {
+        "id": "completion__forecast_budget_outlook",
+        "title": "Forecast and budget outlook correctness",
+        "required_score": 10
+      },
+      {
+        "id": "completion__priority_risk_coverage",
+        "title": "Material budget-risk coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__followup_evidence",
+        "title": "Evidence-backed FinOps follow-up",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

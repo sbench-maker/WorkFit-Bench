@@ -1,0 +1,83 @@
+{
+  "target": {
+    "cluster": "projects/copper-sun-314/locations/us-central1/clusters/people-prod",
+    "namespace": "hr-platform"
+  },
+  "application": {
+    "workload_name": "people-directory",
+    "service_name": "people-directory",
+    "replicas": 3,
+    "container_port": 8080,
+    "image": "us-central1-docker.pkg.dev/copper-sun-314/hr-images/people-directory@sha256:4bd36e0c797e9a654e03279cc70cc58b3c1db5be61c5a26cd5ba3ce3116c10a7"
+  },
+  "network": {
+    "exposure": "internal-only",
+    "service_type": "ClusterIP",
+    "service_port": 80,
+    "target_port": 8080
+  },
+  "health": {
+    "liveness_path": "/livez",
+    "readiness_path": "/readyz",
+    "initial_delay_seconds": {
+      "liveness": 15,
+      "readiness": 3
+    },
+    "period_seconds": 10
+  },
+  "resources": {
+    "requests": {
+      "cpu": "200m",
+      "memory": "128Mi"
+    },
+    "limits": {
+      "cpu": "500m",
+      "memory": "256Mi"
+    }
+  },
+  "runtime": {
+    "literal_environment": {
+      "PORT": "8080",
+      "STAFF_DATA_PATH": "/var/run/staff/directory.json",
+      "CACHE_DIR": "/tmp/people-directory"
+    },
+    "config_map_environment": {
+      "APP_MODE": {
+        "name": "hr-directory-runtime",
+        "key": "appMode"
+      }
+    },
+    "secret_environment": {
+      "SESSION_SIGNING_KEY": {
+        "name": "hr-directory-secrets",
+        "key": "sessionSigningKey"
+      }
+    },
+    "staff_data": {
+      "config_map": "hr-directory-staff",
+      "key": "directory.json",
+      "mount_path": "/var/run/staff/directory.json"
+    },
+    "writable_cache_path": "/tmp/people-directory"
+  },
+  "rollout": {
+    "max_unavailable": 0,
+    "max_surge": 1,
+    "termination_grace_period_seconds": 30
+  },
+  "security": {
+    "automount_service_account_token": false,
+    "run_as_non_root": true,
+    "seccomp_profile": "RuntimeDefault",
+    "allow_privilege_escalation": false,
+    "read_only_root_filesystem": true,
+    "drop_capabilities": [
+      "ALL"
+    ]
+  },
+  "platform_objects_are_preexisting": [
+    "ConfigMap/hr-directory-runtime",
+    "ConfigMap/hr-directory-staff",
+    "Secret/hr-directory-secrets"
+  ]
+}

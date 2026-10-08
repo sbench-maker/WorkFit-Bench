@@ -1,0 +1,20 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "models.csv": 36,
+    "gpu_inventory.csv": 16,
+    "deployment_requests.csv": 264,
+    "model_snapshots/*/config.json": 36
+  },
+  "relationships": [
+    "Every deployment request resolves to one model and one GPU profile.",
+    "Quantization loss and support vary by model; compute support and memory budgets vary by GPU."
+  ],
+  "intentional_case_types": [
+    "accuracy and native-memory equality boundaries",
+    "NF4-unsupported and bitsandbytes-incompatible combinations",
+    "permitted, forbidden, insufficient, and exact-capacity CPU offload",
+    "BF16-capable and FP16-only compute targets",
+    "model-specific INT8 skipped modules"
+  ]
+}

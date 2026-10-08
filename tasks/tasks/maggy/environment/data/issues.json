@@ -1,0 +1,6349 @@
+[
+  {
+    "provider": "github",
+    "issue_id": "GH-1001",
+    "work_item_key": "WORK-0001",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-29T10:00:00Z",
+    "updated_at": "2026-09-03T10:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5002",
+    "work_item_key": "WORK-0002",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-21T11:00:00Z",
+    "updated_at": "2026-08-27T11:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1003",
+    "work_item_key": "WORK-0003",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-13T12:00:00Z",
+    "updated_at": "2026-08-20T12:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5004",
+    "work_item_key": "WORK-0004",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-05T13:00:00Z",
+    "updated_at": "2026-08-13T13:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1005",
+    "work_item_key": "WORK-0005",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-28T14:00:00Z",
+    "updated_at": "2026-08-06T14:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5006",
+    "work_item_key": "WORK-0006",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-20T15:00:00Z",
+    "updated_at": "2026-07-30T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1007",
+    "work_item_key": "WORK-0007",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-12T16:00:00Z",
+    "updated_at": "2026-07-23T16:00:00Z",
+    "due_date": null,
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9007",
+    "work_item_key": "WORK-0007",
+    "title": "Checkout idempotency key expires too early (tracker mirror)",
+    "body": "Observed in the gateway workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-11T10:00:00Z",
+    "updated_at": "2026-07-24T15:00:00Z",
+    "due_date": null,
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5008",
+    "work_item_key": "WORK-0008",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-04T09:00:00Z",
+    "updated_at": "2026-07-16T09:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1009",
+    "work_item_key": "WORK-0009",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-06-26T10:00:00Z",
+    "updated_at": "2026-07-09T10:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5010",
+    "work_item_key": "WORK-0010",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-25T11:00:00Z",
+    "updated_at": "2026-09-08T11:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01",
+      "OKR-02"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1011",
+    "work_item_key": "WORK-0011",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-17T12:00:00Z",
+    "updated_at": "2026-09-01T12:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5012",
+    "work_item_key": "WORK-0012",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-08-09T13:00:00Z",
+    "updated_at": "2026-08-25T13:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1013",
+    "work_item_key": "WORK-0013",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-01T14:00:00Z",
+    "updated_at": "2026-08-18T14:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [
+      "WORK-0010"
+    ],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5014",
+    "work_item_key": "WORK-0014",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-24T15:00:00Z",
+    "updated_at": "2026-08-11T15:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "admin",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1015",
+    "work_item_key": "WORK-0015",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-16T16:00:00Z",
+    "updated_at": "2026-08-04T16:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9015",
+    "work_item_key": "WORK-0015",
+    "title": "Checkout idempotency key expires too early (tracker mirror)",
+    "body": "Observed in the gateway workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-15T10:00:00Z",
+    "updated_at": "2026-08-05T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "gateway",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5016",
+    "work_item_key": "WORK-0016",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-08T09:00:00Z",
+    "updated_at": "2026-07-28T09:00:00Z",
+    "due_date": null,
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1017",
+    "work_item_key": "WORK-0017",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-30T10:00:00Z",
+    "updated_at": "2026-07-21T10:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5018",
+    "work_item_key": "WORK-0018",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-06-22T11:00:00Z",
+    "updated_at": "2026-07-14T11:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1019",
+    "work_item_key": "WORK-0019",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-14T12:00:00Z",
+    "updated_at": "2026-07-07T12:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5020",
+    "work_item_key": "WORK-0020",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-13T13:00:00Z",
+    "updated_at": "2026-09-06T13:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02",
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1021",
+    "work_item_key": "WORK-0021",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-05T14:00:00Z",
+    "updated_at": "2026-08-30T14:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5022",
+    "work_item_key": "WORK-0022",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-28T15:00:00Z",
+    "updated_at": "2026-08-23T15:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04",
+      "OKR-99"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1023",
+    "work_item_key": "WORK-0023",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-20T16:00:00Z",
+    "updated_at": "2026-08-16T16:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9023",
+    "work_item_key": "WORK-0023",
+    "title": "Checkout idempotency key expires too early (tracker mirror)",
+    "body": "Observed in the gateway workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-19T10:00:00Z",
+    "updated_at": "2026-08-17T15:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5024",
+    "work_item_key": "WORK-0024",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-12T09:00:00Z",
+    "updated_at": "2026-08-09T09:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1025",
+    "work_item_key": "WORK-0025",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-04T10:00:00Z",
+    "updated_at": "2026-08-02T10:00:00Z",
+    "due_date": null,
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5026",
+    "work_item_key": "WORK-0026",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-26T11:00:00Z",
+    "updated_at": "2026-07-26T11:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [
+      "WORK-0023"
+    ],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1027",
+    "work_item_key": "WORK-0027",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-06-18T12:00:00Z",
+    "updated_at": "2026-07-19T12:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5028",
+    "work_item_key": "WORK-0028",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-10T13:00:00Z",
+    "updated_at": "2026-07-12T13:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "checkout",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1029",
+    "work_item_key": "WORK-0029",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-02T14:00:00Z",
+    "updated_at": "2026-07-05T14:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5030",
+    "work_item_key": "WORK-0030",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-08-01T15:00:00Z",
+    "updated_at": "2026-09-04T15:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03",
+      "OKR-02"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1031",
+    "work_item_key": "WORK-0031",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "closed",
+    "priority": "P1",
+    "created_at": "2026-07-24T16:00:00Z",
+    "updated_at": "2026-08-28T16:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9031",
+    "work_item_key": "WORK-0031",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "closed",
+    "priority": "P1",
+    "created_at": "2026-07-23T10:00:00Z",
+    "updated_at": "2026-08-29T15:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5032",
+    "work_item_key": "WORK-0032",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-16T09:00:00Z",
+    "updated_at": "2026-08-21T09:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1033",
+    "work_item_key": "WORK-0033",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-08T10:00:00Z",
+    "updated_at": "2026-08-14T10:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5034",
+    "work_item_key": "WORK-0034",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-30T11:00:00Z",
+    "updated_at": "2026-08-07T11:00:00Z",
+    "due_date": null,
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1035",
+    "work_item_key": "WORK-0035",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-22T12:00:00Z",
+    "updated_at": "2026-07-31T12:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5036",
+    "work_item_key": "WORK-0036",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-06-14T13:00:00Z",
+    "updated_at": "2026-07-24T13:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1037",
+    "work_item_key": "WORK-0037",
+    "title": "Platform and ledger handoff reports inconsistent state",
+    "body": "The failure crosses both named components with equal evidence and no confirmed owner.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-06T14:00:00Z",
+    "updated_at": "2026-07-17T14:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "platform",
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform",
+      "ledger"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5038",
+    "work_item_key": "WORK-0038",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-05-29T15:00:00Z",
+    "updated_at": "2026-07-10T15:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1039",
+    "work_item_key": "WORK-0039",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-28T16:00:00Z",
+    "updated_at": "2026-09-09T16:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [
+      "WORK-0036"
+    ],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9039",
+    "work_item_key": "WORK-0039",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-27T10:00:00Z",
+    "updated_at": "2026-09-10T15:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "ledger",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [
+      "WORK-0036"
+    ],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5040",
+    "work_item_key": "WORK-0040",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-29T09:00:00Z",
+    "updated_at": "2026-09-02T09:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04",
+      "OKR-02"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1041",
+    "work_item_key": "WORK-0041",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-21T10:00:00Z",
+    "updated_at": "2026-08-26T10:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "payment",
+      "data-loss"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5042",
+    "work_item_key": "WORK-0042",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-08-13T11:00:00Z",
+    "updated_at": "2026-08-19T11:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "platform",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1043",
+    "work_item_key": "WORK-0043",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-05T12:00:00Z",
+    "updated_at": "2026-08-12T12:00:00Z",
+    "due_date": null,
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5044",
+    "work_item_key": "WORK-0044",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-28T13:00:00Z",
+    "updated_at": "2026-08-05T13:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02",
+      "OKR-99"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1045",
+    "work_item_key": "WORK-0045",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-07-20T14:00:00Z",
+    "updated_at": "2026-07-29T14:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5046",
+    "work_item_key": "WORK-0046",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-12T15:00:00Z",
+    "updated_at": "2026-07-22T15:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1047",
+    "work_item_key": "WORK-0047",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "cancelled",
+    "priority": "P3",
+    "created_at": "2026-07-04T16:00:00Z",
+    "updated_at": "2026-07-15T16:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9047",
+    "work_item_key": "WORK-0047",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "cancelled",
+    "priority": "P3",
+    "created_at": "2026-07-03T10:00:00Z",
+    "updated_at": "2026-07-16T15:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5048",
+    "work_item_key": "WORK-0048",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-06-26T09:00:00Z",
+    "updated_at": "2026-07-08T09:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1049",
+    "work_item_key": "WORK-0049",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-25T10:00:00Z",
+    "updated_at": "2026-09-07T10:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5050",
+    "work_item_key": "WORK-0050",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-17T11:00:00Z",
+    "updated_at": "2026-08-31T11:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05",
+      "OKR-02"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1051",
+    "work_item_key": "WORK-0051",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-09T12:00:00Z",
+    "updated_at": "2026-08-24T12:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5052",
+    "work_item_key": "WORK-0052",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-01T13:00:00Z",
+    "updated_at": "2026-08-17T13:00:00Z",
+    "due_date": null,
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [
+      "WORK-0049"
+    ],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1053",
+    "work_item_key": "WORK-0053",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-24T14:00:00Z",
+    "updated_at": "2026-08-10T14:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-UNKNOWN",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5054",
+    "work_item_key": "WORK-0054",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-07-16T15:00:00Z",
+    "updated_at": "2026-08-03T15:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1055",
+    "work_item_key": "WORK-0055",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-08T16:00:00Z",
+    "updated_at": "2026-07-27T16:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9055",
+    "work_item_key": "WORK-0055",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-07T10:00:00Z",
+    "updated_at": "2026-07-28T15:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5056",
+    "work_item_key": "WORK-0056",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-30T09:00:00Z",
+    "updated_at": "2026-07-20T09:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "admin",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1057",
+    "work_item_key": "WORK-0057",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-22T10:00:00Z",
+    "updated_at": "2026-07-13T10:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5058",
+    "work_item_key": "WORK-0058",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-14T11:00:00Z",
+    "updated_at": "2026-07-06T11:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1059",
+    "work_item_key": "WORK-0059",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-13T12:00:00Z",
+    "updated_at": "2026-09-05T12:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5060",
+    "work_item_key": "WORK-0060",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-08-05T13:00:00Z",
+    "updated_at": "2026-08-29T13:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01",
+      "OKR-02"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1061",
+    "work_item_key": "WORK-0061",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-28T14:00:00Z",
+    "updated_at": "2026-08-22T14:00:00Z",
+    "due_date": null,
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5062",
+    "work_item_key": "WORK-0062",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "closed",
+    "priority": "P2",
+    "created_at": "2026-07-20T15:00:00Z",
+    "updated_at": "2026-08-15T15:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1063",
+    "work_item_key": "WORK-0063",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-07-12T16:00:00Z",
+    "updated_at": "2026-08-08T16:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9063",
+    "work_item_key": "WORK-0063",
+    "title": "Build cache invalidation slows hotfix release (tracker mirror)",
+    "body": "Observed in the platform workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-07-11T10:00:00Z",
+    "updated_at": "2026-08-09T15:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "platform",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5064",
+    "work_item_key": "WORK-0064",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-04T09:00:00Z",
+    "updated_at": "2026-08-01T09:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1065",
+    "work_item_key": "WORK-0065",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-26T10:00:00Z",
+    "updated_at": "2026-07-25T10:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [
+      "WORK-0062"
+    ],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5066",
+    "work_item_key": "WORK-0066",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-06-18T11:00:00Z",
+    "updated_at": "2026-07-18T11:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05",
+      "OKR-99"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1067",
+    "work_item_key": "WORK-0067",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-10T12:00:00Z",
+    "updated_at": "2026-07-11T12:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5068",
+    "work_item_key": "WORK-0068",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-09T13:00:00Z",
+    "updated_at": "2026-09-10T13:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1069",
+    "work_item_key": "WORK-0069",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-01T14:00:00Z",
+    "updated_at": "2026-09-03T14:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5070",
+    "work_item_key": "WORK-0070",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-24T15:00:00Z",
+    "updated_at": "2026-08-27T15:00:00Z",
+    "due_date": null,
+    "labels": [
+      "checkout",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-02",
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1071",
+    "work_item_key": "WORK-0071",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-16T16:00:00Z",
+    "updated_at": "2026-08-20T16:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9071",
+    "work_item_key": "WORK-0071",
+    "title": "Build cache invalidation slows hotfix release (tracker mirror)",
+    "body": "Observed in the platform workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-15T10:00:00Z",
+    "updated_at": "2026-08-21T15:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5072",
+    "work_item_key": "WORK-0072",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-07-08T09:00:00Z",
+    "updated_at": "2026-08-13T09:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1073",
+    "work_item_key": "WORK-0073",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-30T10:00:00Z",
+    "updated_at": "2026-08-06T10:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5074",
+    "work_item_key": "WORK-0074",
+    "title": "Console and platform handoff reports inconsistent state",
+    "body": "The failure crosses both named components with equal evidence and no confirmed owner.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-22T11:00:00Z",
+    "updated_at": "2026-07-30T11:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "console",
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console",
+      "platform"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1075",
+    "work_item_key": "WORK-0075",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-14T12:00:00Z",
+    "updated_at": "2026-07-23T12:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5076",
+    "work_item_key": "WORK-0076",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-06T13:00:00Z",
+    "updated_at": "2026-07-16T13:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1077",
+    "work_item_key": "WORK-0077",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-05-29T14:00:00Z",
+    "updated_at": "2026-07-09T14:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5078",
+    "work_item_key": "WORK-0078",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-28T15:00:00Z",
+    "updated_at": "2026-09-08T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [
+      "WORK-0075"
+    ],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1079",
+    "work_item_key": "WORK-0079",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-20T16:00:00Z",
+    "updated_at": "2026-09-01T16:00:00Z",
+    "due_date": null,
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9079",
+    "work_item_key": "WORK-0079",
+    "title": "Build cache invalidation slows hotfix release (tracker mirror)",
+    "body": "Observed in the platform workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-19T10:00:00Z",
+    "updated_at": "2026-09-02T15:00:00Z",
+    "due_date": null,
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5080",
+    "work_item_key": "WORK-0080",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-21T09:00:00Z",
+    "updated_at": "2026-08-25T09:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1081",
+    "work_item_key": "WORK-0081",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-08-13T10:00:00Z",
+    "updated_at": "2026-08-18T10:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5082",
+    "work_item_key": "WORK-0082",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-05T11:00:00Z",
+    "updated_at": "2026-08-11T11:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "dashboard",
+      "data-loss"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1083",
+    "work_item_key": "WORK-0083",
+    "title": "Intermittent background operation returns stale state",
+    "body": "The report lacks a reproducible component or owning service; triage is still needed.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-28T12:00:00Z",
+    "updated_at": "2026-08-04T12:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "needs-triage"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5084",
+    "work_item_key": "WORK-0084",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-20T13:00:00Z",
+    "updated_at": "2026-07-28T13:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "platform",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1085",
+    "work_item_key": "WORK-0085",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-12T14:00:00Z",
+    "updated_at": "2026-07-21T14:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5086",
+    "work_item_key": "WORK-0086",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-04T15:00:00Z",
+    "updated_at": "2026-07-14T15:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1087",
+    "work_item_key": "WORK-0087",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-26T16:00:00Z",
+    "updated_at": "2026-07-07T16:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9087",
+    "work_item_key": "WORK-0087",
+    "title": "Dashboard bulk action hides partial failure (tracker mirror)",
+    "body": "Observed in the console workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-25T10:00:00Z",
+    "updated_at": "2026-07-08T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "console",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5088",
+    "work_item_key": "WORK-0088",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-25T09:00:00Z",
+    "updated_at": "2026-09-06T09:00:00Z",
+    "due_date": null,
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03",
+      "OKR-99"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1089",
+    "work_item_key": "WORK-0089",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-17T10:00:00Z",
+    "updated_at": "2026-08-30T10:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5090",
+    "work_item_key": "WORK-0090",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-08-09T11:00:00Z",
+    "updated_at": "2026-08-23T11:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04",
+      "OKR-02"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1091",
+    "work_item_key": "WORK-0091",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-01T12:00:00Z",
+    "updated_at": "2026-08-16T12:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [
+      "WORK-0088"
+    ],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5092",
+    "work_item_key": "WORK-0092",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-24T13:00:00Z",
+    "updated_at": "2026-08-09T13:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1093",
+    "work_item_key": "WORK-0093",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "closed",
+    "priority": "P2",
+    "created_at": "2026-07-16T14:00:00Z",
+    "updated_at": "2026-08-02T14:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5094",
+    "work_item_key": "WORK-0094",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "cancelled",
+    "priority": "P3",
+    "created_at": "2026-07-08T15:00:00Z",
+    "updated_at": "2026-07-26T15:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1095",
+    "work_item_key": "WORK-0095",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-30T16:00:00Z",
+    "updated_at": "2026-07-19T16:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9095",
+    "work_item_key": "WORK-0095",
+    "title": "Dashboard bulk action hides partial failure (tracker mirror)",
+    "body": "Observed in the console workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-29T10:00:00Z",
+    "updated_at": "2026-07-20T15:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5096",
+    "work_item_key": "WORK-0096",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-06-22T09:00:00Z",
+    "updated_at": "2026-07-12T09:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1097",
+    "work_item_key": "WORK-0097",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-14T10:00:00Z",
+    "updated_at": "2026-07-05T10:00:00Z",
+    "due_date": null,
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5098",
+    "work_item_key": "WORK-0098",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-13T11:00:00Z",
+    "updated_at": "2026-09-04T11:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "screening",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1099",
+    "work_item_key": "WORK-0099",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-08-05T12:00:00Z",
+    "updated_at": "2026-08-28T12:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5100",
+    "work_item_key": "WORK-0100",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-28T13:00:00Z",
+    "updated_at": "2026-08-21T13:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05",
+      "OKR-02"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1101",
+    "work_item_key": "WORK-0101",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-20T14:00:00Z",
+    "updated_at": "2026-08-14T14:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5102",
+    "work_item_key": "WORK-0102",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-12T15:00:00Z",
+    "updated_at": "2026-08-07T15:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1103",
+    "work_item_key": "WORK-0103",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-04T16:00:00Z",
+    "updated_at": "2026-07-31T16:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9103",
+    "work_item_key": "WORK-0103",
+    "title": "Dashboard bulk action hides partial failure (tracker mirror)",
+    "body": "Observed in the console workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-03T10:00:00Z",
+    "updated_at": "2026-08-01T15:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5104",
+    "work_item_key": "WORK-0104",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-26T09:00:00Z",
+    "updated_at": "2026-07-24T09:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [
+      "WORK-0101"
+    ],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1105",
+    "work_item_key": "WORK-0105",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-18T10:00:00Z",
+    "updated_at": "2026-07-17T10:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5106",
+    "work_item_key": "WORK-0106",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-10T11:00:00Z",
+    "updated_at": "2026-07-10T11:00:00Z",
+    "due_date": null,
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-UNKNOWN",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1107",
+    "work_item_key": "WORK-0107",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-09T12:00:00Z",
+    "updated_at": "2026-09-09T12:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5108",
+    "work_item_key": "WORK-0108",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-08-01T13:00:00Z",
+    "updated_at": "2026-09-02T13:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1109",
+    "work_item_key": "WORK-0109",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-24T14:00:00Z",
+    "updated_at": "2026-08-26T14:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5110",
+    "work_item_key": "WORK-0110",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-16T15:00:00Z",
+    "updated_at": "2026-08-19T15:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01",
+      "OKR-02",
+      "OKR-99"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1111",
+    "work_item_key": "WORK-0111",
+    "title": "Console and platform handoff reports inconsistent state",
+    "body": "The failure crosses both named components with equal evidence and no confirmed owner.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-08T16:00:00Z",
+    "updated_at": "2026-08-12T16:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "console",
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console",
+      "platform"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9111",
+    "work_item_key": "WORK-0111",
+    "title": "Console and platform handoff reports inconsistent state (tracker mirror)",
+    "body": "The failure crosses both named components with equal evidence and no confirmed owner. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-07T10:00:00Z",
+    "updated_at": "2026-08-13T15:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "console",
+      "platform",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console",
+      "platform"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5112",
+    "work_item_key": "WORK-0112",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-30T09:00:00Z",
+    "updated_at": "2026-08-05T09:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "checkout",
+      "security"
+    ],
+    "okr_refs": [],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1113",
+    "work_item_key": "WORK-0113",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-22T10:00:00Z",
+    "updated_at": "2026-07-29T10:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5114",
+    "work_item_key": "WORK-0114",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-06-14T11:00:00Z",
+    "updated_at": "2026-07-22T11:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1115",
+    "work_item_key": "WORK-0115",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-06T12:00:00Z",
+    "updated_at": "2026-07-15T12:00:00Z",
+    "due_date": null,
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5116",
+    "work_item_key": "WORK-0116",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-05-29T13:00:00Z",
+    "updated_at": "2026-07-08T13:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1117",
+    "work_item_key": "WORK-0117",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-07-28T14:00:00Z",
+    "updated_at": "2026-09-07T14:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [
+      "WORK-0114"
+    ],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5118",
+    "work_item_key": "WORK-0118",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-20T15:00:00Z",
+    "updated_at": "2026-08-31T15:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1119",
+    "work_item_key": "WORK-0119",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-12T16:00:00Z",
+    "updated_at": "2026-08-24T16:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9119",
+    "work_item_key": "WORK-0119",
+    "title": "Screening queue stalls on malformed evidence (tracker mirror)",
+    "body": "Observed in the risk workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-11T10:00:00Z",
+    "updated_at": "2026-08-25T15:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5120",
+    "work_item_key": "WORK-0120",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-08-13T09:00:00Z",
+    "updated_at": "2026-08-17T09:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01",
+      "OKR-02"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1121",
+    "work_item_key": "WORK-0121",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-05T10:00:00Z",
+    "updated_at": "2026-08-10T10:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5122",
+    "work_item_key": "WORK-0122",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-28T11:00:00Z",
+    "updated_at": "2026-08-03T11:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1123",
+    "work_item_key": "WORK-0123",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-20T12:00:00Z",
+    "updated_at": "2026-07-27T12:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "ledger",
+      "data-loss"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5124",
+    "work_item_key": "WORK-0124",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "closed",
+    "priority": "P3",
+    "created_at": "2026-07-12T13:00:00Z",
+    "updated_at": "2026-07-20T13:00:00Z",
+    "due_date": null,
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1125",
+    "work_item_key": "WORK-0125",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-04T14:00:00Z",
+    "updated_at": "2026-07-13T14:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5126",
+    "work_item_key": "WORK-0126",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-06-26T15:00:00Z",
+    "updated_at": "2026-07-06T15:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "platform",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1127",
+    "work_item_key": "WORK-0127",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-25T16:00:00Z",
+    "updated_at": "2026-09-05T16:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9127",
+    "work_item_key": "WORK-0127",
+    "title": "Screening queue stalls on malformed evidence (tracker mirror)",
+    "body": "Observed in the risk workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-24T10:00:00Z",
+    "updated_at": "2026-09-06T15:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5128",
+    "work_item_key": "WORK-0128",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-17T09:00:00Z",
+    "updated_at": "2026-08-29T09:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1129",
+    "work_item_key": "WORK-0129",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-09T10:00:00Z",
+    "updated_at": "2026-08-22T10:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5130",
+    "work_item_key": "WORK-0130",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-01T11:00:00Z",
+    "updated_at": "2026-08-15T11:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02",
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [
+      "WORK-0127"
+    ],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1131",
+    "work_item_key": "WORK-0131",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-24T12:00:00Z",
+    "updated_at": "2026-08-08T12:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5132",
+    "work_item_key": "WORK-0132",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-16T13:00:00Z",
+    "updated_at": "2026-08-01T13:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04",
+      "OKR-99"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1133",
+    "work_item_key": "WORK-0133",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-08T14:00:00Z",
+    "updated_at": "2026-07-25T14:00:00Z",
+    "due_date": null,
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5134",
+    "work_item_key": "WORK-0134",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-30T15:00:00Z",
+    "updated_at": "2026-07-18T15:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1135",
+    "work_item_key": "WORK-0135",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-06-22T16:00:00Z",
+    "updated_at": "2026-07-11T16:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9135",
+    "work_item_key": "WORK-0135",
+    "title": "Screening queue stalls on malformed evidence (tracker mirror)",
+    "body": "Observed in the risk workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-06-21T10:00:00Z",
+    "updated_at": "2026-07-12T15:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "risk",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5136",
+    "work_item_key": "WORK-0136",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-21T09:00:00Z",
+    "updated_at": "2026-09-10T09:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1137",
+    "work_item_key": "WORK-0137",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-13T10:00:00Z",
+    "updated_at": "2026-09-03T10:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5138",
+    "work_item_key": "WORK-0138",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-08-05T11:00:00Z",
+    "updated_at": "2026-08-27T11:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1139",
+    "work_item_key": "WORK-0139",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-28T12:00:00Z",
+    "updated_at": "2026-08-20T12:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5140",
+    "work_item_key": "WORK-0140",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-20T13:00:00Z",
+    "updated_at": "2026-08-13T13:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "screening",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-03",
+      "OKR-02"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1141",
+    "work_item_key": "WORK-0141",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "cancelled",
+    "priority": "P2",
+    "created_at": "2026-07-12T14:00:00Z",
+    "updated_at": "2026-08-06T14:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5142",
+    "work_item_key": "WORK-0142",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-04T15:00:00Z",
+    "updated_at": "2026-07-30T15:00:00Z",
+    "due_date": null,
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1143",
+    "work_item_key": "WORK-0143",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-26T16:00:00Z",
+    "updated_at": "2026-07-23T16:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [
+      "WORK-0140"
+    ],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9143",
+    "work_item_key": "WORK-0143",
+    "title": "Screening queue stalls on malformed evidence (tracker mirror)",
+    "body": "Observed in the risk workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-25T10:00:00Z",
+    "updated_at": "2026-07-24T15:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [
+      "WORK-0140"
+    ],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5144",
+    "work_item_key": "WORK-0144",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-06-18T09:00:00Z",
+    "updated_at": "2026-07-16T09:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1145",
+    "work_item_key": "WORK-0145",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-10T10:00:00Z",
+    "updated_at": "2026-07-09T10:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5146",
+    "work_item_key": "WORK-0146",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-09T11:00:00Z",
+    "updated_at": "2026-09-08T11:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1147",
+    "work_item_key": "WORK-0147",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-01T12:00:00Z",
+    "updated_at": "2026-09-01T12:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5148",
+    "work_item_key": "WORK-0148",
+    "title": "Risk and console handoff reports inconsistent state",
+    "body": "The failure crosses both named components with equal evidence and no confirmed owner.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-24T13:00:00Z",
+    "updated_at": "2026-08-25T13:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "risk",
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk",
+      "console"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1149",
+    "work_item_key": "WORK-0149",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-16T14:00:00Z",
+    "updated_at": "2026-08-18T14:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5150",
+    "work_item_key": "WORK-0150",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-08T15:00:00Z",
+    "updated_at": "2026-08-11T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04",
+      "OKR-02"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1151",
+    "work_item_key": "WORK-0151",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-30T16:00:00Z",
+    "updated_at": "2026-08-04T16:00:00Z",
+    "due_date": null,
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9151",
+    "work_item_key": "WORK-0151",
+    "title": "Checkout idempotency key expires too early (tracker mirror)",
+    "body": "Observed in the gateway workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-29T10:00:00Z",
+    "updated_at": "2026-08-05T15:00:00Z",
+    "due_date": null,
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5152",
+    "work_item_key": "WORK-0152",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-22T09:00:00Z",
+    "updated_at": "2026-07-28T09:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1153",
+    "work_item_key": "WORK-0153",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-06-14T10:00:00Z",
+    "updated_at": "2026-07-21T10:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5154",
+    "work_item_key": "WORK-0154",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-06T11:00:00Z",
+    "updated_at": "2026-07-14T11:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "checkout",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-02",
+      "OKR-99"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1155",
+    "work_item_key": "WORK-0155",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "closed",
+    "priority": "P3",
+    "created_at": "2026-05-29T12:00:00Z",
+    "updated_at": "2026-07-07T12:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5156",
+    "work_item_key": "WORK-0156",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-28T13:00:00Z",
+    "updated_at": "2026-09-06T13:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [
+      "WORK-0153"
+    ],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1157",
+    "work_item_key": "WORK-0157",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-20T14:00:00Z",
+    "updated_at": "2026-08-30T14:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5158",
+    "work_item_key": "WORK-0158",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-12T15:00:00Z",
+    "updated_at": "2026-08-23T15:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1159",
+    "work_item_key": "WORK-0159",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-04T16:00:00Z",
+    "updated_at": "2026-08-16T16:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-UNKNOWN",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9159",
+    "work_item_key": "WORK-0159",
+    "title": "Checkout idempotency key expires too early (tracker mirror)",
+    "body": "Observed in the gateway workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-03T10:00:00Z",
+    "updated_at": "2026-08-17T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "gateway",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-UNKNOWN",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5160",
+    "work_item_key": "WORK-0160",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-05T09:00:00Z",
+    "updated_at": "2026-08-09T09:00:00Z",
+    "due_date": null,
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1161",
+    "work_item_key": "WORK-0161",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-28T10:00:00Z",
+    "updated_at": "2026-08-02T10:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5162",
+    "work_item_key": "WORK-0162",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-07-20T11:00:00Z",
+    "updated_at": "2026-07-26T11:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1163",
+    "work_item_key": "WORK-0163",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-12T12:00:00Z",
+    "updated_at": "2026-07-19T12:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5164",
+    "work_item_key": "WORK-0164",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-04T13:00:00Z",
+    "updated_at": "2026-07-12T13:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "payment",
+      "data-loss"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1165",
+    "work_item_key": "WORK-0165",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-26T14:00:00Z",
+    "updated_at": "2026-07-05T14:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5166",
+    "work_item_key": "WORK-0166",
+    "title": "Intermittent background operation returns stale state",
+    "body": "The report lacks a reproducible component or owning service; triage is still needed.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-25T15:00:00Z",
+    "updated_at": "2026-09-04T15:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "needs-triage"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1167",
+    "work_item_key": "WORK-0167",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-17T16:00:00Z",
+    "updated_at": "2026-08-28T16:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9167",
+    "work_item_key": "WORK-0167",
+    "title": "Checkout idempotency key expires too early (tracker mirror)",
+    "body": "Observed in the gateway workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-16T10:00:00Z",
+    "updated_at": "2026-08-29T15:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5168",
+    "work_item_key": "WORK-0168",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-08-09T09:00:00Z",
+    "updated_at": "2026-08-21T09:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "platform",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1169",
+    "work_item_key": "WORK-0169",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-01T10:00:00Z",
+    "updated_at": "2026-08-14T10:00:00Z",
+    "due_date": null,
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [
+      "WORK-0166"
+    ],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5170",
+    "work_item_key": "WORK-0170",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-24T11:00:00Z",
+    "updated_at": "2026-08-07T11:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01",
+      "OKR-02"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1171",
+    "work_item_key": "WORK-0171",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-07-16T12:00:00Z",
+    "updated_at": "2026-07-31T12:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5172",
+    "work_item_key": "WORK-0172",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-08T13:00:00Z",
+    "updated_at": "2026-07-24T13:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1173",
+    "work_item_key": "WORK-0173",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-30T14:00:00Z",
+    "updated_at": "2026-07-17T14:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5174",
+    "work_item_key": "WORK-0174",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-06-22T15:00:00Z",
+    "updated_at": "2026-07-10T15:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1175",
+    "work_item_key": "WORK-0175",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-21T16:00:00Z",
+    "updated_at": "2026-09-09T16:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9175",
+    "work_item_key": "WORK-0175",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-20T10:00:00Z",
+    "updated_at": "2026-09-10T15:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5176",
+    "work_item_key": "WORK-0176",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-13T09:00:00Z",
+    "updated_at": "2026-09-02T09:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-99"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1177",
+    "work_item_key": "WORK-0177",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-05T10:00:00Z",
+    "updated_at": "2026-08-26T10:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5178",
+    "work_item_key": "WORK-0178",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-28T11:00:00Z",
+    "updated_at": "2026-08-19T11:00:00Z",
+    "due_date": null,
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1179",
+    "work_item_key": "WORK-0179",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-20T12:00:00Z",
+    "updated_at": "2026-08-12T12:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5180",
+    "work_item_key": "WORK-0180",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-07-12T13:00:00Z",
+    "updated_at": "2026-08-05T13:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02",
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1181",
+    "work_item_key": "WORK-0181",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-04T14:00:00Z",
+    "updated_at": "2026-07-29T14:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5182",
+    "work_item_key": "WORK-0182",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-26T15:00:00Z",
+    "updated_at": "2026-07-22T15:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "screening",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [
+      "WORK-0179"
+    ],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1183",
+    "work_item_key": "WORK-0183",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-18T16:00:00Z",
+    "updated_at": "2026-07-15T16:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9183",
+    "work_item_key": "WORK-0183",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-17T10:00:00Z",
+    "updated_at": "2026-07-16T15:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "ledger",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5184",
+    "work_item_key": "WORK-0184",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-10T09:00:00Z",
+    "updated_at": "2026-07-08T09:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1185",
+    "work_item_key": "WORK-0185",
+    "title": "Gateway and risk handoff reports inconsistent state",
+    "body": "The failure crosses both named components with equal evidence and no confirmed owner.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-09T10:00:00Z",
+    "updated_at": "2026-09-07T10:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "gateway",
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway",
+      "risk"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5186",
+    "work_item_key": "WORK-0186",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "closed",
+    "priority": "P0",
+    "created_at": "2026-08-01T11:00:00Z",
+    "updated_at": "2026-08-31T11:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1187",
+    "work_item_key": "WORK-0187",
+    "title": "Dashboard bulk action hides partial failure",
+    "body": "Observed in the console workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-24T12:00:00Z",
+    "updated_at": "2026-08-24T12:00:00Z",
+    "due_date": null,
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5188",
+    "work_item_key": "WORK-0188",
+    "title": "Checkout webhook retry loses payment status",
+    "body": "Observed in the gateway workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "cancelled",
+    "priority": "P2",
+    "created_at": "2026-07-16T13:00:00Z",
+    "updated_at": "2026-08-17T13:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1189",
+    "work_item_key": "WORK-0189",
+    "title": "Deployment health check misses dependency failure",
+    "body": "Observed in the platform workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-07-08T14:00:00Z",
+    "updated_at": "2026-08-10T14:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5190",
+    "work_item_key": "WORK-0190",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-30T15:00:00Z",
+    "updated_at": "2026-08-03T15:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03",
+      "OKR-02"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1191",
+    "work_item_key": "WORK-0191",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-22T16:00:00Z",
+    "updated_at": "2026-07-27T16:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9191",
+    "work_item_key": "WORK-0191",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-21T10:00:00Z",
+    "updated_at": "2026-07-28T15:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5192",
+    "work_item_key": "WORK-0192",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-06-14T09:00:00Z",
+    "updated_at": "2026-07-20T09:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1193",
+    "work_item_key": "WORK-0193",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-06T10:00:00Z",
+    "updated_at": "2026-07-13T10:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5194",
+    "work_item_key": "WORK-0194",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-05-29T11:00:00Z",
+    "updated_at": "2026-07-06T11:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1195",
+    "work_item_key": "WORK-0195",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-28T12:00:00Z",
+    "updated_at": "2026-09-05T12:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [
+      "WORK-0192"
+    ],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5196",
+    "work_item_key": "WORK-0196",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-20T13:00:00Z",
+    "updated_at": "2026-08-29T13:00:00Z",
+    "due_date": null,
+    "labels": [
+      "reconciliation",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1197",
+    "work_item_key": "WORK-0197",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-12T14:00:00Z",
+    "updated_at": "2026-08-22T14:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5198",
+    "work_item_key": "WORK-0198",
+    "title": "Risk rule preview disagrees with live decision",
+    "body": "Observed in the risk workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-07-04T15:00:00Z",
+    "updated_at": "2026-08-15T15:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03",
+      "OKR-99"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1199",
+    "work_item_key": "WORK-0199",
+    "title": "Ledger backfill leaves stale account balance",
+    "body": "Observed in the ledger workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-26T16:00:00Z",
+    "updated_at": "2026-08-08T16:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9199",
+    "work_item_key": "WORK-0199",
+    "title": "Ledger backfill leaves stale account balance (tracker mirror)",
+    "body": "Observed in the ledger workflow for tenant batch 115. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-25T10:00:00Z",
+    "updated_at": "2026-08-09T15:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5200",
+    "work_item_key": "WORK-0200",
+    "title": "Admin dashboard export drops timezone column",
+    "body": "Observed in the console workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-28T09:00:00Z",
+    "updated_at": "2026-08-01T09:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04",
+      "OKR-02"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1201",
+    "work_item_key": "WORK-0201",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-20T10:00:00Z",
+    "updated_at": "2026-07-25T10:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5202",
+    "work_item_key": "WORK-0202",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-12T11:00:00Z",
+    "updated_at": "2026-07-18T11:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1203",
+    "work_item_key": "WORK-0203",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-04T12:00:00Z",
+    "updated_at": "2026-07-11T12:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "screening"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5204",
+    "work_item_key": "WORK-0204",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-09-02T13:00:00Z",
+    "updated_at": "2026-09-10T13:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1205",
+    "work_item_key": "WORK-0205",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-08-25T14:00:00Z",
+    "updated_at": "2026-09-03T14:00:00Z",
+    "due_date": null,
+    "labels": [
+      "dashboard",
+      "data-loss"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5206",
+    "work_item_key": "WORK-0206",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-17T15:00:00Z",
+    "updated_at": "2026-08-27T15:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1207",
+    "work_item_key": "WORK-0207",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-08-09T16:00:00Z",
+    "updated_at": "2026-08-20T16:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9207",
+    "work_item_key": "WORK-0207",
+    "title": "Build cache invalidation slows hotfix release (tracker mirror)",
+    "body": "Observed in the platform workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-08-08T10:00:00Z",
+    "updated_at": "2026-08-21T15:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "platform",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5208",
+    "work_item_key": "WORK-0208",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-01T09:00:00Z",
+    "updated_at": "2026-08-13T09:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [
+      "WORK-0205"
+    ],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1209",
+    "work_item_key": "WORK-0209",
+    "title": "Card token refresh fails on delayed capture",
+    "body": "Observed in the gateway workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-24T10:00:00Z",
+    "updated_at": "2026-08-06T10:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5210",
+    "work_item_key": "WORK-0210",
+    "title": "Observability alert groups unrelated worker crashes",
+    "body": "Observed in the platform workflow for tenant batch 103. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-16T11:00:00Z",
+    "updated_at": "2026-07-30T11:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "platform",
+      "security"
+    ],
+    "okr_refs": [
+      "OKR-05",
+      "OKR-02"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1211",
+    "work_item_key": "WORK-0211",
+    "title": "Screening queue stalls on malformed evidence",
+    "body": "Observed in the risk workflow for tenant batch 104. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-07-08T12:00:00Z",
+    "updated_at": "2026-07-23T12:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5212",
+    "work_item_key": "WORK-0212",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 105. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-30T13:00:00Z",
+    "updated_at": "2026-07-16T13:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-UNKNOWN",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1213",
+    "work_item_key": "WORK-0213",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 106. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-22T14:00:00Z",
+    "updated_at": "2026-07-09T14:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "console"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5214",
+    "work_item_key": "WORK-0214",
+    "title": "Payment gateway timeout returns unclear error",
+    "body": "Observed in the gateway workflow for tenant batch 107. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-21T15:00:00Z",
+    "updated_at": "2026-09-08T15:00:00Z",
+    "due_date": null,
+    "labels": [
+      "checkout"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1215",
+    "work_item_key": "WORK-0215",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-13T16:00:00Z",
+    "updated_at": "2026-09-01T16:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-014",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9215",
+    "work_item_key": "WORK-0215",
+    "title": "Build cache invalidation slows hotfix release (tracker mirror)",
+    "body": "Observed in the platform workflow for tenant batch 108. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-08-12T10:00:00Z",
+    "updated_at": "2026-09-02T15:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "release"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5216",
+    "work_item_key": "WORK-0216",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 109. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P0",
+    "created_at": "2026-08-05T09:00:00Z",
+    "updated_at": "2026-08-25T09:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-001",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1217",
+    "work_item_key": "WORK-0217",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 110. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "closed",
+    "priority": "P1",
+    "created_at": "2026-07-28T10:00:00Z",
+    "updated_at": "2026-08-18T10:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-006",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5218",
+    "work_item_key": "WORK-0218",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 111. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-20T11:00:00Z",
+    "updated_at": "2026-08-11T11:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-011",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1219",
+    "work_item_key": "WORK-0219",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 112. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-07-12T12:00:00Z",
+    "updated_at": "2026-08-04T12:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "gateway"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-016",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5220",
+    "work_item_key": "WORK-0220",
+    "title": "Reconciliation drift after partial settlement",
+    "body": "Observed in the ledger workflow for tenant batch 113. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-04T13:00:00Z",
+    "updated_at": "2026-07-28T13:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "reconciliation"
+    ],
+    "okr_refs": [
+      "OKR-01",
+      "OKR-02",
+      "OKR-99"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-003",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1221",
+    "work_item_key": "WORK-0221",
+    "title": "Console report filter resets after navigation",
+    "body": "Observed in the console workflow for tenant batch 114. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-26T14:00:00Z",
+    "updated_at": "2026-07-21T14:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "admin"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-008",
+    "blocker_keys": [
+      "WORK-0218"
+    ],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5222",
+    "work_item_key": "WORK-0222",
+    "title": "Gateway and risk handoff reports inconsistent state",
+    "body": "The failure crosses both named components with equal evidence and no confirmed owner.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-06-18T15:00:00Z",
+    "updated_at": "2026-07-14T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "gateway",
+      "risk"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway",
+      "risk"
+    ],
+    "author_id": "USR-013",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1223",
+    "work_item_key": "WORK-0223",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-10T16:00:00Z",
+    "updated_at": "2026-07-07T16:00:00Z",
+    "due_date": null,
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9223",
+    "work_item_key": "WORK-0223",
+    "title": "Build cache invalidation slows hotfix release (tracker mirror)",
+    "body": "Observed in the platform workflow for tenant batch 116. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-09T10:00:00Z",
+    "updated_at": "2026-07-08T15:00:00Z",
+    "due_date": null,
+    "labels": [
+      "build"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-018",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5224",
+    "work_item_key": "WORK-0224",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 117. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-08-09T09:00:00Z",
+    "updated_at": "2026-09-06T09:00:00Z",
+    "due_date": "2026-09-14",
+    "labels": [
+      "screening",
+      "security"
+    ],
+    "okr_refs": [],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-005",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1225",
+    "work_item_key": "WORK-0225",
+    "title": "Journal posting retries create duplicate balance hold",
+    "body": "Observed in the ledger workflow for tenant batch 118. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "in_progress",
+    "priority": "P2",
+    "created_at": "2026-08-01T10:00:00Z",
+    "updated_at": "2026-08-30T10:00:00Z",
+    "due_date": "2026-09-02",
+    "labels": [
+      "ledger"
+    ],
+    "okr_refs": [
+      "OKR-01"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-010",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5226",
+    "work_item_key": "WORK-0226",
+    "title": "Accessibility labels missing from dispute table",
+    "body": "Observed in the console workflow for tenant batch 119. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-24T11:00:00Z",
+    "updated_at": "2026-08-23T11:00:00Z",
+    "due_date": "2026-09-18",
+    "labels": [
+      "dashboard"
+    ],
+    "okr_refs": [
+      "OKR-04"
+    ],
+    "components": [
+      "console"
+    ],
+    "author_id": "USR-015",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1227",
+    "work_item_key": "WORK-0227",
+    "title": "Checkout idempotency key expires too early",
+    "body": "Observed in the gateway workflow for tenant batch 120. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-07-16T12:00:00Z",
+    "updated_at": "2026-08-16T12:00:00Z",
+    "due_date": "2026-09-08",
+    "labels": [
+      "payment"
+    ],
+    "okr_refs": [
+      "OKR-02"
+    ],
+    "components": [
+      "gateway"
+    ],
+    "author_id": "USR-002",
+    "blocker_keys": [],
+    "project": "PRJ-06"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5228",
+    "work_item_key": "WORK-0228",
+    "title": "CI release job publishes stale build metadata",
+    "body": "Observed in the platform workflow for tenant batch 121. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P0",
+    "created_at": "2026-07-08T13:00:00Z",
+    "updated_at": "2026-08-09T13:00:00Z",
+    "due_date": "2026-09-28",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-007",
+    "blocker_keys": [],
+    "project": "PRJ-01"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1229",
+    "work_item_key": "WORK-0229",
+    "title": "Chargeback screening misses repeated merchant pattern",
+    "body": "Observed in the risk workflow for tenant batch 122. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P1",
+    "created_at": "2026-06-30T14:00:00Z",
+    "updated_at": "2026-08-02T14:00:00Z",
+    "due_date": "2026-09-10",
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-012",
+    "blocker_keys": [],
+    "project": "PRJ-02"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5230",
+    "work_item_key": "WORK-0230",
+    "title": "Settlement report omits reversed entries",
+    "body": "Observed in the ledger workflow for tenant batch 100. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-22T15:00:00Z",
+    "updated_at": "2026-07-26T15:00:00Z",
+    "due_date": "2026-10-20",
+    "labels": [
+      "settlement"
+    ],
+    "okr_refs": [
+      "OKR-01",
+      "OKR-02"
+    ],
+    "components": [
+      "ledger"
+    ],
+    "author_id": "USR-017",
+    "blocker_keys": [],
+    "project": "PRJ-03"
+  },
+  {
+    "provider": "github",
+    "issue_id": "GH-1231",
+    "work_item_key": "WORK-0231",
+    "title": "Build cache invalidation slows hotfix release",
+    "body": "Observed in the platform workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-14T16:00:00Z",
+    "updated_at": "2026-07-19T16:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "platform"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-9231",
+    "work_item_key": "WORK-0231",
+    "title": "Build cache invalidation slows hotfix release (tracker mirror)",
+    "body": "Observed in the platform workflow for tenant batch 101. Please add regression coverage and keep the change limited to the affected component. Mirrored from the partner team's tracker.",
+    "status": "open",
+    "priority": "P2",
+    "created_at": "2026-06-13T10:00:00Z",
+    "updated_at": "2026-07-20T15:00:00Z",
+    "due_date": "2026-09-11",
+    "labels": [
+      "platform",
+      "customer-impact"
+    ],
+    "okr_refs": [
+      "OKR-05"
+    ],
+    "components": [
+      "platform"
+    ],
+    "author_id": "USR-004",
+    "blocker_keys": [],
+    "project": "PRJ-04"
+  },
+  {
+    "provider": "asana",
+    "issue_id": "AS-5232",
+    "work_item_key": "WORK-0232",
+    "title": "Fraud velocity rule ignores linked devices",
+    "body": "Observed in the risk workflow for tenant batch 102. Please add regression coverage and keep the change limited to the affected component.",
+    "status": "open",
+    "priority": "P3",
+    "created_at": "2026-06-06T09:00:00Z",
+    "updated_at": "2026-07-12T09:00:00Z",
+    "due_date": null,
+    "labels": [
+      "fraud"
+    ],
+    "okr_refs": [
+      "OKR-03"
+    ],
+    "components": [
+      "risk"
+    ],
+    "author_id": "USR-009",
+    "blocker_keys": [],
+    "project": "PRJ-05"
+  }
+]

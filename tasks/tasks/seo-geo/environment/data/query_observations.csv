@@ -1,0 +1,37 @@
+observation_id,platform,query_id,query,expected_relevant_page_id,cited,cited_page_id
+GO-Q01,Google AI Overviews,Q01,what is API traffic routing,P001,1,P001
+GO-Q02,Google AI Overviews,Q02,how to set a latency budget,P003,1,P003
+GO-Q03,Google AI Overviews,Q03,API regional failover tools,P001,0,
+GO-Q04,Google AI Overviews,Q04,safe API retry policy,P008,0,
+GO-Q05,Google AI Overviews,Q05,traffic routing security controls,P006,1,P006
+GO-Q06,Google AI Overviews,Q06,regional routing benchmark,P010,1,P010
+GO-Q07,Google AI Overviews,Q07,vector routing guide,P002,0,
+GO-Q08,Google AI Overviews,Q08,API routing pricing,P005,0,
+GO-Q09,Google AI Overviews,Q09,routing platform comparison,P004,0,
+GO-Q10,Google AI Overviews,Q10,queue routing integration,P011,0,
+GO-Q11,Google AI Overviews,Q11,traffic routing customer story,P009,0,
+GO-Q12,Google AI Overviews,Q12,who builds Northstar Relay,P012,0,
+CH-Q01,ChatGPT,Q01,what is API traffic routing,P001,1,P001
+CH-Q02,ChatGPT,Q02,how to set a latency budget,P003,0,
+CH-Q03,ChatGPT,Q03,API regional failover tools,P001,0,
+CH-Q04,ChatGPT,Q04,safe API retry policy,P008,1,P008
+CH-Q05,ChatGPT,Q05,traffic routing security controls,P006,0,
+CH-Q06,ChatGPT,Q06,regional routing benchmark,P010,1,P010
+CH-Q07,ChatGPT,Q07,vector routing guide,P002,0,
+CH-Q08,ChatGPT,Q08,API routing pricing,P005,0,
+CH-Q09,ChatGPT,Q09,routing platform comparison,P004,0,
+CH-Q10,ChatGPT,Q10,queue routing integration,P011,0,
+CH-Q11,ChatGPT,Q11,traffic routing customer story,P009,0,
+CH-Q12,ChatGPT,Q12,who builds Northstar Relay,P012,0,
+PE-Q01,Perplexity,Q01,what is API traffic routing,P001,1,P001
+PE-Q02,Perplexity,Q02,how to set a latency budget,P003,1,P003
+PE-Q03,Perplexity,Q03,API regional failover tools,P001,0,
+PE-Q04,Perplexity,Q04,safe API retry policy,P008,1,P008
+PE-Q05,Perplexity,Q05,traffic routing security controls,P006,1,P006
+PE-Q06,Perplexity,Q06,regional routing benchmark,P010,1,P010
+PE-Q07,Perplexity,Q07,vector routing guide,P002,0,
+PE-Q08,Perplexity,Q08,API routing pricing,P005,0,
+PE-Q09,Perplexity,Q09,routing platform comparison,P004,0,
+PE-Q10,Perplexity,Q10,queue routing integration,P011,0,
+PE-Q11,Perplexity,Q11,traffic routing customer story,P009,0,
+PE-Q12,Perplexity,Q12,who builds Northstar Relay,P012,0,

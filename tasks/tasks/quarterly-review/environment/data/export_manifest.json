@@ -1,0 +1,37 @@
+{
+  "snapshot_name": "Northstar Cloud Labs quarterly review exports",
+  "fictional_data": true,
+  "reporting_quarter": "2026-Q2",
+  "as_of": "2026-06-30T23:59:59Z",
+  "currency": "USD",
+  "sources": [
+    {
+      "name": "accounting_ledger",
+      "file": "financial_ledger.csv",
+      "status": "complete",
+      "coverage": [
+        "2025-Q2",
+        "2026-Q1",
+        "2026-Q2"
+      ]
+    },
+    {
+      "name": "paypal",
+      "file": "paypal_activity.csv",
+      "status": "complete",
+      "coverage_note": "Q2 transaction activity plus late-settling Q1 activity through 2026-07-03"
+    },
+    {
+      "name": "crm_customers",
+      "file": "crm_customers.csv",
+      "status": "complete",
+      "as_of": "2026-06-30"
+    },
+    {
+      "name": "crm_deals",
+      "file": "crm_deals.csv",
+      "status": "partially_complete",
+      "coverage_note": "A sync interruption from 2026-06-29 12:00Z through quarter close left four open deals without final activity updates; amounts and expected-close dates are present, but their stages may be stale."
+    }
+  ]
+}

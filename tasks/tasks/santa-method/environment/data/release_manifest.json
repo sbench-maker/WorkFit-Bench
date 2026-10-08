@@ -1,0 +1,14 @@
+{
+  "fixture_kind": "deterministic fictional release package",
+  "product": "Nimbus SDK",
+  "release_version": "7.0.0",
+  "authoritative_change_count": 216,
+  "input_files": [
+    "authoritative_changes.csv",
+    "draft_catalog.json",
+    "publication_rubric.json"
+  ],
+  "input_set_sha256": "3b23619ab974a229f9136ab0e062bd03a3a802864ad57e6f2c6493e3d5c88d3a",
+  "publication_target": "customer documentation portal",
+  "data_provenance": "Locally constructed; not real observations."
+}

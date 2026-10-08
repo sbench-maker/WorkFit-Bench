@@ -1,0 +1,16 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "launch_brief.json": "one three-slide creation request",
+    "workspace_seed.json": "two existing presentations and two existing permissions"
+  },
+  "relationships": [
+    "permissions.fileId joins presentations.presentationId",
+    "the requested presentation title deliberately matches an existing archived concept deck"
+  ],
+  "intentional_edge_cases": [
+    "a same-title presentation must not be reused or overwritten",
+    "the new permission must attach to the generated presentation ID rather than a title match",
+    "the first slide already exists after presentations.create and must be populated, not duplicated"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__linked_asset_coverage",
+      "title": "Linked implementation asset coverage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every linked model, dataset, and Space in the structured API snapshots is represented in the brief.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_linked_asset_coverage"
+      ]
+    },
+    {
+      "id": "completion__quantitative_evidence",
+      "title": "Decision-relevant quantitative evidence",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The brief reports the corrected English and Spanish quality results plus the device latency and memory figures central to the adoption decision.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_core_quantitative_evidence"
+      ]
+    },
+    {
+      "id": "completion__paper_identity",
+      "title": "Paper identity and authors",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The brief identifies the requested paper revision and all four authors from the frozen paper metadata.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_paper_identity_and_authors"
+      ]
+    },
+    {
+      "id": "completion__deployment_judgment",
+      "title": "8 GB deployment judgment and caveats",
+      "evaluator": "llm_judge",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The go/no-go recommendation is useful for the stated English/Spanish 8 GB target: it reconciles the tested hardware with the actual memory boundary, handles the v1/v2 conflict, scopes language evidence, and proposes proportionate next checks.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__linked_asset_coverage",
+        "title": "Linked implementation asset coverage",
+        "required_score": 10
+      },
+      {
+        "id": "completion__quantitative_evidence",
+        "title": "Decision-relevant quantitative evidence",
+        "required_score": 10
+      },
+      {
+        "id": "completion__paper_identity",
+        "title": "Paper identity and authors",
+        "required_score": 10
+      },
+      {
+        "id": "completion__deployment_judgment",
+        "title": "8 GB deployment judgment and caveats",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

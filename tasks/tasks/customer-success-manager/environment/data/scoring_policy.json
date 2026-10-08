@@ -1,0 +1,213 @@
+{
+  "snapshot_date": "2026-09-09",
+  "currency": "USD",
+  "rounding": "round intermediate dimension and signal scores to 1 decimal; round modeled revenue to whole dollars",
+  "data_quality": {
+    "required_groups": [
+      "usage",
+      "engagement",
+      "support",
+      "relationship",
+      "previous_period",
+      "usage_decline",
+      "engagement_drop",
+      "support_issues",
+      "relationship_signals",
+      "commercial_factors",
+      "contract",
+      "product_usage",
+      "departments"
+    ],
+    "allowed_segments": [
+      "enterprise",
+      "mid-market",
+      "smb"
+    ],
+    "rules": [
+      "customer_id and ISO contract_end_date are required",
+      "arr must be greater than zero",
+      "licensed_seats must be greater than zero and active_seats must be between zero and licensed_seats",
+      "an unadopted module must have usage_pct equal to zero; all usage_pct values must be between zero and 100",
+      "previous_period must include usage_score, engagement_score, support_score, relationship_score, and overall_score"
+    ],
+    "handling": "Exclude any failing record from scores, rollups, and action queues; list it once in human review with every observed issue."
+  },
+  "health_model": {
+    "benchmarks": {
+      "enterprise": {
+        "login_frequency_target": 90,
+        "feature_adoption_target": 80,
+        "dau_mau_target": 0.5,
+        "support_ticket_volume_max": 5,
+        "meeting_attendance_target": 95,
+        "nps_target": 9,
+        "csat_target": 4.5,
+        "open_tickets_max": 10,
+        "escalation_rate_max": 0.25,
+        "avg_resolution_hours_max": 72,
+        "exec_sponsor_target": 90,
+        "multi_threading_target": 5
+      },
+      "mid-market": {
+        "login_frequency_target": 80,
+        "feature_adoption_target": 70,
+        "dau_mau_target": 0.4,
+        "support_ticket_volume_max": 8,
+        "meeting_attendance_target": 85,
+        "nps_target": 8,
+        "csat_target": 4.0,
+        "open_tickets_max": 15,
+        "escalation_rate_max": 0.3,
+        "avg_resolution_hours_max": 96,
+        "exec_sponsor_target": 75,
+        "multi_threading_target": 3
+      },
+      "smb": {
+        "login_frequency_target": 70,
+        "feature_adoption_target": 60,
+        "dau_mau_target": 0.3,
+        "support_ticket_volume_max": 10,
+        "meeting_attendance_target": 75,
+        "nps_target": 7,
+        "csat_target": 3.8,
+        "open_tickets_max": 20,
+        "escalation_rate_max": 0.4,
+        "avg_resolution_hours_max": 120,
+        "exec_sponsor_target": 60,
+        "multi_threading_target": 2
+      }
+    },
+    "dimension_weights": {
+      "usage": 0.3,
+      "engagement": 0.25,
+      "support": 0.2,
+      "relationship": 0.25
+    },
+    "usage_metric_weights": {
+      "login_frequency": 0.35,
+      "feature_adoption": 0.4,
+      "dau_mau_ratio": 0.25
+    },
+    "engagement_metric_weights": {
+      "inverse_support_ticket_volume": 0.2,
+      "meeting_attendance": 0.3,
+      "nps_score": 0.25,
+      "csat_score": 0.25
+    },
+    "support_metric_weights": {
+      "inverse_open_tickets": 0.35,
+      "inverse_escalation_rate": 0.35,
+      "inverse_avg_resolution_hours": 0.3
+    },
+    "relationship_metric_weights": {
+      "executive_sponsor_engagement": 0.35,
+      "multi_threading_depth": 0.3,
+      "renewal_sentiment": 0.35
+    },
+    "normalization": "positive metric = clamp(value/segment target*100); inverse metric = clamp((1-value/segment maximum)*100)",
+    "renewal_sentiment_scores": {
+      "positive": 100,
+      "neutral": 60,
+      "negative": 20,
+      "unknown": 50
+    },
+    "thresholds": {
+      "enterprise": {
+        "green_min": 75,
+        "yellow_min": 50
+      },
+      "mid-market": {
+        "green_min": 70,
+        "yellow_min": 45
+      },
+      "smb": {
+        "green_min": 65,
+        "yellow_min": 40
+      }
+    },
+    "trend": "improving when current minus previous is greater than 5; declining when less than -5; otherwise stable"
+  },
+  "churn_model": {
+    "category_weights": {
+      "usage_decline": 0.3,
+      "engagement_drop": 0.25,
+      "support_issues": 0.2,
+      "relationship_signals": 0.15,
+      "commercial_factors": 0.1
+    },
+    "usage_decline": "login risk=clamp(abs(min(login_trend,0))*3), feature risk=*4, DAU/MAU risk=*500; combine 40%/35%/25%",
+    "engagement_drop": "cancellation risk=clamp(count*25), response risk=clamp((days-1)*15), NPS risk=clamp(abs(min(change,0))*20); combine 30%/35%/35%",
+    "support_issues": "escalation risk=clamp(count*35), critical-ticket risk=clamp(count*50), satisfaction improving/stable/declining/critical=10/30/70/95; combine 35%/35%/30%",
+    "relationship_points": {
+      "champion_left": 45,
+      "sponsor_change": 30,
+      "competitor_mentions_1_or_2_each": 12,
+      "competitor_mentions_3_plus": 35
+    },
+    "commercial_points": {
+      "month-to-month": 30,
+      "quarterly": 15,
+      "pricing_complaints": 35,
+      "budget_cuts_mentioned": 40
+    },
+    "renewal_multiplier": {
+      "days_0_to_30": 1.5,
+      "days_31_to_60": 1.35,
+      "days_61_to_90": 1.2,
+      "days_91_to_180": 1.1,
+      "later_or_unknown": 1.0
+    },
+    "days_basis": "calendar days from snapshot_date; past dates are zero days",
+    "tiers": {
+      "critical_min": 80,
+      "high_min": 60,
+      "medium_min": 40,
+      "low_min": 0
+    }
+  },
+  "expansion_model": {
+    "seat_rule": "when active/licensed is at least 90%, estimated revenue is ARR times segment factor",
+    "seat_growth_factors": {
+      "enterprise": 0.25,
+      "mid-market": 0.2,
+      "smb": 0.15
+    },
+    "tier_multipliers": {
+      "starter": 1.0,
+      "professional": 1.8,
+      "enterprise": 3.0,
+      "enterprise_plus": 4.5
+    },
+    "tier_rule": "recommend the next available higher multiplier; incremental revenue = ARR/current multiplier*target multiplier - ARR",
+    "module_revenue_fractions": {
+      "core_platform": 0,
+      "analytics_module": 0.15,
+      "integrations_module": 0.12,
+      "api_access": 0.1,
+      "advanced_reporting": 0.18,
+      "security_module": 0.2,
+      "automation_module": 0.15,
+      "collaboration_module": 0.1,
+      "data_export": 0.08,
+      "custom_workflows": 0.22,
+      "sso_module": 0.08,
+      "audit_module": 0.1
+    },
+    "module_rule": "each unadopted non-core module is a cross-sell; adopted modules below 30% need enablement and are not sales opportunities",
+    "department_rule": "each potential department not already current is estimated at ARR/max(current department count,1)*0.8",
+    "effort": {
+      "seat_expansion": "low",
+      "tier_upgrade": "medium",
+      "module_cross_sell": "low",
+      "department_expansion": "high"
+    },
+    "priority": "clamp(revenue/2000,0,100) multiplied by low/medium/high effort factor 3/2/1"
+  },
+  "triage": {
+    "intervention_eligibility": "health is red OR churn tier is high or critical OR any warning signal is critical",
+    "intervention_rank": "descending effective severity (a critical warning is treated as critical), then renewal within 30 days, then declining overall health, then ARR, then customer_id",
+    "expansion_eligibility": "health is green AND churn tier is low AND no warning signal is high or critical AND at least one modeled opportunity exists",
+    "expansion_rank": "descending total estimated expansion revenue, then customer_id",
+    "guardrail": "an account may never appear in both action queues"
+  }
+}

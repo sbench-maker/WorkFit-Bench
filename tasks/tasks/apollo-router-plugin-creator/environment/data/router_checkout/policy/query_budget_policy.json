@@ -1,0 +1,21 @@
+{
+  "namespace": "acme",
+  "plugin_name": "query_budget",
+  "enabled": true,
+  "client_tier_header": "x-client-tier",
+  "default_tier": "standard",
+  "tier_limits": {
+    "standard": 80,
+    "partner": 160,
+    "internal": 300
+  },
+  "mutation_max_cost": 60,
+  "rejection": {
+    "http_status": 200,
+    "error_code": "QUERY_COST_EXCEEDED",
+    "message": "Query cost exceeds the permitted budget"
+  },
+  "tier_value_handling": "trim_ascii_lowercase",
+  "unknown_tier_behavior": "use_default",
+  "boundary_behavior": "allow_equal_reject_greater"
+}

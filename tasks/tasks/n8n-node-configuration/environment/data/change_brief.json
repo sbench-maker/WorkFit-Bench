@@ -1,0 +1,38 @@
+{
+  "workflow_id": "wf-participant-intake-v7",
+  "goal": "Make the participant intake request/response workflow ready for credential binding and coordinator review.",
+  "preserve": [
+    "workflow id and name",
+    "all node ids, names, types, positions",
+    "the supplied connection graph"
+  ],
+  "release_state": {
+    "active": false,
+    "reason": "Credentials must be bound by a human after review."
+  },
+  "credential_policy": {
+    "known_names_only": {
+      "Check Eligibility": "Research Eligibility API",
+      "Save Enrollment": "Research Registry",
+      "Notify Coordinator": "Research Workspace"
+    },
+    "instruction": "No credential IDs are available. Remove placeholder or invented credential bindings from the export."
+  },
+  "node_requirements": {
+    "Participant Intake": "Accept POST at research-participant-intake and wait for explicit Respond to Webhook nodes.",
+    "Email Present?": "Send non-empty $json.body.email values to the true output; missing or empty email goes to the false output.",
+    "Fetch Study Metadata": "GET the existing URL without a body; send study_id as a query parameter sourced from $json.body.study_id.",
+    "Check Eligibility": "POST JSON to the existing URL with participant_id, study_id, email, and consent from the webhook body. Use the named header-auth credential type but leave the binding unassigned.",
+    "Save Enrollment": "Execute one atomic parameterized INSERT/UPSERT using participant_id, study_id, email, and decision. Keep the routing chain alive even if the query emits no rows.",
+    "Route Decision": "Route the Check Eligibility decision to named approved and waitlist outputs even after a zero-row database result; send every other value to a named fallback output.",
+    "Build Approved Response": "Set status=approved and pass participant_id from the webhook body.",
+    "Build Waitlist Response": "Set status=waitlist and pass participant_id from the webhook body.",
+    "Build Invalid Response": "Set status=invalid and error=missing_email.",
+    "Build Unexpected Response": "Set status=error, error=unexpected_decision, and provide a Block Kit array for the coordinator alert.",
+    "Respond Approved": "Return the response object as JSON with HTTP 201.",
+    "Respond Waitlisted": "Return the response object as JSON with HTTP 202.",
+    "Respond Invalid": "Return the response object as JSON with HTTP 422.",
+    "Respond Unexpected": "Return the response object as JSON with HTTP 500.",
+    "Notify Coordinator": "Post an alert to #research-alerts using the internal post operation and pass the Block Kit object without stringifying it; leave the named Slack credential unassigned."
+  }
+}

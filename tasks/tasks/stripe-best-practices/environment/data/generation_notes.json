@@ -1,0 +1,18 @@
+{
+  "method": "deterministic local construction",
+  "files": {
+    "checkout_service/orders.jsonl": 240,
+    "checkout_service/webhook_samples.jsonl": 320,
+    "checkout_service/catalog.json": 12
+  },
+  "relationships": [
+    "Every order item embeds a matching catalog SKU, name, and unit amount.",
+    "Order totals equal the sum of embedded line quantities and unit amounts.",
+    "Webhook samples refer to orders through metadata except deliberate missing-reference cases."
+  ],
+  "intentional_edge_cases": [
+    "Repeated event IDs model delivery retries.",
+    "Some completed sessions are unpaid or have an amount, currency, or metadata mismatch.",
+    "The order store contains pending, already-paid, and cancelled terminal states."
+  ]
+}

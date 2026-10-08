@@ -1,0 +1,11 @@
+{
+  "dataset_name": "Larkhaven venue routing export",
+  "coordinate_reference_system": "WGS84 / OGC:CRS84",
+  "coordinate_order": "longitude, latitude",
+  "description": "Deterministic fictional venue, service-zone, and pickup-hub exports for a web map build.",
+  "files": {
+    "venues.csv": "Candidate venue points and display metadata.",
+    "service_zones.geojson": "Service polygons with a numeric conflict priority.",
+    "pickup_hubs.csv": "Pickup hub points used for nearest-hub routing context."
+  }
+}

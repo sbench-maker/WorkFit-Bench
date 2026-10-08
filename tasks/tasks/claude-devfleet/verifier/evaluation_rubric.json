@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__mission_plan",
+      "title": "Mission plan and dependency DAG",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The handoff preserves all missions returned by the bundled simulator, their dependency edges, automatic dispatch settings, and actionable mission descriptions.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_mission_plan_dag_and_prompts"
+      ]
+    },
+    {
+      "id": "completion__execution_outcomes",
+      "title": "Dependency-aware dispatch and terminal outcomes",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Only the root is manually launched, eligible descendants auto-dispatch, the capacity queue is represented, failed dependencies prevent downstream launch, and every mission reaches its correct terminal state.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_dispatch_and_terminal_states"
+      ]
+    },
+    {
+      "id": "completion__report_fidelity",
+      "title": "Complete structured mission evidence",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every terminal mission has one accurate structured report with status, isolated worktree branch where work ran, changed files, test evidence, work summary, errors where applicable, and next steps.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_structured_report_fidelity"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__mission_plan",
+        "title": "Mission plan and dependency DAG",
+        "required_score": 10
+      },
+      {
+        "id": "completion__execution_outcomes",
+        "title": "Dependency-aware dispatch and terminal outcomes",
+        "required_score": 10
+      },
+      {
+        "id": "completion__report_fidelity",
+        "title": "Complete structured mission evidence",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

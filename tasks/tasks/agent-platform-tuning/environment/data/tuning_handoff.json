@@ -1,0 +1,24 @@
+{
+  "handoff_version": "2026-09-10.1",
+  "model_category": "Open Model",
+  "project": "northwind-agent-lab",
+  "location": "europe-west4",
+  "source_file": "/root/data/support_tuning_candidates.csv",
+  "confirmed_column_mapping": {
+    "user_message": "customer_message",
+    "assistant_response": "approved_reply"
+  },
+  "target_format": "messages",
+  "validation_fraction": 0.2,
+  "holdout_rule": "After curation, select the round-half-up 20% of examples with the smallest SHA-256 hex digest of 'nw-support-v1:' plus example_id.",
+  "confirmed_model": "Llama 3.1 8B Instruct",
+  "base_model_id": "meta/llama-3.1-8b-instruct",
+  "budget_usd": 0.05,
+  "gcs_run_prefix": "gs://northwind-agent-tuning-eu/tuning_agent_job_20260910T090000Z",
+  "approvals": {
+    "column_mapping": true,
+    "validation_split": true,
+    "model": true,
+    "offline_submission": true
+  }
+}

@@ -1,0 +1,957 @@
+event_id,contact_id,account_id,event_type,event_at,detail
+EVT-00001,CON-0001,ACC-0001,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00002,CON-0002,ACC-0002,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00003,CON-0003,ACC-0003,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00004,CON-0004,ACC-0004,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00005,CON-0004,ACC-0004,repository_connected,2026-07-28T21:00:00Z,primary repository
+EVT-00006,CON-0005,ACC-0005,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00007,CON-0005,ACC-0005,repository_connected,2026-07-23T19:00:00Z,primary repository
+EVT-00008,CON-0005,ACC-0005,teammate_invited,2026-07-24T09:17:00Z,invite 1
+EVT-00009,CON-0006,ACC-0006,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00010,CON-0006,ACC-0006,repository_connected,2026-08-01T17:00:00Z,primary repository
+EVT-00011,CON-0007,ACC-0007,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00012,CON-0007,ACC-0007,repository_connected,2026-07-27T15:00:00Z,primary repository
+EVT-00013,CON-0007,ACC-0007,teammate_invited,2026-07-28T03:17:00Z,invite 1
+EVT-00014,CON-0007,ACC-0007,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00015,CON-0008,ACC-0008,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00016,CON-0008,ACC-0008,repository_connected,2026-07-23T01:00:00Z,primary repository
+EVT-00017,CON-0008,ACC-0008,teammate_invited,2026-07-23T12:17:00Z,invite 1
+EVT-00018,CON-0008,ACC-0008,teammate_invited,2026-07-23T12:34:00Z,invite 2
+EVT-00019,CON-0009,ACC-0009,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00020,CON-0009,ACC-0009,repository_connected,2026-07-31T23:00:00Z,primary repository
+EVT-00021,CON-0009,ACC-0009,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00022,CON-0009,ACC-0009,teammate_invited,2026-08-01T09:34:00Z,invite 2
+EVT-00023,CON-0009,ACC-0009,teammate_invited,2026-08-01T09:51:00Z,invite 3
+EVT-00024,CON-0010,ACC-0010,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00025,CON-0010,ACC-0010,repository_connected,2026-07-26T21:00:00Z,primary repository
+EVT-00026,CON-0010,ACC-0010,teammate_invited,2026-07-27T06:17:00Z,invite 1
+EVT-00027,CON-0010,ACC-0010,teammate_invited,2026-07-27T06:34:00Z,invite 2
+EVT-00028,CON-0010,ACC-0010,teammate_invited,2026-07-27T06:51:00Z,invite 3
+EVT-00029,CON-0010,ACC-0010,teammate_invited,2026-07-27T07:08:00Z,invite 4
+EVT-00030,CON-0011,ACC-0011,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00031,CON-0011,ACC-0011,repository_connected,2026-07-21T19:00:00Z,primary repository
+EVT-00032,CON-0011,ACC-0011,teammate_invited,2026-07-22T03:17:00Z,invite 1
+EVT-00033,CON-0011,ACC-0011,teammate_invited,2026-07-22T03:34:00Z,invite 2
+EVT-00034,CON-0011,ACC-0011,teammate_invited,2026-07-22T03:51:00Z,invite 3
+EVT-00035,CON-0011,ACC-0011,teammate_invited,2026-07-22T04:08:00Z,invite 4
+EVT-00036,CON-0011,ACC-0011,teammate_invited,2026-07-22T04:25:00Z,invite 5
+EVT-00037,CON-0012,ACC-0012,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00038,CON-0012,ACC-0012,repository_connected,2026-07-31T05:00:00Z,primary repository
+EVT-00039,CON-0012,ACC-0012,teammate_invited,2026-07-31T12:17:00Z,invite 1
+EVT-00040,CON-0012,ACC-0012,teammate_invited,2026-07-31T12:34:00Z,invite 2
+EVT-00041,CON-0012,ACC-0012,release_checklist_published,2026-08-01T14:00:00Z,first checklist
+EVT-00042,CON-0013,ACC-0013,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00043,CON-0013,ACC-0013,repository_connected,2026-07-26T03:00:00Z,primary repository
+EVT-00044,CON-0013,ACC-0013,teammate_invited,2026-07-26T09:17:00Z,invite 1
+EVT-00045,CON-0013,ACC-0013,teammate_invited,2026-07-26T09:34:00Z,invite 2
+EVT-00046,CON-0013,ACC-0013,teammate_invited,2026-07-26T09:51:00Z,invite 3
+EVT-00047,CON-0013,ACC-0013,release_checklist_published,2026-07-28T11:00:00Z,first checklist
+EVT-00048,CON-0014,ACC-0014,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00049,CON-0014,ACC-0014,repository_connected,2026-08-04T01:00:00Z,primary repository
+EVT-00050,CON-0014,ACC-0014,teammate_invited,2026-08-04T06:17:00Z,invite 1
+EVT-00051,CON-0014,ACC-0014,teammate_invited,2026-08-04T06:34:00Z,invite 2
+EVT-00052,CON-0014,ACC-0014,teammate_invited,2026-08-04T06:51:00Z,invite 3
+EVT-00053,CON-0014,ACC-0014,teammate_invited,2026-08-04T07:08:00Z,invite 4
+EVT-00054,CON-0014,ACC-0014,release_checklist_published,2026-08-07T08:00:00Z,first checklist
+EVT-00055,CON-0014,ACC-0014,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00056,CON-0015,ACC-0015,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00057,CON-0015,ACC-0015,repository_connected,2026-07-29T23:00:00Z,primary repository
+EVT-00058,CON-0015,ACC-0015,teammate_invited,2026-07-30T03:17:00Z,invite 1
+EVT-00059,CON-0015,ACC-0015,teammate_invited,2026-07-30T03:34:00Z,invite 2
+EVT-00060,CON-0015,ACC-0015,teammate_invited,2026-07-30T03:51:00Z,invite 3
+EVT-00061,CON-0015,ACC-0015,teammate_invited,2026-07-30T04:08:00Z,invite 4
+EVT-00062,CON-0015,ACC-0015,teammate_invited,2026-07-30T04:25:00Z,invite 5
+EVT-00063,CON-0015,ACC-0015,release_checklist_published,2026-07-31T05:00:00Z,first checklist
+EVT-00064,CON-0016,ACC-0016,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00065,CON-0016,ACC-0016,repository_connected,2026-07-25T09:00:00Z,primary repository
+EVT-00066,CON-0016,ACC-0016,teammate_invited,2026-07-25T12:17:00Z,invite 1
+EVT-00067,CON-0016,ACC-0016,teammate_invited,2026-07-25T12:34:00Z,invite 2
+EVT-00068,CON-0016,ACC-0016,release_checklist_published,2026-07-27T14:00:00Z,first checklist
+EVT-00069,CON-0016,ACC-0016,plan_started,2026-07-30T12:00:00Z,team plan
+EVT-00070,CON-0017,ACC-0017,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00071,CON-0017,ACC-0017,repository_connected,2026-08-03T07:00:00Z,primary repository
+EVT-00072,CON-0017,ACC-0017,teammate_invited,2026-08-03T09:17:00Z,invite 1
+EVT-00073,CON-0017,ACC-0017,teammate_invited,2026-08-03T09:34:00Z,invite 2
+EVT-00074,CON-0017,ACC-0017,teammate_invited,2026-08-03T09:51:00Z,invite 3
+EVT-00075,CON-0017,ACC-0017,pricing_viewed,2026-08-05T10:00:00Z,team plan
+EVT-00076,CON-0017,ACC-0017,demo_booked,2026-08-07T12:00:00Z,workflow review
+EVT-00077,CON-0018,ACC-0018,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00078,CON-0019,ACC-0019,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00079,CON-0020,ACC-0020,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00080,CON-0021,ACC-0021,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00081,CON-0021,ACC-0021,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00082,CON-0022,ACC-0022,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00083,CON-0023,ACC-0023,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00084,CON-0024,ACC-0024,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00085,CON-0024,ACC-0024,repository_connected,2026-07-26T23:00:00Z,primary repository
+EVT-00086,CON-0025,ACC-0025,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00087,CON-0025,ACC-0025,repository_connected,2026-07-21T21:00:00Z,primary repository
+EVT-00088,CON-0025,ACC-0025,teammate_invited,2026-07-22T09:17:00Z,invite 1
+EVT-00089,CON-0026,ACC-0026,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00090,CON-0026,ACC-0026,repository_connected,2026-07-30T19:00:00Z,primary repository
+EVT-00091,CON-0027,ACC-0027,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00092,CON-0027,ACC-0027,repository_connected,2026-07-25T17:00:00Z,primary repository
+EVT-00093,CON-0027,ACC-0027,teammate_invited,2026-07-26T03:17:00Z,invite 1
+EVT-00094,CON-0028,ACC-0028,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00095,CON-0028,ACC-0028,repository_connected,2026-08-04T03:00:00Z,primary repository
+EVT-00096,CON-0028,ACC-0028,teammate_invited,2026-08-04T12:17:00Z,invite 1
+EVT-00097,CON-0028,ACC-0028,teammate_invited,2026-08-04T12:34:00Z,invite 2
+EVT-00098,CON-0028,ACC-0028,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00099,CON-0029,ACC-0029,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00100,CON-0029,ACC-0029,repository_connected,2026-07-30T01:00:00Z,primary repository
+EVT-00101,CON-0029,ACC-0029,teammate_invited,2026-07-30T09:17:00Z,invite 1
+EVT-00102,CON-0029,ACC-0029,teammate_invited,2026-07-30T09:34:00Z,invite 2
+EVT-00103,CON-0029,ACC-0029,teammate_invited,2026-07-30T09:51:00Z,invite 3
+EVT-00104,CON-0030,ACC-0030,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00105,CON-0030,ACC-0030,repository_connected,2026-07-24T23:00:00Z,primary repository
+EVT-00106,CON-0030,ACC-0030,teammate_invited,2026-07-25T06:17:00Z,invite 1
+EVT-00107,CON-0030,ACC-0030,teammate_invited,2026-07-25T06:34:00Z,invite 2
+EVT-00108,CON-0030,ACC-0030,teammate_invited,2026-07-25T06:51:00Z,invite 3
+EVT-00109,CON-0030,ACC-0030,teammate_invited,2026-07-25T07:08:00Z,invite 4
+EVT-00110,CON-0031,ACC-0031,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00111,CON-0031,ACC-0031,repository_connected,2026-08-02T21:00:00Z,primary repository
+EVT-00112,CON-0031,ACC-0031,teammate_invited,2026-08-03T03:17:00Z,invite 1
+EVT-00113,CON-0031,ACC-0031,teammate_invited,2026-08-03T03:34:00Z,invite 2
+EVT-00114,CON-0031,ACC-0031,teammate_invited,2026-08-03T03:51:00Z,invite 3
+EVT-00115,CON-0031,ACC-0031,teammate_invited,2026-08-03T04:08:00Z,invite 4
+EVT-00116,CON-0031,ACC-0031,teammate_invited,2026-08-03T04:25:00Z,invite 5
+EVT-00117,CON-0032,ACC-0032,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00118,CON-0032,ACC-0032,repository_connected,2026-07-29T07:00:00Z,primary repository
+EVT-00119,CON-0032,ACC-0032,teammate_invited,2026-07-29T12:17:00Z,invite 1
+EVT-00120,CON-0032,ACC-0032,teammate_invited,2026-07-29T12:34:00Z,invite 2
+EVT-00121,CON-0032,ACC-0032,release_checklist_published,2026-08-01T14:00:00Z,first checklist
+EVT-00122,CON-0033,ACC-0033,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00123,CON-0033,ACC-0033,repository_connected,2026-07-24T05:00:00Z,primary repository
+EVT-00124,CON-0033,ACC-0033,teammate_invited,2026-07-24T09:17:00Z,invite 1
+EVT-00125,CON-0033,ACC-0033,teammate_invited,2026-07-24T09:34:00Z,invite 2
+EVT-00126,CON-0033,ACC-0033,teammate_invited,2026-07-24T09:51:00Z,invite 3
+EVT-00127,CON-0033,ACC-0033,release_checklist_published,2026-07-25T11:00:00Z,first checklist
+EVT-00128,CON-0034,ACC-0034,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00129,CON-0034,ACC-0034,repository_connected,2026-08-02T03:00:00Z,primary repository
+EVT-00130,CON-0034,ACC-0034,teammate_invited,2026-08-02T06:17:00Z,invite 1
+EVT-00131,CON-0034,ACC-0034,teammate_invited,2026-08-02T06:34:00Z,invite 2
+EVT-00132,CON-0034,ACC-0034,teammate_invited,2026-08-02T06:51:00Z,invite 3
+EVT-00133,CON-0034,ACC-0034,teammate_invited,2026-08-02T07:08:00Z,invite 4
+EVT-00134,CON-0034,ACC-0034,release_checklist_published,2026-08-04T08:00:00Z,first checklist
+EVT-00135,CON-0035,ACC-0035,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00136,CON-0035,ACC-0035,repository_connected,2026-07-28T01:00:00Z,primary repository
+EVT-00137,CON-0035,ACC-0035,teammate_invited,2026-07-28T03:17:00Z,invite 1
+EVT-00138,CON-0035,ACC-0035,teammate_invited,2026-07-28T03:34:00Z,invite 2
+EVT-00139,CON-0035,ACC-0035,teammate_invited,2026-07-28T03:51:00Z,invite 3
+EVT-00140,CON-0035,ACC-0035,teammate_invited,2026-07-28T04:08:00Z,invite 4
+EVT-00141,CON-0035,ACC-0035,teammate_invited,2026-07-28T04:25:00Z,invite 5
+EVT-00142,CON-0035,ACC-0035,release_checklist_published,2026-07-31T05:00:00Z,first checklist
+EVT-00143,CON-0035,ACC-0035,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00144,CON-0036,ACC-0036,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00145,CON-0036,ACC-0036,repository_connected,2026-07-22T17:00:00Z,primary repository
+EVT-00146,CON-0036,ACC-0036,teammate_invited,2026-07-23T12:17:00Z,invite 1
+EVT-00147,CON-0036,ACC-0036,teammate_invited,2026-07-23T12:34:00Z,invite 2
+EVT-00148,CON-0036,ACC-0036,release_checklist_published,2026-07-24T14:00:00Z,first checklist
+EVT-00149,CON-0036,ACC-0036,plan_started,2026-07-28T12:00:00Z,team plan
+EVT-00150,CON-0037,ACC-0037,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00151,CON-0037,ACC-0037,repository_connected,2026-07-31T15:00:00Z,primary repository
+EVT-00152,CON-0037,ACC-0037,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00153,CON-0037,ACC-0037,teammate_invited,2026-08-01T09:34:00Z,invite 2
+EVT-00154,CON-0037,ACC-0037,teammate_invited,2026-08-01T09:51:00Z,invite 3
+EVT-00155,CON-0037,ACC-0037,pricing_viewed,2026-08-03T10:00:00Z,team plan
+EVT-00156,CON-0037,ACC-0037,demo_booked,2026-08-05T12:00:00Z,workflow review
+EVT-00157,CON-0038,ACC-0038,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00158,CON-0039,ACC-0039,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00159,CON-0040,ACC-0040,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00160,CON-0041,ACC-0041,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00161,CON-0042,ACC-0042,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00162,CON-0042,ACC-0042,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00163,CON-0043,ACC-0043,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00164,CON-0044,ACC-0044,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00165,CON-0044,ACC-0044,repository_connected,2026-07-25T01:00:00Z,primary repository
+EVT-00166,CON-0045,ACC-0045,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00167,CON-0045,ACC-0045,repository_connected,2026-08-02T23:00:00Z,primary repository
+EVT-00168,CON-0045,ACC-0045,teammate_invited,2026-08-03T09:17:00Z,invite 1
+EVT-00169,CON-0046,ACC-0046,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00170,CON-0046,ACC-0046,repository_connected,2026-07-28T21:00:00Z,primary repository
+EVT-00171,CON-0047,ACC-0047,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00172,CON-0047,ACC-0047,repository_connected,2026-07-23T19:00:00Z,primary repository
+EVT-00173,CON-0047,ACC-0047,teammate_invited,2026-07-24T03:17:00Z,invite 1
+EVT-00174,CON-0048,ACC-0048,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00175,CON-0048,ACC-0048,repository_connected,2026-08-02T05:00:00Z,primary repository
+EVT-00176,CON-0048,ACC-0048,teammate_invited,2026-08-02T12:17:00Z,invite 1
+EVT-00177,CON-0048,ACC-0048,teammate_invited,2026-08-02T12:34:00Z,invite 2
+EVT-00178,CON-0049,ACC-0049,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00179,CON-0049,ACC-0049,repository_connected,2026-07-28T03:00:00Z,primary repository
+EVT-00180,CON-0049,ACC-0049,teammate_invited,2026-07-28T09:17:00Z,invite 1
+EVT-00181,CON-0049,ACC-0049,teammate_invited,2026-07-28T09:34:00Z,invite 2
+EVT-00182,CON-0049,ACC-0049,teammate_invited,2026-07-28T09:51:00Z,invite 3
+EVT-00183,CON-0049,ACC-0049,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00184,CON-0050,ACC-0050,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00185,CON-0050,ACC-0050,repository_connected,2026-07-23T01:00:00Z,primary repository
+EVT-00186,CON-0050,ACC-0050,teammate_invited,2026-07-23T06:17:00Z,invite 1
+EVT-00187,CON-0050,ACC-0050,teammate_invited,2026-07-23T06:34:00Z,invite 2
+EVT-00188,CON-0050,ACC-0050,teammate_invited,2026-07-23T06:51:00Z,invite 3
+EVT-00189,CON-0050,ACC-0050,teammate_invited,2026-07-23T07:08:00Z,invite 4
+EVT-00190,CON-0051,ACC-0051,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00191,CON-0051,ACC-0051,repository_connected,2026-07-31T23:00:00Z,primary repository
+EVT-00192,CON-0051,ACC-0051,teammate_invited,2026-08-01T03:17:00Z,invite 1
+EVT-00193,CON-0051,ACC-0051,teammate_invited,2026-08-01T03:34:00Z,invite 2
+EVT-00194,CON-0051,ACC-0051,teammate_invited,2026-08-01T03:51:00Z,invite 3
+EVT-00195,CON-0051,ACC-0051,teammate_invited,2026-08-01T04:08:00Z,invite 4
+EVT-00196,CON-0051,ACC-0051,teammate_invited,2026-08-01T04:25:00Z,invite 5
+EVT-00197,CON-0052,ACC-0052,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00198,CON-0052,ACC-0052,repository_connected,2026-07-27T09:00:00Z,primary repository
+EVT-00199,CON-0052,ACC-0052,teammate_invited,2026-07-27T12:17:00Z,invite 1
+EVT-00200,CON-0052,ACC-0052,teammate_invited,2026-07-27T12:34:00Z,invite 2
+EVT-00201,CON-0052,ACC-0052,release_checklist_published,2026-07-29T14:00:00Z,first checklist
+EVT-00202,CON-0053,ACC-0053,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00203,CON-0053,ACC-0053,repository_connected,2026-07-22T07:00:00Z,primary repository
+EVT-00204,CON-0053,ACC-0053,teammate_invited,2026-07-22T09:17:00Z,invite 1
+EVT-00205,CON-0053,ACC-0053,teammate_invited,2026-07-22T09:34:00Z,invite 2
+EVT-00206,CON-0053,ACC-0053,teammate_invited,2026-07-22T09:51:00Z,invite 3
+EVT-00207,CON-0053,ACC-0053,release_checklist_published,2026-07-25T11:00:00Z,first checklist
+EVT-00208,CON-0054,ACC-0054,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00209,CON-0054,ACC-0054,repository_connected,2026-07-30T11:00:00Z,primary repository
+EVT-00210,CON-0054,ACC-0054,teammate_invited,2026-07-31T06:17:00Z,invite 1
+EVT-00211,CON-0054,ACC-0054,teammate_invited,2026-07-31T06:34:00Z,invite 2
+EVT-00212,CON-0054,ACC-0054,teammate_invited,2026-07-31T06:51:00Z,invite 3
+EVT-00213,CON-0054,ACC-0054,teammate_invited,2026-07-31T07:08:00Z,invite 4
+EVT-00214,CON-0054,ACC-0054,release_checklist_published,2026-08-01T08:00:00Z,first checklist
+EVT-00215,CON-0055,ACC-0055,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00216,CON-0055,ACC-0055,repository_connected,2026-07-25T09:00:00Z,primary repository
+EVT-00217,CON-0055,ACC-0055,teammate_invited,2026-07-26T03:17:00Z,invite 1
+EVT-00218,CON-0055,ACC-0055,teammate_invited,2026-07-26T03:34:00Z,invite 2
+EVT-00219,CON-0055,ACC-0055,teammate_invited,2026-07-26T03:51:00Z,invite 3
+EVT-00220,CON-0055,ACC-0055,teammate_invited,2026-07-26T04:08:00Z,invite 4
+EVT-00221,CON-0055,ACC-0055,teammate_invited,2026-07-26T04:25:00Z,invite 5
+EVT-00222,CON-0055,ACC-0055,release_checklist_published,2026-07-28T05:00:00Z,first checklist
+EVT-00223,CON-0056,ACC-0056,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00224,CON-0056,ACC-0056,repository_connected,2026-08-03T19:00:00Z,primary repository
+EVT-00225,CON-0056,ACC-0056,teammate_invited,2026-08-04T12:17:00Z,invite 1
+EVT-00226,CON-0056,ACC-0056,teammate_invited,2026-08-04T12:34:00Z,invite 2
+EVT-00227,CON-0056,ACC-0056,release_checklist_published,2026-08-07T14:00:00Z,first checklist
+EVT-00228,CON-0056,ACC-0056,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00229,CON-0056,ACC-0056,plan_started,2026-08-09T12:00:00Z,team plan
+EVT-00230,CON-0057,ACC-0057,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00231,CON-0057,ACC-0057,repository_connected,2026-07-29T17:00:00Z,primary repository
+EVT-00232,CON-0057,ACC-0057,teammate_invited,2026-07-30T09:17:00Z,invite 1
+EVT-00233,CON-0057,ACC-0057,teammate_invited,2026-07-30T09:34:00Z,invite 2
+EVT-00234,CON-0057,ACC-0057,teammate_invited,2026-07-30T09:51:00Z,invite 3
+EVT-00235,CON-0057,ACC-0057,pricing_viewed,2026-08-01T10:00:00Z,team plan
+EVT-00236,CON-0057,ACC-0057,demo_booked,2026-08-03T12:00:00Z,workflow review
+EVT-00237,CON-0058,ACC-0058,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00238,CON-0059,ACC-0059,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00239,CON-0060,ACC-0060,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00240,CON-0061,ACC-0061,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00241,CON-0062,ACC-0062,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00242,CON-0063,ACC-0063,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00243,CON-0063,ACC-0063,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00244,CON-0064,ACC-0064,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00245,CON-0064,ACC-0064,repository_connected,2026-07-23T03:00:00Z,primary repository
+EVT-00246,CON-0065,ACC-0065,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00247,CON-0065,ACC-0065,repository_connected,2026-08-01T01:00:00Z,primary repository
+EVT-00248,CON-0065,ACC-0065,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00249,CON-0066,ACC-0066,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00250,CON-0066,ACC-0066,repository_connected,2026-07-26T23:00:00Z,primary repository
+EVT-00251,CON-0067,ACC-0067,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00252,CON-0067,ACC-0067,repository_connected,2026-07-21T21:00:00Z,primary repository
+EVT-00253,CON-0067,ACC-0067,teammate_invited,2026-07-22T03:17:00Z,invite 1
+EVT-00254,CON-0068,ACC-0068,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00255,CON-0068,ACC-0068,repository_connected,2026-07-31T07:00:00Z,primary repository
+EVT-00256,CON-0068,ACC-0068,teammate_invited,2026-07-31T12:17:00Z,invite 1
+EVT-00257,CON-0068,ACC-0068,teammate_invited,2026-07-31T12:34:00Z,invite 2
+EVT-00258,CON-0069,ACC-0069,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00259,CON-0069,ACC-0069,repository_connected,2026-07-26T05:00:00Z,primary repository
+EVT-00260,CON-0069,ACC-0069,teammate_invited,2026-07-26T09:17:00Z,invite 1
+EVT-00261,CON-0069,ACC-0069,teammate_invited,2026-07-26T09:34:00Z,invite 2
+EVT-00262,CON-0069,ACC-0069,teammate_invited,2026-07-26T09:51:00Z,invite 3
+EVT-00263,CON-0070,ACC-0070,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00264,CON-0070,ACC-0070,repository_connected,2026-08-04T03:00:00Z,primary repository
+EVT-00265,CON-0070,ACC-0070,teammate_invited,2026-08-04T06:17:00Z,invite 1
+EVT-00266,CON-0070,ACC-0070,teammate_invited,2026-08-04T06:34:00Z,invite 2
+EVT-00267,CON-0070,ACC-0070,teammate_invited,2026-08-04T06:51:00Z,invite 3
+EVT-00268,CON-0070,ACC-0070,teammate_invited,2026-08-04T07:08:00Z,invite 4
+EVT-00269,CON-0070,ACC-0070,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00270,CON-0071,ACC-0071,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00271,CON-0071,ACC-0071,repository_connected,2026-07-30T01:00:00Z,primary repository
+EVT-00272,CON-0071,ACC-0071,teammate_invited,2026-07-30T03:17:00Z,invite 1
+EVT-00273,CON-0071,ACC-0071,teammate_invited,2026-07-30T03:34:00Z,invite 2
+EVT-00274,CON-0071,ACC-0071,teammate_invited,2026-07-30T03:51:00Z,invite 3
+EVT-00275,CON-0071,ACC-0071,teammate_invited,2026-07-30T04:08:00Z,invite 4
+EVT-00276,CON-0071,ACC-0071,teammate_invited,2026-07-30T04:25:00Z,invite 5
+EVT-00277,CON-0072,ACC-0072,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00278,CON-0072,ACC-0072,repository_connected,2026-07-24T17:00:00Z,primary repository
+EVT-00279,CON-0072,ACC-0072,teammate_invited,2026-07-25T12:17:00Z,invite 1
+EVT-00280,CON-0072,ACC-0072,teammate_invited,2026-07-25T12:34:00Z,invite 2
+EVT-00281,CON-0072,ACC-0072,release_checklist_published,2026-07-26T14:00:00Z,first checklist
+EVT-00282,CON-0073,ACC-0073,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00283,CON-0073,ACC-0073,repository_connected,2026-08-02T15:00:00Z,primary repository
+EVT-00284,CON-0073,ACC-0073,teammate_invited,2026-08-03T09:17:00Z,invite 1
+EVT-00285,CON-0073,ACC-0073,teammate_invited,2026-08-03T09:34:00Z,invite 2
+EVT-00286,CON-0073,ACC-0073,teammate_invited,2026-08-03T09:51:00Z,invite 3
+EVT-00287,CON-0073,ACC-0073,release_checklist_published,2026-08-05T11:00:00Z,first checklist
+EVT-00288,CON-0074,ACC-0074,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00289,CON-0074,ACC-0074,repository_connected,2026-07-28T13:00:00Z,primary repository
+EVT-00290,CON-0074,ACC-0074,teammate_invited,2026-07-29T06:17:00Z,invite 1
+EVT-00291,CON-0074,ACC-0074,teammate_invited,2026-07-29T06:34:00Z,invite 2
+EVT-00292,CON-0074,ACC-0074,teammate_invited,2026-07-29T06:51:00Z,invite 3
+EVT-00293,CON-0074,ACC-0074,teammate_invited,2026-07-29T07:08:00Z,invite 4
+EVT-00294,CON-0074,ACC-0074,release_checklist_published,2026-08-01T08:00:00Z,first checklist
+EVT-00295,CON-0075,ACC-0075,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00296,CON-0075,ACC-0075,repository_connected,2026-07-23T11:00:00Z,primary repository
+EVT-00297,CON-0075,ACC-0075,teammate_invited,2026-07-24T03:17:00Z,invite 1
+EVT-00298,CON-0075,ACC-0075,teammate_invited,2026-07-24T03:34:00Z,invite 2
+EVT-00299,CON-0075,ACC-0075,teammate_invited,2026-07-24T03:51:00Z,invite 3
+EVT-00300,CON-0075,ACC-0075,teammate_invited,2026-07-24T04:08:00Z,invite 4
+EVT-00301,CON-0075,ACC-0075,teammate_invited,2026-07-24T04:25:00Z,invite 5
+EVT-00302,CON-0075,ACC-0075,release_checklist_published,2026-07-25T05:00:00Z,first checklist
+EVT-00303,CON-0076,ACC-0076,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00304,CON-0076,ACC-0076,repository_connected,2026-08-01T21:00:00Z,primary repository
+EVT-00305,CON-0076,ACC-0076,teammate_invited,2026-08-02T12:17:00Z,invite 1
+EVT-00306,CON-0076,ACC-0076,teammate_invited,2026-08-02T12:34:00Z,invite 2
+EVT-00307,CON-0076,ACC-0076,release_checklist_published,2026-08-04T14:00:00Z,first checklist
+EVT-00308,CON-0076,ACC-0076,plan_started,2026-08-07T12:00:00Z,team plan
+EVT-00309,CON-0077,ACC-0077,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00310,CON-0077,ACC-0077,repository_connected,2026-07-27T19:00:00Z,primary repository
+EVT-00311,CON-0077,ACC-0077,teammate_invited,2026-07-28T09:17:00Z,invite 1
+EVT-00312,CON-0077,ACC-0077,teammate_invited,2026-07-28T09:34:00Z,invite 2
+EVT-00313,CON-0077,ACC-0077,teammate_invited,2026-07-28T09:51:00Z,invite 3
+EVT-00314,CON-0077,ACC-0077,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00315,CON-0077,ACC-0077,demo_booked,2026-08-01T12:00:00Z,workflow review
+EVT-00316,CON-0078,ACC-0078,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00317,CON-0079,ACC-0079,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00318,CON-0080,ACC-0080,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00319,CON-0081,ACC-0081,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00320,CON-0082,ACC-0082,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00321,CON-0083,ACC-0083,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00322,CON-0084,ACC-0084,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00323,CON-0084,ACC-0084,repository_connected,2026-08-04T05:00:00Z,primary repository
+EVT-00324,CON-0084,ACC-0084,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00325,CON-0085,ACC-0085,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00326,CON-0085,ACC-0085,repository_connected,2026-07-30T03:00:00Z,primary repository
+EVT-00327,CON-0085,ACC-0085,teammate_invited,2026-07-30T09:17:00Z,invite 1
+EVT-00328,CON-0086,ACC-0086,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00329,CON-0086,ACC-0086,repository_connected,2026-07-25T01:00:00Z,primary repository
+EVT-00330,CON-0087,ACC-0087,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00331,CON-0087,ACC-0087,repository_connected,2026-08-02T23:00:00Z,primary repository
+EVT-00332,CON-0087,ACC-0087,teammate_invited,2026-08-03T03:17:00Z,invite 1
+EVT-00333,CON-0088,ACC-0088,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00334,CON-0088,ACC-0088,repository_connected,2026-07-29T09:00:00Z,primary repository
+EVT-00335,CON-0088,ACC-0088,teammate_invited,2026-07-29T12:17:00Z,invite 1
+EVT-00336,CON-0088,ACC-0088,teammate_invited,2026-07-29T12:34:00Z,invite 2
+EVT-00337,CON-0089,ACC-0089,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00338,CON-0089,ACC-0089,repository_connected,2026-07-24T07:00:00Z,primary repository
+EVT-00339,CON-0089,ACC-0089,teammate_invited,2026-07-24T09:17:00Z,invite 1
+EVT-00340,CON-0089,ACC-0089,teammate_invited,2026-07-24T09:34:00Z,invite 2
+EVT-00341,CON-0089,ACC-0089,teammate_invited,2026-07-24T09:51:00Z,invite 3
+EVT-00342,CON-0090,ACC-0090,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00343,CON-0090,ACC-0090,repository_connected,2026-08-01T11:00:00Z,primary repository
+EVT-00344,CON-0090,ACC-0090,teammate_invited,2026-08-02T06:17:00Z,invite 1
+EVT-00345,CON-0090,ACC-0090,teammate_invited,2026-08-02T06:34:00Z,invite 2
+EVT-00346,CON-0090,ACC-0090,teammate_invited,2026-08-02T06:51:00Z,invite 3
+EVT-00347,CON-0090,ACC-0090,teammate_invited,2026-08-02T07:08:00Z,invite 4
+EVT-00348,CON-0091,ACC-0091,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00349,CON-0091,ACC-0091,repository_connected,2026-07-27T09:00:00Z,primary repository
+EVT-00350,CON-0091,ACC-0091,teammate_invited,2026-07-28T03:17:00Z,invite 1
+EVT-00351,CON-0091,ACC-0091,teammate_invited,2026-07-28T03:34:00Z,invite 2
+EVT-00352,CON-0091,ACC-0091,teammate_invited,2026-07-28T03:51:00Z,invite 3
+EVT-00353,CON-0091,ACC-0091,teammate_invited,2026-07-28T04:08:00Z,invite 4
+EVT-00354,CON-0091,ACC-0091,teammate_invited,2026-07-28T04:25:00Z,invite 5
+EVT-00355,CON-0091,ACC-0091,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00356,CON-0092,ACC-0092,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00357,CON-0092,ACC-0092,repository_connected,2026-07-22T19:00:00Z,primary repository
+EVT-00358,CON-0092,ACC-0092,teammate_invited,2026-07-23T12:17:00Z,invite 1
+EVT-00359,CON-0092,ACC-0092,teammate_invited,2026-07-23T12:34:00Z,invite 2
+EVT-00360,CON-0092,ACC-0092,release_checklist_published,2026-07-26T14:00:00Z,first checklist
+EVT-00361,CON-0093,ACC-0093,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00362,CON-0093,ACC-0093,repository_connected,2026-07-31T17:00:00Z,primary repository
+EVT-00363,CON-0093,ACC-0093,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00364,CON-0093,ACC-0093,teammate_invited,2026-08-01T09:34:00Z,invite 2
+EVT-00365,CON-0093,ACC-0093,teammate_invited,2026-08-01T09:51:00Z,invite 3
+EVT-00366,CON-0093,ACC-0093,release_checklist_published,2026-08-02T11:00:00Z,first checklist
+EVT-00367,CON-0094,ACC-0094,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00368,CON-0094,ACC-0094,repository_connected,2026-07-26T15:00:00Z,primary repository
+EVT-00369,CON-0094,ACC-0094,teammate_invited,2026-07-27T06:17:00Z,invite 1
+EVT-00370,CON-0094,ACC-0094,teammate_invited,2026-07-27T06:34:00Z,invite 2
+EVT-00371,CON-0094,ACC-0094,teammate_invited,2026-07-27T06:51:00Z,invite 3
+EVT-00372,CON-0094,ACC-0094,teammate_invited,2026-07-27T07:08:00Z,invite 4
+EVT-00373,CON-0094,ACC-0094,release_checklist_published,2026-07-29T08:00:00Z,first checklist
+EVT-00374,CON-0095,ACC-0095,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00375,CON-0095,ACC-0095,repository_connected,2026-07-21T13:00:00Z,primary repository
+EVT-00376,CON-0095,ACC-0095,teammate_invited,2026-07-22T03:17:00Z,invite 1
+EVT-00377,CON-0095,ACC-0095,teammate_invited,2026-07-22T03:34:00Z,invite 2
+EVT-00378,CON-0095,ACC-0095,teammate_invited,2026-07-22T03:51:00Z,invite 3
+EVT-00379,CON-0095,ACC-0095,teammate_invited,2026-07-22T04:08:00Z,invite 4
+EVT-00380,CON-0095,ACC-0095,teammate_invited,2026-07-22T04:25:00Z,invite 5
+EVT-00381,CON-0095,ACC-0095,release_checklist_published,2026-07-25T05:00:00Z,first checklist
+EVT-00382,CON-0096,ACC-0096,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00383,CON-0096,ACC-0096,repository_connected,2026-07-30T23:00:00Z,primary repository
+EVT-00384,CON-0096,ACC-0096,teammate_invited,2026-07-31T12:17:00Z,invite 1
+EVT-00385,CON-0096,ACC-0096,teammate_invited,2026-07-31T12:34:00Z,invite 2
+EVT-00386,CON-0096,ACC-0096,release_checklist_published,2026-08-01T14:00:00Z,first checklist
+EVT-00387,CON-0096,ACC-0096,plan_started,2026-08-05T12:00:00Z,team plan
+EVT-00388,CON-0097,ACC-0097,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00389,CON-0097,ACC-0097,repository_connected,2026-07-25T21:00:00Z,primary repository
+EVT-00390,CON-0097,ACC-0097,teammate_invited,2026-07-26T09:17:00Z,invite 1
+EVT-00391,CON-0097,ACC-0097,teammate_invited,2026-07-26T09:34:00Z,invite 2
+EVT-00392,CON-0097,ACC-0097,teammate_invited,2026-07-26T09:51:00Z,invite 3
+EVT-00393,CON-0097,ACC-0097,pricing_viewed,2026-07-28T10:00:00Z,team plan
+EVT-00394,CON-0097,ACC-0097,demo_booked,2026-07-30T12:00:00Z,workflow review
+EVT-00395,CON-0098,ACC-0098,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00396,CON-0098,ACC-0098,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00397,CON-0099,ACC-0099,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00398,CON-0100,ACC-0100,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00399,CON-0101,ACC-0101,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00400,CON-0102,ACC-0102,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00401,CON-0103,ACC-0103,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00402,CON-0104,ACC-0104,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00403,CON-0104,ACC-0104,repository_connected,2026-08-02T07:00:00Z,primary repository
+EVT-00404,CON-0105,ACC-0105,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00405,CON-0105,ACC-0105,repository_connected,2026-07-28T05:00:00Z,primary repository
+EVT-00406,CON-0105,ACC-0105,teammate_invited,2026-07-28T09:17:00Z,invite 1
+EVT-00407,CON-0105,ACC-0105,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00408,CON-0106,ACC-0106,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00409,CON-0106,ACC-0106,repository_connected,2026-07-23T03:00:00Z,primary repository
+EVT-00410,CON-0107,ACC-0107,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00411,CON-0107,ACC-0107,repository_connected,2026-08-01T01:00:00Z,primary repository
+EVT-00412,CON-0107,ACC-0107,teammate_invited,2026-08-01T03:17:00Z,invite 1
+EVT-00413,CON-0108,ACC-0108,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00414,CON-0108,ACC-0108,repository_connected,2026-07-26T17:00:00Z,primary repository
+EVT-00415,CON-0108,ACC-0108,teammate_invited,2026-07-27T12:17:00Z,invite 1
+EVT-00416,CON-0108,ACC-0108,teammate_invited,2026-07-27T12:34:00Z,invite 2
+EVT-00417,CON-0109,ACC-0109,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00418,CON-0109,ACC-0109,repository_connected,2026-07-21T15:00:00Z,primary repository
+EVT-00419,CON-0109,ACC-0109,teammate_invited,2026-07-22T09:17:00Z,invite 1
+EVT-00420,CON-0109,ACC-0109,teammate_invited,2026-07-22T09:34:00Z,invite 2
+EVT-00421,CON-0109,ACC-0109,teammate_invited,2026-07-22T09:51:00Z,invite 3
+EVT-00422,CON-0110,ACC-0110,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00423,CON-0110,ACC-0110,repository_connected,2026-07-30T13:00:00Z,primary repository
+EVT-00424,CON-0110,ACC-0110,teammate_invited,2026-07-31T06:17:00Z,invite 1
+EVT-00425,CON-0110,ACC-0110,teammate_invited,2026-07-31T06:34:00Z,invite 2
+EVT-00426,CON-0110,ACC-0110,teammate_invited,2026-07-31T06:51:00Z,invite 3
+EVT-00427,CON-0110,ACC-0110,teammate_invited,2026-07-31T07:08:00Z,invite 4
+EVT-00428,CON-0111,ACC-0111,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00429,CON-0111,ACC-0111,repository_connected,2026-07-25T11:00:00Z,primary repository
+EVT-00430,CON-0111,ACC-0111,teammate_invited,2026-07-26T03:17:00Z,invite 1
+EVT-00431,CON-0111,ACC-0111,teammate_invited,2026-07-26T03:34:00Z,invite 2
+EVT-00432,CON-0111,ACC-0111,teammate_invited,2026-07-26T03:51:00Z,invite 3
+EVT-00433,CON-0111,ACC-0111,teammate_invited,2026-07-26T04:08:00Z,invite 4
+EVT-00434,CON-0111,ACC-0111,teammate_invited,2026-07-26T04:25:00Z,invite 5
+EVT-00435,CON-0112,ACC-0112,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00436,CON-0112,ACC-0112,repository_connected,2026-08-03T21:00:00Z,primary repository
+EVT-00437,CON-0112,ACC-0112,teammate_invited,2026-08-04T12:17:00Z,invite 1
+EVT-00438,CON-0112,ACC-0112,teammate_invited,2026-08-04T12:34:00Z,invite 2
+EVT-00439,CON-0112,ACC-0112,release_checklist_published,2026-08-06T14:00:00Z,first checklist
+EVT-00440,CON-0112,ACC-0112,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00441,CON-0113,ACC-0113,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00442,CON-0113,ACC-0113,repository_connected,2026-07-29T19:00:00Z,primary repository
+EVT-00443,CON-0113,ACC-0113,teammate_invited,2026-07-30T09:17:00Z,invite 1
+EVT-00444,CON-0113,ACC-0113,teammate_invited,2026-07-30T09:34:00Z,invite 2
+EVT-00445,CON-0113,ACC-0113,teammate_invited,2026-07-30T09:51:00Z,invite 3
+EVT-00446,CON-0113,ACC-0113,release_checklist_published,2026-08-02T11:00:00Z,first checklist
+EVT-00447,CON-0114,ACC-0114,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00448,CON-0114,ACC-0114,repository_connected,2026-07-24T17:00:00Z,primary repository
+EVT-00449,CON-0114,ACC-0114,teammate_invited,2026-07-25T06:17:00Z,invite 1
+EVT-00450,CON-0114,ACC-0114,teammate_invited,2026-07-25T06:34:00Z,invite 2
+EVT-00451,CON-0114,ACC-0114,teammate_invited,2026-07-25T06:51:00Z,invite 3
+EVT-00452,CON-0114,ACC-0114,teammate_invited,2026-07-25T07:08:00Z,invite 4
+EVT-00453,CON-0114,ACC-0114,release_checklist_published,2026-07-26T08:00:00Z,first checklist
+EVT-00454,CON-0115,ACC-0115,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00455,CON-0115,ACC-0115,repository_connected,2026-08-02T15:00:00Z,primary repository
+EVT-00456,CON-0115,ACC-0115,teammate_invited,2026-08-03T03:17:00Z,invite 1
+EVT-00457,CON-0115,ACC-0115,teammate_invited,2026-08-03T03:34:00Z,invite 2
+EVT-00458,CON-0115,ACC-0115,teammate_invited,2026-08-03T03:51:00Z,invite 3
+EVT-00459,CON-0115,ACC-0115,teammate_invited,2026-08-03T04:08:00Z,invite 4
+EVT-00460,CON-0115,ACC-0115,teammate_invited,2026-08-03T04:25:00Z,invite 5
+EVT-00461,CON-0115,ACC-0115,release_checklist_published,2026-08-05T05:00:00Z,first checklist
+EVT-00462,CON-0116,ACC-0116,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00463,CON-0116,ACC-0116,repository_connected,2026-07-29T01:00:00Z,primary repository
+EVT-00464,CON-0116,ACC-0116,teammate_invited,2026-07-29T12:17:00Z,invite 1
+EVT-00465,CON-0116,ACC-0116,teammate_invited,2026-07-29T12:34:00Z,invite 2
+EVT-00466,CON-0116,ACC-0116,release_checklist_published,2026-08-01T14:00:00Z,first checklist
+EVT-00467,CON-0116,ACC-0116,plan_started,2026-08-03T12:00:00Z,team plan
+EVT-00468,CON-0117,ACC-0117,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00469,CON-0117,ACC-0117,repository_connected,2026-07-23T23:00:00Z,primary repository
+EVT-00470,CON-0117,ACC-0117,teammate_invited,2026-07-24T09:17:00Z,invite 1
+EVT-00471,CON-0117,ACC-0117,teammate_invited,2026-07-24T09:34:00Z,invite 2
+EVT-00472,CON-0117,ACC-0117,teammate_invited,2026-07-24T09:51:00Z,invite 3
+EVT-00473,CON-0117,ACC-0117,pricing_viewed,2026-07-26T10:00:00Z,team plan
+EVT-00474,CON-0117,ACC-0117,demo_booked,2026-07-28T12:00:00Z,workflow review
+EVT-00475,CON-0118,ACC-0118,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00476,CON-0119,ACC-0119,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00477,CON-0119,ACC-0119,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00478,CON-0120,ACC-0120,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00479,CON-0121,ACC-0121,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00480,CON-0122,ACC-0122,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00481,CON-0123,ACC-0123,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00482,CON-0124,ACC-0124,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00483,CON-0124,ACC-0124,repository_connected,2026-07-31T09:00:00Z,primary repository
+EVT-00484,CON-0125,ACC-0125,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00485,CON-0125,ACC-0125,repository_connected,2026-07-26T07:00:00Z,primary repository
+EVT-00486,CON-0125,ACC-0125,teammate_invited,2026-07-26T09:17:00Z,invite 1
+EVT-00487,CON-0126,ACC-0126,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00488,CON-0126,ACC-0126,repository_connected,2026-08-03T11:00:00Z,primary repository
+EVT-00489,CON-0126,ACC-0126,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00490,CON-0127,ACC-0127,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00491,CON-0127,ACC-0127,repository_connected,2026-07-29T09:00:00Z,primary repository
+EVT-00492,CON-0127,ACC-0127,teammate_invited,2026-07-30T03:17:00Z,invite 1
+EVT-00493,CON-0128,ACC-0128,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00494,CON-0128,ACC-0128,repository_connected,2026-07-24T19:00:00Z,primary repository
+EVT-00495,CON-0128,ACC-0128,teammate_invited,2026-07-25T12:17:00Z,invite 1
+EVT-00496,CON-0128,ACC-0128,teammate_invited,2026-07-25T12:34:00Z,invite 2
+EVT-00497,CON-0129,ACC-0129,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00498,CON-0129,ACC-0129,repository_connected,2026-08-02T17:00:00Z,primary repository
+EVT-00499,CON-0129,ACC-0129,teammate_invited,2026-08-03T09:17:00Z,invite 1
+EVT-00500,CON-0129,ACC-0129,teammate_invited,2026-08-03T09:34:00Z,invite 2
+EVT-00501,CON-0129,ACC-0129,teammate_invited,2026-08-03T09:51:00Z,invite 3
+EVT-00502,CON-0130,ACC-0130,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00503,CON-0130,ACC-0130,repository_connected,2026-07-28T15:00:00Z,primary repository
+EVT-00504,CON-0130,ACC-0130,teammate_invited,2026-07-29T06:17:00Z,invite 1
+EVT-00505,CON-0130,ACC-0130,teammate_invited,2026-07-29T06:34:00Z,invite 2
+EVT-00506,CON-0130,ACC-0130,teammate_invited,2026-07-29T06:51:00Z,invite 3
+EVT-00507,CON-0130,ACC-0130,teammate_invited,2026-07-29T07:08:00Z,invite 4
+EVT-00508,CON-0131,ACC-0131,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00509,CON-0131,ACC-0131,repository_connected,2026-07-23T13:00:00Z,primary repository
+EVT-00510,CON-0131,ACC-0131,teammate_invited,2026-07-24T03:17:00Z,invite 1
+EVT-00511,CON-0131,ACC-0131,teammate_invited,2026-07-24T03:34:00Z,invite 2
+EVT-00512,CON-0131,ACC-0131,teammate_invited,2026-07-24T03:51:00Z,invite 3
+EVT-00513,CON-0131,ACC-0131,teammate_invited,2026-07-24T04:08:00Z,invite 4
+EVT-00514,CON-0131,ACC-0131,teammate_invited,2026-07-24T04:25:00Z,invite 5
+EVT-00515,CON-0132,ACC-0132,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00516,CON-0132,ACC-0132,repository_connected,2026-08-01T23:00:00Z,primary repository
+EVT-00517,CON-0132,ACC-0132,teammate_invited,2026-08-02T12:17:00Z,invite 1
+EVT-00518,CON-0132,ACC-0132,teammate_invited,2026-08-02T12:34:00Z,invite 2
+EVT-00519,CON-0132,ACC-0132,release_checklist_published,2026-08-03T14:00:00Z,first checklist
+EVT-00520,CON-0133,ACC-0133,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00521,CON-0133,ACC-0133,repository_connected,2026-07-27T21:00:00Z,primary repository
+EVT-00522,CON-0133,ACC-0133,teammate_invited,2026-07-28T09:17:00Z,invite 1
+EVT-00523,CON-0133,ACC-0133,teammate_invited,2026-07-28T09:34:00Z,invite 2
+EVT-00524,CON-0133,ACC-0133,teammate_invited,2026-07-28T09:51:00Z,invite 3
+EVT-00525,CON-0133,ACC-0133,release_checklist_published,2026-07-30T11:00:00Z,first checklist
+EVT-00526,CON-0133,ACC-0133,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00527,CON-0134,ACC-0134,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00528,CON-0134,ACC-0134,repository_connected,2026-07-22T19:00:00Z,primary repository
+EVT-00529,CON-0134,ACC-0134,teammate_invited,2026-07-23T06:17:00Z,invite 1
+EVT-00530,CON-0134,ACC-0134,teammate_invited,2026-07-23T06:34:00Z,invite 2
+EVT-00531,CON-0134,ACC-0134,teammate_invited,2026-07-23T06:51:00Z,invite 3
+EVT-00532,CON-0134,ACC-0134,teammate_invited,2026-07-23T07:08:00Z,invite 4
+EVT-00533,CON-0134,ACC-0134,release_checklist_published,2026-07-26T08:00:00Z,first checklist
+EVT-00534,CON-0135,ACC-0135,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00535,CON-0135,ACC-0135,repository_connected,2026-07-31T17:00:00Z,primary repository
+EVT-00536,CON-0135,ACC-0135,teammate_invited,2026-08-01T03:17:00Z,invite 1
+EVT-00537,CON-0135,ACC-0135,teammate_invited,2026-08-01T03:34:00Z,invite 2
+EVT-00538,CON-0135,ACC-0135,teammate_invited,2026-08-01T03:51:00Z,invite 3
+EVT-00539,CON-0135,ACC-0135,teammate_invited,2026-08-01T04:08:00Z,invite 4
+EVT-00540,CON-0135,ACC-0135,teammate_invited,2026-08-01T04:25:00Z,invite 5
+EVT-00541,CON-0135,ACC-0135,release_checklist_published,2026-08-02T05:00:00Z,first checklist
+EVT-00542,CON-0136,ACC-0136,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00543,CON-0136,ACC-0136,repository_connected,2026-07-27T03:00:00Z,primary repository
+EVT-00544,CON-0136,ACC-0136,teammate_invited,2026-07-27T12:17:00Z,invite 1
+EVT-00545,CON-0136,ACC-0136,teammate_invited,2026-07-27T12:34:00Z,invite 2
+EVT-00546,CON-0136,ACC-0136,release_checklist_published,2026-07-29T14:00:00Z,first checklist
+EVT-00547,CON-0136,ACC-0136,plan_started,2026-08-01T12:00:00Z,team plan
+EVT-00548,CON-0137,ACC-0137,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00549,CON-0137,ACC-0137,repository_connected,2026-07-22T01:00:00Z,primary repository
+EVT-00550,CON-0137,ACC-0137,teammate_invited,2026-07-22T09:17:00Z,invite 1
+EVT-00551,CON-0137,ACC-0137,teammate_invited,2026-07-22T09:34:00Z,invite 2
+EVT-00552,CON-0137,ACC-0137,teammate_invited,2026-07-22T09:51:00Z,invite 3
+EVT-00553,CON-0137,ACC-0137,pricing_viewed,2026-07-24T10:00:00Z,team plan
+EVT-00554,CON-0137,ACC-0137,demo_booked,2026-07-26T12:00:00Z,workflow review
+EVT-00555,CON-0138,ACC-0138,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00556,CON-0139,ACC-0139,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00557,CON-0140,ACC-0140,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00558,CON-0140,ACC-0140,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00559,CON-0141,ACC-0141,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00560,CON-0142,ACC-0142,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00561,CON-0143,ACC-0143,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00562,CON-0144,ACC-0144,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00563,CON-0144,ACC-0144,repository_connected,2026-07-28T17:00:00Z,primary repository
+EVT-00564,CON-0145,ACC-0145,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00565,CON-0145,ACC-0145,repository_connected,2026-07-23T15:00:00Z,primary repository
+EVT-00566,CON-0145,ACC-0145,teammate_invited,2026-07-24T09:17:00Z,invite 1
+EVT-00567,CON-0146,ACC-0146,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00568,CON-0146,ACC-0146,repository_connected,2026-08-01T13:00:00Z,primary repository
+EVT-00569,CON-0147,ACC-0147,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00570,CON-0147,ACC-0147,repository_connected,2026-07-27T11:00:00Z,primary repository
+EVT-00571,CON-0147,ACC-0147,teammate_invited,2026-07-28T03:17:00Z,invite 1
+EVT-00572,CON-0147,ACC-0147,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00573,CON-0148,ACC-0148,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00574,CON-0148,ACC-0148,repository_connected,2026-07-22T21:00:00Z,primary repository
+EVT-00575,CON-0148,ACC-0148,teammate_invited,2026-07-23T12:17:00Z,invite 1
+EVT-00576,CON-0148,ACC-0148,teammate_invited,2026-07-23T12:34:00Z,invite 2
+EVT-00577,CON-0149,ACC-0149,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00578,CON-0149,ACC-0149,repository_connected,2026-07-31T19:00:00Z,primary repository
+EVT-00579,CON-0149,ACC-0149,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00580,CON-0149,ACC-0149,teammate_invited,2026-08-01T09:34:00Z,invite 2
+EVT-00581,CON-0149,ACC-0149,teammate_invited,2026-08-01T09:51:00Z,invite 3
+EVT-00582,CON-0150,ACC-0150,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00583,CON-0150,ACC-0150,repository_connected,2026-07-26T17:00:00Z,primary repository
+EVT-00584,CON-0150,ACC-0150,teammate_invited,2026-07-27T06:17:00Z,invite 1
+EVT-00585,CON-0150,ACC-0150,teammate_invited,2026-07-27T06:34:00Z,invite 2
+EVT-00586,CON-0150,ACC-0150,teammate_invited,2026-07-27T06:51:00Z,invite 3
+EVT-00587,CON-0150,ACC-0150,teammate_invited,2026-07-27T07:08:00Z,invite 4
+EVT-00588,CON-0151,ACC-0151,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00589,CON-0151,ACC-0151,repository_connected,2026-07-21T15:00:00Z,primary repository
+EVT-00590,CON-0151,ACC-0151,teammate_invited,2026-07-22T03:17:00Z,invite 1
+EVT-00591,CON-0151,ACC-0151,teammate_invited,2026-07-22T03:34:00Z,invite 2
+EVT-00592,CON-0151,ACC-0151,teammate_invited,2026-07-22T03:51:00Z,invite 3
+EVT-00593,CON-0151,ACC-0151,teammate_invited,2026-07-22T04:08:00Z,invite 4
+EVT-00594,CON-0151,ACC-0151,teammate_invited,2026-07-22T04:25:00Z,invite 5
+EVT-00595,CON-0152,ACC-0152,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00596,CON-0152,ACC-0152,repository_connected,2026-07-31T01:00:00Z,primary repository
+EVT-00597,CON-0152,ACC-0152,teammate_invited,2026-07-31T12:17:00Z,invite 1
+EVT-00598,CON-0152,ACC-0152,teammate_invited,2026-07-31T12:34:00Z,invite 2
+EVT-00599,CON-0152,ACC-0152,release_checklist_published,2026-08-03T14:00:00Z,first checklist
+EVT-00600,CON-0153,ACC-0153,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00601,CON-0153,ACC-0153,repository_connected,2026-07-25T23:00:00Z,primary repository
+EVT-00602,CON-0153,ACC-0153,teammate_invited,2026-07-26T09:17:00Z,invite 1
+EVT-00603,CON-0153,ACC-0153,teammate_invited,2026-07-26T09:34:00Z,invite 2
+EVT-00604,CON-0153,ACC-0153,teammate_invited,2026-07-26T09:51:00Z,invite 3
+EVT-00605,CON-0153,ACC-0153,release_checklist_published,2026-07-27T11:00:00Z,first checklist
+EVT-00606,CON-0154,ACC-0154,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00607,CON-0154,ACC-0154,repository_connected,2026-08-03T21:00:00Z,primary repository
+EVT-00608,CON-0154,ACC-0154,teammate_invited,2026-08-04T06:17:00Z,invite 1
+EVT-00609,CON-0154,ACC-0154,teammate_invited,2026-08-04T06:34:00Z,invite 2
+EVT-00610,CON-0154,ACC-0154,teammate_invited,2026-08-04T06:51:00Z,invite 3
+EVT-00611,CON-0154,ACC-0154,teammate_invited,2026-08-04T07:08:00Z,invite 4
+EVT-00612,CON-0154,ACC-0154,release_checklist_published,2026-08-06T08:00:00Z,first checklist
+EVT-00613,CON-0154,ACC-0154,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00614,CON-0155,ACC-0155,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00615,CON-0155,ACC-0155,repository_connected,2026-07-29T19:00:00Z,primary repository
+EVT-00616,CON-0155,ACC-0155,teammate_invited,2026-07-30T03:17:00Z,invite 1
+EVT-00617,CON-0155,ACC-0155,teammate_invited,2026-07-30T03:34:00Z,invite 2
+EVT-00618,CON-0155,ACC-0155,teammate_invited,2026-07-30T03:51:00Z,invite 3
+EVT-00619,CON-0155,ACC-0155,teammate_invited,2026-07-30T04:08:00Z,invite 4
+EVT-00620,CON-0155,ACC-0155,teammate_invited,2026-07-30T04:25:00Z,invite 5
+EVT-00621,CON-0155,ACC-0155,release_checklist_published,2026-08-02T05:00:00Z,first checklist
+EVT-00622,CON-0156,ACC-0156,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00623,CON-0156,ACC-0156,repository_connected,2026-07-25T05:00:00Z,primary repository
+EVT-00624,CON-0156,ACC-0156,teammate_invited,2026-07-25T12:17:00Z,invite 1
+EVT-00625,CON-0156,ACC-0156,teammate_invited,2026-07-25T12:34:00Z,invite 2
+EVT-00626,CON-0156,ACC-0156,release_checklist_published,2026-07-26T14:00:00Z,first checklist
+EVT-00627,CON-0156,ACC-0156,plan_started,2026-07-30T12:00:00Z,team plan
+EVT-00628,CON-0157,ACC-0157,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00629,CON-0157,ACC-0157,repository_connected,2026-08-03T03:00:00Z,primary repository
+EVT-00630,CON-0157,ACC-0157,teammate_invited,2026-08-03T09:17:00Z,invite 1
+EVT-00631,CON-0157,ACC-0157,teammate_invited,2026-08-03T09:34:00Z,invite 2
+EVT-00632,CON-0157,ACC-0157,teammate_invited,2026-08-03T09:51:00Z,invite 3
+EVT-00633,CON-0157,ACC-0157,pricing_viewed,2026-08-05T10:00:00Z,team plan
+EVT-00634,CON-0157,ACC-0157,demo_booked,2026-08-07T12:00:00Z,workflow review
+EVT-00635,CON-0158,ACC-0158,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00636,CON-0159,ACC-0159,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00637,CON-0160,ACC-0160,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00638,CON-0161,ACC-0161,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00639,CON-0161,ACC-0161,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00640,CON-0162,ACC-0162,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00641,CON-0163,ACC-0163,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00642,CON-0164,ACC-0164,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00643,CON-0164,ACC-0164,repository_connected,2026-07-26T19:00:00Z,primary repository
+EVT-00644,CON-0165,ACC-0165,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00645,CON-0165,ACC-0165,repository_connected,2026-07-21T17:00:00Z,primary repository
+EVT-00646,CON-0165,ACC-0165,teammate_invited,2026-07-22T09:17:00Z,invite 1
+EVT-00647,CON-0166,ACC-0166,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00648,CON-0166,ACC-0166,repository_connected,2026-07-30T15:00:00Z,primary repository
+EVT-00649,CON-0167,ACC-0167,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00650,CON-0167,ACC-0167,repository_connected,2026-07-25T13:00:00Z,primary repository
+EVT-00651,CON-0167,ACC-0167,teammate_invited,2026-07-26T03:17:00Z,invite 1
+EVT-00652,CON-0168,ACC-0168,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00653,CON-0168,ACC-0168,repository_connected,2026-08-03T23:00:00Z,primary repository
+EVT-00654,CON-0168,ACC-0168,teammate_invited,2026-08-04T12:17:00Z,invite 1
+EVT-00655,CON-0168,ACC-0168,teammate_invited,2026-08-04T12:34:00Z,invite 2
+EVT-00656,CON-0168,ACC-0168,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00657,CON-0169,ACC-0169,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00658,CON-0169,ACC-0169,repository_connected,2026-07-29T21:00:00Z,primary repository
+EVT-00659,CON-0169,ACC-0169,teammate_invited,2026-07-30T09:17:00Z,invite 1
+EVT-00660,CON-0169,ACC-0169,teammate_invited,2026-07-30T09:34:00Z,invite 2
+EVT-00661,CON-0169,ACC-0169,teammate_invited,2026-07-30T09:51:00Z,invite 3
+EVT-00662,CON-0170,ACC-0170,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00663,CON-0170,ACC-0170,repository_connected,2026-07-24T19:00:00Z,primary repository
+EVT-00664,CON-0170,ACC-0170,teammate_invited,2026-07-25T06:17:00Z,invite 1
+EVT-00665,CON-0170,ACC-0170,teammate_invited,2026-07-25T06:34:00Z,invite 2
+EVT-00666,CON-0170,ACC-0170,teammate_invited,2026-07-25T06:51:00Z,invite 3
+EVT-00667,CON-0170,ACC-0170,teammate_invited,2026-07-25T07:08:00Z,invite 4
+EVT-00668,CON-0171,ACC-0171,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00669,CON-0171,ACC-0171,repository_connected,2026-08-02T17:00:00Z,primary repository
+EVT-00670,CON-0171,ACC-0171,teammate_invited,2026-08-03T03:17:00Z,invite 1
+EVT-00671,CON-0171,ACC-0171,teammate_invited,2026-08-03T03:34:00Z,invite 2
+EVT-00672,CON-0171,ACC-0171,teammate_invited,2026-08-03T03:51:00Z,invite 3
+EVT-00673,CON-0171,ACC-0171,teammate_invited,2026-08-03T04:08:00Z,invite 4
+EVT-00674,CON-0171,ACC-0171,teammate_invited,2026-08-03T04:25:00Z,invite 5
+EVT-00675,CON-0172,ACC-0172,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00676,CON-0172,ACC-0172,repository_connected,2026-07-29T03:00:00Z,primary repository
+EVT-00677,CON-0172,ACC-0172,teammate_invited,2026-07-29T12:17:00Z,invite 1
+EVT-00678,CON-0172,ACC-0172,teammate_invited,2026-07-29T12:34:00Z,invite 2
+EVT-00679,CON-0172,ACC-0172,release_checklist_published,2026-07-31T14:00:00Z,first checklist
+EVT-00680,CON-0173,ACC-0173,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00681,CON-0173,ACC-0173,repository_connected,2026-07-24T01:00:00Z,primary repository
+EVT-00682,CON-0173,ACC-0173,teammate_invited,2026-07-24T09:17:00Z,invite 1
+EVT-00683,CON-0173,ACC-0173,teammate_invited,2026-07-24T09:34:00Z,invite 2
+EVT-00684,CON-0173,ACC-0173,teammate_invited,2026-07-24T09:51:00Z,invite 3
+EVT-00685,CON-0173,ACC-0173,release_checklist_published,2026-07-27T11:00:00Z,first checklist
+EVT-00686,CON-0174,ACC-0174,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00687,CON-0174,ACC-0174,repository_connected,2026-08-01T23:00:00Z,primary repository
+EVT-00688,CON-0174,ACC-0174,teammate_invited,2026-08-02T06:17:00Z,invite 1
+EVT-00689,CON-0174,ACC-0174,teammate_invited,2026-08-02T06:34:00Z,invite 2
+EVT-00690,CON-0174,ACC-0174,teammate_invited,2026-08-02T06:51:00Z,invite 3
+EVT-00691,CON-0174,ACC-0174,teammate_invited,2026-08-02T07:08:00Z,invite 4
+EVT-00692,CON-0174,ACC-0174,release_checklist_published,2026-08-03T08:00:00Z,first checklist
+EVT-00693,CON-0175,ACC-0175,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00694,CON-0175,ACC-0175,repository_connected,2026-07-27T21:00:00Z,primary repository
+EVT-00695,CON-0175,ACC-0175,teammate_invited,2026-07-28T03:17:00Z,invite 1
+EVT-00696,CON-0175,ACC-0175,teammate_invited,2026-07-28T03:34:00Z,invite 2
+EVT-00697,CON-0175,ACC-0175,teammate_invited,2026-07-28T03:51:00Z,invite 3
+EVT-00698,CON-0175,ACC-0175,teammate_invited,2026-07-28T04:08:00Z,invite 4
+EVT-00699,CON-0175,ACC-0175,teammate_invited,2026-07-28T04:25:00Z,invite 5
+EVT-00700,CON-0175,ACC-0175,release_checklist_published,2026-07-30T05:00:00Z,first checklist
+EVT-00701,CON-0175,ACC-0175,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00702,CON-0176,ACC-0176,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00703,CON-0176,ACC-0176,repository_connected,2026-07-23T07:00:00Z,primary repository
+EVT-00704,CON-0176,ACC-0176,teammate_invited,2026-07-23T12:17:00Z,invite 1
+EVT-00705,CON-0176,ACC-0176,teammate_invited,2026-07-23T12:34:00Z,invite 2
+EVT-00706,CON-0176,ACC-0176,release_checklist_published,2026-07-26T14:00:00Z,first checklist
+EVT-00707,CON-0176,ACC-0176,plan_started,2026-07-28T12:00:00Z,team plan
+EVT-00708,CON-0177,ACC-0177,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00709,CON-0177,ACC-0177,repository_connected,2026-08-01T05:00:00Z,primary repository
+EVT-00710,CON-0177,ACC-0177,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00711,CON-0177,ACC-0177,teammate_invited,2026-08-01T09:34:00Z,invite 2
+EVT-00712,CON-0177,ACC-0177,teammate_invited,2026-08-01T09:51:00Z,invite 3
+EVT-00713,CON-0177,ACC-0177,pricing_viewed,2026-08-03T10:00:00Z,team plan
+EVT-00714,CON-0177,ACC-0177,demo_booked,2026-08-05T12:00:00Z,workflow review
+EVT-00715,CON-0178,ACC-0178,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00716,CON-0179,ACC-0179,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00717,CON-0180,ACC-0180,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00718,CON-0181,ACC-0181,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00719,CON-0182,ACC-0182,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00720,CON-0182,ACC-0182,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00721,CON-0183,ACC-0183,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00722,CON-0184,ACC-0184,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00723,CON-0184,ACC-0184,repository_connected,2026-07-24T21:00:00Z,primary repository
+EVT-00724,CON-0185,ACC-0185,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00725,CON-0185,ACC-0185,repository_connected,2026-08-02T19:00:00Z,primary repository
+EVT-00726,CON-0185,ACC-0185,teammate_invited,2026-08-03T09:17:00Z,invite 1
+EVT-00727,CON-0186,ACC-0186,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00728,CON-0186,ACC-0186,repository_connected,2026-07-28T17:00:00Z,primary repository
+EVT-00729,CON-0187,ACC-0187,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00730,CON-0187,ACC-0187,repository_connected,2026-07-23T15:00:00Z,primary repository
+EVT-00731,CON-0187,ACC-0187,teammate_invited,2026-07-24T03:17:00Z,invite 1
+EVT-00732,CON-0188,ACC-0188,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00733,CON-0188,ACC-0188,repository_connected,2026-08-02T01:00:00Z,primary repository
+EVT-00734,CON-0188,ACC-0188,teammate_invited,2026-08-02T12:17:00Z,invite 1
+EVT-00735,CON-0188,ACC-0188,teammate_invited,2026-08-02T12:34:00Z,invite 2
+EVT-00736,CON-0189,ACC-0189,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00737,CON-0189,ACC-0189,repository_connected,2026-07-27T23:00:00Z,primary repository
+EVT-00738,CON-0189,ACC-0189,teammate_invited,2026-07-28T09:17:00Z,invite 1
+EVT-00739,CON-0189,ACC-0189,teammate_invited,2026-07-28T09:34:00Z,invite 2
+EVT-00740,CON-0189,ACC-0189,teammate_invited,2026-07-28T09:51:00Z,invite 3
+EVT-00741,CON-0189,ACC-0189,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00742,CON-0190,ACC-0190,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00743,CON-0190,ACC-0190,repository_connected,2026-07-22T21:00:00Z,primary repository
+EVT-00744,CON-0190,ACC-0190,teammate_invited,2026-07-23T06:17:00Z,invite 1
+EVT-00745,CON-0190,ACC-0190,teammate_invited,2026-07-23T06:34:00Z,invite 2
+EVT-00746,CON-0190,ACC-0190,teammate_invited,2026-07-23T06:51:00Z,invite 3
+EVT-00747,CON-0190,ACC-0190,teammate_invited,2026-07-23T07:08:00Z,invite 4
+EVT-00748,CON-0191,ACC-0191,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00749,CON-0191,ACC-0191,repository_connected,2026-07-31T19:00:00Z,primary repository
+EVT-00750,CON-0191,ACC-0191,teammate_invited,2026-08-01T03:17:00Z,invite 1
+EVT-00751,CON-0191,ACC-0191,teammate_invited,2026-08-01T03:34:00Z,invite 2
+EVT-00752,CON-0191,ACC-0191,teammate_invited,2026-08-01T03:51:00Z,invite 3
+EVT-00753,CON-0191,ACC-0191,teammate_invited,2026-08-01T04:08:00Z,invite 4
+EVT-00754,CON-0191,ACC-0191,teammate_invited,2026-08-01T04:25:00Z,invite 5
+EVT-00755,CON-0192,ACC-0192,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00756,CON-0192,ACC-0192,repository_connected,2026-07-27T05:00:00Z,primary repository
+EVT-00757,CON-0192,ACC-0192,teammate_invited,2026-07-27T12:17:00Z,invite 1
+EVT-00758,CON-0192,ACC-0192,teammate_invited,2026-07-27T12:34:00Z,invite 2
+EVT-00759,CON-0192,ACC-0192,release_checklist_published,2026-07-28T14:00:00Z,first checklist
+EVT-00760,CON-0193,ACC-0193,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00761,CON-0193,ACC-0193,repository_connected,2026-07-22T03:00:00Z,primary repository
+EVT-00762,CON-0193,ACC-0193,teammate_invited,2026-07-22T09:17:00Z,invite 1
+EVT-00763,CON-0193,ACC-0193,teammate_invited,2026-07-22T09:34:00Z,invite 2
+EVT-00764,CON-0193,ACC-0193,teammate_invited,2026-07-22T09:51:00Z,invite 3
+EVT-00765,CON-0193,ACC-0193,release_checklist_published,2026-07-24T11:00:00Z,first checklist
+EVT-00766,CON-0194,ACC-0194,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00767,CON-0194,ACC-0194,repository_connected,2026-07-31T01:00:00Z,primary repository
+EVT-00768,CON-0194,ACC-0194,teammate_invited,2026-07-31T06:17:00Z,invite 1
+EVT-00769,CON-0194,ACC-0194,teammate_invited,2026-07-31T06:34:00Z,invite 2
+EVT-00770,CON-0194,ACC-0194,teammate_invited,2026-07-31T06:51:00Z,invite 3
+EVT-00771,CON-0194,ACC-0194,teammate_invited,2026-07-31T07:08:00Z,invite 4
+EVT-00772,CON-0194,ACC-0194,release_checklist_published,2026-08-03T08:00:00Z,first checklist
+EVT-00773,CON-0195,ACC-0195,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00774,CON-0195,ACC-0195,repository_connected,2026-07-25T23:00:00Z,primary repository
+EVT-00775,CON-0195,ACC-0195,teammate_invited,2026-07-26T03:17:00Z,invite 1
+EVT-00776,CON-0195,ACC-0195,teammate_invited,2026-07-26T03:34:00Z,invite 2
+EVT-00777,CON-0195,ACC-0195,teammate_invited,2026-07-26T03:51:00Z,invite 3
+EVT-00778,CON-0195,ACC-0195,teammate_invited,2026-07-26T04:08:00Z,invite 4
+EVT-00779,CON-0195,ACC-0195,teammate_invited,2026-07-26T04:25:00Z,invite 5
+EVT-00780,CON-0195,ACC-0195,release_checklist_published,2026-07-27T05:00:00Z,first checklist
+EVT-00781,CON-0196,ACC-0196,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00782,CON-0196,ACC-0196,repository_connected,2026-08-04T09:00:00Z,primary repository
+EVT-00783,CON-0196,ACC-0196,teammate_invited,2026-08-04T12:17:00Z,invite 1
+EVT-00784,CON-0196,ACC-0196,teammate_invited,2026-08-04T12:34:00Z,invite 2
+EVT-00785,CON-0196,ACC-0196,release_checklist_published,2026-08-06T14:00:00Z,first checklist
+EVT-00786,CON-0196,ACC-0196,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00787,CON-0196,ACC-0196,plan_started,2026-08-09T12:00:00Z,team plan
+EVT-00788,CON-0197,ACC-0197,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00789,CON-0197,ACC-0197,repository_connected,2026-07-30T07:00:00Z,primary repository
+EVT-00790,CON-0197,ACC-0197,teammate_invited,2026-07-30T09:17:00Z,invite 1
+EVT-00791,CON-0197,ACC-0197,teammate_invited,2026-07-30T09:34:00Z,invite 2
+EVT-00792,CON-0197,ACC-0197,teammate_invited,2026-07-30T09:51:00Z,invite 3
+EVT-00793,CON-0197,ACC-0197,pricing_viewed,2026-08-01T10:00:00Z,team plan
+EVT-00794,CON-0197,ACC-0197,demo_booked,2026-08-03T12:00:00Z,workflow review
+EVT-00795,CON-0198,ACC-0198,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00796,CON-0199,ACC-0199,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00797,CON-0200,ACC-0200,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00798,CON-0201,ACC-0201,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00799,CON-0202,ACC-0202,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00800,CON-0203,ACC-0203,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00801,CON-0203,ACC-0203,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00802,CON-0204,ACC-0204,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00803,CON-0204,ACC-0204,repository_connected,2026-07-22T23:00:00Z,primary repository
+EVT-00804,CON-0205,ACC-0205,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00805,CON-0205,ACC-0205,repository_connected,2026-07-31T21:00:00Z,primary repository
+EVT-00806,CON-0205,ACC-0205,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00807,CON-0206,ACC-0206,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00808,CON-0206,ACC-0206,repository_connected,2026-07-26T19:00:00Z,primary repository
+EVT-00809,CON-0207,ACC-0207,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00810,CON-0207,ACC-0207,repository_connected,2026-07-21T17:00:00Z,primary repository
+EVT-00811,CON-0207,ACC-0207,teammate_invited,2026-07-22T03:17:00Z,invite 1
+EVT-00812,CON-0208,ACC-0208,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00813,CON-0208,ACC-0208,repository_connected,2026-07-31T03:00:00Z,primary repository
+EVT-00814,CON-0208,ACC-0208,teammate_invited,2026-07-31T12:17:00Z,invite 1
+EVT-00815,CON-0208,ACC-0208,teammate_invited,2026-07-31T12:34:00Z,invite 2
+EVT-00816,CON-0209,ACC-0209,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00817,CON-0209,ACC-0209,repository_connected,2026-07-26T01:00:00Z,primary repository
+EVT-00818,CON-0209,ACC-0209,teammate_invited,2026-07-26T09:17:00Z,invite 1
+EVT-00819,CON-0209,ACC-0209,teammate_invited,2026-07-26T09:34:00Z,invite 2
+EVT-00820,CON-0209,ACC-0209,teammate_invited,2026-07-26T09:51:00Z,invite 3
+EVT-00821,CON-0210,ACC-0210,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00822,CON-0210,ACC-0210,repository_connected,2026-08-03T23:00:00Z,primary repository
+EVT-00823,CON-0210,ACC-0210,teammate_invited,2026-08-04T06:17:00Z,invite 1
+EVT-00824,CON-0210,ACC-0210,teammate_invited,2026-08-04T06:34:00Z,invite 2
+EVT-00825,CON-0210,ACC-0210,teammate_invited,2026-08-04T06:51:00Z,invite 3
+EVT-00826,CON-0210,ACC-0210,teammate_invited,2026-08-04T07:08:00Z,invite 4
+EVT-00827,CON-0210,ACC-0210,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00828,CON-0211,ACC-0211,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00829,CON-0211,ACC-0211,repository_connected,2026-07-29T21:00:00Z,primary repository
+EVT-00830,CON-0211,ACC-0211,teammate_invited,2026-07-30T03:17:00Z,invite 1
+EVT-00831,CON-0211,ACC-0211,teammate_invited,2026-07-30T03:34:00Z,invite 2
+EVT-00832,CON-0211,ACC-0211,teammate_invited,2026-07-30T03:51:00Z,invite 3
+EVT-00833,CON-0211,ACC-0211,teammate_invited,2026-07-30T04:08:00Z,invite 4
+EVT-00834,CON-0211,ACC-0211,teammate_invited,2026-07-30T04:25:00Z,invite 5
+EVT-00835,CON-0212,ACC-0212,trial_started,2026-07-24T12:00:00Z,14-day team trial
+EVT-00836,CON-0212,ACC-0212,repository_connected,2026-07-25T07:00:00Z,primary repository
+EVT-00837,CON-0212,ACC-0212,teammate_invited,2026-07-25T12:17:00Z,invite 1
+EVT-00838,CON-0212,ACC-0212,teammate_invited,2026-07-25T12:34:00Z,invite 2
+EVT-00839,CON-0212,ACC-0212,release_checklist_published,2026-07-28T14:00:00Z,first checklist
+EVT-00840,CON-0213,ACC-0213,trial_started,2026-08-02T09:00:00Z,14-day team trial
+EVT-00841,CON-0213,ACC-0213,repository_connected,2026-08-03T05:00:00Z,primary repository
+EVT-00842,CON-0213,ACC-0213,teammate_invited,2026-08-03T09:17:00Z,invite 1
+EVT-00843,CON-0213,ACC-0213,teammate_invited,2026-08-03T09:34:00Z,invite 2
+EVT-00844,CON-0213,ACC-0213,teammate_invited,2026-08-03T09:51:00Z,invite 3
+EVT-00845,CON-0213,ACC-0213,release_checklist_published,2026-08-04T11:00:00Z,first checklist
+EVT-00846,CON-0214,ACC-0214,trial_started,2026-07-28T06:00:00Z,14-day team trial
+EVT-00847,CON-0214,ACC-0214,repository_connected,2026-07-29T03:00:00Z,primary repository
+EVT-00848,CON-0214,ACC-0214,teammate_invited,2026-07-29T06:17:00Z,invite 1
+EVT-00849,CON-0214,ACC-0214,teammate_invited,2026-07-29T06:34:00Z,invite 2
+EVT-00850,CON-0214,ACC-0214,teammate_invited,2026-07-29T06:51:00Z,invite 3
+EVT-00851,CON-0214,ACC-0214,teammate_invited,2026-07-29T07:08:00Z,invite 4
+EVT-00852,CON-0214,ACC-0214,release_checklist_published,2026-07-31T08:00:00Z,first checklist
+EVT-00853,CON-0215,ACC-0215,trial_started,2026-07-23T03:00:00Z,14-day team trial
+EVT-00854,CON-0215,ACC-0215,repository_connected,2026-07-24T01:00:00Z,primary repository
+EVT-00855,CON-0215,ACC-0215,teammate_invited,2026-07-24T03:17:00Z,invite 1
+EVT-00856,CON-0215,ACC-0215,teammate_invited,2026-07-24T03:34:00Z,invite 2
+EVT-00857,CON-0215,ACC-0215,teammate_invited,2026-07-24T03:51:00Z,invite 3
+EVT-00858,CON-0215,ACC-0215,teammate_invited,2026-07-24T04:08:00Z,invite 4
+EVT-00859,CON-0215,ACC-0215,teammate_invited,2026-07-24T04:25:00Z,invite 5
+EVT-00860,CON-0215,ACC-0215,release_checklist_published,2026-07-27T05:00:00Z,first checklist
+EVT-00861,CON-0216,ACC-0216,trial_started,2026-08-01T12:00:00Z,14-day team trial
+EVT-00862,CON-0216,ACC-0216,repository_connected,2026-08-01T17:00:00Z,primary repository
+EVT-00863,CON-0216,ACC-0216,teammate_invited,2026-08-02T12:17:00Z,invite 1
+EVT-00864,CON-0216,ACC-0216,teammate_invited,2026-08-02T12:34:00Z,invite 2
+EVT-00865,CON-0216,ACC-0216,release_checklist_published,2026-08-03T14:00:00Z,first checklist
+EVT-00866,CON-0216,ACC-0216,plan_started,2026-08-07T12:00:00Z,team plan
+EVT-00867,CON-0217,ACC-0217,trial_started,2026-07-27T09:00:00Z,14-day team trial
+EVT-00868,CON-0217,ACC-0217,repository_connected,2026-07-27T15:00:00Z,primary repository
+EVT-00869,CON-0217,ACC-0217,teammate_invited,2026-07-28T09:17:00Z,invite 1
+EVT-00870,CON-0217,ACC-0217,teammate_invited,2026-07-28T09:34:00Z,invite 2
+EVT-00871,CON-0217,ACC-0217,teammate_invited,2026-07-28T09:51:00Z,invite 3
+EVT-00872,CON-0217,ACC-0217,pricing_viewed,2026-07-30T10:00:00Z,team plan
+EVT-00873,CON-0217,ACC-0217,demo_booked,2026-08-01T12:00:00Z,workflow review
+EVT-00874,CON-0218,ACC-0218,trial_started,2026-07-22T06:00:00Z,14-day team trial
+EVT-00875,CON-0219,ACC-0219,trial_started,2026-07-31T03:00:00Z,14-day team trial
+EVT-00876,CON-0220,ACC-0220,trial_started,2026-07-26T12:00:00Z,14-day team trial
+EVT-00877,CON-0221,ACC-0221,trial_started,2026-07-21T09:00:00Z,14-day team trial
+EVT-00878,CON-0222,ACC-0222,trial_started,2026-07-30T06:00:00Z,14-day team trial
+EVT-00879,CON-0223,ACC-0223,trial_started,2026-07-25T03:00:00Z,14-day team trial
+EVT-00880,CON-0224,ACC-0224,trial_started,2026-08-03T12:00:00Z,14-day team trial
+EVT-00881,CON-0224,ACC-0224,repository_connected,2026-08-04T01:00:00Z,primary repository
+EVT-00882,CON-0224,ACC-0224,pricing_viewed,2026-08-06T13:00:00Z,team plan
+EVT-00883,CON-0225,ACC-0225,trial_started,2026-07-29T09:00:00Z,14-day team trial
+EVT-00884,CON-0225,ACC-0225,repository_connected,2026-07-29T23:00:00Z,primary repository
+EVT-00885,CON-0225,ACC-0225,teammate_invited,2026-07-30T09:17:00Z,invite 1
+EVT-00886,CON-0226,ACC-0226,trial_started,2026-07-24T06:00:00Z,14-day team trial
+EVT-00887,CON-0226,ACC-0226,repository_connected,2026-07-24T21:00:00Z,primary repository
+EVT-00888,CON-0227,ACC-0227,trial_started,2026-08-02T03:00:00Z,14-day team trial
+EVT-00889,CON-0227,ACC-0227,repository_connected,2026-08-02T19:00:00Z,primary repository
+EVT-00890,CON-0227,ACC-0227,teammate_invited,2026-08-03T03:17:00Z,invite 1
+EVT-00891,CON-0228,ACC-0228,trial_started,2026-07-28T12:00:00Z,14-day team trial
+EVT-00892,CON-0228,ACC-0228,repository_connected,2026-07-29T05:00:00Z,primary repository
+EVT-00893,CON-0228,ACC-0228,teammate_invited,2026-07-29T12:17:00Z,invite 1
+EVT-00894,CON-0228,ACC-0228,teammate_invited,2026-07-29T12:34:00Z,invite 2
+EVT-00895,CON-0229,ACC-0229,trial_started,2026-07-23T09:00:00Z,14-day team trial
+EVT-00896,CON-0229,ACC-0229,repository_connected,2026-07-24T03:00:00Z,primary repository
+EVT-00897,CON-0229,ACC-0229,teammate_invited,2026-07-24T09:17:00Z,invite 1
+EVT-00898,CON-0229,ACC-0229,teammate_invited,2026-07-24T09:34:00Z,invite 2
+EVT-00899,CON-0229,ACC-0229,teammate_invited,2026-07-24T09:51:00Z,invite 3
+EVT-00900,CON-0230,ACC-0230,trial_started,2026-08-01T06:00:00Z,14-day team trial
+EVT-00901,CON-0230,ACC-0230,repository_connected,2026-08-02T01:00:00Z,primary repository
+EVT-00902,CON-0230,ACC-0230,teammate_invited,2026-08-02T06:17:00Z,invite 1
+EVT-00903,CON-0230,ACC-0230,teammate_invited,2026-08-02T06:34:00Z,invite 2
+EVT-00904,CON-0230,ACC-0230,teammate_invited,2026-08-02T06:51:00Z,invite 3
+EVT-00905,CON-0230,ACC-0230,teammate_invited,2026-08-02T07:08:00Z,invite 4
+EVT-00906,CON-0231,ACC-0231,trial_started,2026-07-27T03:00:00Z,14-day team trial
+EVT-00907,CON-0231,ACC-0231,repository_connected,2026-07-27T23:00:00Z,primary repository
+EVT-00908,CON-0231,ACC-0231,teammate_invited,2026-07-28T03:17:00Z,invite 1
+EVT-00909,CON-0231,ACC-0231,teammate_invited,2026-07-28T03:34:00Z,invite 2
+EVT-00910,CON-0231,ACC-0231,teammate_invited,2026-07-28T03:51:00Z,invite 3
+EVT-00911,CON-0231,ACC-0231,teammate_invited,2026-07-28T04:08:00Z,invite 4
+EVT-00912,CON-0231,ACC-0231,teammate_invited,2026-07-28T04:25:00Z,invite 5
+EVT-00913,CON-0231,ACC-0231,pricing_viewed,2026-07-30T04:00:00Z,team plan
+EVT-00914,CON-0232,ACC-0232,trial_started,2026-07-22T12:00:00Z,14-day team trial
+EVT-00915,CON-0232,ACC-0232,repository_connected,2026-07-23T09:00:00Z,primary repository
+EVT-00916,CON-0232,ACC-0232,teammate_invited,2026-07-23T12:17:00Z,invite 1
+EVT-00917,CON-0232,ACC-0232,teammate_invited,2026-07-23T12:34:00Z,invite 2
+EVT-00918,CON-0232,ACC-0232,release_checklist_published,2026-07-25T14:00:00Z,first checklist
+EVT-00919,CON-0233,ACC-0233,trial_started,2026-07-31T09:00:00Z,14-day team trial
+EVT-00920,CON-0233,ACC-0233,repository_connected,2026-08-01T07:00:00Z,primary repository
+EVT-00921,CON-0233,ACC-0233,teammate_invited,2026-08-01T09:17:00Z,invite 1
+EVT-00922,CON-0233,ACC-0233,teammate_invited,2026-08-01T09:34:00Z,invite 2
+EVT-00923,CON-0233,ACC-0233,teammate_invited,2026-08-01T09:51:00Z,invite 3
+EVT-00924,CON-0233,ACC-0233,release_checklist_published,2026-08-04T11:00:00Z,first checklist
+EVT-00925,CON-0234,ACC-0234,trial_started,2026-07-26T06:00:00Z,14-day team trial
+EVT-00926,CON-0234,ACC-0234,repository_connected,2026-07-26T11:00:00Z,primary repository
+EVT-00927,CON-0234,ACC-0234,teammate_invited,2026-07-27T06:17:00Z,invite 1
+EVT-00928,CON-0234,ACC-0234,teammate_invited,2026-07-27T06:34:00Z,invite 2
+EVT-00929,CON-0234,ACC-0234,teammate_invited,2026-07-27T06:51:00Z,invite 3
+EVT-00930,CON-0234,ACC-0234,teammate_invited,2026-07-27T07:08:00Z,invite 4
+EVT-00931,CON-0234,ACC-0234,release_checklist_published,2026-07-28T08:00:00Z,first checklist
+EVT-00932,CON-0235,ACC-0235,trial_started,2026-07-21T03:00:00Z,14-day team trial
+EVT-00933,CON-0235,ACC-0235,repository_connected,2026-07-21T09:00:00Z,primary repository
+EVT-00934,CON-0235,ACC-0235,teammate_invited,2026-07-22T03:17:00Z,invite 1
+EVT-00935,CON-0235,ACC-0235,teammate_invited,2026-07-22T03:34:00Z,invite 2
+EVT-00936,CON-0235,ACC-0235,teammate_invited,2026-07-22T03:51:00Z,invite 3
+EVT-00937,CON-0235,ACC-0235,teammate_invited,2026-07-22T04:08:00Z,invite 4
+EVT-00938,CON-0235,ACC-0235,teammate_invited,2026-07-22T04:25:00Z,invite 5
+EVT-00939,CON-0235,ACC-0235,release_checklist_published,2026-07-24T05:00:00Z,first checklist
+EVT-00940,CON-0236,ACC-0236,trial_started,2026-07-30T12:00:00Z,14-day team trial
+EVT-00941,CON-0236,ACC-0236,repository_connected,2026-07-30T19:00:00Z,primary repository
+EVT-00942,CON-0236,ACC-0236,teammate_invited,2026-07-31T12:17:00Z,invite 1
+EVT-00943,CON-0236,ACC-0236,teammate_invited,2026-07-31T12:34:00Z,invite 2
+EVT-00944,CON-0236,ACC-0236,release_checklist_published,2026-08-03T14:00:00Z,first checklist
+EVT-00945,CON-0236,ACC-0236,plan_started,2026-08-05T12:00:00Z,team plan
+EVT-00946,CON-0237,ACC-0237,trial_started,2026-07-25T09:00:00Z,14-day team trial
+EVT-00947,CON-0237,ACC-0237,repository_connected,2026-07-25T17:00:00Z,primary repository
+EVT-00948,CON-0237,ACC-0237,teammate_invited,2026-07-26T09:17:00Z,invite 1
+EVT-00949,CON-0237,ACC-0237,teammate_invited,2026-07-26T09:34:00Z,invite 2
+EVT-00950,CON-0237,ACC-0237,teammate_invited,2026-07-26T09:51:00Z,invite 3
+EVT-00951,CON-0237,ACC-0237,pricing_viewed,2026-07-28T10:00:00Z,team plan
+EVT-00952,CON-0237,ACC-0237,demo_booked,2026-07-30T12:00:00Z,workflow review
+EVT-00953,CON-0238,ACC-0238,trial_started,2026-08-03T06:00:00Z,14-day team trial
+EVT-00954,CON-0238,ACC-0238,pricing_viewed,2026-08-06T07:00:00Z,team plan
+EVT-00955,CON-0239,ACC-0239,trial_started,2026-07-29T03:00:00Z,14-day team trial
+EVT-00956,CON-0240,ACC-0240,trial_started,2026-07-24T12:00:00Z,14-day team trial

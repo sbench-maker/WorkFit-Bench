@@ -1,0 +1,21 @@
+[
+  {"entrypoint_id":"POOL-01","source":"contracts/HarborPool.sol","contract":"HarborPool","function":"addLiquidity","caller":"public","state_change":"mint shares and add reserves"},
+  {"entrypoint_id":"POOL-02","source":"contracts/HarborPool.sol","contract":"HarborPool","function":"removeLiquidity","caller":"public","state_change":"burn shares and remove reserves"},
+  {"entrypoint_id":"POOL-03","source":"contracts/HarborPool.sol","contract":"HarborPool","function":"swapExactInput","caller":"public","state_change":"swap one listed asset for the other"},
+  {"entrypoint_id":"POOL-04","source":"contracts/HarborPool.sol","contract":"HarborPool","function":"setSwapFee","caller":"governor intended","state_change":"change pool economics"},
+  {"entrypoint_id":"POOL-05","source":"contracts/HarborPool.sol","contract":"HarborPool","function":"pause","caller":"guardian intended","state_change":"pause user flows"},
+  {"entrypoint_id":"POOL-06","source":"contracts/HarborPool.sol","contract":"HarborPool","function":"unpause","caller":"governor intended","state_change":"resume user flows"},
+  {"entrypoint_id":"POOL-07","source":"contracts/HarborPool.sol","contract":"HarborPool","function":"sweepSurplus","caller":"governor intended","state_change":"send unaccounted balances to treasury"},
+  {"entrypoint_id":"VAULT-01","source":"contracts/TideVault.sol","contract":"TideVault","function":"deposit","caller":"public","state_change":"mint vault shares"},
+  {"entrypoint_id":"VAULT-02","source":"contracts/TideVault.sol","contract":"TideVault","function":"redeem","caller":"public","state_change":"burn shares and return assets"},
+  {"entrypoint_id":"VAULT-03","source":"contracts/TideVault.sol","contract":"TideVault","function":"syncAssets","caller":"public","state_change":"replace internal accounting with token balance"},
+  {"entrypoint_id":"VAULT-04","source":"contracts/TideVault.sol","contract":"TideVault","function":"harvest","caller":"keeper intended","state_change":"collect and account yield"},
+  {"entrypoint_id":"VAULT-05","source":"contracts/TideVault.sol","contract":"TideVault","function":"setKeeper","caller":"governor intended","state_change":"replace keeper"},
+  {"entrypoint_id":"VAULT-06","source":"contracts/TideVault.sol","contract":"TideVault","function":"pause","caller":"guardian intended","state_change":"pause deposits and redemptions"},
+  {"entrypoint_id":"VAULT-07","source":"contracts/TideVault.sol","contract":"TideVault","function":"unpause","caller":"governor intended","state_change":"resume deposits and redemptions"},
+  {"entrypoint_id":"ORACLE-01","source":"contracts/HarborOracle.sol","contract":"HarborOracle","function":"update","caller":"public","state_change":"store collateral price"},
+  {"entrypoint_id":"ORACLE-02","source":"contracts/HarborOracle.sol","contract":"HarborOracle","function":"setPool","caller":"governor intended","state_change":"replace price source"},
+  {"entrypoint_id":"ADMIN-01","source":"contracts/access/DelayedAdmin.sol","contract":"DelayedAdmin","function":"beginAdminTransfer","caller":"current governor","state_change":"nominate successor"},
+  {"entrypoint_id":"ADMIN-02","source":"contracts/access/DelayedAdmin.sol","contract":"DelayedAdmin","function":"acceptAdmin","caller":"pending governor","state_change":"accept governance"},
+  {"entrypoint_id":"ADMIN-03","source":"contracts/access/DelayedAdmin.sol","contract":"DelayedAdmin","function":"cancelAdminTransfer","caller":"current governor","state_change":"cancel pending transfer"}
+]

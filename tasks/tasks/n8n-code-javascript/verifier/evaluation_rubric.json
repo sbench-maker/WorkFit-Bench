@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_execution",
+      "title": "Paste-ready Code node artifact",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JavaScript exists, executes once against a batch through the n8n input contract, and returns usable n8n items with one summary.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_is_paste_ready_and_executable"
+      ]
+    },
+    {
+      "id": "completion__quarantine_resilience",
+      "title": "Quarantine coverage and resilience",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Malformed physical deliveries and selected cancellations are quarantined with applicable reasons, while empty input is handled without a batch failure.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_quarantine_scope_and_batch_resilience"
+      ]
+    },
+    {
+      "id": "completion__summary_reconciliation",
+      "title": "Batch summary reconciliation",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The one summary reports exact input, canonical, retry, ledger, and quarantine counts plus signed per-currency cent totals, including the zero batch.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_summary_reconciles_exactly"
+      ]
+    },
+    {
+      "id": "completion__ledger_transformation",
+      "title": "Ledger normalization and retry selection",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every selected paid/refunded event appears once with the correct latest-valid retry, trimmed identifiers, UTC timestamp, currency, sign, and exact cent amount.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_selected_events_are_normalized_and_deduplicated"
+      ]
+    },
+    {
+      "id": "completion__source_linkage",
+      "title": "Downstream source-item linkage",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each ledger or quarantine detail links to the exact physical input delivery that produced it.",
+      "evidence_requirements": [
+        "Cite the delivered file, section, record, or observable behavior for each substantive clause.",
+        "Check the requested task and supplied data for missing or contradictory delivery evidence.",
+        "Accept equivalent wording or structure only when the requested outcome remains intact."
+      ],
+      "test_ids": [
+        "test_detail_items_preserve_source_linkage"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_execution",
+        "title": "Paste-ready Code node artifact",
+        "required_score": 10
+      },
+      {
+        "id": "completion__quarantine_resilience",
+        "title": "Quarantine coverage and resilience",
+        "required_score": 10
+      },
+      {
+        "id": "completion__summary_reconciliation",
+        "title": "Batch summary reconciliation",
+        "required_score": 10
+      },
+      {
+        "id": "completion__ledger_transformation",
+        "title": "Ledger normalization and retry selection",
+        "required_score": 10
+      },
+      {
+        "id": "completion__source_linkage",
+        "title": "Downstream source-item linkage",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

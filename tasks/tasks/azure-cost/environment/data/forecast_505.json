@@ -1,0 +1,27 @@
+{
+  "http_status": 200,
+  "scope": "/subscriptions/00000000-0000-4000-8000-000000000505",
+  "message": "Forecast is unavailable for the specified time period.",
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "Cost",
+        "type": "Number"
+      },
+      {
+        "name": "BillingMonth",
+        "type": "String"
+      },
+      {
+        "name": "CostStatus",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": []
+  }
+}

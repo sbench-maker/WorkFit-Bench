@@ -1,0 +1,18 @@
+{
+  "method": "deterministic local construction",
+  "clock": "2026-09-10 10:05:00",
+  "row_counts": {
+    "accounts": 3,
+    "quotes": 12,
+    "position_lots": 32,
+    "orders": 241,
+    "trades": 170,
+    "ticket_items": 10
+  },
+  "join_keys": [
+    "account_id",
+    "order_id",
+    "symbol"
+  ],
+  "scope_note": "All names and records are fictional; history provides realistic account noise around one execution window."
+}

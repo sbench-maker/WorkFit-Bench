@@ -1,0 +1,15 @@
+{
+  "method": "deterministic local construction",
+  "record_count": 269,
+  "scope_note": "The export spans six months; only events intersecting the target workweek affect this request.",
+  "intentional_fixture_features": [
+    "overlapping opaque events",
+    "a cancelled event",
+    "a transparent timed event",
+    "a UTC-timestamped event",
+    "an overnight event intersecting Monday",
+    "an opaque all-day absence",
+    "a transparent all-day reminder",
+    "a tentative event"
+  ]
+}

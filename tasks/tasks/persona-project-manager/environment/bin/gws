@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+"""Non-mutating local preview shim for the frozen workspace fixture."""
+
+from __future__ import annotations
+
+import json
+import os
+import sys
+from pathlib import Path
+
+
+DATA = Path(os.environ.get("PROJECT_DATA_DIR", "/root/data"))
+
+
+def main() -> int:
+    args = sys.argv[1:]
+    if args[:2] == ["workflow", "+weekly-digest"]:
+        workspace = json.loads((DATA / "workspace.json").read_text(encoding="utf-8"))
+        print(json.dumps({
+            "mode": "offline-preview",
+            "project_id": workspace["target_project_id"],
+            "as_of": workspace["as_of"],
+            "instructions": "Derive the digest from the frozen files listed in /root/data/README.md.",
+        }, indent=2))
+        return 0
+    supported = {
+        ("sheets", "+append"),
+        ("calendar", "+insert"),
+        ("gmail", "+send"),
+        ("drive", "+upload"),
+        ("workflow", "+file-announce"),
+    }
+    if len(args) >= 2 and tuple(args[:2]) in supported:
+        if "--dry-run" not in args:
+            print("offline fixture: write actions require --dry-run", file=sys.stderr)
+            return 2
+        print(json.dumps({"mode": "dry-run", "operation": args[:2], "arguments": args[2:]}, indent=2))
+        return 0
+    print("offline gws preview supports workflow +weekly-digest and dry-run sheet/calendar/gmail/drive/file actions", file=sys.stderr)
+    return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

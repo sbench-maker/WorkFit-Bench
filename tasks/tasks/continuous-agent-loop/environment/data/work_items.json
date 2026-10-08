@@ -1,0 +1,389 @@
+{
+  "work_items": [
+    {
+      "work_item_id": "HL-001",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Normalize account identifiers",
+      "component": "compat",
+      "risk": "low",
+      "priority": "P1",
+      "depends_on": [],
+      "estimated_replay_cost_credits": 10,
+      "acceptance_unit": "tests/release_46/test_001.py"
+    },
+    {
+      "work_item_id": "HL-002",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Add typed cursor adapter",
+      "component": "serialization",
+      "risk": "low",
+      "priority": "P1",
+      "depends_on": [
+        "HL-001"
+      ],
+      "estimated_replay_cost_credits": 11,
+      "acceptance_unit": "tests/release_46/test_002.py"
+    },
+    {
+      "work_item_id": "HL-003",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Preserve legacy enum aliases",
+      "component": "client",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-002"
+      ],
+      "estimated_replay_cost_credits": 12,
+      "acceptance_unit": "tests/release_46/test_003.py"
+    },
+    {
+      "work_item_id": "HL-004",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Split compatibility fixtures",
+      "component": "stream",
+      "risk": "low",
+      "priority": "P1",
+      "depends_on": [
+        "HL-002"
+      ],
+      "estimated_replay_cost_credits": 13,
+      "acceptance_unit": "tests/release_46/test_004.py"
+    },
+    {
+      "work_item_id": "HL-005",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Wire protected-branch smoke run",
+      "component": "telemetry",
+      "risk": "medium",
+      "priority": "P0",
+      "depends_on": [
+        "HL-003",
+        "HL-004"
+      ],
+      "estimated_replay_cost_credits": 9,
+      "acceptance_unit": "tests/release_46/test_005.py"
+    },
+    {
+      "work_item_id": "HL-006",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Repair nullable balance conversion",
+      "component": "migration",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-005"
+      ],
+      "estimated_replay_cost_credits": 10,
+      "acceptance_unit": "tests/release_46/test_006.py"
+    },
+    {
+      "work_item_id": "HL-007",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Stabilize pagination contract",
+      "component": "compat",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-005"
+      ],
+      "estimated_replay_cost_credits": 11,
+      "acceptance_unit": "tests/release_46/test_007.py"
+    },
+    {
+      "work_item_id": "HL-008",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Isolate serializer recursion",
+      "component": "serialization",
+      "risk": "high",
+      "priority": "P2",
+      "depends_on": [
+        "HL-006"
+      ],
+      "estimated_replay_cost_credits": 12,
+      "acceptance_unit": "tests/release_46/test_008.py"
+    },
+    {
+      "work_item_id": "HL-009",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Resolve generated-stub ambiguity",
+      "component": "client",
+      "risk": "high",
+      "priority": "P2",
+      "depends_on": [
+        "HL-007"
+      ],
+      "estimated_replay_cost_credits": 13,
+      "acceptance_unit": "tests/release_46/test_009.py"
+    },
+    {
+      "work_item_id": "HL-010",
+      "rfc_id": "RFC-ALPHA",
+      "title": "Publish compatibility manifest",
+      "component": "stream",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-009"
+      ],
+      "estimated_replay_cost_credits": 9,
+      "acceptance_unit": "tests/release_46/test_010.py"
+    },
+    {
+      "work_item_id": "HL-011",
+      "rfc_id": "RFC-BETA",
+      "title": "Persist stream watermark",
+      "component": "telemetry",
+      "risk": "low",
+      "priority": "P1",
+      "depends_on": [],
+      "estimated_replay_cost_credits": 10,
+      "acceptance_unit": "tests/release_46/test_011.py"
+    },
+    {
+      "work_item_id": "HL-012",
+      "rfc_id": "RFC-BETA",
+      "title": "Deduplicate reconnect token",
+      "component": "migration",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-011"
+      ],
+      "estimated_replay_cost_credits": 11,
+      "acceptance_unit": "tests/release_46/test_012.py"
+    },
+    {
+      "work_item_id": "HL-013",
+      "rfc_id": "RFC-BETA",
+      "title": "Guard out-of-order frames",
+      "component": "compat",
+      "risk": "low",
+      "priority": "P1",
+      "depends_on": [
+        "HL-012"
+      ],
+      "estimated_replay_cost_credits": 12,
+      "acceptance_unit": "tests/release_46/test_013.py"
+    },
+    {
+      "work_item_id": "HL-014",
+      "rfc_id": "RFC-BETA",
+      "title": "Queue streaming contract PR",
+      "component": "serialization",
+      "risk": "medium",
+      "priority": "P0",
+      "depends_on": [
+        "HL-013"
+      ],
+      "estimated_replay_cost_credits": 13,
+      "acceptance_unit": "tests/release_46/test_014.py"
+    },
+    {
+      "work_item_id": "HL-015",
+      "rfc_id": "RFC-BETA",
+      "title": "Repair reconnect boundary",
+      "component": "client",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-014"
+      ],
+      "estimated_replay_cost_credits": 9,
+      "acceptance_unit": "tests/release_46/test_015.py"
+    },
+    {
+      "work_item_id": "HL-016",
+      "rfc_id": "RFC-BETA",
+      "title": "Isolate idempotency race",
+      "component": "stream",
+      "risk": "high",
+      "priority": "P1",
+      "depends_on": [
+        "HL-014"
+      ],
+      "estimated_replay_cost_credits": 10,
+      "acceptance_unit": "tests/release_46/test_016.py"
+    },
+    {
+      "work_item_id": "HL-017",
+      "rfc_id": "RFC-BETA",
+      "title": "Resolve stream cancellation semantics",
+      "component": "telemetry",
+      "risk": "high",
+      "priority": "P1",
+      "depends_on": [
+        "HL-015"
+      ],
+      "estimated_replay_cost_credits": 11,
+      "acceptance_unit": "tests/release_46/test_017.py"
+    },
+    {
+      "work_item_id": "HL-018",
+      "rfc_id": "RFC-BETA",
+      "title": "Document resume token",
+      "component": "migration",
+      "risk": "medium",
+      "priority": "P2",
+      "depends_on": [
+        "HL-017"
+      ],
+      "estimated_replay_cost_credits": 12,
+      "acceptance_unit": "tests/release_46/test_018.py"
+    },
+    {
+      "work_item_id": "HL-019",
+      "rfc_id": "RFC-BETA",
+      "title": "Replay checksum repair",
+      "component": "compat",
+      "risk": "medium",
+      "priority": "P2",
+      "depends_on": [
+        "HL-016"
+      ],
+      "estimated_replay_cost_credits": 13,
+      "acceptance_unit": "tests/release_46/test_019.py"
+    },
+    {
+      "work_item_id": "HL-020",
+      "rfc_id": "RFC-BETA",
+      "title": "Finalize stream rollout note",
+      "component": "serialization",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-018"
+      ],
+      "estimated_replay_cost_credits": 9,
+      "acceptance_unit": "tests/release_46/test_020.py"
+    },
+    {
+      "work_item_id": "HL-021",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Add bounded retry counter",
+      "component": "client",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [],
+      "estimated_replay_cost_credits": 10,
+      "acceptance_unit": "tests/release_46/test_021.py"
+    },
+    {
+      "work_item_id": "HL-022",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Persist trace correlation",
+      "component": "stream",
+      "risk": "low",
+      "priority": "P1",
+      "depends_on": [
+        "HL-021"
+      ],
+      "estimated_replay_cost_credits": 11,
+      "acceptance_unit": "tests/release_46/test_022.py"
+    },
+    {
+      "work_item_id": "HL-023",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Round-trip migration metadata",
+      "component": "telemetry",
+      "risk": "low",
+      "priority": "P1",
+      "depends_on": [
+        "HL-022"
+      ],
+      "estimated_replay_cost_credits": 12,
+      "acceptance_unit": "tests/release_46/test_023.py"
+    },
+    {
+      "work_item_id": "HL-024",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Queue migration safety PR",
+      "component": "migration",
+      "risk": "medium",
+      "priority": "P0",
+      "depends_on": [
+        "HL-023"
+      ],
+      "estimated_replay_cost_credits": 13,
+      "acceptance_unit": "tests/release_46/test_024.py"
+    },
+    {
+      "work_item_id": "HL-025",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Repair retry histogram labels",
+      "component": "compat",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-024"
+      ],
+      "estimated_replay_cost_credits": 9,
+      "acceptance_unit": "tests/release_46/test_025.py"
+    },
+    {
+      "work_item_id": "HL-026",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Isolate migration lock leak",
+      "component": "serialization",
+      "risk": "high",
+      "priority": "P1",
+      "depends_on": [
+        "HL-024"
+      ],
+      "estimated_replay_cost_credits": 10,
+      "acceptance_unit": "tests/release_46/test_026.py"
+    },
+    {
+      "work_item_id": "HL-027",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Choose schema downgrade behavior",
+      "component": "client",
+      "risk": "high",
+      "priority": "P1",
+      "depends_on": [
+        "HL-025"
+      ],
+      "estimated_replay_cost_credits": 11,
+      "acceptance_unit": "tests/release_46/test_027.py"
+    },
+    {
+      "work_item_id": "HL-028",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Publish telemetry migration note",
+      "component": "stream",
+      "risk": "medium",
+      "priority": "P2",
+      "depends_on": [
+        "HL-027"
+      ],
+      "estimated_replay_cost_credits": 12,
+      "acceptance_unit": "tests/release_46/test_028.py"
+    },
+    {
+      "work_item_id": "HL-029",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Replay exporter backpressure fix",
+      "component": "telemetry",
+      "risk": "medium",
+      "priority": "P2",
+      "depends_on": [
+        "HL-026"
+      ],
+      "estimated_replay_cost_credits": 13,
+      "acceptance_unit": "tests/release_46/test_029.py"
+    },
+    {
+      "work_item_id": "HL-030",
+      "rfc_id": "RFC-GAMMA",
+      "title": "Finalize migration checklist",
+      "component": "migration",
+      "risk": "medium",
+      "priority": "P1",
+      "depends_on": [
+        "HL-028"
+      ],
+      "estimated_replay_cost_credits": 9,
+      "acceptance_unit": "tests/release_46/test_030.py"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+gpu_id,profile_name,vram_gb,reserved_vram_gb,supports_bf16,bitsandbytes_compatible,cpu_offload_capacity_gb
+gpu-01,Northstar-8G-01,8.00,1.00,false,true,16.00
+gpu-02,Northstar-10G-02,10.00,1.00,false,false,8.00
+gpu-03,Northstar-12G-03,12.00,1.50,false,true,32.00
+gpu-04,Northstar-16G-04,16.00,2.00,true,true,24.00
+gpu-05,Northstar-20G-05,20.00,2.00,true,true,8.00
+gpu-06,Northstar-24G-06,24.00,2.50,true,true,48.00
+gpu-07,Northstar-24G-07,24.00,3.00,false,true,32.00
+gpu-08,Northstar-32G-08,32.00,4.00,true,true,64.00
+gpu-09,Northstar-40G-09,40.00,4.00,true,true,96.00
+gpu-10,Northstar-48G-10,48.00,5.00,true,true,96.00
+gpu-11,Northstar-64G-11,64.00,6.00,true,true,128.00
+gpu-12,Northstar-80G-12,80.00,8.00,true,true,160.00
+gpu-13,Northstar-12G-13,12.00,1.50,false,false,24.00
+gpu-14,Northstar-16G-14,16.00,2.00,false,true,32.00
+gpu-15,Northstar-24G-15,24.00,2.50,true,true,12.00
+gpu-16,Northstar-48G-16,48.00,5.00,true,true,40.00

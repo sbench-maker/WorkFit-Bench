@@ -1,0 +1,9 @@
+metric_id,target,warning,critical,owner,channel,response_minutes
+weekly_successful_production_runs,>= 18000 runs/week,week-over-week change <= -5%,week-over-week change <= -10%,Product Operations,#product-alerts,120
+production_run_success_rate,>= 97%,< 96%,< 94%,Workflow Reliability,#ops-alerts,30
+weekly_active_accounts,>= 34 accounts,< 33 accounts,< 31 accounts,Product Operations,#product-alerts,240
+template_adoption_rate,>= 55%,< 50%,< 45%,Growth Product,#product-alerts,240
+scheduler_error_rate,< 1%,>= 2%,>= 4%,SRE On-call,#ops-alerts,15
+scheduler_worst_daily_p95_latency,< 1200 ms,>= 1800 ms,>= 3000 ms,SRE On-call,#ops-alerts,15
+mrr,>= 87000 USD,week-over-week change <= -1%,week-over-week change <= -3%,Revenue Operations,#business-metrics,1440
+weekly_gross_logo_churn_rate,<= 1%,> 1%,>= 3%,Customer Success Operations,#business-metrics,1440

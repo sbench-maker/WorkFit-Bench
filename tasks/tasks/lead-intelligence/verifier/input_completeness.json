@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "inputs_complete": true,
+  "truncated": false,
+  "submission_copy": "/logs/verifier/submission/",
+  "task_data": [
+    {"path": "/root/data/campaign_brief.json", "records": 1},
+    {"path": "/root/data/sender_profile.json", "records": 1},
+    {"path": "/root/data/profile_export.csv", "records": 329},
+    {"path": "/root/data/crm_contacts.csv", "records": 240},
+    {"path": "/root/data/companies.csv", "records": 64},
+    {"path": "/root/data/activities.csv", "records": 492},
+    {"path": "/root/data/mutual_contacts.csv", "records": 18},
+    {"path": "/root/data/warm_paths.csv", "records": 175}
+  ],
+  "limitations": []
+}

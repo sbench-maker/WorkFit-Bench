@@ -1,0 +1,13 @@
+{
+  "method": "deterministic local construction",
+  "record_count": 240,
+  "case_groups": {
+    "valid_single": 80,
+    "invalid_quantity": 40,
+    "case_insensitive_duplicate": 40,
+    "insufficient_inventory": 40,
+    "invalid_required_field": 20,
+    "pre_cancelled": 20
+  },
+  "fictional": true
+}

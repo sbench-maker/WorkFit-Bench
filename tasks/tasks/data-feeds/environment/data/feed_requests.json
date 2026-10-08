@@ -1,0 +1,211 @@
+{
+  "requests": [
+    {
+      "request_id": "req-amz-01",
+      "dataset_type": "amazon_product",
+      "url": "https://amazon.example.invalid/dp/AMZ-FX-001",
+      "args": [
+        "amazon_product",
+        "https://amazon.example.invalid/dp/AMZ-FX-001"
+      ],
+      "input": {
+        "url": "https://amazon.example.invalid/dp/AMZ-FX-001"
+      },
+      "purpose": "launch gear watch"
+    },
+    {
+      "request_id": "req-amz-02",
+      "dataset_type": "amazon_product",
+      "url": "https://amazon.example.invalid/dp/AMZ-FX-002",
+      "args": [
+        "amazon_product",
+        "https://amazon.example.invalid/dp/AMZ-FX-002"
+      ],
+      "input": {
+        "url": "https://amazon.example.invalid/dp/AMZ-FX-002"
+      },
+      "purpose": "launch gear watch"
+    },
+    {
+      "request_id": "req-amz-03",
+      "dataset_type": "amazon_product",
+      "url": "https://amazon.example.invalid/dp/AMZ-FX-003",
+      "args": [
+        "amazon_product",
+        "https://amazon.example.invalid/dp/AMZ-FX-003"
+      ],
+      "input": {
+        "url": "https://amazon.example.invalid/dp/AMZ-FX-003"
+      },
+      "purpose": "launch gear watch"
+    },
+    {
+      "request_id": "req-yt-01",
+      "dataset_type": "youtube_comments",
+      "url": "https://youtube.example.invalid/watch?v=launch-cut-01",
+      "args": [
+        "youtube_comments",
+        "https://youtube.example.invalid/watch?v=launch-cut-01",
+        "32"
+      ],
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-01",
+        "num_of_comments": "32"
+      },
+      "purpose": "launch comment capture"
+    },
+    {
+      "request_id": "req-yt-02",
+      "dataset_type": "youtube_comments",
+      "url": "https://youtube.example.invalid/watch?v=launch-cut-02",
+      "args": [
+        "youtube_comments",
+        "https://youtube.example.invalid/watch?v=launch-cut-02",
+        "32"
+      ],
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-02",
+        "num_of_comments": "32"
+      },
+      "purpose": "launch comment capture"
+    },
+    {
+      "request_id": "req-yt-03",
+      "dataset_type": "youtube_comments",
+      "url": "https://youtube.example.invalid/watch?v=launch-cut-03",
+      "args": [
+        "youtube_comments",
+        "https://youtube.example.invalid/watch?v=launch-cut-03",
+        "32"
+      ],
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-03",
+        "num_of_comments": "32"
+      },
+      "purpose": "launch comment capture"
+    },
+    {
+      "request_id": "req-yt-04",
+      "dataset_type": "youtube_comments",
+      "url": "https://youtube.example.invalid/watch?v=launch-cut-04",
+      "args": [
+        "youtube_comments",
+        "https://youtube.example.invalid/watch?v=launch-cut-04",
+        "32"
+      ],
+      "input": {
+        "url": "https://youtube.example.invalid/watch?v=launch-cut-04",
+        "num_of_comments": "32"
+      },
+      "purpose": "launch comment capture"
+    },
+    {
+      "request_id": "req-ig-01",
+      "dataset_type": "instagram_posts",
+      "url": "https://instagram.example.invalid/fictional_studio_1/",
+      "args": [
+        "instagram_posts",
+        "https://instagram.example.invalid/fictional_studio_1/"
+      ],
+      "input": {
+        "url": "https://instagram.example.invalid/fictional_studio_1/"
+      },
+      "purpose": "creative performance archive"
+    },
+    {
+      "request_id": "req-ig-02",
+      "dataset_type": "instagram_posts",
+      "url": "https://instagram.example.invalid/fictional_studio_2/",
+      "args": [
+        "instagram_posts",
+        "https://instagram.example.invalid/fictional_studio_2/"
+      ],
+      "input": {
+        "url": "https://instagram.example.invalid/fictional_studio_2/"
+      },
+      "purpose": "creative performance archive"
+    },
+    {
+      "request_id": "req-ig-03",
+      "dataset_type": "instagram_posts",
+      "url": "https://instagram.example.invalid/fictional_studio_3/",
+      "args": [
+        "instagram_posts",
+        "https://instagram.example.invalid/fictional_studio_3/"
+      ],
+      "input": {
+        "url": "https://instagram.example.invalid/fictional_studio_3/"
+      },
+      "purpose": "creative performance archive"
+    },
+    {
+      "request_id": "req-map-01",
+      "dataset_type": "google_maps_reviews",
+      "url": "https://maps.example.invalid/place/harborlight-creative-rooms",
+      "args": [
+        "google_maps_reviews",
+        "https://maps.example.invalid/place/harborlight-creative-rooms",
+        "30"
+      ],
+      "input": {
+        "url": "https://maps.example.invalid/place/harborlight-creative-rooms",
+        "days_limit": "30"
+      },
+      "purpose": "venue sentiment archive"
+    },
+    {
+      "request_id": "req-map-02",
+      "dataset_type": "google_maps_reviews",
+      "url": "https://maps.example.invalid/place/closed-set",
+      "args": [
+        "google_maps_reviews",
+        "https://maps.example.invalid/place/closed-set",
+        "30"
+      ],
+      "input": {
+        "url": "https://maps.example.invalid/place/closed-set",
+        "days_limit": "30"
+      },
+      "purpose": "backup venue sentiment"
+    },
+    {
+      "request_id": "req-job-01",
+      "dataset_type": "linkedin_job_listings",
+      "url": "https://linkedin.example.invalid/company/fictional-media-1/jobs/",
+      "args": [
+        "linkedin_job_listings",
+        "https://linkedin.example.invalid/company/fictional-media-1/jobs/"
+      ],
+      "input": {
+        "url": "https://linkedin.example.invalid/company/fictional-media-1/jobs/"
+      },
+      "purpose": "production hiring signal"
+    },
+    {
+      "request_id": "req-job-02",
+      "dataset_type": "linkedin_job_listings",
+      "url": "https://linkedin.example.invalid/company/fictional-media-2/jobs/",
+      "args": [
+        "linkedin_job_listings",
+        "https://linkedin.example.invalid/company/fictional-media-2/jobs/"
+      ],
+      "input": {
+        "url": "https://linkedin.example.invalid/company/fictional-media-2/jobs/"
+      },
+      "purpose": "production hiring signal"
+    },
+    {
+      "request_id": "req-job-03",
+      "dataset_type": "linkedin_job_listings",
+      "url": "https://linkedin.example.invalid/company/fictional-media-3/jobs/",
+      "args": [
+        "linkedin_job_listings",
+        "https://linkedin.example.invalid/company/fictional-media-3/jobs/"
+      ],
+      "input": {
+        "url": "https://linkedin.example.invalid/company/fictional-media-3/jobs/"
+      },
+      "purpose": "production hiring signal"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "tools": [
+    {
+      "id": "helpdesk.get_ticket",
+      "kind": "read",
+      "returns": [
+        "ticket",
+        "thread",
+        "account_context"
+      ]
+    },
+    {
+      "id": "helpdesk.create_draft",
+      "kind": "write_draft",
+      "effect": "Saves a draft visible to staff; it does not send a customer reply.",
+      "success_status": "draft_saved"
+    },
+    {
+      "id": "billing.lookup_charge",
+      "kind": "read",
+      "returns": [
+        "amount_usd",
+        "currency",
+        "charge_status",
+        "payment_method",
+        "purchase_age_days",
+        "prior_refund",
+        "identity_verified"
+      ]
+    },
+    {
+      "id": "billing.issue_refund",
+      "kind": "financial_action",
+      "requires": [
+        "charge_id",
+        "amount_usd",
+        "reason"
+      ],
+      "statuses": [
+        "succeeded",
+        "pending",
+        "failed"
+      ],
+      "effect": "Only a succeeded result confirms that a refund occurred."
+    },
+    {
+      "id": "workflow.escalate_ticket",
+      "kind": "workflow_action",
+      "requires": [
+        "ticket_id",
+        "queue",
+        "summary",
+        "recommended_next_action"
+      ],
+      "statuses": [
+        "assigned",
+        "failed"
+      ]
+    }
+  ],
+  "unavailable_capabilities": [
+    "send_customer_reply",
+    "change_account_owner",
+    "lock_account",
+    "delete_or_export_customer_data",
+    "block_user"
+  ]
+}

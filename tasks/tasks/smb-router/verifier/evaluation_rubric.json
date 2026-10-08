@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__artifact_coverage",
+      "title": "Usable and complete response set",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The requested JSON is readable, preserves every pending case exactly once, and exposes a next step plus an owner-facing reply for each case.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_artifact_coverage_and_usability"
+      ]
+    },
+    {
+      "id": "completion__route_selection",
+      "title": "Best-next-step routing",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Each present response selects the correct single command or special handling outcome from the request, stored business context, and urgency rules.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_route_selection"
+      ]
+    },
+    {
+      "id": "completion__connector_safety",
+      "title": "Connector-aware readiness and limitations",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Responses distinguish ready, blocked, and onboarding cases correctly, name missing prerequisites, and disclose omitted optional inputs without falsely promising a runnable action.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_connector_readiness_and_disclosure"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__artifact_coverage",
+        "title": "Usable and complete response set",
+        "required_score": 10
+      },
+      {
+        "id": "completion__route_selection",
+        "title": "Best-next-step routing",
+        "required_score": 10
+      },
+      {
+        "id": "completion__connector_safety",
+        "title": "Connector-aware readiness and limitations",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

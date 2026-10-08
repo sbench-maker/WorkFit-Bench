@@ -1,0 +1,4422 @@
+[
+  {
+    "placeId": "plc_0001",
+    "title": "Cascade Gatherings",
+    "address": "101 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 3.7,
+    "reviewsCount": 5,
+    "phone": null,
+    "website": null,
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 1
+  },
+  {
+    "placeId": "plc_0002",
+    "title": "Cascade Gatherings",
+    "address": "144 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.1,
+    "reviewsCount": 42,
+    "phone": "+1-503-555-1001",
+    "website": "https://www.cascade-gatherings.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 2
+  },
+  {
+    "placeId": "plc_0003",
+    "title": "Cascade Gatherings",
+    "address": "187 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.5,
+    "reviewsCount": 79,
+    "phone": "+1-503-555-1002",
+    "website": "https://www.cascade-gatherings.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 3
+  },
+  {
+    "placeId": "plc_0004",
+    "title": "Rose City Rentals",
+    "address": "230 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.9,
+    "reviewsCount": 116,
+    "phone": "+1-503-555-1003",
+    "website": "https://www.rose-city-rentals.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 4
+  },
+  {
+    "placeId": "plc_0005",
+    "title": "Rose City Rentals",
+    "address": "273 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.0,
+    "reviewsCount": 153,
+    "phone": "+1-503-555-1004",
+    "website": "https://www.rose-city-rentals.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 5
+  },
+  {
+    "placeId": "plc_0006",
+    "title": "Rose City Rentals",
+    "address": "316 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.4,
+    "reviewsCount": 190,
+    "phone": "+1-503-555-1005",
+    "website": "https://www.rose-city-rentals.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 6
+  },
+  {
+    "placeId": "plc_0007",
+    "title": "Juniper Mobile Bar",
+    "address": "359 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.8,
+    "reviewsCount": 227,
+    "phone": "+1-503-555-1006",
+    "website": "https://www.juniper-mobile-bar.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 7
+  },
+  {
+    "placeId": "plc_0008",
+    "title": "Juniper Mobile Bar",
+    "address": "402 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 3.9,
+    "reviewsCount": 264,
+    "phone": "+1-503-555-1007",
+    "website": "https://www.juniper-mobile-bar.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 8
+  },
+  {
+    "placeId": "plc_0009",
+    "title": "Juniper Mobile Bar",
+    "address": "445 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.3,
+    "reviewsCount": 25,
+    "phone": "+1-503-555-1008",
+    "website": "https://www.juniper-mobile-bar.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 9
+  },
+  {
+    "placeId": "plc_0010",
+    "title": "Evergreen Event Co",
+    "address": "488 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.7,
+    "reviewsCount": 62,
+    "phone": null,
+    "website": "https://www.evergreen-event-co.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 10
+  },
+  {
+    "placeId": "plc_0011",
+    "title": "Evergreen Event Co",
+    "address": "531 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 3.8,
+    "reviewsCount": 99,
+    "phone": "+1-503-555-1010",
+    "website": "https://www.evergreen-event-co.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 11
+  },
+  {
+    "placeId": "plc_0012",
+    "title": "Evergreen Event Co",
+    "address": "574 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.2,
+    "reviewsCount": 136,
+    "phone": "+1-503-555-1011",
+    "website": "https://www.evergreen-event-co.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 12
+  },
+  {
+    "placeId": "plc_0013",
+    "title": "Meadow Velvet Party Rentals",
+    "address": "617 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.6,
+    "reviewsCount": 173,
+    "phone": "+1-503-555-1012",
+    "website": "https://www.meadow-velvet-party-rentals-13.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 13
+  },
+  {
+    "placeId": "plc_0014",
+    "title": "Northstar Dovetail Weddings",
+    "address": "660 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 3.7,
+    "reviewsCount": 210,
+    "phone": "+1-503-555-1013",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 14
+  },
+  {
+    "placeId": "plc_0015",
+    "title": "Orchard Ivy Events",
+    "address": "703 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.1,
+    "reviewsCount": 247,
+    "phone": "+1-503-555-1014",
+    "website": "https://www.orchard-ivy-events-15.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 15
+  },
+  {
+    "placeId": "plc_0016",
+    "title": "Pine Northstar Meeting Hall",
+    "address": "746 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.5,
+    "reviewsCount": 8,
+    "phone": "+1-503-555-1015",
+    "website": "https://www.pine-northstar-meeting-hall-16.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 16
+  },
+  {
+    "placeId": "plc_0017",
+    "title": "Quartz Spruce Bistro",
+    "address": "789 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.9,
+    "reviewsCount": 45,
+    "phone": "+1-503-555-1016",
+    "website": "https://www.quartz-spruce-bistro-17.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 17
+  },
+  {
+    "placeId": "plc_0018",
+    "title": "River Amber Mobile Bar",
+    "address": "832 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.0,
+    "reviewsCount": 82,
+    "phone": "+1-503-555-1017",
+    "website": "https://www.river-amber-mobile-bar-18.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 18
+  },
+  {
+    "placeId": "plc_0019",
+    "title": "Spruce Fern Kitchen",
+    "address": "875 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.4,
+    "reviewsCount": 119,
+    "phone": null,
+    "website": "https://www.spruce-fern-kitchen-19.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 19
+  },
+  {
+    "placeId": "plc_0020",
+    "title": "Thistle Kindred Catering",
+    "address": "918 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.8,
+    "reviewsCount": 156,
+    "phone": "+1-503-555-1019",
+    "website": "https://www.thistle-kindred-catering-20.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 20
+  },
+  {
+    "placeId": "plc_0021",
+    "title": "Union Pine Floral Studio",
+    "address": "961 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 3.9,
+    "reviewsCount": 193,
+    "phone": "+1-503-555-1020",
+    "website": "https://www.union-pine-floral-studio-21.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 21
+  },
+  {
+    "placeId": "plc_0022",
+    "title": "Velvet Union Party Rentals",
+    "address": "1004 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.3,
+    "reviewsCount": 230,
+    "phone": "+1-503-555-1021",
+    "website": "https://www.velvet-union-party-rentals-22.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 22
+  },
+  {
+    "placeId": "plc_0023",
+    "title": "Willow Cedar Weddings",
+    "address": "1047 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.7,
+    "reviewsCount": 267,
+    "phone": "+1-503-555-1022",
+    "website": "https://www.willow-cedar-weddings-23.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 23
+  },
+  {
+    "placeId": "plc_0024",
+    "title": "Amber Harbor Events",
+    "address": "1090 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 3.8,
+    "reviewsCount": 28,
+    "phone": "+1-503-555-1023",
+    "website": "https://www.amber-harbor-events-24.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 24
+  },
+  {
+    "placeId": "plc_0025",
+    "title": "Bluebird Meadow Meeting Hall",
+    "address": "1133 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.2,
+    "reviewsCount": 65,
+    "phone": "+1-503-555-1024",
+    "website": "https://www.bluebird-meadow-meeting-hall-25.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 25
+  },
+  {
+    "placeId": "plc_0026",
+    "title": "Cedar River Bistro",
+    "address": "1176 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 102,
+    "phone": "+1-503-555-1025",
+    "website": "https://www.cedar-river-bistro-26.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 26
+  },
+  {
+    "placeId": "plc_0027",
+    "title": "Dovetail Willow Mobile Bar",
+    "address": "1219 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 3.7,
+    "reviewsCount": 139,
+    "phone": "+1-503-555-1026",
+    "website": null,
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 27
+  },
+  {
+    "placeId": "plc_0028",
+    "title": "Ember Ember Kitchen",
+    "address": "1262 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.1,
+    "reviewsCount": 176,
+    "phone": null,
+    "website": "https://www.ember-ember-kitchen-28.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 28
+  },
+  {
+    "placeId": "plc_0029",
+    "title": "Fern Juniper Catering",
+    "address": "1305 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.5,
+    "reviewsCount": 213,
+    "phone": "+1-503-555-1028",
+    "website": "https://www.fern-juniper-catering-29.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 29
+  },
+  {
+    "placeId": "plc_0030",
+    "title": "Golden Orchard Floral Studio",
+    "address": "1348 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.9,
+    "reviewsCount": 250,
+    "phone": "+1-503-555-1029",
+    "website": "https://www.golden-orchard-floral-studio-30.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 30
+  },
+  {
+    "placeId": "plc_0031",
+    "title": "Harbor Thistle Party Rentals",
+    "address": "1391 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.0,
+    "reviewsCount": 11,
+    "phone": "+1-503-555-1030",
+    "website": "https://www.harbor-thistle-party-rentals-31.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 31
+  },
+  {
+    "placeId": "plc_0032",
+    "title": "Ivy Bluebird Weddings",
+    "address": "1434 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.4,
+    "reviewsCount": 48,
+    "phone": "+1-503-555-1031",
+    "website": "https://www.ivy-bluebird-weddings-32.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 32
+  },
+  {
+    "placeId": "plc_0033",
+    "title": "Juniper Golden Events",
+    "address": "1477 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.8,
+    "reviewsCount": 85,
+    "phone": "+1-503-555-1032",
+    "website": "https://www.juniper-golden-events-33.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 33
+  },
+  {
+    "placeId": "plc_0034",
+    "title": "Kindred Lantern Meeting Hall",
+    "address": "1520 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 3.9,
+    "reviewsCount": 122,
+    "phone": "+1-503-555-1033",
+    "website": "https://www.kindred-lantern-meeting-hall-34.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 34
+  },
+  {
+    "placeId": "plc_0035",
+    "title": "Lantern Quartz Bistro",
+    "address": "1563 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.3,
+    "reviewsCount": 159,
+    "phone": "+1-503-555-1034",
+    "website": "https://www.lantern-quartz-bistro-35.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 35
+  },
+  {
+    "placeId": "plc_0036",
+    "title": "Meadow Velvet Mobile Bar",
+    "address": "1606 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.7,
+    "reviewsCount": 196,
+    "phone": "+1-503-555-1035",
+    "website": "https://www.meadow-velvet-mobile-bar-36.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 36
+  },
+  {
+    "placeId": "plc_0037",
+    "title": "Northstar Dovetail Kitchen",
+    "address": "1649 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 3.8,
+    "reviewsCount": 233,
+    "phone": null,
+    "website": "https://www.northstar-dovetail-kitchen-37.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 37
+  },
+  {
+    "placeId": "plc_0038",
+    "title": "Orchard Ivy Catering",
+    "address": "1692 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.2,
+    "reviewsCount": 270,
+    "phone": "+1-503-555-1037",
+    "website": "https://www.orchard-ivy-catering-38.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 38
+  },
+  {
+    "placeId": "plc_0039",
+    "title": "Pine Northstar Floral Studio",
+    "address": "1735 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.6,
+    "reviewsCount": 31,
+    "phone": "+1-503-555-1038",
+    "website": "https://www.pine-northstar-floral-studio-39.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 39
+  },
+  {
+    "placeId": "plc_0040",
+    "title": "Quartz Spruce Party Rentals",
+    "address": "1778 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 3.7,
+    "reviewsCount": 68,
+    "phone": "+1-503-555-1039",
+    "website": null,
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 40
+  },
+  {
+    "placeId": "plc_0041",
+    "title": "River Amber Weddings",
+    "address": "1821 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.1,
+    "reviewsCount": 105,
+    "phone": "+1-503-555-1040",
+    "website": "https://www.river-amber-weddings-41.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 41
+  },
+  {
+    "placeId": "plc_0042",
+    "title": "Spruce Fern Events",
+    "address": "1864 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.5,
+    "reviewsCount": 142,
+    "phone": "+1-503-555-1041",
+    "website": "https://www.spruce-fern-events-42.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 42
+  },
+  {
+    "placeId": "plc_0043",
+    "title": "Thistle Kindred Meeting Hall",
+    "address": "1907 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.9,
+    "reviewsCount": 179,
+    "phone": "+1-503-555-1042",
+    "website": "https://www.thistle-kindred-meeting-hall-43.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 43
+  },
+  {
+    "placeId": "plc_0044",
+    "title": "Union Pine Bistro",
+    "address": "1950 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.0,
+    "reviewsCount": 216,
+    "phone": "+1-503-555-1043",
+    "website": "https://www.union-pine-bistro-44.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 44
+  },
+  {
+    "placeId": "plc_0045",
+    "title": "Velvet Union Mobile Bar",
+    "address": "1993 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.4,
+    "reviewsCount": 253,
+    "phone": "+1-503-555-1044",
+    "website": "https://www.velvet-union-mobile-bar-45.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 45
+  },
+  {
+    "placeId": "plc_0046",
+    "title": "Willow Cedar Kitchen",
+    "address": "2036 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.8,
+    "reviewsCount": 14,
+    "phone": null,
+    "website": "https://www.willow-cedar-kitchen-46.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 46
+  },
+  {
+    "placeId": "plc_0047",
+    "title": "Amber Harbor Catering",
+    "address": "2079 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 3.9,
+    "reviewsCount": 51,
+    "phone": "+1-503-555-1046",
+    "website": "https://www.amber-harbor-catering-47.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 47
+  },
+  {
+    "placeId": "plc_0048",
+    "title": "Bluebird Meadow Floral Studio",
+    "address": "2122 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.3,
+    "reviewsCount": 88,
+    "phone": "+1-503-555-1047",
+    "website": "https://www.bluebird-meadow-floral-studio-48.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 48
+  },
+  {
+    "placeId": "plc_0049",
+    "title": "Cedar River Party Rentals",
+    "address": "2165 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.7,
+    "reviewsCount": 125,
+    "phone": "+1-503-555-1048",
+    "website": "https://www.cedar-river-party-rentals-49.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 49
+  },
+  {
+    "placeId": "plc_0050",
+    "title": "Dovetail Willow Weddings",
+    "address": "2208 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 3.8,
+    "reviewsCount": 162,
+    "phone": "+1-503-555-1049",
+    "website": "https://www.dovetail-willow-weddings-50.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 50
+  },
+  {
+    "placeId": "plc_0051",
+    "title": "Ember Ember Events",
+    "address": "2251 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.2,
+    "reviewsCount": 199,
+    "phone": "+1-503-555-1050",
+    "website": "https://www.ember-ember-events-51.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 51
+  },
+  {
+    "placeId": "plc_0052",
+    "title": "Fern Juniper Meeting Hall",
+    "address": "2294 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.6,
+    "reviewsCount": 236,
+    "phone": "+1-503-555-1051",
+    "website": "https://www.fern-juniper-meeting-hall-52.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 52
+  },
+  {
+    "placeId": "plc_0053",
+    "title": "Golden Orchard Bistro",
+    "address": "2337 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 3.7,
+    "reviewsCount": 273,
+    "phone": "+1-503-555-1052",
+    "website": null,
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 53
+  },
+  {
+    "placeId": "plc_0054",
+    "title": "Harbor Thistle Mobile Bar",
+    "address": "2380 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.1,
+    "reviewsCount": 34,
+    "phone": "+1-503-555-1053",
+    "website": "https://www.harbor-thistle-mobile-bar-54.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 54
+  },
+  {
+    "placeId": "plc_0055",
+    "title": "Ivy Bluebird Kitchen",
+    "address": "2423 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.5,
+    "reviewsCount": 71,
+    "phone": null,
+    "website": "https://www.ivy-bluebird-kitchen-55.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 55
+  },
+  {
+    "placeId": "plc_0056",
+    "title": "Juniper Golden Catering",
+    "address": "2466 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.9,
+    "reviewsCount": 108,
+    "phone": "+1-503-555-1055",
+    "website": "https://www.juniper-golden-catering-56.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 56
+  },
+  {
+    "placeId": "plc_0057",
+    "title": "Kindred Lantern Floral Studio",
+    "address": "2509 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.0,
+    "reviewsCount": 145,
+    "phone": "+1-503-555-1056",
+    "website": "https://www.kindred-lantern-floral-studio-57.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 57
+  },
+  {
+    "placeId": "plc_0058",
+    "title": "Lantern Quartz Party Rentals",
+    "address": "2552 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.4,
+    "reviewsCount": 182,
+    "phone": "+1-503-555-1057",
+    "website": "https://www.lantern-quartz-party-rentals-58.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 58
+  },
+  {
+    "placeId": "plc_0059",
+    "title": "Meadow Velvet Weddings",
+    "address": "2595 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.8,
+    "reviewsCount": 219,
+    "phone": "+1-503-555-1058",
+    "website": "https://www.meadow-velvet-weddings-59.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 59
+  },
+  {
+    "placeId": "plc_0060",
+    "title": "Northstar Dovetail Events",
+    "address": "2638 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 3.9,
+    "reviewsCount": 256,
+    "phone": "+1-503-555-1059",
+    "website": "https://www.northstar-dovetail-events-60.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 60
+  },
+  {
+    "placeId": "plc_0061",
+    "title": "Orchard Ivy Meeting Hall",
+    "address": "2681 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.3,
+    "reviewsCount": 17,
+    "phone": "+1-503-555-1060",
+    "website": "https://www.orchard-ivy-meeting-hall-61.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 61
+  },
+  {
+    "placeId": "plc_0062",
+    "title": "Pine Northstar Bistro",
+    "address": "2724 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 54,
+    "phone": "+1-503-555-1061",
+    "website": "https://www.pine-northstar-bistro-62.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 62
+  },
+  {
+    "placeId": "plc_0063",
+    "title": "Quartz Spruce Mobile Bar",
+    "address": "2767 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 3.8,
+    "reviewsCount": 91,
+    "phone": "+1-503-555-1062",
+    "website": "https://www.quartz-spruce-mobile-bar-63.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 63
+  },
+  {
+    "placeId": "plc_0064",
+    "title": "River Amber Kitchen",
+    "address": "2810 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.2,
+    "reviewsCount": 128,
+    "phone": null,
+    "website": "https://www.river-amber-kitchen-64.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 64
+  },
+  {
+    "placeId": "plc_0065",
+    "title": "Spruce Fern Catering",
+    "address": "2853 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.6,
+    "reviewsCount": 165,
+    "phone": "+1-503-555-1064",
+    "website": "https://www.spruce-fern-catering-65.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 65
+  },
+  {
+    "placeId": "plc_0066",
+    "title": "Thistle Kindred Floral Studio",
+    "address": "2896 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 3.7,
+    "reviewsCount": 202,
+    "phone": "+1-503-555-1065",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 66
+  },
+  {
+    "placeId": "plc_0067",
+    "title": "Union Pine Party Rentals",
+    "address": "2939 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.1,
+    "reviewsCount": 239,
+    "phone": "+1-503-555-1066",
+    "website": "https://www.union-pine-party-rentals-67.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 67
+  },
+  {
+    "placeId": "plc_0068",
+    "title": "Velvet Union Weddings",
+    "address": "2982 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.5,
+    "reviewsCount": 276,
+    "phone": "+1-503-555-1067",
+    "website": "https://www.velvet-union-weddings-68.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 68
+  },
+  {
+    "placeId": "plc_0069",
+    "title": "Willow Cedar Events",
+    "address": "3025 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.9,
+    "reviewsCount": 37,
+    "phone": "+1-503-555-1068",
+    "website": "https://www.willow-cedar-events-69.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 69
+  },
+  {
+    "placeId": "plc_0070",
+    "title": "Amber Harbor Meeting Hall",
+    "address": "3068 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.0,
+    "reviewsCount": 74,
+    "phone": "+1-503-555-1069",
+    "website": "https://www.amber-harbor-meeting-hall-70.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 70
+  },
+  {
+    "placeId": "plc_0071",
+    "title": "Bluebird Meadow Bistro",
+    "address": "3111 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 111,
+    "phone": "+1-503-555-1070",
+    "website": "https://www.bluebird-meadow-bistro-71.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 71
+  },
+  {
+    "placeId": "plc_0072",
+    "title": "Cedar River Mobile Bar",
+    "address": "3154 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.8,
+    "reviewsCount": 148,
+    "phone": "+1-503-555-1071",
+    "website": "https://www.cedar-river-mobile-bar-72.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 72
+  },
+  {
+    "placeId": "plc_0073",
+    "title": "Dovetail Willow Kitchen",
+    "address": "3197 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 3.9,
+    "reviewsCount": 185,
+    "phone": null,
+    "website": "https://www.dovetail-willow-kitchen-73.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 73
+  },
+  {
+    "placeId": "plc_0074",
+    "title": "Ember Ember Catering",
+    "address": "3240 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.3,
+    "reviewsCount": 222,
+    "phone": "+1-503-555-1073",
+    "website": "https://www.ember-ember-catering-74.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 74
+  },
+  {
+    "placeId": "plc_0075",
+    "title": "Fern Juniper Floral Studio",
+    "address": "3283 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.7,
+    "reviewsCount": 259,
+    "phone": "+1-503-555-1074",
+    "website": "https://www.fern-juniper-floral-studio-75.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 75
+  },
+  {
+    "placeId": "plc_0076",
+    "title": "Golden Orchard Party Rentals",
+    "address": "3326 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 3.8,
+    "reviewsCount": 20,
+    "phone": "+1-503-555-1075",
+    "website": "https://www.golden-orchard-party-rentals-76.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 76
+  },
+  {
+    "placeId": "plc_0077",
+    "title": "Harbor Thistle Weddings",
+    "address": "3369 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.2,
+    "reviewsCount": 57,
+    "phone": "+1-503-555-1076",
+    "website": "https://www.harbor-thistle-weddings-77.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 77
+  },
+  {
+    "placeId": "plc_0078",
+    "title": "Ivy Bluebird Events",
+    "address": "3412 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.6,
+    "reviewsCount": 94,
+    "phone": "+1-503-555-1077",
+    "website": "https://www.ivy-bluebird-events-78.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 78
+  },
+  {
+    "placeId": "plc_0079",
+    "title": "Juniper Golden Meeting Hall",
+    "address": "3455 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 3.7,
+    "reviewsCount": 131,
+    "phone": "+1-503-555-1078",
+    "website": null,
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 79
+  },
+  {
+    "placeId": "plc_0080",
+    "title": "Kindred Lantern Bistro",
+    "address": "3498 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.1,
+    "reviewsCount": 168,
+    "phone": "+1-503-555-1079",
+    "website": "https://www.kindred-lantern-bistro-80.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 80
+  },
+  {
+    "placeId": "plc_0081",
+    "title": "Lantern Quartz Mobile Bar",
+    "address": "3541 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.5,
+    "reviewsCount": 205,
+    "phone": "+1-503-555-1080",
+    "website": "https://www.lantern-quartz-mobile-bar-81.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 81
+  },
+  {
+    "placeId": "plc_0082",
+    "title": "Meadow Velvet Kitchen",
+    "address": "3584 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.9,
+    "reviewsCount": 242,
+    "phone": null,
+    "website": "https://www.meadow-velvet-kitchen-82.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 82
+  },
+  {
+    "placeId": "plc_0083",
+    "title": "Northstar Dovetail Catering",
+    "address": "3627 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.0,
+    "reviewsCount": 279,
+    "phone": "+1-503-555-1082",
+    "website": "https://www.northstar-dovetail-catering-83.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 83
+  },
+  {
+    "placeId": "plc_0084",
+    "title": "Orchard Ivy Floral Studio",
+    "address": "3670 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.4,
+    "reviewsCount": 40,
+    "phone": "+1-503-555-1083",
+    "website": "https://www.orchard-ivy-floral-studio-84.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 84
+  },
+  {
+    "placeId": "plc_0085",
+    "title": "Pine Northstar Party Rentals",
+    "address": "3713 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.8,
+    "reviewsCount": 77,
+    "phone": "+1-503-555-1084",
+    "website": "https://www.pine-northstar-party-rentals-85.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 85
+  },
+  {
+    "placeId": "plc_0086",
+    "title": "Quartz Spruce Weddings",
+    "address": "3756 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 3.9,
+    "reviewsCount": 114,
+    "phone": "+1-503-555-1085",
+    "website": "https://www.quartz-spruce-weddings-86.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 86
+  },
+  {
+    "placeId": "plc_0087",
+    "title": "River Amber Events",
+    "address": "3799 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.3,
+    "reviewsCount": 151,
+    "phone": "+1-503-555-1086",
+    "website": "https://www.river-amber-events-87.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 87
+  },
+  {
+    "placeId": "plc_0088",
+    "title": "Spruce Fern Meeting Hall",
+    "address": "3842 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.7,
+    "reviewsCount": 188,
+    "phone": "+1-503-555-1087",
+    "website": "https://www.spruce-fern-meeting-hall-88.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 88
+  },
+  {
+    "placeId": "plc_0089",
+    "title": "Thistle Kindred Bistro",
+    "address": "3885 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 3.8,
+    "reviewsCount": 225,
+    "phone": "+1-503-555-1088",
+    "website": "https://www.thistle-kindred-bistro-89.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 89
+  },
+  {
+    "placeId": "plc_0090",
+    "title": "Union Pine Mobile Bar",
+    "address": "3928 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.2,
+    "reviewsCount": 262,
+    "phone": "+1-503-555-1089",
+    "website": "https://www.union-pine-mobile-bar-90.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 90
+  },
+  {
+    "placeId": "plc_0091",
+    "title": "Velvet Union Kitchen",
+    "address": "3971 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.6,
+    "reviewsCount": 23,
+    "phone": null,
+    "website": "https://www.velvet-union-kitchen-91.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 91
+  },
+  {
+    "placeId": "plc_0092",
+    "title": "Willow Cedar Catering",
+    "address": "4014 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 3.7,
+    "reviewsCount": 60,
+    "phone": "+1-503-555-1091",
+    "website": null,
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 92
+  },
+  {
+    "placeId": "plc_0093",
+    "title": "Amber Harbor Floral Studio",
+    "address": "4057 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.1,
+    "reviewsCount": 97,
+    "phone": "+1-503-555-1092",
+    "website": "https://www.amber-harbor-floral-studio-93.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 93
+  },
+  {
+    "placeId": "plc_0094",
+    "title": "Bluebird Meadow Party Rentals",
+    "address": "4100 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.5,
+    "reviewsCount": 134,
+    "phone": "+1-503-555-1093",
+    "website": "https://www.bluebird-meadow-party-rentals-94.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 94
+  },
+  {
+    "placeId": "plc_0095",
+    "title": "Cedar River Weddings",
+    "address": "4143 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.9,
+    "reviewsCount": 171,
+    "phone": "+1-503-555-1094",
+    "website": "https://www.cedar-river-weddings-95.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 95
+  },
+  {
+    "placeId": "plc_0096",
+    "title": "Dovetail Willow Events",
+    "address": "4186 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.0,
+    "reviewsCount": 208,
+    "phone": "+1-503-555-1095",
+    "website": "https://www.dovetail-willow-events-96.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 96
+  },
+  {
+    "placeId": "plc_0097",
+    "title": "Ember Ember Meeting Hall",
+    "address": "4229 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.4,
+    "reviewsCount": 245,
+    "phone": "+1-503-555-1096",
+    "website": "https://www.ember-ember-meeting-hall-97.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 97
+  },
+  {
+    "placeId": "plc_0098",
+    "title": "Fern Juniper Bistro",
+    "address": "4272 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.8,
+    "reviewsCount": 6,
+    "phone": "+1-503-555-1097",
+    "website": "https://www.fern-juniper-bistro-98.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 98
+  },
+  {
+    "placeId": "plc_0099",
+    "title": "Golden Orchard Mobile Bar",
+    "address": "4315 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 3.9,
+    "reviewsCount": 43,
+    "phone": "+1-503-555-1098",
+    "website": "https://www.golden-orchard-mobile-bar-99.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 99
+  },
+  {
+    "placeId": "plc_0100",
+    "title": "Harbor Thistle Kitchen",
+    "address": "4358 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.3,
+    "reviewsCount": 80,
+    "phone": null,
+    "website": "https://www.harbor-thistle-kitchen-100.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 100
+  },
+  {
+    "placeId": "plc_0101",
+    "title": "Ivy Bluebird Catering",
+    "address": "4401 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.7,
+    "reviewsCount": 117,
+    "phone": "+1-503-555-1100",
+    "website": "https://www.ivy-bluebird-catering-101.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 101
+  },
+  {
+    "placeId": "plc_0102",
+    "title": "Juniper Golden Floral Studio",
+    "address": "4444 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 3.8,
+    "reviewsCount": 154,
+    "phone": "+1-503-555-1101",
+    "website": "https://www.juniper-golden-floral-studio-102.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 102
+  },
+  {
+    "placeId": "plc_0103",
+    "title": "Kindred Lantern Party Rentals",
+    "address": "4487 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.2,
+    "reviewsCount": 191,
+    "phone": "+1-503-555-1102",
+    "website": "https://www.kindred-lantern-party-rentals-103.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 103
+  },
+  {
+    "placeId": "plc_0104",
+    "title": "Lantern Quartz Weddings",
+    "address": "4530 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.6,
+    "reviewsCount": 228,
+    "phone": "+1-503-555-1103",
+    "website": "https://www.lantern-quartz-weddings-104.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 104
+  },
+  {
+    "placeId": "plc_0105",
+    "title": "Meadow Velvet Events",
+    "address": "4573 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 3.7,
+    "reviewsCount": 265,
+    "phone": "+1-503-555-1104",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 105
+  },
+  {
+    "placeId": "plc_0106",
+    "title": "Northstar Dovetail Meeting Hall",
+    "address": "4616 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.1,
+    "reviewsCount": 26,
+    "phone": "+1-503-555-1105",
+    "website": "https://www.northstar-dovetail-meeting-hall-106.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 106
+  },
+  {
+    "placeId": "plc_0107",
+    "title": "Orchard Ivy Bistro",
+    "address": "4659 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 63,
+    "phone": "+1-503-555-1106",
+    "website": "https://www.orchard-ivy-bistro-107.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 107
+  },
+  {
+    "placeId": "plc_0108",
+    "title": "Pine Northstar Mobile Bar",
+    "address": "4702 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.9,
+    "reviewsCount": 100,
+    "phone": "+1-503-555-1107",
+    "website": "https://www.pine-northstar-mobile-bar-108.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 108
+  },
+  {
+    "placeId": "plc_0109",
+    "title": "Quartz Spruce Kitchen",
+    "address": "4745 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.0,
+    "reviewsCount": 137,
+    "phone": null,
+    "website": "https://www.quartz-spruce-kitchen-109.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 109
+  },
+  {
+    "placeId": "plc_0110",
+    "title": "River Amber Catering",
+    "address": "4788 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.4,
+    "reviewsCount": 174,
+    "phone": "+1-503-555-1109",
+    "website": "https://www.river-amber-catering-110.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 110
+  },
+  {
+    "placeId": "plc_0111",
+    "title": "Spruce Fern Floral Studio",
+    "address": "4831 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.8,
+    "reviewsCount": 211,
+    "phone": "+1-503-555-1110",
+    "website": "https://www.spruce-fern-floral-studio-111.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 111
+  },
+  {
+    "placeId": "plc_0112",
+    "title": "Thistle Kindred Party Rentals",
+    "address": "4874 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 3.9,
+    "reviewsCount": 248,
+    "phone": "+1-503-555-1111",
+    "website": "https://www.thistle-kindred-party-rentals-112.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 112
+  },
+  {
+    "placeId": "plc_0113",
+    "title": "Union Pine Weddings",
+    "address": "4917 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.3,
+    "reviewsCount": 9,
+    "phone": "+1-503-555-1112",
+    "website": "https://www.union-pine-weddings-113.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 113
+  },
+  {
+    "placeId": "plc_0114",
+    "title": "Velvet Union Events",
+    "address": "4960 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.7,
+    "reviewsCount": 46,
+    "phone": "+1-503-555-1113",
+    "website": "https://www.velvet-union-events-114.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 114
+  },
+  {
+    "placeId": "plc_0115",
+    "title": "Willow Cedar Meeting Hall",
+    "address": "5003 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 3.8,
+    "reviewsCount": 83,
+    "phone": "+1-503-555-1114",
+    "website": "https://www.willow-cedar-meeting-hall-115.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 115
+  },
+  {
+    "placeId": "plc_0116",
+    "title": "Amber Harbor Bistro",
+    "address": "5046 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.2,
+    "reviewsCount": 120,
+    "phone": "+1-503-555-1115",
+    "website": "https://www.amber-harbor-bistro-116.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 116
+  },
+  {
+    "placeId": "plc_0117",
+    "title": "Bluebird Meadow Mobile Bar",
+    "address": "5089 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.6,
+    "reviewsCount": 157,
+    "phone": "+1-503-555-1116",
+    "website": "https://www.bluebird-meadow-mobile-bar-117.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 117
+  },
+  {
+    "placeId": "plc_0118",
+    "title": "Cedar River Kitchen",
+    "address": "5132 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 3.7,
+    "reviewsCount": 194,
+    "phone": null,
+    "website": null,
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 118
+  },
+  {
+    "placeId": "plc_0119",
+    "title": "Dovetail Willow Catering",
+    "address": "5175 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.1,
+    "reviewsCount": 231,
+    "phone": "+1-503-555-1118",
+    "website": "https://www.dovetail-willow-catering-119.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 119
+  },
+  {
+    "placeId": "plc_0120",
+    "title": "Ember Ember Floral Studio",
+    "address": "5218 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.5,
+    "reviewsCount": 268,
+    "phone": "+1-503-555-1119",
+    "website": "https://www.ember-ember-floral-studio-120.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 120
+  },
+  {
+    "placeId": "plc_0121",
+    "title": "Fern Juniper Party Rentals",
+    "address": "5261 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.9,
+    "reviewsCount": 29,
+    "phone": "+1-503-555-1120",
+    "website": "https://www.fern-juniper-party-rentals-121.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 121
+  },
+  {
+    "placeId": "plc_0122",
+    "title": "Golden Orchard Weddings",
+    "address": "5304 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.0,
+    "reviewsCount": 66,
+    "phone": "+1-503-555-1121",
+    "website": "https://www.golden-orchard-weddings-122.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 122
+  },
+  {
+    "placeId": "plc_0123",
+    "title": "Harbor Thistle Events",
+    "address": "5347 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.4,
+    "reviewsCount": 103,
+    "phone": "+1-503-555-1122",
+    "website": "https://www.harbor-thistle-events-123.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 123
+  },
+  {
+    "placeId": "plc_0124",
+    "title": "Ivy Bluebird Meeting Hall",
+    "address": "5390 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.8,
+    "reviewsCount": 140,
+    "phone": "+1-503-555-1123",
+    "website": "https://www.ivy-bluebird-meeting-hall-124.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 124
+  },
+  {
+    "placeId": "plc_0125",
+    "title": "Juniper Golden Bistro",
+    "address": "5433 Everett Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Restaurant",
+    "totalScore": 3.9,
+    "reviewsCount": 177,
+    "phone": "+1-503-555-1124",
+    "website": "https://www.juniper-golden-bistro-125.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 125
+  },
+  {
+    "placeId": "plc_0126",
+    "title": "Kindred Lantern Mobile Bar",
+    "address": "5476 Fremont Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Bar service",
+    "totalScore": 4.3,
+    "reviewsCount": 214,
+    "phone": "+1-503-555-1125",
+    "website": "https://www.kindred-lantern-mobile-bar-126.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 126
+  },
+  {
+    "placeId": "plc_0127",
+    "title": "Lantern Quartz Kitchen",
+    "address": "5519 Glisan St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.7,
+    "reviewsCount": 251,
+    "phone": null,
+    "website": "https://www.lantern-quartz-kitchen-127.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 127
+  },
+  {
+    "placeId": "plc_0128",
+    "title": "Meadow Velvet Catering",
+    "address": "5562 Hawthorne Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Caterer",
+    "totalScore": 3.8,
+    "reviewsCount": 12,
+    "phone": "+1-503-555-1127",
+    "website": "https://www.meadow-velvet-catering-128.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 128
+  },
+  {
+    "placeId": "plc_0129",
+    "title": "Northstar Dovetail Floral Studio",
+    "address": "5605 Irving Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Florist",
+    "totalScore": 4.2,
+    "reviewsCount": 49,
+    "phone": "+1-503-555-1128",
+    "website": "https://www.northstar-dovetail-floral-studio-129.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 129
+  },
+  {
+    "placeId": "plc_0130",
+    "title": "Orchard Ivy Party Rentals",
+    "address": "5648 Johnson St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.6,
+    "reviewsCount": 86,
+    "phone": "+1-503-555-1129",
+    "website": "https://www.orchard-ivy-party-rentals-130.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 130
+  },
+  {
+    "placeId": "plc_0131",
+    "title": "Pine Northstar Weddings",
+    "address": "5691 Killingsworth Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Wedding service",
+    "totalScore": 3.7,
+    "reviewsCount": 123,
+    "phone": "+1-503-555-1130",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 131
+  },
+  {
+    "placeId": "plc_0132",
+    "title": "Quartz Spruce Events",
+    "address": "5734 Lovejoy Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Event planner",
+    "totalScore": 4.1,
+    "reviewsCount": 160,
+    "phone": "+1-503-555-1131",
+    "website": "https://www.quartz-spruce-events-132.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 132
+  },
+  {
+    "placeId": "plc_0133",
+    "title": "River Amber Meeting Hall",
+    "address": "5777 Alder St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Conference center",
+    "totalScore": 4.5,
+    "reviewsCount": 197,
+    "phone": "+1-503-555-1132",
+    "website": "https://www.river-amber-meeting-hall-133.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 133
+  },
+  {
+    "placeId": "plc_0134",
+    "title": "Spruce Fern Bistro",
+    "address": "5820 Belmont Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Restaurant",
+    "totalScore": 4.9,
+    "reviewsCount": 234,
+    "phone": "+1-503-555-1133",
+    "website": "https://www.spruce-fern-bistro-134.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 134
+  },
+  {
+    "placeId": "plc_0135",
+    "title": "Thistle Kindred Mobile Bar",
+    "address": "5863 Cedar Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Bar service",
+    "totalScore": 4.0,
+    "reviewsCount": 271,
+    "phone": "+1-503-555-1134",
+    "website": "https://www.thistle-kindred-mobile-bar-135.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 135
+  },
+  {
+    "placeId": "plc_0136",
+    "title": "Union Pine Kitchen",
+    "address": "5906 Division St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.4,
+    "reviewsCount": 32,
+    "phone": null,
+    "website": "https://www.union-pine-kitchen-136.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 136
+  },
+  {
+    "placeId": "plc_0137",
+    "title": "Velvet Union Catering",
+    "address": "5949 Everett Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Caterer",
+    "totalScore": 4.8,
+    "reviewsCount": 69,
+    "phone": "+1-503-555-1136",
+    "website": "https://www.velvet-union-catering-137.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 137
+  },
+  {
+    "placeId": "plc_0138",
+    "title": "Willow Cedar Floral Studio",
+    "address": "5992 Fremont Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Florist",
+    "totalScore": 3.9,
+    "reviewsCount": 106,
+    "phone": "+1-503-555-1137",
+    "website": "https://www.willow-cedar-floral-studio-138.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 138
+  },
+  {
+    "placeId": "plc_0139",
+    "title": "Amber Harbor Party Rentals",
+    "address": "6035 Glisan St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.3,
+    "reviewsCount": 143,
+    "phone": "+1-503-555-1138",
+    "website": "https://www.amber-harbor-party-rentals-139.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 139
+  },
+  {
+    "placeId": "plc_0140",
+    "title": "Bluebird Meadow Weddings",
+    "address": "6078 Hawthorne Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Wedding service",
+    "totalScore": 4.7,
+    "reviewsCount": 180,
+    "phone": "+1-503-555-1139",
+    "website": "https://www.bluebird-meadow-weddings-140.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 140
+  },
+  {
+    "placeId": "plc_0141",
+    "title": "Cedar River Events",
+    "address": "6121 Irving Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Event planner",
+    "totalScore": 3.8,
+    "reviewsCount": 217,
+    "phone": "+1-503-555-1140",
+    "website": "https://www.cedar-river-events-141.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 141
+  },
+  {
+    "placeId": "plc_0142",
+    "title": "Dovetail Willow Meeting Hall",
+    "address": "6164 Johnson St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Conference center",
+    "totalScore": 4.2,
+    "reviewsCount": 254,
+    "phone": "+1-503-555-1141",
+    "website": "https://www.dovetail-willow-meeting-hall-142.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 142
+  },
+  {
+    "placeId": "plc_0143",
+    "title": "Ember Ember Bistro",
+    "address": "6207 Killingsworth Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 15,
+    "phone": "+1-503-555-1142",
+    "website": "https://www.ember-ember-bistro-143.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 143
+  },
+  {
+    "placeId": "plc_0144",
+    "title": "Fern Juniper Mobile Bar",
+    "address": "6250 Lovejoy Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Bar service",
+    "totalScore": 3.7,
+    "reviewsCount": 52,
+    "phone": "+1-503-555-1143",
+    "website": null,
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 144
+  },
+  {
+    "placeId": "plc_0145",
+    "title": "Golden Orchard Kitchen",
+    "address": "6293 Alder St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.1,
+    "reviewsCount": 89,
+    "phone": null,
+    "website": "https://www.golden-orchard-kitchen-145.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 145
+  },
+  {
+    "placeId": "plc_0146",
+    "title": "Harbor Thistle Catering",
+    "address": "6336 Belmont Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Caterer",
+    "totalScore": 4.5,
+    "reviewsCount": 126,
+    "phone": "+1-503-555-1145",
+    "website": "https://www.harbor-thistle-catering-146.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 146
+  },
+  {
+    "placeId": "plc_0147",
+    "title": "Ivy Bluebird Floral Studio",
+    "address": "6379 Cedar Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Florist",
+    "totalScore": 4.9,
+    "reviewsCount": 163,
+    "phone": "+1-503-555-1146",
+    "website": "https://www.ivy-bluebird-floral-studio-147.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 147
+  },
+  {
+    "placeId": "plc_0148",
+    "title": "Juniper Golden Party Rentals",
+    "address": "6422 Division St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.0,
+    "reviewsCount": 200,
+    "phone": "+1-503-555-1147",
+    "website": "https://www.juniper-golden-party-rentals-148.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 148
+  },
+  {
+    "placeId": "plc_0149",
+    "title": "Kindred Lantern Weddings",
+    "address": "6465 Everett Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Wedding service",
+    "totalScore": 4.4,
+    "reviewsCount": 237,
+    "phone": "+1-503-555-1148",
+    "website": "https://www.kindred-lantern-weddings-149.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 149
+  },
+  {
+    "placeId": "plc_0150",
+    "title": "Lantern Quartz Events",
+    "address": "6508 Fremont Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Event planner",
+    "totalScore": 4.8,
+    "reviewsCount": 274,
+    "phone": "+1-503-555-1149",
+    "website": "https://www.lantern-quartz-events-150.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 150
+  },
+  {
+    "placeId": "plc_0151",
+    "title": "Meadow Velvet Meeting Hall",
+    "address": "6551 Glisan St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Conference center",
+    "totalScore": 3.9,
+    "reviewsCount": 35,
+    "phone": "+1-503-555-1150",
+    "website": "https://www.meadow-velvet-meeting-hall-151.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 151
+  },
+  {
+    "placeId": "plc_0152",
+    "title": "Northstar Dovetail Bistro",
+    "address": "6594 Hawthorne Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Restaurant",
+    "totalScore": 4.3,
+    "reviewsCount": 72,
+    "phone": "+1-503-555-1151",
+    "website": "https://www.northstar-dovetail-bistro-152.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 152
+  },
+  {
+    "placeId": "plc_0153",
+    "title": "Orchard Ivy Mobile Bar",
+    "address": "6637 Irving Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Bar service",
+    "totalScore": 4.7,
+    "reviewsCount": 109,
+    "phone": "+1-503-555-1152",
+    "website": "https://www.orchard-ivy-mobile-bar-153.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 153
+  },
+  {
+    "placeId": "plc_0154",
+    "title": "Pine Northstar Kitchen",
+    "address": "6680 Johnson St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Mobile caterer",
+    "totalScore": 3.8,
+    "reviewsCount": 146,
+    "phone": null,
+    "website": "https://www.pine-northstar-kitchen-154.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 154
+  },
+  {
+    "placeId": "plc_0155",
+    "title": "Quartz Spruce Catering",
+    "address": "6723 Killingsworth Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Caterer",
+    "totalScore": 4.2,
+    "reviewsCount": 183,
+    "phone": "+1-503-555-1154",
+    "website": "https://www.quartz-spruce-catering-155.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 155
+  },
+  {
+    "placeId": "plc_0156",
+    "title": "River Amber Floral Studio",
+    "address": "6766 Lovejoy Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Florist",
+    "totalScore": 4.6,
+    "reviewsCount": 220,
+    "phone": "+1-503-555-1155",
+    "website": "https://www.river-amber-floral-studio-156.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 156
+  },
+  {
+    "placeId": "plc_0157",
+    "title": "Spruce Fern Party Rentals",
+    "address": "6809 Alder St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Party equipment rental",
+    "totalScore": 3.7,
+    "reviewsCount": 257,
+    "phone": "+1-503-555-1156",
+    "website": null,
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 157
+  },
+  {
+    "placeId": "plc_0158",
+    "title": "Thistle Kindred Weddings",
+    "address": "6852 Belmont Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Wedding service",
+    "totalScore": 4.1,
+    "reviewsCount": 18,
+    "phone": "+1-503-555-1157",
+    "website": "https://www.thistle-kindred-weddings-158.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 158
+  },
+  {
+    "placeId": "plc_0159",
+    "title": "Union Pine Events",
+    "address": "6895 Cedar Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Event planner",
+    "totalScore": 4.5,
+    "reviewsCount": 55,
+    "phone": "+1-503-555-1158",
+    "website": "https://www.union-pine-events-159.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 159
+  },
+  {
+    "placeId": "plc_0160",
+    "title": "Velvet Union Meeting Hall",
+    "address": "6938 Division St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Conference center",
+    "totalScore": 4.9,
+    "reviewsCount": 92,
+    "phone": "+1-503-555-1159",
+    "website": "https://www.velvet-union-meeting-hall-160.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 160
+  },
+  {
+    "placeId": "plc_0161",
+    "title": "Willow Cedar Bistro",
+    "address": "6981 Everett Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Restaurant",
+    "totalScore": 4.0,
+    "reviewsCount": 129,
+    "phone": "+1-503-555-1160",
+    "website": "https://www.willow-cedar-bistro-161.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 161
+  },
+  {
+    "placeId": "plc_0162",
+    "title": "Amber Harbor Mobile Bar",
+    "address": "7024 Fremont Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Bar service",
+    "totalScore": 4.4,
+    "reviewsCount": 166,
+    "phone": "+1-503-555-1161",
+    "website": "https://www.amber-harbor-mobile-bar-162.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 162
+  },
+  {
+    "placeId": "plc_0163",
+    "title": "Bluebird Meadow Kitchen",
+    "address": "7067 Glisan St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.8,
+    "reviewsCount": 203,
+    "phone": null,
+    "website": "https://www.bluebird-meadow-kitchen-163.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 163
+  },
+  {
+    "placeId": "plc_0164",
+    "title": "Cedar River Catering",
+    "address": "7110 Hawthorne Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Caterer",
+    "totalScore": 3.9,
+    "reviewsCount": 240,
+    "phone": "+1-503-555-1163",
+    "website": "https://www.cedar-river-catering-164.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 164
+  },
+  {
+    "placeId": "plc_0165",
+    "title": "Dovetail Willow Floral Studio",
+    "address": "7153 Irving Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Florist",
+    "totalScore": 4.3,
+    "reviewsCount": 277,
+    "phone": "+1-503-555-1164",
+    "website": "https://www.dovetail-willow-floral-studio-165.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 165
+  },
+  {
+    "placeId": "plc_0166",
+    "title": "Ember Ember Party Rentals",
+    "address": "7196 Johnson St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.7,
+    "reviewsCount": 38,
+    "phone": "+1-503-555-1165",
+    "website": "https://www.ember-ember-party-rentals-166.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 166
+  },
+  {
+    "placeId": "plc_0167",
+    "title": "Fern Juniper Weddings",
+    "address": "7239 Killingsworth Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Wedding service",
+    "totalScore": 3.8,
+    "reviewsCount": 75,
+    "phone": "+1-503-555-1166",
+    "website": "https://www.fern-juniper-weddings-167.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 167
+  },
+  {
+    "placeId": "plc_0168",
+    "title": "Golden Orchard Events",
+    "address": "7282 Lovejoy Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Event planner",
+    "totalScore": 4.2,
+    "reviewsCount": 112,
+    "phone": "+1-503-555-1167",
+    "website": "https://www.golden-orchard-events-168.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 168
+  },
+  {
+    "placeId": "plc_0169",
+    "title": "Harbor Thistle Meeting Hall",
+    "address": "7325 Alder St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Conference center",
+    "totalScore": 4.6,
+    "reviewsCount": 149,
+    "phone": "+1-503-555-1168",
+    "website": "https://www.harbor-thistle-meeting-hall-169.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 169
+  },
+  {
+    "placeId": "plc_0170",
+    "title": "Ivy Bluebird Bistro",
+    "address": "7368 Belmont Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Restaurant",
+    "totalScore": 3.7,
+    "reviewsCount": 186,
+    "phone": "+1-503-555-1169",
+    "website": null,
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 170
+  },
+  {
+    "placeId": "plc_0171",
+    "title": "Juniper Golden Mobile Bar",
+    "address": "7411 Cedar Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Bar service",
+    "totalScore": 4.1,
+    "reviewsCount": 223,
+    "phone": "+1-503-555-1170",
+    "website": "https://www.juniper-golden-mobile-bar-171.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 171
+  },
+  {
+    "placeId": "plc_0172",
+    "title": "Kindred Lantern Kitchen",
+    "address": "7454 Division St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.5,
+    "reviewsCount": 260,
+    "phone": null,
+    "website": "https://www.kindred-lantern-kitchen-172.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 172
+  },
+  {
+    "placeId": "plc_0173",
+    "title": "Lantern Quartz Catering",
+    "address": "7497 Everett Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Caterer",
+    "totalScore": 4.9,
+    "reviewsCount": 21,
+    "phone": "+1-503-555-1172",
+    "website": "https://www.lantern-quartz-catering-173.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 173
+  },
+  {
+    "placeId": "plc_0174",
+    "title": "Meadow Velvet Floral Studio",
+    "address": "7540 Fremont Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Florist",
+    "totalScore": 4.0,
+    "reviewsCount": 58,
+    "phone": "+1-503-555-1173",
+    "website": "https://www.meadow-velvet-floral-studio-174.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 174
+  },
+  {
+    "placeId": "plc_0175",
+    "title": "Northstar Dovetail Party Rentals",
+    "address": "7583 Glisan St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.4,
+    "reviewsCount": 95,
+    "phone": "+1-503-555-1174",
+    "website": "https://www.northstar-dovetail-party-rentals-175.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 175
+  },
+  {
+    "placeId": "plc_0176",
+    "title": "Orchard Ivy Weddings",
+    "address": "7626 Hawthorne Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Wedding service",
+    "totalScore": 4.8,
+    "reviewsCount": 132,
+    "phone": "+1-503-555-1175",
+    "website": "https://www.orchard-ivy-weddings-176.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 176
+  },
+  {
+    "placeId": "plc_0177",
+    "title": "Pine Northstar Events",
+    "address": "7669 Irving Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Event planner",
+    "totalScore": 3.9,
+    "reviewsCount": 169,
+    "phone": "+1-503-555-1176",
+    "website": "https://www.pine-northstar-events-177.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 177
+  },
+  {
+    "placeId": "plc_0178",
+    "title": "Quartz Spruce Meeting Hall",
+    "address": "7712 Johnson St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Conference center",
+    "totalScore": 4.3,
+    "reviewsCount": 206,
+    "phone": "+1-503-555-1177",
+    "website": "https://www.quartz-spruce-meeting-hall-178.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 178
+  },
+  {
+    "placeId": "plc_0179",
+    "title": "River Amber Bistro",
+    "address": "7755 Killingsworth Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 243,
+    "phone": "+1-503-555-1178",
+    "website": "https://www.river-amber-bistro-179.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 179
+  },
+  {
+    "placeId": "plc_0180",
+    "title": "Spruce Fern Mobile Bar",
+    "address": "7798 Lovejoy Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Bar service",
+    "totalScore": 3.8,
+    "reviewsCount": 280,
+    "phone": "+1-503-555-1179",
+    "website": "https://www.spruce-fern-mobile-bar-180.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 180
+  },
+  {
+    "placeId": "plc_0181",
+    "title": "Thistle Kindred Kitchen",
+    "address": "7841 Alder St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.2,
+    "reviewsCount": 41,
+    "phone": null,
+    "website": "https://www.thistle-kindred-kitchen-181.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 181
+  },
+  {
+    "placeId": "plc_0182",
+    "title": "Union Pine Catering",
+    "address": "7884 Belmont Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Caterer",
+    "totalScore": 4.6,
+    "reviewsCount": 78,
+    "phone": "+1-503-555-1181",
+    "website": "https://www.union-pine-catering-182.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 182
+  },
+  {
+    "placeId": "plc_0183",
+    "title": "Velvet Union Floral Studio",
+    "address": "7927 Cedar Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Florist",
+    "totalScore": 3.7,
+    "reviewsCount": 115,
+    "phone": "+1-503-555-1182",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 183
+  },
+  {
+    "placeId": "plc_0184",
+    "title": "Willow Cedar Party Rentals",
+    "address": "7970 Division St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.1,
+    "reviewsCount": 152,
+    "phone": "+1-503-555-1183",
+    "website": "https://www.willow-cedar-party-rentals-184.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 184
+  },
+  {
+    "placeId": "plc_0185",
+    "title": "Amber Harbor Weddings",
+    "address": "8013 Everett Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Wedding service",
+    "totalScore": 4.5,
+    "reviewsCount": 189,
+    "phone": "+1-503-555-1184",
+    "website": "https://www.amber-harbor-weddings-185.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 185
+  },
+  {
+    "placeId": "plc_0186",
+    "title": "Bluebird Meadow Events",
+    "address": "8056 Fremont Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Event planner",
+    "totalScore": 4.9,
+    "reviewsCount": 226,
+    "phone": "+1-503-555-1185",
+    "website": "https://www.bluebird-meadow-events-186.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 186
+  },
+  {
+    "placeId": "plc_0187",
+    "title": "Cedar River Meeting Hall",
+    "address": "8099 Glisan St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Conference center",
+    "totalScore": 4.0,
+    "reviewsCount": 263,
+    "phone": "+1-503-555-1186",
+    "website": "https://www.cedar-river-meeting-hall-187.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 187
+  },
+  {
+    "placeId": "plc_0188",
+    "title": "Dovetail Willow Bistro",
+    "address": "8142 Hawthorne Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 24,
+    "phone": "+1-503-555-1187",
+    "website": "https://www.dovetail-willow-bistro-188.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 188
+  },
+  {
+    "placeId": "plc_0189",
+    "title": "Ember Ember Mobile Bar",
+    "address": "8185 Irving Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Bar service",
+    "totalScore": 4.8,
+    "reviewsCount": 61,
+    "phone": "+1-503-555-1188",
+    "website": "https://www.ember-ember-mobile-bar-189.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 189
+  },
+  {
+    "placeId": "plc_0190",
+    "title": "Fern Juniper Kitchen",
+    "address": "8228 Johnson St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Mobile caterer",
+    "totalScore": 3.9,
+    "reviewsCount": 98,
+    "phone": null,
+    "website": "https://www.fern-juniper-kitchen-190.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 190
+  },
+  {
+    "placeId": "plc_0191",
+    "title": "Golden Orchard Catering",
+    "address": "8271 Killingsworth Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Caterer",
+    "totalScore": 4.3,
+    "reviewsCount": 135,
+    "phone": "+1-503-555-1190",
+    "website": "https://www.golden-orchard-catering-191.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 191
+  },
+  {
+    "placeId": "plc_0192",
+    "title": "Harbor Thistle Floral Studio",
+    "address": "8314 Lovejoy Blvd, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Florist",
+    "totalScore": 4.7,
+    "reviewsCount": 172,
+    "phone": "+1-503-555-1191",
+    "website": "https://www.harbor-thistle-floral-studio-192.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 192
+  },
+  {
+    "placeId": "plc_0193",
+    "title": "Ivy Bluebird Party Rentals",
+    "address": "8357 Alder St, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Party equipment rental",
+    "totalScore": 3.8,
+    "reviewsCount": 209,
+    "phone": "+1-503-555-1192",
+    "website": "https://www.ivy-bluebird-party-rentals-193.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 193
+  },
+  {
+    "placeId": "plc_0194",
+    "title": "Juniper Golden Weddings",
+    "address": "8400 Belmont Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Wedding service",
+    "totalScore": 4.2,
+    "reviewsCount": 246,
+    "phone": "+1-503-555-1193",
+    "website": "https://www.juniper-golden-weddings-194.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 194
+  },
+  {
+    "placeId": "plc_0195",
+    "title": "Kindred Lantern Events",
+    "address": "8443 Cedar Blvd, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Event planner",
+    "totalScore": 4.6,
+    "reviewsCount": 7,
+    "phone": "+1-503-555-1194",
+    "website": "https://www.kindred-lantern-events-195.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 195
+  },
+  {
+    "placeId": "plc_0196",
+    "title": "Lantern Quartz Meeting Hall",
+    "address": "8486 Division St, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Conference center",
+    "totalScore": 3.7,
+    "reviewsCount": 44,
+    "phone": "+1-503-555-1195",
+    "website": null,
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 196
+  },
+  {
+    "placeId": "plc_0197",
+    "title": "Meadow Velvet Bistro",
+    "address": "8529 Everett Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Restaurant",
+    "totalScore": 4.1,
+    "reviewsCount": 81,
+    "phone": "+1-503-555-1196",
+    "website": "https://www.meadow-velvet-bistro-197.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 197
+  },
+  {
+    "placeId": "plc_0198",
+    "title": "Northstar Dovetail Mobile Bar",
+    "address": "8572 Fremont Blvd, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Bar service",
+    "totalScore": 4.5,
+    "reviewsCount": 118,
+    "phone": "+1-503-555-1197",
+    "website": "https://www.northstar-dovetail-mobile-bar-198.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 198
+  },
+  {
+    "placeId": "plc_0199",
+    "title": "Orchard Ivy Kitchen",
+    "address": "8615 Glisan St, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.9,
+    "reviewsCount": 155,
+    "phone": null,
+    "website": "https://www.orchard-ivy-kitchen-199.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 199
+  },
+  {
+    "placeId": "plc_0200",
+    "title": "Pine Northstar Catering",
+    "address": "8658 Hawthorne Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Caterer",
+    "totalScore": 4.0,
+    "reviewsCount": 192,
+    "phone": "+1-503-555-1199",
+    "website": "https://www.pine-northstar-catering-200.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 200
+  },
+  {
+    "placeId": "plc_0201",
+    "title": "Quartz Spruce Floral Studio",
+    "address": "8701 Irving Blvd, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Florist",
+    "totalScore": 4.4,
+    "reviewsCount": 229,
+    "phone": "+1-503-555-1200",
+    "website": "https://www.quartz-spruce-floral-studio-201.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 201
+  },
+  {
+    "placeId": "plc_0202",
+    "title": "River Amber Party Rentals",
+    "address": "8744 Johnson St, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.8,
+    "reviewsCount": 266,
+    "phone": "+1-503-555-1201",
+    "website": "https://www.river-amber-party-rentals-202.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 202
+  },
+  {
+    "placeId": "plc_0203",
+    "title": "Spruce Fern Weddings",
+    "address": "8787 Killingsworth Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Wedding service",
+    "totalScore": 3.9,
+    "reviewsCount": 27,
+    "phone": "+1-503-555-1202",
+    "website": "https://www.spruce-fern-weddings-203.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 203
+  },
+  {
+    "placeId": "plc_0204",
+    "title": "Thistle Kindred Events",
+    "address": "8830 Lovejoy Blvd, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Event planner",
+    "totalScore": 4.3,
+    "reviewsCount": 64,
+    "phone": "+1-503-555-1203",
+    "website": "https://www.thistle-kindred-events-204.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 204
+  },
+  {
+    "placeId": "plc_0205",
+    "title": "Union Pine Meeting Hall",
+    "address": "8873 Alder St, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Conference center",
+    "totalScore": 4.7,
+    "reviewsCount": 101,
+    "phone": "+1-503-555-1204",
+    "website": "https://www.union-pine-meeting-hall-205.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 205
+  },
+  {
+    "placeId": "plc_0206",
+    "title": "Velvet Union Bistro",
+    "address": "126 Belmont Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Restaurant",
+    "totalScore": 3.8,
+    "reviewsCount": 138,
+    "phone": "+1-503-555-1205",
+    "website": "https://www.velvet-union-bistro-206.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 206
+  },
+  {
+    "placeId": "plc_0207",
+    "title": "Willow Cedar Mobile Bar",
+    "address": "169 Cedar Blvd, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Bar service",
+    "totalScore": 4.2,
+    "reviewsCount": 175,
+    "phone": "+1-503-555-1206",
+    "website": "https://www.willow-cedar-mobile-bar-207.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 207
+  },
+  {
+    "placeId": "plc_0208",
+    "title": "Amber Harbor Kitchen",
+    "address": "212 Division St, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.6,
+    "reviewsCount": 212,
+    "phone": null,
+    "website": "https://www.amber-harbor-kitchen-208.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 208
+  },
+  {
+    "placeId": "plc_0209",
+    "title": "Bluebird Meadow Catering",
+    "address": "255 Everett Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Caterer",
+    "totalScore": 3.7,
+    "reviewsCount": 249,
+    "phone": "+1-503-555-1208",
+    "website": null,
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 209
+  },
+  {
+    "placeId": "plc_0210",
+    "title": "Cedar River Floral Studio",
+    "address": "298 Fremont Blvd, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Florist",
+    "totalScore": 4.1,
+    "reviewsCount": 10,
+    "phone": "+1-503-555-1209",
+    "website": "https://www.cedar-river-floral-studio-210.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 210
+  },
+  {
+    "placeId": "plc_0211",
+    "title": "Dovetail Willow Party Rentals",
+    "address": "341 Glisan St, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.5,
+    "reviewsCount": 47,
+    "phone": "+1-503-555-1210",
+    "website": "https://www.dovetail-willow-party-rentals-211.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 211
+  },
+  {
+    "placeId": "plc_0212",
+    "title": "Ember Ember Weddings",
+    "address": "384 Hawthorne Ave, Vancouver, WA 98660",
+    "city": "Vancouver",
+    "state": "WA",
+    "postalCode": "98660",
+    "categoryName": "Wedding service",
+    "totalScore": 4.9,
+    "reviewsCount": 84,
+    "phone": "+1-503-555-1211",
+    "website": "https://www.ember-ember-weddings-212.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 212
+  },
+  {
+    "placeId": "plc_0213",
+    "title": "Fern Juniper Events",
+    "address": "427 Irving Blvd, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Event planner",
+    "totalScore": 4.0,
+    "reviewsCount": 121,
+    "phone": "+1-503-555-1212",
+    "website": "https://www.fern-juniper-events-213.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 213
+  },
+  {
+    "placeId": "plc_0214",
+    "title": "Golden Orchard Meeting Hall",
+    "address": "470 Johnson St, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Conference center",
+    "totalScore": 4.4,
+    "reviewsCount": 158,
+    "phone": "+1-503-555-1213",
+    "website": "https://www.golden-orchard-meeting-hall-214.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 214
+  },
+  {
+    "placeId": "plc_0215",
+    "title": "Harbor Thistle Bistro",
+    "address": "513 Killingsworth Ave, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Restaurant",
+    "totalScore": 4.8,
+    "reviewsCount": 195,
+    "phone": "+1-503-555-1214",
+    "website": "https://www.harbor-thistle-bistro-215.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 215
+  },
+  {
+    "placeId": "plc_0216",
+    "title": "Ivy Bluebird Mobile Bar",
+    "address": "556 Lovejoy Blvd, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Bar service",
+    "totalScore": 3.9,
+    "reviewsCount": 232,
+    "phone": "+1-503-555-1215",
+    "website": "https://www.ivy-bluebird-mobile-bar-216.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 216
+  },
+  {
+    "placeId": "plc_0217",
+    "title": "Juniper Golden Kitchen",
+    "address": "599 Alder St, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.3,
+    "reviewsCount": 269,
+    "phone": null,
+    "website": "https://www.juniper-golden-kitchen-217.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 217
+  },
+  {
+    "placeId": "plc_0218",
+    "title": "Kindred Lantern Catering",
+    "address": "642 Belmont Ave, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Caterer",
+    "totalScore": 4.7,
+    "reviewsCount": 30,
+    "phone": "+1-503-555-1217",
+    "website": "https://www.kindred-lantern-catering-218.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 218
+  },
+  {
+    "placeId": "plc_0219",
+    "title": "Lantern Quartz Floral Studio",
+    "address": "685 Cedar Blvd, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Florist",
+    "totalScore": 3.8,
+    "reviewsCount": 67,
+    "phone": "+1-503-555-1218",
+    "website": "https://www.lantern-quartz-floral-studio-219.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 219
+  },
+  {
+    "placeId": "plc_0220",
+    "title": "Meadow Velvet Party Rentals",
+    "address": "728 Division St, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.2,
+    "reviewsCount": 104,
+    "phone": "+1-503-555-1219",
+    "website": "https://www.meadow-velvet-party-rentals-220.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 220
+  },
+  {
+    "placeId": "plc_0221",
+    "title": "Northstar Dovetail Weddings",
+    "address": "771 Everett Ave, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Wedding service",
+    "totalScore": 4.6,
+    "reviewsCount": 141,
+    "phone": "+1-503-555-1220",
+    "website": "https://www.northstar-dovetail-weddings-221.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 221
+  },
+  {
+    "placeId": "plc_0222",
+    "title": "Orchard Ivy Events",
+    "address": "814 Fremont Blvd, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Event planner",
+    "totalScore": 3.7,
+    "reviewsCount": 178,
+    "phone": "+1-503-555-1221",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 222
+  },
+  {
+    "placeId": "plc_0223",
+    "title": "Pine Northstar Meeting Hall",
+    "address": "857 Glisan St, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Conference center",
+    "totalScore": 4.1,
+    "reviewsCount": 215,
+    "phone": "+1-503-555-1222",
+    "website": "https://www.pine-northstar-meeting-hall-223.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 223
+  },
+  {
+    "placeId": "plc_0224",
+    "title": "Quartz Spruce Bistro",
+    "address": "900 Hawthorne Ave, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 252,
+    "phone": "+1-503-555-1223",
+    "website": "https://www.quartz-spruce-bistro-224.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 224
+  },
+  {
+    "placeId": "plc_0225",
+    "title": "River Amber Mobile Bar",
+    "address": "943 Irving Blvd, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Bar service",
+    "totalScore": 4.9,
+    "reviewsCount": 13,
+    "phone": "+1-503-555-1224",
+    "website": "https://www.river-amber-mobile-bar-225.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 225
+  },
+  {
+    "placeId": "plc_0226",
+    "title": "Spruce Fern Kitchen",
+    "address": "986 Johnson St, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.0,
+    "reviewsCount": 50,
+    "phone": null,
+    "website": "https://www.spruce-fern-kitchen-226.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 226
+  },
+  {
+    "placeId": "plc_0227",
+    "title": "Thistle Kindred Catering",
+    "address": "1029 Killingsworth Ave, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Caterer",
+    "totalScore": 4.4,
+    "reviewsCount": 87,
+    "phone": "+1-503-555-1226",
+    "website": "https://www.thistle-kindred-catering-227.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 227
+  },
+  {
+    "placeId": "plc_0228",
+    "title": "Union Pine Floral Studio",
+    "address": "1072 Lovejoy Blvd, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Florist",
+    "totalScore": 4.8,
+    "reviewsCount": 124,
+    "phone": "+1-503-555-1227",
+    "website": "https://www.union-pine-floral-studio-228.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 228
+  },
+  {
+    "placeId": "plc_0229",
+    "title": "Velvet Union Party Rentals",
+    "address": "1115 Alder St, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Party equipment rental",
+    "totalScore": 3.9,
+    "reviewsCount": 161,
+    "phone": "+1-503-555-1228",
+    "website": "https://www.velvet-union-party-rentals-229.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 229
+  },
+  {
+    "placeId": "plc_0230",
+    "title": "Willow Cedar Weddings",
+    "address": "1158 Belmont Ave, Salem, OR 97301",
+    "city": "Salem",
+    "state": "OR",
+    "postalCode": "97301",
+    "categoryName": "Wedding service",
+    "totalScore": 4.3,
+    "reviewsCount": 198,
+    "phone": "+1-503-555-1229",
+    "website": "https://www.willow-cedar-weddings-230.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 230
+  },
+  {
+    "placeId": "plc_alt_001",
+    "title": "ROSE CITY RENTALS.",
+    "address": "273 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.0,
+    "reviewsCount": 157,
+    "phone": "+1-503-555-1004",
+    "website": "https://www.rose-city-rentals.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 231
+  },
+  {
+    "placeId": "plc_alt_002",
+    "title": "EVERGREEN EVENT CO!",
+    "address": "574 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.2,
+    "reviewsCount": 133,
+    "phone": "+1-503-555-1011",
+    "website": "https://www.evergreen-event-co.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 232
+  },
+  {
+    "placeId": "plc_alt_003",
+    "title": "SPRUCE FERN KITCHEN.",
+    "address": "875 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.4,
+    "reviewsCount": 123,
+    "phone": null,
+    "website": "https://www.spruce-fern-kitchen-19.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 233
+  },
+  {
+    "placeId": "plc_alt_004",
+    "title": "CEDAR RIVER BISTRO!",
+    "address": "1176 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 99,
+    "phone": "+1-503-555-1025",
+    "website": "https://www.cedar-river-bistro-26.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 234
+  },
+  {
+    "placeId": "plc_alt_005",
+    "title": "JUNIPER GOLDEN EVENTS.",
+    "address": "1477 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.8,
+    "reviewsCount": 89,
+    "phone": "+1-503-555-1032",
+    "website": "https://www.juniper-golden-events-33.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 235
+  },
+  {
+    "placeId": "plc_alt_006",
+    "title": "QUARTZ SPRUCE PARTY RENTALS!",
+    "address": "1778 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 3.7,
+    "reviewsCount": 65,
+    "phone": "+1-503-555-1039",
+    "website": null,
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 236
+  },
+  {
+    "placeId": "plc_alt_007",
+    "title": "AMBER HARBOR CATERING.",
+    "address": "2079 Killingsworth Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 3.9,
+    "reviewsCount": 55,
+    "phone": "+1-503-555-1046",
+    "website": "https://www.amber-harbor-catering-47.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 237
+  },
+  {
+    "placeId": "plc_alt_008",
+    "title": "HARBOR THISTLE MOBILE BAR!",
+    "address": "2380 Fremont Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.1,
+    "reviewsCount": 31,
+    "phone": "+1-503-555-1053",
+    "website": "https://www.harbor-thistle-mobile-bar-54.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 238
+  },
+  {
+    "placeId": "plc_alt_009",
+    "title": "ORCHARD IVY MEETING HALL.",
+    "address": "2681 Alder St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.3,
+    "reviewsCount": 21,
+    "phone": "+1-503-555-1060",
+    "website": "https://www.orchard-ivy-meeting-hall-61.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 239
+  },
+  {
+    "placeId": "plc_alt_010",
+    "title": "VELVET UNION WEDDINGS!",
+    "address": "2982 Hawthorne Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 4.5,
+    "reviewsCount": 273,
+    "phone": "+1-503-555-1067",
+    "website": "https://www.velvet-union-weddings-68.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 240
+  },
+  {
+    "placeId": "plc_alt_011",
+    "title": "FERN JUNIPER FLORAL STUDIO.",
+    "address": "3283 Cedar Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 4.7,
+    "reviewsCount": 263,
+    "phone": "+1-503-555-1074",
+    "website": "https://www.fern-juniper-floral-studio-75.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 241
+  },
+  {
+    "placeId": "plc_alt_012",
+    "title": "MEADOW VELVET KITCHEN!",
+    "address": "3584 Johnson St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.9,
+    "reviewsCount": 239,
+    "phone": null,
+    "website": "https://www.meadow-velvet-kitchen-82.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 242
+  },
+  {
+    "placeId": "plc_alt_013",
+    "title": "THISTLE KINDRED BISTRO.",
+    "address": "3885 Everett Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Restaurant",
+    "totalScore": 3.8,
+    "reviewsCount": 229,
+    "phone": "+1-503-555-1088",
+    "website": "https://www.thistle-kindred-bistro-89.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 243
+  },
+  {
+    "placeId": "plc_alt_014",
+    "title": "DOVETAIL WILLOW EVENTS!",
+    "address": "4186 Lovejoy Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Event planner",
+    "totalScore": 4.0,
+    "reviewsCount": 205,
+    "phone": "+1-503-555-1095",
+    "website": "https://www.dovetail-willow-events-96.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 244
+  },
+  {
+    "placeId": "plc_alt_015",
+    "title": "KINDRED LANTERN PARTY RENTALS.",
+    "address": "4487 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.2,
+    "reviewsCount": 195,
+    "phone": "+1-503-555-1102",
+    "website": "https://www.kindred-lantern-party-rentals-103.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 245
+  },
+  {
+    "placeId": "plc_alt_016",
+    "title": "RIVER AMBER CATERING!",
+    "address": "4788 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Caterer",
+    "totalScore": 4.4,
+    "reviewsCount": 171,
+    "phone": "+1-503-555-1109",
+    "website": "https://www.river-amber-catering-110.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 246
+  },
+  {
+    "placeId": "plc_alt_017",
+    "title": "BLUEBIRD MEADOW MOBILE BAR.",
+    "address": "5089 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.6,
+    "reviewsCount": 161,
+    "phone": "+1-503-555-1116",
+    "website": "https://www.bluebird-meadow-mobile-bar-117.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 247
+  },
+  {
+    "placeId": "plc_alt_018",
+    "title": "IVY BLUEBIRD MEETING HALL!",
+    "address": "5390 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Conference center",
+    "totalScore": 4.8,
+    "reviewsCount": 137,
+    "phone": "+1-503-555-1123",
+    "website": "https://www.ivy-bluebird-meeting-hall-124.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 248
+  },
+  {
+    "placeId": "plc_alt_019",
+    "title": "PINE NORTHSTAR WEDDINGS.",
+    "address": "5691 Killingsworth Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Wedding service",
+    "totalScore": 3.7,
+    "reviewsCount": 127,
+    "phone": "+1-503-555-1130",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 249
+  },
+  {
+    "placeId": "plc_alt_020",
+    "title": "WILLOW CEDAR FLORAL STUDIO!",
+    "address": "5992 Fremont Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Florist",
+    "totalScore": 3.9,
+    "reviewsCount": 103,
+    "phone": "+1-503-555-1137",
+    "website": "https://www.willow-cedar-floral-studio-138.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 250
+  },
+  {
+    "placeId": "plc_alt_021",
+    "title": "GOLDEN ORCHARD KITCHEN.",
+    "address": "6293 Alder St, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.1,
+    "reviewsCount": 93,
+    "phone": null,
+    "website": "https://www.golden-orchard-kitchen-145.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 251
+  },
+  {
+    "placeId": "plc_alt_022",
+    "title": "NORTHSTAR DOVETAIL BISTRO!",
+    "address": "6594 Hawthorne Ave, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Restaurant",
+    "totalScore": 4.3,
+    "reviewsCount": 69,
+    "phone": "+1-503-555-1151",
+    "website": "https://www.northstar-dovetail-bistro-152.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 252
+  },
+  {
+    "placeId": "plc_alt_023",
+    "title": "UNION PINE EVENTS.",
+    "address": "6895 Cedar Blvd, Beaverton, OR 97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "postalCode": "97005",
+    "categoryName": "Event planner",
+    "totalScore": 4.5,
+    "reviewsCount": 59,
+    "phone": "+1-503-555-1158",
+    "website": "https://www.union-pine-events-159.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 253
+  },
+  {
+    "placeId": "plc_alt_024",
+    "title": "EMBER EMBER PARTY RENTALS!",
+    "address": "7196 Johnson St, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Party equipment rental",
+    "totalScore": 4.7,
+    "reviewsCount": 35,
+    "phone": "+1-503-555-1165",
+    "website": "https://www.ember-ember-party-rentals-166.example/",
+    "searchTags": [
+      "event rentals"
+    ],
+    "rawRank": 254
+  },
+  {
+    "placeId": "plc_alt_025",
+    "title": "LANTERN QUARTZ CATERING.",
+    "address": "7497 Everett Ave, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Caterer",
+    "totalScore": 4.9,
+    "reviewsCount": 25,
+    "phone": "+1-503-555-1172",
+    "website": "https://www.lantern-quartz-catering-173.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 255
+  },
+  {
+    "placeId": "plc_alt_026",
+    "title": "SPRUCE FERN MOBILE BAR!",
+    "address": "7798 Lovejoy Blvd, Gresham, OR 97030",
+    "city": "Gresham",
+    "state": "OR",
+    "postalCode": "97030",
+    "categoryName": "Bar service",
+    "totalScore": 3.8,
+    "reviewsCount": 277,
+    "phone": "+1-503-555-1179",
+    "website": "https://www.spruce-fern-mobile-bar-180.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 256
+  },
+  {
+    "placeId": "plc_alt_027",
+    "title": "JUNIPER MOBILE BAR.",
+    "address": "359 Glisan St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Bar service",
+    "totalScore": 4.8,
+    "reviewsCount": 231,
+    "phone": "+1-503-555-1006",
+    "website": "https://www.juniper-mobile-bar.example/",
+    "searchTags": [
+      "mobile bar service"
+    ],
+    "rawRank": 257
+  },
+  {
+    "placeId": "plc_alt_028",
+    "title": "NORTHSTAR DOVETAIL WEDDINGS!",
+    "address": "660 Belmont Ave, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Wedding service",
+    "totalScore": 3.7,
+    "reviewsCount": 207,
+    "phone": "+1-503-555-1013",
+    "website": null,
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 258
+  },
+  {
+    "placeId": "plc_alt_029",
+    "title": "UNION PINE FLORAL STUDIO.",
+    "address": "961 Irving Blvd, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Florist",
+    "totalScore": 3.9,
+    "reviewsCount": 197,
+    "phone": "+1-503-555-1020",
+    "website": "https://www.union-pine-floral-studio-21.example/",
+    "searchTags": [
+      "event planner"
+    ],
+    "rawRank": 259
+  },
+  {
+    "placeId": "plc_alt_030",
+    "title": "EMBER EMBER KITCHEN!",
+    "address": "1262 Division St, Portland, OR 97205",
+    "city": "Portland",
+    "state": "OR",
+    "postalCode": "97205",
+    "categoryName": "Mobile caterer",
+    "totalScore": 4.1,
+    "reviewsCount": 173,
+    "phone": null,
+    "website": "https://www.ember-ember-kitchen-28.example/",
+    "searchTags": [
+      "catering service"
+    ],
+    "rawRank": 260
+  }
+]

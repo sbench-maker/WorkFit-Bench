@@ -1,0 +1,77 @@
+{
+  "policyVersion": "SM-DESK-2026-09",
+  "snapshotTime": "2026-09-10T08:00:00Z",
+  "supportedChainIds": [
+    "56",
+    "CT_501"
+  ],
+  "buyQueue": {
+    "directions": [
+      "buy"
+    ],
+    "statuses": [
+      "active",
+      "valid"
+    ],
+    "maxAgeMinutes": 360,
+    "minSmartMoneyCount": 5,
+    "maxExitRateExclusive": 70,
+    "minTotalTokenValueUsd": 7500,
+    "requiredFields": [
+      "signalId",
+      "chainId",
+      "contractAddress",
+      "ticker",
+      "alertPrice",
+      "currentPrice",
+      "maxGain",
+      "exitRate",
+      "smartMoneyCount",
+      "signalTriggerTime"
+    ],
+    "ranking": {
+      "formula": "smartMoneyCount*12 + currentReturnPct*0.30 + maxGainPct*0.20 - exitRate*0.40 - ageHours*2",
+      "tieBreak": "signalId ascending",
+      "topN": 12
+    }
+  },
+  "sellAlerts": {
+    "directions": [
+      "sell"
+    ],
+    "statuses": [
+      "active",
+      "valid"
+    ],
+    "maxAgeMinutes": 240,
+    "minSmartMoneyCount": 4,
+    "mustMatchOpenPositionOn": [
+      "chainId",
+      "contractAddress"
+    ],
+    "requiredFields": [
+      "signalId",
+      "chainId",
+      "contractAddress",
+      "ticker",
+      "alertPrice",
+      "currentPrice",
+      "maxGain",
+      "exitRate",
+      "smartMoneyCount",
+      "signalTriggerTime"
+    ],
+    "ranking": [
+      "smartMoneyCount descending",
+      "exitRate descending",
+      "signalTriggerTime descending",
+      "signalId ascending"
+    ]
+  },
+  "dataQualityReview": "If a signal passes all non-data eligibility gates but a required field is missing or invalid, exclude it from the actionable queue and report the signal ID and missing field; do not infer the value.",
+  "display": {
+    "maxGain": "percentage points (source maxGain is a decimal fraction)",
+    "currentReturn": "percentage points computed from alertPrice and currentPrice",
+    "prices": "USD"
+  }
+}

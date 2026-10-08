@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "scoring_mode": "completion_only",
+  "criteria": [
+    {
+      "id": "completion__decomposition_and_recovery",
+      "title": "RFC decomposition and stalled-unit recovery",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "All twelve approved requirements have one accountable active owner with the correct repository scope and minimum risk; unaffected identities are preserved while the stalled worker is retired into three narrower successors.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_requirement_ownership_and_scope",
+        "test_stalled_worker_recovery_and_risk"
+      ]
+    },
+    {
+      "id": "completion__dag_and_merge_safety",
+      "title": "Dependency DAG and merge-queue safety",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "The active graph is complete and acyclic, declares every RFC prerequisite, and queues each unmerged unit only after dependencies, gates, and rebasing can be satisfied; merged and retired work are excluded.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_dependency_graph_is_acyclic_and_complete",
+        "test_merge_queue_respects_dependencies_and_readiness"
+      ]
+    },
+    {
+      "id": "completion__validation_and_release_gates",
+      "title": "Unit validation and release verification",
+      "evaluator": "rule",
+      "weight": 0,
+      "completion_check": true,
+      "description": "Every unit uses cataloged acceptance checks and honest six-stage gate states, every queued merge reruns the required eligible tests, and final verification covers all system suites plus the cohort-disable history rehearsal.",
+      "evidence_requirements": [
+        "Inspect the relevant submitted artifact or state and cite the exact file, section, record, or behavior.",
+        "Check every substantive clause in this delivery condition against the task and supplied data.",
+        "When rejecting a semantic equivalent, explain the substantive difference rather than a label or layout difference."
+      ],
+      "test_ids": [
+        "test_unit_acceptance_tests_and_gate_states",
+        "test_post_merge_and_final_verification"
+      ]
+    }
+  ],
+  "judge_score_scale": {
+    "min": 0,
+    "max": 10,
+    "allowed_scores": [
+      0,
+      10
+    ],
+    "anchors": {
+      "0": "The named delivery condition is absent, incorrect, or unusable.",
+      "10": "Every substantive clause of the named delivery condition is met by concrete evidence."
+    }
+  },
+  "completion_gate": {
+    "mode": "all_of",
+    "checks": [
+      {
+        "id": "completion__decomposition_and_recovery",
+        "title": "RFC decomposition and stalled-unit recovery",
+        "required_score": 10
+      },
+      {
+        "id": "completion__dag_and_merge_safety",
+        "title": "Dependency DAG and merge-queue safety",
+        "required_score": 10
+      },
+      {
+        "id": "completion__validation_and_release_gates",
+        "title": "Unit validation and release verification",
+        "required_score": 10
+      }
+    ],
+    "on_failure": "zero_final_score",
+    "on_success": "one_final_score",
+    "rationale": "Every task-specific delivery condition is required. No weighted quality points or partial credit are awarded."
+  }
+}

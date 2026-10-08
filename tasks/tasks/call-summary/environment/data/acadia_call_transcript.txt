@@ -1,0 +1,129 @@
+Call date: Tuesday, August 18, 2026
+Time zone: America/New_York
+Account: Acadia Lodging Group
+Meeting: RelayDesk pilot scoping and commercial follow-up
+
+00:00 Maya Chen (RelayDesk Account Executive): Thanks for making the time. I have an hour reserved.
+00:01 Elena Brooks (Acadia VP, Guest Operations): Great. I want to leave with a realistic pilot path, not a broad demo.
+00:01 Theo Martins (Acadia Director of IT): And I need crisp answers on Salesforce and data handling.
+00:02 Samir Patel (Acadia Strategic Procurement Manager): I am here for the commercial and contract dependencies.
+00:02 Maya: Understood. I will recap the workflow, then we can scope the pilot and owners.
+00:03 Elena: Today each hotel emails guest escalations to a shared inbox.
+00:03 Elena: The handoffs disappear when a shift changes.
+00:04 Elena: We need one queue with an owner, escalation timer, and property-level reporting.
+00:04 Maya: RelayDesk can route by property, issue type, and severity.
+00:05 Theo: Does the audit history retain reassignment and status changes?
+00:05 Maya: Yes, the activity log retains the prior value, new value, actor, and timestamp.
+00:06 Elena: That audit trail was the strongest part of last week's demo.
+00:06 Samir: Is export of that history included, or a services project?
+00:07 Maya: CSV export is included in Enterprise. Custom warehouse work would be separate.
+00:07 Theo: We only need the included export for the pilot.
+00:08 Elena: We operate 12 hotels, but the pilot should be smaller.
+00:08 Elena: I was thinking four properties.
+00:09 Samir: Four may spread the managers too thin.
+00:09 Elena: Fair point. Let's discuss the locations after the workflow.
+00:10 Maya: How many agents should I use for the subscription quote?
+00:10 Elena: My old planning sheet says 75.
+00:11 Samir: Please flag that as provisional. Contractors may be included in that number.
+00:11 Maya: I will not finalize the quote until you confirm.
+00:12 Theo: For identity, we require Okta SAML from day one.
+00:12 Maya: SAML is included in the Enterprise subscription.
+00:13 Theo: What about SCIM provisioning?
+00:13 Maya: I believe SAML and SCIM are both in the standard package.
+00:14 Maya: Let me verify SCIM rather than make that a commitment.
+00:14 Theo: Good. SCIM is useful later but it is not a pilot blocker.
+00:15 Elena: The pilot blocker is whether guest cases stay in the EU environment.
+00:15 Maya: Case records and knowledge articles can be hosted in the EU region on Enterprise.
+00:16 Theo: Do uploaded photos and PDFs follow the same path when OCR runs?
+00:16 Maya: I do not have the OCR subprocessor route in front of me.
+00:17 Theo: Then EU residency for OCR-processed attachments is still open.
+00:17 Maya: Agreed. I will confirm that separately.
+00:18 Elena: Until it is confirmed, we can pilot without attachment uploads.
+00:18 Theo: Correct. Do not summarize this as all Acadia data being approved for EU handling.
+00:19 Maya: I will distinguish confirmed case hosting from the open attachment path.
+00:19 Samir: Please include the security packet and subprocessor list with the follow-up.
+00:20 Maya: I can send the current security packet and subprocessor list this Friday.
+00:20 Samir: This Friday means August 21, correct?
+00:20 Maya: Correct, August 21.
+00:21 Theo: Let's move to Salesforce Service Cloud.
+00:21 Maya: The native connector syncs standard Case status and comments in both directions.
+00:22 Theo: We also store the hotel reservation reference in a custom Stay ID object.
+00:22 Theo: Can a resolved RelayDesk case write back to that custom object?
+00:23 Maya: That is probably covered by the connector.
+00:23 Theo: "Probably" is not enough for our technical sign-off.
+00:24 Maya: You're right. I am checking my implementation note now.
+00:24 Maya: Correction: only standard Case fields are documented in the package I have.
+00:25 Maya: Custom Stay ID write-back is an open question for our solutions team.
+00:25 Theo: Thank you. The standard Case sync is confirmed; custom-object write-back is not.
+00:26 Maya: I will send the connector matrix and confirm the Stay ID behavior.
+00:26 Theo: I can send you our field mapping by Thursday, August 20.
+00:27 Maya: That will help the solutions team answer precisely.
+00:27 Elena: Reporting needs to show first response and resolution time by hotel.
+00:28 Elena: We also want a view of cases open more than four business hours.
+00:28 Maya: Both can be configured as saved views for the pilot.
+00:29 Elena: Managers should only see their property, while my central team sees all pilot properties.
+00:29 Maya: Role and property filters support that access model.
+00:30 Theo: Is that configuration customer-administered?
+00:30 Maya: Yes. Our implementation team can guide the initial setup.
+00:31 Elena: We will need the guidance because hotel managers are in peak-season staffing.
+00:31 Samir: Keep assisted setup separate from subscription pricing.
+00:32 Maya: The working services estimate is $8,400, separate from subscription.
+00:32 Maya: It is an estimate pending the final pilot scope, not a fixed fee yet.
+00:33 Samir: Good. What is the subscription rate?
+00:33 Maya: Enterprise is $42 per agent per month, billed annually.
+00:34 Samir: No implementation services are bundled in that $42, correct?
+00:34 Maya: Correct. Subscription and services will be separate line items.
+00:35 Samir: BrightDesk's first-year offer is about 15 percent lower.
+00:35 Maya: What keeps RelayDesk in consideration?
+00:36 Elena: BrightDesk's property reporting was weaker, and its reassignment audit was hard to follow.
+00:36 Theo: Their Salesforce demo covered standard cases too, but the EU attachment story was also vague.
+00:37 Samir: Price matters, but auditability and a defensible data path matter more.
+00:37 Elena: Keep the BrightDesk comparison in our internal notes, not in the follow-up email.
+00:38 Maya: Understood. Competitive context stays internal.
+00:38 Samir: We have not selected a vendor, so do not imply preferred-vendor status.
+00:39 Maya: I will describe the evaluation as active and conditional.
+00:39 Theo: What did you learn on SCIM?
+00:40 Maya: I found the current packaging note. SAML is included; SCIM requires the Identity add-on.
+00:40 Maya: The add-on is not included in the $42 rate.
+00:41 Theo: That's fine for now. Leave SCIM out of the pilot quote rather than silently adding it.
+00:41 Samir: Please state that exclusion in the quote notes.
+00:42 Maya: Will do.
+00:42 Elena: I have now checked the staffing roster.
+00:43 Elena: The final count is 72 named agents, not 75; the three contractors will not use RelayDesk.
+00:43 Samir: Use 72 everywhere in the revised commercial materials.
+00:44 Maya: At $42 per agent per month, 72 agents is $36,288 annually.
+00:44 Samir: I confirm that arithmetic for subscription only.
+00:45 Elena: For the pilot, let's use three properties, not four.
+00:45 Elena: Harbor Point, Juniper House, and Lakeview Quay.
+00:46 Maya: Three named properties, with no attachments until the OCR route is confirmed.
+00:46 Theo: Yes, and use standard Salesforce Case sync in the pilot design.
+00:47 Elena: Custom Stay ID write-back can remain a validation item, but we need the answer before pilot launch.
+00:47 Maya: Understood.
+00:48 Samir: What can each of us commit to next?
+00:48 Maya: By Friday, August 21, I will send the revised 72-agent quote, security packet, subprocessor list, and connector matrix.
+00:49 Maya: I will also include the separate $8,400 services estimate, clearly marked as subject to final scope.
+00:49 Theo: I will send the Stay ID field mapping by Thursday, August 20.
+00:50 Elena: I will confirm the three hotel managers and their availability by Monday, August 24.
+00:50 Samir: If the security packet arrives Friday, I will return our DPA redlines by Monday, August 24.
+00:51 Maya: I still owe two answers: the OCR attachment route and custom Stay ID write-back.
+00:51 Theo: Both need to be resolved before launch, but they do not prevent reviewing the quote.
+00:52 Maya: Could we hold a technical workshop on Tuesday, August 25 at 2:00 p.m. Eastern?
+00:52 Theo: Hold it tentatively. It is not confirmed until we review the documents.
+00:53 Elena: Agreed. Please do not call it scheduled in the email.
+00:53 Maya: Tentative hold only.
+00:54 Elena: If the DPA path and technical answers work, our target pilot start is September 14.
+00:54 Theo: That date is conditional on the attachment route and Stay ID answer.
+00:55 Samir: It is a target, not a purchase commitment or procurement approval.
+00:55 Maya: I will make those dependencies explicit.
+00:56 Samir: Keep the CRM stage at Technical validation after this call.
+00:56 Elena: Yes. We have a path forward, but no vendor decision today.
+00:57 Maya: Let me recap: 72 agents, three properties, $42 monthly per agent billed annually, and services separate.
+00:57 Maya: Documents by August 21, your mapping August 20, manager confirmation and DPA redlines August 24.
+00:58 Maya: August 25 is tentative, and September 14 is a conditional pilot target.
+00:58 Theo: Plus the two open technical answers; then that is accurate.
+00:59 Elena: In the customer note, lead with the workflow outcomes and concrete next steps.
+00:59 Samir: And keep it concise. We do not need a transcript in email form.
+01:00 Maya: I will send a short recap from me to all three of you.
+01:00 Elena: Thank you.
+01:00 Theo: Thanks.
+01:00 Samir: Thanks, everyone.

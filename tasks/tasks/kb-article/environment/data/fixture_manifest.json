@@ -1,0 +1,39 @@
+{
+  "fictional": true,
+  "generated_deterministically": true,
+  "snapshot_date": "2026-09-09",
+  "files": {
+    "accounts.csv": {
+      "records": 40,
+      "complete": true
+    },
+    "support_tickets.jsonl": {
+      "records": 40,
+      "complete": true
+    },
+    "ticket_messages.jsonl": {
+      "records": 200,
+      "complete": true
+    },
+    "product_support_reference.json": {
+      "records": 1,
+      "complete": true
+    },
+    "project_issues.json": {
+      "records": 3,
+      "complete": true
+    },
+    "kb_catalog.json": {
+      "records": 5,
+      "complete": true
+    },
+    "publication_policy.md": {
+      "complete": true
+    }
+  },
+  "join_keys": [
+    "support_tickets.account_id -> accounts.account_id",
+    "ticket_messages.ticket_id -> support_tickets.ticket_id"
+  ],
+  "notes": "Exports are complete for the fictional snapshot; internal and public message visibility is preserved."
+}
